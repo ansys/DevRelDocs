@@ -17,7 +17,7 @@ Specifies the ResultRelativityType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`Absolute`](#ResultRelativityType.Absolute) |
 | [`Relative`](#ResultRelativityType.Relative) |
 

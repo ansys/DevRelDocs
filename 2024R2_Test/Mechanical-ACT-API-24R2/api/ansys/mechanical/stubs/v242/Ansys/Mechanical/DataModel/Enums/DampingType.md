@@ -17,7 +17,7 @@ Specifies the DampingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------- |
 | [`DampingVsFrequency`](#DampingType.DampingVsFrequency) |
 | [`DirectInput`](#DampingType.DirectInput) |
 

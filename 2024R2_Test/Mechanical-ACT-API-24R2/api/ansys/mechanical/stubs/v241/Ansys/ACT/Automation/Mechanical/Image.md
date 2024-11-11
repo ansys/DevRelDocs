@@ -17,7 +17,7 @@ Defines a Image.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Image.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Image.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#Image.AddImage)                               | Creates a new child Image.                                                        |
@@ -36,7 +36,7 @@ Defines a Image.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Image.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Image.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Image.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -51,7 +51,7 @@ Defines a Image.
 
 <a id="Image.Children"></a>
 
-### *property* Image.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Image.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -59,7 +59,7 @@ Gets the list of children.
 
 <a id="Image.Comments"></a>
 
-### *property* Image.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Image.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -67,7 +67,7 @@ Gets the list of associated comments.
 
 <a id="Image.DataModelObjectCategory"></a>
 
-### *property* Image.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Image.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -75,7 +75,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Image.Images"></a>
 
-### *property* Image.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Image.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -91,7 +91,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Image.Properties"></a>
 
-### *property* Image.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Image.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -99,7 +99,7 @@ Gets the list of properties for this object.
 
 <a id="Image.VisibleProperties"></a>
 
-### *property* Image.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Image.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -127,7 +127,7 @@ Creates a new child Comment.
 
 <a id="Image.AddImage"></a>
 
-### Image.AddImage(filePath: System.String)
+### Image.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -147,7 +147,7 @@ Copies all visible properties from this object to another.
 
 <a id="Image.CreateParameter"></a>
 
-### Image.CreateParameter(propName: System.String)
+### Image.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -171,7 +171,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Image.GetChildren"></a>
 
-### Image.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Image.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -179,7 +179,7 @@ Gets the list of children, filtered by type.
 
 <a id="Image.GetParameter"></a>
 
-### Image.GetParameter(propName: System.String)
+### Image.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -203,7 +203,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Image.PropertyByAPIName"></a>
 
-### Image.PropertyByAPIName(name: System.String)
+### Image.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -214,7 +214,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Image.PropertyByName"></a>
 
-### Image.PropertyByName(name: System.String)
+### Image.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -222,7 +222,7 @@ Get a property by its unique name.
 
 <a id="Image.RemoveParameter"></a>
 
-### Image.RemoveParameter(propName: System.String)
+### Image.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

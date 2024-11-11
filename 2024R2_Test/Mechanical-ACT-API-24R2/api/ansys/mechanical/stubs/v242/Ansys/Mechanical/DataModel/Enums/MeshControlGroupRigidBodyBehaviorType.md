@@ -17,7 +17,7 @@ Specifies the MeshControlGroupRigidBodyBehaviorType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------- |
 | [`DimensionallyReduced`](#MeshControlGroupRigidBodyBehaviorType.DimensionallyReduced) |
 | [`FullMesh`](#MeshControlGroupRigidBodyBehaviorType.FullMesh) |
 

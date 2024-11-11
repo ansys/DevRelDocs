@@ -17,7 +17,7 @@ Specifies the Polyflow Export Unit Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`Centimeters`](#PolyflowExportUnit.Centimeters) |
 | [`Feet`](#PolyflowExportUnit.Feet) |
 | [`Inches`](#PolyflowExportUnit.Inches) |

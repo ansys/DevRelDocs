@@ -17,7 +17,7 @@ Specifies the DSCampbellAxisRange.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`Manual`](#DSCampbellAxisRange.Manual) |
 | [`ProgramControlled`](#DSCampbellAxisRange.ProgramControlled) |
 

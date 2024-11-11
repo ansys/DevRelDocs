@@ -17,7 +17,7 @@ Defines a CenterOfGravityConstraint.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CenterOfGravityConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#CenterOfGravityConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#CenterOfGravityConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a CenterOfGravityConstraint.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`Axis`](#CenterOfGravityConstraint.Axis)                                       | Gets or sets the Axis.                                                                   |
 | [`Children`](#CenterOfGravityConstraint.Children)                               | Gets the list of children.                                                               |
 | [`DataModelObjectCategory`](#CenterOfGravityConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
@@ -56,7 +56,7 @@ Defines a CenterOfGravityConstraint.
 
 <a id="CenterOfGravityConstraint.Axis"></a>
 
-### *property* CenterOfGravityConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CenterOfGravityConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
@@ -64,7 +64,7 @@ Gets or sets the Axis.
 
 <a id="CenterOfGravityConstraint.Children"></a>
 
-### *property* CenterOfGravityConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CenterOfGravityConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -72,7 +72,7 @@ Gets the list of children.
 
 <a id="CenterOfGravityConstraint.DataModelObjectCategory"></a>
 
-### *property* CenterOfGravityConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CenterOfGravityConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -80,7 +80,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CenterOfGravityConstraint.EnvironmentSelection"></a>
 
-### *property* CenterOfGravityConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CenterOfGravityConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -120,7 +120,7 @@ Gets or sets the MinimumPosition.
 
 <a id="CenterOfGravityConstraint.Properties"></a>
 
-### *property* CenterOfGravityConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CenterOfGravityConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -128,7 +128,7 @@ Gets the list of properties for this object.
 
 <a id="CenterOfGravityConstraint.ScopingMethod"></a>
 
-### *property* CenterOfGravityConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CenterOfGravityConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -136,7 +136,7 @@ Gets or sets the ScopingMethod.
 
 <a id="CenterOfGravityConstraint.Selection"></a>
 
-### *property* CenterOfGravityConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CenterOfGravityConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Selection.
 
@@ -144,7 +144,7 @@ Gets or sets the Selection.
 
 <a id="CenterOfGravityConstraint.Suppressed"></a>
 
-### *property* CenterOfGravityConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CenterOfGravityConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -152,7 +152,7 @@ Gets or sets the Suppressed.
 
 <a id="CenterOfGravityConstraint.VisibleProperties"></a>
 
-### *property* CenterOfGravityConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CenterOfGravityConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -180,7 +180,7 @@ Copies all visible properties from this object to another.
 
 <a id="CenterOfGravityConstraint.CreateParameter"></a>
 
-### CenterOfGravityConstraint.CreateParameter(propName: System.String)
+### CenterOfGravityConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -204,7 +204,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CenterOfGravityConstraint.GetChildren"></a>
 
-### CenterOfGravityConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CenterOfGravityConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -212,7 +212,7 @@ Gets the list of children, filtered by type.
 
 <a id="CenterOfGravityConstraint.GetParameter"></a>
 
-### CenterOfGravityConstraint.GetParameter(propName: System.String)
+### CenterOfGravityConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -236,7 +236,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CenterOfGravityConstraint.PropertyByAPIName"></a>
 
-### CenterOfGravityConstraint.PropertyByAPIName(name: System.String)
+### CenterOfGravityConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -247,7 +247,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CenterOfGravityConstraint.PropertyByName"></a>
 
-### CenterOfGravityConstraint.PropertyByName(name: System.String)
+### CenterOfGravityConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -255,7 +255,7 @@ Get a property by its unique name.
 
 <a id="CenterOfGravityConstraint.RemoveParameter"></a>
 
-### CenterOfGravityConstraint.RemoveParameter(propName: System.String)
+### CenterOfGravityConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

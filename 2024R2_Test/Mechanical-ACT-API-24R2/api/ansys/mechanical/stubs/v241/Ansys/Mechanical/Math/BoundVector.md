@@ -28,7 +28,7 @@ Or a vector with fixed initial point(origin) and a direction(vector).
 
 <a id="BoundVector.Origin"></a>
 
-### *property* BoundVector.Origin *: [Ansys.Mechanical.Graphics.Point](../../../../v242/Ansys/Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoundVector.Origin *: [Ansys.Mechanical.Graphics.Point](../Graphics/Point.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The location at the start of the BoundVector.
 

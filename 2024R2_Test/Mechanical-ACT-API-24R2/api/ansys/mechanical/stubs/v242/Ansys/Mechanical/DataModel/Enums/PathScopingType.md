@@ -17,7 +17,7 @@ Specifies the PathScopingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------- |
 | [`Edge`](#PathScopingType.Edge) |
 | [`Offset`](#PathScopingType.Offset) |
 | [`Points`](#PathScopingType.Points) |

@@ -17,7 +17,7 @@ Defines a AcousticImpedanceSheet.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticImpedanceSheet.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#AcousticImpedanceSheet.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#AcousticImpedanceSheet.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a AcousticImpedanceSheet.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#AcousticImpedanceSheet.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#AcousticImpedanceSheet.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#AcousticImpedanceSheet.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -60,7 +60,7 @@ Defines a AcousticImpedanceSheet.
 
 <a id="AcousticImpedanceSheet.Children"></a>
 
-### *property* AcousticImpedanceSheet.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceSheet.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -68,7 +68,7 @@ Gets the list of children.
 
 <a id="AcousticImpedanceSheet.Comments"></a>
 
-### *property* AcousticImpedanceSheet.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceSheet.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -76,7 +76,7 @@ Gets the list of associated comments.
 
 <a id="AcousticImpedanceSheet.DataModelObjectCategory"></a>
 
-### *property* AcousticImpedanceSheet.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceSheet.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -84,7 +84,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticImpedanceSheet.Figures"></a>
 
-### *property* AcousticImpedanceSheet.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceSheet.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -92,7 +92,7 @@ Gets the list of associated figures.
 
 <a id="AcousticImpedanceSheet.Images"></a>
 
-### *property* AcousticImpedanceSheet.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceSheet.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -116,7 +116,7 @@ Gets or sets the Location.
 
 <a id="AcousticImpedanceSheet.Properties"></a>
 
-### *property* AcousticImpedanceSheet.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceSheet.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -132,7 +132,7 @@ Gets or sets the Reactance.
 
 <a id="AcousticImpedanceSheet.ReadOnly"></a>
 
-### *property* AcousticImpedanceSheet.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceSheet.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -156,7 +156,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticImpedanceSheet.Suppressed"></a>
 
-### *property* AcousticImpedanceSheet.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceSheet.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -164,7 +164,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticImpedanceSheet.VisibleProperties"></a>
 
-### *property* AcousticImpedanceSheet.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceSheet.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -200,7 +200,7 @@ Creates a new child Figure.
 
 <a id="AcousticImpedanceSheet.AddImage"></a>
 
-### AcousticImpedanceSheet.AddImage(filePath: System.String)
+### AcousticImpedanceSheet.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -220,7 +220,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticImpedanceSheet.CreateParameter"></a>
 
-### AcousticImpedanceSheet.CreateParameter(propName: System.String)
+### AcousticImpedanceSheet.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -244,7 +244,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticImpedanceSheet.GetChildren"></a>
 
-### AcousticImpedanceSheet.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticImpedanceSheet.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -252,7 +252,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticImpedanceSheet.GetParameter"></a>
 
-### AcousticImpedanceSheet.GetParameter(propName: System.String)
+### AcousticImpedanceSheet.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -284,7 +284,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticImpedanceSheet.PropertyByAPIName"></a>
 
-### AcousticImpedanceSheet.PropertyByAPIName(name: System.String)
+### AcousticImpedanceSheet.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -295,7 +295,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticImpedanceSheet.PropertyByName"></a>
 
-### AcousticImpedanceSheet.PropertyByName(name: System.String)
+### AcousticImpedanceSheet.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -303,7 +303,7 @@ Get a property by its unique name.
 
 <a id="AcousticImpedanceSheet.RemoveParameter"></a>
 
-### AcousticImpedanceSheet.RemoveParameter(propName: System.String)
+### AcousticImpedanceSheet.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

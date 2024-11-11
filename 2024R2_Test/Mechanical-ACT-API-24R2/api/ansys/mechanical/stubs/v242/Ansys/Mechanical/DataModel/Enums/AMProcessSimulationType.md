@@ -17,7 +17,7 @@ Specifies the AMProcessSimulationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`No`](#AMProcessSimulationType.No) |
 | [`ProgramControlled`](#AMProcessSimulationType.ProgramControlled) |
 | [`Yes`](#AMProcessSimulationType.Yes) |

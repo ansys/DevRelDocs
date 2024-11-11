@@ -17,7 +17,7 @@ Specifies the FilterType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`Butterworth`](#FilterType.Butterworth) |
 | [`None_`](#FilterType.None_) |
 | [`SAE`](#FilterType.SAE) |

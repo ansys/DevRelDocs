@@ -110,7 +110,7 @@ Gets or Sets the Pressure ApplyTo type.
 
 <a id="Pressure.Children"></a>
 
-### *property* Pressure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -118,7 +118,7 @@ Gets the list of children.
 
 <a id="Pressure.Comments"></a>
 
-### *property* Pressure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -126,7 +126,7 @@ Gets the list of associated comments.
 
 <a id="Pressure.CoordinateSystem"></a>
 
-### *property* Pressure.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -174,7 +174,7 @@ Gets or sets the DynamicRelaxationBehavior.
 
 <a id="Pressure.Figures"></a>
 
-### *property* Pressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -198,7 +198,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="Pressure.Images"></a>
 
-### *property* Pressure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -230,7 +230,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="Pressure.LoadVectorNumber"></a>
 
-### *property* Pressure.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.LoadVectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorNumber.
 
@@ -254,7 +254,7 @@ Gets or sets the Location.
 
 <a id="Pressure.Magnitude"></a>
 
-### *property* Pressure.Magnitude *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.Magnitude *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Magnitude.
 
@@ -278,7 +278,7 @@ Gets or sets the NonCyclicLoadingType.
 
 <a id="Pressure.NumberOfSegments"></a>
 
-### *property* Pressure.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -294,7 +294,7 @@ Gets the PhaseAngle.
 
 <a id="Pressure.Properties"></a>
 
-### *property* Pressure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -318,7 +318,7 @@ Gets or sets the RangeMinimum.
 
 <a id="Pressure.ReadOnly"></a>
 
-### *property* Pressure.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -342,7 +342,7 @@ Gets or sets the SectorNumber.
 
 <a id="Pressure.SharedRefBody"></a>
 
-### *property* Pressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -350,7 +350,7 @@ Gets or sets the SharedRefBody.
 
 <a id="Pressure.Suppressed"></a>
 
-### *property* Pressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -358,7 +358,7 @@ Gets or sets the Suppressed.
 
 <a id="Pressure.VisibleProperties"></a>
 
-### *property* Pressure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -390,7 +390,7 @@ Gets the XPhaseAngle.
 
 <a id="Pressure.XYZFunctionCoordinateSystem"></a>
 
-### *property* Pressure.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Pressure.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -474,7 +474,7 @@ Creates a new child Figure.
 
 <a id="Pressure.AddImage"></a>
 
-### Pressure.AddImage(filePath: System.String)
+### Pressure.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -494,7 +494,7 @@ Copies all visible properties from this object to another.
 
 <a id="Pressure.CreateParameter"></a>
 
-### Pressure.CreateParameter(propName: System.String)
+### Pressure.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -518,7 +518,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Pressure.GetActivateAtLoadStep"></a>
 
-### Pressure.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### Pressure.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -526,7 +526,7 @@ GetActivateAtLoadStep method.
 
 <a id="Pressure.GetChildren"></a>
 
-### Pressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Pressure.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -534,7 +534,7 @@ Gets the list of children, filtered by type.
 
 <a id="Pressure.GetComponentActivateAtLoadStep"></a>
 
-### Pressure.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### Pressure.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -542,7 +542,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="Pressure.GetParameter"></a>
 
-### Pressure.GetParameter(propName: System.String)
+### Pressure.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -574,7 +574,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="Pressure.PropertyByAPIName"></a>
 
-### Pressure.PropertyByAPIName(name: System.String)
+### Pressure.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -585,7 +585,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Pressure.PropertyByName"></a>
 
-### Pressure.PropertyByName(name: System.String)
+### Pressure.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -593,7 +593,7 @@ Get a property by its unique name.
 
 <a id="Pressure.RemoveParameter"></a>
 
-### Pressure.RemoveParameter(propName: System.String)
+### Pressure.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -601,7 +601,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Pressure.SetActivateAtLoadStep"></a>
 
-### Pressure.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### Pressure.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -609,7 +609,7 @@ SetActivateAtLoadStep method.
 
 <a id="Pressure.SetComponentActivateAtLoadStep"></a>
 
-### Pressure.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### Pressure.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

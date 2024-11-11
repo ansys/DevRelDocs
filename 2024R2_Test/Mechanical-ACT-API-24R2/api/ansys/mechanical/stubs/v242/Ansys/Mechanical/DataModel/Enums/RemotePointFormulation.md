@@ -17,7 +17,7 @@ Specifies the RemotePointFormulation.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------- |
 | [`LagrangeMultiplier`](#RemotePointFormulation.LagrangeMultiplier) |
 | [`MPC`](#RemotePointFormulation.MPC) |
 

@@ -17,7 +17,7 @@ To select the MeshWorkflow Process Entity Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------- |
 | [`Label`](#ScopeType.Label) |
 | [`Part`](#ScopeType.Part) |
 | [`Zone`](#ScopeType.Zone) |

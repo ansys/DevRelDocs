@@ -17,7 +17,7 @@ Represents a shell SECBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+|------------------------------------------|---------------------------|
 | [`Index`](#ShellSecBlockCommand.Index)   | Gets the command index.   |
 | [`Layers`](#ShellSecBlockCommand.Layers) | Gets the layers.          |
 | [`Name`](#ShellSecBlockCommand.Name)     | Gets the command name.    |
@@ -29,7 +29,7 @@ Represents a shell SECBLOCK command.
 
 <a id="ShellSecBlockCommand.Index"></a>
 
-### *property* ShellSecBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellSecBlockCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -37,7 +37,7 @@ Gets the command index.
 
 <a id="ShellSecBlockCommand.Layers"></a>
 
-### *property* ShellSecBlockCommand.Layers *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer](CommandLayer.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellSecBlockCommand.Layers *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer](CommandLayer.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the layers.
 
@@ -45,7 +45,7 @@ Gets the layers.
 
 <a id="ShellSecBlockCommand.Name"></a>
 
-### *property* ShellSecBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellSecBlockCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -53,7 +53,7 @@ Gets the command name.
 
 <a id="ShellSecBlockCommand.Type"></a>
 
-### *property* ShellSecBlockCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellSecBlockCommand.Type *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the section type.
 

@@ -17,7 +17,7 @@ Defines a ScriptDefinedResultFolder.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ScriptDefinedResultFolder.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ScriptDefinedResultFolder.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ScriptDefinedResultFolder.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a ScriptDefinedResultFolder.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ScriptDefinedResultFolder.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ScriptDefinedResultFolder.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#ScriptDefinedResultFolder.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -55,7 +55,7 @@ Defines a ScriptDefinedResultFolder.
 
 <a id="ScriptDefinedResultFolder.Children"></a>
 
-### *property* ScriptDefinedResultFolder.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ScriptDefinedResultFolder.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -63,7 +63,7 @@ Gets the list of children.
 
 <a id="ScriptDefinedResultFolder.Comments"></a>
 
-### *property* ScriptDefinedResultFolder.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ScriptDefinedResultFolder.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -79,7 +79,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ScriptDefinedResultFolder.Figures"></a>
 
-### *property* ScriptDefinedResultFolder.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ScriptDefinedResultFolder.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -87,7 +87,7 @@ Gets the list of associated figures.
 
 <a id="ScriptDefinedResultFolder.Images"></a>
 
-### *property* ScriptDefinedResultFolder.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ScriptDefinedResultFolder.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -103,7 +103,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ScriptDefinedResultFolder.Properties"></a>
 
-### *property* ScriptDefinedResultFolder.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ScriptDefinedResultFolder.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -111,7 +111,7 @@ Gets the list of properties for this object.
 
 <a id="ScriptDefinedResultFolder.ReadOnly"></a>
 
-### *property* ScriptDefinedResultFolder.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ScriptDefinedResultFolder.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -119,7 +119,7 @@ Gets or sets the ReadOnly.
 
 <a id="ScriptDefinedResultFolder.VisibleProperties"></a>
 
-### *property* ScriptDefinedResultFolder.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ScriptDefinedResultFolder.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -155,7 +155,7 @@ Creates a new child Figure.
 
 <a id="ScriptDefinedResultFolder.AddImage"></a>
 
-### ScriptDefinedResultFolder.AddImage(filePath: System.String)
+### ScriptDefinedResultFolder.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -183,7 +183,7 @@ Copies all visible properties from this object to another.
 
 <a id="ScriptDefinedResultFolder.CreateParameter"></a>
 
-### ScriptDefinedResultFolder.CreateParameter(propName: System.String)
+### ScriptDefinedResultFolder.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -207,7 +207,7 @@ EvaluatesAllResults.
 
 <a id="ScriptDefinedResultFolder.GetChildren"></a>
 
-### ScriptDefinedResultFolder.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ScriptDefinedResultFolder.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -215,7 +215,7 @@ Gets the list of children, filtered by type.
 
 <a id="ScriptDefinedResultFolder.GetParameter"></a>
 
-### ScriptDefinedResultFolder.GetParameter(propName: System.String)
+### ScriptDefinedResultFolder.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -239,7 +239,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ScriptDefinedResultFolder.PropertyByAPIName"></a>
 
-### ScriptDefinedResultFolder.PropertyByAPIName(name: System.String)
+### ScriptDefinedResultFolder.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -250,7 +250,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ScriptDefinedResultFolder.PropertyByName"></a>
 
-### ScriptDefinedResultFolder.PropertyByName(name: System.String)
+### ScriptDefinedResultFolder.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -258,7 +258,7 @@ Get a property by its unique name.
 
 <a id="ScriptDefinedResultFolder.RemoveParameter"></a>
 
-### ScriptDefinedResultFolder.RemoveParameter(propName: System.String)
+### ScriptDefinedResultFolder.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

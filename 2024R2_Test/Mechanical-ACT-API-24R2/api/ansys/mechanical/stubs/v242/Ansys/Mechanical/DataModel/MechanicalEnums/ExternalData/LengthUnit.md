@@ -17,7 +17,7 @@ Specifies how to interpret the variable data source.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`centimeter`](#LengthUnit.centimeter) |
 | [`foot`](#LengthUnit.foot) |
 | [`inch`](#LengthUnit.inch) |

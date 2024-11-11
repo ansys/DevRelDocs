@@ -17,7 +17,7 @@ Specifies the VectorDisplayType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------- |
 | [`Line`](#VectorDisplayType.Line) |
 | [`Solid`](#VectorDisplayType.Solid) |
 | [`Sphere`](#VectorDisplayType.Sphere) |

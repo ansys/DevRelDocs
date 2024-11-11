@@ -17,7 +17,7 @@ Specifies the SequenceSelectionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------- |
 | [`All`](#SequenceSelectionType.All) |
 | [`ByNumber`](#SequenceSelectionType.ByNumber) |
 | [`First`](#SequenceSelectionType.First) |

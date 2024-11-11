@@ -17,7 +17,7 @@ Specifies the VectorReductionReferenceType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`Constant`](#VectorReductionReferenceType.Constant) |
 | [`None_`](#VectorReductionReferenceType.None_) |
 

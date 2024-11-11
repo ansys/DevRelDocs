@@ -17,7 +17,7 @@ Specifies the InitialTemperatureType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------ |
 | [`NonUniform`](#InitialTemperatureType.NonUniform) |
 | [`Uniform`](#InitialTemperatureType.Uniform) |
 

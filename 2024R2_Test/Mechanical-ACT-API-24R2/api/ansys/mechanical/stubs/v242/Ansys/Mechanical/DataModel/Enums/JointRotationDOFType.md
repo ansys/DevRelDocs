@@ -17,7 +17,7 @@ Specifies the JointRotationDOFType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------- |
 | [`FixAll`](#JointRotationDOFType.FixAll) |
 | [`FreeAll`](#JointRotationDOFType.FreeAll) |
 | [`FreeX`](#JointRotationDOFType.FreeX) |

@@ -17,7 +17,7 @@ Specifies the GasketResultType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`NormalGasket`](#GasketResultType.NormalGasket) |
 | [`ShearGasket`](#GasketResultType.ShearGasket) |
 

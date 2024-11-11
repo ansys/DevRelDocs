@@ -17,7 +17,7 @@ Specifies the NonlinearAdaptivityTimeRange.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`EntireLoadStep`](#NonlinearAdaptivityTimeRange.EntireLoadStep) |
 | [`Manual`](#NonlinearAdaptivityTimeRange.Manual) |
 

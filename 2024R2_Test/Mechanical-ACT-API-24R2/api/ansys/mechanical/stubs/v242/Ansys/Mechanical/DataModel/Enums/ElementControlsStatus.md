@@ -17,7 +17,7 @@ Specifies the ElementControlsStatus.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------- |
 | [`Alive`](#ElementControlsStatus.Alive) |
 | [`Dead`](#ElementControlsStatus.Dead) |
 

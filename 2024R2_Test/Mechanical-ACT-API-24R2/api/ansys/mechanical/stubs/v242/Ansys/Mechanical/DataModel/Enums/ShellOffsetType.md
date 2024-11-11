@@ -17,7 +17,7 @@ Specifies the ShellOffsetType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------- |
 | [`Bottom`](#ShellOffsetType.Bottom) |
 | [`Middle`](#ShellOffsetType.Middle) |
 | [`Top`](#ShellOffsetType.Top) |

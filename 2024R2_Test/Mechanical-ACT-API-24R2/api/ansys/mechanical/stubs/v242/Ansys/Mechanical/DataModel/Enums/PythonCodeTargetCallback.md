@@ -17,7 +17,7 @@ Specifies the PythonCodeTargetCallback.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------ |
 | [`GetBodyCommands`](#PythonCodeTargetCallback.GetBodyCommands) |
 | [`GetContactCommands`](#PythonCodeTargetCallback.GetContactCommands) |
 | [`GetPostCommands`](#PythonCodeTargetCallback.GetPostCommands) |

@@ -19,7 +19,7 @@ Specifies the tolerance to use when comparing parts. This provides comparison ro
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`Loose`](#ComparePartsTolerance.Loose) |
 | [`Normal`](#ComparePartsTolerance.Normal) |
 | [`Tight`](#ComparePartsTolerance.Tight) |

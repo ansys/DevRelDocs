@@ -17,7 +17,7 @@ Specifies the Time History Display Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`Amplitude`](#TimeHistoryDisplayType.Amplitude) |
 | [`Bode`](#TimeHistoryDisplayType.Bode) |
 | [`Imaginary`](#TimeHistoryDisplayType.Imaginary) |

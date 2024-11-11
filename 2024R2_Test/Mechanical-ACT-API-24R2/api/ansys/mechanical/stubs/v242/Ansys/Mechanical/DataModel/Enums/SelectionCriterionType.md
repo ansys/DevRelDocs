@@ -17,7 +17,7 @@ Specifies the selection criterion type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------- |
 | [`AllEdges`](#SelectionCriterionType.AllEdges) |
 | [`AllNodes`](#SelectionCriterionType.AllNodes) |
 | [`AllVertices`](#SelectionCriterionType.AllVertices) |

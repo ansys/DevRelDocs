@@ -17,7 +17,7 @@ Specifies the Load Combination type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`Linear`](#LoadCombinationType.Linear) |
 | [`SRSS`](#LoadCombinationType.SRSS) |
 

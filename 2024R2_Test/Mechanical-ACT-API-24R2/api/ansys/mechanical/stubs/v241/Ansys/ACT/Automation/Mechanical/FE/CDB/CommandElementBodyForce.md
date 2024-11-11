@@ -17,7 +17,7 @@ Represents element body-force loads associated to BFEBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+|---------------------------------------------|------------------------------------------------|
 | [`Count`](#CommandElementBodyForce.Count)   | Gets the number of element body-force loads.   |
 | [`Elem`](#CommandElementBodyForce.Elem)     | Gets the element number.                       |
 | [`Stlocs`](#CommandElementBodyForce.Stlocs) | Gets the starting locations.                   |
@@ -29,7 +29,7 @@ Represents element body-force loads associated to BFEBLOCK command.
 
 <a id="CommandElementBodyForce.Count"></a>
 
-### *property* CommandElementBodyForce.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementBodyForce.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of element body-force loads.
 
@@ -37,7 +37,7 @@ Gets the number of element body-force loads.
 
 <a id="CommandElementBodyForce.Elem"></a>
 
-### *property* CommandElementBodyForce.Elem *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementBodyForce.Elem *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element number.
 
@@ -45,7 +45,7 @@ Gets the element number.
 
 <a id="CommandElementBodyForce.Stlocs"></a>
 
-### *property* CommandElementBodyForce.Stlocs *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementBodyForce.Stlocs *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the starting locations.
 
@@ -53,7 +53,7 @@ Gets the starting locations.
 
 <a id="CommandElementBodyForce.Values"></a>
 
-### *property* CommandElementBodyForce.Values *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementBodyForce.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

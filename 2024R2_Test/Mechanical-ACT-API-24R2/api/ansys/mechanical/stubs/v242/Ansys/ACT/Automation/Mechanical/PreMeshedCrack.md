@@ -17,7 +17,7 @@ Defines a PreMeshedCrack.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PreMeshedCrack.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#PreMeshedCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#PreMeshedCrack.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a PreMeshedCrack.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`BottomFaceNodes`](#PreMeshedCrack.BottomFaceNodes)                 | Gets or sets the BottomFaceNodes.                             |
 | [`Children`](#PreMeshedCrack.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#PreMeshedCrack.Comments)                               | Gets the list of associated comments.                         |
@@ -74,7 +74,7 @@ Gets or sets the BottomFaceNodes.
 
 <a id="PreMeshedCrack.Children"></a>
 
-### *property* PreMeshedCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -82,7 +82,7 @@ Gets the list of children.
 
 <a id="PreMeshedCrack.Comments"></a>
 
-### *property* PreMeshedCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -90,7 +90,7 @@ Gets the list of associated comments.
 
 <a id="PreMeshedCrack.CoordinateSystem"></a>
 
-### *property* PreMeshedCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -98,7 +98,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="PreMeshedCrack.CrackFacesNodes"></a>
 
-### *property* PreMeshedCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.CrackFacesNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFacesNodes.
 
@@ -114,7 +114,7 @@ Gets or sets the CrackFront.
 
 <a id="PreMeshedCrack.CrackID"></a>
 
-### *property* PreMeshedCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.CrackID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackID.
 
@@ -130,7 +130,7 @@ Gets the CrackSourceType.
 
 <a id="PreMeshedCrack.CrackSymmetry"></a>
 
-### *property* PreMeshedCrack.CrackSymmetry *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.CrackSymmetry *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackSymmetry.
 
@@ -146,7 +146,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PreMeshedCrack.Figures"></a>
 
-### *property* PreMeshedCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -154,7 +154,7 @@ Gets the list of associated figures.
 
 <a id="PreMeshedCrack.Images"></a>
 
-### *property* PreMeshedCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -170,7 +170,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PreMeshedCrack.Properties"></a>
 
-### *property* PreMeshedCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -178,7 +178,7 @@ Gets the list of properties for this object.
 
 <a id="PreMeshedCrack.ReadOnly"></a>
 
-### *property* PreMeshedCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -194,7 +194,7 @@ Gets the ScopingMethod.
 
 <a id="PreMeshedCrack.SolutionContours"></a>
 
-### *property* PreMeshedCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.SolutionContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionContours.
 
@@ -202,7 +202,7 @@ Gets or sets the SolutionContours.
 
 <a id="PreMeshedCrack.Suppressed"></a>
 
-### *property* PreMeshedCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -218,7 +218,7 @@ Gets or sets the TopFaceNodes.
 
 <a id="PreMeshedCrack.VisibleProperties"></a>
 
-### *property* PreMeshedCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -262,7 +262,7 @@ Creates a new child Figure.
 
 <a id="PreMeshedCrack.AddImage"></a>
 
-### PreMeshedCrack.AddImage(filePath: System.String)
+### PreMeshedCrack.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -282,7 +282,7 @@ Copies all visible properties from this object to another.
 
 <a id="PreMeshedCrack.CreateParameter"></a>
 
-### PreMeshedCrack.CreateParameter(propName: System.String)
+### PreMeshedCrack.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -306,7 +306,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PreMeshedCrack.GetChildren"></a>
 
-### PreMeshedCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PreMeshedCrack.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -314,7 +314,7 @@ Gets the list of children, filtered by type.
 
 <a id="PreMeshedCrack.GetParameter"></a>
 
-### PreMeshedCrack.GetParameter(propName: System.String)
+### PreMeshedCrack.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -338,7 +338,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PreMeshedCrack.PropertyByAPIName"></a>
 
-### PreMeshedCrack.PropertyByAPIName(name: System.String)
+### PreMeshedCrack.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -349,7 +349,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PreMeshedCrack.PropertyByName"></a>
 
-### PreMeshedCrack.PropertyByName(name: System.String)
+### PreMeshedCrack.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -357,7 +357,7 @@ Get a property by its unique name.
 
 <a id="PreMeshedCrack.RemoveParameter"></a>
 
-### PreMeshedCrack.RemoveParameter(propName: System.String)
+### PreMeshedCrack.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

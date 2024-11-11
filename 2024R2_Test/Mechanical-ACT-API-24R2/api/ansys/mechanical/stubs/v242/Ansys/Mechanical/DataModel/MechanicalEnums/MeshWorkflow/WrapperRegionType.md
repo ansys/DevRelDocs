@@ -17,7 +17,7 @@ This enum is referenced in the ‘Control’ tree node and reflects the type of 
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------- |
 | [`External`](#WrapperRegionType.External) |
 | [`MaterialPoint`](#WrapperRegionType.MaterialPoint) |
 

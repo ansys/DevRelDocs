@@ -17,13 +17,13 @@ ISolveConfiguration interface.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+|-------------------------------------------------------|--------------------------------------------------------------|
 | [`SetAsDefault`](#ISolveConfiguration.SetAsDefault)   | Sets ‘this’ to be the default configuration to solve with.   |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | [`Default`](#ISolveConfiguration.Default)                           | Gets whether or not this SolveConfiguration is the default configuration.   |
 | [`Name`](#ISolveConfiguration.Name)                                 | Gets or sets the name of the SolveConfiguraiton Object                      |
 | [`Settings`](#ISolveConfiguration.Settings)                         | Gets the QueueSettings object for the configuration.                        |
@@ -35,7 +35,7 @@ ISolveConfiguration interface.
 
 <a id="ISolveConfiguration.Default"></a>
 
-### *property* ISolveConfiguration.Default *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveConfiguration.Default *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets whether or not this SolveConfiguration is the default configuration.
 
@@ -43,7 +43,7 @@ Gets whether or not this SolveConfiguration is the default configuration.
 
 <a id="ISolveConfiguration.Name"></a>
 
-### *property* ISolveConfiguration.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveConfiguration.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the name of the SolveConfiguraiton Object
 

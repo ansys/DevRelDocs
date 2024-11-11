@@ -17,7 +17,7 @@ Collection of keyword data lines.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+|-----------------------------------------------|--------------------------------|
 | [`Items`](#AbaqusKeywordDataLineColl.Items)   | Gets the list of data lines.   |
 
 <a id="property-detail"></a>
@@ -26,7 +26,7 @@ Collection of keyword data lines.
 
 <a id="AbaqusKeywordDataLineColl.Items"></a>
 
-### *property* AbaqusKeywordDataLineColl.Items *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordDataLine](AbaqusKeywordDataLine.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordDataLine)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AbaqusKeywordDataLineColl.Items *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordDataLine](AbaqusKeywordDataLine.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordDataLine)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of data lines.
 

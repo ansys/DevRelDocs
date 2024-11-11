@@ -17,7 +17,7 @@ Represents a nodal body force associated to a BFBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+|-----------------------------------------------|----------------------------|
 | [`Node`](#CommandNodalBodyForce.Node)         | Gets the node number.      |
 | [`ValCount`](#CommandNodalBodyForce.ValCount) | Gets the number of values. |
 | [`Values`](#CommandNodalBodyForce.Values)     | Gets the values.           |
@@ -28,7 +28,7 @@ Represents a nodal body force associated to a BFBLOCK command.
 
 <a id="CommandNodalBodyForce.Node"></a>
 
-### *property* CommandNodalBodyForce.Node *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandNodalBodyForce.Node *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the node number.
 
@@ -36,7 +36,7 @@ Gets the node number.
 
 <a id="CommandNodalBodyForce.ValCount"></a>
 
-### *property* CommandNodalBodyForce.ValCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandNodalBodyForce.ValCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of values.
 
@@ -44,7 +44,7 @@ Gets the number of values.
 
 <a id="CommandNodalBodyForce.Values"></a>
 
-### *property* CommandNodalBodyForce.Values *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandNodalBodyForce.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

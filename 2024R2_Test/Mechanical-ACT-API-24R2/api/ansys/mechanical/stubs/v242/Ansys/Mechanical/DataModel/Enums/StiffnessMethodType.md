@@ -17,7 +17,7 @@ Specifies the StiffnessMethodType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`Augmented`](#StiffnessMethodType.Augmented) |
 | [`Full`](#StiffnessMethodType.Full) |
 | [`ProgramControlled`](#StiffnessMethodType.ProgramControlled) |

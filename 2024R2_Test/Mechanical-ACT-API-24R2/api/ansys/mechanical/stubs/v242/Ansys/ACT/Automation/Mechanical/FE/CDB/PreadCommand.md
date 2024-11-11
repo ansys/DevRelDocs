@@ -35,7 +35,7 @@ PREAD command.
 
 <a id="PreadCommand.Aname"></a>
 
-### *property* PreadCommand.Aname *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreadCommand.Aname *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the table name.
 
@@ -43,7 +43,7 @@ Gets the table name.
 
 <a id="PreadCommand.Index"></a>
 
-### *property* PreadCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreadCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -51,7 +51,7 @@ Gets the command index.
 
 <a id="PreadCommand.Name"></a>
 
-### *property* PreadCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreadCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -59,7 +59,7 @@ Gets the command name.
 
 <a id="PreadCommand.Values"></a>
 
-### *property* PreadCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreadCommand.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

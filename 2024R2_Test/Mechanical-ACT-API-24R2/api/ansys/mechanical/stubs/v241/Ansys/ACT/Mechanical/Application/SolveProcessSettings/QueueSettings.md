@@ -28,7 +28,7 @@ The class representing queue settings.
 
 <a id="QueueSettings.JobName"></a>
 
-### *property* QueueSettings.JobName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QueueSettings.JobName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The job name of the queue settings.
 
@@ -36,7 +36,7 @@ The job name of the queue settings.
 
 <a id="QueueSettings.License"></a>
 
-### *property* QueueSettings.License *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QueueSettings.License *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The license of the queue settings.  The setter will throw an exception if the given license is not valid.
 
@@ -44,7 +44,7 @@ The license of the queue settings.  The setter will throw an exception if the gi
 
 <a id="QueueSettings.Name"></a>
 
-### *property* QueueSettings.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QueueSettings.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the queue settings.
 

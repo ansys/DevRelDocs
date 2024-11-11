@@ -17,7 +17,7 @@ Specifies the BeamBeamContactDetectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------ |
 | [`External1Segment`](#BeamBeamContactDetectionType.External1Segment) |
 | [`External4Segments`](#BeamBeamContactDetectionType.External4Segments) |
 | [`External8Segments`](#BeamBeamContactDetectionType.External8Segments) |

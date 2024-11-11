@@ -17,7 +17,7 @@ Specifies the ContactSummaryType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`CNMFile`](#ContactSummaryType.CNMFile) |
 | [`ProgramControlled`](#ContactSummaryType.ProgramControlled) |
 | [`SolverOutput`](#ContactSummaryType.SolverOutput) |

@@ -17,7 +17,7 @@ Specifies the ComparePartsTolerance Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------- |
 | [`Loose`](#ComparePartsToleranceType.Loose) |
 | [`Normal`](#ComparePartsToleranceType.Normal) |
 | [`Tight`](#ComparePartsToleranceType.Tight) |

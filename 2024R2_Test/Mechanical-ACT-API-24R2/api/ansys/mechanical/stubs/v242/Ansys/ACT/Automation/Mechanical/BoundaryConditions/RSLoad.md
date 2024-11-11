@@ -64,7 +64,7 @@ Defines a RSLoad.
 
 <a id="RSLoad.BoundaryCondition"></a>
 
-### *property* RSLoad.BoundaryCondition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.BoundaryCondition *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -72,7 +72,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="RSLoad.Children"></a>
 
-### *property* RSLoad.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -80,7 +80,7 @@ Gets the list of children.
 
 <a id="RSLoad.Comments"></a>
 
-### *property* RSLoad.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -104,7 +104,7 @@ Gets or sets the Direction.
 
 <a id="RSLoad.Figures"></a>
 
-### *property* RSLoad.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -112,7 +112,7 @@ Gets the list of associated figures.
 
 <a id="RSLoad.Images"></a>
 
-### *property* RSLoad.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -128,7 +128,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="RSLoad.MissingMassEffect"></a>
 
-### *property* RSLoad.MissingMassEffect *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.MissingMassEffect *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MissingMassEffect.
 
@@ -144,7 +144,7 @@ Gets or sets the MissingMassEffectZPA.
 
 <a id="RSLoad.Properties"></a>
 
-### *property* RSLoad.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -152,7 +152,7 @@ Gets the list of properties for this object.
 
 <a id="RSLoad.RigidResponseEffect"></a>
 
-### *property* RSLoad.RigidResponseEffect *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.RigidResponseEffect *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RigidResponseEffect.
 
@@ -192,7 +192,7 @@ Gets or sets the RigidResponseEffectZPA.
 
 <a id="RSLoad.ScaleFactor"></a>
 
-### *property* RSLoad.ScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.ScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactor.
 
@@ -200,7 +200,7 @@ Gets or sets the ScaleFactor.
 
 <a id="RSLoad.Suppressed"></a>
 
-### *property* RSLoad.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -208,7 +208,7 @@ Gets or sets the Suppressed.
 
 <a id="RSLoad.VisibleProperties"></a>
 
-### *property* RSLoad.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSLoad.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -244,7 +244,7 @@ Creates a new child Figure.
 
 <a id="RSLoad.AddImage"></a>
 
-### RSLoad.AddImage(filePath: System.String)
+### RSLoad.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -264,7 +264,7 @@ Copies all visible properties from this object to another.
 
 <a id="RSLoad.CreateParameter"></a>
 
-### RSLoad.CreateParameter(propName: System.String)
+### RSLoad.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -288,7 +288,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RSLoad.GetChildren"></a>
 
-### RSLoad.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RSLoad.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -296,7 +296,7 @@ Gets the list of children, filtered by type.
 
 <a id="RSLoad.GetParameter"></a>
 
-### RSLoad.GetParameter(propName: System.String)
+### RSLoad.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -320,7 +320,7 @@ Run the GroupSimilarObjects action.
 
 <a id="RSLoad.PropertyByAPIName"></a>
 
-### RSLoad.PropertyByAPIName(name: System.String)
+### RSLoad.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -331,7 +331,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RSLoad.PropertyByName"></a>
 
-### RSLoad.PropertyByName(name: System.String)
+### RSLoad.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -339,7 +339,7 @@ Get a property by its unique name.
 
 <a id="RSLoad.RemoveParameter"></a>
 
-### RSLoad.RemoveParameter(propName: System.String)
+### RSLoad.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

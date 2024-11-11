@@ -73,7 +73,7 @@ Defines a MeshConnection.
 
 <a id="MeshConnection.Children"></a>
 
-### *property* MeshConnection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -81,7 +81,7 @@ Gets the list of children.
 
 <a id="MeshConnection.Comments"></a>
 
-### *property* MeshConnection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -89,7 +89,7 @@ Gets the list of associated comments.
 
 <a id="MeshConnection.ContactRegion"></a>
 
-### *property* MeshConnection.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
@@ -105,7 +105,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshConnection.Figures"></a>
 
-### *property* MeshConnection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -113,7 +113,7 @@ Gets the list of associated figures.
 
 <a id="MeshConnection.Images"></a>
 
-### *property* MeshConnection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -129,7 +129,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshConnection.MasterBodies"></a>
 
-### *property* MeshConnection.MasterBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.MasterBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MasterBodies.
 
@@ -137,7 +137,7 @@ Gets the MasterBodies.
 
 <a id="MeshConnection.MasterElementSizeFactor"></a>
 
-### *property* MeshConnection.MasterElementSizeFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.MasterElementSizeFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MasterElementSizeFactor.
 
@@ -153,7 +153,7 @@ Gets or sets the MasterLocation.
 
 <a id="MeshConnection.Properties"></a>
 
-### *property* MeshConnection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -177,7 +177,7 @@ ScopingMethod property.
 
 <a id="MeshConnection.SlaveBodies"></a>
 
-### *property* MeshConnection.SlaveBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.SlaveBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SlaveBodies.
 
@@ -193,7 +193,7 @@ Gets or sets the SlaveLocation.
 
 <a id="MeshConnection.SnapToBoundary"></a>
 
-### *property* MeshConnection.SnapToBoundary *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.SnapToBoundary *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SnapToBoundary.
 
@@ -217,7 +217,7 @@ Gets or sets the SnapType.
 
 <a id="MeshConnection.Suppressed"></a>
 
-### *property* MeshConnection.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -225,7 +225,7 @@ Gets or sets the Suppressed.
 
 <a id="MeshConnection.ThicknessScaleFactor"></a>
 
-### *property* MeshConnection.ThicknessScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.ThicknessScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThicknessScaleFactor.
 
@@ -233,7 +233,7 @@ Gets or sets the ThicknessScaleFactor.
 
 <a id="MeshConnection.ToleranceSlider"></a>
 
-### *property* MeshConnection.ToleranceSlider *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.ToleranceSlider *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceSlider.
 
@@ -257,7 +257,7 @@ Gets or sets the ToleranceValue.
 
 <a id="MeshConnection.VisibleProperties"></a>
 
-### *property* MeshConnection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -293,7 +293,7 @@ Creates a new child Figure.
 
 <a id="MeshConnection.AddImage"></a>
 
-### MeshConnection.AddImage(filePath: System.String)
+### MeshConnection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -321,7 +321,7 @@ CreateNamedSelection method.
 
 <a id="MeshConnection.CreateParameter"></a>
 
-### MeshConnection.CreateParameter(propName: System.String)
+### MeshConnection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -361,7 +361,7 @@ Run the Generate action.
 
 <a id="MeshConnection.GetChildren"></a>
 
-### MeshConnection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshConnection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -369,7 +369,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshConnection.GetParameter"></a>
 
-### MeshConnection.GetParameter(propName: System.String)
+### MeshConnection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -393,7 +393,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshConnection.PropertyByAPIName"></a>
 
-### MeshConnection.PropertyByAPIName(name: System.String)
+### MeshConnection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -404,7 +404,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshConnection.PropertyByName"></a>
 
-### MeshConnection.PropertyByName(name: System.String)
+### MeshConnection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -412,7 +412,7 @@ Get a property by its unique name.
 
 <a id="MeshConnection.RemoveParameter"></a>
 
-### MeshConnection.RemoveParameter(propName: System.String)
+### MeshConnection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

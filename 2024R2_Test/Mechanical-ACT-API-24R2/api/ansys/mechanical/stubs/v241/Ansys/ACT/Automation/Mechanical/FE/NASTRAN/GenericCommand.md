@@ -17,7 +17,7 @@ Generic command.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+|--------------------------------------------|-------------------------|
 | [`Arguments`](#GenericCommand.Arguments)   | Gets the arguments.     |
 | [`Index`](#GenericCommand.Index)           | Gets the command index. |
 | [`Name`](#GenericCommand.Name)             | Gets the command name.  |
@@ -28,7 +28,7 @@ Generic command.
 
 <a id="GenericCommand.Arguments"></a>
 
-### *property* GenericCommand.Arguments *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericCommand.Arguments *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the arguments.
 
@@ -36,7 +36,7 @@ Gets the arguments.
 
 <a id="GenericCommand.Index"></a>
 
-### *property* GenericCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -44,7 +44,7 @@ Gets the command index.
 
 <a id="GenericCommand.Name"></a>
 
-### *property* GenericCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 

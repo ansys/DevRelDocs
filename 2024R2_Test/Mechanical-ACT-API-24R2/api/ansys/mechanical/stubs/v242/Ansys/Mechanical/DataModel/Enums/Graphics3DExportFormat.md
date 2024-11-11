@@ -17,7 +17,7 @@ Specifies the 3D Format.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------- |
 | [`ASCIISTL`](#Graphics3DExportFormat.ASCIISTL) |
 | [`AVZ`](#Graphics3DExportFormat.AVZ) |
 | [`BinarySTL`](#Graphics3DExportFormat.BinarySTL) |

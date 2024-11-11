@@ -32,7 +32,7 @@ IQueueSettings interface.
 
 <a id="IQueueSettings.DCSPassword"></a>
 
-### *property* IQueueSettings.DCSPassword *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IQueueSettings.DCSPassword *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DCSPassword property.
 
@@ -40,7 +40,7 @@ DCSPassword property.
 
 <a id="IQueueSettings.DCSUrl"></a>
 
-### *property* IQueueSettings.DCSUrl *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IQueueSettings.DCSUrl *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DCSUrl property.
 
@@ -48,7 +48,7 @@ DCSUrl property.
 
 <a id="IQueueSettings.DCSUsername"></a>
 
-### *property* IQueueSettings.DCSUsername *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IQueueSettings.DCSUsername *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DCSUsername property.
 
@@ -56,7 +56,7 @@ DCSUsername property.
 
 <a id="IQueueSettings.JobName"></a>
 
-### *property* IQueueSettings.JobName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IQueueSettings.JobName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Job Name field for the queue settings.
 
@@ -64,7 +64,7 @@ Gets or sets the Job Name field for the queue settings.
 
 <a id="IQueueSettings.License"></a>
 
-### *property* IQueueSettings.License *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IQueueSettings.License *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the License field for the queue settings.
 
@@ -72,7 +72,7 @@ Gets or sets the License field for the queue settings.
 
 <a id="IQueueSettings.Name"></a>
 
-### *property* IQueueSettings.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IQueueSettings.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the name of the current queue for the configuration.
 
@@ -80,7 +80,7 @@ Gets or sets the name of the current queue for the configuration.
 
 <a id="IQueueSettings.SolutionExecutionTarget"></a>
 
-### *property* IQueueSettings.SolutionExecutionTarget *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IQueueSettings.SolutionExecutionTarget *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 SolutionExecutionTarget property.
 

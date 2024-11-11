@@ -70,7 +70,7 @@ Gets or sets the Axis.
 
 <a id="GeneralAxisymmetric.Children"></a>
 
-### *property* GeneralAxisymmetric.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -78,7 +78,7 @@ Gets the list of children.
 
 <a id="GeneralAxisymmetric.Comments"></a>
 
-### *property* GeneralAxisymmetric.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -86,7 +86,7 @@ Gets the list of associated comments.
 
 <a id="GeneralAxisymmetric.CoordinateSystem"></a>
 
-### *property* GeneralAxisymmetric.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -102,7 +102,7 @@ Gets the current DataModelObject’s category.
 
 <a id="GeneralAxisymmetric.EndPlane"></a>
 
-### *property* GeneralAxisymmetric.EndPlane *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.EndPlane *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EndPlane.
 
@@ -110,7 +110,7 @@ Gets or sets the EndPlane.
 
 <a id="GeneralAxisymmetric.Figures"></a>
 
-### *property* GeneralAxisymmetric.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -118,7 +118,7 @@ Gets the list of associated figures.
 
 <a id="GeneralAxisymmetric.Images"></a>
 
-### *property* GeneralAxisymmetric.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -142,7 +142,7 @@ Gets or sets the Location.
 
 <a id="GeneralAxisymmetric.NodalPlanes"></a>
 
-### *property* GeneralAxisymmetric.NodalPlanes *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.NodalPlanes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodalPlanes.
 
@@ -158,7 +158,7 @@ Gets or sets the NodalPlanesVisible.
 
 <a id="GeneralAxisymmetric.Properties"></a>
 
-### *property* GeneralAxisymmetric.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -166,7 +166,7 @@ Gets the list of properties for this object.
 
 <a id="GeneralAxisymmetric.ReadOnly"></a>
 
-### *property* GeneralAxisymmetric.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -174,7 +174,7 @@ Gets or sets the ReadOnly.
 
 <a id="GeneralAxisymmetric.StartPlane"></a>
 
-### *property* GeneralAxisymmetric.StartPlane *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.StartPlane *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StartPlane.
 
@@ -182,7 +182,7 @@ Gets or sets the StartPlane.
 
 <a id="GeneralAxisymmetric.Suppressed"></a>
 
-### *property* GeneralAxisymmetric.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -190,7 +190,7 @@ Gets or sets the Suppressed.
 
 <a id="GeneralAxisymmetric.VisibleProperties"></a>
 
-### *property* GeneralAxisymmetric.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralAxisymmetric.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -226,7 +226,7 @@ Creates a new child Figure.
 
 <a id="GeneralAxisymmetric.AddImage"></a>
 
-### GeneralAxisymmetric.AddImage(filePath: System.String)
+### GeneralAxisymmetric.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -246,7 +246,7 @@ Copies all visible properties from this object to another.
 
 <a id="GeneralAxisymmetric.CreateParameter"></a>
 
-### GeneralAxisymmetric.CreateParameter(propName: System.String)
+### GeneralAxisymmetric.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -270,7 +270,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="GeneralAxisymmetric.GetChildren"></a>
 
-### GeneralAxisymmetric.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### GeneralAxisymmetric.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -278,7 +278,7 @@ Gets the list of children, filtered by type.
 
 <a id="GeneralAxisymmetric.GetParameter"></a>
 
-### GeneralAxisymmetric.GetParameter(propName: System.String)
+### GeneralAxisymmetric.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -302,7 +302,7 @@ Run the GroupSimilarObjects action.
 
 <a id="GeneralAxisymmetric.PropertyByAPIName"></a>
 
-### GeneralAxisymmetric.PropertyByAPIName(name: System.String)
+### GeneralAxisymmetric.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -313,7 +313,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="GeneralAxisymmetric.PropertyByName"></a>
 
-### GeneralAxisymmetric.PropertyByName(name: System.String)
+### GeneralAxisymmetric.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -321,7 +321,7 @@ Get a property by its unique name.
 
 <a id="GeneralAxisymmetric.RemoveParameter"></a>
 
-### GeneralAxisymmetric.RemoveParameter(propName: System.String)
+### GeneralAxisymmetric.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Exposes simple getters and setters for rigid body transformations.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`IsOrthonormal`](#SimpleTransform.IsOrthonormal)               | Returns true if the provided axis vectors are all normalized and orthogonal.      |
 | [`TransformationMatrix`](#SimpleTransform.TransformationMatrix) | TransformationMatrix property.                                                    |
 | [`Translation`](#SimpleTransform.Translation)                   | The translation of the transformation with respect to the global/world coordinate |
@@ -31,7 +31,7 @@ Exposes simple getters and setters for rigid body transformations.
 
 <a id="SimpleTransform.IsOrthonormal"></a>
 
-### *property* SimpleTransform.IsOrthonormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SimpleTransform.IsOrthonormal *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns true if the provided axis vectors are all normalized and orthogonal.
 

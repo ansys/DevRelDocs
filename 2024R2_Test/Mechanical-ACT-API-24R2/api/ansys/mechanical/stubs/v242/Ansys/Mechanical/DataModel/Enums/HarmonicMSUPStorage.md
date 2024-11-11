@@ -17,7 +17,7 @@ Specifies the HarmonicMSUPStorage.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`AllFrequencies`](#HarmonicMSUPStorage.AllFrequencies) |
 | [`SelectedFrequencies`](#HarmonicMSUPStorage.SelectedFrequencies) |
 

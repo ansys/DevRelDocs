@@ -17,7 +17,7 @@ Represents a node associated to a NBLOCK command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------|---------------------------|
+|-------------------------------------|---------------------------|
 | [`Id`](#CommandNode.Id)             | Gets the node number.     |
 | [`Location`](#CommandNode.Location) | Gets the coordinates.     |
 | [`Rotation`](#CommandNode.Rotation) | Gets the rotation angles. |
@@ -28,7 +28,7 @@ Represents a node associated to a NBLOCK command.
 
 <a id="CommandNode.Id"></a>
 
-### *property* CommandNode.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandNode.Id *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the node number.
 
@@ -36,7 +36,7 @@ Gets the node number.
 
 <a id="CommandNode.Location"></a>
 
-### *property* CommandNode.Location *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandNode.Location *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the coordinates.
 
@@ -44,7 +44,7 @@ Gets the coordinates.
 
 <a id="CommandNode.Rotation"></a>
 
-### *property* CommandNode.Rotation *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandNode.Rotation *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the rotation angles.
 

@@ -17,7 +17,7 @@ Specifies the SymmetryNormalType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------- |
 | [`XAxis`](#SymmetryNormalType.XAxis) |
 | [`YAxis`](#SymmetryNormalType.YAxis) |
 | [`ZAxis`](#SymmetryNormalType.ZAxis) |

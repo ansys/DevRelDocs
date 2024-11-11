@@ -33,7 +33,7 @@ Defines the configuration for the Core failure criterion for sandwich structures
 
 <a id="CoreFailureSettings.ConsiderInterlaminarNormalStresses"></a>
 
-### *property* CoreFailureSettings.ConsiderInterlaminarNormalStresses *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoreFailureSettings.ConsiderInterlaminarNormalStresses *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether interlaminar normal stresses are included in the core failure evaluation.
 
@@ -41,7 +41,7 @@ Gets or sets whether interlaminar normal stresses are included in the core failu
 
 <a id="CoreFailureSettings.WeightingFactor"></a>
 
-### *property* CoreFailureSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoreFailureSettings.WeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the core failure criterion. The corresponding failure label
 : is ‘cf’.

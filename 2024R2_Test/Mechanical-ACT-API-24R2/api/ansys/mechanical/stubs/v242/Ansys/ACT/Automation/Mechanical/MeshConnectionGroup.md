@@ -92,7 +92,7 @@ Defines a MeshConnectionGroup.
 
 <a id="MeshConnectionGroup.ActiveConnections"></a>
 
-### *property* MeshConnectionGroup.ActiveConnections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.ActiveConnections *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ActiveConnections.
 
@@ -100,7 +100,7 @@ Gets the ActiveConnections.
 
 <a id="MeshConnectionGroup.AutomaticFixedJoints"></a>
 
-### *property* MeshConnectionGroup.AutomaticFixedJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.AutomaticFixedJoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticFixedJoints.
 
@@ -108,7 +108,7 @@ Gets or sets the AutomaticFixedJoints.
 
 <a id="MeshConnectionGroup.Children"></a>
 
-### *property* MeshConnectionGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -116,7 +116,7 @@ Gets the list of children.
 
 <a id="MeshConnectionGroup.Comments"></a>
 
-### *property* MeshConnectionGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -132,7 +132,7 @@ Gets or sets the ConnectionType.
 
 <a id="MeshConnectionGroup.Connections"></a>
 
-### *property* MeshConnectionGroup.Connections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.Connections *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Connections.
 
@@ -164,7 +164,7 @@ Gets or sets the EdgeEdge.
 
 <a id="MeshConnectionGroup.EdgeOverlapTolerance"></a>
 
-### *property* MeshConnectionGroup.EdgeOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.EdgeOverlapTolerance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeOverlapTolerance.
 
@@ -188,7 +188,7 @@ Gets or sets the FaceEdge.
 
 <a id="MeshConnectionGroup.FaceFace"></a>
 
-### *property* MeshConnectionGroup.FaceFace *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.FaceFace *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceFace.
 
@@ -204,7 +204,7 @@ Gets or sets the FaceFaceDetectionAngleTolerence.
 
 <a id="MeshConnectionGroup.FaceOverlapTolerance"></a>
 
-### *property* MeshConnectionGroup.FaceOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.FaceOverlapTolerance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceOverlapTolerance.
 
@@ -212,7 +212,7 @@ Gets or sets the FaceOverlapTolerance.
 
 <a id="MeshConnectionGroup.Figures"></a>
 
-### *property* MeshConnectionGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -228,7 +228,7 @@ Gets or sets the GroupBy.
 
 <a id="MeshConnectionGroup.Images"></a>
 
-### *property* MeshConnectionGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -252,7 +252,7 @@ Gets or sets the Location.
 
 <a id="MeshConnectionGroup.MinimumDistancePercentage"></a>
 
-### *property* MeshConnectionGroup.MinimumDistancePercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.MinimumDistancePercentage *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumDistancePercentage.
 
@@ -276,7 +276,7 @@ Gets or sets the Priority.
 
 <a id="MeshConnectionGroup.Properties"></a>
 
-### *property* MeshConnectionGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -284,7 +284,7 @@ Gets the list of properties for this object.
 
 <a id="MeshConnectionGroup.ReadOnly"></a>
 
-### *property* MeshConnectionGroup.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -292,7 +292,7 @@ Gets or sets the ReadOnly.
 
 <a id="MeshConnectionGroup.RevoluteJoints"></a>
 
-### *property* MeshConnectionGroup.RevoluteJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.RevoluteJoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RevoluteJoints.
 
@@ -308,7 +308,7 @@ Gets or sets the SearchAcross.
 
 <a id="MeshConnectionGroup.Suppressed"></a>
 
-### *property* MeshConnectionGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -316,7 +316,7 @@ Gets or sets the Suppressed.
 
 <a id="MeshConnectionGroup.ThicknessScaleFactor"></a>
 
-### *property* MeshConnectionGroup.ThicknessScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.ThicknessScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThicknessScaleFactor.
 
@@ -324,7 +324,7 @@ Gets or sets the ThicknessScaleFactor.
 
 <a id="MeshConnectionGroup.ToleranceSlider"></a>
 
-### *property* MeshConnectionGroup.ToleranceSlider *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.ToleranceSlider *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceSlider.
 
@@ -348,7 +348,7 @@ Gets or sets the ToleranceValue.
 
 <a id="MeshConnectionGroup.UseRange"></a>
 
-### *property* MeshConnectionGroup.UseRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.UseRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseRange.
 
@@ -356,7 +356,7 @@ Gets or sets the UseRange.
 
 <a id="MeshConnectionGroup.VisibleProperties"></a>
 
-### *property* MeshConnectionGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -400,7 +400,7 @@ Creates a new child Figure.
 
 <a id="MeshConnectionGroup.AddImage"></a>
 
-### MeshConnectionGroup.AddImage(filePath: System.String)
+### MeshConnectionGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -460,7 +460,7 @@ Run the CreateAutomaticConnections action.
 
 <a id="MeshConnectionGroup.CreateParameter"></a>
 
-### MeshConnectionGroup.CreateParameter(propName: System.String)
+### MeshConnectionGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -508,7 +508,7 @@ Generate mesh connections.
 
 <a id="MeshConnectionGroup.GetChildren"></a>
 
-### MeshConnectionGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshConnectionGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -516,7 +516,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshConnectionGroup.GetParameter"></a>
 
-### MeshConnectionGroup.GetParameter(propName: System.String)
+### MeshConnectionGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -540,7 +540,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshConnectionGroup.PropertyByAPIName"></a>
 
-### MeshConnectionGroup.PropertyByAPIName(name: System.String)
+### MeshConnectionGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -551,7 +551,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshConnectionGroup.PropertyByName"></a>
 
-### MeshConnectionGroup.PropertyByName(name: System.String)
+### MeshConnectionGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -559,7 +559,7 @@ Get a property by its unique name.
 
 <a id="MeshConnectionGroup.RemoveParameter"></a>
 
-### MeshConnectionGroup.RemoveParameter(propName: System.String)
+### MeshConnectionGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

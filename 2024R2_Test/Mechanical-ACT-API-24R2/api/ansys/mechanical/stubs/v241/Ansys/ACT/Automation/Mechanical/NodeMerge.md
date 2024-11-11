@@ -63,7 +63,7 @@ Defines a NodeMerge.
 
 <a id="NodeMerge.Children"></a>
 
-### *property* NodeMerge.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -71,7 +71,7 @@ Gets the list of children.
 
 <a id="NodeMerge.Comments"></a>
 
-### *property* NodeMerge.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -79,7 +79,7 @@ Gets the list of associated comments.
 
 <a id="NodeMerge.DataModelObjectCategory"></a>
 
-### *property* NodeMerge.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -87,7 +87,7 @@ Gets the current DataModelObject’s category.
 
 <a id="NodeMerge.Figures"></a>
 
-### *property* NodeMerge.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -95,7 +95,7 @@ Gets the list of associated figures.
 
 <a id="NodeMerge.Images"></a>
 
-### *property* NodeMerge.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -111,7 +111,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="NodeMerge.MasterBodies"></a>
 
-### *property* NodeMerge.MasterBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.MasterBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MasterBodies.
 
@@ -127,7 +127,7 @@ Gets or sets the MasterLocation.
 
 <a id="NodeMerge.Properties"></a>
 
-### *property* NodeMerge.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -135,7 +135,7 @@ Gets the list of properties for this object.
 
 <a id="NodeMerge.ScopingMethod"></a>
 
-### *property* NodeMerge.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ScopingMethod property.
 
@@ -143,7 +143,7 @@ ScopingMethod property.
 
 <a id="NodeMerge.SlaveBodies"></a>
 
-### *property* NodeMerge.SlaveBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.SlaveBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SlaveBodies.
 
@@ -159,7 +159,7 @@ Gets or sets the SlaveLocation.
 
 <a id="NodeMerge.Suppressed"></a>
 
-### *property* NodeMerge.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -167,7 +167,7 @@ Gets or sets the Suppressed.
 
 <a id="NodeMerge.ToleranceType"></a>
 
-### *property* NodeMerge.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
@@ -183,7 +183,7 @@ Gets/ Sets the ToleranceValue.
 
 <a id="NodeMerge.VisibleProperties"></a>
 
-### *property* NodeMerge.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMerge.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -219,7 +219,7 @@ Creates a new child Figure.
 
 <a id="NodeMerge.AddImage"></a>
 
-### NodeMerge.AddImage(filePath: System.String)
+### NodeMerge.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -239,7 +239,7 @@ Copies all visible properties from this object to another.
 
 <a id="NodeMerge.CreateParameter"></a>
 
-### NodeMerge.CreateParameter(propName: System.String)
+### NodeMerge.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -271,7 +271,7 @@ Run the Generate action.
 
 <a id="NodeMerge.GetChildren"></a>
 
-### NodeMerge.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NodeMerge.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -279,7 +279,7 @@ Gets the list of children, filtered by type.
 
 <a id="NodeMerge.GetParameter"></a>
 
-### NodeMerge.GetParameter(propName: System.String)
+### NodeMerge.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -303,7 +303,7 @@ Run the GroupSimilarObjects action.
 
 <a id="NodeMerge.PropertyByAPIName"></a>
 
-### NodeMerge.PropertyByAPIName(name: System.String)
+### NodeMerge.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -314,7 +314,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NodeMerge.PropertyByName"></a>
 
-### NodeMerge.PropertyByName(name: System.String)
+### NodeMerge.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -322,7 +322,7 @@ Get a property by its unique name.
 
 <a id="NodeMerge.RemoveParameter"></a>
 
-### NodeMerge.RemoveParameter(propName: System.String)
+### NodeMerge.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -57,7 +57,7 @@ Defines a ContactDebonding.
 
 <a id="ContactDebonding.ContactRegion"></a>
 
-### *property* ContactDebonding.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDebonding.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
@@ -89,7 +89,7 @@ Gets or sets the GenerationMethod.
 
 <a id="ContactDebonding.InitialCrack"></a>
 
-### *property* ContactDebonding.InitialCrack *: [Ansys.ACT.Automation.Mechanical.GenericCrack](../../../../../v241/Ansys/ACT/Automation/Mechanical/GenericCrack.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDebonding.InitialCrack *: [Ansys.ACT.Automation.Mechanical.GenericCrack](GenericCrack.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.GenericCrack) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialCrack.
 
@@ -113,7 +113,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactDebonding.Material"></a>
 
-### *property* ContactDebonding.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDebonding.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -145,7 +145,7 @@ Gets or sets the MinimumTimeStep.
 
 <a id="ContactDebonding.Properties"></a>
 
-### *property* ContactDebonding.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDebonding.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -153,7 +153,7 @@ Gets the list of properties for this object.
 
 <a id="ContactDebonding.Suppressed"></a>
 
-### *property* ContactDebonding.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDebonding.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -169,7 +169,7 @@ Gets the Type.
 
 <a id="ContactDebonding.VisibleProperties"></a>
 
-### *property* ContactDebonding.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDebonding.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -205,7 +205,7 @@ Copies all visible properties from this object to another.
 
 <a id="ContactDebonding.CreateParameter"></a>
 
-### ContactDebonding.CreateParameter(propName: System.String)
+### ContactDebonding.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -229,7 +229,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ContactDebonding.GetParameter"></a>
 
-### ContactDebonding.GetParameter(propName: System.String)
+### ContactDebonding.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -253,7 +253,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactDebonding.PropertyByAPIName"></a>
 
-### ContactDebonding.PropertyByAPIName(name: System.String)
+### ContactDebonding.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -264,7 +264,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactDebonding.PropertyByName"></a>
 
-### ContactDebonding.PropertyByName(name: System.String)
+### ContactDebonding.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -272,7 +272,7 @@ Get a property by its unique name.
 
 <a id="ContactDebonding.RemoveParameter"></a>
 
-### ContactDebonding.RemoveParameter(propName: System.String)
+### ContactDebonding.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

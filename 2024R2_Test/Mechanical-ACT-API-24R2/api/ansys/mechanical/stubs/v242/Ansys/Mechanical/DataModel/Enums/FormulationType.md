@@ -17,7 +17,7 @@ Specifies the FormulationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- |
 | [`Joint`](#FormulationType.Joint) |
 | [`ProgramControlled`](#FormulationType.ProgramControlled) |
 | [`SmallRotation`](#FormulationType.SmallRotation) |

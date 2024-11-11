@@ -17,7 +17,7 @@ Defines a AcousticIncidentWaveSource.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticIncidentWaveSource.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#AcousticIncidentWaveSource.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#AcousticIncidentWaveSource.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a AcousticIncidentWaveSource.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AnglePhi`](#AcousticIncidentWaveSource.AnglePhi)                                         | Gets or sets the AnglePhi.                                    |
 | [`AngleTheta`](#AcousticIncidentWaveSource.AngleTheta)                                     | Gets or sets the AngleTheta.                                  |
 | [`CalculateIncidentPower`](#AcousticIncidentWaveSource.CalculateIncidentPower)             | Gets or sets the CalculateIncidentPower.                      |
@@ -96,7 +96,7 @@ Gets or sets the AngleTheta.
 
 <a id="AcousticIncidentWaveSource.CalculateIncidentPower"></a>
 
-### *property* AcousticIncidentWaveSource.CalculateIncidentPower *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.CalculateIncidentPower *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateIncidentPower.
 
@@ -104,7 +104,7 @@ Gets or sets the CalculateIncidentPower.
 
 <a id="AcousticIncidentWaveSource.Children"></a>
 
-### *property* AcousticIncidentWaveSource.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -112,7 +112,7 @@ Gets the list of children.
 
 <a id="AcousticIncidentWaveSource.Comments"></a>
 
-### *property* AcousticIncidentWaveSource.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -120,7 +120,7 @@ Gets the list of associated comments.
 
 <a id="AcousticIncidentWaveSource.DataModelObjectCategory"></a>
 
-### *property* AcousticIncidentWaveSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -136,7 +136,7 @@ Gets or sets the DipoleLength.
 
 <a id="AcousticIncidentWaveSource.ExcitationType"></a>
 
-### *property* AcousticIncidentWaveSource.ExcitationType *: [Ansys.Mechanical.DataModel.Enums.ExcitationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExcitationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExcitationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.ExcitationType *: [Ansys.Mechanical.DataModel.Enums.ExcitationType](../../../../Mechanical/DataModel/Enums/ExcitationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExcitationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExcitationType.
 
@@ -144,7 +144,7 @@ Gets or sets the ExcitationType.
 
 <a id="AcousticIncidentWaveSource.Figures"></a>
 
-### *property* AcousticIncidentWaveSource.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -152,7 +152,7 @@ Gets the list of associated figures.
 
 <a id="AcousticIncidentWaveSource.Images"></a>
 
-### *property* AcousticIncidentWaveSource.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -160,7 +160,7 @@ Gets the list of associated images.
 
 <a id="AcousticIncidentWaveSource.IncidentWaveLocation"></a>
 
-### *property* AcousticIncidentWaveSource.IncidentWaveLocation *: [Ansys.Mechanical.DataModel.Enums.IncidentWaveLocation](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/IncidentWaveLocation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.IncidentWaveLocation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.IncidentWaveLocation *: [Ansys.Mechanical.DataModel.Enums.IncidentWaveLocation](../../../../Mechanical/DataModel/Enums/IncidentWaveLocation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.IncidentWaveLocation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IncidentWaveLocation.
 
@@ -184,7 +184,7 @@ Gets or sets the MassDensity.
 
 <a id="AcousticIncidentWaveSource.Material"></a>
 
-### *property* AcousticIncidentWaveSource.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -192,7 +192,7 @@ Gets or sets the Material.
 
 <a id="AcousticIncidentWaveSource.MaterialAssignment"></a>
 
-### *property* AcousticIncidentWaveSource.MaterialAssignment *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.MaterialAssignment *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -224,7 +224,7 @@ Gets or sets the PressureAmplitude.
 
 <a id="AcousticIncidentWaveSource.Properties"></a>
 
-### *property* AcousticIncidentWaveSource.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -240,7 +240,7 @@ Gets or sets the RadiusOfPulsatingSphere.
 
 <a id="AcousticIncidentWaveSource.ReadOnly"></a>
 
-### *property* AcousticIncidentWaveSource.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -288,7 +288,7 @@ Gets or sets the SpeedOfSound.
 
 <a id="AcousticIncidentWaveSource.Suppressed"></a>
 
-### *property* AcousticIncidentWaveSource.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -304,7 +304,7 @@ Gets or sets the VelocityAmplitude.
 
 <a id="AcousticIncidentWaveSource.VisibleProperties"></a>
 
-### *property* AcousticIncidentWaveSource.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -312,7 +312,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticIncidentWaveSource.WaveNumber"></a>
 
-### *property* AcousticIncidentWaveSource.WaveNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.WaveNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the WaveNumber.
 
@@ -320,7 +320,7 @@ Gets the WaveNumber.
 
 <a id="AcousticIncidentWaveSource.WaveType"></a>
 
-### *property* AcousticIncidentWaveSource.WaveType *: [Ansys.Mechanical.DataModel.Enums.WaveType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WaveType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WaveType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.WaveType *: [Ansys.Mechanical.DataModel.Enums.WaveType](../../../../Mechanical/DataModel/Enums/WaveType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WaveType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WaveType.
 
@@ -328,7 +328,7 @@ Gets or sets the WaveType.
 
 <a id="AcousticIncidentWaveSource.XComponentOfUnitDipoleVector"></a>
 
-### *property* AcousticIncidentWaveSource.XComponentOfUnitDipoleVector *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.XComponentOfUnitDipoleVector *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XComponentOfUnitDipoleVector.
 
@@ -336,7 +336,7 @@ Gets or sets the XComponentOfUnitDipoleVector.
 
 <a id="AcousticIncidentWaveSource.YComponentOfUnitDipoleVector"></a>
 
-### *property* AcousticIncidentWaveSource.YComponentOfUnitDipoleVector *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.YComponentOfUnitDipoleVector *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YComponentOfUnitDipoleVector.
 
@@ -344,7 +344,7 @@ Gets or sets the YComponentOfUnitDipoleVector.
 
 <a id="AcousticIncidentWaveSource.ZComponentOfUnitDipoleVector"></a>
 
-### *property* AcousticIncidentWaveSource.ZComponentOfUnitDipoleVector *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticIncidentWaveSource.ZComponentOfUnitDipoleVector *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZComponentOfUnitDipoleVector.
 
@@ -380,7 +380,7 @@ Creates a new child Figure.
 
 <a id="AcousticIncidentWaveSource.AddImage"></a>
 
-### AcousticIncidentWaveSource.AddImage(filePath: System.String)
+### AcousticIncidentWaveSource.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -400,7 +400,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticIncidentWaveSource.CreateParameter"></a>
 
-### AcousticIncidentWaveSource.CreateParameter(propName: System.String)
+### AcousticIncidentWaveSource.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -424,7 +424,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticIncidentWaveSource.GetChildren"></a>
 
-### AcousticIncidentWaveSource.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticIncidentWaveSource.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -432,7 +432,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticIncidentWaveSource.GetParameter"></a>
 
-### AcousticIncidentWaveSource.GetParameter(propName: System.String)
+### AcousticIncidentWaveSource.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -464,7 +464,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticIncidentWaveSource.PropertyByAPIName"></a>
 
-### AcousticIncidentWaveSource.PropertyByAPIName(name: System.String)
+### AcousticIncidentWaveSource.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -475,7 +475,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticIncidentWaveSource.PropertyByName"></a>
 
-### AcousticIncidentWaveSource.PropertyByName(name: System.String)
+### AcousticIncidentWaveSource.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -483,7 +483,7 @@ Get a property by its unique name.
 
 <a id="AcousticIncidentWaveSource.RemoveParameter"></a>
 
-### AcousticIncidentWaveSource.RemoveParameter(propName: System.String)
+### AcousticIncidentWaveSource.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

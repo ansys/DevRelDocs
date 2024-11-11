@@ -17,7 +17,7 @@ Defines a AcousticFarFieldSPLMicWaterfallDiagram.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticFarFieldSPLMicWaterfallDiagram.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#AcousticFarFieldSPLMicWaterfallDiagram.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#AcousticFarFieldSPLMicWaterfallDiagram.AddComment)                           | Creates a new child Comment.                                                      |
@@ -50,7 +50,7 @@ Defines a AcousticFarFieldSPLMicWaterfallDiagram.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#AcousticFarFieldSPLMicWaterfallDiagram.Average)                                                       | Gets the Average.                                                      |
 | [`By`](#AcousticFarFieldSPLMicWaterfallDiagram.By)                                                                 | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#AcousticFarFieldSPLMicWaterfallDiagram.CalculateTimeHistory)                             | Gets or sets the CalculateTimeHistory.                                 |
@@ -120,7 +120,7 @@ Defines a AcousticFarFieldSPLMicWaterfallDiagram.
 | [`Substep`](#AcousticFarFieldSPLMicWaterfallDiagram.Substep)                                                       | Gets the Substep.                                                      |
 | [`Suppressed`](#AcousticFarFieldSPLMicWaterfallDiagram.Suppressed)                                                 | Gets or sets the Suppressed.                                           |
 | [`Surface`](#AcousticFarFieldSPLMicWaterfallDiagram.Surface)                                                       | Surface property.                                                      |
-| [`SurfaceCoating`](#AcousticFarFieldSPLMicWaterfallDiagram.SurfaceCoating)                                                                                                                                                                    | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#AcousticFarFieldSPLMicWaterfallDiagram.SurfaceCoating)                                         | SurfaceCoating property.                                               |
 | [`ThetaAngleEnd`](#AcousticFarFieldSPLMicWaterfallDiagram.ThetaAngleEnd)                                           | Gets or sets the ThetaAngleEnd.                                        |
 | [`ThetaAngleNoOfDivisions`](#AcousticFarFieldSPLMicWaterfallDiagram.ThetaAngleNoOfDivisions)                       | Gets or sets the ThetaAngleNoOfDivisions.                              |
 | [`ThetaAngleStart`](#AcousticFarFieldSPLMicWaterfallDiagram.ThetaAngleStart)                                       | Gets or sets the ThetaAngleStart.                                      |
@@ -130,7 +130,7 @@ Defines a AcousticFarFieldSPLMicWaterfallDiagram.
 | [`TimeForMinimumOfMaximumValues`](#AcousticFarFieldSPLMicWaterfallDiagram.TimeForMinimumOfMaximumValues)           | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#AcousticFarFieldSPLMicWaterfallDiagram.TimeForMinimumOfMinimumValues)           | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#AcousticFarFieldSPLMicWaterfallDiagram.VisibleProperties)                                   | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#AcousticFarFieldSPLMicWaterfallDiagram.WaterfallShowTextOnMosaic)                                                                                                                                              | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#AcousticFarFieldSPLMicWaterfallDiagram.WaterfallShowTextOnMosaic)                   | Gets or sets the Waterfall Mosaic Text Property.                       |
 | [`Worksheet`](#AcousticFarFieldSPLMicWaterfallDiagram.Worksheet)                                                   | Get the ObjectiveWorksheet action.                                     |
 | [`XCoordinate`](#AcousticFarFieldSPLMicWaterfallDiagram.XCoordinate)                                               | Gets or sets the XCoordinate.                                          |
 | [`YAxisExtrusionAngle`](#AcousticFarFieldSPLMicWaterfallDiagram.YAxisExtrusionAngle)                               | Gets or sets the YAxisExtrusionAngle.                                  |
@@ -159,7 +159,7 @@ Gets or sets the By.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.CalculateTimeHistory"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -167,7 +167,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.Children"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -175,7 +175,7 @@ Gets the list of children.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.CombinationNumber"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -183,7 +183,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.Comments"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -191,7 +191,7 @@ Gets the list of associated comments.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.CoordinateSystem"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -201,7 +201,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.CrackFrontNumber"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -281,7 +281,7 @@ Gets or sets the FarFieldMicrophoneDefinitionMethod.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.Figures"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -297,7 +297,7 @@ Gets or sets the Frequency.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.GlobalIDs"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -313,7 +313,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.Identifier"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -321,7 +321,7 @@ Gets or sets the Identifier.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.Images"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -337,7 +337,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.IsSolved"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -353,7 +353,7 @@ Gets or sets the ItemType.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.IterationNumber"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -361,7 +361,7 @@ Gets the IterationNumber.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.LoadStep"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -369,7 +369,7 @@ Gets the LoadStep.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -377,7 +377,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -385,7 +385,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -393,7 +393,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -401,7 +401,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.LoadStepNumber"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -417,7 +417,7 @@ Gets or sets the Location.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.LogarithmicDecrement"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -433,7 +433,7 @@ Gets the Maximum.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.MaximumOccursOn"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -465,7 +465,7 @@ Gets the Minimum.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.MinimumOccursOn"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -489,7 +489,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.ModalDampingRatio"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -513,7 +513,7 @@ Gets or sets the ModelType.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.NamedSelections"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -537,7 +537,7 @@ Gets or sets the PhiAngleEnd.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.PhiAngleNoOfDivisions"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.PhiAngleNoOfDivisions *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.PhiAngleNoOfDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PhiAngleNoOfDivisions.
 
@@ -561,7 +561,7 @@ Gets the result table.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.Properties"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -601,7 +601,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.SetNumber"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -617,7 +617,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.SolverComponentIDs"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -673,7 +673,7 @@ Gets or sets the StartingRadiationAngleTheta.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.Substep"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -681,7 +681,7 @@ Gets the Substep.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.Suppressed"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -713,7 +713,7 @@ Gets or sets the ThetaAngleEnd.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.ThetaAngleNoOfDivisions"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.ThetaAngleNoOfDivisions *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.ThetaAngleNoOfDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThetaAngleNoOfDivisions.
 
@@ -769,7 +769,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.VisibleProperties"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -777,7 +777,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.WaterfallShowTextOnMosaic"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -785,7 +785,7 @@ Gets or sets the Waterfall Mosaic Text Property.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.Worksheet"></a>
 
-### *property* AcousticFarFieldSPLMicWaterfallDiagram.Worksheet *: [Ansys.ACT.Automation.Mechanical.AcousticsFarFieldResultWorksheet](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AcousticsFarFieldResultWorksheet.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AcousticsFarFieldResultWorksheet) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldSPLMicWaterfallDiagram.Worksheet *: [Ansys.ACT.Automation.Mechanical.AcousticsFarFieldResultWorksheet](../../AcousticsFarFieldResultWorksheet.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AcousticsFarFieldResultWorksheet) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the ObjectiveWorksheet action.
 
@@ -869,7 +869,7 @@ Creates a new child Figure.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.AddImage"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.AddImage(filePath: System.String)
+### AcousticFarFieldSPLMicWaterfallDiagram.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -897,7 +897,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.CreateParameter"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.CreateParameter(propName: System.String)
+### AcousticFarFieldSPLMicWaterfallDiagram.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -945,7 +945,7 @@ Run the EvaluateAllResults action.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.ExportAnimation"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AcousticFarFieldSPLMicWaterfallDiagram.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -953,7 +953,7 @@ Run the ExportAnimation action.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.ExportToTextFile"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.ExportToTextFile(filePath: System.String)
+### AcousticFarFieldSPLMicWaterfallDiagram.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -961,7 +961,7 @@ Run the ExportToTextFile action.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.ExportToWAVFile"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.ExportToWAVFile(filePath: System.String)
+### AcousticFarFieldSPLMicWaterfallDiagram.ExportToWAVFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToWAVFile action.
 
@@ -969,7 +969,7 @@ Run the ExportToWAVFile action.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.ExportToXMLFile"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.ExportToXMLFile(filePath: System.String)
+### AcousticFarFieldSPLMicWaterfallDiagram.ExportToXMLFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToXMLFile action.
 
@@ -985,7 +985,7 @@ Run the FetchRemoteResult action.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.GetChildren"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticFarFieldSPLMicWaterfallDiagram.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -993,7 +993,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.GetParameter"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.GetParameter(propName: System.String)
+### AcousticFarFieldSPLMicWaterfallDiagram.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1025,7 +1025,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.PropertyByAPIName"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.PropertyByAPIName(name: System.String)
+### AcousticFarFieldSPLMicWaterfallDiagram.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1036,7 +1036,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.PropertyByName"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.PropertyByName(name: System.String)
+### AcousticFarFieldSPLMicWaterfallDiagram.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1044,7 +1044,7 @@ Get a property by its unique name.
 
 <a id="AcousticFarFieldSPLMicWaterfallDiagram.RemoveParameter"></a>
 
-### AcousticFarFieldSPLMicWaterfallDiagram.RemoveParameter(propName: System.String)
+### AcousticFarFieldSPLMicWaterfallDiagram.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

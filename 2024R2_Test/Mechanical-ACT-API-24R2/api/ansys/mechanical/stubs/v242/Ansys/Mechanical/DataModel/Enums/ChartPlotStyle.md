@@ -17,7 +17,7 @@ Specifies the ChartPlotStyle.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------- |
+| ------------------------------------ |
 | [`Both`](#ChartPlotStyle.Both) |
 | [`Lines`](#ChartPlotStyle.Lines) |
 | [`Points`](#ChartPlotStyle.Points) |

@@ -101,7 +101,7 @@ Gets or sets the AppliedBy.
 
 <a id="Force.Children"></a>
 
-### *property* Force.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -109,7 +109,7 @@ Gets the list of children.
 
 <a id="Force.Comments"></a>
 
-### *property* Force.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -117,7 +117,7 @@ Gets the list of associated comments.
 
 <a id="Force.CoordinateSystem"></a>
 
-### *property* Force.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -149,7 +149,7 @@ Gets or sets the Direction.
 
 <a id="Force.DivideLoadByNodes"></a>
 
-### *property* Force.DivideLoadByNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.DivideLoadByNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DivideLoadByNodes.
 
@@ -165,7 +165,7 @@ Gets or sets the DynamicRelaxationBehavior.
 
 <a id="Force.Figures"></a>
 
-### *property* Force.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -189,7 +189,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="Force.Images"></a>
 
-### *property* Force.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -221,7 +221,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="Force.LoadVectorNumber"></a>
 
-### *property* Force.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.LoadVectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorNumber.
 
@@ -261,7 +261,7 @@ Gets or sets the NonCyclicLoadingType.
 
 <a id="Force.NumberOfSegments"></a>
 
-### *property* Force.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -277,7 +277,7 @@ Gets the PhaseAngle.
 
 <a id="Force.Properties"></a>
 
-### *property* Force.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -301,7 +301,7 @@ Gets or sets the RangeMinimum.
 
 <a id="Force.ReadOnly"></a>
 
-### *property* Force.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -325,7 +325,7 @@ Gets or sets the SectorNumber.
 
 <a id="Force.SharedRefBody"></a>
 
-### *property* Force.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -333,7 +333,7 @@ Gets or sets the SharedRefBody.
 
 <a id="Force.StepSelection"></a>
 
-### *property* Force.StepSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.StepSelection *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepSelection.
 
@@ -349,7 +349,7 @@ Gets or sets the StepVarying.
 
 <a id="Force.Suppressed"></a>
 
-### *property* Force.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -357,7 +357,7 @@ Gets or sets the Suppressed.
 
 <a id="Force.VisibleProperties"></a>
 
-### *property* Force.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -465,7 +465,7 @@ Creates a new child Figure.
 
 <a id="Force.AddImage"></a>
 
-### Force.AddImage(filePath: System.String)
+### Force.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -485,7 +485,7 @@ Copies all visible properties from this object to another.
 
 <a id="Force.CreateParameter"></a>
 
-### Force.CreateParameter(propName: System.String)
+### Force.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -509,7 +509,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Force.GetActivateAtLoadStep"></a>
 
-### Force.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### Force.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -517,7 +517,7 @@ GetActivateAtLoadStep method.
 
 <a id="Force.GetChildren"></a>
 
-### Force.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Force.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -525,7 +525,7 @@ Gets the list of children, filtered by type.
 
 <a id="Force.GetComponentActivateAtLoadStep"></a>
 
-### Force.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### Force.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -533,7 +533,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="Force.GetParameter"></a>
 
-### Force.GetParameter(propName: System.String)
+### Force.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -565,7 +565,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="Force.PropertyByAPIName"></a>
 
-### Force.PropertyByAPIName(name: System.String)
+### Force.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -576,7 +576,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Force.PropertyByName"></a>
 
-### Force.PropertyByName(name: System.String)
+### Force.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -584,7 +584,7 @@ Get a property by its unique name.
 
 <a id="Force.RemoveParameter"></a>
 
-### Force.RemoveParameter(propName: System.String)
+### Force.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -592,7 +592,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Force.SetActivateAtLoadStep"></a>
 
-### Force.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### Force.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -600,7 +600,7 @@ SetActivateAtLoadStep method.
 
 <a id="Force.SetComponentActivateAtLoadStep"></a>
 
-### Force.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### Force.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

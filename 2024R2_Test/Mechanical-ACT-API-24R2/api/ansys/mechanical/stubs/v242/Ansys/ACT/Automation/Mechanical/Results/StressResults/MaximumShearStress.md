@@ -17,7 +17,7 @@ Defines a MaximumShearStress.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MaximumShearStress.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#MaximumShearStress.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#MaximumShearStress.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a MaximumShearStress.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#MaximumShearStress.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#MaximumShearStress.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#MaximumShearStress.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -129,7 +129,7 @@ Defines a MaximumShearStress.
 | [`Subtype`](#MaximumShearStress.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#MaximumShearStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#MaximumShearStress.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#MaximumShearStress.SurfaceCoating)                                                                                                                                            | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#MaximumShearStress.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#MaximumShearStress.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#MaximumShearStress.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#MaximumShearStress.Time)                                                           | Gets the Time.                                                         |
@@ -141,7 +141,7 @@ Defines a MaximumShearStress.
 | [`TotalInside`](#MaximumShearStress.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#MaximumShearStress.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#MaximumShearStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#MaximumShearStress.WaterfallShowTextOnMosaic)                                                                                                                      | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#MaximumShearStress.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -149,7 +149,7 @@ Defines a MaximumShearStress.
 
 <a id="MaximumShearStress.Amplitude"></a>
 
-### *property* MaximumShearStress.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -165,7 +165,7 @@ Gets the Average.
 
 <a id="MaximumShearStress.AverageAcrossBodies"></a>
 
-### *property* MaximumShearStress.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -205,7 +205,7 @@ Gets or sets the By.
 
 <a id="MaximumShearStress.CalculateTimeHistory"></a>
 
-### *property* MaximumShearStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -213,7 +213,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="MaximumShearStress.Children"></a>
 
-### *property* MaximumShearStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -221,7 +221,7 @@ Gets the list of children.
 
 <a id="MaximumShearStress.CombinationNumber"></a>
 
-### *property* MaximumShearStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -229,7 +229,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="MaximumShearStress.Comments"></a>
 
-### *property* MaximumShearStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -237,7 +237,7 @@ Gets the list of associated comments.
 
 <a id="MaximumShearStress.CoordinateSystem"></a>
 
-### *property* MaximumShearStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -247,7 +247,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="MaximumShearStress.CrackFrontNumber"></a>
 
-### *property* MaximumShearStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -255,7 +255,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="MaximumShearStress.CyclicMode"></a>
 
-### *property* MaximumShearStress.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -295,7 +295,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="MaximumShearStress.EnvironmentSelection"></a>
 
-### *property* MaximumShearStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -303,7 +303,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="MaximumShearStress.Figures"></a>
 
-### *property* MaximumShearStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -319,7 +319,7 @@ Gets or sets the Frequency.
 
 <a id="MaximumShearStress.GlobalIDs"></a>
 
-### *property* MaximumShearStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -335,7 +335,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="MaximumShearStress.HarmonicIndex"></a>
 
-### *property* MaximumShearStress.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -343,7 +343,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="MaximumShearStress.Identifier"></a>
 
-### *property* MaximumShearStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -351,7 +351,7 @@ Gets or sets the Identifier.
 
 <a id="MaximumShearStress.Images"></a>
 
-### *property* MaximumShearStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -367,7 +367,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MaximumShearStress.IsSolved"></a>
 
-### *property* MaximumShearStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -383,7 +383,7 @@ Gets or sets the ItemType.
 
 <a id="MaximumShearStress.IterationNumber"></a>
 
-### *property* MaximumShearStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -391,7 +391,7 @@ Gets the IterationNumber.
 
 <a id="MaximumShearStress.IterationStep"></a>
 
-### *property* MaximumShearStress.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -399,7 +399,7 @@ Gets or sets the IterationStep.
 
 <a id="MaximumShearStress.Layer"></a>
 
-### *property* MaximumShearStress.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -415,7 +415,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="MaximumShearStress.LoadMultiplier"></a>
 
-### *property* MaximumShearStress.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -423,7 +423,7 @@ Gets the LoadMultiplier.
 
 <a id="MaximumShearStress.LoadStep"></a>
 
-### *property* MaximumShearStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -431,7 +431,7 @@ Gets the LoadStep.
 
 <a id="MaximumShearStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MaximumShearStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -439,7 +439,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="MaximumShearStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MaximumShearStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -447,7 +447,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="MaximumShearStress.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* MaximumShearStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -455,7 +455,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="MaximumShearStress.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* MaximumShearStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -463,7 +463,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="MaximumShearStress.LoadStepNumber"></a>
 
-### *property* MaximumShearStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -487,7 +487,7 @@ Gets the Maximum.
 
 <a id="MaximumShearStress.MaximumOccursOn"></a>
 
-### *property* MaximumShearStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -551,7 +551,7 @@ Gets the Minimum.
 
 <a id="MaximumShearStress.MinimumOccursOn"></a>
 
-### *property* MaximumShearStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -575,7 +575,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="MaximumShearStress.Mode"></a>
 
-### *property* MaximumShearStress.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -583,7 +583,7 @@ Gets or sets the Mode.
 
 <a id="MaximumShearStress.NamedSelections"></a>
 
-### *property* MaximumShearStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -639,7 +639,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="MaximumShearStress.Plies"></a>
 
-### *property* MaximumShearStress.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -655,7 +655,7 @@ Gets the result table.
 
 <a id="MaximumShearStress.Ply"></a>
 
-### *property* MaximumShearStress.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -671,7 +671,7 @@ Gets or sets the Position.
 
 <a id="MaximumShearStress.Probability"></a>
 
-### *property* MaximumShearStress.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -679,7 +679,7 @@ Gets the Probability.
 
 <a id="MaximumShearStress.Properties"></a>
 
-### *property* MaximumShearStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -711,7 +711,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MaximumShearStress.SetNumber"></a>
 
-### *property* MaximumShearStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -735,7 +735,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="MaximumShearStress.SolverComponentIDs"></a>
 
-### *property* MaximumShearStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -759,7 +759,7 @@ Gets or sets the SubScopeBy.
 
 <a id="MaximumShearStress.Substep"></a>
 
-### *property* MaximumShearStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -775,7 +775,7 @@ Gets or sets the Subtype.
 
 <a id="MaximumShearStress.Suppressed"></a>
 
-### *property* MaximumShearStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -879,7 +879,7 @@ Gets the TotalOutside.
 
 <a id="MaximumShearStress.VisibleProperties"></a>
 
-### *property* MaximumShearStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -887,7 +887,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="MaximumShearStress.WaterfallShowTextOnMosaic"></a>
 
-### *property* MaximumShearStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumShearStress.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -939,7 +939,7 @@ Creates a new child Figure.
 
 <a id="MaximumShearStress.AddImage"></a>
 
-### MaximumShearStress.AddImage(filePath: System.String)
+### MaximumShearStress.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -967,7 +967,7 @@ Copies all visible properties from this object to another.
 
 <a id="MaximumShearStress.CreateParameter"></a>
 
-### MaximumShearStress.CreateParameter(propName: System.String)
+### MaximumShearStress.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -1015,7 +1015,7 @@ Run the EvaluateAllResults action.
 
 <a id="MaximumShearStress.ExportAnimation"></a>
 
-### MaximumShearStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### MaximumShearStress.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1023,7 +1023,7 @@ Run the ExportAnimation action.
 
 <a id="MaximumShearStress.ExportToTextFile"></a>
 
-### MaximumShearStress.ExportToTextFile(filePath: System.String)
+### MaximumShearStress.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1039,7 +1039,7 @@ Run the FetchRemoteResult action.
 
 <a id="MaximumShearStress.GetChildren"></a>
 
-### MaximumShearStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MaximumShearStress.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1047,7 +1047,7 @@ Gets the list of children, filtered by type.
 
 <a id="MaximumShearStress.GetParameter"></a>
 
-### MaximumShearStress.GetParameter(propName: System.String)
+### MaximumShearStress.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1079,7 +1079,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="MaximumShearStress.PropertyByAPIName"></a>
 
-### MaximumShearStress.PropertyByAPIName(name: System.String)
+### MaximumShearStress.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1090,7 +1090,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MaximumShearStress.PropertyByName"></a>
 
-### MaximumShearStress.PropertyByName(name: System.String)
+### MaximumShearStress.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1098,7 +1098,7 @@ Get a property by its unique name.
 
 <a id="MaximumShearStress.RemoveParameter"></a>
 
-### MaximumShearStress.RemoveParameter(propName: System.String)
+### MaximumShearStress.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

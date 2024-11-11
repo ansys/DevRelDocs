@@ -30,7 +30,7 @@ Represents a CMEDIT command.
 
 <a id="CMEDITCommand.Aname"></a>
 
-### *property* CMEDITCommand.Aname *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMEDITCommand.Aname *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the assembly name.
 
@@ -38,7 +38,7 @@ Gets the assembly name.
 
 <a id="CMEDITCommand.Cnames"></a>
 
-### *property* CMEDITCommand.Cnames *: System.Collections.Generic.IReadOnlyList[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMEDITCommand.Cnames *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[str](https://docs.python.org/3/library/stdtypes.html#str)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the component names.
 
@@ -46,7 +46,7 @@ Gets the component names.
 
 <a id="CMEDITCommand.Index"></a>
 
-### *property* CMEDITCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMEDITCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -54,7 +54,7 @@ Gets the command index.
 
 <a id="CMEDITCommand.Name"></a>
 
-### *property* CMEDITCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMEDITCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -62,7 +62,7 @@ Gets the command name.
 
 <a id="CMEDITCommand.Oper"></a>
 
-### *property* CMEDITCommand.Oper *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMEDITCommand.Oper *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the operation label (add or dele).
 

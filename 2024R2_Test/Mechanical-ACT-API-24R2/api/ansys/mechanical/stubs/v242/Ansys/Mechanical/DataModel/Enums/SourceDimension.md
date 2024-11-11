@@ -17,7 +17,7 @@ Specifies the SourceDimension.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------- |
 | [`SourceDimension2D`](#SourceDimension.SourceDimension2D) |
 | [`SourceDimension3D`](#SourceDimension.SourceDimension3D) |
 

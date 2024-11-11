@@ -17,7 +17,7 @@ Specifies the CrackSelectionModeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------ |
 | [`AllCracks`](#CrackSelectionModeType.AllCracks) |
 | [`SingleCrack`](#CrackSelectionModeType.SingleCrack) |
 

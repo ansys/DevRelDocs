@@ -17,7 +17,7 @@ Specifies the AMMachineLearningModel.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`Al357`](#AMMachineLearningModel.Al357) |
 | [`AlSi10Mg`](#AMMachineLearningModel.AlSi10Mg) |
 | [`CoCr`](#AMMachineLearningModel.CoCr) |

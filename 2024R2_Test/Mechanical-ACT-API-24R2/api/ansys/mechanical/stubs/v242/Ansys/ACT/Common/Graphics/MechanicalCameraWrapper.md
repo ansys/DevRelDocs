@@ -17,7 +17,7 @@ Wrapper for Camera in Mechanical.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | [`GetAsString`](#MechanicalCameraWrapper.GetAsString)                               | Retrieves the view commands as related to the application type as a string.                       |
 | [`Pan`](#MechanicalCameraWrapper.Pan)                                               | Shifts the camera position horizontally or vertically based on x and y quantities.                |
 | [`Rotate`](#MechanicalCameraWrapper.Rotate)                                         | Rotates the camera about an axis.                                                                 |
@@ -28,7 +28,7 @@ Wrapper for Camera in Mechanical.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+|-------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [`FocalPoint`](#MechanicalCameraWrapper.FocalPoint)   | The focal point of the camera (coordinates are in the global coordinate system).             |
 | [`SceneHeight`](#MechanicalCameraWrapper.SceneHeight) | Specifies the scene height (in length units) that will be projected and fit to the viewport. |
 | [`SceneWidth`](#MechanicalCameraWrapper.SceneWidth)   | Specifies the scene width (in length units) that will be projected and fit to the viewport.  |
@@ -101,7 +101,7 @@ Shifts the camera position horizontally or vertically based on x and y quantitie
 
 <a id="MechanicalCameraWrapper.Rotate"></a>
 
-### MechanicalCameraWrapper.Rotate(angle: System.Double, axis: [Ansys.Mechanical.DataModel.Enums.CameraAxisType](../../../Mechanical/DataModel/Enums/CameraAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CameraAxisType))
+### MechanicalCameraWrapper.Rotate(angle: [float](https://docs.python.org/3/library/functions.html#float), axis: [Ansys.Mechanical.DataModel.Enums.CameraAxisType](../../../Mechanical/DataModel/Enums/CameraAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CameraAxisType))
 
 Rotates the camera about an axis.
 
@@ -125,7 +125,7 @@ Sets a specific view orientation.
 
 <a id="MechanicalCameraWrapper.Zoom"></a>
 
-### MechanicalCameraWrapper.Zoom(zoomVal: System.Double)
+### MechanicalCameraWrapper.Zoom(zoomVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Zooms in or out on the model.
 

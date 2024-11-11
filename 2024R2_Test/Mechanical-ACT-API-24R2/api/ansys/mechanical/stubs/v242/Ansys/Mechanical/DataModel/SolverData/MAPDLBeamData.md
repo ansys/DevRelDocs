@@ -17,7 +17,7 @@ MAPDLBeamData class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+|---------------------------------------------------|------------------------------------------------------|
 | [`ElementId`](#MAPDLBeamData.ElementId)           | Gets the Element number for the object.              |
 | [`MaterialId`](#MAPDLBeamData.MaterialId)         | Gets the Material Id number for the beam connection. |
 | [`RealConstantId`](#MAPDLBeamData.RealConstantId) | Gets the Real Constant Id number for the object.     |
@@ -28,7 +28,7 @@ MAPDLBeamData class.
 
 <a id="MAPDLBeamData.ElementId"></a>
 
-### *property* MAPDLBeamData.ElementId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLBeamData.ElementId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Element number for the object.
 
@@ -36,7 +36,7 @@ Gets the Element number for the object.
 
 <a id="MAPDLBeamData.MaterialId"></a>
 
-### *property* MAPDLBeamData.MaterialId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLBeamData.MaterialId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Material Id number for the beam connection.
 
@@ -44,7 +44,7 @@ Gets the Material Id number for the beam connection.
 
 <a id="MAPDLBeamData.RealConstantId"></a>
 
-### *property* MAPDLBeamData.RealConstantId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLBeamData.RealConstantId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Real Constant Id number for the object.
 

@@ -17,7 +17,7 @@ Defines a OptimizationRegion.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#OptimizationRegion.Activate)                               | Activate the current object.                                                      |
 | [`AddExclusionRegion`](#OptimizationRegion.AddExclusionRegion)           | Creates a new ExclusionRegion                                                     |
 | [`CopyTo`](#OptimizationRegion.CopyTo)                                   | Copies all visible properties from this object to another.                        |
@@ -36,7 +36,7 @@ Defines a OptimizationRegion.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`BoundaryCondition`](#OptimizationRegion.BoundaryCondition)                                         | Gets or sets the BoundaryCondition.                           |
 | [`Children`](#OptimizationRegion.Children)                                                           | Gets the list of children.                                    |
 | [`DataModelObjectCategory`](#OptimizationRegion.DataModelObjectCategory)                             | Gets the current DataModelObject’s category.                  |
@@ -79,7 +79,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="OptimizationRegion.Children"></a>
 
-### *property* OptimizationRegion.Children *: System.Collections.Generic.IList[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.Children *: List[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -143,7 +143,7 @@ Gets or sets the HyperbolicProjection.
 
 <a id="OptimizationRegion.InitialVolumeFraction"></a>
 
-### *property* OptimizationRegion.InitialVolumeFraction *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.InitialVolumeFraction *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialVolumeFraction.
 
@@ -175,7 +175,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="OptimizationRegion.LatticeMaxDensity"></a>
 
-### *property* OptimizationRegion.LatticeMaxDensity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.LatticeMaxDensity *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LatticeMaxDensity.
 
@@ -183,7 +183,7 @@ Gets or sets the LatticeMaxDensity.
 
 <a id="OptimizationRegion.LatticeMinDensity"></a>
 
-### *property* OptimizationRegion.LatticeMinDensity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.LatticeMinDensity *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LatticeMinDensity.
 
@@ -223,7 +223,7 @@ Gets or sets the MeshDeformationToleranceControl.
 
 <a id="OptimizationRegion.MorphingIterationMoveLimit"></a>
 
-### *property* OptimizationRegion.MorphingIterationMoveLimit *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.MorphingIterationMoveLimit *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MorphingIterationMoveLimit.
 
@@ -231,7 +231,7 @@ Gets or sets the MorphingIterationMoveLimit.
 
 <a id="OptimizationRegion.MorphingTotalMeshDeformationTolerance"></a>
 
-### *property* OptimizationRegion.MorphingTotalMeshDeformationTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.MorphingTotalMeshDeformationTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MorphingTotalMeshDeformationTolerance.
 
@@ -239,7 +239,7 @@ Gets or sets the MorphingTotalMeshDeformationTolerance.
 
 <a id="OptimizationRegion.MorphingTotalMoveLimit"></a>
 
-### *property* OptimizationRegion.MorphingTotalMoveLimit *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.MorphingTotalMoveLimit *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MorphingTotalMoveLimit.
 
@@ -255,7 +255,7 @@ Gets or sets the OptimizationType.
 
 <a id="OptimizationRegion.PenaltyFactor"></a>
 
-### *property* OptimizationRegion.PenaltyFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.PenaltyFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PenaltyFactor.
 
@@ -263,7 +263,7 @@ Gets or sets the PenaltyFactor.
 
 <a id="OptimizationRegion.Properties"></a>
 
-### *property* OptimizationRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -279,7 +279,7 @@ Gets or sets the ShapeMoveLimitControl.
 
 <a id="OptimizationRegion.VisibleProperties"></a>
 
-### *property* OptimizationRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -315,7 +315,7 @@ Copies all visible properties from this object to another.
 
 <a id="OptimizationRegion.CreateParameter"></a>
 
-### OptimizationRegion.CreateParameter(propName: System.String)
+### OptimizationRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -339,7 +339,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="OptimizationRegion.GetChildren"></a>
 
-### OptimizationRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### OptimizationRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -347,7 +347,7 @@ Gets the list of children, filtered by type.
 
 <a id="OptimizationRegion.GetParameter"></a>
 
-### OptimizationRegion.GetParameter(propName: System.String)
+### OptimizationRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -371,7 +371,7 @@ Run the GroupSimilarObjects action.
 
 <a id="OptimizationRegion.PropertyByAPIName"></a>
 
-### OptimizationRegion.PropertyByAPIName(name: System.String)
+### OptimizationRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -382,7 +382,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="OptimizationRegion.PropertyByName"></a>
 
-### OptimizationRegion.PropertyByName(name: System.String)
+### OptimizationRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -390,7 +390,7 @@ Get a property by its unique name.
 
 <a id="OptimizationRegion.RemoveParameter"></a>
 
-### OptimizationRegion.RemoveParameter(propName: System.String)
+### OptimizationRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

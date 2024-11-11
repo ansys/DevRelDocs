@@ -17,7 +17,7 @@ Specifies the selection operator type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------- |
 | [`Contains`](#SelectionOperatorType.Contains) |
 | [`Equal`](#SelectionOperatorType.Equal) |
 | [`GreaterThan`](#SelectionOperatorType.GreaterThan) |

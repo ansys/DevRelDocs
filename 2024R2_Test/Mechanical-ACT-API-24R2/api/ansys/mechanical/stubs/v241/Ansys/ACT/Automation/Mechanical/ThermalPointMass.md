@@ -65,7 +65,7 @@ Defines a ThermalPointMass.
 
 <a id="ThermalPointMass.AppliedBy"></a>
 
-### *property* ThermalPointMass.AppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemoteApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.AppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AppliedBy.
 
@@ -73,7 +73,7 @@ Gets or sets the AppliedBy.
 
 <a id="ThermalPointMass.Behavior"></a>
 
-### *property* ThermalPointMass.Behavior *: [Ansys.Mechanical.DataModel.Enums.ThermalPointMassBehavior](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ThermalPointMassBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThermalPointMassBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.Behavior *: [Ansys.Mechanical.DataModel.Enums.ThermalPointMassBehavior](../../../Mechanical/DataModel/Enums/ThermalPointMassBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThermalPointMassBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -81,7 +81,7 @@ Gets or sets the Behavior.
 
 <a id="ThermalPointMass.Children"></a>
 
-### *property* ThermalPointMass.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -89,7 +89,7 @@ Gets the list of children.
 
 <a id="ThermalPointMass.Comments"></a>
 
-### *property* ThermalPointMass.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -105,7 +105,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="ThermalPointMass.DataModelObjectCategory"></a>
 
-### *property* ThermalPointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -113,7 +113,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ThermalPointMass.Figures"></a>
 
-### *property* ThermalPointMass.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -121,7 +121,7 @@ Gets the list of associated figures.
 
 <a id="ThermalPointMass.Images"></a>
 
-### *property* ThermalPointMass.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -137,7 +137,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ThermalPointMass.IsDistributedMass"></a>
 
-### *property* ThermalPointMass.IsDistributedMass *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.IsDistributedMass *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsDistributedMass.
 
@@ -161,7 +161,7 @@ Gets or sets the PinballRegion.
 
 <a id="ThermalPointMass.Properties"></a>
 
-### *property* ThermalPointMass.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -169,7 +169,7 @@ Gets the list of properties for this object.
 
 <a id="ThermalPointMass.ReadOnly"></a>
 
-### *property* ThermalPointMass.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -177,7 +177,7 @@ Gets or sets the ReadOnly.
 
 <a id="ThermalPointMass.RemotePoint"></a>
 
-### *property* ThermalPointMass.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the remote point associated to the point mass.
 
@@ -185,7 +185,7 @@ Gets the remote point associated to the point mass.
 
 <a id="ThermalPointMass.Suppressed"></a>
 
-### *property* ThermalPointMass.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -201,7 +201,7 @@ Gets or sets the ThermalCapacitance.
 
 <a id="ThermalPointMass.VisibleProperties"></a>
 
-### *property* ThermalPointMass.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalPointMass.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -245,7 +245,7 @@ Creates a new child Figure.
 
 <a id="ThermalPointMass.AddImage"></a>
 
-### ThermalPointMass.AddImage(filePath: System.String)
+### ThermalPointMass.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -265,7 +265,7 @@ Copies all visible properties from this object to another.
 
 <a id="ThermalPointMass.CreateParameter"></a>
 
-### ThermalPointMass.CreateParameter(propName: System.String)
+### ThermalPointMass.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -289,7 +289,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ThermalPointMass.GetChildren"></a>
 
-### ThermalPointMass.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ThermalPointMass.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -297,7 +297,7 @@ Gets the list of children, filtered by type.
 
 <a id="ThermalPointMass.GetParameter"></a>
 
-### ThermalPointMass.GetParameter(propName: System.String)
+### ThermalPointMass.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -329,7 +329,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="ThermalPointMass.PropertyByAPIName"></a>
 
-### ThermalPointMass.PropertyByAPIName(name: System.String)
+### ThermalPointMass.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -340,7 +340,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ThermalPointMass.PropertyByName"></a>
 
-### ThermalPointMass.PropertyByName(name: System.String)
+### ThermalPointMass.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -348,7 +348,7 @@ Get a property by its unique name.
 
 <a id="ThermalPointMass.RemoveParameter"></a>
 
-### ThermalPointMass.RemoveParameter(propName: System.String)
+### ThermalPointMass.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

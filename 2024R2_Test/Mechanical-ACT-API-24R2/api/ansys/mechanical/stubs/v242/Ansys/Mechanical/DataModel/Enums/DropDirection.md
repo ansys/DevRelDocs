@@ -17,7 +17,7 @@ Specifies the DropDirection.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`NegativeX`](#DropDirection.NegativeX) |
 | [`NegativeY`](#DropDirection.NegativeY) |
 | [`NegativeZ`](#DropDirection.NegativeZ) |

@@ -17,7 +17,7 @@ Values associated to an element surface load from a SFEBLOCK command.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+|---------------------------------------------------------------|------------------------------|
 | [`ValueCount`](#CommandElementSurfaceLoadValues.ValueCount)   | Gets the number of values.   |
 | [`Values`](#CommandElementSurfaceLoadValues.Values)           | Gets the values.             |
 
@@ -27,7 +27,7 @@ Values associated to an element surface load from a SFEBLOCK command.
 
 <a id="CommandElementSurfaceLoadValues.ValueCount"></a>
 
-### *property* CommandElementSurfaceLoadValues.ValueCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementSurfaceLoadValues.ValueCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of values.
 
@@ -35,7 +35,7 @@ Gets the number of values.
 
 <a id="CommandElementSurfaceLoadValues.Values"></a>
 
-### *property* CommandElementSurfaceLoadValues.Values *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementSurfaceLoadValues.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

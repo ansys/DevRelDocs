@@ -17,7 +17,7 @@ Defines a NodalEulerXZAngle.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#NodalEulerXZAngle.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#NodalEulerXZAngle.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#NodalEulerXZAngle.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a NodalEulerXZAngle.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#NodalEulerXZAngle.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#NodalEulerXZAngle.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#NodalEulerXZAngle.By)                                                               | Gets or sets the By.                                                   |
@@ -106,7 +106,7 @@ Defines a NodalEulerXZAngle.
 | [`Substep`](#NodalEulerXZAngle.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#NodalEulerXZAngle.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#NodalEulerXZAngle.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#NodalEulerXZAngle.SurfaceCoating)                                                                                                                                                      | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#NodalEulerXZAngle.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#NodalEulerXZAngle.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#NodalEulerXZAngle.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#NodalEulerXZAngle.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -114,7 +114,7 @@ Defines a NodalEulerXZAngle.
 | [`TimeForMinimumOfMaximumValues`](#NodalEulerXZAngle.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#NodalEulerXZAngle.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#NodalEulerXZAngle.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#NodalEulerXZAngle.WaterfallShowTextOnMosaic)                                                                                                                                | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#NodalEulerXZAngle.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -122,7 +122,7 @@ Defines a NodalEulerXZAngle.
 
 <a id="NodalEulerXZAngle.Amplitude"></a>
 
-### *property* NodalEulerXZAngle.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -146,7 +146,7 @@ Gets or sets the By.
 
 <a id="NodalEulerXZAngle.CalculateTimeHistory"></a>
 
-### *property* NodalEulerXZAngle.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -154,7 +154,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="NodalEulerXZAngle.Children"></a>
 
-### *property* NodalEulerXZAngle.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -162,7 +162,7 @@ Gets the list of children.
 
 <a id="NodalEulerXZAngle.CombinationNumber"></a>
 
-### *property* NodalEulerXZAngle.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -170,7 +170,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="NodalEulerXZAngle.Comments"></a>
 
-### *property* NodalEulerXZAngle.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -178,7 +178,7 @@ Gets the list of associated comments.
 
 <a id="NodalEulerXZAngle.CoordinateSystem"></a>
 
-### *property* NodalEulerXZAngle.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -188,7 +188,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="NodalEulerXZAngle.CrackFrontNumber"></a>
 
-### *property* NodalEulerXZAngle.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -228,7 +228,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="NodalEulerXZAngle.Figures"></a>
 
-### *property* NodalEulerXZAngle.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -244,7 +244,7 @@ Gets or sets the Frequency.
 
 <a id="NodalEulerXZAngle.GlobalIDs"></a>
 
-### *property* NodalEulerXZAngle.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -260,7 +260,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="NodalEulerXZAngle.Identifier"></a>
 
-### *property* NodalEulerXZAngle.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -268,7 +268,7 @@ Gets or sets the Identifier.
 
 <a id="NodalEulerXZAngle.Images"></a>
 
-### *property* NodalEulerXZAngle.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -284,7 +284,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="NodalEulerXZAngle.IsSolved"></a>
 
-### *property* NodalEulerXZAngle.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -300,7 +300,7 @@ Gets or sets the ItemType.
 
 <a id="NodalEulerXZAngle.IterationNumber"></a>
 
-### *property* NodalEulerXZAngle.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -308,7 +308,7 @@ Gets the IterationNumber.
 
 <a id="NodalEulerXZAngle.LoadMultiplier"></a>
 
-### *property* NodalEulerXZAngle.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -316,7 +316,7 @@ Gets the LoadMultiplier.
 
 <a id="NodalEulerXZAngle.LoadStep"></a>
 
-### *property* NodalEulerXZAngle.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -324,7 +324,7 @@ Gets the LoadStep.
 
 <a id="NodalEulerXZAngle.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* NodalEulerXZAngle.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -332,7 +332,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="NodalEulerXZAngle.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* NodalEulerXZAngle.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -340,7 +340,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="NodalEulerXZAngle.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* NodalEulerXZAngle.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -348,7 +348,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="NodalEulerXZAngle.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* NodalEulerXZAngle.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -356,7 +356,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="NodalEulerXZAngle.LoadStepNumber"></a>
 
-### *property* NodalEulerXZAngle.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -380,7 +380,7 @@ Gets the Maximum.
 
 <a id="NodalEulerXZAngle.MaximumOccursOn"></a>
 
-### *property* NodalEulerXZAngle.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -412,7 +412,7 @@ Gets the Minimum.
 
 <a id="NodalEulerXZAngle.MinimumOccursOn"></a>
 
-### *property* NodalEulerXZAngle.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -436,7 +436,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="NodalEulerXZAngle.Mode"></a>
 
-### *property* NodalEulerXZAngle.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -444,7 +444,7 @@ Gets or sets the Mode.
 
 <a id="NodalEulerXZAngle.NamedSelections"></a>
 
-### *property* NodalEulerXZAngle.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -476,7 +476,7 @@ Gets the result table.
 
 <a id="NodalEulerXZAngle.Ply"></a>
 
-### *property* NodalEulerXZAngle.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -492,7 +492,7 @@ Gets or sets the Position.
 
 <a id="NodalEulerXZAngle.Properties"></a>
 
-### *property* NodalEulerXZAngle.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -508,7 +508,7 @@ Gets or sets the ScaleFactor.
 
 <a id="NodalEulerXZAngle.ScaleFactorValue"></a>
 
-### *property* NodalEulerXZAngle.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -524,7 +524,7 @@ Gets or sets the ScopingMethod.
 
 <a id="NodalEulerXZAngle.SetNumber"></a>
 
-### *property* NodalEulerXZAngle.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -540,7 +540,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="NodalEulerXZAngle.SolverComponentIDs"></a>
 
-### *property* NodalEulerXZAngle.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -556,7 +556,7 @@ Gets or sets the SubScopeBy.
 
 <a id="NodalEulerXZAngle.Substep"></a>
 
-### *property* NodalEulerXZAngle.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -564,7 +564,7 @@ Gets the Substep.
 
 <a id="NodalEulerXZAngle.Suppressed"></a>
 
-### *property* NodalEulerXZAngle.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -636,7 +636,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="NodalEulerXZAngle.VisibleProperties"></a>
 
-### *property* NodalEulerXZAngle.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -644,7 +644,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="NodalEulerXZAngle.WaterfallShowTextOnMosaic"></a>
 
-### *property* NodalEulerXZAngle.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalEulerXZAngle.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -696,7 +696,7 @@ Creates a new child Figure.
 
 <a id="NodalEulerXZAngle.AddImage"></a>
 
-### NodalEulerXZAngle.AddImage(filePath: System.String)
+### NodalEulerXZAngle.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -724,7 +724,7 @@ Copies all visible properties from this object to another.
 
 <a id="NodalEulerXZAngle.CreateParameter"></a>
 
-### NodalEulerXZAngle.CreateParameter(propName: System.String)
+### NodalEulerXZAngle.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -772,7 +772,7 @@ Run the EvaluateAllResults action.
 
 <a id="NodalEulerXZAngle.ExportAnimation"></a>
 
-### NodalEulerXZAngle.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### NodalEulerXZAngle.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -780,7 +780,7 @@ Run the ExportAnimation action.
 
 <a id="NodalEulerXZAngle.ExportToTextFile"></a>
 
-### NodalEulerXZAngle.ExportToTextFile(filePath: System.String)
+### NodalEulerXZAngle.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -796,7 +796,7 @@ Run the FetchRemoteResult action.
 
 <a id="NodalEulerXZAngle.GetChildren"></a>
 
-### NodalEulerXZAngle.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NodalEulerXZAngle.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -804,7 +804,7 @@ Gets the list of children, filtered by type.
 
 <a id="NodalEulerXZAngle.GetParameter"></a>
 
-### NodalEulerXZAngle.GetParameter(propName: System.String)
+### NodalEulerXZAngle.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -836,7 +836,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="NodalEulerXZAngle.PropertyByAPIName"></a>
 
-### NodalEulerXZAngle.PropertyByAPIName(name: System.String)
+### NodalEulerXZAngle.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -847,7 +847,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NodalEulerXZAngle.PropertyByName"></a>
 
-### NodalEulerXZAngle.PropertyByName(name: System.String)
+### NodalEulerXZAngle.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -855,7 +855,7 @@ Get a property by its unique name.
 
 <a id="NodalEulerXZAngle.RemoveParameter"></a>
 
-### NodalEulerXZAngle.RemoveParameter(propName: System.String)
+### NodalEulerXZAngle.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

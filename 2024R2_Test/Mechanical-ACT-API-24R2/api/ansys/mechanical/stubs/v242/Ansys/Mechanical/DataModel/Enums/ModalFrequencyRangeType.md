@@ -17,7 +17,7 @@ Specifies the ModalFrequencyRangeType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`Manual`](#ModalFrequencyRangeType.Manual) |
 | [`ProgramControlled`](#ModalFrequencyRangeType.ProgramControlled) |
 

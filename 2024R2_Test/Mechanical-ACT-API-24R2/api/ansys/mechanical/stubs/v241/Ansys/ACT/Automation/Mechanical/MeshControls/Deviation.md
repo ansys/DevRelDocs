@@ -17,7 +17,7 @@ Defines a Deviation.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Deviation.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Deviation.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Deviation.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -39,7 +39,7 @@ Defines a Deviation.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Deviation.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Deviation.Comments)                               | Gets the list of associated comments.                         |
 | [`ControlType`](#Deviation.ControlType)                         | Gets or sets the SagControlType.                              |
@@ -63,7 +63,7 @@ Defines a Deviation.
 
 <a id="Deviation.Children"></a>
 
-### *property* Deviation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -71,7 +71,7 @@ Gets the list of children.
 
 <a id="Deviation.Comments"></a>
 
-### *property* Deviation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -87,7 +87,7 @@ Gets or sets the SagControlType.
 
 <a id="Deviation.DataModelObjectCategory"></a>
 
-### *property* Deviation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -95,7 +95,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Deviation.Figures"></a>
 
-### *property* Deviation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -103,7 +103,7 @@ Gets the list of associated figures.
 
 <a id="Deviation.Images"></a>
 
-### *property* Deviation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -135,7 +135,7 @@ MeshSize property.
 
 <a id="Deviation.NamedSelection"></a>
 
-### *property* Deviation.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -143,7 +143,7 @@ Gets or sets the NamedSelection.
 
 <a id="Deviation.NumberOfDivisions"></a>
 
-### *property* Deviation.NumberOfDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.NumberOfDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfDivisions property.
 
@@ -151,7 +151,7 @@ NumberOfDivisions property.
 
 <a id="Deviation.Properties"></a>
 
-### *property* Deviation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -159,7 +159,7 @@ Gets the list of properties for this object.
 
 <a id="Deviation.ScopingMethod"></a>
 
-### *property* Deviation.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -167,7 +167,7 @@ Gets or sets the ScopingMethod.
 
 <a id="Deviation.Suppressed"></a>
 
-### *property* Deviation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -183,7 +183,7 @@ Tolerance property.
 
 <a id="Deviation.VisibleProperties"></a>
 
-### *property* Deviation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -219,7 +219,7 @@ Creates a new child Figure.
 
 <a id="Deviation.AddImage"></a>
 
-### Deviation.AddImage(filePath: System.String)
+### Deviation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -239,7 +239,7 @@ Copies all visible properties from this object to another.
 
 <a id="Deviation.CreateParameter"></a>
 
-### Deviation.CreateParameter(propName: System.String)
+### Deviation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -271,7 +271,7 @@ Generate the Mesh.
 
 <a id="Deviation.GetChildren"></a>
 
-### Deviation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Deviation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -279,7 +279,7 @@ Gets the list of children, filtered by type.
 
 <a id="Deviation.GetParameter"></a>
 
-### Deviation.GetParameter(propName: System.String)
+### Deviation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -303,7 +303,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Deviation.PropertyByAPIName"></a>
 
-### Deviation.PropertyByAPIName(name: System.String)
+### Deviation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -314,7 +314,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Deviation.PropertyByName"></a>
 
-### Deviation.PropertyByName(name: System.String)
+### Deviation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -322,7 +322,7 @@ Get a property by its unique name.
 
 <a id="Deviation.RemoveParameter"></a>
 
-### Deviation.RemoveParameter(propName: System.String)
+### Deviation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

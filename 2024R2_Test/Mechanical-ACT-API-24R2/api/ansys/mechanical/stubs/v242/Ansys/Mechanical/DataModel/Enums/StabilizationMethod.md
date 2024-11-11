@@ -17,7 +17,7 @@ Specifies the StabilizationMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------- |
 | [`Damping`](#StabilizationMethod.Damping) |
 | [`Energy`](#StabilizationMethod.Energy) |
 

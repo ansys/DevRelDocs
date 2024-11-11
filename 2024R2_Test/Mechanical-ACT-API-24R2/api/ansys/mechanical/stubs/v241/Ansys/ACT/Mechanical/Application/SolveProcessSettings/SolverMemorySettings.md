@@ -28,7 +28,7 @@ The class representing the solver memory settings portion of the solve process s
 
 <a id="SolverMemorySettings.Active"></a>
 
-### *property* SolverMemorySettings.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolverMemorySettings.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the solver memory settings are active.
 
@@ -36,7 +36,7 @@ Whether the solver memory settings are active.
 
 <a id="SolverMemorySettings.Database"></a>
 
-### *property* SolverMemorySettings.Database *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolverMemorySettings.Database *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Database size.
 
@@ -44,7 +44,7 @@ Database size.
 
 <a id="SolverMemorySettings.Workspace"></a>
 
-### *property* SolverMemorySettings.Workspace *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolverMemorySettings.Workspace *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Workspace size.
 

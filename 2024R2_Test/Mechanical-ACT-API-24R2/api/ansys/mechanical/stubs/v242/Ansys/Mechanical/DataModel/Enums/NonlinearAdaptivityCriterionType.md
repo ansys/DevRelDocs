@@ -17,7 +17,7 @@ Specifies the NonlinearAdaptivityCriterionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------ |
 | [`AMOctree`](#NonlinearAdaptivityCriterionType.AMOctree) |
 | [`Box`](#NonlinearAdaptivityCriterionType.Box) |
 | [`Energy`](#NonlinearAdaptivityCriterionType.Energy) |

@@ -17,7 +17,7 @@ Specifies the CoordinateSystemAxisType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`NegativeXAxis`](#CoordinateSystemAxisType.NegativeXAxis) |
 | [`NegativeYAxis`](#CoordinateSystemAxisType.NegativeYAxis) |
 | [`NegativeZAxis`](#CoordinateSystemAxisType.NegativeZAxis) |

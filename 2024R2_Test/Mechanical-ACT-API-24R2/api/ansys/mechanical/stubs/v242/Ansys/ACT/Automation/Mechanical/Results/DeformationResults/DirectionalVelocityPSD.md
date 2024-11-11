@@ -17,7 +17,7 @@ Defines a DirectionalVelocityPSD.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DirectionalVelocityPSD.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#DirectionalVelocityPSD.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#DirectionalVelocityPSD.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a DirectionalVelocityPSD.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`AccelerationInG`](#DirectionalVelocityPSD.AccelerationInG)                                     | Gets or sets the AccelerationInG.                                      |
 | [`AllowPhaseSweep`](#DirectionalVelocityPSD.AllowPhaseSweep)                                     | Gets or sets the AllowPhaseSweep.                                      |
 | [`Amplitude`](#DirectionalVelocityPSD.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
@@ -119,7 +119,7 @@ Defines a DirectionalVelocityPSD.
 | [`Substep`](#DirectionalVelocityPSD.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#DirectionalVelocityPSD.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#DirectionalVelocityPSD.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#DirectionalVelocityPSD.SurfaceCoating)                                                                                                                                                     | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#DirectionalVelocityPSD.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#DirectionalVelocityPSD.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#DirectionalVelocityPSD.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#DirectionalVelocityPSD.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -127,7 +127,7 @@ Defines a DirectionalVelocityPSD.
 | [`TimeForMinimumOfMaximumValues`](#DirectionalVelocityPSD.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#DirectionalVelocityPSD.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#DirectionalVelocityPSD.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#DirectionalVelocityPSD.WaterfallShowTextOnMosaic)                                                                                                                               | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#DirectionalVelocityPSD.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -135,7 +135,7 @@ Defines a DirectionalVelocityPSD.
 
 <a id="DirectionalVelocityPSD.AccelerationInG"></a>
 
-### *property* DirectionalVelocityPSD.AccelerationInG *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.AccelerationInG *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationInG.
 
@@ -143,7 +143,7 @@ Gets or sets the AccelerationInG.
 
 <a id="DirectionalVelocityPSD.AllowPhaseSweep"></a>
 
-### *property* DirectionalVelocityPSD.AllowPhaseSweep *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.AllowPhaseSweep *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AllowPhaseSweep.
 
@@ -151,7 +151,7 @@ Gets or sets the AllowPhaseSweep.
 
 <a id="DirectionalVelocityPSD.Amplitude"></a>
 
-### *property* DirectionalVelocityPSD.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -175,7 +175,7 @@ Gets or sets the By.
 
 <a id="DirectionalVelocityPSD.CalculateTimeHistory"></a>
 
-### *property* DirectionalVelocityPSD.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -183,7 +183,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="DirectionalVelocityPSD.Children"></a>
 
-### *property* DirectionalVelocityPSD.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -191,7 +191,7 @@ Gets the list of children.
 
 <a id="DirectionalVelocityPSD.CombinationNumber"></a>
 
-### *property* DirectionalVelocityPSD.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -199,7 +199,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DirectionalVelocityPSD.Comments"></a>
 
-### *property* DirectionalVelocityPSD.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -207,7 +207,7 @@ Gets the list of associated comments.
 
 <a id="DirectionalVelocityPSD.CoordinateSystem"></a>
 
-### *property* DirectionalVelocityPSD.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -217,7 +217,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DirectionalVelocityPSD.CrackFrontNumber"></a>
 
-### *property* DirectionalVelocityPSD.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -225,7 +225,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="DirectionalVelocityPSD.CyclicMode"></a>
 
-### *property* DirectionalVelocityPSD.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -289,7 +289,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="DirectionalVelocityPSD.EnvironmentSelection"></a>
 
-### *property* DirectionalVelocityPSD.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -297,7 +297,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="DirectionalVelocityPSD.Figures"></a>
 
-### *property* DirectionalVelocityPSD.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -313,7 +313,7 @@ Gets or sets the Frequency.
 
 <a id="DirectionalVelocityPSD.GlobalIDs"></a>
 
-### *property* DirectionalVelocityPSD.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -329,7 +329,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="DirectionalVelocityPSD.HarmonicIndex"></a>
 
-### *property* DirectionalVelocityPSD.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -337,7 +337,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="DirectionalVelocityPSD.Identifier"></a>
 
-### *property* DirectionalVelocityPSD.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -345,7 +345,7 @@ Gets or sets the Identifier.
 
 <a id="DirectionalVelocityPSD.Images"></a>
 
-### *property* DirectionalVelocityPSD.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -361,7 +361,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DirectionalVelocityPSD.IsSolved"></a>
 
-### *property* DirectionalVelocityPSD.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -377,7 +377,7 @@ Gets or sets the ItemType.
 
 <a id="DirectionalVelocityPSD.IterationNumber"></a>
 
-### *property* DirectionalVelocityPSD.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -385,7 +385,7 @@ Gets the IterationNumber.
 
 <a id="DirectionalVelocityPSD.IterationStep"></a>
 
-### *property* DirectionalVelocityPSD.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -393,7 +393,7 @@ Gets or sets the IterationStep.
 
 <a id="DirectionalVelocityPSD.LoadMultiplier"></a>
 
-### *property* DirectionalVelocityPSD.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -401,7 +401,7 @@ Gets the LoadMultiplier.
 
 <a id="DirectionalVelocityPSD.LoadStep"></a>
 
-### *property* DirectionalVelocityPSD.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -409,7 +409,7 @@ Gets the LoadStep.
 
 <a id="DirectionalVelocityPSD.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* DirectionalVelocityPSD.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -417,7 +417,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="DirectionalVelocityPSD.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* DirectionalVelocityPSD.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -425,7 +425,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="DirectionalVelocityPSD.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* DirectionalVelocityPSD.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -433,7 +433,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="DirectionalVelocityPSD.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* DirectionalVelocityPSD.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -441,7 +441,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="DirectionalVelocityPSD.LoadStepNumber"></a>
 
-### *property* DirectionalVelocityPSD.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -457,7 +457,7 @@ Gets or sets the Location.
 
 <a id="DirectionalVelocityPSD.LogarithmicDecrement"></a>
 
-### *property* DirectionalVelocityPSD.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -473,7 +473,7 @@ Gets the Maximum.
 
 <a id="DirectionalVelocityPSD.MaximumOccursOn"></a>
 
-### *property* DirectionalVelocityPSD.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -505,7 +505,7 @@ Gets the Minimum.
 
 <a id="DirectionalVelocityPSD.MinimumOccursOn"></a>
 
-### *property* DirectionalVelocityPSD.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -529,7 +529,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="DirectionalVelocityPSD.ModalDampingRatio"></a>
 
-### *property* DirectionalVelocityPSD.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -537,7 +537,7 @@ Gets the ModalDampingRatio.
 
 <a id="DirectionalVelocityPSD.Mode"></a>
 
-### *property* DirectionalVelocityPSD.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -545,7 +545,7 @@ Gets or sets the Mode.
 
 <a id="DirectionalVelocityPSD.NamedSelections"></a>
 
-### *property* DirectionalVelocityPSD.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -585,7 +585,7 @@ Gets the result table.
 
 <a id="DirectionalVelocityPSD.Probability"></a>
 
-### *property* DirectionalVelocityPSD.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -593,7 +593,7 @@ Gets the Probability.
 
 <a id="DirectionalVelocityPSD.Properties"></a>
 
-### *property* DirectionalVelocityPSD.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -625,7 +625,7 @@ Gets or sets the ScaleFactor.
 
 <a id="DirectionalVelocityPSD.ScaleFactorValue"></a>
 
-### *property* DirectionalVelocityPSD.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -641,7 +641,7 @@ Gets or sets the ScopingMethod.
 
 <a id="DirectionalVelocityPSD.SetNumber"></a>
 
-### *property* DirectionalVelocityPSD.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -657,7 +657,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DirectionalVelocityPSD.SolverComponentIDs"></a>
 
-### *property* DirectionalVelocityPSD.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -673,7 +673,7 @@ Gets the Stability.
 
 <a id="DirectionalVelocityPSD.Substep"></a>
 
-### *property* DirectionalVelocityPSD.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -681,7 +681,7 @@ Gets the Substep.
 
 <a id="DirectionalVelocityPSD.Suppressed"></a>
 
-### *property* DirectionalVelocityPSD.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -753,7 +753,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="DirectionalVelocityPSD.VisibleProperties"></a>
 
-### *property* DirectionalVelocityPSD.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -761,7 +761,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DirectionalVelocityPSD.WaterfallShowTextOnMosaic"></a>
 
-### *property* DirectionalVelocityPSD.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityPSD.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -813,7 +813,7 @@ Creates a new child Figure.
 
 <a id="DirectionalVelocityPSD.AddImage"></a>
 
-### DirectionalVelocityPSD.AddImage(filePath: System.String)
+### DirectionalVelocityPSD.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -841,7 +841,7 @@ Copies all visible properties from this object to another.
 
 <a id="DirectionalVelocityPSD.CreateParameter"></a>
 
-### DirectionalVelocityPSD.CreateParameter(propName: System.String)
+### DirectionalVelocityPSD.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -889,7 +889,7 @@ Run the EvaluateAllResults action.
 
 <a id="DirectionalVelocityPSD.ExportAnimation"></a>
 
-### DirectionalVelocityPSD.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DirectionalVelocityPSD.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -897,7 +897,7 @@ Run the ExportAnimation action.
 
 <a id="DirectionalVelocityPSD.ExportToTextFile"></a>
 
-### DirectionalVelocityPSD.ExportToTextFile(filePath: System.String)
+### DirectionalVelocityPSD.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -913,7 +913,7 @@ Run the FetchRemoteResult action.
 
 <a id="DirectionalVelocityPSD.GetChildren"></a>
 
-### DirectionalVelocityPSD.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DirectionalVelocityPSD.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -921,7 +921,7 @@ Gets the list of children, filtered by type.
 
 <a id="DirectionalVelocityPSD.GetParameter"></a>
 
-### DirectionalVelocityPSD.GetParameter(propName: System.String)
+### DirectionalVelocityPSD.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -953,7 +953,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="DirectionalVelocityPSD.PropertyByAPIName"></a>
 
-### DirectionalVelocityPSD.PropertyByAPIName(name: System.String)
+### DirectionalVelocityPSD.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -964,7 +964,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DirectionalVelocityPSD.PropertyByName"></a>
 
-### DirectionalVelocityPSD.PropertyByName(name: System.String)
+### DirectionalVelocityPSD.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -972,7 +972,7 @@ Get a property by its unique name.
 
 <a id="DirectionalVelocityPSD.RemoveParameter"></a>
 
-### DirectionalVelocityPSD.RemoveParameter(propName: System.String)
+### DirectionalVelocityPSD.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

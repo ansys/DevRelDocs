@@ -17,9 +17,9 @@ A base class for Table import settings.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [`Format`](#ImportSettingsBase.Format)   | Gets the existing corresponding format.                 |
-| [`PathType`](#ImportSettingsBase.PathType)      | Gets or sets the type of URI provided for Table import. |
+|--------------------------------------------|---------------------------------------------------------|
+| [`Format`](#ImportSettingsBase.Format)     | Gets the existing corresponding format.                 |
+| [`PathType`](#ImportSettingsBase.PathType) | Gets or sets the type of URI provided for Table import. |
 
 <a id="property-detail"></a>
 

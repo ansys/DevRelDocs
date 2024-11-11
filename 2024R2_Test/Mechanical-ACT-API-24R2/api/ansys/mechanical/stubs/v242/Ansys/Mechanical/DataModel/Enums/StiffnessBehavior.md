@@ -17,7 +17,7 @@ Specifies the StiffnessBehavior.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- |
 | [`Beam`](#StiffnessBehavior.Beam) |
 | [`Explicit`](#StiffnessBehavior.Explicit) |
 | [`Flexible`](#StiffnessBehavior.Flexible) |

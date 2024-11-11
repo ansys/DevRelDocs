@@ -17,7 +17,7 @@ Specifies the ExternalLoadDisplayDataType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------------------- |
 | [`ConvectionCoefficient`](#ExternalLoadDisplayDataType.ConvectionCoefficient) |
 | [`Displacement`](#ExternalLoadDisplayDataType.Displacement) |
 | [`Force`](#ExternalLoadDisplayDataType.Force) |

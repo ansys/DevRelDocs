@@ -17,7 +17,7 @@ A message.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------|---------------------------------------------|
+|---------------------------------------------|---------------------------------------------|
 | [`DisplayString`](#Message.DisplayString)   | The display string of the message.          |
 | [`Location`](#Message.Location)             | The location of the message.                |
 | [`RelatedObjects`](#Message.RelatedObjects) | The list of objects related to the message. |
@@ -32,7 +32,7 @@ A message.
 
 <a id="Message.DisplayString"></a>
 
-### *property* Message.DisplayString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Message.DisplayString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The display string of the message.
 
@@ -48,7 +48,7 @@ The location of the message.
 
 <a id="Message.RelatedObjects"></a>
 
-### *property* Message.RelatedObjects *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Message.RelatedObjects *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The list of objects related to the message.
 
@@ -72,7 +72,7 @@ The source object of the message.
 
 <a id="Message.StringID"></a>
 
-### *property* Message.StringID *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Message.StringID *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The string ID of the message.
 
@@ -80,7 +80,7 @@ The string ID of the message.
 
 <a id="Message.TimeStamp"></a>
 
-### *property* Message.TimeStamp *: System.DateTime | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Message.TimeStamp *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The timestamp of the message.
 

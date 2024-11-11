@@ -17,7 +17,7 @@ Specifies the EdgeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------ |
+| -------------------------------- |
 | [`Circle`](#EdgeType.Circle) |
 | [`Faceted`](#EdgeType.Faceted) |
 | [`Line`](#EdgeType.Line) |

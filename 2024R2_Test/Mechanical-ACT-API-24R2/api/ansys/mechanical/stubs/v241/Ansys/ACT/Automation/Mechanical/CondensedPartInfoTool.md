@@ -17,7 +17,7 @@ Defines a CondensedPartInfoTool.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CondensedPartInfoTool.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#CondensedPartInfoTool.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#CondensedPartInfoTool.AddImage)                               | Creates a new child Image.                                                        |
@@ -36,7 +36,7 @@ Defines a CondensedPartInfoTool.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#CondensedPartInfoTool.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CondensedPartInfoTool.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#CondensedPartInfoTool.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -53,7 +53,7 @@ Defines a CondensedPartInfoTool.
 
 <a id="CondensedPartInfoTool.Children"></a>
 
-### *property* CondensedPartInfoTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInfoTool.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -61,7 +61,7 @@ Gets the list of children.
 
 <a id="CondensedPartInfoTool.Comments"></a>
 
-### *property* CondensedPartInfoTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInfoTool.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -69,7 +69,7 @@ Gets the list of associated comments.
 
 <a id="CondensedPartInfoTool.DataModelObjectCategory"></a>
 
-### *property* CondensedPartInfoTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInfoTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -77,7 +77,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CondensedPartInfoTool.Images"></a>
 
-### *property* CondensedPartInfoTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInfoTool.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -93,7 +93,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CondensedPartInfoTool.Properties"></a>
 
-### *property* CondensedPartInfoTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInfoTool.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -101,7 +101,7 @@ Gets the list of properties for this object.
 
 <a id="CondensedPartInfoTool.Text"></a>
 
-### *property* CondensedPartInfoTool.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInfoTool.Text *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Text.
 
@@ -109,7 +109,7 @@ Gets the Text.
 
 <a id="CondensedPartInfoTool.UpdateInterval"></a>
 
-### *property* CondensedPartInfoTool.UpdateInterval *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInfoTool.UpdateInterval *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UpdateInterval.
 
@@ -117,7 +117,7 @@ Gets or sets the UpdateInterval.
 
 <a id="CondensedPartInfoTool.VisibleProperties"></a>
 
-### *property* CondensedPartInfoTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInfoTool.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -145,7 +145,7 @@ Creates a new child Comment.
 
 <a id="CondensedPartInfoTool.AddImage"></a>
 
-### CondensedPartInfoTool.AddImage(filePath: System.String)
+### CondensedPartInfoTool.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -165,7 +165,7 @@ Copies all visible properties from this object to another.
 
 <a id="CondensedPartInfoTool.CreateParameter"></a>
 
-### CondensedPartInfoTool.CreateParameter(propName: System.String)
+### CondensedPartInfoTool.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -189,7 +189,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CondensedPartInfoTool.GetChildren"></a>
 
-### CondensedPartInfoTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CondensedPartInfoTool.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -197,7 +197,7 @@ Gets the list of children, filtered by type.
 
 <a id="CondensedPartInfoTool.GetParameter"></a>
 
-### CondensedPartInfoTool.GetParameter(propName: System.String)
+### CondensedPartInfoTool.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -221,7 +221,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CondensedPartInfoTool.PropertyByAPIName"></a>
 
-### CondensedPartInfoTool.PropertyByAPIName(name: System.String)
+### CondensedPartInfoTool.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -232,7 +232,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CondensedPartInfoTool.PropertyByName"></a>
 
-### CondensedPartInfoTool.PropertyByName(name: System.String)
+### CondensedPartInfoTool.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -240,7 +240,7 @@ Get a property by its unique name.
 
 <a id="CondensedPartInfoTool.RemoveParameter"></a>
 
-### CondensedPartInfoTool.RemoveParameter(propName: System.String)
+### CondensedPartInfoTool.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

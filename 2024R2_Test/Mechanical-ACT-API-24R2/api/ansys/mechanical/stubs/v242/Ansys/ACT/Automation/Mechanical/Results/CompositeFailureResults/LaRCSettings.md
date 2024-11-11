@@ -40,7 +40,7 @@ Defines the configuration for the LaRC failure criterion for reinforced material
 
 <a id="LaRCSettings.EvaluateFiberCompressionFailure"></a>
 
-### *property* LaRCSettings.EvaluateFiberCompressionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LaRCSettings.EvaluateFiberCompressionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether fiber compression failure is evaluated. The corresponding failure label is ‘lfc4/6’.
 
@@ -48,7 +48,7 @@ Gets or sets whether fiber compression failure is evaluated. The corresponding f
 
 <a id="LaRCSettings.EvaluateFiberTensionFailure"></a>
 
-### *property* LaRCSettings.EvaluateFiberTensionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LaRCSettings.EvaluateFiberTensionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether fiber tension failure is evaluated. The corresponding failure label is ‘ltf3’.
 
@@ -56,7 +56,7 @@ Gets or sets whether fiber tension failure is evaluated. The corresponding failu
 
 <a id="LaRCSettings.EvaluateMatrixCompressionFailure"></a>
 
-### *property* LaRCSettings.EvaluateMatrixCompressionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LaRCSettings.EvaluateMatrixCompressionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is ‘lmc2/5’.
 
@@ -64,7 +64,7 @@ Gets or sets whether matrix compression failure is evaluated. The corresponding 
 
 <a id="LaRCSettings.EvaluateMatrixTensionFailure"></a>
 
-### *property* LaRCSettings.EvaluateMatrixTensionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LaRCSettings.EvaluateMatrixTensionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is ‘lmt1’.
 
@@ -72,7 +72,7 @@ Gets or sets whether matrix tension failure is evaluated. The corresponding fail
 
 <a id="LaRCSettings.FiberCompressionFailureWeightingFactor"></a>
 
-### *property* LaRCSettings.FiberCompressionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LaRCSettings.FiberCompressionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the fiber compression failure (lfc4/6) evaluation.
 
@@ -80,7 +80,7 @@ Gets or sets the weighting factor for the fiber compression failure (lfc4/6) eva
 
 <a id="LaRCSettings.FiberTensionFailureWeightingFactor"></a>
 
-### *property* LaRCSettings.FiberTensionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LaRCSettings.FiberTensionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the fiber tension failure (ltf3) evaluation.
 
@@ -97,7 +97,7 @@ Gets or sets whether the failure criterion is evaluated only in-plane (2D),
 
 <a id="LaRCSettings.MatrixCompressionFailureWeightingFactor"></a>
 
-### *property* LaRCSettings.MatrixCompressionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LaRCSettings.MatrixCompressionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the matrix compression failure (lmc2/5) evaluation.
 
@@ -105,7 +105,7 @@ Gets or sets the weighting factor for the matrix compression failure (lmc2/5) ev
 
 <a id="LaRCSettings.MatrixTensionFailureWeightingFactor"></a>
 
-### *property* LaRCSettings.MatrixTensionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LaRCSettings.MatrixTensionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the matrix tension failure (lmt1) evaluation.
 

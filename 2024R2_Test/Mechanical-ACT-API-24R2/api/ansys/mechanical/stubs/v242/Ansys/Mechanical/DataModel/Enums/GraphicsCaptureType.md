@@ -17,7 +17,7 @@ Specifies the Graphics Image Capture Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- |
 | [`ImageAndLegend`](#GraphicsCaptureType.ImageAndLegend) |
 | [`ImageOnly`](#GraphicsCaptureType.ImageOnly) |
 

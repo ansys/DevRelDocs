@@ -17,7 +17,7 @@ Specifies the ReferenceFrameType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------ |
 | [`EulerianVirtual`](#ReferenceFrameType.EulerianVirtual) |
 | [`Lagrangian`](#ReferenceFrameType.Lagrangian) |
 | [`Particle`](#ReferenceFrameType.Particle) |

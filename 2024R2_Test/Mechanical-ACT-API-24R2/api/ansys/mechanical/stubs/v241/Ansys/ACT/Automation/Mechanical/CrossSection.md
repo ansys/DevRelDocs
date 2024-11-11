@@ -17,7 +17,7 @@ Defines a CrossSection.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CrossSection.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#CrossSection.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#CrossSection.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a CrossSection.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#CrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CrossSection.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#CrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -54,7 +54,7 @@ Defines a CrossSection.
 
 <a id="CrossSection.Children"></a>
 
-### *property* CrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CrossSection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -62,7 +62,7 @@ Gets the list of children.
 
 <a id="CrossSection.Comments"></a>
 
-### *property* CrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CrossSection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -70,7 +70,7 @@ Gets the list of associated comments.
 
 <a id="CrossSection.DataModelObjectCategory"></a>
 
-### *property* CrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -78,7 +78,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CrossSection.Figures"></a>
 
-### *property* CrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CrossSection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -86,7 +86,7 @@ Gets the list of associated figures.
 
 <a id="CrossSection.Images"></a>
 
-### *property* CrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CrossSection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -102,7 +102,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CrossSection.Properties"></a>
 
-### *property* CrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CrossSection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -110,7 +110,7 @@ Gets the list of properties for this object.
 
 <a id="CrossSection.ReadOnly"></a>
 
-### *property* CrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CrossSection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -118,7 +118,7 @@ Gets or sets the ReadOnly.
 
 <a id="CrossSection.VisibleProperties"></a>
 
-### *property* CrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CrossSection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -154,7 +154,7 @@ Creates a new child Figure.
 
 <a id="CrossSection.AddImage"></a>
 
-### CrossSection.AddImage(filePath: System.String)
+### CrossSection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -174,7 +174,7 @@ Copies all visible properties from this object to another.
 
 <a id="CrossSection.CreateParameter"></a>
 
-### CrossSection.CreateParameter(propName: System.String)
+### CrossSection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -198,7 +198,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CrossSection.GetChildren"></a>
 
-### CrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CrossSection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -206,7 +206,7 @@ Gets the list of children, filtered by type.
 
 <a id="CrossSection.GetParameter"></a>
 
-### CrossSection.GetParameter(propName: System.String)
+### CrossSection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -230,7 +230,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CrossSection.PropertyByAPIName"></a>
 
-### CrossSection.PropertyByAPIName(name: System.String)
+### CrossSection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -241,7 +241,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CrossSection.PropertyByName"></a>
 
-### CrossSection.PropertyByName(name: System.String)
+### CrossSection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -249,7 +249,7 @@ Get a property by its unique name.
 
 <a id="CrossSection.RemoveParameter"></a>
 
-### CrossSection.RemoveParameter(propName: System.String)
+### CrossSection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

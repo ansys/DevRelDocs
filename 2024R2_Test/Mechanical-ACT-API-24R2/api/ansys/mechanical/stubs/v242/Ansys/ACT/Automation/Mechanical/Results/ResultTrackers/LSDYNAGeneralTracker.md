@@ -17,7 +17,7 @@ Defines a LSDYNAGeneralTracker.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#LSDYNAGeneralTracker.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#LSDYNAGeneralTracker.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#LSDYNAGeneralTracker.AddImage)                               | Creates a new child Image.                                                        |
@@ -42,7 +42,7 @@ Defines a LSDYNAGeneralTracker.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`ACTLoad`](#LSDYNAGeneralTracker.ACTLoad)                                         | Gets or sets the ACT Load.                                    |
 | [`AccelerationType`](#LSDYNAGeneralTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#LSDYNAGeneralTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
@@ -121,7 +121,7 @@ Gets or sets the AccelerationType.
 
 <a id="LSDYNAGeneralTracker.BoundaryCondition"></a>
 
-### *property* LSDYNAGeneralTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -145,7 +145,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="LSDYNAGeneralTracker.Children"></a>
 
-### *property* LSDYNAGeneralTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -153,7 +153,7 @@ Gets the list of children.
 
 <a id="LSDYNAGeneralTracker.Comments"></a>
 
-### *property* LSDYNAGeneralTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -177,7 +177,7 @@ Gets or sets the ContactSide.
 
 <a id="LSDYNAGeneralTracker.CoordinateSystem"></a>
 
-### *property* LSDYNAGeneralTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -193,7 +193,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="LSDYNAGeneralTracker.CutFrequency"></a>
 
-### *property* LSDYNAGeneralTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -233,7 +233,7 @@ Gets or sets the Duration.
 
 <a id="LSDYNAGeneralTracker.EnhancedTracking"></a>
 
-### *property* LSDYNAGeneralTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -273,7 +273,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="LSDYNAGeneralTracker.GeometrySelectionString"></a>
 
-### *property* LSDYNAGeneralTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -281,7 +281,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="LSDYNAGeneralTracker.Images"></a>
 
-### *property* LSDYNAGeneralTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -305,7 +305,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LSDYNAGeneralTracker.IsSolved"></a>
 
-### *property* LSDYNAGeneralTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -321,7 +321,7 @@ Gets or sets the Joint.
 
 <a id="LSDYNAGeneralTracker.LSDYNABranchName"></a>
 
-### *property* LSDYNAGeneralTracker.LSDYNABranchName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.LSDYNABranchName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LSDYNA BranchName.
 
@@ -329,7 +329,7 @@ Gets or sets the LSDYNA BranchName.
 
 <a id="LSDYNAGeneralTracker.LSDYNAComponentName"></a>
 
-### *property* LSDYNAGeneralTracker.LSDYNAComponentName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.LSDYNAComponentName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LSDYNA ComponentName.
 
@@ -337,7 +337,7 @@ Gets or sets the LSDYNA ComponentName.
 
 <a id="LSDYNAGeneralTracker.LSDYNASubBranchName"></a>
 
-### *property* LSDYNAGeneralTracker.LSDYNASubBranchName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.LSDYNASubBranchName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LSDYNA SubBranchName.
 
@@ -345,7 +345,7 @@ Gets or sets the LSDYNA SubBranchName.
 
 <a id="LSDYNAGeneralTracker.LoadStepNumber"></a>
 
-### *property* LSDYNAGeneralTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -417,7 +417,7 @@ Gets the PhaseAngle.
 
 <a id="LSDYNAGeneralTracker.Properties"></a>
 
-### *property* LSDYNAGeneralTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -457,7 +457,7 @@ Gets the ResultChartType.
 
 <a id="LSDYNAGeneralTracker.SectorNumber"></a>
 
-### *property* LSDYNAGeneralTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -481,7 +481,7 @@ Gets or sets the SpatialResolution.
 
 <a id="LSDYNAGeneralTracker.Spring"></a>
 
-### *property* LSDYNAGeneralTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -497,7 +497,7 @@ Gets or sets the StressStrainType.
 
 <a id="LSDYNAGeneralTracker.Suppressed"></a>
 
-### *property* LSDYNAGeneralTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -513,7 +513,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="LSDYNAGeneralTracker.UseParentFrequencyRange"></a>
 
-### *property* LSDYNAGeneralTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -529,7 +529,7 @@ Gets or sets the VelocityType.
 
 <a id="LSDYNAGeneralTracker.VisibleProperties"></a>
 
-### *property* LSDYNAGeneralTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LSDYNAGeneralTracker.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -565,7 +565,7 @@ Creates a new child Comment.
 
 <a id="LSDYNAGeneralTracker.AddImage"></a>
 
-### LSDYNAGeneralTracker.AddImage(filePath: System.String)
+### LSDYNAGeneralTracker.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -593,7 +593,7 @@ Copies all visible properties from this object to another.
 
 <a id="LSDYNAGeneralTracker.CreateParameter"></a>
 
-### LSDYNAGeneralTracker.CreateParameter(propName: System.String)
+### LSDYNAGeneralTracker.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -625,7 +625,7 @@ Run the EvaluateAllResults action.
 
 <a id="LSDYNAGeneralTracker.ExportAnimation"></a>
 
-### LSDYNAGeneralTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### LSDYNAGeneralTracker.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -641,7 +641,7 @@ GetBranches method.
 
 <a id="LSDYNAGeneralTracker.GetChildren"></a>
 
-### LSDYNAGeneralTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LSDYNAGeneralTracker.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -649,7 +649,7 @@ Gets the list of children, filtered by type.
 
 <a id="LSDYNAGeneralTracker.GetComponents"></a>
 
-### LSDYNAGeneralTracker.GetComponents(branch: System.String)
+### LSDYNAGeneralTracker.GetComponents(branch: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 GetComponents method.
 
@@ -657,7 +657,7 @@ GetComponents method.
 
 <a id="LSDYNAGeneralTracker.GetParameter"></a>
 
-### LSDYNAGeneralTracker.GetParameter(propName: System.String)
+### LSDYNAGeneralTracker.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -681,7 +681,7 @@ Run the GroupSimilarObjects action.
 
 <a id="LSDYNAGeneralTracker.PropertyByAPIName"></a>
 
-### LSDYNAGeneralTracker.PropertyByAPIName(name: System.String)
+### LSDYNAGeneralTracker.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -692,7 +692,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LSDYNAGeneralTracker.PropertyByName"></a>
 
-### LSDYNAGeneralTracker.PropertyByName(name: System.String)
+### LSDYNAGeneralTracker.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -700,7 +700,7 @@ Get a property by its unique name.
 
 <a id="LSDYNAGeneralTracker.RemoveParameter"></a>
 
-### LSDYNAGeneralTracker.RemoveParameter(propName: System.String)
+### LSDYNAGeneralTracker.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

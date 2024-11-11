@@ -17,7 +17,7 @@ Specifies the NewtonRaphsonType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`Full`](#NewtonRaphsonType.Full) |
 | [`Modified`](#NewtonRaphsonType.Modified) |
 | [`ProgramControlled`](#NewtonRaphsonType.ProgramControlled) |

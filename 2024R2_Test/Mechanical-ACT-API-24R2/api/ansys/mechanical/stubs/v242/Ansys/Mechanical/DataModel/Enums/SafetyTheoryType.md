@@ -17,7 +17,7 @@ Specifies the Stress Safety Theory Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------- |
 | [`MaximumEquivalentStress`](#SafetyTheoryType.MaximumEquivalentStress) |
 | [`MaximumShearStress`](#SafetyTheoryType.MaximumShearStress) |
 | [`MaximumTensileStress`](#SafetyTheoryType.MaximumTensileStress) |

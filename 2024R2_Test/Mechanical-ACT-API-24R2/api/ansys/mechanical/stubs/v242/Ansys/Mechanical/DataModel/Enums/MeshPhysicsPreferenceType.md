@@ -17,7 +17,7 @@ Specifies the Mesh Physics Preference Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`CFD`](#MeshPhysicsPreferenceType.CFD) |
 | [`Custom`](#MeshPhysicsPreferenceType.Custom) |
 | [`Electromagnetics`](#MeshPhysicsPreferenceType.Electromagnetics) |

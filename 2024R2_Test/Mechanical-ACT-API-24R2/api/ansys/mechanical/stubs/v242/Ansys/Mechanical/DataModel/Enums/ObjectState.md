@@ -17,7 +17,7 @@ Specifies the Object State type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`Error`](#ObjectState.Error) |
 | [`FullyDefined`](#ObjectState.FullyDefined) |
 | [`Hidden`](#ObjectState.Hidden) |

@@ -17,7 +17,7 @@ Specifies the Axis type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------- |
 | [`GlobalX`](#CameraAxisType.GlobalX) |
 | [`GlobalY`](#CameraAxisType.GlobalY) |
 | [`GlobalZ`](#CameraAxisType.GlobalZ) |

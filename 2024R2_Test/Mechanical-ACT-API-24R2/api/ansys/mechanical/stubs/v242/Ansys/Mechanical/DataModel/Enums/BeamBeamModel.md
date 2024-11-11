@@ -17,7 +17,7 @@ Specifies the BeamBeamModel.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`All`](#BeamBeamModel.All) |
 | [`ExcludeCrossingBeams`](#BeamBeamModel.ExcludeCrossingBeams) |
 | [`OnlyCrossingBeams`](#BeamBeamModel.OnlyCrossingBeams) |

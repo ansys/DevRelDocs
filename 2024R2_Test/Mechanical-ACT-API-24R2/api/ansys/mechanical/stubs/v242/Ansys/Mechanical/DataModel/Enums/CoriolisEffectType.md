@@ -17,7 +17,7 @@ Specifies the CoriolisEffectType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------- |
 | [`Off`](#CoriolisEffectType.Off) |
 | [`OnRotatingReferenceFrame`](#CoriolisEffectType.OnRotatingReferenceFrame) |
 | [`OnStationaryReferenceFrame`](#CoriolisEffectType.OnStationaryReferenceFrame) |

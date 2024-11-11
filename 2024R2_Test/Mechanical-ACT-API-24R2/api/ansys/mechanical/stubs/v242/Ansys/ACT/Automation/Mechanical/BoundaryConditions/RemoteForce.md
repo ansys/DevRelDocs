@@ -95,7 +95,7 @@ Defines a RemoteForce.
 
 <a id="RemoteForce.BeamMaterial"></a>
 
-### *property* RemoteForce.BeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.BeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamMaterial.
 
@@ -119,7 +119,7 @@ Gets or sets the Behavior.
 
 <a id="RemoteForce.Children"></a>
 
-### *property* RemoteForce.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -127,7 +127,7 @@ Gets the list of children.
 
 <a id="RemoteForce.Comments"></a>
 
-### *property* RemoteForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -135,7 +135,7 @@ Gets the list of associated comments.
 
 <a id="RemoteForce.CoordinateSystem"></a>
 
-### *property* RemoteForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -167,7 +167,7 @@ Gets or sets the Direction.
 
 <a id="RemoteForce.Figures"></a>
 
-### *property* RemoteForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -175,7 +175,7 @@ Gets the list of associated figures.
 
 <a id="RemoteForce.FollowerLoad"></a>
 
-### *property* RemoteForce.FollowerLoad *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.FollowerLoad *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FollowerLoad.
 
@@ -191,7 +191,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="RemoteForce.Images"></a>
 
-### *property* RemoteForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -255,7 +255,7 @@ Gets or sets the NonCyclicLoadingType.
 
 <a id="RemoteForce.NumberOfSegments"></a>
 
-### *property* RemoteForce.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -279,7 +279,7 @@ Gets or sets the PinballRegion.
 
 <a id="RemoteForce.Properties"></a>
 
-### *property* RemoteForce.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -287,7 +287,7 @@ Gets the list of properties for this object.
 
 <a id="RemoteForce.ReadOnly"></a>
 
-### *property* RemoteForce.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -311,7 +311,7 @@ Gets or sets the SectorNumber.
 
 <a id="RemoteForce.SharedRefBody"></a>
 
-### *property* RemoteForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -319,7 +319,7 @@ Gets or sets the SharedRefBody.
 
 <a id="RemoteForce.StepSelection"></a>
 
-### *property* RemoteForce.StepSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.StepSelection *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepSelection.
 
@@ -335,7 +335,7 @@ Gets or sets the StepVarying.
 
 <a id="RemoteForce.Suppressed"></a>
 
-### *property* RemoteForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -343,7 +343,7 @@ Gets or sets the Suppressed.
 
 <a id="RemoteForce.VisibleProperties"></a>
 
-### *property* RemoteForce.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -475,7 +475,7 @@ Creates a new child Figure.
 
 <a id="RemoteForce.AddImage"></a>
 
-### RemoteForce.AddImage(filePath: System.String)
+### RemoteForce.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -495,7 +495,7 @@ Copies all visible properties from this object to another.
 
 <a id="RemoteForce.CreateParameter"></a>
 
-### RemoteForce.CreateParameter(propName: System.String)
+### RemoteForce.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -519,7 +519,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RemoteForce.GetActivateAtLoadStep"></a>
 
-### RemoteForce.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### RemoteForce.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -527,7 +527,7 @@ GetActivateAtLoadStep method.
 
 <a id="RemoteForce.GetChildren"></a>
 
-### RemoteForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RemoteForce.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -535,7 +535,7 @@ Gets the list of children, filtered by type.
 
 <a id="RemoteForce.GetComponentActivateAtLoadStep"></a>
 
-### RemoteForce.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### RemoteForce.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -543,7 +543,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="RemoteForce.GetParameter"></a>
 
-### RemoteForce.GetParameter(propName: System.String)
+### RemoteForce.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -583,7 +583,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="RemoteForce.PropertyByAPIName"></a>
 
-### RemoteForce.PropertyByAPIName(name: System.String)
+### RemoteForce.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -594,7 +594,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RemoteForce.PropertyByName"></a>
 
-### RemoteForce.PropertyByName(name: System.String)
+### RemoteForce.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -602,7 +602,7 @@ Get a property by its unique name.
 
 <a id="RemoteForce.RemoveParameter"></a>
 
-### RemoteForce.RemoveParameter(propName: System.String)
+### RemoteForce.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -610,7 +610,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="RemoteForce.SetActivateAtLoadStep"></a>
 
-### RemoteForce.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### RemoteForce.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -618,7 +618,7 @@ SetActivateAtLoadStep method.
 
 <a id="RemoteForce.SetComponentActivateAtLoadStep"></a>
 
-### RemoteForce.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### RemoteForce.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

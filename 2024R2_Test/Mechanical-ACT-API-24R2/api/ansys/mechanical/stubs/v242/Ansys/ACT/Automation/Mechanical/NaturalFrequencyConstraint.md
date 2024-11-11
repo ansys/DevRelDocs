@@ -17,7 +17,7 @@ Defines a NaturalFrequencyConstraint.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#NaturalFrequencyConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#NaturalFrequencyConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#NaturalFrequencyConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a NaturalFrequencyConstraint.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`Children`](#NaturalFrequencyConstraint.Children)                               | Gets the list of children.                                                               |
 | [`DataModelObjectCategory`](#NaturalFrequencyConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#NaturalFrequencyConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
@@ -53,7 +53,7 @@ Defines a NaturalFrequencyConstraint.
 
 <a id="NaturalFrequencyConstraint.Children"></a>
 
-### *property* NaturalFrequencyConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NaturalFrequencyConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -69,7 +69,7 @@ Gets the current DataModelObject’s category.
 
 <a id="NaturalFrequencyConstraint.EnvironmentSelection"></a>
 
-### *property* NaturalFrequencyConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NaturalFrequencyConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -101,7 +101,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="NaturalFrequencyConstraint.ModeNumber"></a>
 
-### *property* NaturalFrequencyConstraint.ModeNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NaturalFrequencyConstraint.ModeNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeNumber.
 
@@ -109,7 +109,7 @@ Gets or sets the ModeNumber.
 
 <a id="NaturalFrequencyConstraint.Properties"></a>
 
-### *property* NaturalFrequencyConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NaturalFrequencyConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -117,7 +117,7 @@ Gets the list of properties for this object.
 
 <a id="NaturalFrequencyConstraint.Suppressed"></a>
 
-### *property* NaturalFrequencyConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NaturalFrequencyConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -125,7 +125,7 @@ Gets or sets the Suppressed.
 
 <a id="NaturalFrequencyConstraint.VisibleProperties"></a>
 
-### *property* NaturalFrequencyConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NaturalFrequencyConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -153,7 +153,7 @@ Copies all visible properties from this object to another.
 
 <a id="NaturalFrequencyConstraint.CreateParameter"></a>
 
-### NaturalFrequencyConstraint.CreateParameter(propName: System.String)
+### NaturalFrequencyConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -177,7 +177,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="NaturalFrequencyConstraint.GetChildren"></a>
 
-### NaturalFrequencyConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NaturalFrequencyConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -185,7 +185,7 @@ Gets the list of children, filtered by type.
 
 <a id="NaturalFrequencyConstraint.GetParameter"></a>
 
-### NaturalFrequencyConstraint.GetParameter(propName: System.String)
+### NaturalFrequencyConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -209,7 +209,7 @@ Run the GroupSimilarObjects action.
 
 <a id="NaturalFrequencyConstraint.PropertyByAPIName"></a>
 
-### NaturalFrequencyConstraint.PropertyByAPIName(name: System.String)
+### NaturalFrequencyConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -220,7 +220,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NaturalFrequencyConstraint.PropertyByName"></a>
 
-### NaturalFrequencyConstraint.PropertyByName(name: System.String)
+### NaturalFrequencyConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -228,7 +228,7 @@ Get a property by its unique name.
 
 <a id="NaturalFrequencyConstraint.RemoveParameter"></a>
 
-### NaturalFrequencyConstraint.RemoveParameter(propName: System.String)
+### NaturalFrequencyConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

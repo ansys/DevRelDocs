@@ -17,7 +17,7 @@ Specifies the JointStopType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------ |
+| --------------------------------- |
 | [`Lock`](#JointStopType.Lock) |
 | [`None_`](#JointStopType.None_) |
 | [`Stop`](#JointStopType.Stop) |

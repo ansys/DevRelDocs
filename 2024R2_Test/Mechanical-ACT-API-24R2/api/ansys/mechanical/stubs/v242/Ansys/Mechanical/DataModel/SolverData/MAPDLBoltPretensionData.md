@@ -17,7 +17,7 @@ MAPDLBoltPretensionData class.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+|---------------------------------------------------------------------|---------------------------------------------------------|
 | [`PretensionNodeIds`](#MAPDLBoltPretensionData.PretensionNodeIds)   | Gets the Pretension Node Ids for the bolt pretension.   |
 | [`RealConstantIds`](#MAPDLBoltPretensionData.RealConstantIds)       | Gets the Real Constant Ids for the bolt pretension.     |
 
@@ -27,7 +27,7 @@ MAPDLBoltPretensionData class.
 
 <a id="MAPDLBoltPretensionData.PretensionNodeIds"></a>
 
-### *property* MAPDLBoltPretensionData.PretensionNodeIds *: System.Collections.Generic.IEnumerable[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLBoltPretensionData.PretensionNodeIds *: Iterable[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Pretension Node Ids for the bolt pretension.
 
@@ -35,7 +35,7 @@ Gets the Pretension Node Ids for the bolt pretension.
 
 <a id="MAPDLBoltPretensionData.RealConstantIds"></a>
 
-### *property* MAPDLBoltPretensionData.RealConstantIds *: System.Collections.Generic.IEnumerable[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLBoltPretensionData.RealConstantIds *: Iterable[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Real Constant Ids for the bolt pretension.
 

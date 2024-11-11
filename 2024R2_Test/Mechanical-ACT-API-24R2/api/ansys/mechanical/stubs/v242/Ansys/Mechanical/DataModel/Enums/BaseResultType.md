@@ -17,7 +17,7 @@ Specifies the BaseResultType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------ |
 | [`Acceleration`](#BaseResultType.Acceleration) |
 | [`CenterOfGravity`](#BaseResultType.CenterOfGravity) |
 | [`Displacement`](#BaseResultType.Displacement) |

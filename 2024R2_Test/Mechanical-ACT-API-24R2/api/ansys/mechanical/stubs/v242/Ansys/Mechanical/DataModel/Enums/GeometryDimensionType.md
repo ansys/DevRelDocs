@@ -17,7 +17,7 @@ Specifies the GeometryDimensionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------- |
 | [`Surface`](#GeometryDimensionType.Surface) |
 | [`Volume`](#GeometryDimensionType.Volume) |
 

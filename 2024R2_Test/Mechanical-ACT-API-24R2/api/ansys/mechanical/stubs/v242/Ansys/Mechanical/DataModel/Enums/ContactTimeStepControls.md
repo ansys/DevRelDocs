@@ -17,7 +17,7 @@ Specifies the ContactTimeStepControls.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`AutomaticBisection`](#ContactTimeStepControls.AutomaticBisection) |
 | [`None_`](#ContactTimeStepControls.None_) |
 | [`PredictForImpact`](#ContactTimeStepControls.PredictForImpact) |

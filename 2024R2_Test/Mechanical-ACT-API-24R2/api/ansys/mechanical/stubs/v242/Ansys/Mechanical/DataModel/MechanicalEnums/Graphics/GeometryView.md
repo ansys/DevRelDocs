@@ -17,7 +17,7 @@ Specifies the GeometryView.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`CappedIsosurface`](#GeometryView.CappedIsosurface) |
 | [`Exterior`](#GeometryView.Exterior) |
 | [`Isosurface`](#GeometryView.Isosurface) |

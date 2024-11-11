@@ -17,7 +17,7 @@ Defines a PreContactTool.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PreContactTool.Activate)                                           | Activate the current object.                                                      |
 | [`AddComment`](#PreContactTool.AddComment)                                       | Creates a new child Comment.                                                      |
 | [`AddFigure`](#PreContactTool.AddFigure)                                         | Creates a new child Figure.                                                       |
@@ -44,7 +44,7 @@ Defines a PreContactTool.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#PreContactTool.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#PreContactTool.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#PreContactTool.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -62,7 +62,7 @@ Defines a PreContactTool.
 
 <a id="PreContactTool.Children"></a>
 
-### *property* PreContactTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreContactTool.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets the list of children.
 
 <a id="PreContactTool.Comments"></a>
 
-### *property* PreContactTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreContactTool.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -86,7 +86,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PreContactTool.Figures"></a>
 
-### *property* PreContactTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreContactTool.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -94,7 +94,7 @@ Gets the list of associated figures.
 
 <a id="PreContactTool.Images"></a>
 
-### *property* PreContactTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreContactTool.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -118,7 +118,7 @@ Gets or sets the Location.
 
 <a id="PreContactTool.Properties"></a>
 
-### *property* PreContactTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreContactTool.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -134,7 +134,7 @@ Gets or sets the ScopingMethod.
 
 <a id="PreContactTool.VisibleProperties"></a>
 
-### *property* PreContactTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreContactTool.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -178,7 +178,7 @@ Creates a new ContactGap
 
 <a id="PreContactTool.AddImage"></a>
 
-### PreContactTool.AddImage(filePath: System.String)
+### PreContactTool.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -230,7 +230,7 @@ Copies all visible properties from this object to another.
 
 <a id="PreContactTool.CreateParameter"></a>
 
-### PreContactTool.CreateParameter(propName: System.String)
+### PreContactTool.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -270,7 +270,7 @@ Generate Initial Contact Results and Mesh Parts
 
 <a id="PreContactTool.GetChildren"></a>
 
-### PreContactTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PreContactTool.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -278,7 +278,7 @@ Gets the list of children, filtered by type.
 
 <a id="PreContactTool.GetParameter"></a>
 
-### PreContactTool.GetParameter(propName: System.String)
+### PreContactTool.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -302,7 +302,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PreContactTool.PropertyByAPIName"></a>
 
-### PreContactTool.PropertyByAPIName(name: System.String)
+### PreContactTool.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -313,7 +313,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PreContactTool.PropertyByName"></a>
 
-### PreContactTool.PropertyByName(name: System.String)
+### PreContactTool.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -321,7 +321,7 @@ Get a property by its unique name.
 
 <a id="PreContactTool.RemoveParameter"></a>
 
-### PreContactTool.RemoveParameter(propName: System.String)
+### PreContactTool.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

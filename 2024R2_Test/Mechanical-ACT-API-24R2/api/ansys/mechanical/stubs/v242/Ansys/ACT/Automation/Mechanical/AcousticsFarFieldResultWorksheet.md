@@ -43,7 +43,7 @@ AcousticsFarFieldResultWorksheet class.
 
 <a id="AcousticsFarFieldResultWorksheet.RowCount"></a>
 
-### *property* AcousticsFarFieldResultWorksheet.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticsFarFieldResultWorksheet.RowCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Return the number of entries.
 
@@ -63,7 +63,7 @@ Adds a Row to the worksheet.
 
 <a id="AcousticsFarFieldResultWorksheet.DeleteRow"></a>
 
-### AcousticsFarFieldResultWorksheet.DeleteRow(index: System.Int32)
+### AcousticsFarFieldResultWorksheet.DeleteRow(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Deletes a row from the worksheet at index.
 
@@ -71,7 +71,7 @@ Deletes a row from the worksheet at index.
 
 <a id="AcousticsFarFieldResultWorksheet.DuplicateRow"></a>
 
-### AcousticsFarFieldResultWorksheet.DuplicateRow(fromIndex: System.Int32, toIndex: System.Int32)
+### AcousticsFarFieldResultWorksheet.DuplicateRow(fromIndex: [int](https://docs.python.org/3/library/functions.html#int), toIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 Insert a row from the worksheet at index.
 
@@ -79,7 +79,7 @@ Insert a row from the worksheet at index.
 
 <a id="AcousticsFarFieldResultWorksheet.GetCoordinateSystemSelection"></a>
 
-### AcousticsFarFieldResultWorksheet.GetCoordinateSystemSelection(index: System.Int32)
+### AcousticsFarFieldResultWorksheet.GetCoordinateSystemSelection(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet CoordinateSystemSelection property at index.
 
@@ -87,7 +87,7 @@ Gets the worksheet CoordinateSystemSelection property at index.
 
 <a id="AcousticsFarFieldResultWorksheet.GetXCoordinate"></a>
 
-### AcousticsFarFieldResultWorksheet.GetXCoordinate(index: System.Int32)
+### AcousticsFarFieldResultWorksheet.GetXCoordinate(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Mic X property at index.
 
@@ -95,7 +95,7 @@ Gets the worksheet Mic X property at index.
 
 <a id="AcousticsFarFieldResultWorksheet.GetYCoordinate"></a>
 
-### AcousticsFarFieldResultWorksheet.GetYCoordinate(index: System.Int32)
+### AcousticsFarFieldResultWorksheet.GetYCoordinate(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Mic Y property at index.
 
@@ -103,7 +103,7 @@ Gets the worksheet Mic Y property at index.
 
 <a id="AcousticsFarFieldResultWorksheet.GetZCoordinate"></a>
 
-### AcousticsFarFieldResultWorksheet.GetZCoordinate(index: System.Int32)
+### AcousticsFarFieldResultWorksheet.GetZCoordinate(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Mic Z property at index.
 
@@ -111,7 +111,7 @@ Gets the worksheet Mic Z property at index.
 
 <a id="AcousticsFarFieldResultWorksheet.InsertRow"></a>
 
-### AcousticsFarFieldResultWorksheet.InsertRow(index: System.Int32)
+### AcousticsFarFieldResultWorksheet.InsertRow(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Insert a row from the worksheet at index.
 
@@ -119,7 +119,7 @@ Insert a row from the worksheet at index.
 
 <a id="AcousticsFarFieldResultWorksheet.SetCoordinateSystemSelection"></a>
 
-### AcousticsFarFieldResultWorksheet.SetCoordinateSystemSelection(index: System.Int32, newVal: System.UInt32)
+### AcousticsFarFieldResultWorksheet.SetCoordinateSystemSelection(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the worksheet CoordinateSystemSelection property at index.
 
@@ -127,7 +127,7 @@ Sets the worksheet CoordinateSystemSelection property at index.
 
 <a id="AcousticsFarFieldResultWorksheet.SetXCoordinate"></a>
 
-### AcousticsFarFieldResultWorksheet.SetXCoordinate(index: System.Int32, newVal: System.Double)
+### AcousticsFarFieldResultWorksheet.SetXCoordinate(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the worksheet Mic X property at index.
 
@@ -135,7 +135,7 @@ Sets the worksheet Mic X property at index.
 
 <a id="AcousticsFarFieldResultWorksheet.SetYCoordinate"></a>
 
-### AcousticsFarFieldResultWorksheet.SetYCoordinate(index: System.Int32, newVal: System.Double)
+### AcousticsFarFieldResultWorksheet.SetYCoordinate(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the worksheet Mic Y property at index.
 
@@ -143,7 +143,7 @@ Sets the worksheet Mic Y property at index.
 
 <a id="AcousticsFarFieldResultWorksheet.SetZCoordinate"></a>
 
-### AcousticsFarFieldResultWorksheet.SetZCoordinate(index: System.Int32, newVal: System.Double)
+### AcousticsFarFieldResultWorksheet.SetZCoordinate(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the worksheet Mic Z property at index.
 

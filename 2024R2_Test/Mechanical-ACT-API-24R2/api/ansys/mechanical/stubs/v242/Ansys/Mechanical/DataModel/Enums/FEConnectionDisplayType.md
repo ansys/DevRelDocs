@@ -17,7 +17,7 @@ Specifies the FEConnectionDisplayType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`Lines`](#FEConnectionDisplayType.Lines) |
 | [`LinesAndPoints`](#FEConnectionDisplayType.LinesAndPoints) |
 | [`Points`](#FEConnectionDisplayType.Points) |

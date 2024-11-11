@@ -103,7 +103,7 @@ Gets or sets the AssemblyType.
 
 <a id="RBDAnalysisSettings.Children"></a>
 
-### *property* RBDAnalysisSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -111,7 +111,7 @@ Gets the list of children.
 
 <a id="RBDAnalysisSettings.Comments"></a>
 
-### *property* RBDAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -143,7 +143,7 @@ Gets or sets the CorrectionType.
 
 <a id="RBDAnalysisSettings.CurrentStepNumber"></a>
 
-### *property* RBDAnalysisSettings.CurrentStepNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.CurrentStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurrentStepNumber.
 
@@ -183,7 +183,7 @@ Gets or sets the EnergyAccuracyToleranceValue.
 
 <a id="RBDAnalysisSettings.Figures"></a>
 
-### *property* RBDAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -215,7 +215,7 @@ Graph property.
 
 <a id="RBDAnalysisSettings.Images"></a>
 
-### *property* RBDAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -223,7 +223,7 @@ Gets the list of associated images.
 
 <a id="RBDAnalysisSettings.InternalObject"></a>
 
-### *property* RBDAnalysisSettings.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.InternalObject *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 InternalObject property.
 
@@ -231,7 +231,7 @@ InternalObject property.
 
 <a id="RBDAnalysisSettings.NumberOfSteps"></a>
 
-### *property* RBDAnalysisSettings.NumberOfSteps *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.NumberOfSteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSteps.
 
@@ -263,7 +263,7 @@ Gets or sets the .
 
 <a id="RBDAnalysisSettings.PositionCorrection"></a>
 
-### *property* RBDAnalysisSettings.PositionCorrection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.PositionCorrection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PositionCorrection.
 
@@ -271,7 +271,7 @@ Gets or sets the PositionCorrection.
 
 <a id="RBDAnalysisSettings.Properties"></a>
 
-### *property* RBDAnalysisSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -295,7 +295,7 @@ Gets or sets the RelativeAssemblyToleranceValue.
 
 <a id="RBDAnalysisSettings.ScratchSolverFilesDirectory"></a>
 
-### *property* RBDAnalysisSettings.ScratchSolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.ScratchSolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScratchSolverFilesDirectory.
 
@@ -303,7 +303,7 @@ Gets the ScratchSolverFilesDirectory.
 
 <a id="RBDAnalysisSettings.SolverFilesDirectory"></a>
 
-### *property* RBDAnalysisSettings.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.SolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverFilesDirectory.
 
@@ -335,7 +335,7 @@ Gets or sets the ConstraintEquationResidualToleranceValue.
 
 <a id="RBDAnalysisSettings.VelocityCorrection"></a>
 
-### *property* RBDAnalysisSettings.VelocityCorrection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.VelocityCorrection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityCorrection.
 
@@ -343,7 +343,7 @@ Gets or sets the VelocityCorrection.
 
 <a id="RBDAnalysisSettings.VisibleProperties"></a>
 
-### *property* RBDAnalysisSettings.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RBDAnalysisSettings.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -379,7 +379,7 @@ Creates a new child Figure.
 
 <a id="RBDAnalysisSettings.AddImage"></a>
 
-### RBDAnalysisSettings.AddImage(filePath: System.String)
+### RBDAnalysisSettings.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -399,7 +399,7 @@ Copies all visible properties from this object to another.
 
 <a id="RBDAnalysisSettings.CreateParameter"></a>
 
-### RBDAnalysisSettings.CreateParameter(propName: System.String)
+### RBDAnalysisSettings.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -423,7 +423,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RBDAnalysisSettings.GetAutomaticTimeStepping"></a>
 
-### RBDAnalysisSettings.GetAutomaticTimeStepping(stepNumber: System.Int32)
+### RBDAnalysisSettings.GetAutomaticTimeStepping(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Automatic Time Stepping at a given solution step.
 
@@ -431,7 +431,7 @@ Gets the Automatic Time Stepping at a given solution step.
 
 <a id="RBDAnalysisSettings.GetCarryOverTimeStep"></a>
 
-### RBDAnalysisSettings.GetCarryOverTimeStep(stepNumber: System.Int32)
+### RBDAnalysisSettings.GetCarryOverTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Carry Over Time Step at a given solution step.
 
@@ -439,7 +439,7 @@ Gets the Carry Over Time Step at a given solution step.
 
 <a id="RBDAnalysisSettings.GetChildren"></a>
 
-### RBDAnalysisSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RBDAnalysisSettings.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -447,7 +447,7 @@ Gets the list of children, filtered by type.
 
 <a id="RBDAnalysisSettings.GetInitialTimeStep"></a>
 
-### RBDAnalysisSettings.GetInitialTimeStep(stepNumber: System.Int32)
+### RBDAnalysisSettings.GetInitialTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Initial Time Step at a given solution step.
 
@@ -455,7 +455,7 @@ Gets the Initial Time Step at a given solution step.
 
 <a id="RBDAnalysisSettings.GetMaximumTimeStep"></a>
 
-### RBDAnalysisSettings.GetMaximumTimeStep(stepNumber: System.Int32)
+### RBDAnalysisSettings.GetMaximumTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Maximum Time Step at a given solution step.
 
@@ -463,7 +463,7 @@ Gets the Maximum Time Step at a given solution step.
 
 <a id="RBDAnalysisSettings.GetMinimumTimeStep"></a>
 
-### RBDAnalysisSettings.GetMinimumTimeStep(stepNumber: System.Int32)
+### RBDAnalysisSettings.GetMinimumTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Minimum Time Step at a given solution step.
 
@@ -471,7 +471,7 @@ Gets the Minimum Time Step at a given solution step.
 
 <a id="RBDAnalysisSettings.GetParameter"></a>
 
-### RBDAnalysisSettings.GetParameter(propName: System.String)
+### RBDAnalysisSettings.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -479,7 +479,7 @@ Gets the parameter corresponding to the given property.
 
 <a id="RBDAnalysisSettings.GetStepEndTime"></a>
 
-### RBDAnalysisSettings.GetStepEndTime(stepNumber: System.Int32)
+### RBDAnalysisSettings.GetStepEndTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Step End Time at a given solution step.
 
@@ -487,7 +487,7 @@ Gets the Step End Time at a given solution step.
 
 <a id="RBDAnalysisSettings.GetStoreResultAt"></a>
 
-### RBDAnalysisSettings.GetStoreResultAt(stepNumber: System.Int32)
+### RBDAnalysisSettings.GetStoreResultAt(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the StoreResultAt setting at a given solution step.
 
@@ -495,7 +495,7 @@ Gets the StoreResultAt setting at a given solution step.
 
 <a id="RBDAnalysisSettings.GetStoreResultAtValue"></a>
 
-### RBDAnalysisSettings.GetStoreResultAtValue(stepNumber: System.Int32)
+### RBDAnalysisSettings.GetStoreResultAtValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the StoreResultAtValue setting at a given solution step.
 
@@ -503,7 +503,7 @@ Gets the StoreResultAtValue setting at a given solution step.
 
 <a id="RBDAnalysisSettings.GetTimeStep"></a>
 
-### RBDAnalysisSettings.GetTimeStep(stepNumber: System.Int32)
+### RBDAnalysisSettings.GetTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the (fixed) Time Step at a given solution step.
 
@@ -527,7 +527,7 @@ Run the GroupSimilarObjects action.
 
 <a id="RBDAnalysisSettings.PropertyByAPIName"></a>
 
-### RBDAnalysisSettings.PropertyByAPIName(name: System.String)
+### RBDAnalysisSettings.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -538,7 +538,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RBDAnalysisSettings.PropertyByName"></a>
 
-### RBDAnalysisSettings.PropertyByName(name: System.String)
+### RBDAnalysisSettings.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -546,7 +546,7 @@ Get a property by its unique name.
 
 <a id="RBDAnalysisSettings.RemoveParameter"></a>
 
-### RBDAnalysisSettings.RemoveParameter(propName: System.String)
+### RBDAnalysisSettings.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -554,7 +554,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="RBDAnalysisSettings.SetAutomaticTimeStepping"></a>
 
-### RBDAnalysisSettings.SetAutomaticTimeStepping(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping))
+### RBDAnalysisSettings.SetAutomaticTimeStepping(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping))
 
 Sets the Automatic Time Stepping for a given solution step.
 
@@ -562,7 +562,7 @@ Sets the Automatic Time Stepping for a given solution step.
 
 <a id="RBDAnalysisSettings.SetCarryOverTimeStep"></a>
 
-### RBDAnalysisSettings.SetCarryOverTimeStep(stepNumber: System.Int32, value: System.Boolean)
+### RBDAnalysisSettings.SetCarryOverTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the Carry Over Time Step for a given solution step.
 
@@ -570,7 +570,7 @@ Sets the Carry Over Time Step for a given solution step.
 
 <a id="RBDAnalysisSettings.SetInitialTimeStep"></a>
 
-### RBDAnalysisSettings.SetInitialTimeStep(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### RBDAnalysisSettings.SetInitialTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Initial Time Step for a given solution step.
 
@@ -578,7 +578,7 @@ Sets the Initial Time Step for a given solution step.
 
 <a id="RBDAnalysisSettings.SetMaximumTimeStep"></a>
 
-### RBDAnalysisSettings.SetMaximumTimeStep(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### RBDAnalysisSettings.SetMaximumTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Maximum Time Step for a given solution step.
 
@@ -586,7 +586,7 @@ Sets the Maximum Time Step for a given solution step.
 
 <a id="RBDAnalysisSettings.SetMinimumTimeStep"></a>
 
-### RBDAnalysisSettings.SetMinimumTimeStep(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### RBDAnalysisSettings.SetMinimumTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Minimum Time Step for a given solution step.
 
@@ -594,7 +594,7 @@ Sets the Minimum Time Step for a given solution step.
 
 <a id="RBDAnalysisSettings.SetStepEndTime"></a>
 
-### RBDAnalysisSettings.SetStepEndTime(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### RBDAnalysisSettings.SetStepEndTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Step End Time for a given solution step.
 
@@ -602,7 +602,7 @@ Sets the Step End Time for a given solution step.
 
 <a id="RBDAnalysisSettings.SetStoreResultAt"></a>
 
-### RBDAnalysisSettings.SetStoreResultAt(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimePointsOptions))
+### RBDAnalysisSettings.SetStoreResultAt(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimePointsOptions))
 
 Sets the StoreResultAt setting for a given solution step.
 
@@ -610,7 +610,7 @@ Sets the StoreResultAt setting for a given solution step.
 
 <a id="RBDAnalysisSettings.SetStoreResultAtValue"></a>
 
-### RBDAnalysisSettings.SetStoreResultAtValue(stepNumber: System.Int32, value: System.Int32)
+### RBDAnalysisSettings.SetStoreResultAtValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the StoreResultAtValue setting for a given solution step.
 
@@ -618,7 +618,7 @@ Sets the StoreResultAtValue setting for a given solution step.
 
 <a id="RBDAnalysisSettings.SetTimeStep"></a>
 
-### RBDAnalysisSettings.SetTimeStep(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### RBDAnalysisSettings.SetTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the (fixed) Time Step for a given solution step.
 

@@ -17,7 +17,7 @@ Specifies the OutputControlsNodalForcesType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`ConstrainNode`](#OutputControlsNodalForcesType.ConstrainNode) |
 | [`No`](#OutputControlsNodalForcesType.No) |
 | [`Yes`](#OutputControlsNodalForcesType.Yes) |

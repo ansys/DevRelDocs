@@ -17,7 +17,7 @@ Specifies the IterationOptions.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------ |
 | [`AllIterations`](#IterationOptions.AllIterations) |
 | [`EquallySpacedPoints`](#IterationOptions.EquallySpacedPoints) |
 | [`LastIteration`](#IterationOptions.LastIteration) |

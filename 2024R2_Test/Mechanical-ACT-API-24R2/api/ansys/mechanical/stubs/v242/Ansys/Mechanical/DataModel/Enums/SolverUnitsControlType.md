@@ -17,7 +17,7 @@ Specifies the SolverUnitsControlType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`ActiveSystem`](#SolverUnitsControlType.ActiveSystem) |
 | [`Manual`](#SolverUnitsControlType.Manual) |
 

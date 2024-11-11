@@ -17,7 +17,7 @@ Specifies the ElementOrder.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`Linear`](#ElementOrder.Linear) |
 | [`ProgramControlled`](#ElementOrder.ProgramControlled) |
 | [`Quadratic`](#ElementOrder.Quadratic) |

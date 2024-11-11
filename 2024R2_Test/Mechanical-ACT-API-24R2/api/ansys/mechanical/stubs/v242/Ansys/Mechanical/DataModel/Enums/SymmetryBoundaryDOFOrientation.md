@@ -17,7 +17,7 @@ Specifies the SymmetryBoundaryDOFOrientation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------- |
 | [`ChosenBySolver`](#SymmetryBoundaryDOFOrientation.ChosenBySolver) |
 | [`Manual`](#SymmetryBoundaryDOFOrientation.Manual) |
 

@@ -37,7 +37,7 @@ IReadOnlyDataTable interface.
 
 <a id="IReadOnlyDataTable.ColumnNames"></a>
 
-### *property* IReadOnlyDataTable.ColumnNames *: System.Collections.Generic.IReadOnlyList[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IReadOnlyDataTable.ColumnNames *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[str](https://docs.python.org/3/library/stdtypes.html#str)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets a list of the column names.
 
@@ -45,7 +45,7 @@ Gets a list of the column names.
 
 <a id="IReadOnlyDataTable.Columns"></a>
 
-### *property* IReadOnlyDataTable.Columns *: System.Collections.Generic.IReadOnlyList[[Ansys.Mechanical.Interfaces.IReadOnlyDataSeries](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IReadOnlyDataTable.Columns *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.Mechanical.Interfaces.IReadOnlyDataSeries](IReadOnlyDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Explicitly get the columns of the table.
 
@@ -53,7 +53,7 @@ Explicitly get the columns of the table.
 
 <a id="IReadOnlyDataTable.Item"></a>
 
-### *property* IReadOnlyDataTable.Item *: [Ansys.Mechanical.Interfaces.IReadOnlyDataSeries](../../../../v242/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IReadOnlyDataTable.Item *: [Ansys.Mechanical.Interfaces.IReadOnlyDataSeries](IReadOnlyDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -61,7 +61,7 @@ Item property.
 
 <a id="IReadOnlyDataTable.Metadata"></a>
 
-### *property* IReadOnlyDataTable.Metadata *: System.Collections.Generic.IReadOnlyDictionary[System.String, System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IReadOnlyDataTable.Metadata *: [dict](https://docs.python.org/3/library/stdtypes.html#dict)[[str](https://docs.python.org/3/library/stdtypes.html#str), Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets a dictionary with additional information that may be useful to understanding the
 context of data in the table.
@@ -70,7 +70,7 @@ context of data in the table.
 
 <a id="IReadOnlyDataTable.Name"></a>
 
-### *property* IReadOnlyDataTable.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IReadOnlyDataTable.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the name of the table.
 
@@ -78,7 +78,7 @@ Get the name of the table.
 
 <a id="IReadOnlyDataTable.RowCount"></a>
 
-### *property* IReadOnlyDataTable.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IReadOnlyDataTable.RowCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the maximum number of data points (rows) among all columns in the table
 
@@ -90,7 +90,7 @@ Gets the maximum number of data points (rows) among all columns in the table
 
 <a id="IReadOnlyDataTable.GetRow"></a>
 
-### IReadOnlyDataTable.GetRow(rowIndex: System.Int32)
+### IReadOnlyDataTable.GetRow(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 Returns an enumerable to iterate over the values in a row.
 

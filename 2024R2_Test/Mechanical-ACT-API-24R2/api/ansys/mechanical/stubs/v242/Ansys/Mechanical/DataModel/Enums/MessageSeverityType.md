@@ -17,7 +17,7 @@ Specifies the Message Severity Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`Error`](#MessageSeverityType.Error) |
 | [`Info`](#MessageSeverityType.Info) |
 | [`Warning`](#MessageSeverityType.Warning) |

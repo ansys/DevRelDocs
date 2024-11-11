@@ -17,7 +17,7 @@ Defines a ComplexityIndexConstraint.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ComplexityIndexConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#ComplexityIndexConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#ComplexityIndexConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a ComplexityIndexConstraint.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ComplexityIndexConstraint.Children)                               | Gets the list of children.                                    |
 | [`DataModelObjectCategory`](#ComplexityIndexConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`InternalObject`](#ComplexityIndexConstraint.InternalObject)                   | Gets the internal object. For advanced usage only.            |
@@ -50,7 +50,7 @@ Defines a ComplexityIndexConstraint.
 
 <a id="ComplexityIndexConstraint.Children"></a>
 
-### *property* ComplexityIndexConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ComplexityIndexConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -58,7 +58,7 @@ Gets the list of children.
 
 <a id="ComplexityIndexConstraint.DataModelObjectCategory"></a>
 
-### *property* ComplexityIndexConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ComplexityIndexConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -74,7 +74,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ComplexityIndexConstraint.Properties"></a>
 
-### *property* ComplexityIndexConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ComplexityIndexConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -82,7 +82,7 @@ Gets the list of properties for this object.
 
 <a id="ComplexityIndexConstraint.Selection"></a>
 
-### *property* ComplexityIndexConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ComplexityIndexConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Selection.
 
@@ -90,7 +90,7 @@ Gets or sets the Selection.
 
 <a id="ComplexityIndexConstraint.Suppressed"></a>
 
-### *property* ComplexityIndexConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ComplexityIndexConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -98,7 +98,7 @@ Gets or sets the Suppressed.
 
 <a id="ComplexityIndexConstraint.VisibleProperties"></a>
 
-### *property* ComplexityIndexConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ComplexityIndexConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -126,7 +126,7 @@ Copies all visible properties from this object to another.
 
 <a id="ComplexityIndexConstraint.CreateParameter"></a>
 
-### ComplexityIndexConstraint.CreateParameter(propName: System.String)
+### ComplexityIndexConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -150,7 +150,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ComplexityIndexConstraint.GetChildren"></a>
 
-### ComplexityIndexConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ComplexityIndexConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -158,7 +158,7 @@ Gets the list of children, filtered by type.
 
 <a id="ComplexityIndexConstraint.GetParameter"></a>
 
-### ComplexityIndexConstraint.GetParameter(propName: System.String)
+### ComplexityIndexConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -182,7 +182,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ComplexityIndexConstraint.PropertyByAPIName"></a>
 
-### ComplexityIndexConstraint.PropertyByAPIName(name: System.String)
+### ComplexityIndexConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -193,7 +193,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ComplexityIndexConstraint.PropertyByName"></a>
 
-### ComplexityIndexConstraint.PropertyByName(name: System.String)
+### ComplexityIndexConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -201,7 +201,7 @@ Get a property by its unique name.
 
 <a id="ComplexityIndexConstraint.RemoveParameter"></a>
 
-### ComplexityIndexConstraint.RemoveParameter(propName: System.String)
+### ComplexityIndexConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

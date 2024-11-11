@@ -17,7 +17,7 @@ Specifies the NonLinearValueType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`CalculatedBySolver`](#NonLinearValueType.CalculatedBySolver) |
 | [`UserInput`](#NonLinearValueType.UserInput) |
 

@@ -17,7 +17,7 @@ Specifies the CondensedPartKeepFilesFor.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------- |
 | [`MAPDLExpansion`](#CondensedPartKeepFilesFor.MAPDLExpansion) |
 | [`OnDemandExpansion`](#CondensedPartKeepFilesFor.OnDemandExpansion) |
 | [`UsePassOnly`](#CondensedPartKeepFilesFor.UsePassOnly) |

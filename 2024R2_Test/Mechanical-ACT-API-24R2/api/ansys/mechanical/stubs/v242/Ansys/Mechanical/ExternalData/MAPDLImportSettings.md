@@ -17,7 +17,7 @@ T:Ansys.Mechanical.ExternalData.MAPDLImportSettings defines how to import extern
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+|-------------------------------------------------|-----------------------------------------|
 | [`Dimension`](#MAPDLImportSettings.Dimension)   | The dimension of the MAPDL CDB file.    |
 | [`Format`](#MAPDLImportSettings.Format)         | Gets the existing corresponding format. |
 | [`LengthUnit`](#MAPDLImportSettings.LengthUnit) | The length unit of the MAPDL CDB file.  |

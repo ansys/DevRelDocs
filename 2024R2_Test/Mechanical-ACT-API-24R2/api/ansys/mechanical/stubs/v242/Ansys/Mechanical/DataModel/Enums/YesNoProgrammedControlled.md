@@ -17,7 +17,7 @@ Specifies the YesNoProgrammedControlled.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------- |
 | [`No`](#YesNoProgrammedControlled.No) |
 | [`ProgramControlled`](#YesNoProgrammedControlled.ProgramControlled) |
 | [`Yes`](#YesNoProgrammedControlled.Yes) |

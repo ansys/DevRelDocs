@@ -17,7 +17,7 @@ Specifies the RadiationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`Damage`](#FatigueSensitivityType.Damage) |
 | [`FactorSaftey`](#FatigueSensitivityType.FactorSaftey) |
 | [`Life`](#FatigueSensitivityType.Life) |

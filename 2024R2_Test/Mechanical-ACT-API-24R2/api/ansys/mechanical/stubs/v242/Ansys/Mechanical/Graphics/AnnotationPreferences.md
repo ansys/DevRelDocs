@@ -17,14 +17,14 @@ AnnotationPreferences class.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+|-----------------------------------------------------------------------|--------------------------------------------------------------------------|
 | [`SetElementNumbering`](#AnnotationPreferences.SetElementNumbering)   | Sets the begin, end and increment values to display element numbering.   |
 | [`SetNodeNumbering`](#AnnotationPreferences.SetNodeNumbering)         | Sets the begin, end and increment values to display node numbering.      |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | [`PointMassSize`](#AnnotationPreferences.PointMassSize)                           | Sets the size for point mass annotation. (Small-Large ; 1-100)                             |
 | [`ShowAllAnnotations`](#AnnotationPreferences.ShowAllAnnotations)                 | Sets the visibility of all annotations.                                                    |
 | [`ShowBeams`](#AnnotationPreferences.ShowBeams)                                   | Sets the visibility of beam annotations.                                                   |
@@ -48,7 +48,7 @@ AnnotationPreferences class.
 
 <a id="AnnotationPreferences.PointMassSize"></a>
 
-### *property* AnnotationPreferences.PointMassSize *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.PointMassSize *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the size for point mass annotation. (Small-Large ; 1-100)
 
@@ -56,7 +56,7 @@ Sets the size for point mass annotation. (Small-Large ; 1-100)
 
 <a id="AnnotationPreferences.ShowAllAnnotations"></a>
 
-### *property* AnnotationPreferences.ShowAllAnnotations *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowAllAnnotations *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of all annotations.
 
@@ -64,7 +64,7 @@ Sets the visibility of all annotations.
 
 <a id="AnnotationPreferences.ShowBeams"></a>
 
-### *property* AnnotationPreferences.ShowBeams *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowBeams *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of beam annotations.
 
@@ -72,7 +72,7 @@ Sets the visibility of beam annotations.
 
 <a id="AnnotationPreferences.ShowBearings"></a>
 
-### *property* AnnotationPreferences.ShowBearings *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowBearings *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of bearing annotations.
 
@@ -80,7 +80,7 @@ Sets the visibility of bearing annotations.
 
 <a id="AnnotationPreferences.ShowBodyScopings"></a>
 
-### *property* AnnotationPreferences.ShowBodyScopings *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowBodyScopings *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of body scoping annotations.
 
@@ -88,7 +88,7 @@ Sets the visibility of body scoping annotations.
 
 <a id="AnnotationPreferences.ShowCracks"></a>
 
-### *property* AnnotationPreferences.ShowCracks *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowCracks *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of crack annotations.
 
@@ -96,7 +96,7 @@ Sets the visibility of crack annotations.
 
 <a id="AnnotationPreferences.ShowCustomAnnotations"></a>
 
-### *property* AnnotationPreferences.ShowCustomAnnotations *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowCustomAnnotations *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of user defined annotations.
 
@@ -104,7 +104,7 @@ Sets the visibility of user defined annotations.
 
 <a id="AnnotationPreferences.ShowElementNumbers"></a>
 
-### *property* AnnotationPreferences.ShowElementNumbers *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowElementNumbers *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of mesh element numbers in named Selection, mesh, and result displays.
 
@@ -112,7 +112,7 @@ Sets the visibility of mesh element numbers in named Selection, mesh, and result
 
 <a id="AnnotationPreferences.ShowForceArrows"></a>
 
-### *property* AnnotationPreferences.ShowForceArrows *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowForceArrows *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of force arrows on surface reaction.
 
@@ -120,7 +120,7 @@ Sets the visibility of force arrows on surface reaction.
 
 <a id="AnnotationPreferences.ShowLabels"></a>
 
-### *property* AnnotationPreferences.ShowLabels *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowLabels *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of annotation labels.
 
@@ -128,7 +128,7 @@ Sets the visibility of annotation labels.
 
 <a id="AnnotationPreferences.ShowMeshAnnotations"></a>
 
-### *property* AnnotationPreferences.ShowMeshAnnotations *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowMeshAnnotations *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of mesh node and mesh element annotations in named selection displays.
 
@@ -136,7 +136,7 @@ Sets the visibility of mesh node and mesh element annotations in named selection
 
 <a id="AnnotationPreferences.ShowNamedSelectionElements"></a>
 
-### *property* AnnotationPreferences.ShowNamedSelectionElements *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowNamedSelectionElements *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of elements for all items in the named selection group.
 
@@ -144,7 +144,7 @@ Sets the visibility of elements for all items in the named selection group.
 
 <a id="AnnotationPreferences.ShowNodeNumbers"></a>
 
-### *property* AnnotationPreferences.ShowNodeNumbers *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowNodeNumbers *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of mesh node numbers in named selection, mesh, and result displays.
 
@@ -152,7 +152,7 @@ Sets the visibility of mesh node numbers in named selection, mesh, and result di
 
 <a id="AnnotationPreferences.ShowPointMasses"></a>
 
-### *property* AnnotationPreferences.ShowPointMasses *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowPointMasses *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of point mass annotations.
 
@@ -160,7 +160,7 @@ Sets the visibility of point mass annotations.
 
 <a id="AnnotationPreferences.ShowSprings"></a>
 
-### *property* AnnotationPreferences.ShowSprings *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.ShowSprings *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the visibility of spring annotations.
 
@@ -168,7 +168,7 @@ Sets the visibility of spring annotations.
 
 <a id="AnnotationPreferences.SpringSize"></a>
 
-### *property* AnnotationPreferences.SpringSize *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnnotationPreferences.SpringSize *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the size for spring annotation. (Small-Large ; 1-100)
 
@@ -180,7 +180,7 @@ Sets the size for spring annotation. (Small-Large ; 1-100)
 
 <a id="AnnotationPreferences.SetElementNumbering"></a>
 
-### AnnotationPreferences.SetElementNumbering(begin: System.Int32, end: System.Int32, inc: System.Int32)
+### AnnotationPreferences.SetElementNumbering(begin: [int](https://docs.python.org/3/library/functions.html#int), end: [int](https://docs.python.org/3/library/functions.html#int), inc: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the begin, end and increment values to display element numbering.
 
@@ -188,7 +188,7 @@ Sets the begin, end and increment values to display element numbering.
 
 <a id="AnnotationPreferences.SetNodeNumbering"></a>
 
-### AnnotationPreferences.SetNodeNumbering(begin: System.Int32, end: System.Int32, inc: System.Int32)
+### AnnotationPreferences.SetNodeNumbering(begin: [int](https://docs.python.org/3/library/functions.html#int), end: [int](https://docs.python.org/3/library/functions.html#int), inc: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the begin, end and increment values to display node numbering.
 

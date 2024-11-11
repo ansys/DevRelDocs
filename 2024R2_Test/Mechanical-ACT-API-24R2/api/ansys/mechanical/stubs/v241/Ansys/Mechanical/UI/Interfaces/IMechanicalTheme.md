@@ -53,7 +53,7 @@ Palette object, which provides an entry point to get Mechnical UI’s theme colo
 
 <a id="IMechanicalTheme.Name"></a>
 
-### *property* IMechanicalTheme.Name *: [Ansys.Mechanical.UI.Enums.ThemeName](../../../../../v242/Ansys/Mechanical/UI/Enums/ThemeName.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.UI.Enums.ThemeName) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalTheme.Name *: [Ansys.Mechanical.UI.Enums.ThemeName](../Enums/ThemeName.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Enums.ThemeName) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the theme as an enum value.
 

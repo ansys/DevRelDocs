@@ -17,7 +17,7 @@ Defines a TopologyOptimizationResult.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TopologyOptimizationResult.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#TopologyOptimizationResult.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#TopologyOptimizationResult.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -41,7 +41,7 @@ Defines a TopologyOptimizationResult.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`CalculateTimeHistory`](#TopologyOptimizationResult.CalculateTimeHistory)       | Gets or sets the CalculateTimeHistory.                        |
 | [`Children`](#TopologyOptimizationResult.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#TopologyOptimizationResult.Comments)                               | Gets the list of associated comments.                         |
@@ -74,7 +74,7 @@ Defines a TopologyOptimizationResult.
 
 <a id="TopologyOptimizationResult.CalculateTimeHistory"></a>
 
-### *property* TopologyOptimizationResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -82,7 +82,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="TopologyOptimizationResult.Children"></a>
 
-### *property* TopologyOptimizationResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -90,7 +90,7 @@ Gets the list of children.
 
 <a id="TopologyOptimizationResult.Comments"></a>
 
-### *property* TopologyOptimizationResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -106,7 +106,7 @@ Gets the current DataModelObject’s category.
 
 <a id="TopologyOptimizationResult.ExclusionsParticipation"></a>
 
-### *property* TopologyOptimizationResult.ExclusionsParticipation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.ExclusionsParticipation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExclusionsParticipation.
 
@@ -114,7 +114,7 @@ Gets or sets the ExclusionsParticipation.
 
 <a id="TopologyOptimizationResult.Figures"></a>
 
-### *property* TopologyOptimizationResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -138,7 +138,7 @@ Gets the FinalVolume.
 
 <a id="TopologyOptimizationResult.Images"></a>
 
-### *property* TopologyOptimizationResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -154,7 +154,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TopologyOptimizationResult.IterationNumber"></a>
 
-### *property* TopologyOptimizationResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -162,7 +162,7 @@ Gets the IterationNumber.
 
 <a id="TopologyOptimizationResult.IterationStep"></a>
 
-### *property* TopologyOptimizationResult.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -178,7 +178,7 @@ Gets or sets the Location.
 
 <a id="TopologyOptimizationResult.Maximum"></a>
 
-### *property* TopologyOptimizationResult.Maximum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.Maximum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
@@ -186,7 +186,7 @@ Gets the Maximum.
 
 <a id="TopologyOptimizationResult.Minimum"></a>
 
-### *property* TopologyOptimizationResult.Minimum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.Minimum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
@@ -210,7 +210,7 @@ Gets the OriginalVolume.
 
 <a id="TopologyOptimizationResult.PercentMassOfOriginal"></a>
 
-### *property* TopologyOptimizationResult.PercentMassOfOriginal *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.PercentMassOfOriginal *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PercentMassOfOriginal.
 
@@ -218,7 +218,7 @@ Gets the PercentMassOfOriginal.
 
 <a id="TopologyOptimizationResult.PercentVolumeOfOriginal"></a>
 
-### *property* TopologyOptimizationResult.PercentVolumeOfOriginal *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.PercentVolumeOfOriginal *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PercentVolumeOfOriginal.
 
@@ -226,7 +226,7 @@ Gets the PercentVolumeOfOriginal.
 
 <a id="TopologyOptimizationResult.Properties"></a>
 
-### *property* TopologyOptimizationResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -258,7 +258,7 @@ Gets or sets the ShowOptimizedRegion.
 
 <a id="TopologyOptimizationResult.Suppressed"></a>
 
-### *property* TopologyOptimizationResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -266,7 +266,7 @@ Gets or sets the Suppressed.
 
 <a id="TopologyOptimizationResult.VisibleProperties"></a>
 
-### *property* TopologyOptimizationResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyOptimizationResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -302,7 +302,7 @@ Creates a new child Figure.
 
 <a id="TopologyOptimizationResult.AddImage"></a>
 
-### TopologyOptimizationResult.AddImage(filePath: System.String)
+### TopologyOptimizationResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -330,7 +330,7 @@ Copies all visible properties from this object to another.
 
 <a id="TopologyOptimizationResult.CreateParameter"></a>
 
-### TopologyOptimizationResult.CreateParameter(propName: System.String)
+### TopologyOptimizationResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -362,7 +362,7 @@ Run the EvaluateAllResults action.
 
 <a id="TopologyOptimizationResult.ExportAnimation"></a>
 
-### TopologyOptimizationResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TopologyOptimizationResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -370,7 +370,7 @@ Run the ExportAnimation action.
 
 <a id="TopologyOptimizationResult.GetChildren"></a>
 
-### TopologyOptimizationResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TopologyOptimizationResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -378,7 +378,7 @@ Gets the list of children, filtered by type.
 
 <a id="TopologyOptimizationResult.GetParameter"></a>
 
-### TopologyOptimizationResult.GetParameter(propName: System.String)
+### TopologyOptimizationResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -402,7 +402,7 @@ Run the GroupSimilarObjects action.
 
 <a id="TopologyOptimizationResult.PropertyByAPIName"></a>
 
-### TopologyOptimizationResult.PropertyByAPIName(name: System.String)
+### TopologyOptimizationResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -413,7 +413,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TopologyOptimizationResult.PropertyByName"></a>
 
-### TopologyOptimizationResult.PropertyByName(name: System.String)
+### TopologyOptimizationResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -421,7 +421,7 @@ Get a property by its unique name.
 
 <a id="TopologyOptimizationResult.RemoveParameter"></a>
 
-### TopologyOptimizationResult.RemoveParameter(propName: System.String)
+### TopologyOptimizationResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

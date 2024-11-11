@@ -17,7 +17,7 @@ Specifies the LoadVariationSubOption.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------- |
 | [`AverageFilmTemperature`](#LoadVariationSubOption.AverageFilmTemperature) |
 | [`BulkTemperature`](#LoadVariationSubOption.BulkTemperature) |
 | [`ConvectionEnd`](#LoadVariationSubOption.ConvectionEnd) |

@@ -17,7 +17,7 @@ Wrapper for Graphics in Design Modeler.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`CreatePixelPoint`](#DMGraphicsWrapper.CreatePixelPoint)       | Creates a point from pixel coordinates (ie. window coordinates).                         |
 | [`CreateVector3D`](#DMGraphicsWrapper.CreateVector3D)           | Create a 3D vector from world coordinates.                                               |
 | [`CreateWorldPoint`](#DMGraphicsWrapper.CreateWorldPoint)       | Create a point from world coordinates.                                                   |
@@ -29,7 +29,7 @@ Wrapper for Graphics in Design Modeler.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------|-------------------|
+|---------------------------------------|-------------------|
 | [`Scene`](#DMGraphicsWrapper.Scene)   | Gets the scene.   |
 
 <a id="property-detail"></a>
@@ -50,7 +50,7 @@ Gets the scene.
 
 <a id="DMGraphicsWrapper.CreatePixelPoint"></a>
 
-### DMGraphicsWrapper.CreatePixelPoint(x: System.Int32, y: System.Int32)
+### DMGraphicsWrapper.CreatePixelPoint(x: [int](https://docs.python.org/3/library/functions.html#int), y: [int](https://docs.python.org/3/library/functions.html#int))
 
 Creates a point from pixel coordinates (ie. window coordinates).
 
@@ -58,7 +58,7 @@ Creates a point from pixel coordinates (ie. window coordinates).
 
 <a id="DMGraphicsWrapper.CreateVector3D"></a>
 
-### DMGraphicsWrapper.CreateVector3D(x: System.Double, y: System.Double, z: System.Double)
+### DMGraphicsWrapper.CreateVector3D(x: [float](https://docs.python.org/3/library/functions.html#float), y: [float](https://docs.python.org/3/library/functions.html#float), z: [float](https://docs.python.org/3/library/functions.html#float))
 
 Create a 3D vector from world coordinates.
 
@@ -66,7 +66,7 @@ Create a 3D vector from world coordinates.
 
 <a id="DMGraphicsWrapper.CreateWorldPoint"></a>
 
-### DMGraphicsWrapper.CreateWorldPoint(x: System.Double, y: System.Double, z: System.Double)
+### DMGraphicsWrapper.CreateWorldPoint(x: [float](https://docs.python.org/3/library/functions.html#float), y: [float](https://docs.python.org/3/library/functions.html#float), z: [float](https://docs.python.org/3/library/functions.html#float))
 
 Create a point from world coordinates.
 
@@ -74,7 +74,7 @@ Create a point from world coordinates.
 
 <a id="DMGraphicsWrapper.ExportScreenToImage"></a>
 
-### DMGraphicsWrapper.ExportScreenToImage(filePath: System.String)
+### DMGraphicsWrapper.ExportScreenToImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Exports the current Graphics screen to a file.
 

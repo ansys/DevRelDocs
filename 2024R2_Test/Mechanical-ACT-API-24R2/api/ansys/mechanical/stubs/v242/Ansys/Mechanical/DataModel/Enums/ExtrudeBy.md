@@ -17,7 +17,7 @@ To specify the method of extrusion. The available options are Use Coordinate Sys
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------- |
 | [`FaceNormal`](#ExtrudeBy.FaceNormal) |
 | [`FaceNormalReversed`](#ExtrudeBy.FaceNormalReversed) |
 | [`UseCoordinateSystem`](#ExtrudeBy.UseCoordinateSystem) |

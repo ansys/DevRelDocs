@@ -17,7 +17,7 @@ Specifies the SpotWeldTypes.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------- |
 | [`Dependent`](#SpotWeldTypes.Dependent) |
 | [`Independent`](#SpotWeldTypes.Independent) |
 

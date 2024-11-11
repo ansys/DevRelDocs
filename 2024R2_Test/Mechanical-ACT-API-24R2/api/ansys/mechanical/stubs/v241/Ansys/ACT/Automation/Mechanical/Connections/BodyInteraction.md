@@ -17,7 +17,7 @@ Defines a BodyInteraction.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#BodyInteraction.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#BodyInteraction.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#BodyInteraction.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a BodyInteraction.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Breakable`](#BodyInteraction.Breakable)                             | Gets or sets the Breakable.                                   |
 | [`Children`](#BodyInteraction.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#BodyInteraction.Comments)                               | Gets the list of associated comments.                         |
@@ -69,7 +69,7 @@ Defines a BodyInteraction.
 
 <a id="BodyInteraction.Breakable"></a>
 
-### *property* BodyInteraction.Breakable *: [Ansys.Mechanical.DataModel.Enums.BondedBreakableType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/BondedBreakableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BondedBreakableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.Breakable *: [Ansys.Mechanical.DataModel.Enums.BondedBreakableType](../../../../Mechanical/DataModel/Enums/BondedBreakableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BondedBreakableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Breakable.
 
@@ -77,7 +77,7 @@ Gets or sets the Breakable.
 
 <a id="BodyInteraction.Children"></a>
 
-### *property* BodyInteraction.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -85,7 +85,7 @@ Gets the list of children.
 
 <a id="BodyInteraction.Comments"></a>
 
-### *property* BodyInteraction.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -93,7 +93,7 @@ Gets the list of associated comments.
 
 <a id="BodyInteraction.ContactType"></a>
 
-### *property* BodyInteraction.ContactType *: [Ansys.Mechanical.DataModel.Enums.ContactType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.ContactType *: [Ansys.Mechanical.DataModel.Enums.ContactType](../../../../Mechanical/DataModel/Enums/ContactType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactType.
 
@@ -101,7 +101,7 @@ Gets or sets the ContactType.
 
 <a id="BodyInteraction.DataModelObjectCategory"></a>
 
-### *property* BodyInteraction.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -109,7 +109,7 @@ Gets the current DataModelObject’s category.
 
 <a id="BodyInteraction.DecayConstant"></a>
 
-### *property* BodyInteraction.DecayConstant *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.DecayConstant *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DecayConstant.
 
@@ -117,7 +117,7 @@ Gets or sets the DecayConstant.
 
 <a id="BodyInteraction.DynamicCoefficient"></a>
 
-### *property* BodyInteraction.DynamicCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.DynamicCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DynamicCoefficient.
 
@@ -125,7 +125,7 @@ Gets or sets the DynamicCoefficient.
 
 <a id="BodyInteraction.Figures"></a>
 
-### *property* BodyInteraction.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -133,7 +133,7 @@ Gets the list of associated figures.
 
 <a id="BodyInteraction.FrictionCoefficient"></a>
 
-### *property* BodyInteraction.FrictionCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.FrictionCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrictionCoefficient.
 
@@ -141,7 +141,7 @@ Gets or sets the FrictionCoefficient.
 
 <a id="BodyInteraction.Images"></a>
 
-### *property* BodyInteraction.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -173,7 +173,7 @@ Gets or sets the MaximumOffset.
 
 <a id="BodyInteraction.NormalForceExponent"></a>
 
-### *property* BodyInteraction.NormalForceExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.NormalForceExponent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalForceExponent.
 
@@ -189,7 +189,7 @@ Gets or sets the NormalForceLimit.
 
 <a id="BodyInteraction.NormalStressExponent"></a>
 
-### *property* BodyInteraction.NormalStressExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.NormalStressExponent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalStressExponent.
 
@@ -205,7 +205,7 @@ Gets or sets the NormalStressLimit.
 
 <a id="BodyInteraction.Properties"></a>
 
-### *property* BodyInteraction.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -213,7 +213,7 @@ Gets the list of properties for this object.
 
 <a id="BodyInteraction.ShearForceExponent"></a>
 
-### *property* BodyInteraction.ShearForceExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.ShearForceExponent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearForceExponent.
 
@@ -229,7 +229,7 @@ Gets or sets the ShearForceLimit.
 
 <a id="BodyInteraction.ShearStressExponent"></a>
 
-### *property* BodyInteraction.ShearStressExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.ShearStressExponent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearStressExponent.
 
@@ -245,7 +245,7 @@ Gets or sets the ShearStressLimit.
 
 <a id="BodyInteraction.Suppressed"></a>
 
-### *property* BodyInteraction.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -253,7 +253,7 @@ Gets or sets the Suppressed.
 
 <a id="BodyInteraction.VisibleProperties"></a>
 
-### *property* BodyInteraction.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteraction.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -289,7 +289,7 @@ Creates a new child Figure.
 
 <a id="BodyInteraction.AddImage"></a>
 
-### BodyInteraction.AddImage(filePath: System.String)
+### BodyInteraction.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -309,7 +309,7 @@ Copies all visible properties from this object to another.
 
 <a id="BodyInteraction.CreateParameter"></a>
 
-### BodyInteraction.CreateParameter(propName: System.String)
+### BodyInteraction.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -333,7 +333,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="BodyInteraction.GetChildren"></a>
 
-### BodyInteraction.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### BodyInteraction.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -341,7 +341,7 @@ Gets the list of children, filtered by type.
 
 <a id="BodyInteraction.GetParameter"></a>
 
-### BodyInteraction.GetParameter(propName: System.String)
+### BodyInteraction.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -365,7 +365,7 @@ Run the GroupSimilarObjects action.
 
 <a id="BodyInteraction.PropertyByAPIName"></a>
 
-### BodyInteraction.PropertyByAPIName(name: System.String)
+### BodyInteraction.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -376,7 +376,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="BodyInteraction.PropertyByName"></a>
 
-### BodyInteraction.PropertyByName(name: System.String)
+### BodyInteraction.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -384,7 +384,7 @@ Get a property by its unique name.
 
 <a id="BodyInteraction.RemoveParameter"></a>
 
-### BodyInteraction.RemoveParameter(propName: System.String)
+### BodyInteraction.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

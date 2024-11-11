@@ -17,7 +17,7 @@ Specifies the ReinforcingStressState.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------- |
 | [`PlaneStressOnly`](#ReinforcingStressState.PlaneStressOnly) |
 | [`PlaneStressWithTransverseShear`](#ReinforcingStressState.PlaneStressWithTransverseShear) |
 | [`PlaneStressWithTransverseShearAndBending`](#ReinforcingStressState.PlaneStressWithTransverseShearAndBending) |

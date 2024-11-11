@@ -17,7 +17,7 @@ Specifies the JointGeneralPrimitiveType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------- |
 | [`InLine`](#JointGeneralPrimitiveType.InLine) |
 | [`InPlane`](#JointGeneralPrimitiveType.InPlane) |
 | [`None_`](#JointGeneralPrimitiveType.None_) |

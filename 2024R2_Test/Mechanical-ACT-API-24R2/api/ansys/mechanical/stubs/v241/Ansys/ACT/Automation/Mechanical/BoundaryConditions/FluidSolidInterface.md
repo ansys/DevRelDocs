@@ -17,7 +17,7 @@ Defines a FluidSolidInterface.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#FluidSolidInterface.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#FluidSolidInterface.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#FluidSolidInterface.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a FluidSolidInterface.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#FluidSolidInterface.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#FluidSolidInterface.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#FluidSolidInterface.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -60,7 +60,7 @@ Defines a FluidSolidInterface.
 
 <a id="FluidSolidInterface.Children"></a>
 
-### *property* FluidSolidInterface.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -68,7 +68,7 @@ Gets the list of children.
 
 <a id="FluidSolidInterface.Comments"></a>
 
-### *property* FluidSolidInterface.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -76,7 +76,7 @@ Gets the list of associated comments.
 
 <a id="FluidSolidInterface.DataModelObjectCategory"></a>
 
-### *property* FluidSolidInterface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -84,7 +84,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FluidSolidInterface.ExportResults"></a>
 
-### *property* FluidSolidInterface.ExportResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.ExportResults *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExportResults.
 
@@ -92,7 +92,7 @@ Gets or sets the ExportResults.
 
 <a id="FluidSolidInterface.Figures"></a>
 
-### *property* FluidSolidInterface.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -100,7 +100,7 @@ Gets the list of associated figures.
 
 <a id="FluidSolidInterface.Images"></a>
 
-### *property* FluidSolidInterface.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -108,7 +108,7 @@ Gets the list of associated images.
 
 <a id="FluidSolidInterface.InterfaceNumber"></a>
 
-### *property* FluidSolidInterface.InterfaceNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.InterfaceNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InterfaceNumber.
 
@@ -132,7 +132,7 @@ Gets or sets the Location.
 
 <a id="FluidSolidInterface.Properties"></a>
 
-### *property* FluidSolidInterface.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -140,7 +140,7 @@ Gets the list of properties for this object.
 
 <a id="FluidSolidInterface.ReadOnly"></a>
 
-### *property* FluidSolidInterface.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -156,7 +156,7 @@ Gets or sets the SharedRefBody.
 
 <a id="FluidSolidInterface.Suppressed"></a>
 
-### *property* FluidSolidInterface.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -164,7 +164,7 @@ Gets or sets the Suppressed.
 
 <a id="FluidSolidInterface.VisibleProperties"></a>
 
-### *property* FluidSolidInterface.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidSolidInterface.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -200,7 +200,7 @@ Creates a new child Figure.
 
 <a id="FluidSolidInterface.AddImage"></a>
 
-### FluidSolidInterface.AddImage(filePath: System.String)
+### FluidSolidInterface.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -220,7 +220,7 @@ Copies all visible properties from this object to another.
 
 <a id="FluidSolidInterface.CreateParameter"></a>
 
-### FluidSolidInterface.CreateParameter(propName: System.String)
+### FluidSolidInterface.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -244,7 +244,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="FluidSolidInterface.GetChildren"></a>
 
-### FluidSolidInterface.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FluidSolidInterface.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -252,7 +252,7 @@ Gets the list of children, filtered by type.
 
 <a id="FluidSolidInterface.GetParameter"></a>
 
-### FluidSolidInterface.GetParameter(propName: System.String)
+### FluidSolidInterface.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -284,7 +284,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="FluidSolidInterface.PropertyByAPIName"></a>
 
-### FluidSolidInterface.PropertyByAPIName(name: System.String)
+### FluidSolidInterface.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -295,7 +295,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FluidSolidInterface.PropertyByName"></a>
 
-### FluidSolidInterface.PropertyByName(name: System.String)
+### FluidSolidInterface.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -303,7 +303,7 @@ Get a property by its unique name.
 
 <a id="FluidSolidInterface.RemoveParameter"></a>
 
-### FluidSolidInterface.RemoveParameter(propName: System.String)
+### FluidSolidInterface.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

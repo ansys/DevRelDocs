@@ -133,7 +133,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedVelocity.Children"></a>
 
-### *property* ImportedVelocity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -141,7 +141,7 @@ Gets the list of children.
 
 <a id="ImportedVelocity.Comments"></a>
 
-### *property* ImportedVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -149,7 +149,7 @@ Gets the list of associated comments.
 
 <a id="ImportedVelocity.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedVelocity.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -157,7 +157,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedVelocity.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedVelocity.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -165,7 +165,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedVelocity.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedVelocity.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -173,7 +173,7 @@ CreateNameSelectionForUnmappedNodes property.
 
 <a id="ImportedVelocity.CutoffFrequency"></a>
 
-### *property* ImportedVelocity.CutoffFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.CutoffFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutoffFrequency.
 
@@ -189,7 +189,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedVelocity.DisplayInteriorPoints"></a>
 
-### *property* ImportedVelocity.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -197,7 +197,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedVelocity.DisplayProjectionPlane"></a>
 
-### *property* ImportedVelocity.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -205,7 +205,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedVelocity.DisplaySourcePointIds"></a>
 
-### *property* ImportedVelocity.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -213,7 +213,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedVelocity.DisplaySourcePoints"></a>
 
-### *property* ImportedVelocity.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -221,7 +221,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedVelocity.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedVelocity.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -229,7 +229,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedVelocity.Figures"></a>
 
-### *property* ImportedVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -237,7 +237,7 @@ Gets the list of associated figures.
 
 <a id="ImportedVelocity.Images"></a>
 
-### *property* ImportedVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -301,7 +301,7 @@ LegendRange property.
 
 <a id="ImportedVelocity.Limit"></a>
 
-### *property* ImportedVelocity.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -325,7 +325,7 @@ Gets or sets the MappedData.
 
 <a id="ImportedVelocity.MappedNodesName"></a>
 
-### *property* ImportedVelocity.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -357,7 +357,7 @@ MaxOutsideDistance property.
 
 <a id="ImportedVelocity.MaximumTimeRange"></a>
 
-### *property* ImportedVelocity.MaximumTimeRange *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.MaximumTimeRange *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumTimeRange.
 
@@ -373,7 +373,7 @@ Method property.
 
 <a id="ImportedVelocity.MinimumTimeRange"></a>
 
-### *property* ImportedVelocity.MinimumTimeRange *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.MinimumTimeRange *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumTimeRange.
 
@@ -381,7 +381,7 @@ Gets or sets the MinimumTimeRange.
 
 <a id="ImportedVelocity.NumberOfPoints"></a>
 
-### *property* ImportedVelocity.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -389,7 +389,7 @@ NumberOfPoints property.
 
 <a id="ImportedVelocity.OrientationRealignment"></a>
 
-### *property* ImportedVelocity.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -397,7 +397,7 @@ OrientationRealignment property.
 
 <a id="ImportedVelocity.OutsideDistanceCheck"></a>
 
-### *property* ImportedVelocity.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -405,7 +405,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedVelocity.OutsideNodesName"></a>
 
-### *property* ImportedVelocity.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -429,7 +429,7 @@ Pinball property.
 
 <a id="ImportedVelocity.Projection"></a>
 
-### *property* ImportedVelocity.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -437,7 +437,7 @@ Projection property.
 
 <a id="ImportedVelocity.Properties"></a>
 
-### *property* ImportedVelocity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -453,7 +453,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedVelocity.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedVelocity.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -461,7 +461,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedVelocity.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedVelocity.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -469,7 +469,7 @@ RigidTransformTargetCoordinateSystem property.
 
 <a id="ImportedVelocity.SharedRefBody"></a>
 
-### *property* ImportedVelocity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -477,7 +477,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedVelocity.ShellThicknessFactor"></a>
 
-### *property* ImportedVelocity.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -509,7 +509,7 @@ Gets or sets the SourceTimeDefinitionType.
 
 <a id="ImportedVelocity.Suppressed"></a>
 
-### *property* ImportedVelocity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -517,7 +517,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedVelocity.UnmappedNodesName"></a>
 
-### *property* ImportedVelocity.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -533,7 +533,7 @@ VariableType property.
 
 <a id="ImportedVelocity.VisibleProperties"></a>
 
-### *property* ImportedVelocity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedVelocity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -585,7 +585,7 @@ Creates a new child Figure.
 
 <a id="ImportedVelocity.AddImage"></a>
 
-### ImportedVelocity.AddImage(filePath: System.String)
+### ImportedVelocity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -621,7 +621,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedVelocity.CreateParameter"></a>
 
-### ImportedVelocity.CreateParameter(propName: System.String)
+### ImportedVelocity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -645,7 +645,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedVelocity.ExportToTextFile"></a>
 
-### ImportedVelocity.ExportToTextFile(filePath: System.String)
+### ImportedVelocity.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -653,7 +653,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedVelocity.GetActivateAtLoadStep"></a>
 
-### ImportedVelocity.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedVelocity.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -661,7 +661,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedVelocity.GetChildren"></a>
 
-### ImportedVelocity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedVelocity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -669,7 +669,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedVelocity.GetParameter"></a>
 
-### ImportedVelocity.GetParameter(propName: System.String)
+### ImportedVelocity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -709,7 +709,7 @@ Run the ImportLoad action.
 
 <a id="ImportedVelocity.PropertyByAPIName"></a>
 
-### ImportedVelocity.PropertyByAPIName(name: System.String)
+### ImportedVelocity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -720,7 +720,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedVelocity.PropertyByName"></a>
 
-### ImportedVelocity.PropertyByName(name: System.String)
+### ImportedVelocity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -736,7 +736,7 @@ Reload the Imported Load’s setup from its associated configuration file (if av
 
 <a id="ImportedVelocity.RemoveParameter"></a>
 
-### ImportedVelocity.RemoveParameter(propName: System.String)
+### ImportedVelocity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -744,7 +744,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedVelocity.SetActivateAtLoadStep"></a>
 
-### ImportedVelocity.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedVelocity.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

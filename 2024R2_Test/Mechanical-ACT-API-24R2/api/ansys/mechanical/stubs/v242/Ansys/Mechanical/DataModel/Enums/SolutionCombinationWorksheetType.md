@@ -17,7 +17,7 @@ Specifies the SolutionCombinationWorksheetType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------- |
 | [`NewWorksheet`](#SolutionCombinationWorksheetType.NewWorksheet) |
 | [`OldWorksheet`](#SolutionCombinationWorksheetType.OldWorksheet) |
 

@@ -17,7 +17,7 @@ Specifies the WBUnitSystemType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------ |
 | [`ConsistentBFT`](#WBUnitSystemType.ConsistentBFT) |
 | [`ConsistentBIN`](#WBUnitSystemType.ConsistentBIN) |
 | [`ConsistentCGS`](#WBUnitSystemType.ConsistentCGS) |

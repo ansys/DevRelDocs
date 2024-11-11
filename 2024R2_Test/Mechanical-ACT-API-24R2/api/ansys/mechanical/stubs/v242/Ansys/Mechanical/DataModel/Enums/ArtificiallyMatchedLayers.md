@@ -17,7 +17,7 @@ Specifies the ArtificiallyMatchedLayers.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------- |
 | [`IPML`](#ArtificiallyMatchedLayers.IPML) |
 | [`Off`](#ArtificiallyMatchedLayers.Off) |
 | [`PML`](#ArtificiallyMatchedLayers.PML) |

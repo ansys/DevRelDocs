@@ -17,7 +17,7 @@ MAPDLAMSupportData class.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+|--------------------------------------------------------|-----------------------------------------------|
 | [`MaterialIds`](#MAPDLAMSupportData.MaterialIds)       | Gets the Material Ids for the AM Support.     |
 | [`RealConstantId`](#MAPDLAMSupportData.RealConstantId) | Gets the Real Constant Id for the AM Support. |
 
@@ -27,7 +27,7 @@ MAPDLAMSupportData class.
 
 <a id="MAPDLAMSupportData.MaterialIds"></a>
 
-### *property* MAPDLAMSupportData.MaterialIds *: System.Collections.Generic.IEnumerable[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLAMSupportData.MaterialIds *: Iterable[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Material Ids for the AM Support.
 
@@ -35,7 +35,7 @@ Gets the Material Ids for the AM Support.
 
 <a id="MAPDLAMSupportData.RealConstantId"></a>
 
-### *property* MAPDLAMSupportData.RealConstantId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLAMSupportData.RealConstantId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Real Constant Id for the AM Support.
 

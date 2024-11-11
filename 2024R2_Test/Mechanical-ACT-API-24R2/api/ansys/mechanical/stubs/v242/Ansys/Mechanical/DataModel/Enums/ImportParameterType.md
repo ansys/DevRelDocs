@@ -17,7 +17,7 @@ Specifies the MethodType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------- |
 | [`All`](#ImportParameterType.All) |
 | [`Independent`](#ImportParameterType.Independent) |
 | [`None_`](#ImportParameterType.None_) |

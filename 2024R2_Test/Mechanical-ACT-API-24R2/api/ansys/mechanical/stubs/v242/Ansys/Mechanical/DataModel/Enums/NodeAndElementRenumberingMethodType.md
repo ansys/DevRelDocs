@@ -17,7 +17,7 @@ To select the method of Node And Element Renumbering under the Model Import Obje
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------------- |
 | [`Automatic`](#NodeAndElementRenumberingMethodType.Automatic) |
 | [`Offset`](#NodeAndElementRenumberingMethodType.Offset) |
 

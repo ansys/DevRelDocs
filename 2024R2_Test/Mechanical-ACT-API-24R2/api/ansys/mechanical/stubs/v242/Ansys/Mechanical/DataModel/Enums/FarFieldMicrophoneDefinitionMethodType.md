@@ -17,7 +17,7 @@ Specifies the FarFieldMicrophoneDefinitionMethodType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`Coordinates`](#FarFieldMicrophoneDefinitionMethodType.Coordinates) |
 | [`Worksheet`](#FarFieldMicrophoneDefinitionMethodType.Worksheet) |
 

@@ -17,7 +17,7 @@ Specifies the PressureAtZeroPenetrationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`Factor`](#PressureAtZeroPenetrationType.Factor) |
 | [`ProgramControlled`](#PressureAtZeroPenetrationType.ProgramControlled) |
 | [`Value`](#PressureAtZeroPenetrationType.Value) |

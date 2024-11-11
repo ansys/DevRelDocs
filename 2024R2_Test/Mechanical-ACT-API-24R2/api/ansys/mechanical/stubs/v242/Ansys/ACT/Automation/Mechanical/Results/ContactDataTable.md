@@ -17,7 +17,7 @@ Defines a ContactDataTable.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ContactDataTable.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ContactDataTable.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ContactDataTable.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a ContactDataTable.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ContactDataTable.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ContactDataTable.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#ContactDataTable.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -52,7 +52,7 @@ Defines a ContactDataTable.
 
 <a id="ContactDataTable.Children"></a>
 
-### *property* ContactDataTable.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDataTable.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -60,7 +60,7 @@ Gets the list of children.
 
 <a id="ContactDataTable.Comments"></a>
 
-### *property* ContactDataTable.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDataTable.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -76,7 +76,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ContactDataTable.Figures"></a>
 
-### *property* ContactDataTable.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDataTable.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -92,7 +92,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactDataTable.Properties"></a>
 
-### *property* ContactDataTable.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDataTable.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -100,7 +100,7 @@ Gets the list of properties for this object.
 
 <a id="ContactDataTable.VisibleProperties"></a>
 
-### *property* ContactDataTable.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactDataTable.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -144,7 +144,7 @@ Copies all visible properties from this object to another.
 
 <a id="ContactDataTable.CreateParameter"></a>
 
-### ContactDataTable.CreateParameter(propName: System.String)
+### ContactDataTable.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -168,7 +168,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ContactDataTable.ExportTextFile"></a>
 
-### ContactDataTable.ExportTextFile(fileName: System.String)
+### ContactDataTable.ExportTextFile(fileName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportTextFile action.
 
@@ -176,7 +176,7 @@ Run the ExportTextFile action.
 
 <a id="ContactDataTable.GetChildren"></a>
 
-### ContactDataTable.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ContactDataTable.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -184,7 +184,7 @@ Gets the list of children, filtered by type.
 
 <a id="ContactDataTable.GetParameter"></a>
 
-### ContactDataTable.GetParameter(propName: System.String)
+### ContactDataTable.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -208,7 +208,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactDataTable.PropertyByAPIName"></a>
 
-### ContactDataTable.PropertyByAPIName(name: System.String)
+### ContactDataTable.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -219,7 +219,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactDataTable.PropertyByName"></a>
 
-### ContactDataTable.PropertyByName(name: System.String)
+### ContactDataTable.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -227,7 +227,7 @@ Get a property by its unique name.
 
 <a id="ContactDataTable.RemoveParameter"></a>
 
-### ContactDataTable.RemoveParameter(propName: System.String)
+### ContactDataTable.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

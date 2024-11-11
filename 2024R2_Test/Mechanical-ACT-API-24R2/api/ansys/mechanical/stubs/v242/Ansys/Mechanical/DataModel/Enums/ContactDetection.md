@@ -17,7 +17,7 @@ Specifies the ContactDetection.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`ProximityBased`](#ContactDetection.ProximityBased) |
 | [`Trajectory`](#ContactDetection.Trajectory) |
 

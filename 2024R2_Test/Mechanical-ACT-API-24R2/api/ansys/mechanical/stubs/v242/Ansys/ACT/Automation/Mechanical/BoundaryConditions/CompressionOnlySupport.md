@@ -61,7 +61,7 @@ Defines a CompressionOnlySupport.
 
 <a id="CompressionOnlySupport.AutomaticNormalStiffness"></a>
 
-### *property* CompressionOnlySupport.AutomaticNormalStiffness *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.AutomaticNormalStiffness *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticNormalStiffness.
 
@@ -69,7 +69,7 @@ Gets or sets the AutomaticNormalStiffness.
 
 <a id="CompressionOnlySupport.Children"></a>
 
-### *property* CompressionOnlySupport.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -77,7 +77,7 @@ Gets the list of children.
 
 <a id="CompressionOnlySupport.Comments"></a>
 
-### *property* CompressionOnlySupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -93,7 +93,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CompressionOnlySupport.Figures"></a>
 
-### *property* CompressionOnlySupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -101,7 +101,7 @@ Gets the list of associated figures.
 
 <a id="CompressionOnlySupport.Images"></a>
 
-### *property* CompressionOnlySupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -125,7 +125,7 @@ Gets or sets the Location.
 
 <a id="CompressionOnlySupport.NormalStiffnessFactor"></a>
 
-### *property* CompressionOnlySupport.NormalStiffnessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.NormalStiffnessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalStiffnessFactor.
 
@@ -133,7 +133,7 @@ Gets or sets the NormalStiffnessFactor.
 
 <a id="CompressionOnlySupport.Properties"></a>
 
-### *property* CompressionOnlySupport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -141,7 +141,7 @@ Gets the list of properties for this object.
 
 <a id="CompressionOnlySupport.ReadOnly"></a>
 
-### *property* CompressionOnlySupport.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -149,7 +149,7 @@ Gets or sets the ReadOnly.
 
 <a id="CompressionOnlySupport.SharedRefBody"></a>
 
-### *property* CompressionOnlySupport.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -157,7 +157,7 @@ Gets or sets the SharedRefBody.
 
 <a id="CompressionOnlySupport.Suppressed"></a>
 
-### *property* CompressionOnlySupport.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -173,7 +173,7 @@ Gets or sets the UpdateStiffness.
 
 <a id="CompressionOnlySupport.VisibleProperties"></a>
 
-### *property* CompressionOnlySupport.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompressionOnlySupport.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -209,7 +209,7 @@ Creates a new child Figure.
 
 <a id="CompressionOnlySupport.AddImage"></a>
 
-### CompressionOnlySupport.AddImage(filePath: System.String)
+### CompressionOnlySupport.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -229,7 +229,7 @@ Copies all visible properties from this object to another.
 
 <a id="CompressionOnlySupport.CreateParameter"></a>
 
-### CompressionOnlySupport.CreateParameter(propName: System.String)
+### CompressionOnlySupport.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -253,7 +253,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CompressionOnlySupport.GetChildren"></a>
 
-### CompressionOnlySupport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CompressionOnlySupport.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -261,7 +261,7 @@ Gets the list of children, filtered by type.
 
 <a id="CompressionOnlySupport.GetParameter"></a>
 
-### CompressionOnlySupport.GetParameter(propName: System.String)
+### CompressionOnlySupport.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -293,7 +293,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="CompressionOnlySupport.PropertyByAPIName"></a>
 
-### CompressionOnlySupport.PropertyByAPIName(name: System.String)
+### CompressionOnlySupport.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -304,7 +304,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CompressionOnlySupport.PropertyByName"></a>
 
-### CompressionOnlySupport.PropertyByName(name: System.String)
+### CompressionOnlySupport.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -312,7 +312,7 @@ Get a property by its unique name.
 
 <a id="CompressionOnlySupport.RemoveParameter"></a>
 
-### CompressionOnlySupport.RemoveParameter(propName: System.String)
+### CompressionOnlySupport.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

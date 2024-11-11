@@ -17,7 +17,7 @@ Specifies the PFactorResultType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------- |
 | [`CumulativeEffectiveMassRatio`](#PFactorResultType.CumulativeEffectiveMassRatio) |
 | [`EffectiveMass`](#PFactorResultType.EffectiveMass) |
 | [`PFactorAll`](#PFactorResultType.PFactorAll) |

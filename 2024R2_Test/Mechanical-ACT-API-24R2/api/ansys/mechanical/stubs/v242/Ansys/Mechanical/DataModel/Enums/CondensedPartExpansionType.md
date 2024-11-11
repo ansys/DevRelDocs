@@ -17,7 +17,7 @@ Specifies the CondensedPartExpansionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------- |
 | [`MechanicalAPDL`](#CondensedPartExpansionType.MechanicalAPDL) |
 | [`OnDemand`](#CondensedPartExpansionType.OnDemand) |
 | [`ProgramControlled`](#CondensedPartExpansionType.ProgramControlled) |

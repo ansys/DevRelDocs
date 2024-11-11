@@ -17,7 +17,7 @@ Specifies the PartTransformationDefinitionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------- |
 | [`CoordinateSystem`](#PartTransformationDefinitionType.CoordinateSystem) |
 | [`RotationAndTranslation`](#PartTransformationDefinitionType.RotationAndTranslation) |
 

@@ -17,7 +17,7 @@ This enum is referenced in the “Step” tree node and reflects the type of ope
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`CreateEnclosure`](#OperationType.CreateEnclosure) |
 | [`CreateSurfaceMesh`](#OperationType.CreateSurfaceMesh) |
 | [`CreateTopology`](#OperationType.CreateTopology) |

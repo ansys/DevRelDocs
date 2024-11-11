@@ -17,7 +17,7 @@ Specifies the TopoOptimizationOutputLog.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------- |
 | [`High`](#TopoOptimizationOutputLog.High) |
 | [`Low`](#TopoOptimizationOutputLog.Low) |
 | [`Medium`](#TopoOptimizationOutputLog.Medium) |

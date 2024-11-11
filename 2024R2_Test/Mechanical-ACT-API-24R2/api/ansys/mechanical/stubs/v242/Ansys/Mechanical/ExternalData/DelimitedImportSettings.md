@@ -17,7 +17,7 @@ T:Ansys.Mechanical.ExternalData.DelimitedImportSettings defines how to import ex
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+|-----------------------------------------------------------|-------------------------------------------------------|
 | [`Clear`](#DelimitedImportSettings.Clear)                 |                                                       |
 | [`GetEnumerator`](#DelimitedImportSettings.GetEnumerator) |                                                       |
 | [`RemoveAt`](#DelimitedImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
@@ -26,7 +26,7 @@ T:Ansys.Mechanical.ExternalData.DelimitedImportSettings defines how to import ex
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [`AverageCornerNodesToMidsideNodes`](#DelimitedImportSettings.AverageCornerNodesToMidsideNodes)   |                                                                                      |
 | [`Count`](#DelimitedImportSettings.Count)                                                         | Gets the number of column definitions.                                               |
 | [`Delimiter`](#DelimitedImportSettings.Delimiter)                                                 | The delimiter used to separate columns.                                              |
@@ -41,13 +41,13 @@ T:Ansys.Mechanical.ExternalData.DelimitedImportSettings defines how to import ex
 
 <a id="DelimitedImportSettings.AverageCornerNodesToMidsideNodes"></a>
 
-### *property* DelimitedImportSettings.AverageCornerNodesToMidsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.AverageCornerNodesToMidsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="DelimitedImportSettings.Count"></a>
 
-### *property* DelimitedImportSettings.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of column definitions.
 
@@ -55,7 +55,7 @@ Gets the number of column definitions.
 
 <a id="DelimitedImportSettings.Delimiter"></a>
 
-### *property* DelimitedImportSettings.Delimiter *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.Delimiter *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The delimiter used to separate columns.
 
@@ -79,7 +79,7 @@ Item property.
 
 <a id="DelimitedImportSettings.SkipFooter"></a>
 
-### *property* DelimitedImportSettings.SkipFooter *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.SkipFooter *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the number of rows to ignore at the end of the file during import.
 
@@ -87,7 +87,7 @@ Gets or sets the number of rows to ignore at the end of the file during import.
 
 <a id="DelimitedImportSettings.SkipRows"></a>
 
-### *property* DelimitedImportSettings.SkipRows *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.SkipRows *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the number of rows to skip over at the start of the file during import.
 
@@ -107,7 +107,7 @@ Gets or sets the number of rows to skip over at the start of the file during imp
 
 <a id="DelimitedImportSettings.RemoveAt"></a>
 
-### DelimitedImportSettings.RemoveAt(index: System.Int32)
+### DelimitedImportSettings.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Removes the import definition at the specified index.
 
@@ -115,7 +115,7 @@ Removes the import definition at the specified index.
 
 <a id="DelimitedImportSettings.UseColumn"></a>
 
-### DelimitedImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../DataModel/MechanicalEnums/ExternalData/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType), unit: System.String, name: System.String)
+### DelimitedImportSettings.UseColumn(index: [int](https://docs.python.org/3/library/functions.html#int), variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../DataModel/MechanicalEnums/ExternalData/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType), unit: [str](https://docs.python.org/3/library/stdtypes.html#str), name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 <!-- !! processed by numpydoc !! -->
 

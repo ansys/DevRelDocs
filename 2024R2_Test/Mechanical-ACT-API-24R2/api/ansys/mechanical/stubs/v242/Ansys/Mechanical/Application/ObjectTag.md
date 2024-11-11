@@ -17,7 +17,7 @@ An instance of an ObjectTag.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------|----------------------------------|
+|-------------------------------------------|----------------------------------|
 | [`AddObject`](#ObjectTag.AddObject)       | Add an object to this tag.       |
 | [`ClearObjects`](#ObjectTag.ClearObjects) | Clear all objects from this tag. |
 | [`RemoveObject`](#ObjectTag.RemoveObject) | Remove an object from this tag.  |
@@ -25,7 +25,7 @@ An instance of an ObjectTag.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`Name`](#ObjectTag.Name)       | The name of the tag. If the tag exists in ObjectTags, attempting to set the name to a value of another tag in that collection will lead to an exception.   |
 | [`Objects`](#ObjectTag.Objects) | The list of objects which use this tag.                                                                                                                    |
 
@@ -35,7 +35,7 @@ An instance of an ObjectTag.
 
 <a id="ObjectTag.Name"></a>
 
-### *property* ObjectTag.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ObjectTag.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the tag. If the tag exists in ObjectTags, attempting to set the name to a value of another tag in that collection will lead to an exception.
 
@@ -43,7 +43,7 @@ The name of the tag. If the tag exists in ObjectTags, attempting to set the name
 
 <a id="ObjectTag.Objects"></a>
 
-### *property* ObjectTag.Objects *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ObjectTag.Objects *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The list of objects which use this tag.
 

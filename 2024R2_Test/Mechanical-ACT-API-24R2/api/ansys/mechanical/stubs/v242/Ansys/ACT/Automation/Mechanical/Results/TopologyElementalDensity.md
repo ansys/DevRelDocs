@@ -17,7 +17,7 @@ Defines a TopologyElementalDensity.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TopologyElementalDensity.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#TopologyElementalDensity.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#TopologyElementalDensity.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -41,7 +41,7 @@ Defines a TopologyElementalDensity.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`CalculateTimeHistory`](#TopologyElementalDensity.CalculateTimeHistory)       | Gets or sets the CalculateTimeHistory.                        |
 | [`Children`](#TopologyElementalDensity.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#TopologyElementalDensity.Comments)                               | Gets the list of associated comments.                         |
@@ -75,7 +75,7 @@ Defines a TopologyElementalDensity.
 
 <a id="TopologyElementalDensity.CalculateTimeHistory"></a>
 
-### *property* TopologyElementalDensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -83,7 +83,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="TopologyElementalDensity.Children"></a>
 
-### *property* TopologyElementalDensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -91,7 +91,7 @@ Gets the list of children.
 
 <a id="TopologyElementalDensity.Comments"></a>
 
-### *property* TopologyElementalDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -107,7 +107,7 @@ Gets the current DataModelObject’s category.
 
 <a id="TopologyElementalDensity.ExclusionsParticipation"></a>
 
-### *property* TopologyElementalDensity.ExclusionsParticipation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.ExclusionsParticipation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExclusionsParticipation.
 
@@ -115,7 +115,7 @@ Gets or sets the ExclusionsParticipation.
 
 <a id="TopologyElementalDensity.Figures"></a>
 
-### *property* TopologyElementalDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -139,7 +139,7 @@ Gets the FinalVolume.
 
 <a id="TopologyElementalDensity.Images"></a>
 
-### *property* TopologyElementalDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -155,7 +155,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TopologyElementalDensity.IterationNumber"></a>
 
-### *property* TopologyElementalDensity.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -163,7 +163,7 @@ Gets the IterationNumber.
 
 <a id="TopologyElementalDensity.IterationStep"></a>
 
-### *property* TopologyElementalDensity.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -179,7 +179,7 @@ Gets or sets the Location.
 
 <a id="TopologyElementalDensity.Maximum"></a>
 
-### *property* TopologyElementalDensity.Maximum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.Maximum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
@@ -187,7 +187,7 @@ Gets the Maximum.
 
 <a id="TopologyElementalDensity.Minimum"></a>
 
-### *property* TopologyElementalDensity.Minimum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.Minimum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
@@ -211,7 +211,7 @@ Gets the OriginalVolume.
 
 <a id="TopologyElementalDensity.PercentMassOfOriginal"></a>
 
-### *property* TopologyElementalDensity.PercentMassOfOriginal *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.PercentMassOfOriginal *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PercentMassOfOriginal.
 
@@ -219,7 +219,7 @@ Gets the PercentMassOfOriginal.
 
 <a id="TopologyElementalDensity.PercentVolumeOfOriginal"></a>
 
-### *property* TopologyElementalDensity.PercentVolumeOfOriginal *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.PercentVolumeOfOriginal *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PercentVolumeOfOriginal.
 
@@ -227,7 +227,7 @@ Gets the PercentVolumeOfOriginal.
 
 <a id="TopologyElementalDensity.Properties"></a>
 
-### *property* TopologyElementalDensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -235,7 +235,7 @@ Gets the list of properties for this object.
 
 <a id="TopologyElementalDensity.RetainedThreshold"></a>
 
-### *property* TopologyElementalDensity.RetainedThreshold *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.RetainedThreshold *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RetainedThreshold.
 
@@ -267,7 +267,7 @@ Gets or sets the ShowOptimizedRegion.
 
 <a id="TopologyElementalDensity.Suppressed"></a>
 
-### *property* TopologyElementalDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -275,7 +275,7 @@ Gets or sets the Suppressed.
 
 <a id="TopologyElementalDensity.VisibleProperties"></a>
 
-### *property* TopologyElementalDensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyElementalDensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -311,7 +311,7 @@ Creates a new child Figure.
 
 <a id="TopologyElementalDensity.AddImage"></a>
 
-### TopologyElementalDensity.AddImage(filePath: System.String)
+### TopologyElementalDensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -339,7 +339,7 @@ Copies all visible properties from this object to another.
 
 <a id="TopologyElementalDensity.CreateParameter"></a>
 
-### TopologyElementalDensity.CreateParameter(propName: System.String)
+### TopologyElementalDensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -371,7 +371,7 @@ Run the EvaluateAllResults action.
 
 <a id="TopologyElementalDensity.ExportAnimation"></a>
 
-### TopologyElementalDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TopologyElementalDensity.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -379,7 +379,7 @@ Run the ExportAnimation action.
 
 <a id="TopologyElementalDensity.GetChildren"></a>
 
-### TopologyElementalDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TopologyElementalDensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -387,7 +387,7 @@ Gets the list of children, filtered by type.
 
 <a id="TopologyElementalDensity.GetParameter"></a>
 
-### TopologyElementalDensity.GetParameter(propName: System.String)
+### TopologyElementalDensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -411,7 +411,7 @@ Run the GroupSimilarObjects action.
 
 <a id="TopologyElementalDensity.PropertyByAPIName"></a>
 
-### TopologyElementalDensity.PropertyByAPIName(name: System.String)
+### TopologyElementalDensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -422,7 +422,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TopologyElementalDensity.PropertyByName"></a>
 
-### TopologyElementalDensity.PropertyByName(name: System.String)
+### TopologyElementalDensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -430,7 +430,7 @@ Get a property by its unique name.
 
 <a id="TopologyElementalDensity.RemoveParameter"></a>
 
-### TopologyElementalDensity.RemoveParameter(propName: System.String)
+### TopologyElementalDensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

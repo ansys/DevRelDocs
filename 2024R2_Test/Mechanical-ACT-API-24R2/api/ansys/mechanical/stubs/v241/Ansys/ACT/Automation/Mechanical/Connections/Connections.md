@@ -17,7 +17,7 @@ Defines a Connections.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Connections.Activate)                                                     | Activate the current object.                                                      |
 | [`AddAMBondConnection`](#Connections.AddAMBondConnection)                               | Creates a new AMBondConnection                                                    |
 | [`AddBeam`](#Connections.AddBeam)                                                       | Creates a new Beam                                                                |
@@ -55,7 +55,7 @@ Defines a Connections.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Connections.Children)                                                         | Gets the list of children.                                    |
 | [`Comments`](#Connections.Comments)                                                         | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Connections.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                  |
@@ -75,7 +75,7 @@ Defines a Connections.
 
 <a id="Connections.Children"></a>
 
-### *property* Connections.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -83,7 +83,7 @@ Gets the list of children.
 
 <a id="Connections.Comments"></a>
 
-### *property* Connections.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -91,7 +91,7 @@ Gets the list of associated comments.
 
 <a id="Connections.DataModelObjectCategory"></a>
 
-### *property* Connections.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -99,7 +99,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Connections.Figures"></a>
 
-### *property* Connections.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -107,7 +107,7 @@ Gets the list of associated figures.
 
 <a id="Connections.FixedJoints"></a>
 
-### *property* Connections.FixedJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.FixedJoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FixedJoints.
 
@@ -115,7 +115,7 @@ Gets or sets the FixedJoints.
 
 <a id="Connections.GenerateAutomaticConnectionOnRefresh"></a>
 
-### *property* Connections.GenerateAutomaticConnectionOnRefresh *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.GenerateAutomaticConnectionOnRefresh *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateAutomaticConnectionOnRefresh.
 
@@ -123,7 +123,7 @@ Gets or sets the GenerateAutomaticConnectionOnRefresh.
 
 <a id="Connections.Images"></a>
 
-### *property* Connections.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -139,7 +139,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Connections.Properties"></a>
 
-### *property* Connections.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -147,7 +147,7 @@ Gets the list of properties for this object.
 
 <a id="Connections.SolverFilesDirectory"></a>
 
-### *property* Connections.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.SolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverFilesDirectory.
 
@@ -155,7 +155,7 @@ Gets or sets the SolverFilesDirectory.
 
 <a id="Connections.TransparencyEnabled"></a>
 
-### *property* Connections.TransparencyEnabled *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.TransparencyEnabled *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransparencyEnabled.
 
@@ -163,7 +163,7 @@ Gets or sets the TransparencyEnabled.
 
 <a id="Connections.VisibleProperties"></a>
 
-### *property* Connections.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Connections.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -271,7 +271,7 @@ Creates a new child Figure.
 
 <a id="Connections.AddImage"></a>
 
-### Connections.AddImage(filePath: System.String)
+### Connections.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -339,7 +339,7 @@ Run the CreateAutomaticConnections action.
 
 <a id="Connections.CreateParameter"></a>
 
-### Connections.CreateParameter(propName: System.String)
+### Connections.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -355,7 +355,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Connections.ExportModelTopology"></a>
 
-### Connections.ExportModelTopology(filename: System.String)
+### Connections.ExportModelTopology(filename: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ExportModelTopology method.
 
@@ -371,7 +371,7 @@ Run the GenerateInitialContactResults action.
 
 <a id="Connections.GetChildren"></a>
 
-### Connections.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Connections.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -379,7 +379,7 @@ Gets the list of children, filtered by type.
 
 <a id="Connections.GetParameter"></a>
 
-### Connections.GetParameter(propName: System.String)
+### Connections.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -403,7 +403,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Connections.PropertyByAPIName"></a>
 
-### Connections.PropertyByAPIName(name: System.String)
+### Connections.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -414,7 +414,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Connections.PropertyByName"></a>
 
-### Connections.PropertyByName(name: System.String)
+### Connections.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -422,7 +422,7 @@ Get a property by its unique name.
 
 <a id="Connections.RemoveParameter"></a>
 
-### Connections.RemoveParameter(propName: System.String)
+### Connections.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

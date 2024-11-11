@@ -59,7 +59,7 @@ Defines a ImportedLayeredSection.
 
 <a id="ImportedLayeredSection.Children"></a>
 
-### *property* ImportedLayeredSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="ImportedLayeredSection.Comments"></a>
 
-### *property* ImportedLayeredSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -83,7 +83,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedLayeredSection.Figures"></a>
 
-### *property* ImportedLayeredSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -91,7 +91,7 @@ Gets the list of associated figures.
 
 <a id="ImportedLayeredSection.Images"></a>
 
-### *property* ImportedLayeredSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -107,7 +107,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedLayeredSection.LayerToDisplay"></a>
 
-### *property* ImportedLayeredSection.LayerToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.LayerToDisplay *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LayerToDisplay.
 
@@ -115,7 +115,7 @@ Gets or sets the LayerToDisplay.
 
 <a id="ImportedLayeredSection.MaximumNumberOfLayers"></a>
 
-### *property* ImportedLayeredSection.MaximumNumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.MaximumNumberOfLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumNumberOfLayers.
 
@@ -123,7 +123,7 @@ Gets the MaximumNumberOfLayers.
 
 <a id="ImportedLayeredSection.NonlinearEffects"></a>
 
-### *property* ImportedLayeredSection.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.NonlinearEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonlinearEffects.
 
@@ -131,7 +131,7 @@ Gets or sets the NonlinearEffects.
 
 <a id="ImportedLayeredSection.Properties"></a>
 
-### *property* ImportedLayeredSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -139,7 +139,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedLayeredSection.Suppressed"></a>
 
-### *property* ImportedLayeredSection.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -147,7 +147,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedLayeredSection.ThermalStrainEffects"></a>
 
-### *property* ImportedLayeredSection.ThermalStrainEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.ThermalStrainEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrainEffects.
 
@@ -163,7 +163,7 @@ Gets the Type.
 
 <a id="ImportedLayeredSection.VisibleProperties"></a>
 
-### *property* ImportedLayeredSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLayeredSection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -199,7 +199,7 @@ Creates a new child Figure.
 
 <a id="ImportedLayeredSection.AddImage"></a>
 
-### ImportedLayeredSection.AddImage(filePath: System.String)
+### ImportedLayeredSection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -219,7 +219,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedLayeredSection.CreateParameter"></a>
 
-### ImportedLayeredSection.CreateParameter(propName: System.String)
+### ImportedLayeredSection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedLayeredSection.GetChildren"></a>
 
-### ImportedLayeredSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedLayeredSection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedLayeredSection.GetParameter"></a>
 
-### ImportedLayeredSection.GetParameter(propName: System.String)
+### ImportedLayeredSection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -267,7 +267,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ImportedLayeredSection.PropertyByAPIName"></a>
 
-### ImportedLayeredSection.PropertyByAPIName(name: System.String)
+### ImportedLayeredSection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -278,7 +278,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedLayeredSection.PropertyByName"></a>
 
-### ImportedLayeredSection.PropertyByName(name: System.String)
+### ImportedLayeredSection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Run the RegroupToDefault action.
 
 <a id="ImportedLayeredSection.RemoveParameter"></a>
 
-### ImportedLayeredSection.RemoveParameter(propName: System.String)
+### ImportedLayeredSection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Defines a RepairTopology.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#RepairTopology.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#RepairTopology.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#RepairTopology.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -39,58 +39,58 @@ Defines a RepairTopology.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`Children`](#RepairTopology.Children)                                             | Gets the list of children.                                    |
-| [`CollapseShortEdges`](#RepairTopology.CollapseShortEdges)                         | Gets or sets the CollapseShortEdges.                          |
-| [`Comments`](#RepairTopology.Comments)                                             | Gets the list of associated comments.                         |
-| [`DataModelObjectCategory`](#RepairTopology.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
-| [`FeatureAngle`](#RepairTopology.FeatureAngle)                                                                                                                          | Gets or sets the FeatureAngle.                                |
-| [`Figures`](#RepairTopology.Figures)                                               | Gets the list of associated figures.                          |
-| [`FillHole`](#RepairTopology.FillHole)                                             | Gets or sets the FillHole.                                    |
-| [`FillHoleGeometryDefineBy`](#RepairTopology.FillHoleGeometryDefineBy)             | Gets or sets the FillHoleGeometryDefineBy.                    |
-| [`FillHoleGeometrySelection`](#RepairTopology.FillHoleGeometrySelection)           | Gets or sets the FillHoleGeometrySelection.                   |
-| [`FillHoleNamedSelection`](#RepairTopology.FillHoleNamedSelection)                 | Gets or sets the FillHoleNamedSelection.                      |
-| [`Images`](#RepairTopology.Images)                                                 | Gets the list of associated images.                           |
-| [`InternalObject`](#RepairTopology.InternalObject)                                 | Gets the internal object. For advanced usage only.            |
-| [`MergeFaces`](#RepairTopology.MergeFaces)                                         | Gets or sets the MergeFaces.                                  |
-| [`MergeFacesGeometryDefineBy`](#RepairTopology.MergeFacesGeometryDefineBy)         | Gets or sets the MergeFacesGeometryDefineBy.                  |
-| [`MergeFacesGeometrySelection`](#RepairTopology.MergeFacesGeometrySelection)       | Gets or sets the MergeFacesGeometrySelection.                 |
-| [`MergeFacesNamedSelection`](#RepairTopology.MergeFacesNamedSelection)             | Gets or sets the MergeFacesNamedSelection.                    |
-| [`PartialDefeatureGeometrySelection`](#RepairTopology.PartialDefeatureGeometrySelection)                                                                                | Gets or sets the PartialDefeatureGeometrySelection.           |
-| [`PartialDefeatureNamedSelection`](#RepairTopology.PartialDefeatureNamedSelection)                                                                                      | Gets or sets the PartialDefeatureNamedSelection.              |
-| [`PinchFaces`](#RepairTopology.PinchFaces)                                         | Gets or sets the PinchFaces.                                  |
-| [`PinchFacesGeometryDefineBy`](#RepairTopology.PinchFacesGeometryDefineBy)         | Gets or sets the PinchFacesGeometryDefineBy.                  |
-| [`PinchFacesGeometrySelection`](#RepairTopology.PinchFacesGeometrySelection)       | Gets or sets the PinchFacesGeometrySelection.                 |
-| [`PinchFacesNamedSelection`](#RepairTopology.PinchFacesNamedSelection)             | Gets or sets the PinchFacesNamedSelection.                    |
-| [`PinchFacesUseLocalScoping`](#RepairTopology.PinchFacesUseLocalScoping)           | Gets or sets the PinchFacesUseLocalScoping.                   |
-| [`PinchTolerance`](#RepairTopology.PinchTolerance)                                 | Gets or sets the PinchTolerance.                              |
-| [`Properties`](#RepairTopology.Properties)                                         | Gets the list of properties for this object.                  |
-| [`RemoveSharpAngleFaces`](#RepairTopology.RemoveSharpAngleFaces)                   | Gets or sets the RemoveSharpAngleFaces.                       |
-| [`RemoveThinFaces`](#RepairTopology.RemoveThinFaces)                               | Gets or sets the RemoveThinFaces.                             |
-| [`RepairPartialDefeature`](#RepairTopology.RepairPartialDefeature)                                                                                                      | Gets or sets the RepairPartialDefeature.                      |
-| [`RepairPartialDefeatureGeometryDefineBy`](#RepairTopology.RepairPartialDefeatureGeometryDefineBy)                                                                      | Gets or sets the RepairPartialDefeatureGeometryDefineBy.      |
-| [`ScopingMethod`](#RepairTopology.ScopingMethod)                                   | Gets or sets the ScopingMethod.                               |
-| [`SharpAngle`](#RepairTopology.SharpAngle)                                         | Gets or sets the SharpAngle.                                  |
-| [`SharpAngleGeometryDefineBy`](#RepairTopology.SharpAngleGeometryDefineBy)         | Gets or sets the SharpAngleGeometryDefineBy.                  |
-| [`SharpAngleGeometrySelection`](#RepairTopology.SharpAngleGeometrySelection)       | Gets or sets the SharpAngleGeometrySelection.                 |
-| [`SharpAngleNamedSelection`](#RepairTopology.SharpAngleNamedSelection)             | Gets or sets the SharpAngleNamedSelection.                    |
-| [`SharpAngleUseLocalScoping`](#RepairTopology.SharpAngleUseLocalScoping)           | Gets or sets the SharpAngleUseLocalScoping.                   |
-| [`ShortEdgeGeometryDefineBy`](#RepairTopology.ShortEdgeGeometryDefineBy)           | Gets or sets the ShortEdgeGeometryDefineBy.                   |
-| [`ShortEdgeGeometrySelection`](#RepairTopology.ShortEdgeGeometrySelection)         | Gets or sets the ShortEdgeGeometrySelection.                  |
-| [`ShortEdgeLength`](#RepairTopology.ShortEdgeLength)                               | Gets or sets the ShortEdgeLength.                             |
-| [`ShortEdgeNamedSelection`](#RepairTopology.ShortEdgeNamedSelection)               | Gets or sets the ShortEdgeNamedSelection.                     |
-| [`ShortEdgeUseLocalScoping`](#RepairTopology.ShortEdgeUseLocalScoping)             | Gets or sets the ShortEdgeUseLocalScoping.                    |
-| [`SuppressEdges`](#RepairTopology.SuppressEdges)                                   | Gets or sets the SuppressEdges.                               |
-| [`SuppressEdgesGeometryDefineBy`](#RepairTopology.SuppressEdgesGeometryDefineBy)   | Gets or sets the SuppressEdgesGeometryDefineBy.               |
-| [`SuppressEdgesGeometrySelection`](#RepairTopology.SuppressEdgesGeometrySelection) | Gets or sets the SuppressEdgesGeometrySelection.              |
-| [`SuppressEdgesNamedSelection`](#RepairTopology.SuppressEdgesNamedSelection)       | Gets or sets the SuppressEdgesNamedSelection.                 |
-| [`Suppressed`](#RepairTopology.Suppressed)                                         | Gets or sets the Suppressed.                                  |
-| [`ThinFaceGeometryDefineBy`](#RepairTopology.ThinFaceGeometryDefineBy)             | Gets or sets the ThinFaceGeometryDefineBy.                    |
-| [`ThinFaceGeometrySelection`](#RepairTopology.ThinFaceGeometrySelection)           | Gets or sets the ThinFaceGeometrySelection.                   |
-| [`ThinFaceNamedSelection`](#RepairTopology.ThinFaceNamedSelection)                 | Gets or sets the ThinFaceNamedSelection.                      |
-| [`ThinFaceWidth`](#RepairTopology.ThinFaceWidth)                                   | Gets or sets the ThinFaceWidth.                               |
-| [`ThinFacesUseLocalScoping`](#RepairTopology.ThinFacesUseLocalScoping)             | Gets or sets the ThinFacesUseLocalScoping.                    |
-| [`VisibleProperties`](#RepairTopology.VisibleProperties)                           | Gets the list of properties that are visible for this object. |
+|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#RepairTopology.Children)                                                             | Gets the list of children.                                    |
+| [`CollapseShortEdges`](#RepairTopology.CollapseShortEdges)                                         | Gets or sets the CollapseShortEdges.                          |
+| [`Comments`](#RepairTopology.Comments)                                                             | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#RepairTopology.DataModelObjectCategory)                               | Gets the current DataModelObject’s category.                  |
+| [`FeatureAngle`](#RepairTopology.FeatureAngle)                                                     | Gets or sets the FeatureAngle.                                |
+| [`Figures`](#RepairTopology.Figures)                                                               | Gets the list of associated figures.                          |
+| [`FillHole`](#RepairTopology.FillHole)                                                             | Gets or sets the FillHole.                                    |
+| [`FillHoleGeometryDefineBy`](#RepairTopology.FillHoleGeometryDefineBy)                             | Gets or sets the FillHoleGeometryDefineBy.                    |
+| [`FillHoleGeometrySelection`](#RepairTopology.FillHoleGeometrySelection)                           | Gets or sets the FillHoleGeometrySelection.                   |
+| [`FillHoleNamedSelection`](#RepairTopology.FillHoleNamedSelection)                                 | Gets or sets the FillHoleNamedSelection.                      |
+| [`Images`](#RepairTopology.Images)                                                                 | Gets the list of associated images.                           |
+| [`InternalObject`](#RepairTopology.InternalObject)                                                 | Gets the internal object. For advanced usage only.            |
+| [`MergeFaces`](#RepairTopology.MergeFaces)                                                         | Gets or sets the MergeFaces.                                  |
+| [`MergeFacesGeometryDefineBy`](#RepairTopology.MergeFacesGeometryDefineBy)                         | Gets or sets the MergeFacesGeometryDefineBy.                  |
+| [`MergeFacesGeometrySelection`](#RepairTopology.MergeFacesGeometrySelection)                       | Gets or sets the MergeFacesGeometrySelection.                 |
+| [`MergeFacesNamedSelection`](#RepairTopology.MergeFacesNamedSelection)                             | Gets or sets the MergeFacesNamedSelection.                    |
+| [`PartialDefeatureGeometrySelection`](#RepairTopology.PartialDefeatureGeometrySelection)           | Gets or sets the PartialDefeatureGeometrySelection.           |
+| [`PartialDefeatureNamedSelection`](#RepairTopology.PartialDefeatureNamedSelection)                 | Gets or sets the PartialDefeatureNamedSelection.              |
+| [`PinchFaces`](#RepairTopology.PinchFaces)                                                         | Gets or sets the PinchFaces.                                  |
+| [`PinchFacesGeometryDefineBy`](#RepairTopology.PinchFacesGeometryDefineBy)                         | Gets or sets the PinchFacesGeometryDefineBy.                  |
+| [`PinchFacesGeometrySelection`](#RepairTopology.PinchFacesGeometrySelection)                       | Gets or sets the PinchFacesGeometrySelection.                 |
+| [`PinchFacesNamedSelection`](#RepairTopology.PinchFacesNamedSelection)                             | Gets or sets the PinchFacesNamedSelection.                    |
+| [`PinchFacesUseLocalScoping`](#RepairTopology.PinchFacesUseLocalScoping)                           | Gets or sets the PinchFacesUseLocalScoping.                   |
+| [`PinchTolerance`](#RepairTopology.PinchTolerance)                                                 | Gets or sets the PinchTolerance.                              |
+| [`Properties`](#RepairTopology.Properties)                                                         | Gets the list of properties for this object.                  |
+| [`RemoveSharpAngleFaces`](#RepairTopology.RemoveSharpAngleFaces)                                   | Gets or sets the RemoveSharpAngleFaces.                       |
+| [`RemoveThinFaces`](#RepairTopology.RemoveThinFaces)                                               | Gets or sets the RemoveThinFaces.                             |
+| [`RepairPartialDefeature`](#RepairTopology.RepairPartialDefeature)                                 | Gets or sets the RepairPartialDefeature.                      |
+| [`RepairPartialDefeatureGeometryDefineBy`](#RepairTopology.RepairPartialDefeatureGeometryDefineBy) | Gets or sets the RepairPartialDefeatureGeometryDefineBy.      |
+| [`ScopingMethod`](#RepairTopology.ScopingMethod)                                                   | Gets or sets the ScopingMethod.                               |
+| [`SharpAngle`](#RepairTopology.SharpAngle)                                                         | Gets or sets the SharpAngle.                                  |
+| [`SharpAngleGeometryDefineBy`](#RepairTopology.SharpAngleGeometryDefineBy)                         | Gets or sets the SharpAngleGeometryDefineBy.                  |
+| [`SharpAngleGeometrySelection`](#RepairTopology.SharpAngleGeometrySelection)                       | Gets or sets the SharpAngleGeometrySelection.                 |
+| [`SharpAngleNamedSelection`](#RepairTopology.SharpAngleNamedSelection)                             | Gets or sets the SharpAngleNamedSelection.                    |
+| [`SharpAngleUseLocalScoping`](#RepairTopology.SharpAngleUseLocalScoping)                           | Gets or sets the SharpAngleUseLocalScoping.                   |
+| [`ShortEdgeGeometryDefineBy`](#RepairTopology.ShortEdgeGeometryDefineBy)                           | Gets or sets the ShortEdgeGeometryDefineBy.                   |
+| [`ShortEdgeGeometrySelection`](#RepairTopology.ShortEdgeGeometrySelection)                         | Gets or sets the ShortEdgeGeometrySelection.                  |
+| [`ShortEdgeLength`](#RepairTopology.ShortEdgeLength)                                               | Gets or sets the ShortEdgeLength.                             |
+| [`ShortEdgeNamedSelection`](#RepairTopology.ShortEdgeNamedSelection)                               | Gets or sets the ShortEdgeNamedSelection.                     |
+| [`ShortEdgeUseLocalScoping`](#RepairTopology.ShortEdgeUseLocalScoping)                             | Gets or sets the ShortEdgeUseLocalScoping.                    |
+| [`SuppressEdges`](#RepairTopology.SuppressEdges)                                                   | Gets or sets the SuppressEdges.                               |
+| [`SuppressEdgesGeometryDefineBy`](#RepairTopology.SuppressEdgesGeometryDefineBy)                   | Gets or sets the SuppressEdgesGeometryDefineBy.               |
+| [`SuppressEdgesGeometrySelection`](#RepairTopology.SuppressEdgesGeometrySelection)                 | Gets or sets the SuppressEdgesGeometrySelection.              |
+| [`SuppressEdgesNamedSelection`](#RepairTopology.SuppressEdgesNamedSelection)                       | Gets or sets the SuppressEdgesNamedSelection.                 |
+| [`Suppressed`](#RepairTopology.Suppressed)                                                         | Gets or sets the Suppressed.                                  |
+| [`ThinFaceGeometryDefineBy`](#RepairTopology.ThinFaceGeometryDefineBy)                             | Gets or sets the ThinFaceGeometryDefineBy.                    |
+| [`ThinFaceGeometrySelection`](#RepairTopology.ThinFaceGeometrySelection)                           | Gets or sets the ThinFaceGeometrySelection.                   |
+| [`ThinFaceNamedSelection`](#RepairTopology.ThinFaceNamedSelection)                                 | Gets or sets the ThinFaceNamedSelection.                      |
+| [`ThinFaceWidth`](#RepairTopology.ThinFaceWidth)                                                   | Gets or sets the ThinFaceWidth.                               |
+| [`ThinFacesUseLocalScoping`](#RepairTopology.ThinFacesUseLocalScoping)                             | Gets or sets the ThinFacesUseLocalScoping.                    |
+| [`VisibleProperties`](#RepairTopology.VisibleProperties)                                           | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
@@ -98,7 +98,7 @@ Defines a RepairTopology.
 
 <a id="RepairTopology.Children"></a>
 
-### *property* RepairTopology.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RepairTopology.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -114,7 +114,7 @@ Gets or sets the CollapseShortEdges.
 
 <a id="RepairTopology.Comments"></a>
 
-### *property* RepairTopology.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RepairTopology.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -138,7 +138,7 @@ Gets or sets the FeatureAngle.
 
 <a id="RepairTopology.Figures"></a>
 
-### *property* RepairTopology.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RepairTopology.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -178,7 +178,7 @@ Gets or sets the FillHoleNamedSelection.
 
 <a id="RepairTopology.Images"></a>
 
-### *property* RepairTopology.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RepairTopology.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -290,7 +290,7 @@ Gets or sets the PinchTolerance.
 
 <a id="RepairTopology.Properties"></a>
 
-### *property* RepairTopology.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RepairTopology.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -450,7 +450,7 @@ Gets or sets the SuppressEdgesNamedSelection.
 
 <a id="RepairTopology.Suppressed"></a>
 
-### *property* RepairTopology.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RepairTopology.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -498,7 +498,7 @@ Gets or sets the ThinFacesUseLocalScoping.
 
 <a id="RepairTopology.VisibleProperties"></a>
 
-### *property* RepairTopology.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RepairTopology.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -534,7 +534,7 @@ Creates a new child Figure.
 
 <a id="RepairTopology.AddImage"></a>
 
-### RepairTopology.AddImage(filePath: System.String)
+### RepairTopology.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -554,7 +554,7 @@ Copies all visible properties from this object to another.
 
 <a id="RepairTopology.CreateParameter"></a>
 
-### RepairTopology.CreateParameter(propName: System.String)
+### RepairTopology.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -586,7 +586,7 @@ Generate the Mesh.
 
 <a id="RepairTopology.GetChildren"></a>
 
-### RepairTopology.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RepairTopology.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -594,7 +594,7 @@ Gets the list of children, filtered by type.
 
 <a id="RepairTopology.GetParameter"></a>
 
-### RepairTopology.GetParameter(propName: System.String)
+### RepairTopology.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -618,7 +618,7 @@ Run the GroupSimilarObjects action.
 
 <a id="RepairTopology.PropertyByAPIName"></a>
 
-### RepairTopology.PropertyByAPIName(name: System.String)
+### RepairTopology.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -629,7 +629,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RepairTopology.PropertyByName"></a>
 
-### RepairTopology.PropertyByName(name: System.String)
+### RepairTopology.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -637,7 +637,7 @@ Get a property by its unique name.
 
 <a id="RepairTopology.RemoveParameter"></a>
 
-### RepairTopology.RemoveParameter(propName: System.String)
+### RepairTopology.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

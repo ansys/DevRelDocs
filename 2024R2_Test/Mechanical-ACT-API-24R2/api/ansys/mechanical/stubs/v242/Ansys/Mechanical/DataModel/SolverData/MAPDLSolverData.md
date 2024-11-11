@@ -17,7 +17,7 @@ MAPDLSolverData class.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+|-----------------------------------------------------------------------|--------------------------------------------------------------------|
 | [`ElementIdsByMaterialId`](#MAPDLSolverData.ElementIdsByMaterialId)   | Returns a list of Element IDs that belong to a given Material ID   |
 | [`GetObjectData`](#MAPDLSolverData.GetObjectData)                     | GetObjectData method.                                              |
 | [`NodeIdsByMaterialId`](#MAPDLSolverData.NodeIdsByMaterialId)         | Returns a list of Node IDs that belong to a given Material ID      |
@@ -25,7 +25,7 @@ MAPDLSolverData class.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+|---------------------------------------------------------|------------------------------------------|
 | [`MaxElementId`](#MAPDLSolverData.MaxElementId)         | Gets the Maximum Element Id number.      |
 | [`MaxElementTypeId`](#MAPDLSolverData.MaxElementTypeId) | Gets the Maximum Element Type Id number. |
 | [`MaxNodeId`](#MAPDLSolverData.MaxNodeId)               | Gets the Maximum Node Id number.         |
@@ -36,7 +36,7 @@ MAPDLSolverData class.
 
 <a id="MAPDLSolverData.MaxElementId"></a>
 
-### *property* MAPDLSolverData.MaxElementId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLSolverData.MaxElementId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum Element Id number.
 
@@ -44,7 +44,7 @@ Gets the Maximum Element Id number.
 
 <a id="MAPDLSolverData.MaxElementTypeId"></a>
 
-### *property* MAPDLSolverData.MaxElementTypeId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLSolverData.MaxElementTypeId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum Element Type Id number.
 
@@ -52,7 +52,7 @@ Gets the Maximum Element Type Id number.
 
 <a id="MAPDLSolverData.MaxNodeId"></a>
 
-### *property* MAPDLSolverData.MaxNodeId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLSolverData.MaxNodeId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum Node Id number.
 
@@ -64,7 +64,7 @@ Gets the Maximum Node Id number.
 
 <a id="MAPDLSolverData.ElementIdsByMaterialId"></a>
 
-### MAPDLSolverData.ElementIdsByMaterialId(matId: System.String)
+### MAPDLSolverData.ElementIdsByMaterialId(matId: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Returns a list of Element IDs that belong to a given Material ID
 
@@ -80,7 +80,7 @@ GetObjectData method.
 
 <a id="MAPDLSolverData.NodeIdsByMaterialId"></a>
 
-### MAPDLSolverData.NodeIdsByMaterialId(matId: System.String)
+### MAPDLSolverData.NodeIdsByMaterialId(matId: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Returns a list of Node IDs that belong to a given Material ID
 

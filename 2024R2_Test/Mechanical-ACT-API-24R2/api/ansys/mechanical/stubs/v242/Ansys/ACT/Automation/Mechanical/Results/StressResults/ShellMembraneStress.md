@@ -17,7 +17,7 @@ Defines a ShellMembraneStress.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ShellMembraneStress.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ShellMembraneStress.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ShellMembraneStress.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ShellMembraneStress.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#ShellMembraneStress.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#ShellMembraneStress.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#ShellMembraneStress.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -130,7 +130,7 @@ Defines a ShellMembraneStress.
 | [`Subtype`](#ShellMembraneStress.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#ShellMembraneStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ShellMembraneStress.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ShellMembraneStress.SurfaceCoating)                                                                                                                                             | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ShellMembraneStress.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#ShellMembraneStress.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#ShellMembraneStress.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#ShellMembraneStress.Time)                                                           | Gets the Time.                                                         |
@@ -142,7 +142,7 @@ Defines a ShellMembraneStress.
 | [`TotalInside`](#ShellMembraneStress.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#ShellMembraneStress.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#ShellMembraneStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ShellMembraneStress.WaterfallShowTextOnMosaic)                                                                                                                       | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ShellMembraneStress.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -150,7 +150,7 @@ Defines a ShellMembraneStress.
 
 <a id="ShellMembraneStress.Amplitude"></a>
 
-### *property* ShellMembraneStress.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -166,7 +166,7 @@ Gets the Average.
 
 <a id="ShellMembraneStress.AverageAcrossBodies"></a>
 
-### *property* ShellMembraneStress.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -206,7 +206,7 @@ Gets or sets the By.
 
 <a id="ShellMembraneStress.CalculateTimeHistory"></a>
 
-### *property* ShellMembraneStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -214,7 +214,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ShellMembraneStress.Children"></a>
 
-### *property* ShellMembraneStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -222,7 +222,7 @@ Gets the list of children.
 
 <a id="ShellMembraneStress.CombinationNumber"></a>
 
-### *property* ShellMembraneStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -230,7 +230,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ShellMembraneStress.Comments"></a>
 
-### *property* ShellMembraneStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -238,7 +238,7 @@ Gets the list of associated comments.
 
 <a id="ShellMembraneStress.CoordinateSystem"></a>
 
-### *property* ShellMembraneStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -248,7 +248,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ShellMembraneStress.CrackFrontNumber"></a>
 
-### *property* ShellMembraneStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -256,7 +256,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="ShellMembraneStress.CyclicMode"></a>
 
-### *property* ShellMembraneStress.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -296,7 +296,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ShellMembraneStress.EnvironmentSelection"></a>
 
-### *property* ShellMembraneStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -304,7 +304,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="ShellMembraneStress.Figures"></a>
 
-### *property* ShellMembraneStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -320,7 +320,7 @@ Gets or sets the Frequency.
 
 <a id="ShellMembraneStress.GlobalIDs"></a>
 
-### *property* ShellMembraneStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -336,7 +336,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ShellMembraneStress.HarmonicIndex"></a>
 
-### *property* ShellMembraneStress.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -344,7 +344,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="ShellMembraneStress.Identifier"></a>
 
-### *property* ShellMembraneStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -352,7 +352,7 @@ Gets or sets the Identifier.
 
 <a id="ShellMembraneStress.Images"></a>
 
-### *property* ShellMembraneStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -368,7 +368,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ShellMembraneStress.IsSolved"></a>
 
-### *property* ShellMembraneStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -384,7 +384,7 @@ Gets or sets the ItemType.
 
 <a id="ShellMembraneStress.IterationNumber"></a>
 
-### *property* ShellMembraneStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -392,7 +392,7 @@ Gets the IterationNumber.
 
 <a id="ShellMembraneStress.IterationStep"></a>
 
-### *property* ShellMembraneStress.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -400,7 +400,7 @@ Gets or sets the IterationStep.
 
 <a id="ShellMembraneStress.Layer"></a>
 
-### *property* ShellMembraneStress.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -416,7 +416,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="ShellMembraneStress.LoadMultiplier"></a>
 
-### *property* ShellMembraneStress.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -424,7 +424,7 @@ Gets the LoadMultiplier.
 
 <a id="ShellMembraneStress.LoadStep"></a>
 
-### *property* ShellMembraneStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -432,7 +432,7 @@ Gets the LoadStep.
 
 <a id="ShellMembraneStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ShellMembraneStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -440,7 +440,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ShellMembraneStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ShellMembraneStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -448,7 +448,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ShellMembraneStress.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ShellMembraneStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -456,7 +456,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ShellMembraneStress.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ShellMembraneStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -464,7 +464,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ShellMembraneStress.LoadStepNumber"></a>
 
-### *property* ShellMembraneStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -488,7 +488,7 @@ Gets the Maximum.
 
 <a id="ShellMembraneStress.MaximumOccursOn"></a>
 
-### *property* ShellMembraneStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -552,7 +552,7 @@ Gets the Minimum.
 
 <a id="ShellMembraneStress.MinimumOccursOn"></a>
 
-### *property* ShellMembraneStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -576,7 +576,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ShellMembraneStress.Mode"></a>
 
-### *property* ShellMembraneStress.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -584,7 +584,7 @@ Gets or sets the Mode.
 
 <a id="ShellMembraneStress.NamedSelections"></a>
 
-### *property* ShellMembraneStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -640,7 +640,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="ShellMembraneStress.Plies"></a>
 
-### *property* ShellMembraneStress.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -656,7 +656,7 @@ Gets the result table.
 
 <a id="ShellMembraneStress.Ply"></a>
 
-### *property* ShellMembraneStress.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -672,7 +672,7 @@ Gets or sets the Position.
 
 <a id="ShellMembraneStress.Probability"></a>
 
-### *property* ShellMembraneStress.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -680,7 +680,7 @@ Gets the Probability.
 
 <a id="ShellMembraneStress.Properties"></a>
 
-### *property* ShellMembraneStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -704,7 +704,7 @@ Gets or sets the ScaleFactor.
 
 <a id="ShellMembraneStress.ScaleFactorValue"></a>
 
-### *property* ShellMembraneStress.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -720,7 +720,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ShellMembraneStress.SetNumber"></a>
 
-### *property* ShellMembraneStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -744,7 +744,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ShellMembraneStress.SolverComponentIDs"></a>
 
-### *property* ShellMembraneStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -768,7 +768,7 @@ Gets or sets the SubScopeBy.
 
 <a id="ShellMembraneStress.Substep"></a>
 
-### *property* ShellMembraneStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -784,7 +784,7 @@ Gets or sets the Subtype.
 
 <a id="ShellMembraneStress.Suppressed"></a>
 
-### *property* ShellMembraneStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -888,7 +888,7 @@ Gets the TotalOutside.
 
 <a id="ShellMembraneStress.VisibleProperties"></a>
 
-### *property* ShellMembraneStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -896,7 +896,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ShellMembraneStress.WaterfallShowTextOnMosaic"></a>
 
-### *property* ShellMembraneStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellMembraneStress.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -948,7 +948,7 @@ Creates a new child Figure.
 
 <a id="ShellMembraneStress.AddImage"></a>
 
-### ShellMembraneStress.AddImage(filePath: System.String)
+### ShellMembraneStress.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -976,7 +976,7 @@ Copies all visible properties from this object to another.
 
 <a id="ShellMembraneStress.CreateParameter"></a>
 
-### ShellMembraneStress.CreateParameter(propName: System.String)
+### ShellMembraneStress.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -1024,7 +1024,7 @@ Run the EvaluateAllResults action.
 
 <a id="ShellMembraneStress.ExportAnimation"></a>
 
-### ShellMembraneStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ShellMembraneStress.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1032,7 +1032,7 @@ Run the ExportAnimation action.
 
 <a id="ShellMembraneStress.ExportToTextFile"></a>
 
-### ShellMembraneStress.ExportToTextFile(filePath: System.String)
+### ShellMembraneStress.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1048,7 +1048,7 @@ Run the FetchRemoteResult action.
 
 <a id="ShellMembraneStress.GetChildren"></a>
 
-### ShellMembraneStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ShellMembraneStress.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1056,7 +1056,7 @@ Gets the list of children, filtered by type.
 
 <a id="ShellMembraneStress.GetParameter"></a>
 
-### ShellMembraneStress.GetParameter(propName: System.String)
+### ShellMembraneStress.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1088,7 +1088,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ShellMembraneStress.PropertyByAPIName"></a>
 
-### ShellMembraneStress.PropertyByAPIName(name: System.String)
+### ShellMembraneStress.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1099,7 +1099,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ShellMembraneStress.PropertyByName"></a>
 
-### ShellMembraneStress.PropertyByName(name: System.String)
+### ShellMembraneStress.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1107,7 +1107,7 @@ Get a property by its unique name.
 
 <a id="ShellMembraneStress.RemoveParameter"></a>
 
-### ShellMembraneStress.RemoveParameter(propName: System.String)
+### ShellMembraneStress.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

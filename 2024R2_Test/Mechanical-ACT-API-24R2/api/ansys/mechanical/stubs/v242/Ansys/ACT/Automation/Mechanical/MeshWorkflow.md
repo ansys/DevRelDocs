@@ -17,39 +17,39 @@ Object that wraps IDSEngineeringModelWorkflowGroup.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`Activate`](#MeshWorkflow.Activate)                               | Activate the current object.                                                                                                                                                                                                                                                                               |
-| [`AddFigure`](#MeshWorkflow.AddFigure)                             | Creates a new child Figure.                                                                                                                                                                                                                                                                                |
-| [`AddImage`](#MeshWorkflow.AddImage)                               | Creates a new child Image.                                                                                                                                                                                                                                                                                 |
-| [`AddInput`](#MeshWorkflow.AddInput)                               | Adds an “Input” node as child object under the “Mesh Workflow” and returns the new MeshWorkflowInput object if not existent, otherwise it returns the already available MeshWorkflowInput object.                                                                                                          |
-| [`AddOutput`](#MeshWorkflow.AddOutput)                             | Adds an “Output” node as child object under the “Mesh Workflow” and returns the new MeshWorkflowOutput object if not existent, otherwise it returns the already available MeshWorkflowOutput object.                                                                                                       |
-| [`ClearGeneratedData`](#MeshWorkflow.ClearGeneratedData)           | Clears all the generated data, i.e.,  It resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (“Input”, “Steps”, “Output”) to the initial state. However, any user-defined settings such as the “Input” node scoping are retained. |
-| [`ClearOutputData`](#MeshWorkflow.ClearOutputData)                 | Clears only the “Output” data, i.e., the generated Geometry part(s) and the associated mesh.                                                                                                                                                                                                               |
-| [`CopyTo`](#MeshWorkflow.CopyTo)                                   | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                 |
-| [`CreateParameter`](#MeshWorkflow.CreateParameter)                 | Creates a new parameter for a Property.                                                                                                                                                                                                                                                                    |
-| [`Delete`](#MeshWorkflow.Delete)                                   | Run the Delete action.                                                                                                                                                                                                                                                                                     |
-| [`Duplicate`](#MeshWorkflow.Duplicate)                             | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                             |
-| [`ExportWorkflow`](#MeshWorkflow.ExportWorkflow)                   | Exports the steps as template into a .emx file.                                                                                                                                                                                                                                                            |
-| [`FinalizeWorkflow`](#MeshWorkflow.FinalizeWorkflow)               | Once all steps in a mesh workflow are completed successfully, the workflow can be completed which will transfer the generated data back into new Mechanical geometry part(s) together with the corresponding part mesh(es).                                                                                |
-| [`Generate`](#MeshWorkflow.Generate)                               | Generates the desired data by executing the whole workflow, i.e., transferring the input data, executing all steps, and completing the workflow by transferring the output data back into Geometry and Mesh data.                                                                                          |
-| [`GetAllLabelNames`](#MeshWorkflow.GetAllLabelNames)                                                                                  | Gets all the PrimeMesh model labels names currently defined for the workflow.                                                                                                                                                                                                                              |
-| [`GetAllPartNames`](#MeshWorkflow.GetAllPartNames)                                                                                    | Gets all the PrimeMesh model parts names currently defined for the workflow.                                                                                                                                                                                                                               |
-| [`GetAllZoneNames`](#MeshWorkflow.GetAllZoneNames)                                                                                    | Gets all the PrimeMesh model zones names currently defined for the workflow.                                                                                                                                                                                                                               |
-| [`GetChildren`](#MeshWorkflow.GetChildren)                         | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                               |
-| [`GetParameter`](#MeshWorkflow.GetParameter)                       | Gets the parameter corresponding to the given property.                                                                                                                                                                                                                                                    |
-| [`GetSolidSurfaceMeshQualityWarningLimit`](#MeshWorkflow.GetSolidSurfaceMeshQualityWarningLimit)                                      | Get Mesh Quality Warning Limit                                                                                                                                                                                                                                                                             |
-| [`GroupAllSimilarChildren`](#MeshWorkflow.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                                                                                                                                                                                                                                                    |
-| [`GroupSimilarObjects`](#MeshWorkflow.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                                                                                                                                                                                                                                                        |
-| [`ImportWorkflow`](#MeshWorkflow.ImportWorkflow)                   | Imports the steps from a template .emx file.                                                                                                                                                                                                                                                               |
-| [`InitializeWorkflow`](#MeshWorkflow.InitializeWorkflow)           | Initializes the mesh workflow by transferring the scoped geometry parts/bodies from Mechanical into the PrimeMesh model and updates the “Input” node state accordingly.                                                                                                                                    |
-| [`PropertyByAPIName`](#MeshWorkflow.PropertyByAPIName)             | Get a property by its API name.                                                                                                                                                                                                                                                                            |
-| [`PropertyByName`](#MeshWorkflow.PropertyByName)                   | Get a property by its unique name.                                                                                                                                                                                                                                                                         |
-| [`RemoveParameter`](#MeshWorkflow.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property.                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Activate`](#MeshWorkflow.Activate)                                                             | Activate the current object.                                                                                                                                                                                                                                                                               |
+| [`AddFigure`](#MeshWorkflow.AddFigure)                                                           | Creates a new child Figure.                                                                                                                                                                                                                                                                                |
+| [`AddImage`](#MeshWorkflow.AddImage)                                                             | Creates a new child Image.                                                                                                                                                                                                                                                                                 |
+| [`AddInput`](#MeshWorkflow.AddInput)                                                             | Adds an “Input” node as child object under the “Mesh Workflow” and returns the new MeshWorkflowInput object if not existent, otherwise it returns the already available MeshWorkflowInput object.                                                                                                          |
+| [`AddOutput`](#MeshWorkflow.AddOutput)                                                           | Adds an “Output” node as child object under the “Mesh Workflow” and returns the new MeshWorkflowOutput object if not existent, otherwise it returns the already available MeshWorkflowOutput object.                                                                                                       |
+| [`ClearGeneratedData`](#MeshWorkflow.ClearGeneratedData)                                         | Clears all the generated data, i.e.,  It resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (“Input”, “Steps”, “Output”) to the initial state. However, any user-defined settings such as the “Input” node scoping are retained. |
+| [`ClearOutputData`](#MeshWorkflow.ClearOutputData)                                               | Clears only the “Output” data, i.e., the generated Geometry part(s) and the associated mesh.                                                                                                                                                                                                               |
+| [`CopyTo`](#MeshWorkflow.CopyTo)                                                                 | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                 |
+| [`CreateParameter`](#MeshWorkflow.CreateParameter)                                               | Creates a new parameter for a Property.                                                                                                                                                                                                                                                                    |
+| [`Delete`](#MeshWorkflow.Delete)                                                                 | Run the Delete action.                                                                                                                                                                                                                                                                                     |
+| [`Duplicate`](#MeshWorkflow.Duplicate)                                                           | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                             |
+| [`ExportWorkflow`](#MeshWorkflow.ExportWorkflow)                                                 | Exports the steps as template into a .emx file.                                                                                                                                                                                                                                                            |
+| [`FinalizeWorkflow`](#MeshWorkflow.FinalizeWorkflow)                                             | Once all steps in a mesh workflow are completed successfully, the workflow can be completed which will transfer the generated data back into new Mechanical geometry part(s) together with the corresponding part mesh(es).                                                                                |
+| [`Generate`](#MeshWorkflow.Generate)                                                             | Generates the desired data by executing the whole workflow, i.e., transferring the input data, executing all steps, and completing the workflow by transferring the output data back into Geometry and Mesh data.                                                                                          |
+| [`GetAllLabelNames`](#MeshWorkflow.GetAllLabelNames)                                             | Gets all the PrimeMesh model labels names currently defined for the workflow.                                                                                                                                                                                                                              |
+| [`GetAllPartNames`](#MeshWorkflow.GetAllPartNames)                                               | Gets all the PrimeMesh model parts names currently defined for the workflow.                                                                                                                                                                                                                               |
+| [`GetAllZoneNames`](#MeshWorkflow.GetAllZoneNames)                                               | Gets all the PrimeMesh model zones names currently defined for the workflow.                                                                                                                                                                                                                               |
+| [`GetChildren`](#MeshWorkflow.GetChildren)                                                       | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                               |
+| [`GetParameter`](#MeshWorkflow.GetParameter)                                                     | Gets the parameter corresponding to the given property.                                                                                                                                                                                                                                                    |
+| [`GetSolidSurfaceMeshQualityWarningLimit`](#MeshWorkflow.GetSolidSurfaceMeshQualityWarningLimit) | Get Mesh Quality Warning Limit                                                                                                                                                                                                                                                                             |
+| [`GroupAllSimilarChildren`](#MeshWorkflow.GroupAllSimilarChildren)                               | Run the GroupAllSimilarChildren action.                                                                                                                                                                                                                                                                    |
+| [`GroupSimilarObjects`](#MeshWorkflow.GroupSimilarObjects)                                       | Run the GroupSimilarObjects action.                                                                                                                                                                                                                                                                        |
+| [`ImportWorkflow`](#MeshWorkflow.ImportWorkflow)                                                 | Imports the steps from a template .emx file.                                                                                                                                                                                                                                                               |
+| [`InitializeWorkflow`](#MeshWorkflow.InitializeWorkflow)                                         | Initializes the mesh workflow by transferring the scoped geometry parts/bodies from Mechanical into the PrimeMesh model and updates the “Input” node state accordingly.                                                                                                                                    |
+| [`PropertyByAPIName`](#MeshWorkflow.PropertyByAPIName)                                           | Get a property by its API name.                                                                                                                                                                                                                                                                            |
+| [`PropertyByName`](#MeshWorkflow.PropertyByName)                                                 | Get a property by its unique name.                                                                                                                                                                                                                                                                         |
+| [`RemoveParameter`](#MeshWorkflow.RemoveParameter)                                               | Removes the parameter from the parameter set corresponding to the given property.                                                                                                                                                                                                                          |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | [`Children`](#MeshWorkflow.Children)                                 | Gets the list of children.                                                                                                            |
 | [`DataModelObjectCategory`](#MeshWorkflow.DataModelObjectCategory)   | Gets the current DataModelObject’s category.                                                                                          |
 | [`Figures`](#MeshWorkflow.Figures)                                   | Gets the list of associated figures.                                                                                                  |
@@ -67,7 +67,7 @@ Object that wraps IDSEngineeringModelWorkflowGroup.
 
 <a id="MeshWorkflow.Children"></a>
 
-### *property* MeshWorkflow.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflow.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -83,7 +83,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshWorkflow.Figures"></a>
 
-### *property* MeshWorkflow.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflow.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -91,7 +91,7 @@ Gets the list of associated figures.
 
 <a id="MeshWorkflow.Images"></a>
 
-### *property* MeshWorkflow.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflow.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -99,7 +99,7 @@ Gets the list of associated images.
 
 <a id="MeshWorkflow.ImportedWorkflowFilename"></a>
 
-### *property* MeshWorkflow.ImportedWorkflowFilename *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflow.ImportedWorkflowFilename *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The filename of the template.emx file that populated the workflow initially.
 
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshWorkflow.Properties"></a>
 
-### *property* MeshWorkflow.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflow.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -131,7 +131,7 @@ Defines the “unit system” of a Prime Model, if not defined, the unit system 
 
 <a id="MeshWorkflow.VisibleProperties"></a>
 
-### *property* MeshWorkflow.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflow.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -167,7 +167,7 @@ Creates a new child Figure.
 
 <a id="MeshWorkflow.AddImage"></a>
 
-### MeshWorkflow.AddImage(filePath: System.String)
+### MeshWorkflow.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -219,7 +219,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshWorkflow.CreateParameter"></a>
 
-### MeshWorkflow.CreateParameter(propName: System.String)
+### MeshWorkflow.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -243,7 +243,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MeshWorkflow.ExportWorkflow"></a>
 
-### MeshWorkflow.ExportWorkflow(fileName: System.String)
+### MeshWorkflow.ExportWorkflow(fileName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Exports the steps as template into a .emx file.
 
@@ -291,7 +291,7 @@ Gets all the PrimeMesh model zones names currently defined for the workflow.
 
 <a id="MeshWorkflow.GetChildren"></a>
 
-### MeshWorkflow.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshWorkflow.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -299,7 +299,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshWorkflow.GetParameter"></a>
 
-### MeshWorkflow.GetParameter(propName: System.String)
+### MeshWorkflow.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -331,7 +331,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshWorkflow.ImportWorkflow"></a>
 
-### MeshWorkflow.ImportWorkflow(fileName: System.String)
+### MeshWorkflow.ImportWorkflow(fileName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Imports the steps from a template .emx file.
 
@@ -347,7 +347,7 @@ Initializes the mesh workflow by transferring the scoped geometry parts/bodies f
 
 <a id="MeshWorkflow.PropertyByAPIName"></a>
 
-### MeshWorkflow.PropertyByAPIName(name: System.String)
+### MeshWorkflow.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -358,7 +358,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshWorkflow.PropertyByName"></a>
 
-### MeshWorkflow.PropertyByName(name: System.String)
+### MeshWorkflow.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -366,7 +366,7 @@ Get a property by its unique name.
 
 <a id="MeshWorkflow.RemoveParameter"></a>
 
-### MeshWorkflow.RemoveParameter(propName: System.String)
+### MeshWorkflow.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

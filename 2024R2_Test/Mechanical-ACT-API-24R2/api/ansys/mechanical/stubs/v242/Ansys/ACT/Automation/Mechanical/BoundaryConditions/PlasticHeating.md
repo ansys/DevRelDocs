@@ -54,7 +54,7 @@ Defines a PlasticHeating.
 
 <a id="PlasticHeating.Children"></a>
 
-### *property* PlasticHeating.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticHeating.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -62,7 +62,7 @@ Gets the list of children.
 
 <a id="PlasticHeating.Comments"></a>
 
-### *property* PlasticHeating.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticHeating.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -78,7 +78,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PlasticHeating.Images"></a>
 
-### *property* PlasticHeating.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticHeating.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -102,7 +102,7 @@ Gets or sets the Location.
 
 <a id="PlasticHeating.PlasticWorkFraction"></a>
 
-### *property* PlasticHeating.PlasticWorkFraction *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticHeating.PlasticWorkFraction *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PlasticWorkFraction.
 
@@ -110,7 +110,7 @@ Gets or sets the PlasticWorkFraction.
 
 <a id="PlasticHeating.Properties"></a>
 
-### *property* PlasticHeating.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticHeating.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -118,7 +118,7 @@ Gets the list of properties for this object.
 
 <a id="PlasticHeating.Suppressed"></a>
 
-### *property* PlasticHeating.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticHeating.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -126,7 +126,7 @@ Gets or sets the Suppressed.
 
 <a id="PlasticHeating.VisibleProperties"></a>
 
-### *property* PlasticHeating.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticHeating.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -154,7 +154,7 @@ Creates a new child Comment.
 
 <a id="PlasticHeating.AddImage"></a>
 
-### PlasticHeating.AddImage(filePath: System.String)
+### PlasticHeating.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -174,7 +174,7 @@ Copies all visible properties from this object to another.
 
 <a id="PlasticHeating.CreateParameter"></a>
 
-### PlasticHeating.CreateParameter(propName: System.String)
+### PlasticHeating.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -198,7 +198,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PlasticHeating.GetChildren"></a>
 
-### PlasticHeating.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PlasticHeating.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -206,7 +206,7 @@ Gets the list of children, filtered by type.
 
 <a id="PlasticHeating.GetParameter"></a>
 
-### PlasticHeating.GetParameter(propName: System.String)
+### PlasticHeating.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -230,7 +230,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PlasticHeating.PropertyByAPIName"></a>
 
-### PlasticHeating.PropertyByAPIName(name: System.String)
+### PlasticHeating.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -241,7 +241,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PlasticHeating.PropertyByName"></a>
 
-### PlasticHeating.PropertyByName(name: System.String)
+### PlasticHeating.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -249,7 +249,7 @@ Get a property by its unique name.
 
 <a id="PlasticHeating.RemoveParameter"></a>
 
-### PlasticHeating.RemoveParameter(propName: System.String)
+### PlasticHeating.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the SizingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------ |
 | [`BodyOfInfluence`](#SizingType.BodyOfInfluence) |
 | [`ElementSize`](#SizingType.ElementSize) |
 | [`NumberOfDivisions`](#SizingType.NumberOfDivisions) |

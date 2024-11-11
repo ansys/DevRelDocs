@@ -17,7 +17,7 @@ Specifies the Section Plane Capping Style
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`Hide`](#SectionPlaneCappingType.Hide) |
 | [`Show`](#SectionPlaneCappingType.Show) |
 | [`ShowByBodyColor`](#SectionPlaneCappingType.ShowByBodyColor) |

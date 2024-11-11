@@ -17,7 +17,7 @@ Specifies the BondedBreakableType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------- |
 | [`ForceCriteria`](#BondedBreakableType.ForceCriteria) |
 | [`No`](#BondedBreakableType.No) |
 | [`StressCriteria`](#BondedBreakableType.StressCriteria) |

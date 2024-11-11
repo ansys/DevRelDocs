@@ -17,7 +17,7 @@ Specifies the PrototypeLinkBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------- |
 | [`Compression`](#PrototypeLinkBehavior.Compression) |
 | [`Tension`](#PrototypeLinkBehavior.Tension) |
 | [`TensionCompression`](#PrototypeLinkBehavior.TensionCompression) |

@@ -53,7 +53,7 @@ Defines a ConstraintEquation.
 
 <a id="ConstraintEquation.Children"></a>
 
-### *property* ConstraintEquation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstraintEquation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -61,7 +61,7 @@ Gets the list of children.
 
 <a id="ConstraintEquation.Comments"></a>
 
-### *property* ConstraintEquation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstraintEquation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -77,7 +77,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ConstraintEquation.Figures"></a>
 
-### *property* ConstraintEquation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstraintEquation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -93,7 +93,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ConstraintEquation.Properties"></a>
 
-### *property* ConstraintEquation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstraintEquation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -101,7 +101,7 @@ Gets the list of properties for this object.
 
 <a id="ConstraintEquation.Suppressed"></a>
 
-### *property* ConstraintEquation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstraintEquation.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -109,7 +109,7 @@ Gets or sets the Suppressed.
 
 <a id="ConstraintEquation.VisibleProperties"></a>
 
-### *property* ConstraintEquation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstraintEquation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -161,7 +161,7 @@ Copies all visible properties from this object to another.
 
 <a id="ConstraintEquation.CreateParameter"></a>
 
-### ConstraintEquation.CreateParameter(propName: System.String)
+### ConstraintEquation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -185,7 +185,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ConstraintEquation.GetChildren"></a>
 
-### ConstraintEquation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ConstraintEquation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -193,7 +193,7 @@ Gets the list of children, filtered by type.
 
 <a id="ConstraintEquation.GetParameter"></a>
 
-### ConstraintEquation.GetParameter(propName: System.String)
+### ConstraintEquation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -217,7 +217,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ConstraintEquation.PropertyByAPIName"></a>
 
-### ConstraintEquation.PropertyByAPIName(name: System.String)
+### ConstraintEquation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -228,7 +228,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ConstraintEquation.PropertyByName"></a>
 
-### ConstraintEquation.PropertyByName(name: System.String)
+### ConstraintEquation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -236,7 +236,7 @@ Get a property by its unique name.
 
 <a id="ConstraintEquation.RemoveParameter"></a>
 
-### ConstraintEquation.RemoveParameter(propName: System.String)
+### ConstraintEquation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

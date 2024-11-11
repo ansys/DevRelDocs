@@ -17,7 +17,7 @@ Specifies the BodyInteractionFormulation.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------- |
 | [`DECOMPOSITION_RESPONSE`](#BodyInteractionFormulation.DECOMPOSITION_RESPONSE) |
 | [`PENALTY`](#BodyInteractionFormulation.PENALTY) |
 

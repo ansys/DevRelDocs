@@ -17,7 +17,7 @@ Defines the Mesh Element Types
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`Beam3`](#MeshElementShape.Beam3) |
 | [`Beam4`](#MeshElementShape.Beam4) |
 | [`Hex20`](#MeshElementShape.Hex20) |

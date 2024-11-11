@@ -17,7 +17,7 @@ Specifies the FittingMethodType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------- |
 | [`FastFourierTransform`](#FittingMethodType.FastFourierTransform) |
 | [`ProgramControlled`](#FittingMethodType.ProgramControlled) |
 

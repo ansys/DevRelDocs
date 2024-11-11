@@ -17,7 +17,7 @@ Defines how parameters in the CAD source are processed.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`All`](#Parameters.All) |
 | [`Independent`](#Parameters.Independent) |
 | [`None_`](#Parameters.None_) |

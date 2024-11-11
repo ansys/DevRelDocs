@@ -30,7 +30,7 @@ Represents an element surface load associated to a SFEBLOCK command.
 
 <a id="CommandElementSurfaceLoad.Count"></a>
 
-### *property* CommandElementSurfaceLoad.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementSurfaceLoad.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of element surface loads.
 
@@ -38,7 +38,7 @@ Gets the number of element surface loads.
 
 <a id="CommandElementSurfaceLoad.Elem"></a>
 
-### *property* CommandElementSurfaceLoad.Elem *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementSurfaceLoad.Elem *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element number.
 
@@ -46,7 +46,7 @@ Gets the element number.
 
 <a id="CommandElementSurfaceLoad.ElementSurfaceLoadValues"></a>
 
-### *property* CommandElementSurfaceLoad.ElementSurfaceLoadValues *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoadValues](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementSurfaceLoadValues.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoadValues)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementSurfaceLoad.ElementSurfaceLoadValues *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoadValues](CommandElementSurfaceLoadValues.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoadValues)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 
@@ -54,7 +54,7 @@ Gets the values.
 
 <a id="CommandElementSurfaceLoad.Keys"></a>
 
-### *property* CommandElementSurfaceLoad.Keys *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementSurfaceLoad.Keys *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the keys.
 
@@ -62,7 +62,7 @@ Gets the keys.
 
 <a id="CommandElementSurfaceLoad.LKeys"></a>
 
-### *property* CommandElementSurfaceLoad.LKeys *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementSurfaceLoad.LKeys *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the load keys.
 

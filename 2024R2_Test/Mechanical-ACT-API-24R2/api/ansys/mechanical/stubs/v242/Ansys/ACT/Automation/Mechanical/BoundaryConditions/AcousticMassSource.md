@@ -60,7 +60,7 @@ Defines a AcousticMassSource.
 
 <a id="AcousticMassSource.Children"></a>
 
-### *property* AcousticMassSource.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -68,7 +68,7 @@ Gets the list of children.
 
 <a id="AcousticMassSource.Comments"></a>
 
-### *property* AcousticMassSource.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -84,7 +84,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticMassSource.Figures"></a>
 
-### *property* AcousticMassSource.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -92,7 +92,7 @@ Gets the list of associated figures.
 
 <a id="AcousticMassSource.Images"></a>
 
-### *property* AcousticMassSource.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -132,7 +132,7 @@ Gets or sets the PhaseAngle.
 
 <a id="AcousticMassSource.Properties"></a>
 
-### *property* AcousticMassSource.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -140,7 +140,7 @@ Gets the list of properties for this object.
 
 <a id="AcousticMassSource.ReadOnly"></a>
 
-### *property* AcousticMassSource.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -148,7 +148,7 @@ Gets or sets the ReadOnly.
 
 <a id="AcousticMassSource.SharedRefBody"></a>
 
-### *property* AcousticMassSource.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -156,7 +156,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticMassSource.Suppressed"></a>
 
-### *property* AcousticMassSource.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -164,7 +164,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticMassSource.VisibleProperties"></a>
 
-### *property* AcousticMassSource.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -200,7 +200,7 @@ Creates a new child Figure.
 
 <a id="AcousticMassSource.AddImage"></a>
 
-### AcousticMassSource.AddImage(filePath: System.String)
+### AcousticMassSource.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -220,7 +220,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticMassSource.CreateParameter"></a>
 
-### AcousticMassSource.CreateParameter(propName: System.String)
+### AcousticMassSource.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -244,7 +244,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticMassSource.GetChildren"></a>
 
-### AcousticMassSource.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticMassSource.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -252,7 +252,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticMassSource.GetParameter"></a>
 
-### AcousticMassSource.GetParameter(propName: System.String)
+### AcousticMassSource.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -284,7 +284,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticMassSource.PropertyByAPIName"></a>
 
-### AcousticMassSource.PropertyByAPIName(name: System.String)
+### AcousticMassSource.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -295,7 +295,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticMassSource.PropertyByName"></a>
 
-### AcousticMassSource.PropertyByName(name: System.String)
+### AcousticMassSource.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -303,7 +303,7 @@ Get a property by its unique name.
 
 <a id="AcousticMassSource.RemoveParameter"></a>
 
-### AcousticMassSource.RemoveParameter(propName: System.String)
+### AcousticMassSource.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the FatigueToolMethod.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------- |
 | [`NarrowBand`](#FatigueToolMethod.NarrowBand) |
 | [`Steinberg`](#FatigueToolMethod.Steinberg) |
 | [`Wirsching`](#FatigueToolMethod.Wirsching) |

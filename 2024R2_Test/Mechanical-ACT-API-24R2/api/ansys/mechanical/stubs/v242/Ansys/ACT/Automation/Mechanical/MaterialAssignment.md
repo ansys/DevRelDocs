@@ -66,7 +66,7 @@ Defines a MaterialAssignment.
 
 <a id="MaterialAssignment.Children"></a>
 
-### *property* MaterialAssignment.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -74,7 +74,7 @@ Gets the list of children.
 
 <a id="MaterialAssignment.Comments"></a>
 
-### *property* MaterialAssignment.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -90,7 +90,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MaterialAssignment.FieldCoordinateSystem"></a>
 
-### *property* MaterialAssignment.FieldCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.FieldCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FieldCoordinateSystem.
 
@@ -98,7 +98,7 @@ Gets or sets the FieldCoordinateSystem.
 
 <a id="MaterialAssignment.Figures"></a>
 
-### *property* MaterialAssignment.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -106,7 +106,7 @@ Gets the list of associated figures.
 
 <a id="MaterialAssignment.Images"></a>
 
-### *property* MaterialAssignment.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -130,7 +130,7 @@ Gets or sets the Location.
 
 <a id="MaterialAssignment.Material"></a>
 
-### *property* MaterialAssignment.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -138,7 +138,7 @@ Gets or sets the Material.
 
 <a id="MaterialAssignment.MaterialName"></a>
 
-### *property* MaterialAssignment.MaterialName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.MaterialName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialName.
 
@@ -154,7 +154,7 @@ Gets or sets the MaterialPolarizationDirection.
 
 <a id="MaterialAssignment.NonlinearEffects"></a>
 
-### *property* MaterialAssignment.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.NonlinearEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonlinearEffects.
 
@@ -162,7 +162,7 @@ Gets or sets the NonlinearEffects.
 
 <a id="MaterialAssignment.Properties"></a>
 
-### *property* MaterialAssignment.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -170,7 +170,7 @@ Gets the list of properties for this object.
 
 <a id="MaterialAssignment.ReadOnly"></a>
 
-### *property* MaterialAssignment.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -186,7 +186,7 @@ Gets or sets the ReferenceTemperatureValue.
 
 <a id="MaterialAssignment.Suppressed"></a>
 
-### *property* MaterialAssignment.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -194,7 +194,7 @@ Gets or sets the Suppressed.
 
 <a id="MaterialAssignment.ThermalStrainEffects"></a>
 
-### *property* MaterialAssignment.ThermalStrainEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.ThermalStrainEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrainEffects.
 
@@ -202,7 +202,7 @@ Gets or sets the ThermalStrainEffects.
 
 <a id="MaterialAssignment.UseReferenceTemperatureByBody"></a>
 
-### *property* MaterialAssignment.UseReferenceTemperatureByBody *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.UseReferenceTemperatureByBody *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseReferenceTemperatureByBody.
 
@@ -210,7 +210,7 @@ Gets or sets the UseReferenceTemperatureByBody.
 
 <a id="MaterialAssignment.VisibleProperties"></a>
 
-### *property* MaterialAssignment.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialAssignment.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -254,7 +254,7 @@ Creates a new child Figure.
 
 <a id="MaterialAssignment.AddImage"></a>
 
-### MaterialAssignment.AddImage(filePath: System.String)
+### MaterialAssignment.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -282,7 +282,7 @@ Run the CreateMaterialPlot action.
 
 <a id="MaterialAssignment.CreateParameter"></a>
 
-### MaterialAssignment.CreateParameter(propName: System.String)
+### MaterialAssignment.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -306,7 +306,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MaterialAssignment.GetChildren"></a>
 
-### MaterialAssignment.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MaterialAssignment.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -314,7 +314,7 @@ Gets the list of children, filtered by type.
 
 <a id="MaterialAssignment.GetParameter"></a>
 
-### MaterialAssignment.GetParameter(propName: System.String)
+### MaterialAssignment.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -338,7 +338,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MaterialAssignment.PropertyByAPIName"></a>
 
-### MaterialAssignment.PropertyByAPIName(name: System.String)
+### MaterialAssignment.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -349,7 +349,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MaterialAssignment.PropertyByName"></a>
 
-### MaterialAssignment.PropertyByName(name: System.String)
+### MaterialAssignment.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -357,7 +357,7 @@ Get a property by its unique name.
 
 <a id="MaterialAssignment.RemoveParameter"></a>
 
-### MaterialAssignment.RemoveParameter(propName: System.String)
+### MaterialAssignment.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

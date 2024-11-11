@@ -48,7 +48,7 @@ Defines a LineChart2D.
 
 <a id="LineChart2D.Children"></a>
 
-### *property* LineChart2D.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LineChart2D.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -72,7 +72,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LineChart2D.MultiScopedCurveId"></a>
 
-### *property* LineChart2D.MultiScopedCurveId *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LineChart2D.MultiScopedCurveId *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OutlineSelection.
 
@@ -80,7 +80,7 @@ Gets or sets the OutlineSelection.
 
 <a id="LineChart2D.Properties"></a>
 
-### *property* LineChart2D.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LineChart2D.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -88,7 +88,7 @@ Gets the list of properties for this object.
 
 <a id="LineChart2D.Suppressed"></a>
 
-### *property* LineChart2D.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LineChart2D.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -96,7 +96,7 @@ Gets or sets the Suppressed.
 
 <a id="LineChart2D.VisibleProperties"></a>
 
-### *property* LineChart2D.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LineChart2D.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -124,7 +124,7 @@ Copies all visible properties from this object to another.
 
 <a id="LineChart2D.CreateParameter"></a>
 
-### LineChart2D.CreateParameter(propName: System.String)
+### LineChart2D.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -140,7 +140,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="LineChart2D.GetChildren"></a>
 
-### LineChart2D.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LineChart2D.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -148,7 +148,7 @@ Gets the list of children, filtered by type.
 
 <a id="LineChart2D.GetParameter"></a>
 
-### LineChart2D.GetParameter(propName: System.String)
+### LineChart2D.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -172,7 +172,7 @@ Run the GroupSimilarObjects action.
 
 <a id="LineChart2D.PropertyByAPIName"></a>
 
-### LineChart2D.PropertyByAPIName(name: System.String)
+### LineChart2D.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -183,7 +183,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LineChart2D.PropertyByName"></a>
 
-### LineChart2D.PropertyByName(name: System.String)
+### LineChart2D.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -191,7 +191,7 @@ Get a property by its unique name.
 
 <a id="LineChart2D.RemoveParameter"></a>
 
-### LineChart2D.RemoveParameter(propName: System.String)
+### LineChart2D.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

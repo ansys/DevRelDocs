@@ -17,7 +17,7 @@ Specifies the SurfaceCoatingStiffnessBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------------------- |
 | [`MembraneAndBending`](#SurfaceCoatingStiffnessBehavior.MembraneAndBending) |
 | [`MembraneOnly`](#SurfaceCoatingStiffnessBehavior.MembraneOnly) |
 | [`StressEvaluationOnly`](#SurfaceCoatingStiffnessBehavior.StressEvaluationOnly) |

@@ -80,7 +80,7 @@ Defines a PrimaryCriterion.
 
 <a id="PrimaryCriterion.BaseResult"></a>
 
-### *property* PrimaryCriterion.BaseResult *: [Ansys.Mechanical.DataModel.Enums.BaseResultType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BaseResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.BaseResult *: [Ansys.Mechanical.DataModel.Enums.BaseResultType](../../../Mechanical/DataModel/Enums/BaseResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BaseResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BaseResult.
 
@@ -96,7 +96,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="PrimaryCriterion.Children"></a>
 
-### *property* PrimaryCriterion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -104,7 +104,7 @@ Gets the list of children.
 
 <a id="PrimaryCriterion.Comments"></a>
 
-### *property* PrimaryCriterion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -120,7 +120,7 @@ Gets or sets the Coordinate System.
 
 <a id="PrimaryCriterion.DataModelObjectCategory"></a>
 
-### *property* PrimaryCriterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -128,7 +128,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PrimaryCriterion.DirectionX"></a>
 
-### *property* PrimaryCriterion.DirectionX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.DirectionX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DirectionX.
 
@@ -136,7 +136,7 @@ Gets or sets the DirectionX.
 
 <a id="PrimaryCriterion.DirectionY"></a>
 
-### *property* PrimaryCriterion.DirectionY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.DirectionY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DirectionY.
 
@@ -144,7 +144,7 @@ Gets or sets the DirectionY.
 
 <a id="PrimaryCriterion.DirectionZ"></a>
 
-### *property* PrimaryCriterion.DirectionZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.DirectionZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DirectionZ.
 
@@ -152,7 +152,7 @@ Gets or sets the DirectionZ.
 
 <a id="PrimaryCriterion.DiscretizationError"></a>
 
-### *property* PrimaryCriterion.DiscretizationError *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.DiscretizationError *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DiscretizationError.
 
@@ -160,7 +160,7 @@ Gets or sets the DiscretizationError.
 
 <a id="PrimaryCriterion.Figures"></a>
 
-### *property* PrimaryCriterion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -168,7 +168,7 @@ Gets the list of associated figures.
 
 <a id="PrimaryCriterion.FrequencyRangeType"></a>
 
-### *property* PrimaryCriterion.FrequencyRangeType *: [Ansys.Mechanical.DataModel.Enums.CriterionFrequencyRangeType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CriterionFrequencyRangeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CriterionFrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.FrequencyRangeType *: [Ansys.Mechanical.DataModel.Enums.CriterionFrequencyRangeType](../../../Mechanical/DataModel/Enums/CriterionFrequencyRangeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CriterionFrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencyRangeType.
 
@@ -176,7 +176,7 @@ Gets or sets the FrequencyRangeType.
 
 <a id="PrimaryCriterion.FrequencyReduction"></a>
 
-### *property* PrimaryCriterion.FrequencyReduction *: [Ansys.Mechanical.DataModel.Enums.FrequencyReductionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencyReductionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencyReductionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.FrequencyReduction *: [Ansys.Mechanical.DataModel.Enums.FrequencyReductionType](../../../Mechanical/DataModel/Enums/FrequencyReductionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencyReductionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencyReduction.
 
@@ -184,7 +184,7 @@ Gets or sets the FrequencyReduction.
 
 <a id="PrimaryCriterion.Images"></a>
 
-### *property* PrimaryCriterion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -208,7 +208,7 @@ Gets or sets the Location.
 
 <a id="PrimaryCriterion.LocationMethod"></a>
 
-### *property* PrimaryCriterion.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
@@ -232,7 +232,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="PrimaryCriterion.ModeNumber"></a>
 
-### *property* PrimaryCriterion.ModeNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.ModeNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeNumber.
 
@@ -240,7 +240,7 @@ Gets or sets the ModeNumber.
 
 <a id="PrimaryCriterion.Properties"></a>
 
-### *property* PrimaryCriterion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -248,7 +248,7 @@ Gets the list of properties for this object.
 
 <a id="PrimaryCriterion.ReadOnly"></a>
 
-### *property* PrimaryCriterion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -256,7 +256,7 @@ Gets or sets the ReadOnly.
 
 <a id="PrimaryCriterion.ReferenceType"></a>
 
-### *property* PrimaryCriterion.ReferenceType *: [Ansys.Mechanical.DataModel.Enums.VectorReductionReferenceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionReferenceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorReductionReferenceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.ReferenceType *: [Ansys.Mechanical.DataModel.Enums.VectorReductionReferenceType](../../../Mechanical/DataModel/Enums/VectorReductionReferenceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorReductionReferenceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceType.
 
@@ -264,7 +264,7 @@ Gets or sets the ReferenceType.
 
 <a id="PrimaryCriterion.RemotePoint"></a>
 
-### *property* PrimaryCriterion.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePoint.
 
@@ -272,7 +272,7 @@ Gets or sets the RemotePoint.
 
 <a id="PrimaryCriterion.RobustFrequenciesReduction"></a>
 
-### *property* PrimaryCriterion.RobustFrequenciesReduction *: [Ansys.Mechanical.DataModel.Enums.RobustFrequenciesReductionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RobustFrequenciesReductionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RobustFrequenciesReductionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.RobustFrequenciesReduction *: [Ansys.Mechanical.DataModel.Enums.RobustFrequenciesReductionType](../../../Mechanical/DataModel/Enums/RobustFrequenciesReductionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RobustFrequenciesReductionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RobustFrequenciesReduction.
 
@@ -280,7 +280,7 @@ Gets or sets the RobustFrequenciesReduction.
 
 <a id="PrimaryCriterion.SpatialReduction"></a>
 
-### *property* PrimaryCriterion.SpatialReduction *: [Ansys.Mechanical.DataModel.Enums.SpatialReductionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpatialReductionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpatialReductionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.SpatialReduction *: [Ansys.Mechanical.DataModel.Enums.SpatialReductionType](../../../Mechanical/DataModel/Enums/SpatialReductionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpatialReductionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialReduction.
 
@@ -288,7 +288,7 @@ Gets or sets the SpatialReduction.
 
 <a id="PrimaryCriterion.SpatialReductionMethod"></a>
 
-### *property* PrimaryCriterion.SpatialReductionMethod *: [Ansys.Mechanical.DataModel.Enums.SpatialReductionMethodType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpatialReductionMethodType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpatialReductionMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.SpatialReductionMethod *: [Ansys.Mechanical.DataModel.Enums.SpatialReductionMethodType](../../../Mechanical/DataModel/Enums/SpatialReductionMethodType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpatialReductionMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialReductionMethod.
 
@@ -296,7 +296,7 @@ Gets or sets the SpatialReductionMethod.
 
 <a id="PrimaryCriterion.Step"></a>
 
-### *property* PrimaryCriterion.Step *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Step *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Step.
 
@@ -304,7 +304,7 @@ Gets or sets the Step.
 
 <a id="PrimaryCriterion.Suppressed"></a>
 
-### *property* PrimaryCriterion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -320,7 +320,7 @@ Gets the Value.
 
 <a id="PrimaryCriterion.VectorReduction"></a>
 
-### *property* PrimaryCriterion.VectorReduction *: [Ansys.Mechanical.DataModel.Enums.VectorReductionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorReductionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.VectorReduction *: [Ansys.Mechanical.DataModel.Enums.VectorReductionType](../../../Mechanical/DataModel/Enums/VectorReductionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorReductionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VectorReduction.
 
@@ -328,7 +328,7 @@ Gets or sets the VectorReduction.
 
 <a id="PrimaryCriterion.VisibleProperties"></a>
 
-### *property* PrimaryCriterion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -364,7 +364,7 @@ Creates a new child Figure.
 
 <a id="PrimaryCriterion.AddImage"></a>
 
-### PrimaryCriterion.AddImage(filePath: System.String)
+### PrimaryCriterion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -392,7 +392,7 @@ Copies all visible properties from this object to another.
 
 <a id="PrimaryCriterion.CreateParameter"></a>
 
-### PrimaryCriterion.CreateParameter(propName: System.String)
+### PrimaryCriterion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -424,7 +424,7 @@ Run the EvaluateAllResults action.
 
 <a id="PrimaryCriterion.GetChildren"></a>
 
-### PrimaryCriterion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PrimaryCriterion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -432,7 +432,7 @@ Gets the list of children, filtered by type.
 
 <a id="PrimaryCriterion.GetParameter"></a>
 
-### PrimaryCriterion.GetParameter(propName: System.String)
+### PrimaryCriterion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -456,7 +456,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PrimaryCriterion.PropertyByAPIName"></a>
 
-### PrimaryCriterion.PropertyByAPIName(name: System.String)
+### PrimaryCriterion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -467,7 +467,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PrimaryCriterion.PropertyByName"></a>
 
-### PrimaryCriterion.PropertyByName(name: System.String)
+### PrimaryCriterion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -475,7 +475,7 @@ Get a property by its unique name.
 
 <a id="PrimaryCriterion.RemoveParameter"></a>
 
-### PrimaryCriterion.RemoveParameter(propName: System.String)
+### PrimaryCriterion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -85,7 +85,7 @@ Defines a EdgeCrack.
 
 <a id="EdgeCrack.BottomFaceNodes"></a>
 
-### *property* EdgeCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.BottomFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomFaceNodes.
 
@@ -93,7 +93,7 @@ Gets or sets the BottomFaceNodes.
 
 <a id="EdgeCrack.Children"></a>
 
-### *property* EdgeCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -101,7 +101,7 @@ Gets the list of children.
 
 <a id="EdgeCrack.CircumferentialDivisions"></a>
 
-### *property* EdgeCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.CircumferentialDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CircumferentialDivisions.
 
@@ -109,7 +109,7 @@ Gets or sets the CircumferentialDivisions.
 
 <a id="EdgeCrack.Comments"></a>
 
-### *property* EdgeCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -117,7 +117,7 @@ Gets the list of associated comments.
 
 <a id="EdgeCrack.Contact1Nodes"></a>
 
-### *property* EdgeCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.Contact1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Contact1Nodes.
 
@@ -125,7 +125,7 @@ Gets or sets the Contact1Nodes.
 
 <a id="EdgeCrack.ContactPairsNodes"></a>
 
-### *property* EdgeCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.ContactPairsNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactPairsNodes.
 
@@ -133,7 +133,7 @@ Gets or sets the ContactPairsNodes.
 
 <a id="EdgeCrack.CoordinateSystem"></a>
 
-### *property* EdgeCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -141,7 +141,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="EdgeCrack.CrackFacesNodes"></a>
 
-### *property* EdgeCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.CrackFacesNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFacesNodes.
 
@@ -149,7 +149,7 @@ Gets or sets the CrackFacesNodes.
 
 <a id="EdgeCrack.CrackFrontDivisions"></a>
 
-### *property* EdgeCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.CrackFrontDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontDivisions.
 
@@ -157,7 +157,7 @@ Gets or sets the CrackFrontDivisions.
 
 <a id="EdgeCrack.CrackFrontNodes"></a>
 
-### *property* EdgeCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.CrackFrontNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNodes.
 
@@ -165,7 +165,7 @@ Gets or sets the CrackFrontNodes.
 
 <a id="EdgeCrack.CrackID"></a>
 
-### *property* EdgeCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.CrackID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackID.
 
@@ -221,7 +221,7 @@ Gets or sets the EndWidth.
 
 <a id="EdgeCrack.Figures"></a>
 
-### *property* EdgeCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -253,7 +253,7 @@ Gets or sets the FrontElementSize.
 
 <a id="EdgeCrack.GrowthRate"></a>
 
-### *property* EdgeCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -261,7 +261,7 @@ Gets or sets the GrowthRate.
 
 <a id="EdgeCrack.Images"></a>
 
-### *property* EdgeCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -293,7 +293,7 @@ Gets or sets the Location.
 
 <a id="EdgeCrack.MeshContours"></a>
 
-### *property* EdgeCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.MeshContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshContours.
 
@@ -309,7 +309,7 @@ Gets or sets the MidWidth.
 
 <a id="EdgeCrack.Properties"></a>
 
-### *property* EdgeCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -317,7 +317,7 @@ Gets the list of properties for this object.
 
 <a id="EdgeCrack.ReadOnly"></a>
 
-### *property* EdgeCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -325,7 +325,7 @@ Gets or sets the ReadOnly.
 
 <a id="EdgeCrack.SolutionContours"></a>
 
-### *property* EdgeCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.SolutionContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionContours.
 
@@ -341,7 +341,7 @@ Gets or sets the StartWidth.
 
 <a id="EdgeCrack.Suppressed"></a>
 
-### *property* EdgeCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -349,7 +349,7 @@ Gets or sets the Suppressed.
 
 <a id="EdgeCrack.Target1Nodes"></a>
 
-### *property* EdgeCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.Target1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Target1Nodes.
 
@@ -357,7 +357,7 @@ Gets or sets the Target1Nodes.
 
 <a id="EdgeCrack.TopFaceNodes"></a>
 
-### *property* EdgeCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.TopFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopFaceNodes.
 
@@ -365,7 +365,7 @@ Gets or sets the TopFaceNodes.
 
 <a id="EdgeCrack.VisibleProperties"></a>
 
-### *property* EdgeCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -373,7 +373,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EdgeCrack.XScaleFactor"></a>
 
-### *property* EdgeCrack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.XScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XScaleFactor.
 
@@ -381,7 +381,7 @@ Gets or sets the XScaleFactor.
 
 <a id="EdgeCrack.YScaleFactor"></a>
 
-### *property* EdgeCrack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.YScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YScaleFactor.
 
@@ -389,7 +389,7 @@ Gets or sets the YScaleFactor.
 
 <a id="EdgeCrack.ZScaleFactor"></a>
 
-### *property* EdgeCrack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.ZScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZScaleFactor.
 
@@ -433,7 +433,7 @@ Creates a new child Figure.
 
 <a id="EdgeCrack.AddImage"></a>
 
-### EdgeCrack.AddImage(filePath: System.String)
+### EdgeCrack.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -453,7 +453,7 @@ Copies all visible properties from this object to another.
 
 <a id="EdgeCrack.CreateParameter"></a>
 
-### EdgeCrack.CreateParameter(propName: System.String)
+### EdgeCrack.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -477,7 +477,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="EdgeCrack.GetChildren"></a>
 
-### EdgeCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EdgeCrack.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -485,7 +485,7 @@ Gets the list of children, filtered by type.
 
 <a id="EdgeCrack.GetParameter"></a>
 
-### EdgeCrack.GetParameter(propName: System.String)
+### EdgeCrack.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -509,7 +509,7 @@ Run the GroupSimilarObjects action.
 
 <a id="EdgeCrack.PropertyByAPIName"></a>
 
-### EdgeCrack.PropertyByAPIName(name: System.String)
+### EdgeCrack.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -520,7 +520,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EdgeCrack.PropertyByName"></a>
 
-### EdgeCrack.PropertyByName(name: System.String)
+### EdgeCrack.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -528,7 +528,7 @@ Get a property by its unique name.
 
 <a id="EdgeCrack.RemoveParameter"></a>
 
-### EdgeCrack.RemoveParameter(propName: System.String)
+### EdgeCrack.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Collection of commands.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------|-------------------------------|
+|---------------------------------|-------------------------------|
 | [`Count`](#CommandColl.Count)   | Gets the count of commands.   |
 | [`Item`](#CommandColl.Item)     | Item property.                |
 
@@ -27,7 +27,7 @@ Collection of commands.
 
 <a id="CommandColl.Count"></a>
 
-### *property* CommandColl.Count *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandColl.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the count of commands.
 

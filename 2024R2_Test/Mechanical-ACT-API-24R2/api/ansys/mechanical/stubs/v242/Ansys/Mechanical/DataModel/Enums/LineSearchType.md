@@ -17,7 +17,7 @@ Specifies the LineSearchType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Off`](#LineSearchType.Off) |
 | [`On`](#LineSearchType.On) |
 | [`ProgramControlled`](#LineSearchType.ProgramControlled) |

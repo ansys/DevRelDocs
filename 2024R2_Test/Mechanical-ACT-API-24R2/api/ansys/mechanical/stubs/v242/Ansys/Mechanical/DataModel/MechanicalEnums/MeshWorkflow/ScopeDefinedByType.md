@@ -17,7 +17,7 @@ This enum is referenced in the ‘Control’ tree node and reflects how a scope 
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------- |
 | [`Outcome`](#ScopeDefinedByType.Outcome) |
 | [`Value`](#ScopeDefinedByType.Value) |
 

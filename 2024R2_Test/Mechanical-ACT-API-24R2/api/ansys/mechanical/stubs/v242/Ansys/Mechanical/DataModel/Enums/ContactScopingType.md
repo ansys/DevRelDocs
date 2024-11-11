@@ -17,7 +17,7 @@ Specifies the ContactScopingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------- |
 | [`ContactSourceUnderlying`](#ContactScopingType.ContactSourceUnderlying) |
 | [`ContactTargetUnderlying`](#ContactScopingType.ContactTargetUnderlying) |
 

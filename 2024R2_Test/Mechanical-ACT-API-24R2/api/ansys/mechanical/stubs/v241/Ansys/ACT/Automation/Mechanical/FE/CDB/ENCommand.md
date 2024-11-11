@@ -17,7 +17,7 @@ Represents an EN command.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------|------------------------------------|
+|-------------------------------|------------------------------------|
 | [`Index`](#ENCommand.Index)   | Gets the command index.            |
 | [`Name`](#ENCommand.Name)     | Gets the command name.             |
 | [`Type`](#ENCommand.Type)     | Gets the type (attribute or node). |
@@ -29,7 +29,7 @@ Represents an EN command.
 
 <a id="ENCommand.Index"></a>
 
-### *property* ENCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ENCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -37,7 +37,7 @@ Gets the command index.
 
 <a id="ENCommand.Name"></a>
 
-### *property* ENCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ENCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -45,7 +45,7 @@ Gets the command name.
 
 <a id="ENCommand.Type"></a>
 
-### *property* ENCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ENCommand.Type *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the type (attribute or node).
 
@@ -53,7 +53,7 @@ Gets the type (attribute or node).
 
 <a id="ENCommand.Values"></a>
 
-### *property* ENCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ENCommand.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

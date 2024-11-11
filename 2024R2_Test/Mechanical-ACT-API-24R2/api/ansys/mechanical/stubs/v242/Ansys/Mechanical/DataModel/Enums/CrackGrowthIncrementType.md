@@ -17,7 +17,7 @@ Specifies the CrackGrowthIncrementType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`Manual`](#CrackGrowthIncrementType.Manual) |
 | [`ProgramControlled`](#CrackGrowthIncrementType.ProgramControlled) |
 

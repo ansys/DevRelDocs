@@ -15,7 +15,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------------- |
 | [`AverageNodal`](#EXDTetPressureIntegrationType.AverageNodal) |
 | [`Constant`](#EXDTetPressureIntegrationType.Constant) |
 | [`NBS`](#EXDTetPressureIntegrationType.NBS) |

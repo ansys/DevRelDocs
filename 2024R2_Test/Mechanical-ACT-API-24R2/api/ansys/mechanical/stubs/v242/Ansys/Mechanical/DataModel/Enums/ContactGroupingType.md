@@ -17,7 +17,7 @@ Specifies the ContactGroupingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`Bodies`](#ContactGroupingType.Bodies) |
 | [`Faces`](#ContactGroupingType.Faces) |
 | [`None_`](#ContactGroupingType.None_) |

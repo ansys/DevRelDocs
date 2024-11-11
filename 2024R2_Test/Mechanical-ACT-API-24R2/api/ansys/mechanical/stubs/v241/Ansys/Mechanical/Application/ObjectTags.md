@@ -40,7 +40,7 @@ Defines the collection of Mechanical’s tags.
 
 <a id="ObjectTags.Count"></a>
 
-### *property* ObjectTags.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ObjectTags.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of tags in the collection.
 
@@ -48,7 +48,7 @@ The number of tags in the collection.
 
 <a id="ObjectTags.Item"></a>
 
-### *property* ObjectTags.Item *: [Ansys.Mechanical.Application.ObjectTag](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.ObjectTag) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ObjectTags.Item *: [Ansys.Mechanical.Application.ObjectTag](ObjectTag.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTag) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -56,7 +56,7 @@ Item property.
 
 <a id="ObjectTags.TagNames"></a>
 
-### *property* ObjectTags.TagNames *: System.Collections.Generic.List[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ObjectTags.TagNames *: List[[str](https://docs.python.org/3/library/stdtypes.html#str)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The names of the tags in the collection.
 
@@ -68,7 +68,7 @@ The names of the tags in the collection.
 
 <a id="ObjectTags.Add"></a>
 
-### ObjectTags.Add(tag: [Ansys.Mechanical.Application.ObjectTag](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.ObjectTag))
+### ObjectTags.Add(tag: [Ansys.Mechanical.Application.ObjectTag](ObjectTag.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTag))
 
 Adds a new tag to the collection. Throws an error if the tag already exists in the collection.
 
@@ -84,7 +84,7 @@ Clears the collection, removing all objects from the tags in the collection.
 
 <a id="ObjectTags.Contains"></a>
 
-### ObjectTags.Contains(tag: [Ansys.Mechanical.Application.ObjectTag](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.ObjectTag))
+### ObjectTags.Contains(tag: [Ansys.Mechanical.Application.ObjectTag](ObjectTag.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTag))
 
 Returns whether or not the collection contains the given tag.
 
@@ -92,7 +92,7 @@ Returns whether or not the collection contains the given tag.
 
 <a id="ObjectTags.GetTag"></a>
 
-### ObjectTags.GetTag(tagName: System.String)
+### ObjectTags.GetTag(tagName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Returns the tag in the collection with the given name.
 
@@ -100,7 +100,7 @@ Returns the tag in the collection with the given name.
 
 <a id="ObjectTags.IndexOf"></a>
 
-### ObjectTags.IndexOf(tag: [Ansys.Mechanical.Application.ObjectTag](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.ObjectTag))
+### ObjectTags.IndexOf(tag: [Ansys.Mechanical.Application.ObjectTag](ObjectTag.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTag))
 
 Returns the index of the given tag. If the given tag does not exist in the collection, returns -1.
 
@@ -108,7 +108,7 @@ Returns the index of the given tag. If the given tag does not exist in the colle
 
 <a id="ObjectTags.Remove"></a>
 
-### ObjectTags.Remove(tag: [Ansys.Mechanical.Application.ObjectTag](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.ObjectTag))
+### ObjectTags.Remove(tag: [Ansys.Mechanical.Application.ObjectTag](ObjectTag.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTag))
 
 Removes a tag if it exists in the collection.
 
@@ -116,7 +116,7 @@ Removes a tag if it exists in the collection.
 
 <a id="ObjectTags.RemoveAt"></a>
 
-### ObjectTags.RemoveAt(index: System.Int32)
+### ObjectTags.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Removes the tag at the given index from the collection.
 

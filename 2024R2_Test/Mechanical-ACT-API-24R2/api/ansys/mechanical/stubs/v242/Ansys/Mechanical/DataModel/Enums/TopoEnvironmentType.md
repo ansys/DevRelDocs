@@ -17,7 +17,7 @@ Specifies the Topology Environment Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`AllModal`](#TopoEnvironmentType.AllModal) |
 | [`AllStaticStructural`](#TopoEnvironmentType.AllStaticStructural) |
 | [`Unknown`](#TopoEnvironmentType.Unknown) |
