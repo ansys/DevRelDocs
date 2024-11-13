@@ -17,7 +17,7 @@ Specifies the HourglassDampingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`AutodynStandard`](#HourglassDampingType.AutodynStandard) |
 | [`FlanaganBelytschko`](#HourglassDampingType.FlanaganBelytschko) |
 

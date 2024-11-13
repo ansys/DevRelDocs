@@ -17,7 +17,7 @@ Specifies the ElementMorphingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`Off`](#ElementMorphingType.Off) |
 | [`On`](#ElementMorphingType.On) |
 | [`ProgramControlled`](#ElementMorphingType.ProgramControlled) |

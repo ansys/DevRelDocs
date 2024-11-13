@@ -17,7 +17,7 @@ Specifies the WindowType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------ |
 | [`Bartlett`](#WindowType.Bartlett) |
 | [`Blackman`](#WindowType.Blackman) |
 | [`Hamming`](#WindowType.Hamming) |

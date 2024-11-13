@@ -17,7 +17,7 @@ Specifies the BoundaryConditionForRotation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------ |
 | [`Free`](#BoundaryConditionForRotation.Free) |
 | [`Moment`](#BoundaryConditionForRotation.Moment) |
 | [`Rotation`](#BoundaryConditionForRotation.Rotation) |

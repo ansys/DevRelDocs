@@ -17,7 +17,7 @@ Specifies the PhysicsType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------- |
 | [`Acoustic`](#PhysicsType.Acoustic) |
 | [`Customizable`](#PhysicsType.Customizable) |
 | [`ElectricCharge`](#PhysicsType.ElectricCharge) |

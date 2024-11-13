@@ -138,7 +138,7 @@ Defines a Body.
 
 <a id="Body.Assignment"></a>
 
-### *property* Body.Assignment *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Assignment *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Assignment.
 
@@ -202,7 +202,7 @@ Gets the CentroidZ.
 
 <a id="Body.Children"></a>
 
-### *property* Body.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -210,7 +210,7 @@ Gets the list of children.
 
 <a id="Body.Color"></a>
 
-### *property* Body.Color *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Color *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Color, encoded as a BGR bitfield.
 
@@ -218,7 +218,7 @@ Gets or sets the Color, encoded as a BGR bitfield.
 
 <a id="Body.Comments"></a>
 
-### *property* Body.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -226,7 +226,7 @@ Gets the list of associated comments.
 
 <a id="Body.ConfigurationId"></a>
 
-### *property* Body.ConfigurationId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ConfigurationId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the related Result Mesh’s ConfigurationId.
 
@@ -234,7 +234,7 @@ Gets the related Result Mesh’s ConfigurationId.
 
 <a id="Body.CoordinateSystem"></a>
 
-### *property* Body.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -266,7 +266,7 @@ Gets the CrossSectionIZZ.
 
 <a id="Body.CrossSectionName"></a>
 
-### *property* Body.CrossSectionName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.CrossSectionName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets CrossSectionName.
 
@@ -274,7 +274,7 @@ Gets CrossSectionName.
 
 <a id="Body.CrossSectionSelection"></a>
 
-### *property* Body.CrossSectionSelection *: [Ansys.ACT.Automation.Mechanical.CrossSection](../../../../../v241/Ansys/ACT/Automation/Mechanical/CrossSection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CrossSection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.CrossSectionSelection *: [Ansys.ACT.Automation.Mechanical.CrossSection](CrossSection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CrossSection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrossSectionSelection.
 
@@ -298,7 +298,7 @@ Gets or sets the Dimension.
 
 <a id="Body.Elements"></a>
 
-### *property* Body.Elements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Elements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Elements.
 
@@ -330,7 +330,7 @@ Gets or sets the FiberSpacing.
 
 <a id="Body.Figures"></a>
 
-### *property* Body.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -370,7 +370,7 @@ Gets the GeometryType.
 
 <a id="Body.Hidden"></a>
 
-### *property* Body.Hidden *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Hidden *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Hide or show the body.
 
@@ -378,7 +378,7 @@ Hide or show the body.
 
 <a id="Body.HomogeneousMembrane"></a>
 
-### *property* Body.HomogeneousMembrane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.HomogeneousMembrane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HomogeneousMembrane.
 
@@ -386,7 +386,7 @@ Gets or sets the HomogeneousMembrane.
 
 <a id="Body.Images"></a>
 
-### *property* Body.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -402,7 +402,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Body.IsWindingBody"></a>
 
-### *property* Body.IsWindingBody *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.IsWindingBody *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsWindingBody.
 
@@ -450,7 +450,7 @@ Gets or sets the LinkTrussBehavior.
 
 <a id="Body.ManualThicknessMode"></a>
 
-### *property* Body.ManualThicknessMode *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ManualThicknessMode *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ManualThicknessMode.
 
@@ -466,7 +466,7 @@ Gets the Mass.
 
 <a id="Body.Material"></a>
 
-### *property* Body.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -498,7 +498,7 @@ Gets the MeshMetric.
 
 <a id="Body.MeshVersion"></a>
 
-### *property* Body.MeshVersion *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.MeshVersion *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MeshVersion.
 
@@ -547,7 +547,7 @@ Gets the MomentOfInertiaIp3.
 
 <a id="Body.Nodes"></a>
 
-### *property* Body.Nodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Nodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Nodes.
 
@@ -555,7 +555,7 @@ Gets the Nodes.
 
 <a id="Body.NonlinearEffects"></a>
 
-### *property* Body.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.NonlinearEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonlinearEffects.
 
@@ -563,7 +563,7 @@ Gets or sets the NonlinearEffects.
 
 <a id="Body.NumberOfTurns"></a>
 
-### *property* Body.NumberOfTurns *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.NumberOfTurns *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfTurns.
 
@@ -627,7 +627,7 @@ Gets the PipeThickness.
 
 <a id="Body.Properties"></a>
 
-### *property* Body.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -635,7 +635,7 @@ Gets the list of properties for this object.
 
 <a id="Body.ReadOnly"></a>
 
-### *property* Body.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -651,7 +651,7 @@ Gets or sets the ReferenceFrame.
 
 <a id="Body.ReferenceTemperature"></a>
 
-### *property* Body.ReferenceTemperature *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ReferenceTemperature *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceTemperature.
 
@@ -675,7 +675,7 @@ Gets or sets the ReinforcingStressState.
 
 <a id="Body.ResultMeshId"></a>
 
-### *property* Body.ResultMeshId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ResultMeshId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the related Result Mesh’s ObjectId.
 
@@ -715,7 +715,7 @@ Gets or sets the StiffnessOption.
 
 <a id="Body.Suppressed"></a>
 
-### *property* Body.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -723,7 +723,7 @@ Gets or sets the Suppressed.
 
 <a id="Body.SuppressedParameterized"></a>
 
-### *property* Body.SuppressedParameterized *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.SuppressedParameterized *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets if the part suppressed property is parameterized.
 
@@ -739,7 +739,7 @@ Gets the SurfaceArea.
 
 <a id="Body.ThermalStrainEffects"></a>
 
-### *property* Body.ThermalStrainEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ThermalStrainEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrainEffects.
 
@@ -755,7 +755,7 @@ Gets or sets the Thickness.
 
 <a id="Body.ThicknessMode"></a>
 
-### *property* Body.ThicknessMode *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.ThicknessMode *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ThicknessMode.
 
@@ -763,7 +763,7 @@ Gets the ThicknessMode.
 
 <a id="Body.Transparency"></a>
 
-### *property* Body.Transparency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Transparency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Transparency. Values range from 0.0 (fully invisible) to 1.0 (fully visible).
 
@@ -779,7 +779,7 @@ Gets or sets the Treatment.
 
 <a id="Body.UseReferenceTemperatureByBody"></a>
 
-### *property* Body.UseReferenceTemperatureByBody *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.UseReferenceTemperatureByBody *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseReferenceTemperatureByBody.
 
@@ -787,7 +787,7 @@ Gets or sets the UseReferenceTemperatureByBody.
 
 <a id="Body.UserNameChange"></a>
 
-### *property* Body.UserNameChange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.UserNameChange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the UserNameChange.
 
@@ -795,7 +795,7 @@ Gets the UserNameChange.
 
 <a id="Body.Visible"></a>
 
-### *property* Body.Visible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.Visible *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Visible.
 
@@ -803,7 +803,7 @@ Gets or sets the Visible.
 
 <a id="Body.VisibleProperties"></a>
 
-### *property* Body.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Body.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -855,7 +855,7 @@ Creates a new child Figure.
 
 <a id="Body.AddImage"></a>
 
-### Body.AddImage(filePath: System.String)
+### Body.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -891,7 +891,7 @@ Copies all visible properties from this object to another.
 
 <a id="Body.CreateParameter"></a>
 
-### Body.CreateParameter(propName: System.String)
+### Body.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -915,7 +915,7 @@ Run the GenerateMesh action.
 
 <a id="Body.GetChildren"></a>
 
-### Body.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Body.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -931,7 +931,7 @@ Gets the Geo Body
 
 <a id="Body.GetParameter"></a>
 
-### Body.GetParameter(propName: System.String)
+### Body.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -971,7 +971,7 @@ Run the PreviewSurfaceMesh action.
 
 <a id="Body.PropertyByAPIName"></a>
 
-### Body.PropertyByAPIName(name: System.String)
+### Body.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -982,7 +982,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Body.PropertyByName"></a>
 
-### Body.PropertyByName(name: System.String)
+### Body.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -990,7 +990,7 @@ Get a property by its unique name.
 
 <a id="Body.RemoveParameter"></a>
 
-### Body.RemoveParameter(propName: System.String)
+### Body.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

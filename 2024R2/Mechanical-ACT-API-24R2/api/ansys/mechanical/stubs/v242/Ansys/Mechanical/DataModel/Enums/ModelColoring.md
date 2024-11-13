@@ -17,7 +17,7 @@ Specifies the Model display coloring.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- |
 | [`ByAssembly`](#ModelColoring.ByAssembly) |
 | [`ByBodyColor`](#ModelColoring.ByBodyColor) |
 | [`ByBodyType`](#ModelColoring.ByBodyType) |

@@ -49,7 +49,7 @@ Tree class.
 
 <a id="Tree.ActiveObjects"></a>
 
-### *property* Tree.ActiveObjects *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Tree.ActiveObjects *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets a list of all selected objects.
 
@@ -57,7 +57,7 @@ Gets a list of all selected objects.
 
 <a id="Tree.AllObjects"></a>
 
-### *property* Tree.AllObjects *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Tree.AllObjects *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets a list of all objects available in the tree.
 
@@ -73,7 +73,7 @@ Gets the current filter applied on the tree.
 
 <a id="Tree.CurrentSearchGraphics"></a>
 
-### *property* Tree.CurrentSearchGraphics *: [Ansys.Mechanical.DataModel.Enums.VisibilityType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VisibilityType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VisibilityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Tree.CurrentSearchGraphics *: [Ansys.Mechanical.DataModel.Enums.VisibilityType](../../../Mechanical/DataModel/Enums/VisibilityType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VisibilityType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current visibility.
 
@@ -81,7 +81,7 @@ Gets the current visibility.
 
 <a id="Tree.CurrentSearchState"></a>
 
-### *property* Tree.CurrentSearchState *: [Ansys.Mechanical.DataModel.Enums.ObjectState](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ObjectState.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ObjectState) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Tree.CurrentSearchState *: [Ansys.Mechanical.DataModel.Enums.ObjectState](../../../Mechanical/DataModel/Enums/ObjectState.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ObjectState) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current search state.
 
@@ -89,7 +89,7 @@ Gets the current search state.
 
 <a id="Tree.CurrentSearchString"></a>
 
-### *property* Tree.CurrentSearchString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Tree.CurrentSearchString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current search string (name/tag/propertyName/propertyValue).
 
@@ -105,7 +105,7 @@ Gets the first object selected in the tree.
 
 <a id="Tree.GroupingFoldersVisible"></a>
 
-### *property* Tree.GroupingFoldersVisible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Tree.GroupingFoldersVisible *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Controls whether or not group folders are visible.
 
@@ -141,7 +141,7 @@ Clears the current sort.
 
 <a id="Tree.Filter"></a>
 
-### Tree.Filter(name: System.String, tag: System.String, state: [Ansys.Mechanical.DataModel.Enums.ObjectState](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ObjectState.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ObjectState), visibility: [Ansys.Mechanical.DataModel.Enums.VisibilityType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VisibilityType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VisibilityType), type: [Ansys.Mechanical.DataModel.Enums.TreeFilterObjectClass](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TreeFilterObjectClass.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TreeFilterObjectClass), coordinateSystem: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem), model: System.String, environment: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis), scoping: [Ansys.Mechanical.DataModel.Enums.TreeFilterScopingType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TreeFilterScopingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TreeFilterScopingType), filterState: [Ansys.Mechanical.DataModel.Enums.TreeFilterObjectState](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TreeFilterObjectState.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TreeFilterObjectState), propertyName: System.String, propertyValue: System.String)
+### Tree.Filter(name: [str](https://docs.python.org/3/library/stdtypes.html#str), tag: [str](https://docs.python.org/3/library/stdtypes.html#str), state: [Ansys.Mechanical.DataModel.Enums.ObjectState](../../../Mechanical/DataModel/Enums/ObjectState.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ObjectState), visibility: [Ansys.Mechanical.DataModel.Enums.VisibilityType](../../../Mechanical/DataModel/Enums/VisibilityType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VisibilityType), type: [Ansys.Mechanical.DataModel.Enums.TreeFilterObjectClass](../../../Mechanical/DataModel/Enums/TreeFilterObjectClass.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TreeFilterObjectClass), coordinateSystem: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem), model: [str](https://docs.python.org/3/library/stdtypes.html#str), environment: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis), scoping: [Ansys.Mechanical.DataModel.Enums.TreeFilterScopingType](../../../Mechanical/DataModel/Enums/TreeFilterScopingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TreeFilterScopingType), filterState: [Ansys.Mechanical.DataModel.Enums.TreeFilterObjectState](../../../Mechanical/DataModel/Enums/TreeFilterObjectState.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TreeFilterObjectState), propertyName: [str](https://docs.python.org/3/library/stdtypes.html#str), propertyValue: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Filters the tree objects based on given parameters.
 
@@ -149,7 +149,7 @@ Filters the tree objects based on given parameters.
 
 <a id="Tree.Find"></a>
 
-### Tree.Find(name: System.String, func: System.Func[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject, System.Boolean], tag: System.String, state: [Ansys.Mechanical.DataModel.Enums.ObjectState](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ObjectState.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ObjectState))
+### Tree.Find(name: [str](https://docs.python.org/3/library/stdtypes.html#str), func: System.Func[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject, [bool](https://docs.python.org/3/library/functions.html#bool)], tag: [str](https://docs.python.org/3/library/stdtypes.html#str), state: [Ansys.Mechanical.DataModel.Enums.ObjectState](../../../Mechanical/DataModel/Enums/ObjectState.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ObjectState))
 
 Find method.
 
@@ -165,7 +165,7 @@ Gets the full path that needs to be typed in order to go to the selected object.
 
 <a id="Tree.Group"></a>
 
-### Tree.Group(dataModelObjects: System.Collections.IEnumerable)
+### Tree.Group(dataModelObjects: Iterable)
 
 Groups a list of objects together.
 
@@ -189,7 +189,7 @@ Refreshes the tree.
 
 <a id="Tree.Sort"></a>
 
-### Tree.Sort(type: [Ansys.Mechanical.DataModel.Enums.SortingType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SortingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SortingType), reverse: System.Boolean)
+### Tree.Sort(type: [Ansys.Mechanical.DataModel.Enums.SortingType](../../../Mechanical/DataModel/Enums/SortingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SortingType), reverse: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 ```text
 Sorts the tree objects based on given parameters.

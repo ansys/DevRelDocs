@@ -17,7 +17,7 @@ Specifies the ContactBehavior.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- |
 | [`Asymmetric`](#ContactBehavior.Asymmetric) |
 | [`AutoAsymmetric`](#ContactBehavior.AutoAsymmetric) |
 | [`ProgramControlled`](#ContactBehavior.ProgramControlled) |

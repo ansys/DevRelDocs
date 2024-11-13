@@ -17,7 +17,7 @@ Specifies the ContactCorrection.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------- |
 | [`Bolt`](#ContactCorrection.Bolt) |
 | [`No`](#ContactCorrection.No) |
 | [`Smoothing`](#ContactCorrection.Smoothing) |

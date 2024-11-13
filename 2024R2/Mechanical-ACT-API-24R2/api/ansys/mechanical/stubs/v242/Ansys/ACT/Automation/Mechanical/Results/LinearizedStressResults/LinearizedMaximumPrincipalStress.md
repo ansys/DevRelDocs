@@ -17,7 +17,7 @@ Defines a LinearizedMaximumPrincipalStress.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#LinearizedMaximumPrincipalStress.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#LinearizedMaximumPrincipalStress.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#LinearizedMaximumPrincipalStress.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a LinearizedMaximumPrincipalStress.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#LinearizedMaximumPrincipalStress.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#LinearizedMaximumPrincipalStress.Average)                                                     | Gets the Average.                                                      |
 | [`AverageRadiusOfCurvature`](#LinearizedMaximumPrincipalStress.AverageRadiusOfCurvature)                   | Gets or sets the AverageRadiusOfCurvature.                             |
@@ -114,7 +114,7 @@ Defines a LinearizedMaximumPrincipalStress.
 | [`Subtype`](#LinearizedMaximumPrincipalStress.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#LinearizedMaximumPrincipalStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#LinearizedMaximumPrincipalStress.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#LinearizedMaximumPrincipalStress.SurfaceCoating)                                                                                                                                                                    | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#LinearizedMaximumPrincipalStress.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#LinearizedMaximumPrincipalStress.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#LinearizedMaximumPrincipalStress.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#LinearizedMaximumPrincipalStress.Time)                                                           | Gets the Time.                                                         |
@@ -126,7 +126,7 @@ Defines a LinearizedMaximumPrincipalStress.
 | [`TotalInside`](#LinearizedMaximumPrincipalStress.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#LinearizedMaximumPrincipalStress.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#LinearizedMaximumPrincipalStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#LinearizedMaximumPrincipalStress.WaterfallShowTextOnMosaic)                                                                                                                                              | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#LinearizedMaximumPrincipalStress.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 | [`ZeroThroughThicknessBendingStress`](#LinearizedMaximumPrincipalStress.ZeroThroughThicknessBendingStress) | Gets or sets the ZeroThroughThicknessBendingStress.                    |
 
 <a id="property-detail"></a>
@@ -135,7 +135,7 @@ Defines a LinearizedMaximumPrincipalStress.
 
 <a id="LinearizedMaximumPrincipalStress.Amplitude"></a>
 
-### *property* LinearizedMaximumPrincipalStress.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -183,7 +183,7 @@ Gets or sets the By.
 
 <a id="LinearizedMaximumPrincipalStress.CalculateTimeHistory"></a>
 
-### *property* LinearizedMaximumPrincipalStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -191,7 +191,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="LinearizedMaximumPrincipalStress.Children"></a>
 
-### *property* LinearizedMaximumPrincipalStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -199,7 +199,7 @@ Gets the list of children.
 
 <a id="LinearizedMaximumPrincipalStress.CombinationNumber"></a>
 
-### *property* LinearizedMaximumPrincipalStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -207,7 +207,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="LinearizedMaximumPrincipalStress.Comments"></a>
 
-### *property* LinearizedMaximumPrincipalStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -215,7 +215,7 @@ Gets the list of associated comments.
 
 <a id="LinearizedMaximumPrincipalStress.CoordinateSystem"></a>
 
-### *property* LinearizedMaximumPrincipalStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -225,7 +225,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="LinearizedMaximumPrincipalStress.CrackFrontNumber"></a>
 
-### *property* LinearizedMaximumPrincipalStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -265,7 +265,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="LinearizedMaximumPrincipalStress.Figures"></a>
 
-### *property* LinearizedMaximumPrincipalStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -281,7 +281,7 @@ Gets or sets the Frequency.
 
 <a id="LinearizedMaximumPrincipalStress.GlobalIDs"></a>
 
-### *property* LinearizedMaximumPrincipalStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -297,7 +297,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="LinearizedMaximumPrincipalStress.Identifier"></a>
 
-### *property* LinearizedMaximumPrincipalStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -305,7 +305,7 @@ Gets or sets the Identifier.
 
 <a id="LinearizedMaximumPrincipalStress.Images"></a>
 
-### *property* LinearizedMaximumPrincipalStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -321,7 +321,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LinearizedMaximumPrincipalStress.IsSolved"></a>
 
-### *property* LinearizedMaximumPrincipalStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -337,7 +337,7 @@ Gets or sets the ItemType.
 
 <a id="LinearizedMaximumPrincipalStress.IterationNumber"></a>
 
-### *property* LinearizedMaximumPrincipalStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -353,7 +353,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="LinearizedMaximumPrincipalStress.LoadMultiplier"></a>
 
-### *property* LinearizedMaximumPrincipalStress.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -361,7 +361,7 @@ Gets the LoadMultiplier.
 
 <a id="LinearizedMaximumPrincipalStress.LoadStep"></a>
 
-### *property* LinearizedMaximumPrincipalStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -369,7 +369,7 @@ Gets the LoadStep.
 
 <a id="LinearizedMaximumPrincipalStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* LinearizedMaximumPrincipalStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -377,7 +377,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="LinearizedMaximumPrincipalStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* LinearizedMaximumPrincipalStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -385,7 +385,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="LinearizedMaximumPrincipalStress.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* LinearizedMaximumPrincipalStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -393,7 +393,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="LinearizedMaximumPrincipalStress.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* LinearizedMaximumPrincipalStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -401,7 +401,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="LinearizedMaximumPrincipalStress.LoadStepNumber"></a>
 
-### *property* LinearizedMaximumPrincipalStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -425,7 +425,7 @@ Gets the Maximum.
 
 <a id="LinearizedMaximumPrincipalStress.MaximumOccursOn"></a>
 
-### *property* LinearizedMaximumPrincipalStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -489,7 +489,7 @@ Gets the Minimum.
 
 <a id="LinearizedMaximumPrincipalStress.MinimumOccursOn"></a>
 
-### *property* LinearizedMaximumPrincipalStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -513,7 +513,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="LinearizedMaximumPrincipalStress.NamedSelections"></a>
 
-### *property* LinearizedMaximumPrincipalStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -577,7 +577,7 @@ Gets or sets the Position.
 
 <a id="LinearizedMaximumPrincipalStress.Properties"></a>
 
-### *property* LinearizedMaximumPrincipalStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -593,7 +593,7 @@ Gets or sets the ScopingMethod.
 
 <a id="LinearizedMaximumPrincipalStress.SetNumber"></a>
 
-### *property* LinearizedMaximumPrincipalStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -609,7 +609,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="LinearizedMaximumPrincipalStress.SolverComponentIDs"></a>
 
-### *property* LinearizedMaximumPrincipalStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -625,7 +625,7 @@ Gets or sets the StressStrainType.
 
 <a id="LinearizedMaximumPrincipalStress.Substep"></a>
 
-### *property* LinearizedMaximumPrincipalStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -641,7 +641,7 @@ Gets or sets the Subtype.
 
 <a id="LinearizedMaximumPrincipalStress.Suppressed"></a>
 
-### *property* LinearizedMaximumPrincipalStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -745,7 +745,7 @@ Gets the TotalOutside.
 
 <a id="LinearizedMaximumPrincipalStress.VisibleProperties"></a>
 
-### *property* LinearizedMaximumPrincipalStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -753,7 +753,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="LinearizedMaximumPrincipalStress.WaterfallShowTextOnMosaic"></a>
 
-### *property* LinearizedMaximumPrincipalStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -761,7 +761,7 @@ Gets or sets the Waterfall Mosaic Text Property.
 
 <a id="LinearizedMaximumPrincipalStress.ZeroThroughThicknessBendingStress"></a>
 
-### *property* LinearizedMaximumPrincipalStress.ZeroThroughThicknessBendingStress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedMaximumPrincipalStress.ZeroThroughThicknessBendingStress *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZeroThroughThicknessBendingStress.
 
@@ -813,7 +813,7 @@ Creates a new child Figure.
 
 <a id="LinearizedMaximumPrincipalStress.AddImage"></a>
 
-### LinearizedMaximumPrincipalStress.AddImage(filePath: System.String)
+### LinearizedMaximumPrincipalStress.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -841,7 +841,7 @@ Copies all visible properties from this object to another.
 
 <a id="LinearizedMaximumPrincipalStress.CreateParameter"></a>
 
-### LinearizedMaximumPrincipalStress.CreateParameter(propName: System.String)
+### LinearizedMaximumPrincipalStress.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -889,7 +889,7 @@ Run the EvaluateAllResults action.
 
 <a id="LinearizedMaximumPrincipalStress.ExportAnimation"></a>
 
-### LinearizedMaximumPrincipalStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### LinearizedMaximumPrincipalStress.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -897,7 +897,7 @@ Run the ExportAnimation action.
 
 <a id="LinearizedMaximumPrincipalStress.ExportToTextFile"></a>
 
-### LinearizedMaximumPrincipalStress.ExportToTextFile(filePath: System.String)
+### LinearizedMaximumPrincipalStress.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -913,7 +913,7 @@ Run the FetchRemoteResult action.
 
 <a id="LinearizedMaximumPrincipalStress.GetChildren"></a>
 
-### LinearizedMaximumPrincipalStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LinearizedMaximumPrincipalStress.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -921,7 +921,7 @@ Gets the list of children, filtered by type.
 
 <a id="LinearizedMaximumPrincipalStress.GetParameter"></a>
 
-### LinearizedMaximumPrincipalStress.GetParameter(propName: System.String)
+### LinearizedMaximumPrincipalStress.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -953,7 +953,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="LinearizedMaximumPrincipalStress.PropertyByAPIName"></a>
 
-### LinearizedMaximumPrincipalStress.PropertyByAPIName(name: System.String)
+### LinearizedMaximumPrincipalStress.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -964,7 +964,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LinearizedMaximumPrincipalStress.PropertyByName"></a>
 
-### LinearizedMaximumPrincipalStress.PropertyByName(name: System.String)
+### LinearizedMaximumPrincipalStress.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -972,7 +972,7 @@ Get a property by its unique name.
 
 <a id="LinearizedMaximumPrincipalStress.RemoveParameter"></a>
 
-### LinearizedMaximumPrincipalStress.RemoveParameter(propName: System.String)
+### LinearizedMaximumPrincipalStress.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

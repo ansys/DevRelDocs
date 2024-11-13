@@ -51,7 +51,7 @@ Defines a PythonCode.
 
 <a id="PythonCode.Connected"></a>
 
-### *property* PythonCode.Connected *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCode.Connected *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets whether the callbacks are currently connected.
 
@@ -59,7 +59,7 @@ Gets whether the callbacks are currently connected.
 
 <a id="PythonCode.DataModelObjectCategory"></a>
 
-### *property* PythonCode.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCode.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -75,7 +75,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PythonCode.Properties"></a>
 
-### *property* PythonCode.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCode.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -91,7 +91,7 @@ Gets or sets the propperty provider instance associated with this python code ob
 
 <a id="PythonCode.ScriptExecutionScope"></a>
 
-### *property* PythonCode.ScriptExecutionScope *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCode.ScriptExecutionScope *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The scope identifier in which the code execution will take place.
 
@@ -99,7 +99,7 @@ The scope identifier in which the code execution will take place.
 
 <a id="PythonCode.Text"></a>
 
-### *property* PythonCode.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCode.Text *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the text in the script tab for the Python Code object.
 
@@ -107,7 +107,7 @@ Gets or sets the text in the script tab for the Python Code object.
 
 <a id="PythonCode.VisibleProperties"></a>
 
-### *property* PythonCode.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCode.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -143,7 +143,7 @@ Copies all visible properties from this object to another.
 
 <a id="PythonCode.CreateParameter"></a>
 
-### PythonCode.CreateParameter(propName: System.String)
+### PythonCode.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -167,7 +167,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PythonCode.GetParameter"></a>
 
-### PythonCode.GetParameter(propName: System.String)
+### PythonCode.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -191,7 +191,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PythonCode.PropertyByAPIName"></a>
 
-### PythonCode.PropertyByAPIName(name: System.String)
+### PythonCode.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -202,7 +202,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PythonCode.PropertyByName"></a>
 
-### PythonCode.PropertyByName(name: System.String)
+### PythonCode.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -218,7 +218,7 @@ Reload properties to update properties provided by the provider.
 
 <a id="PythonCode.RemoveParameter"></a>
 
-### PythonCode.RemoveParameter(propName: System.String)
+### PythonCode.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

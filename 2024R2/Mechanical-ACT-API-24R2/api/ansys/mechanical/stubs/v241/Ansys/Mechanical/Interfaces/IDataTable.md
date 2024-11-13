@@ -48,11 +48,11 @@ IDataTable interface.
 
 <a id="IDataTable.ColumnNames"></a>
 
-### *property* IDataTable.ColumnNames *: System.Collections.Generic.IReadOnlyList[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.ColumnNames *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[str](https://docs.python.org/3/library/stdtypes.html#str)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <a id="IDataTable.Columns"></a>
 
-### *property* IDataTable.Columns *: System.Collections.Generic.IList[[Ansys.Mechanical.Interfaces.IDataSeries](../../../../v242/Ansys/Mechanical/Interfaces/IDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.Columns *: List[[Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Explicitly get the columns of the data table.
 
@@ -60,7 +60,7 @@ Explicitly get the columns of the data table.
 
 <a id="IDataTable.Count"></a>
 
-### *property* IDataTable.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of columns in the table.
 
@@ -68,7 +68,7 @@ Gets the number of columns in the table.
 
 <a id="IDataTable.IsFixedColumnCount"></a>
 
-### *property* IDataTable.IsFixedColumnCount *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.IsFixedColumnCount *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get whether additional columns can be added or removed from the contained T:Ansys.Mechanical.Interfaces.IDataSeries.
 
@@ -76,7 +76,7 @@ Get whether additional columns can be added or removed from the contained T:Ansy
 
 <a id="IDataTable.IsFixedRowCount"></a>
 
-### *property* IDataTable.IsFixedRowCount *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.IsFixedRowCount *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get whether additional rows can be added or removed from the contained
 T:Ansys.Mechanical.Interfaces.IDataSeries.
@@ -85,7 +85,7 @@ T:Ansys.Mechanical.Interfaces.IDataSeries.
 
 <a id="IDataTable.IsReadOnly"></a>
 
-### *property* IDataTable.IsReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.IsReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets whether the data table is read-only.
 
@@ -93,7 +93,7 @@ Gets whether the data table is read-only.
 
 <a id="IDataTable.Item"></a>
 
-### *property* IDataTable.Item *: [Ansys.Mechanical.Interfaces.IDataSeries](../../../../v242/Ansys/Mechanical/Interfaces/IDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.Item *: [Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -101,7 +101,7 @@ Item property.
 
 <a id="IDataTable.Metadata"></a>
 
-### *property* IDataTable.Metadata *: System.Collections.Generic.IDictionary[System.String, System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.Metadata *: [dict](https://docs.python.org/3/library/stdtypes.html#dict)[[str](https://docs.python.org/3/library/stdtypes.html#str), Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or set a dictionary with additional information that may be useful to understanding
 the context of data in the table.
@@ -110,7 +110,7 @@ the context of data in the table.
 
 <a id="IDataTable.Name"></a>
 
-### *property* IDataTable.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get or set the name of the table.
 
@@ -118,7 +118,7 @@ Get or set the name of the table.
 
 <a id="IDataTable.RowCount"></a>
 
-### *property* IDataTable.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.RowCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <a id="method-detail"></a>
 
@@ -126,7 +126,7 @@ Get or set the name of the table.
 
 <a id="IDataTable.Add"></a>
 
-### IDataTable.Add(dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](../../../../v242/Ansys/Mechanical/Interfaces/IDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries))
+### IDataTable.Add(dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries))
 
 Add a new column to the data table.
 
@@ -142,7 +142,7 @@ Drops all columns from the data table.
 
 <a id="IDataTable.Contains"></a>
 
-### IDataTable.Contains(name: System.String)
+### IDataTable.Contains(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Returns whether the data table contains a column with the specified name.
 
@@ -150,11 +150,11 @@ Returns whether the data table contains a column with the specified name.
 
 <a id="IDataTable.GetRow"></a>
 
-### IDataTable.GetRow(rowIndex: System.Int32)
+### IDataTable.GetRow(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 <a id="IDataTable.Insert"></a>
 
-### IDataTable.Insert(columnIndex: System.Int32, dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](../../../../v242/Ansys/Mechanical/Interfaces/IDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries))
+### IDataTable.Insert(columnIndex: [int](https://docs.python.org/3/library/functions.html#int), dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries))
 
 Insert a column at the specified index.
 
@@ -162,7 +162,7 @@ Insert a column at the specified index.
 
 <a id="IDataTable.Remove"></a>
 
-### IDataTable.Remove(key: System.Object)
+### IDataTable.Remove(key: Any)
 
 ```text
 Removes the specified column. If the specifier of the column to remove is an T:System.Int32, it will
@@ -174,7 +174,7 @@ be interpreted as a column name.
 
 <a id="IDataTable.TryInsertRow"></a>
 
-### IDataTable.TryInsertRow(rowIndex: System.Int32, values: System.Collections.IEnumerable)
+### IDataTable.TryInsertRow(rowIndex: [int](https://docs.python.org/3/library/functions.html#int), values: Iterable)
 
 Try to insert the values at the specified row index.
 
@@ -182,7 +182,7 @@ Try to insert the values at the specified row index.
 
 <a id="IDataTable.TryRemoveRow"></a>
 
-### IDataTable.TryRemoveRow(rowIndex: System.Int32)
+### IDataTable.TryRemoveRow(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 Try to remove the specified row.
 

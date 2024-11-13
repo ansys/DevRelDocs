@@ -17,7 +17,7 @@ Specifies the EnclosureType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------------------- |
 | [`ASMEElliptical`](#MeanStressTheoryType.ASMEElliptical) |
 | [`Gerber`](#MeanStressTheoryType.Gerber) |
 | [`Goodman`](#MeanStressTheoryType.Goodman) |

@@ -17,7 +17,7 @@ Defines a TCrossSection.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TCrossSection.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#TCrossSection.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#TCrossSection.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a TCrossSection.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Area`](#TCrossSection.Area)                                       | Gets the Area.                                                |
 | [`Children`](#TCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#TCrossSection.Comments)                               | Gets the list of associated comments.                         |
@@ -69,7 +69,7 @@ Gets the Area.
 
 <a id="TCrossSection.Children"></a>
 
-### *property* TCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TCrossSection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -77,7 +77,7 @@ Gets the list of children.
 
 <a id="TCrossSection.Comments"></a>
 
-### *property* TCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TCrossSection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -93,7 +93,7 @@ Gets the current DataModelObject’s category.
 
 <a id="TCrossSection.Figures"></a>
 
-### *property* TCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TCrossSection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -117,7 +117,7 @@ Gets the IZZ.
 
 <a id="TCrossSection.Images"></a>
 
-### *property* TCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TCrossSection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -133,7 +133,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TCrossSection.Properties"></a>
 
-### *property* TCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TCrossSection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -141,7 +141,7 @@ Gets the list of properties for this object.
 
 <a id="TCrossSection.ReadOnly"></a>
 
-### *property* TCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TCrossSection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -165,7 +165,7 @@ Gets or sets the Thick2.
 
 <a id="TCrossSection.VisibleProperties"></a>
 
-### *property* TCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TCrossSection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -217,7 +217,7 @@ Creates a new child Figure.
 
 <a id="TCrossSection.AddImage"></a>
 
-### TCrossSection.AddImage(filePath: System.String)
+### TCrossSection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -237,7 +237,7 @@ Copies all visible properties from this object to another.
 
 <a id="TCrossSection.CreateParameter"></a>
 
-### TCrossSection.CreateParameter(propName: System.String)
+### TCrossSection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -261,7 +261,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="TCrossSection.GetChildren"></a>
 
-### TCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TCrossSection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -269,7 +269,7 @@ Gets the list of children, filtered by type.
 
 <a id="TCrossSection.GetParameter"></a>
 
-### TCrossSection.GetParameter(propName: System.String)
+### TCrossSection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -293,7 +293,7 @@ Run the GroupSimilarObjects action.
 
 <a id="TCrossSection.PropertyByAPIName"></a>
 
-### TCrossSection.PropertyByAPIName(name: System.String)
+### TCrossSection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -304,7 +304,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TCrossSection.PropertyByName"></a>
 
-### TCrossSection.PropertyByName(name: System.String)
+### TCrossSection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -312,7 +312,7 @@ Get a property by its unique name.
 
 <a id="TCrossSection.RemoveParameter"></a>
 
-### TCrossSection.RemoveParameter(propName: System.String)
+### TCrossSection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

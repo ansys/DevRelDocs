@@ -52,7 +52,7 @@ Object that wraps IDSEngineeringModelGeometryDomainAuto.
 
 <a id="MeshWorkflowInput.Children"></a>
 
-### *property* MeshWorkflowInput.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowInput.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -60,7 +60,7 @@ Gets the list of children.
 
 <a id="MeshWorkflowInput.DataModelObjectCategory"></a>
 
-### *property* MeshWorkflowInput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowInput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -68,7 +68,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshWorkflowInput.Figures"></a>
 
-### *property* MeshWorkflowInput.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowInput.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -76,7 +76,7 @@ Gets the list of associated figures.
 
 <a id="MeshWorkflowInput.Images"></a>
 
-### *property* MeshWorkflowInput.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowInput.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -100,7 +100,7 @@ Gets or sets the Location.
 
 <a id="MeshWorkflowInput.Properties"></a>
 
-### *property* MeshWorkflowInput.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowInput.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -108,7 +108,7 @@ Gets the list of properties for this object.
 
 <a id="MeshWorkflowInput.VisibleProperties"></a>
 
-### *property* MeshWorkflowInput.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowInput.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -136,7 +136,7 @@ Creates a new child Figure.
 
 <a id="MeshWorkflowInput.AddImage"></a>
 
-### MeshWorkflowInput.AddImage(filePath: System.String)
+### MeshWorkflowInput.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -156,7 +156,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshWorkflowInput.CreateParameter"></a>
 
-### MeshWorkflowInput.CreateParameter(propName: System.String)
+### MeshWorkflowInput.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -180,7 +180,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MeshWorkflowInput.GetChildren"></a>
 
-### MeshWorkflowInput.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshWorkflowInput.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -188,7 +188,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshWorkflowInput.GetParameter"></a>
 
-### MeshWorkflowInput.GetParameter(propName: System.String)
+### MeshWorkflowInput.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -212,7 +212,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshWorkflowInput.PropertyByAPIName"></a>
 
-### MeshWorkflowInput.PropertyByAPIName(name: System.String)
+### MeshWorkflowInput.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -223,7 +223,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshWorkflowInput.PropertyByName"></a>
 
-### MeshWorkflowInput.PropertyByName(name: System.String)
+### MeshWorkflowInput.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -231,7 +231,7 @@ Get a property by its unique name.
 
 <a id="MeshWorkflowInput.RemoveParameter"></a>
 
-### MeshWorkflowInput.RemoveParameter(propName: System.String)
+### MeshWorkflowInput.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

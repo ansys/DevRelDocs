@@ -53,7 +53,7 @@ ExclusionRegion class.
 
 <a id="ExclusionRegion.Children"></a>
 
-### *property* ExclusionRegion.Children *: System.Collections.Generic.IList[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.Children *: List[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -101,7 +101,7 @@ Gets or sets the MaxCumulatedDisplacementControl.
 
 <a id="ExclusionRegion.MorphingTotalMoveLimit"></a>
 
-### *property* ExclusionRegion.MorphingTotalMoveLimit *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.MorphingTotalMoveLimit *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MorphingTotalMoveLimit.
 
@@ -109,7 +109,7 @@ Gets or sets the MorphingTotalMoveLimit.
 
 <a id="ExclusionRegion.Properties"></a>
 
-### *property* ExclusionRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -117,7 +117,7 @@ Gets the list of properties for this object.
 
 <a id="ExclusionRegion.Suppressed"></a>
 
-### *property* ExclusionRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -125,7 +125,7 @@ Gets or sets the Suppressed.
 
 <a id="ExclusionRegion.VisibleProperties"></a>
 
-### *property* ExclusionRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -145,7 +145,7 @@ Activate the current object.
 
 <a id="ExclusionRegion.CopyTo"></a>
 
-### ExclusionRegion.CopyTo(other: [Ansys.ACT.Automation.Mechanical.ExclusionRegion](../../../../../v241/Ansys/ACT/Automation/Mechanical/ExclusionRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ExclusionRegion))
+### ExclusionRegion.CopyTo(other: [Ansys.ACT.Automation.Mechanical.ExclusionRegion](#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ExclusionRegion))
 
 ```text
 Copies all visible properties from this object to another.
@@ -156,7 +156,7 @@ Override because of copy order of properties
 
 <a id="ExclusionRegion.CreateParameter"></a>
 
-### ExclusionRegion.CreateParameter(propName: System.String)
+### ExclusionRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -180,7 +180,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ExclusionRegion.GetChildren"></a>
 
-### ExclusionRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ExclusionRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -188,7 +188,7 @@ Gets the list of children, filtered by type.
 
 <a id="ExclusionRegion.GetParameter"></a>
 
-### ExclusionRegion.GetParameter(propName: System.String)
+### ExclusionRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -212,7 +212,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ExclusionRegion.PropertyByAPIName"></a>
 
-### ExclusionRegion.PropertyByAPIName(name: System.String)
+### ExclusionRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -223,7 +223,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ExclusionRegion.PropertyByName"></a>
 
-### ExclusionRegion.PropertyByName(name: System.String)
+### ExclusionRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -231,7 +231,7 @@ Get a property by its unique name.
 
 <a id="ExclusionRegion.RemoveParameter"></a>
 
-### ExclusionRegion.RemoveParameter(propName: System.String)
+### ExclusionRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

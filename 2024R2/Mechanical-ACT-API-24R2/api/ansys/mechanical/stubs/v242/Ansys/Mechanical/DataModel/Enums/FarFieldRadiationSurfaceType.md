@@ -17,7 +17,7 @@ Specifies the FarFieldRadiationSurfaceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------ |
 | [`Manual`](#FarFieldRadiationSurfaceType.Manual) |
 | [`No`](#FarFieldRadiationSurfaceType.No) |
 | [`ProgramControlled`](#FarFieldRadiationSurfaceType.ProgramControlled) |

@@ -17,7 +17,7 @@ Represents a CECMOD command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
+|-----------------------------------------|-------------------------------------------|
 | [`Constant`](#CECMODCommand.Constant)   | Gets the constant term of the equation.   |
 | [`Index`](#CECMODCommand.Index)         | Gets the command index.                   |
 | [`Name`](#CECMODCommand.Name)           | Gets the command name.                    |
@@ -29,7 +29,7 @@ Represents a CECMOD command.
 
 <a id="CECMODCommand.Constant"></a>
 
-### *property* CECMODCommand.Constant *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CECMODCommand.Constant *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the constant term of the equation.
 
@@ -37,7 +37,7 @@ Gets the constant term of the equation.
 
 <a id="CECMODCommand.Index"></a>
 
-### *property* CECMODCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CECMODCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -45,7 +45,7 @@ Gets the command index.
 
 <a id="CECMODCommand.Name"></a>
 
-### *property* CECMODCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CECMODCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -53,7 +53,7 @@ Gets the command name.
 
 <a id="CECMODCommand.Nce"></a>
 
-### *property* CECMODCommand.Nce *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CECMODCommand.Nce *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the constraint equation number.
 

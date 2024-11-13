@@ -17,7 +17,7 @@ Specifies the Fatigue Analysis Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------------------------- |
 | [`FatigueToolGerber`](#FatigueAnalysisType.FatigueToolGerber) |
 | [`FatigueToolGoodman`](#FatigueAnalysisType.FatigueToolGoodman) |
 | [`FatigueToolNone`](#FatigueAnalysisType.FatigueToolNone) |

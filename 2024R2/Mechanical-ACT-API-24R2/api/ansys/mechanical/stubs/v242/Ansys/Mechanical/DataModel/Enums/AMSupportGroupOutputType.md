@@ -17,7 +17,7 @@ Specifies the AMSupportGroupOutputType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`AMSupport`](#AMSupportGroupOutputType.AMSupport) |
 | [`NamedSelection`](#AMSupportGroupOutputType.NamedSelection) |
 

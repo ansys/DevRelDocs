@@ -17,7 +17,7 @@ Specifies the Animation Export File Format.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------- |
 | [`AVI`](#GraphicsAnimationExportFormat.AVI) |
 | [`GIF`](#GraphicsAnimationExportFormat.GIF) |
 | [`MP4`](#GraphicsAnimationExportFormat.MP4) |

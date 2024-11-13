@@ -49,7 +49,7 @@ Optional; specifies maximum radial distance from BoundVector.
 
 <a id="GeometryRayCastSettings.HitBodies"></a>
 
-### *property* GeometryRayCastSettings.HitBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryRayCastSettings.HitBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether ray casting should hit bodies.
 Defaults to false.
@@ -58,7 +58,7 @@ Defaults to false.
 
 <a id="GeometryRayCastSettings.HitEdges"></a>
 
-### *property* GeometryRayCastSettings.HitEdges *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryRayCastSettings.HitEdges *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether ray casting should hit edges.
 Defaults to false.
@@ -67,7 +67,7 @@ Defaults to false.
 
 <a id="GeometryRayCastSettings.HitFaces"></a>
 
-### *property* GeometryRayCastSettings.HitFaces *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryRayCastSettings.HitFaces *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether ray casting should hit faces.
 Defaults to true.
@@ -76,7 +76,7 @@ Defaults to true.
 
 <a id="GeometryRayCastSettings.HitVertices"></a>
 
-### *property* GeometryRayCastSettings.HitVertices *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryRayCastSettings.HitVertices *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether ray casting should hit vertices.
 Defaults to false.
@@ -85,7 +85,7 @@ Defaults to false.
 
 <a id="GeometryRayCastSettings.MaxHits"></a>
 
-### *property* GeometryRayCastSettings.MaxHits *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryRayCastSettings.MaxHits *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies maximum number of ray casting hits.
 Defaults to 1000.

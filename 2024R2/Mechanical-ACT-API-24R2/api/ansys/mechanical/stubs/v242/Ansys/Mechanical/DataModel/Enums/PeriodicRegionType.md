@@ -17,7 +17,7 @@ Specifies the PeriodicRegionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------ |
 | [`EvenPeriodic`](#PeriodicRegionType.EvenPeriodic) |
 | [`OddPeriodic`](#PeriodicRegionType.OddPeriodic) |
 

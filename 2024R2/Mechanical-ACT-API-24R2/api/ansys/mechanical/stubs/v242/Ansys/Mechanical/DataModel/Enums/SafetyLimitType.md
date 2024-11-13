@@ -17,7 +17,7 @@ Specifies the SafetyLimitType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`CustomValue`](#SafetyLimitType.CustomValue) |
 | [`UltimatePerMaterial`](#SafetyLimitType.UltimatePerMaterial) |
 | [`YieldPerMaterial`](#SafetyLimitType.YieldPerMaterial) |

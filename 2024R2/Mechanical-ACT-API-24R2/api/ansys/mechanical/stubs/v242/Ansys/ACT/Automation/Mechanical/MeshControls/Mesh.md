@@ -277,7 +277,7 @@ Defines a Mesh.
 
 <a id="Mesh.AspectRatio"></a>
 
-### *property* Mesh.AspectRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.AspectRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AspectRatio.
 
@@ -285,7 +285,7 @@ Gets or sets the AspectRatio.
 
 <a id="Mesh.AutomaticMeshBasedDefeaturing"></a>
 
-### *property* Mesh.AutomaticMeshBasedDefeaturing *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.AutomaticMeshBasedDefeaturing *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticMeshBasedDefeaturing.
 
@@ -301,7 +301,7 @@ Gets the Average.
 
 <a id="Mesh.Beam3"></a>
 
-### *property* Mesh.Beam3 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Beam3 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Beam3.
 
@@ -309,7 +309,7 @@ Gets the Beam3.
 
 <a id="Mesh.Beam4"></a>
 
-### *property* Mesh.Beam4 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Beam4 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Beam4.
 
@@ -317,7 +317,7 @@ Gets the Beam4.
 
 <a id="Mesh.BeamElements"></a>
 
-### *property* Mesh.BeamElements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.BeamElements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the BeamElements.
 
@@ -325,7 +325,7 @@ Gets the BeamElements.
 
 <a id="Mesh.CaptureCurvature"></a>
 
-### *property* Mesh.CaptureCurvature *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.CaptureCurvature *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CaptureCurvature.
 
@@ -333,7 +333,7 @@ Gets or sets the CaptureCurvature.
 
 <a id="Mesh.CaptureProximity"></a>
 
-### *property* Mesh.CaptureProximity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.CaptureProximity *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CaptureProximity.
 
@@ -341,7 +341,7 @@ Gets or sets the CaptureProximity.
 
 <a id="Mesh.CheckMeshQuality"></a>
 
-### *property* Mesh.CheckMeshQuality *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.CheckMeshQuality *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CheckMeshQuality.
 
@@ -349,7 +349,7 @@ Gets or sets the CheckMeshQuality.
 
 <a id="Mesh.Children"></a>
 
-### *property* Mesh.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -357,7 +357,7 @@ Gets the list of children.
 
 <a id="Mesh.CollisionAvoidance"></a>
 
-### *property* Mesh.CollisionAvoidance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.CollisionAvoidance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CollisionAvoidance.
 
@@ -365,7 +365,7 @@ Gets or sets the CollisionAvoidance.
 
 <a id="Mesh.Comments"></a>
 
-### *property* Mesh.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -373,7 +373,7 @@ Gets the list of associated comments.
 
 <a id="Mesh.ConnectionSize"></a>
 
-### *property* Mesh.ConnectionSize *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ConnectionSize *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionSize.
 
@@ -381,7 +381,7 @@ Gets or sets the ConnectionSize.
 
 <a id="Mesh.ConnectionTolerance"></a>
 
-### *property* Mesh.ConnectionTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ConnectionTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionTolerance.
 
@@ -389,7 +389,7 @@ Gets or sets the ConnectionTolerance.
 
 <a id="Mesh.ConnectionToleranceList"></a>
 
-### *property* Mesh.ConnectionToleranceList *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ConnectionToleranceList *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionToleranceList.
 
@@ -405,7 +405,7 @@ Gets or sets the CoplanarAngleTol.
 
 <a id="Mesh.CornerNodes"></a>
 
-### *property* Mesh.CornerNodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.CornerNodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CornerNodes.
 
@@ -413,7 +413,7 @@ Gets the CornerNodes.
 
 <a id="Mesh.CurrentConfiguration"></a>
 
-### *property* Mesh.CurrentConfiguration *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.CurrentConfiguration *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Assembly Mesh’s current configuration Id.
 
@@ -469,7 +469,7 @@ Gets or sets the ElementSize.
 
 <a id="Mesh.Elements"></a>
 
-### *property* Mesh.Elements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Elements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Elements.
 
@@ -493,7 +493,7 @@ Gets or sets the ExportUnit.
 
 <a id="Mesh.ExtraRetriesForAssembly"></a>
 
-### *property* Mesh.ExtraRetriesForAssembly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ExtraRetriesForAssembly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExtraRetriesForAssembly.
 
@@ -501,7 +501,7 @@ Gets or sets the ExtraRetriesForAssembly.
 
 <a id="Mesh.Figures"></a>
 
-### *property* Mesh.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -509,7 +509,7 @@ Gets the list of associated figures.
 
 <a id="Mesh.FilletRatio"></a>
 
-### *property* Mesh.FilletRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.FilletRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilletRatio.
 
@@ -525,7 +525,7 @@ Gets or sets the FirstLayerHeight.
 
 <a id="Mesh.GapFactor"></a>
 
-### *property* Mesh.GapFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.GapFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Gap factor for Global Inflation
 
@@ -533,7 +533,7 @@ Gets or Sets the Gap factor for Global Inflation
 
 <a id="Mesh.GasketElements"></a>
 
-### *property* Mesh.GasketElements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.GasketElements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the GasketElements.
 
@@ -541,7 +541,7 @@ Gets the GasketElements.
 
 <a id="Mesh.GeneratePinchOnRefresh"></a>
 
-### *property* Mesh.GeneratePinchOnRefresh *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.GeneratePinchOnRefresh *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeneratePinchOnRefresh.
 
@@ -549,7 +549,7 @@ Gets or sets the GeneratePinchOnRefresh.
 
 <a id="Mesh.GlobalUseCustomTargetLimit"></a>
 
-### *property* Mesh.GlobalUseCustomTargetLimit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.GlobalUseCustomTargetLimit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalUseCustomTargetLimit.
 
@@ -557,7 +557,7 @@ Gets or sets the GlobalUseCustomTargetLimit.
 
 <a id="Mesh.GrowthRate"></a>
 
-### *property* Mesh.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -565,7 +565,7 @@ Gets or sets the GrowthRate.
 
 <a id="Mesh.GrowthRateSF"></a>
 
-### *property* Mesh.GrowthRateSF *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.GrowthRateSF *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRateSF.
 
@@ -573,7 +573,7 @@ Gets or sets the GrowthRateSF.
 
 <a id="Mesh.GrowthRateType"></a>
 
-### *property* Mesh.GrowthRateType *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.GrowthRateType *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRateType.
 
@@ -581,7 +581,7 @@ Gets or sets the GrowthRateType.
 
 <a id="Mesh.Hex20"></a>
 
-### *property* Mesh.Hex20 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Hex20 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Hex20.
 
@@ -589,7 +589,7 @@ Gets the Hex20.
 
 <a id="Mesh.Hex8"></a>
 
-### *property* Mesh.Hex8 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Hex8 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Hex8.
 
@@ -597,7 +597,7 @@ Gets the Hex8.
 
 <a id="Mesh.HoleRemovalTolerance"></a>
 
-### *property* Mesh.HoleRemovalTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.HoleRemovalTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HoleRemovalTolerance.
 
@@ -605,7 +605,7 @@ Gets or sets the HoleRemovalTolerance.
 
 <a id="Mesh.Images"></a>
 
-### *property* Mesh.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -613,7 +613,7 @@ Gets the list of associated images.
 
 <a id="Mesh.InflationAlgorithm"></a>
 
-### *property* Mesh.InflationAlgorithm *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.InflationAlgorithm *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InflationAlgorithm.
 
@@ -629,7 +629,7 @@ Gets or Sets the InflationElementType
 
 <a id="Mesh.InflationOption"></a>
 
-### *property* Mesh.InflationOption *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.InflationOption *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InflationOption.
 
@@ -637,7 +637,7 @@ Gets or sets the InflationOption.
 
 <a id="Mesh.InitialSizeSeed"></a>
 
-### *property* Mesh.InitialSizeSeed *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.InitialSizeSeed *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialSizeSeed.
 
@@ -653,7 +653,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Mesh.Line2"></a>
 
-### *property* Mesh.Line2 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Line2 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Line2.
 
@@ -661,7 +661,7 @@ Gets the Line2.
 
 <a id="Mesh.Line3"></a>
 
-### *property* Mesh.Line3 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Line3 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Line3.
 
@@ -685,7 +685,7 @@ Gets or sets the MaximumAngle.
 
 <a id="Mesh.MaximumHeightOverBase"></a>
 
-### *property* Mesh.MaximumHeightOverBase *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.MaximumHeightOverBase *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumHeightOverBase.
 
@@ -693,7 +693,7 @@ Gets or sets the MaximumHeightOverBase.
 
 <a id="Mesh.MaximumLayers"></a>
 
-### *property* Mesh.MaximumLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.MaximumLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumLayers.
 
@@ -717,7 +717,7 @@ Gets or sets the MaximumThickness.
 
 <a id="Mesh.MeshBasedConnection"></a>
 
-### *property* Mesh.MeshBasedConnection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.MeshBasedConnection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshBasedConnection.
 
@@ -733,7 +733,7 @@ Gets or sets the MeshMetric.
 
 <a id="Mesh.MeshMorphing"></a>
 
-### *property* Mesh.MeshMorphing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.MeshMorphing *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshMorphing.
 
@@ -741,7 +741,7 @@ Gets or sets the MeshMorphing.
 
 <a id="Mesh.Method"></a>
 
-### *property* Mesh.Method *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Method *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Method.
 
@@ -749,7 +749,7 @@ Gets or sets the Method.
 
 <a id="Mesh.MidNodes"></a>
 
-### *property* Mesh.MidNodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.MidNodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MidNodes.
 
@@ -789,7 +789,7 @@ Gets or sets the MinimumSize.
 
 <a id="Mesh.MultiConnectionSteps"></a>
 
-### *property* Mesh.MultiConnectionSteps *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.MultiConnectionSteps *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MultiConnectionSteps.
 
@@ -805,7 +805,7 @@ Gets or sets the NamedSelection.
 
 <a id="Mesh.Nodes"></a>
 
-### *property* Mesh.Nodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Nodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Nodes.
 
@@ -813,7 +813,7 @@ Gets the Nodes.
 
 <a id="Mesh.NumLayers"></a>
 
-### *property* Mesh.NumLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.NumLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Number of Layers of Global Inflation
 
@@ -821,7 +821,7 @@ Gets or Sets the Number of Layers of Global Inflation
 
 <a id="Mesh.NumberOfCPUsForParallelPartMeshing"></a>
 
-### *property* Mesh.NumberOfCPUsForParallelPartMeshing *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.NumberOfCPUsForParallelPartMeshing *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfCPUsForParallelPartMeshing.
 
@@ -829,7 +829,7 @@ Gets or sets the NumberOfCPUsForParallelPartMeshing.
 
 <a id="Mesh.NumberOfRetries"></a>
 
-### *property* Mesh.NumberOfRetries *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.NumberOfRetries *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfRetries.
 
@@ -837,7 +837,7 @@ Gets or sets the NumberOfRetries.
 
 <a id="Mesh.NumberOfShellMeshQualityMetrics"></a>
 
-### *property* Mesh.NumberOfShellMeshQualityMetrics *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.NumberOfShellMeshQualityMetrics *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of Mesh Quality Metrics
 
@@ -845,7 +845,7 @@ Gets the number of Mesh Quality Metrics
 
 <a id="Mesh.OrientationNodes"></a>
 
-### *property* Mesh.OrientationNodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.OrientationNodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the OrientationNodes.
 
@@ -869,7 +869,7 @@ Gets or sets the PinchTolerance.
 
 <a id="Mesh.Properties"></a>
 
-### *property* Mesh.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -877,7 +877,7 @@ Gets the list of properties for this object.
 
 <a id="Mesh.ProximityGapFactor"></a>
 
-### *property* Mesh.ProximityGapFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ProximityGapFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProximityGapFactor.
 
@@ -901,7 +901,7 @@ Gets or sets the ProximitySizeSources.
 
 <a id="Mesh.Pyramid13"></a>
 
-### *property* Mesh.Pyramid13 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Pyramid13 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Pyramid13.
 
@@ -909,7 +909,7 @@ Gets the Pyramid13.
 
 <a id="Mesh.Pyramid5"></a>
 
-### *property* Mesh.Pyramid5 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Pyramid5 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Pyramid5.
 
@@ -917,7 +917,7 @@ Gets the Pyramid5.
 
 <a id="Mesh.Quad4"></a>
 
-### *property* Mesh.Quad4 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Quad4 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Quad4.
 
@@ -925,7 +925,7 @@ Gets the Quad4.
 
 <a id="Mesh.Quad8"></a>
 
-### *property* Mesh.Quad8 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Quad8 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Quad8.
 
@@ -933,7 +933,7 @@ Gets the Quad8.
 
 <a id="Mesh.QuadMesh"></a>
 
-### *property* Mesh.QuadMesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.QuadMesh *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the QuadMesh.
 
@@ -941,7 +941,7 @@ Gets or sets the QuadMesh.
 
 <a id="Mesh.ReadOnly"></a>
 
-### *property* Mesh.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReadOnly.
 
@@ -949,7 +949,7 @@ Gets the ReadOnly.
 
 <a id="Mesh.Relevance"></a>
 
-### *property* Mesh.Relevance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Relevance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Relevance.
 
@@ -957,7 +957,7 @@ Gets or sets the Relevance.
 
 <a id="Mesh.RelevanceCenter"></a>
 
-### *property* Mesh.RelevanceCenter *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.RelevanceCenter *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RelevanceCenter.
 
@@ -965,7 +965,7 @@ Gets or sets the RelevanceCenter.
 
 <a id="Mesh.Resolution"></a>
 
-### *property* Mesh.Resolution *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Resolution *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Resolution.
 
@@ -989,7 +989,7 @@ Gets or sets the RigidBodyFaceMeshType.
 
 <a id="Mesh.ShapeChecking"></a>
 
-### *property* Mesh.ShapeChecking *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ShapeChecking *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShapeChecking.
 
@@ -997,7 +997,7 @@ Gets or sets the ShapeChecking.
 
 <a id="Mesh.SharedNodes"></a>
 
-### *property* Mesh.SharedNodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.SharedNodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SharedNodes.
 
@@ -1005,7 +1005,7 @@ Gets the SharedNodes.
 
 <a id="Mesh.SheetLoopRemoval"></a>
 
-### *property* Mesh.SheetLoopRemoval *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.SheetLoopRemoval *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SheetLoopRemoval.
 
@@ -1013,7 +1013,7 @@ Gets or sets the SheetLoopRemoval.
 
 <a id="Mesh.ShellElements"></a>
 
-### *property* Mesh.ShellElements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ShellElements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ShellElements.
 
@@ -1021,7 +1021,7 @@ Gets the ShellElements.
 
 <a id="Mesh.ShowDetailedStatistics"></a>
 
-### *property* Mesh.ShowDetailedStatistics *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ShowDetailedStatistics *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowDetailedStatistics.
 
@@ -1029,7 +1029,7 @@ Gets or sets the ShowDetailedStatistics.
 
 <a id="Mesh.Smoothing"></a>
 
-### *property* Mesh.Smoothing *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Smoothing *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Smoothing.
 
@@ -1037,7 +1037,7 @@ Gets or sets the Smoothing.
 
 <a id="Mesh.SmoothingIterations"></a>
 
-### *property* Mesh.SmoothingIterations *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.SmoothingIterations *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SmoothingIterations.
 
@@ -1045,7 +1045,7 @@ Gets or sets the SmoothingIterations.
 
 <a id="Mesh.SolidElements"></a>
 
-### *property* Mesh.SolidElements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.SolidElements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolidElements.
 
@@ -1053,7 +1053,7 @@ Gets the SolidElements.
 
 <a id="Mesh.SolidShellElements"></a>
 
-### *property* Mesh.SolidShellElements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.SolidShellElements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolidShellElements.
 
@@ -1069,7 +1069,7 @@ Gets or sets the SolverPreference.
 
 <a id="Mesh.SpanAngleCenter"></a>
 
-### *property* Mesh.SpanAngleCenter *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.SpanAngleCenter *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpanAngleCenter.
 
@@ -1085,7 +1085,7 @@ Gets the StandardDeviation.
 
 <a id="Mesh.StraightSidedElements"></a>
 
-### *property* Mesh.StraightSidedElements *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.StraightSidedElements *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StraightSidedElements.
 
@@ -1101,7 +1101,7 @@ Gets or sets the TargetCharacteristicLength.
 
 <a id="Mesh.TargetExplicitAspectRatio"></a>
 
-### *property* Mesh.TargetExplicitAspectRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.TargetExplicitAspectRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetExplicitAspectRatio.
 
@@ -1109,7 +1109,7 @@ Gets or sets the TargetExplicitAspectRatio.
 
 <a id="Mesh.TargetQuality"></a>
 
-### *property* Mesh.TargetQuality *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.TargetQuality *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetQuality.
 
@@ -1125,7 +1125,7 @@ Gets or sets the TargetSkewness.
 
 <a id="Mesh.Tet10"></a>
 
-### *property* Mesh.Tet10 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Tet10 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Tet10.
 
@@ -1133,7 +1133,7 @@ Gets the Tet10.
 
 <a id="Mesh.Tet4"></a>
 
-### *property* Mesh.Tet4 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Tet4 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Tet4.
 
@@ -1141,7 +1141,7 @@ Gets the Tet4.
 
 <a id="Mesh.TopologyChecking"></a>
 
-### *property* Mesh.TopologyChecking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.TopologyChecking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopologyChecking.
 
@@ -1149,7 +1149,7 @@ Gets or sets the TopologyChecking.
 
 <a id="Mesh.TransitionOption"></a>
 
-### *property* Mesh.TransitionOption *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.TransitionOption *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransitionOption.
 
@@ -1157,7 +1157,7 @@ Gets or sets the TransitionOption.
 
 <a id="Mesh.TransitionRatio"></a>
 
-### *property* Mesh.TransitionRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.TransitionRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransitionRatio.
 
@@ -1165,7 +1165,7 @@ Gets or sets the TransitionRatio.
 
 <a id="Mesh.Tri3"></a>
 
-### *property* Mesh.Tri3 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Tri3 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Tri3.
 
@@ -1173,7 +1173,7 @@ Gets the Tri3.
 
 <a id="Mesh.Tri6"></a>
 
-### *property* Mesh.Tri6 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Tri6 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Tri6.
 
@@ -1181,7 +1181,7 @@ Gets the Tri6.
 
 <a id="Mesh.TriangleSurfaceMesher"></a>
 
-### *property* Mesh.TriangleSurfaceMesher *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.TriangleSurfaceMesher *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TriangleSurfaceMesher.
 
@@ -1189,7 +1189,7 @@ Gets or sets the TriangleSurfaceMesher.
 
 <a id="Mesh.UseAdaptiveSizing"></a>
 
-### *property* Mesh.UseAdaptiveSizing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.UseAdaptiveSizing *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseAdaptiveSizing.
 
@@ -1197,7 +1197,7 @@ Gets or sets the UseAdaptiveSizing.
 
 <a id="Mesh.UseAdvancedSizeFunction"></a>
 
-### *property* Mesh.UseAdvancedSizeFunction *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.UseAdvancedSizeFunction *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseAdvancedSizeFunction.
 
@@ -1205,7 +1205,7 @@ Gets or sets the UseAdvancedSizeFunction.
 
 <a id="Mesh.UseAutomaticInflation"></a>
 
-### *property* Mesh.UseAutomaticInflation *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.UseAutomaticInflation *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseAutomaticInflation.
 
@@ -1213,7 +1213,7 @@ Gets or sets the UseAutomaticInflation.
 
 <a id="Mesh.UseFixedSizeFunctionForSheets"></a>
 
-### *property* Mesh.UseFixedSizeFunctionForSheets *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.UseFixedSizeFunctionForSheets *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseFixedSizeFunctionForSheets.
 
@@ -1221,7 +1221,7 @@ Gets or sets the UseFixedSizeFunctionForSheets.
 
 <a id="Mesh.UsePostSmoothing"></a>
 
-### *property* Mesh.UsePostSmoothing *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.UsePostSmoothing *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UsePostSmoothing.
 
@@ -1229,7 +1229,7 @@ Gets or sets the UsePostSmoothing.
 
 <a id="Mesh.UseSheetThicknessForPinch"></a>
 
-### *property* Mesh.UseSheetThicknessForPinch *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.UseSheetThicknessForPinch *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseSheetThicknessForPinch.
 
@@ -1237,7 +1237,7 @@ Gets or sets the UseSheetThicknessForPinch.
 
 <a id="Mesh.ViewAdvancedOptions"></a>
 
-### *property* Mesh.ViewAdvancedOptions *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.ViewAdvancedOptions *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ViewAdvancedOptions.
 
@@ -1245,7 +1245,7 @@ Gets or sets the ViewAdvancedOptions.
 
 <a id="Mesh.VisibleProperties"></a>
 
-### *property* Mesh.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -1253,7 +1253,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Mesh.Wedge15"></a>
 
-### *property* Mesh.Wedge15 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Wedge15 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Wedge15.
 
@@ -1261,7 +1261,7 @@ Gets the Wedge15.
 
 <a id="Mesh.Wedge6"></a>
 
-### *property* Mesh.Wedge6 *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Mesh.Wedge6 *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Wedge6.
 
@@ -1401,7 +1401,7 @@ Creates a new GeometryFidelity
 
 <a id="Mesh.AddImage"></a>
 
-### Mesh.AddImage(filePath: System.String)
+### Mesh.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -1557,7 +1557,7 @@ Creates a new WeldControl
 
 <a id="Mesh.CleanPartOrBody"></a>
 
-### Mesh.CleanPartOrBody(dataModelObjects: System.Collections.IEnumerable)
+### Mesh.CleanPartOrBody(dataModelObjects: Iterable)
 
 Clear generated data for parts and/or bodies provided.
 
@@ -1581,7 +1581,7 @@ Copies all visible properties from this object to another.
 
 <a id="Mesh.CreateMQSolidSurfaceElementsNamedSelection"></a>
 
-### Mesh.CreateMQSolidSurfaceElementsNamedSelection(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), failCode: System.UInt32)
+### Mesh.CreateMQSolidSurfaceElementsNamedSelection(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), failCode: [int](https://docs.python.org/3/library/functions.html#int))
 
 Create Mesh Quality SolidSurface Element Name Selection
 
@@ -1589,7 +1589,7 @@ Create Mesh Quality SolidSurface Element Name Selection
 
 <a id="Mesh.CreateMQSurfaceElementsNamedSelection"></a>
 
-### Mesh.CreateMQSurfaceElementsNamedSelection(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), failCode: System.UInt32)
+### Mesh.CreateMQSurfaceElementsNamedSelection(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), failCode: [int](https://docs.python.org/3/library/functions.html#int))
 
 Create Mesh Quality Surface Element Named Selection
 
@@ -1597,7 +1597,7 @@ Create Mesh Quality Surface Element Named Selection
 
 <a id="Mesh.CreateMQVolumeElementsNamedSelection"></a>
 
-### Mesh.CreateMQVolumeElementsNamedSelection(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), failCode: System.UInt32)
+### Mesh.CreateMQVolumeElementsNamedSelection(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), failCode: [int](https://docs.python.org/3/library/functions.html#int))
 
 Create Mesh Quality Volume Element Name Selection
 
@@ -1605,7 +1605,7 @@ Create Mesh Quality Volume Element Name Selection
 
 <a id="Mesh.CreateParameter"></a>
 
-### Mesh.CreateParameter(propName: System.String)
+### Mesh.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -1653,7 +1653,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Mesh.ExportWeldDefinitionFile"></a>
 
-### Mesh.ExportWeldDefinitionFile(filePath: System.String)
+### Mesh.ExportWeldDefinitionFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Export the weld definition file to the specified location.
@@ -1681,7 +1681,7 @@ Get Active User Mesh Quality
 
 <a id="Mesh.GetChildren"></a>
 
-### Mesh.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Mesh.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1721,7 +1721,7 @@ GetMeshMetricOptions method.
 
 <a id="Mesh.GetParameter"></a>
 
-### Mesh.GetParameter(propName: System.String)
+### Mesh.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1993,7 +1993,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Mesh.IsMeshMetricVisible"></a>
 
-### Mesh.IsMeshMetricVisible(index: System.UInt32)
+### Mesh.IsMeshMetricVisible(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 IsMeshMetricVisible method.
 
@@ -2001,7 +2001,7 @@ IsMeshMetricVisible method.
 
 <a id="Mesh.LoadMQWorksheetFile"></a>
 
-### Mesh.LoadMQWorksheetFile(filePath: System.String)
+### Mesh.LoadMQWorksheetFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 LoadMQWorksheetFile method.
 
@@ -2041,7 +2041,7 @@ Preview model mesh on one weld control provided.
 
 <a id="Mesh.PreviewMeshOnWeldWorksheet"></a>
 
-### Mesh.PreviewMeshOnWeldWorksheet(dataModelObject: Ansys.Mechanical.DataModel.Interfaces.IDataModelObject, indices: System.Collections.Generic.IEnumerable[System.Int32])
+### Mesh.PreviewMeshOnWeldWorksheet(dataModelObject: Ansys.Mechanical.DataModel.Interfaces.IDataModelObject, indices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 PreviewMeshOnWeldWorksheet method.
 
@@ -2049,7 +2049,7 @@ PreviewMeshOnWeldWorksheet method.
 
 <a id="Mesh.PreviewMeshOnWelds"></a>
 
-### Mesh.PreviewMeshOnWelds(dataModelObjects: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Mesh.PreviewMeshOnWelds(dataModelObjects: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 PreviewMeshOnWelds method.
 
@@ -2073,7 +2073,7 @@ Preview Welds.
 
 <a id="Mesh.PropertyByAPIName"></a>
 
-### Mesh.PropertyByAPIName(name: System.String)
+### Mesh.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -2084,7 +2084,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Mesh.PropertyByName"></a>
 
-### Mesh.PropertyByName(name: System.String)
+### Mesh.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -2100,7 +2100,7 @@ Removes Mesh Layers when contour enabled in Mesh Quality Workhseet mode.
 
 <a id="Mesh.RemoveParameter"></a>
 
-### Mesh.RemoveParameter(propName: System.String)
+### Mesh.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -2108,7 +2108,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Mesh.SaveMQWorksheetFile"></a>
 
-### Mesh.SaveMQWorksheetFile(filePath: System.String)
+### Mesh.SaveMQWorksheetFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 SaveMQWorksheetFile method.
 
@@ -2116,7 +2116,7 @@ SaveMQWorksheetFile method.
 
 <a id="Mesh.SetActiveSolidSurfaceMeshQuality"></a>
 
-### Mesh.SetActiveSolidSurfaceMeshQuality(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), activeMetric: System.Double)
+### Mesh.SetActiveSolidSurfaceMeshQuality(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), activeMetric: [float](https://docs.python.org/3/library/functions.html#float))
 
 Set Active Mesh Quality
 
@@ -2124,7 +2124,7 @@ Set Active Mesh Quality
 
 <a id="Mesh.SetActiveSurfaceMeshQuality"></a>
 
-### Mesh.SetActiveSurfaceMeshQuality(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), activeMetric: System.Double)
+### Mesh.SetActiveSurfaceMeshQuality(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), activeMetric: [float](https://docs.python.org/3/library/functions.html#float))
 
 Set Active Mesh Quality
 
@@ -2132,7 +2132,7 @@ Set Active Mesh Quality
 
 <a id="Mesh.SetActiveVolumeMeshQuality"></a>
 
-### Mesh.SetActiveVolumeMeshQuality(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), activeMetric: System.Double)
+### Mesh.SetActiveVolumeMeshQuality(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), activeMetric: [float](https://docs.python.org/3/library/functions.html#float))
 
 Set Active Mesh Quality
 
@@ -2164,7 +2164,7 @@ SetSolidSurfaceMeshMetricLimits method.
 
 <a id="Mesh.SetSolidSurfaceMeshQualityErrorLimit"></a>
 
-### Mesh.SetSolidSurfaceMeshQualityErrorLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), errorLevel: System.Double)
+### Mesh.SetSolidSurfaceMeshQualityErrorLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), errorLevel: [float](https://docs.python.org/3/library/functions.html#float))
 
 Set Mesh Quality Error Limit
 
@@ -2172,7 +2172,7 @@ Set Mesh Quality Error Limit
 
 <a id="Mesh.SetSolidSurfaceMeshQualityWarningLimit"></a>
 
-### Mesh.SetSolidSurfaceMeshQualityWarningLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), warningLevel: System.Double)
+### Mesh.SetSolidSurfaceMeshQualityWarningLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), warningLevel: [float](https://docs.python.org/3/library/functions.html#float))
 
 Set Mesh Quality Warning Limit
 
@@ -2188,7 +2188,7 @@ SetSurfaceMeshMetricLimits method.
 
 <a id="Mesh.SetSurfaceMeshQualityErrorLimit"></a>
 
-### Mesh.SetSurfaceMeshQualityErrorLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), errorLevel: System.Double)
+### Mesh.SetSurfaceMeshQualityErrorLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), errorLevel: [float](https://docs.python.org/3/library/functions.html#float))
 
 Set Mesh Quality Error Level
 
@@ -2196,7 +2196,7 @@ Set Mesh Quality Error Level
 
 <a id="Mesh.SetSurfaceMeshQualityWarningLimit"></a>
 
-### Mesh.SetSurfaceMeshQualityWarningLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), warningLevel: System.Double)
+### Mesh.SetSurfaceMeshQualityWarningLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), warningLevel: [float](https://docs.python.org/3/library/functions.html#float))
 
 Set Mesh Quality Warning Limit
 
@@ -2204,7 +2204,7 @@ Set Mesh Quality Warning Limit
 
 <a id="Mesh.SetVolumeMeshQualityErrorLimit"></a>
 
-### Mesh.SetVolumeMeshQualityErrorLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), errorLevel: System.Double)
+### Mesh.SetVolumeMeshQualityErrorLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), errorLevel: [float](https://docs.python.org/3/library/functions.html#float))
 
 Set Mesh Quality Error Limit
 
@@ -2212,7 +2212,7 @@ Set Mesh Quality Error Limit
 
 <a id="Mesh.SetVolumeMeshQualityWarningLimit"></a>
 
-### Mesh.SetVolumeMeshQualityWarningLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), warningLevel: System.Double)
+### Mesh.SetVolumeMeshQualityWarningLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType), warningLevel: [float](https://docs.python.org/3/library/functions.html#float))
 
 Set Mesh Quality Warning Limit
 

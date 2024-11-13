@@ -17,7 +17,7 @@ Specifies the ContactFaceEdgePriority.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------- |
 | [`EdgeOverFace`](#ContactFaceEdgePriority.EdgeOverFace) |
 | [`FaceOverEdge`](#ContactFaceEdgePriority.FaceOverEdge) |
 | [`IncludeAll`](#ContactFaceEdgePriority.IncludeAll) |

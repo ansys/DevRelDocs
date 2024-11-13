@@ -64,7 +64,7 @@ Defines a LayeredSection.
 
 <a id="LayeredSection.Children"></a>
 
-### *property* LayeredSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -72,7 +72,7 @@ Gets the list of children.
 
 <a id="LayeredSection.Comments"></a>
 
-### *property* LayeredSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -80,7 +80,7 @@ Gets the list of associated comments.
 
 <a id="LayeredSection.CoordinateSystem"></a>
 
-### *property* LayeredSection.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 Accepts/Returns None for Body Coordinate System
@@ -97,7 +97,7 @@ Gets the current DataModelObject’s category.
 
 <a id="LayeredSection.Figures"></a>
 
-### *property* LayeredSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -105,7 +105,7 @@ Gets the list of associated figures.
 
 <a id="LayeredSection.Images"></a>
 
-### *property* LayeredSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -121,7 +121,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LayeredSection.LayerToDisplay"></a>
 
-### *property* LayeredSection.LayerToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.LayerToDisplay *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LayerToDisplay.
 
@@ -153,7 +153,7 @@ Gets or sets the Location.
 
 <a id="LayeredSection.NonlinearEffects"></a>
 
-### *property* LayeredSection.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.NonlinearEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonlinearEffects.
 
@@ -169,7 +169,7 @@ Gets or sets the OffsetType.
 
 <a id="LayeredSection.Properties"></a>
 
-### *property* LayeredSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -177,7 +177,7 @@ Gets the list of properties for this object.
 
 <a id="LayeredSection.Suppressed"></a>
 
-### *property* LayeredSection.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -185,7 +185,7 @@ Gets or sets the Suppressed.
 
 <a id="LayeredSection.ThermalStrainEffects"></a>
 
-### *property* LayeredSection.ThermalStrainEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.ThermalStrainEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrainEffects.
 
@@ -209,7 +209,7 @@ Gets the TotalThickness.
 
 <a id="LayeredSection.VisibleProperties"></a>
 
-### *property* LayeredSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -245,7 +245,7 @@ Creates a new child Figure.
 
 <a id="LayeredSection.AddImage"></a>
 
-### LayeredSection.AddImage(filePath: System.String)
+### LayeredSection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -265,7 +265,7 @@ Copies all visible properties from this object to another.
 
 <a id="LayeredSection.CreateParameter"></a>
 
-### LayeredSection.CreateParameter(propName: System.String)
+### LayeredSection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -289,7 +289,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="LayeredSection.GetChildren"></a>
 
-### LayeredSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LayeredSection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -297,7 +297,7 @@ Gets the list of children, filtered by type.
 
 <a id="LayeredSection.GetParameter"></a>
 
-### LayeredSection.GetParameter(propName: System.String)
+### LayeredSection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -321,7 +321,7 @@ Run the GroupSimilarObjects action.
 
 <a id="LayeredSection.PropertyByAPIName"></a>
 
-### LayeredSection.PropertyByAPIName(name: System.String)
+### LayeredSection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -332,7 +332,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LayeredSection.PropertyByName"></a>
 
-### LayeredSection.PropertyByName(name: System.String)
+### LayeredSection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -340,7 +340,7 @@ Get a property by its unique name.
 
 <a id="LayeredSection.RemoveParameter"></a>
 
-### LayeredSection.RemoveParameter(propName: System.String)
+### LayeredSection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

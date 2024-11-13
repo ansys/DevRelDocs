@@ -17,7 +17,7 @@ Defines a AMBondConnection.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AMBondConnection.Activate)                                                     | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#AMBondConnection.AddCommandSnippet)                                   | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#AMBondConnection.AddComment)                                                 | Creates a new child Comment.                                                      |
@@ -41,7 +41,7 @@ Defines a AMBondConnection.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#AMBondConnection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#AMBondConnection.Comments)                               | Gets the list of associated comments.                         |
 | [`ContactBodies`](#AMBondConnection.ContactBodies)                     | Gets the ContactBodies.                                       |
@@ -64,7 +64,7 @@ Defines a AMBondConnection.
 
 <a id="AMBondConnection.Children"></a>
 
-### *property* AMBondConnection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -72,7 +72,7 @@ Gets the list of children.
 
 <a id="AMBondConnection.Comments"></a>
 
-### *property* AMBondConnection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -80,7 +80,7 @@ Gets the list of associated comments.
 
 <a id="AMBondConnection.ContactBodies"></a>
 
-### *property* AMBondConnection.ContactBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.ContactBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ContactBodies.
 
@@ -88,7 +88,7 @@ Gets the ContactBodies.
 
 <a id="AMBondConnection.ContactType"></a>
 
-### *property* AMBondConnection.ContactType *: [Ansys.Mechanical.DataModel.Enums.ContactType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.ContactType *: [Ansys.Mechanical.DataModel.Enums.ContactType](../../../../Mechanical/DataModel/Enums/ContactType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactType.
 
@@ -96,7 +96,7 @@ Gets or sets the ContactType.
 
 <a id="AMBondConnection.DataModelObjectCategory"></a>
 
-### *property* AMBondConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -104,7 +104,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AMBondConnection.Figures"></a>
 
-### *property* AMBondConnection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -112,7 +112,7 @@ Gets the list of associated figures.
 
 <a id="AMBondConnection.Images"></a>
 
-### *property* AMBondConnection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -128,7 +128,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AMBondConnection.Properties"></a>
 
-### *property* AMBondConnection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -136,7 +136,7 @@ Gets the list of properties for this object.
 
 <a id="AMBondConnection.ReadOnly"></a>
 
-### *property* AMBondConnection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -152,7 +152,7 @@ Gets or sets the SourceLocation.
 
 <a id="AMBondConnection.Suppressed"></a>
 
-### *property* AMBondConnection.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -160,7 +160,7 @@ Gets or sets the Suppressed.
 
 <a id="AMBondConnection.TargetBodies"></a>
 
-### *property* AMBondConnection.TargetBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.TargetBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TargetBodies.
 
@@ -176,7 +176,7 @@ Gets or sets the TargetLocation.
 
 <a id="AMBondConnection.VisibleProperties"></a>
 
-### *property* AMBondConnection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBondConnection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -220,7 +220,7 @@ Creates a new child Figure.
 
 <a id="AMBondConnection.AddImage"></a>
 
-### AMBondConnection.AddImage(filePath: System.String)
+### AMBondConnection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -240,7 +240,7 @@ Copies all visible properties from this object to another.
 
 <a id="AMBondConnection.CreateParameter"></a>
 
-### AMBondConnection.CreateParameter(propName: System.String)
+### AMBondConnection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -272,7 +272,7 @@ Run the FlipContactTarget action.
 
 <a id="AMBondConnection.GetChildren"></a>
 
-### AMBondConnection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AMBondConnection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -280,7 +280,7 @@ Gets the list of children, filtered by type.
 
 <a id="AMBondConnection.GetParameter"></a>
 
-### AMBondConnection.GetParameter(propName: System.String)
+### AMBondConnection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -304,7 +304,7 @@ Run the GroupSimilarObjects action.
 
 <a id="AMBondConnection.PropertyByAPIName"></a>
 
-### AMBondConnection.PropertyByAPIName(name: System.String)
+### AMBondConnection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -315,7 +315,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AMBondConnection.PropertyByName"></a>
 
-### AMBondConnection.PropertyByName(name: System.String)
+### AMBondConnection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -323,7 +323,7 @@ Get a property by its unique name.
 
 <a id="AMBondConnection.RemoveParameter"></a>
 
-### AMBondConnection.RemoveParameter(propName: System.String)
+### AMBondConnection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

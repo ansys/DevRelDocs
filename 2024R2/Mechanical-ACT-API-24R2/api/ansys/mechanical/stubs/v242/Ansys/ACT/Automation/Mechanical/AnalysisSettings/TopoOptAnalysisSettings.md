@@ -88,7 +88,7 @@ Gets or sets the Algorithm.
 
 <a id="TopoOptAnalysisSettings.Children"></a>
 
-### *property* TopoOptAnalysisSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -96,7 +96,7 @@ Gets the list of children.
 
 <a id="TopoOptAnalysisSettings.Comments"></a>
 
-### *property* TopoOptAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -104,7 +104,7 @@ Gets the list of associated comments.
 
 <a id="TopoOptAnalysisSettings.ConvergenceAccuracy"></a>
 
-### *property* TopoOptAnalysisSettings.ConvergenceAccuracy *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.ConvergenceAccuracy *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConvergenceAccuracy.
 
@@ -120,7 +120,7 @@ Gets the current DataModelObject’s category.
 
 <a id="TopoOptAnalysisSettings.DeleteUnneededFiles"></a>
 
-### *property* TopoOptAnalysisSettings.DeleteUnneededFiles *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.DeleteUnneededFiles *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeleteUnneededFiles.
 
@@ -144,7 +144,7 @@ Gets or sets the ExportDesignPropertiesFileFormat.
 
 <a id="TopoOptAnalysisSettings.ExportKnockdownFilePath"></a>
 
-### *property* TopoOptAnalysisSettings.ExportKnockdownFilePath *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.ExportKnockdownFilePath *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExportKnockdownFilePath.
 
@@ -152,7 +152,7 @@ Gets or sets the ExportKnockdownFilePath.
 
 <a id="TopoOptAnalysisSettings.Figures"></a>
 
-### *property* TopoOptAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -184,7 +184,7 @@ Graph property.
 
 <a id="TopoOptAnalysisSettings.Images"></a>
 
-### *property* TopoOptAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -200,7 +200,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TopoOptAnalysisSettings.MaxNumOfIntermediateFiles"></a>
 
-### *property* TopoOptAnalysisSettings.MaxNumOfIntermediateFiles *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.MaxNumOfIntermediateFiles *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaxNumOfIntermediateFiles.
 
@@ -208,7 +208,7 @@ Gets or sets the MaxNumOfIntermediateFiles.
 
 <a id="TopoOptAnalysisSettings.MaximumNumberOfIterations"></a>
 
-### *property* TopoOptAnalysisSettings.MaximumNumberOfIterations *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.MaximumNumberOfIterations *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumNumberOfIterations.
 
@@ -216,7 +216,7 @@ Gets or sets the MaximumNumberOfIterations.
 
 <a id="TopoOptAnalysisSettings.MinimumNormalizedDensity"></a>
 
-### *property* TopoOptAnalysisSettings.MinimumNormalizedDensity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.MinimumNormalizedDensity *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumNormalizedDensity.
 
@@ -240,7 +240,7 @@ Gets or sets the OptimizationOutputLog.
 
 <a id="TopoOptAnalysisSettings.PenaltyFactor"></a>
 
-### *property* TopoOptAnalysisSettings.PenaltyFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.PenaltyFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PenaltyFactor.
 
@@ -248,7 +248,7 @@ Gets or sets the PenaltyFactor.
 
 <a id="TopoOptAnalysisSettings.Properties"></a>
 
-### *property* TopoOptAnalysisSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -280,7 +280,7 @@ Gets or sets the RegionOfMinMemberSize.
 
 <a id="TopoOptAnalysisSettings.SaveMAPDLDB"></a>
 
-### *property* TopoOptAnalysisSettings.SaveMAPDLDB *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.SaveMAPDLDB *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveMAPDLDB.
 
@@ -288,7 +288,7 @@ Gets or sets the SaveMAPDLDB.
 
 <a id="TopoOptAnalysisSettings.ScratchSolverFilesDirectory"></a>
 
-### *property* TopoOptAnalysisSettings.ScratchSolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.ScratchSolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScratchSolverFilesDirectory.
 
@@ -296,7 +296,7 @@ Gets the ScratchSolverFilesDirectory.
 
 <a id="TopoOptAnalysisSettings.SolverFilesDirectory"></a>
 
-### *property* TopoOptAnalysisSettings.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.SolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverFilesDirectory.
 
@@ -336,7 +336,7 @@ Gets or sets the StoreResultsAt.
 
 <a id="TopoOptAnalysisSettings.StoreResultsAtValue"></a>
 
-### *property* TopoOptAnalysisSettings.StoreResultsAtValue *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.StoreResultsAtValue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreResultsAtValue.
 
@@ -344,7 +344,7 @@ Gets or sets the StoreResultsAtValue.
 
 <a id="TopoOptAnalysisSettings.TopoOptInitialDensity"></a>
 
-### *property* TopoOptAnalysisSettings.TopoOptInitialDensity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.TopoOptInitialDensity *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopoOptInitialDensity.
 
@@ -352,7 +352,7 @@ Gets or sets the TopoOptInitialDensity.
 
 <a id="TopoOptAnalysisSettings.VisibleProperties"></a>
 
-### *property* TopoOptAnalysisSettings.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -388,7 +388,7 @@ Creates a new child Figure.
 
 <a id="TopoOptAnalysisSettings.AddImage"></a>
 
-### TopoOptAnalysisSettings.AddImage(filePath: System.String)
+### TopoOptAnalysisSettings.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -408,7 +408,7 @@ Copies all visible properties from this object to another.
 
 <a id="TopoOptAnalysisSettings.CreateParameter"></a>
 
-### TopoOptAnalysisSettings.CreateParameter(propName: System.String)
+### TopoOptAnalysisSettings.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -432,7 +432,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="TopoOptAnalysisSettings.GetChildren"></a>
 
-### TopoOptAnalysisSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TopoOptAnalysisSettings.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -440,7 +440,7 @@ Gets the list of children, filtered by type.
 
 <a id="TopoOptAnalysisSettings.GetParameter"></a>
 
-### TopoOptAnalysisSettings.GetParameter(propName: System.String)
+### TopoOptAnalysisSettings.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -464,7 +464,7 @@ Run the GroupSimilarObjects action.
 
 <a id="TopoOptAnalysisSettings.PropertyByAPIName"></a>
 
-### TopoOptAnalysisSettings.PropertyByAPIName(name: System.String)
+### TopoOptAnalysisSettings.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -475,7 +475,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TopoOptAnalysisSettings.PropertyByName"></a>
 
-### TopoOptAnalysisSettings.PropertyByName(name: System.String)
+### TopoOptAnalysisSettings.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -483,7 +483,7 @@ Get a property by its unique name.
 
 <a id="TopoOptAnalysisSettings.RemoveParameter"></a>
 
-### TopoOptAnalysisSettings.RemoveParameter(propName: System.String)
+### TopoOptAnalysisSettings.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

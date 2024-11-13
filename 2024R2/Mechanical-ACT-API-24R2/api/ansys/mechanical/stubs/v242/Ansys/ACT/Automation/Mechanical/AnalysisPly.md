@@ -67,7 +67,7 @@ Gets or sets the Angle.
 
 <a id="AnalysisPly.Children"></a>
 
-### *property* AnalysisPly.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="AnalysisPly.Comments"></a>
 
-### *property* AnalysisPly.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AnalysisPly.Figures"></a>
 
-### *property* AnalysisPly.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -99,7 +99,7 @@ Gets the list of associated figures.
 
 <a id="AnalysisPly.IDInSource"></a>
 
-### *property* AnalysisPly.IDInSource *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.IDInSource *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IDInSource.
 
@@ -107,7 +107,7 @@ Gets the IDInSource.
 
 <a id="AnalysisPly.Images"></a>
 
-### *property* AnalysisPly.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -123,7 +123,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AnalysisPly.Material"></a>
 
-### *property* AnalysisPly.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Material.
 
@@ -131,7 +131,7 @@ Gets the Material.
 
 <a id="AnalysisPly.NameInSource"></a>
 
-### *property* AnalysisPly.NameInSource *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.NameInSource *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NameInSource.
 
@@ -139,7 +139,7 @@ Gets the NameInSource.
 
 <a id="AnalysisPly.NumberOfElements"></a>
 
-### *property* AnalysisPly.NumberOfElements *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.NumberOfElements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberOfElements.
 
@@ -147,7 +147,7 @@ Gets the NumberOfElements.
 
 <a id="AnalysisPly.Properties"></a>
 
-### *property* AnalysisPly.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -155,7 +155,7 @@ Gets the list of properties for this object.
 
 <a id="AnalysisPly.ReadOnly"></a>
 
-### *property* AnalysisPly.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -171,7 +171,7 @@ Gets the Thickness.
 
 <a id="AnalysisPly.VisibleProperties"></a>
 
-### *property* AnalysisPly.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisPly.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -207,7 +207,7 @@ Creates a new child Figure.
 
 <a id="AnalysisPly.AddImage"></a>
 
-### AnalysisPly.AddImage(filePath: System.String)
+### AnalysisPly.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -227,7 +227,7 @@ Copies all visible properties from this object to another.
 
 <a id="AnalysisPly.CreateParameter"></a>
 
-### AnalysisPly.CreateParameter(propName: System.String)
+### AnalysisPly.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -243,7 +243,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AnalysisPly.GetChildren"></a>
 
-### AnalysisPly.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AnalysisPly.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -251,7 +251,7 @@ Gets the list of children, filtered by type.
 
 <a id="AnalysisPly.GetParameter"></a>
 
-### AnalysisPly.GetParameter(propName: System.String)
+### AnalysisPly.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -275,7 +275,7 @@ Run the GroupSimilarObjects action.
 
 <a id="AnalysisPly.PropertyByAPIName"></a>
 
-### AnalysisPly.PropertyByAPIName(name: System.String)
+### AnalysisPly.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -286,7 +286,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AnalysisPly.PropertyByName"></a>
 
-### AnalysisPly.PropertyByName(name: System.String)
+### AnalysisPly.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Get a property by its unique name.
 
 <a id="AnalysisPly.RemoveParameter"></a>
 
-### AnalysisPly.RemoveParameter(propName: System.String)
+### AnalysisPly.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

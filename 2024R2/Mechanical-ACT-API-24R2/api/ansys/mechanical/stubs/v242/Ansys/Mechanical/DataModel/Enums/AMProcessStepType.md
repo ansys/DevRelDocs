@@ -17,7 +17,7 @@ Specifies the AMProcessStepType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`BaseRemovalStep`](#AMProcessStepType.BaseRemovalStep) |
 | [`BaseUnboltStep`](#AMProcessStepType.BaseUnboltStep) |
 | [`BuildStep`](#AMProcessStepType.BuildStep) |

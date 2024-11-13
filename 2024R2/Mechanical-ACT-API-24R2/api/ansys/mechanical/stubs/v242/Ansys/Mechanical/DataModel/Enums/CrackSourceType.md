@@ -17,7 +17,7 @@ Specifies the CrackSourceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------- |
 | [`Crack`](#CrackSourceType.Crack) |
 | [`CrackInitiation`](#CrackSourceType.CrackInitiation) |
 | [`PreMeshed`](#CrackSourceType.PreMeshed) |

@@ -17,7 +17,7 @@ Specifies the AMScanPatternDefinition.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------- |
 | [`BuildFile`](#AMScanPatternDefinition.BuildFile) |
 | [`Generated`](#AMScanPatternDefinition.Generated) |
 

@@ -17,7 +17,7 @@ Specifies the ContactType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`Bonded`](#ContactType.Bonded) |
 | [`BondedInitial`](#ContactType.BondedInitial) |
 | [`ForcedFrictionalSliding`](#ContactType.ForcedFrictionalSliding) |

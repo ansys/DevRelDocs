@@ -17,7 +17,7 @@ Specifies the SpringPreloadType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`Length`](#SpringPreloadType.Length) |
 | [`Load`](#SpringPreloadType.Load) |
 | [`None_`](#SpringPreloadType.None_) |

@@ -17,7 +17,7 @@ Specifies the KinematicDOF.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`RotationX`](#KinematicDOF.RotationX) |
 | [`RotationY`](#KinematicDOF.RotationY) |
 | [`RotationZ`](#KinematicDOF.RotationZ) |

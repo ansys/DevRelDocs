@@ -17,7 +17,7 @@ Specifies the IncidentWaveLocation.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------ |
 | [`InsideTheModel`](#IncidentWaveLocation.InsideTheModel) |
 | [`OutsideTheModel`](#IncidentWaveLocation.OutsideTheModel) |
 

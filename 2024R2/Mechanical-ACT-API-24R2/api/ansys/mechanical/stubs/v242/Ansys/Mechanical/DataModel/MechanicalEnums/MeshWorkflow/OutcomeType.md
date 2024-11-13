@@ -17,7 +17,7 @@ This enum is referenced in the “Outcome” tree node and reflects the type of 
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`EnclosureExternalScope`](#OutcomeType.EnclosureExternalScope) |
 | [`EnclosureInternalScope`](#OutcomeType.EnclosureInternalScope) |
 | [`ExtrusionEndScope`](#OutcomeType.ExtrusionEndScope) |

@@ -17,7 +17,7 @@ Specifies the ChartModalType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------- |
 | [`Histogram`](#ChartModalType.Histogram) |
 | [`RootLocus`](#ChartModalType.RootLocus) |
 

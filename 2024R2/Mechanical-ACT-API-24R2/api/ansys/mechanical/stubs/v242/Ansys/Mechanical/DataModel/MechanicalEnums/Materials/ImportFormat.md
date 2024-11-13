@@ -17,7 +17,7 @@ Specifies how to interpret the material URI when importing.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`Automatic`](#ImportFormat.Automatic) |
 
 <a id="attribute-detail"></a>

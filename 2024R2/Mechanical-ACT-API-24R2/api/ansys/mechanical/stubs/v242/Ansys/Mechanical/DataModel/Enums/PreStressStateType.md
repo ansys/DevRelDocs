@@ -17,7 +17,7 @@ Specifies the PreStressStateType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`LoadStep`](#PreStressStateType.LoadStep) |
 | [`ProgramControlled`](#PreStressStateType.ProgramControlled) |
 | [`Time`](#PreStressStateType.Time) |

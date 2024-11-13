@@ -17,7 +17,7 @@ CompositeCriterionTerm class.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+|----------------------------------------------------------------|-----------------------------------------------------------------------------|
 | [`Coefficient`](#CompositeCriterionTerm.Coefficient)           | Returns coefficient of PrimaryCriterion in the CompositeCriterionTerm.      |
 | [`PrimaryCriterion`](#CompositeCriterionTerm.PrimaryCriterion) | Returns PrimaryCriterion Object associated with the CompositeCriterionTerm. |
 
@@ -27,7 +27,7 @@ CompositeCriterionTerm class.
 
 <a id="CompositeCriterionTerm.Coefficient"></a>
 
-### *property* CompositeCriterionTerm.Coefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterionTerm.Coefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns coefficient of PrimaryCriterion in the CompositeCriterionTerm.
 
@@ -35,7 +35,7 @@ Returns coefficient of PrimaryCriterion in the CompositeCriterionTerm.
 
 <a id="CompositeCriterionTerm.PrimaryCriterion"></a>
 
-### *property* CompositeCriterionTerm.PrimaryCriterion *: [Ansys.ACT.Automation.Mechanical.PrimaryCriterion](../../../../../v242/Ansys/ACT/Automation/Mechanical/PrimaryCriterion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PrimaryCriterion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterionTerm.PrimaryCriterion *: [Ansys.ACT.Automation.Mechanical.PrimaryCriterion](PrimaryCriterion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PrimaryCriterion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns PrimaryCriterion Object associated with the CompositeCriterionTerm.
 Returns None if no PrimaryCriterion Object is assigned to CompositeCriterionTerm.

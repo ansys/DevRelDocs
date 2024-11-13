@@ -62,7 +62,7 @@ Defines a BeamTool.
 
 <a id="BeamTool.Children"></a>
 
-### *property* BeamTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamTool.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets the list of children.
 
 <a id="BeamTool.Comments"></a>
 
-### *property* BeamTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamTool.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -78,7 +78,7 @@ Gets the list of associated comments.
 
 <a id="BeamTool.DataModelObjectCategory"></a>
 
-### *property* BeamTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -86,7 +86,7 @@ Gets the current DataModelObject’s category.
 
 <a id="BeamTool.Figures"></a>
 
-### *property* BeamTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamTool.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -94,7 +94,7 @@ Gets the list of associated figures.
 
 <a id="BeamTool.Images"></a>
 
-### *property* BeamTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamTool.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -118,7 +118,7 @@ Gets or sets the Location.
 
 <a id="BeamTool.Properties"></a>
 
-### *property* BeamTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamTool.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -126,7 +126,7 @@ Gets the list of properties for this object.
 
 <a id="BeamTool.VisibleProperties"></a>
 
-### *property* BeamTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamTool.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -178,7 +178,7 @@ Creates a new child Figure.
 
 <a id="BeamTool.AddImage"></a>
 
-### BeamTool.AddImage(filePath: System.String)
+### BeamTool.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -238,7 +238,7 @@ Copies all visible properties from this object to another.
 
 <a id="BeamTool.CreateParameter"></a>
 
-### BeamTool.CreateParameter(propName: System.String)
+### BeamTool.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -270,7 +270,7 @@ Run the EvaluateAllResults action.
 
 <a id="BeamTool.GetChildren"></a>
 
-### BeamTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### BeamTool.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -278,7 +278,7 @@ Gets the list of children, filtered by type.
 
 <a id="BeamTool.GetParameter"></a>
 
-### BeamTool.GetParameter(propName: System.String)
+### BeamTool.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -302,7 +302,7 @@ Run the GroupSimilarObjects action.
 
 <a id="BeamTool.PropertyByAPIName"></a>
 
-### BeamTool.PropertyByAPIName(name: System.String)
+### BeamTool.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -313,7 +313,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="BeamTool.PropertyByName"></a>
 
-### BeamTool.PropertyByName(name: System.String)
+### BeamTool.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -321,7 +321,7 @@ Get a property by its unique name.
 
 <a id="BeamTool.RemoveParameter"></a>
 
-### BeamTool.RemoveParameter(propName: System.String)
+### BeamTool.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

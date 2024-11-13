@@ -17,7 +17,7 @@ Defines a Path.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Path.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Path.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Path.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -39,7 +39,7 @@ Defines a Path.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Path.Children)                                   | Gets the list of children.                                    |
 | [`Comments`](#Path.Comments)                                   | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Path.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                  |
@@ -74,7 +74,7 @@ Defines a Path.
 
 <a id="Path.Children"></a>
 
-### *property* Path.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -82,7 +82,7 @@ Gets the list of children.
 
 <a id="Path.Comments"></a>
 
-### *property* Path.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -98,7 +98,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Path.DiscretizationPoints"></a>
 
-### *property* Path.DiscretizationPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.DiscretizationPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DiscretizationPoints.
 
@@ -106,7 +106,7 @@ Gets or sets the DiscretizationPoints.
 
 <a id="Path.EndCoordinateSystem"></a>
 
-### *property* Path.EndCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.EndCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EndCoordinateSystem.
 
@@ -138,7 +138,7 @@ Gets or sets the EndZCoordinate.
 
 <a id="Path.Figures"></a>
 
-### *property* Path.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -146,7 +146,7 @@ Gets the list of associated figures.
 
 <a id="Path.HasValidGeometrySelection"></a>
 
-### *property* Path.HasValidGeometrySelection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.HasValidGeometrySelection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the HasValidGeometrySelection.
 
@@ -154,7 +154,7 @@ Gets the HasValidGeometrySelection.
 
 <a id="Path.Images"></a>
 
-### *property* Path.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -178,7 +178,7 @@ Gets or sets the Location.
 
 <a id="Path.NumberOfSamplingPoints"></a>
 
-### *property* Path.NumberOfSamplingPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.NumberOfSamplingPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSamplingPoints.
 
@@ -186,7 +186,7 @@ Gets or sets the NumberOfSamplingPoints.
 
 <a id="Path.NumberOfSubpaths"></a>
 
-### *property* Path.NumberOfSubpaths *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.NumberOfSubpaths *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSubpaths.
 
@@ -202,7 +202,7 @@ Gets or sets the OffsetEdgeLocation.
 
 <a id="Path.PathCoordinateSystem"></a>
 
-### *property* Path.PathCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.PathCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PathCoordinateSystem.
 
@@ -218,7 +218,7 @@ Gets or sets the PathType.
 
 <a id="Path.Properties"></a>
 
-### *property* Path.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -226,7 +226,7 @@ Gets the list of properties for this object.
 
 <a id="Path.ShowMesh"></a>
 
-### *property* Path.ShowMesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.ShowMesh *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowMesh.
 
@@ -234,7 +234,7 @@ Gets or sets the ShowMesh.
 
 <a id="Path.SnapToMeshNodes"></a>
 
-### *property* Path.SnapToMeshNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.SnapToMeshNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SnapToMeshNodes.
 
@@ -242,7 +242,7 @@ Gets or sets the SnapToMeshNodes.
 
 <a id="Path.StartCoordinateSystem"></a>
 
-### *property* Path.StartCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.StartCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StartCoordinateSystem.
 
@@ -274,7 +274,7 @@ Gets or sets the StartZCoordinate.
 
 <a id="Path.Suppressed"></a>
 
-### *property* Path.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -282,7 +282,7 @@ Gets or sets the Suppressed.
 
 <a id="Path.VisibleProperties"></a>
 
-### *property* Path.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Path.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -318,7 +318,7 @@ Creates a new child Figure.
 
 <a id="Path.AddImage"></a>
 
-### Path.AddImage(filePath: System.String)
+### Path.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -338,7 +338,7 @@ Copies all visible properties from this object to another.
 
 <a id="Path.CreateParameter"></a>
 
-### Path.CreateParameter(propName: System.String)
+### Path.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -370,7 +370,7 @@ Flip Path Orientatation
 
 <a id="Path.GetChildren"></a>
 
-### Path.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Path.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -378,7 +378,7 @@ Gets the list of children, filtered by type.
 
 <a id="Path.GetParameter"></a>
 
-### Path.GetParameter(propName: System.String)
+### Path.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -402,7 +402,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Path.PropertyByAPIName"></a>
 
-### Path.PropertyByAPIName(name: System.String)
+### Path.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -413,7 +413,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Path.PropertyByName"></a>
 
-### Path.PropertyByName(name: System.String)
+### Path.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -421,7 +421,7 @@ Get a property by its unique name.
 
 <a id="Path.RemoveParameter"></a>
 
-### Path.RemoveParameter(propName: System.String)
+### Path.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

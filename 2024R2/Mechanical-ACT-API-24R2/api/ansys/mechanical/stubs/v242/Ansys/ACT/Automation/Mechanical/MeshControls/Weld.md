@@ -17,7 +17,7 @@ Defines a Weld.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Weld.Activate)                                                                                 | Activate the current object.                                                      |
 | [`ActivateAllWorksheetEntries`](#Weld.ActivateAllWorksheetEntries)                                           | set the ActivateAllWorksheetEntries                                               |
 | [`AddComment`](#Weld.AddComment)                                                                             | Creates a new child Comment.                                                      |
@@ -112,7 +112,7 @@ Defines a Weld.
 | [`SetWeldWorksheetThicknessExpression`](#Weld.SetWeldWorksheetThicknessExpression)                           | SetWeldWorksheetThicknessExpression method.                                       |
 | [`SetWeldWorksheetTopEntities`](#Weld.SetWeldWorksheetTopEntities)                                           | SetWeldWorksheetTopEntities method.                                               |
 | [`SetWeldWorksheetWeldAngle`](#Weld.SetWeldWorksheetWeldAngle)                                               | SetWeldWorksheetWeldAngle method.                                                 |
-| [`SetWeldWorksheetWeldBody`](#Weld.SetWeldWorksheetWeldBody)                                                                                                                            | SetWeldWorksheetWeldBody method.                                                  |
+| [`SetWeldWorksheetWeldBody`](#Weld.SetWeldWorksheetWeldBody)                                                 | SetWeldWorksheetWeldBody method.                                                  |
 | [`SetWeldWorksheetWeldCurve`](#Weld.SetWeldWorksheetWeldCurve)                                               | SetWeldWorksheetWeldCurve method.                                                 |
 | [`SetWeldWorksheetWeldHeightExpression`](#Weld.SetWeldWorksheetWeldHeightExpression)                         | SetWeldWorksheetWeldHeightExpression method.                                      |
 | [`SetWeldWorksheetWeldWidthExpression`](#Weld.SetWeldWorksheetWeldWidthExpression)                           | SetWeldWorksheetWeldWidthExpression method.                                       |
@@ -128,12 +128,12 @@ Defines a Weld.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+|------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`AdjustWeldHeight`](#Weld.AdjustWeldHeight)                                 | Gets or sets the WeldControlAdjustWeldHeight.                    |
 | [`AngledDirection`](#Weld.AngledDirection)                                   | Gets or sets the WeldControlAngledDirection.                     |
 | [`BottomEntities`](#Weld.BottomEntities)                                     | Gets or sets the Bottom Entities (Bodies / Faces ) or Extension. |
 | [`BottomEntitiesNamedSelection`](#Weld.BottomEntitiesNamedSelection)         | Gets or sets the BottomEntitiesNamedSelection.                   |
-| [`ButtWeldOption`](#Weld.ButtWeldOption)                                                                                                                | Gets or sets the ButtWeldOption.                                 |
+| [`ButtWeldOption`](#Weld.ButtWeldOption)                                     | Gets or sets the ButtWeldOption.                                 |
 | [`Children`](#Weld.Children)                                                 | Gets the list of children.                                       |
 | [`Comments`](#Weld.Comments)                                                 | Gets the list of associated comments.                            |
 | [`ConnectionTolerance`](#Weld.ConnectionTolerance)                           | Gets or sets the WeldControlConnectionTolerance                  |
@@ -161,7 +161,7 @@ Defines a Weld.
 | [`Images`](#Weld.Images)                                                     | Gets the list of associated images.                              |
 | [`InternalObject`](#Weld.InternalObject)                                     | Gets the internal object. For advanced usage only.               |
 | [`LapWeldAngleTolerance`](#Weld.LapWeldAngleTolerance)                       | Gets or sets the LapWeldAngleTolerance.                          |
-| [`LayerTransitionType`](#Weld.LayerTransitionType)                                                                                                      | Gets or sets the WeldControlHAZLayerTransitionType.              |
+| [`LayerTransitionType`](#Weld.LayerTransitionType)                           | Gets or sets the WeldControlHAZLayerTransitionType.              |
 | [`MaterialId`](#Weld.MaterialId)                                             | Gets or sets the WeldControlMaterialId.                          |
 | [`MaxThicknessFactor`](#Weld.MaxThicknessFactor)                             | Gets or sets the WeldControlMaxThicknessFactor                   |
 | [`MinThicknessFactor`](#Weld.MinThicknessFactor)                             | Gets or sets the WeldControlMinThicknessFactor                   |
@@ -252,7 +252,7 @@ Gets or sets the ButtWeldOption.
 
 <a id="Weld.Children"></a>
 
-### *property* Weld.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -260,7 +260,7 @@ Gets the list of children.
 
 <a id="Weld.Comments"></a>
 
-### *property* Weld.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -308,7 +308,7 @@ Gets or sets the WeldControlCreationCriteria.
 
 <a id="Weld.CrossSectionId"></a>
 
-### *property* Weld.CrossSectionId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.CrossSectionId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlCrossSectionId.
 
@@ -348,7 +348,7 @@ Gets or sets the WeldControlEdgeMeshSizeAssignment.
 
 <a id="Weld.EdgeMeshSizeExpression"></a>
 
-### *property* Weld.EdgeMeshSizeExpression *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.EdgeMeshSizeExpression *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlEdgeMeshSizeExpression Value.
 
@@ -364,7 +364,7 @@ Gets or sets the Edges.
 
 <a id="Weld.Figures"></a>
 
-### *property* Weld.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -404,7 +404,7 @@ Gets or sets HAZDistanceBottomPlate
 
 <a id="Weld.HAZDistanceExpressionBottomPlate"></a>
 
-### *property* Weld.HAZDistanceExpressionBottomPlate *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.HAZDistanceExpressionBottomPlate *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets HAZDistanceExpressionBottomPlate Value.
 
@@ -412,7 +412,7 @@ Gets or sets HAZDistanceExpressionBottomPlate Value.
 
 <a id="Weld.HAZDistanceExpressionTopPlate"></a>
 
-### *property* Weld.HAZDistanceExpressionTopPlate *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.HAZDistanceExpressionTopPlate *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlHAZDistanceExpression Value.
 
@@ -436,7 +436,7 @@ Gets or sets HAZDistanceTopPlate
 
 <a id="Weld.HAZGrowthRate"></a>
 
-### *property* Weld.HAZGrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.HAZGrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlHAZGrowthRate
 
@@ -444,7 +444,7 @@ Gets or sets the WeldControlHAZGrowthRate
 
 <a id="Weld.Images"></a>
 
-### *property* Weld.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -476,7 +476,7 @@ Gets or sets the WeldControlHAZLayerTransitionType.
 
 <a id="Weld.MaterialId"></a>
 
-### *property* Weld.MaterialId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.MaterialId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlMaterialId.
 
@@ -508,7 +508,7 @@ Gets or sets the WeldControlModeledAs.
 
 <a id="Weld.NameFilter"></a>
 
-### *property* Weld.NameFilter *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.NameFilter *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NameFilter.
 
@@ -516,7 +516,7 @@ Gets or sets the NameFilter.
 
 <a id="Weld.NumberOfLayers"></a>
 
-### *property* Weld.NumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.NumberOfLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets WeldControlNumberOfLayers
 
@@ -524,7 +524,7 @@ Gets or sets WeldControlNumberOfLayers
 
 <a id="Weld.NumberOfWelds"></a>
 
-### *property* Weld.NumberOfWelds *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.NumberOfWelds *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets WeldControlNumberOfLayers
 
@@ -548,7 +548,7 @@ Gets or sets the WeldControlOffsetLayerHeight
 
 <a id="Weld.Properties"></a>
 
-### *property* Weld.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -596,7 +596,7 @@ Gets or sets the WeldControlSource.
 
 <a id="Weld.Suppressed"></a>
 
-### *property* Weld.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -644,7 +644,7 @@ Gets or sets the WeldControlUseWorksheet.
 
 <a id="Weld.VisibleProperties"></a>
 
-### *property* Weld.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -676,7 +676,7 @@ Gets or sets the Weld Curves.
 
 <a id="Weld.WeldCurvesBody"></a>
 
-### *property* Weld.WeldCurvesBody *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldCurvesBody *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 WeldCurvesBody property.
 
@@ -684,7 +684,7 @@ WeldCurvesBody property.
 
 <a id="Weld.WeldDefinitionFileLocation"></a>
 
-### *property* Weld.WeldDefinitionFileLocation *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldDefinitionFileLocation *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldDefinitionFile Location.
 
@@ -700,7 +700,7 @@ Gets or sets the WeldEdgesNamedSelection.
 
 <a id="Weld.WeldElementRows"></a>
 
-### *property* Weld.WeldElementRows *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldElementRows *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlElementRows.
 
@@ -732,7 +732,7 @@ Gets or sets the WeldControlWeldHeightAssignment.
 
 <a id="Weld.WeldHeightExpression"></a>
 
-### *property* Weld.WeldHeightExpression *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldHeightExpression *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlWeldHeightExpression Value.
 
@@ -740,7 +740,7 @@ Gets or sets the WeldControlWeldHeightExpression Value.
 
 <a id="Weld.WeldIntersectionTag"></a>
 
-### *property* Weld.WeldIntersectionTag *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldIntersectionTag *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlIntersectionTag Value.
 
@@ -748,7 +748,7 @@ Gets or sets the WeldControlIntersectionTag Value.
 
 <a id="Weld.WeldIntersectionTolerance"></a>
 
-### *property* Weld.WeldIntersectionTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldIntersectionTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlIntersectionTolerance Value.
 
@@ -788,7 +788,7 @@ Gets or sets the WeldTargetShellFace.
 
 <a id="Weld.WeldThicknessExpression"></a>
 
-### *property* Weld.WeldThicknessExpression *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldThicknessExpression *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlThicknessExpression Value.
 
@@ -804,7 +804,7 @@ Gets or sets the WeldControlWeldWidthAssignment.
 
 <a id="Weld.WeldWidthExpression"></a>
 
-### *property* Weld.WeldWidthExpression *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Weld.WeldWidthExpression *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldControlWeldWidthExpression Value.
 
@@ -856,7 +856,7 @@ Creates a new child Figure.
 
 <a id="Weld.AddImage"></a>
 
-### Weld.AddImage(filePath: System.String)
+### Weld.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -868,7 +868,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <a id="Weld.AddWeldWorksheetScopeToSelection"></a>
 
-### Weld.AddWeldWorksheetScopeToSelection(index: System.Int32, subset: System.Int32)
+### Weld.AddWeldWorksheetScopeToSelection(index: [int](https://docs.python.org/3/library/functions.html#int), subset: [int](https://docs.python.org/3/library/functions.html#int))
 
 Create worksheet entry scope to selection
 
@@ -876,7 +876,7 @@ Create worksheet entry scope to selection
 
 <a id="Weld.AppendWeldControlIntersectionTag"></a>
 
-### Weld.AppendWeldControlIntersectionTag(val: System.String)
+### Weld.AppendWeldControlIntersectionTag(val: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 append the WeldControlIntersectionTag
 
@@ -884,7 +884,7 @@ append the WeldControlIntersectionTag
 
 <a id="Weld.AppendWeldWorksheetIntersectionTag"></a>
 
-### Weld.AppendWeldWorksheetIntersectionTag(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.String)
+### Weld.AppendWeldWorksheetIntersectionTag(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 AppendWeldWorksheetIntersectionTag method.
 
@@ -892,7 +892,7 @@ AppendWeldWorksheetIntersectionTag method.
 
 <a id="Weld.ClearAutoWeldIntersectionTag"></a>
 
-### Weld.ClearAutoWeldIntersectionTag(includeInactive: System.Boolean)
+### Weld.ClearAutoWeldIntersectionTag(includeInactive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Clear Auto Intersection Tags
 
@@ -908,7 +908,7 @@ clear the WeldControlIntersectionTag
 
 <a id="Weld.ClearWeldWorksheetIntersectionTag"></a>
 
-### Weld.ClearWeldWorksheetIntersectionTag(rowIndices: System.Collections.Generic.IEnumerable[System.Int32])
+### Weld.ClearWeldWorksheetIntersectionTag(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 ClearWeldWorksheetIntersectionTag method.
 
@@ -924,7 +924,7 @@ Copies all visible properties from this object to another.
 
 <a id="Weld.CreateParameter"></a>
 
-### Weld.CreateParameter(propName: System.String)
+### Weld.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -980,7 +980,7 @@ Auto detect Intersection Tags within specified tolerance
 
 <a id="Weld.GetChildren"></a>
 
-### Weld.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Weld.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -988,7 +988,7 @@ Gets the list of children, filtered by type.
 
 <a id="Weld.GetCrossSectionIds"></a>
 
-### Weld.GetCrossSectionIds(rowIndex: System.Int32)
+### Weld.GetCrossSectionIds(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get CrossSection Ids
 
@@ -996,7 +996,7 @@ get CrossSection Ids
 
 <a id="Weld.GetMaterialIds"></a>
 
-### Weld.GetMaterialIds(rowIndex: System.Int32)
+### Weld.GetMaterialIds(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get Material Ids
 
@@ -1004,7 +1004,7 @@ get Material Ids
 
 <a id="Weld.GetParameter"></a>
 
-### Weld.GetParameter(propName: System.String)
+### Weld.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1012,7 +1012,7 @@ Gets the parameter corresponding to the given property.
 
 <a id="Weld.GetWeldWorksheetAbsTol"></a>
 
-### Weld.GetWeldWorksheetAbsTol(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetAbsTol(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetAbsTol
 
@@ -1020,7 +1020,7 @@ get the WeldControlWorksheetAbsTol
 
 <a id="Weld.GetWeldWorksheetActive"></a>
 
-### Weld.GetWeldWorksheetActive(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetActive(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldWorksheetActive
 
@@ -1028,7 +1028,7 @@ get the WeldWorksheetActive
 
 <a id="Weld.GetWeldWorksheetBottomEntities"></a>
 
-### Weld.GetWeldWorksheetBottomEntities(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetBottomEntities(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetBottomEntities
 
@@ -1036,7 +1036,7 @@ get the WeldControlWorksheetBottomEntities
 
 <a id="Weld.GetWeldWorksheetEdgeMeshSize"></a>
 
-### Weld.GetWeldWorksheetEdgeMeshSize(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetEdgeMeshSize(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetEdgeMeshSize
 
@@ -1044,7 +1044,7 @@ get the WeldControlWorksheetEdgeMeshSize
 
 <a id="Weld.GetWeldWorksheetEdgeMeshSizeExpression"></a>
 
-### Weld.GetWeldWorksheetEdgeMeshSizeExpression(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetEdgeMeshSizeExpression(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetEdgeMeshSizeExpression
 
@@ -1052,7 +1052,7 @@ get the WeldControlWorksheetEdgeMeshSizeExpression
 
 <a id="Weld.GetWeldWorksheetEdges"></a>
 
-### Weld.GetWeldWorksheetEdges(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetEdges(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetEdges
 
@@ -1060,7 +1060,7 @@ get the WeldControlWorksheetEdges
 
 <a id="Weld.GetWeldWorksheetGenerateEndCaps"></a>
 
-### Weld.GetWeldWorksheetGenerateEndCaps(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetGenerateEndCaps(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetGenerateEndCaps
 
@@ -1068,7 +1068,7 @@ get the WeldControlWorksheetGenerateEndCaps
 
 <a id="Weld.GetWeldWorksheetHAZDistanceBottomPlate"></a>
 
-### Weld.GetWeldWorksheetHAZDistanceBottomPlate(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetHAZDistanceBottomPlate(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetHAZDistance
 
@@ -1076,7 +1076,7 @@ get the WeldControlWorksheetHAZDistance
 
 <a id="Weld.GetWeldWorksheetHAZDistanceExpressionBottomPlate"></a>
 
-### Weld.GetWeldWorksheetHAZDistanceExpressionBottomPlate(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetHAZDistanceExpressionBottomPlate(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get WorksheetHAZDistanceExpressionBottomPlate
 
@@ -1084,7 +1084,7 @@ get WorksheetHAZDistanceExpressionBottomPlate
 
 <a id="Weld.GetWeldWorksheetHAZDistanceExpressionTopPlate"></a>
 
-### Weld.GetWeldWorksheetHAZDistanceExpressionTopPlate(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetHAZDistanceExpressionTopPlate(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get WorksheetHAZDistanceExpressionTopPlate
 
@@ -1092,7 +1092,7 @@ get WorksheetHAZDistanceExpressionTopPlate
 
 <a id="Weld.GetWeldWorksheetHAZGrowthRate"></a>
 
-### Weld.GetWeldWorksheetHAZGrowthRate(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetHAZGrowthRate(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetHAZGrowthRate
 
@@ -1100,7 +1100,7 @@ get the WeldControlWorksheetHAZGrowthRate
 
 <a id="Weld.GetWeldWorksheetHeight"></a>
 
-### Weld.GetWeldWorksheetHeight(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetHeight(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetHeight
 
@@ -1108,7 +1108,7 @@ get the WeldControlWorksheetHeight
 
 <a id="Weld.GetWeldWorksheetIntersectionTag"></a>
 
-### Weld.GetWeldWorksheetIntersectionTag(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetIntersectionTag(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetIntersectionTag
 
@@ -1116,7 +1116,7 @@ get the WeldControlWorksheetIntersectionTag
 
 <a id="Weld.GetWeldWorksheetLapAngleTol"></a>
 
-### Weld.GetWeldWorksheetLapAngleTol(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetLapAngleTol(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetLapAngleTol
 
@@ -1124,7 +1124,7 @@ get the WeldControlWorksheetLapAngleTol
 
 <a id="Weld.GetWeldWorksheetLength"></a>
 
-### Weld.GetWeldWorksheetLength(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetLength(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetLength
 
@@ -1132,7 +1132,7 @@ get the WeldControlWorksheetLength
 
 <a id="Weld.GetWeldWorksheetMaxThicknessFactor"></a>
 
-### Weld.GetWeldWorksheetMaxThicknessFactor(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetMaxThicknessFactor(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetMaxThicknessFactor
 
@@ -1140,7 +1140,7 @@ get the WeldControlWorksheetMaxThicknessFactor
 
 <a id="Weld.GetWeldWorksheetMinThicknessFactor"></a>
 
-### Weld.GetWeldWorksheetMinThicknessFactor(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetMinThicknessFactor(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetMinThicknessFactor
 
@@ -1156,7 +1156,7 @@ Get Number of Errored rows
 
 <a id="Weld.GetWeldWorksheetNumLayers"></a>
 
-### Weld.GetWeldWorksheetNumLayers(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetNumLayers(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetNumLayers
 
@@ -1172,7 +1172,7 @@ Get Number of rows with warnings
 
 <a id="Weld.GetWeldWorksheetNumWelds"></a>
 
-### Weld.GetWeldWorksheetNumWelds(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetNumWelds(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetNumWelds
 
@@ -1180,7 +1180,7 @@ get the WeldControlWorksheetNumWelds
 
 <a id="Weld.GetWeldWorksheetOffset1"></a>
 
-### Weld.GetWeldWorksheetOffset1(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetOffset1(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetOffset1
 
@@ -1188,7 +1188,7 @@ get the WeldControlWorksheetOffset1
 
 <a id="Weld.GetWeldWorksheetOffset2"></a>
 
-### Weld.GetWeldWorksheetOffset2(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetOffset2(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetOffset2
 
@@ -1196,7 +1196,7 @@ get the WeldControlWorksheetOffset2
 
 <a id="Weld.GetWeldWorksheetPitch"></a>
 
-### Weld.GetWeldWorksheetPitch(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetPitch(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetPitch
 
@@ -1204,7 +1204,7 @@ get the WeldControlWorksheetPitch
 
 <a id="Weld.GetWeldWorksheetSharpAngle"></a>
 
-### Weld.GetWeldWorksheetSharpAngle(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetSharpAngle(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetSharpAngle
 
@@ -1212,7 +1212,7 @@ get the WeldControlWorksheetSharpAngle
 
 <a id="Weld.GetWeldWorksheetSmoothing"></a>
 
-### Weld.GetWeldWorksheetSmoothing(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetSmoothing(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetSmoothing option
 
@@ -1220,7 +1220,7 @@ get the WeldControlWorksheetSmoothing option
 
 <a id="Weld.GetWeldWorksheetThickness"></a>
 
-### Weld.GetWeldWorksheetThickness(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetThickness(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetThickness
 
@@ -1228,7 +1228,7 @@ get the WeldControlWorksheetThickness
 
 <a id="Weld.GetWeldWorksheetThicknessExpression"></a>
 
-### Weld.GetWeldWorksheetThicknessExpression(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetThicknessExpression(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetThicknessExpression
 
@@ -1236,7 +1236,7 @@ get the WeldControlWorksheetThicknessExpression
 
 <a id="Weld.GetWeldWorksheetTopEntities"></a>
 
-### Weld.GetWeldWorksheetTopEntities(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetTopEntities(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetTopEntities
 
@@ -1244,7 +1244,7 @@ get the WeldControlWorksheetTopEntities
 
 <a id="Weld.GetWeldWorksheetWeldAngle"></a>
 
-### Weld.GetWeldWorksheetWeldAngle(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetWeldAngle(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetWeldAngle
 
@@ -1252,7 +1252,7 @@ get the WeldControlWorksheetWeldAngle
 
 <a id="Weld.GetWeldWorksheetWeldCurve"></a>
 
-### Weld.GetWeldWorksheetWeldCurve(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetWeldCurve(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetWeldCurve
 
@@ -1260,7 +1260,7 @@ get the WeldControlWorksheetWeldCurve
 
 <a id="Weld.GetWeldWorksheetWeldHeightExpression"></a>
 
-### Weld.GetWeldWorksheetWeldHeightExpression(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetWeldHeightExpression(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetWeldHeight
 
@@ -1268,7 +1268,7 @@ get the WeldControlWorksheetWeldHeight
 
 <a id="Weld.GetWeldWorksheetWeldWidthExpression"></a>
 
-### Weld.GetWeldWorksheetWeldWidthExpression(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetWeldWidthExpression(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetWeldWidth
 
@@ -1276,7 +1276,7 @@ get the WeldControlWorksheetWeldWidth
 
 <a id="Weld.GetWeldWorksheetWidth"></a>
 
-### Weld.GetWeldWorksheetWidth(rowIndex: System.Int32)
+### Weld.GetWeldWorksheetWidth(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 get the WeldControlWorksheetWidth
 
@@ -1300,7 +1300,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Weld.PreviewMeshOnWeldWorksheet"></a>
 
-### Weld.PreviewMeshOnWeldWorksheet(rowIndices: System.Collections.Generic.IEnumerable[System.Int32])
+### Weld.PreviewMeshOnWeldWorksheet(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 PreviewMeshOnWeldWorksheet method.
 
@@ -1308,7 +1308,7 @@ PreviewMeshOnWeldWorksheet method.
 
 <a id="Weld.PromoteToWeldControl"></a>
 
-### Weld.PromoteToWeldControl(indices: System.Collections.Generic.IEnumerable[System.Int32])
+### Weld.PromoteToWeldControl(indices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 PromoteToWeldControl method.
 
@@ -1316,7 +1316,7 @@ PromoteToWeldControl method.
 
 <a id="Weld.PropertyByAPIName"></a>
 
-### Weld.PropertyByAPIName(name: System.String)
+### Weld.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1327,7 +1327,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Weld.PropertyByName"></a>
 
-### Weld.PropertyByName(name: System.String)
+### Weld.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1335,7 +1335,7 @@ Get a property by its unique name.
 
 <a id="Weld.RemoveParameter"></a>
 
-### Weld.RemoveParameter(propName: System.String)
+### Weld.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -1351,7 +1351,7 @@ Run the RenameBasedOnDefinition action.
 
 <a id="Weld.SetWeldWorksheetAbsTol"></a>
 
-### Weld.SetWeldWorksheetAbsTol(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetAbsTol(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetAbsTol method.
 
@@ -1359,7 +1359,7 @@ SetWeldWorksheetAbsTol method.
 
 <a id="Weld.SetWeldWorksheetActive"></a>
 
-### Weld.SetWeldWorksheetActive(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Boolean)
+### Weld.SetWeldWorksheetActive(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetWeldWorksheetActive method.
 
@@ -1367,7 +1367,7 @@ SetWeldWorksheetActive method.
 
 <a id="Weld.SetWeldWorksheetBottomEntities"></a>
 
-### Weld.SetWeldWorksheetBottomEntities(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.UInt32)
+### Weld.SetWeldWorksheetBottomEntities(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [int](https://docs.python.org/3/library/functions.html#int))
 
 SetWeldWorksheetBottomEntities method.
 
@@ -1375,7 +1375,7 @@ SetWeldWorksheetBottomEntities method.
 
 <a id="Weld.SetWeldWorksheetEdgeMeshSize"></a>
 
-### Weld.SetWeldWorksheetEdgeMeshSize(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetEdgeMeshSize(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetEdgeMeshSize method.
 
@@ -1383,7 +1383,7 @@ SetWeldWorksheetEdgeMeshSize method.
 
 <a id="Weld.SetWeldWorksheetEdgeMeshSizeExpression"></a>
 
-### Weld.SetWeldWorksheetEdgeMeshSizeExpression(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.String)
+### Weld.SetWeldWorksheetEdgeMeshSizeExpression(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 SetWeldWorksheetEdgeMeshSizeExpression method.
 
@@ -1391,7 +1391,7 @@ SetWeldWorksheetEdgeMeshSizeExpression method.
 
 <a id="Weld.SetWeldWorksheetEdges"></a>
 
-### Weld.SetWeldWorksheetEdges(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.UInt32)
+### Weld.SetWeldWorksheetEdges(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [int](https://docs.python.org/3/library/functions.html#int))
 
 SetWeldWorksheetEdges method.
 
@@ -1399,7 +1399,7 @@ SetWeldWorksheetEdges method.
 
 <a id="Weld.SetWeldWorksheetGenerateEndCaps"></a>
 
-### Weld.SetWeldWorksheetGenerateEndCaps(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Boolean)
+### Weld.SetWeldWorksheetGenerateEndCaps(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetWeldWorksheetGenerateEndCaps method.
 
@@ -1407,7 +1407,7 @@ SetWeldWorksheetGenerateEndCaps method.
 
 <a id="Weld.SetWeldWorksheetHAZDistanceBottomPlate"></a>
 
-### Weld.SetWeldWorksheetHAZDistanceBottomPlate(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetHAZDistanceBottomPlate(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetHAZDistanceBottomPlate method.
 
@@ -1415,7 +1415,7 @@ SetWeldWorksheetHAZDistanceBottomPlate method.
 
 <a id="Weld.SetWeldWorksheetHAZDistanceExpressionBottomPlate"></a>
 
-### Weld.SetWeldWorksheetHAZDistanceExpressionBottomPlate(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.String)
+### Weld.SetWeldWorksheetHAZDistanceExpressionBottomPlate(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 SetWeldWorksheetHAZDistanceExpressionBottomPlate method.
 
@@ -1423,7 +1423,7 @@ SetWeldWorksheetHAZDistanceExpressionBottomPlate method.
 
 <a id="Weld.SetWeldWorksheetHAZDistanceExpressionTopPlate"></a>
 
-### Weld.SetWeldWorksheetHAZDistanceExpressionTopPlate(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.String)
+### Weld.SetWeldWorksheetHAZDistanceExpressionTopPlate(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 SetWeldWorksheetHAZDistanceExpressionTopPlate method.
 
@@ -1431,7 +1431,7 @@ SetWeldWorksheetHAZDistanceExpressionTopPlate method.
 
 <a id="Weld.SetWeldWorksheetHAZDistanceTopPlate"></a>
 
-### Weld.SetWeldWorksheetHAZDistanceTopPlate(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetHAZDistanceTopPlate(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetHAZDistanceTopPlate method.
 
@@ -1439,7 +1439,7 @@ SetWeldWorksheetHAZDistanceTopPlate method.
 
 <a id="Weld.SetWeldWorksheetHAZGrowthRate"></a>
 
-### Weld.SetWeldWorksheetHAZGrowthRate(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetHAZGrowthRate(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetHAZGrowthRate method.
 
@@ -1447,7 +1447,7 @@ SetWeldWorksheetHAZGrowthRate method.
 
 <a id="Weld.SetWeldWorksheetHeight"></a>
 
-### Weld.SetWeldWorksheetHeight(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetHeight(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetHeight method.
 
@@ -1455,7 +1455,7 @@ SetWeldWorksheetHeight method.
 
 <a id="Weld.SetWeldWorksheetIntersectionTag"></a>
 
-### Weld.SetWeldWorksheetIntersectionTag(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.String)
+### Weld.SetWeldWorksheetIntersectionTag(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 SetWeldWorksheetIntersectionTag method.
 
@@ -1463,7 +1463,7 @@ SetWeldWorksheetIntersectionTag method.
 
 <a id="Weld.SetWeldWorksheetLapAngleTol"></a>
 
-### Weld.SetWeldWorksheetLapAngleTol(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetLapAngleTol(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetLapAngleTol method.
 
@@ -1471,7 +1471,7 @@ SetWeldWorksheetLapAngleTol method.
 
 <a id="Weld.SetWeldWorksheetLength"></a>
 
-### Weld.SetWeldWorksheetLength(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetLength(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetLength method.
 
@@ -1479,7 +1479,7 @@ SetWeldWorksheetLength method.
 
 <a id="Weld.SetWeldWorksheetMaxThicknessFactor"></a>
 
-### Weld.SetWeldWorksheetMaxThicknessFactor(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetMaxThicknessFactor(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetMaxThicknessFactor method.
 
@@ -1487,7 +1487,7 @@ SetWeldWorksheetMaxThicknessFactor method.
 
 <a id="Weld.SetWeldWorksheetMinThicknessFactor"></a>
 
-### Weld.SetWeldWorksheetMinThicknessFactor(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetMinThicknessFactor(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetMinThicknessFactor method.
 
@@ -1495,7 +1495,7 @@ SetWeldWorksheetMinThicknessFactor method.
 
 <a id="Weld.SetWeldWorksheetNumLayers"></a>
 
-### Weld.SetWeldWorksheetNumLayers(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Int32)
+### Weld.SetWeldWorksheetNumLayers(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [int](https://docs.python.org/3/library/functions.html#int))
 
 SetWeldWorksheetNumLayers method.
 
@@ -1503,7 +1503,7 @@ SetWeldWorksheetNumLayers method.
 
 <a id="Weld.SetWeldWorksheetNumWelds"></a>
 
-### Weld.SetWeldWorksheetNumWelds(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Int32)
+### Weld.SetWeldWorksheetNumWelds(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [int](https://docs.python.org/3/library/functions.html#int))
 
 SetWeldWorksheetNumWelds method.
 
@@ -1511,7 +1511,7 @@ SetWeldWorksheetNumWelds method.
 
 <a id="Weld.SetWeldWorksheetOffset1"></a>
 
-### Weld.SetWeldWorksheetOffset1(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetOffset1(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetOffset1 method.
 
@@ -1519,7 +1519,7 @@ SetWeldWorksheetOffset1 method.
 
 <a id="Weld.SetWeldWorksheetOffset2"></a>
 
-### Weld.SetWeldWorksheetOffset2(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetOffset2(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetOffset2 method.
 
@@ -1527,7 +1527,7 @@ SetWeldWorksheetOffset2 method.
 
 <a id="Weld.SetWeldWorksheetPitch"></a>
 
-### Weld.SetWeldWorksheetPitch(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetPitch(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetPitch method.
 
@@ -1535,7 +1535,7 @@ SetWeldWorksheetPitch method.
 
 <a id="Weld.SetWeldWorksheetSharpAngle"></a>
 
-### Weld.SetWeldWorksheetSharpAngle(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetSharpAngle(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetSharpAngle method.
 
@@ -1543,7 +1543,7 @@ SetWeldWorksheetSharpAngle method.
 
 <a id="Weld.SetWeldWorksheetSmoothing"></a>
 
-### Weld.SetWeldWorksheetSmoothing(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Boolean)
+### Weld.SetWeldWorksheetSmoothing(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetWeldWorksheetSmoothing method.
 
@@ -1551,7 +1551,7 @@ SetWeldWorksheetSmoothing method.
 
 <a id="Weld.SetWeldWorksheetThickness"></a>
 
-### Weld.SetWeldWorksheetThickness(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetThickness(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetThickness method.
 
@@ -1559,7 +1559,7 @@ SetWeldWorksheetThickness method.
 
 <a id="Weld.SetWeldWorksheetThicknessExpression"></a>
 
-### Weld.SetWeldWorksheetThicknessExpression(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.String)
+### Weld.SetWeldWorksheetThicknessExpression(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 SetWeldWorksheetThicknessExpression method.
 
@@ -1567,7 +1567,7 @@ SetWeldWorksheetThicknessExpression method.
 
 <a id="Weld.SetWeldWorksheetTopEntities"></a>
 
-### Weld.SetWeldWorksheetTopEntities(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.UInt32)
+### Weld.SetWeldWorksheetTopEntities(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [int](https://docs.python.org/3/library/functions.html#int))
 
 SetWeldWorksheetTopEntities method.
 
@@ -1575,7 +1575,7 @@ SetWeldWorksheetTopEntities method.
 
 <a id="Weld.SetWeldWorksheetWeldAngle"></a>
 
-### Weld.SetWeldWorksheetWeldAngle(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetWeldAngle(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetWeldAngle method.
 
@@ -1583,7 +1583,7 @@ SetWeldWorksheetWeldAngle method.
 
 <a id="Weld.SetWeldWorksheetWeldBody"></a>
 
-### Weld.SetWeldWorksheetWeldBody(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.UInt32)
+### Weld.SetWeldWorksheetWeldBody(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [int](https://docs.python.org/3/library/functions.html#int))
 
 SetWeldWorksheetWeldBody method.
 
@@ -1591,7 +1591,7 @@ SetWeldWorksheetWeldBody method.
 
 <a id="Weld.SetWeldWorksheetWeldCurve"></a>
 
-### Weld.SetWeldWorksheetWeldCurve(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.UInt32)
+### Weld.SetWeldWorksheetWeldCurve(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [int](https://docs.python.org/3/library/functions.html#int))
 
 SetWeldWorksheetWeldCurve method.
 
@@ -1599,7 +1599,7 @@ SetWeldWorksheetWeldCurve method.
 
 <a id="Weld.SetWeldWorksheetWeldHeightExpression"></a>
 
-### Weld.SetWeldWorksheetWeldHeightExpression(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.String)
+### Weld.SetWeldWorksheetWeldHeightExpression(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 SetWeldWorksheetWeldHeightExpression method.
 
@@ -1607,7 +1607,7 @@ SetWeldWorksheetWeldHeightExpression method.
 
 <a id="Weld.SetWeldWorksheetWeldWidthExpression"></a>
 
-### Weld.SetWeldWorksheetWeldWidthExpression(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.String)
+### Weld.SetWeldWorksheetWeldWidthExpression(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 SetWeldWorksheetWeldWidthExpression method.
 
@@ -1615,7 +1615,7 @@ SetWeldWorksheetWeldWidthExpression method.
 
 <a id="Weld.SetWeldWorksheetWidth"></a>
 
-### Weld.SetWeldWorksheetWidth(rowIndices: System.Collections.Generic.IEnumerable[System.Int32], val: System.Double)
+### Weld.SetWeldWorksheetWidth(rowIndices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)], val: [float](https://docs.python.org/3/library/functions.html#float))
 
 SetWeldWorksheetWidth method.
 
@@ -1639,7 +1639,7 @@ Create worksheet entries for all curve bodies
 
 <a id="Weld.WeldWorksheetDeleteEntry"></a>
 
-### Weld.WeldWorksheetDeleteEntry(indices: System.Collections.Generic.IEnumerable[System.Int32])
+### Weld.WeldWorksheetDeleteEntry(indices: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 WeldWorksheetDeleteEntry method.
 
@@ -1647,7 +1647,7 @@ WeldWorksheetDeleteEntry method.
 
 <a id="Weld.WeldWorksheetExport"></a>
 
-### Weld.WeldWorksheetExport(fileName: System.String)
+### Weld.WeldWorksheetExport(fileName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 export WeldWorksheet
 
@@ -1655,7 +1655,7 @@ export WeldWorksheet
 
 <a id="Weld.WeldWorksheetImport"></a>
 
-### Weld.WeldWorksheetImport(fileName: System.String)
+### Weld.WeldWorksheetImport(fileName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 import WeldWorksheet
 
@@ -1671,7 +1671,7 @@ Get total number of entries in worksheet
 
 <a id="Weld.WeldWorksheetStatus"></a>
 
-### Weld.WeldWorksheetStatus(rowIndex: System.Int32)
+### Weld.WeldWorksheetStatus(rowIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 Get state of a given row
 

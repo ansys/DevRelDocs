@@ -53,7 +53,7 @@ Defines a DynamicComplianceConstraint.
 
 <a id="DynamicComplianceConstraint.Children"></a>
 
-### *property* DynamicComplianceConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DynamicComplianceConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -77,7 +77,7 @@ Gets the current DataModelObject’s category.
 
 <a id="DynamicComplianceConstraint.EnvironmentSelection"></a>
 
-### *property* DynamicComplianceConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DynamicComplianceConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -109,7 +109,7 @@ Gets or sets the MinimumValue.
 
 <a id="DynamicComplianceConstraint.Properties"></a>
 
-### *property* DynamicComplianceConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DynamicComplianceConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -117,7 +117,7 @@ Gets the list of properties for this object.
 
 <a id="DynamicComplianceConstraint.Suppressed"></a>
 
-### *property* DynamicComplianceConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DynamicComplianceConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -125,7 +125,7 @@ Gets or sets the Suppressed.
 
 <a id="DynamicComplianceConstraint.VisibleProperties"></a>
 
-### *property* DynamicComplianceConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DynamicComplianceConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -153,7 +153,7 @@ Copies all visible properties from this object to another.
 
 <a id="DynamicComplianceConstraint.CreateParameter"></a>
 
-### DynamicComplianceConstraint.CreateParameter(propName: System.String)
+### DynamicComplianceConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -177,7 +177,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="DynamicComplianceConstraint.GetChildren"></a>
 
-### DynamicComplianceConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DynamicComplianceConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -185,7 +185,7 @@ Gets the list of children, filtered by type.
 
 <a id="DynamicComplianceConstraint.GetParameter"></a>
 
-### DynamicComplianceConstraint.GetParameter(propName: System.String)
+### DynamicComplianceConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -209,7 +209,7 @@ Run the GroupSimilarObjects action.
 
 <a id="DynamicComplianceConstraint.PropertyByAPIName"></a>
 
-### DynamicComplianceConstraint.PropertyByAPIName(name: System.String)
+### DynamicComplianceConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -220,7 +220,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DynamicComplianceConstraint.PropertyByName"></a>
 
-### DynamicComplianceConstraint.PropertyByName(name: System.String)
+### DynamicComplianceConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -228,7 +228,7 @@ Get a property by its unique name.
 
 <a id="DynamicComplianceConstraint.RemoveParameter"></a>
 
-### DynamicComplianceConstraint.RemoveParameter(propName: System.String)
+### DynamicComplianceConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -31,7 +31,7 @@ Exposes simple getters and setters for rigid body transformations.
 
 <a id="SimpleTransform.IsOrthonormal"></a>
 
-### *property* SimpleTransform.IsOrthonormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SimpleTransform.IsOrthonormal *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns true if the provided axis vectors are all normalized and orthogonal.
 
@@ -39,7 +39,7 @@ Returns true if the provided axis vectors are all normalized and orthogonal.
 
 <a id="SimpleTransform.TransformationMatrix"></a>
 
-### *property* SimpleTransform.TransformationMatrix *: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../../../v242/Ansys/Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SimpleTransform.TransformationMatrix *: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 TransformationMatrix property.
 

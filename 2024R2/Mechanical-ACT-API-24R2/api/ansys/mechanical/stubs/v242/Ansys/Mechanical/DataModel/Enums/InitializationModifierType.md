@@ -17,7 +17,7 @@ Specifies the InitializationModifierType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`Holes`](#InitializationModifierType.Holes) |
 | [`None_`](#InitializationModifierType.None_) |
 

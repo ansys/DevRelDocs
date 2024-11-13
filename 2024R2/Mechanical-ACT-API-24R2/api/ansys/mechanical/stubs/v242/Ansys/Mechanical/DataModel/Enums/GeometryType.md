@@ -17,7 +17,7 @@ Specifies the GeometryType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`Empty`](#GeometryType.Empty) |
 | [`Lightweight`](#GeometryType.Lightweight) |
 | [`Line`](#GeometryType.Line) |

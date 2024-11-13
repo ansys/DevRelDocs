@@ -17,7 +17,7 @@ Represents data for a given temperature.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------|----------------------------|
+|------------------------------------------|----------------------------|
 | [`Temp`](#TBDataValues.Temp)             | Gets the temperature.      |
 | [`ValueCount`](#TBDataValues.ValueCount) | Gets the number of values. |
 | [`Values`](#TBDataValues.Values)         | Gets the values.           |
@@ -28,7 +28,7 @@ Represents data for a given temperature.
 
 <a id="TBDataValues.Temp"></a>
 
-### *property* TBDataValues.Temp *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataValues.Temp *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the temperature.
 
@@ -36,7 +36,7 @@ Gets the temperature.
 
 <a id="TBDataValues.ValueCount"></a>
 
-### *property* TBDataValues.ValueCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataValues.ValueCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of values.
 
@@ -44,7 +44,7 @@ Gets the number of values.
 
 <a id="TBDataValues.Values"></a>
 
-### *property* TBDataValues.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataValues.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

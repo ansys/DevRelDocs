@@ -17,7 +17,7 @@ Specifies the StageBehavior.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------- |
+| ------------------------------------- |
 | [`Cyclic`](#StageBehavior.Cyclic) |
 | [`Normal`](#StageBehavior.Normal) |
 

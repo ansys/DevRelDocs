@@ -17,7 +17,7 @@ Specifies the FaceType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------- |
+| ---------------------------------- |
 | [`Cone`](#FaceType.Cone) |
 | [`Cylinder`](#FaceType.Cylinder) |
 | [`Faceted`](#FaceType.Faceted) |

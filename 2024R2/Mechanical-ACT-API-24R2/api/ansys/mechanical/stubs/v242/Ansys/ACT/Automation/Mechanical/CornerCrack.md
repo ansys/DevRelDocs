@@ -83,7 +83,7 @@ Defines a CornerCrack.
 
 <a id="CornerCrack.BottomFaceNodes"></a>
 
-### *property* CornerCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.BottomFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomFaceNodes.
 
@@ -91,7 +91,7 @@ Gets or sets the BottomFaceNodes.
 
 <a id="CornerCrack.Children"></a>
 
-### *property* CornerCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -99,7 +99,7 @@ Gets the list of children.
 
 <a id="CornerCrack.CircumferentialDivisions"></a>
 
-### *property* CornerCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.CircumferentialDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CircumferentialDivisions.
 
@@ -107,7 +107,7 @@ Gets or sets the CircumferentialDivisions.
 
 <a id="CornerCrack.Comments"></a>
 
-### *property* CornerCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -115,7 +115,7 @@ Gets the list of associated comments.
 
 <a id="CornerCrack.Contact1Nodes"></a>
 
-### *property* CornerCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.Contact1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Contact1Nodes.
 
@@ -123,7 +123,7 @@ Gets or sets the Contact1Nodes.
 
 <a id="CornerCrack.ContactPairsNodes"></a>
 
-### *property* CornerCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.ContactPairsNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactPairsNodes.
 
@@ -131,7 +131,7 @@ Gets or sets the ContactPairsNodes.
 
 <a id="CornerCrack.CoordinateSystem"></a>
 
-### *property* CornerCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -139,7 +139,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="CornerCrack.CrackFacesNodes"></a>
 
-### *property* CornerCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.CrackFacesNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFacesNodes.
 
@@ -147,7 +147,7 @@ Gets or sets the CrackFacesNodes.
 
 <a id="CornerCrack.CrackFrontDivisions"></a>
 
-### *property* CornerCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.CrackFrontDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontDivisions.
 
@@ -155,7 +155,7 @@ Gets or sets the CrackFrontDivisions.
 
 <a id="CornerCrack.CrackFrontNodes"></a>
 
-### *property* CornerCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.CrackFrontNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNodes.
 
@@ -163,7 +163,7 @@ Gets or sets the CrackFrontNodes.
 
 <a id="CornerCrack.CrackID"></a>
 
-### *property* CornerCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.CrackID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackID.
 
@@ -203,7 +203,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CornerCrack.Figures"></a>
 
-### *property* CornerCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -235,7 +235,7 @@ Gets or sets the FrontElementSize.
 
 <a id="CornerCrack.GrowthRate"></a>
 
-### *property* CornerCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -243,7 +243,7 @@ Gets or sets the GrowthRate.
 
 <a id="CornerCrack.Images"></a>
 
-### *property* CornerCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -283,7 +283,7 @@ Gets or sets the MajorRadius.
 
 <a id="CornerCrack.MeshContours"></a>
 
-### *property* CornerCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.MeshContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshContours.
 
@@ -299,7 +299,7 @@ Gets or sets the MinorRadius.
 
 <a id="CornerCrack.Properties"></a>
 
-### *property* CornerCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -307,7 +307,7 @@ Gets the list of properties for this object.
 
 <a id="CornerCrack.ReadOnly"></a>
 
-### *property* CornerCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -315,7 +315,7 @@ Gets or sets the ReadOnly.
 
 <a id="CornerCrack.SolutionContours"></a>
 
-### *property* CornerCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.SolutionContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionContours.
 
@@ -323,7 +323,7 @@ Gets or sets the SolutionContours.
 
 <a id="CornerCrack.Suppressed"></a>
 
-### *property* CornerCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -331,7 +331,7 @@ Gets or sets the Suppressed.
 
 <a id="CornerCrack.Target1Nodes"></a>
 
-### *property* CornerCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.Target1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Target1Nodes.
 
@@ -339,7 +339,7 @@ Gets or sets the Target1Nodes.
 
 <a id="CornerCrack.TopFaceNodes"></a>
 
-### *property* CornerCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.TopFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopFaceNodes.
 
@@ -347,7 +347,7 @@ Gets or sets the TopFaceNodes.
 
 <a id="CornerCrack.VisibleProperties"></a>
 
-### *property* CornerCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -355,7 +355,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="CornerCrack.XScaleFactor"></a>
 
-### *property* CornerCrack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.XScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XScaleFactor.
 
@@ -363,7 +363,7 @@ Gets or sets the XScaleFactor.
 
 <a id="CornerCrack.YScaleFactor"></a>
 
-### *property* CornerCrack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.YScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YScaleFactor.
 
@@ -371,7 +371,7 @@ Gets or sets the YScaleFactor.
 
 <a id="CornerCrack.ZScaleFactor"></a>
 
-### *property* CornerCrack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CornerCrack.ZScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZScaleFactor.
 
@@ -415,7 +415,7 @@ Creates a new child Figure.
 
 <a id="CornerCrack.AddImage"></a>
 
-### CornerCrack.AddImage(filePath: System.String)
+### CornerCrack.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -435,7 +435,7 @@ Copies all visible properties from this object to another.
 
 <a id="CornerCrack.CreateParameter"></a>
 
-### CornerCrack.CreateParameter(propName: System.String)
+### CornerCrack.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -459,7 +459,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CornerCrack.GetChildren"></a>
 
-### CornerCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CornerCrack.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -467,7 +467,7 @@ Gets the list of children, filtered by type.
 
 <a id="CornerCrack.GetParameter"></a>
 
-### CornerCrack.GetParameter(propName: System.String)
+### CornerCrack.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -491,7 +491,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CornerCrack.PropertyByAPIName"></a>
 
-### CornerCrack.PropertyByAPIName(name: System.String)
+### CornerCrack.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -502,7 +502,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CornerCrack.PropertyByName"></a>
 
-### CornerCrack.PropertyByName(name: System.String)
+### CornerCrack.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -510,7 +510,7 @@ Get a property by its unique name.
 
 <a id="CornerCrack.RemoveParameter"></a>
 
-### CornerCrack.RemoveParameter(propName: System.String)
+### CornerCrack.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

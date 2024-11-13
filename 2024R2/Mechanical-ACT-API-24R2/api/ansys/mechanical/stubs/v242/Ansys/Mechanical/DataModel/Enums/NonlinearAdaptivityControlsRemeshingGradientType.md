@@ -17,7 +17,7 @@ Specifies the NonlinearAdaptivityControlsRemeshingGradientType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------ |
 | [`AverageGradient`](#NonlinearAdaptivityControlsRemeshingGradientType.AverageGradient) |
 | [`NoGradient`](#NonlinearAdaptivityControlsRemeshingGradientType.NoGradient) |
 | [`PerfectShapeGradient`](#NonlinearAdaptivityControlsRemeshingGradientType.PerfectShapeGradient) |

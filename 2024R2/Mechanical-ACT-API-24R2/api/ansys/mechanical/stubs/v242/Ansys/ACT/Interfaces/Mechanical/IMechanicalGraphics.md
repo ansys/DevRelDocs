@@ -17,7 +17,7 @@ Interface for MechanicalGraphics.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+|---------------------------------------------------------------|----------------------------------------|
 | [`ModelViewManager`](#IMechanicalGraphics.ModelViewManager)   | An instance of the ModelViewManager.   |
 | [`SectionPlanes`](#IMechanicalGraphics.SectionPlanes)         | An instance of the SectionPlanes.      |
 

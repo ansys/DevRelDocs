@@ -17,7 +17,7 @@ Specifies the ElementOrientationAxisType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`AxisUndefined`](#ElementOrientationAxisType.AxisUndefined) |
 | [`NegativeXAxis`](#ElementOrientationAxisType.NegativeXAxis) |
 | [`NegativeYAxis`](#ElementOrientationAxisType.NegativeYAxis) |

@@ -17,7 +17,7 @@ Specifies the SolveBehaviourType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`Combined`](#SolveBehaviourType.Combined) |
 | [`Individual`](#SolveBehaviourType.Individual) |
 

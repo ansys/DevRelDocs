@@ -17,7 +17,7 @@ Specifies the SpectrumType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------- |
 | [`MultiplePoints`](#SpectrumType.MultiplePoints) |
 | [`None_`](#SpectrumType.None_) |
 | [`SinglePoint`](#SpectrumType.SinglePoint) |

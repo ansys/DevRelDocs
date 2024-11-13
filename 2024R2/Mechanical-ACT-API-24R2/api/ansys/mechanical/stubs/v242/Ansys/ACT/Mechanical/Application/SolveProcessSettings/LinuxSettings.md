@@ -17,7 +17,7 @@ The class representing the linux settings portion of the solve process settings.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+|-------------------------------------------------|------------------------------------------|
 | [`Active`](#LinuxSettings.Active)               | Whether the linux settings are active.   |
 | [`UserName`](#LinuxSettings.UserName)           | The user name.                           |
 | [`WorkingFolder`](#LinuxSettings.WorkingFolder) | The working folder.                      |
@@ -28,7 +28,7 @@ The class representing the linux settings portion of the solve process settings.
 
 <a id="LinuxSettings.Active"></a>
 
-### *property* LinuxSettings.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinuxSettings.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the linux settings are active.
 
@@ -36,7 +36,7 @@ Whether the linux settings are active.
 
 <a id="LinuxSettings.UserName"></a>
 
-### *property* LinuxSettings.UserName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinuxSettings.UserName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The user name.
 
@@ -44,7 +44,7 @@ The user name.
 
 <a id="LinuxSettings.WorkingFolder"></a>
 
-### *property* LinuxSettings.WorkingFolder *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinuxSettings.WorkingFolder *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The working folder.
 

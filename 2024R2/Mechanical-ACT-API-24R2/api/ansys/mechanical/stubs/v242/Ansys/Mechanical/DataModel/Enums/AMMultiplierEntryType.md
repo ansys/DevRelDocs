@@ -17,7 +17,7 @@ Specifies the AMSupportSubtype.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------- |
 | [`All`](#AMMultiplierEntryType.All) |
 | [`Manual`](#AMMultiplierEntryType.Manual) |
 

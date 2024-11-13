@@ -17,7 +17,7 @@ Specifies the CrackGrowthMethodology.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------- |
 | [`CycleByCycle`](#CrackGrowthMethodology.CycleByCycle) |
 | [`LifeCyclePrediction`](#CrackGrowthMethodology.LifeCyclePrediction) |
 

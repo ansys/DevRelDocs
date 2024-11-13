@@ -17,7 +17,7 @@ Specifies the ElectrostaticForce.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------- |
 | [`AppliedToAirStructureInterfaceSymmetric`](#ElectrostaticForce.AppliedToAirStructureInterfaceSymmetric) |
 | [`AppliedToAirStructureInterfaceUnsymmetric`](#ElectrostaticForce.AppliedToAirStructureInterfaceUnsymmetric) |
 | [`AppliedToAllNodes`](#ElectrostaticForce.AppliedToAllNodes) |

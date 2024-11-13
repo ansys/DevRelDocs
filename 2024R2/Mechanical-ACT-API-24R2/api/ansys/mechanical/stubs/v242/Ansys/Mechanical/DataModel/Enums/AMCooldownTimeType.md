@@ -17,7 +17,7 @@ Specifies the AMCooldownTimeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------- |
 | [`ProgramControlled`](#AMCooldownTimeType.ProgramControlled) |
 | [`UserSpecified`](#AMCooldownTimeType.UserSpecified) |
 

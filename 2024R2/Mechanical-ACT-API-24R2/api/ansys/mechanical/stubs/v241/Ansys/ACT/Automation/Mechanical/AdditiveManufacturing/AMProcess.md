@@ -17,7 +17,7 @@ Defines a AMProcess.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AMProcess.Activate)                                 | Activate the current object.                                                      |
 | [`AddCartesianMesh`](#AMProcess.AddCartesianMesh)                 | AddCartesianMesh method.                                                          |
 | [`AddComment`](#AMProcess.AddComment)                             | Creates a new child Comment.                                                      |
@@ -49,7 +49,7 @@ Defines a AMProcess.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+|-----------------------------------------------------------------|--------------------------------------------------------------------------|
 | [`BaseGeometry`](#AMProcess.BaseGeometry)                       | Gets or sets the BaseGeometry.                                           |
 | [`BuildGeometry`](#AMProcess.BuildGeometry)                     | Gets or sets the PartGeometry using the deprecated BuildGeometry method. |
 | [`Children`](#AMProcess.Children)                               | Gets the list of children.                                               |
@@ -91,7 +91,7 @@ Gets or sets the PartGeometry using the deprecated BuildGeometry method.
 
 <a id="AMProcess.Children"></a>
 
-### *property* AMProcess.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -99,7 +99,7 @@ Gets the list of children.
 
 <a id="AMProcess.Comments"></a>
 
-### *property* AMProcess.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -107,7 +107,7 @@ Gets the list of associated comments.
 
 <a id="AMProcess.DataModelObjectCategory"></a>
 
-### *property* AMProcess.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -123,7 +123,7 @@ Gets or sets the ElementSize.
 
 <a id="AMProcess.Figures"></a>
 
-### *property* AMProcess.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -131,7 +131,7 @@ Gets the list of associated figures.
 
 <a id="AMProcess.Images"></a>
 
-### *property* AMProcess.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -147,7 +147,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AMProcess.LengthUnits"></a>
 
-### *property* AMProcess.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LengthUnits.
 
@@ -155,7 +155,7 @@ Gets or sets the LengthUnits.
 
 <a id="AMProcess.MeshUsingVoxelization"></a>
 
-### *property* AMProcess.MeshUsingVoxelization *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.MeshUsingVoxelization *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshUsingVoxelization.
 
@@ -163,7 +163,7 @@ Gets or sets the MeshUsingVoxelization.
 
 <a id="AMProcess.NonlinearEffects"></a>
 
-### *property* AMProcess.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.NonlinearEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonlinearEffects.
 
@@ -179,7 +179,7 @@ Gets or sets the PartGeometry.
 
 <a id="AMProcess.Properties"></a>
 
-### *property* AMProcess.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -187,7 +187,7 @@ Gets the list of properties for this object.
 
 <a id="AMProcess.SubsampleRate"></a>
 
-### *property* AMProcess.SubsampleRate *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.SubsampleRate *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SubsampleRate.
 
@@ -195,7 +195,7 @@ Gets or sets the SubsampleRate.
 
 <a id="AMProcess.VisibleProperties"></a>
 
-### *property* AMProcess.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMProcess.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -263,7 +263,7 @@ Creates a new GeneratedAMSupport
 
 <a id="AMProcess.AddImage"></a>
 
-### AMProcess.AddImage(filePath: System.String)
+### AMProcess.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -331,7 +331,7 @@ Run the CreateBuildToBaseContact action.
 
 <a id="AMProcess.CreateParameter"></a>
 
-### AMProcess.CreateParameter(propName: System.String)
+### AMProcess.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -363,7 +363,7 @@ Run the GenerateAMStrains action.
 
 <a id="AMProcess.GetChildren"></a>
 
-### AMProcess.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AMProcess.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -371,7 +371,7 @@ Gets the list of children, filtered by type.
 
 <a id="AMProcess.GetParameter"></a>
 
-### AMProcess.GetParameter(propName: System.String)
+### AMProcess.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -411,7 +411,7 @@ Get the HasAMStrains property.
 
 <a id="AMProcess.PropertyByAPIName"></a>
 
-### AMProcess.PropertyByAPIName(name: System.String)
+### AMProcess.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -422,7 +422,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AMProcess.PropertyByName"></a>
 
-### AMProcess.PropertyByName(name: System.String)
+### AMProcess.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -430,7 +430,7 @@ Get a property by its unique name.
 
 <a id="AMProcess.RemoveParameter"></a>
 
-### AMProcess.RemoveParameter(propName: System.String)
+### AMProcess.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

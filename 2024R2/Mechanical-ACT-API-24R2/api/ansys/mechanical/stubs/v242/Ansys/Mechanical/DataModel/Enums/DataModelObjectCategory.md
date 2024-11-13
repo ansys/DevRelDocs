@@ -17,7 +17,7 @@ Specifies the category of the F:Ansys.Mechanical.DataModel.Enums.DataModelObject
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------- |
 | [`AMBondConnection`](#DataModelObjectCategory.AMBondConnection) |
 | [`AMBuildSettings`](#DataModelObjectCategory.AMBuildSettings) |
 | [`AMOverhangConstraint`](#DataModelObjectCategory.AMOverhangConstraint) |

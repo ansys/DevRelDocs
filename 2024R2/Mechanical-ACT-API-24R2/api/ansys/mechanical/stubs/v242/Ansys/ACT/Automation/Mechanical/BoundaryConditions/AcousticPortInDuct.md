@@ -89,7 +89,7 @@ Gets or sets the AngleTheta.
 
 <a id="AcousticPortInDuct.Children"></a>
 
-### *property* AcousticPortInDuct.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -97,7 +97,7 @@ Gets the list of children.
 
 <a id="AcousticPortInDuct.Comments"></a>
 
-### *property* AcousticPortInDuct.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -105,7 +105,7 @@ Gets the list of associated comments.
 
 <a id="AcousticPortInDuct.CoordinateSystem"></a>
 
-### *property* AcousticPortInDuct.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -121,7 +121,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticPortInDuct.Figures"></a>
 
-### *property* AcousticPortInDuct.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -137,7 +137,7 @@ Gets or sets the Height.
 
 <a id="AcousticPortInDuct.Images"></a>
 
-### *property* AcousticPortInDuct.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -161,7 +161,7 @@ Gets or sets the Location.
 
 <a id="AcousticPortInDuct.ModeIndexForPressureVariationAlongTheAzimuth"></a>
 
-### *property* AcousticPortInDuct.ModeIndexForPressureVariationAlongTheAzimuth *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.ModeIndexForPressureVariationAlongTheAzimuth *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeIndexForPressureVariationAlongTheAzimuth.
 
@@ -169,7 +169,7 @@ Gets or sets the ModeIndexForPressureVariationAlongTheAzimuth.
 
 <a id="AcousticPortInDuct.ModeIndexForPressureVariationAlongTheHeight"></a>
 
-### *property* AcousticPortInDuct.ModeIndexForPressureVariationAlongTheHeight *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.ModeIndexForPressureVariationAlongTheHeight *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeIndexForPressureVariationAlongTheHeight.
 
@@ -177,7 +177,7 @@ Gets or sets the ModeIndexForPressureVariationAlongTheHeight.
 
 <a id="AcousticPortInDuct.ModeIndexForPressureVariationAlongTheRadii"></a>
 
-### *property* AcousticPortInDuct.ModeIndexForPressureVariationAlongTheRadii *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.ModeIndexForPressureVariationAlongTheRadii *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeIndexForPressureVariationAlongTheRadii.
 
@@ -185,7 +185,7 @@ Gets or sets the ModeIndexForPressureVariationAlongTheRadii.
 
 <a id="AcousticPortInDuct.ModeIndexForPressureVariationAlongTheWidth"></a>
 
-### *property* AcousticPortInDuct.ModeIndexForPressureVariationAlongTheWidth *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.ModeIndexForPressureVariationAlongTheWidth *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeIndexForPressureVariationAlongTheWidth.
 
@@ -209,7 +209,7 @@ Gets or sets the PortAttribution.
 
 <a id="AcousticPortInDuct.PortSelection"></a>
 
-### *property* AcousticPortInDuct.PortSelection *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPort.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.PortSelection *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](AcousticPort.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PortSelection.
 
@@ -225,7 +225,7 @@ Gets or sets the PressureAmplitude.
 
 <a id="AcousticPortInDuct.Properties"></a>
 
-### *property* AcousticPortInDuct.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -241,7 +241,7 @@ Gets or sets the Radius.
 
 <a id="AcousticPortInDuct.ReadOnly"></a>
 
-### *property* AcousticPortInDuct.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -249,7 +249,7 @@ Gets or sets the ReadOnly.
 
 <a id="AcousticPortInDuct.SharedRefBody"></a>
 
-### *property* AcousticPortInDuct.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -257,7 +257,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticPortInDuct.Suppressed"></a>
 
-### *property* AcousticPortInDuct.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -265,7 +265,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticPortInDuct.VisibleProperties"></a>
 
-### *property* AcousticPortInDuct.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPortInDuct.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -317,7 +317,7 @@ Creates a new child Figure.
 
 <a id="AcousticPortInDuct.AddImage"></a>
 
-### AcousticPortInDuct.AddImage(filePath: System.String)
+### AcousticPortInDuct.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -337,7 +337,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticPortInDuct.CreateParameter"></a>
 
-### AcousticPortInDuct.CreateParameter(propName: System.String)
+### AcousticPortInDuct.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -361,7 +361,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticPortInDuct.GetChildren"></a>
 
-### AcousticPortInDuct.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticPortInDuct.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -369,7 +369,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticPortInDuct.GetParameter"></a>
 
-### AcousticPortInDuct.GetParameter(propName: System.String)
+### AcousticPortInDuct.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -401,7 +401,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticPortInDuct.PropertyByAPIName"></a>
 
-### AcousticPortInDuct.PropertyByAPIName(name: System.String)
+### AcousticPortInDuct.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -412,7 +412,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticPortInDuct.PropertyByName"></a>
 
-### AcousticPortInDuct.PropertyByName(name: System.String)
+### AcousticPortInDuct.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -420,7 +420,7 @@ Get a property by its unique name.
 
 <a id="AcousticPortInDuct.RemoveParameter"></a>
 
-### AcousticPortInDuct.RemoveParameter(propName: System.String)
+### AcousticPortInDuct.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

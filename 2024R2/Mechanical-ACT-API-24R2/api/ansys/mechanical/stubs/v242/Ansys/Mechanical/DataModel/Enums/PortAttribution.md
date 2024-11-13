@@ -17,7 +17,7 @@ Specifies the PortAttribution.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------- |
 | [`Inlet`](#PortAttribution.Inlet) |
 | [`Outlet`](#PortAttribution.Outlet) |
 

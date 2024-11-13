@@ -17,7 +17,7 @@ Specifies the GAPDirectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------ |
+| ------------------------------ |
 | [`X`](#GAPDirectionType.X) |
 | [`Y`](#GAPDirectionType.Y) |
 | [`Z`](#GAPDirectionType.Z) |

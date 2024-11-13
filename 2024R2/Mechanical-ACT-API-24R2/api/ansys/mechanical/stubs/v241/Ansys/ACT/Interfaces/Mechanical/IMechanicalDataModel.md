@@ -35,7 +35,7 @@ Defines the data model of the Mechanical application.
 
 <a id="IMechanicalDataModel.ObjectTags"></a>
 
-### *property* IMechanicalDataModel.ObjectTags *: [Ansys.Mechanical.Application.ObjectTags](../../../../../v242/Ansys/Mechanical/Application/ObjectTags.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.ObjectTags) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalDataModel.ObjectTags *: [Ansys.Mechanical.Application.ObjectTags](../../../Mechanical/Application/ObjectTags.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTags) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ObjectTags object for the Data Model, which represents the current list of tags visable in the User Interface.
 
@@ -43,7 +43,7 @@ Gets the ObjectTags object for the Data Model, which represents the current list
 
 <a id="IMechanicalDataModel.Project"></a>
 
-### *property* IMechanicalDataModel.Project *: [Ansys.ACT.Automation.Mechanical.Project](../../../../../v242/Ansys/ACT/Automation/Mechanical/Project.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Project) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalDataModel.Project *: [Ansys.ACT.Automation.Mechanical.Project](../../Automation/Mechanical/Project.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Project) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the project object. Main object of the tree of Mechanical.
 
@@ -51,7 +51,7 @@ Gets the project object. Main object of the tree of Mechanical.
 
 <a id="IMechanicalDataModel.Tree"></a>
 
-### *property* IMechanicalDataModel.Tree *: [Ansys.ACT.Automation.Mechanical.Tree](../../../../../v242/Ansys/ACT/Automation/Mechanical/Tree.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Tree) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalDataModel.Tree *: [Ansys.ACT.Automation.Mechanical.Tree](../../Automation/Mechanical/Tree.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Tree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the tree of Mechanical.
 
@@ -63,7 +63,7 @@ Gets the tree of Mechanical.
 
 <a id="IMechanicalDataModel.CurrentUnitFromQuantityName"></a>
 
-### IMechanicalDataModel.CurrentUnitFromQuantityName(quantityName: System.String)
+### IMechanicalDataModel.CurrentUnitFromQuantityName(quantityName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Returns the current unit from a quantity name.
 
@@ -71,7 +71,7 @@ Returns the current unit from a quantity name.
 
 <a id="IMechanicalDataModel.GetUserObjectById"></a>
 
-### IMechanicalDataModel.GetUserObjectById(id: System.Int32)
+### IMechanicalDataModel.GetUserObjectById(id: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the user object based on the application id.
 

@@ -17,7 +17,7 @@ Specifies the ConvergenceControlType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------ |
 | [`Manual`](#ConvergenceControlType.Manual) |
 | [`ProgramControlled`](#ConvergenceControlType.ProgramControlled) |
 

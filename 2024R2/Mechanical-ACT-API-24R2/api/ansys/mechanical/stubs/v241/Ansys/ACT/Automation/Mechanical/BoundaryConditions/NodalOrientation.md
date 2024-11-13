@@ -17,7 +17,7 @@ Defines a NodalOrientation.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#NodalOrientation.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#NodalOrientation.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#NodalOrientation.AddImage)                               | Creates a new child Image.                                                        |
@@ -36,7 +36,7 @@ Defines a NodalOrientation.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#NodalOrientation.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#NodalOrientation.Comments)                               | Gets the list of associated comments.                         |
 | [`CoordinateSystem`](#NodalOrientation.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
@@ -54,7 +54,7 @@ Defines a NodalOrientation.
 
 <a id="NodalOrientation.Children"></a>
 
-### *property* NodalOrientation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalOrientation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -62,7 +62,7 @@ Gets the list of children.
 
 <a id="NodalOrientation.Comments"></a>
 
-### *property* NodalOrientation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalOrientation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -78,7 +78,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="NodalOrientation.DataModelObjectCategory"></a>
 
-### *property* NodalOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -86,7 +86,7 @@ Gets the current DataModelObject’s category.
 
 <a id="NodalOrientation.Images"></a>
 
-### *property* NodalOrientation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalOrientation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -110,7 +110,7 @@ Gets the Location.
 
 <a id="NodalOrientation.Properties"></a>
 
-### *property* NodalOrientation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalOrientation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -118,7 +118,7 @@ Gets the list of properties for this object.
 
 <a id="NodalOrientation.Suppressed"></a>
 
-### *property* NodalOrientation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalOrientation.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -126,7 +126,7 @@ Gets or sets the Suppressed.
 
 <a id="NodalOrientation.VisibleProperties"></a>
 
-### *property* NodalOrientation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalOrientation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -154,7 +154,7 @@ Creates a new child Comment.
 
 <a id="NodalOrientation.AddImage"></a>
 
-### NodalOrientation.AddImage(filePath: System.String)
+### NodalOrientation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -174,7 +174,7 @@ Copies all visible properties from this object to another.
 
 <a id="NodalOrientation.CreateParameter"></a>
 
-### NodalOrientation.CreateParameter(propName: System.String)
+### NodalOrientation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -198,7 +198,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="NodalOrientation.GetChildren"></a>
 
-### NodalOrientation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NodalOrientation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -206,7 +206,7 @@ Gets the list of children, filtered by type.
 
 <a id="NodalOrientation.GetParameter"></a>
 
-### NodalOrientation.GetParameter(propName: System.String)
+### NodalOrientation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -230,7 +230,7 @@ Run the GroupSimilarObjects action.
 
 <a id="NodalOrientation.PropertyByAPIName"></a>
 
-### NodalOrientation.PropertyByAPIName(name: System.String)
+### NodalOrientation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -241,7 +241,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NodalOrientation.PropertyByName"></a>
 
-### NodalOrientation.PropertyByName(name: System.String)
+### NodalOrientation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -249,7 +249,7 @@ Get a property by its unique name.
 
 <a id="NodalOrientation.RemoveParameter"></a>
 
-### NodalOrientation.RemoveParameter(propName: System.String)
+### NodalOrientation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

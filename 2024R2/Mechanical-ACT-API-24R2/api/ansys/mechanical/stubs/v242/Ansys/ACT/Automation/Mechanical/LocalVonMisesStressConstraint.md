@@ -53,7 +53,7 @@ Defines a LocalVonMisesStressConstraint.
 
 <a id="LocalVonMisesStressConstraint.Children"></a>
 
-### *property* LocalVonMisesStressConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LocalVonMisesStressConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -69,7 +69,7 @@ Gets the current DataModelObject’s category.
 
 <a id="LocalVonMisesStressConstraint.EnvironmentSelection"></a>
 
-### *property* LocalVonMisesStressConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LocalVonMisesStressConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -101,7 +101,7 @@ Gets or sets the Maximum.
 
 <a id="LocalVonMisesStressConstraint.Properties"></a>
 
-### *property* LocalVonMisesStressConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LocalVonMisesStressConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -117,7 +117,7 @@ Gets or sets the ScopingMethod.
 
 <a id="LocalVonMisesStressConstraint.Suppressed"></a>
 
-### *property* LocalVonMisesStressConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LocalVonMisesStressConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -125,7 +125,7 @@ Gets or sets the Suppressed.
 
 <a id="LocalVonMisesStressConstraint.VisibleProperties"></a>
 
-### *property* LocalVonMisesStressConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LocalVonMisesStressConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -153,7 +153,7 @@ Copies all visible properties from this object to another.
 
 <a id="LocalVonMisesStressConstraint.CreateParameter"></a>
 
-### LocalVonMisesStressConstraint.CreateParameter(propName: System.String)
+### LocalVonMisesStressConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -177,7 +177,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="LocalVonMisesStressConstraint.GetChildren"></a>
 
-### LocalVonMisesStressConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LocalVonMisesStressConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -185,7 +185,7 @@ Gets the list of children, filtered by type.
 
 <a id="LocalVonMisesStressConstraint.GetParameter"></a>
 
-### LocalVonMisesStressConstraint.GetParameter(propName: System.String)
+### LocalVonMisesStressConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -209,7 +209,7 @@ Run the GroupSimilarObjects action.
 
 <a id="LocalVonMisesStressConstraint.PropertyByAPIName"></a>
 
-### LocalVonMisesStressConstraint.PropertyByAPIName(name: System.String)
+### LocalVonMisesStressConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -220,7 +220,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LocalVonMisesStressConstraint.PropertyByName"></a>
 
-### LocalVonMisesStressConstraint.PropertyByName(name: System.String)
+### LocalVonMisesStressConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -228,7 +228,7 @@ Get a property by its unique name.
 
 <a id="LocalVonMisesStressConstraint.RemoveParameter"></a>
 
-### LocalVonMisesStressConstraint.RemoveParameter(propName: System.String)
+### LocalVonMisesStressConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

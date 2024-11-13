@@ -17,7 +17,7 @@ Specifies the LoadVariationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------- |
 | [`CFXResults`](#LoadVariationType.CFXResults) |
 | [`ConstantOrHeatFlow`](#LoadVariationType.ConstantOrHeatFlow) |
 | [`LoadHistoryOrHeatFlow`](#LoadVariationType.LoadHistoryOrHeatFlow) |

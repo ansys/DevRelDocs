@@ -27,7 +27,7 @@ Represent a real constant set associated to a RLBLOCK command.
 
 <a id="CommandReal.Id"></a>
 
-### *property* CommandReal.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandReal.Id *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the real constant set number.
 
@@ -35,7 +35,7 @@ Gets the real constant set number.
 
 <a id="CommandReal.Values"></a>
 
-### *property* CommandReal.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandReal.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

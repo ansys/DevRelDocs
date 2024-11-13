@@ -53,7 +53,7 @@ Defines the configuration for the Maximum Strain failure criterion for reinforce
 
 <a id="MaximumStrainSettings.CompressiveLimitMaterialOneDirection"></a>
 
-### *property* MaximumStrainSettings.CompressiveLimitMaterialOneDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.CompressiveLimitMaterialOneDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the global compressive strain limit in the material 1 direction (eXc).
 : Only used if OverrideMaterial is true.
@@ -62,7 +62,7 @@ Gets or sets the global compressive strain limit in the material 1 direction (eX
 
 <a id="MaximumStrainSettings.CompressiveLimitMaterialThreeDirection"></a>
 
-### *property* MaximumStrainSettings.CompressiveLimitMaterialThreeDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.CompressiveLimitMaterialThreeDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the global compressive strain limit in the out-of-plane direction (eZc).
 : Only used if OverrideMaterial is true.
@@ -71,7 +71,7 @@ Gets or sets the global compressive strain limit in the out-of-plane direction (
 
 <a id="MaximumStrainSettings.CompressiveLimitMaterialTwoDirection"></a>
 
-### *property* MaximumStrainSettings.CompressiveLimitMaterialTwoDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.CompressiveLimitMaterialTwoDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the global compressive strain limit in the material 2 direction (eYc).
 : Only used if OverrideMaterial is true.
@@ -80,7 +80,7 @@ Gets or sets the global compressive strain limit in the material 2 direction (eY
 
 <a id="MaximumStrainSettings.EvaluateMaterialOneDirectionFailure"></a>
 
-### *property* MaximumStrainSettings.EvaluateMaterialOneDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.EvaluateMaterialOneDirectionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the material 1
 : direction. The corresponding failure label is ‘e1’.
@@ -89,7 +89,7 @@ Gets or sets whether the failure criterion is evaluated in the material 1
 
 <a id="MaximumStrainSettings.EvaluateMaterialThreeDirectionFailure"></a>
 
-### *property* MaximumStrainSettings.EvaluateMaterialThreeDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.EvaluateMaterialThreeDirectionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the out-of-plane
 : direction. The corresponding failure label is ‘e3’.
@@ -98,7 +98,7 @@ Gets or sets whether the failure criterion is evaluated in the out-of-plane
 
 <a id="MaximumStrainSettings.EvaluateMaterialTwoDirectionFailure"></a>
 
-### *property* MaximumStrainSettings.EvaluateMaterialTwoDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.EvaluateMaterialTwoDirectionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the material 2
 : direction. The corresponding failure label is ‘e2’.
@@ -107,7 +107,7 @@ Gets or sets whether the failure criterion is evaluated in the material 2
 
 <a id="MaximumStrainSettings.EvaluateShearOneThreeFailure"></a>
 
-### *property* MaximumStrainSettings.EvaluateShearOneThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.EvaluateShearOneThreeFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether failure is evaluated for the out-of-plane shear e13. The corresponding failure
 : label is ‘e13’.
@@ -116,7 +116,7 @@ Gets or sets whether failure is evaluated for the out-of-plane shear e13. The co
 
 <a id="MaximumStrainSettings.EvaluateShearOneTwoFailure"></a>
 
-### *property* MaximumStrainSettings.EvaluateShearOneTwoFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.EvaluateShearOneTwoFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether failure is evaluated for the in-plane shear e12. The corresponding failure
 : label is ‘e12’.
@@ -125,7 +125,7 @@ Gets or sets whether failure is evaluated for the in-plane shear e12. The corres
 
 <a id="MaximumStrainSettings.EvaluateShearTwoThreeFailure"></a>
 
-### *property* MaximumStrainSettings.EvaluateShearTwoThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.EvaluateShearTwoThreeFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether failure is evaluated for the out-of-plane shear e23. The corresponding failure
 : label is ‘e23’.
@@ -134,7 +134,7 @@ Gets or sets whether failure is evaluated for the out-of-plane shear e23. The co
 
 <a id="MaximumStrainSettings.MaterialOneDirectionFailureWeightingFactor"></a>
 
-### *property* MaximumStrainSettings.MaterialOneDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.MaterialOneDirectionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the failure criterion in the material 1 direction.
 
@@ -142,7 +142,7 @@ Gets or sets the weighting factor for the failure criterion in the material 1 di
 
 <a id="MaximumStrainSettings.MaterialThreeDirectionFailureWeightingFactor"></a>
 
-### *property* MaximumStrainSettings.MaterialThreeDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.MaterialThreeDirectionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the failure criterion in the out-of-plane direction.
 
@@ -150,7 +150,7 @@ Gets or sets the weighting factor for the failure criterion in the out-of-plane 
 
 <a id="MaximumStrainSettings.MaterialTwoDirectionFailureWeightingFactor"></a>
 
-### *property* MaximumStrainSettings.MaterialTwoDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.MaterialTwoDirectionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the failure criterion in the material 2 direction.
 
@@ -158,7 +158,7 @@ Gets or sets the weighting factor for the failure criterion in the material 2 di
 
 <a id="MaximumStrainSettings.OverrideMaterial"></a>
 
-### *property* MaximumStrainSettings.OverrideMaterial *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.OverrideMaterial *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the global strain limits are used, overriding material-specific limits.
 
@@ -166,7 +166,7 @@ Gets or sets whether the global strain limits are used, overriding material-spec
 
 <a id="MaximumStrainSettings.ShearLimitOneThree"></a>
 
-### *property* MaximumStrainSettings.ShearLimitOneThree *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.ShearLimitOneThree *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the global out-of-plane shear strain limit (eSxz).
 : Only used if OverrideMaterial is true.
@@ -175,7 +175,7 @@ Gets or sets the global out-of-plane shear strain limit (eSxz).
 
 <a id="MaximumStrainSettings.ShearLimitOneTwo"></a>
 
-### *property* MaximumStrainSettings.ShearLimitOneTwo *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.ShearLimitOneTwo *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the global in-plane shear strain limit (eSxy).
 : Only used if OverrideMaterial is true.
@@ -184,7 +184,7 @@ Gets or sets the global in-plane shear strain limit (eSxy).
 
 <a id="MaximumStrainSettings.ShearLimitTwoThree"></a>
 
-### *property* MaximumStrainSettings.ShearLimitTwoThree *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.ShearLimitTwoThree *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the global out-of-plane shear strain limit (eSyz).
 : Only used if OverrideMaterial is true.
@@ -193,7 +193,7 @@ Gets or sets the global out-of-plane shear strain limit (eSyz).
 
 <a id="MaximumStrainSettings.ShearOneThreeFailureWeightingFactor"></a>
 
-### *property* MaximumStrainSettings.ShearOneThreeFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.ShearOneThreeFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for failure due to out-of-plane shear e13.
 
@@ -201,7 +201,7 @@ Gets or sets the weighting factor for failure due to out-of-plane shear e13.
 
 <a id="MaximumStrainSettings.ShearOneTwoFailureWeightingFactor"></a>
 
-### *property* MaximumStrainSettings.ShearOneTwoFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.ShearOneTwoFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for failure due to in-plane shear e12.
 
@@ -209,7 +209,7 @@ Gets or sets the weighting factor for failure due to in-plane shear e12.
 
 <a id="MaximumStrainSettings.ShearTwoThreeFailureWeightingFactor"></a>
 
-### *property* MaximumStrainSettings.ShearTwoThreeFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.ShearTwoThreeFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for failure due to out-of-plane shear e23.
 
@@ -217,7 +217,7 @@ Gets or sets the weighting factor for failure due to out-of-plane shear e23.
 
 <a id="MaximumStrainSettings.TensileLimitMaterialOneDirection"></a>
 
-### *property* MaximumStrainSettings.TensileLimitMaterialOneDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.TensileLimitMaterialOneDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the global tensile strain limit in the material 1 direction (eXt).
 : Only used if OverrideMaterial is true.
@@ -226,7 +226,7 @@ Gets or sets the global tensile strain limit in the material 1 direction (eXt).
 
 <a id="MaximumStrainSettings.TensileLimitMaterialThreeDirection"></a>
 
-### *property* MaximumStrainSettings.TensileLimitMaterialThreeDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.TensileLimitMaterialThreeDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the global tensile strain limit in the out-of-plane direction (eZt).
 : Only used if OverrideMaterial is true.
@@ -235,7 +235,7 @@ Gets or sets the global tensile strain limit in the out-of-plane direction (eZt)
 
 <a id="MaximumStrainSettings.TensileLimitMaterialTwoDirection"></a>
 
-### *property* MaximumStrainSettings.TensileLimitMaterialTwoDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStrainSettings.TensileLimitMaterialTwoDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the global tensile strain limit in the material 2 direction (eYt).
 : Only used if OverrideMaterial is true.

@@ -62,7 +62,7 @@ Defines a ImagePlane.
 
 <a id="ImagePlane.Children"></a>
 
-### *property* ImagePlane.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets the list of children.
 
 <a id="ImagePlane.Comments"></a>
 
-### *property* ImagePlane.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -78,7 +78,7 @@ Gets the list of associated comments.
 
 <a id="ImagePlane.CoordinateSystem"></a>
 
-### *property* ImagePlane.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the coordinate system object used for defining the plane’s location and orientation.  This property is restricted to cartesian coordinate systems.
 
@@ -86,7 +86,7 @@ Gets or sets the coordinate system object used for defining the plane’s locati
 
 <a id="ImagePlane.CoordinateSystemVisible"></a>
 
-### *property* ImagePlane.CoordinateSystemVisible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.CoordinateSystemVisible *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the annotation for the image’s coordinate system is rendered.
 
@@ -102,7 +102,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImagePlane.FlipHorizontally"></a>
 
-### *property* ImagePlane.FlipHorizontally *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.FlipHorizontally *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the rendered image on the plane should be flipped horizontally.
 
@@ -110,7 +110,7 @@ Gets or sets whether the rendered image on the plane should be flipped horizonta
 
 <a id="ImagePlane.FlipVertically"></a>
 
-### *property* ImagePlane.FlipVertically *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.FlipVertically *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the rendered image on the plane should be flipped vertically.
 
@@ -126,7 +126,7 @@ Gets or sets the physical height of the image plane.
 
 <a id="ImagePlane.ImageFilePath"></a>
 
-### *property* ImagePlane.ImageFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.ImageFilePath *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the file path for the rendered image.
 
@@ -134,7 +134,7 @@ Gets the file path for the rendered image.
 
 <a id="ImagePlane.Images"></a>
 
-### *property* ImagePlane.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -150,7 +150,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImagePlane.PixelHeight"></a>
 
-### *property* ImagePlane.PixelHeight *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.PixelHeight *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the pixel height of the plane’s image.
 
@@ -158,7 +158,7 @@ Gets the pixel height of the plane’s image.
 
 <a id="ImagePlane.PixelWidth"></a>
 
-### *property* ImagePlane.PixelWidth *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.PixelWidth *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the pixel width of the plane’s image.
 
@@ -166,7 +166,7 @@ Gets the pixel width of the plane’s image.
 
 <a id="ImagePlane.Properties"></a>
 
-### *property* ImagePlane.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -174,7 +174,7 @@ Gets the list of properties for this object.
 
 <a id="ImagePlane.ShowAlways"></a>
 
-### *property* ImagePlane.ShowAlways *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.ShowAlways *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the image plane will be shown independent of the active object in the tree.
 
@@ -182,7 +182,7 @@ Gets or sets whether the image plane will be shown independent of the active obj
 
 <a id="ImagePlane.Translucency"></a>
 
-### *property* ImagePlane.Translucency *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.Translucency *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the translucency of the plane, as a percentage ranging from 0 to 100.
 
@@ -190,7 +190,7 @@ Gets or sets the translucency of the plane, as a percentage ranging from 0 to 10
 
 <a id="ImagePlane.VisibleProperties"></a>
 
-### *property* ImagePlane.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -234,7 +234,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImagePlane.CreateParameter"></a>
 
-### ImagePlane.CreateParameter(propName: System.String)
+### ImagePlane.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -258,7 +258,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImagePlane.GetChildren"></a>
 
-### ImagePlane.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImagePlane.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -266,7 +266,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImagePlane.GetParameter"></a>
 
-### ImagePlane.GetParameter(propName: System.String)
+### ImagePlane.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -290,7 +290,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ImagePlane.Import"></a>
 
-### ImagePlane.Import(filePath: System.String)
+### ImagePlane.Import(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the model’s bounding box, respecting the image’s aspect ratio.
 
@@ -298,7 +298,7 @@ Sets the image which is rendered to this plane, specified by filePath.  Upon suc
 
 <a id="ImagePlane.PropertyByAPIName"></a>
 
-### ImagePlane.PropertyByAPIName(name: System.String)
+### ImagePlane.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -309,7 +309,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImagePlane.PropertyByName"></a>
 
-### ImagePlane.PropertyByName(name: System.String)
+### ImagePlane.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -317,7 +317,7 @@ Get a property by its unique name.
 
 <a id="ImagePlane.RemoveParameter"></a>
 
-### ImagePlane.RemoveParameter(propName: System.String)
+### ImagePlane.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

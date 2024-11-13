@@ -17,7 +17,7 @@ CondensedPartInterface class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+|------------------------------------------------------------------------|--------------------------------------------|
 | [`AllSelection`](#CondensedPartInterface.AllSelection)                 | AllSelection property.                     |
 | [`NamedSelection`](#CondensedPartInterface.NamedSelection)             | Gets or Sets NamedSelection                |
 | [`RemotePointSelection`](#CondensedPartInterface.RemotePointSelection) | Gets or Sets RemotePointSelection          |
@@ -37,7 +37,7 @@ AllSelection property.
 
 <a id="CondensedPartInterface.NamedSelection"></a>
 
-### *property* CondensedPartInterface.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInterface.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets NamedSelection
 
@@ -45,7 +45,7 @@ Gets or Sets NamedSelection
 
 <a id="CondensedPartInterface.RemotePointSelection"></a>
 
-### *property* CondensedPartInterface.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInterface.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets RemotePointSelection
 
@@ -53,7 +53,7 @@ Gets or Sets RemotePointSelection
 
 <a id="CondensedPartInterface.Type"></a>
 
-### *property* CondensedPartInterface.Type *: [Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartInterfaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInterface.Type *: [Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceType](../../../Mechanical/DataModel/Enums/CondensedPartInterfaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets Condensed part interface type
 

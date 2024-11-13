@@ -17,7 +17,7 @@ Specifies the LimitBCDirection.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------- |
+| ---------------------------------- |
 | [`All`](#LimitBCDirection.All) |
 | [`X`](#LimitBCDirection.X) |
 | [`Y`](#LimitBCDirection.Y) |

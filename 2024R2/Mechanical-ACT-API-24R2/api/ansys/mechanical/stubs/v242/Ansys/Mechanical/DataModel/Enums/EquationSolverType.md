@@ -17,7 +17,7 @@ Specifies the EquationSolverType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`AMG`](#EquationSolverType.AMG) |
 | [`Frontal`](#EquationSolverType.Frontal) |
 | [`ICCG`](#EquationSolverType.ICCG) |

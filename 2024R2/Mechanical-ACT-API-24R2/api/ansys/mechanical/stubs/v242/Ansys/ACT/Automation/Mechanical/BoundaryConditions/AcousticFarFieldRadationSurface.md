@@ -59,7 +59,7 @@ Defines a AcousticFarFieldRadationSurface.
 
 <a id="AcousticFarFieldRadationSurface.Children"></a>
 
-### *property* AcousticFarFieldRadationSurface.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldRadationSurface.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="AcousticFarFieldRadationSurface.Comments"></a>
 
-### *property* AcousticFarFieldRadationSurface.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldRadationSurface.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -91,7 +91,7 @@ Gets or sets the EquivalentSurfaceLocation.
 
 <a id="AcousticFarFieldRadationSurface.Figures"></a>
 
-### *property* AcousticFarFieldRadationSurface.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldRadationSurface.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -99,7 +99,7 @@ Gets the list of associated figures.
 
 <a id="AcousticFarFieldRadationSurface.Images"></a>
 
-### *property* AcousticFarFieldRadationSurface.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldRadationSurface.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -123,7 +123,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticFarFieldRadationSurface.Properties"></a>
 
-### *property* AcousticFarFieldRadationSurface.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldRadationSurface.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -131,7 +131,7 @@ Gets the list of properties for this object.
 
 <a id="AcousticFarFieldRadationSurface.ReadOnly"></a>
 
-### *property* AcousticFarFieldRadationSurface.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldRadationSurface.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -139,7 +139,7 @@ Gets or sets the ReadOnly.
 
 <a id="AcousticFarFieldRadationSurface.SharedRefBody"></a>
 
-### *property* AcousticFarFieldRadationSurface.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldRadationSurface.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -147,7 +147,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticFarFieldRadationSurface.Suppressed"></a>
 
-### *property* AcousticFarFieldRadationSurface.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldRadationSurface.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -155,7 +155,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticFarFieldRadationSurface.VisibleProperties"></a>
 
-### *property* AcousticFarFieldRadationSurface.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldRadationSurface.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -191,7 +191,7 @@ Creates a new child Figure.
 
 <a id="AcousticFarFieldRadationSurface.AddImage"></a>
 
-### AcousticFarFieldRadationSurface.AddImage(filePath: System.String)
+### AcousticFarFieldRadationSurface.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -211,7 +211,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticFarFieldRadationSurface.CreateParameter"></a>
 
-### AcousticFarFieldRadationSurface.CreateParameter(propName: System.String)
+### AcousticFarFieldRadationSurface.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticFarFieldRadationSurface.GetChildren"></a>
 
-### AcousticFarFieldRadationSurface.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticFarFieldRadationSurface.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticFarFieldRadationSurface.GetParameter"></a>
 
-### AcousticFarFieldRadationSurface.GetParameter(propName: System.String)
+### AcousticFarFieldRadationSurface.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -275,7 +275,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticFarFieldRadationSurface.PropertyByAPIName"></a>
 
-### AcousticFarFieldRadationSurface.PropertyByAPIName(name: System.String)
+### AcousticFarFieldRadationSurface.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -286,7 +286,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticFarFieldRadationSurface.PropertyByName"></a>
 
-### AcousticFarFieldRadationSurface.PropertyByName(name: System.String)
+### AcousticFarFieldRadationSurface.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Get a property by its unique name.
 
 <a id="AcousticFarFieldRadationSurface.RemoveParameter"></a>
 
-### AcousticFarFieldRadationSurface.RemoveParameter(propName: System.String)
+### AcousticFarFieldRadationSurface.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

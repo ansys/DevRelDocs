@@ -17,7 +17,7 @@ ISolveProcessSettings interface.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`AdditionalCommandLineArguments`](#ISolveProcessSettings.AdditionalCommandLineArguments)   | Gets or sets the “Additional Command Line Arguments” field.           |
 | [`CustomExecutablePath`](#ISolveProcessSettings.CustomExecutablePath)                       | Gets or sets the “Custom Executable Name (with path)” field.          |
 | [`DCSAutoDownloadResults`](#ISolveProcessSettings.DCSAutoDownloadResults)                   | Gets or sets the “DCS Auto Download Results” field.                   |
@@ -41,7 +41,7 @@ ISolveProcessSettings interface.
 
 <a id="ISolveProcessSettings.AdditionalCommandLineArguments"></a>
 
-### *property* ISolveProcessSettings.AdditionalCommandLineArguments *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.AdditionalCommandLineArguments *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “Additional Command Line Arguments” field.
 
@@ -49,7 +49,7 @@ Gets or sets the “Additional Command Line Arguments” field.
 
 <a id="ISolveProcessSettings.CustomExecutablePath"></a>
 
-### *property* ISolveProcessSettings.CustomExecutablePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.CustomExecutablePath *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “Custom Executable Name (with path)” field.
 
@@ -57,7 +57,7 @@ Gets or sets the “Custom Executable Name (with path)” field.
 
 <a id="ISolveProcessSettings.DCSAutoDownloadResults"></a>
 
-### *property* ISolveProcessSettings.DCSAutoDownloadResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.DCSAutoDownloadResults *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “DCS Auto Download Results” field.
 
@@ -65,7 +65,7 @@ Gets or sets the “DCS Auto Download Results” field.
 
 <a id="ISolveProcessSettings.DistributeSolution"></a>
 
-### *property* ISolveProcessSettings.DistributeSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.DistributeSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the boolean “Distribute Solution (if possible)” field.
 
@@ -81,7 +81,7 @@ Gets or sets the “GPU Acceleration Device” field.
 
 <a id="ISolveProcessSettings.HybridParallel"></a>
 
-### *property* ISolveProcessSettings.HybridParallel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.HybridParallel *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the boolean “Hybrid Parallel (Mechanical APDL)” field.
 
@@ -89,7 +89,7 @@ Gets or sets the boolean “Hybrid Parallel (Mechanical APDL)” field.
 
 <a id="ISolveProcessSettings.LicenseQueuing"></a>
 
-### *property* ISolveProcessSettings.LicenseQueuing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.LicenseQueuing *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “License Queuing: Wait for Available License” field.
 
@@ -113,7 +113,7 @@ Gets the SolverMemorySettings object for the configuration.
 
 <a id="ISolveProcessSettings.MaxNumberOfCores"></a>
 
-### *property* ISolveProcessSettings.MaxNumberOfCores *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.MaxNumberOfCores *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “Maximum number of utilized cores” field.
 
@@ -121,7 +121,7 @@ Gets or sets the “Maximum number of utilized cores” field.
 
 <a id="ISolveProcessSettings.NumberOfGPUDevices"></a>
 
-### *property* ISolveProcessSettings.NumberOfGPUDevices *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.NumberOfGPUDevices *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “Number of utilized GPU devices” field.
 
@@ -129,7 +129,7 @@ Gets or sets the “Number of utilized GPU devices” field.
 
 <a id="ISolveProcessSettings.NumberOfProcesses"></a>
 
-### *property* ISolveProcessSettings.NumberOfProcesses *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.NumberOfProcesses *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “Number of processes” field.
 
@@ -137,7 +137,7 @@ Gets or sets the “Number of processes” field.
 
 <a id="ISolveProcessSettings.SolveInSynchronousMode"></a>
 
-### *property* ISolveProcessSettings.SolveInSynchronousMode *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.SolveInSynchronousMode *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “Solve in synchronous mode” field.
 
@@ -145,7 +145,7 @@ Gets or sets the “Solve in synchronous mode” field.
 
 <a id="ISolveProcessSettings.ThreadsPerProcess"></a>
 
-### *property* ISolveProcessSettings.ThreadsPerProcess *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.ThreadsPerProcess *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “Threads per process” field.
 
@@ -153,7 +153,7 @@ Gets or sets the “Threads per process” field.
 
 <a id="ISolveProcessSettings.UseSharedLicense"></a>
 
-### *property* ISolveProcessSettings.UseSharedLicense *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.UseSharedLicense *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the “Use Shared License, if possible” field.
 
@@ -161,7 +161,7 @@ Gets or sets the “Use Shared License, if possible” field.
 
 <a id="ISolveProcessSettings.UserString"></a>
 
-### *property* ISolveProcessSettings.UserString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveProcessSettings.UserString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the User String field.
 

@@ -17,7 +17,7 @@ Specifies the MethodType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`AllQuad`](#MethodType.AllQuad) |
 | [`AllTriAllTet`](#MethodType.AllTriAllTet) |
 | [`Automatic`](#MethodType.Automatic) |

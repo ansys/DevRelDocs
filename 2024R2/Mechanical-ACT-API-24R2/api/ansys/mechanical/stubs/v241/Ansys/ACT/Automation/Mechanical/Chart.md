@@ -17,7 +17,7 @@ Defines a Chart.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Chart.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Chart.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#Chart.AddImage)                               | Creates a new child Image.                                                        |
@@ -36,7 +36,7 @@ Defines a Chart.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------|---------------------------------------------------------------|
 | [`Caption`](#Chart.Caption)                                 | Gets or sets the Caption.                                     |
 | [`Children`](#Chart.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Chart.Comments)                               | Gets the list of associated comments.                         |
@@ -61,7 +61,7 @@ Defines a Chart.
 
 <a id="Chart.Caption"></a>
 
-### *property* Chart.Caption *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Caption *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Caption.
 
@@ -69,7 +69,7 @@ Gets or sets the Caption.
 
 <a id="Chart.Children"></a>
 
-### *property* Chart.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -77,7 +77,7 @@ Gets the list of children.
 
 <a id="Chart.Comments"></a>
 
-### *property* Chart.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -85,7 +85,7 @@ Gets the list of associated comments.
 
 <a id="Chart.Content"></a>
 
-### *property* Chart.Content *: [Ansys.Mechanical.DataModel.Enums.ChartReportType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartReportType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartReportType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Content *: [Ansys.Mechanical.DataModel.Enums.ChartReportType](../../../Mechanical/DataModel/Enums/ChartReportType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartReportType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Content.
 
@@ -93,7 +93,7 @@ Gets or sets the Content.
 
 <a id="Chart.DataModelObjectCategory"></a>
 
-### *property* Chart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -101,7 +101,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Chart.Gridlines"></a>
 
-### *property* Chart.Gridlines *: [Ansys.Mechanical.DataModel.Enums.ChartGridlines](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartGridlines.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartGridlines) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Gridlines *: [Ansys.Mechanical.DataModel.Enums.ChartGridlines](../../../Mechanical/DataModel/Enums/ChartGridlines.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartGridlines) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Gridlines.
 
@@ -109,7 +109,7 @@ Gets or sets the Gridlines.
 
 <a id="Chart.Images"></a>
 
-### *property* Chart.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -125,7 +125,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Chart.ModalDisplayType"></a>
 
-### *property* Chart.ModalDisplayType *: [Ansys.Mechanical.DataModel.Enums.ChartModalType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartModalType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartModalType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.ModalDisplayType *: [Ansys.Mechanical.DataModel.Enums.ChartModalType](../../../Mechanical/DataModel/Enums/ChartModalType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartModalType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalDisplayType.
 
@@ -133,7 +133,7 @@ Gets or sets the ModalDisplayType.
 
 <a id="Chart.OutlineSelection"></a>
 
-### *property* Chart.OutlineSelection *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.OutlineSelection *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OutlineSelection.
 
@@ -141,7 +141,7 @@ Gets or sets the OutlineSelection.
 
 <a id="Chart.PlotStyle"></a>
 
-### *property* Chart.PlotStyle *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.PlotStyle *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PlotStyle.
 
@@ -149,7 +149,7 @@ Gets or sets the PlotStyle.
 
 <a id="Chart.Properties"></a>
 
-### *property* Chart.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -157,7 +157,7 @@ Gets the list of properties for this object.
 
 <a id="Chart.Scale"></a>
 
-### *property* Chart.Scale *: [Ansys.Mechanical.DataModel.Enums.ChartScale](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartScale.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartScale) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.Scale *: [Ansys.Mechanical.DataModel.Enums.ChartScale](../../../Mechanical/DataModel/Enums/ChartScale.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartScale) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Scale.
 
@@ -165,7 +165,7 @@ Gets or sets the Scale.
 
 <a id="Chart.VisibleProperties"></a>
 
-### *property* Chart.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -181,7 +181,7 @@ Use to control the X Axis property of the chart.
 
 <a id="Chart.XAxisLabel"></a>
 
-### *property* Chart.XAxisLabel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.XAxisLabel *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisLabel.
 
@@ -189,7 +189,7 @@ Gets or sets the XAxisLabel.
 
 <a id="Chart.YAxisLabel"></a>
 
-### *property* Chart.YAxisLabel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Chart.YAxisLabel *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YAxisLabel.
 
@@ -217,7 +217,7 @@ Creates a new child Comment.
 
 <a id="Chart.AddImage"></a>
 
-### Chart.AddImage(filePath: System.String)
+### Chart.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -237,7 +237,7 @@ Copies all visible properties from this object to another.
 
 <a id="Chart.CreateParameter"></a>
 
-### Chart.CreateParameter(propName: System.String)
+### Chart.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -261,7 +261,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Chart.GetChildren"></a>
 
-### Chart.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Chart.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -269,7 +269,7 @@ Gets the list of children, filtered by type.
 
 <a id="Chart.GetParameter"></a>
 
-### Chart.GetParameter(propName: System.String)
+### Chart.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -293,7 +293,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Chart.PropertyByAPIName"></a>
 
-### Chart.PropertyByAPIName(name: System.String)
+### Chart.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -304,7 +304,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Chart.PropertyByName"></a>
 
-### Chart.PropertyByName(name: System.String)
+### Chart.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -312,7 +312,7 @@ Get a property by its unique name.
 
 <a id="Chart.RemoveParameter"></a>
 
-### Chart.RemoveParameter(propName: System.String)
+### Chart.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

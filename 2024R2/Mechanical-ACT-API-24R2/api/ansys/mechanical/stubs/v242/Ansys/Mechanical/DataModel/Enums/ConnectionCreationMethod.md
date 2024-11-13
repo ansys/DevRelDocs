@@ -17,7 +17,7 @@ Specifies the ConnectionCreationMethod.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------ |
 | [`InputFile`](#ConnectionCreationMethod.InputFile) |
 | [`Manual`](#ConnectionCreationMethod.Manual) |
 

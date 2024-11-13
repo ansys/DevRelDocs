@@ -26,7 +26,7 @@ Defines a Progress.
 
 <a id="Progress.SetProgress"></a>
 
-### Progress.SetProgress(uiProgress: System.UInt32, uiMessage: System.String, uiSubProgress: System.UInt32, uiSubMessage: System.String)
+### Progress.SetProgress(uiProgress: [int](https://docs.python.org/3/library/functions.html#int), uiMessage: [str](https://docs.python.org/3/library/stdtypes.html#str), uiSubProgress: [int](https://docs.python.org/3/library/functions.html#int), uiSubMessage: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Set the current progress state
 

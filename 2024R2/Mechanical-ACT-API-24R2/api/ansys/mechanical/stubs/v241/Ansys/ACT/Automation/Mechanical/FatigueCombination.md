@@ -17,7 +17,7 @@ Defines a FatigueCombination.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#FatigueCombination.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#FatigueCombination.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddDamage`](#FatigueCombination.AddDamage)                             | Creates a new FatigueDamage                                                       |
@@ -38,7 +38,7 @@ Defines a FatigueCombination.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#FatigueCombination.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#FatigueCombination.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#FatigueCombination.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -53,7 +53,7 @@ Defines a FatigueCombination.
 
 <a id="FatigueCombination.Children"></a>
 
-### *property* FatigueCombination.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueCombination.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -61,7 +61,7 @@ Gets the list of children.
 
 <a id="FatigueCombination.Comments"></a>
 
-### *property* FatigueCombination.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueCombination.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -69,7 +69,7 @@ Gets the list of associated comments.
 
 <a id="FatigueCombination.DataModelObjectCategory"></a>
 
-### *property* FatigueCombination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueCombination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -77,7 +77,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FatigueCombination.Images"></a>
 
-### *property* FatigueCombination.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueCombination.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -93,7 +93,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FatigueCombination.Properties"></a>
 
-### *property* FatigueCombination.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueCombination.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -101,7 +101,7 @@ Gets the list of properties for this object.
 
 <a id="FatigueCombination.VisibleProperties"></a>
 
-### *property* FatigueCombination.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueCombination.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -137,7 +137,7 @@ Creates a new FatigueDamage
 
 <a id="FatigueCombination.AddImage"></a>
 
-### FatigueCombination.AddImage(filePath: System.String)
+### FatigueCombination.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -157,7 +157,7 @@ Copies all visible properties from this object to another.
 
 <a id="FatigueCombination.CreateParameter"></a>
 
-### FatigueCombination.CreateParameter(propName: System.String)
+### FatigueCombination.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -189,7 +189,7 @@ Run the EvaluateAllResults action.
 
 <a id="FatigueCombination.GetChildren"></a>
 
-### FatigueCombination.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FatigueCombination.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -197,7 +197,7 @@ Gets the list of children, filtered by type.
 
 <a id="FatigueCombination.GetParameter"></a>
 
-### FatigueCombination.GetParameter(propName: System.String)
+### FatigueCombination.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -221,7 +221,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FatigueCombination.PropertyByAPIName"></a>
 
-### FatigueCombination.PropertyByAPIName(name: System.String)
+### FatigueCombination.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -232,7 +232,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FatigueCombination.PropertyByName"></a>
 
-### FatigueCombination.PropertyByName(name: System.String)
+### FatigueCombination.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -240,7 +240,7 @@ Get a property by its unique name.
 
 <a id="FatigueCombination.RemoveParameter"></a>
 
-### FatigueCombination.RemoveParameter(propName: System.String)
+### FatigueCombination.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

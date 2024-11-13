@@ -17,7 +17,7 @@ Defines a ContactSolutionInformation.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ContactSolutionInformation.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ContactSolutionInformation.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#ContactSolutionInformation.AddImage)                               | Creates a new child Image.                                                        |
@@ -36,7 +36,7 @@ Defines a ContactSolutionInformation.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ContactSolutionInformation.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ContactSolutionInformation.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#ContactSolutionInformation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -52,7 +52,7 @@ Defines a ContactSolutionInformation.
 
 <a id="ContactSolutionInformation.Children"></a>
 
-### *property* ContactSolutionInformation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactSolutionInformation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -60,7 +60,7 @@ Gets the list of children.
 
 <a id="ContactSolutionInformation.Comments"></a>
 
-### *property* ContactSolutionInformation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactSolutionInformation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -68,7 +68,7 @@ Gets the list of associated comments.
 
 <a id="ContactSolutionInformation.DataModelObjectCategory"></a>
 
-### *property* ContactSolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactSolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -76,7 +76,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ContactSolutionInformation.Images"></a>
 
-### *property* ContactSolutionInformation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactSolutionInformation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -92,7 +92,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactSolutionInformation.Properties"></a>
 
-### *property* ContactSolutionInformation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactSolutionInformation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -100,7 +100,7 @@ Gets the list of properties for this object.
 
 <a id="ContactSolutionInformation.UpdateInterval"></a>
 
-### *property* ContactSolutionInformation.UpdateInterval *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactSolutionInformation.UpdateInterval *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UpdateInterval.
 
@@ -108,7 +108,7 @@ Gets or sets the UpdateInterval.
 
 <a id="ContactSolutionInformation.VisibleProperties"></a>
 
-### *property* ContactSolutionInformation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactSolutionInformation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -136,7 +136,7 @@ Creates a new child Comment.
 
 <a id="ContactSolutionInformation.AddImage"></a>
 
-### ContactSolutionInformation.AddImage(filePath: System.String)
+### ContactSolutionInformation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -156,7 +156,7 @@ Copies all visible properties from this object to another.
 
 <a id="ContactSolutionInformation.CreateParameter"></a>
 
-### ContactSolutionInformation.CreateParameter(propName: System.String)
+### ContactSolutionInformation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -180,7 +180,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ContactSolutionInformation.GetChildren"></a>
 
-### ContactSolutionInformation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ContactSolutionInformation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -188,7 +188,7 @@ Gets the list of children, filtered by type.
 
 <a id="ContactSolutionInformation.GetParameter"></a>
 
-### ContactSolutionInformation.GetParameter(propName: System.String)
+### ContactSolutionInformation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -212,7 +212,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactSolutionInformation.PropertyByAPIName"></a>
 
-### ContactSolutionInformation.PropertyByAPIName(name: System.String)
+### ContactSolutionInformation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -223,7 +223,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactSolutionInformation.PropertyByName"></a>
 
-### ContactSolutionInformation.PropertyByName(name: System.String)
+### ContactSolutionInformation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -231,7 +231,7 @@ Get a property by its unique name.
 
 <a id="ContactSolutionInformation.RemoveParameter"></a>
 
-### ContactSolutionInformation.RemoveParameter(propName: System.String)
+### ContactSolutionInformation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

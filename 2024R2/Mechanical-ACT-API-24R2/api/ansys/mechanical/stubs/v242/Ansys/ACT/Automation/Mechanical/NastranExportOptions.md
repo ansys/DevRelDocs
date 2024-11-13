@@ -17,7 +17,7 @@ Defines the NastranExportOptions.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+|------------------------------------------------------------|-----------------------------------|
 | [`AnalysisType`](#NastranExportOptions.AnalysisType)       | Analysis type.                    |
 | [`GridCS`](#NastranExportOptions.GridCS)                   | Grid coordinate system number.    |
 | [`GroundCheck`](#NastranExportOptions.GroundCheck)         | Ground check.                     |
@@ -35,7 +35,7 @@ Defines the NastranExportOptions.
 
 <a id="NastranExportOptions.AnalysisType"></a>
 
-### *property* NastranExportOptions.AnalysisType *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.AnalysisType *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Analysis type.
 
@@ -43,7 +43,7 @@ Analysis type.
 
 <a id="NastranExportOptions.GridCS"></a>
 
-### *property* NastranExportOptions.GridCS *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.GridCS *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Grid coordinate system number.
 
@@ -51,7 +51,7 @@ Grid coordinate system number.
 
 <a id="NastranExportOptions.GroundCheck"></a>
 
-### *property* NastranExportOptions.GroundCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.GroundCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Ground check.
 
@@ -59,7 +59,7 @@ Ground check.
 
 <a id="NastranExportOptions.JointStiffness"></a>
 
-### *property* NastranExportOptions.JointStiffness *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.JointStiffness *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Joint stiffness.
 
@@ -67,7 +67,7 @@ Joint stiffness.
 
 <a id="NastranExportOptions.Modes"></a>
 
-### *property* NastranExportOptions.Modes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.Modes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Modes.
 
@@ -75,7 +75,7 @@ Modes.
 
 <a id="NastranExportOptions.NastranFilename"></a>
 
-### *property* NastranExportOptions.NastranFilename *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.NastranFilename *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Full path of Nastran export file.
 
@@ -83,7 +83,7 @@ Full path of Nastran export file.
 
 <a id="NastranExportOptions.Offset"></a>
 
-### *property* NastranExportOptions.Offset *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.Offset *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Offset.
 
@@ -91,7 +91,7 @@ Offset.
 
 <a id="NastranExportOptions.PyramidElements"></a>
 
-### *property* NastranExportOptions.PyramidElements *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.PyramidElements *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Pyramid elements.
 
@@ -99,7 +99,7 @@ Pyramid elements.
 
 <a id="NastranExportOptions.Time"></a>
 
-### *property* NastranExportOptions.Time *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.Time *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Time.
 
@@ -107,7 +107,7 @@ Time.
 
 <a id="NastranExportOptions.WTMass"></a>
 
-### *property* NastranExportOptions.WTMass *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NastranExportOptions.WTMass *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 WTMass.
 

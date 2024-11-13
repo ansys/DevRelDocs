@@ -92,7 +92,7 @@ Gets or sets the AnalysisType.
 
 <a id="FatigueTool.BinSize"></a>
 
-### *property* FatigueTool.BinSize *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.BinSize *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BinSize.
 
@@ -100,7 +100,7 @@ Gets or sets the BinSize.
 
 <a id="FatigueTool.Children"></a>
 
-### *property* FatigueTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -108,7 +108,7 @@ Gets the list of children.
 
 <a id="FatigueTool.Comments"></a>
 
-### *property* FatigueTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -116,7 +116,7 @@ Gets the list of associated comments.
 
 <a id="FatigueTool.CustomUnitsName"></a>
 
-### *property* FatigueTool.CustomUnitsName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.CustomUnitsName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Custom Units Name.
 
@@ -148,7 +148,7 @@ Gets or sets the ExposureDuration.
 
 <a id="FatigueTool.FatigueStrengthFactor"></a>
 
-### *property* FatigueTool.FatigueStrengthFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.FatigueStrengthFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FatigueStrengthFactor.
 
@@ -172,7 +172,7 @@ Gets or sets the FrequencySelection.
 
 <a id="FatigueTool.HistoryDataLocation"></a>
 
-### *property* FatigueTool.HistoryDataLocation *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.HistoryDataLocation *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HistoryDataLocation.
 
@@ -180,7 +180,7 @@ Gets or sets the HistoryDataLocation.
 
 <a id="FatigueTool.Images"></a>
 
-### *property* FatigueTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -188,7 +188,7 @@ Gets the list of associated images.
 
 <a id="FatigueTool.InfiniteLife"></a>
 
-### *property* FatigueTool.InfiniteLife *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.InfiniteLife *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InfiniteLife.
 
@@ -204,7 +204,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FatigueTool.LoadingRatio"></a>
 
-### *property* FatigueTool.LoadingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.LoadingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadingRatio.
 
@@ -220,7 +220,7 @@ Gets or sets the LoadingType.
 
 <a id="FatigueTool.MaximumDataPointsToPlot"></a>
 
-### *property* FatigueTool.MaximumDataPointsToPlot *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.MaximumDataPointsToPlot *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumDataPointsToPlot.
 
@@ -252,7 +252,7 @@ Gets or sets the OneCycleIsEqualTo.
 
 <a id="FatigueTool.Properties"></a>
 
-### *property* FatigueTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -268,7 +268,7 @@ Gets or sets the ResultsInput.
 
 <a id="FatigueTool.ScaleFactor"></a>
 
-### *property* FatigueTool.ScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.ScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactor.
 
@@ -292,7 +292,7 @@ Gets or sets the UnitsName.
 
 <a id="FatigueTool.UseQuickRainflowCounting"></a>
 
-### *property* FatigueTool.UseQuickRainflowCounting *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.UseQuickRainflowCounting *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseQuickRainflowCounting.
 
@@ -300,7 +300,7 @@ Gets or sets the UseQuickRainflowCounting.
 
 <a id="FatigueTool.VisibleProperties"></a>
 
-### *property* FatigueTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueTool.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -376,7 +376,7 @@ Creates a new FatigueHysteresis
 
 <a id="FatigueTool.AddImage"></a>
 
-### FatigueTool.AddImage(filePath: System.String)
+### FatigueTool.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -428,7 +428,7 @@ Copies all visible properties from this object to another.
 
 <a id="FatigueTool.CreateParameter"></a>
 
-### FatigueTool.CreateParameter(propName: System.String)
+### FatigueTool.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -468,7 +468,7 @@ Run the EvaluateAllResults action.
 
 <a id="FatigueTool.GetChildren"></a>
 
-### FatigueTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FatigueTool.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -476,7 +476,7 @@ Gets the list of children, filtered by type.
 
 <a id="FatigueTool.GetParameter"></a>
 
-### FatigueTool.GetParameter(propName: System.String)
+### FatigueTool.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -500,7 +500,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FatigueTool.PropertyByAPIName"></a>
 
-### FatigueTool.PropertyByAPIName(name: System.String)
+### FatigueTool.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -511,7 +511,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FatigueTool.PropertyByName"></a>
 
-### FatigueTool.PropertyByName(name: System.String)
+### FatigueTool.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -519,7 +519,7 @@ Get a property by its unique name.
 
 <a id="FatigueTool.RemoveParameter"></a>
 
-### FatigueTool.RemoveParameter(propName: System.String)
+### FatigueTool.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the ThermoelasticDampingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`Off`](#ThermoelasticDampingType.Off) |
 | [`On`](#ThermoelasticDampingType.On) |
 

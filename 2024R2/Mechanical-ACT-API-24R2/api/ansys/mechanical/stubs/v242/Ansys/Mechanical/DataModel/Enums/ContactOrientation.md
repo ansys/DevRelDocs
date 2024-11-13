@@ -17,7 +17,7 @@ Specifies the ContactOrientation.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`Circle`](#ContactOrientation.Circle) |
 | [`Cylinder`](#ContactOrientation.Cylinder) |
 | [`ProgramControlled`](#ContactOrientation.ProgramControlled) |

@@ -17,7 +17,7 @@ Specifies the WeakSpringsType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- |
 | [`Off`](#WeakSpringsType.Off) |
 | [`On`](#WeakSpringsType.On) |
 | [`ProgramControlled`](#WeakSpringsType.ProgramControlled) |

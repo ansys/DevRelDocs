@@ -17,7 +17,7 @@ Wrapper for Graphics in Mechanical.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`CreatePixelPoint`](#MechanicalGraphicsWrapper.CreatePixelPoint)       | Creates a point from pixel coordinates (ie. window coordinates).                         |
 | [`CreateVector3D`](#MechanicalGraphicsWrapper.CreateVector3D)           | Create a 3D vector from world coordinates.                                               |
 | [`CreateWorldPoint`](#MechanicalGraphicsWrapper.CreateWorldPoint)       | Create a point from world coordinates.                                                   |
@@ -32,7 +32,7 @@ Wrapper for Graphics in Mechanical.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+|-----------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [`Camera`](#MechanicalGraphicsWrapper.Camera)                                     | Gets the camera.                                          |
 | [`GlobalLegendSettings`](#MechanicalGraphicsWrapper.GlobalLegendSettings)         | Gets the Global Graphics Legend Settings.                 |
 | [`KeyframeAnimationUtility`](#MechanicalGraphicsWrapper.KeyframeAnimationUtility) | A utility for creating animations based on keyframes.     |
@@ -105,7 +105,7 @@ Returns the collection of section planes used by graphics
 
 <a id="MechanicalGraphicsWrapper.Unit"></a>
 
-### *property* MechanicalGraphicsWrapper.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MechanicalGraphicsWrapper.Unit *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current graphics unit.
 
@@ -125,7 +125,7 @@ Gets the Graphics View Options.
 
 <a id="MechanicalGraphicsWrapper.CreatePixelPoint"></a>
 
-### MechanicalGraphicsWrapper.CreatePixelPoint(x: System.Int32, y: System.Int32)
+### MechanicalGraphicsWrapper.CreatePixelPoint(x: [int](https://docs.python.org/3/library/functions.html#int), y: [int](https://docs.python.org/3/library/functions.html#int))
 
 Creates a point from pixel coordinates (ie. window coordinates).
 
@@ -133,7 +133,7 @@ Creates a point from pixel coordinates (ie. window coordinates).
 
 <a id="MechanicalGraphicsWrapper.CreateVector3D"></a>
 
-### MechanicalGraphicsWrapper.CreateVector3D(x: System.Double, y: System.Double, z: System.Double)
+### MechanicalGraphicsWrapper.CreateVector3D(x: [float](https://docs.python.org/3/library/functions.html#float), y: [float](https://docs.python.org/3/library/functions.html#float), z: [float](https://docs.python.org/3/library/functions.html#float))
 
 Create a 3D vector from world coordinates.
 
@@ -141,7 +141,7 @@ Create a 3D vector from world coordinates.
 
 <a id="MechanicalGraphicsWrapper.CreateWorldPoint"></a>
 
-### MechanicalGraphicsWrapper.CreateWorldPoint(x: System.Double, y: System.Double, z: System.Double)
+### MechanicalGraphicsWrapper.CreateWorldPoint(x: [float](https://docs.python.org/3/library/functions.html#float), y: [float](https://docs.python.org/3/library/functions.html#float), z: [float](https://docs.python.org/3/library/functions.html#float))
 
 Create a point from world coordinates.
 
@@ -149,7 +149,7 @@ Create a point from world coordinates.
 
 <a id="MechanicalGraphicsWrapper.Export3D"></a>
 
-### MechanicalGraphicsWrapper.Export3D(filePath: System.String, format3d: [Ansys.Mechanical.DataModel.Enums.Graphics3DExportFormat](../../../Mechanical/DataModel/Enums/Graphics3DExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.Graphics3DExportFormat), settings: [Ansys.Mechanical.Graphics.Graphics3DExportSettings](../../../Mechanical/Graphics/Graphics3DExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Graphics3DExportSettings))
+### MechanicalGraphicsWrapper.Export3D(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format3d: [Ansys.Mechanical.DataModel.Enums.Graphics3DExportFormat](../../../Mechanical/DataModel/Enums/Graphics3DExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.Graphics3DExportFormat), settings: [Ansys.Mechanical.Graphics.Graphics3DExportSettings](../../../Mechanical/Graphics/Graphics3DExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Graphics3DExportSettings))
 
 Exports the current Graphics display in a 3d format to a file.
 
@@ -157,7 +157,7 @@ Exports the current Graphics display in a 3d format to a file.
 
 <a id="MechanicalGraphicsWrapper.ExportImage"></a>
 
-### MechanicalGraphicsWrapper.ExportImage(filePath: System.String, formatImage: [Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat](../../../Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat), settings: [Ansys.Mechanical.Graphics.GraphicsImageExportSettings](../../../Mechanical/Graphics/GraphicsImageExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.GraphicsImageExportSettings))
+### MechanicalGraphicsWrapper.ExportImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), formatImage: [Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat](../../../Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat), settings: [Ansys.Mechanical.Graphics.GraphicsImageExportSettings](../../../Mechanical/Graphics/GraphicsImageExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.GraphicsImageExportSettings))
 
 Exports the current graphics display to a 2D image file.
 
@@ -165,7 +165,7 @@ Exports the current graphics display to a 2D image file.
 
 <a id="MechanicalGraphicsWrapper.ExportScreenToImage"></a>
 
-### MechanicalGraphicsWrapper.ExportScreenToImage(filePath: System.String)
+### MechanicalGraphicsWrapper.ExportScreenToImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ExportScreenToImage method.
 
@@ -173,7 +173,7 @@ ExportScreenToImage method.
 
 <a id="MechanicalGraphicsWrapper.ExportViewports"></a>
 
-### MechanicalGraphicsWrapper.ExportViewports(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat](../../../Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat), settings: [Ansys.Mechanical.Graphics.GraphicsViewportsExportSettings](../../../Mechanical/Graphics/GraphicsViewportsExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.GraphicsViewportsExportSettings))
+### MechanicalGraphicsWrapper.ExportViewports(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat](../../../Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat), settings: [Ansys.Mechanical.Graphics.GraphicsViewportsExportSettings](../../../Mechanical/Graphics/GraphicsViewportsExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.GraphicsViewportsExportSettings))
 
 Creates a composite of images exported from each open viewport.
 

@@ -30,7 +30,7 @@ Represents an ET command.
 
 <a id="ETCommand.Ename"></a>
 
-### *property* ETCommand.Ename *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ETCommand.Ename *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element name.
 
@@ -38,7 +38,7 @@ Gets the element name.
 
 <a id="ETCommand.Id"></a>
 
-### *property* ETCommand.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ETCommand.Id *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element number.
 
@@ -46,7 +46,7 @@ Gets the element number.
 
 <a id="ETCommand.Index"></a>
 
-### *property* ETCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ETCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -54,7 +54,7 @@ Gets the command index.
 
 <a id="ETCommand.Keyopts"></a>
 
-### *property* ETCommand.Keyopts *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandKeyOpt.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ETCommand.Keyopts *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt](CommandKeyOpt.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the key options.
 
@@ -62,7 +62,7 @@ Gets the key options.
 
 <a id="ETCommand.Name"></a>
 
-### *property* ETCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ETCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 

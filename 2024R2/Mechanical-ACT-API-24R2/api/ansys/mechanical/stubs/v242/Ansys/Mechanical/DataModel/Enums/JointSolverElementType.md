@@ -17,7 +17,7 @@ Specifies the JointSolverElementType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------ |
 | [`ContactDirect`](#JointSolverElementType.ContactDirect) |
 | [`Element`](#JointSolverElementType.Element) |
 | [`ProgramControlled`](#JointSolverElementType.ProgramControlled) |

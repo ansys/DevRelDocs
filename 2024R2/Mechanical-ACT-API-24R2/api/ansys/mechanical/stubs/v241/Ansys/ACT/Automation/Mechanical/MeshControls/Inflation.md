@@ -17,7 +17,7 @@ Defines a Inflation.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Inflation.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Inflation.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Inflation.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -39,7 +39,7 @@ Defines a Inflation.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------|---------------------------------------------------------------|
 | [`Active`](#Inflation.Active)                                   | Gets the Active.                                              |
 | [`AspectRatio`](#Inflation.AspectRatio)                         | Gets or sets the AspectRatio.                                 |
 | [`BoundaryLocation`](#Inflation.BoundaryLocation)               | Gets or sets the BoundaryLocation.                            |
@@ -71,7 +71,7 @@ Defines a Inflation.
 
 <a id="Inflation.Active"></a>
 
-### *property* Inflation.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Active.
 
@@ -79,7 +79,7 @@ Gets the Active.
 
 <a id="Inflation.AspectRatio"></a>
 
-### *property* Inflation.AspectRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.AspectRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AspectRatio.
 
@@ -95,7 +95,7 @@ Gets or sets the BoundaryLocation.
 
 <a id="Inflation.BoundaryNamedSelection"></a>
 
-### *property* Inflation.BoundaryNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.BoundaryNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryNamedSelection.
 
@@ -103,7 +103,7 @@ Gets or sets the BoundaryNamedSelection.
 
 <a id="Inflation.Children"></a>
 
-### *property* Inflation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -111,7 +111,7 @@ Gets the list of children.
 
 <a id="Inflation.Comments"></a>
 
-### *property* Inflation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -119,7 +119,7 @@ Gets the list of associated comments.
 
 <a id="Inflation.DataModelObjectCategory"></a>
 
-### *property* Inflation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -127,7 +127,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Inflation.Figures"></a>
 
-### *property* Inflation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -143,7 +143,7 @@ Gets or sets the FirstLayerHeight.
 
 <a id="Inflation.GrowthRate"></a>
 
-### *property* Inflation.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -151,7 +151,7 @@ Gets or sets the GrowthRate.
 
 <a id="Inflation.Images"></a>
 
-### *property* Inflation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -159,7 +159,7 @@ Gets the list of associated images.
 
 <a id="Inflation.InflationAlgorithm"></a>
 
-### *property* Inflation.InflationAlgorithm *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.InflationAlgorithm *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InflationAlgorithm.
 
@@ -167,7 +167,7 @@ Gets or sets the InflationAlgorithm.
 
 <a id="Inflation.InflationOption"></a>
 
-### *property* Inflation.InflationOption *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.InflationOption *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InflationOption.
 
@@ -191,7 +191,7 @@ Gets or sets the Location.
 
 <a id="Inflation.MaximumLayers"></a>
 
-### *property* Inflation.MaximumLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.MaximumLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumLayers.
 
@@ -207,7 +207,7 @@ Gets or sets the MaximumThickness.
 
 <a id="Inflation.NamedSelection"></a>
 
-### *property* Inflation.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -215,7 +215,7 @@ Gets or sets the NamedSelection.
 
 <a id="Inflation.NumberOfLayers"></a>
 
-### *property* Inflation.NumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.NumberOfLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfLayers.
 
@@ -223,7 +223,7 @@ Gets or sets the NumberOfLayers.
 
 <a id="Inflation.Properties"></a>
 
-### *property* Inflation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -231,7 +231,7 @@ Gets the list of properties for this object.
 
 <a id="Inflation.ScopingMethod"></a>
 
-### *property* Inflation.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -239,7 +239,7 @@ Gets or sets the ScopingMethod.
 
 <a id="Inflation.Suppressed"></a>
 
-### *property* Inflation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -247,7 +247,7 @@ Gets or sets the Suppressed.
 
 <a id="Inflation.TransitionRatio"></a>
 
-### *property* Inflation.TransitionRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.TransitionRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransitionRatio.
 
@@ -255,7 +255,7 @@ Gets or sets the TransitionRatio.
 
 <a id="Inflation.VisibleProperties"></a>
 
-### *property* Inflation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Inflation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -291,7 +291,7 @@ Creates a new child Figure.
 
 <a id="Inflation.AddImage"></a>
 
-### Inflation.AddImage(filePath: System.String)
+### Inflation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -311,7 +311,7 @@ Copies all visible properties from this object to another.
 
 <a id="Inflation.CreateParameter"></a>
 
-### Inflation.CreateParameter(propName: System.String)
+### Inflation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -343,7 +343,7 @@ Generate the Mesh.
 
 <a id="Inflation.GetChildren"></a>
 
-### Inflation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Inflation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -351,7 +351,7 @@ Gets the list of children, filtered by type.
 
 <a id="Inflation.GetParameter"></a>
 
-### Inflation.GetParameter(propName: System.String)
+### Inflation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -375,7 +375,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Inflation.PropertyByAPIName"></a>
 
-### Inflation.PropertyByAPIName(name: System.String)
+### Inflation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -386,7 +386,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Inflation.PropertyByName"></a>
 
-### Inflation.PropertyByName(name: System.String)
+### Inflation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -394,7 +394,7 @@ Get a property by its unique name.
 
 <a id="Inflation.RemoveParameter"></a>
 
-### Inflation.RemoveParameter(propName: System.String)
+### Inflation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

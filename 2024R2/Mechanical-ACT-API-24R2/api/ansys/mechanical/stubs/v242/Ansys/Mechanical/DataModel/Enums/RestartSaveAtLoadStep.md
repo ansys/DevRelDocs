@@ -17,7 +17,7 @@ Specifies the RestartSaveAtLoadStep.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------- |
 | [`All`](#RestartSaveAtLoadStep.All) |
 | [`Last`](#RestartSaveAtLoadStep.Last) |
 | [`None_`](#RestartSaveAtLoadStep.None_) |

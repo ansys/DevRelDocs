@@ -17,7 +17,7 @@ Specifies the DpfEvaluationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`CmsFiles`](#DpfEvaluationType.CmsFiles) |
 | [`MsupFiles`](#DpfEvaluationType.MsupFiles) |
 | [`Off`](#DpfEvaluationType.Off) |

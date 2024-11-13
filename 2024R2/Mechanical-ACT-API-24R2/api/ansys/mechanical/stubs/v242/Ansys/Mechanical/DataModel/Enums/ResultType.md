@@ -17,7 +17,7 @@ Specifies the ResultType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`AWeightedFrequencyBandSPL`](#ResultType.AWeightedFrequencyBandSPL) |
 | [`AWeightedSoundPressureLevel`](#ResultType.AWeightedSoundPressureLevel) |
 | [`AbsorptionCoefficient`](#ResultType.AbsorptionCoefficient) |

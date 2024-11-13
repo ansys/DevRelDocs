@@ -17,7 +17,7 @@ Specifies the MeshRestartControlsType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`Manual`](#MeshRestartControlsType.Manual) |
 | [`ProgramControlled`](#MeshRestartControlsType.ProgramControlled) |
 

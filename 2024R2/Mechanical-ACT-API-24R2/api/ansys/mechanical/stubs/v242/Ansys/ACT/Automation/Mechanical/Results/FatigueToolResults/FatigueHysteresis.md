@@ -17,7 +17,7 @@ Defines a FatigueHysteresis.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#FatigueHysteresis.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#FatigueHysteresis.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#FatigueHysteresis.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a FatigueHysteresis.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#FatigueHysteresis.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#FatigueHysteresis.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
 | [`ChartDimensions`](#FatigueHysteresis.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
@@ -109,7 +109,7 @@ Gets or sets the AccelerationType.
 
 <a id="FatigueHysteresis.BoundaryCondition"></a>
 
-### *property* FatigueHysteresis.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -133,7 +133,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="FatigueHysteresis.Children"></a>
 
-### *property* FatigueHysteresis.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -141,7 +141,7 @@ Gets the list of children.
 
 <a id="FatigueHysteresis.Comments"></a>
 
-### *property* FatigueHysteresis.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -149,7 +149,7 @@ Gets the list of associated comments.
 
 <a id="FatigueHysteresis.CoordinateSystem"></a>
 
-### *property* FatigueHysteresis.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -165,7 +165,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="FatigueHysteresis.CutFrequency"></a>
 
-### *property* FatigueHysteresis.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -205,7 +205,7 @@ Gets or sets the Duration.
 
 <a id="FatigueHysteresis.EnhancedTracking"></a>
 
-### *property* FatigueHysteresis.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -245,7 +245,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="FatigueHysteresis.GeometrySelectionString"></a>
 
-### *property* FatigueHysteresis.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -253,7 +253,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="FatigueHysteresis.Images"></a>
 
-### *property* FatigueHysteresis.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -277,7 +277,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FatigueHysteresis.IsSolved"></a>
 
-### *property* FatigueHysteresis.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -285,7 +285,7 @@ Gets the IsSolved.
 
 <a id="FatigueHysteresis.LoadStepNumber"></a>
 
-### *property* FatigueHysteresis.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -389,7 +389,7 @@ Gets the PhaseAngle.
 
 <a id="FatigueHysteresis.PointsPerSegment"></a>
 
-### *property* FatigueHysteresis.PointsPerSegment *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.PointsPerSegment *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PointsPerSegment.
 
@@ -397,7 +397,7 @@ Gets or sets the PointsPerSegment.
 
 <a id="FatigueHysteresis.Properties"></a>
 
-### *property* FatigueHysteresis.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -437,7 +437,7 @@ Gets the ResultChartType.
 
 <a id="FatigueHysteresis.SectorNumber"></a>
 
-### *property* FatigueHysteresis.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -461,7 +461,7 @@ Gets or sets the SpatialResolution.
 
 <a id="FatigueHysteresis.Spring"></a>
 
-### *property* FatigueHysteresis.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -477,7 +477,7 @@ Gets or sets the StressStrainType.
 
 <a id="FatigueHysteresis.Suppressed"></a>
 
-### *property* FatigueHysteresis.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -493,7 +493,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="FatigueHysteresis.UseParentFrequencyRange"></a>
 
-### *property* FatigueHysteresis.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -509,7 +509,7 @@ Gets or sets the VelocityType.
 
 <a id="FatigueHysteresis.VisibleProperties"></a>
 
-### *property* FatigueHysteresis.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueHysteresis.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -545,7 +545,7 @@ Creates a new child Comment.
 
 <a id="FatigueHysteresis.AddImage"></a>
 
-### FatigueHysteresis.AddImage(filePath: System.String)
+### FatigueHysteresis.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -573,7 +573,7 @@ Copies all visible properties from this object to another.
 
 <a id="FatigueHysteresis.CreateParameter"></a>
 
-### FatigueHysteresis.CreateParameter(propName: System.String)
+### FatigueHysteresis.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -605,7 +605,7 @@ Run the EvaluateAllResults action.
 
 <a id="FatigueHysteresis.ExportAnimation"></a>
 
-### FatigueHysteresis.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FatigueHysteresis.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -613,7 +613,7 @@ Run the ExportAnimation action.
 
 <a id="FatigueHysteresis.GetChildren"></a>
 
-### FatigueHysteresis.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FatigueHysteresis.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -621,7 +621,7 @@ Gets the list of children, filtered by type.
 
 <a id="FatigueHysteresis.GetParameter"></a>
 
-### FatigueHysteresis.GetParameter(propName: System.String)
+### FatigueHysteresis.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -645,7 +645,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FatigueHysteresis.PropertyByAPIName"></a>
 
-### FatigueHysteresis.PropertyByAPIName(name: System.String)
+### FatigueHysteresis.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -656,7 +656,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FatigueHysteresis.PropertyByName"></a>
 
-### FatigueHysteresis.PropertyByName(name: System.String)
+### FatigueHysteresis.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -664,7 +664,7 @@ Get a property by its unique name.
 
 <a id="FatigueHysteresis.RemoveParameter"></a>
 
-### FatigueHysteresis.RemoveParameter(propName: System.String)
+### FatigueHysteresis.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

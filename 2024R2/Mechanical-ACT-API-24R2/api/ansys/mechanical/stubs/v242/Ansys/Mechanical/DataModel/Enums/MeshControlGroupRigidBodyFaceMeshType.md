@@ -17,7 +17,7 @@ Specifies the MeshControlGroupRigidBodyFaceMeshType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`AllTri`](#MeshControlGroupRigidBodyFaceMeshType.AllTri) |
 | [`QuadAndTri`](#MeshControlGroupRigidBodyFaceMeshType.QuadAndTri) |
 

@@ -17,7 +17,7 @@ Specifies the CoordinateSystemBehavior.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`Manual`](#CoordinateSystemBehavior.Manual) |
 | [`ProgramControlled`](#CoordinateSystemBehavior.ProgramControlled) |
 

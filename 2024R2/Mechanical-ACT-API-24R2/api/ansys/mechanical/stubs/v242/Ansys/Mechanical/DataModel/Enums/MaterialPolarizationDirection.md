@@ -17,7 +17,7 @@ Specifies the MaterialPolarizationDirection.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------------------------- |
 | [`NegativeXDirection`](#MaterialPolarizationDirection.NegativeXDirection) |
 | [`PositiveXDirection`](#MaterialPolarizationDirection.PositiveXDirection) |
 

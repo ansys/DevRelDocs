@@ -17,7 +17,7 @@ Specifies the ScopingDisplay.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`AllBodies`](#ScopingDisplay.AllBodies) |
 | [`ResultOnly`](#ScopingDisplay.ResultOnly) |
 | [`ScopedBodies`](#ScopingDisplay.ScopedBodies) |

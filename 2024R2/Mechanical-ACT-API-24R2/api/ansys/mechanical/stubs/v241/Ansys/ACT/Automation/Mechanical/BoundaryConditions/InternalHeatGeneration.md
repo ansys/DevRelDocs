@@ -17,7 +17,7 @@ Defines a InternalHeatGeneration.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#InternalHeatGeneration.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#InternalHeatGeneration.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#InternalHeatGeneration.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -40,7 +40,7 @@ Defines a InternalHeatGeneration.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#InternalHeatGeneration.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#InternalHeatGeneration.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#InternalHeatGeneration.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -62,7 +62,7 @@ Defines a InternalHeatGeneration.
 
 <a id="InternalHeatGeneration.Children"></a>
 
-### *property* InternalHeatGeneration.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets the list of children.
 
 <a id="InternalHeatGeneration.Comments"></a>
 
-### *property* InternalHeatGeneration.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -78,7 +78,7 @@ Gets the list of associated comments.
 
 <a id="InternalHeatGeneration.DataModelObjectCategory"></a>
 
-### *property* InternalHeatGeneration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -86,7 +86,7 @@ Gets the current DataModelObject’s category.
 
 <a id="InternalHeatGeneration.Figures"></a>
 
-### *property* InternalHeatGeneration.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -94,7 +94,7 @@ Gets the list of associated figures.
 
 <a id="InternalHeatGeneration.Images"></a>
 
-### *property* InternalHeatGeneration.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -118,7 +118,7 @@ Gets or sets the Location.
 
 <a id="InternalHeatGeneration.Magnitude"></a>
 
-### *property* InternalHeatGeneration.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -126,7 +126,7 @@ Gets the Magnitude.
 
 <a id="InternalHeatGeneration.NumberOfSegments"></a>
 
-### *property* InternalHeatGeneration.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -134,7 +134,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="InternalHeatGeneration.Properties"></a>
 
-### *property* InternalHeatGeneration.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -142,7 +142,7 @@ Gets the list of properties for this object.
 
 <a id="InternalHeatGeneration.ReadOnly"></a>
 
-### *property* InternalHeatGeneration.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -158,7 +158,7 @@ Gets or sets the SharedRefBody.
 
 <a id="InternalHeatGeneration.Suppressed"></a>
 
-### *property* InternalHeatGeneration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -166,7 +166,7 @@ Gets or sets the Suppressed.
 
 <a id="InternalHeatGeneration.VisibleProperties"></a>
 
-### *property* InternalHeatGeneration.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InternalHeatGeneration.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -202,7 +202,7 @@ Creates a new child Figure.
 
 <a id="InternalHeatGeneration.AddImage"></a>
 
-### InternalHeatGeneration.AddImage(filePath: System.String)
+### InternalHeatGeneration.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -222,7 +222,7 @@ Copies all visible properties from this object to another.
 
 <a id="InternalHeatGeneration.CreateParameter"></a>
 
-### InternalHeatGeneration.CreateParameter(propName: System.String)
+### InternalHeatGeneration.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -246,7 +246,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="InternalHeatGeneration.GetActivateAtLoadStep"></a>
 
-### InternalHeatGeneration.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### InternalHeatGeneration.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -254,7 +254,7 @@ GetActivateAtLoadStep method.
 
 <a id="InternalHeatGeneration.GetChildren"></a>
 
-### InternalHeatGeneration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### InternalHeatGeneration.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -262,7 +262,7 @@ Gets the list of children, filtered by type.
 
 <a id="InternalHeatGeneration.GetParameter"></a>
 
-### InternalHeatGeneration.GetParameter(propName: System.String)
+### InternalHeatGeneration.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -294,7 +294,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="InternalHeatGeneration.PropertyByAPIName"></a>
 
-### InternalHeatGeneration.PropertyByAPIName(name: System.String)
+### InternalHeatGeneration.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -305,7 +305,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="InternalHeatGeneration.PropertyByName"></a>
 
-### InternalHeatGeneration.PropertyByName(name: System.String)
+### InternalHeatGeneration.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -313,7 +313,7 @@ Get a property by its unique name.
 
 <a id="InternalHeatGeneration.RemoveParameter"></a>
 
-### InternalHeatGeneration.RemoveParameter(propName: System.String)
+### InternalHeatGeneration.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -321,7 +321,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="InternalHeatGeneration.SetActivateAtLoadStep"></a>
 
-### InternalHeatGeneration.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### InternalHeatGeneration.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

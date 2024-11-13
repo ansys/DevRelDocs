@@ -17,7 +17,7 @@ Specifies the ActiveOrInactive.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------ |
 | [`Active`](#ActiveOrInactive.Active) |
 | [`Inactive`](#ActiveOrInactive.Inactive) |
 

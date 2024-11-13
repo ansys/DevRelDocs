@@ -28,7 +28,7 @@ Represents a SECCONTROL command.
 
 <a id="SeccontrolCommand.Index"></a>
 
-### *property* SeccontrolCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SeccontrolCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -36,7 +36,7 @@ Gets the command index.
 
 <a id="SeccontrolCommand.Name"></a>
 
-### *property* SeccontrolCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SeccontrolCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -44,7 +44,7 @@ Gets the command name.
 
 <a id="SeccontrolCommand.Values"></a>
 
-### *property* SeccontrolCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SeccontrolCommand.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

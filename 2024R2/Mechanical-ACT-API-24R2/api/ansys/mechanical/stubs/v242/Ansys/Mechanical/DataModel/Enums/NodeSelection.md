@@ -17,7 +17,7 @@ Specifies the NodeSelection.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------- |
 | [`AllNodes`](#NodeSelection.AllNodes) |
 | [`VisibleNodes`](#NodeSelection.VisibleNodes) |
 

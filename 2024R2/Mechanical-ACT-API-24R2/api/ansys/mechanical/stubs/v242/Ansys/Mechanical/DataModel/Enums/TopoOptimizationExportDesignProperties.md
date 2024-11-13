@@ -17,7 +17,7 @@ Specifies the TopoOptimizationExportDesignProperties.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------- |
 | [`AllAcceptedIterations`](#TopoOptimizationExportDesignProperties.AllAcceptedIterations) |
 | [`LastAcceptedIteration`](#TopoOptimizationExportDesignProperties.LastAcceptedIteration) |
 | [`No`](#TopoOptimizationExportDesignProperties.No) |

@@ -33,7 +33,7 @@ The application’s collection of solve configurations.
 
 <a id="SolveConfigurations.Count"></a>
 
-### *property* SolveConfigurations.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveConfigurations.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of solve configurations in the collection.
 
@@ -45,7 +45,7 @@ The number of solve configurations in the collection.
 
 <a id="SolveConfigurations.Add"></a>
 
-### SolveConfigurations.Add(item: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/SolveConfiguration.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration))
+### SolveConfigurations.Add(item: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](SolveConfiguration.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration))
 
 Adds the given SolveConfiguration object to the collection.
 
@@ -53,7 +53,7 @@ Adds the given SolveConfiguration object to the collection.
 
 <a id="SolveConfigurations.Remove"></a>
 
-### SolveConfigurations.Remove(item: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/SolveConfiguration.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration))
+### SolveConfigurations.Remove(item: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](SolveConfiguration.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration))
 
 Removes the given SolveConfiguration from the collection.
 

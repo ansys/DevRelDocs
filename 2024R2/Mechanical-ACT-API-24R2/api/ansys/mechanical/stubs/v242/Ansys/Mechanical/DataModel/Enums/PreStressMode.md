@@ -17,7 +17,7 @@ Specifies the PreStressMode.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------- |
 | [`Displacements`](#PreStressMode.Displacements) |
 | [`MaterialState`](#PreStressMode.MaterialState) |
 

@@ -32,7 +32,7 @@ Color constants, in BGR bitfield layout.
 
 <a id="Colors.Blue"></a>
 
-### *property* Colors.Blue *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Colors.Blue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
 
@@ -42,7 +42,7 @@ Blue property.
 
 <a id="Colors.Cyan"></a>
 
-### *property* Colors.Cyan *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Colors.Cyan *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
 
@@ -52,7 +52,7 @@ Cyan property.
 
 <a id="Colors.Gray"></a>
 
-### *property* Colors.Gray *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Colors.Gray *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
 
@@ -62,7 +62,7 @@ Gray property.
 
 <a id="Colors.Green"></a>
 
-### *property* Colors.Green *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Colors.Green *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
 
@@ -72,7 +72,7 @@ Green property.
 
 <a id="Colors.Red"></a>
 
-### *property* Colors.Red *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Colors.Red *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
 
@@ -82,7 +82,7 @@ Red property.
 
 <a id="Colors.White"></a>
 
-### *property* Colors.White *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Colors.White *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
 
@@ -92,7 +92,7 @@ White property.
 
 <a id="Colors.Yellow"></a>
 
-### *property* Colors.Yellow *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Colors.Yellow *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 * **Classmethod:**
 

@@ -17,7 +17,7 @@ Specifies the AMProcessSettingsType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |
 | [`PreheatTemperature`](#AMProcessSettingsType.PreheatTemperature) |
 | [`RoomTemperature`](#AMProcessSettingsType.RoomTemperature) |
 | [`SpecifiedTemperature`](#AMProcessSettingsType.SpecifiedTemperature) |

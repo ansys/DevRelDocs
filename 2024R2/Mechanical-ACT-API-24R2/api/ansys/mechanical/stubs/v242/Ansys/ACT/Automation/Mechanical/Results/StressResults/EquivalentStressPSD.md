@@ -17,7 +17,7 @@ Defines a EquivalentStressPSD.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#EquivalentStressPSD.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#EquivalentStressPSD.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#EquivalentStressPSD.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a EquivalentStressPSD.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#EquivalentStressPSD.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#EquivalentStressPSD.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#EquivalentStressPSD.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -129,7 +129,7 @@ Defines a EquivalentStressPSD.
 | [`Subtype`](#EquivalentStressPSD.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#EquivalentStressPSD.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#EquivalentStressPSD.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#EquivalentStressPSD.SurfaceCoating)                                                                                                                                             | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#EquivalentStressPSD.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#EquivalentStressPSD.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#EquivalentStressPSD.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#EquivalentStressPSD.Time)                                                           | Gets the Time.                                                         |
@@ -141,7 +141,7 @@ Defines a EquivalentStressPSD.
 | [`TotalInside`](#EquivalentStressPSD.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#EquivalentStressPSD.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#EquivalentStressPSD.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#EquivalentStressPSD.WaterfallShowTextOnMosaic)                                                                                                                       | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#EquivalentStressPSD.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -149,7 +149,7 @@ Defines a EquivalentStressPSD.
 
 <a id="EquivalentStressPSD.Amplitude"></a>
 
-### *property* EquivalentStressPSD.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -165,7 +165,7 @@ Gets the Average.
 
 <a id="EquivalentStressPSD.AverageAcrossBodies"></a>
 
-### *property* EquivalentStressPSD.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -205,7 +205,7 @@ Gets or sets the By.
 
 <a id="EquivalentStressPSD.CalculateTimeHistory"></a>
 
-### *property* EquivalentStressPSD.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -213,7 +213,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="EquivalentStressPSD.Children"></a>
 
-### *property* EquivalentStressPSD.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -221,7 +221,7 @@ Gets the list of children.
 
 <a id="EquivalentStressPSD.CombinationNumber"></a>
 
-### *property* EquivalentStressPSD.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -229,7 +229,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="EquivalentStressPSD.Comments"></a>
 
-### *property* EquivalentStressPSD.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -237,7 +237,7 @@ Gets the list of associated comments.
 
 <a id="EquivalentStressPSD.CoordinateSystem"></a>
 
-### *property* EquivalentStressPSD.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -247,7 +247,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="EquivalentStressPSD.CrackFrontNumber"></a>
 
-### *property* EquivalentStressPSD.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -255,7 +255,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="EquivalentStressPSD.CyclicMode"></a>
 
-### *property* EquivalentStressPSD.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -295,7 +295,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="EquivalentStressPSD.EnvironmentSelection"></a>
 
-### *property* EquivalentStressPSD.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -303,7 +303,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="EquivalentStressPSD.Figures"></a>
 
-### *property* EquivalentStressPSD.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -319,7 +319,7 @@ Gets or sets the Frequency.
 
 <a id="EquivalentStressPSD.GlobalIDs"></a>
 
-### *property* EquivalentStressPSD.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -335,7 +335,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="EquivalentStressPSD.HarmonicIndex"></a>
 
-### *property* EquivalentStressPSD.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -343,7 +343,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="EquivalentStressPSD.Identifier"></a>
 
-### *property* EquivalentStressPSD.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -351,7 +351,7 @@ Gets or sets the Identifier.
 
 <a id="EquivalentStressPSD.Images"></a>
 
-### *property* EquivalentStressPSD.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -367,7 +367,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EquivalentStressPSD.IsSolved"></a>
 
-### *property* EquivalentStressPSD.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -383,7 +383,7 @@ Gets or sets the ItemType.
 
 <a id="EquivalentStressPSD.IterationNumber"></a>
 
-### *property* EquivalentStressPSD.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -391,7 +391,7 @@ Gets the IterationNumber.
 
 <a id="EquivalentStressPSD.IterationStep"></a>
 
-### *property* EquivalentStressPSD.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -399,7 +399,7 @@ Gets or sets the IterationStep.
 
 <a id="EquivalentStressPSD.Layer"></a>
 
-### *property* EquivalentStressPSD.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -415,7 +415,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="EquivalentStressPSD.LoadMultiplier"></a>
 
-### *property* EquivalentStressPSD.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -423,7 +423,7 @@ Gets the LoadMultiplier.
 
 <a id="EquivalentStressPSD.LoadStep"></a>
 
-### *property* EquivalentStressPSD.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -431,7 +431,7 @@ Gets the LoadStep.
 
 <a id="EquivalentStressPSD.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* EquivalentStressPSD.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -439,7 +439,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="EquivalentStressPSD.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* EquivalentStressPSD.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -447,7 +447,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="EquivalentStressPSD.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* EquivalentStressPSD.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -455,7 +455,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="EquivalentStressPSD.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* EquivalentStressPSD.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -463,7 +463,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="EquivalentStressPSD.LoadStepNumber"></a>
 
-### *property* EquivalentStressPSD.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -487,7 +487,7 @@ Gets the Maximum.
 
 <a id="EquivalentStressPSD.MaximumOccursOn"></a>
 
-### *property* EquivalentStressPSD.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -551,7 +551,7 @@ Gets the Minimum.
 
 <a id="EquivalentStressPSD.MinimumOccursOn"></a>
 
-### *property* EquivalentStressPSD.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -575,7 +575,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="EquivalentStressPSD.Mode"></a>
 
-### *property* EquivalentStressPSD.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -583,7 +583,7 @@ Gets or sets the Mode.
 
 <a id="EquivalentStressPSD.NamedSelections"></a>
 
-### *property* EquivalentStressPSD.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -639,7 +639,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="EquivalentStressPSD.Plies"></a>
 
-### *property* EquivalentStressPSD.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -655,7 +655,7 @@ Gets the result table.
 
 <a id="EquivalentStressPSD.Ply"></a>
 
-### *property* EquivalentStressPSD.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -671,7 +671,7 @@ Gets or sets the Position.
 
 <a id="EquivalentStressPSD.Probability"></a>
 
-### *property* EquivalentStressPSD.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -679,7 +679,7 @@ Gets the Probability.
 
 <a id="EquivalentStressPSD.Properties"></a>
 
-### *property* EquivalentStressPSD.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -703,7 +703,7 @@ Gets or sets the ScaleFactor.
 
 <a id="EquivalentStressPSD.ScaleFactorValue"></a>
 
-### *property* EquivalentStressPSD.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -719,7 +719,7 @@ Gets or sets the ScopingMethod.
 
 <a id="EquivalentStressPSD.SetNumber"></a>
 
-### *property* EquivalentStressPSD.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -735,7 +735,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="EquivalentStressPSD.SolverComponentIDs"></a>
 
-### *property* EquivalentStressPSD.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -759,7 +759,7 @@ Gets or sets the SubScopeBy.
 
 <a id="EquivalentStressPSD.Substep"></a>
 
-### *property* EquivalentStressPSD.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -775,7 +775,7 @@ Gets or sets the Subtype.
 
 <a id="EquivalentStressPSD.Suppressed"></a>
 
-### *property* EquivalentStressPSD.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -879,7 +879,7 @@ Gets the TotalOutside.
 
 <a id="EquivalentStressPSD.VisibleProperties"></a>
 
-### *property* EquivalentStressPSD.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -887,7 +887,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EquivalentStressPSD.WaterfallShowTextOnMosaic"></a>
 
-### *property* EquivalentStressPSD.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressPSD.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -939,7 +939,7 @@ Creates a new child Figure.
 
 <a id="EquivalentStressPSD.AddImage"></a>
 
-### EquivalentStressPSD.AddImage(filePath: System.String)
+### EquivalentStressPSD.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -967,7 +967,7 @@ Copies all visible properties from this object to another.
 
 <a id="EquivalentStressPSD.CreateParameter"></a>
 
-### EquivalentStressPSD.CreateParameter(propName: System.String)
+### EquivalentStressPSD.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -1015,7 +1015,7 @@ Run the EvaluateAllResults action.
 
 <a id="EquivalentStressPSD.ExportAnimation"></a>
 
-### EquivalentStressPSD.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### EquivalentStressPSD.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1023,7 +1023,7 @@ Run the ExportAnimation action.
 
 <a id="EquivalentStressPSD.ExportToTextFile"></a>
 
-### EquivalentStressPSD.ExportToTextFile(filePath: System.String)
+### EquivalentStressPSD.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1039,7 +1039,7 @@ Run the FetchRemoteResult action.
 
 <a id="EquivalentStressPSD.GetChildren"></a>
 
-### EquivalentStressPSD.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EquivalentStressPSD.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1047,7 +1047,7 @@ Gets the list of children, filtered by type.
 
 <a id="EquivalentStressPSD.GetParameter"></a>
 
-### EquivalentStressPSD.GetParameter(propName: System.String)
+### EquivalentStressPSD.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1079,7 +1079,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="EquivalentStressPSD.PropertyByAPIName"></a>
 
-### EquivalentStressPSD.PropertyByAPIName(name: System.String)
+### EquivalentStressPSD.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1090,7 +1090,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EquivalentStressPSD.PropertyByName"></a>
 
-### EquivalentStressPSD.PropertyByName(name: System.String)
+### EquivalentStressPSD.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1098,7 +1098,7 @@ Get a property by its unique name.
 
 <a id="EquivalentStressPSD.RemoveParameter"></a>
 
-### EquivalentStressPSD.RemoveParameter(propName: System.String)
+### EquivalentStressPSD.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

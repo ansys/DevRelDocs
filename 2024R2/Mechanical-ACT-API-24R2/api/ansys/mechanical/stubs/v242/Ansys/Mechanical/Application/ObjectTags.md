@@ -17,7 +17,7 @@ Defines the collection of Mechanical’s tags.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+|------------------------------------|----------------------------------------------------------------------------------------------------|
 | [`Add`](#ObjectTags.Add)           | Adds a new tag to the collection. Throws an error if the tag already exists in the collection.     |
 | [`Clear`](#ObjectTags.Clear)       | Clears the collection, removing all objects from the tags in the collection.                       |
 | [`Contains`](#ObjectTags.Contains) | Returns whether or not the collection contains the given tag.                                      |
@@ -29,7 +29,7 @@ Defines the collection of Mechanical’s tags.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------|------------------------------------------|
+|------------------------------------|------------------------------------------|
 | [`Count`](#ObjectTags.Count)       | The number of tags in the collection.    |
 | [`Item`](#ObjectTags.Item)         | Item property.                           |
 | [`TagNames`](#ObjectTags.TagNames) | The names of the tags in the collection. |
@@ -40,7 +40,7 @@ Defines the collection of Mechanical’s tags.
 
 <a id="ObjectTags.Count"></a>
 
-### *property* ObjectTags.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ObjectTags.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of tags in the collection.
 
@@ -56,7 +56,7 @@ Item property.
 
 <a id="ObjectTags.TagNames"></a>
 
-### *property* ObjectTags.TagNames *: System.Collections.Generic.List[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ObjectTags.TagNames *: List[[str](https://docs.python.org/3/library/stdtypes.html#str)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The names of the tags in the collection.
 
@@ -92,7 +92,7 @@ Returns whether or not the collection contains the given tag.
 
 <a id="ObjectTags.GetTag"></a>
 
-### ObjectTags.GetTag(tagName: System.String)
+### ObjectTags.GetTag(tagName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Returns the tag in the collection with the given name.
 
@@ -116,7 +116,7 @@ Removes a tag if it exists in the collection.
 
 <a id="ObjectTags.RemoveAt"></a>
 
-### ObjectTags.RemoveAt(index: System.Int32)
+### ObjectTags.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Removes the tag at the given index from the collection.
 

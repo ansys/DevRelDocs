@@ -18,7 +18,7 @@ T:Ansys.Mechanical.Interfaces.IDataSeries implementation “Ansys.ACT.Automation
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------------------- |
 | [`HeatTransferCoefficient`](#VariableType.HeatTransferCoefficient) |
 | [`ID`](#VariableType.ID) |
 | [`Pressure`](#VariableType.Pressure) |

@@ -17,7 +17,7 @@ Defines a CircularTubeCrossSection.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CircularTubeCrossSection.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#CircularTubeCrossSection.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#CircularTubeCrossSection.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a CircularTubeCrossSection.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Area`](#CircularTubeCrossSection.Area)                                       | Gets the Area.                                                |
 | [`Children`](#CircularTubeCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CircularTubeCrossSection.Comments)                               | Gets the list of associated comments.                         |
@@ -67,7 +67,7 @@ Gets the Area.
 
 <a id="CircularTubeCrossSection.Children"></a>
 
-### *property* CircularTubeCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CircularTubeCrossSection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="CircularTubeCrossSection.Comments"></a>
 
-### *property* CircularTubeCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CircularTubeCrossSection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -83,7 +83,7 @@ Gets the list of associated comments.
 
 <a id="CircularTubeCrossSection.DataModelObjectCategory"></a>
 
-### *property* CircularTubeCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CircularTubeCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CircularTubeCrossSection.Figures"></a>
 
-### *property* CircularTubeCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CircularTubeCrossSection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -115,7 +115,7 @@ Gets the IZZ.
 
 <a id="CircularTubeCrossSection.Images"></a>
 
-### *property* CircularTubeCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CircularTubeCrossSection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -147,7 +147,7 @@ Gets or sets the OuterRadius.
 
 <a id="CircularTubeCrossSection.Properties"></a>
 
-### *property* CircularTubeCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CircularTubeCrossSection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -155,7 +155,7 @@ Gets the list of properties for this object.
 
 <a id="CircularTubeCrossSection.ReadOnly"></a>
 
-### *property* CircularTubeCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CircularTubeCrossSection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -163,7 +163,7 @@ Gets or sets the ReadOnly.
 
 <a id="CircularTubeCrossSection.VisibleProperties"></a>
 
-### *property* CircularTubeCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CircularTubeCrossSection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -199,7 +199,7 @@ Creates a new child Figure.
 
 <a id="CircularTubeCrossSection.AddImage"></a>
 
-### CircularTubeCrossSection.AddImage(filePath: System.String)
+### CircularTubeCrossSection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -219,7 +219,7 @@ Copies all visible properties from this object to another.
 
 <a id="CircularTubeCrossSection.CreateParameter"></a>
 
-### CircularTubeCrossSection.CreateParameter(propName: System.String)
+### CircularTubeCrossSection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -243,7 +243,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CircularTubeCrossSection.GetChildren"></a>
 
-### CircularTubeCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CircularTubeCrossSection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -251,7 +251,7 @@ Gets the list of children, filtered by type.
 
 <a id="CircularTubeCrossSection.GetParameter"></a>
 
-### CircularTubeCrossSection.GetParameter(propName: System.String)
+### CircularTubeCrossSection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -275,7 +275,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CircularTubeCrossSection.PropertyByAPIName"></a>
 
-### CircularTubeCrossSection.PropertyByAPIName(name: System.String)
+### CircularTubeCrossSection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -286,7 +286,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CircularTubeCrossSection.PropertyByName"></a>
 
-### CircularTubeCrossSection.PropertyByName(name: System.String)
+### CircularTubeCrossSection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Get a property by its unique name.
 
 <a id="CircularTubeCrossSection.RemoveParameter"></a>
 
-### CircularTubeCrossSection.RemoveParameter(propName: System.String)
+### CircularTubeCrossSection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

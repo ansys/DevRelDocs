@@ -34,7 +34,7 @@ NamedSelectionCriterion class.
 
 <a id="NamedSelectionCriterion.Action"></a>
 
-### *property* NamedSelectionCriterion.Action *: [Ansys.Mechanical.DataModel.Enums.SelectionActionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionActionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionActionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Action *: [Ansys.Mechanical.DataModel.Enums.SelectionActionType](../../../Mechanical/DataModel/Enums/SelectionActionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionActionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Action property.
 
@@ -42,7 +42,7 @@ Action property.
 
 <a id="NamedSelectionCriterion.Active"></a>
 
-### *property* NamedSelectionCriterion.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Active property.
 
@@ -58,7 +58,7 @@ CoordinateSystem property.
 
 <a id="NamedSelectionCriterion.Criterion"></a>
 
-### *property* NamedSelectionCriterion.Criterion *: [Ansys.Mechanical.DataModel.Enums.SelectionCriterionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionCriterionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Criterion *: [Ansys.Mechanical.DataModel.Enums.SelectionCriterionType](../../../Mechanical/DataModel/Enums/SelectionCriterionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Criterion property.
 
@@ -66,7 +66,7 @@ Criterion property.
 
 <a id="NamedSelectionCriterion.EntityType"></a>
 
-### *property* NamedSelectionCriterion.EntityType *: [Ansys.Mechanical.DataModel.Enums.SelectionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.EntityType *: [Ansys.Mechanical.DataModel.Enums.SelectionType](../../../Mechanical/DataModel/Enums/SelectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 EntityType property.
 
@@ -74,7 +74,7 @@ EntityType property.
 
 <a id="NamedSelectionCriterion.LowerBound"></a>
 
-### *property* NamedSelectionCriterion.LowerBound *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.LowerBound *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LowerBound property.
 
@@ -82,7 +82,7 @@ LowerBound property.
 
 <a id="NamedSelectionCriterion.Operator"></a>
 
-### *property* NamedSelectionCriterion.Operator *: [Ansys.Mechanical.DataModel.Enums.SelectionOperatorType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionOperatorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Operator *: [Ansys.Mechanical.DataModel.Enums.SelectionOperatorType](../../../Mechanical/DataModel/Enums/SelectionOperatorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionOperatorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Operator property.
 
@@ -90,7 +90,7 @@ Operator property.
 
 <a id="NamedSelectionCriterion.UpperBound"></a>
 
-### *property* NamedSelectionCriterion.UpperBound *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.UpperBound *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UpperBound property.
 
@@ -98,7 +98,7 @@ UpperBound property.
 
 <a id="NamedSelectionCriterion.Value"></a>
 
-### *property* NamedSelectionCriterion.Value *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Value *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Value property.
 

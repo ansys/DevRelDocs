@@ -67,7 +67,7 @@ Defines a ContactMatch.
 
 <a id="ContactMatch.Children"></a>
 
-### *property* ContactMatch.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="ContactMatch.Comments"></a>
 
-### *property* ContactMatch.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ContactMatch.Figures"></a>
 
-### *property* ContactMatch.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -99,7 +99,7 @@ Gets the list of associated figures.
 
 <a id="ContactMatch.Images"></a>
 
-### *property* ContactMatch.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactMatch.MasterBodies"></a>
 
-### *property* ContactMatch.MasterBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.MasterBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MasterBodies.
 
@@ -131,7 +131,7 @@ Gets or sets the MasterLocation.
 
 <a id="ContactMatch.Properties"></a>
 
-### *property* ContactMatch.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -155,7 +155,7 @@ ScopingMethod property.
 
 <a id="ContactMatch.SlaveBodies"></a>
 
-### *property* ContactMatch.SlaveBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.SlaveBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SlaveBodies.
 
@@ -171,7 +171,7 @@ Gets or sets the SlaveLocation.
 
 <a id="ContactMatch.SnapToBoundary"></a>
 
-### *property* ContactMatch.SnapToBoundary *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.SnapToBoundary *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SnapToBoundary.
 
@@ -195,7 +195,7 @@ Gets or sets the SnapType.
 
 <a id="ContactMatch.Suppressed"></a>
 
-### *property* ContactMatch.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -203,7 +203,7 @@ Gets or sets the Suppressed.
 
 <a id="ContactMatch.ToleranceSlider"></a>
 
-### *property* ContactMatch.ToleranceSlider *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.ToleranceSlider *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceSlider.
 
@@ -219,7 +219,7 @@ Gets or sets the ToleranceType.
 
 <a id="ContactMatch.VisibleProperties"></a>
 
-### *property* ContactMatch.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatch.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -255,7 +255,7 @@ Creates a new child Figure.
 
 <a id="ContactMatch.AddImage"></a>
 
-### ContactMatch.AddImage(filePath: System.String)
+### ContactMatch.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -275,7 +275,7 @@ Copies all visible properties from this object to another.
 
 <a id="ContactMatch.CreateParameter"></a>
 
-### ContactMatch.CreateParameter(propName: System.String)
+### ContactMatch.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -307,7 +307,7 @@ Run the Generate action.
 
 <a id="ContactMatch.GetChildren"></a>
 
-### ContactMatch.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ContactMatch.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -315,7 +315,7 @@ Gets the list of children, filtered by type.
 
 <a id="ContactMatch.GetParameter"></a>
 
-### ContactMatch.GetParameter(propName: System.String)
+### ContactMatch.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -339,7 +339,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactMatch.PropertyByAPIName"></a>
 
-### ContactMatch.PropertyByAPIName(name: System.String)
+### ContactMatch.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -350,7 +350,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactMatch.PropertyByName"></a>
 
-### ContactMatch.PropertyByName(name: System.String)
+### ContactMatch.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -358,7 +358,7 @@ Get a property by its unique name.
 
 <a id="ContactMatch.RemoveParameter"></a>
 
-### ContactMatch.RemoveParameter(propName: System.String)
+### ContactMatch.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Provides a way to create properties that can hold expressions.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [`DisplayName`](#ExpressionProperty.DisplayName)   | The name of the property shown in the UI. If not set, the Name property is used.                     |
 | [`GroupName`](#ExpressionProperty.GroupName)       | The group name of the property shown in the UI, and used to separate properties based on group name. |
 | [`Name`](#ExpressionProperty.Name)                 | The name of the property.                                                                            |
@@ -32,7 +32,7 @@ Provides a way to create properties that can hold expressions.
 
 <a id="ExpressionProperty.DisplayName"></a>
 
-### *property* ExpressionProperty.DisplayName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpressionProperty.DisplayName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the property shown in the UI. If not set, the Name property is used.
 
@@ -40,7 +40,7 @@ The name of the property shown in the UI. If not set, the Name property is used.
 
 <a id="ExpressionProperty.GroupName"></a>
 
-### *property* ExpressionProperty.GroupName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpressionProperty.GroupName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The group name of the property shown in the UI, and used to separate properties based on group name.
 
@@ -48,7 +48,7 @@ The group name of the property shown in the UI, and used to separate properties 
 
 <a id="ExpressionProperty.Name"></a>
 
-### *property* ExpressionProperty.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpressionProperty.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the property.
 
@@ -56,7 +56,7 @@ The name of the property.
 
 <a id="ExpressionProperty.ReadOnly"></a>
 
-### *property* ExpressionProperty.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpressionProperty.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns whether a property is readonly.
 
@@ -64,7 +64,7 @@ Returns whether a property is readonly.
 
 <a id="ExpressionProperty.Tooltip"></a>
 
-### *property* ExpressionProperty.Tooltip *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpressionProperty.Tooltip *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The tooltip of the property in the UI.
 
@@ -72,7 +72,7 @@ The tooltip of the property in the UI.
 
 <a id="ExpressionProperty.Value"></a>
 
-### *property* ExpressionProperty.Value *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpressionProperty.Value *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The stored value of the property.
 
@@ -80,7 +80,7 @@ The stored value of the property.
 
 <a id="ExpressionProperty.ValueString"></a>
 
-### *property* ExpressionProperty.ValueString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpressionProperty.ValueString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the string representation of the value.
 

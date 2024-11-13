@@ -78,7 +78,7 @@ Gets the AmbientTemperature.
 
 <a id="Radiation.Children"></a>
 
-### *property* Radiation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -86,7 +86,7 @@ Gets the list of children.
 
 <a id="Radiation.Comments"></a>
 
-### *property* Radiation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -126,7 +126,7 @@ Gets or sets the Emissivity.
 
 <a id="Radiation.Enclosure"></a>
 
-### *property* Radiation.Enclosure *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Enclosure *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Enclosure.
 
@@ -142,7 +142,7 @@ Gets or sets the EnclosureType.
 
 <a id="Radiation.Figures"></a>
 
-### *property* Radiation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -150,7 +150,7 @@ Gets the list of associated figures.
 
 <a id="Radiation.Images"></a>
 
-### *property* Radiation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -174,7 +174,7 @@ Gets or sets the Location.
 
 <a id="Radiation.NumberOfSegments"></a>
 
-### *property* Radiation.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -182,7 +182,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="Radiation.Properties"></a>
 
-### *property* Radiation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -190,7 +190,7 @@ Gets the list of properties for this object.
 
 <a id="Radiation.ReadOnly"></a>
 
-### *property* Radiation.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -198,7 +198,7 @@ Gets or sets the ReadOnly.
 
 <a id="Radiation.SharedRefBody"></a>
 
-### *property* Radiation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -214,7 +214,7 @@ Gets or sets the ShellFace.
 
 <a id="Radiation.Suppressed"></a>
 
-### *property* Radiation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -222,7 +222,7 @@ Gets or sets the Suppressed.
 
 <a id="Radiation.VisibleProperties"></a>
 
-### *property* Radiation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -258,7 +258,7 @@ Creates a new child Figure.
 
 <a id="Radiation.AddImage"></a>
 
-### Radiation.AddImage(filePath: System.String)
+### Radiation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -278,7 +278,7 @@ Copies all visible properties from this object to another.
 
 <a id="Radiation.CreateParameter"></a>
 
-### Radiation.CreateParameter(propName: System.String)
+### Radiation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -302,7 +302,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Radiation.GetActivateAtLoadStep"></a>
 
-### Radiation.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### Radiation.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -310,7 +310,7 @@ GetActivateAtLoadStep method.
 
 <a id="Radiation.GetChildren"></a>
 
-### Radiation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Radiation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -318,7 +318,7 @@ Gets the list of children, filtered by type.
 
 <a id="Radiation.GetComponentActivateAtLoadStep"></a>
 
-### Radiation.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### Radiation.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -326,7 +326,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="Radiation.GetParameter"></a>
 
-### Radiation.GetParameter(propName: System.String)
+### Radiation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -358,7 +358,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="Radiation.PropertyByAPIName"></a>
 
-### Radiation.PropertyByAPIName(name: System.String)
+### Radiation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -369,7 +369,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Radiation.PropertyByName"></a>
 
-### Radiation.PropertyByName(name: System.String)
+### Radiation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -377,7 +377,7 @@ Get a property by its unique name.
 
 <a id="Radiation.RemoveParameter"></a>
 
-### Radiation.RemoveParameter(propName: System.String)
+### Radiation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -385,7 +385,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Radiation.SetActivateAtLoadStep"></a>
 
-### Radiation.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### Radiation.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -393,7 +393,7 @@ SetActivateAtLoadStep method.
 
 <a id="Radiation.SetComponentActivateAtLoadStep"></a>
 
-### Radiation.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### Radiation.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

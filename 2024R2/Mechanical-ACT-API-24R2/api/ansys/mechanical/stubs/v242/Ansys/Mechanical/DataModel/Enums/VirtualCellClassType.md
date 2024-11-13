@@ -17,7 +17,7 @@ Specifies the VirtualCellClassType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------ |
 | [`VirtualEdge`](#VirtualCellClassType.VirtualEdge) |
 | [`VirtualFace`](#VirtualCellClassType.VirtualFace) |
 

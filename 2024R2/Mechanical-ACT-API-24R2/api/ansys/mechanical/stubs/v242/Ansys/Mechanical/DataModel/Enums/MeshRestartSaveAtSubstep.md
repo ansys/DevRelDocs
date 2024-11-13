@@ -17,7 +17,7 @@ Specifies the MeshRestartSaveAtSubstep.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------ |
 | [`All`](#MeshRestartSaveAtSubstep.All) |
 | [`Last`](#MeshRestartSaveAtSubstep.Last) |
 | [`SaveAtSubstepSpecified`](#MeshRestartSaveAtSubstep.SaveAtSubstepSpecified) |

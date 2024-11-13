@@ -17,7 +17,7 @@ Defines a AcousticPort.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticPort.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#AcousticPort.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#AcousticPort.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a AcousticPort.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#AcousticPort.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#AcousticPort.Comments)                                       | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#AcousticPort.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
@@ -62,7 +62,7 @@ Defines a AcousticPort.
 
 <a id="AcousticPort.Children"></a>
 
-### *property* AcousticPort.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets the list of children.
 
 <a id="AcousticPort.Comments"></a>
 
-### *property* AcousticPort.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -78,7 +78,7 @@ Gets the list of associated comments.
 
 <a id="AcousticPort.DataModelObjectCategory"></a>
 
-### *property* AcousticPort.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -86,7 +86,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticPort.Figures"></a>
 
-### *property* AcousticPort.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -94,7 +94,7 @@ Gets the list of associated figures.
 
 <a id="AcousticPort.Images"></a>
 
-### *property* AcousticPort.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -118,7 +118,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticPort.PortBehavior"></a>
 
-### *property* AcousticPort.PortBehavior *: [Ansys.Mechanical.DataModel.Enums.PortBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/PortBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PortBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.PortBehavior *: [Ansys.Mechanical.DataModel.Enums.PortBehavior](../../../../Mechanical/DataModel/Enums/PortBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PortBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PortBehavior.
 
@@ -126,7 +126,7 @@ Gets or sets the PortBehavior.
 
 <a id="AcousticPort.PortNumber"></a>
 
-### *property* AcousticPort.PortNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.PortNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PortNumber.
 
@@ -134,7 +134,7 @@ Gets the PortNumber.
 
 <a id="AcousticPort.PortPosition"></a>
 
-### *property* AcousticPort.PortPosition *: [Ansys.Mechanical.DataModel.Enums.PortPosition](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/PortPosition.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PortPosition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.PortPosition *: [Ansys.Mechanical.DataModel.Enums.PortPosition](../../../../Mechanical/DataModel/Enums/PortPosition.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PortPosition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PortPosition.
 
@@ -150,7 +150,7 @@ Gets or sets the PortSurfaceLocation.
 
 <a id="AcousticPort.Properties"></a>
 
-### *property* AcousticPort.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -158,7 +158,7 @@ Gets the list of properties for this object.
 
 <a id="AcousticPort.ReadOnly"></a>
 
-### *property* AcousticPort.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -174,7 +174,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticPort.Suppressed"></a>
 
-### *property* AcousticPort.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -182,7 +182,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticPort.VisibleProperties"></a>
 
-### *property* AcousticPort.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPort.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -218,7 +218,7 @@ Creates a new child Figure.
 
 <a id="AcousticPort.AddImage"></a>
 
-### AcousticPort.AddImage(filePath: System.String)
+### AcousticPort.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -238,7 +238,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticPort.CreateParameter"></a>
 
-### AcousticPort.CreateParameter(propName: System.String)
+### AcousticPort.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -262,7 +262,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticPort.GetChildren"></a>
 
-### AcousticPort.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticPort.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -270,7 +270,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticPort.GetParameter"></a>
 
-### AcousticPort.GetParameter(propName: System.String)
+### AcousticPort.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -302,7 +302,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticPort.PropertyByAPIName"></a>
 
-### AcousticPort.PropertyByAPIName(name: System.String)
+### AcousticPort.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -313,7 +313,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticPort.PropertyByName"></a>
 
-### AcousticPort.PropertyByName(name: System.String)
+### AcousticPort.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -321,7 +321,7 @@ Get a property by its unique name.
 
 <a id="AcousticPort.RemoveParameter"></a>
 
-### AcousticPort.RemoveParameter(propName: System.String)
+### AcousticPort.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

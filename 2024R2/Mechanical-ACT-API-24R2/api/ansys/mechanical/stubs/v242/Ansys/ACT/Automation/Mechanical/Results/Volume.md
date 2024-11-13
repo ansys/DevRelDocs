@@ -17,7 +17,7 @@ Defines a Volume.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Volume.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#Volume.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#Volume.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a Volume.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#Volume.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#Volume.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#Volume.By)                                                               | Gets or sets the By.                                                   |
@@ -99,7 +99,7 @@ Defines a Volume.
 | [`Substep`](#Volume.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#Volume.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#Volume.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#Volume.SurfaceCoating)                                                                                                               | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#Volume.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#Volume.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#Volume.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#Volume.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -108,7 +108,7 @@ Defines a Volume.
 | [`TimeForMinimumOfMinimumValues`](#Volume.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`Total`](#Volume.Total)                                                         | Gets the Total.                                                        |
 | [`VisibleProperties`](#Volume.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#Volume.WaterfallShowTextOnMosaic)                                                                                         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#Volume.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -116,7 +116,7 @@ Defines a Volume.
 
 <a id="Volume.Amplitude"></a>
 
-### *property* Volume.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -140,7 +140,7 @@ Gets or sets the By.
 
 <a id="Volume.CalculateTimeHistory"></a>
 
-### *property* Volume.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -148,7 +148,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="Volume.Children"></a>
 
-### *property* Volume.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -156,7 +156,7 @@ Gets the list of children.
 
 <a id="Volume.CombinationNumber"></a>
 
-### *property* Volume.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -164,7 +164,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="Volume.Comments"></a>
 
-### *property* Volume.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -172,7 +172,7 @@ Gets the list of associated comments.
 
 <a id="Volume.CoordinateSystem"></a>
 
-### *property* Volume.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -182,7 +182,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="Volume.CrackFrontNumber"></a>
 
-### *property* Volume.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -222,7 +222,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="Volume.Figures"></a>
 
-### *property* Volume.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -238,7 +238,7 @@ Gets or sets the Frequency.
 
 <a id="Volume.GlobalIDs"></a>
 
-### *property* Volume.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -254,7 +254,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="Volume.Identifier"></a>
 
-### *property* Volume.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -262,7 +262,7 @@ Gets or sets the Identifier.
 
 <a id="Volume.Images"></a>
 
-### *property* Volume.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -278,7 +278,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Volume.IsSolved"></a>
 
-### *property* Volume.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -294,7 +294,7 @@ Gets or sets the ItemType.
 
 <a id="Volume.IterationNumber"></a>
 
-### *property* Volume.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -302,7 +302,7 @@ Gets the IterationNumber.
 
 <a id="Volume.LoadStep"></a>
 
-### *property* Volume.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -310,7 +310,7 @@ Gets the LoadStep.
 
 <a id="Volume.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* Volume.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -318,7 +318,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="Volume.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* Volume.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -326,7 +326,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="Volume.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* Volume.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -334,7 +334,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="Volume.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* Volume.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -342,7 +342,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="Volume.LoadStepNumber"></a>
 
-### *property* Volume.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -366,7 +366,7 @@ Gets the Maximum.
 
 <a id="Volume.MaximumOccursOn"></a>
 
-### *property* Volume.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -398,7 +398,7 @@ Gets the Minimum.
 
 <a id="Volume.MinimumOccursOn"></a>
 
-### *property* Volume.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -422,7 +422,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="Volume.NamedSelections"></a>
 
-### *property* Volume.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -454,7 +454,7 @@ Gets the result table.
 
 <a id="Volume.Properties"></a>
 
-### *property* Volume.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -470,7 +470,7 @@ Gets or sets the ScopingMethod.
 
 <a id="Volume.SetNumber"></a>
 
-### *property* Volume.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -486,7 +486,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="Volume.SolverComponentIDs"></a>
 
-### *property* Volume.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -494,7 +494,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="Volume.Substep"></a>
 
-### *property* Volume.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -502,7 +502,7 @@ Gets the Substep.
 
 <a id="Volume.Suppressed"></a>
 
-### *property* Volume.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -582,7 +582,7 @@ Gets the Total.
 
 <a id="Volume.VisibleProperties"></a>
 
-### *property* Volume.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -590,7 +590,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Volume.WaterfallShowTextOnMosaic"></a>
 
-### *property* Volume.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Volume.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -642,7 +642,7 @@ Creates a new child Figure.
 
 <a id="Volume.AddImage"></a>
 
-### Volume.AddImage(filePath: System.String)
+### Volume.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -670,7 +670,7 @@ Copies all visible properties from this object to another.
 
 <a id="Volume.CreateParameter"></a>
 
-### Volume.CreateParameter(propName: System.String)
+### Volume.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -718,7 +718,7 @@ Run the EvaluateAllResults action.
 
 <a id="Volume.ExportAnimation"></a>
 
-### Volume.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### Volume.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -726,7 +726,7 @@ Run the ExportAnimation action.
 
 <a id="Volume.ExportToTextFile"></a>
 
-### Volume.ExportToTextFile(filePath: System.String)
+### Volume.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -742,7 +742,7 @@ Run the FetchRemoteResult action.
 
 <a id="Volume.GetChildren"></a>
 
-### Volume.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Volume.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -750,7 +750,7 @@ Gets the list of children, filtered by type.
 
 <a id="Volume.GetParameter"></a>
 
-### Volume.GetParameter(propName: System.String)
+### Volume.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -782,7 +782,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="Volume.PropertyByAPIName"></a>
 
-### Volume.PropertyByAPIName(name: System.String)
+### Volume.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -793,7 +793,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Volume.PropertyByName"></a>
 
-### Volume.PropertyByName(name: System.String)
+### Volume.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -801,7 +801,7 @@ Get a property by its unique name.
 
 <a id="Volume.RemoveParameter"></a>
 
-### Volume.RemoveParameter(propName: System.String)
+### Volume.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

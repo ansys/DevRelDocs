@@ -17,7 +17,7 @@ Specifies the SeqSelectionMode.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`ByNumber`](#SeqSelectionMode.ByNumber) |
 | [`First`](#SeqSelectionMode.First) |
 | [`Last`](#SeqSelectionMode.Last) |

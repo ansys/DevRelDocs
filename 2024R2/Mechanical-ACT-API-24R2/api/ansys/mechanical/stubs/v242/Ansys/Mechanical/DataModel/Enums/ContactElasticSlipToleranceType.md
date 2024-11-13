@@ -17,7 +17,7 @@ Specifies the ContactElasticSlipToleranceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------------- |
 | [`Factor`](#ContactElasticSlipToleranceType.Factor) |
 | [`ProgramControlled`](#ContactElasticSlipToleranceType.ProgramControlled) |
 | [`Value`](#ContactElasticSlipToleranceType.Value) |

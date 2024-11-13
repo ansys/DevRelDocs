@@ -29,7 +29,7 @@ Defines global legend settings.
 
 <a id="GlobalLegendSettings.LegendOrientation"></a>
 
-### *property* GlobalLegendSettings.LegendOrientation *: [Ansys.Mechanical.DataModel.Enums.LegendOrientationType](../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalLegendSettings.LegendOrientation *: [Ansys.Mechanical.DataModel.Enums.LegendOrientationType](../DataModel/Enums/LegendOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the orientation of the legend.
 
@@ -37,7 +37,7 @@ Whether the orientation of the legend.
 
 <a id="GlobalLegendSettings.ShowDateAndTime"></a>
 
-### *property* GlobalLegendSettings.ShowDateAndTime *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalLegendSettings.ShowDateAndTime *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the  date and time of the legend is shown.
 
@@ -45,7 +45,7 @@ Whether the  date and time of the legend is shown.
 
 <a id="GlobalLegendSettings.ShowDeformingScaling"></a>
 
-### *property* GlobalLegendSettings.ShowDeformingScaling *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalLegendSettings.ShowDeformingScaling *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the Deformation Scaling is shown.
 
@@ -53,7 +53,7 @@ Whether the Deformation Scaling is shown.
 
 <a id="GlobalLegendSettings.ShowMinMax"></a>
 
-### *property* GlobalLegendSettings.ShowMinMax *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalLegendSettings.ShowMinMax *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the Min and Max value are shown.
 

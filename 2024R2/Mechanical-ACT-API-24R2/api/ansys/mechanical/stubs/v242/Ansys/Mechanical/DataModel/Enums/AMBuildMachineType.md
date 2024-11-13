@@ -17,7 +17,7 @@ Specifies the AMBuildMachineType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------- |
 | [`Ai`](#AMBuildMachineType.Ai) |
 | [`Eos`](#AMBuildMachineType.Eos) |
 | [`Hb3d`](#AMBuildMachineType.Hb3d) |

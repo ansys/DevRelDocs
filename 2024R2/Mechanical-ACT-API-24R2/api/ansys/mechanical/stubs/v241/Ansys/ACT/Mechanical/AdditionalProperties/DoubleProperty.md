@@ -33,7 +33,7 @@ Provides a way to create properties that can hold double type values.
 
 <a id="DoubleProperty.DisplayName"></a>
 
-### *property* DoubleProperty.DisplayName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DoubleProperty.DisplayName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the property shown in the UI. If not set, the Name property is used.
 
@@ -41,7 +41,7 @@ The name of the property shown in the UI. If not set, the Name property is used.
 
 <a id="DoubleProperty.GroupName"></a>
 
-### *property* DoubleProperty.GroupName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DoubleProperty.GroupName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The group name of the property shown in the UI, and used to separate properties based on group name.
 
@@ -49,7 +49,7 @@ The group name of the property shown in the UI, and used to separate properties 
 
 <a id="DoubleProperty.Name"></a>
 
-### *property* DoubleProperty.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DoubleProperty.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the property.
 
@@ -57,7 +57,7 @@ The name of the property.
 
 <a id="DoubleProperty.ReadOnly"></a>
 
-### *property* DoubleProperty.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DoubleProperty.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns whether a property is readonly.
 
@@ -65,7 +65,7 @@ Returns whether a property is readonly.
 
 <a id="DoubleProperty.Tooltip"></a>
 
-### *property* DoubleProperty.Tooltip *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DoubleProperty.Tooltip *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The tooltip of the property in the UI.
 
@@ -73,7 +73,7 @@ The tooltip of the property in the UI.
 
 <a id="DoubleProperty.ValidRange"></a>
 
-### *property* DoubleProperty.ValidRange *: IronPython.Runtime.PythonTuple | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DoubleProperty.ValidRange *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Tuple that can be used to control the upper and lower bounds of a double property.
 
@@ -81,7 +81,7 @@ Tuple that can be used to control the upper and lower bounds of a double propert
 
 <a id="DoubleProperty.Value"></a>
 
-### *property* DoubleProperty.Value *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DoubleProperty.Value *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The stored value of the property.
 
@@ -89,7 +89,7 @@ The stored value of the property.
 
 <a id="DoubleProperty.ValueString"></a>
 
-### *property* DoubleProperty.ValueString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DoubleProperty.ValueString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the string representation of the value.
 

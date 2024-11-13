@@ -15,7 +15,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------ |
 | [`GeneralizedAlpha`](#RBDTimeIntegrationType.GeneralizedAlpha) |
 | [`HalfExplicitMethod5`](#RBDTimeIntegrationType.HalfExplicitMethod5) |
 | [`HybridIntegration`](#RBDTimeIntegrationType.HybridIntegration) |

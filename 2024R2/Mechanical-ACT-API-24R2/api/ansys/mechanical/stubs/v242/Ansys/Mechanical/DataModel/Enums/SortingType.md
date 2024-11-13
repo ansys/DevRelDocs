@@ -17,7 +17,7 @@ Specifies the Sorting type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------- |
 | [`Alphabetical`](#SortingType.Alphabetical) |
 
 <a id="attribute-detail"></a>

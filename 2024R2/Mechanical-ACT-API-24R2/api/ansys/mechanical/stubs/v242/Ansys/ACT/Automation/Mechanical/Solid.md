@@ -17,7 +17,7 @@ Defines a Solid.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Solid.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Solid.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddGeometry`](#Solid.AddGeometry)                         | Add solid to the geometry.                                                        |
@@ -38,7 +38,7 @@ Defines a Solid.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Solid.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Solid.Comments)                               | Gets the list of associated comments.                         |
 | [`CoordinateSystem`](#Solid.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
@@ -61,7 +61,7 @@ Defines a Solid.
 
 <a id="Solid.Children"></a>
 
-### *property* Solid.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solid.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -69,7 +69,7 @@ Gets the list of children.
 
 <a id="Solid.Comments"></a>
 
-### *property* Solid.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solid.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -77,7 +77,7 @@ Gets the list of associated comments.
 
 <a id="Solid.CoordinateSystem"></a>
 
-### *property* Solid.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solid.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -101,7 +101,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Solid.PartName"></a>
 
-### *property* Solid.PartName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solid.PartName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PartName.
 
@@ -109,7 +109,7 @@ Gets the PartName.
 
 <a id="Solid.Properties"></a>
 
-### *property* Solid.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solid.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -117,7 +117,7 @@ Gets the list of properties for this object.
 
 <a id="Solid.ReadOnly"></a>
 
-### *property* Solid.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solid.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -125,7 +125,7 @@ Gets or sets the ReadOnly.
 
 <a id="Solid.VisibleProperties"></a>
 
-### *property* Solid.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solid.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -217,7 +217,7 @@ Copies all visible properties from this object to another.
 
 <a id="Solid.CreateParameter"></a>
 
-### Solid.CreateParameter(propName: System.String)
+### Solid.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -241,7 +241,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Solid.GetChildren"></a>
 
-### Solid.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Solid.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -249,7 +249,7 @@ Gets the list of children, filtered by type.
 
 <a id="Solid.GetParameter"></a>
 
-### Solid.GetParameter(propName: System.String)
+### Solid.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -273,7 +273,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Solid.PropertyByAPIName"></a>
 
-### Solid.PropertyByAPIName(name: System.String)
+### Solid.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -284,7 +284,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Solid.PropertyByName"></a>
 
-### Solid.PropertyByName(name: System.String)
+### Solid.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -300,7 +300,7 @@ Remove the solid from the geometry.
 
 <a id="Solid.RemoveParameter"></a>
 
-### Solid.RemoveParameter(propName: System.String)
+### Solid.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

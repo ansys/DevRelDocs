@@ -17,7 +17,7 @@ Defines a UserDefinedCrossSection.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#UserDefinedCrossSection.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#UserDefinedCrossSection.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#UserDefinedCrossSection.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a UserDefinedCrossSection.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Area`](#UserDefinedCrossSection.Area)                                       | Gets or sets the Area.                                        |
 | [`CGZ`](#UserDefinedCrossSection.CGZ)                                         | Gets or sets the CGZ.                                         |
 | [`CGy`](#UserDefinedCrossSection.CGy)                                         | Gets or sets the CGy.                                         |
@@ -87,7 +87,7 @@ Gets or sets the CGy.
 
 <a id="UserDefinedCrossSection.Children"></a>
 
-### *property* UserDefinedCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -95,7 +95,7 @@ Gets the list of children.
 
 <a id="UserDefinedCrossSection.Comments"></a>
 
-### *property* UserDefinedCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -111,7 +111,7 @@ Gets the current DataModelObject’s category.
 
 <a id="UserDefinedCrossSection.Figures"></a>
 
-### *property* UserDefinedCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -119,7 +119,7 @@ Gets the list of associated figures.
 
 <a id="UserDefinedCrossSection.Images"></a>
 
-### *property* UserDefinedCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -167,7 +167,7 @@ Gets or sets the J.
 
 <a id="UserDefinedCrossSection.Properties"></a>
 
-### *property* UserDefinedCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -175,7 +175,7 @@ Gets the list of properties for this object.
 
 <a id="UserDefinedCrossSection.ReadOnly"></a>
 
-### *property* UserDefinedCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -199,7 +199,7 @@ Gets or sets the SHz.
 
 <a id="UserDefinedCrossSection.VisibleProperties"></a>
 
-### *property* UserDefinedCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -235,7 +235,7 @@ Creates a new child Figure.
 
 <a id="UserDefinedCrossSection.AddImage"></a>
 
-### UserDefinedCrossSection.AddImage(filePath: System.String)
+### UserDefinedCrossSection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -255,7 +255,7 @@ Copies all visible properties from this object to another.
 
 <a id="UserDefinedCrossSection.CreateParameter"></a>
 
-### UserDefinedCrossSection.CreateParameter(propName: System.String)
+### UserDefinedCrossSection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -279,7 +279,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="UserDefinedCrossSection.GetChildren"></a>
 
-### UserDefinedCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### UserDefinedCrossSection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -287,7 +287,7 @@ Gets the list of children, filtered by type.
 
 <a id="UserDefinedCrossSection.GetParameter"></a>
 
-### UserDefinedCrossSection.GetParameter(propName: System.String)
+### UserDefinedCrossSection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -311,7 +311,7 @@ Run the GroupSimilarObjects action.
 
 <a id="UserDefinedCrossSection.PropertyByAPIName"></a>
 
-### UserDefinedCrossSection.PropertyByAPIName(name: System.String)
+### UserDefinedCrossSection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -322,7 +322,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="UserDefinedCrossSection.PropertyByName"></a>
 
-### UserDefinedCrossSection.PropertyByName(name: System.String)
+### UserDefinedCrossSection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -330,7 +330,7 @@ Get a property by its unique name.
 
 <a id="UserDefinedCrossSection.RemoveParameter"></a>
 
-### UserDefinedCrossSection.RemoveParameter(propName: System.String)
+### UserDefinedCrossSection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

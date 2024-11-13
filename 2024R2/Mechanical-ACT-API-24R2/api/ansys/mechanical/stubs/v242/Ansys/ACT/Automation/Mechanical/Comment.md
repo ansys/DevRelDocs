@@ -49,7 +49,7 @@ Defines a Comment.
 
 <a id="Comment.Author"></a>
 
-### *property* Comment.Author *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Comment.Author *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Author.
 
@@ -57,7 +57,7 @@ Gets or sets the Author.
 
 <a id="Comment.Children"></a>
 
-### *property* Comment.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Comment.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -81,7 +81,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Comment.Properties"></a>
 
-### *property* Comment.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Comment.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -89,7 +89,7 @@ Gets the list of properties for this object.
 
 <a id="Comment.Text"></a>
 
-### *property* Comment.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Comment.Text *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Text.
 
@@ -97,7 +97,7 @@ Gets the Text.
 
 <a id="Comment.VisibleProperties"></a>
 
-### *property* Comment.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Comment.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -125,7 +125,7 @@ Copies all visible properties from this object to another.
 
 <a id="Comment.CreateParameter"></a>
 
-### Comment.CreateParameter(propName: System.String)
+### Comment.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -149,7 +149,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Comment.GetChildren"></a>
 
-### Comment.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Comment.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -157,7 +157,7 @@ Gets the list of children, filtered by type.
 
 <a id="Comment.GetParameter"></a>
 
-### Comment.GetParameter(propName: System.String)
+### Comment.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -181,7 +181,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Comment.PropertyByAPIName"></a>
 
-### Comment.PropertyByAPIName(name: System.String)
+### Comment.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -192,7 +192,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Comment.PropertyByName"></a>
 
-### Comment.PropertyByName(name: System.String)
+### Comment.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -200,7 +200,7 @@ Get a property by its unique name.
 
 <a id="Comment.RemoveParameter"></a>
 
-### Comment.RemoveParameter(propName: System.String)
+### Comment.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

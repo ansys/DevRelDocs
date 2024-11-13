@@ -17,7 +17,7 @@ Specifies the AMHeatingDurationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------- |
 | [`Flash`](#AMHeatingDurationType.Flash) |
 | [`ScanTime`](#AMHeatingDurationType.ScanTime) |
 

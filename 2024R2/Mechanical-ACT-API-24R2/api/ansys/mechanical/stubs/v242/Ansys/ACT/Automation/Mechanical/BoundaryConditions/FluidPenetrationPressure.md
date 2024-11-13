@@ -73,7 +73,7 @@ A class for fluid penetration pressure object in Mechanical. This load object is
 
 <a id="FluidPenetrationPressure.Children"></a>
 
-### *property* FluidPenetrationPressure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -81,7 +81,7 @@ Gets the list of children.
 
 <a id="FluidPenetrationPressure.Comments"></a>
 
-### *property* FluidPenetrationPressure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -89,7 +89,7 @@ Gets the list of associated comments.
 
 <a id="FluidPenetrationPressure.ContactRegionSelection"></a>
 
-### *property* FluidPenetrationPressure.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets contact region.
 
@@ -105,7 +105,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FluidPenetrationPressure.Figures"></a>
 
-### *property* FluidPenetrationPressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -129,7 +129,7 @@ Gets or sets the GraphDisplaySelection which determines which variable to displa
 
 <a id="FluidPenetrationPressure.Images"></a>
 
-### *property* FluidPenetrationPressure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -161,7 +161,7 @@ Gets the Magnitude.
 
 <a id="FluidPenetrationPressure.NumberOfSegments"></a>
 
-### *property* FluidPenetrationPressure.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberofSegments.
 
@@ -193,7 +193,7 @@ Gets or sets the PenetrationPathType which determines whether path is history de
 
 <a id="FluidPenetrationPressure.Properties"></a>
 
-### *property* FluidPenetrationPressure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -201,7 +201,7 @@ Gets the list of properties for this object.
 
 <a id="FluidPenetrationPressure.ReadOnly"></a>
 
-### *property* FluidPenetrationPressure.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -209,7 +209,7 @@ Gets or sets the ReadOnly.
 
 <a id="FluidPenetrationPressure.SharedRefBody"></a>
 
-### *property* FluidPenetrationPressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -233,7 +233,7 @@ Gets or set the StartPointScopingType which determines scoping method for statin
 
 <a id="FluidPenetrationPressure.Suppressed"></a>
 
-### *property* FluidPenetrationPressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -249,7 +249,7 @@ Gets or sets the UpdatePressureType which determines when to update fluid pressu
 
 <a id="FluidPenetrationPressure.VisibleProperties"></a>
 
-### *property* FluidPenetrationPressure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -257,7 +257,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="FluidPenetrationPressure.XYZFunctionCoordinateSystem"></a>
 
-### *property* FluidPenetrationPressure.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidPenetrationPressure.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -293,7 +293,7 @@ Creates a new child Figure.
 
 <a id="FluidPenetrationPressure.AddImage"></a>
 
-### FluidPenetrationPressure.AddImage(filePath: System.String)
+### FluidPenetrationPressure.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -313,7 +313,7 @@ Copies all visible properties from this object to another.
 
 <a id="FluidPenetrationPressure.CreateParameter"></a>
 
-### FluidPenetrationPressure.CreateParameter(propName: System.String)
+### FluidPenetrationPressure.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -337,7 +337,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="FluidPenetrationPressure.GetActivateAtLoadStep"></a>
 
-### FluidPenetrationPressure.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### FluidPenetrationPressure.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Returns whether fluid penetration pressure is active at the stepNumber.
 
@@ -345,7 +345,7 @@ Returns whether fluid penetration pressure is active at the stepNumber.
 
 <a id="FluidPenetrationPressure.GetChildren"></a>
 
-### FluidPenetrationPressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FluidPenetrationPressure.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -353,7 +353,7 @@ Gets the list of children, filtered by type.
 
 <a id="FluidPenetrationPressure.GetParameter"></a>
 
-### FluidPenetrationPressure.GetParameter(propName: System.String)
+### FluidPenetrationPressure.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -385,7 +385,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="FluidPenetrationPressure.PropertyByAPIName"></a>
 
-### FluidPenetrationPressure.PropertyByAPIName(name: System.String)
+### FluidPenetrationPressure.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -396,7 +396,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FluidPenetrationPressure.PropertyByName"></a>
 
-### FluidPenetrationPressure.PropertyByName(name: System.String)
+### FluidPenetrationPressure.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -404,7 +404,7 @@ Get a property by its unique name.
 
 <a id="FluidPenetrationPressure.RemoveParameter"></a>
 
-### FluidPenetrationPressure.RemoveParameter(propName: System.String)
+### FluidPenetrationPressure.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -412,7 +412,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="FluidPenetrationPressure.SetActivateAtLoadStep"></a>
 
-### FluidPenetrationPressure.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### FluidPenetrationPressure.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets whether fluid penetration pressure is active at the stepNumber.
 

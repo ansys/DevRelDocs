@@ -39,7 +39,7 @@ A 2D sketching planes in a ConstructionLine instance.
 
 <a id="Plane.Definition"></a>
 
-### *property* Plane.Definition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Plane.Definition *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Definition property.
 
@@ -47,7 +47,7 @@ Definition property.
 
 <a id="Plane.IsRepresentation"></a>
 
-### *property* Plane.IsRepresentation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Plane.IsRepresentation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Check to see if there is a valid entity that this instance represents.
 
@@ -63,7 +63,7 @@ The plane’s normal vector (Z axis orientation) orientation.
 
 <a id="Plane.ObjectId"></a>
 
-### *property* Plane.ObjectId *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Plane.ObjectId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the ID of the represented entity.
 
@@ -95,7 +95,7 @@ The orientation of the plane’s secondary (Y) axis orientation.
 
 <a id="Plane.Type"></a>
 
-### *property* Plane.Type *: [Ansys.Mechanical.DataModel.ConstructionLines.PlaneType](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/PlaneType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.PlaneType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Plane.Type *: [Ansys.Mechanical.DataModel.ConstructionLines.PlaneType](PlaneType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.PlaneType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Type property.
 
@@ -107,7 +107,7 @@ Type property.
 
 <a id="Plane.Equivalent"></a>
 
-### Plane.Equivalent(other: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Plane.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Plane))
+### Plane.Equivalent(other: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Plane))
 
 Checks to see if another plane is equivalent to this one.
 

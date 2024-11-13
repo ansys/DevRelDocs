@@ -28,7 +28,7 @@ The columns are usually instances of IVariable but can be any sort of array
 
 <a id="ITable.Dependents"></a>
 
-### *property* ITable.Dependents *: System.Collections.Generic.IReadOnlyDictionary[System.String, System.Collections.IEnumerable] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ITable.Dependents *: [dict](https://docs.python.org/3/library/stdtypes.html#dict)[[str](https://docs.python.org/3/library/stdtypes.html#str), Iterable] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The portion of the table corresponding to dependent variables.
 
@@ -36,7 +36,7 @@ The portion of the table corresponding to dependent variables.
 
 <a id="ITable.Independents"></a>
 
-### *property* ITable.Independents *: System.Collections.Generic.IReadOnlyDictionary[System.String, System.Collections.IEnumerable] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ITable.Independents *: [dict](https://docs.python.org/3/library/stdtypes.html#dict)[[str](https://docs.python.org/3/library/stdtypes.html#str), Iterable] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The portion of the table corresponding to independent variables.
 

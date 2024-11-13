@@ -27,7 +27,7 @@ Represents a KEYOPT command.
 
 <a id="CommandKeyOpt.Knum"></a>
 
-### *property* CommandKeyOpt.Knum *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandKeyOpt.Knum *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the key option number.
 
@@ -35,7 +35,7 @@ Gets the key option number.
 
 <a id="CommandKeyOpt.Value"></a>
 
-### *property* CommandKeyOpt.Value *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandKeyOpt.Value *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the value.
 

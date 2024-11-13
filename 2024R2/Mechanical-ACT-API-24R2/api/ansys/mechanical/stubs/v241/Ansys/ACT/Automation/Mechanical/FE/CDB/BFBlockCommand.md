@@ -17,7 +17,7 @@ Represents a BFBLOCK command.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+|--------------------------------------------------------------|--------------------------------------------|
 | [`Index`](#BFBlockCommand.Index)                             | Gets the command index.                    |
 | [`Lab`](#BFBlockCommand.Lab)                                 | Gets the label.                            |
 | [`Name`](#BFBlockCommand.Name)                               | Gets the command name.                     |
@@ -30,7 +30,7 @@ Represents a BFBLOCK command.
 
 <a id="BFBlockCommand.Index"></a>
 
-### *property* BFBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFBlockCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -38,7 +38,7 @@ Gets the command index.
 
 <a id="BFBlockCommand.Lab"></a>
 
-### *property* BFBlockCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFBlockCommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
 
@@ -46,7 +46,7 @@ Gets the label.
 
 <a id="BFBlockCommand.Name"></a>
 
-### *property* BFBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFBlockCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -54,7 +54,7 @@ Gets the command name.
 
 <a id="BFBlockCommand.NodalBodyForceCount"></a>
 
-### *property* BFBlockCommand.NodalBodyForceCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFBlockCommand.NodalBodyForceCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of nodal body-force loads.
 
@@ -62,7 +62,7 @@ Gets the number of nodal body-force loads.
 
 <a id="BFBlockCommand.NodalBodyForces"></a>
 
-### *property* BFBlockCommand.NodalBodyForces *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNodalBodyForce](CommandNodalBodyForce.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNodalBodyForce)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFBlockCommand.NodalBodyForces *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNodalBodyForce](CommandNodalBodyForce.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNodalBodyForce)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the nodal body-force loads.
 

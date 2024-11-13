@@ -17,7 +17,7 @@ Represents cell data associated to a beam SECBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------|-----------------------------|
+|---------------------------------|-----------------------------|
 | [`MatId`](#CommandCell.MatId)   | Gets the material number.   |
 | [`Nodes`](#CommandCell.Nodes)   | Gets the nodes.             |
 
@@ -27,7 +27,7 @@ Represents cell data associated to a beam SECBLOCK command.
 
 <a id="CommandCell.MatId"></a>
 
-### *property* CommandCell.MatId *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandCell.MatId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
 
@@ -35,7 +35,7 @@ Gets the material number.
 
 <a id="CommandCell.Nodes"></a>
 
-### *property* CommandCell.Nodes *: System.Collections.Generic.IReadOnlyList[System.UInt32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandCell.Nodes *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the nodes.
 

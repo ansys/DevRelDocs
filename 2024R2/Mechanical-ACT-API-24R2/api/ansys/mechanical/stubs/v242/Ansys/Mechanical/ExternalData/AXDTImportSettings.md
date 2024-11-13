@@ -17,7 +17,7 @@ T:Ansys.Mechanical.ExternalData.AXDTImportSettings defines how to import externa
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+|------------------------------------------------|-----------------------------------------|
 | [`Dimension`](#AXDTImportSettings.Dimension)   | The dimension of the AXDT file.         |
 | [`Format`](#AXDTImportSettings.Format)         | Gets the existing corresponding format. |
 

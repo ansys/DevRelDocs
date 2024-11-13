@@ -17,7 +17,7 @@ Specifies the TetIntegrationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------- |
 | [`AverageNodalPressure`](#TetIntegrationType.AverageNodalPressure) |
 | [`ConstantPressure`](#TetIntegrationType.ConstantPressure) |
 | [`NodalStrain`](#TetIntegrationType.NodalStrain) |

@@ -17,7 +17,7 @@ Specifies the StressStrainType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Equivalent`](#StressStrainType.Equivalent) |
 | [`Intensity`](#StressStrainType.Intensity) |
 | [`MaximumPrincipal`](#StressStrainType.MaximumPrincipal) |

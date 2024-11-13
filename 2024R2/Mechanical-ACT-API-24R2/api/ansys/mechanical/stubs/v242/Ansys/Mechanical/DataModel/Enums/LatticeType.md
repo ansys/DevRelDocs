@@ -17,7 +17,7 @@ Specifies the LatticeType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`Crossed`](#LatticeType.Crossed) |
 | [`Cubic`](#LatticeType.Cubic) |
 | [`Diagonal`](#LatticeType.Diagonal) |

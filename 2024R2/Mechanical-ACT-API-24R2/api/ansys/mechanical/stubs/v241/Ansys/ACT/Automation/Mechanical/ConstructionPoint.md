@@ -17,7 +17,7 @@ Defines a ConstructionPoint.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ConstructionPoint.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ConstructionPoint.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ConstructionPoint.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a ConstructionPoint.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ConstructionPoint.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ConstructionPoint.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#ConstructionPoint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -57,7 +57,7 @@ Defines a ConstructionPoint.
 
 <a id="ConstructionPoint.Children"></a>
 
-### *property* ConstructionPoint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionPoint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -65,7 +65,7 @@ Gets the list of children.
 
 <a id="ConstructionPoint.Comments"></a>
 
-### *property* ConstructionPoint.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionPoint.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -73,7 +73,7 @@ Gets the list of associated comments.
 
 <a id="ConstructionPoint.DataModelObjectCategory"></a>
 
-### *property* ConstructionPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -81,7 +81,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ConstructionPoint.Figures"></a>
 
-### *property* ConstructionPoint.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionPoint.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -89,7 +89,7 @@ Gets the list of associated figures.
 
 <a id="ConstructionPoint.Images"></a>
 
-### *property* ConstructionPoint.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionPoint.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -129,7 +129,7 @@ Gets or sets the LocationZ.
 
 <a id="ConstructionPoint.Properties"></a>
 
-### *property* ConstructionPoint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionPoint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -137,7 +137,7 @@ Gets the list of properties for this object.
 
 <a id="ConstructionPoint.VisibleProperties"></a>
 
-### *property* ConstructionPoint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionPoint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -173,7 +173,7 @@ Creates a new child Figure.
 
 <a id="ConstructionPoint.AddImage"></a>
 
-### ConstructionPoint.AddImage(filePath: System.String)
+### ConstructionPoint.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -193,7 +193,7 @@ Copies all visible properties from this object to another.
 
 <a id="ConstructionPoint.CreateParameter"></a>
 
-### ConstructionPoint.CreateParameter(propName: System.String)
+### ConstructionPoint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -217,7 +217,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ConstructionPoint.GetChildren"></a>
 
-### ConstructionPoint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ConstructionPoint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -225,7 +225,7 @@ Gets the list of children, filtered by type.
 
 <a id="ConstructionPoint.GetParameter"></a>
 
-### ConstructionPoint.GetParameter(propName: System.String)
+### ConstructionPoint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -249,7 +249,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ConstructionPoint.PropertyByAPIName"></a>
 
-### ConstructionPoint.PropertyByAPIName(name: System.String)
+### ConstructionPoint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -260,7 +260,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ConstructionPoint.PropertyByName"></a>
 
-### ConstructionPoint.PropertyByName(name: System.String)
+### ConstructionPoint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -268,7 +268,7 @@ Get a property by its unique name.
 
 <a id="ConstructionPoint.RemoveParameter"></a>
 
-### ConstructionPoint.RemoveParameter(propName: System.String)
+### ConstructionPoint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

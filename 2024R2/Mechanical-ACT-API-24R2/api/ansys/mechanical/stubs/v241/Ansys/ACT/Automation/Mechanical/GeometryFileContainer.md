@@ -17,7 +17,7 @@ Defines a GeometryFileContainer.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#GeometryFileContainer.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#GeometryFileContainer.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#GeometryFileContainer.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a GeometryFileContainer.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#GeometryFileContainer.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#GeometryFileContainer.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#GeometryFileContainer.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -59,7 +59,7 @@ Defines a GeometryFileContainer.
 
 <a id="GeometryFileContainer.Children"></a>
 
-### *property* GeometryFileContainer.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="GeometryFileContainer.Comments"></a>
 
-### *property* GeometryFileContainer.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -75,7 +75,7 @@ Gets the list of associated comments.
 
 <a id="GeometryFileContainer.DataModelObjectCategory"></a>
 
-### *property* GeometryFileContainer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -83,7 +83,7 @@ Gets the current DataModelObject’s category.
 
 <a id="GeometryFileContainer.Figures"></a>
 
-### *property* GeometryFileContainer.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -91,7 +91,7 @@ Gets the list of associated figures.
 
 <a id="GeometryFileContainer.Images"></a>
 
-### *property* GeometryFileContainer.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -107,7 +107,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="GeometryFileContainer.LengthUnits"></a>
 
-### *property* GeometryFileContainer.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LengthUnits.
 
@@ -115,7 +115,7 @@ Gets or sets the LengthUnits.
 
 <a id="GeometryFileContainer.Properties"></a>
 
-### *property* GeometryFileContainer.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -123,7 +123,7 @@ Gets the list of properties for this object.
 
 <a id="GeometryFileContainer.ReadOnly"></a>
 
-### *property* GeometryFileContainer.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -131,7 +131,7 @@ Gets or sets the ReadOnly.
 
 <a id="GeometryFileContainer.ShowAlways"></a>
 
-### *property* GeometryFileContainer.ShowAlways *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.ShowAlways *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowAlways.
 
@@ -139,7 +139,7 @@ Gets or sets the ShowAlways.
 
 <a id="GeometryFileContainer.Statistics"></a>
 
-### *property* GeometryFileContainer.Statistics *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.Statistics *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Statistics.
 
@@ -147,7 +147,7 @@ Gets the Statistics.
 
 <a id="GeometryFileContainer.Suppressed"></a>
 
-### *property* GeometryFileContainer.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -155,7 +155,7 @@ Gets or sets the Suppressed.
 
 <a id="GeometryFileContainer.VisibleProperties"></a>
 
-### *property* GeometryFileContainer.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFileContainer.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -191,7 +191,7 @@ Creates a new child Figure.
 
 <a id="GeometryFileContainer.AddImage"></a>
 
-### GeometryFileContainer.AddImage(filePath: System.String)
+### GeometryFileContainer.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -211,7 +211,7 @@ Copies all visible properties from this object to another.
 
 <a id="GeometryFileContainer.CreateParameter"></a>
 
-### GeometryFileContainer.CreateParameter(propName: System.String)
+### GeometryFileContainer.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="GeometryFileContainer.GetChildren"></a>
 
-### GeometryFileContainer.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### GeometryFileContainer.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="GeometryFileContainer.GetParameter"></a>
 
-### GeometryFileContainer.GetParameter(propName: System.String)
+### GeometryFileContainer.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -275,7 +275,7 @@ Run the ImportSTL action.
 
 <a id="GeometryFileContainer.PropertyByAPIName"></a>
 
-### GeometryFileContainer.PropertyByAPIName(name: System.String)
+### GeometryFileContainer.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -286,7 +286,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="GeometryFileContainer.PropertyByName"></a>
 
-### GeometryFileContainer.PropertyByName(name: System.String)
+### GeometryFileContainer.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Get a property by its unique name.
 
 <a id="GeometryFileContainer.RemoveParameter"></a>
 
-### GeometryFileContainer.RemoveParameter(propName: System.String)
+### GeometryFileContainer.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

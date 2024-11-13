@@ -17,7 +17,7 @@ Specifies the FluidBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------- |
 | [`Compressible`](#FluidBehavior.Compressible) |
 | [`Incompressible`](#FluidBehavior.Incompressible) |
 

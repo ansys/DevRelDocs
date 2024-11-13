@@ -17,7 +17,7 @@ Defines a ShearStress.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ShearStress.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ShearStress.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ShearStress.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ShearStress.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#ShearStress.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#ShearStress.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#ShearStress.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -130,7 +130,7 @@ Defines a ShearStress.
 | [`Subtype`](#ShearStress.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#ShearStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ShearStress.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ShearStress.SurfaceCoating)                                                                                                                                     | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ShearStress.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#ShearStress.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#ShearStress.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#ShearStress.Time)                                                           | Gets the Time.                                                         |
@@ -142,7 +142,7 @@ Defines a ShearStress.
 | [`TotalInside`](#ShearStress.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#ShearStress.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#ShearStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ShearStress.WaterfallShowTextOnMosaic)                                                                                                               | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ShearStress.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -150,7 +150,7 @@ Defines a ShearStress.
 
 <a id="ShearStress.Amplitude"></a>
 
-### *property* ShearStress.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -166,7 +166,7 @@ Gets the Average.
 
 <a id="ShearStress.AverageAcrossBodies"></a>
 
-### *property* ShearStress.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -206,7 +206,7 @@ Gets or sets the By.
 
 <a id="ShearStress.CalculateTimeHistory"></a>
 
-### *property* ShearStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -214,7 +214,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ShearStress.Children"></a>
 
-### *property* ShearStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -222,7 +222,7 @@ Gets the list of children.
 
 <a id="ShearStress.CombinationNumber"></a>
 
-### *property* ShearStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -230,7 +230,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ShearStress.Comments"></a>
 
-### *property* ShearStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -238,7 +238,7 @@ Gets the list of associated comments.
 
 <a id="ShearStress.CoordinateSystem"></a>
 
-### *property* ShearStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -248,7 +248,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ShearStress.CrackFrontNumber"></a>
 
-### *property* ShearStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -256,7 +256,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="ShearStress.CyclicMode"></a>
 
-### *property* ShearStress.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -296,7 +296,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ShearStress.EnvironmentSelection"></a>
 
-### *property* ShearStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -304,7 +304,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="ShearStress.Figures"></a>
 
-### *property* ShearStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -320,7 +320,7 @@ Gets or sets the Frequency.
 
 <a id="ShearStress.GlobalIDs"></a>
 
-### *property* ShearStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -336,7 +336,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ShearStress.HarmonicIndex"></a>
 
-### *property* ShearStress.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -344,7 +344,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="ShearStress.Identifier"></a>
 
-### *property* ShearStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -352,7 +352,7 @@ Gets or sets the Identifier.
 
 <a id="ShearStress.Images"></a>
 
-### *property* ShearStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -368,7 +368,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ShearStress.IsSolved"></a>
 
-### *property* ShearStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -384,7 +384,7 @@ Gets or sets the ItemType.
 
 <a id="ShearStress.IterationNumber"></a>
 
-### *property* ShearStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -392,7 +392,7 @@ Gets the IterationNumber.
 
 <a id="ShearStress.IterationStep"></a>
 
-### *property* ShearStress.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -400,7 +400,7 @@ Gets or sets the IterationStep.
 
 <a id="ShearStress.Layer"></a>
 
-### *property* ShearStress.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -416,7 +416,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="ShearStress.LoadMultiplier"></a>
 
-### *property* ShearStress.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -424,7 +424,7 @@ Gets the LoadMultiplier.
 
 <a id="ShearStress.LoadStep"></a>
 
-### *property* ShearStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -432,7 +432,7 @@ Gets the LoadStep.
 
 <a id="ShearStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ShearStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -440,7 +440,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ShearStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ShearStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -448,7 +448,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ShearStress.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ShearStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -456,7 +456,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ShearStress.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ShearStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -464,7 +464,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ShearStress.LoadStepNumber"></a>
 
-### *property* ShearStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -488,7 +488,7 @@ Gets the Maximum.
 
 <a id="ShearStress.MaximumOccursOn"></a>
 
-### *property* ShearStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -552,7 +552,7 @@ Gets the Minimum.
 
 <a id="ShearStress.MinimumOccursOn"></a>
 
-### *property* ShearStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -576,7 +576,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ShearStress.Mode"></a>
 
-### *property* ShearStress.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -584,7 +584,7 @@ Gets or sets the Mode.
 
 <a id="ShearStress.NamedSelections"></a>
 
-### *property* ShearStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -640,7 +640,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="ShearStress.Plies"></a>
 
-### *property* ShearStress.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -656,7 +656,7 @@ Gets the result table.
 
 <a id="ShearStress.Ply"></a>
 
-### *property* ShearStress.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -672,7 +672,7 @@ Gets or sets the Position.
 
 <a id="ShearStress.Probability"></a>
 
-### *property* ShearStress.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -680,7 +680,7 @@ Gets the Probability.
 
 <a id="ShearStress.Properties"></a>
 
-### *property* ShearStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -704,7 +704,7 @@ Gets or sets the ScaleFactor.
 
 <a id="ShearStress.ScaleFactorValue"></a>
 
-### *property* ShearStress.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -720,7 +720,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ShearStress.SetNumber"></a>
 
-### *property* ShearStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -744,7 +744,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ShearStress.SolverComponentIDs"></a>
 
-### *property* ShearStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -768,7 +768,7 @@ Gets or sets the SubScopeBy.
 
 <a id="ShearStress.Substep"></a>
 
-### *property* ShearStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -784,7 +784,7 @@ Gets or sets the Subtype.
 
 <a id="ShearStress.Suppressed"></a>
 
-### *property* ShearStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -888,7 +888,7 @@ Gets the TotalOutside.
 
 <a id="ShearStress.VisibleProperties"></a>
 
-### *property* ShearStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -896,7 +896,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ShearStress.WaterfallShowTextOnMosaic"></a>
 
-### *property* ShearStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearStress.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -948,7 +948,7 @@ Creates a new child Figure.
 
 <a id="ShearStress.AddImage"></a>
 
-### ShearStress.AddImage(filePath: System.String)
+### ShearStress.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -976,7 +976,7 @@ Copies all visible properties from this object to another.
 
 <a id="ShearStress.CreateParameter"></a>
 
-### ShearStress.CreateParameter(propName: System.String)
+### ShearStress.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -1024,7 +1024,7 @@ Run the EvaluateAllResults action.
 
 <a id="ShearStress.ExportAnimation"></a>
 
-### ShearStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ShearStress.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1032,7 +1032,7 @@ Run the ExportAnimation action.
 
 <a id="ShearStress.ExportToTextFile"></a>
 
-### ShearStress.ExportToTextFile(filePath: System.String)
+### ShearStress.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1048,7 +1048,7 @@ Run the FetchRemoteResult action.
 
 <a id="ShearStress.GetChildren"></a>
 
-### ShearStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ShearStress.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1056,7 +1056,7 @@ Gets the list of children, filtered by type.
 
 <a id="ShearStress.GetParameter"></a>
 
-### ShearStress.GetParameter(propName: System.String)
+### ShearStress.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1088,7 +1088,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ShearStress.PropertyByAPIName"></a>
 
-### ShearStress.PropertyByAPIName(name: System.String)
+### ShearStress.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1099,7 +1099,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ShearStress.PropertyByName"></a>
 
-### ShearStress.PropertyByName(name: System.String)
+### ShearStress.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1107,7 +1107,7 @@ Get a property by its unique name.
 
 <a id="ShearStress.RemoveParameter"></a>
 
-### ShearStress.RemoveParameter(propName: System.String)
+### ShearStress.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

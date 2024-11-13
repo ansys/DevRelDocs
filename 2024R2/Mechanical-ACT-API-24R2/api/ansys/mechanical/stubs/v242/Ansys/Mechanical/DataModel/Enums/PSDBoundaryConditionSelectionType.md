@@ -17,7 +17,7 @@ Specifies the PSDBoundaryConditionSelectionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------------------------------------- |
 | [`AllFixedSupports`](#PSDBoundaryConditionSelectionType.AllFixedSupports) |
 | [`AllFixedSupportsAndRemoteDisplacements`](#PSDBoundaryConditionSelectionType.AllFixedSupportsAndRemoteDisplacements) |
 | [`AllRemoteDisplacements`](#PSDBoundaryConditionSelectionType.AllRemoteDisplacements) |

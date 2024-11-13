@@ -17,7 +17,7 @@ Specifies the UseExistingModesymFile.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------ |
 | [`No`](#UseExistingModesymFile.No) |
 | [`ProgramControlled`](#UseExistingModesymFile.ProgramControlled) |
 | [`Yes`](#UseExistingModesymFile.Yes) |
