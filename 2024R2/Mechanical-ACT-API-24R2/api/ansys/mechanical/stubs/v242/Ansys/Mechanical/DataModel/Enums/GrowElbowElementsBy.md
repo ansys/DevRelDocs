@@ -17,7 +17,7 @@ Specifies the GrowElbowElementsBy.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`Factor`](#GrowElbowElementsBy.Factor) |
 | [`Length`](#GrowElbowElementsBy.Length) |
 | [`No`](#GrowElbowElementsBy.No) |

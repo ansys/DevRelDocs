@@ -17,7 +17,7 @@ Specifies the ChartGridlines.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`BothAxis`](#ChartGridlines.BothAxis) |
 | [`NoAxis`](#ChartGridlines.NoAxis) |
 | [`XAxis`](#ChartGridlines.XAxis) |

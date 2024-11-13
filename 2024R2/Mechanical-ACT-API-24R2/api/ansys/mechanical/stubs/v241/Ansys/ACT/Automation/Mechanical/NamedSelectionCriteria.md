@@ -39,7 +39,7 @@ A collection of named selection criteria.
 
 <a id="NamedSelectionCriteria.Count"></a>
 
-### *property* NamedSelectionCriteria.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriteria.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of criteria in the collection.
 
@@ -47,7 +47,7 @@ The number of criteria in the collection.
 
 <a id="NamedSelectionCriteria.Item"></a>
 
-### *property* NamedSelectionCriteria.Item *: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelectionCriterion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriteria.Item *: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](NamedSelectionCriterion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -59,7 +59,7 @@ Item property.
 
 <a id="NamedSelectionCriteria.Add"></a>
 
-### NamedSelectionCriteria.Add(criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelectionCriterion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
+### NamedSelectionCriteria.Add(criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](NamedSelectionCriterion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
 
 Adds the given criterion to the collection.
 
@@ -75,7 +75,7 @@ Clears the collection.
 
 <a id="NamedSelectionCriteria.Contains"></a>
 
-### NamedSelectionCriteria.Contains(criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelectionCriterion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
+### NamedSelectionCriteria.Contains(criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](NamedSelectionCriterion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
 
 Returns whether the collection contains the given criterion.
 
@@ -83,7 +83,7 @@ Returns whether the collection contains the given criterion.
 
 <a id="NamedSelectionCriteria.IndexOf"></a>
 
-### NamedSelectionCriteria.IndexOf(criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelectionCriterion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
+### NamedSelectionCriteria.IndexOf(criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](NamedSelectionCriterion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
 
 Returns the index of the given criterion if it exists in the collection.  Returns -1 if it does not
 
@@ -91,7 +91,7 @@ Returns the index of the given criterion if it exists in the collection.  Return
 
 <a id="NamedSelectionCriteria.Insert"></a>
 
-### NamedSelectionCriteria.Insert(index: System.Int32, criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelectionCriterion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
+### NamedSelectionCriteria.Insert(index: [int](https://docs.python.org/3/library/functions.html#int), criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](NamedSelectionCriterion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
 
 Inserts the given criterion into the collection at the given index.
 
@@ -99,7 +99,7 @@ Inserts the given criterion into the collection at the given index.
 
 <a id="NamedSelectionCriteria.Remove"></a>
 
-### NamedSelectionCriteria.Remove(criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelectionCriterion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
+### NamedSelectionCriteria.Remove(criterion: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion](NamedSelectionCriterion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion))
 
 Removes the given criterion from the collection if it exists in the collection.  Throws an exception if it does not.
 
@@ -107,7 +107,7 @@ Removes the given criterion from the collection if it exists in the collection. 
 
 <a id="NamedSelectionCriteria.RemoveAt"></a>
 
-### NamedSelectionCriteria.RemoveAt(index: System.Int32)
+### NamedSelectionCriteria.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Removes the criterion at the given index.  Throws an exception if the given index is not valid.
 

@@ -17,7 +17,7 @@ Specifies the ConvergenceToleranceType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`On`](#ConvergenceToleranceType.On) |
 | [`ProgramControlled`](#ConvergenceToleranceType.ProgramControlled) |
 | [`Remove`](#ConvergenceToleranceType.Remove) |

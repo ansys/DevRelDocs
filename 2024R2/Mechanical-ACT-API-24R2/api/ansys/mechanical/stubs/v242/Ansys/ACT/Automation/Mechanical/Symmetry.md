@@ -17,7 +17,7 @@ Defines a Symmetry.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Symmetry.Activate)                                 | Activate the current object.                                                      |
 | [`AddComment`](#Symmetry.AddComment)                             | Creates a new child Comment.                                                      |
 | [`AddCyclicRegion`](#Symmetry.AddCyclicRegion)                   | Creates a new CyclicRegion                                                        |
@@ -44,7 +44,7 @@ Defines a Symmetry.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Symmetry.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Symmetry.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Symmetry.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -61,7 +61,7 @@ Defines a Symmetry.
 
 <a id="Symmetry.Children"></a>
 
-### *property* Symmetry.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Symmetry.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -69,7 +69,7 @@ Gets the list of children.
 
 <a id="Symmetry.Comments"></a>
 
-### *property* Symmetry.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Symmetry.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -85,7 +85,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Symmetry.Figures"></a>
 
-### *property* Symmetry.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Symmetry.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -93,7 +93,7 @@ Gets the list of associated figures.
 
 <a id="Symmetry.Images"></a>
 
-### *property* Symmetry.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Symmetry.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -109,7 +109,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Symmetry.Properties"></a>
 
-### *property* Symmetry.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Symmetry.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -117,7 +117,7 @@ Gets the list of properties for this object.
 
 <a id="Symmetry.ReadOnly"></a>
 
-### *property* Symmetry.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Symmetry.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -125,7 +125,7 @@ Gets or sets the ReadOnly.
 
 <a id="Symmetry.VisibleProperties"></a>
 
-### *property* Symmetry.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Symmetry.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -177,7 +177,7 @@ Creates a new GeneralAxisymmetric
 
 <a id="Symmetry.AddImage"></a>
 
-### Symmetry.AddImage(filePath: System.String)
+### Symmetry.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -237,7 +237,7 @@ Copies all visible properties from this object to another.
 
 <a id="Symmetry.CreateParameter"></a>
 
-### Symmetry.CreateParameter(propName: System.String)
+### Symmetry.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -261,7 +261,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Symmetry.GetChildren"></a>
 
-### Symmetry.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Symmetry.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -269,7 +269,7 @@ Gets the list of children, filtered by type.
 
 <a id="Symmetry.GetParameter"></a>
 
-### Symmetry.GetParameter(propName: System.String)
+### Symmetry.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -293,7 +293,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Symmetry.PropertyByAPIName"></a>
 
-### Symmetry.PropertyByAPIName(name: System.String)
+### Symmetry.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -304,7 +304,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Symmetry.PropertyByName"></a>
 
-### Symmetry.PropertyByName(name: System.String)
+### Symmetry.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -312,7 +312,7 @@ Get a property by its unique name.
 
 <a id="Symmetry.RemoveParameter"></a>
 
-### Symmetry.RemoveParameter(propName: System.String)
+### Symmetry.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

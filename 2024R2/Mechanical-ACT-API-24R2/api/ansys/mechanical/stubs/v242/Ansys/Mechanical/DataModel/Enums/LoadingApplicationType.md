@@ -17,7 +17,7 @@ Specifies the LoadingApplicationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------ |
 | [`LoadVector`](#LoadingApplicationType.LoadVector) |
 | [`Table`](#LoadingApplicationType.Table) |
 

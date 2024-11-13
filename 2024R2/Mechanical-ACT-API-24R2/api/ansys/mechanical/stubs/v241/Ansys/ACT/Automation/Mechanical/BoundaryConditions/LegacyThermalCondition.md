@@ -17,7 +17,7 @@ Defines a LegacyThermalCondition.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#LegacyThermalCondition.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#LegacyThermalCondition.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#LegacyThermalCondition.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a LegacyThermalCondition.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#LegacyThermalCondition.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#LegacyThermalCondition.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#LegacyThermalCondition.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -53,7 +53,7 @@ Defines a LegacyThermalCondition.
 
 <a id="LegacyThermalCondition.Children"></a>
 
-### *property* LegacyThermalCondition.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegacyThermalCondition.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -61,7 +61,7 @@ Gets the list of children.
 
 <a id="LegacyThermalCondition.Comments"></a>
 
-### *property* LegacyThermalCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegacyThermalCondition.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -69,7 +69,7 @@ Gets the list of associated comments.
 
 <a id="LegacyThermalCondition.DataModelObjectCategory"></a>
 
-### *property* LegacyThermalCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegacyThermalCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -77,7 +77,7 @@ Gets the current DataModelObject’s category.
 
 <a id="LegacyThermalCondition.Figures"></a>
 
-### *property* LegacyThermalCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegacyThermalCondition.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -85,7 +85,7 @@ Gets the list of associated figures.
 
 <a id="LegacyThermalCondition.Images"></a>
 
-### *property* LegacyThermalCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegacyThermalCondition.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -101,7 +101,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LegacyThermalCondition.Properties"></a>
 
-### *property* LegacyThermalCondition.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegacyThermalCondition.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -109,7 +109,7 @@ Gets the list of properties for this object.
 
 <a id="LegacyThermalCondition.VisibleProperties"></a>
 
-### *property* LegacyThermalCondition.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegacyThermalCondition.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -145,7 +145,7 @@ Creates a new child Figure.
 
 <a id="LegacyThermalCondition.AddImage"></a>
 
-### LegacyThermalCondition.AddImage(filePath: System.String)
+### LegacyThermalCondition.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -165,7 +165,7 @@ Copies all visible properties from this object to another.
 
 <a id="LegacyThermalCondition.CreateParameter"></a>
 
-### LegacyThermalCondition.CreateParameter(propName: System.String)
+### LegacyThermalCondition.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -189,7 +189,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="LegacyThermalCondition.GetChildren"></a>
 
-### LegacyThermalCondition.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LegacyThermalCondition.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -197,7 +197,7 @@ Gets the list of children, filtered by type.
 
 <a id="LegacyThermalCondition.GetParameter"></a>
 
-### LegacyThermalCondition.GetParameter(propName: System.String)
+### LegacyThermalCondition.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -221,7 +221,7 @@ Run the GroupSimilarObjects action.
 
 <a id="LegacyThermalCondition.PropertyByAPIName"></a>
 
-### LegacyThermalCondition.PropertyByAPIName(name: System.String)
+### LegacyThermalCondition.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -232,7 +232,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LegacyThermalCondition.PropertyByName"></a>
 
-### LegacyThermalCondition.PropertyByName(name: System.String)
+### LegacyThermalCondition.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -240,7 +240,7 @@ Get a property by its unique name.
 
 <a id="LegacyThermalCondition.RemoveParameter"></a>
 
-### LegacyThermalCondition.RemoveParameter(propName: System.String)
+### LegacyThermalCondition.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

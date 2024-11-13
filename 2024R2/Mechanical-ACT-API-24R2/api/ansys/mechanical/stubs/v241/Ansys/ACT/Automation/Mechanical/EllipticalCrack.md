@@ -17,7 +17,7 @@ Defines a EllipticalCrack.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#EllipticalCrack.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#EllipticalCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#EllipticalCrack.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a EllipticalCrack.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`BottomFaceNodes`](#EllipticalCrack.BottomFaceNodes)                       | Gets or sets the BottomFaceNodes.                             |
 | [`Children`](#EllipticalCrack.Children)                                     | Gets the list of children.                                    |
 | [`CircumferentialDivisions`](#EllipticalCrack.CircumferentialDivisions)     | Gets or sets the CircumferentialDivisions.                    |
@@ -83,7 +83,7 @@ Defines a EllipticalCrack.
 
 <a id="EllipticalCrack.BottomFaceNodes"></a>
 
-### *property* EllipticalCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.BottomFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomFaceNodes.
 
@@ -91,7 +91,7 @@ Gets or sets the BottomFaceNodes.
 
 <a id="EllipticalCrack.Children"></a>
 
-### *property* EllipticalCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -99,7 +99,7 @@ Gets the list of children.
 
 <a id="EllipticalCrack.CircumferentialDivisions"></a>
 
-### *property* EllipticalCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.CircumferentialDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CircumferentialDivisions.
 
@@ -107,7 +107,7 @@ Gets or sets the CircumferentialDivisions.
 
 <a id="EllipticalCrack.Comments"></a>
 
-### *property* EllipticalCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -115,7 +115,7 @@ Gets the list of associated comments.
 
 <a id="EllipticalCrack.Contact1Nodes"></a>
 
-### *property* EllipticalCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.Contact1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Contact1Nodes.
 
@@ -123,7 +123,7 @@ Gets or sets the Contact1Nodes.
 
 <a id="EllipticalCrack.ContactPairsNodes"></a>
 
-### *property* EllipticalCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.ContactPairsNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactPairsNodes.
 
@@ -139,7 +139,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="EllipticalCrack.CrackFacesNodes"></a>
 
-### *property* EllipticalCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.CrackFacesNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFacesNodes.
 
@@ -147,7 +147,7 @@ Gets or sets the CrackFacesNodes.
 
 <a id="EllipticalCrack.CrackFrontDivisions"></a>
 
-### *property* EllipticalCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.CrackFrontDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontDivisions.
 
@@ -155,7 +155,7 @@ Gets or sets the CrackFrontDivisions.
 
 <a id="EllipticalCrack.CrackFrontNodes"></a>
 
-### *property* EllipticalCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.CrackFrontNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNodes.
 
@@ -163,7 +163,7 @@ Gets or sets the CrackFrontNodes.
 
 <a id="EllipticalCrack.CrackID"></a>
 
-### *property* EllipticalCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.CrackID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackID.
 
@@ -171,7 +171,7 @@ Gets the CrackID.
 
 <a id="EllipticalCrack.CrackMeshMethod"></a>
 
-### *property* EllipticalCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackMeshMethod.
 
@@ -179,7 +179,7 @@ Gets or sets the CrackMeshMethod.
 
 <a id="EllipticalCrack.CrackShape"></a>
 
-### *property* EllipticalCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackShape.
 
@@ -187,7 +187,7 @@ Gets the CrackShape.
 
 <a id="EllipticalCrack.CrackSourceType"></a>
 
-### *property* EllipticalCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackSourceType.
 
@@ -195,7 +195,7 @@ Gets the CrackSourceType.
 
 <a id="EllipticalCrack.DataModelObjectCategory"></a>
 
-### *property* EllipticalCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -203,7 +203,7 @@ Gets the current DataModelObject’s category.
 
 <a id="EllipticalCrack.Figures"></a>
 
-### *property* EllipticalCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -211,7 +211,7 @@ Gets the list of associated figures.
 
 <a id="EllipticalCrack.FractureAffectedZone"></a>
 
-### *property* EllipticalCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FractureAffectedZone.
 
@@ -235,7 +235,7 @@ Gets or sets the FrontElementSize.
 
 <a id="EllipticalCrack.GrowthRate"></a>
 
-### *property* EllipticalCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -243,7 +243,7 @@ Gets or sets the GrowthRate.
 
 <a id="EllipticalCrack.Images"></a>
 
-### *property* EllipticalCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -283,7 +283,7 @@ Gets or sets the MajorRadius.
 
 <a id="EllipticalCrack.MeshContours"></a>
 
-### *property* EllipticalCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.MeshContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshContours.
 
@@ -299,7 +299,7 @@ Gets or sets the MinorRadius.
 
 <a id="EllipticalCrack.Properties"></a>
 
-### *property* EllipticalCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -307,7 +307,7 @@ Gets the list of properties for this object.
 
 <a id="EllipticalCrack.ReadOnly"></a>
 
-### *property* EllipticalCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -315,7 +315,7 @@ Gets or sets the ReadOnly.
 
 <a id="EllipticalCrack.SolutionContours"></a>
 
-### *property* EllipticalCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.SolutionContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionContours.
 
@@ -323,7 +323,7 @@ Gets or sets the SolutionContours.
 
 <a id="EllipticalCrack.Suppressed"></a>
 
-### *property* EllipticalCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -331,7 +331,7 @@ Gets or sets the Suppressed.
 
 <a id="EllipticalCrack.Target1Nodes"></a>
 
-### *property* EllipticalCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.Target1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Target1Nodes.
 
@@ -339,7 +339,7 @@ Gets or sets the Target1Nodes.
 
 <a id="EllipticalCrack.TopFaceNodes"></a>
 
-### *property* EllipticalCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.TopFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopFaceNodes.
 
@@ -347,7 +347,7 @@ Gets or sets the TopFaceNodes.
 
 <a id="EllipticalCrack.VisibleProperties"></a>
 
-### *property* EllipticalCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -355,7 +355,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EllipticalCrack.XScaleFactor"></a>
 
-### *property* EllipticalCrack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.XScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XScaleFactor.
 
@@ -363,7 +363,7 @@ Gets or sets the XScaleFactor.
 
 <a id="EllipticalCrack.YScaleFactor"></a>
 
-### *property* EllipticalCrack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.YScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YScaleFactor.
 
@@ -371,7 +371,7 @@ Gets or sets the YScaleFactor.
 
 <a id="EllipticalCrack.ZScaleFactor"></a>
 
-### *property* EllipticalCrack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EllipticalCrack.ZScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZScaleFactor.
 
@@ -415,7 +415,7 @@ Creates a new child Figure.
 
 <a id="EllipticalCrack.AddImage"></a>
 
-### EllipticalCrack.AddImage(filePath: System.String)
+### EllipticalCrack.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -435,7 +435,7 @@ Copies all visible properties from this object to another.
 
 <a id="EllipticalCrack.CreateParameter"></a>
 
-### EllipticalCrack.CreateParameter(propName: System.String)
+### EllipticalCrack.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -459,7 +459,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="EllipticalCrack.GetChildren"></a>
 
-### EllipticalCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EllipticalCrack.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -467,7 +467,7 @@ Gets the list of children, filtered by type.
 
 <a id="EllipticalCrack.GetParameter"></a>
 
-### EllipticalCrack.GetParameter(propName: System.String)
+### EllipticalCrack.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -491,7 +491,7 @@ Run the GroupSimilarObjects action.
 
 <a id="EllipticalCrack.PropertyByAPIName"></a>
 
-### EllipticalCrack.PropertyByAPIName(name: System.String)
+### EllipticalCrack.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -502,7 +502,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EllipticalCrack.PropertyByName"></a>
 
-### EllipticalCrack.PropertyByName(name: System.String)
+### EllipticalCrack.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -510,7 +510,7 @@ Get a property by its unique name.
 
 <a id="EllipticalCrack.RemoveParameter"></a>
 
-### EllipticalCrack.RemoveParameter(propName: System.String)
+### EllipticalCrack.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

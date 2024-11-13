@@ -17,7 +17,7 @@ Specifies the Joint Condition Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`Acceleration`](#JointConditionType.Acceleration) |
 | [`Displacement`](#JointConditionType.Displacement) |
 | [`Force`](#JointConditionType.Force) |

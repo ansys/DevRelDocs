@@ -17,7 +17,7 @@ Represents a TBPT command.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+|-----------------------------------------------|----------------------------------------------|
 | [`Index`](#TBPTCommand.Index)                 | Gets the command index.                      |
 | [`Lab`](#TBPTCommand.Lab)                     | Gets the label.                              |
 | [`Mat`](#TBPTCommand.Mat)                     | Gets the material number.                    |
@@ -34,7 +34,7 @@ Represents a TBPT command.
 
 <a id="TBPTCommand.Index"></a>
 
-### *property* TBPTCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -42,7 +42,7 @@ Gets the command index.
 
 <a id="TBPTCommand.Lab"></a>
 
-### *property* TBPTCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTCommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
 
@@ -50,7 +50,7 @@ Gets the label.
 
 <a id="TBPTCommand.Mat"></a>
 
-### *property* TBPTCommand.Mat *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTCommand.Mat *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
 
@@ -58,7 +58,7 @@ Gets the material number.
 
 <a id="TBPTCommand.Name"></a>
 
-### *property* TBPTCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -66,7 +66,7 @@ Gets the command name.
 
 <a id="TBPTCommand.Npts"></a>
 
-### *property* TBPTCommand.Npts *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTCommand.Npts *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of points, if provided.
 
@@ -74,7 +74,7 @@ Gets the number of points, if provided.
 
 <a id="TBPTCommand.Ntemp"></a>
 
-### *property* TBPTCommand.Ntemp *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTCommand.Ntemp *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of temperature, if provided.
 
@@ -82,7 +82,7 @@ Gets the number of temperature, if provided.
 
 <a id="TBPTCommand.TBPTData"></a>
 
-### *property* TBPTCommand.TBPTData *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTData](TBPTData.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTData)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTCommand.TBPTData *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTData](TBPTData.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTData)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets TBPT data items.
 
@@ -90,7 +90,7 @@ Gets TBPT data items.
 
 <a id="TBPTCommand.TBPTDataCount"></a>
 
-### *property* TBPTCommand.TBPTDataCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTCommand.TBPTDataCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of TBPT data.
 
@@ -98,7 +98,7 @@ Gets the number of TBPT data.
 
 <a id="TBPTCommand.Tbopt"></a>
 
-### *property* TBPTCommand.Tbopt *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTCommand.Tbopt *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the option.
 

@@ -37,7 +37,7 @@ AMSupportRemovalSequence class.
 
 <a id="AMSupportRemovalSequence.Count"></a>
 
-### *property* AMSupportRemovalSequence.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupportRemovalSequence.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Count property.
 
@@ -49,7 +49,7 @@ Count property.
 
 <a id="AMSupportRemovalSequence.Add"></a>
 
-### AMSupportRemovalSequence.Add(item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](../../../../../../v241/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/IAMProcessStep.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
+### AMSupportRemovalSequence.Add(item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
 
 ```text
 Adds a support or base removal step.
@@ -63,7 +63,7 @@ Usage:
 
 <a id="AMSupportRemovalSequence.Contains"></a>
 
-### AMSupportRemovalSequence.Contains(item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](../../../../../../v241/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/IAMProcessStep.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
+### AMSupportRemovalSequence.Contains(item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
 
 ```text
 Returns true if the step exists in the sequencer. If not, returns false
@@ -76,7 +76,7 @@ Usage:
 
 <a id="AMSupportRemovalSequence.IndexOf"></a>
 
-### AMSupportRemovalSequence.IndexOf(item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](../../../../../../v241/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/IAMProcessStep.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
+### AMSupportRemovalSequence.IndexOf(item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
 
 ```text
 Returns index of removal object
@@ -94,7 +94,7 @@ Python
 
 <a id="AMSupportRemovalSequence.Insert"></a>
 
-### AMSupportRemovalSequence.Insert(index: System.Int32, item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](../../../../../../v241/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/IAMProcessStep.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
+### AMSupportRemovalSequence.Insert(index: [int](https://docs.python.org/3/library/functions.html#int), item: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
 
 ```text
 Inserts a given step at particular index(zero based)
@@ -108,7 +108,7 @@ Usage:
 
 <a id="AMSupportRemovalSequence.RemoveAt"></a>
 
-### AMSupportRemovalSequence.RemoveAt(index: System.Int32)
+### AMSupportRemovalSequence.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 ```text
 Remove AM step at index.
@@ -121,7 +121,7 @@ Usage:
 
 <a id="AMSupportRemovalSequence.Swap"></a>
 
-### AMSupportRemovalSequence.Swap(item1: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](../../../../../../v241/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/IAMProcessStep.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep), item2: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](../../../../../../v241/Ansys/ACT/Automation/Mechanical/AdditiveManufacturing/IAMProcessStep.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
+### AMSupportRemovalSequence.Swap(item1: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep), item2: [Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep](IAMProcessStep.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep))
 
 ```text
 Swaps two steps in the Removal sequence.

@@ -17,7 +17,7 @@ Specifies the HarmonicMethod.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`Full`](#HarmonicMethod.Full) |
 | [`Krylov`](#HarmonicMethod.Krylov) |
 | [`ModeSuperposition`](#HarmonicMethod.ModeSuperposition) |

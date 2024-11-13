@@ -17,7 +17,7 @@ Specifies the Chart Viewing Style.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- |
 | [`ThreeDimensional`](#ChartDimensions.ThreeDimensional) |
 | [`TwoDimensional`](#ChartDimensions.TwoDimensional) |
 

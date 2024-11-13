@@ -17,7 +17,7 @@ Specifies the JointFrictionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------------- |
 | [`ForcedFrictionalSliding`](#JointFrictionType.ForcedFrictionalSliding) |
 | [`FrictionWithTransitions`](#JointFrictionType.FrictionWithTransitions) |
 | [`ProgramControlled`](#JointFrictionType.ProgramControlled) |

@@ -17,7 +17,7 @@ This enum specifies how a path should be interpreted.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`Absolute`](#PathType.Absolute) |
 | [`RelativeToProject`](#PathType.RelativeToProject) |
 

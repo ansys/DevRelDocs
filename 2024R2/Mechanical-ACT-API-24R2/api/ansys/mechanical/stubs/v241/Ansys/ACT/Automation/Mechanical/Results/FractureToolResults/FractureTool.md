@@ -81,7 +81,7 @@ Defines a FractureTool.
 
 <a id="FractureTool.Children"></a>
 
-### *property* FractureTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -89,7 +89,7 @@ Gets the list of children.
 
 <a id="FractureTool.Comments"></a>
 
-### *property* FractureTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -97,7 +97,7 @@ Gets the list of associated comments.
 
 <a id="FractureTool.CrackFrontNumber"></a>
 
-### *property* FractureTool.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -113,7 +113,7 @@ Gets or sets the CrackSelection.
 
 <a id="FractureTool.CrackSelectionMode"></a>
 
-### *property* FractureTool.CrackSelectionMode *: [Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSelectionModeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.CrackSelectionMode *: [Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType](../../../../../Mechanical/DataModel/Enums/CrackSelectionModeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackSelectionMode.
 
@@ -121,7 +121,7 @@ Gets or sets the CrackSelectionMode.
 
 <a id="FractureTool.DataModelObjectCategory"></a>
 
-### *property* FractureTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -129,7 +129,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FractureTool.Figures"></a>
 
-### *property* FractureTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -137,7 +137,7 @@ Gets the list of associated figures.
 
 <a id="FractureTool.Images"></a>
 
-### *property* FractureTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -153,7 +153,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FractureTool.MultipleCracksSelection"></a>
 
-### *property* FractureTool.MultipleCracksSelection *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.GenericCrack](../../GenericCrack.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.MultipleCracksSelection *: Iterable[[Ansys.ACT.Automation.Mechanical.GenericCrack](../../GenericCrack.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get/Set multiple cracks to Fracture tool
 
@@ -161,7 +161,7 @@ Get/Set multiple cracks to Fracture tool
 
 <a id="FractureTool.Properties"></a>
 
-### *property* FractureTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -169,7 +169,7 @@ Gets the list of properties for this object.
 
 <a id="FractureTool.ScopingMethod"></a>
 
-### *property* FractureTool.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.FractureToolScopeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FractureToolScopeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureToolScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.FractureToolScopeType](../../../../../Mechanical/DataModel/Enums/FractureToolScopeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureToolScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -177,7 +177,7 @@ Gets or sets the ScopingMethod.
 
 <a id="FractureTool.Suppressed"></a>
 
-### *property* FractureTool.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -185,7 +185,7 @@ Gets or sets the Suppressed.
 
 <a id="FractureTool.VisibleProperties"></a>
 
-### *property* FractureTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -253,7 +253,7 @@ Creates a new child Figure.
 
 <a id="FractureTool.AddImage"></a>
 
-### FractureTool.AddImage(filePath: System.String)
+### FractureTool.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -409,7 +409,7 @@ Copies all visible properties from this object to another.
 
 <a id="FractureTool.CreateParameter"></a>
 
-### FractureTool.CreateParameter(propName: System.String)
+### FractureTool.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -441,7 +441,7 @@ Run the EvaluateAllResults action.
 
 <a id="FractureTool.GetChildren"></a>
 
-### FractureTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FractureTool.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -449,7 +449,7 @@ Gets the list of children, filtered by type.
 
 <a id="FractureTool.GetParameter"></a>
 
-### FractureTool.GetParameter(propName: System.String)
+### FractureTool.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -473,7 +473,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FractureTool.PropertyByAPIName"></a>
 
-### FractureTool.PropertyByAPIName(name: System.String)
+### FractureTool.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -484,7 +484,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FractureTool.PropertyByName"></a>
 
-### FractureTool.PropertyByName(name: System.String)
+### FractureTool.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -492,7 +492,7 @@ Get a property by its unique name.
 
 <a id="FractureTool.RemoveParameter"></a>
 
-### FractureTool.RemoveParameter(propName: System.String)
+### FractureTool.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the BrickIntegrationScheme.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------- |
 | [`Full`](#BrickIntegrationScheme.Full) |
 | [`Reduced`](#BrickIntegrationScheme.Reduced) |
 

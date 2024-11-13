@@ -17,7 +17,7 @@ Specifies the ShellFaceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------- |
 | [`All`](#ShellFaceType.All) |
 | [`Bending`](#ShellFaceType.Bending) |
 | [`Bottom`](#ShellFaceType.Bottom) |

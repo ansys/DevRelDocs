@@ -77,7 +77,7 @@ Pull method enables you to extrude or revolve element faces, topofaces or scoped
 
 <a id="MeshExtrude.AxisOfRevolution"></a>
 
-### *property* MeshExtrude.AxisOfRevolution *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.AxisOfRevolution *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To select the coordinate axis along which the selected elements can be revolved. The available options are X Axis, Y Axis, Z Axis.
 
@@ -85,7 +85,7 @@ To select the coordinate axis along which the selected elements can be revolved.
 
 <a id="MeshExtrude.Children"></a>
 
-### *property* MeshExtrude.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -93,7 +93,7 @@ Gets the list of children.
 
 <a id="MeshExtrude.Comments"></a>
 
-### *property* MeshExtrude.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -109,7 +109,7 @@ To generate elements in the specified coordinate system. The Coordinate System a
 
 <a id="MeshExtrude.DataModelObjectCategory"></a>
 
-### *property* MeshExtrude.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -117,7 +117,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshExtrude.ElementOption"></a>
 
-### *property* MeshExtrude.ElementOption *: [Ansys.Mechanical.DataModel.Enums.SweepElementOptionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SweepElementOptionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SweepElementOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.ElementOption *: [Ansys.Mechanical.DataModel.Enums.SweepElementOptionType](../../../Mechanical/DataModel/Enums/SweepElementOptionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SweepElementOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementOption.
 
@@ -125,7 +125,7 @@ Gets or sets the ElementOption.
 
 <a id="MeshExtrude.ExtrudeBy"></a>
 
-### *property* MeshExtrude.ExtrudeBy *: [Ansys.Mechanical.DataModel.Enums.ExtrudeBy](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExtrudeBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExtrudeBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.ExtrudeBy *: [Ansys.Mechanical.DataModel.Enums.ExtrudeBy](../../../Mechanical/DataModel/Enums/ExtrudeBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExtrudeBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To specify the method of Extrude. The available options are Use Coordinate System and Face Normal.
 
@@ -141,7 +141,7 @@ To specify feature angle for splitting side faces.
 
 <a id="MeshExtrude.Figures"></a>
 
-### *property* MeshExtrude.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -157,7 +157,7 @@ To specify the height for the volume of solid elements in the method of Extrude.
 
 <a id="MeshExtrude.Images"></a>
 
-### *property* MeshExtrude.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -181,7 +181,7 @@ Allows you to scope elements, element faces, topofaces and sheet bodies for Extr
 
 <a id="MeshExtrude.Material"></a>
 
-### *property* MeshExtrude.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To select the material of your choice. You can also select a different material from the parent body material.
 
@@ -189,7 +189,7 @@ To select the material of your choice. You can also select a different material 
 
 <a id="MeshExtrude.MergeProfileNodes"></a>
 
-### *property* MeshExtrude.MergeProfileNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.MergeProfileNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To merge nodes on the profile body and pull generated body.
 
@@ -197,7 +197,7 @@ To merge nodes on the profile body and pull generated body.
 
 <a id="MeshExtrude.Method"></a>
 
-### *property* MeshExtrude.Method *: [Ansys.Mechanical.DataModel.Enums.PullMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PullMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.Method *: [Ansys.Mechanical.DataModel.Enums.PullMethod](../../../Mechanical/DataModel/Enums/PullMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To select the method of Pull. There are three methods. They are Extrude, Revolve and Surface Coating.
 
@@ -205,7 +205,7 @@ To select the method of Pull. There are three methods. They are Extrude, Revolve
 
 <a id="MeshExtrude.NonlinearMaterialEffects"></a>
 
-### *property* MeshExtrude.NonlinearMaterialEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.NonlinearMaterialEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonlinearMaterialEffects.
 
@@ -213,7 +213,7 @@ Gets or sets the NonlinearMaterialEffects.
 
 <a id="MeshExtrude.NumberOfLayers"></a>
 
-### *property* MeshExtrude.NumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.NumberOfLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To specify the number of layers to be used for Extrude and Revolve.
 
@@ -221,7 +221,7 @@ To specify the number of layers to be used for Extrude and Revolve.
 
 <a id="MeshExtrude.Properties"></a>
 
-### *property* MeshExtrude.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -237,7 +237,7 @@ To specify angle of revolution for the solid elements in the method of Revolve.
 
 <a id="MeshExtrude.ScopingMethod"></a>
 
-### *property* MeshExtrude.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Defines what type of selection this object is scoped to.
 
@@ -245,7 +245,7 @@ Defines what type of selection this object is scoped to.
 
 <a id="MeshExtrude.StiffnessOption"></a>
 
-### *property* MeshExtrude.StiffnessOption *: [Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellElementStiffnessOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.StiffnessOption *: [Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption](../../../Mechanical/DataModel/Enums/ShellElementStiffnessOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To provide the stiffness option of the shell body created by surface coating. The available options are Stress Evaluation Only, Membrane Only, Membrane and Bending.
 
@@ -253,7 +253,7 @@ To provide the stiffness option of the shell body created by surface coating. Th
 
 <a id="MeshExtrude.Suppressed"></a>
 
-### *property* MeshExtrude.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To suppress the selected entities. You can select Yes to suppress the selected entities and No to unsuppress the selected entities. The default value is No.
 
@@ -261,7 +261,7 @@ To suppress the selected entities. You can select Yes to suppress the selected e
 
 <a id="MeshExtrude.ThermalStrainCalculation"></a>
 
-### *property* MeshExtrude.ThermalStrainCalculation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.ThermalStrainCalculation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrainCalculation.
 
@@ -277,7 +277,7 @@ To specify the thickness for surface coating. The Thickness option is available 
 
 <a id="MeshExtrude.UpTo"></a>
 
-### *property* MeshExtrude.UpTo *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.UpTo *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To generate elements up to the specified target. The target can be faces from solids or sheet bodies and multiple faces with sharing topoedge.
 
@@ -293,7 +293,7 @@ The target can be faces from solids or sheet bodies and multiple faces with shar
 
 <a id="MeshExtrude.UseCoordinateSystem"></a>
 
-### *property* MeshExtrude.UseCoordinateSystem *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.UseCoordinateSystem *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The Use Coordinate System allows to select any of the XYZ coordinate axis in the method of Extrude.
 
@@ -301,7 +301,7 @@ The Use Coordinate System allows to select any of the XYZ coordinate axis in the
 
 <a id="MeshExtrude.UseFeatureAngle"></a>
 
-### *property* MeshExtrude.UseFeatureAngle *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.UseFeatureAngle *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To split side faces by speficied feature angle.
 
@@ -309,7 +309,7 @@ To split side faces by speficied feature angle.
 
 <a id="MeshExtrude.VisibleProperties"></a>
 
-### *property* MeshExtrude.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshExtrude.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -345,7 +345,7 @@ Creates a new child Figure.
 
 <a id="MeshExtrude.AddImage"></a>
 
-### MeshExtrude.AddImage(filePath: System.String)
+### MeshExtrude.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -373,7 +373,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshExtrude.CreateParameter"></a>
 
-### MeshExtrude.CreateParameter(propName: System.String)
+### MeshExtrude.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -405,7 +405,7 @@ Generate selected mesh pull.
 
 <a id="MeshExtrude.GetChildren"></a>
 
-### MeshExtrude.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshExtrude.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -413,7 +413,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshExtrude.GetParameter"></a>
 
-### MeshExtrude.GetParameter(propName: System.String)
+### MeshExtrude.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -437,7 +437,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshExtrude.PropertyByAPIName"></a>
 
-### MeshExtrude.PropertyByAPIName(name: System.String)
+### MeshExtrude.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -448,7 +448,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshExtrude.PropertyByName"></a>
 
-### MeshExtrude.PropertyByName(name: System.String)
+### MeshExtrude.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -456,7 +456,7 @@ Get a property by its unique name.
 
 <a id="MeshExtrude.RemoveParameter"></a>
 
-### MeshExtrude.RemoveParameter(propName: System.String)
+### MeshExtrude.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

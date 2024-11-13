@@ -19,7 +19,7 @@ fixed-width files).
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | [`Clear`](#ColumnarDataSourceBase.Clear)                 |                                                       |
 | [`GetEnumerator`](#ColumnarDataSourceBase.GetEnumerator) |                                                       |
 | [`RemoveAt`](#ColumnarDataSourceBase.RemoveAt)           | Removes the import definition at the specified index. |
@@ -28,11 +28,11 @@ fixed-width files).
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [`Count`](#ColumnarDataSourceBase.Count)           | Gets the number of column definitions.                                               |
 | [`Format`](#ColumnarDataSourceBase.Format)         | Gets the existing corresponding format.                                              |
 | [`Item`](#ColumnarDataSourceBase.Item)             | Item property.                                                                       |
-| [`PathType`](#ColumnarDataSourceBase.PathType)            | Gets or sets the type of URI provided for Table import.                              |
+| [`PathType`](#ColumnarDataSourceBase.PathType)                                              | Gets or sets the type of URI provided for Table import.                              |
 | [`SkipFooter`](#ColumnarDataSourceBase.SkipFooter) | Gets or sets the number of rows to ignore at the end of the file during import.      |
 | [`SkipRows`](#ColumnarDataSourceBase.SkipRows)     | Gets or sets the number of rows to skip over at the start of the file during import. |
 
@@ -42,7 +42,7 @@ fixed-width files).
 
 <a id="ColumnarDataSourceBase.Count"></a>
 
-### *property* ColumnarDataSourceBase.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ColumnarDataSourceBase.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of column definitions.
 
@@ -75,7 +75,7 @@ Default: F:Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType.Absolute
 
 <a id="ColumnarDataSourceBase.SkipFooter"></a>
 
-### *property* ColumnarDataSourceBase.SkipFooter *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ColumnarDataSourceBase.SkipFooter *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the number of rows to ignore at the end of the file during import.
 
@@ -83,7 +83,7 @@ Gets or sets the number of rows to ignore at the end of the file during import.
 
 <a id="ColumnarDataSourceBase.SkipRows"></a>
 
-### *property* ColumnarDataSourceBase.SkipRows *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ColumnarDataSourceBase.SkipRows *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the number of rows to skip over at the start of the file during import.
 
@@ -103,7 +103,7 @@ Gets or sets the number of rows to skip over at the start of the file during imp
 
 <a id="ColumnarDataSourceBase.RemoveAt"></a>
 
-### ColumnarDataSourceBase.RemoveAt(index: System.Int32)
+### ColumnarDataSourceBase.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Removes the import definition at the specified index.
 
@@ -111,7 +111,7 @@ Removes the import definition at the specified index.
 
 <a id="ColumnarDataSourceBase.UseColumn"></a>
 
-### ColumnarDataSourceBase.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), unit: System.String, name: System.String)
+### ColumnarDataSourceBase.UseColumn(index: [int](https://docs.python.org/3/library/functions.html#int), variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), unit: [str](https://docs.python.org/3/library/stdtypes.html#str), name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 <!-- !! processed by numpydoc !! -->
 

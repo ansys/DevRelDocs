@@ -17,7 +17,7 @@ Specifies the ContactDetectionPoint.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------------- |
 | [`Combined`](#ContactDetectionPoint.Combined) |
 | [`NodalDualShapeFunctionProjection`](#ContactDetectionPoint.NodalDualShapeFunctionProjection) |
 | [`NodalNormalFromContact`](#ContactDetectionPoint.NodalNormalFromContact) |

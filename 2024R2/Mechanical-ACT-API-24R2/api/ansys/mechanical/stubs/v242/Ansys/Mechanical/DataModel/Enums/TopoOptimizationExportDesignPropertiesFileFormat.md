@@ -17,7 +17,7 @@ Specifies the TopoOptimizationExportDesignPropertiesFileFormat.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`hdf5`](#TopoOptimizationExportDesignPropertiesFileFormat.hdf5) |
 | [`vtk`](#TopoOptimizationExportDesignPropertiesFileFormat.vtk) |
 

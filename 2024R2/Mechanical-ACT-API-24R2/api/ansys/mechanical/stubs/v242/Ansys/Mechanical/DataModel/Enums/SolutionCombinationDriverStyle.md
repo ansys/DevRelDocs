@@ -17,7 +17,7 @@ Specifies the SolutionCombinationDriverStyle.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------- |
 | [`CombinationOfMaximum`](#SolutionCombinationDriverStyle.CombinationOfMaximum) |
 | [`CombinationOfMinimum`](#SolutionCombinationDriverStyle.CombinationOfMinimum) |
 | [`Default`](#SolutionCombinationDriverStyle.Default) |

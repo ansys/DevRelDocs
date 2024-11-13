@@ -17,7 +17,7 @@ Defines a Acceleration.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Acceleration.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Acceleration.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Acceleration.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a Acceleration.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AbsoluteResult`](#Acceleration.AbsoluteResult)                   | Gets or sets the AbsoluteResult.                              |
 | [`BaseExcitation`](#Acceleration.BaseExcitation)                   | Gets or sets the BaseExcitation.                              |
 | [`BoundaryCondition`](#Acceleration.BoundaryCondition)             | Gets or sets the BoundaryCondition.                           |
@@ -75,7 +75,7 @@ Defines a Acceleration.
 
 <a id="Acceleration.AbsoluteResult"></a>
 
-### *property* Acceleration.AbsoluteResult *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.AbsoluteResult *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AbsoluteResult.
 
@@ -83,7 +83,7 @@ Gets or sets the AbsoluteResult.
 
 <a id="Acceleration.BaseExcitation"></a>
 
-### *property* Acceleration.BaseExcitation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.BaseExcitation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BaseExcitation.
 
@@ -91,7 +91,7 @@ Gets or sets the BaseExcitation.
 
 <a id="Acceleration.BoundaryCondition"></a>
 
-### *property* Acceleration.BoundaryCondition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.BoundaryCondition *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -99,7 +99,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="Acceleration.Children"></a>
 
-### *property* Acceleration.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -107,7 +107,7 @@ Gets the list of children.
 
 <a id="Acceleration.Comments"></a>
 
-### *property* Acceleration.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -123,7 +123,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="Acceleration.DataModelObjectCategory"></a>
 
-### *property* Acceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -131,7 +131,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Acceleration.DefineBy"></a>
 
-### *property* Acceleration.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -139,7 +139,7 @@ Gets or sets the DefineBy.
 
 <a id="Acceleration.Direction"></a>
 
-### *property* Acceleration.Direction *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.Direction *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Direction.
 
@@ -147,7 +147,7 @@ Gets or sets the Direction.
 
 <a id="Acceleration.Figures"></a>
 
-### *property* Acceleration.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -155,7 +155,7 @@ Gets the list of associated figures.
 
 <a id="Acceleration.Images"></a>
 
-### *property* Acceleration.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -163,7 +163,7 @@ Gets the list of associated images.
 
 <a id="Acceleration.IndependentVariable"></a>
 
-### *property* Acceleration.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -179,7 +179,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Acceleration.LoadVectorAssignment"></a>
 
-### *property* Acceleration.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVectorAssignment.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorAssignment.
 
@@ -187,7 +187,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="Acceleration.LoadVectorNumber"></a>
 
-### *property* Acceleration.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.LoadVectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorNumber.
 
@@ -195,7 +195,7 @@ Gets or sets the LoadVectorNumber.
 
 <a id="Acceleration.Location"></a>
 
-### *property* Acceleration.Location *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.Location *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Location.
 
@@ -203,7 +203,7 @@ Gets the Location.
 
 <a id="Acceleration.Magnitude"></a>
 
-### *property* Acceleration.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -211,7 +211,7 @@ Gets the Magnitude.
 
 <a id="Acceleration.MagnitudeImag"></a>
 
-### *property* Acceleration.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MagnitudeImag.
 
@@ -219,7 +219,7 @@ Gets the MagnitudeImag.
 
 <a id="Acceleration.NumberOfSegments"></a>
 
-### *property* Acceleration.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -227,7 +227,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="Acceleration.PhaseAngle"></a>
 
-### *property* Acceleration.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PhaseAngle.
 
@@ -235,7 +235,7 @@ Gets the PhaseAngle.
 
 <a id="Acceleration.Properties"></a>
 
-### *property* Acceleration.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -243,7 +243,7 @@ Gets the list of properties for this object.
 
 <a id="Acceleration.ReadOnly"></a>
 
-### *property* Acceleration.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -259,7 +259,7 @@ Gets or sets the RpmSelection.
 
 <a id="Acceleration.StepSelection"></a>
 
-### *property* Acceleration.StepSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.StepSelection *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepSelection.
 
@@ -267,7 +267,7 @@ Gets or sets the StepSelection.
 
 <a id="Acceleration.StepVarying"></a>
 
-### *property* Acceleration.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StepVarying.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](../../../../Mechanical/DataModel/Enums/StepVarying.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepVarying.
 
@@ -275,7 +275,7 @@ Gets or sets the StepVarying.
 
 <a id="Acceleration.Suppressed"></a>
 
-### *property* Acceleration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -283,7 +283,7 @@ Gets or sets the Suppressed.
 
 <a id="Acceleration.VisibleProperties"></a>
 
-### *property* Acceleration.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -291,7 +291,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Acceleration.XComponent"></a>
 
-### *property* Acceleration.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponent.
 
@@ -299,7 +299,7 @@ Gets the XComponent.
 
 <a id="Acceleration.YComponent"></a>
 
-### *property* Acceleration.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
@@ -307,7 +307,7 @@ Gets the YComponent.
 
 <a id="Acceleration.ZComponent"></a>
 
-### *property* Acceleration.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Acceleration.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponent.
 
@@ -343,7 +343,7 @@ Creates a new child Figure.
 
 <a id="Acceleration.AddImage"></a>
 
-### Acceleration.AddImage(filePath: System.String)
+### Acceleration.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -363,7 +363,7 @@ Copies all visible properties from this object to another.
 
 <a id="Acceleration.CreateParameter"></a>
 
-### Acceleration.CreateParameter(propName: System.String)
+### Acceleration.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -387,7 +387,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Acceleration.GetChildren"></a>
 
-### Acceleration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Acceleration.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -395,7 +395,7 @@ Gets the list of children, filtered by type.
 
 <a id="Acceleration.GetParameter"></a>
 
-### Acceleration.GetParameter(propName: System.String)
+### Acceleration.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -419,7 +419,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Acceleration.PropertyByAPIName"></a>
 
-### Acceleration.PropertyByAPIName(name: System.String)
+### Acceleration.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -430,7 +430,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Acceleration.PropertyByName"></a>
 
-### Acceleration.PropertyByName(name: System.String)
+### Acceleration.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -438,7 +438,7 @@ Get a property by its unique name.
 
 <a id="Acceleration.RemoveParameter"></a>
 
-### Acceleration.RemoveParameter(propName: System.String)
+### Acceleration.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

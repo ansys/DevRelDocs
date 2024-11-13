@@ -19,7 +19,7 @@ Derive from this class to define new enumerations.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------- |
 | [`GlobalCartesian`](#MeshFlowControlMethod.GlobalCartesian) |
 | [`None_`](#MeshFlowControlMethod.None_) |
 | [`ProgramControlled`](#MeshFlowControlMethod.ProgramControlled) |

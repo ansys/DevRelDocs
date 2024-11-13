@@ -27,7 +27,7 @@ CDBCommand class.
 
 <a id="CDBCommand.Index"></a>
 
-### *property* CDBCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CDBCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -35,7 +35,7 @@ Gets the command index.
 
 <a id="CDBCommand.Name"></a>
 
-### *property* CDBCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CDBCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 

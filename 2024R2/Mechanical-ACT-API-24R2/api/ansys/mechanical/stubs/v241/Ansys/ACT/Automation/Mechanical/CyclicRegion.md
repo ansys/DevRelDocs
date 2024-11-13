@@ -17,7 +17,7 @@ Defines a CyclicRegion.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CyclicRegion.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#CyclicRegion.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#CyclicRegion.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a CyclicRegion.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#CyclicRegion.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CyclicRegion.Comments)                               | Gets the list of associated comments.                         |
 | [`CoordinateSystem`](#CyclicRegion.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
@@ -61,7 +61,7 @@ Defines a CyclicRegion.
 
 <a id="CyclicRegion.Children"></a>
 
-### *property* CyclicRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -69,7 +69,7 @@ Gets the list of children.
 
 <a id="CyclicRegion.Comments"></a>
 
-### *property* CyclicRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -85,7 +85,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="CyclicRegion.DataModelObjectCategory"></a>
 
-### *property* CyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -93,7 +93,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CyclicRegion.Figures"></a>
 
-### *property* CyclicRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -109,7 +109,7 @@ Gets or sets the HighBoundaryLocation.
 
 <a id="CyclicRegion.Images"></a>
 
-### *property* CyclicRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -141,7 +141,7 @@ Gets or sets the LowBoundaryLocation.
 
 <a id="CyclicRegion.Properties"></a>
 
-### *property* CyclicRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -149,7 +149,7 @@ Gets the list of properties for this object.
 
 <a id="CyclicRegion.ReadOnly"></a>
 
-### *property* CyclicRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -157,7 +157,7 @@ Gets or sets the ReadOnly.
 
 <a id="CyclicRegion.ScopeMode"></a>
 
-### *property* CyclicRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
@@ -165,7 +165,7 @@ Gets the ScopeMode.
 
 <a id="CyclicRegion.Suppressed"></a>
 
-### *property* CyclicRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -173,7 +173,7 @@ Gets or sets the Suppressed.
 
 <a id="CyclicRegion.VisibleProperties"></a>
 
-### *property* CyclicRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -209,7 +209,7 @@ Creates a new child Figure.
 
 <a id="CyclicRegion.AddImage"></a>
 
-### CyclicRegion.AddImage(filePath: System.String)
+### CyclicRegion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -229,7 +229,7 @@ Copies all visible properties from this object to another.
 
 <a id="CyclicRegion.CreateParameter"></a>
 
-### CyclicRegion.CreateParameter(propName: System.String)
+### CyclicRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -261,7 +261,7 @@ Flips the High and Low Boundaries.
 
 <a id="CyclicRegion.GetChildren"></a>
 
-### CyclicRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CyclicRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -269,7 +269,7 @@ Gets the list of children, filtered by type.
 
 <a id="CyclicRegion.GetParameter"></a>
 
-### CyclicRegion.GetParameter(propName: System.String)
+### CyclicRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -293,7 +293,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CyclicRegion.PropertyByAPIName"></a>
 
-### CyclicRegion.PropertyByAPIName(name: System.String)
+### CyclicRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -304,7 +304,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CyclicRegion.PropertyByName"></a>
 
-### CyclicRegion.PropertyByName(name: System.String)
+### CyclicRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -312,7 +312,7 @@ Get a property by its unique name.
 
 <a id="CyclicRegion.RemoveParameter"></a>
 
-### CyclicRegion.RemoveParameter(propName: System.String)
+### CyclicRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

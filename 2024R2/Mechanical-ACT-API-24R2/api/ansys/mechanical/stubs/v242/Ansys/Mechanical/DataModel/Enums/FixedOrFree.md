@@ -17,7 +17,7 @@ Specifies the FixedOrFree.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------- |
 | [`Fixed`](#FixedOrFree.Fixed) |
 | [`Free`](#FixedOrFree.Free) |
 | [`MixedConstraints`](#FixedOrFree.MixedConstraints) |

@@ -17,7 +17,7 @@ Defines a VirtualTopology.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#VirtualTopology.Activate)                                         | Activate the current object.                                                      |
 | [`AddComment`](#VirtualTopology.AddComment)                                     | Creates a new child Comment.                                                      |
 | [`AddFigure`](#VirtualTopology.AddFigure)                                       | Creates a new child Figure.                                                       |
@@ -48,7 +48,7 @@ Defines a VirtualTopology.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AspectRatio`](#VirtualTopology.AspectRatio)                                             | Gets or sets the AspectRatio.                                 |
 | [`AutomaticBehavior`](#VirtualTopology.AutomaticBehavior)                                 | Gets or sets the Behavior when Method is set to “Automatic”.  |
 | [`Children`](#VirtualTopology.Children)                                                   | Gets the list of children.                                    |
@@ -89,7 +89,7 @@ Defines a VirtualTopology.
 
 <a id="VirtualTopology.AspectRatio"></a>
 
-### *property* VirtualTopology.AspectRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.AspectRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AspectRatio.
 
@@ -105,7 +105,7 @@ Gets or sets the Behavior when Method is set to “Automatic”.
 
 <a id="VirtualTopology.Children"></a>
 
-### *property* VirtualTopology.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -113,7 +113,7 @@ Gets the list of children.
 
 <a id="VirtualTopology.Comments"></a>
 
-### *property* VirtualTopology.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -153,7 +153,7 @@ Gets or sets the EdgeAngle.
 
 <a id="VirtualTopology.Figures"></a>
 
-### *property* VirtualTopology.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -177,7 +177,7 @@ Gets or sets the GenerateOnUpdate.
 
 <a id="VirtualTopology.Images"></a>
 
-### *property* VirtualTopology.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -265,7 +265,7 @@ Gets or sets the MinSliverWidth.
 
 <a id="VirtualTopology.Properties"></a>
 
-### *property* VirtualTopology.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -281,7 +281,7 @@ Gets or sets the Behavior when Method is set to “Repair”.
 
 <a id="VirtualTopology.SharedBoundaryRatio"></a>
 
-### *property* VirtualTopology.SharedBoundaryRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.SharedBoundaryRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedBoundaryRatio.
 
@@ -297,7 +297,7 @@ Gets or sets the SimplifyFaces.
 
 <a id="VirtualTopology.VirtualEdges"></a>
 
-### *property* VirtualTopology.VirtualEdges *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.VirtualEdges *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the VirtualEdges.
 
@@ -305,7 +305,7 @@ Gets the VirtualEdges.
 
 <a id="VirtualTopology.VirtualEntities"></a>
 
-### *property* VirtualTopology.VirtualEntities *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.VirtualEntities *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the VirtualEntities.
 
@@ -313,7 +313,7 @@ Gets the VirtualEntities.
 
 <a id="VirtualTopology.VirtualFaces"></a>
 
-### *property* VirtualTopology.VirtualFaces *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.VirtualFaces *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the VirtualFaces.
 
@@ -321,7 +321,7 @@ Gets the VirtualFaces.
 
 <a id="VirtualTopology.VirtualHardVertex"></a>
 
-### *property* VirtualTopology.VirtualHardVertex *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.VirtualHardVertex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the VirtualHardVertex.
 
@@ -329,7 +329,7 @@ Gets the VirtualHardVertex.
 
 <a id="VirtualTopology.VirtualSplitEdges"></a>
 
-### *property* VirtualTopology.VirtualSplitEdges *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.VirtualSplitEdges *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the VirtualSplitEdges.
 
@@ -337,7 +337,7 @@ Gets the VirtualSplitEdges.
 
 <a id="VirtualTopology.VirtualSplitFaces"></a>
 
-### *property* VirtualTopology.VirtualSplitFaces *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.VirtualSplitFaces *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the VirtualSplitFaces.
 
@@ -345,7 +345,7 @@ Gets the VirtualSplitFaces.
 
 <a id="VirtualTopology.VisibleProperties"></a>
 
-### *property* VirtualTopology.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VirtualTopology.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -381,7 +381,7 @@ Creates a new child Figure.
 
 <a id="VirtualTopology.AddImage"></a>
 
-### VirtualTopology.AddImage(filePath: System.String)
+### VirtualTopology.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -417,7 +417,7 @@ Copies all visible properties from this object to another.
 
 <a id="VirtualTopology.CreateParameter"></a>
 
-### VirtualTopology.CreateParameter(propName: System.String)
+### VirtualTopology.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -489,7 +489,7 @@ Generate the Virtual Cells on the selected/all entities.
 
 <a id="VirtualTopology.GetChildren"></a>
 
-### VirtualTopology.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### VirtualTopology.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -497,7 +497,7 @@ Gets the list of children, filtered by type.
 
 <a id="VirtualTopology.GetParameter"></a>
 
-### VirtualTopology.GetParameter(propName: System.String)
+### VirtualTopology.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -529,7 +529,7 @@ Run the GroupSimilarObjects action.
 
 <a id="VirtualTopology.PropertyByAPIName"></a>
 
-### VirtualTopology.PropertyByAPIName(name: System.String)
+### VirtualTopology.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -540,7 +540,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="VirtualTopology.PropertyByName"></a>
 
-### VirtualTopology.PropertyByName(name: System.String)
+### VirtualTopology.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -548,7 +548,7 @@ Get a property by its unique name.
 
 <a id="VirtualTopology.RemoveParameter"></a>
 
-### VirtualTopology.RemoveParameter(propName: System.String)
+### VirtualTopology.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -556,7 +556,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="VirtualTopology.VirtualSplitEdge"></a>
 
-### VirtualTopology.VirtualSplitEdge(iSelInfo: Ansys.ACT.Interfaces.Common.ISelectionInfo, splitRatio: System.Double)
+### VirtualTopology.VirtualSplitEdge(iSelInfo: Ansys.ACT.Interfaces.Common.ISelectionInfo, splitRatio: [float](https://docs.python.org/3/library/functions.html#float))
 
 Generate the Virtual Cells on the selected/all entities.
 

@@ -17,7 +17,7 @@ Specifies the LoadBehavior.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`Beam`](#LoadBehavior.Beam) |
 | [`Coupled`](#LoadBehavior.Coupled) |
 | [`Deformable`](#LoadBehavior.Deformable) |

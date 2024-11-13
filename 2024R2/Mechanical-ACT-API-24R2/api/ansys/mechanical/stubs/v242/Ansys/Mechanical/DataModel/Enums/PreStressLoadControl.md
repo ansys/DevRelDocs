@@ -17,7 +17,7 @@ Specifies the PreStressLoadControl.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------- |
 | [`DeleteAll`](#PreStressLoadControl.DeleteAll) |
 | [`KeepAll`](#PreStressLoadControl.KeepAll) |
 | [`KeepAllDisplacementsAsZero`](#PreStressLoadControl.KeepAllDisplacementsAsZero) |

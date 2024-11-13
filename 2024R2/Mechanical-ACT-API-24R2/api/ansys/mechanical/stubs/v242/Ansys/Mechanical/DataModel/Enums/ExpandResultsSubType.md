@@ -17,7 +17,7 @@ Specifies the ExpandResultsSubType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`HarmonicSolution`](#ExpandResultsSubType.HarmonicSolution) |
 | [`ModalSolution`](#ExpandResultsSubType.ModalSolution) |
 | [`TransientSolution`](#ExpandResultsSubType.TransientSolution) |

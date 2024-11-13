@@ -53,7 +53,7 @@ Defines a CoSimulationPin.
 
 <a id="CoSimulationPin.Children"></a>
 
-### *property* CoSimulationPin.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -109,7 +109,7 @@ Gets or sets the Pin Nature.
 
 <a id="CoSimulationPin.Properties"></a>
 
-### *property* CoSimulationPin.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -117,7 +117,7 @@ Gets the list of properties for this object.
 
 <a id="CoSimulationPin.Scope"></a>
 
-### *property* CoSimulationPin.Scope *: [Ansys.ACT.Automation.Mechanical.Connections.Joint](../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Joint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Joint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.Scope *: [Ansys.ACT.Automation.Mechanical.Connections.Joint](Connections/Joint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Joint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Joint through Scope.
 
@@ -125,7 +125,7 @@ Gets or sets the Joint through Scope.
 
 <a id="CoSimulationPin.Suppressed"></a>
 
-### *property* CoSimulationPin.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -133,7 +133,7 @@ Gets or sets the Suppressed.
 
 <a id="CoSimulationPin.VisibleProperties"></a>
 
-### *property* CoSimulationPin.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoSimulationPin.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -161,7 +161,7 @@ Copies all visible properties from this object to another.
 
 <a id="CoSimulationPin.CreateParameter"></a>
 
-### CoSimulationPin.CreateParameter(propName: System.String)
+### CoSimulationPin.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -185,7 +185,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CoSimulationPin.GetChildren"></a>
 
-### CoSimulationPin.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CoSimulationPin.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -193,7 +193,7 @@ Gets the list of children, filtered by type.
 
 <a id="CoSimulationPin.GetParameter"></a>
 
-### CoSimulationPin.GetParameter(propName: System.String)
+### CoSimulationPin.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -217,7 +217,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CoSimulationPin.PropertyByAPIName"></a>
 
-### CoSimulationPin.PropertyByAPIName(name: System.String)
+### CoSimulationPin.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -228,7 +228,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CoSimulationPin.PropertyByName"></a>
 
-### CoSimulationPin.PropertyByName(name: System.String)
+### CoSimulationPin.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -236,7 +236,7 @@ Get a property by its unique name.
 
 <a id="CoSimulationPin.RemoveParameter"></a>
 
-### CoSimulationPin.RemoveParameter(propName: System.String)
+### CoSimulationPin.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

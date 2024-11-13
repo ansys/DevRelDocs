@@ -17,7 +17,7 @@ IMechanicalUserInterface interface.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+|----------------------------------------------|------------------------------------------------------------|
 | [`Theme`](#IMechanicalUserInterface.Theme)   | Information about the current theme being in Mechanical.   |
 
 <a id="property-detail"></a>

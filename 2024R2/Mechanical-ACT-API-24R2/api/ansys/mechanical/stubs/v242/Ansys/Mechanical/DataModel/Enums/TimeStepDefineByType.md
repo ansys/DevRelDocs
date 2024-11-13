@@ -17,7 +17,7 @@ Specifies the TimeStepDefineByType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`Substeps`](#TimeStepDefineByType.Substeps) |
 | [`Time`](#TimeStepDefineByType.Time) |
 

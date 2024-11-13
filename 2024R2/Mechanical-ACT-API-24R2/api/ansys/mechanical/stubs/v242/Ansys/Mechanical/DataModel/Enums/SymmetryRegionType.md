@@ -17,7 +17,7 @@ Specifies the SymmetryRegionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`AntiSymmetric`](#SymmetryRegionType.AntiSymmetric) |
 | [`LinearPeriodic`](#SymmetryRegionType.LinearPeriodic) |
 | [`Symmetric`](#SymmetryRegionType.Symmetric) |

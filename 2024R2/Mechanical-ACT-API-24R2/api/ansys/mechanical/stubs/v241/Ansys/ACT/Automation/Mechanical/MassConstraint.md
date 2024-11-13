@@ -17,7 +17,7 @@ Defines a MassConstraint.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MassConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#MassConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#MassConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a MassConstraint.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`Children`](#MassConstraint.Children)                               | Gets the list of children.                                                               |
 | [`DataModelObjectCategory`](#MassConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`DefineBy`](#MassConstraint.DefineBy)                               | Gets or sets the DefineBy.                                                               |
@@ -59,7 +59,7 @@ Defines a MassConstraint.
 
 <a id="MassConstraint.Children"></a>
 
-### *property* MassConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="MassConstraint.DataModelObjectCategory"></a>
 
-### *property* MassConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -75,7 +75,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MassConstraint.DefineBy"></a>
 
-### *property* MassConstraint.DefineBy *: [Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResponseConstraintDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.DefineBy *: [Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy](../../../Mechanical/DataModel/Enums/ResponseConstraintDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -83,7 +83,7 @@ Gets or sets the DefineBy.
 
 <a id="MassConstraint.EnvironmentSelection"></a>
 
-### *property* MassConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -123,7 +123,7 @@ Gets or sets the MinimumAbsoluteValue.
 
 <a id="MassConstraint.PercentageToRetain"></a>
 
-### *property* MassConstraint.PercentageToRetain *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.PercentageToRetain *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PercentageToRetain.
 
@@ -131,7 +131,7 @@ Gets or sets the PercentageToRetain.
 
 <a id="MassConstraint.PercentageToRetainMax"></a>
 
-### *property* MassConstraint.PercentageToRetainMax *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.PercentageToRetainMax *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PercentageToRetainMax.
 
@@ -139,7 +139,7 @@ Gets or sets the PercentageToRetainMax.
 
 <a id="MassConstraint.PercentageToRetainMin"></a>
 
-### *property* MassConstraint.PercentageToRetainMin *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.PercentageToRetainMin *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PercentageToRetainMin.
 
@@ -147,7 +147,7 @@ Gets or sets the PercentageToRetainMin.
 
 <a id="MassConstraint.Properties"></a>
 
-### *property* MassConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -155,7 +155,7 @@ Gets the list of properties for this object.
 
 <a id="MassConstraint.ScopingMethod"></a>
 
-### *property* MassConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -163,7 +163,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MassConstraint.Selection"></a>
 
-### *property* MassConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Selection.
 
@@ -171,7 +171,7 @@ Gets or sets the Selection.
 
 <a id="MassConstraint.Suppressed"></a>
 
-### *property* MassConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -179,7 +179,7 @@ Gets or sets the Suppressed.
 
 <a id="MassConstraint.VisibleProperties"></a>
 
-### *property* MassConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -207,7 +207,7 @@ Copies all visible properties from this object to another.
 
 <a id="MassConstraint.CreateParameter"></a>
 
-### MassConstraint.CreateParameter(propName: System.String)
+### MassConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -231,7 +231,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MassConstraint.GetChildren"></a>
 
-### MassConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MassConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -239,7 +239,7 @@ Gets the list of children, filtered by type.
 
 <a id="MassConstraint.GetParameter"></a>
 
-### MassConstraint.GetParameter(propName: System.String)
+### MassConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -263,7 +263,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MassConstraint.PropertyByAPIName"></a>
 
-### MassConstraint.PropertyByAPIName(name: System.String)
+### MassConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -274,7 +274,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MassConstraint.PropertyByName"></a>
 
-### MassConstraint.PropertyByName(name: System.String)
+### MassConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -282,7 +282,7 @@ Get a property by its unique name.
 
 <a id="MassConstraint.RemoveParameter"></a>
 
-### MassConstraint.RemoveParameter(propName: System.String)
+### MassConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

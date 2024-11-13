@@ -17,7 +17,7 @@ ModelViewManager class.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+|------------------------------------------------------------|-----------------------------------------------------------|
 | [`ApplyModelView`](#ModelViewManager.ApplyModelView)       | Apply the view specified by index.                        |
 | [`CreateView`](#ModelViewManager.CreateView)               | Create a view from current graphics with default naming.  |
 | [`DeleteView`](#ModelViewManager.DeleteView)               | Delete the specified view by name.                        |
@@ -30,7 +30,7 @@ ModelViewManager class.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+|--------------------------------------------------------|----------------------------------------|
 | [`ActiveViewPort`](#ModelViewManager.ActiveViewPort)   | ActiveViewPort property.               |
 | [`NumberOfViews`](#ModelViewManager.NumberOfViews)     | The number of views currently defined. |
 
@@ -48,7 +48,7 @@ ActiveViewPort property.
 
 <a id="ModelViewManager.NumberOfViews"></a>
 
-### *property* ModelViewManager.NumberOfViews *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelViewManager.NumberOfViews *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of views currently defined.
 
@@ -60,7 +60,7 @@ The number of views currently defined.
 
 <a id="ModelViewManager.ApplyModelView"></a>
 
-### ModelViewManager.ApplyModelView(viewIndex: System.Int32)
+### ModelViewManager.ApplyModelView(viewIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 Apply the view specified by index.
 
@@ -76,7 +76,7 @@ Create a view from current graphics with default naming.
 
 <a id="ModelViewManager.DeleteView"></a>
 
-### ModelViewManager.DeleteView(viewLabel: System.String)
+### ModelViewManager.DeleteView(viewLabel: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Delete the specified view by name.
 
@@ -84,7 +84,7 @@ Delete the specified view by name.
 
 <a id="ModelViewManager.ExportModelViews"></a>
 
-### ModelViewManager.ExportModelViews(viewfilepath: System.String)
+### ModelViewManager.ExportModelViews(viewfilepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Export model views to the specified file.
 
@@ -92,7 +92,7 @@ Export model views to the specified file.
 
 <a id="ModelViewManager.ImportModelViews"></a>
 
-### ModelViewManager.ImportModelViews(viewfilepath: System.String)
+### ModelViewManager.ImportModelViews(viewfilepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Import model views from the specified file.
 
@@ -100,7 +100,7 @@ Import model views from the specified file.
 
 <a id="ModelViewManager.RenameView"></a>
 
-### ModelViewManager.RenameView(viewIndex: System.Int32, newLabel: System.String)
+### ModelViewManager.RenameView(viewIndex: [int](https://docs.python.org/3/library/functions.html#int), newLabel: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Rename the model view specified by viewIndex to newLabel.
 
@@ -108,7 +108,7 @@ Rename the model view specified by viewIndex to newLabel.
 
 <a id="ModelViewManager.SetActiveViewPort"></a>
 
-### ModelViewManager.SetActiveViewPort(winRowIndex: System.Int32, winColIndex: System.Int32)
+### ModelViewManager.SetActiveViewPort(winRowIndex: [int](https://docs.python.org/3/library/functions.html#int), winColIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 Set the active of viewport.
 
@@ -116,7 +116,7 @@ Set the active of viewport.
 
 <a id="ModelViewManager.SetViewPorts"></a>
 
-### ModelViewManager.SetViewPorts(numViewPorts: System.Int32, horizontal: System.Boolean)
+### ModelViewManager.SetViewPorts(numViewPorts: [int](https://docs.python.org/3/library/functions.html#int), horizontal: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Set the number of viewports displayed.
 

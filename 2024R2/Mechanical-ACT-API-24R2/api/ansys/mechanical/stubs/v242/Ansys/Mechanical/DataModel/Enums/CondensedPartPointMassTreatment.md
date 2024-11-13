@@ -17,7 +17,7 @@ Specifies the CondensedPartPointMassTreatment.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`Internal`](#CondensedPartPointMassTreatment.Internal) |
 | [`OnInterface`](#CondensedPartPointMassTreatment.OnInterface) |
 

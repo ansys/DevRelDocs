@@ -17,7 +17,7 @@ Specifies the StabilizationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`Constant`](#StabilizationType.Constant) |
 | [`Off`](#StabilizationType.Off) |
 | [`ProgramControlled`](#StabilizationType.ProgramControlled) |

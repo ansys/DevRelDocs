@@ -17,7 +17,7 @@ AnalysisSettingsGraph class.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+|---------------------------------------------------------------------------------------|-----------------------------------------|
 | [`BoundaryConditionVisibility`](#AnalysisSettingsGraph.BoundaryConditionVisibility)   | BoundaryConditionVisibility property.   |
 
 <a id="property-detail"></a>

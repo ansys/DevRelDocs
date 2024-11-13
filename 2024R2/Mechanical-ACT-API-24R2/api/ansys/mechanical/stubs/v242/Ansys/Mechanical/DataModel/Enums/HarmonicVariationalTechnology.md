@@ -17,7 +17,7 @@ Specifies the HarmonicVariationalTechnology.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`No`](#HarmonicVariationalTechnology.No) |
 | [`ProgramControlled`](#HarmonicVariationalTechnology.ProgramControlled) |
 | [`Yes`](#HarmonicVariationalTechnology.Yes) |

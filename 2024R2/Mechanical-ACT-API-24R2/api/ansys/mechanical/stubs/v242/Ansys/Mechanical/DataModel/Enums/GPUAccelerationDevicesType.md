@@ -17,7 +17,7 @@ Specifies the GPUAccelerationDevicesType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`AMD`](#GPUAccelerationDevicesType.AMD) |
 | [`NVidia`](#GPUAccelerationDevicesType.NVidia) |
 | [`None_`](#GPUAccelerationDevicesType.None_) |

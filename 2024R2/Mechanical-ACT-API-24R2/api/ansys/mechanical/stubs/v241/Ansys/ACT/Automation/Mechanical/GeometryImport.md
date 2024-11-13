@@ -17,7 +17,7 @@ Defines a GeometryImport.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [`Activate`](#GeometryImport.Activate)                               | Activate the current object.                                                                                            |
 | [`AddComment`](#GeometryImport.AddComment)                           | Creates a new child Comment.                                                                                            |
 | [`AddFigure`](#GeometryImport.AddFigure)                             | Creates a new child Figure.                                                                                             |
@@ -40,7 +40,7 @@ Defines a GeometryImport.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#GeometryImport.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#GeometryImport.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#GeometryImport.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -57,7 +57,7 @@ Defines a GeometryImport.
 
 <a id="GeometryImport.Children"></a>
 
-### *property* GeometryImport.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -65,7 +65,7 @@ Gets the list of children.
 
 <a id="GeometryImport.Comments"></a>
 
-### *property* GeometryImport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -73,7 +73,7 @@ Gets the list of associated comments.
 
 <a id="GeometryImport.DataModelObjectCategory"></a>
 
-### *property* GeometryImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -81,7 +81,7 @@ Gets the current DataModelObject’s category.
 
 <a id="GeometryImport.Figures"></a>
 
-### *property* GeometryImport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -89,7 +89,7 @@ Gets the list of associated figures.
 
 <a id="GeometryImport.Images"></a>
 
-### *property* GeometryImport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -105,7 +105,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="GeometryImport.Parts"></a>
 
-### *property* GeometryImport.Parts *: System.Collections.Generic.IList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.Parts *: List[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 List of parts created by the most recent import operation.
 
@@ -113,7 +113,7 @@ List of parts created by the most recent import operation.
 
 <a id="GeometryImport.Properties"></a>
 
-### *property* GeometryImport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -121,7 +121,7 @@ Gets the list of properties for this object.
 
 <a id="GeometryImport.VisibleProperties"></a>
 
-### *property* GeometryImport.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -157,7 +157,7 @@ Creates a new child Figure.
 
 <a id="GeometryImport.AddImage"></a>
 
-### GeometryImport.AddImage(filePath: System.String)
+### GeometryImport.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -177,7 +177,7 @@ Copies all visible properties from this object to another.
 
 <a id="GeometryImport.CreateParameter"></a>
 
-### GeometryImport.CreateParameter(propName: System.String)
+### GeometryImport.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -193,7 +193,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="GeometryImport.GetChildren"></a>
 
-### GeometryImport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### GeometryImport.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -220,7 +220,7 @@ which on disk would be "file://..."
 
 <a id="GeometryImport.GetParameter"></a>
 
-### GeometryImport.GetParameter(propName: System.String)
+### GeometryImport.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -252,7 +252,7 @@ Run the GroupSimilarObjects action.
 
 <a id="GeometryImport.Import"></a>
 
-### GeometryImport.Import(geometryURI: System.String, format: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/Format.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format), preferences: [Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences](../../../../../v242/Ansys/ACT/Mechanical/Utilities/GeometryImportPreferences.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences))
+### GeometryImport.Import(geometryURI: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format](../../../Mechanical/DataModel/Enums/GeometryImportPreference/Format.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format), preferences: [Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences](../../Mechanical/Utilities/GeometryImportPreferences.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences))
 
 ```text
 Import/reload geometry from the CAD file using the provided preferences. *** If no
@@ -266,7 +266,7 @@ during an import operation. *** The parts will be read into the Geometry.
 
 <a id="GeometryImport.PropertyByAPIName"></a>
 
-### GeometryImport.PropertyByAPIName(name: System.String)
+### GeometryImport.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -277,7 +277,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="GeometryImport.PropertyByName"></a>
 
-### GeometryImport.PropertyByName(name: System.String)
+### GeometryImport.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -285,7 +285,7 @@ Get a property by its unique name.
 
 <a id="GeometryImport.RemoveParameter"></a>
 
-### GeometryImport.RemoveParameter(propName: System.String)
+### GeometryImport.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

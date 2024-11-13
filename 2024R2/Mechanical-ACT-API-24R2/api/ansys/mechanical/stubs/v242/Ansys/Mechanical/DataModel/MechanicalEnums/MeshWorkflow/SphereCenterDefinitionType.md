@@ -17,7 +17,7 @@ This enum is referenced in the ‘Control’ tree node and reflects the type of 
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Centered`](#SphereCenterDefinitionType.Centered) |
 | [`Minimal`](#SphereCenterDefinitionType.Minimal) |
 | [`UserDefined`](#SphereCenterDefinitionType.UserDefined) |

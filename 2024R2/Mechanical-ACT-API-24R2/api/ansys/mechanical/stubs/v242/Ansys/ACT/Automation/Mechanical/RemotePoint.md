@@ -17,7 +17,7 @@ Defines a RemotePoint.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#RemotePoint.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#RemotePoint.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#RemotePoint.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a RemotePoint.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Behavior`](#RemotePoint.Behavior)                               | Gets or sets the Behavior.                                    |
 | [`Children`](#RemotePoint.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#RemotePoint.Comments)                               | Gets the list of associated comments.                         |
@@ -86,7 +86,7 @@ Gets or sets the Behavior.
 
 <a id="RemotePoint.Children"></a>
 
-### *property* RemotePoint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -94,7 +94,7 @@ Gets the list of children.
 
 <a id="RemotePoint.Comments"></a>
 
-### *property* RemotePoint.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -102,7 +102,7 @@ Gets the list of associated comments.
 
 <a id="RemotePoint.CoordinateSystem"></a>
 
-### *property* RemotePoint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -134,7 +134,7 @@ Gets or sets the Formulation.
 
 <a id="RemotePoint.GloballyAvailable"></a>
 
-### *property* RemotePoint.GloballyAvailable *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.GloballyAvailable *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Remote point is globally available
 
@@ -158,7 +158,7 @@ Gets or sets the Location.
 
 <a id="RemotePoint.Material"></a>
 
-### *property* RemotePoint.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -166,7 +166,7 @@ Gets or sets the Material.
 
 <a id="RemotePoint.OutlineSelection"></a>
 
-### *property* RemotePoint.OutlineSelection *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.RemotePoint](#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.OutlineSelection *: Iterable[[Ansys.ACT.Automation.Mechanical.RemotePoint](#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OutlineSelection.
 
@@ -174,7 +174,7 @@ Gets or sets the OutlineSelection.
 
 <a id="RemotePoint.PilotNodeAPDLName"></a>
 
-### *property* RemotePoint.PilotNodeAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.PilotNodeAPDLName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PilotNodeAPDLName.
 
@@ -198,7 +198,7 @@ Gets or sets the PinballRegion.
 
 <a id="RemotePoint.Point"></a>
 
-### *property* RemotePoint.Point *: [Ansys.ACT.Automation.Mechanical.ConstructionPoint](../../../../../v241/Ansys/ACT/Automation/Mechanical/ConstructionPoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ConstructionPoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.Point *: [Ansys.ACT.Automation.Mechanical.ConstructionPoint](ConstructionPoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ConstructionPoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Point.
 
@@ -206,7 +206,7 @@ Gets or sets the Point.
 
 <a id="RemotePoint.Properties"></a>
 
-### *property* RemotePoint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -222,7 +222,7 @@ Gets or sets the Radius.
 
 <a id="RemotePoint.ReadOnly"></a>
 
-### *property* RemotePoint.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -230,7 +230,7 @@ Gets or sets the ReadOnly.
 
 <a id="RemotePoint.RelaxationMethod"></a>
 
-### *property* RemotePoint.RelaxationMethod *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.RelaxationMethod *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RelaxationMethod.
 
@@ -270,7 +270,7 @@ Gets or sets the ScopingMethod.
 
 <a id="RemotePoint.Suppressed"></a>
 
-### *property* RemotePoint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -278,7 +278,7 @@ Gets or sets the Suppressed.
 
 <a id="RemotePoint.VisibleProperties"></a>
 
-### *property* RemotePoint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -370,7 +370,7 @@ Copies all visible properties from this object to another.
 
 <a id="RemotePoint.CreateParameter"></a>
 
-### RemotePoint.CreateParameter(propName: System.String)
+### RemotePoint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -394,7 +394,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RemotePoint.GetChildren"></a>
 
-### RemotePoint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RemotePoint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -410,7 +410,7 @@ Returns the mesh region associated to the remote point.
 
 <a id="RemotePoint.GetParameter"></a>
 
-### RemotePoint.GetParameter(propName: System.String)
+### RemotePoint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -442,7 +442,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="RemotePoint.PropertyByAPIName"></a>
 
-### RemotePoint.PropertyByAPIName(name: System.String)
+### RemotePoint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -453,7 +453,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RemotePoint.PropertyByName"></a>
 
-### RemotePoint.PropertyByName(name: System.String)
+### RemotePoint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -461,7 +461,7 @@ Get a property by its unique name.
 
 <a id="RemotePoint.RemoveParameter"></a>
 
-### RemotePoint.RemoveParameter(propName: System.String)
+### RemotePoint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

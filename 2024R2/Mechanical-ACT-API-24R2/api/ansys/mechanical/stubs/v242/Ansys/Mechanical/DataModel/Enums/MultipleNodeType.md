@@ -17,7 +17,7 @@ Specifies the MultipleNodeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------ |
 | [`Average`](#MultipleNodeType.Average) |
 | [`Maximum`](#MultipleNodeType.Maximum) |
 | [`Minimum`](#MultipleNodeType.Minimum) |

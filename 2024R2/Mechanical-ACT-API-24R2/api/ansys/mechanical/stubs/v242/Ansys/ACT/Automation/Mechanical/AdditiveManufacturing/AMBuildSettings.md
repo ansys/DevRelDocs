@@ -102,7 +102,7 @@ Defines a AMBuildSettings.
 
 <a id="AMBuildSettings.ASCParallel"></a>
 
-### *property* AMBuildSettings.ASCParallel *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.ASCParallel *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ASCParallel.
 
@@ -110,7 +110,7 @@ Gets or sets the ASCParallel.
 
 <a id="AMBuildSettings.ASCPerpendicular"></a>
 
-### *property* AMBuildSettings.ASCPerpendicular *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.ASCPerpendicular *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ASCPerpendicular.
 
@@ -118,7 +118,7 @@ Gets or sets the ASCPerpendicular.
 
 <a id="AMBuildSettings.ASCVertical"></a>
 
-### *property* AMBuildSettings.ASCVertical *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.ASCVertical *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ASCVertical.
 
@@ -126,7 +126,7 @@ Gets or sets the ASCVertical.
 
 <a id="AMBuildSettings.Absorptivity"></a>
 
-### *property* AMBuildSettings.Absorptivity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.Absorptivity *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Absorptivity.
 
@@ -142,7 +142,7 @@ Gets or sets the AdditiveProcess.
 
 <a id="AMBuildSettings.BeamDiameter"></a>
 
-### *property* AMBuildSettings.BeamDiameter *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.BeamDiameter *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamDiameter.
 
@@ -150,7 +150,7 @@ Gets or sets the BeamDiameter.
 
 <a id="AMBuildSettings.BeamPower"></a>
 
-### *property* AMBuildSettings.BeamPower *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.BeamPower *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamPower.
 
@@ -206,7 +206,7 @@ Gets or sets the BuildPowderTemperature.
 
 <a id="AMBuildSettings.Children"></a>
 
-### *property* AMBuildSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -214,7 +214,7 @@ Gets the list of children.
 
 <a id="AMBuildSettings.Comments"></a>
 
-### *property* AMBuildSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -286,7 +286,7 @@ Gets or sets the DwellTime.
 
 <a id="AMBuildSettings.DwellTimeMultiple"></a>
 
-### *property* AMBuildSettings.DwellTimeMultiple *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.DwellTimeMultiple *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DwellTimeMultiple.
 
@@ -294,7 +294,7 @@ Gets or sets the DwellTimeMultiple.
 
 <a id="AMBuildSettings.Figures"></a>
 
-### *property* AMBuildSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -302,7 +302,7 @@ Gets the list of associated figures.
 
 <a id="AMBuildSettings.GeneratedLayerRotationAngle"></a>
 
-### *property* AMBuildSettings.GeneratedLayerRotationAngle *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.GeneratedLayerRotationAngle *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeneratedLayerRotationAngle.
 
@@ -310,7 +310,7 @@ Gets or sets the GeneratedLayerRotationAngle.
 
 <a id="AMBuildSettings.GeneratedStartLayerAngle"></a>
 
-### *property* AMBuildSettings.GeneratedStartLayerAngle *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.GeneratedStartLayerAngle *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeneratedStartLayerAngle.
 
@@ -342,7 +342,7 @@ Gets or sets the HeatingMethod.
 
 <a id="AMBuildSettings.Images"></a>
 
-### *property* AMBuildSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -350,7 +350,7 @@ Gets the list of associated images.
 
 <a id="AMBuildSettings.InherentStrain"></a>
 
-### *property* AMBuildSettings.InherentStrain *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.InherentStrain *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InherentStrain.
 
@@ -398,7 +398,7 @@ Gets or sets the MachineLearningModel.
 
 <a id="AMBuildSettings.NumberOfHeatSources"></a>
 
-### *property* AMBuildSettings.NumberOfHeatSources *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.NumberOfHeatSources *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfHeatSources.
 
@@ -406,7 +406,7 @@ Gets or sets the NumberOfHeatSources.
 
 <a id="AMBuildSettings.PowderPropertyFactor"></a>
 
-### *property* AMBuildSettings.PowderPropertyFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.PowderPropertyFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PowderPropertyFactor.
 
@@ -422,7 +422,7 @@ Gets or sets the PreheatTemperature.
 
 <a id="AMBuildSettings.Properties"></a>
 
-### *property* AMBuildSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -438,7 +438,7 @@ Gets or sets the RoomTemperature.
 
 <a id="AMBuildSettings.ScanPatternBuildFilePath"></a>
 
-### *property* AMBuildSettings.ScanPatternBuildFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.ScanPatternBuildFilePath *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScanPatternBuildFilePath.
 
@@ -462,7 +462,7 @@ Gets or sets the ScanSpeed.
 
 <a id="AMBuildSettings.ScanStripeWidth"></a>
 
-### *property* AMBuildSettings.ScanStripeWidth *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.ScanStripeWidth *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScanStripeWidth.
 
@@ -470,7 +470,7 @@ Gets or sets the ScanStripeWidth.
 
 <a id="AMBuildSettings.StrainScalingFactor"></a>
 
-### *property* AMBuildSettings.StrainScalingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.StrainScalingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StrainScalingFactor.
 
@@ -478,7 +478,7 @@ Gets or sets the StrainScalingFactor.
 
 <a id="AMBuildSettings.StrainScalingFactorX"></a>
 
-### *property* AMBuildSettings.StrainScalingFactorX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.StrainScalingFactorX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StrainScalingFactorX.
 
@@ -486,7 +486,7 @@ Gets or sets the StrainScalingFactorX.
 
 <a id="AMBuildSettings.StrainScalingFactorY"></a>
 
-### *property* AMBuildSettings.StrainScalingFactorY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.StrainScalingFactorY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StrainScalingFactorY.
 
@@ -494,7 +494,7 @@ Gets or sets the StrainScalingFactorY.
 
 <a id="AMBuildSettings.StrainScalingFactorZ"></a>
 
-### *property* AMBuildSettings.StrainScalingFactorZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.StrainScalingFactorZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StrainScalingFactorZ.
 
@@ -518,7 +518,7 @@ Gets or sets the ThermalStrainMethod.
 
 <a id="AMBuildSettings.ThermalStrainScalingFactor"></a>
 
-### *property* AMBuildSettings.ThermalStrainScalingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.ThermalStrainScalingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrainScalingFactor.
 
@@ -526,7 +526,7 @@ Gets or sets the ThermalStrainScalingFactor.
 
 <a id="AMBuildSettings.VisibleProperties"></a>
 
-### *property* AMBuildSettings.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMBuildSettings.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -562,7 +562,7 @@ Creates a new child Figure.
 
 <a id="AMBuildSettings.AddImage"></a>
 
-### AMBuildSettings.AddImage(filePath: System.String)
+### AMBuildSettings.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -582,7 +582,7 @@ Copies all visible properties from this object to another.
 
 <a id="AMBuildSettings.CreateParameter"></a>
 
-### AMBuildSettings.CreateParameter(propName: System.String)
+### AMBuildSettings.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -606,7 +606,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AMBuildSettings.GetChildren"></a>
 
-### AMBuildSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AMBuildSettings.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -614,7 +614,7 @@ Gets the list of children, filtered by type.
 
 <a id="AMBuildSettings.GetParameter"></a>
 
-### AMBuildSettings.GetParameter(propName: System.String)
+### AMBuildSettings.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -638,7 +638,7 @@ Run the GroupSimilarObjects action.
 
 <a id="AMBuildSettings.LoadBuildSettings"></a>
 
-### AMBuildSettings.LoadBuildSettings(fName: System.String)
+### AMBuildSettings.LoadBuildSettings(fName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the LoadBuildSettings action.
 
@@ -646,7 +646,7 @@ Run the LoadBuildSettings action.
 
 <a id="AMBuildSettings.PropertyByAPIName"></a>
 
-### AMBuildSettings.PropertyByAPIName(name: System.String)
+### AMBuildSettings.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -657,7 +657,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AMBuildSettings.PropertyByName"></a>
 
-### AMBuildSettings.PropertyByName(name: System.String)
+### AMBuildSettings.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -665,7 +665,7 @@ Get a property by its unique name.
 
 <a id="AMBuildSettings.RemoveParameter"></a>
 
-### AMBuildSettings.RemoveParameter(propName: System.String)
+### AMBuildSettings.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -681,7 +681,7 @@ ResetToDefault - Restores default values of all properties.
 
 <a id="AMBuildSettings.SaveBuildSettings"></a>
 
-### AMBuildSettings.SaveBuildSettings(fName: System.String)
+### AMBuildSettings.SaveBuildSettings(fName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the SaveBuildSettings action.
 

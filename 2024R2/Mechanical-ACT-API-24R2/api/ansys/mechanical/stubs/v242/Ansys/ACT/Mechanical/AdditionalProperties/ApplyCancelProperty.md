@@ -17,7 +17,7 @@ Provides a way to create properties with Apply/Cancel buttons.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+|-----------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [`DisplayName`](#ApplyCancelProperty.DisplayName)   | The name of the property shown in the UI. If not set, the Name property is used.                     |
 | [`GroupName`](#ApplyCancelProperty.GroupName)       | The group name of the property shown in the UI, and used to separate properties based on group name. |
 | [`Name`](#ApplyCancelProperty.Name)                 | The name of the property.                                                                            |
@@ -32,7 +32,7 @@ Provides a way to create properties with Apply/Cancel buttons.
 
 <a id="ApplyCancelProperty.DisplayName"></a>
 
-### *property* ApplyCancelProperty.DisplayName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ApplyCancelProperty.DisplayName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the property shown in the UI. If not set, the Name property is used.
 
@@ -40,7 +40,7 @@ The name of the property shown in the UI. If not set, the Name property is used.
 
 <a id="ApplyCancelProperty.GroupName"></a>
 
-### *property* ApplyCancelProperty.GroupName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ApplyCancelProperty.GroupName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The group name of the property shown in the UI, and used to separate properties based on group name.
 
@@ -48,7 +48,7 @@ The group name of the property shown in the UI, and used to separate properties 
 
 <a id="ApplyCancelProperty.Name"></a>
 
-### *property* ApplyCancelProperty.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ApplyCancelProperty.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the property.
 
@@ -56,7 +56,7 @@ The name of the property.
 
 <a id="ApplyCancelProperty.ReadOnly"></a>
 
-### *property* ApplyCancelProperty.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ApplyCancelProperty.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns whether a property is readonly.
 
@@ -64,7 +64,7 @@ Returns whether a property is readonly.
 
 <a id="ApplyCancelProperty.Tooltip"></a>
 
-### *property* ApplyCancelProperty.Tooltip *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ApplyCancelProperty.Tooltip *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The tooltip of the property in the UI.
 
@@ -72,7 +72,7 @@ The tooltip of the property in the UI.
 
 <a id="ApplyCancelProperty.Value"></a>
 
-### *property* ApplyCancelProperty.Value *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ApplyCancelProperty.Value *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The stored value of the property.
 
@@ -80,7 +80,7 @@ The stored value of the property.
 
 <a id="ApplyCancelProperty.ValueString"></a>
 
-### *property* ApplyCancelProperty.ValueString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ApplyCancelProperty.ValueString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the string representation of the value.
 

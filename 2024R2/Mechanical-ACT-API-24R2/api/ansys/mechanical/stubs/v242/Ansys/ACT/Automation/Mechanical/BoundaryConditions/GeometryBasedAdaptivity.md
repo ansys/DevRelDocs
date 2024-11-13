@@ -80,7 +80,7 @@ Defines a GeometryBasedAdaptivity.
 
 <a id="GeometryBasedAdaptivity.BufferElements"></a>
 
-### *property* GeometryBasedAdaptivity.BufferElements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.BufferElements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BufferElements.
 
@@ -88,7 +88,7 @@ Gets or sets the BufferElements.
 
 <a id="GeometryBasedAdaptivity.BufferLayers"></a>
 
-### *property* GeometryBasedAdaptivity.BufferLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.BufferLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BufferLayers.
 
@@ -104,7 +104,7 @@ Gets or sets the CheckAt.
 
 <a id="GeometryBasedAdaptivity.CheckAtValue"></a>
 
-### *property* GeometryBasedAdaptivity.CheckAtValue *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.CheckAtValue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CheckAtValue.
 
@@ -112,7 +112,7 @@ Gets or sets the CheckAtValue.
 
 <a id="GeometryBasedAdaptivity.Children"></a>
 
-### *property* GeometryBasedAdaptivity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -120,7 +120,7 @@ Gets the list of children.
 
 <a id="GeometryBasedAdaptivity.Comments"></a>
 
-### *property* GeometryBasedAdaptivity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -128,7 +128,7 @@ Gets the list of associated comments.
 
 <a id="GeometryBasedAdaptivity.CoordinateSystem"></a>
 
-### *property* GeometryBasedAdaptivity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -160,7 +160,7 @@ Gets or sets the EndTime.
 
 <a id="GeometryBasedAdaptivity.EnergyCoefficient"></a>
 
-### *property* GeometryBasedAdaptivity.EnergyCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.EnergyCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnergyCoefficient.
 
@@ -168,7 +168,7 @@ Gets or sets the EnergyCoefficient.
 
 <a id="GeometryBasedAdaptivity.Figures"></a>
 
-### *property* GeometryBasedAdaptivity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -184,7 +184,7 @@ Gets or sets the HexDomCheckAt.
 
 <a id="GeometryBasedAdaptivity.HexDomCheckAtValue"></a>
 
-### *property* GeometryBasedAdaptivity.HexDomCheckAtValue *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.HexDomCheckAtValue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HexDomCheckAtValue.
 
@@ -216,7 +216,7 @@ Gets or sets the HexDomTimeRange.
 
 <a id="GeometryBasedAdaptivity.Images"></a>
 
-### *property* GeometryBasedAdaptivity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -232,7 +232,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="GeometryBasedAdaptivity.JacobianRatioValue"></a>
 
-### *property* GeometryBasedAdaptivity.JacobianRatioValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.JacobianRatioValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the JacobianRatioValue.
 
@@ -288,7 +288,7 @@ Gets or sets the Option.
 
 <a id="GeometryBasedAdaptivity.Properties"></a>
 
-### *property* GeometryBasedAdaptivity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -296,7 +296,7 @@ Gets the list of properties for this object.
 
 <a id="GeometryBasedAdaptivity.RemeshLayerEnd"></a>
 
-### *property* GeometryBasedAdaptivity.RemeshLayerEnd *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.RemeshLayerEnd *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshLayerEnd.
 
@@ -304,7 +304,7 @@ Gets or sets the RemeshLayerEnd.
 
 <a id="GeometryBasedAdaptivity.RemeshLayerFrequency"></a>
 
-### *property* GeometryBasedAdaptivity.RemeshLayerFrequency *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.RemeshLayerFrequency *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshLayerFrequency.
 
@@ -312,7 +312,7 @@ Gets or sets the RemeshLayerFrequency.
 
 <a id="GeometryBasedAdaptivity.RemeshLayerStart"></a>
 
-### *property* GeometryBasedAdaptivity.RemeshLayerStart *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.RemeshLayerStart *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshLayerStart.
 
@@ -320,7 +320,7 @@ Gets or sets the RemeshLayerStart.
 
 <a id="GeometryBasedAdaptivity.SkewnessValue"></a>
 
-### *property* GeometryBasedAdaptivity.SkewnessValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.SkewnessValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SkewnessValue.
 
@@ -336,7 +336,7 @@ Gets or sets the StartTime.
 
 <a id="GeometryBasedAdaptivity.Suppressed"></a>
 
-### *property* GeometryBasedAdaptivity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -352,7 +352,7 @@ Gets or sets the TimeRange.
 
 <a id="GeometryBasedAdaptivity.VisibleProperties"></a>
 
-### *property* GeometryBasedAdaptivity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -388,7 +388,7 @@ Creates a new child Figure.
 
 <a id="GeometryBasedAdaptivity.AddImage"></a>
 
-### GeometryBasedAdaptivity.AddImage(filePath: System.String)
+### GeometryBasedAdaptivity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -408,7 +408,7 @@ Copies all visible properties from this object to another.
 
 <a id="GeometryBasedAdaptivity.CreateParameter"></a>
 
-### GeometryBasedAdaptivity.CreateParameter(propName: System.String)
+### GeometryBasedAdaptivity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -432,7 +432,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="GeometryBasedAdaptivity.GetChildren"></a>
 
-### GeometryBasedAdaptivity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### GeometryBasedAdaptivity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -440,7 +440,7 @@ Gets the list of children, filtered by type.
 
 <a id="GeometryBasedAdaptivity.GetParameter"></a>
 
-### GeometryBasedAdaptivity.GetParameter(propName: System.String)
+### GeometryBasedAdaptivity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -464,7 +464,7 @@ Run the GroupSimilarObjects action.
 
 <a id="GeometryBasedAdaptivity.PropertyByAPIName"></a>
 
-### GeometryBasedAdaptivity.PropertyByAPIName(name: System.String)
+### GeometryBasedAdaptivity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -475,7 +475,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="GeometryBasedAdaptivity.PropertyByName"></a>
 
-### GeometryBasedAdaptivity.PropertyByName(name: System.String)
+### GeometryBasedAdaptivity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -483,7 +483,7 @@ Get a property by its unique name.
 
 <a id="GeometryBasedAdaptivity.RemoveParameter"></a>
 
-### GeometryBasedAdaptivity.RemoveParameter(propName: System.String)
+### GeometryBasedAdaptivity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

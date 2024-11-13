@@ -18,7 +18,7 @@ Border style enum values can be combined via bitwise-or ( | ).
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`Exterior`](#GraphicsViewportsExportBorderStyle.Exterior) |
 | [`Interior`](#GraphicsViewportsExportBorderStyle.Interior) |
 | [`None_`](#GraphicsViewportsExportBorderStyle.None_) |

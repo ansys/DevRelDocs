@@ -17,7 +17,7 @@ Specifies the ScaleFactorType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------- |
 | [`Sigma1`](#ScaleFactorType.Sigma1) |
 | [`Sigma2`](#ScaleFactorType.Sigma2) |
 | [`Sigma3`](#ScaleFactorType.Sigma3) |

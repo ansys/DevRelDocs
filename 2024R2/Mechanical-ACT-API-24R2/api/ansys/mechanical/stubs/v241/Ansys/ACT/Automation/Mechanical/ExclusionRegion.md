@@ -17,7 +17,7 @@ Defines a ExclusionRegion.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ExclusionRegion.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#ExclusionRegion.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#ExclusionRegion.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a ExclusionRegion.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ExclusionRegion.Children)                               | Gets the list of children.                                    |
 | [`DataModelObjectCategory`](#ExclusionRegion.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`ExclusionRegionLocation`](#ExclusionRegion.ExclusionRegionLocation) | Gets or sets the ExclusionRegionLocation.                     |
@@ -51,7 +51,7 @@ Defines a ExclusionRegion.
 
 <a id="ExclusionRegion.Children"></a>
 
-### *property* ExclusionRegion.Children *: System.Collections.Generic.IList[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.Children *: List[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -59,7 +59,7 @@ Gets the list of children.
 
 <a id="ExclusionRegion.DataModelObjectCategory"></a>
 
-### *property* ExclusionRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -75,7 +75,7 @@ Gets or sets the ExclusionRegionLocation.
 
 <a id="ExclusionRegion.ExclusionScopingMethod"></a>
 
-### *property* ExclusionRegion.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExclusionScopingMethod.
 
@@ -91,7 +91,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ExclusionRegion.Properties"></a>
 
-### *property* ExclusionRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -99,7 +99,7 @@ Gets the list of properties for this object.
 
 <a id="ExclusionRegion.Suppressed"></a>
 
-### *property* ExclusionRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -107,7 +107,7 @@ Gets or sets the Suppressed.
 
 <a id="ExclusionRegion.VisibleProperties"></a>
 
-### *property* ExclusionRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -138,7 +138,7 @@ Override because of copy order of properties
 
 <a id="ExclusionRegion.CreateParameter"></a>
 
-### ExclusionRegion.CreateParameter(propName: System.String)
+### ExclusionRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -162,7 +162,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ExclusionRegion.GetChildren"></a>
 
-### ExclusionRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ExclusionRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -170,7 +170,7 @@ Gets the list of children, filtered by type.
 
 <a id="ExclusionRegion.GetParameter"></a>
 
-### ExclusionRegion.GetParameter(propName: System.String)
+### ExclusionRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -194,7 +194,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ExclusionRegion.PropertyByAPIName"></a>
 
-### ExclusionRegion.PropertyByAPIName(name: System.String)
+### ExclusionRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -205,7 +205,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ExclusionRegion.PropertyByName"></a>
 
-### ExclusionRegion.PropertyByName(name: System.String)
+### ExclusionRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -213,7 +213,7 @@ Get a property by its unique name.
 
 <a id="ExclusionRegion.RemoveParameter"></a>
 
-### ExclusionRegion.RemoveParameter(propName: System.String)
+### ExclusionRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

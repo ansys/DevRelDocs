@@ -17,7 +17,7 @@ Defines a PipeTemperature.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PipeTemperature.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#PipeTemperature.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#PipeTemperature.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -40,7 +40,7 @@ Defines a PipeTemperature.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#PipeTemperature.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#PipeTemperature.Comments)                                       | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#PipeTemperature.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
@@ -68,7 +68,7 @@ Defines a PipeTemperature.
 
 <a id="PipeTemperature.Children"></a>
 
-### *property* PipeTemperature.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -76,7 +76,7 @@ Gets the list of children.
 
 <a id="PipeTemperature.Comments"></a>
 
-### *property* PipeTemperature.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -84,7 +84,7 @@ Gets the list of associated comments.
 
 <a id="PipeTemperature.DataModelObjectCategory"></a>
 
-### *property* PipeTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -92,7 +92,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PipeTemperature.Figures"></a>
 
-### *property* PipeTemperature.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -100,7 +100,7 @@ Gets the list of associated figures.
 
 <a id="PipeTemperature.GraphControlsXAxis"></a>
 
-### *property* PipeTemperature.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -108,7 +108,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="PipeTemperature.Images"></a>
 
-### *property* PipeTemperature.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -116,7 +116,7 @@ Gets the list of associated images.
 
 <a id="PipeTemperature.IndependentVariable"></a>
 
-### *property* PipeTemperature.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -132,7 +132,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PipeTemperature.Loading"></a>
 
-### *property* PipeTemperature.Loading *: [Ansys.Mechanical.DataModel.Enums.PipeLoadingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/PipeLoadingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PipeLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Loading *: [Ansys.Mechanical.DataModel.Enums.PipeLoadingType](../../../../Mechanical/DataModel/Enums/PipeLoadingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PipeLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Loading.
 
@@ -148,7 +148,7 @@ Gets or sets the Location.
 
 <a id="PipeTemperature.Magnitude"></a>
 
-### *property* PipeTemperature.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -156,7 +156,7 @@ Gets the Magnitude.
 
 <a id="PipeTemperature.NumberOfSegments"></a>
 
-### *property* PipeTemperature.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -164,7 +164,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="PipeTemperature.Properties"></a>
 
-### *property* PipeTemperature.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -188,7 +188,7 @@ Gets or sets the RangeMinimum.
 
 <a id="PipeTemperature.ReadOnly"></a>
 
-### *property* PipeTemperature.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -204,7 +204,7 @@ Gets or sets the SharedRefBody.
 
 <a id="PipeTemperature.Suppressed"></a>
 
-### *property* PipeTemperature.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -212,7 +212,7 @@ Gets or sets the Suppressed.
 
 <a id="PipeTemperature.VisibleProperties"></a>
 
-### *property* PipeTemperature.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipeTemperature.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -256,7 +256,7 @@ Creates a new child Figure.
 
 <a id="PipeTemperature.AddImage"></a>
 
-### PipeTemperature.AddImage(filePath: System.String)
+### PipeTemperature.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -276,7 +276,7 @@ Copies all visible properties from this object to another.
 
 <a id="PipeTemperature.CreateParameter"></a>
 
-### PipeTemperature.CreateParameter(propName: System.String)
+### PipeTemperature.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -300,7 +300,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PipeTemperature.GetActivateAtLoadStep"></a>
 
-### PipeTemperature.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### PipeTemperature.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -308,7 +308,7 @@ GetActivateAtLoadStep method.
 
 <a id="PipeTemperature.GetChildren"></a>
 
-### PipeTemperature.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PipeTemperature.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -316,7 +316,7 @@ Gets the list of children, filtered by type.
 
 <a id="PipeTemperature.GetParameter"></a>
 
-### PipeTemperature.GetParameter(propName: System.String)
+### PipeTemperature.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -348,7 +348,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="PipeTemperature.PropertyByAPIName"></a>
 
-### PipeTemperature.PropertyByAPIName(name: System.String)
+### PipeTemperature.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -359,7 +359,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PipeTemperature.PropertyByName"></a>
 
-### PipeTemperature.PropertyByName(name: System.String)
+### PipeTemperature.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -367,7 +367,7 @@ Get a property by its unique name.
 
 <a id="PipeTemperature.RemoveParameter"></a>
 
-### PipeTemperature.RemoveParameter(propName: System.String)
+### PipeTemperature.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -375,7 +375,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="PipeTemperature.SetActivateAtLoadStep"></a>
 
-### PipeTemperature.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### PipeTemperature.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

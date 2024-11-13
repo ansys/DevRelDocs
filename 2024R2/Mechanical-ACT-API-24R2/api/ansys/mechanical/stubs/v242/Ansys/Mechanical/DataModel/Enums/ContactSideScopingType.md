@@ -17,7 +17,7 @@ Specifies the ContactSideScopingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------- |
 | [`Active`](#ContactSideScopingType.Active) |
 | [`ContactSideBoth`](#ContactSideScopingType.ContactSideBoth) |
 | [`ContactSourceUnderlying`](#ContactSideScopingType.ContactSourceUnderlying) |

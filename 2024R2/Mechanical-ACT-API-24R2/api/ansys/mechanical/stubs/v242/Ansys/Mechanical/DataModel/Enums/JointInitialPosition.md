@@ -17,7 +17,7 @@ Specifies the JointInitialPosition.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`Override`](#JointInitialPosition.Override) |
 | [`Unchanged`](#JointInitialPosition.Unchanged) |
 

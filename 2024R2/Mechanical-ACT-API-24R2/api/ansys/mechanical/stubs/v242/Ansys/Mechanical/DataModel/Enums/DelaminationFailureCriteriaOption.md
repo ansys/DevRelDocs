@@ -17,7 +17,7 @@ Specifies the DelaminationFailureCriteriaOption.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------- |
 | [`EnergyReleaseRate`](#DelaminationFailureCriteriaOption.EnergyReleaseRate) |
 | [`JIntegral`](#DelaminationFailureCriteriaOption.JIntegral) |
 | [`MaterialDataTable`](#DelaminationFailureCriteriaOption.MaterialDataTable) |

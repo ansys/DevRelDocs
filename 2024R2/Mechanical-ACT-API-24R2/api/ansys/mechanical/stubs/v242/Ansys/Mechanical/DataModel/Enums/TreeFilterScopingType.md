@@ -17,7 +17,7 @@ Specifies the TreeFilterScopingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------- |
 | [`All`](#TreeFilterScopingType.All) |
 | [`Partial`](#TreeFilterScopingType.Partial) |
 

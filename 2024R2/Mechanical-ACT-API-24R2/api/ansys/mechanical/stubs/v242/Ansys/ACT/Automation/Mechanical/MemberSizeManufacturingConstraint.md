@@ -58,7 +58,7 @@ Defines a MemberSizeManufacturingConstraint.
 
 <a id="MemberSizeManufacturingConstraint.Children"></a>
 
-### *property* MemberSizeManufacturingConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MemberSizeManufacturingConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -138,7 +138,7 @@ Gets or sets the Minimum.
 
 <a id="MemberSizeManufacturingConstraint.Properties"></a>
 
-### *property* MemberSizeManufacturingConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MemberSizeManufacturingConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -162,7 +162,7 @@ Gets or sets the Selection.
 
 <a id="MemberSizeManufacturingConstraint.Suppressed"></a>
 
-### *property* MemberSizeManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MemberSizeManufacturingConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -170,7 +170,7 @@ Gets or sets the Suppressed.
 
 <a id="MemberSizeManufacturingConstraint.VisibleProperties"></a>
 
-### *property* MemberSizeManufacturingConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MemberSizeManufacturingConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -198,7 +198,7 @@ Copies all visible properties from this object to another.
 
 <a id="MemberSizeManufacturingConstraint.CreateParameter"></a>
 
-### MemberSizeManufacturingConstraint.CreateParameter(propName: System.String)
+### MemberSizeManufacturingConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -222,7 +222,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MemberSizeManufacturingConstraint.GetChildren"></a>
 
-### MemberSizeManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MemberSizeManufacturingConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -230,7 +230,7 @@ Gets the list of children, filtered by type.
 
 <a id="MemberSizeManufacturingConstraint.GetParameter"></a>
 
-### MemberSizeManufacturingConstraint.GetParameter(propName: System.String)
+### MemberSizeManufacturingConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -254,7 +254,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MemberSizeManufacturingConstraint.PropertyByAPIName"></a>
 
-### MemberSizeManufacturingConstraint.PropertyByAPIName(name: System.String)
+### MemberSizeManufacturingConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -265,7 +265,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MemberSizeManufacturingConstraint.PropertyByName"></a>
 
-### MemberSizeManufacturingConstraint.PropertyByName(name: System.String)
+### MemberSizeManufacturingConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -273,7 +273,7 @@ Get a property by its unique name.
 
 <a id="MemberSizeManufacturingConstraint.RemoveParameter"></a>
 
-### MemberSizeManufacturingConstraint.RemoveParameter(propName: System.String)
+### MemberSizeManufacturingConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

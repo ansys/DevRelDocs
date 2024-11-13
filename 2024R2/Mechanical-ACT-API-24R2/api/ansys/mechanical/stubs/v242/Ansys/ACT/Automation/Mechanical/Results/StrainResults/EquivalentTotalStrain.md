@@ -17,7 +17,7 @@ Defines a EquivalentTotalStrain.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#EquivalentTotalStrain.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#EquivalentTotalStrain.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#EquivalentTotalStrain.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a EquivalentTotalStrain.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#EquivalentTotalStrain.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#EquivalentTotalStrain.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#EquivalentTotalStrain.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -112,7 +112,7 @@ Defines a EquivalentTotalStrain.
 | [`Substep`](#EquivalentTotalStrain.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#EquivalentTotalStrain.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#EquivalentTotalStrain.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#EquivalentTotalStrain.SurfaceCoating)                                                                                                                                               | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#EquivalentTotalStrain.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#EquivalentTotalStrain.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#EquivalentTotalStrain.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#EquivalentTotalStrain.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -120,7 +120,7 @@ Defines a EquivalentTotalStrain.
 | [`TimeForMinimumOfMaximumValues`](#EquivalentTotalStrain.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#EquivalentTotalStrain.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#EquivalentTotalStrain.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#EquivalentTotalStrain.WaterfallShowTextOnMosaic)                                                                                                                         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#EquivalentTotalStrain.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -128,7 +128,7 @@ Defines a EquivalentTotalStrain.
 
 <a id="EquivalentTotalStrain.Amplitude"></a>
 
-### *property* EquivalentTotalStrain.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -144,7 +144,7 @@ Gets the Average.
 
 <a id="EquivalentTotalStrain.AverageAcrossBodies"></a>
 
-### *property* EquivalentTotalStrain.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -160,7 +160,7 @@ Gets or sets the By.
 
 <a id="EquivalentTotalStrain.CalculateTimeHistory"></a>
 
-### *property* EquivalentTotalStrain.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -168,7 +168,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="EquivalentTotalStrain.Children"></a>
 
-### *property* EquivalentTotalStrain.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -176,7 +176,7 @@ Gets the list of children.
 
 <a id="EquivalentTotalStrain.CombinationNumber"></a>
 
-### *property* EquivalentTotalStrain.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -184,7 +184,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="EquivalentTotalStrain.Comments"></a>
 
-### *property* EquivalentTotalStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -192,7 +192,7 @@ Gets the list of associated comments.
 
 <a id="EquivalentTotalStrain.CoordinateSystem"></a>
 
-### *property* EquivalentTotalStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -202,7 +202,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="EquivalentTotalStrain.CrackFrontNumber"></a>
 
-### *property* EquivalentTotalStrain.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -210,7 +210,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="EquivalentTotalStrain.CyclicMode"></a>
 
-### *property* EquivalentTotalStrain.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -250,7 +250,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="EquivalentTotalStrain.EnvironmentSelection"></a>
 
-### *property* EquivalentTotalStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -258,7 +258,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="EquivalentTotalStrain.Figures"></a>
 
-### *property* EquivalentTotalStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -274,7 +274,7 @@ Gets or sets the Frequency.
 
 <a id="EquivalentTotalStrain.GlobalIDs"></a>
 
-### *property* EquivalentTotalStrain.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -290,7 +290,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="EquivalentTotalStrain.HarmonicIndex"></a>
 
-### *property* EquivalentTotalStrain.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -298,7 +298,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="EquivalentTotalStrain.Identifier"></a>
 
-### *property* EquivalentTotalStrain.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -306,7 +306,7 @@ Gets or sets the Identifier.
 
 <a id="EquivalentTotalStrain.Images"></a>
 
-### *property* EquivalentTotalStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -322,7 +322,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EquivalentTotalStrain.IsSolved"></a>
 
-### *property* EquivalentTotalStrain.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -338,7 +338,7 @@ Gets or sets the ItemType.
 
 <a id="EquivalentTotalStrain.IterationNumber"></a>
 
-### *property* EquivalentTotalStrain.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -346,7 +346,7 @@ Gets the IterationNumber.
 
 <a id="EquivalentTotalStrain.IterationStep"></a>
 
-### *property* EquivalentTotalStrain.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -354,7 +354,7 @@ Gets or sets the IterationStep.
 
 <a id="EquivalentTotalStrain.LoadMultiplier"></a>
 
-### *property* EquivalentTotalStrain.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -362,7 +362,7 @@ Gets the LoadMultiplier.
 
 <a id="EquivalentTotalStrain.LoadStep"></a>
 
-### *property* EquivalentTotalStrain.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -370,7 +370,7 @@ Gets the LoadStep.
 
 <a id="EquivalentTotalStrain.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* EquivalentTotalStrain.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -378,7 +378,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="EquivalentTotalStrain.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* EquivalentTotalStrain.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -386,7 +386,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="EquivalentTotalStrain.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* EquivalentTotalStrain.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -394,7 +394,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="EquivalentTotalStrain.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* EquivalentTotalStrain.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -402,7 +402,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="EquivalentTotalStrain.LoadStepNumber"></a>
 
-### *property* EquivalentTotalStrain.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -426,7 +426,7 @@ Gets the Maximum.
 
 <a id="EquivalentTotalStrain.MaximumOccursOn"></a>
 
-### *property* EquivalentTotalStrain.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -458,7 +458,7 @@ Gets the Minimum.
 
 <a id="EquivalentTotalStrain.MinimumOccursOn"></a>
 
-### *property* EquivalentTotalStrain.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -482,7 +482,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="EquivalentTotalStrain.Mode"></a>
 
-### *property* EquivalentTotalStrain.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -490,7 +490,7 @@ Gets or sets the Mode.
 
 <a id="EquivalentTotalStrain.NamedSelections"></a>
 
-### *property* EquivalentTotalStrain.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -514,7 +514,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="EquivalentTotalStrain.Plies"></a>
 
-### *property* EquivalentTotalStrain.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -530,7 +530,7 @@ Gets the result table.
 
 <a id="EquivalentTotalStrain.Ply"></a>
 
-### *property* EquivalentTotalStrain.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -546,7 +546,7 @@ Gets or sets the Position.
 
 <a id="EquivalentTotalStrain.Properties"></a>
 
-### *property* EquivalentTotalStrain.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -570,7 +570,7 @@ Gets or sets the ScopingMethod.
 
 <a id="EquivalentTotalStrain.SetNumber"></a>
 
-### *property* EquivalentTotalStrain.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -586,7 +586,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="EquivalentTotalStrain.SolverComponentIDs"></a>
 
-### *property* EquivalentTotalStrain.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -610,7 +610,7 @@ Gets or sets the SubScopeBy.
 
 <a id="EquivalentTotalStrain.Substep"></a>
 
-### *property* EquivalentTotalStrain.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -618,7 +618,7 @@ Gets the Substep.
 
 <a id="EquivalentTotalStrain.Suppressed"></a>
 
-### *property* EquivalentTotalStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -690,7 +690,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="EquivalentTotalStrain.VisibleProperties"></a>
 
-### *property* EquivalentTotalStrain.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -698,7 +698,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EquivalentTotalStrain.WaterfallShowTextOnMosaic"></a>
 
-### *property* EquivalentTotalStrain.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentTotalStrain.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -750,7 +750,7 @@ Creates a new child Figure.
 
 <a id="EquivalentTotalStrain.AddImage"></a>
 
-### EquivalentTotalStrain.AddImage(filePath: System.String)
+### EquivalentTotalStrain.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -778,7 +778,7 @@ Copies all visible properties from this object to another.
 
 <a id="EquivalentTotalStrain.CreateParameter"></a>
 
-### EquivalentTotalStrain.CreateParameter(propName: System.String)
+### EquivalentTotalStrain.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -826,7 +826,7 @@ Run the EvaluateAllResults action.
 
 <a id="EquivalentTotalStrain.ExportAnimation"></a>
 
-### EquivalentTotalStrain.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### EquivalentTotalStrain.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -834,7 +834,7 @@ Run the ExportAnimation action.
 
 <a id="EquivalentTotalStrain.ExportToTextFile"></a>
 
-### EquivalentTotalStrain.ExportToTextFile(filePath: System.String)
+### EquivalentTotalStrain.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -850,7 +850,7 @@ Run the FetchRemoteResult action.
 
 <a id="EquivalentTotalStrain.GetChildren"></a>
 
-### EquivalentTotalStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EquivalentTotalStrain.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -858,7 +858,7 @@ Gets the list of children, filtered by type.
 
 <a id="EquivalentTotalStrain.GetParameter"></a>
 
-### EquivalentTotalStrain.GetParameter(propName: System.String)
+### EquivalentTotalStrain.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -890,7 +890,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="EquivalentTotalStrain.PropertyByAPIName"></a>
 
-### EquivalentTotalStrain.PropertyByAPIName(name: System.String)
+### EquivalentTotalStrain.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -901,7 +901,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EquivalentTotalStrain.PropertyByName"></a>
 
-### EquivalentTotalStrain.PropertyByName(name: System.String)
+### EquivalentTotalStrain.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -909,7 +909,7 @@ Get a property by its unique name.
 
 <a id="EquivalentTotalStrain.RemoveParameter"></a>
 
-### EquivalentTotalStrain.RemoveParameter(propName: System.String)
+### EquivalentTotalStrain.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

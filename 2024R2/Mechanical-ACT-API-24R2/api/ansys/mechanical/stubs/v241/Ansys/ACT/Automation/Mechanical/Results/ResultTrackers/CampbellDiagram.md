@@ -109,7 +109,7 @@ Defines a CampbellDiagram.
 
 <a id="CampbellDiagram.AccelerationType"></a>
 
-### *property* CampbellDiagram.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
@@ -125,7 +125,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="CampbellDiagram.ChartDimensions"></a>
 
-### *property* CampbellDiagram.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
@@ -133,7 +133,7 @@ Gets or sets the Chart Dimensions
 
 <a id="CampbellDiagram.ChartViewingStyle"></a>
 
-### *property* CampbellDiagram.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
@@ -141,7 +141,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="CampbellDiagram.Children"></a>
 
-### *property* CampbellDiagram.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -149,7 +149,7 @@ Gets the list of children.
 
 <a id="CampbellDiagram.Comments"></a>
 
-### *property* CampbellDiagram.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -165,7 +165,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="CampbellDiagram.CriticalSpeed"></a>
 
-### *property* CampbellDiagram.CriticalSpeed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.CriticalSpeed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CriticalSpeed.
 
@@ -173,7 +173,7 @@ Gets or sets the CriticalSpeed.
 
 <a id="CampbellDiagram.CurvesAppearanceDisplay"></a>
 
-### *property* CampbellDiagram.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
@@ -181,7 +181,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="CampbellDiagram.CutFrequency"></a>
 
-### *property* CampbellDiagram.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -189,7 +189,7 @@ Gets or sets the CutFrequency.
 
 <a id="CampbellDiagram.DataModelObjectCategory"></a>
 
-### *property* CampbellDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -197,7 +197,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CampbellDiagram.DeformationType"></a>
 
-### *property* CampbellDiagram.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
@@ -205,7 +205,7 @@ Gets or sets the DeformationType.
 
 <a id="CampbellDiagram.DpfEvaluation"></a>
 
-### *property* CampbellDiagram.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -221,7 +221,7 @@ Gets or sets the Duration.
 
 <a id="CampbellDiagram.EnhancedTracking"></a>
 
-### *property* CampbellDiagram.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -245,7 +245,7 @@ Gets the FilterMinimum.
 
 <a id="CampbellDiagram.FilterType"></a>
 
-### *property* CampbellDiagram.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
@@ -261,7 +261,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="CampbellDiagram.GeometrySelectionString"></a>
 
-### *property* CampbellDiagram.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -269,7 +269,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="CampbellDiagram.Images"></a>
 
-### *property* CampbellDiagram.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -293,7 +293,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CampbellDiagram.IsSolved"></a>
 
-### *property* CampbellDiagram.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -301,7 +301,7 @@ Gets the IsSolved.
 
 <a id="CampbellDiagram.LoadStepNumber"></a>
 
-### *property* CampbellDiagram.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -357,7 +357,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="CampbellDiagram.NormalOrientation"></a>
 
-### *property* CampbellDiagram.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -373,7 +373,7 @@ Gets the PhaseAngle.
 
 <a id="CampbellDiagram.Properties"></a>
 
-### *property* CampbellDiagram.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -381,7 +381,7 @@ Gets the list of properties for this object.
 
 <a id="CampbellDiagram.Ratio"></a>
 
-### *property* CampbellDiagram.Ratio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.Ratio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ratio.
 
@@ -413,7 +413,7 @@ Gets or sets the RequestedFrequency.
 
 <a id="CampbellDiagram.ResultChartType"></a>
 
-### *property* CampbellDiagram.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
@@ -421,7 +421,7 @@ Gets the ResultChartType.
 
 <a id="CampbellDiagram.RotationalVelocitySelection"></a>
 
-### *property* CampbellDiagram.RotationalVelocitySelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.RotationalVelocitySelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Rotational Velocity Selection Type.
 
@@ -429,7 +429,7 @@ Gets or sets the Rotational Velocity Selection Type.
 
 <a id="CampbellDiagram.SectorNumber"></a>
 
-### *property* CampbellDiagram.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -437,7 +437,7 @@ Gets or sets the SectorNumber.
 
 <a id="CampbellDiagram.ShearOrientation"></a>
 
-### *property* CampbellDiagram.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
@@ -445,7 +445,7 @@ Gets or sets the ShearOrientation.
 
 <a id="CampbellDiagram.Sorting"></a>
 
-### *property* CampbellDiagram.Sorting *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.Sorting *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Sorting.
 
@@ -453,7 +453,7 @@ Gets or sets the Sorting.
 
 <a id="CampbellDiagram.SpatialResolution"></a>
 
-### *property* CampbellDiagram.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -469,7 +469,7 @@ Gets or sets the Spring.
 
 <a id="CampbellDiagram.StressStrainType"></a>
 
-### *property* CampbellDiagram.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -477,7 +477,7 @@ Gets or sets the StressStrainType.
 
 <a id="CampbellDiagram.Suppressed"></a>
 
-### *property* CampbellDiagram.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -485,7 +485,7 @@ Gets or sets the Suppressed.
 
 <a id="CampbellDiagram.TimeHistoryDisplay"></a>
 
-### *property* CampbellDiagram.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
@@ -493,7 +493,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="CampbellDiagram.UseParentFrequencyRange"></a>
 
-### *property* CampbellDiagram.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -501,7 +501,7 @@ Gets or sets the UseParentFrequencyRange.
 
 <a id="CampbellDiagram.VelocityType"></a>
 
-### *property* CampbellDiagram.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
@@ -509,7 +509,7 @@ Gets or sets the VelocityType.
 
 <a id="CampbellDiagram.VisibleProperties"></a>
 
-### *property* CampbellDiagram.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -517,7 +517,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="CampbellDiagram.XAxisLabel"></a>
 
-### *property* CampbellDiagram.XAxisLabel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.XAxisLabel *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisLabel.
 
@@ -541,7 +541,7 @@ Gets or sets the XAxisMinimum.
 
 <a id="CampbellDiagram.XAxisRange"></a>
 
-### *property* CampbellDiagram.XAxisRange *: [Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSCampbellAxisRange.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.XAxisRange *: [Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange](../../../../../Mechanical/DataModel/Enums/DSCampbellAxisRange.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisRange.
 
@@ -549,7 +549,7 @@ Gets or sets the XAxisRange.
 
 <a id="CampbellDiagram.XAxisValues"></a>
 
-### *property* CampbellDiagram.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
@@ -557,7 +557,7 @@ Gets or sets the XAxisValues.
 
 <a id="CampbellDiagram.YAxisData"></a>
 
-### *property* CampbellDiagram.YAxisData *: [Ansys.Mechanical.DataModel.Enums.DSCampbellYAxisDataType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSCampbellYAxisDataType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DSCampbellYAxisDataType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.YAxisData *: [Ansys.Mechanical.DataModel.Enums.DSCampbellYAxisDataType](../../../../../Mechanical/DataModel/Enums/DSCampbellYAxisDataType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSCampbellYAxisDataType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YAxisData.
 
@@ -565,7 +565,7 @@ Gets or sets the YAxisData.
 
 <a id="CampbellDiagram.YAxisLabel"></a>
 
-### *property* CampbellDiagram.YAxisLabel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.YAxisLabel *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YAxisLabel.
 
@@ -589,7 +589,7 @@ Gets or sets the YAxisMinimum.
 
 <a id="CampbellDiagram.YAxisRange"></a>
 
-### *property* CampbellDiagram.YAxisRange *: [Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSCampbellAxisRange.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CampbellDiagram.YAxisRange *: [Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange](../../../../../Mechanical/DataModel/Enums/DSCampbellAxisRange.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YAxisRange.
 
@@ -617,7 +617,7 @@ Creates a new child Comment.
 
 <a id="CampbellDiagram.AddImage"></a>
 
-### CampbellDiagram.AddImage(filePath: System.String)
+### CampbellDiagram.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -645,7 +645,7 @@ Copies all visible properties from this object to another.
 
 <a id="CampbellDiagram.CreateParameter"></a>
 
-### CampbellDiagram.CreateParameter(propName: System.String)
+### CampbellDiagram.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -677,7 +677,7 @@ Run the EvaluateAllResults action.
 
 <a id="CampbellDiagram.ExportAnimation"></a>
 
-### CampbellDiagram.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### CampbellDiagram.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -685,7 +685,7 @@ Run the ExportAnimation action.
 
 <a id="CampbellDiagram.GetChildren"></a>
 
-### CampbellDiagram.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CampbellDiagram.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -693,7 +693,7 @@ Gets the list of children, filtered by type.
 
 <a id="CampbellDiagram.GetParameter"></a>
 
-### CampbellDiagram.GetParameter(propName: System.String)
+### CampbellDiagram.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -717,7 +717,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CampbellDiagram.PropertyByAPIName"></a>
 
-### CampbellDiagram.PropertyByAPIName(name: System.String)
+### CampbellDiagram.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -728,7 +728,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CampbellDiagram.PropertyByName"></a>
 
-### CampbellDiagram.PropertyByName(name: System.String)
+### CampbellDiagram.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -736,7 +736,7 @@ Get a property by its unique name.
 
 <a id="CampbellDiagram.RemoveParameter"></a>
 
-### CampbellDiagram.RemoveParameter(propName: System.String)
+### CampbellDiagram.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

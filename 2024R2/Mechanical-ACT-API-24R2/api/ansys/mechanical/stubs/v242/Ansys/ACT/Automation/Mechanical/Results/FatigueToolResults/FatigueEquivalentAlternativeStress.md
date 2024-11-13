@@ -17,7 +17,7 @@ Defines a FatigueEquivalentAlternativeStress.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#FatigueEquivalentAlternativeStress.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#FatigueEquivalentAlternativeStress.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#FatigueEquivalentAlternativeStress.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a FatigueEquivalentAlternativeStress.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#FatigueEquivalentAlternativeStress.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#FatigueEquivalentAlternativeStress.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#FatigueEquivalentAlternativeStress.By)                                                               | Gets or sets the By.                                                   |
@@ -99,14 +99,14 @@ Defines a FatigueEquivalentAlternativeStress.
 | [`Substep`](#FatigueEquivalentAlternativeStress.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#FatigueEquivalentAlternativeStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#FatigueEquivalentAlternativeStress.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#FatigueEquivalentAlternativeStress.SurfaceCoating)                                                                                                                                                                 | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#FatigueEquivalentAlternativeStress.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#FatigueEquivalentAlternativeStress.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#FatigueEquivalentAlternativeStress.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#FatigueEquivalentAlternativeStress.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#FatigueEquivalentAlternativeStress.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#FatigueEquivalentAlternativeStress.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#FatigueEquivalentAlternativeStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic)                                                                                                                                           | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -122,7 +122,7 @@ Gets the Average.
 
 <a id="FatigueEquivalentAlternativeStress.AverageAcrossBodies"></a>
 
-### *property* FatigueEquivalentAlternativeStress.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -138,7 +138,7 @@ Gets or sets the By.
 
 <a id="FatigueEquivalentAlternativeStress.CalculateTimeHistory"></a>
 
-### *property* FatigueEquivalentAlternativeStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -146,7 +146,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="FatigueEquivalentAlternativeStress.Children"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -154,7 +154,7 @@ Gets the list of children.
 
 <a id="FatigueEquivalentAlternativeStress.CombinationNumber"></a>
 
-### *property* FatigueEquivalentAlternativeStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -162,7 +162,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="FatigueEquivalentAlternativeStress.Comments"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -170,7 +170,7 @@ Gets the list of associated comments.
 
 <a id="FatigueEquivalentAlternativeStress.CoordinateSystem"></a>
 
-### *property* FatigueEquivalentAlternativeStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -180,7 +180,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="FatigueEquivalentAlternativeStress.CrackFrontNumber"></a>
 
-### *property* FatigueEquivalentAlternativeStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -196,7 +196,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FatigueEquivalentAlternativeStress.DesignLife"></a>
 
-### *property* FatigueEquivalentAlternativeStress.DesignLife *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.DesignLife *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DesignLife.
 
@@ -228,7 +228,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="FatigueEquivalentAlternativeStress.Figures"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -236,7 +236,7 @@ Gets the list of associated figures.
 
 <a id="FatigueEquivalentAlternativeStress.GlobalIDs"></a>
 
-### *property* FatigueEquivalentAlternativeStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -252,7 +252,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="FatigueEquivalentAlternativeStress.Identifier"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -260,7 +260,7 @@ Gets or sets the Identifier.
 
 <a id="FatigueEquivalentAlternativeStress.Images"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -276,7 +276,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FatigueEquivalentAlternativeStress.IsSolved"></a>
 
-### *property* FatigueEquivalentAlternativeStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -292,7 +292,7 @@ Gets or sets the ItemType.
 
 <a id="FatigueEquivalentAlternativeStress.IterationNumber"></a>
 
-### *property* FatigueEquivalentAlternativeStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -300,7 +300,7 @@ Gets the IterationNumber.
 
 <a id="FatigueEquivalentAlternativeStress.LoadStep"></a>
 
-### *property* FatigueEquivalentAlternativeStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -308,7 +308,7 @@ Gets the LoadStep.
 
 <a id="FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -316,7 +316,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -324,7 +324,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -332,7 +332,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -340,7 +340,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="FatigueEquivalentAlternativeStress.LoadStepNumber"></a>
 
-### *property* FatigueEquivalentAlternativeStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -364,7 +364,7 @@ Gets the Maximum.
 
 <a id="FatigueEquivalentAlternativeStress.MaximumOccursOn"></a>
 
-### *property* FatigueEquivalentAlternativeStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -388,7 +388,7 @@ Gets the MaximumOfMinimumOverTime.
 
 <a id="FatigueEquivalentAlternativeStress.Method"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Method *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Method *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Method.
 
@@ -404,7 +404,7 @@ Gets the Minimum.
 
 <a id="FatigueEquivalentAlternativeStress.MinimumOccursOn"></a>
 
-### *property* FatigueEquivalentAlternativeStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -428,7 +428,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="FatigueEquivalentAlternativeStress.NamedSelections"></a>
 
-### *property* FatigueEquivalentAlternativeStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -452,7 +452,7 @@ Gets the result table.
 
 <a id="FatigueEquivalentAlternativeStress.Properties"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -468,7 +468,7 @@ Gets or sets the ScopingMethod.
 
 <a id="FatigueEquivalentAlternativeStress.SetNumber"></a>
 
-### *property* FatigueEquivalentAlternativeStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -484,7 +484,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="FatigueEquivalentAlternativeStress.SolverComponentIDs"></a>
 
-### *property* FatigueEquivalentAlternativeStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -492,7 +492,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="FatigueEquivalentAlternativeStress.Substep"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -500,7 +500,7 @@ Gets the Substep.
 
 <a id="FatigueEquivalentAlternativeStress.Suppressed"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -564,7 +564,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="FatigueEquivalentAlternativeStress.VisibleProperties"></a>
 
-### *property* FatigueEquivalentAlternativeStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -572,7 +572,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic"></a>
 
-### *property* FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -624,7 +624,7 @@ Creates a new child Figure.
 
 <a id="FatigueEquivalentAlternativeStress.AddImage"></a>
 
-### FatigueEquivalentAlternativeStress.AddImage(filePath: System.String)
+### FatigueEquivalentAlternativeStress.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -652,7 +652,7 @@ Copies all visible properties from this object to another.
 
 <a id="FatigueEquivalentAlternativeStress.CreateParameter"></a>
 
-### FatigueEquivalentAlternativeStress.CreateParameter(propName: System.String)
+### FatigueEquivalentAlternativeStress.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -700,7 +700,7 @@ Run the EvaluateAllResults action.
 
 <a id="FatigueEquivalentAlternativeStress.ExportAnimation"></a>
 
-### FatigueEquivalentAlternativeStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FatigueEquivalentAlternativeStress.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -708,7 +708,7 @@ Run the ExportAnimation action.
 
 <a id="FatigueEquivalentAlternativeStress.ExportToTextFile"></a>
 
-### FatigueEquivalentAlternativeStress.ExportToTextFile(filePath: System.String)
+### FatigueEquivalentAlternativeStress.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -724,7 +724,7 @@ Run the FetchRemoteResult action.
 
 <a id="FatigueEquivalentAlternativeStress.GetChildren"></a>
 
-### FatigueEquivalentAlternativeStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FatigueEquivalentAlternativeStress.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -732,7 +732,7 @@ Gets the list of children, filtered by type.
 
 <a id="FatigueEquivalentAlternativeStress.GetParameter"></a>
 
-### FatigueEquivalentAlternativeStress.GetParameter(propName: System.String)
+### FatigueEquivalentAlternativeStress.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -764,7 +764,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="FatigueEquivalentAlternativeStress.PropertyByAPIName"></a>
 
-### FatigueEquivalentAlternativeStress.PropertyByAPIName(name: System.String)
+### FatigueEquivalentAlternativeStress.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -775,7 +775,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FatigueEquivalentAlternativeStress.PropertyByName"></a>
 
-### FatigueEquivalentAlternativeStress.PropertyByName(name: System.String)
+### FatigueEquivalentAlternativeStress.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -783,7 +783,7 @@ Get a property by its unique name.
 
 <a id="FatigueEquivalentAlternativeStress.RemoveParameter"></a>
 
-### FatigueEquivalentAlternativeStress.RemoveParameter(propName: System.String)
+### FatigueEquivalentAlternativeStress.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the SweepElementOptionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`Solid`](#SweepElementOptionType.Solid) |
 | [`SolidShell`](#SweepElementOptionType.SolidShell) |
 

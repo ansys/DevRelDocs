@@ -17,7 +17,7 @@ Specifies the DelaminationGenerationMethod.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------- |
 | [`MatchedMeshing`](#DelaminationGenerationMethod.MatchedMeshing) |
 | [`NodeMatching`](#DelaminationGenerationMethod.NodeMatching) |
 | [`PregeneratedInterface`](#DelaminationGenerationMethod.PregeneratedInterface) |

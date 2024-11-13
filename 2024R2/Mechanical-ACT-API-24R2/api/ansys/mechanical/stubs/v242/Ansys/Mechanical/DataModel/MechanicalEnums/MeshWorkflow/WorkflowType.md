@@ -17,7 +17,7 @@ This enum is referenced in the “Steps” tree node and reflects the type of wo
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------- |
 | [`BEMAcoustics`](#WorkflowType.BEMAcoustics) |
 | [`FEMAcousticsExternal`](#WorkflowType.FEMAcousticsExternal) |
 | [`FEMAcousticsFSI`](#WorkflowType.FEMAcousticsFSI) |

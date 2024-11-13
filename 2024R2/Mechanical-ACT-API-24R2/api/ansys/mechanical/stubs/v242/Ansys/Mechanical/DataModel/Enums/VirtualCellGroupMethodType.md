@@ -17,7 +17,7 @@ Specifies the VirtualCellGroupMethodType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Automatic`](#VirtualCellGroupMethodType.Automatic) |
 | [`Repair`](#VirtualCellGroupMethodType.Repair) |
 | [`UserDefined`](#VirtualCellGroupMethodType.UserDefined) |

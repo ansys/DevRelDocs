@@ -87,7 +87,7 @@ Defines a RingCrack.
 
 <a id="RingCrack.BottomFaceNodes"></a>
 
-### *property* RingCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.BottomFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomFaceNodes.
 
@@ -95,7 +95,7 @@ Gets or sets the BottomFaceNodes.
 
 <a id="RingCrack.Children"></a>
 
-### *property* RingCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -103,7 +103,7 @@ Gets the list of children.
 
 <a id="RingCrack.CircumferentialDivisions"></a>
 
-### *property* RingCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CircumferentialDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CircumferentialDivisions.
 
@@ -111,7 +111,7 @@ Gets or sets the CircumferentialDivisions.
 
 <a id="RingCrack.Comments"></a>
 
-### *property* RingCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -119,7 +119,7 @@ Gets the list of associated comments.
 
 <a id="RingCrack.Contact1Nodes"></a>
 
-### *property* RingCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.Contact1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Contact1Nodes.
 
@@ -127,7 +127,7 @@ Gets or sets the Contact1Nodes.
 
 <a id="RingCrack.ContactPairsNodes"></a>
 
-### *property* RingCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.ContactPairsNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactPairsNodes.
 
@@ -143,7 +143,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="RingCrack.CrackFacesNodes"></a>
 
-### *property* RingCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CrackFacesNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFacesNodes.
 
@@ -151,7 +151,7 @@ Gets or sets the CrackFacesNodes.
 
 <a id="RingCrack.CrackFrontNodes"></a>
 
-### *property* RingCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CrackFrontNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNodes.
 
@@ -159,7 +159,7 @@ Gets or sets the CrackFrontNodes.
 
 <a id="RingCrack.CrackID"></a>
 
-### *property* RingCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CrackID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackID.
 
@@ -167,7 +167,7 @@ Gets the CrackID.
 
 <a id="RingCrack.CrackMeshMethod"></a>
 
-### *property* RingCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackMeshMethod.
 
@@ -175,7 +175,7 @@ Gets or sets the CrackMeshMethod.
 
 <a id="RingCrack.CrackShape"></a>
 
-### *property* RingCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackShape.
 
@@ -183,7 +183,7 @@ Gets the CrackShape.
 
 <a id="RingCrack.CrackSourceType"></a>
 
-### *property* RingCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackSourceType.
 
@@ -191,7 +191,7 @@ Gets the CrackSourceType.
 
 <a id="RingCrack.DataModelObjectCategory"></a>
 
-### *property* RingCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -199,7 +199,7 @@ Gets the current DataModelObject’s category.
 
 <a id="RingCrack.Figures"></a>
 
-### *property* RingCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -207,7 +207,7 @@ Gets the list of associated figures.
 
 <a id="RingCrack.FractureAffectedZone"></a>
 
-### *property* RingCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FractureAffectedZone.
 
@@ -223,7 +223,7 @@ Gets or sets the FractureAffectedZoneHeight.
 
 <a id="RingCrack.GrowthRate"></a>
 
-### *property* RingCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -231,7 +231,7 @@ Gets or sets the GrowthRate.
 
 <a id="RingCrack.Images"></a>
 
-### *property* RingCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -239,7 +239,7 @@ Gets the list of associated images.
 
 <a id="RingCrack.InnerCrackFrontDivisions"></a>
 
-### *property* RingCrack.InnerCrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.InnerCrackFrontDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InnerCrackFrontDivisions.
 
@@ -295,7 +295,7 @@ Gets or sets the Location.
 
 <a id="RingCrack.MeshContours"></a>
 
-### *property* RingCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.MeshContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshContours.
 
@@ -303,7 +303,7 @@ Gets or sets the MeshContours.
 
 <a id="RingCrack.OuterCrackFrontDivisions"></a>
 
-### *property* RingCrack.OuterCrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.OuterCrackFrontDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OuterCrackFrontDivisions.
 
@@ -335,7 +335,7 @@ Gets or sets the OuterMinorRadius.
 
 <a id="RingCrack.Properties"></a>
 
-### *property* RingCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -343,7 +343,7 @@ Gets the list of properties for this object.
 
 <a id="RingCrack.ReadOnly"></a>
 
-### *property* RingCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -351,7 +351,7 @@ Gets or sets the ReadOnly.
 
 <a id="RingCrack.SolutionContours"></a>
 
-### *property* RingCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.SolutionContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionContours.
 
@@ -359,7 +359,7 @@ Gets or sets the SolutionContours.
 
 <a id="RingCrack.Suppressed"></a>
 
-### *property* RingCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -367,7 +367,7 @@ Gets or sets the Suppressed.
 
 <a id="RingCrack.Target1Nodes"></a>
 
-### *property* RingCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.Target1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Target1Nodes.
 
@@ -375,7 +375,7 @@ Gets or sets the Target1Nodes.
 
 <a id="RingCrack.TopFaceNodes"></a>
 
-### *property* RingCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.TopFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopFaceNodes.
 
@@ -383,7 +383,7 @@ Gets or sets the TopFaceNodes.
 
 <a id="RingCrack.VisibleProperties"></a>
 
-### *property* RingCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -391,7 +391,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="RingCrack.XScaleFactor"></a>
 
-### *property* RingCrack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.XScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XScaleFactor.
 
@@ -399,7 +399,7 @@ Gets or sets the XScaleFactor.
 
 <a id="RingCrack.YScaleFactor"></a>
 
-### *property* RingCrack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.YScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YScaleFactor.
 
@@ -407,7 +407,7 @@ Gets or sets the YScaleFactor.
 
 <a id="RingCrack.ZScaleFactor"></a>
 
-### *property* RingCrack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RingCrack.ZScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZScaleFactor.
 
@@ -451,7 +451,7 @@ Creates a new child Figure.
 
 <a id="RingCrack.AddImage"></a>
 
-### RingCrack.AddImage(filePath: System.String)
+### RingCrack.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -471,7 +471,7 @@ Copies all visible properties from this object to another.
 
 <a id="RingCrack.CreateParameter"></a>
 
-### RingCrack.CreateParameter(propName: System.String)
+### RingCrack.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -495,7 +495,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RingCrack.GetChildren"></a>
 
-### RingCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RingCrack.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -503,7 +503,7 @@ Gets the list of children, filtered by type.
 
 <a id="RingCrack.GetParameter"></a>
 
-### RingCrack.GetParameter(propName: System.String)
+### RingCrack.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -527,7 +527,7 @@ Run the GroupSimilarObjects action.
 
 <a id="RingCrack.PropertyByAPIName"></a>
 
-### RingCrack.PropertyByAPIName(name: System.String)
+### RingCrack.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -538,7 +538,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RingCrack.PropertyByName"></a>
 
-### RingCrack.PropertyByName(name: System.String)
+### RingCrack.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -546,7 +546,7 @@ Get a property by its unique name.
 
 <a id="RingCrack.RemoveParameter"></a>
 
-### RingCrack.RemoveParameter(propName: System.String)
+### RingCrack.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

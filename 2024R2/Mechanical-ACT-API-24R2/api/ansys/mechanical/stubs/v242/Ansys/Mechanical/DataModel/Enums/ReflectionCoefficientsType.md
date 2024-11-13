@@ -17,7 +17,7 @@ Specifies the ReflectionCoefficientsType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------- |
 | [`Manual`](#ReflectionCoefficientsType.Manual) |
 | [`ProgramControlled`](#ReflectionCoefficientsType.ProgramControlled) |
 

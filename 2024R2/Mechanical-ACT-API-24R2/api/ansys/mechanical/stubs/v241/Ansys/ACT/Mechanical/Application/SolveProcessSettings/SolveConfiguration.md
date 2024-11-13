@@ -35,7 +35,7 @@ The class representing a solve configuration.
 
 <a id="SolveConfiguration.Default"></a>
 
-### *property* SolveConfiguration.Default *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveConfiguration.Default *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether this solve configuration is the default.
 
@@ -43,7 +43,7 @@ Whether this solve configuration is the default.
 
 <a id="SolveConfiguration.Name"></a>
 
-### *property* SolveConfiguration.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveConfiguration.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the solve configuration.
 
@@ -51,7 +51,7 @@ The name of the solve configuration.
 
 <a id="SolveConfiguration.Settings"></a>
 
-### *property* SolveConfiguration.Settings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/QueueSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveConfiguration.Settings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings](QueueSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the queue settings of this solve configuration.
 
@@ -59,7 +59,7 @@ Returns the queue settings of this solve configuration.
 
 <a id="SolveConfiguration.SolveProcessSettings"></a>
 
-### *property* SolveConfiguration.SolveProcessSettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveProcessSettings](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/SolveProcessSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveProcessSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveConfiguration.SolveProcessSettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveProcessSettings](SolveProcessSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveProcessSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the solve process settings of this solve configuration.
 

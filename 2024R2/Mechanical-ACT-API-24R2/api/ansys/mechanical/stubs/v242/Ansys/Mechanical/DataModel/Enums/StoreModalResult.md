@@ -17,7 +17,7 @@ Specifies the StoreModalResult.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`ForFutureAnalysis`](#StoreModalResult.ForFutureAnalysis) |
 | [`No`](#StoreModalResult.No) |
 | [`ProgramControlled`](#StoreModalResult.ProgramControlled) |

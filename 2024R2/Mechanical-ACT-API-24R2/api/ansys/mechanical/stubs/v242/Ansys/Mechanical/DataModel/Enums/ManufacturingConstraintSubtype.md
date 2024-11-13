@@ -17,7 +17,7 @@ Specifies the ManufacturingConstraintSubtype.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------- |
 | [`ComplexityIndexConstraint`](#ManufacturingConstraintSubtype.ComplexityIndexConstraint) |
 | [`CyclicManufacturingConstraint`](#ManufacturingConstraintSubtype.CyclicManufacturingConstraint) |
 | [`ExtrusionManufacturingConstraint`](#ManufacturingConstraintSubtype.ExtrusionManufacturingConstraint) |

@@ -73,7 +73,7 @@ Gets or sets the Behavior.
 
 <a id="EndRelease.Children"></a>
 
-### *property* EndRelease.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -81,7 +81,7 @@ Gets the list of children.
 
 <a id="EndRelease.Comments"></a>
 
-### *property* EndRelease.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -113,7 +113,7 @@ Gets or sets the EdgeLocation.
 
 <a id="EndRelease.Figures"></a>
 
-### *property* EndRelease.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -121,7 +121,7 @@ Gets the list of associated figures.
 
 <a id="EndRelease.Images"></a>
 
-### *property* EndRelease.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -129,7 +129,7 @@ Gets the list of associated images.
 
 <a id="EndRelease.IndependentEdges"></a>
 
-### *property* EndRelease.IndependentEdges *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.IndependentEdges *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentEdges.
 
@@ -145,7 +145,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EndRelease.Properties"></a>
 
-### *property* EndRelease.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -177,7 +177,7 @@ Gets or sets the RotationZ.
 
 <a id="EndRelease.Suppressed"></a>
 
-### *property* EndRelease.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -217,7 +217,7 @@ Gets or sets the VertexLocation.
 
 <a id="EndRelease.VisibleProperties"></a>
 
-### *property* EndRelease.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -253,7 +253,7 @@ Creates a new child Figure.
 
 <a id="EndRelease.AddImage"></a>
 
-### EndRelease.AddImage(filePath: System.String)
+### EndRelease.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -273,7 +273,7 @@ Copies all visible properties from this object to another.
 
 <a id="EndRelease.CreateParameter"></a>
 
-### EndRelease.CreateParameter(propName: System.String)
+### EndRelease.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -297,7 +297,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="EndRelease.GetChildren"></a>
 
-### EndRelease.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EndRelease.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -305,7 +305,7 @@ Gets the list of children, filtered by type.
 
 <a id="EndRelease.GetParameter"></a>
 
-### EndRelease.GetParameter(propName: System.String)
+### EndRelease.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -329,7 +329,7 @@ Run the GroupSimilarObjects action.
 
 <a id="EndRelease.PropertyByAPIName"></a>
 
-### EndRelease.PropertyByAPIName(name: System.String)
+### EndRelease.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -340,7 +340,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EndRelease.PropertyByName"></a>
 
-### EndRelease.PropertyByName(name: System.String)
+### EndRelease.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -348,7 +348,7 @@ Get a property by its unique name.
 
 <a id="EndRelease.RemoveParameter"></a>
 
-### EndRelease.RemoveParameter(propName: System.String)
+### EndRelease.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

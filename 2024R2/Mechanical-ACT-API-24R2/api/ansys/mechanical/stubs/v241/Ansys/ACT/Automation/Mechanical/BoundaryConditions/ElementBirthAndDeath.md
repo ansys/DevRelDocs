@@ -17,7 +17,7 @@ Defines a ElementBirthAndDeath.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ElementBirthAndDeath.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ElementBirthAndDeath.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ElementBirthAndDeath.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a ElementBirthAndDeath.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ElementBirthAndDeath.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ElementBirthAndDeath.Comments)                               | Gets the list of associated comments.                         |
 | [`CurrentStep`](#ElementBirthAndDeath.CurrentStep)                         | Gets or sets the CurrentStep.                                 |
@@ -57,7 +57,7 @@ Defines a ElementBirthAndDeath.
 
 <a id="ElementBirthAndDeath.Children"></a>
 
-### *property* ElementBirthAndDeath.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -65,7 +65,7 @@ Gets the list of children.
 
 <a id="ElementBirthAndDeath.Comments"></a>
 
-### *property* ElementBirthAndDeath.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -73,7 +73,7 @@ Gets the list of associated comments.
 
 <a id="ElementBirthAndDeath.CurrentStep"></a>
 
-### *property* ElementBirthAndDeath.CurrentStep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.CurrentStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurrentStep.
 
@@ -81,7 +81,7 @@ Gets or sets the CurrentStep.
 
 <a id="ElementBirthAndDeath.DataModelObjectCategory"></a>
 
-### *property* ElementBirthAndDeath.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -89,7 +89,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ElementBirthAndDeath.Figures"></a>
 
-### *property* ElementBirthAndDeath.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -97,7 +97,7 @@ Gets the list of associated figures.
 
 <a id="ElementBirthAndDeath.Images"></a>
 
-### *property* ElementBirthAndDeath.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -121,7 +121,7 @@ Gets or sets the Location.
 
 <a id="ElementBirthAndDeath.Properties"></a>
 
-### *property* ElementBirthAndDeath.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -129,7 +129,7 @@ Gets the list of properties for this object.
 
 <a id="ElementBirthAndDeath.Status"></a>
 
-### *property* ElementBirthAndDeath.Status *: [Ansys.Mechanical.DataModel.Enums.ElementControlsStatus](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementControlsStatus.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementControlsStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Status *: [Ansys.Mechanical.DataModel.Enums.ElementControlsStatus](../../../../Mechanical/DataModel/Enums/ElementControlsStatus.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementControlsStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Status.
 
@@ -137,7 +137,7 @@ Gets or sets the Status.
 
 <a id="ElementBirthAndDeath.Suppressed"></a>
 
-### *property* ElementBirthAndDeath.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -145,7 +145,7 @@ Gets or sets the Suppressed.
 
 <a id="ElementBirthAndDeath.VisibleProperties"></a>
 
-### *property* ElementBirthAndDeath.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementBirthAndDeath.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -181,7 +181,7 @@ Creates a new child Figure.
 
 <a id="ElementBirthAndDeath.AddImage"></a>
 
-### ElementBirthAndDeath.AddImage(filePath: System.String)
+### ElementBirthAndDeath.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -201,7 +201,7 @@ Copies all visible properties from this object to another.
 
 <a id="ElementBirthAndDeath.CreateParameter"></a>
 
-### ElementBirthAndDeath.CreateParameter(propName: System.String)
+### ElementBirthAndDeath.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -225,7 +225,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ElementBirthAndDeath.GetChildren"></a>
 
-### ElementBirthAndDeath.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ElementBirthAndDeath.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -233,7 +233,7 @@ Gets the list of children, filtered by type.
 
 <a id="ElementBirthAndDeath.GetParameter"></a>
 
-### ElementBirthAndDeath.GetParameter(propName: System.String)
+### ElementBirthAndDeath.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -257,7 +257,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ElementBirthAndDeath.PropertyByAPIName"></a>
 
-### ElementBirthAndDeath.PropertyByAPIName(name: System.String)
+### ElementBirthAndDeath.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -268,7 +268,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ElementBirthAndDeath.PropertyByName"></a>
 
-### ElementBirthAndDeath.PropertyByName(name: System.String)
+### ElementBirthAndDeath.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -276,7 +276,7 @@ Get a property by its unique name.
 
 <a id="ElementBirthAndDeath.RemoveParameter"></a>
 
-### ElementBirthAndDeath.RemoveParameter(propName: System.String)
+### ElementBirthAndDeath.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

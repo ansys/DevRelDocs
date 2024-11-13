@@ -18,14 +18,14 @@ or an expression that may involve other variables.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+|----------------------------------------------------|----------------------------------------------------------------------------------|
 | [`GetDiscreteValue`](#Variable.GetDiscreteValue)   | Changes a value at a given position in the tabular definition of the variable.   |
 | [`SetDiscreteValue`](#Variable.SetDiscreteValue)   | Changes a value at a given position in the tabular definition of the variable.   |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [`DefinitionType`](#Variable.DefinitionType)             | Gets a value that indicates how this variable is defined.                                                               |
 | [`DiscreteValueCount`](#Variable.DiscreteValueCount)     | Gets the number of discrete values of this variable.                                                                    |
 | [`DiscreteValues`](#Variable.DiscreteValues)             | Gets or sets the discrete values of this variable or                                                                    |
@@ -54,7 +54,7 @@ Gets a value that indicates how this variable is defined.
 
 <a id="Variable.DiscreteValueCount"></a>
 
-### *property* Variable.DiscreteValueCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.DiscreteValueCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of discrete values of this variable.
 
@@ -62,7 +62,7 @@ Gets the number of discrete values of this variable.
 
 <a id="Variable.DiscreteValues"></a>
 
-### *property* Variable.DiscreteValues *: System.Collections.Generic.IList[Ansys.Core.Units.Quantity] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.DiscreteValues *: List[Ansys.Core.Units.Quantity] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the discrete values of this variable or
 
@@ -78,7 +78,7 @@ Gets the owner field.
 
 <a id="Variable.Formula"></a>
 
-### *property* Variable.Formula *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.Formula *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the expression that is used to defined this variable, or
 
@@ -86,7 +86,7 @@ Gets or sets the expression that is used to defined this variable, or
 
 <a id="Variable.Index"></a>
 
-### *property* Variable.Index *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the index of this variable in its container field.
 
@@ -94,7 +94,7 @@ Gets the index of this variable in its container field.
 
 <a id="Variable.IsInput"></a>
 
-### *property* Variable.IsInput *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.IsInput *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets a value indicating whether this variable is an input for its container field. Otherwise, it is an output variable.
 
@@ -102,7 +102,7 @@ Gets a value indicating whether this variable is an input for its container fiel
 
 <a id="Variable.IsOutput"></a>
 
-### *property* Variable.IsOutput *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.IsOutput *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets a value indicating whether this variable is an output for its container field. Otherwise, it is an input variable.
 
@@ -110,7 +110,7 @@ Gets a value indicating whether this variable is an output for its container fie
 
 <a id="Variable.MinMaxDiscreteValues"></a>
 
-### *property* Variable.MinMaxDiscreteValues *: System.Tuple[Ansys.Core.Units.Quantity, Ansys.Core.Units.Quantity] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.MinMaxDiscreteValues *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.Core.Units.Quantity, Ansys.Core.Units.Quantity] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns a Tuple containing the min and max values from the list of discrete values.
 
@@ -118,7 +118,7 @@ Returns a Tuple containing the min and max values from the list of discrete valu
 
 <a id="Variable.Name"></a>
 
-### *property* Variable.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the variable’s name.
 
@@ -126,7 +126,7 @@ Gets the variable’s name.
 
 <a id="Variable.QuantityName"></a>
 
-### *property* Variable.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.QuantityName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the name of the quantity represented by this variable.
 
@@ -142,7 +142,7 @@ Gets the domain of validity for variable’s value.
 
 <a id="Variable.Unit"></a>
 
-### *property* Variable.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Variable.Unit *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the symbol of the unit used to express this variable’s values.
 
@@ -154,7 +154,7 @@ Gets the symbol of the unit used to express this variable’s values.
 
 <a id="Variable.GetDiscreteValue"></a>
 
-### Variable.GetDiscreteValue(index: System.Int32)
+### Variable.GetDiscreteValue(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Changes a value at a given position in the tabular definition of the variable.
 
@@ -162,7 +162,7 @@ Changes a value at a given position in the tabular definition of the variable.
 
 <a id="Variable.SetDiscreteValue"></a>
 
-### Variable.SetDiscreteValue(index: System.Int32, value: Ansys.Core.Units.Quantity)
+### Variable.SetDiscreteValue(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Changes a value at a given position in the tabular definition of the variable.
 

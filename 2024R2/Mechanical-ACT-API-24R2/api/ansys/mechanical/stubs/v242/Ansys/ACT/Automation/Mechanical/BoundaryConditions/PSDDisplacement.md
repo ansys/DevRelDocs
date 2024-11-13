@@ -57,7 +57,7 @@ Defines a PSDDisplacement.
 
 <a id="PSDDisplacement.BoundaryCondition"></a>
 
-### *property* PSDDisplacement.BoundaryCondition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDDisplacement.BoundaryCondition *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -65,7 +65,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="PSDDisplacement.Children"></a>
 
-### *property* PSDDisplacement.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDDisplacement.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -73,7 +73,7 @@ Gets the list of children.
 
 <a id="PSDDisplacement.Comments"></a>
 
-### *property* PSDDisplacement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDDisplacement.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -97,7 +97,7 @@ Gets or sets the Direction.
 
 <a id="PSDDisplacement.Figures"></a>
 
-### *property* PSDDisplacement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDDisplacement.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -105,7 +105,7 @@ Gets the list of associated figures.
 
 <a id="PSDDisplacement.Images"></a>
 
-### *property* PSDDisplacement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDDisplacement.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -129,7 +129,7 @@ Gets or sets the LoadData.
 
 <a id="PSDDisplacement.Properties"></a>
 
-### *property* PSDDisplacement.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDDisplacement.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -137,7 +137,7 @@ Gets the list of properties for this object.
 
 <a id="PSDDisplacement.Suppressed"></a>
 
-### *property* PSDDisplacement.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDDisplacement.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -145,7 +145,7 @@ Gets or sets the Suppressed.
 
 <a id="PSDDisplacement.VisibleProperties"></a>
 
-### *property* PSDDisplacement.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDDisplacement.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -181,7 +181,7 @@ Creates a new child Figure.
 
 <a id="PSDDisplacement.AddImage"></a>
 
-### PSDDisplacement.AddImage(filePath: System.String)
+### PSDDisplacement.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -201,7 +201,7 @@ Copies all visible properties from this object to another.
 
 <a id="PSDDisplacement.CreateParameter"></a>
 
-### PSDDisplacement.CreateParameter(propName: System.String)
+### PSDDisplacement.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -225,7 +225,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PSDDisplacement.GetChildren"></a>
 
-### PSDDisplacement.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PSDDisplacement.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -233,7 +233,7 @@ Gets the list of children, filtered by type.
 
 <a id="PSDDisplacement.GetParameter"></a>
 
-### PSDDisplacement.GetParameter(propName: System.String)
+### PSDDisplacement.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -257,7 +257,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PSDDisplacement.PropertyByAPIName"></a>
 
-### PSDDisplacement.PropertyByAPIName(name: System.String)
+### PSDDisplacement.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -268,7 +268,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PSDDisplacement.PropertyByName"></a>
 
-### PSDDisplacement.PropertyByName(name: System.String)
+### PSDDisplacement.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -276,7 +276,7 @@ Get a property by its unique name.
 
 <a id="PSDDisplacement.RemoveParameter"></a>
 
-### PSDDisplacement.RemoveParameter(propName: System.String)
+### PSDDisplacement.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

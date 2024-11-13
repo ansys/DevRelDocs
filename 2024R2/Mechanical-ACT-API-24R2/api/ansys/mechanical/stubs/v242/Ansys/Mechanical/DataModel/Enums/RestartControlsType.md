@@ -17,7 +17,7 @@ Specifies the RestartControlsType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`Manual`](#RestartControlsType.Manual) |
 | [`Off`](#RestartControlsType.Off) |
 | [`ProgramControlled`](#RestartControlsType.ProgramControlled) |

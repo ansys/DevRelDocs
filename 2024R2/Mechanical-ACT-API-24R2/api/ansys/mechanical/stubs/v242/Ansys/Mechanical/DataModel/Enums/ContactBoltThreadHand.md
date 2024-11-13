@@ -17,7 +17,7 @@ Specifies the ContactBoltThreadHand.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------- |
 | [`LeftHand`](#ContactBoltThreadHand.LeftHand) |
 | [`RightHand`](#ContactBoltThreadHand.RightHand) |
 

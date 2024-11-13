@@ -17,7 +17,7 @@ Specifies the EigenSolverType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- |
 | [`BlockLanczos`](#EigenSolverType.BlockLanczos) |
 | [`Damped`](#EigenSolverType.Damped) |
 | [`Lanczos`](#EigenSolverType.Lanczos) |

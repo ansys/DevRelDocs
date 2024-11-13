@@ -17,7 +17,7 @@ Defines a Washer.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Washer.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Washer.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Washer.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -39,30 +39,30 @@ Defines a Washer.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`Children`](#Washer.Children)                                             | Gets the list of children.                                    |
-| [`Comments`](#Washer.Comments)                                             | Gets the list of associated comments.                         |
-| [`DataModelObjectCategory`](#Washer.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
-| [`FactorOfDiameter`](#Washer.FactorOfDiameter)                             | FactorOfDiameter property.                                    |
-| [`Figures`](#Washer.Figures)                                               | Gets the list of associated figures.                          |
-| [`GrowthRate`](#Washer.GrowthRate)                                         | GrowthRate property.                                          |
-| [`Images`](#Washer.Images)                                                 | Gets the list of associated images.                           |
-| [`InternalObject`](#Washer.InternalObject)                                 | Gets the internal object. For advanced usage only.            |
-| [`LayerTransitionType`](#Washer.LayerTransitionType)                                                                                                    | LayerTransitionType property.                                 |
-| [`Location`](#Washer.Location)                                             | Gets or sets the Location.                                    |
-| [`MinimumNumberOfWasherDivisions`](#Washer.MinimumNumberOfWasherDivisions) | MinimumNumberOfWasherDivisions property.                      |
-| [`NamedSelection`](#Washer.NamedSelection)                                 | Gets or sets the NamedSelection.                              |
-| [`NumberOfWasherDivisions`](#Washer.NumberOfWasherDivisions)               | NumberOfWasherDivisions property.                             |
-| [`NumberOfWasherLayers`](#Washer.NumberOfWasherLayers)                     | NumberOfWasherLayers property.                                |
-| [`Properties`](#Washer.Properties)                                         | Gets the list of properties for this object.                  |
-| [`ScopingMethod`](#Washer.ScopingMethod)                                   | Gets or sets the ScopingMethod.                               |
-| [`Suppressed`](#Washer.Suppressed)                                         | Gets or sets the Suppressed.                                  |
-| [`VisibleProperties`](#Washer.VisibleProperties)                           | Gets the list of properties that are visible for this object. |
-| [`WasherAutoDefeature`](#Washer.WasherAutoDefeature)                                                                                                    | WasherAutoDefeature property.                                 |
-| [`WasherDefeatureProximityTolerance`](#Washer.WasherDefeatureProximityTolerance)                                                                        | WasherDefeatureProximityTolerance property.                   |
-| [`WasherLayerHeight`](#Washer.WasherLayerHeight)                           | WasherLayerHeight property.                                   |
-| [`WasherMethod`](#Washer.WasherMethod)                                     | WasherMethod property.                                        |
-| [`WasherType`](#Washer.WasherType)                                         | WasherType property.                                          |
+|----------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#Washer.Children)                                                   | Gets the list of children.                                    |
+| [`Comments`](#Washer.Comments)                                                   | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#Washer.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                  |
+| [`FactorOfDiameter`](#Washer.FactorOfDiameter)                                   | FactorOfDiameter property.                                    |
+| [`Figures`](#Washer.Figures)                                                     | Gets the list of associated figures.                          |
+| [`GrowthRate`](#Washer.GrowthRate)                                               | GrowthRate property.                                          |
+| [`Images`](#Washer.Images)                                                       | Gets the list of associated images.                           |
+| [`InternalObject`](#Washer.InternalObject)                                       | Gets the internal object. For advanced usage only.            |
+| [`LayerTransitionType`](#Washer.LayerTransitionType)                             | LayerTransitionType property.                                 |
+| [`Location`](#Washer.Location)                                                   | Gets or sets the Location.                                    |
+| [`MinimumNumberOfWasherDivisions`](#Washer.MinimumNumberOfWasherDivisions)       | MinimumNumberOfWasherDivisions property.                      |
+| [`NamedSelection`](#Washer.NamedSelection)                                       | Gets or sets the NamedSelection.                              |
+| [`NumberOfWasherDivisions`](#Washer.NumberOfWasherDivisions)                     | NumberOfWasherDivisions property.                             |
+| [`NumberOfWasherLayers`](#Washer.NumberOfWasherLayers)                           | NumberOfWasherLayers property.                                |
+| [`Properties`](#Washer.Properties)                                               | Gets the list of properties for this object.                  |
+| [`ScopingMethod`](#Washer.ScopingMethod)                                         | Gets or sets the ScopingMethod.                               |
+| [`Suppressed`](#Washer.Suppressed)                                               | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#Washer.VisibleProperties)                                 | Gets the list of properties that are visible for this object. |
+| [`WasherAutoDefeature`](#Washer.WasherAutoDefeature)                             | WasherAutoDefeature property.                                 |
+| [`WasherDefeatureProximityTolerance`](#Washer.WasherDefeatureProximityTolerance) | WasherDefeatureProximityTolerance property.                   |
+| [`WasherLayerHeight`](#Washer.WasherLayerHeight)                                 | WasherLayerHeight property.                                   |
+| [`WasherMethod`](#Washer.WasherMethod)                                           | WasherMethod property.                                        |
+| [`WasherType`](#Washer.WasherType)                                               | WasherType property.                                          |
 
 <a id="property-detail"></a>
 
@@ -70,7 +70,7 @@ Defines a Washer.
 
 <a id="Washer.Children"></a>
 
-### *property* Washer.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -78,7 +78,7 @@ Gets the list of children.
 
 <a id="Washer.Comments"></a>
 
-### *property* Washer.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -94,7 +94,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Washer.FactorOfDiameter"></a>
 
-### *property* Washer.FactorOfDiameter *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.FactorOfDiameter *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 FactorOfDiameter property.
 
@@ -102,7 +102,7 @@ FactorOfDiameter property.
 
 <a id="Washer.Figures"></a>
 
-### *property* Washer.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -110,7 +110,7 @@ Gets the list of associated figures.
 
 <a id="Washer.GrowthRate"></a>
 
-### *property* Washer.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 GrowthRate property.
 
@@ -118,7 +118,7 @@ GrowthRate property.
 
 <a id="Washer.Images"></a>
 
-### *property* Washer.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -150,7 +150,7 @@ Gets or sets the Location.
 
 <a id="Washer.MinimumNumberOfWasherDivisions"></a>
 
-### *property* Washer.MinimumNumberOfWasherDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.MinimumNumberOfWasherDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MinimumNumberOfWasherDivisions property.
 
@@ -166,7 +166,7 @@ Gets or sets the NamedSelection.
 
 <a id="Washer.NumberOfWasherDivisions"></a>
 
-### *property* Washer.NumberOfWasherDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.NumberOfWasherDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfWasherDivisions property.
 
@@ -174,7 +174,7 @@ NumberOfWasherDivisions property.
 
 <a id="Washer.NumberOfWasherLayers"></a>
 
-### *property* Washer.NumberOfWasherLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.NumberOfWasherLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfWasherLayers property.
 
@@ -182,7 +182,7 @@ NumberOfWasherLayers property.
 
 <a id="Washer.Properties"></a>
 
-### *property* Washer.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -198,7 +198,7 @@ Gets or sets the ScopingMethod.
 
 <a id="Washer.Suppressed"></a>
 
-### *property* Washer.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -206,7 +206,7 @@ Gets or sets the Suppressed.
 
 <a id="Washer.VisibleProperties"></a>
 
-### *property* Washer.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -214,7 +214,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Washer.WasherAutoDefeature"></a>
 
-### *property* Washer.WasherAutoDefeature *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Washer.WasherAutoDefeature *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 WasherAutoDefeature property.
 
@@ -282,7 +282,7 @@ Creates a new child Figure.
 
 <a id="Washer.AddImage"></a>
 
-### Washer.AddImage(filePath: System.String)
+### Washer.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -302,7 +302,7 @@ Copies all visible properties from this object to another.
 
 <a id="Washer.CreateParameter"></a>
 
-### Washer.CreateParameter(propName: System.String)
+### Washer.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -334,7 +334,7 @@ Generate the Mesh.
 
 <a id="Washer.GetChildren"></a>
 
-### Washer.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Washer.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -342,7 +342,7 @@ Gets the list of children, filtered by type.
 
 <a id="Washer.GetParameter"></a>
 
-### Washer.GetParameter(propName: System.String)
+### Washer.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -366,7 +366,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Washer.PropertyByAPIName"></a>
 
-### Washer.PropertyByAPIName(name: System.String)
+### Washer.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -377,7 +377,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Washer.PropertyByName"></a>
 
-### Washer.PropertyByName(name: System.String)
+### Washer.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -385,7 +385,7 @@ Get a property by its unique name.
 
 <a id="Washer.RemoveParameter"></a>
 
-### Washer.RemoveParameter(propName: System.String)
+### Washer.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

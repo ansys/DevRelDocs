@@ -17,7 +17,7 @@ Represents a NBLOCK command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------|---------------------------|
+|-----------------------------------|---------------------------|
 | [`Index`](#NBlockCommand.Index)   | Gets the command index.   |
 | [`Name`](#NBlockCommand.Name)     | Gets the command name.    |
 | [`Nodes`](#NBlockCommand.Nodes)   | Gets the nodes.           |
@@ -28,7 +28,7 @@ Represents a NBLOCK command.
 
 <a id="NBlockCommand.Index"></a>
 
-### *property* NBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NBlockCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -36,7 +36,7 @@ Gets the command index.
 
 <a id="NBlockCommand.Name"></a>
 
-### *property* NBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NBlockCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -44,7 +44,7 @@ Gets the command name.
 
 <a id="NBlockCommand.Nodes"></a>
 
-### *property* NBlockCommand.Nodes *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode](CommandNode.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NBlockCommand.Nodes *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode](CommandNode.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the nodes.
 

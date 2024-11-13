@@ -19,7 +19,7 @@ Derive from this class to define new enumerations.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- |
 | [`Aggressive`](#TriangleReduction.Aggressive) |
 | [`Conservative`](#TriangleReduction.Conservative) |
 | [`None_`](#TriangleReduction.None_) |

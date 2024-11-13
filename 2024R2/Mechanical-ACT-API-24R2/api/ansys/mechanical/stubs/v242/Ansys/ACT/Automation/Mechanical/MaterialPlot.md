@@ -53,7 +53,7 @@ Defines a MaterialPlot.
 
 <a id="MaterialPlot.Children"></a>
 
-### *property* MaterialPlot.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialPlot.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -85,7 +85,7 @@ Gets or sets the Location.
 
 <a id="MaterialPlot.MaterialProperty"></a>
 
-### *property* MaterialPlot.MaterialProperty *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialPlot.MaterialProperty *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialProperty.
 
@@ -93,7 +93,7 @@ Gets or sets the MaterialProperty.
 
 <a id="MaterialPlot.MaterialPropertyComponent"></a>
 
-### *property* MaterialPlot.MaterialPropertyComponent *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialPlot.MaterialPropertyComponent *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialPropertyComponent.
 
@@ -101,7 +101,7 @@ Gets or sets the MaterialPropertyComponent.
 
 <a id="MaterialPlot.Properties"></a>
 
-### *property* MaterialPlot.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialPlot.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -109,7 +109,7 @@ Gets the list of properties for this object.
 
 <a id="MaterialPlot.Suppressed"></a>
 
-### *property* MaterialPlot.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialPlot.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -117,7 +117,7 @@ Gets or sets the Suppressed.
 
 <a id="MaterialPlot.VisibleProperties"></a>
 
-### *property* MaterialPlot.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialPlot.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -153,7 +153,7 @@ Copies all visible properties from this object to another.
 
 <a id="MaterialPlot.CreateParameter"></a>
 
-### MaterialPlot.CreateParameter(propName: System.String)
+### MaterialPlot.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -185,7 +185,7 @@ Run the Generate action.
 
 <a id="MaterialPlot.GetChildren"></a>
 
-### MaterialPlot.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MaterialPlot.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -193,7 +193,7 @@ Gets the list of children, filtered by type.
 
 <a id="MaterialPlot.GetParameter"></a>
 
-### MaterialPlot.GetParameter(propName: System.String)
+### MaterialPlot.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -217,7 +217,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MaterialPlot.PropertyByAPIName"></a>
 
-### MaterialPlot.PropertyByAPIName(name: System.String)
+### MaterialPlot.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -228,7 +228,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MaterialPlot.PropertyByName"></a>
 
-### MaterialPlot.PropertyByName(name: System.String)
+### MaterialPlot.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -236,7 +236,7 @@ Get a property by its unique name.
 
 <a id="MaterialPlot.RemoveParameter"></a>
 
-### MaterialPlot.RemoveParameter(propName: System.String)
+### MaterialPlot.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

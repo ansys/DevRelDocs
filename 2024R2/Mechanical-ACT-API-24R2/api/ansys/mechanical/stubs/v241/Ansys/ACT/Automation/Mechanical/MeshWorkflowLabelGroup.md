@@ -51,7 +51,7 @@ Object that wraps IDSEngineeringModelLabelGroupAuto.
 
 <a id="MeshWorkflowLabelGroup.Children"></a>
 
-### *property* MeshWorkflowLabelGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowLabelGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -59,7 +59,7 @@ Gets the list of children.
 
 <a id="MeshWorkflowLabelGroup.DataModelObjectCategory"></a>
 
-### *property* MeshWorkflowLabelGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowLabelGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -67,7 +67,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshWorkflowLabelGroup.Figures"></a>
 
-### *property* MeshWorkflowLabelGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowLabelGroup.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -75,7 +75,7 @@ Gets the list of associated figures.
 
 <a id="MeshWorkflowLabelGroup.Images"></a>
 
-### *property* MeshWorkflowLabelGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowLabelGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -91,7 +91,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshWorkflowLabelGroup.Properties"></a>
 
-### *property* MeshWorkflowLabelGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowLabelGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -99,7 +99,7 @@ Gets the list of properties for this object.
 
 <a id="MeshWorkflowLabelGroup.VisibleProperties"></a>
 
-### *property* MeshWorkflowLabelGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowLabelGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -127,7 +127,7 @@ Creates a new child Figure.
 
 <a id="MeshWorkflowLabelGroup.AddImage"></a>
 
-### MeshWorkflowLabelGroup.AddImage(filePath: System.String)
+### MeshWorkflowLabelGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -147,7 +147,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshWorkflowLabelGroup.CreateParameter"></a>
 
-### MeshWorkflowLabelGroup.CreateParameter(propName: System.String)
+### MeshWorkflowLabelGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -171,7 +171,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MeshWorkflowLabelGroup.GetChildren"></a>
 
-### MeshWorkflowLabelGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshWorkflowLabelGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -179,7 +179,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshWorkflowLabelGroup.GetParameter"></a>
 
-### MeshWorkflowLabelGroup.GetParameter(propName: System.String)
+### MeshWorkflowLabelGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -203,7 +203,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshWorkflowLabelGroup.PropertyByAPIName"></a>
 
-### MeshWorkflowLabelGroup.PropertyByAPIName(name: System.String)
+### MeshWorkflowLabelGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -214,7 +214,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshWorkflowLabelGroup.PropertyByName"></a>
 
-### MeshWorkflowLabelGroup.PropertyByName(name: System.String)
+### MeshWorkflowLabelGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -222,7 +222,7 @@ Get a property by its unique name.
 
 <a id="MeshWorkflowLabelGroup.RemoveParameter"></a>
 
-### MeshWorkflowLabelGroup.RemoveParameter(propName: System.String)
+### MeshWorkflowLabelGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

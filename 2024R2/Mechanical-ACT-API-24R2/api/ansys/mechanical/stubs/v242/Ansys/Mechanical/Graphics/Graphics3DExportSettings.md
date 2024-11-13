@@ -17,7 +17,7 @@ Graphics3DExportSettings class.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+|--------------------------------------------------------|-----------------------------------|
 | [`Background`](#Graphics3DExportSettings.Background)   | Specifies the background color.   |
 
 <a id="property-detail"></a>

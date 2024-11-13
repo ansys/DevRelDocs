@@ -17,14 +17,14 @@ The application’s collection of solve configurations.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------|---------------------------------------------------------------|
 | [`Add`](#SolveConfigurations.Add)       | Adds the given SolveConfiguration object to the collection.   |
 | [`Remove`](#SolveConfigurations.Remove) | Removes the given SolveConfiguration from the collection.     |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+|-----------------------------------------|---------------------------------------------------------|
 | [`Count`](#SolveConfigurations.Count)   | The number of solve configurations in the collection.   |
 
 <a id="property-detail"></a>
@@ -33,7 +33,7 @@ The application’s collection of solve configurations.
 
 <a id="SolveConfigurations.Count"></a>
 
-### *property* SolveConfigurations.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveConfigurations.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of solve configurations in the collection.
 

@@ -17,7 +17,7 @@ Specifies the LoadAppliedBy.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------- |
 | [`Direct`](#LoadAppliedBy.Direct) |
 | [`SurfaceEffect`](#LoadAppliedBy.SurfaceEffect) |
 

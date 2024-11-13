@@ -17,7 +17,7 @@ Specifies the MeshMethodAlgorithm.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`AutomaticSweep`](#MeshMethodAlgorithm.AutomaticSweep) |
 | [`Axisymmetric`](#MeshMethodAlgorithm.Axisymmetric) |
 | [`PatchConforming`](#MeshMethodAlgorithm.PatchConforming) |

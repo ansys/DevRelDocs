@@ -85,7 +85,7 @@ Defines a ThroughCrack.
 
 <a id="ThroughCrack.BottomFaceNodes"></a>
 
-### *property* ThroughCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.BottomFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomFaceNodes.
 
@@ -93,7 +93,7 @@ Gets or sets the BottomFaceNodes.
 
 <a id="ThroughCrack.Children"></a>
 
-### *property* ThroughCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -101,7 +101,7 @@ Gets the list of children.
 
 <a id="ThroughCrack.CircumferentialDivisions"></a>
 
-### *property* ThroughCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.CircumferentialDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CircumferentialDivisions.
 
@@ -109,7 +109,7 @@ Gets or sets the CircumferentialDivisions.
 
 <a id="ThroughCrack.Comments"></a>
 
-### *property* ThroughCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -117,7 +117,7 @@ Gets the list of associated comments.
 
 <a id="ThroughCrack.Contact1Nodes"></a>
 
-### *property* ThroughCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.Contact1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Contact1Nodes.
 
@@ -125,7 +125,7 @@ Gets or sets the Contact1Nodes.
 
 <a id="ThroughCrack.ContactPairsNodes"></a>
 
-### *property* ThroughCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.ContactPairsNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactPairsNodes.
 
@@ -141,7 +141,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="ThroughCrack.CrackFacesNodes"></a>
 
-### *property* ThroughCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.CrackFacesNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFacesNodes.
 
@@ -149,7 +149,7 @@ Gets or sets the CrackFacesNodes.
 
 <a id="ThroughCrack.CrackFrontDivisions"></a>
 
-### *property* ThroughCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.CrackFrontDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontDivisions.
 
@@ -157,7 +157,7 @@ Gets or sets the CrackFrontDivisions.
 
 <a id="ThroughCrack.CrackFrontNodes"></a>
 
-### *property* ThroughCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.CrackFrontNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNodes.
 
@@ -165,7 +165,7 @@ Gets or sets the CrackFrontNodes.
 
 <a id="ThroughCrack.CrackID"></a>
 
-### *property* ThroughCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.CrackID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackID.
 
@@ -173,7 +173,7 @@ Gets the CrackID.
 
 <a id="ThroughCrack.CrackMeshMethod"></a>
 
-### *property* ThroughCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackMeshMethod.
 
@@ -181,7 +181,7 @@ Gets or sets the CrackMeshMethod.
 
 <a id="ThroughCrack.CrackShape"></a>
 
-### *property* ThroughCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackShape.
 
@@ -189,7 +189,7 @@ Gets the CrackShape.
 
 <a id="ThroughCrack.CrackSourceType"></a>
 
-### *property* ThroughCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackSourceType.
 
@@ -197,7 +197,7 @@ Gets the CrackSourceType.
 
 <a id="ThroughCrack.DataModelObjectCategory"></a>
 
-### *property* ThroughCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -221,7 +221,7 @@ Gets or sets the EndWidth.
 
 <a id="ThroughCrack.Figures"></a>
 
-### *property* ThroughCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -229,7 +229,7 @@ Gets the list of associated figures.
 
 <a id="ThroughCrack.FractureAffectedZone"></a>
 
-### *property* ThroughCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FractureAffectedZone.
 
@@ -253,7 +253,7 @@ Gets or sets the FrontElementSize.
 
 <a id="ThroughCrack.GrowthRate"></a>
 
-### *property* ThroughCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -261,7 +261,7 @@ Gets or sets the GrowthRate.
 
 <a id="ThroughCrack.Images"></a>
 
-### *property* ThroughCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -293,7 +293,7 @@ Gets or sets the Location.
 
 <a id="ThroughCrack.MeshContours"></a>
 
-### *property* ThroughCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.MeshContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshContours.
 
@@ -309,7 +309,7 @@ Gets or sets the MidWidth.
 
 <a id="ThroughCrack.Properties"></a>
 
-### *property* ThroughCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -317,7 +317,7 @@ Gets the list of properties for this object.
 
 <a id="ThroughCrack.ReadOnly"></a>
 
-### *property* ThroughCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -325,7 +325,7 @@ Gets or sets the ReadOnly.
 
 <a id="ThroughCrack.SolutionContours"></a>
 
-### *property* ThroughCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.SolutionContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionContours.
 
@@ -341,7 +341,7 @@ Gets or sets the StartWidth.
 
 <a id="ThroughCrack.Suppressed"></a>
 
-### *property* ThroughCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -349,7 +349,7 @@ Gets or sets the Suppressed.
 
 <a id="ThroughCrack.Target1Nodes"></a>
 
-### *property* ThroughCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.Target1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Target1Nodes.
 
@@ -357,7 +357,7 @@ Gets or sets the Target1Nodes.
 
 <a id="ThroughCrack.TopFaceNodes"></a>
 
-### *property* ThroughCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.TopFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopFaceNodes.
 
@@ -365,7 +365,7 @@ Gets or sets the TopFaceNodes.
 
 <a id="ThroughCrack.VisibleProperties"></a>
 
-### *property* ThroughCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -373,7 +373,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ThroughCrack.XScaleFactor"></a>
 
-### *property* ThroughCrack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.XScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XScaleFactor.
 
@@ -381,7 +381,7 @@ Gets or sets the XScaleFactor.
 
 <a id="ThroughCrack.YScaleFactor"></a>
 
-### *property* ThroughCrack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.YScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YScaleFactor.
 
@@ -389,7 +389,7 @@ Gets or sets the YScaleFactor.
 
 <a id="ThroughCrack.ZScaleFactor"></a>
 
-### *property* ThroughCrack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThroughCrack.ZScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZScaleFactor.
 
@@ -433,7 +433,7 @@ Creates a new child Figure.
 
 <a id="ThroughCrack.AddImage"></a>
 
-### ThroughCrack.AddImage(filePath: System.String)
+### ThroughCrack.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -453,7 +453,7 @@ Copies all visible properties from this object to another.
 
 <a id="ThroughCrack.CreateParameter"></a>
 
-### ThroughCrack.CreateParameter(propName: System.String)
+### ThroughCrack.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -477,7 +477,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ThroughCrack.GetChildren"></a>
 
-### ThroughCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ThroughCrack.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -485,7 +485,7 @@ Gets the list of children, filtered by type.
 
 <a id="ThroughCrack.GetParameter"></a>
 
-### ThroughCrack.GetParameter(propName: System.String)
+### ThroughCrack.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -509,7 +509,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ThroughCrack.PropertyByAPIName"></a>
 
-### ThroughCrack.PropertyByAPIName(name: System.String)
+### ThroughCrack.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -520,7 +520,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ThroughCrack.PropertyByName"></a>
 
-### ThroughCrack.PropertyByName(name: System.String)
+### ThroughCrack.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -528,7 +528,7 @@ Get a property by its unique name.
 
 <a id="ThroughCrack.RemoveParameter"></a>
 
-### ThroughCrack.RemoveParameter(propName: System.String)
+### ThroughCrack.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

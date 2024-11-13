@@ -17,7 +17,7 @@ Object that wraps IDSEngineeringModelGeometryOperationAuto.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`Activate`](#MeshWorkflowStep.Activate)                               | Activate the current object.                                                                                                                                                                                      |
 | [`AddControl`](#MeshWorkflowStep.AddControl)                           | Adds a MeshWorkflowControl node as child node of the “Step” tree node. This control node can be created under any step node. This node is created to set properties that are required for executing an operation. |
 | [`AddFigure`](#MeshWorkflowStep.AddFigure)                             | Creates a new child Figure.                                                                                                                                                                                       |
@@ -38,7 +38,7 @@ Object that wraps IDSEngineeringModelGeometryOperationAuto.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#MeshWorkflowStep.Children)                               | Gets the list of children.                                    |
 | [`DataModelObjectCategory`](#MeshWorkflowStep.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#MeshWorkflowStep.Figures)                                 | Gets the list of associated figures.                          |
@@ -54,7 +54,7 @@ Object that wraps IDSEngineeringModelGeometryOperationAuto.
 
 <a id="MeshWorkflowStep.Children"></a>
 
-### *property* MeshWorkflowStep.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStep.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshWorkflowStep.Figures"></a>
 
-### *property* MeshWorkflowStep.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStep.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -78,7 +78,7 @@ Gets the list of associated figures.
 
 <a id="MeshWorkflowStep.Images"></a>
 
-### *property* MeshWorkflowStep.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStep.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -102,7 +102,7 @@ Returns the type of the operation. .
 
 <a id="MeshWorkflowStep.Properties"></a>
 
-### *property* MeshWorkflowStep.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStep.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -110,7 +110,7 @@ Gets the list of properties for this object.
 
 <a id="MeshWorkflowStep.VisibleProperties"></a>
 
-### *property* MeshWorkflowStep.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStep.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -146,7 +146,7 @@ Creates a new child Figure.
 
 <a id="MeshWorkflowStep.AddImage"></a>
 
-### MeshWorkflowStep.AddImage(filePath: System.String)
+### MeshWorkflowStep.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -174,7 +174,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshWorkflowStep.CreateParameter"></a>
 
-### MeshWorkflowStep.CreateParameter(propName: System.String)
+### MeshWorkflowStep.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -198,7 +198,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MeshWorkflowStep.GetChildren"></a>
 
-### MeshWorkflowStep.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshWorkflowStep.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -206,7 +206,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshWorkflowStep.GetParameter"></a>
 
-### MeshWorkflowStep.GetParameter(propName: System.String)
+### MeshWorkflowStep.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -230,7 +230,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshWorkflowStep.PropertyByAPIName"></a>
 
-### MeshWorkflowStep.PropertyByAPIName(name: System.String)
+### MeshWorkflowStep.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -241,7 +241,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshWorkflowStep.PropertyByName"></a>
 
-### MeshWorkflowStep.PropertyByName(name: System.String)
+### MeshWorkflowStep.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -249,7 +249,7 @@ Get a property by its unique name.
 
 <a id="MeshWorkflowStep.RemoveParameter"></a>
 
-### MeshWorkflowStep.RemoveParameter(propName: System.String)
+### MeshWorkflowStep.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

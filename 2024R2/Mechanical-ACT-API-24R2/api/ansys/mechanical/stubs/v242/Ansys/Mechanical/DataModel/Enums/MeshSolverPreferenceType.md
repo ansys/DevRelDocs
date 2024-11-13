@@ -17,7 +17,7 @@ Specifies the Mesh Solver Preference Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`ANSYSRigidDynamics`](#MeshSolverPreferenceType.ANSYSRigidDynamics) |
 | [`CFX`](#MeshSolverPreferenceType.CFX) |
 | [`Fluent`](#MeshSolverPreferenceType.Fluent) |

@@ -17,7 +17,7 @@ Specifies the PullOutDirectionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`AlongAxis`](#PullOutDirectionType.AlongAxis) |
 | [`BothDirections`](#PullOutDirectionType.BothDirections) |
 | [`OppositeToAxis`](#PullOutDirectionType.OppositeToAxis) |

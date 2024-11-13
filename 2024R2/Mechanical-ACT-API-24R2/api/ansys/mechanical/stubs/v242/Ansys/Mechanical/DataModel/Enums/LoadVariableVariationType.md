@@ -17,7 +17,7 @@ Specifies the LoadVariableVariationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------------------------- |
 | [`Acceleration`](#LoadVariableVariationType.Acceleration) |
 | [`AxisComponentX`](#LoadVariableVariationType.AxisComponentX) |
 | [`AxisComponentY`](#LoadVariableVariationType.AxisComponentY) |

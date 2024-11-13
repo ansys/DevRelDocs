@@ -17,7 +17,7 @@ Specifies the MeshRestartRetainFilesType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`No`](#MeshRestartRetainFilesType.No) |
 | [`Yes`](#MeshRestartRetainFilesType.Yes) |
 

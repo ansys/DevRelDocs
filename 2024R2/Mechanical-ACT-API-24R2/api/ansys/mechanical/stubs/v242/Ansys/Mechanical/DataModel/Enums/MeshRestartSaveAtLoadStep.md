@@ -17,7 +17,7 @@ Specifies the MeshRestartSaveAtLoadStep.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------- |
 | [`All`](#MeshRestartSaveAtLoadStep.All) |
 | [`Last`](#MeshRestartSaveAtLoadStep.Last) |
 | [`None_`](#MeshRestartSaveAtLoadStep.None_) |

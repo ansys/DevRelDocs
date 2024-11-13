@@ -17,7 +17,7 @@ Specifies the ExternalLoadDisplacementType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------ |
 | [`BoundaryPrescribedFinalGeometry`](#ExternalLoadDisplacementType.BoundaryPrescribedFinalGeometry) |
 | [`InitialFoamReferenceGeometry`](#ExternalLoadDisplacementType.InitialFoamReferenceGeometry) |
 

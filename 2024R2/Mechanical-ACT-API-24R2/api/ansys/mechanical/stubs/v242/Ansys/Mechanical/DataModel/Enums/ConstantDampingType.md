@@ -17,7 +17,7 @@ Specifies the ConstantDampingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`Manual`](#ConstantDampingType.Manual) |
 | [`ProgramControlled`](#ConstantDampingType.ProgramControlled) |
 

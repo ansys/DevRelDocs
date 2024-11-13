@@ -17,7 +17,7 @@ Specifies the CondensedPartReductionMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------ |
 | [`CMS`](#CondensedPartReductionMethod.CMS) |
 | [`Guyan`](#CondensedPartReductionMethod.Guyan) |
 

@@ -17,7 +17,7 @@ Specifies the LocationDefinitionMethod.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------ |
 | [`Beam`](#LocationDefinitionMethod.Beam) |
 | [`Bearing`](#LocationDefinitionMethod.Bearing) |
 | [`BoundaryCondition`](#LocationDefinitionMethod.BoundaryCondition) |

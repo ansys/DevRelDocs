@@ -60,7 +60,7 @@ Defines a FatigueSensitivity.
 
 <a id="FatigueSensitivity.ChartViewingStyle"></a>
 
-### *property* FatigueSensitivity.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
@@ -68,7 +68,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="FatigueSensitivity.Children"></a>
 
-### *property* FatigueSensitivity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -76,7 +76,7 @@ Gets the list of children.
 
 <a id="FatigueSensitivity.Comments"></a>
 
-### *property* FatigueSensitivity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -84,7 +84,7 @@ Gets the list of associated comments.
 
 <a id="FatigueSensitivity.DataModelObjectCategory"></a>
 
-### *property* FatigueSensitivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -92,7 +92,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FatigueSensitivity.DesignLife"></a>
 
-### *property* FatigueSensitivity.DesignLife *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.DesignLife *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DesignLife.
 
@@ -100,7 +100,7 @@ Gets or sets the DesignLife.
 
 <a id="FatigueSensitivity.Images"></a>
 
-### *property* FatigueSensitivity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -124,7 +124,7 @@ Gets or sets the Location.
 
 <a id="FatigueSensitivity.LowerVariation"></a>
 
-### *property* FatigueSensitivity.LowerVariation *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.LowerVariation *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LowerVariation.
 
@@ -132,7 +132,7 @@ Gets or sets the LowerVariation.
 
 <a id="FatigueSensitivity.NumberOfFillPoints"></a>
 
-### *property* FatigueSensitivity.NumberOfFillPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.NumberOfFillPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfFillPoints.
 
@@ -140,7 +140,7 @@ Gets or sets the NumberOfFillPoints.
 
 <a id="FatigueSensitivity.Properties"></a>
 
-### *property* FatigueSensitivity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -148,7 +148,7 @@ Gets the list of properties for this object.
 
 <a id="FatigueSensitivity.Sensitivity"></a>
 
-### *property* FatigueSensitivity.Sensitivity *: [Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueSensitivityType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.Sensitivity *: [Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType](../../../../../Mechanical/DataModel/Enums/FatigueSensitivityType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Sensitivity.
 
@@ -156,7 +156,7 @@ Gets or sets the Sensitivity.
 
 <a id="FatigueSensitivity.Suppressed"></a>
 
-### *property* FatigueSensitivity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -164,7 +164,7 @@ Gets or sets the Suppressed.
 
 <a id="FatigueSensitivity.UpperVariation"></a>
 
-### *property* FatigueSensitivity.UpperVariation *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.UpperVariation *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UpperVariation.
 
@@ -172,7 +172,7 @@ Gets or sets the UpperVariation.
 
 <a id="FatigueSensitivity.VisibleProperties"></a>
 
-### *property* FatigueSensitivity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -200,7 +200,7 @@ Creates a new child Comment.
 
 <a id="FatigueSensitivity.AddImage"></a>
 
-### FatigueSensitivity.AddImage(filePath: System.String)
+### FatigueSensitivity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -220,7 +220,7 @@ Copies all visible properties from this object to another.
 
 <a id="FatigueSensitivity.CreateParameter"></a>
 
-### FatigueSensitivity.CreateParameter(propName: System.String)
+### FatigueSensitivity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -244,7 +244,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="FatigueSensitivity.GetChildren"></a>
 
-### FatigueSensitivity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FatigueSensitivity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -252,7 +252,7 @@ Gets the list of children, filtered by type.
 
 <a id="FatigueSensitivity.GetParameter"></a>
 
-### FatigueSensitivity.GetParameter(propName: System.String)
+### FatigueSensitivity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -276,7 +276,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FatigueSensitivity.PropertyByAPIName"></a>
 
-### FatigueSensitivity.PropertyByAPIName(name: System.String)
+### FatigueSensitivity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -287,7 +287,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FatigueSensitivity.PropertyByName"></a>
 
-### FatigueSensitivity.PropertyByName(name: System.String)
+### FatigueSensitivity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -295,7 +295,7 @@ Get a property by its unique name.
 
 <a id="FatigueSensitivity.RemoveParameter"></a>
 
-### FatigueSensitivity.RemoveParameter(propName: System.String)
+### FatigueSensitivity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

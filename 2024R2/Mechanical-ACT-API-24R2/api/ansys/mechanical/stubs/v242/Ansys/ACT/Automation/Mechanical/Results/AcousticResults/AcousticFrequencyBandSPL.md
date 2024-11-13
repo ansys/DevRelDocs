@@ -17,7 +17,7 @@ Defines a AcousticFrequencyBandSPL.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticFrequencyBandSPL.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#AcousticFrequencyBandSPL.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#AcousticFrequencyBandSPL.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a AcousticFrequencyBandSPL.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#AcousticFrequencyBandSPL.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#AcousticFrequencyBandSPL.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#AcousticFrequencyBandSPL.By)                                                               | Gets or sets the By.                                                   |
@@ -104,7 +104,7 @@ Defines a AcousticFrequencyBandSPL.
 | [`Substep`](#AcousticFrequencyBandSPL.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#AcousticFrequencyBandSPL.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#AcousticFrequencyBandSPL.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#AcousticFrequencyBandSPL.SurfaceCoating)                                                                                                                                                    | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#AcousticFrequencyBandSPL.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#AcousticFrequencyBandSPL.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#AcousticFrequencyBandSPL.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#AcousticFrequencyBandSPL.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -112,7 +112,7 @@ Defines a AcousticFrequencyBandSPL.
 | [`TimeForMinimumOfMaximumValues`](#AcousticFrequencyBandSPL.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#AcousticFrequencyBandSPL.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#AcousticFrequencyBandSPL.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#AcousticFrequencyBandSPL.WaterfallShowTextOnMosaic)                                                                                                                              | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#AcousticFrequencyBandSPL.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -120,7 +120,7 @@ Defines a AcousticFrequencyBandSPL.
 
 <a id="AcousticFrequencyBandSPL.Amplitude"></a>
 
-### *property* AcousticFrequencyBandSPL.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -144,7 +144,7 @@ Gets or sets the By.
 
 <a id="AcousticFrequencyBandSPL.CalculateTimeHistory"></a>
 
-### *property* AcousticFrequencyBandSPL.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -152,7 +152,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="AcousticFrequencyBandSPL.Children"></a>
 
-### *property* AcousticFrequencyBandSPL.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -160,7 +160,7 @@ Gets the list of children.
 
 <a id="AcousticFrequencyBandSPL.CombinationNumber"></a>
 
-### *property* AcousticFrequencyBandSPL.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -168,7 +168,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="AcousticFrequencyBandSPL.Comments"></a>
 
-### *property* AcousticFrequencyBandSPL.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -176,7 +176,7 @@ Gets the list of associated comments.
 
 <a id="AcousticFrequencyBandSPL.CoordinateSystem"></a>
 
-### *property* AcousticFrequencyBandSPL.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -186,7 +186,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="AcousticFrequencyBandSPL.CrackFrontNumber"></a>
 
-### *property* AcousticFrequencyBandSPL.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -234,7 +234,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="AcousticFrequencyBandSPL.Figures"></a>
 
-### *property* AcousticFrequencyBandSPL.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -250,7 +250,7 @@ Gets or sets the Frequency.
 
 <a id="AcousticFrequencyBandSPL.GlobalIDs"></a>
 
-### *property* AcousticFrequencyBandSPL.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -266,7 +266,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticFrequencyBandSPL.Identifier"></a>
 
-### *property* AcousticFrequencyBandSPL.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -274,7 +274,7 @@ Gets or sets the Identifier.
 
 <a id="AcousticFrequencyBandSPL.Images"></a>
 
-### *property* AcousticFrequencyBandSPL.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -290,7 +290,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticFrequencyBandSPL.IsSolved"></a>
 
-### *property* AcousticFrequencyBandSPL.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -306,7 +306,7 @@ Gets or sets the ItemType.
 
 <a id="AcousticFrequencyBandSPL.IterationNumber"></a>
 
-### *property* AcousticFrequencyBandSPL.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -314,7 +314,7 @@ Gets the IterationNumber.
 
 <a id="AcousticFrequencyBandSPL.LoadStep"></a>
 
-### *property* AcousticFrequencyBandSPL.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -322,7 +322,7 @@ Gets the LoadStep.
 
 <a id="AcousticFrequencyBandSPL.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticFrequencyBandSPL.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -330,7 +330,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="AcousticFrequencyBandSPL.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticFrequencyBandSPL.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -338,7 +338,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="AcousticFrequencyBandSPL.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* AcousticFrequencyBandSPL.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -346,7 +346,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="AcousticFrequencyBandSPL.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* AcousticFrequencyBandSPL.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -354,7 +354,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="AcousticFrequencyBandSPL.LoadStepNumber"></a>
 
-### *property* AcousticFrequencyBandSPL.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -370,7 +370,7 @@ Gets or sets the Location.
 
 <a id="AcousticFrequencyBandSPL.LogarithmicDecrement"></a>
 
-### *property* AcousticFrequencyBandSPL.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -386,7 +386,7 @@ Gets the Maximum.
 
 <a id="AcousticFrequencyBandSPL.MaximumOccursOn"></a>
 
-### *property* AcousticFrequencyBandSPL.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -418,7 +418,7 @@ Gets the Minimum.
 
 <a id="AcousticFrequencyBandSPL.MinimumOccursOn"></a>
 
-### *property* AcousticFrequencyBandSPL.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -442,7 +442,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="AcousticFrequencyBandSPL.ModalDampingRatio"></a>
 
-### *property* AcousticFrequencyBandSPL.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -450,7 +450,7 @@ Gets the ModalDampingRatio.
 
 <a id="AcousticFrequencyBandSPL.Mode"></a>
 
-### *property* AcousticFrequencyBandSPL.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -458,7 +458,7 @@ Gets or sets the Mode.
 
 <a id="AcousticFrequencyBandSPL.NamedSelections"></a>
 
-### *property* AcousticFrequencyBandSPL.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -482,7 +482,7 @@ Gets the result table.
 
 <a id="AcousticFrequencyBandSPL.Properties"></a>
 
-### *property* AcousticFrequencyBandSPL.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -506,7 +506,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AcousticFrequencyBandSPL.SetNumber"></a>
 
-### *property* AcousticFrequencyBandSPL.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -522,7 +522,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="AcousticFrequencyBandSPL.SolverComponentIDs"></a>
 
-### *property* AcousticFrequencyBandSPL.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -538,7 +538,7 @@ Gets the Stability.
 
 <a id="AcousticFrequencyBandSPL.Substep"></a>
 
-### *property* AcousticFrequencyBandSPL.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -546,7 +546,7 @@ Gets the Substep.
 
 <a id="AcousticFrequencyBandSPL.Suppressed"></a>
 
-### *property* AcousticFrequencyBandSPL.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -618,7 +618,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="AcousticFrequencyBandSPL.VisibleProperties"></a>
 
-### *property* AcousticFrequencyBandSPL.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -626,7 +626,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticFrequencyBandSPL.WaterfallShowTextOnMosaic"></a>
 
-### *property* AcousticFrequencyBandSPL.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFrequencyBandSPL.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -678,7 +678,7 @@ Creates a new child Figure.
 
 <a id="AcousticFrequencyBandSPL.AddImage"></a>
 
-### AcousticFrequencyBandSPL.AddImage(filePath: System.String)
+### AcousticFrequencyBandSPL.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -706,7 +706,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticFrequencyBandSPL.CreateParameter"></a>
 
-### AcousticFrequencyBandSPL.CreateParameter(propName: System.String)
+### AcousticFrequencyBandSPL.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -754,7 +754,7 @@ Run the EvaluateAllResults action.
 
 <a id="AcousticFrequencyBandSPL.ExportAnimation"></a>
 
-### AcousticFrequencyBandSPL.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AcousticFrequencyBandSPL.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -762,7 +762,7 @@ Run the ExportAnimation action.
 
 <a id="AcousticFrequencyBandSPL.ExportToTextFile"></a>
 
-### AcousticFrequencyBandSPL.ExportToTextFile(filePath: System.String)
+### AcousticFrequencyBandSPL.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -778,7 +778,7 @@ Run the FetchRemoteResult action.
 
 <a id="AcousticFrequencyBandSPL.GetChildren"></a>
 
-### AcousticFrequencyBandSPL.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticFrequencyBandSPL.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -786,7 +786,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticFrequencyBandSPL.GetParameter"></a>
 
-### AcousticFrequencyBandSPL.GetParameter(propName: System.String)
+### AcousticFrequencyBandSPL.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -818,7 +818,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticFrequencyBandSPL.PropertyByAPIName"></a>
 
-### AcousticFrequencyBandSPL.PropertyByAPIName(name: System.String)
+### AcousticFrequencyBandSPL.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -829,7 +829,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticFrequencyBandSPL.PropertyByName"></a>
 
-### AcousticFrequencyBandSPL.PropertyByName(name: System.String)
+### AcousticFrequencyBandSPL.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -837,7 +837,7 @@ Get a property by its unique name.
 
 <a id="AcousticFrequencyBandSPL.RemoveParameter"></a>
 
-### AcousticFrequencyBandSPL.RemoveParameter(propName: System.String)
+### AcousticFrequencyBandSPL.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

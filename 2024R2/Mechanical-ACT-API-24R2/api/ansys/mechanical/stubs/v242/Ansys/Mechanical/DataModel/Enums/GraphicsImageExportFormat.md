@@ -17,7 +17,7 @@ Specifies the 2D Image Format.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`BMP`](#GraphicsImageExportFormat.BMP) |
 | [`EPS`](#GraphicsImageExportFormat.EPS) |
 | [`JPG`](#GraphicsImageExportFormat.JPG) |

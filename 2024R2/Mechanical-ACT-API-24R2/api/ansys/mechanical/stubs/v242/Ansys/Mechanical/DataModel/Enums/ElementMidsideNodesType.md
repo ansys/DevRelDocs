@@ -17,7 +17,7 @@ Specifies the ElementMidsideNodesType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------- |
 | [`Dropped`](#ElementMidsideNodesType.Dropped) |
 | [`GlobalSetting`](#ElementMidsideNodesType.GlobalSetting) |
 | [`Kept`](#ElementMidsideNodesType.Kept) |

@@ -97,7 +97,7 @@ Defines a InitialCondition.
 
 <a id="InitialCondition.Children"></a>
 
-### *property* InitialCondition.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -105,7 +105,7 @@ Gets the list of children.
 
 <a id="InitialCondition.Comments"></a>
 
-### *property* InitialCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -121,7 +121,7 @@ Gets or sets the ContactStatus.
 
 <a id="InitialCondition.CoordinateSystem"></a>
 
-### *property* InitialCondition.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -185,7 +185,7 @@ Gets or sets the ExplicitPreStressTime.
 
 <a id="InitialCondition.Figures"></a>
 
-### *property* InitialCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -193,7 +193,7 @@ Gets the list of associated figures.
 
 <a id="InitialCondition.Images"></a>
 
-### *property* InitialCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -209,7 +209,7 @@ Gets or sets the ImpactVelocity.
 
 <a id="InitialCondition.InitialEnvironment"></a>
 
-### *property* InitialCondition.InitialEnvironment *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.InitialEnvironment *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialEnvironment.
 
@@ -265,7 +265,7 @@ Gets or sets the Location.
 
 <a id="InitialCondition.ModalEnvironmentHarmonicIC"></a>
 
-### *property* InitialCondition.ModalEnvironmentHarmonicIC *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ModalEnvironmentHarmonicIC *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalEnvironmentHarmonicIC.
 
@@ -273,7 +273,7 @@ Gets or sets the ModalEnvironmentHarmonicIC.
 
 <a id="InitialCondition.ModalEnvironmentPSDIC"></a>
 
-### *property* InitialCondition.ModalEnvironmentPSDIC *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ModalEnvironmentPSDIC *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalEnvironmentPSDIC.
 
@@ -281,7 +281,7 @@ Gets or sets the ModalEnvironmentPSDIC.
 
 <a id="InitialCondition.ModalEnvironmentRSIC"></a>
 
-### *property* InitialCondition.ModalEnvironmentRSIC *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ModalEnvironmentRSIC *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalEnvironmentRSIC.
 
@@ -289,7 +289,7 @@ Gets or sets the ModalEnvironmentRSIC.
 
 <a id="InitialCondition.ModalEnvironmentTransientMSUPIC"></a>
 
-### *property* InitialCondition.ModalEnvironmentTransientMSUPIC *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ModalEnvironmentTransientMSUPIC *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalEnvironmentTransientMSUPIC.
 
@@ -297,7 +297,7 @@ Gets or sets the ModalEnvironmentTransientMSUPIC.
 
 <a id="InitialCondition.ModalICEnvironment"></a>
 
-### *property* InitialCondition.ModalICEnvironment *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ModalICEnvironment *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalICEnvironment.
 
@@ -329,7 +329,7 @@ Gets or sets the PreStressDefineBy.
 
 <a id="InitialCondition.PreStressEnvironmentHarmonicIC"></a>
 
-### *property* InitialCondition.PreStressEnvironmentHarmonicIC *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressEnvironmentHarmonicIC *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreStressEnvironmentHarmonicIC.
 
@@ -337,7 +337,7 @@ Gets or sets the PreStressEnvironmentHarmonicIC.
 
 <a id="InitialCondition.PreStressEnvironmentHarmonicMSUPModal"></a>
 
-### *property* InitialCondition.PreStressEnvironmentHarmonicMSUPModal *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressEnvironmentHarmonicMSUPModal *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PreStressEnvironmentHarmonicMSUPModal.
 
@@ -345,7 +345,7 @@ Gets the PreStressEnvironmentHarmonicMSUPModal.
 
 <a id="InitialCondition.PreStressEnvironmentModalIC"></a>
 
-### *property* InitialCondition.PreStressEnvironmentModalIC *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressEnvironmentModalIC *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreStressEnvironmentModalIC.
 
@@ -353,7 +353,7 @@ Gets or sets the PreStressEnvironmentModalIC.
 
 <a id="InitialCondition.PreStressEnvironmentTransientIC"></a>
 
-### *property* InitialCondition.PreStressEnvironmentTransientIC *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressEnvironmentTransientIC *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreStressEnvironmentTransientIC.
 
@@ -361,7 +361,7 @@ Gets or sets the PreStressEnvironmentTransientIC.
 
 <a id="InitialCondition.PreStressEnvironmentTransientMSUPModal"></a>
 
-### *property* InitialCondition.PreStressEnvironmentTransientMSUPModal *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressEnvironmentTransientMSUPModal *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PreStressEnvironmentTransientMSUPModal.
 
@@ -369,7 +369,7 @@ Gets the PreStressEnvironmentTransientMSUPModal.
 
 <a id="InitialCondition.PreStressICEnvironment"></a>
 
-### *property* InitialCondition.PreStressICEnvironment *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressICEnvironment *: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreStressICEnvironment.
 
@@ -377,7 +377,7 @@ Gets or sets the PreStressICEnvironment.
 
 <a id="InitialCondition.PreStressLoadStep"></a>
 
-### *property* InitialCondition.PreStressLoadStep *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressLoadStep *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreStressLoadStep.
 
@@ -401,7 +401,7 @@ Gets or sets the PressureInitialization.
 
 <a id="InitialCondition.Properties"></a>
 
-### *property* InitialCondition.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -417,7 +417,7 @@ Gets or sets the ReferenceTemperature.
 
 <a id="InitialCondition.ReportedLoadStep"></a>
 
-### *property* InitialCondition.ReportedLoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ReportedLoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedLoadStep.
 
@@ -425,7 +425,7 @@ Gets the ReportedLoadStep.
 
 <a id="InitialCondition.ReportedSubStep"></a>
 
-### *property* InitialCondition.ReportedSubStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ReportedSubStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedSubStep.
 
@@ -433,7 +433,7 @@ Gets the ReportedSubStep.
 
 <a id="InitialCondition.ReportedTime"></a>
 
-### *property* InitialCondition.ReportedTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ReportedTime *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedTime.
 
@@ -441,7 +441,7 @@ Gets the ReportedTime.
 
 <a id="InitialCondition.Suppressed"></a>
 
-### *property* InitialCondition.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -457,7 +457,7 @@ Gets or sets the Time.
 
 <a id="InitialCondition.TimeStepFactor"></a>
 
-### *property* InitialCondition.TimeStepFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.TimeStepFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeStepFactor.
 
@@ -473,7 +473,7 @@ Gets or sets the Magnitude.
 
 <a id="InitialCondition.VisibleProperties"></a>
 
-### *property* InitialCondition.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -541,7 +541,7 @@ Creates a new child Figure.
 
 <a id="InitialCondition.AddImage"></a>
 
-### InitialCondition.AddImage(filePath: System.String)
+### InitialCondition.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -561,7 +561,7 @@ Copies all visible properties from this object to another.
 
 <a id="InitialCondition.CreateParameter"></a>
 
-### InitialCondition.CreateParameter(propName: System.String)
+### InitialCondition.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -585,7 +585,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="InitialCondition.GetChildren"></a>
 
-### InitialCondition.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### InitialCondition.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -593,7 +593,7 @@ Gets the list of children, filtered by type.
 
 <a id="InitialCondition.GetParameter"></a>
 
-### InitialCondition.GetParameter(propName: System.String)
+### InitialCondition.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -617,7 +617,7 @@ Run the GroupSimilarObjects action.
 
 <a id="InitialCondition.PropertyByAPIName"></a>
 
-### InitialCondition.PropertyByAPIName(name: System.String)
+### InitialCondition.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -628,7 +628,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="InitialCondition.PropertyByName"></a>
 
-### InitialCondition.PropertyByName(name: System.String)
+### InitialCondition.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -636,7 +636,7 @@ Get a property by its unique name.
 
 <a id="InitialCondition.RemoveParameter"></a>
 
-### InitialCondition.RemoveParameter(propName: System.String)
+### InitialCondition.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

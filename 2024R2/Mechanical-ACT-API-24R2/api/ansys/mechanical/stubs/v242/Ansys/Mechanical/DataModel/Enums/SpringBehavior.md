@@ -17,7 +17,7 @@ Specifies the SpringBehavior.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`Linear`](#SpringBehavior.Linear) |
 | [`NonLinear`](#SpringBehavior.NonLinear) |
 | [`NonLinearCompressionOnly`](#SpringBehavior.NonLinearCompressionOnly) |

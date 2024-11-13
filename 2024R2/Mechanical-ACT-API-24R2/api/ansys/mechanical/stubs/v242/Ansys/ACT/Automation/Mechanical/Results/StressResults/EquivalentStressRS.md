@@ -17,7 +17,7 @@ Defines a EquivalentStressRS.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#EquivalentStressRS.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#EquivalentStressRS.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#EquivalentStressRS.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a EquivalentStressRS.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#EquivalentStressRS.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#EquivalentStressRS.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#EquivalentStressRS.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -128,7 +128,7 @@ Defines a EquivalentStressRS.
 | [`Subtype`](#EquivalentStressRS.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#EquivalentStressRS.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#EquivalentStressRS.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#EquivalentStressRS.SurfaceCoating)                                                                                                                                            | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#EquivalentStressRS.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#EquivalentStressRS.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#EquivalentStressRS.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#EquivalentStressRS.Time)                                                           | Gets the Time.                                                         |
@@ -140,7 +140,7 @@ Defines a EquivalentStressRS.
 | [`TotalInside`](#EquivalentStressRS.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#EquivalentStressRS.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#EquivalentStressRS.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#EquivalentStressRS.WaterfallShowTextOnMosaic)                                                                                                                      | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#EquivalentStressRS.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -148,7 +148,7 @@ Defines a EquivalentStressRS.
 
 <a id="EquivalentStressRS.Amplitude"></a>
 
-### *property* EquivalentStressRS.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -164,7 +164,7 @@ Gets the Average.
 
 <a id="EquivalentStressRS.AverageAcrossBodies"></a>
 
-### *property* EquivalentStressRS.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -204,7 +204,7 @@ Gets or sets the By.
 
 <a id="EquivalentStressRS.CalculateTimeHistory"></a>
 
-### *property* EquivalentStressRS.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -212,7 +212,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="EquivalentStressRS.Children"></a>
 
-### *property* EquivalentStressRS.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -220,7 +220,7 @@ Gets the list of children.
 
 <a id="EquivalentStressRS.CombinationNumber"></a>
 
-### *property* EquivalentStressRS.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -228,7 +228,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="EquivalentStressRS.Comments"></a>
 
-### *property* EquivalentStressRS.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -236,7 +236,7 @@ Gets the list of associated comments.
 
 <a id="EquivalentStressRS.CoordinateSystem"></a>
 
-### *property* EquivalentStressRS.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -246,7 +246,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="EquivalentStressRS.CrackFrontNumber"></a>
 
-### *property* EquivalentStressRS.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -254,7 +254,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="EquivalentStressRS.CyclicMode"></a>
 
-### *property* EquivalentStressRS.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -294,7 +294,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="EquivalentStressRS.EnvironmentSelection"></a>
 
-### *property* EquivalentStressRS.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -302,7 +302,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="EquivalentStressRS.Figures"></a>
 
-### *property* EquivalentStressRS.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -318,7 +318,7 @@ Gets or sets the Frequency.
 
 <a id="EquivalentStressRS.GlobalIDs"></a>
 
-### *property* EquivalentStressRS.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -334,7 +334,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="EquivalentStressRS.HarmonicIndex"></a>
 
-### *property* EquivalentStressRS.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -342,7 +342,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="EquivalentStressRS.Identifier"></a>
 
-### *property* EquivalentStressRS.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -350,7 +350,7 @@ Gets or sets the Identifier.
 
 <a id="EquivalentStressRS.Images"></a>
 
-### *property* EquivalentStressRS.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -366,7 +366,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EquivalentStressRS.IsSolved"></a>
 
-### *property* EquivalentStressRS.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -382,7 +382,7 @@ Gets or sets the ItemType.
 
 <a id="EquivalentStressRS.IterationNumber"></a>
 
-### *property* EquivalentStressRS.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -390,7 +390,7 @@ Gets the IterationNumber.
 
 <a id="EquivalentStressRS.IterationStep"></a>
 
-### *property* EquivalentStressRS.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -398,7 +398,7 @@ Gets or sets the IterationStep.
 
 <a id="EquivalentStressRS.Layer"></a>
 
-### *property* EquivalentStressRS.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -414,7 +414,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="EquivalentStressRS.LoadMultiplier"></a>
 
-### *property* EquivalentStressRS.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -422,7 +422,7 @@ Gets the LoadMultiplier.
 
 <a id="EquivalentStressRS.LoadStep"></a>
 
-### *property* EquivalentStressRS.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -430,7 +430,7 @@ Gets the LoadStep.
 
 <a id="EquivalentStressRS.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* EquivalentStressRS.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -438,7 +438,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="EquivalentStressRS.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* EquivalentStressRS.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -446,7 +446,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="EquivalentStressRS.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* EquivalentStressRS.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -454,7 +454,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="EquivalentStressRS.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* EquivalentStressRS.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -462,7 +462,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="EquivalentStressRS.LoadStepNumber"></a>
 
-### *property* EquivalentStressRS.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -486,7 +486,7 @@ Gets the Maximum.
 
 <a id="EquivalentStressRS.MaximumOccursOn"></a>
 
-### *property* EquivalentStressRS.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -550,7 +550,7 @@ Gets the Minimum.
 
 <a id="EquivalentStressRS.MinimumOccursOn"></a>
 
-### *property* EquivalentStressRS.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -574,7 +574,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="EquivalentStressRS.Mode"></a>
 
-### *property* EquivalentStressRS.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -582,7 +582,7 @@ Gets or sets the Mode.
 
 <a id="EquivalentStressRS.NamedSelections"></a>
 
-### *property* EquivalentStressRS.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -638,7 +638,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="EquivalentStressRS.Plies"></a>
 
-### *property* EquivalentStressRS.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -654,7 +654,7 @@ Gets the result table.
 
 <a id="EquivalentStressRS.Ply"></a>
 
-### *property* EquivalentStressRS.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -670,7 +670,7 @@ Gets or sets the Position.
 
 <a id="EquivalentStressRS.Probability"></a>
 
-### *property* EquivalentStressRS.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -678,7 +678,7 @@ Gets the Probability.
 
 <a id="EquivalentStressRS.Properties"></a>
 
-### *property* EquivalentStressRS.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -710,7 +710,7 @@ Gets or sets the ScopingMethod.
 
 <a id="EquivalentStressRS.SetNumber"></a>
 
-### *property* EquivalentStressRS.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -726,7 +726,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="EquivalentStressRS.SolverComponentIDs"></a>
 
-### *property* EquivalentStressRS.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -750,7 +750,7 @@ Gets or sets the SubScopeBy.
 
 <a id="EquivalentStressRS.Substep"></a>
 
-### *property* EquivalentStressRS.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -766,7 +766,7 @@ Gets or sets the Subtype.
 
 <a id="EquivalentStressRS.Suppressed"></a>
 
-### *property* EquivalentStressRS.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -870,7 +870,7 @@ Gets the TotalOutside.
 
 <a id="EquivalentStressRS.VisibleProperties"></a>
 
-### *property* EquivalentStressRS.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -878,7 +878,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EquivalentStressRS.WaterfallShowTextOnMosaic"></a>
 
-### *property* EquivalentStressRS.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentStressRS.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -930,7 +930,7 @@ Creates a new child Figure.
 
 <a id="EquivalentStressRS.AddImage"></a>
 
-### EquivalentStressRS.AddImage(filePath: System.String)
+### EquivalentStressRS.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -958,7 +958,7 @@ Copies all visible properties from this object to another.
 
 <a id="EquivalentStressRS.CreateParameter"></a>
 
-### EquivalentStressRS.CreateParameter(propName: System.String)
+### EquivalentStressRS.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -1006,7 +1006,7 @@ Run the EvaluateAllResults action.
 
 <a id="EquivalentStressRS.ExportAnimation"></a>
 
-### EquivalentStressRS.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### EquivalentStressRS.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1014,7 +1014,7 @@ Run the ExportAnimation action.
 
 <a id="EquivalentStressRS.ExportToTextFile"></a>
 
-### EquivalentStressRS.ExportToTextFile(filePath: System.String)
+### EquivalentStressRS.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1030,7 +1030,7 @@ Run the FetchRemoteResult action.
 
 <a id="EquivalentStressRS.GetChildren"></a>
 
-### EquivalentStressRS.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EquivalentStressRS.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1038,7 +1038,7 @@ Gets the list of children, filtered by type.
 
 <a id="EquivalentStressRS.GetParameter"></a>
 
-### EquivalentStressRS.GetParameter(propName: System.String)
+### EquivalentStressRS.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1070,7 +1070,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="EquivalentStressRS.PropertyByAPIName"></a>
 
-### EquivalentStressRS.PropertyByAPIName(name: System.String)
+### EquivalentStressRS.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1081,7 +1081,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EquivalentStressRS.PropertyByName"></a>
 
-### EquivalentStressRS.PropertyByName(name: System.String)
+### EquivalentStressRS.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1089,7 +1089,7 @@ Get a property by its unique name.
 
 <a id="EquivalentStressRS.RemoveParameter"></a>
 
-### EquivalentStressRS.RemoveParameter(propName: System.String)
+### EquivalentStressRS.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

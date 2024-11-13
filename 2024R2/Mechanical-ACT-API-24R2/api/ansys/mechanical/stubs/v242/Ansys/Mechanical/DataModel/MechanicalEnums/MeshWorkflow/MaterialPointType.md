@@ -17,7 +17,7 @@ To select the MeshWorkflow Surface Scope Modality Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`Exclude`](#MaterialPointType.Exclude) |
 | [`Include`](#MaterialPointType.Include) |
 

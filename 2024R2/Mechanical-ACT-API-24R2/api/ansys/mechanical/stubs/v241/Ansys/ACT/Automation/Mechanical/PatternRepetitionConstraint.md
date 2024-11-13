@@ -55,7 +55,7 @@ Defines a PatternRepetitionConstraint.
 
 <a id="PatternRepetitionConstraint.Axis"></a>
 
-### *property* PatternRepetitionConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PatternRepetitionConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
@@ -63,7 +63,7 @@ Gets or sets the Axis.
 
 <a id="PatternRepetitionConstraint.Children"></a>
 
-### *property* PatternRepetitionConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PatternRepetitionConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -79,7 +79,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="PatternRepetitionConstraint.DataModelObjectCategory"></a>
 
-### *property* PatternRepetitionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PatternRepetitionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -111,7 +111,7 @@ Gets or sets the Offset.
 
 <a id="PatternRepetitionConstraint.Properties"></a>
 
-### *property* PatternRepetitionConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PatternRepetitionConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -119,7 +119,7 @@ Gets the list of properties for this object.
 
 <a id="PatternRepetitionConstraint.ScopingMethod"></a>
 
-### *property* PatternRepetitionConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PatternRepetitionConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -127,7 +127,7 @@ Gets or sets the ScopingMethod.
 
 <a id="PatternRepetitionConstraint.Selection"></a>
 
-### *property* PatternRepetitionConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PatternRepetitionConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Selection.
 
@@ -135,7 +135,7 @@ Gets or sets the Selection.
 
 <a id="PatternRepetitionConstraint.Suppressed"></a>
 
-### *property* PatternRepetitionConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PatternRepetitionConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -143,7 +143,7 @@ Gets or sets the Suppressed.
 
 <a id="PatternRepetitionConstraint.VisibleProperties"></a>
 
-### *property* PatternRepetitionConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PatternRepetitionConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -171,7 +171,7 @@ Copies all visible properties from this object to another.
 
 <a id="PatternRepetitionConstraint.CreateParameter"></a>
 
-### PatternRepetitionConstraint.CreateParameter(propName: System.String)
+### PatternRepetitionConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -195,7 +195,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PatternRepetitionConstraint.GetChildren"></a>
 
-### PatternRepetitionConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PatternRepetitionConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -203,7 +203,7 @@ Gets the list of children, filtered by type.
 
 <a id="PatternRepetitionConstraint.GetParameter"></a>
 
-### PatternRepetitionConstraint.GetParameter(propName: System.String)
+### PatternRepetitionConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -227,7 +227,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PatternRepetitionConstraint.PropertyByAPIName"></a>
 
-### PatternRepetitionConstraint.PropertyByAPIName(name: System.String)
+### PatternRepetitionConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -238,7 +238,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PatternRepetitionConstraint.PropertyByName"></a>
 
-### PatternRepetitionConstraint.PropertyByName(name: System.String)
+### PatternRepetitionConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -246,7 +246,7 @@ Get a property by its unique name.
 
 <a id="PatternRepetitionConstraint.RemoveParameter"></a>
 
-### PatternRepetitionConstraint.RemoveParameter(propName: System.String)
+### PatternRepetitionConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

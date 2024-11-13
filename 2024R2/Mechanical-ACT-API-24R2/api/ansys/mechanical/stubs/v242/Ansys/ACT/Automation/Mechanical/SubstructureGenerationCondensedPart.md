@@ -17,7 +17,7 @@ Defines a SubstructureGenerationCondensedPart.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#SubstructureGenerationCondensedPart.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#SubstructureGenerationCondensedPart.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#SubstructureGenerationCondensedPart.AddComment)                           | Creates a new child Comment.                                                      |
@@ -39,7 +39,7 @@ Defines a SubstructureGenerationCondensedPart.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AttachmentMethod`](#SubstructureGenerationCondensedPart.AttachmentMethod)               | Gets or sets the AttachmentMethod.                            |
 | [`Children`](#SubstructureGenerationCondensedPart.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#SubstructureGenerationCondensedPart.Comments)                               | Gets the list of associated comments.                         |
@@ -82,7 +82,7 @@ Gets or sets the AttachmentMethod.
 
 <a id="SubstructureGenerationCondensedPart.Children"></a>
 
-### *property* SubstructureGenerationCondensedPart.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -90,7 +90,7 @@ Gets the list of children.
 
 <a id="SubstructureGenerationCondensedPart.Comments"></a>
 
-### *property* SubstructureGenerationCondensedPart.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -106,7 +106,7 @@ Gets the current DataModelObject’s category.
 
 <a id="SubstructureGenerationCondensedPart.Figures"></a>
 
-### *property* SubstructureGenerationCondensedPart.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -130,7 +130,7 @@ Gets or sets the GeometrySelection.
 
 <a id="SubstructureGenerationCondensedPart.Images"></a>
 
-### *property* SubstructureGenerationCondensedPart.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -146,7 +146,7 @@ Gets or sets the InterfaceMethod.
 
 <a id="SubstructureGenerationCondensedPart.Interfaces"></a>
 
-### *property* SubstructureGenerationCondensedPart.Interfaces *: [Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces](../../../../../v241/Ansys/ACT/Automation/Mechanical/CondensedPartInterfaces.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.Interfaces *: [Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces](CondensedPartInterfaces.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the Interfaces of the condensed part
 
@@ -170,7 +170,7 @@ Gets or sets the LumpedMassFormulation.
 
 <a id="SubstructureGenerationCondensedPart.NumberInterfaceEntries"></a>
 
-### *property* SubstructureGenerationCondensedPart.NumberInterfaceEntries *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.NumberInterfaceEntries *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberInterfaceEntries.
 
@@ -178,7 +178,7 @@ Gets the NumberInterfaceEntries.
 
 <a id="SubstructureGenerationCondensedPart.NumberMasterNodes"></a>
 
-### *property* SubstructureGenerationCondensedPart.NumberMasterNodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.NumberMasterNodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberMasterNodes.
 
@@ -202,7 +202,7 @@ Gets or sets the PointMassTreatment.
 
 <a id="SubstructureGenerationCondensedPart.Properties"></a>
 
-### *property* SubstructureGenerationCondensedPart.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -226,7 +226,7 @@ Gets or sets the ReferenceTemperature.
 
 <a id="SubstructureGenerationCondensedPart.SolutionName"></a>
 
-### *property* SubstructureGenerationCondensedPart.SolutionName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.SolutionName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionName.
 
@@ -242,7 +242,7 @@ Gets or sets the SolutionNameMode.
 
 <a id="SubstructureGenerationCondensedPart.SolverFilesDirectory"></a>
 
-### *property* SubstructureGenerationCondensedPart.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.SolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverFilesDirectory.
 
@@ -266,7 +266,7 @@ Gets or sets the SolverUnits.
 
 <a id="SubstructureGenerationCondensedPart.Suppressed"></a>
 
-### *property* SubstructureGenerationCondensedPart.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -274,7 +274,7 @@ Gets or sets the Suppressed.
 
 <a id="SubstructureGenerationCondensedPart.TemperatureUnits"></a>
 
-### *property* SubstructureGenerationCondensedPart.TemperatureUnits *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.TemperatureUnits *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TemperatureUnits.
 
@@ -282,7 +282,7 @@ Gets the TemperatureUnits.
 
 <a id="SubstructureGenerationCondensedPart.VisibleProperties"></a>
 
-### *property* SubstructureGenerationCondensedPart.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SubstructureGenerationCondensedPart.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -326,7 +326,7 @@ Creates a new child Figure.
 
 <a id="SubstructureGenerationCondensedPart.AddImage"></a>
 
-### SubstructureGenerationCondensedPart.AddImage(filePath: System.String)
+### SubstructureGenerationCondensedPart.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -354,7 +354,7 @@ Copies all visible properties from this object to another.
 
 <a id="SubstructureGenerationCondensedPart.CreateParameter"></a>
 
-### SubstructureGenerationCondensedPart.CreateParameter(propName: System.String)
+### SubstructureGenerationCondensedPart.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -378,7 +378,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="SubstructureGenerationCondensedPart.GetChildren"></a>
 
-### SubstructureGenerationCondensedPart.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### SubstructureGenerationCondensedPart.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -386,7 +386,7 @@ Gets the list of children, filtered by type.
 
 <a id="SubstructureGenerationCondensedPart.GetParameter"></a>
 
-### SubstructureGenerationCondensedPart.GetParameter(propName: System.String)
+### SubstructureGenerationCondensedPart.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -410,7 +410,7 @@ Run the GroupSimilarObjects action.
 
 <a id="SubstructureGenerationCondensedPart.PropertyByAPIName"></a>
 
-### SubstructureGenerationCondensedPart.PropertyByAPIName(name: System.String)
+### SubstructureGenerationCondensedPart.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -421,7 +421,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="SubstructureGenerationCondensedPart.PropertyByName"></a>
 
-### SubstructureGenerationCondensedPart.PropertyByName(name: System.String)
+### SubstructureGenerationCondensedPart.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -429,7 +429,7 @@ Get a property by its unique name.
 
 <a id="SubstructureGenerationCondensedPart.RemoveParameter"></a>
 
-### SubstructureGenerationCondensedPart.RemoveParameter(propName: System.String)
+### SubstructureGenerationCondensedPart.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

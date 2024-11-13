@@ -17,7 +17,7 @@ Specifies the FEConnectionLineColor.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------- |
 | [`Manual`](#FEConnectionLineColor.Manual) |
 | [`Object`](#FEConnectionLineColor.Object) |
 | [`Type`](#FEConnectionLineColor.Type) |

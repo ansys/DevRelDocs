@@ -17,7 +17,7 @@ Specifies the LoadGroupingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------ |
 | [`ByLocation`](#LoadGroupingType.ByLocation) |
 | [`No`](#LoadGroupingType.No) |
 

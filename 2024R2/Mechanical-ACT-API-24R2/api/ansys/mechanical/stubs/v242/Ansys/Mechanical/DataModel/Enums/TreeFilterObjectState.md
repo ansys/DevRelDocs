@@ -17,7 +17,7 @@ Specifies the TreeFilterObjectState.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------- |
 | [`All`](#TreeFilterObjectState.All) |
 | [`Failed`](#TreeFilterObjectState.Failed) |
 | [`Ignored`](#TreeFilterObjectState.Ignored) |

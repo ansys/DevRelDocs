@@ -54,7 +54,7 @@ Column class.
 
 <a id="Column.Count"></a>
 
-### *property* Column.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Count property.
 
@@ -62,7 +62,7 @@ Count property.
 
 <a id="Column.DataType"></a>
 
-### *property* Column.DataType *: System.Type | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.DataType *: [type](https://docs.python.org/3/library/functions.html#type) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DataType property.
 
@@ -70,7 +70,7 @@ DataType property.
 
 <a id="Column.IsFixedSize"></a>
 
-### *property* Column.IsFixedSize *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.IsFixedSize *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsFixedSize property.
 
@@ -78,7 +78,7 @@ IsFixedSize property.
 
 <a id="Column.IsIndependent"></a>
 
-### *property* Column.IsIndependent *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.IsIndependent *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsIndependent property.
 
@@ -86,7 +86,7 @@ IsIndependent property.
 
 <a id="Column.IsReadOnly"></a>
 
-### *property* Column.IsReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.IsReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsReadOnly property.
 
@@ -94,7 +94,7 @@ IsReadOnly property.
 
 <a id="Column.IsSynchronized"></a>
 
-### *property* Column.IsSynchronized *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.IsSynchronized *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsSynchronized property.
 
@@ -102,7 +102,7 @@ IsSynchronized property.
 
 <a id="Column.Item"></a>
 
-### *property* Column.Item *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.Item *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -110,7 +110,7 @@ Item property.
 
 <a id="Column.Name"></a>
 
-### *property* Column.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Name property.
 
@@ -118,7 +118,7 @@ Name property.
 
 <a id="Column.QuantityName"></a>
 
-### *property* Column.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.QuantityName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 QuantityName property.
 
@@ -126,7 +126,7 @@ QuantityName property.
 
 <a id="Column.SyncRoot"></a>
 
-### *property* Column.SyncRoot *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.SyncRoot *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 SyncRoot property.
 
@@ -134,7 +134,7 @@ SyncRoot property.
 
 <a id="Column.Unit"></a>
 
-### *property* Column.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.Unit *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Unit property.
 
@@ -142,7 +142,7 @@ Unit property.
 
 <a id="Column.Values"></a>
 
-### *property* Column.Values *: System.Collections.ICollection | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.Values *: Collection | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Values property.
 
@@ -170,11 +170,11 @@ VariableType property.
 
 <a id="Column.Add"></a>
 
-### Column.Add(value: System.Object)
+### Column.Add(value: Any)
 
 <a id="Column.ChangeVariableType"></a>
 
-### Column.ChangeVariableType(newVariableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), newVariableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), newUnit: System.String)
+### Column.ChangeVariableType(newVariableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), newVariableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), newUnit: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Contains the business logic for changing the variable type.
 
@@ -186,11 +186,11 @@ Contains the business logic for changing the variable type.
 
 <a id="Column.Contains"></a>
 
-### Column.Contains(value: System.Object)
+### Column.Contains(value: Any)
 
 <a id="Column.CopyTo"></a>
 
-### Column.CopyTo(array: System.Array, destinationStartIndex: System.Int32)
+### Column.CopyTo(array: List, destinationStartIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 <a id="Column.GetEnumerator"></a>
 
@@ -198,18 +198,18 @@ Contains the business logic for changing the variable type.
 
 <a id="Column.IndexOf"></a>
 
-### Column.IndexOf(value: System.Object)
+### Column.IndexOf(value: Any)
 
 <a id="Column.Insert"></a>
 
-### Column.Insert(index: System.Int32, value: System.Object)
+### Column.Insert(index: [int](https://docs.python.org/3/library/functions.html#int), value: Any)
 
 <a id="Column.Remove"></a>
 
-### Column.Remove(value: System.Object)
+### Column.Remove(value: Any)
 
 <a id="Column.RemoveAt"></a>
 
-### Column.RemoveAt(index: System.Int32)
+### Column.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 

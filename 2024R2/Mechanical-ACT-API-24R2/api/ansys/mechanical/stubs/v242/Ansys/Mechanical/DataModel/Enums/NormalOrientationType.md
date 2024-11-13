@@ -17,7 +17,7 @@ Specifies the NormalOrientationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------- |
 | [`None_`](#NormalOrientationType.None_) |
 | [`Total`](#NormalOrientationType.Total) |
 | [`XAxis`](#NormalOrientationType.XAxis) |

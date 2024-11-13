@@ -17,7 +17,7 @@ Defines a MiddlePrincipalStress.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MiddlePrincipalStress.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#MiddlePrincipalStress.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#MiddlePrincipalStress.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a MiddlePrincipalStress.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#MiddlePrincipalStress.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#MiddlePrincipalStress.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#MiddlePrincipalStress.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -128,7 +128,7 @@ Defines a MiddlePrincipalStress.
 | [`Subtype`](#MiddlePrincipalStress.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#MiddlePrincipalStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#MiddlePrincipalStress.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#MiddlePrincipalStress.SurfaceCoating)                                                                                                                                               | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#MiddlePrincipalStress.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#MiddlePrincipalStress.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#MiddlePrincipalStress.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#MiddlePrincipalStress.Time)                                                           | Gets the Time.                                                         |
@@ -140,7 +140,7 @@ Defines a MiddlePrincipalStress.
 | [`TotalInside`](#MiddlePrincipalStress.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#MiddlePrincipalStress.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#MiddlePrincipalStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#MiddlePrincipalStress.WaterfallShowTextOnMosaic)                                                                                                                         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#MiddlePrincipalStress.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -148,7 +148,7 @@ Defines a MiddlePrincipalStress.
 
 <a id="MiddlePrincipalStress.Amplitude"></a>
 
-### *property* MiddlePrincipalStress.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -164,7 +164,7 @@ Gets the Average.
 
 <a id="MiddlePrincipalStress.AverageAcrossBodies"></a>
 
-### *property* MiddlePrincipalStress.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -204,7 +204,7 @@ Gets or sets the By.
 
 <a id="MiddlePrincipalStress.CalculateTimeHistory"></a>
 
-### *property* MiddlePrincipalStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -212,7 +212,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="MiddlePrincipalStress.Children"></a>
 
-### *property* MiddlePrincipalStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -220,7 +220,7 @@ Gets the list of children.
 
 <a id="MiddlePrincipalStress.CombinationNumber"></a>
 
-### *property* MiddlePrincipalStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -228,7 +228,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="MiddlePrincipalStress.Comments"></a>
 
-### *property* MiddlePrincipalStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -236,7 +236,7 @@ Gets the list of associated comments.
 
 <a id="MiddlePrincipalStress.CoordinateSystem"></a>
 
-### *property* MiddlePrincipalStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -246,7 +246,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="MiddlePrincipalStress.CrackFrontNumber"></a>
 
-### *property* MiddlePrincipalStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -254,7 +254,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="MiddlePrincipalStress.CyclicMode"></a>
 
-### *property* MiddlePrincipalStress.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -294,7 +294,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="MiddlePrincipalStress.EnvironmentSelection"></a>
 
-### *property* MiddlePrincipalStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -302,7 +302,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="MiddlePrincipalStress.Figures"></a>
 
-### *property* MiddlePrincipalStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -318,7 +318,7 @@ Gets or sets the Frequency.
 
 <a id="MiddlePrincipalStress.GlobalIDs"></a>
 
-### *property* MiddlePrincipalStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -334,7 +334,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="MiddlePrincipalStress.HarmonicIndex"></a>
 
-### *property* MiddlePrincipalStress.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -342,7 +342,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="MiddlePrincipalStress.Identifier"></a>
 
-### *property* MiddlePrincipalStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -350,7 +350,7 @@ Gets or sets the Identifier.
 
 <a id="MiddlePrincipalStress.Images"></a>
 
-### *property* MiddlePrincipalStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -366,7 +366,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MiddlePrincipalStress.IsSolved"></a>
 
-### *property* MiddlePrincipalStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -382,7 +382,7 @@ Gets or sets the ItemType.
 
 <a id="MiddlePrincipalStress.IterationNumber"></a>
 
-### *property* MiddlePrincipalStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -390,7 +390,7 @@ Gets the IterationNumber.
 
 <a id="MiddlePrincipalStress.IterationStep"></a>
 
-### *property* MiddlePrincipalStress.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -398,7 +398,7 @@ Gets or sets the IterationStep.
 
 <a id="MiddlePrincipalStress.Layer"></a>
 
-### *property* MiddlePrincipalStress.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -414,7 +414,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="MiddlePrincipalStress.LoadMultiplier"></a>
 
-### *property* MiddlePrincipalStress.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -422,7 +422,7 @@ Gets the LoadMultiplier.
 
 <a id="MiddlePrincipalStress.LoadStep"></a>
 
-### *property* MiddlePrincipalStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -430,7 +430,7 @@ Gets the LoadStep.
 
 <a id="MiddlePrincipalStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MiddlePrincipalStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -438,7 +438,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="MiddlePrincipalStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MiddlePrincipalStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -446,7 +446,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="MiddlePrincipalStress.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* MiddlePrincipalStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -454,7 +454,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="MiddlePrincipalStress.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* MiddlePrincipalStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -462,7 +462,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="MiddlePrincipalStress.LoadStepNumber"></a>
 
-### *property* MiddlePrincipalStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -486,7 +486,7 @@ Gets the Maximum.
 
 <a id="MiddlePrincipalStress.MaximumOccursOn"></a>
 
-### *property* MiddlePrincipalStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -550,7 +550,7 @@ Gets the Minimum.
 
 <a id="MiddlePrincipalStress.MinimumOccursOn"></a>
 
-### *property* MiddlePrincipalStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -574,7 +574,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="MiddlePrincipalStress.Mode"></a>
 
-### *property* MiddlePrincipalStress.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -582,7 +582,7 @@ Gets or sets the Mode.
 
 <a id="MiddlePrincipalStress.NamedSelections"></a>
 
-### *property* MiddlePrincipalStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -638,7 +638,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="MiddlePrincipalStress.Plies"></a>
 
-### *property* MiddlePrincipalStress.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -654,7 +654,7 @@ Gets the result table.
 
 <a id="MiddlePrincipalStress.Ply"></a>
 
-### *property* MiddlePrincipalStress.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -670,7 +670,7 @@ Gets or sets the Position.
 
 <a id="MiddlePrincipalStress.Probability"></a>
 
-### *property* MiddlePrincipalStress.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -678,7 +678,7 @@ Gets the Probability.
 
 <a id="MiddlePrincipalStress.Properties"></a>
 
-### *property* MiddlePrincipalStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -710,7 +710,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MiddlePrincipalStress.SetNumber"></a>
 
-### *property* MiddlePrincipalStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -726,7 +726,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="MiddlePrincipalStress.SolverComponentIDs"></a>
 
-### *property* MiddlePrincipalStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -750,7 +750,7 @@ Gets or sets the SubScopeBy.
 
 <a id="MiddlePrincipalStress.Substep"></a>
 
-### *property* MiddlePrincipalStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -766,7 +766,7 @@ Gets or sets the Subtype.
 
 <a id="MiddlePrincipalStress.Suppressed"></a>
 
-### *property* MiddlePrincipalStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -870,7 +870,7 @@ Gets the TotalOutside.
 
 <a id="MiddlePrincipalStress.VisibleProperties"></a>
 
-### *property* MiddlePrincipalStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -878,7 +878,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="MiddlePrincipalStress.WaterfallShowTextOnMosaic"></a>
 
-### *property* MiddlePrincipalStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MiddlePrincipalStress.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -930,7 +930,7 @@ Creates a new child Figure.
 
 <a id="MiddlePrincipalStress.AddImage"></a>
 
-### MiddlePrincipalStress.AddImage(filePath: System.String)
+### MiddlePrincipalStress.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -958,7 +958,7 @@ Copies all visible properties from this object to another.
 
 <a id="MiddlePrincipalStress.CreateParameter"></a>
 
-### MiddlePrincipalStress.CreateParameter(propName: System.String)
+### MiddlePrincipalStress.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -1006,7 +1006,7 @@ Run the EvaluateAllResults action.
 
 <a id="MiddlePrincipalStress.ExportAnimation"></a>
 
-### MiddlePrincipalStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### MiddlePrincipalStress.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1014,7 +1014,7 @@ Run the ExportAnimation action.
 
 <a id="MiddlePrincipalStress.ExportToTextFile"></a>
 
-### MiddlePrincipalStress.ExportToTextFile(filePath: System.String)
+### MiddlePrincipalStress.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1030,7 +1030,7 @@ Run the FetchRemoteResult action.
 
 <a id="MiddlePrincipalStress.GetChildren"></a>
 
-### MiddlePrincipalStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MiddlePrincipalStress.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1038,7 +1038,7 @@ Gets the list of children, filtered by type.
 
 <a id="MiddlePrincipalStress.GetParameter"></a>
 
-### MiddlePrincipalStress.GetParameter(propName: System.String)
+### MiddlePrincipalStress.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1070,7 +1070,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="MiddlePrincipalStress.PropertyByAPIName"></a>
 
-### MiddlePrincipalStress.PropertyByAPIName(name: System.String)
+### MiddlePrincipalStress.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1081,7 +1081,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MiddlePrincipalStress.PropertyByName"></a>
 
-### MiddlePrincipalStress.PropertyByName(name: System.String)
+### MiddlePrincipalStress.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1089,7 +1089,7 @@ Get a property by its unique name.
 
 <a id="MiddlePrincipalStress.RemoveParameter"></a>
 
-### MiddlePrincipalStress.RemoveParameter(propName: System.String)
+### MiddlePrincipalStress.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

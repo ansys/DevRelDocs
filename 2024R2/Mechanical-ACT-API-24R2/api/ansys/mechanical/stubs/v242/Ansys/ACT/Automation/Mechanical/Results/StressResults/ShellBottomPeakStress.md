@@ -17,7 +17,7 @@ Defines a ShellBottomPeakStress.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ShellBottomPeakStress.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ShellBottomPeakStress.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ShellBottomPeakStress.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ShellBottomPeakStress.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#ShellBottomPeakStress.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#ShellBottomPeakStress.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#ShellBottomPeakStress.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -129,7 +129,7 @@ Defines a ShellBottomPeakStress.
 | [`Subtype`](#ShellBottomPeakStress.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#ShellBottomPeakStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ShellBottomPeakStress.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ShellBottomPeakStress.SurfaceCoating)                                                                                                                                               | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ShellBottomPeakStress.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#ShellBottomPeakStress.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#ShellBottomPeakStress.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#ShellBottomPeakStress.Time)                                                           | Gets the Time.                                                         |
@@ -141,7 +141,7 @@ Defines a ShellBottomPeakStress.
 | [`TotalInside`](#ShellBottomPeakStress.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#ShellBottomPeakStress.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#ShellBottomPeakStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ShellBottomPeakStress.WaterfallShowTextOnMosaic)                                                                                                                         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ShellBottomPeakStress.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -149,7 +149,7 @@ Defines a ShellBottomPeakStress.
 
 <a id="ShellBottomPeakStress.Amplitude"></a>
 
-### *property* ShellBottomPeakStress.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -165,7 +165,7 @@ Gets the Average.
 
 <a id="ShellBottomPeakStress.AverageAcrossBodies"></a>
 
-### *property* ShellBottomPeakStress.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -205,7 +205,7 @@ Gets or sets the By.
 
 <a id="ShellBottomPeakStress.CalculateTimeHistory"></a>
 
-### *property* ShellBottomPeakStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -213,7 +213,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ShellBottomPeakStress.Children"></a>
 
-### *property* ShellBottomPeakStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -221,7 +221,7 @@ Gets the list of children.
 
 <a id="ShellBottomPeakStress.CombinationNumber"></a>
 
-### *property* ShellBottomPeakStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -229,7 +229,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ShellBottomPeakStress.Comments"></a>
 
-### *property* ShellBottomPeakStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -237,7 +237,7 @@ Gets the list of associated comments.
 
 <a id="ShellBottomPeakStress.CoordinateSystem"></a>
 
-### *property* ShellBottomPeakStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -247,7 +247,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ShellBottomPeakStress.CrackFrontNumber"></a>
 
-### *property* ShellBottomPeakStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -255,7 +255,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="ShellBottomPeakStress.CyclicMode"></a>
 
-### *property* ShellBottomPeakStress.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -295,7 +295,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ShellBottomPeakStress.EnvironmentSelection"></a>
 
-### *property* ShellBottomPeakStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -303,7 +303,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="ShellBottomPeakStress.Figures"></a>
 
-### *property* ShellBottomPeakStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -319,7 +319,7 @@ Gets or sets the Frequency.
 
 <a id="ShellBottomPeakStress.GlobalIDs"></a>
 
-### *property* ShellBottomPeakStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -335,7 +335,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ShellBottomPeakStress.HarmonicIndex"></a>
 
-### *property* ShellBottomPeakStress.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -343,7 +343,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="ShellBottomPeakStress.Identifier"></a>
 
-### *property* ShellBottomPeakStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -351,7 +351,7 @@ Gets or sets the Identifier.
 
 <a id="ShellBottomPeakStress.Images"></a>
 
-### *property* ShellBottomPeakStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -367,7 +367,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ShellBottomPeakStress.IsSolved"></a>
 
-### *property* ShellBottomPeakStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -383,7 +383,7 @@ Gets or sets the ItemType.
 
 <a id="ShellBottomPeakStress.IterationNumber"></a>
 
-### *property* ShellBottomPeakStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -391,7 +391,7 @@ Gets the IterationNumber.
 
 <a id="ShellBottomPeakStress.IterationStep"></a>
 
-### *property* ShellBottomPeakStress.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -399,7 +399,7 @@ Gets or sets the IterationStep.
 
 <a id="ShellBottomPeakStress.Layer"></a>
 
-### *property* ShellBottomPeakStress.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -415,7 +415,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="ShellBottomPeakStress.LoadMultiplier"></a>
 
-### *property* ShellBottomPeakStress.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -423,7 +423,7 @@ Gets the LoadMultiplier.
 
 <a id="ShellBottomPeakStress.LoadStep"></a>
 
-### *property* ShellBottomPeakStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -431,7 +431,7 @@ Gets the LoadStep.
 
 <a id="ShellBottomPeakStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ShellBottomPeakStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -439,7 +439,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ShellBottomPeakStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ShellBottomPeakStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -447,7 +447,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ShellBottomPeakStress.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ShellBottomPeakStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -455,7 +455,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ShellBottomPeakStress.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ShellBottomPeakStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -463,7 +463,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ShellBottomPeakStress.LoadStepNumber"></a>
 
-### *property* ShellBottomPeakStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -487,7 +487,7 @@ Gets the Maximum.
 
 <a id="ShellBottomPeakStress.MaximumOccursOn"></a>
 
-### *property* ShellBottomPeakStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -551,7 +551,7 @@ Gets the Minimum.
 
 <a id="ShellBottomPeakStress.MinimumOccursOn"></a>
 
-### *property* ShellBottomPeakStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -575,7 +575,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ShellBottomPeakStress.Mode"></a>
 
-### *property* ShellBottomPeakStress.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -583,7 +583,7 @@ Gets or sets the Mode.
 
 <a id="ShellBottomPeakStress.NamedSelections"></a>
 
-### *property* ShellBottomPeakStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -639,7 +639,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="ShellBottomPeakStress.Plies"></a>
 
-### *property* ShellBottomPeakStress.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -655,7 +655,7 @@ Gets the result table.
 
 <a id="ShellBottomPeakStress.Ply"></a>
 
-### *property* ShellBottomPeakStress.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -671,7 +671,7 @@ Gets or sets the Position.
 
 <a id="ShellBottomPeakStress.Probability"></a>
 
-### *property* ShellBottomPeakStress.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -679,7 +679,7 @@ Gets the Probability.
 
 <a id="ShellBottomPeakStress.Properties"></a>
 
-### *property* ShellBottomPeakStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -711,7 +711,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ShellBottomPeakStress.SetNumber"></a>
 
-### *property* ShellBottomPeakStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -735,7 +735,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ShellBottomPeakStress.SolverComponentIDs"></a>
 
-### *property* ShellBottomPeakStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -759,7 +759,7 @@ Gets or sets the SubScopeBy.
 
 <a id="ShellBottomPeakStress.Substep"></a>
 
-### *property* ShellBottomPeakStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -775,7 +775,7 @@ Gets or sets the Subtype.
 
 <a id="ShellBottomPeakStress.Suppressed"></a>
 
-### *property* ShellBottomPeakStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -879,7 +879,7 @@ Gets the TotalOutside.
 
 <a id="ShellBottomPeakStress.VisibleProperties"></a>
 
-### *property* ShellBottomPeakStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -887,7 +887,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ShellBottomPeakStress.WaterfallShowTextOnMosaic"></a>
 
-### *property* ShellBottomPeakStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBottomPeakStress.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -939,7 +939,7 @@ Creates a new child Figure.
 
 <a id="ShellBottomPeakStress.AddImage"></a>
 
-### ShellBottomPeakStress.AddImage(filePath: System.String)
+### ShellBottomPeakStress.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -967,7 +967,7 @@ Copies all visible properties from this object to another.
 
 <a id="ShellBottomPeakStress.CreateParameter"></a>
 
-### ShellBottomPeakStress.CreateParameter(propName: System.String)
+### ShellBottomPeakStress.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -1015,7 +1015,7 @@ Run the EvaluateAllResults action.
 
 <a id="ShellBottomPeakStress.ExportAnimation"></a>
 
-### ShellBottomPeakStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ShellBottomPeakStress.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1023,7 +1023,7 @@ Run the ExportAnimation action.
 
 <a id="ShellBottomPeakStress.ExportToTextFile"></a>
 
-### ShellBottomPeakStress.ExportToTextFile(filePath: System.String)
+### ShellBottomPeakStress.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1039,7 +1039,7 @@ Run the FetchRemoteResult action.
 
 <a id="ShellBottomPeakStress.GetChildren"></a>
 
-### ShellBottomPeakStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ShellBottomPeakStress.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1047,7 +1047,7 @@ Gets the list of children, filtered by type.
 
 <a id="ShellBottomPeakStress.GetParameter"></a>
 
-### ShellBottomPeakStress.GetParameter(propName: System.String)
+### ShellBottomPeakStress.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1079,7 +1079,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ShellBottomPeakStress.PropertyByAPIName"></a>
 
-### ShellBottomPeakStress.PropertyByAPIName(name: System.String)
+### ShellBottomPeakStress.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1090,7 +1090,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ShellBottomPeakStress.PropertyByName"></a>
 
-### ShellBottomPeakStress.PropertyByName(name: System.String)
+### ShellBottomPeakStress.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1098,7 +1098,7 @@ Get a property by its unique name.
 
 <a id="ShellBottomPeakStress.RemoveParameter"></a>
 
-### ShellBottomPeakStress.RemoveParameter(propName: System.String)
+### ShellBottomPeakStress.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

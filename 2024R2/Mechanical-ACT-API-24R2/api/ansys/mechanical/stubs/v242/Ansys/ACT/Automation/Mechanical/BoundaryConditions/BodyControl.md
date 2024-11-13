@@ -72,7 +72,7 @@ Defines a BodyControl.
 
 <a id="BodyControl.ArtificialViscosityForShells"></a>
 
-### *property* BodyControl.ArtificialViscosityForShells *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.ArtificialViscosityForShells *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ArtificialViscosityForShells.
 
@@ -88,7 +88,7 @@ Gets or sets the BeamSolutionType.
 
 <a id="BodyControl.BeamTimeStepSafetyFactor"></a>
 
-### *property* BodyControl.BeamTimeStepSafetyFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.BeamTimeStepSafetyFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamTimeStepSafetyFactor.
 
@@ -96,7 +96,7 @@ Gets or sets the BeamTimeStepSafetyFactor.
 
 <a id="BodyControl.Children"></a>
 
-### *property* BodyControl.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -104,7 +104,7 @@ Gets the list of children.
 
 <a id="BodyControl.Comments"></a>
 
-### *property* BodyControl.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -120,7 +120,7 @@ Gets the current DataModelObject’s category.
 
 <a id="BodyControl.Figures"></a>
 
-### *property* BodyControl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -144,7 +144,7 @@ Gets or sets the HourglassDampingType.
 
 <a id="BodyControl.Images"></a>
 
-### *property* BodyControl.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -168,7 +168,7 @@ Gets or sets the Location.
 
 <a id="BodyControl.Properties"></a>
 
-### *property* BodyControl.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -176,7 +176,7 @@ Gets the list of properties for this object.
 
 <a id="BodyControl.PusoStabilityCoefficient"></a>
 
-### *property* BodyControl.PusoStabilityCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.PusoStabilityCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PusoStabilityCoefficient.
 
@@ -184,7 +184,7 @@ Gets or sets the PusoStabilityCoefficient.
 
 <a id="BodyControl.ReadOnly"></a>
 
-### *property* BodyControl.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -192,7 +192,7 @@ Gets or sets the ReadOnly.
 
 <a id="BodyControl.SharedRefBody"></a>
 
-### *property* BodyControl.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -200,7 +200,7 @@ Gets or sets the SharedRefBody.
 
 <a id="BodyControl.ShellBWCWarpCorrection"></a>
 
-### *property* BodyControl.ShellBWCWarpCorrection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.ShellBWCWarpCorrection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellBWCWarpCorrection.
 
@@ -216,7 +216,7 @@ Gets or sets the ShellInertiaUpdate.
 
 <a id="BodyControl.ShellShearCorrectionFactor"></a>
 
-### *property* BodyControl.ShellShearCorrectionFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.ShellShearCorrectionFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellShearCorrectionFactor.
 
@@ -224,7 +224,7 @@ Gets or sets the ShellShearCorrectionFactor.
 
 <a id="BodyControl.ShellSublayers"></a>
 
-### *property* BodyControl.ShellSublayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.ShellSublayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellSublayers.
 
@@ -240,7 +240,7 @@ Gets or sets the ShellThicknessUpdate.
 
 <a id="BodyControl.StiffnessCoefficient"></a>
 
-### *property* BodyControl.StiffnessCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.StiffnessCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessCoefficient.
 
@@ -248,7 +248,7 @@ Gets or sets the StiffnessCoefficient.
 
 <a id="BodyControl.Suppressed"></a>
 
-### *property* BodyControl.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -264,7 +264,7 @@ Gets or sets the TetIntegrationType.
 
 <a id="BodyControl.ViscousCoefficient"></a>
 
-### *property* BodyControl.ViscousCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.ViscousCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ViscousCoefficient.
 
@@ -272,7 +272,7 @@ Gets or sets the ViscousCoefficient.
 
 <a id="BodyControl.VisibleProperties"></a>
 
-### *property* BodyControl.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyControl.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -308,7 +308,7 @@ Creates a new child Figure.
 
 <a id="BodyControl.AddImage"></a>
 
-### BodyControl.AddImage(filePath: System.String)
+### BodyControl.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -328,7 +328,7 @@ Copies all visible properties from this object to another.
 
 <a id="BodyControl.CreateParameter"></a>
 
-### BodyControl.CreateParameter(propName: System.String)
+### BodyControl.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -352,7 +352,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="BodyControl.GetChildren"></a>
 
-### BodyControl.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### BodyControl.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -360,7 +360,7 @@ Gets the list of children, filtered by type.
 
 <a id="BodyControl.GetParameter"></a>
 
-### BodyControl.GetParameter(propName: System.String)
+### BodyControl.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -392,7 +392,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="BodyControl.PropertyByAPIName"></a>
 
-### BodyControl.PropertyByAPIName(name: System.String)
+### BodyControl.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -403,7 +403,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="BodyControl.PropertyByName"></a>
 
-### BodyControl.PropertyByName(name: System.String)
+### BodyControl.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -411,7 +411,7 @@ Get a property by its unique name.
 
 <a id="BodyControl.RemoveParameter"></a>
 
-### BodyControl.RemoveParameter(propName: System.String)
+### BodyControl.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

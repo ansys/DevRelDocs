@@ -17,7 +17,7 @@ Specifies the ContactTrimType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- |
 | [`FaceBased`](#ContactTrimType.FaceBased) |
 | [`Off`](#ContactTrimType.Off) |
 | [`On`](#ContactTrimType.On) |

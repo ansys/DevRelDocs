@@ -17,7 +17,7 @@ Specifies how to interpret the variable data source.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`Delimited`](#ImportFormat.Delimited) |
 | [`FixedWidth`](#ImportFormat.FixedWidth) |
 

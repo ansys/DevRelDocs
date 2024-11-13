@@ -17,7 +17,7 @@ Specifies the XAxisValues.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`CumulativeIteration`](#XAxisValues.CumulativeIteration) |
 | [`Time`](#XAxisValues.Time) |
 

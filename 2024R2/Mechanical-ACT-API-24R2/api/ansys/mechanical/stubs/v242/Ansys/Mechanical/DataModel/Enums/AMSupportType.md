@@ -17,7 +17,7 @@ Specifies the AMSupportType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------- |
 | [`Block`](#AMSupportType.Block) |
 | [`UserDefined`](#AMSupportType.UserDefined) |
 

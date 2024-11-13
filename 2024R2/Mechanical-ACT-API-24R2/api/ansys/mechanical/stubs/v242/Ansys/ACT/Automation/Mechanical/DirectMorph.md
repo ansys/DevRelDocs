@@ -53,7 +53,7 @@ Defines a DirectMorph.
 
 <a id="DirectMorph.Children"></a>
 
-### *property* DirectMorph.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectMorph.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -69,7 +69,7 @@ Gets the current DataModelObject’s category.
 
 <a id="DirectMorph.DisplacementFile"></a>
 
-### *property* DirectMorph.DisplacementFile *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectMorph.DisplacementFile *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplacementFile.
 
@@ -93,7 +93,7 @@ Gets or sets the Location.
 
 <a id="DirectMorph.Properties"></a>
 
-### *property* DirectMorph.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectMorph.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -101,7 +101,7 @@ Gets the list of properties for this object.
 
 <a id="DirectMorph.ScaleFactor"></a>
 
-### *property* DirectMorph.ScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectMorph.ScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactor.
 
@@ -109,7 +109,7 @@ Gets or sets the ScaleFactor.
 
 <a id="DirectMorph.Suppressed"></a>
 
-### *property* DirectMorph.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectMorph.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -117,7 +117,7 @@ Gets or sets the Suppressed.
 
 <a id="DirectMorph.VisibleProperties"></a>
 
-### *property* DirectMorph.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectMorph.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -153,7 +153,7 @@ Copies all visible properties from this object to another.
 
 <a id="DirectMorph.CreateParameter"></a>
 
-### DirectMorph.CreateParameter(propName: System.String)
+### DirectMorph.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -185,7 +185,7 @@ Generate morph control
 
 <a id="DirectMorph.GetChildren"></a>
 
-### DirectMorph.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DirectMorph.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -193,7 +193,7 @@ Gets the list of children, filtered by type.
 
 <a id="DirectMorph.GetParameter"></a>
 
-### DirectMorph.GetParameter(propName: System.String)
+### DirectMorph.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -217,7 +217,7 @@ Run the GroupSimilarObjects action.
 
 <a id="DirectMorph.PropertyByAPIName"></a>
 
-### DirectMorph.PropertyByAPIName(name: System.String)
+### DirectMorph.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -228,7 +228,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DirectMorph.PropertyByName"></a>
 
-### DirectMorph.PropertyByName(name: System.String)
+### DirectMorph.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -236,7 +236,7 @@ Get a property by its unique name.
 
 <a id="DirectMorph.RemoveParameter"></a>
 
-### DirectMorph.RemoveParameter(propName: System.String)
+### DirectMorph.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the ContactForceType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------- |
 | [`Normal`](#ContactForceType.Normal) |
 | [`Tangent`](#ContactForceType.Tangent) |
 | [`Total`](#ContactForceType.Total) |

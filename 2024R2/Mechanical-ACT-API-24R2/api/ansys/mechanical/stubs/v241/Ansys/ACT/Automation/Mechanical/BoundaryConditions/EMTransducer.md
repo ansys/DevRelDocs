@@ -17,7 +17,7 @@ Defines a EMTransducer.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#EMTransducer.Activate)                                             | Activate the current object.                                                      |
 | [`AddComment`](#EMTransducer.AddComment)                                         | Creates a new child Comment.                                                      |
 | [`AddFigure`](#EMTransducer.AddFigure)                                           | Creates a new child Figure.                                                       |
@@ -42,7 +42,7 @@ Defines a EMTransducer.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#EMTransducer.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#EMTransducer.Comments)                               | Gets the list of associated comments.                         |
 | [`CoordinateSystem`](#EMTransducer.CoordinateSystem)               | Gets the CoordinateSystem.                                    |
@@ -71,7 +71,7 @@ Defines a EMTransducer.
 
 <a id="EMTransducer.Children"></a>
 
-### *property* EMTransducer.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -79,7 +79,7 @@ Gets the list of children.
 
 <a id="EMTransducer.Comments"></a>
 
-### *property* EMTransducer.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -95,7 +95,7 @@ Gets the CoordinateSystem.
 
 <a id="EMTransducer.DataModelObjectCategory"></a>
 
-### *property* EMTransducer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -103,7 +103,7 @@ Gets the current DataModelObject’s category.
 
 <a id="EMTransducer.Figures"></a>
 
-### *property* EMTransducer.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -111,7 +111,7 @@ Gets the list of associated figures.
 
 <a id="EMTransducer.GAPDirection"></a>
 
-### *property* EMTransducer.GAPDirection *: [Ansys.Mechanical.DataModel.Enums.GAPDirectionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GAPDirectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GAPDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.GAPDirection *: [Ansys.Mechanical.DataModel.Enums.GAPDirectionType](../../../../Mechanical/DataModel/Enums/GAPDirectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GAPDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GAPDirection.
 
@@ -119,7 +119,7 @@ Gets or sets the GAPDirection.
 
 <a id="EMTransducer.Images"></a>
 
-### *property* EMTransducer.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -127,7 +127,7 @@ Gets the list of associated images.
 
 <a id="EMTransducer.IndependentVariable"></a>
 
-### *property* EMTransducer.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -167,7 +167,7 @@ Gets or sets the MinimalGap.
 
 <a id="EMTransducer.NumberOfSegments"></a>
 
-### *property* EMTransducer.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -175,7 +175,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="EMTransducer.Properties"></a>
 
-### *property* EMTransducer.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -183,7 +183,7 @@ Gets the list of properties for this object.
 
 <a id="EMTransducer.ReadOnly"></a>
 
-### *property* EMTransducer.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -199,7 +199,7 @@ Gets or sets the SharedRefBody.
 
 <a id="EMTransducer.StiffnessMethod"></a>
 
-### *property* EMTransducer.StiffnessMethod *: [Ansys.Mechanical.DataModel.Enums.StiffnessMethodType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessMethodType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StiffnessMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.StiffnessMethod *: [Ansys.Mechanical.DataModel.Enums.StiffnessMethodType](../../../../Mechanical/DataModel/Enums/StiffnessMethodType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessMethod.
 
@@ -207,7 +207,7 @@ Gets or sets the StiffnessMethod.
 
 <a id="EMTransducer.Suppressed"></a>
 
-### *property* EMTransducer.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -215,7 +215,7 @@ Gets or sets the Suppressed.
 
 <a id="EMTransducer.VisibleProperties"></a>
 
-### *property* EMTransducer.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -223,7 +223,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EMTransducer.VoltageDifference"></a>
 
-### *property* EMTransducer.VoltageDifference *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.VoltageDifference *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the VoltageDifference.
 
@@ -267,7 +267,7 @@ Creates a new child Figure.
 
 <a id="EMTransducer.AddImage"></a>
 
-### EMTransducer.AddImage(filePath: System.String)
+### EMTransducer.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -287,7 +287,7 @@ Copies all visible properties from this object to another.
 
 <a id="EMTransducer.CreateParameter"></a>
 
-### EMTransducer.CreateParameter(propName: System.String)
+### EMTransducer.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -311,7 +311,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="EMTransducer.GetActivateAtLoadStep"></a>
 
-### EMTransducer.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### EMTransducer.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -319,7 +319,7 @@ GetActivateAtLoadStep method.
 
 <a id="EMTransducer.GetChildren"></a>
 
-### EMTransducer.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EMTransducer.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -327,7 +327,7 @@ Gets the list of children, filtered by type.
 
 <a id="EMTransducer.GetComponentActivateAtLoadStep"></a>
 
-### EMTransducer.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### EMTransducer.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -335,7 +335,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="EMTransducer.GetParameter"></a>
 
-### EMTransducer.GetParameter(propName: System.String)
+### EMTransducer.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -367,7 +367,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="EMTransducer.PropertyByAPIName"></a>
 
-### EMTransducer.PropertyByAPIName(name: System.String)
+### EMTransducer.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -378,7 +378,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EMTransducer.PropertyByName"></a>
 
-### EMTransducer.PropertyByName(name: System.String)
+### EMTransducer.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -386,7 +386,7 @@ Get a property by its unique name.
 
 <a id="EMTransducer.RemoveParameter"></a>
 
-### EMTransducer.RemoveParameter(propName: System.String)
+### EMTransducer.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -394,7 +394,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="EMTransducer.SetActivateAtLoadStep"></a>
 
-### EMTransducer.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### EMTransducer.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -402,7 +402,7 @@ SetActivateAtLoadStep method.
 
 <a id="EMTransducer.SetComponentActivateAtLoadStep"></a>
 
-### EMTransducer.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### EMTransducer.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

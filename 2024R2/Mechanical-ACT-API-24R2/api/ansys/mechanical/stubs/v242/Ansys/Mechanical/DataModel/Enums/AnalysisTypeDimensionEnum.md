@@ -17,7 +17,7 @@ To select the analysis type dimension for the Model Import Object.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------- |
 | [`ThreeD`](#AnalysisTypeDimensionEnum.ThreeD) |
 | [`TwoD`](#AnalysisTypeDimensionEnum.TwoD) |
 

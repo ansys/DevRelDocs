@@ -65,7 +65,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 <a id="ConstructionLine.Comments"></a>
 
-### *property* ConstructionLine.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -81,7 +81,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ConstructionLine.Edges"></a>
 
-### *property* ConstructionLine.Edges *: System.Collections.Generic.IList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Edges *: List[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Creates for the user an IEdge representation of each edge in this Construction Line.
 
@@ -89,7 +89,7 @@ Creates for the user an IEdge representation of each edge in this Construction L
 
 <a id="ConstructionLine.Figures"></a>
 
-### *property* ConstructionLine.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -97,7 +97,7 @@ Gets the list of associated figures.
 
 <a id="ConstructionLine.Images"></a>
 
-### *property* ConstructionLine.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -113,7 +113,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ConstructionLine.Planes"></a>
 
-### *property* ConstructionLine.Planes *: System.Collections.Generic.IList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Planes *: List[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Creates for the user an Plane representation of each plane in this Construction Line.
 
@@ -121,7 +121,7 @@ Creates for the user an Plane representation of each plane in this Construction 
 
 <a id="ConstructionLine.Points"></a>
 
-### *property* ConstructionLine.Points *: System.Collections.Generic.IList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Points *: List[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns all points in this Construction Line, both those that have been created
 as well as virtual representations.
@@ -130,7 +130,7 @@ as well as virtual representations.
 
 <a id="ConstructionLine.Properties"></a>
 
-### *property* ConstructionLine.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -138,7 +138,7 @@ Gets the list of properties for this object.
 
 <a id="ConstructionLine.ReadOnly"></a>
 
-### *property* ConstructionLine.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -146,7 +146,7 @@ Gets or sets the ReadOnly.
 
 <a id="ConstructionLine.VisibleProperties"></a>
 
-### *property* ConstructionLine.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConstructionLine.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -182,7 +182,7 @@ Creates a new child Figure.
 
 <a id="ConstructionLine.AddImage"></a>
 
-### ConstructionLine.AddImage(filePath: System.String)
+### ConstructionLine.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -210,7 +210,7 @@ Copies all visible properties from this object to another.
 
 <a id="ConstructionLine.CreateParameter"></a>
 
-### ConstructionLine.CreateParameter(propName: System.String)
+### ConstructionLine.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -218,7 +218,7 @@ Creates a new parameter for a Property.
 
 <a id="ConstructionLine.CreatePlanarPoints"></a>
 
-### ConstructionLine.CreatePlanarPoints(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](../../../../Mechanical/DataModel/ConstructionLines/Plane.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Plane), pointDefinitionCollection: System.Collections.Generic.IEnumerable[System.Object])
+### ConstructionLine.CreatePlanarPoints(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](../../../../Mechanical/DataModel/ConstructionLines/Plane.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Plane), pointDefinitionCollection: Iterable[Any])
 
 CreatePlanarPoints method.
 
@@ -226,7 +226,7 @@ CreatePlanarPoints method.
 
 <a id="ConstructionLine.CreatePlane"></a>
 
-### ConstructionLine.CreatePlane(sketchPlaneDefinition: System.Object)
+### ConstructionLine.CreatePlane(sketchPlaneDefinition: Any)
 
 Create a plane.
 
@@ -234,7 +234,7 @@ Create a plane.
 
 <a id="ConstructionLine.CreatePoints"></a>
 
-### ConstructionLine.CreatePoints(pointDefinitionCollection: System.Collections.Generic.IEnumerable[System.Object])
+### ConstructionLine.CreatePoints(pointDefinitionCollection: Iterable[Any])
 
 CreatePoints method.
 
@@ -242,7 +242,7 @@ CreatePoints method.
 
 <a id="ConstructionLine.CreateStraightLines"></a>
 
-### ConstructionLine.CreateStraightLines(pointCollection: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Point](../../../../Mechanical/DataModel/ConstructionLines/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Point)])
+### ConstructionLine.CreateStraightLines(pointCollection: Iterable[[Ansys.Mechanical.DataModel.ConstructionLines.Point](../../../../Mechanical/DataModel/ConstructionLines/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Point)])
 
 CreateStraightLines method.
 
@@ -250,7 +250,7 @@ CreateStraightLines method.
 
 <a id="ConstructionLine.DeleteEdges"></a>
 
-### ConstructionLine.DeleteEdges(edgeCollection: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge](../../../../Mechanical/DataModel/ConstructionLines/Edges/IEdge.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge)])
+### ConstructionLine.DeleteEdges(edgeCollection: Iterable[[Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge](../../../../Mechanical/DataModel/ConstructionLines/Edges/IEdge.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge)])
 
 DeleteEdges method.
 
@@ -258,7 +258,7 @@ DeleteEdges method.
 
 <a id="ConstructionLine.DeletePlane"></a>
 
-### ConstructionLine.DeletePlane(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](../../../../Mechanical/DataModel/ConstructionLines/Plane.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Plane), forceDelete: System.Boolean)
+### ConstructionLine.DeletePlane(plane: [Ansys.Mechanical.DataModel.ConstructionLines.Plane](../../../../Mechanical/DataModel/ConstructionLines/Plane.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Plane), forceDelete: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Delete a plane associated with this construction line.
 
@@ -274,7 +274,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ConstructionLine.FlipEdges"></a>
 
-### ConstructionLine.FlipEdges(edgesToFlip: System.Collections.Generic.IEnumerable[[Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge](../../../../Mechanical/DataModel/ConstructionLines/Edges/IEdge.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge)])
+### ConstructionLine.FlipEdges(edgesToFlip: Iterable[[Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge](../../../../Mechanical/DataModel/ConstructionLines/Edges/IEdge.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge)])
 
 FlipEdges method.
 
@@ -282,7 +282,7 @@ FlipEdges method.
 
 <a id="ConstructionLine.GetParameter"></a>
 
-### ConstructionLine.GetParameter(propName: System.String)
+### ConstructionLine.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -314,7 +314,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ConstructionLine.PropertyByAPIName"></a>
 
-### ConstructionLine.PropertyByAPIName(name: System.String)
+### ConstructionLine.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -325,7 +325,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ConstructionLine.PropertyByName"></a>
 
-### ConstructionLine.PropertyByName(name: System.String)
+### ConstructionLine.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -349,7 +349,7 @@ Remove the corresponding part from the geometry.
 
 <a id="ConstructionLine.RemoveParameter"></a>
 
-### ConstructionLine.RemoveParameter(propName: System.String)
+### ConstructionLine.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

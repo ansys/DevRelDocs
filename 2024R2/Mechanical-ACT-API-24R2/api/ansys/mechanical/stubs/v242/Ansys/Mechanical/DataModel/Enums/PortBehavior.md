@@ -17,7 +17,7 @@ Specifies the PortBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------- |
 | [`Transparent`](#PortBehavior.Transparent) |
 | [`Vibro`](#PortBehavior.Vibro) |
 

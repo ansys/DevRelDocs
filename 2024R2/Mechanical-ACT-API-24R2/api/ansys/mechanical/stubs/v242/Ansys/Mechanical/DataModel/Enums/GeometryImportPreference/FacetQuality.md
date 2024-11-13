@@ -17,7 +17,7 @@ Used to specify the quality of the facet for the import.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------ |
 | [`Coarse`](#FacetQuality.Coarse) |
 | [`Fine`](#FacetQuality.Fine) |
 | [`Normal`](#FacetQuality.Normal) |

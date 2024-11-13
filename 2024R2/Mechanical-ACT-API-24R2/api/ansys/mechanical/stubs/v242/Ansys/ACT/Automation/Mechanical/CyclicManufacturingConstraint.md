@@ -63,7 +63,7 @@ Gets or sets the Axis.
 
 <a id="CyclicManufacturingConstraint.Children"></a>
 
-### *property* CyclicManufacturingConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicManufacturingConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -71,7 +71,7 @@ Gets the list of children.
 
 <a id="CyclicManufacturingConstraint.CoordinateSystem"></a>
 
-### *property* CyclicManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -103,7 +103,7 @@ Gets or sets the Location.
 
 <a id="CyclicManufacturingConstraint.NumberofSectors"></a>
 
-### *property* CyclicManufacturingConstraint.NumberofSectors *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicManufacturingConstraint.NumberofSectors *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberofSectors.
 
@@ -111,7 +111,7 @@ Gets or sets the NumberofSectors.
 
 <a id="CyclicManufacturingConstraint.Properties"></a>
 
-### *property* CyclicManufacturingConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicManufacturingConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -135,7 +135,7 @@ Gets or sets the Selection.
 
 <a id="CyclicManufacturingConstraint.Suppressed"></a>
 
-### *property* CyclicManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicManufacturingConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -143,7 +143,7 @@ Gets or sets the Suppressed.
 
 <a id="CyclicManufacturingConstraint.VisibleProperties"></a>
 
-### *property* CyclicManufacturingConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CyclicManufacturingConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -171,7 +171,7 @@ Copies all visible properties from this object to another.
 
 <a id="CyclicManufacturingConstraint.CreateParameter"></a>
 
-### CyclicManufacturingConstraint.CreateParameter(propName: System.String)
+### CyclicManufacturingConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -195,7 +195,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CyclicManufacturingConstraint.GetChildren"></a>
 
-### CyclicManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CyclicManufacturingConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -203,7 +203,7 @@ Gets the list of children, filtered by type.
 
 <a id="CyclicManufacturingConstraint.GetParameter"></a>
 
-### CyclicManufacturingConstraint.GetParameter(propName: System.String)
+### CyclicManufacturingConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -227,7 +227,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CyclicManufacturingConstraint.PropertyByAPIName"></a>
 
-### CyclicManufacturingConstraint.PropertyByAPIName(name: System.String)
+### CyclicManufacturingConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -238,7 +238,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CyclicManufacturingConstraint.PropertyByName"></a>
 
-### CyclicManufacturingConstraint.PropertyByName(name: System.String)
+### CyclicManufacturingConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -246,7 +246,7 @@ Get a property by its unique name.
 
 <a id="CyclicManufacturingConstraint.RemoveParameter"></a>
 
-### CyclicManufacturingConstraint.RemoveParameter(propName: System.String)
+### CyclicManufacturingConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Defines a TotalMagneticFluxDensity.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TotalMagneticFluxDensity.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#TotalMagneticFluxDensity.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#TotalMagneticFluxDensity.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a TotalMagneticFluxDensity.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#TotalMagneticFluxDensity.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#TotalMagneticFluxDensity.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#TotalMagneticFluxDensity.By)                                                               | Gets or sets the By.                                                   |
@@ -98,14 +98,14 @@ Defines a TotalMagneticFluxDensity.
 | [`Substep`](#TotalMagneticFluxDensity.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#TotalMagneticFluxDensity.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#TotalMagneticFluxDensity.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#TotalMagneticFluxDensity.SurfaceCoating)                                                                                                                                                           | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#TotalMagneticFluxDensity.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#TotalMagneticFluxDensity.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#TotalMagneticFluxDensity.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#TotalMagneticFluxDensity.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#TotalMagneticFluxDensity.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#TotalMagneticFluxDensity.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#TotalMagneticFluxDensity.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#TotalMagneticFluxDensity.WaterfallShowTextOnMosaic)                                                                                                                                     | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#TotalMagneticFluxDensity.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -121,7 +121,7 @@ Gets the Average.
 
 <a id="TotalMagneticFluxDensity.AverageAcrossBodies"></a>
 
-### *property* TotalMagneticFluxDensity.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -137,7 +137,7 @@ Gets or sets the By.
 
 <a id="TotalMagneticFluxDensity.CalculateTimeHistory"></a>
 
-### *property* TotalMagneticFluxDensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -145,7 +145,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="TotalMagneticFluxDensity.Children"></a>
 
-### *property* TotalMagneticFluxDensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -153,7 +153,7 @@ Gets the list of children.
 
 <a id="TotalMagneticFluxDensity.CombinationNumber"></a>
 
-### *property* TotalMagneticFluxDensity.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -161,7 +161,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="TotalMagneticFluxDensity.Comments"></a>
 
-### *property* TotalMagneticFluxDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -169,7 +169,7 @@ Gets the list of associated comments.
 
 <a id="TotalMagneticFluxDensity.CoordinateSystem"></a>
 
-### *property* TotalMagneticFluxDensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -179,7 +179,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="TotalMagneticFluxDensity.CrackFrontNumber"></a>
 
-### *property* TotalMagneticFluxDensity.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -227,7 +227,7 @@ Gets or sets the ElectromagneticResultType.
 
 <a id="TotalMagneticFluxDensity.Figures"></a>
 
-### *property* TotalMagneticFluxDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -235,7 +235,7 @@ Gets the list of associated figures.
 
 <a id="TotalMagneticFluxDensity.GlobalIDs"></a>
 
-### *property* TotalMagneticFluxDensity.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -251,7 +251,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="TotalMagneticFluxDensity.Identifier"></a>
 
-### *property* TotalMagneticFluxDensity.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -259,7 +259,7 @@ Gets or sets the Identifier.
 
 <a id="TotalMagneticFluxDensity.Images"></a>
 
-### *property* TotalMagneticFluxDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -275,7 +275,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TotalMagneticFluxDensity.IsSolved"></a>
 
-### *property* TotalMagneticFluxDensity.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -291,7 +291,7 @@ Gets or sets the ItemType.
 
 <a id="TotalMagneticFluxDensity.IterationNumber"></a>
 
-### *property* TotalMagneticFluxDensity.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -299,7 +299,7 @@ Gets the IterationNumber.
 
 <a id="TotalMagneticFluxDensity.LoadStep"></a>
 
-### *property* TotalMagneticFluxDensity.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -307,7 +307,7 @@ Gets the LoadStep.
 
 <a id="TotalMagneticFluxDensity.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* TotalMagneticFluxDensity.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -315,7 +315,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="TotalMagneticFluxDensity.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* TotalMagneticFluxDensity.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -323,7 +323,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="TotalMagneticFluxDensity.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* TotalMagneticFluxDensity.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -331,7 +331,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="TotalMagneticFluxDensity.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* TotalMagneticFluxDensity.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -339,7 +339,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="TotalMagneticFluxDensity.LoadStepNumber"></a>
 
-### *property* TotalMagneticFluxDensity.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -363,7 +363,7 @@ Gets the Maximum.
 
 <a id="TotalMagneticFluxDensity.MaximumOccursOn"></a>
 
-### *property* TotalMagneticFluxDensity.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -395,7 +395,7 @@ Gets the Minimum.
 
 <a id="TotalMagneticFluxDensity.MinimumOccursOn"></a>
 
-### *property* TotalMagneticFluxDensity.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -419,7 +419,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="TotalMagneticFluxDensity.NamedSelections"></a>
 
-### *property* TotalMagneticFluxDensity.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -443,7 +443,7 @@ Gets the result table.
 
 <a id="TotalMagneticFluxDensity.Properties"></a>
 
-### *property* TotalMagneticFluxDensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -459,7 +459,7 @@ Gets or sets the ScopingMethod.
 
 <a id="TotalMagneticFluxDensity.SetNumber"></a>
 
-### *property* TotalMagneticFluxDensity.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -475,7 +475,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="TotalMagneticFluxDensity.SolverComponentIDs"></a>
 
-### *property* TotalMagneticFluxDensity.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -483,7 +483,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="TotalMagneticFluxDensity.Substep"></a>
 
-### *property* TotalMagneticFluxDensity.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -491,7 +491,7 @@ Gets the Substep.
 
 <a id="TotalMagneticFluxDensity.Suppressed"></a>
 
-### *property* TotalMagneticFluxDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -555,7 +555,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="TotalMagneticFluxDensity.VisibleProperties"></a>
 
-### *property* TotalMagneticFluxDensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -563,7 +563,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="TotalMagneticFluxDensity.WaterfallShowTextOnMosaic"></a>
 
-### *property* TotalMagneticFluxDensity.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMagneticFluxDensity.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -615,7 +615,7 @@ Creates a new child Figure.
 
 <a id="TotalMagneticFluxDensity.AddImage"></a>
 
-### TotalMagneticFluxDensity.AddImage(filePath: System.String)
+### TotalMagneticFluxDensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -643,7 +643,7 @@ Copies all visible properties from this object to another.
 
 <a id="TotalMagneticFluxDensity.CreateParameter"></a>
 
-### TotalMagneticFluxDensity.CreateParameter(propName: System.String)
+### TotalMagneticFluxDensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -691,7 +691,7 @@ Run the EvaluateAllResults action.
 
 <a id="TotalMagneticFluxDensity.ExportAnimation"></a>
 
-### TotalMagneticFluxDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TotalMagneticFluxDensity.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -699,7 +699,7 @@ Run the ExportAnimation action.
 
 <a id="TotalMagneticFluxDensity.ExportToTextFile"></a>
 
-### TotalMagneticFluxDensity.ExportToTextFile(filePath: System.String)
+### TotalMagneticFluxDensity.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -715,7 +715,7 @@ Run the FetchRemoteResult action.
 
 <a id="TotalMagneticFluxDensity.GetChildren"></a>
 
-### TotalMagneticFluxDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TotalMagneticFluxDensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -723,7 +723,7 @@ Gets the list of children, filtered by type.
 
 <a id="TotalMagneticFluxDensity.GetParameter"></a>
 
-### TotalMagneticFluxDensity.GetParameter(propName: System.String)
+### TotalMagneticFluxDensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -755,7 +755,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="TotalMagneticFluxDensity.PropertyByAPIName"></a>
 
-### TotalMagneticFluxDensity.PropertyByAPIName(name: System.String)
+### TotalMagneticFluxDensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -766,7 +766,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TotalMagneticFluxDensity.PropertyByName"></a>
 
-### TotalMagneticFluxDensity.PropertyByName(name: System.String)
+### TotalMagneticFluxDensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -774,7 +774,7 @@ Get a property by its unique name.
 
 <a id="TotalMagneticFluxDensity.RemoveParameter"></a>
 
-### TotalMagneticFluxDensity.RemoveParameter(propName: System.String)
+### TotalMagneticFluxDensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

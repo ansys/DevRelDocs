@@ -17,7 +17,7 @@ Specifies the EdgeContactType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- |
 | [`LineSegments`](#EdgeContactType.LineSegments) |
 | [`NodesOnEdge`](#EdgeContactType.NodesOnEdge) |
 | [`ProgramControlled`](#EdgeContactType.ProgramControlled) |

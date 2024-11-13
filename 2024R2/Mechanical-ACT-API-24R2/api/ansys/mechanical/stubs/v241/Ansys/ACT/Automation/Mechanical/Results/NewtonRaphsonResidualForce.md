@@ -118,7 +118,7 @@ Gets the Average.
 
 <a id="NewtonRaphsonResidualForce.By"></a>
 
-### *property* NewtonRaphsonResidualForce.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -126,7 +126,7 @@ Gets or sets the By.
 
 <a id="NewtonRaphsonResidualForce.CalculateTimeHistory"></a>
 
-### *property* NewtonRaphsonResidualForce.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -134,7 +134,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="NewtonRaphsonResidualForce.Children"></a>
 
-### *property* NewtonRaphsonResidualForce.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -142,7 +142,7 @@ Gets the list of children.
 
 <a id="NewtonRaphsonResidualForce.CombinationNumber"></a>
 
-### *property* NewtonRaphsonResidualForce.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -150,7 +150,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="NewtonRaphsonResidualForce.Comments"></a>
 
-### *property* NewtonRaphsonResidualForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -168,7 +168,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="NewtonRaphsonResidualForce.CrackFrontNumber"></a>
 
-### *property* NewtonRaphsonResidualForce.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -176,7 +176,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="NewtonRaphsonResidualForce.DataModelObjectCategory"></a>
 
-### *property* NewtonRaphsonResidualForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -184,7 +184,7 @@ Gets the current DataModelObject’s category.
 
 <a id="NewtonRaphsonResidualForce.DisplayOption"></a>
 
-### *property* NewtonRaphsonResidualForce.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -200,7 +200,7 @@ Gets or sets the DisplayTime.
 
 <a id="NewtonRaphsonResidualForce.DpfEvaluation"></a>
 
-### *property* NewtonRaphsonResidualForce.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -208,7 +208,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="NewtonRaphsonResidualForce.Figures"></a>
 
-### *property* NewtonRaphsonResidualForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -216,7 +216,7 @@ Gets the list of associated figures.
 
 <a id="NewtonRaphsonResidualForce.GlobalIDs"></a>
 
-### *property* NewtonRaphsonResidualForce.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -224,7 +224,7 @@ Gets or sets the GlobalIDs.
 
 <a id="NewtonRaphsonResidualForce.GraphControlsXAxis"></a>
 
-### *property* NewtonRaphsonResidualForce.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -232,7 +232,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="NewtonRaphsonResidualForce.Identifier"></a>
 
-### *property* NewtonRaphsonResidualForce.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -240,7 +240,7 @@ Gets or sets the Identifier.
 
 <a id="NewtonRaphsonResidualForce.Images"></a>
 
-### *property* NewtonRaphsonResidualForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -256,7 +256,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="NewtonRaphsonResidualForce.IsSolved"></a>
 
-### *property* NewtonRaphsonResidualForce.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -264,7 +264,7 @@ Gets the IsSolved.
 
 <a id="NewtonRaphsonResidualForce.ItemType"></a>
 
-### *property* NewtonRaphsonResidualForce.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -272,7 +272,7 @@ Gets or sets the ItemType.
 
 <a id="NewtonRaphsonResidualForce.IterationNumber"></a>
 
-### *property* NewtonRaphsonResidualForce.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -280,7 +280,7 @@ Gets the IterationNumber.
 
 <a id="NewtonRaphsonResidualForce.LoadStep"></a>
 
-### *property* NewtonRaphsonResidualForce.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -288,7 +288,7 @@ Gets the LoadStep.
 
 <a id="NewtonRaphsonResidualForce.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* NewtonRaphsonResidualForce.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -296,7 +296,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="NewtonRaphsonResidualForce.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* NewtonRaphsonResidualForce.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -304,7 +304,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="NewtonRaphsonResidualForce.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* NewtonRaphsonResidualForce.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -312,7 +312,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="NewtonRaphsonResidualForce.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* NewtonRaphsonResidualForce.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -320,7 +320,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="NewtonRaphsonResidualForce.LoadStepNumber"></a>
 
-### *property* NewtonRaphsonResidualForce.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -344,7 +344,7 @@ Gets the Maximum.
 
 <a id="NewtonRaphsonResidualForce.MaximumOccursOn"></a>
 
-### *property* NewtonRaphsonResidualForce.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -376,7 +376,7 @@ Gets the Minimum.
 
 <a id="NewtonRaphsonResidualForce.MinimumOccursOn"></a>
 
-### *property* NewtonRaphsonResidualForce.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -400,7 +400,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="NewtonRaphsonResidualForce.NamedSelections"></a>
 
-### *property* NewtonRaphsonResidualForce.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -408,7 +408,7 @@ Gets or sets the NamedSelections.
 
 <a id="NewtonRaphsonResidualForce.Path"></a>
 
-### *property* NewtonRaphsonResidualForce.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Path *: [Ansys.ACT.Automation.Mechanical.Path](../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -416,7 +416,7 @@ Path property.
 
 <a id="NewtonRaphsonResidualForce.PlotData"></a>
 
-### *property* NewtonRaphsonResidualForce.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -424,7 +424,7 @@ Gets the result table.
 
 <a id="NewtonRaphsonResidualForce.Properties"></a>
 
-### *property* NewtonRaphsonResidualForce.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -432,7 +432,7 @@ Gets the list of properties for this object.
 
 <a id="NewtonRaphsonResidualForce.ScopingMethod"></a>
 
-### *property* NewtonRaphsonResidualForce.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -440,7 +440,7 @@ Gets or sets the ScopingMethod.
 
 <a id="NewtonRaphsonResidualForce.SetNumber"></a>
 
-### *property* NewtonRaphsonResidualForce.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -448,7 +448,7 @@ Gets or sets the Set Number.
 
 <a id="NewtonRaphsonResidualForce.SolutionCombinationDriver"></a>
 
-### *property* NewtonRaphsonResidualForce.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -456,7 +456,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="NewtonRaphsonResidualForce.SolverComponentIDs"></a>
 
-### *property* NewtonRaphsonResidualForce.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -464,7 +464,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="NewtonRaphsonResidualForce.Substep"></a>
 
-### *property* NewtonRaphsonResidualForce.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -472,7 +472,7 @@ Gets the Substep.
 
 <a id="NewtonRaphsonResidualForce.Suppressed"></a>
 
-### *property* NewtonRaphsonResidualForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -480,7 +480,7 @@ Gets or sets the Suppressed.
 
 <a id="NewtonRaphsonResidualForce.Surface"></a>
 
-### *property* NewtonRaphsonResidualForce.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -528,7 +528,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="NewtonRaphsonResidualForce.VisibleProperties"></a>
 
-### *property* NewtonRaphsonResidualForce.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -536,7 +536,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="NewtonRaphsonResidualForce.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* NewtonRaphsonResidualForce.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualForce.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -588,7 +588,7 @@ Creates a new child Figure.
 
 <a id="NewtonRaphsonResidualForce.AddImage"></a>
 
-### NewtonRaphsonResidualForce.AddImage(filePath: System.String)
+### NewtonRaphsonResidualForce.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -616,7 +616,7 @@ Copies all visible properties from this object to another.
 
 <a id="NewtonRaphsonResidualForce.CreateParameter"></a>
 
-### NewtonRaphsonResidualForce.CreateParameter(propName: System.String)
+### NewtonRaphsonResidualForce.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -664,7 +664,7 @@ Run the EvaluateAllResults action.
 
 <a id="NewtonRaphsonResidualForce.ExportAnimation"></a>
 
-### NewtonRaphsonResidualForce.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### NewtonRaphsonResidualForce.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -672,7 +672,7 @@ Run the ExportAnimation action.
 
 <a id="NewtonRaphsonResidualForce.ExportToTextFile"></a>
 
-### NewtonRaphsonResidualForce.ExportToTextFile(filePath: System.String)
+### NewtonRaphsonResidualForce.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -688,7 +688,7 @@ Run the FetchRemoteResult action.
 
 <a id="NewtonRaphsonResidualForce.GetChildren"></a>
 
-### NewtonRaphsonResidualForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NewtonRaphsonResidualForce.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -696,7 +696,7 @@ Gets the list of children, filtered by type.
 
 <a id="NewtonRaphsonResidualForce.GetParameter"></a>
 
-### NewtonRaphsonResidualForce.GetParameter(propName: System.String)
+### NewtonRaphsonResidualForce.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -728,7 +728,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="NewtonRaphsonResidualForce.PropertyByAPIName"></a>
 
-### NewtonRaphsonResidualForce.PropertyByAPIName(name: System.String)
+### NewtonRaphsonResidualForce.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -739,7 +739,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NewtonRaphsonResidualForce.PropertyByName"></a>
 
-### NewtonRaphsonResidualForce.PropertyByName(name: System.String)
+### NewtonRaphsonResidualForce.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -747,7 +747,7 @@ Get a property by its unique name.
 
 <a id="NewtonRaphsonResidualForce.RemoveParameter"></a>
 
-### NewtonRaphsonResidualForce.RemoveParameter(propName: System.String)
+### NewtonRaphsonResidualForce.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

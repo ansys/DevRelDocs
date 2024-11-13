@@ -17,7 +17,7 @@ Represents an element type associated to an ETBLOCK command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+|------------------------------------------|--------------------------|
 | [`Ename`](#CommandElementType.Ename)     | Gets the element name.   |
 | [`Id`](#CommandElementType.Id)           | Gets the element number. |
 | [`Keyopts`](#CommandElementType.Keyopts) | Gets the key options.    |
@@ -28,7 +28,7 @@ Represents an element type associated to an ETBLOCK command.
 
 <a id="CommandElementType.Ename"></a>
 
-### *property* CommandElementType.Ename *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementType.Ename *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element name.
 
@@ -36,7 +36,7 @@ Gets the element name.
 
 <a id="CommandElementType.Id"></a>
 
-### *property* CommandElementType.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementType.Id *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element number.
 
@@ -44,7 +44,7 @@ Gets the element number.
 
 <a id="CommandElementType.Keyopts"></a>
 
-### *property* CommandElementType.Keyopts *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt](CommandKeyOpt.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElementType.Keyopts *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt](CommandKeyOpt.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the key options.
 

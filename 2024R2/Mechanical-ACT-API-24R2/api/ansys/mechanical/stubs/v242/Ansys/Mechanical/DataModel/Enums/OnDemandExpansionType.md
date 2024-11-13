@@ -17,7 +17,7 @@ Specifies the OnDemandExpansionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------- |
 | [`No`](#OnDemandExpansionType.No) |
 | [`ProgramControlled`](#OnDemandExpansionType.ProgramControlled) |
 | [`Yes`](#OnDemandExpansionType.Yes) |

@@ -17,7 +17,7 @@ Specifies the FrequencySpacingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------ |
 | [`Linear`](#FrequencySpacingType.Linear) |
 | [`Logarithmic`](#FrequencySpacingType.Logarithmic) |
 | [`OctaveBand1`](#FrequencySpacingType.OctaveBand1) |

@@ -17,7 +17,7 @@ Specifies the LinePressureResultBasedOnType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------- |
 | [`NodalForce`](#LinePressureResultBasedOnType.NodalForce) |
 | [`NormalGasketPressure`](#LinePressureResultBasedOnType.NormalGasketPressure) |
 

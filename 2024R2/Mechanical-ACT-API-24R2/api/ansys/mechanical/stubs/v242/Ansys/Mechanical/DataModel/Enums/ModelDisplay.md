@@ -17,7 +17,7 @@ Specifies the Model display options.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`ShadedExterior`](#ModelDisplay.ShadedExterior) |
 | [`ShadedExteriorAndEdges`](#ModelDisplay.ShadedExteriorAndEdges) |
 | [`Wireframe`](#ModelDisplay.Wireframe) |

@@ -65,7 +65,7 @@ Defines a RSAcceleration.
 
 <a id="RSAcceleration.BoundaryCondition"></a>
 
-### *property* RSAcceleration.BoundaryCondition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.BoundaryCondition *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -73,7 +73,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="RSAcceleration.Children"></a>
 
-### *property* RSAcceleration.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -81,7 +81,7 @@ Gets the list of children.
 
 <a id="RSAcceleration.Comments"></a>
 
-### *property* RSAcceleration.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -105,7 +105,7 @@ Gets or sets the Direction.
 
 <a id="RSAcceleration.Figures"></a>
 
-### *property* RSAcceleration.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -113,7 +113,7 @@ Gets the list of associated figures.
 
 <a id="RSAcceleration.Images"></a>
 
-### *property* RSAcceleration.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -137,7 +137,7 @@ Gets or sets the LoadData.
 
 <a id="RSAcceleration.MissingMassEffect"></a>
 
-### *property* RSAcceleration.MissingMassEffect *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.MissingMassEffect *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MissingMassEffect.
 
@@ -153,7 +153,7 @@ Gets or sets the MissingMassEffectZPA.
 
 <a id="RSAcceleration.Properties"></a>
 
-### *property* RSAcceleration.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -161,7 +161,7 @@ Gets the list of properties for this object.
 
 <a id="RSAcceleration.RigidResponseEffect"></a>
 
-### *property* RSAcceleration.RigidResponseEffect *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.RigidResponseEffect *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RigidResponseEffect.
 
@@ -201,7 +201,7 @@ Gets or sets the RigidResponseEffectZPA.
 
 <a id="RSAcceleration.ScaleFactor"></a>
 
-### *property* RSAcceleration.ScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.ScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactor.
 
@@ -209,7 +209,7 @@ Gets or sets the ScaleFactor.
 
 <a id="RSAcceleration.Suppressed"></a>
 
-### *property* RSAcceleration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -217,7 +217,7 @@ Gets or sets the Suppressed.
 
 <a id="RSAcceleration.VisibleProperties"></a>
 
-### *property* RSAcceleration.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSAcceleration.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -253,7 +253,7 @@ Creates a new child Figure.
 
 <a id="RSAcceleration.AddImage"></a>
 
-### RSAcceleration.AddImage(filePath: System.String)
+### RSAcceleration.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -273,7 +273,7 @@ Copies all visible properties from this object to another.
 
 <a id="RSAcceleration.CreateParameter"></a>
 
-### RSAcceleration.CreateParameter(propName: System.String)
+### RSAcceleration.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -297,7 +297,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RSAcceleration.GetChildren"></a>
 
-### RSAcceleration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RSAcceleration.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -305,7 +305,7 @@ Gets the list of children, filtered by type.
 
 <a id="RSAcceleration.GetParameter"></a>
 
-### RSAcceleration.GetParameter(propName: System.String)
+### RSAcceleration.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -329,7 +329,7 @@ Run the GroupSimilarObjects action.
 
 <a id="RSAcceleration.PropertyByAPIName"></a>
 
-### RSAcceleration.PropertyByAPIName(name: System.String)
+### RSAcceleration.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -340,7 +340,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RSAcceleration.PropertyByName"></a>
 
-### RSAcceleration.PropertyByName(name: System.String)
+### RSAcceleration.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -348,7 +348,7 @@ Get a property by its unique name.
 
 <a id="RSAcceleration.RemoveParameter"></a>
 
-### RSAcceleration.RemoveParameter(propName: System.String)
+### RSAcceleration.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

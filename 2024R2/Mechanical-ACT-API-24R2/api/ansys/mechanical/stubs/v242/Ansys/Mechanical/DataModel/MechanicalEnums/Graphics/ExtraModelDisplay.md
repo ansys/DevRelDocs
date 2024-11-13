@@ -17,7 +17,7 @@ Specifies the ExtraModelDisplay.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------- |
 | [`NoWireframe`](#ExtraModelDisplay.NoWireframe) |
 | [`ShowElements`](#ExtraModelDisplay.ShowElements) |
 | [`UndeformedModel`](#ExtraModelDisplay.UndeformedModel) |

@@ -17,7 +17,7 @@ Specifies the ShellBodyDimension.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`Three_D`](#ShellBodyDimension.Three_D) |
 | [`Two_D`](#ShellBodyDimension.Two_D) |
 

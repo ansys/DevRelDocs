@@ -67,7 +67,7 @@ Gets the Area.
 
 <a id="RectangularCrossSection.Children"></a>
 
-### *property* RectangularCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RectangularCrossSection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="RectangularCrossSection.Comments"></a>
 
-### *property* RectangularCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RectangularCrossSection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -83,7 +83,7 @@ Gets the list of associated comments.
 
 <a id="RectangularCrossSection.DataModelObjectCategory"></a>
 
-### *property* RectangularCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RectangularCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="RectangularCrossSection.Figures"></a>
 
-### *property* RectangularCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RectangularCrossSection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -123,7 +123,7 @@ Gets the IZZ.
 
 <a id="RectangularCrossSection.Images"></a>
 
-### *property* RectangularCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RectangularCrossSection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -139,7 +139,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="RectangularCrossSection.Properties"></a>
 
-### *property* RectangularCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RectangularCrossSection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -147,7 +147,7 @@ Gets the list of properties for this object.
 
 <a id="RectangularCrossSection.ReadOnly"></a>
 
-### *property* RectangularCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RectangularCrossSection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -155,7 +155,7 @@ Gets or sets the ReadOnly.
 
 <a id="RectangularCrossSection.VisibleProperties"></a>
 
-### *property* RectangularCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RectangularCrossSection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -199,7 +199,7 @@ Creates a new child Figure.
 
 <a id="RectangularCrossSection.AddImage"></a>
 
-### RectangularCrossSection.AddImage(filePath: System.String)
+### RectangularCrossSection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -219,7 +219,7 @@ Copies all visible properties from this object to another.
 
 <a id="RectangularCrossSection.CreateParameter"></a>
 
-### RectangularCrossSection.CreateParameter(propName: System.String)
+### RectangularCrossSection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -243,7 +243,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RectangularCrossSection.GetChildren"></a>
 
-### RectangularCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RectangularCrossSection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -251,7 +251,7 @@ Gets the list of children, filtered by type.
 
 <a id="RectangularCrossSection.GetParameter"></a>
 
-### RectangularCrossSection.GetParameter(propName: System.String)
+### RectangularCrossSection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -275,7 +275,7 @@ Run the GroupSimilarObjects action.
 
 <a id="RectangularCrossSection.PropertyByAPIName"></a>
 
-### RectangularCrossSection.PropertyByAPIName(name: System.String)
+### RectangularCrossSection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -286,7 +286,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RectangularCrossSection.PropertyByName"></a>
 
-### RectangularCrossSection.PropertyByName(name: System.String)
+### RectangularCrossSection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Get a property by its unique name.
 
 <a id="RectangularCrossSection.RemoveParameter"></a>
 
-### RectangularCrossSection.RemoveParameter(propName: System.String)
+### RectangularCrossSection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

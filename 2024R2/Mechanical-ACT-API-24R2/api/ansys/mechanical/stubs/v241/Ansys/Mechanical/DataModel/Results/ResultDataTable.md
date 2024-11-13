@@ -35,7 +35,7 @@ Specifies the Result Table.
 
 <a id="ResultDataTable.Count"></a>
 
-### *property* ResultDataTable.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultDataTable.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Count property.
 
@@ -43,7 +43,7 @@ Count property.
 
 <a id="ResultDataTable.Item"></a>
 
-### *property* ResultDataTable.Item *: System.Collections.IEnumerable | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultDataTable.Item *: Iterable | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -51,7 +51,7 @@ Item property.
 
 <a id="ResultDataTable.Keys"></a>
 
-### *property* ResultDataTable.Keys *: System.Collections.Generic.IEnumerable[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultDataTable.Keys *: Iterable[[str](https://docs.python.org/3/library/stdtypes.html#str)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Keys property.
 
@@ -59,7 +59,7 @@ Keys property.
 
 <a id="ResultDataTable.Values"></a>
 
-### *property* ResultDataTable.Values *: System.Collections.Generic.IEnumerable[System.Collections.IEnumerable] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultDataTable.Values *: Iterable[Iterable] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Values property.
 
@@ -71,7 +71,7 @@ Values property.
 
 <a id="ResultDataTable.ContainsKey"></a>
 
-### ResultDataTable.ContainsKey(key: System.String)
+### ResultDataTable.ContainsKey(key: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ContainsKey method.
 

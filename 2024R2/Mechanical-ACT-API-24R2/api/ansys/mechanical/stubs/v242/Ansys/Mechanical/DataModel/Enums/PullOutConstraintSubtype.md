@@ -17,7 +17,7 @@ Specifies the PullOutConstraintSubtype.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------- |
 | [`NoHole`](#PullOutConstraintSubtype.NoHole) |
 | [`NoOption`](#PullOutConstraintSubtype.NoOption) |
 | [`Stamping`](#PullOutConstraintSubtype.Stamping) |

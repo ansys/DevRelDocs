@@ -17,7 +17,7 @@ Specifies the ProbeExtractionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`ContactElements`](#ProbeExtractionType.ContactElements) |
 | [`ContactSide`](#ProbeExtractionType.ContactSide) |
 | [`Master`](#ProbeExtractionType.Master) |

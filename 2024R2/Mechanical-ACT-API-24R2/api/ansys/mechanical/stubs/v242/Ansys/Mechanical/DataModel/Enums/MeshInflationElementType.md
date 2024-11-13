@@ -19,7 +19,7 @@ Derive from this class to define new enumerations.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------- |
 | [`Tets`](#MeshInflationElementType.Tets) |
 | [`Wedges`](#MeshInflationElementType.Wedges) |
 

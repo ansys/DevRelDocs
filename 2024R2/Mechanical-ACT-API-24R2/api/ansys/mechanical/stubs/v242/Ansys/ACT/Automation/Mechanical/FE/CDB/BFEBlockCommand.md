@@ -30,7 +30,7 @@ Represents a BFEBLOCK command.
 
 <a id="BFEBlockCommand.ElementBodyForceCount"></a>
 
-### *property* BFEBlockCommand.ElementBodyForceCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFEBlockCommand.ElementBodyForceCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of element body-force loads.
 
@@ -38,7 +38,7 @@ Gets the number of element body-force loads.
 
 <a id="BFEBlockCommand.ElementBodyForces"></a>
 
-### *property* BFEBlockCommand.ElementBodyForces *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementBodyForce](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementBodyForce.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementBodyForce)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFEBlockCommand.ElementBodyForces *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementBodyForce](CommandElementBodyForce.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementBodyForce)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element body-force loads.
 
@@ -46,7 +46,7 @@ Gets the element body-force loads.
 
 <a id="BFEBlockCommand.Index"></a>
 
-### *property* BFEBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFEBlockCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -54,7 +54,7 @@ Gets the command index.
 
 <a id="BFEBlockCommand.Lab"></a>
 
-### *property* BFEBlockCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFEBlockCommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
 
@@ -62,7 +62,7 @@ Gets the label.
 
 <a id="BFEBlockCommand.Name"></a>
 
-### *property* BFEBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFEBlockCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 

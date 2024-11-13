@@ -17,7 +17,7 @@ Specifies the ShellMBPType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------ |
 | [`BendingStress`](#ShellMBPType.BendingStress) |
 | [`BottomPeakStress`](#ShellMBPType.BottomPeakStress) |
 | [`MembraneStress`](#ShellMBPType.MembraneStress) |

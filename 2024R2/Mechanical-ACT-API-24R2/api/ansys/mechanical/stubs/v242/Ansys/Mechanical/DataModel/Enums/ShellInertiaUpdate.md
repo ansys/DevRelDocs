@@ -17,7 +17,7 @@ Specifies the ShellInertiaUpdate.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`Recompute`](#ShellInertiaUpdate.Recompute) |
 | [`Rotate`](#ShellInertiaUpdate.Rotate) |
 

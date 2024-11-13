@@ -17,7 +17,7 @@ Specifies the ToleranceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------- |
 | [`Manual`](#ToleranceType.Manual) |
 | [`ProgramControlled`](#ToleranceType.ProgramControlled) |
 

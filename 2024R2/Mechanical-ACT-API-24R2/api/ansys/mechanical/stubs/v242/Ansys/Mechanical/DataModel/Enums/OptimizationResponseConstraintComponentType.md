@@ -17,7 +17,7 @@ Specifies the OptimizationResponseConstraintComponentType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------------------- |
 | [`XComponentMax`](#OptimizationResponseConstraintComponentType.XComponentMax) |
 | [`YComponentMax`](#OptimizationResponseConstraintComponentType.YComponentMax) |
 | [`ZComponentMax`](#OptimizationResponseConstraintComponentType.ZComponentMax) |

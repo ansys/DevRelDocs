@@ -17,7 +17,7 @@ Specifies the TopoOptimizationDensityFilter.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`Linear`](#TopoOptimizationDensityFilter.Linear) |
 | [`NonLinear`](#TopoOptimizationDensityFilter.NonLinear) |
 | [`ProgramControlled`](#TopoOptimizationDensityFilter.ProgramControlled) |

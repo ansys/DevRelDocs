@@ -17,7 +17,7 @@ Commands type.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`All`](#CommandsType.All) |
 | [`Processed`](#CommandsType.Processed) |
 | [`UnProcessed`](#CommandsType.UnProcessed) |

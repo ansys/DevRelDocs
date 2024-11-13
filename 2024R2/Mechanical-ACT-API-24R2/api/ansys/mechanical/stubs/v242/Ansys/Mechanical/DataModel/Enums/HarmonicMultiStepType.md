@@ -17,7 +17,7 @@ Specifies the HarmonicMultiStepType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- |
 | [`Load_Step`](#HarmonicMultiStepType.Load_Step) |
 | [`RPM`](#HarmonicMultiStepType.RPM) |
 

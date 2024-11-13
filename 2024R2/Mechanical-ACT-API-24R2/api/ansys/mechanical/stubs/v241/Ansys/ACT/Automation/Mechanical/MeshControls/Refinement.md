@@ -60,7 +60,7 @@ Defines a Refinement.
 
 <a id="Refinement.Children"></a>
 
-### *property* Refinement.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -68,7 +68,7 @@ Gets the list of children.
 
 <a id="Refinement.Comments"></a>
 
-### *property* Refinement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -76,7 +76,7 @@ Gets the list of associated comments.
 
 <a id="Refinement.DataModelObjectCategory"></a>
 
-### *property* Refinement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -84,7 +84,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Refinement.Figures"></a>
 
-### *property* Refinement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -92,7 +92,7 @@ Gets the list of associated figures.
 
 <a id="Refinement.Images"></a>
 
-### *property* Refinement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -116,7 +116,7 @@ Gets or sets the Location.
 
 <a id="Refinement.NamedSelection"></a>
 
-### *property* Refinement.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -124,7 +124,7 @@ Gets or sets the NamedSelection.
 
 <a id="Refinement.NumberOfRefinements"></a>
 
-### *property* Refinement.NumberOfRefinements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.NumberOfRefinements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfRefinements.
 
@@ -132,7 +132,7 @@ Gets or sets the NumberOfRefinements.
 
 <a id="Refinement.Properties"></a>
 
-### *property* Refinement.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -140,7 +140,7 @@ Gets the list of properties for this object.
 
 <a id="Refinement.ScopingMethod"></a>
 
-### *property* Refinement.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -148,7 +148,7 @@ Gets or sets the ScopingMethod.
 
 <a id="Refinement.Suppressed"></a>
 
-### *property* Refinement.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -156,7 +156,7 @@ Gets or sets the Suppressed.
 
 <a id="Refinement.VisibleProperties"></a>
 
-### *property* Refinement.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Refinement.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -192,7 +192,7 @@ Creates a new child Figure.
 
 <a id="Refinement.AddImage"></a>
 
-### Refinement.AddImage(filePath: System.String)
+### Refinement.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -212,7 +212,7 @@ Copies all visible properties from this object to another.
 
 <a id="Refinement.CreateParameter"></a>
 
-### Refinement.CreateParameter(propName: System.String)
+### Refinement.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -244,7 +244,7 @@ Generate the Mesh.
 
 <a id="Refinement.GetChildren"></a>
 
-### Refinement.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Refinement.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -252,7 +252,7 @@ Gets the list of children, filtered by type.
 
 <a id="Refinement.GetParameter"></a>
 
-### Refinement.GetParameter(propName: System.String)
+### Refinement.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -276,7 +276,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Refinement.PropertyByAPIName"></a>
 
-### Refinement.PropertyByAPIName(name: System.String)
+### Refinement.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -287,7 +287,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Refinement.PropertyByName"></a>
 
-### Refinement.PropertyByName(name: System.String)
+### Refinement.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -295,7 +295,7 @@ Get a property by its unique name.
 
 <a id="Refinement.RemoveParameter"></a>
 
-### Refinement.RemoveParameter(propName: System.String)
+### Refinement.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

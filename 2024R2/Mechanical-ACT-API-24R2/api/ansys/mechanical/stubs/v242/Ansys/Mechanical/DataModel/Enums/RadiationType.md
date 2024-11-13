@@ -17,7 +17,7 @@ Specifies the RadiationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------- |
 | [`SurfaceToSurface`](#RadiationType.SurfaceToSurface) |
 | [`ToAmbient`](#RadiationType.ToAmbient) |
 

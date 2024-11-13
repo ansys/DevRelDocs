@@ -17,7 +17,7 @@ Specifies the BeamOffsetType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------- |
 | [`Centroid`](#BeamOffsetType.Centroid) |
 | [`CoordinateSystemOrigin`](#BeamOffsetType.CoordinateSystemOrigin) |
 | [`ShearCenter`](#BeamOffsetType.ShearCenter) |

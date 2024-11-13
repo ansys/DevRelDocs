@@ -17,7 +17,7 @@ Defines a VelocityWaterfallDiagram.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#VelocityWaterfallDiagram.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#VelocityWaterfallDiagram.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#VelocityWaterfallDiagram.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a VelocityWaterfallDiagram.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#VelocityWaterfallDiagram.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#VelocityWaterfallDiagram.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#VelocityWaterfallDiagram.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -93,13 +93,13 @@ Defines a VelocityWaterfallDiagram.
 | [`Path`](#VelocityWaterfallDiagram.Path)                                                           | Path property.                                                         |
 | [`PlotData`](#VelocityWaterfallDiagram.PlotData)                                                   | Gets the result table.                                                 |
 | [`Properties`](#VelocityWaterfallDiagram.Properties)                                               | Gets the list of properties for this object.                           |
-| [`STFTCutoffFrequency`](#VelocityWaterfallDiagram.STFTCutoffFrequency)                                                                                                                                                   | Gets or sets the STFTCutoffFrequency.                                  |
-| [`STFTEndTime`](#VelocityWaterfallDiagram.STFTEndTime)                                                                                                                                                                   | Gets or sets the STFTEndTime.                                          |
-| [`STFTMinFreqResolution`](#VelocityWaterfallDiagram.STFTMinFreqResolution)                                                                                                                                               | Gets or sets the STFTMinFreqResolution.                                |
-| [`STFTNumberSlice`](#VelocityWaterfallDiagram.STFTNumberSlice)                                                                                                                                                           | Gets or sets the STFTNumberSlice.                                      |
-| [`STFTOverlap`](#VelocityWaterfallDiagram.STFTOverlap)                                                                                                                                                                   | Gets or sets the STFTOverlap.                                          |
-| [`STFTStartTime`](#VelocityWaterfallDiagram.STFTStartTime)                                                                                                                                                               | Gets or sets the STFTStartTime.                                        |
-| [`STFTWindowType`](#VelocityWaterfallDiagram.STFTWindowType)                                                                                                                                                             | Gets or sets the STFTWindowType.                                       |
+| [`STFTCutoffFrequency`](#VelocityWaterfallDiagram.STFTCutoffFrequency)                             | Gets or sets the STFTCutoffFrequency.                                  |
+| [`STFTEndTime`](#VelocityWaterfallDiagram.STFTEndTime)                                             | Gets or sets the STFTEndTime.                                          |
+| [`STFTMinFreqResolution`](#VelocityWaterfallDiagram.STFTMinFreqResolution)                         | Gets or sets the STFTMinFreqResolution.                                |
+| [`STFTNumberSlice`](#VelocityWaterfallDiagram.STFTNumberSlice)                                     | Gets or sets the STFTNumberSlice.                                      |
+| [`STFTOverlap`](#VelocityWaterfallDiagram.STFTOverlap)                                             | Gets or sets the STFTOverlap.                                          |
+| [`STFTStartTime`](#VelocityWaterfallDiagram.STFTStartTime)                                         | Gets or sets the STFTStartTime.                                        |
+| [`STFTWindowType`](#VelocityWaterfallDiagram.STFTWindowType)                                       | Gets or sets the STFTWindowType.                                       |
 | [`ScopingMethod`](#VelocityWaterfallDiagram.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
 | [`SetNumber`](#VelocityWaterfallDiagram.SetNumber)                                                 | Gets or sets the Set Number.                                           |
 | [`SolutionCombinationDriver`](#VelocityWaterfallDiagram.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
@@ -108,14 +108,14 @@ Defines a VelocityWaterfallDiagram.
 | [`Substep`](#VelocityWaterfallDiagram.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#VelocityWaterfallDiagram.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#VelocityWaterfallDiagram.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#VelocityWaterfallDiagram.SurfaceCoating)                                                                                                                                                             | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#VelocityWaterfallDiagram.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#VelocityWaterfallDiagram.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#VelocityWaterfallDiagram.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#VelocityWaterfallDiagram.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#VelocityWaterfallDiagram.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#VelocityWaterfallDiagram.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#VelocityWaterfallDiagram.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#VelocityWaterfallDiagram.WaterfallShowTextOnMosaic)                                                                                                                                       | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#VelocityWaterfallDiagram.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -139,7 +139,7 @@ Gets or sets the By.
 
 <a id="VelocityWaterfallDiagram.CalculateTimeHistory"></a>
 
-### *property* VelocityWaterfallDiagram.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -147,7 +147,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="VelocityWaterfallDiagram.Children"></a>
 
-### *property* VelocityWaterfallDiagram.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -155,7 +155,7 @@ Gets the list of children.
 
 <a id="VelocityWaterfallDiagram.CombinationNumber"></a>
 
-### *property* VelocityWaterfallDiagram.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -163,7 +163,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="VelocityWaterfallDiagram.Comments"></a>
 
-### *property* VelocityWaterfallDiagram.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -171,7 +171,7 @@ Gets the list of associated comments.
 
 <a id="VelocityWaterfallDiagram.CoordinateSystem"></a>
 
-### *property* VelocityWaterfallDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -181,7 +181,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="VelocityWaterfallDiagram.CrackFrontNumber"></a>
 
-### *property* VelocityWaterfallDiagram.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -205,7 +205,7 @@ Gets or sets the DisplayOption.
 
 <a id="VelocityWaterfallDiagram.DisplayPanel"></a>
 
-### *property* VelocityWaterfallDiagram.DisplayPanel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.DisplayPanel *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayPanel.
 
@@ -229,7 +229,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="VelocityWaterfallDiagram.Figures"></a>
 
-### *property* VelocityWaterfallDiagram.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -237,7 +237,7 @@ Gets the list of associated figures.
 
 <a id="VelocityWaterfallDiagram.GlobalIDs"></a>
 
-### *property* VelocityWaterfallDiagram.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -253,7 +253,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="VelocityWaterfallDiagram.Identifier"></a>
 
-### *property* VelocityWaterfallDiagram.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -261,7 +261,7 @@ Gets or sets the Identifier.
 
 <a id="VelocityWaterfallDiagram.Images"></a>
 
-### *property* VelocityWaterfallDiagram.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -277,7 +277,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="VelocityWaterfallDiagram.IsSolved"></a>
 
-### *property* VelocityWaterfallDiagram.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -293,7 +293,7 @@ Gets or sets the ItemType.
 
 <a id="VelocityWaterfallDiagram.IterationNumber"></a>
 
-### *property* VelocityWaterfallDiagram.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -301,7 +301,7 @@ Gets the IterationNumber.
 
 <a id="VelocityWaterfallDiagram.LoadStep"></a>
 
-### *property* VelocityWaterfallDiagram.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -309,7 +309,7 @@ Gets the LoadStep.
 
 <a id="VelocityWaterfallDiagram.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* VelocityWaterfallDiagram.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -317,7 +317,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="VelocityWaterfallDiagram.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* VelocityWaterfallDiagram.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -325,7 +325,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="VelocityWaterfallDiagram.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* VelocityWaterfallDiagram.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -333,7 +333,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="VelocityWaterfallDiagram.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* VelocityWaterfallDiagram.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -341,7 +341,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="VelocityWaterfallDiagram.LoadStepNumber"></a>
 
-### *property* VelocityWaterfallDiagram.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -365,7 +365,7 @@ Gets the Maximum.
 
 <a id="VelocityWaterfallDiagram.MaximumOccursOn"></a>
 
-### *property* VelocityWaterfallDiagram.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -397,7 +397,7 @@ Gets the Minimum.
 
 <a id="VelocityWaterfallDiagram.MinimumOccursOn"></a>
 
-### *property* VelocityWaterfallDiagram.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -421,7 +421,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="VelocityWaterfallDiagram.NamedSelections"></a>
 
-### *property* VelocityWaterfallDiagram.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -437,7 +437,7 @@ Gets or sets the NormalOrientation.
 
 <a id="VelocityWaterfallDiagram.PanelContribution"></a>
 
-### *property* VelocityWaterfallDiagram.PanelContribution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.PanelContribution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelContribution.
 
@@ -445,7 +445,7 @@ Gets or sets the PanelContribution.
 
 <a id="VelocityWaterfallDiagram.PanelsToDisplay"></a>
 
-### *property* VelocityWaterfallDiagram.PanelsToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.PanelsToDisplay *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelsToDisplay.
 
@@ -469,7 +469,7 @@ Gets the result table.
 
 <a id="VelocityWaterfallDiagram.Properties"></a>
 
-### *property* VelocityWaterfallDiagram.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -501,7 +501,7 @@ Gets or sets the STFTMinFreqResolution.
 
 <a id="VelocityWaterfallDiagram.STFTNumberSlice"></a>
 
-### *property* VelocityWaterfallDiagram.STFTNumberSlice *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.STFTNumberSlice *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the STFTNumberSlice.
 
@@ -509,7 +509,7 @@ Gets or sets the STFTNumberSlice.
 
 <a id="VelocityWaterfallDiagram.STFTOverlap"></a>
 
-### *property* VelocityWaterfallDiagram.STFTOverlap *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.STFTOverlap *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the STFTOverlap.
 
@@ -541,7 +541,7 @@ Gets or sets the ScopingMethod.
 
 <a id="VelocityWaterfallDiagram.SetNumber"></a>
 
-### *property* VelocityWaterfallDiagram.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -557,7 +557,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="VelocityWaterfallDiagram.SolverComponentIDs"></a>
 
-### *property* VelocityWaterfallDiagram.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -573,7 +573,7 @@ Gets or sets the SpatialResolution.
 
 <a id="VelocityWaterfallDiagram.Substep"></a>
 
-### *property* VelocityWaterfallDiagram.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -581,7 +581,7 @@ Gets the Substep.
 
 <a id="VelocityWaterfallDiagram.Suppressed"></a>
 
-### *property* VelocityWaterfallDiagram.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -645,7 +645,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="VelocityWaterfallDiagram.VisibleProperties"></a>
 
-### *property* VelocityWaterfallDiagram.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -653,7 +653,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="VelocityWaterfallDiagram.WaterfallShowTextOnMosaic"></a>
 
-### *property* VelocityWaterfallDiagram.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VelocityWaterfallDiagram.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -705,7 +705,7 @@ Creates a new child Figure.
 
 <a id="VelocityWaterfallDiagram.AddImage"></a>
 
-### VelocityWaterfallDiagram.AddImage(filePath: System.String)
+### VelocityWaterfallDiagram.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -733,7 +733,7 @@ Copies all visible properties from this object to another.
 
 <a id="VelocityWaterfallDiagram.CreateParameter"></a>
 
-### VelocityWaterfallDiagram.CreateParameter(propName: System.String)
+### VelocityWaterfallDiagram.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -781,7 +781,7 @@ Run the EvaluateAllResults action.
 
 <a id="VelocityWaterfallDiagram.ExportAnimation"></a>
 
-### VelocityWaterfallDiagram.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### VelocityWaterfallDiagram.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -789,7 +789,7 @@ Run the ExportAnimation action.
 
 <a id="VelocityWaterfallDiagram.ExportToTextFile"></a>
 
-### VelocityWaterfallDiagram.ExportToTextFile(filePath: System.String)
+### VelocityWaterfallDiagram.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -805,7 +805,7 @@ Run the FetchRemoteResult action.
 
 <a id="VelocityWaterfallDiagram.GetChildren"></a>
 
-### VelocityWaterfallDiagram.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### VelocityWaterfallDiagram.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -813,7 +813,7 @@ Gets the list of children, filtered by type.
 
 <a id="VelocityWaterfallDiagram.GetParameter"></a>
 
-### VelocityWaterfallDiagram.GetParameter(propName: System.String)
+### VelocityWaterfallDiagram.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -845,7 +845,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="VelocityWaterfallDiagram.PropertyByAPIName"></a>
 
-### VelocityWaterfallDiagram.PropertyByAPIName(name: System.String)
+### VelocityWaterfallDiagram.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -856,7 +856,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="VelocityWaterfallDiagram.PropertyByName"></a>
 
-### VelocityWaterfallDiagram.PropertyByName(name: System.String)
+### VelocityWaterfallDiagram.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -864,7 +864,7 @@ Get a property by its unique name.
 
 <a id="VelocityWaterfallDiagram.RemoveParameter"></a>
 
-### VelocityWaterfallDiagram.RemoveParameter(propName: System.String)
+### VelocityWaterfallDiagram.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

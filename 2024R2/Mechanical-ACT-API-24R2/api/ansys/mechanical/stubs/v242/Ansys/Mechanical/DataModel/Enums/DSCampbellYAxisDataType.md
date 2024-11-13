@@ -17,7 +17,7 @@ Specifies the DSCampbellYAxisDataType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`Frequency`](#DSCampbellYAxisDataType.Frequency) |
 | [`LogarithmicDecrement`](#DSCampbellYAxisDataType.LogarithmicDecrement) |
 | [`ModalDampingRatio`](#DSCampbellYAxisDataType.ModalDampingRatio) |

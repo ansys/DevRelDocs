@@ -17,7 +17,7 @@ Specifies the ElementOrientationGuide.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------------------------- |
 | [`CoordinateSystemGuide`](#ElementOrientationGuide.CoordinateSystemGuide) |
 | [`SurfaceEdgeGuide`](#ElementOrientationGuide.SurfaceEdgeGuide) |
 
