@@ -232,7 +232,7 @@ co-simulation analysis was being executed.
 ### SCP file format
 
 The SCP file is the same file that the SCP library can generate as described in
-[Completing the System Coupling Participant Setup](06_ParticipantSetup.md) section.
+[Completing the System Coupling Participant Setup](participant-setup.md) section.
 
 More information about the SCP file format can be found in the System Coupling User's Guide.
 

@@ -56,10 +56,10 @@ For more information, see:
   needs to access the heavyweight data.
   For a coupled analysis, all required data
   access functions must be registered prior to
-  [*coupled analysis initialization*](07_ParticipantStepsInCoupledAnalysis.md).
+  [*coupled analysis initialization*](participant-steps-in-coupled-analysis.md).
   For mapping, all required data
   access functions must be registered prior to
-  [*inputs update*](04_ParticipantStepsForMapping.md).
+  [*inputs update*](participant-steps-for-mapping.md).
 
 ## Data access functions
 
@@ -253,7 +253,7 @@ functions that provide access to that heavyweight data.
 In such a case, the participant solver should make sure that this heavyweight data and the original data are synchronized at certain steps.
 
 For mapping, the heavyweight data and the original data should be synchronized
-at certain [steps during mapping](04_ParticipantStepsForMapping.md):
+at certain [steps during mapping](participant-steps-for-mapping.md):
 
 - Before **inputs update**, the heavyweight input and output data are expected to be available.
   Output data, including the mesh data, should contain valid up-to-date values.
@@ -263,7 +263,7 @@ at certain [steps during mapping](04_ParticipantStepsForMapping.md):
   before processing that data.
 
 For a coupled analysis, the heavyweight data and the original data should be synchronized
-at certain [steps during the coupled analysis](07_ParticipantStepsInCoupledAnalysis.md):
+at certain [steps during the coupled analysis](participant-steps-in-coupled-analysis.md):
 
 - Before **coupled analysis initialization** is entered, the heavyweight input and output data are expected to be available.
   Output data, including the mesh data, should contain valid initial values.
@@ -295,7 +295,7 @@ data access structures:
 These structures provide access to data stored in arrays. This section focuses
 on these structures. These structures can be
 combined into higher-level structures to provide access to mesh and point cloud data.
-See [Mesh and point cloud data access](12_MeshDataAccess.md) for more details.
+See [Mesh and point cloud data access](mesh-data-access.md) for more details.
 
 The array data access structures require three pieces of information during their
 initialization (depending on the target language, some of this information is deduced

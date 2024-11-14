@@ -16,7 +16,7 @@ within the Participant Library using an MPI environment.
 
 Ensure that the following prerequisites are met. You've installed:
 
-- A compiler for one of the [supported languages](17_CompilingLinkingExecuting.md)
+- A compiler for one of the [supported languages](compiling-linking-executing.md)
 
 - Ansys installation, including System Coupling and EnSight.
 
@@ -31,7 +31,7 @@ algorithm that generates mesh with quadrilateral elements. The second region,
 **tri**, is meshed using an algorithm that generates mesh with trilateral
 elements. The meshes with default settings are shown in _Figure 1_.
 
-![Figure 1: Default pipe meshes](PipeMappingTutorialFigure1.png)  
+![Figure 1: Default pipe meshes](images/PipeMappingTutorialFigure1.png)  
 *Figure 1: Default pipe meshes*
 
 On each side, we initialize the nodal
@@ -94,7 +94,7 @@ binary space partitioning algorithm. The pipe is recursively sub-divided in
 either axial or circumferential directions, depending on which direction is longer.
 _Figure 2_ demonstrates how the **quad** region is divided when 7 partitions are used.
 
-![Figure 2: Sample partitioning](PipeMappingTutorialFigure2.png)  
+![Figure 2: Sample partitioning](images/PipeMappingTutorialFigure2.png)  
 *Figure 2: Sample partitioning*
 
 After mapping, the mesh and resulting solution data can be written to the
@@ -148,7 +148,7 @@ Directory containing the Fortran source code files:
 
 ## Build the pipe mapping program
 
-Build the Pipe Mapping program using a compiler for one of the [supported languages](17_CompilingLinkingExecuting.md).
+Build the Pipe Mapping program using a compiler for one of the [supported languages](compiling-linking-executing.md).
 
 > **Note:** *Pre-built executables are provided along with the source code, so this step is optional.*
 >
@@ -156,7 +156,7 @@ Build the Pipe Mapping program using a compiler for one of the [supported langua
 
 In the following examples, Pipe Mapping programs are built with different
 configurations. The actual build steps depend on your system configuration,
-compilers, and other details. For additional information, see [Compiling,
+compilers, and other details. For additional information, see [Compiling,compiling-linking-executing.md17_CompilingLinkingExecuting.md
 Linking, and Executing Applications That Use the Participant
 Library](17_CompilingLinkingExecuting.md) in the Participant Library
 _Developer's Guide_.
@@ -333,7 +333,7 @@ variables.
 _Figure 3_ shows the resulting plots. Note that the contours of the linear
 profiles are virtually identical in both regions.
 
-![Figure 3: Nodal solution data profiles for the mapped variables.](PipeMappingTutorialFigure3.png)  
+![Figure 3: Nodal solution data profiles for the mapped variables.](images/PipeMappingTutorialFigure3.png)  
 *Figure 3: Nodal solution data profiles for the mapped variables*
 
 ## Run and post-process the results using the provided customization settings
@@ -351,7 +351,7 @@ To refine the mesh on both **quad** and **tri** regions, re-run the pipe mapping
 
 **Figure 4** shows the resulting mesh and solution profiles in EnSight.
 
-![Figure 4: Solution profiles on refined meshes.](PipeMappingTutorialFigure4.png)  
+![Figure 4: Solution profiles on refined meshes.](images/PipeMappingTutorialFigure4.png)  
 *Figure 4: Solution profiles on refined meshes*
 
 ### Axial fffsetting of the pipes
@@ -368,7 +368,7 @@ that the solution profile in non-overlap section of the pipe is extrapolated
 from the nearby mapped sections, thus avoiding large discontinuities in the
 solution profile.
 
-![Figure 5: Solution profiles for axially offset regions.](PipeMappingTutorialFigure5.png)  
+![Figure 5: Solution profiles for axially offset regions.](images/PipeMappingTutorialFigure5.png)  
 *Figure 5: Solution profiles for axially offset regions*
 
 ### Parallel execution

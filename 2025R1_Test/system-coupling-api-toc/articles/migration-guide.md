@@ -175,7 +175,7 @@ In Fortran APIs, in `SyscInputScalarDataF`, `SyscInputVectorDataF`,
 This allows to remove the dependency on `iso_c_bindings` module from the APIs.
 To avoid compatibility issues in the future, it is recommended to use the data
 access helper functions (for example `syscGetInputScalarDataF`), as described in the
-[Access to Heavyweight Data](11_HeavyweightDataAccess.md)
+[Access to Heavyweight Data](heavyweight-data-access.md)
 section.
 
 ## Migrating from pre-2020 R2 releases
@@ -354,10 +354,10 @@ These APIs will remain available and can be used
 to complete the participant setup _during the setup stage_.
 
 For information on creating the setup files, see
-[Completing the System Coupling Participant Setup](06_ParticipantSetup.md)
+[Completing the System Coupling Participant Setup](participant-setup.md)
 
 For the most up-to-date information on the steps in a coupled analysis, see
-[Participant Steps in a Coupled Analysis](07_ParticipantStepsInCoupledAnalysis.md).
+[Participant Steps in a Coupled Analysis](participant-steps-in-coupled-analysis.md).
 
 ### Heavyweight data access Functions
 
@@ -386,7 +386,7 @@ have been modified to take an additional argument `nElems`:
 - `syscGetOutputVectorDataCompactF`
 
 For the most up-to-date information on the usage of these helper functions, see
-[Access to Heavyweight Data](11_HeavyweightDataAccess.md).
+[Access to Heavyweight Data](heavyweight-data-access.md).
 
 ## Known issues
 

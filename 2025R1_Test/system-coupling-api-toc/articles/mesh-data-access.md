@@ -1,6 +1,6 @@
 # Mesh and point cloud data access
 
-This section pre-supposes familiarity with the concepts introduced in [Access to heavyweight data](11_HeavyweightDataAccess.md) section.
+This section pre-supposes familiarity with the concepts introduced in [Access to heavyweight data](heavyweight-data-access.md) section.
 Heavyweight array data access structures described in that section can be
 combined into higher-level structures to provide access to mesh and point cloud data.
 This section describes these higher-level structures as well as requirements of mesh and point cloud structures.
@@ -92,40 +92,40 @@ This structure provides information about the element types. Supported element
 types are defined in the `ElementTypes.hpp` (C++), `syscElementTypes.h` (C),
 `syscElementTypesF.fi` (Fortran) header files and are shown in Figures 1 to 12 below.
 
-![Figure 1: Tri3 Element Type](Tri3.png)
+![Figure 1: Tri3 Element Type](images/Tri3.png)
 *Figure 1: Tri3 Element Type*
 
-![Figure 2: Tri6 Element Type](Tri6.png)
+![Figure 2: Tri6 Element Type](images/Tri6.png)
 *Figure 2: Tri6 Element Type*
 
-![Figure 3: Quad4 Element Type](Quad4.png)
+![Figure 3: Quad4 Element Type](images/Quad4.png)
 *Figure 3: Quad4 Element Type*
 
-![Figure 4: Quad8 Element Type](Quad8.png)
+![Figure 4: Quad8 Element Type](images/Quad8.png)
 *Figure 4: Quad8 Element Type*
 
-![Figure 5: Tet4 Element Type](Tet4.png)
+![Figure 5: Tet4 Element Type](images/Tet4.png)
 *Figure 5: Tet4 Element Type*
 
-![Figure 6: Tet10 Element Type](Tet10.png)
+![Figure 6: Tet10 Element Type](images/Tet10.png)
 *Figure 6: Tet10 Element Type*
 
-![Figure 7: Hex8 Element Type](Hex8.png)
+![Figure 7: Hex8 Element Type](images/Hex8.png)
 *Figure 7: Hex8 Element Type*
 
-![Figure 8: Hex20 Element Type](Hex20.png)
+![Figure 8: Hex20 Element Type](images/Hex20.png)
 *Figure 8: Hex20 Element Type*
 
-![Figure 9: Wedge6 Element Type](Wedge6.png)
+![Figure 9: Wedge6 Element Type](images/Wedge6.png)
 *Figure 9: Wedge6 Element Type*
 
-![Figure 10: Wedge15 Element Type](Wedge15.png)
+![Figure 10: Wedge15 Element Type](images/Wedge15.png)
 *Figure 10: Wedge15 Element Type*
 
-![Figure 11: Pyramid5 Element Type](Pyramid5.png)
+![Figure 11: Pyramid5 Element Type](images/Pyramid5.png)
 *Figure 11: Pyramid5 Element Type*
 
-![Figure 12: Pyramid13 Element Type](Pyramid13.png)
+![Figure 12: Pyramid13 Element Type](images/Pyramid13.png)
 *Figure 12: Pyramid13 Element Type*
 
 #### Element node count data
@@ -158,7 +158,7 @@ provided in clock-wise order. Another way to define it is the face normal
 (defined using the right-hand rule) must point from side 0 to side 1. Figure 13
 illustrates the convention for defining side 0 and side 1.
 
-![Figure 13: Face Side 0 and Side 1 Convention](Side0Side1.png)
+![Figure 13: Face Side 0 and Side 1 Convention](images/Side0Side1.png)
 *Figure 13: Face Side 0 and Side 1 Convention*
 
 The face may be connected to mesh cells on either side. If a face is connected
@@ -189,7 +189,7 @@ Figure 14 shows a sample surface mesh, with each node and face labelled. Note th
 in this example, there are high-order quadrilateral and trilateral with midside nodes.
 Also note that node ids are not contiguous.
 
-![Figure 14: Surface Mesh Element-Based Format Example](SurfaceMeshElementBasedExample.png)
+![Figure 14: Surface Mesh Element-Based Format Example](images/SurfaceMeshElementBasedExample.png)
 *Figure 14: Surface Mesh Element-Based Format Example*
 
 Due to the presence of the high-order elements, the element-based mesh format is more suitable for this example.
@@ -438,7 +438,7 @@ Figure 15 shows a sample surface mesh, with each node and face labelled. Note th
 in this example, there are quadrilateral, trilateral, and polygon faces. Also note
 that node ids are not contiguous.
 
-![Figure 15: Surface Mesh Face-Based Format Example](SurfaceMeshFaceBasedExample.png)
+![Figure 15: Surface Mesh Face-Based Format Example](images/SurfaceMeshFaceBasedExample.png)
 *Figure 15: Surface Mesh Face-Based Format Example*
 
 Due to the presence of the polygon faces, the face-based mesh format is more suitable for this example.
@@ -680,7 +680,7 @@ In the example, there are 12 nodes and 3 elements.
 Elements 2 and 3 are wedge elements (they each have 6 nodes),
 while element 1 is a hexahedral element (it has 8 nodes).
 
-![Figure 16: Volume Mesh Element-Based Format Example](VolumeMeshElementBasedExample.png)
+![Figure 16: Volume Mesh Element-Based Format Example](images/VolumeMeshElementBasedExample.png)
 *Figure 16: Volume Mesh Element-Based Format Example*
 
 Since there are no polyhedral elements, the element-based mesh format is suitable for this example.
@@ -904,7 +904,7 @@ only on one side. The remaining 3 faces are internal - they are shared
 between two cells: one face is shared between cells 2 & 3, one face is shared
 between cells 1 & 2, and one face is shared between cells 2 & 3.
 
-![Figure 17: Volume Mesh Face-Based Format Example](VolumeMeshFaceBasedExample.png)
+![Figure 17: Volume Mesh Face-Based Format Example](images/VolumeMeshFaceBasedExample.png)
 *Figure 17: Volume Mesh Face-Based Format Example*
 
 Due to the presence of the polyhedral cell, the face-based mesh format is more suitable for this example.

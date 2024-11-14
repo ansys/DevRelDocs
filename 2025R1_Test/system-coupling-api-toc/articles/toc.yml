@@ -1,48 +1,48 @@
 - name: Introduction
-  href: 01_Introduction.md
+  href: introduction.md
 - name: User guide
   href: index.md
   items:
   - name: System coupling participant library capabilities
-    href: 02_ParticipantLibraryCapabilities.md
+    href: participant-library-capabilities.md
   - name: Concepts overview
-    href: 03_ConceptsAndTerminology.md
+    href: concepts-and-terminology.md
   - name: Standalone mapping
-    href: 04_ParticipantStepsForMapping.md
+    href: participant-steps-for-mapping.md
   - name: Steps to set up and execute the coupled analysis
-    href: 05_StepsToSetupAndExecutedCoupledAnalysis.md
+    href: steps-to-setup-and-executed-coupled-analysis.md
   - name: Completing the System Coupling participant setup
-    href: 06_ParticipantSetup.md
-  - name: Participant steps in a coupled analysis
-    href: 07_ParticipantStepsInCoupledAnalysis.md
+    href: participant-setup.md
+  - name: participant steps in a coupled analysis
+    href: participant-steps-in-coupled-analysis.md
   - name: Command line arguments for participant solvers
-    href: 08_CommandLineArguments.md
+    href: command-line-arguments.md
   - name: Execution in a parallel environment
-    href: 09_ParallelExecution.md
+    href: parallel-execution.md
   - name: Access to parameter data
-    href: 10_ParameterDataAccess.md
+    href: parameter-data-access.md
   - name: Access to Heavyweight Data
-    href: 11_HeavyweightDataAccess.md
+    href: heavyweight-data-access.md
   - name: Mesh and point cloud data access
-    href: 12_MeshDataAccess.md
+    href: mesh-data-access.md
   - name: Creating restart points and restarting a coupled analysis
-    href: 13_Restarts.md
+    href: restarts.md
   - name: Multi-region coupling interfaces
-    href: 14_Multiregion.md
+    href: multiregion.md
   - name: Testing and debugging tools
-    href: 15_TestingDebuggingTools.md
+    href: testing-debugging-tools.md
   - name: Migration guide and known issues
-    href: 16_MigrationGuide.md
+    href: migration-guide.md
   - name: Compiling, linking, and executing applications that use the participant library
-    href: 17_CompilingLinkingExecuting.md
+    href: compiling-linking-executing.md
   - name: Heat transfer in square channel air flow tutorial
-    href: 18_ChannelFlowTutorial.md
+    href: channel-flow-tutorial.md
   - name: Oscillating plate damping tutorial
-    href: 19_PlateDampingTutorial.md
+    href: plate-damping-tutorial.md
   - name: Pipe mapping tutorial
-    href: 20_PipeMappingTutorial.md
+    href: pipe-mapping-tutorial.md
 - name: Changelog
-  href: 21_ReleaseNotes.md
+  href: release-notes.md
 - name: C API reference
   items:
   - name: Groups
