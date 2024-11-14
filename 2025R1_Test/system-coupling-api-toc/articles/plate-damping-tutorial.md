@@ -22,7 +22,7 @@ from a previously generated restart point.
 
 Ensure that the following prerequisites are met. You've installed:
 
-- A compiler for one of the [supported languages](17_CompilingLinkingExecuting.md)
+- A compiler for one of the [supported languages](compiling-linking-executing.md)
 - Ansys installation, including System Coupling and Mechanical
 
 ## Problem description and participant setup
@@ -36,7 +36,7 @@ fixed support along its bottom face. A pressure load of 100 [Pa] is applied on
 one side of the plate for the first 0.5 [s] of the simulation, which starts the
 oscillation. The setup is illustrated in _Figure 1_.
 
-![Figure 1: Structural solver geometry](PlateDampingTutorialFigure1.png)  
+![Figure 1: Structural solver geometry](images/PlateDampingTutorialFigure1.png)  
 *Figure 1: Structural solver geometry*
 
 Since the purpose of this example is to demonstrate the use of Participant
@@ -60,7 +60,7 @@ will be provided to the damping solver via a command line argument `--dampcoeff 
 The surface mesh for the damping solver consists of 11 quadrilateral elements
 that overlap the plate surface in Mechanical. The surface mesh is shown in _Figure 2_.
 
-![Figure 2: Surface mesh in the damping solver](PlateDampingTutorialFigure2.png)  
+![Figure 2: Surface mesh in the damping solver](images/PlateDampingTutorialFigure2.png)  
 *Figure 2: Surface mesh in the damping solver*
 
 ## Get the necessary files
@@ -107,7 +107,7 @@ The source code is provided in the **dampingsolver** subdirectory.
 In the following examples, damping solver applications are built with different configurations.
 The actual build steps depend on your system configuration, compilers, and other details.
 See
-[Compiling, Linking, and Executing Applications That Use the Participant Library](17_CompilingLinkingExecuting.md)
+[Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md)
 for additional information.
 
 The following compilers were used in these examples:
@@ -254,14 +254,14 @@ due to the force calculated in the damping solver.
     nodal displacement of the plate over time. Note that the damping that is
     visible in the plate's motion.
 
-![Figure 3: Plate tip displacement chart](PlateDampingTutorialFigure3.png)  
+![Figure 3: Plate tip displacement chart](images/PlateDampingTutorialFigure3.png)  
 *Figure 3: Plot of plate tip x-displacements over time*
 
 **Figure 4** shows the chart of plate tip position over time for different
 damping coefficients. As expected, the higher the damping coefficient is, the faster the
 plate oscillations diminish in amplitude.
 
-![Figure 4: Plate tip displacements chart](PlateDampingTutorialFigure4.png)  
+![Figure 4: Plate tip displacements chart](images/PlateDampingTutorialFigure4.png)  
 *Figure 4: Plot of plate tip x-displacements over time for different damping coefficients*
 
 ## Restarting the coupled analysis from an intermediate point
@@ -303,5 +303,5 @@ can be attributed to the limitations within System Coupling and Ansys
 Mechanical. For a more detailed description of these limitation, see "Restarting
 a Coupled Analysis" in the _System Coupling User's Guide_.
 
-![Figure 5: Comparison between the continuous and restarted runs](PlateDampingTutorialFigure5.png)
+![Figure 5: Comparison between the continuous and restarted runs](images/PlateDampingTutorialFigure5.png)
 *Figure 5: Comparison of results between the continuous and restarted runs*

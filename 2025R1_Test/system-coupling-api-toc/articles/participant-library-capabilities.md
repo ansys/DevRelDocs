@@ -57,9 +57,9 @@
 
 [2] EnSight results can be written by the participant library only if the mapping workflow is used.
 
-[3] For details, see [Execution in a parallel environment](09_ParallelExecution.md).
+[3] For details, see [Execution in a parallel environment](parallel-execution.md).
 
-[4] For details, see [Compiling, linking, and executing applications that use the Participant Library](17_CompilingLinkingExecuting.md).
+[4] For details, see [Compiling, linking, and executing applications that use the Participant Library](compiling-linking-executing.md).
 
 Note the following limitations:
 

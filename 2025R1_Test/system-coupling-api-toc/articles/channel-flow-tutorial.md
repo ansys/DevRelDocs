@@ -20,7 +20,7 @@ The mock solver code is modified to be executed within the MPI environment.
 
 Ensure that the following prerequisites are met. You've installed:
 
-- A compiler for one of the [supported languages](17_CompilingLinkingExecuting.md)
+- A compiler for one of the [supported languages](compiling-linking-executing.md)
 - Ansys installation, including System Coupling and Fluent
 
 ## Problem description and participant setup
@@ -49,7 +49,7 @@ The geometry is discretized using tetrahedral mesh, as shown in _Figure 1_.
 
 - The case is set up to perform five Fluent solver iterations per coupling iteration.
 
-![Figure 1: Fluent geometry](ChannelFlowTutorialFigure1.png)  
+![Figure 1: Fluent geometry](images/ChannelFlowTutorialFigure1.png)  
 *Figure 1: Fluent geometry*
 
 ### Mock solver
@@ -64,7 +64,7 @@ a rectangle extending from origin to point (1, 0.1, 0).
 
 - It sends heat rate on elements as outputs on the **FSI** region. Each of the four elements provides constant 5 [W], so a total of 20 [W] is supplied to Fluent by the mock solver.
 
-![Figure 2: Mock solver geometry](ChannelFlowTutorialFigure2.png)  
+![Figure 2: Mock solver geometry](images/ChannelFlowTutorialFigure2.png)  
 *Figure 2: Mock solver geometry*
 
 ## Get the necessary files
@@ -104,7 +104,7 @@ Directory containing the following files:
     information to be consumed by System Coupling. Note that this file has been
     pre-generated for this tutorial. For information about how to generate setup
     files using the Participant Library,
-    see [Completing the System Coupling Participant Setup](06_ParticipantSetup.md) in the
+    see [Completing the System Coupling Participant Setup](participant-setup.md) in the
     Participant Library Developer's Guide.
 
 - `runSerial.py`: System Coupling script file to setup and execute the coupled
@@ -124,7 +124,7 @@ demonstrated in the second part of this tutorial.
 
 Build the mock solver program using a compiler for one of the supported
 languages. For examples of how to build this mock solver with different
-compilers on different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](17_CompilingLinkingExecuting.md)
+compilers on different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md)
 in the Participant Library Developer's Guide.
 
 > **NOTE:** Pre-built solver executables are provided along with
@@ -210,7 +210,7 @@ You'll be able to visualize the air temperature as it gets heated while flowing 
 
     This allows you to visualize the air temperature as the air flows through the channel and the hot air is mixed with the colder air.
 
-![Figure 3: Fluent temperature results after co-simulation with the mock solver](ChannelFlowTutorialFigure3.png)  
+![Figure 3: Fluent temperature results after co-simulation with the mock solver](images/ChannelFlowTutorialFigure3.png)  
 *Figure 3: Fluent temperature results after co-simulation with the mock solver*
 
 ## Part 2: The parallel version of the mock solver
@@ -276,14 +276,14 @@ the tutorial package. Refer to that source code and the comments for more
 implementation details.
 
 For more details on how to implement the Participant Library APIs for execution
-in a parallel environment, see [Execution in a Parallel Environment](09_ParallelExecution.md) in the
+in a parallel environment, see [Execution in a Parallel Environment](parallel-execution.md) in the
 Participant Library _Developer's Guide_.
 
 ### Build the parallel mock solver
 
 Build the parallel mock solver program using a compiler for one of the supported
 languages. For examples of how to build this solver with different compilers on
-different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](17_CompilingLinkingExecuting.md) in the Participant
+different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md) in the Participant
 Library _Developer's Guide_.
 
 > **Note:** Pre-built solver executables are provided along with
@@ -292,7 +292,7 @@ Library _Developer's Guide_.
 ### Run the parallel mock solver in standalone mode
 
 For examples of how to execute this solver in standalone mode with different
-compilers on different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](17_CompilingLinkingExecuting.md)
+compilers on different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md)
 in the Participant Library _Developer's Guide_.
 
 ### Perform the coupled analysis using the parallel mock solver

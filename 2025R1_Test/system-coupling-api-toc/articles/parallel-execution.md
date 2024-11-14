@@ -10,7 +10,7 @@ available MPIs for Windows and Linux platforms.
 The participant library is expected to be compatible with those MPIs.
 
 The second part of the
-[Heat transfer in square channel air flow](18_ChannelFlowTutorial.md)
+[Heat transfer in square channel air flow](channel-flow-tutorial.md)
 tutorial demonstrates the usage of the parallel APIs.
 
 ## Using a supported MPI distribution
@@ -143,7 +143,7 @@ used instead of `intel` in the path above.
 
 For examples of compiling, linking, and executing a program that uses the
 participant library and a supported MPI, see
-[Compiling, linking, and executing applications that use the Participant library](17_CompilingLinkingExecuting.md)
+[Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
 
 ## Using an unsupported MPI distribution
 
@@ -159,5 +159,5 @@ in the following directory:
 
 `<Ansys Installation Path>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<version>/multiport/mpi_wrapper/<platform>/stub`
 
-See [Compiling, Linking, and Executing Applications That Use the Participant Library](17_CompilingLinkingExecuting.md)
+See [Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md)
 for more detailed examples.

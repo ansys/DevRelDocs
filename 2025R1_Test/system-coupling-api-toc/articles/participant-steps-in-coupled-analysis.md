@@ -5,20 +5,20 @@ This process is depicted in Figure 1 for a steady analysis, Figure 2 for a trans
 analysis with iterations (implicit time integration), and Figure 3 for transient analysis
 without iterations (explicit time integration). Each step is described in more detail below.
 
-![Figure 1: Sequence of participant steps for a steady analysis](ParticipantStepsInCoupledAnalysisFigure1.png)  
+![Figure 1: Sequence of participant steps for a steady analysis](images/ParticipantStepsInCoupledAnalysisFigure1.png)  
 *Figure 1: Sequence of participant steps for a steady analysis*
 
-![Figure 2: Sequence of participant steps for a transient analysis with iterations](ParticipantStepsInCoupledAnalysisFigure2.png)  
+![Figure 2: Sequence of participant steps for a transient analysis with iterations](images/ParticipantStepsInCoupledAnalysisFigure2.png)  
 *Figure 2: Sequence of participant steps for a transient analysis with iterations*
 
-![Figure 3: Sequence of participant steps for a transient analysis without iterations](ParticipantStepsInCoupledAnalysisFigure3.png)  
+![Figure 3: Sequence of participant steps for a transient analysis without iterations](images/ParticipantStepsInCoupledAnalysisFigure3.png)  
 *Figure 3: Sequence of participant steps for a transient analysis without iterations*
 
 As described in the introduction, co-simulation and mapping workflows can be
 combined. To perform mapping while doing the coupled analysis, an additional step,
 *mapping setup*, is required prior to *heavyweight data access and initialization* step.
 See details of the mapping setup step in
-[Steps to perform mapping](04_ParticipantStepsForMapping.md).
+[Steps to perform mapping](participant-steps-for-mapping.md).
 Mapping will be performed during inputs update step, inside the coupled analysis loop.
 
 ## Connect to System Coupling
@@ -28,7 +28,7 @@ and build information.
 
 If running in parallel using a supported MPI distribution, MPI communicator should
 also be provided. See
-[Execution in a parallel environment](09_ParallelExecution.md)
+[Execution in a parallel environment](parallel-execution.md)
 for more details.
 
 ### C++
@@ -90,8 +90,8 @@ Register any other callback functions (for example a callback for creating a res
 In the examples below, `getSurfaceMesh`, `getInputScalarData`, and
 `createRestartPoint` are functions that conform to provided prototypes that
 are to be implemented in the participant solver. See
-[Access to heavyweight data](11_HeavyweightDataAccess.md) and
-[Creating restart points and restarting a coupled analysis](13_Restarts.md)
+[Access to heavyweight data](heavyweight-data-access.md) and
+[Creating restart points and restarting a coupled analysis](restarts.md)
 for more details.
 
 ### C++
@@ -132,7 +132,7 @@ sc.registerRestartPointCreation(createRestartPoint)
 
 Notify System Coupling that the analysis can be initialized. Note that if parameters
 are used, initial values for output parameters should be set prior to initializing
-the analysis. If no initial value is set, the parameter will be initialized to zero. See [Parameter Data Access](10_ParameterDataAccess.md) for more details.
+the analysis. If no initial value is set, the parameter will be initialized to zero. See [Parameter Data Access](parameter-data-access.md) for more details.
 
 ### C++
 

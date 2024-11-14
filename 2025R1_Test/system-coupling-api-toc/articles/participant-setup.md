@@ -22,7 +22,7 @@ Some of the disadvantages of this approach are:
 - This is an extra file that needs to be generated during the setup.
 - The SCP file must be consistent with the participant setup. If the setup changes, the SCP file may have to be re-generated.
 
-The [Heat transfer in square channel air flow](18_ChannelFlowTutorial.md)
+The [Heat transfer in square channel air flow](channel-flow-tutorial.md)
 tutorial demonstrates how the SCP file can be used
 during the setup stage to add the participant to the coupled analysis.
 
@@ -33,7 +33,7 @@ the participant by specifying the path to the participant executable
 (as well as working directory and any additional command line arguments).
 System Coupling invokes the participant in setup mode by adding `--scsetup` command
 line argument, along with the host, port, and participant name arguments.
-See [Command line arguments for participant solvers](08_CommandLineArguments.md)
+See [Command line arguments for participant solvers](command-line-arguments.md)
 for more details on the command line arguments.
 The participant in setup mode connects to System Coupling and the setup
 is communicated. Once the participant in setup mode is shut down, the
@@ -50,7 +50,7 @@ Some of the disadvantages of this approach are:
 
 - Adding the participant may take longer if the participant has to read the mesh during the setup
 
-The [Oscillating plate damping](19_PlateDampingTutorial.md) tutorial demonstrates
+The [Oscillating plate damping](plate-damping-tutorial.md) tutorial demonstrates
 how the participant library can be used
 during the setup stage to add the participant to the coupled analysis.
 
@@ -67,7 +67,7 @@ This wrapper script should then be provided to System Coupling as the participan
 
 The sequence of steps to be traversed during the participant setup is shown in Figure 1.
 
-![Figure 1: Sequence of Coupled Participant Setup Steps](ParticipantStepsInSetupMode.png)  
+![Figure 1: Sequence of Coupled Participant Setup Steps](images/ParticipantStepsInSetupMode.png)  
 *Figure 1: Sequence of Coupled Participant Setup Steps*
 
 ### Step 1: Start in standalone mode or connect to System Coupling
