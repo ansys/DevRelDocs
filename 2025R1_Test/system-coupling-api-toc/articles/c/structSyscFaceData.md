@@ -1,4 +1,3 @@
-<a id="structSyscFaceData"></a>
 # Structure SyscFaceData
 
 ![][C++]

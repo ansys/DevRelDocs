@@ -1,4 +1,3 @@
-<a id="structsysc_1_1ParticipantInfo"></a>
 # Structure sysc::ParticipantInfo
 
 ![][C++]

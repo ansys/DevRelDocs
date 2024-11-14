@@ -1,4 +1,3 @@
-<a id="structsysc_1_1MeshValidityStatus"></a>
 # Structure sysc::MeshValidityStatus
 
 ![][C++]

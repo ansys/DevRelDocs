@@ -1,4 +1,3 @@
-<a id="structSyscVolumeMesh"></a>
 # Structure SyscVolumeMesh
 
 ![][C++]

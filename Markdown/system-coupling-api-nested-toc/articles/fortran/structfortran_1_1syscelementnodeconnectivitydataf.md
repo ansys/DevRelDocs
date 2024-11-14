@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscelementnodeconnectivitydataf"></a>
 # Type fortran::syscelementnodeconnectivitydataf undefined
 
 ![][Fortran]

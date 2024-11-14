@@ -1,4 +1,3 @@
-<a id="syscFunctionTypes_8h"></a>
 # File syscFunctionTypes.h
 
 ![][C++]

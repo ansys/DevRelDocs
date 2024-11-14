@@ -1,4 +1,3 @@
-<a id="CommonTypes_8hpp"></a>
 # File CommonTypes.hpp
 
 ![][C++]

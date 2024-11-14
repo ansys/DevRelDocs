@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscintegerattributef"></a>
 # Type fortran::syscintegerattributef undefined
 
 ![][Fortran]

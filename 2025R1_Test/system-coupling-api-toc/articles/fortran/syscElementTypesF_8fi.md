@@ -1,4 +1,3 @@
-<a id="syscElementTypesF_8fi"></a>
 # File syscElementTypesF.fi
 
 ![][Fortran]

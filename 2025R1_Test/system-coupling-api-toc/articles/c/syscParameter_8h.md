@@ -1,4 +1,3 @@
-<a id="syscParameter_8h"></a>
 # File syscParameter.h
 
 ![][C++]

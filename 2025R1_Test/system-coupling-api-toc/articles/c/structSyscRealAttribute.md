@@ -1,4 +1,3 @@
-<a id="structSyscRealAttribute"></a>
 # Structure SyscRealAttribute
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="structsysc_1_1ResultsInfo"></a>
 # Structure sysc::ResultsInfo
 
 ![][C++]

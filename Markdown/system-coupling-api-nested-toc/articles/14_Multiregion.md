@@ -10,7 +10,7 @@ However, if agglomeration is not feasible,
 the implementation of the participant library APIs should
 be consistent with the rules described in this section.
 
-### Mesh definition for multi-region coupling interfaces
+## Mesh definition for multi-region coupling interfaces
 
 When providing access to region mesh for a multi-region case,
 care should be taken when handling shared nodes.
@@ -62,7 +62,7 @@ single coupling interface, then agglomeration is preferred but not necessary.
 ![Figure 4: Mesh arrays for the case where regions are agglomerated into one](MultiregionFigure4.png)  
 *Figure 4: Mesh arrays for the case where regions are agglomerated into one*
 
-### Solution field data for multi-region coupling interfaces
+## Solution field data for multi-region coupling interfaces
 
 When working with multi-region cases, one should also be careful with
 how the solution field data is handled on shared nodes.

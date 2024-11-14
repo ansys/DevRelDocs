@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetcurrenttimestepf"></a>
 # Interface fortran::syscgetcurrenttimestepf
 
 ![][Fortran]

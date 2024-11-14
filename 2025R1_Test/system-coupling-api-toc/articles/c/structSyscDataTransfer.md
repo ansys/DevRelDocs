@@ -1,4 +1,3 @@
-<a id="structSyscDataTransfer"></a>
 # Structure SyscDataTransfer
 
 ![][C++]

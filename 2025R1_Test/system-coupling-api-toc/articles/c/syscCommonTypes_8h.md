@@ -1,4 +1,3 @@
-<a id="syscCommonTypes_8h"></a>
 # File syscCommonTypes.h
 
 ![][C++]

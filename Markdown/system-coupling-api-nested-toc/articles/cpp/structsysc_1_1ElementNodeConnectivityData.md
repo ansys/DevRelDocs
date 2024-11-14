@@ -1,4 +1,3 @@
-<a id="structsysc_1_1ElementNodeConnectivityData"></a>
 # Structure sysc::ElementNodeConnectivityData
 
 ![][C++]

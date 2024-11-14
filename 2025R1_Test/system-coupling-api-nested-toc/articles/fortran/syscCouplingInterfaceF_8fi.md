@@ -1,4 +1,3 @@
-<a id="syscCouplingInterfaceF_8fi"></a>
 # File syscCouplingInterfaceF.fi
 
 ![][Fortran]

@@ -1,4 +1,3 @@
-<a id="structfortran_1_1sysccouplinginterfacef"></a>
 # Type fortran::sysccouplinginterfacef undefined
 
 ![][Fortran]

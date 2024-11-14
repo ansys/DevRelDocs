@@ -1,4 +1,3 @@
-<a id="CommonSettings_8hpp"></a>
 # File CommonSettings.hpp
 
 ![][C++]

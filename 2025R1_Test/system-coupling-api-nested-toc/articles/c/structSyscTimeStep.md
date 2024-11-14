@@ -1,4 +1,3 @@
-<a id="structSyscTimeStep"></a>
 # Structure SyscTimeStep
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetpointcloudf"></a>
 # Interface fortran::syscgetpointcloudf
 
 ![][Fortran]

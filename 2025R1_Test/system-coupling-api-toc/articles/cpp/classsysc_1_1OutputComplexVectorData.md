@@ -1,4 +1,3 @@
-<a id="classsysc_1_1OutputComplexVectorData"></a>
 # Class sysc::OutputComplexVectorData
 
 ![][C++]

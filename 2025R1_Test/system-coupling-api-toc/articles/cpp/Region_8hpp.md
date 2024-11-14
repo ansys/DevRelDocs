@@ -1,4 +1,3 @@
-<a id="Region_8hpp"></a>
 # File Region.hpp
 
 ![][C++]

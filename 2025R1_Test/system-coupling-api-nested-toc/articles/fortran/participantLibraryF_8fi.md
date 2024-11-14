@@ -1,4 +1,3 @@
-<a id="participantLibraryF_8fi"></a>
 # File participantLibraryF.fi
 
 ![][Fortran]

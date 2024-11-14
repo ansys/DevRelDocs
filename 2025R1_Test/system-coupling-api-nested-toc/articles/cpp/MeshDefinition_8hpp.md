@@ -1,4 +1,3 @@
-<a id="MeshDefinition_8hpp"></a>
 # File MeshDefinition.hpp
 
 ![][C++]

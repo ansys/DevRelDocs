@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetnumcouplinginterfacesf"></a>
 # Interface fortran::syscgetnumcouplinginterfacesf
 
 ![][Fortran]

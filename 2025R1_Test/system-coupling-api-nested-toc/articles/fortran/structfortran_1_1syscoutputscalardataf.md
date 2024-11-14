@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscoutputscalardataf"></a>
 # Type fortran::syscoutputscalardataf undefined
 
 ![][Fortran]

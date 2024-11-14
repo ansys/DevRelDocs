@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1sysccouplinginterfacegetnumsidetworegionsf"></a>
 # Interface fortran::sysccouplinginterfacegetnumsidetworegionsf
 
 ![][Fortran]

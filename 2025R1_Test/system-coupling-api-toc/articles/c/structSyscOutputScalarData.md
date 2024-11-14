@@ -1,4 +1,3 @@
-<a id="structSyscOutputScalarData"></a>
 # Structure SyscOutputScalarData
 
 ![][C++]

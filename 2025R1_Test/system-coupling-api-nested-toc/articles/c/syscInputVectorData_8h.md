@@ -1,4 +1,3 @@
-<a id="syscInputVectorData_8h"></a>
 # File syscInputVectorData.h
 
 ![][C++]

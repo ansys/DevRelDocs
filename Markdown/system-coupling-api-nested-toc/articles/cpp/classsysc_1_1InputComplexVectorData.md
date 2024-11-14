@@ -1,4 +1,3 @@
-<a id="classsysc_1_1InputComplexVectorData"></a>
 # Class sysc::InputComplexVectorData
 
 ![][C++]

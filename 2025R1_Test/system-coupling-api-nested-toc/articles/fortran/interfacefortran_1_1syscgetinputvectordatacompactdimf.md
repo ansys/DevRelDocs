@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetinputvectordatacompactdimf"></a>
 # Interface fortran::syscgetinputvectordatacompactdimf
 
 ![][Fortran]

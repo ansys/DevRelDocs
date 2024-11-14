@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscregisterpointcloudaccessf"></a>
 # Interface fortran::syscregisterpointcloudaccessf
 
 ![][Fortran]

@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1restartpointcreationintf"></a>
 # Interface fortran::restartpointcreationintf
 
 ![][Fortran]

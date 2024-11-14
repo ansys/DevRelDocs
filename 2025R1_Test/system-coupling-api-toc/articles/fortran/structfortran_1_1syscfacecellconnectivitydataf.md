@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscfacecellconnectivitydataf"></a>
 # Type fortran::syscfacecellconnectivitydataf undefined
 
 ![][Fortran]

@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscrealattributef"></a>
 # Type fortran::syscrealattributef undefined
 
 ![][Fortran]

@@ -1,4 +1,3 @@
-<a id="structSyscCouplingInterface"></a>
 # Structure SyscCouplingInterface
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="syscCommonTypesF_8fi"></a>
 # File syscCommonTypesF.fi
 
 ![][Fortran]

@@ -8,7 +8,7 @@ solver and the Fluent solver as participants.
 The latter part of this tutorial demonstrates the use of parallel interfaces.
 The mock solver code is modified to be executed within the MPI environment.
 
-### Topics covered
+## Topics covered
 
 - Steady analysis
 - Temperature and heat flow transfer
@@ -16,20 +16,20 @@ The mock solver code is modified to be executed within the MPI environment.
 - Parallel execution
 - Setup via the SCP file approach
 
-### Verify prerequisites
+## Verify prerequisites
 
 Ensure that the following prerequisites are met. You've installed:
 
 - A compiler for one of the [supported languages](17_CompilingLinkingExecuting.md)
 - Ansys installation, including System Coupling and Fluent
 
-### Problem description and participant setup
+## Problem description and participant setup
 
 In this example, air is heated as it flows through a rectangular channel. The Fluent solver
 is used to model the air flow, and a simple mock solver is used to supply the heatflow to Fluent
 via System Coupling.
 
-#### Fluent
+### Fluent
 
 The Fluent setup involves the flow of air through a rectangular 1-meter-long channel with a
 square 0.1 by 0.1 [m] cross-section.
@@ -52,7 +52,7 @@ The geometry is discretized using tetrahedral mesh, as shown in _Figure 1_.
 ![Figure 1: Fluent geometry](ChannelFlowTutorialFigure1.png)  
 *Figure 1: Fluent geometry*
 
-#### Mock solver
+### Mock solver
 
 The mock solver creates a rectangular surface region named **FSI**. This region
 overlaps the Fluent region participating in the coupled analysis, so it is also
@@ -67,7 +67,7 @@ a rectangle extending from origin to point (1, 0.1, 0).
 ![Figure 2: Mock solver geometry](ChannelFlowTutorialFigure2.png)  
 *Figure 2: Mock solver geometry*
 
-### Get the necessary files
+## Get the necessary files
 
 Download the [SCP library tutorial
 package](https://github.com/ansys/DevRelPublic/raw/main/Downloads/SystemCoupling/syc_ParticipantLibrary_r1_25.zip)
@@ -113,14 +113,14 @@ Directory containing the following files:
 - `runParallel.py`: System Coupling script file to setup and execute the
   coupled analysis using the parallel version of the mock solver.
 
-### Part 1: serial version of the mock solver
+## Part 1: serial version of the mock solver
 
 For simplicity, **Part 1** of this tutorial uses the serial version of the mock
 solver and executes both the mock solver and Fluent in serial. **Part 2** will
 demonstrate a more advanced parallel version of the same problem will be
 demonstrated in the second part of this tutorial.
 
-#### Build the mock solver
+### Build the mock solver
 
 Build the mock solver program using a compiler for one of the supported
 languages. For examples of how to build this mock solver with different
@@ -130,7 +130,7 @@ in the Participant Library Developer's Guide.
 > **NOTE:** Pre-built solver executables are provided along with
 > the source code, so this step is optional.
 
-#### Run the mock solver in standalone mode
+### Run the mock solver in standalone mode
 
 To confirm that the APIs were implemented successfully in the mock solver
 program, run the executable in standalone mode. To detect any implementation
@@ -163,9 +163,9 @@ console. It will execute the mock coupled analysis for five coupling iterations.
 > Files\ANSYS Inc\v212`). Alternatively, you can modify the scripts to use a
 > different environment variable.
 
-#### Perform the coupled analysis using the mock solver
+### Perform the coupled analysis using the mock solver
 
-##### Setup
+#### Setup
 
 Execute the coupled analysis (in serial) by using the `runSerial.py` script:
 
@@ -184,7 +184,7 @@ You can monitor the solution progress by watching the transcript output.
 
 If the case runs without issue, you've successfully created a mock solver and run a co-simulation between Fluent and the mock solver.
 
-#### Visualize the results in CFD-Post
+### Visualize the results in CFD-Post
 
 Use CFD-Post to view the Fluent results after the co-simulation run is complete.
 You'll be able to visualize the air temperature as it gets heated while flowing through the rectangular channel.
@@ -213,7 +213,7 @@ You'll be able to visualize the air temperature as it gets heated while flowing 
 ![Figure 3: Fluent temperature results after co-simulation with the mock solver](ChannelFlowTutorialFigure3.png)  
 *Figure 3: Fluent temperature results after co-simulation with the mock solver*
 
-### Part 2: The parallel version of the mock solver
+## Part 2: The parallel version of the mock solver
 
 The second part of this tutorial demonstrates how to modify this case to
 run the mock solver in a parallel MPI environment:
@@ -227,7 +227,7 @@ run the mock solver in a parallel MPI environment:
 
 - The Fluent solver will also run in local parallel, using its default MPI.
 
-#### Parallel mock solver source code
+### Parallel mock solver source code
 
 The original mock solver has been modified to work in a parallel MPI
 environment. The main difference between the serial and parallel versions is the
@@ -279,7 +279,7 @@ For more details on how to implement the Participant Library APIs for execution
 in a parallel environment, see [Execution in a Parallel Environment](09_ParallelExecution.md) in the
 Participant Library _Developer's Guide_.
 
-#### Build the parallel mock solver
+### Build the parallel mock solver
 
 Build the parallel mock solver program using a compiler for one of the supported
 languages. For examples of how to build this solver with different compilers on
@@ -289,15 +289,15 @@ Library _Developer's Guide_.
 > **Note:** Pre-built solver executables are provided along with
 > the source code, so this step is optional.
 
-#### Run the parallel mock solver in standalone mode
+### Run the parallel mock solver in standalone mode
 
 For examples of how to execute this solver in standalone mode with different
 compilers on different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](17_CompilingLinkingExecuting.md)
 in the Participant Library _Developer's Guide_.
 
-#### Perform the coupled analysis using the parallel mock solver
+### Perform the coupled analysis using the parallel mock solver
 
-##### Setup
+#### Setup
 
 The coupled analysis will be performed using local parallel execution. The Intel
 MPI distribution that comes with System Coupling will be used to execute the

@@ -1,4 +1,3 @@
-<a id="classsysc_1_1Parameter"></a>
 # Class sysc::Parameter
 
 ![][C++]

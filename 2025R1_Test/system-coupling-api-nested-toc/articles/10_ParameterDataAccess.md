@@ -9,7 +9,7 @@ For more information, see:
 - [Input parameter data](#input-parameter-data)
 - [Output parameter data](#output-parameter-data)
 
-### Relevant concepts
+## Relevant concepts
 
 - **Input data**
 
@@ -20,13 +20,13 @@ For more information, see:
 
   Output data is for output parameters provided to System Coupling by the participant.
 
-### Input parameter data
+## Input parameter data
 
 Access to input parameters, that is parameter data that are provided to the participant by System Coupling, is only available after update inputs has been called. Note that a copy of the parameter value will be sent to the participant.
 
-#### Examples of getting input parameter data
+### Examples of getting input parameter data
 
-##### C++
+#### C++
 
 ```cpp
 sc.updateInputs();
@@ -36,7 +36,7 @@ inParameterValue = sc.getParameterValue(inParameterName);
 
 ```
 
-#### C
+### C
 
 ```c
 SyscError errorCode;
@@ -44,7 +44,7 @@ errorCode = syscUpdateInputs();
 double inParameterValue = syscGetParameterValue(inParameterName, &errorCode);
 ```
 
-#### Python
+### Python
 
 ```python
 sc.updateInputs()
@@ -53,13 +53,13 @@ inParameterValue = sc.getParameterValue(inParameterName)
 # ... use parameters here ...
 ```
 
-### Output parameter data
+## Output parameter data
 
 Access to output parameters, that is parameter data that are sent to  System Coupling by the participant, may be done before initialize analysis (to provide initial values for the parameter) and prior to update outputs (during the solution loop). Note that a copy of the parameter value will be sent to system coupling.
 
-#### Examples of setting initial parameter data
+### Examples of setting initial parameter data
 
-##### C++
+#### C++
 
 ```cpp
 sc.setParameterValue(outParameter1, out1Value);
@@ -67,7 +67,7 @@ sc.setParameterValue(outParameter2, out2Value);
 sc.initializeAnalysis();
 ```
 
-##### C
+#### C
 
 ```c
 SyscError ret;
@@ -76,7 +76,7 @@ ret = syscSetParameterValue(outParameter2, out2Value);
 ret = syscInitializeAnalysis();
 ```
 
-##### Python
+#### Python
 
 ```python
 sc.setParameterValue(outParameter1, out1Value)
@@ -84,9 +84,9 @@ sc.setParameterValue(outParameter2, out2Value)
 sc.initializeAnalysis()
 ```
 
-#### Examples of setting parameter data during an analysis
+### Examples of setting parameter data during an analysis
 
-##### C++
+#### C++
 
 ```cpp
 // within the solution loop
@@ -96,7 +96,7 @@ sc.updateOutputs(sysc::Converged);
 
 ```
 
-##### Python
+#### Python
 
 ```python
 # within the solution loop

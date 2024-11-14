@@ -9,7 +9,7 @@ This section describes these higher-level structures as well as requirements of 
 
 [Point Cloud](#point-cloud)
 
-### Mesh
+## Mesh
 
 The mesh formats can be broken down into two categories: element-based mesh and
 face-based mesh.
@@ -42,7 +42,7 @@ participant solvers can be expected to choose one of the two mesh formats.
 
 [Face-based volume mesh example](#face-based-volume-mesh-example)
 
-#### Intermediate structures
+### Intermediate structures
 
 The intermediate structures are used to define the mesh. These structures
 are node data, element type data, element node count data, element-to-node connectivity data,
@@ -63,7 +63,7 @@ Face-based mesh format requires:
   4. Face-to-cell connectivity data (if volume mesh)
   5. Cell id data (if volume mesh)
 
-##### Node data
+#### Node data
 
 This structure provides information about the mesh nodes. There are two relevant
 pieces of information when providing node data: node ids and node coordinates.
@@ -86,7 +86,7 @@ not not provided, then node coordinates must be provided in the ascending node
 ids order. In this case, the actual node ids are implicitly provided elsewhere,
 for example via element-to-node connectivity data (see below).
 
-##### Element type data
+#### Element type data
 
 This structure provides information about the element types. Supported element
 types are defined in the `ElementTypes.hpp` (C++), `syscElementTypes.h` (C),
@@ -128,17 +128,17 @@ types are defined in the `ElementTypes.hpp` (C++), `syscElementTypes.h` (C),
 ![Figure 12: Pyramid13 Element Type](Pyramid13.png)
 *Figure 12: Pyramid13 Element Type*
 
-##### Element node count data
+#### Element node count data
 
 This structure provides information about the element node counts. It contains
 the number of elements as well as the number of nodes within each element.
 
-##### Element-to-node connectivity data
+#### Element-to-node connectivity data
 
 This structure provides information about the element-to-node connectivity. That
 is, for each element, the ids of nodes connected to that element are provided.
 
-##### Cell id data
+#### Cell id data
 
 The cell id data structure provides information about the cell ids.
 
@@ -148,7 +148,7 @@ have to be contiguous. However, cell ids must be positive. Zero is reserved to
 mean the absence of a cell when defining face-to-cell connectivity (see below),
 therefore 0 is not a valid id for a mesh cell.
 
-##### Face-to-cell connectivity data
+#### Face-to-cell connectivity data
 
 This structure provides information about the face-to-cell connectivity data.
 
@@ -169,7 +169,7 @@ contain the id of that cell in its "cell 1" entry.
 If the face is not connected to any cell on either side, then its corresponding
 cell 0 or cell 1 entry must contain zero.
 
-#### Mesh model information
+### Mesh model information
 
 Surface and volume regions can be topologically connected and the underlying
 mesh can be shared. A volume mesh can have bounding surfaces.
@@ -183,7 +183,7 @@ Side 0 and side 1 region names must refer to a valid volume region (with a valid
 It is important to maintain the convention for side 0 and side 1 as shown in Figure 13.
 The region names must refer to valid volume regions.
 
-#### Element-based surface mesh example
+### Element-based surface mesh example
 
 Figure 14 shows a sample surface mesh, with each node and face labelled. Note that
 in this example, there are high-order quadrilateral and trilateral with midside nodes.
@@ -194,7 +194,7 @@ Also note that node ids are not contiguous.
 
 Due to the presence of the high-order elements, the element-based mesh format is more suitable for this example.
 
-##### Node data
+#### Node data
 
 If providing node ids, node coordinates must be provided in the same order as node ids:
 
@@ -247,7 +247,7 @@ Node coords:
 When providing solution data on nodes, the ordering of the solution data must be consistent with the
 ordering of the node coordinates.
 
-##### Element type data
+#### Element type data
 
 Relevant element types are shown in Figure 2 and Figure 4 above.
 High-order trilateral element types are assigned the value of 6,
@@ -264,7 +264,7 @@ Element types:
  6} // Element III
 ```
 
-##### Element-to-node connectivity data
+#### Element-to-node connectivity data
 
 Note that element-to-node connectivity contains the same node ids that are
 defined in the node data structure. If the node ids are omitted from the node
@@ -282,7 +282,7 @@ Element-to-node connectivity:
  2, 6, 5, 26, 56, 25}        // Element III
 ```
 
-##### C++
+#### C++
 
 The data is stored in STL vector structures. Then, basic data structures (`sysc::OutputIntegerData` and `sysc::OutputVectorData`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -313,7 +313,7 @@ sysc::ElementNodeConnectivityData elemNodeConnectivityData(elemNodeIdData);
 sysc::SurfaceMesh mesh(nodeData, elemTypeData, elemNodeConnectivityData);
 ```
 
-##### C
+#### C
 
 The data is stored in C arrays. Then, basic data structures (`SyscOutputIntegerData` and `SyscOutputVectorData`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -351,7 +351,7 @@ SyscElementNodeConnectivityData elemNodeConnectivityData = syscGetElementNodeCon
 SyscSurfaceMesh mesh = syscGetSurfaceMeshNTI(nodeData, elemTypeData, elemNodeConnectivityData);
 ```
 
-##### Fortran
+#### Fortran
 
 The data is stored in Fortran arrays. Then, basic data structures
 (`SyscOutputIntegerDataF` and `SyscOutputVectorDataF`) are created to pass these
@@ -398,7 +398,7 @@ type(SyscSurfaceMeshF) :: mesh
 mesh = syscGetSurfaceMeshF(nodeData, elemTypeData, elemNodeConnectivityData)
 ```
 
-##### Python
+#### Python
 
 The data is stored in Numpy arrays. Then, basic data structures (`sysc.OutputIntegerData` and `sysc.OutputVectorData`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -432,7 +432,7 @@ elemNodeConnectivityData = sysc.ElementNodeConnectivityData(elemNodeIdData)
 mesh = sysc.SurfaceMesh(nodeData, elemTypeData, elemNodeConnectivityData)
 ```
 
-#### Face-based surface mesh example
+### Face-based surface mesh example
 
 Figure 15 shows a sample surface mesh, with each node and face labelled. Note that
 in this example, there are quadrilateral, trilateral, and polygon faces. Also note
@@ -448,7 +448,7 @@ To describe the mesh in this example, the following structures are required:
 - Element node count data
 - Element-to-node connectivity data
 
-##### Node data
+#### Node data
 
 If providing node ids, node coordinates must be provided in the same order as node ids:
 
@@ -489,7 +489,7 @@ Node coords:
 When providing solution data on nodes, the ordering of the solution data must be
 consistent with the ordering of the node coordinates.
 
-##### Element node count data
+#### Element node count data
 
 Note that when providing solution data on elements (faces), the ordering of the
 solution data must be consistent with the ordering of the elements in this
@@ -504,7 +504,7 @@ Element node counts:
  5} // Face IV
 ```
 
-##### Element-to-node connectivity data
+#### Element-to-node connectivity data
 
 Note that the element-to-node connectivity contains the same node ids that are
 defined in the node data structure. If the node ids are omitted from the node
@@ -520,7 +520,7 @@ Element-to-node connectivity:
  6, 7, 8, 18, 12} // Face IV
 ```
 
-##### C++
+#### C++
 
 The data is stored in STL vector structures. Then, basic data
 structures (`sysc::OutputIntegerData` and `sysc::OutputVectorData`) are created
@@ -553,7 +553,7 @@ sysc::ElementNodeConnectivityData elemNodeConnectivityData(faceNodeIdData);
 sysc::SurfaceMesh mesh(nodeData, elemNodeCountData, elemNodeConnectivityData);
 ```
 
-##### C
+#### C
 
 The data is stored in C arrays. Then, basic data structures (`SyscOutputIntegerData` and `SyscOutputVectorData`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -591,7 +591,7 @@ SyscElementNodeConnectivityData elemNodeConnectivityData = syscGetElementNodeCon
 SyscSurfaceMesh mesh = syscGetSurfaceMeshNCI(nodeData, elemNodeCountData, elemNodeConnectivityData);
 ```
 
-##### Fortran
+#### Fortran
 
 The data is stored in Fortran arrays. Then, basic data structures (`SyscOutputIntegerDataF` and `SyscOutputVectorDataF`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -636,7 +636,7 @@ type(SyscSurfaceMeshF) :: mesh
 mesh = syscGetSurfaceMeshF(nodeData, elemNodeCountData, elemNodeConnectivityData)
 ```
 
-##### Python
+#### Python
 
 The data is stored in Numpy arrays. Then, basic data structures (`sysc.OutputIntegerData` and `sysc.OutputVectorData`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -670,7 +670,7 @@ elemNodeConnectivityData = sysc.ElementNodeConnectivityData(faceNodeIdData)
 mesh = sysc.SurfaceMesh(nodeData, elemNodeCountData, elemNodeConnectivityData)
 ```
 
-#### Element-based volume mesh example
+### Element-based volume mesh example
 
 Figure 16 shows a sample volume mesh, with each node and element labelled. The
 coordinates are also shown for each node.
@@ -685,7 +685,7 @@ while element 1 is a hexahedral element (it has 8 nodes).
 
 Since there are no polyhedral elements, the element-based mesh format is suitable for this example.
 
-##### Node data
+#### Node data
 
 If providing node ids, node coordinates must be provided in the same order as
 node ids. If node ids are omitted, then the node coordinates must be provided
@@ -712,7 +712,7 @@ Node coords:
  2.0, 1.0, 0.0} // node 12
 ```
 
-##### Element type data
+#### Element type data
 
 Element Type data structure is used to specify the type of each element.
 
@@ -731,7 +731,7 @@ Element types:
  13} // Element 3
 ```
 
-##### Element-to-node connectivity data
+#### Element-to-node connectivity data
 
 Element-to-Node Connectivity data structure is used to specify element-to-node connectivity.
 Note that the node ordering must be consistent with what is shown in Figures 7 and 9.
@@ -744,7 +744,7 @@ Element-to-node connectivity:
  5, 12, 6, 2, 9, 3 } // element 3
 ```
 
-##### C++
+#### C++
 
 The data is stored in STL vector structures. Then, basic data structures
 (`sysc::OutputIntegerData` and `sysc::OutputVectorData`) are created to pass
@@ -776,7 +776,7 @@ sysc::VolumeMesh mesh(
     elemNodeConnectivityData);
 ```
 
-##### C
+#### C
 
 The data is stored in C arrays. Then, basic data structures (`SyscOutputIntegerData` and `SyscOutputVectorData`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -813,7 +813,7 @@ SyscVolumeMesh mesh = syscGetVolumeMeshElementBased(
     elemNodeConnectivityData);
 ```
 
-##### Fortran
+#### Fortran
 
 The data is stored in Fortran arrays. Then, basic data structures (`SyscOutputIntegerDataF` and `SyscOutputVectorDataF`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -856,7 +856,7 @@ mesh = syscGetVolumeMeshF(&
     elemNodeConnectivityData)
 ```
 
-##### Python
+#### Python
 
 The data is stored in Numpy arrays. Then, basic data structures (`sysc.OutputIntegerData` and `sysc.OutputVectorData`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -889,7 +889,7 @@ mesh = sysc.VolumeMesh(
     elemNodeConnectivityData)
 ```
 
-#### Face-based volume mesh example
+### Face-based volume mesh example
 
 Figure 17 shows a sample volume mesh, with each node and cell labelled. The
 coordinates are also shown for each node.
@@ -909,7 +909,7 @@ between cells 1 & 2, and one face is shared between cells 2 & 3.
 
 Due to the presence of the polyhedral cell, the face-based mesh format is more suitable for this example.
 
-##### Node data
+#### Node data
 
 If providing node ids, node coordinates must be provided in the same order as
 node ids. If node ids are omitted, then the node coordinates must be provided
@@ -940,7 +940,7 @@ Node coords:
  2.0,  1.0, 0.0} // node 16
 ```
 
-##### Element node count data
+#### Element node count data
 
 Element Node Count data structure is used to specify node counts for each **face**.
 
@@ -965,7 +965,7 @@ Face node counts:
  4} // top face on cell 3
 ```
 
-##### Element-to-node connectivity data
+#### Element-to-node connectivity data
 
 Element-to-Node Connectivity data structure is used to specify **face-to-node** connectivity.
 Note that for the 13 boundary faces (faces that are not shared between two cells), the orientation is such that
@@ -992,7 +992,7 @@ Face-to-node connectivity:
  9, 10, 16, 15} // top face on cell 3
 ```
 
-##### Face-to-cell connectivity data
+#### Face-to-cell connectivity data
 
 Face-to-cell connectivity data specifies which cells are connected to each face.
 Note that if there is no cell connected to the face on a side, then the corresponding
@@ -1040,7 +1040,7 @@ cell1:
  0} // top face on cell 3
 ```
 
-##### Cell id data
+#### Cell id data
 
 Cell ids must be explicitly provided via the Cell Id data structure.
 Note that when providing solution data on elements (cells), the solution data
@@ -1052,7 +1052,7 @@ Cell ids
 {1, 2, 3}
 ```
 
-##### C++
+#### C++
 
 The data is stored in STL vector structures. Then, basic data structures
 (`sysc::OutputIntegerData` and `sysc::OutputVectorData`) are created to pass
@@ -1095,7 +1095,7 @@ sysc::VolumeMesh mesh(
     cellIdData);
 ```
 
-##### C
+#### C
 
 The data is stored in C arrays. Then, basic data structures (`SyscOutputIntegerData` and `SyscOutputVectorData`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -1145,7 +1145,7 @@ SyscVolumeMesh mesh = syscGetVolumeMeshFaceBased(
     cellIdData);
 ```
 
-##### Fortran
+#### Fortran
 
 The data is stored in Fortran arrays. Then, basic data structures (`SyscOutputIntegerDataF` and `SyscOutputVectorDataF`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -1204,7 +1204,7 @@ mesh = syscGetVolumeMeshF(&
     cellIdData)
 ```
 
-##### Python
+#### Python
 
 The data is stored in Numpy arrays. Then, basic data structures (`sysc.OutputIntegerData` and `sysc.OutputVectorData`) are created
 to pass these arrays to System Coupling. The basic structures are then used to create the
@@ -1248,18 +1248,18 @@ mesh = sysc.VolumeMesh(
     cellIdData)
 ```
 
-### Point cloud
+## Point cloud
 
 Point cloud regions are collections of points (or nodes) with unspecified
 connectivities. To define a point cloud, node ids and node coordinates must be
 provided.
 
-#### Point cloud example
+### Point cloud example
 
 This example shows how to create a point cloud that contains two nodes -
 one at the origin of the coordinate system (0, 0, 0) and another one at coordinates (1, 1, 1).
 
-##### C++
+#### C++
 
 The data is stored in STL vector structures. Then, basic data structures (`sysc::OutputIntegerData`
 and `sysc::OutputVectorData`) are created
@@ -1279,7 +1279,7 @@ sysc::OutputVectorData nodeCoordData(nodeCoords);
 sysc::PointCloud pointCloud(nodeIdData, nodeCoordData);
 ```
 
-##### C
+#### C
 
 The data is stored in C arrays. Then, basic data structures
 (`SyscOutputIntegerData` and `SyscOutputVectorData`) are created to pass these
@@ -1303,7 +1303,7 @@ SyscOutputVectorData nodeCoordData = syscGetOutputVectorDataCompactDouble(nodeCo
 SyscPointCloud pointCloud = syscGetPointCloud(nodeIdData, nodeCoordData);
 ```
 
-##### Fortran
+#### Fortran
 
 The data is stored in Fortran arrays. Then, basic data structures
 (`SyscOutputIntegerDataF` and `SyscOutputVectorDataF`) are created to pass these
@@ -1330,7 +1330,7 @@ type(SyscPointCloudF) :: pointCloud
 pointCloud = syscGetPointCloudF(nodeIdData, nodeCoordData)
 ```
 
-##### Python
+#### Python
 
 The data is stored in Numpy arrays. Then, basic data structures (`sysc.OutputIntegerData`
 and `sysc.OutputVectorData`) are created to pass these arrays to System Coupling.

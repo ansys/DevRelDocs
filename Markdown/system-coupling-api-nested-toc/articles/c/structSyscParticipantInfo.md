@@ -1,4 +1,3 @@
-<a id="structSyscParticipantInfo"></a>
 # Structure SyscParticipantInfo
 
 ![][C++]

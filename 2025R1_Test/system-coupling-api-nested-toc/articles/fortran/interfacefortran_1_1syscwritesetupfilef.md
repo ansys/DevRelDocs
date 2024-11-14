@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscwritesetupfilef"></a>
 # Interface fortran::syscwritesetupfilef
 
 ![][Fortran]

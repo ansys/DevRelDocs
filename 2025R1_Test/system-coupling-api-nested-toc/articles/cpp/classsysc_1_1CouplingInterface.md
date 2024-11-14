@@ -1,4 +1,3 @@
-<a id="classsysc_1_1CouplingInterface"></a>
 # Class sysc::CouplingInterface
 
 ![][C++]

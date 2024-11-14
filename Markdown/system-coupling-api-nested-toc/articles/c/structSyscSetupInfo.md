@@ -1,4 +1,3 @@
-<a id="structSyscSetupInfo"></a>
 # Structure SyscSetupInfo
 
 ![][C++]

@@ -8,7 +8,7 @@ See the System Coupling User's Guide for more information.
 System Coupling participant library provides the APIs to create restart
 points.
 
-### Setup stage
+## Setup stage
 
 During the setup stage, the participant should indicate whether
 the restarts are supported.
@@ -20,7 +20,7 @@ be completed. See
 [Completing the System Coupling participant setup](06_ParticipantSetup.md)
 for more details.
 
-### Creating restart points
+## Creating restart points
 
 During the coupled analysis, if the participant solver supports restarts,
 a callback function that can be called to create
@@ -32,7 +32,7 @@ The function is expected to return a string that identifies
 that restart point. This string will in turn be provided to the
 participant solver during a restart run.
 
-#### C++
+###  C++
 
 ```cpp
 ...
@@ -52,7 +52,7 @@ sc.registerRestartPointCreation(&createRestartPoint);
 ...
 ```
 
-#### C
+###  C
 
 ```c
 char restartPoint[STRING_MAX_SIZE];
@@ -70,7 +70,7 @@ syscRegisterRestartPointCreation(&createRestartPoint);
 ...
 ```
 
-#### Fortran
+###  Fortran
 
 ```fortran
 ...
@@ -85,7 +85,7 @@ end function createRestartPoint
 syscRegisterRestartPointCreationF(createRestartPoint)
 ```
 
-#### Python
+###  Python
 
 ```python
 from pyExt import SystemCouplingParticipant as sysc
@@ -105,7 +105,7 @@ sc.registerRestartPointCreation(createRestartPoint)
 ...
 ```
 
-### Restarting the analysis from a restart point
+## Restarting the analysis from a restart point
 
 When restarting the coupled analysis, System Coupling will provide
 the string that was returned when the restart point was created.

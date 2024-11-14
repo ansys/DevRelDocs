@@ -1,4 +1,3 @@
-<a id="structSyscVariable"></a>
 # Structure SyscVariable
 
 ![][C++]

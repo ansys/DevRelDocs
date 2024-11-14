@@ -1,4 +1,3 @@
-<a id="classsysc_1_1PointCloud"></a>
 # Class sysc::PointCloud
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="classsysc_1_1OutputComplexScalarData"></a>
 # Class sysc::OutputComplexScalarData
 
 ![][C++]

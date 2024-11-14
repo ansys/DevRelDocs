@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetregionf"></a>
 # Interface fortran::syscgetregionf
 
 ![][Fortran]

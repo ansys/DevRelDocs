@@ -1,4 +1,3 @@
-<a id="structfortran_1_1sysccelldataf"></a>
 # Type fortran::sysccelldataf undefined
 
 ![][Fortran]

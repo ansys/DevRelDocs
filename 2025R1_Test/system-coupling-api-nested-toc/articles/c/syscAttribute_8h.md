@@ -1,4 +1,3 @@
-<a id="syscAttribute_8h"></a>
 # File syscAttribute.h
 
 ![][C++]

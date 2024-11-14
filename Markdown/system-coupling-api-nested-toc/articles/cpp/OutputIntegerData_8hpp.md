@@ -1,4 +1,3 @@
-<a id="OutputIntegerData_8hpp"></a>
 # File OutputIntegerData.hpp
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="ElementTypes_8hpp"></a>
 # File ElementTypes.hpp
 
 ![][C++]

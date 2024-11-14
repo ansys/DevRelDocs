@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscresultsinfof"></a>
 # Type fortran::syscresultsinfof undefined
 
 ![][Fortran]

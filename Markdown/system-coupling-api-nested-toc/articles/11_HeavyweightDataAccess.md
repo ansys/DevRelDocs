@@ -14,7 +14,7 @@ For more information, see:
 - [Supported heavyweight data formats](#supported-heavyweight-data-formats)
 - [Array data access structures](#array-data-access-structures)
 
-### Relevant concepts
+## Relevant concepts
 
 - **Input data**
 
@@ -61,7 +61,7 @@ For more information, see:
   access functions must be registered prior to
   [*inputs update*](04_ParticipantStepsForMapping.md).
 
-### Data access functions
+## Data access functions
 
 To provide access to the heavyweight data,
 the participant must also implement data access
@@ -102,19 +102,19 @@ output scalar variable access.
 For information on how to implement data access functions,
 see Tutorial: Heat Transfer in Square Channel Air Flow.
 
-#### C++
+### C++
 
 Data access function prototypes are defined in the following header file:
 
 - `SystemCouplingParticipant/FunctionTypes.hpp`
 
-#### C
+### C
 
 Data access function prototypes are defined in the following header file:
 
 - `syscFunctionTypes.h`
 
-#### Fortran
+### Fortran
 
 Data access function interfaces are defined in the following header
 file (located either in **FortranFreeForm** or **FortranFixedForm**
@@ -122,11 +122,11 @@ sub-directory, depending on desired Fortran layout):
 
 - `syscFunctionTypesF.fi`
 
-#### Python
+### Python
 
 Data access function prototypes closely follow those in C++.
 
-### Supported heavyweight data formats
+## Supported heavyweight data formats
 
 The compatible formats for heavyweight data are:
 
@@ -275,7 +275,7 @@ at certain [steps during the coupled analysis](07_ParticipantStepsInCoupledAnaly
 - Before **outputs update** is entered, the participant should make sure that the heavyweight data contains the
   updated values for all the output variables, as well as for the mesh.
 
-### Array data access structures
+## Array data access structures
 
 Access to heavyweight data is provided via creating
 **data access data structures** and implementing **data access functions** (*callback* functions) that
@@ -308,15 +308,15 @@ automatically and does not need to be explicitly specified):
 The following examples show how to create data access structures to provide access to heavyweight data to
 the participant library.
 
-#### Integer data structure examples
+### Integer data structure examples
 
-##### Example: Output integer data
+#### Example: Output integer data
 
 In this example, the mesh node ids are stored as an array of
 unsigned 64-bit integer values. To provide access to this variable,
 create the `OutputIntegerData` structure as shown below.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)
@@ -330,7 +330,7 @@ sysc::OutputIntegerData nodeIdData(nodeIds, numIntegers);
 Note that for C++, if data is stored in STL Vector container, that container can be
 used directly. See [Example Input Scalar in an STL Vector Container (C++ only)](#example-input-scalar-in-an-stl-vector-container-c-only).
 
-###### C
+##### C
 
 For C, a helper function `syscGetOutputIntegerDataUInt64` is provided for this case.
 
@@ -344,7 +344,7 @@ SyscOutputIntegerData nodeIdData = syscGetOutputIntegerDataUInt64(
     nodeIds, numIntegers);
 ```
 
-###### Fortran
+##### Fortran
 
 For Fortran, a helper function `syscGetOutputIntegerDataF` is provided
 for this case.
@@ -358,7 +358,7 @@ type(SyscOutputIntegerDataF) :: nodeIdData
 nodeIdData = syscGetOutputIntegerDataF(nodeIds, size(nodeIds, kind=8))
 ```
 
-###### Python
+##### Python
 
 For Python, any C-style array can be used to create `OutputIntegerData` object,
 with the help of ctypes module.
@@ -383,16 +383,16 @@ nodeIdData = sysc.OutputIntegerData(
 Note that for Python, if data is stored in a Numpy array container, that container can be
 used directly. See [Example Output Integer Data in a Numpy Array Container (Python only)](#example-output-integer-data-in-a-numpy-array-container-python-only).
 
-#### Scalar data structure examples
+### Scalar data structure examples
 
-##### Example: Input scalar data
+#### Example: Input scalar data
 
 In this example, the participant solver has values of an
 input scalar variable stored in memory as a double-precision array.
 To provide access to this variable,
 create the `InputScalarData` structure as shown below.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)
@@ -403,7 +403,7 @@ std::size_t numScalars = 4;
 sysc::InputScalarData temperatureData(temperature, numScalars);
  ```
 
-###### C
+##### C
 
 For C, a helper function `syscGetInputScalarDataDouble` is provided for this case.
 
@@ -417,7 +417,7 @@ SyscInputScalarData temperatureData = syscGetInputScalarDataDouble(
     temperature, numScalars);
  ```
 
-###### Fortran
+##### Fortran
 
 For Fortran, a helper function `syscGetInputScalarDataF` is provided
 for this case.
@@ -431,7 +431,7 @@ type(SyscInputScalarDataF) :: temperatureData
 temperatureData = syscGetInputScalarDataF(temperature, size(temperature, kind=8))
   ```
 
-###### Python
+##### Python
 
 For Python, numpy arrays can be passed in to create `InputScalarData` object.
 
@@ -443,14 +443,14 @@ temperature = np.array([1, 2, 3, 4], dtype = np.float64)
 temperatureData = sysc.InputScalarData(temperature)
 ```
 
-##### Example: Output scalar data
+#### Example: Output scalar data
 
 In this example, the participant solver has values of an
 output scalar variable stored in memory as a single-precision array.
 To provide access to this variable,
 create the `OutputScalarData` structure as shown below.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)
@@ -461,7 +461,7 @@ std::size_t numScalars = 4;
 sysc::OutputScalarData heatflowData(heatflow, numScalars);
  ```
   
-###### C
+##### C
 
 For C, a helper function `syscGetOutputScalarDataFloat` is provided for this case.
 
@@ -475,7 +475,7 @@ SyscOutputScalarData heatflowData =
     syscGetOutputScalarDataFloat(heatflow, numScalars);
 ```
 
-###### Fortran
+##### Fortran
 
 For Fortran, a helper function `syscGetOutputScalarDataF` is provided
 for this case.
@@ -489,7 +489,7 @@ type(SyscOutputScalarDataF) :: heatflowData
 heatflowData = syscGetOutputScalarDataF(heatflow, size(heatflow, kind=8))
 ```
 
-###### Python
+##### Python
 
 For Python, numpy arrays can be passed in to create `OutputScalarData` object.
 
@@ -501,12 +501,12 @@ heatflow = np.array([1, 2, 3, 4], dtype = np.float32)
 heatflowData = sysc.OutputScalarData(heatflow)
 ```
 
-#### Vector data structure examples
+### Vector data structure examples
 
 Vector data storage can be categorized as either compact or split storage.
 Examples are provided for both categories.
 
-##### Example: Compact input vector data in a one-dimensional array
+#### Example: Compact input vector data in a one-dimensional array
 
 In this example, the participant solver has values of an
 input vector variable stored in memory as a compact one-dimensional array.
@@ -517,7 +517,7 @@ each with 3 components. So, the total size of the array
 in memory is 30, but the size passed in here
 must be 10, not 30.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)
@@ -529,7 +529,7 @@ std::size_t numVectors = 10;
 sysc::InputVectorData displacementData(displacement, numVectors);
 ```
 
-###### C
+##### C
 
 For C, a helper function `syscGetInputVectorDataCompactDouble` is
 provided for this case.
@@ -545,7 +545,7 @@ SyscInputVectorData displacementData =
     syscGetInputVectorDataCompactDouble(displacement, numVectors);
 ```
 
-###### Fortran
+##### Fortran
 
 For Fortran, a helper function `syscGetInputVectorDataCompactF` is provided
 for this case.
@@ -560,7 +560,7 @@ type(SyscInputVectorDataF) :: displacementData
 displacementData = syscGetInputVectorDataCompactF(displacement, numVectors)
 ```
 
-###### Python
+##### Python
 
 For Python, numpy arrays can be passed in to create `InputVectorData` object.
 
@@ -576,7 +576,7 @@ displacement = np.array(
 displacementData = sysc.InputVectorData(displacement)
 ```
 
-##### Example: Compact output vector data in a two-dimensional array
+#### Example: Compact output vector data in a two-dimensional array
 
 In this example, the participant solver has values of an
 output vector variable stored in memory as a compact two-dimensional array.
@@ -585,7 +585,7 @@ To provide access to this variable, create the `OutputVectorData` structure as s
 Note that the size provided is 2 &mdash; there are 2 vectors,
 each with 3 components.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)
@@ -597,7 +597,7 @@ float force[numVectors][numComponents] = {{0.0, 0.0, 0.0}, {1.0, 1.0, 1.0}};
 sysc::OutputVectorData forceData(&force[0][0], numVectors);
  ```
 
-###### C
+##### C
 
 For C, a helper function `syscGetOutputVectorDataCompactFloat` is
 provided for this case.
@@ -613,7 +613,7 @@ SyscOutputVectorData forceData =
     syscGetOutputVectorDataCompactFloat(&force[0][0], NUMVECTORS);
 ```
 
-###### Fortran
+##### Fortran
 
 For Fortran, a helper function `syscGetOutputVectorDataCompactF` is provided
 for this case.
@@ -638,7 +638,7 @@ type(SyscOutputVectorDataF) :: forceData
 forceData = syscGetOutputVectorDataCompactF(force, numVectors)
 ```
 
-###### Python
+##### Python
 
 For Python, numpy arrays can be passed in to create `OutputVectorData` object.
 
@@ -651,7 +651,7 @@ force = np.array([[0, 0, 0], [1, 1, 1]], dtype = np.float32)
 forceData = sysc.OutputVectorData(force)
 ```
 
-##### Example: Split input vector data in separate arrays
+#### Example: Split input vector data in separate arrays
 
 In this example, the participant solver has values of an
 input vector variable stored in memory as three separate arrays, one
@@ -661,7 +661,7 @@ To provide access to this variable, create the `InputVectorData` structure as sh
 Note that the size provided is 4 &mdash; there are 4 vectors,
 each with 3 components.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)
@@ -674,7 +674,7 @@ std::size_t numVectors = 4;
 sysc::InputVectorData displacementData(dx, dy, dz, numVectors);
  ```
   
-###### C
+##### C
 
 For C, a helper function `syscGetInputVectorDataSplitFloat` is provided
 for this case.
@@ -691,7 +691,7 @@ SyscInputVectorData displacementData =
     syscGetInputVectorDataSplitFloat(dx, dy, dz, numVectors);
  ```
 
-###### Fortran
+##### Fortran
 
 For Fortran, a helper function `syscGetInputVectorDataSplitF` is provided
 for this case.
@@ -708,7 +708,7 @@ type(SyscInputVectorDataF) :: displacementData
 displacementData = syscGetInputVectorDataSplitF(dx, dy, dz, numVectors)
 ```
 
-###### Python
+##### Python
 
 For Python, numpy arrays can be passed in to create `InputVectorData` object.
 
@@ -723,7 +723,7 @@ dz = np.array([1, 2, 3, 4], dtype = np.float64)
 displacementData = sysc.InputVectorData(dx, dy, dz)
 ```
 
-##### Example: Split output vector data in a two-dimensional array
+#### Example: Split output vector data in a two-dimensional array
 
 In this example, the participant solver has values of an
 output vector variable stored in memory as a split two-dimensional array.
@@ -732,7 +732,7 @@ To provide access to this variable, create the `OutputVectorData` structure as s
 Note that the size provided is 2 &mdash; there are 2 vectors,
 each with 3 components.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)
@@ -744,7 +744,7 @@ double coords[numComponents][numVectors] = {{0.0, 1.0}, {0.0, 1.0}, {0.0, 1.0}};
 sysc::OutputVectorData coordsData(&coords[0][0], &coords[1][0], &coords[2][0], numVectors);
 ```
 
-###### C
+##### C
 
 For C, a helper function `syscGetOutputVectorDataSplitDouble` is
 provided for this case.
@@ -764,7 +764,7 @@ SyscOutputVectorData coordsData =
         NUMVECTORS);
 ```
 
-###### Fortran
+##### Fortran
 
 For Fortran, a helper function `syscGetOutputVectorDataSplitF` is provided for this case.
 
@@ -788,7 +788,7 @@ type(SyscOutputVectorDataF) :: coordsData
 coordsData = syscGetOutputVectorDataSplitF(coords, numVectors)
 ```
 
-###### Python
+##### Python
 
 For Python, numpy arrays can be passed in to create `OutputVectorData` object.
 
@@ -801,7 +801,7 @@ coords = np.array([[0, 1], [0, 1], [0, 1]], dtype = np.float64)
 coordsData = sysc.OutputVectorData(coords[0], coords[1], coords[2])
 ```
 
-##### Example: Compact output complex vector data in a two-dimensional array, compact layout
+#### Example: Compact output complex vector data in a two-dimensional array, compact layout
 
 In this example, the participant solver has values of an
 output vector variable stored in memory as a split two-dimensional array.
@@ -810,7 +810,7 @@ To provide access to this variable, create the `OutputComplexVectorData` structu
 Note that the size provided is 2 &mdash; there are 2 vectors,
 each with 3 components, and each component is a complex number.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)
@@ -832,7 +832,7 @@ std::complex<double> values[numVectors][numComponents] = {
 sysc::OutputComplexVectorData data(&values[0][0], numVectors);
 ```
 
-###### C
+##### C
 
 For C, a helper function `syscGetOutputCompactComplexCompactVectorDataDouble` is provided for this case.
 
@@ -856,7 +856,7 @@ SyscOutputComplexVectorData data =
         NUMVECTORS);
 ```
 
-###### Fortran
+##### Fortran
 
 For Fortran, a helper function `syscGetOutputComplexVectorDataCompactF` is provided for this case.
 
@@ -876,7 +876,7 @@ type(SyscOutputComplexVectorDataF) :: data
 data = syscGetOutputComplexVectorDataCompctF(values, numVectors)
 ```
 
-###### Python
+##### Python
 
 For Python, numpy arrays can be passed in to create `OutputComplexVectorData` object.
 
@@ -889,9 +889,9 @@ values = np.array([[0.0 + 1.0j, 0.0 + 1.0j, 0.0 + 1.0j], [0.0 + 1.0j, 0.0 + 1.0j
 coordsData = sysc.OutputVectorData(values)
 ```
 
-#### Other Examples
+### Other Examples
 
-##### Example input scalar in an STL vector container (C++ only)
+### Example input scalar in an STL vector container (C++ only)
 
 In this example, the participant solver has an input scalar
 variable stored in memory as an STL vector.
@@ -903,7 +903,7 @@ Note that the size does not need to
 be provided because it can be automatically deduced from the
 STL vector size.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)
@@ -914,7 +914,7 @@ std::vector<double> temperature = {100.0, 200.0, 300.0, 400.0};
 sysc::InputScalarData temperatureData(temperature); 
 ```
 
-##### Example output integer data in a numpy array container (Python only)
+#### Example output integer data in a numpy array container (Python only)
 
 In this example, the participant solver has an output integer data
 stored in memory as a numpy array.
@@ -926,7 +926,7 @@ Note that the size does not need to
 be provided because it can be automatically deduced from the
 Numpy array size.
 
-###### Python
+##### Python
 
 ```python
 import numpy as np
@@ -939,7 +939,7 @@ nodeIds = np.array([1, 2, 3, 4], dtype = np.uint64)
 nodeIdData = sysc.OutputIntegerData(nodeIds)
 ```
 
-##### Example: 2D input vector data in a one-dimensional array (C++ only)
+#### Example: 2D input vector data in a one-dimensional array (C++ only)
 
 In this example, the participant solver has values of an
 input vector variable stored in memory as a compact one-dimensional array.
@@ -958,7 +958,7 @@ std::size_t numVectors = 15;
 sysc::InputVectorData displacementData2D(displacement, numVectors, sysc::Dimension::D2);
 ```
 
-##### Example: 2D compact output vector data in a two-dimensional array (C only)
+#### Example: 2D compact output vector data in a two-dimensional array (C only)
 
 In this example, the participant solver has values of an
 output vector variable stored in memory as a compact two-dimensional array.
@@ -980,7 +980,7 @@ SyscOutputVectorData forceData2D =
     syscGetOutputVectorDataCompactFloatDim(&force[0][0], NUMVECTORS, SyscD2);
 ```
 
-##### Example: Split input vector data in separate arrays (Fortran only)
+#### Example: Split input vector data in separate arrays (Fortran only)
 
 In this example, the participant solver has values of an
 input vector variable stored in memory as three separate arrays, one
@@ -1002,7 +1002,7 @@ type(SyscInputVectorDataF) :: displacementData2D
 displacementData2D = syscGetInput2DVectorDataSplitF(dx, dy, numVectors)
 ```
 
-##### Example: 2D split output vector data in a two-dimensional array (Python only)
+#### Example: 2D split output vector data in a two-dimensional array (Python only)
 
 In this example, the participant solver has values of an
 output vector variable stored in memory as a split two-dimensional array.
@@ -1021,7 +1021,7 @@ coords = np.array([[0, 1], [0, 1]], dtype = np.float64)
 coordsData2D = sysc.OutputVectorData(coords[0], coords[1])
 ```
 
-##### Example: 2D compact output complex vector data in a two-dimensional array, compact layout (C++ only)
+#### Example: 2D compact output complex vector data in a two-dimensional array, compact layout (C++ only)
 
 In this example, the participant solver has values of an
 output vector variable stored in memory as a split two-dimensional array.
@@ -1029,7 +1029,7 @@ To provide access to this variable, create the 2D `OutputComplexVectorData` stru
 
 Note that for 2D complex vector the size provided is 2 &mdash; there are 2 vectors, each with 2 components, and each component is a complex number.
 
-###### C++
+##### C++
 
 ```cpp
 // heavyweight array(s)

@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscpointcloudf"></a>
 # Type fortran::syscpointcloudf undefined
 
 ![][Fortran]

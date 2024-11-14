@@ -1,4 +1,3 @@
-<a id="structSyscParameter"></a>
 # Structure SyscParameter
 
 ![][C++]

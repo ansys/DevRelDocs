@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscwriteresultsf"></a>
 # Interface fortran::syscwriteresultsf
 
 ![][Fortran]

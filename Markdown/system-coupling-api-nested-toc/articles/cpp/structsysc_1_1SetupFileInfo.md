@@ -1,4 +1,3 @@
-<a id="structsysc_1_1SetupFileInfo"></a>
 # Structure sysc::SetupFileInfo
 
 ![][C++]

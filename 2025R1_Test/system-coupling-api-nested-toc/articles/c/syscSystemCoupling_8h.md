@@ -1,4 +1,3 @@
-<a id="syscSystemCoupling_8h"></a>
 # File syscSystemCoupling.h
 
 ![][C++]

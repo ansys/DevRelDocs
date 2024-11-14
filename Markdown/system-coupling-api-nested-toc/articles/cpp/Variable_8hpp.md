@@ -1,4 +1,3 @@
-<a id="Variable_8hpp"></a>
 # File Variable.hpp
 
 ![][C++]

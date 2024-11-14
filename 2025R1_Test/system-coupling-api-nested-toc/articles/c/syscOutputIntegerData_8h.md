@@ -1,4 +1,3 @@
-<a id="syscOutputIntegerData_8h"></a>
 # File syscOutputIntegerData.h
 
 ![][C++]

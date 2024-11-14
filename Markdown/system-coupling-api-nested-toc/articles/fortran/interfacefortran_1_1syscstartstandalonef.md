@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscstartstandalonef"></a>
 # Interface fortran::syscstartstandalonef
 
 ![][Fortran]

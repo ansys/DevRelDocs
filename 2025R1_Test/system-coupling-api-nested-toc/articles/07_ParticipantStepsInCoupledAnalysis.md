@@ -21,7 +21,7 @@ See details of the mapping setup step in
 [Steps to perform mapping](04_ParticipantStepsForMapping.md).
 Mapping will be performed during inputs update step, inside the coupled analysis loop.
 
-### Connect to System Coupling
+## Connect to System Coupling
 
 The connection is established by providing the host name, port number, participant name,
 and build information.
@@ -31,7 +31,7 @@ also be provided. See
 [Execution in a parallel environment](09_ParallelExecution.md)
 for more details.
 
-#### C++
+### C++
 
 ```cpp
 std::string host, name, buildInfo;
@@ -42,7 +42,7 @@ unsigned short port;
 sysc::SystemCoupling sc(host, port, name, buildInfo);
 ```
 
-#### C
+### C
 
 ```c
 char host[STRING_MAX_SIZE];
@@ -55,7 +55,7 @@ char buildInfo[STRING_MAX_SIZE];
 SyscError ret = syscConnect(host, port, name, buildInfo);
 ```
 
-#### Fortran
+### Fortran
 
 ```fortran
 character(len=256) :: host
@@ -68,7 +68,7 @@ character(len=256) :: buildInfo
 ret = syscConnectF(scHost, scPort, scName, buildInfo)
 ```
 
-#### Python
+### Python
 
 ```python
 import pyExt.SystemCouplingParticipant as sysc
@@ -83,7 +83,7 @@ buildInfo = str()
 sc = sysc.SystemCoupling(host, port, name, buildInfo)
 ```
 
-### Register heavyweight data access
+## Register heavyweight data access
 
 Register access to the participant's mesh and variable values.
 Register any other callback functions (for example a callback for creating a restart point).
@@ -94,7 +94,7 @@ are to be implemented in the participant solver. See
 [Creating restart points and restarting a coupled analysis](13_Restarts.md)
 for more details.
 
-#### C++
+### C++
 
 ```cpp
 sc.registerSurfaceMeshAccess(&getSurfaceMesh);
@@ -102,7 +102,7 @@ sc.registerInputScalarDataAccess(&getInputScalarData);
 sc.registerRestartPointCreation(&createRestartPoint);
 ```
 
-#### C
+### C
 
 ```c
 SyscError ret;
@@ -111,7 +111,7 @@ ret = syscRegisterInputScalarDataAccess(&getInputScalarData);
 ret = syscRegisterRestartPointCreation(&createRestartPoint);
 ```
 
-#### Fortran
+### Fortran
 
 ```fortran
 type(SyscErrorF) :: ret
@@ -120,7 +120,7 @@ ret = syscRegisterInputScalarDataAccessF(getInputScalarData)
 ret = syscRegisterRestartPointCreationF(createRestartPoint)
 ```
 
-#### Python
+### Python
 
 ```python
 sc.registerSurfaceMeshAccess(getSurfaceMesh)
@@ -128,13 +128,13 @@ sc.registerInputScalarDataAccess(getInputScalarData)
 sc.registerRestartPointCreation(createRestartPoint)
 ```
 
-### Initialize the coupled analysis
+## Initialize the coupled analysis
 
 Notify System Coupling that the analysis can be initialized. Note that if parameters
 are used, initial values for output parameters should be set prior to initializing
 the analysis. If no initial value is set, the parameter will be initialized to zero. See [Parameter Data Access](10_ParameterDataAccess.md) for more details.
 
-#### C++
+### C++
 
 ```cpp
 // set initial values for any output parameter
@@ -142,7 +142,7 @@ sc.setParameterValue(inputParameterName, 12.3);
 sc.initializeAnalysis();
 ```
 
-#### C
+### C
 
 ```c
 // set initial values for any output parameter
@@ -150,14 +150,14 @@ SyscError ret = syscSetParameterValue(inputParameterName, 12.3);
 ret = syscInitializeAnalysis();
 ```
 
-#### Fortran
+### Fortran
 
 ```fortran
 type(SyscErrorF) :: ret
 ret = syscInitializeAnalysisF()
 ```
 
-#### Python
+### Python
 
 ```python
 # set initial values for any output parameter
@@ -165,7 +165,7 @@ sc.setParameterValue(inputParameterName, 12.3)
 sc.initializeAnalysis()
 ```
 
-### Coupled analysis loop
+## Coupled analysis loop
 
 Enter a coupled analysis loop until the analysis is complete.
 This step is different, depending on whether the analysis
@@ -206,9 +206,9 @@ need only be performed once per time step if the participant is explicit.
     participant must update all output data so that it can be
     consumed by System Coupling.
 
-#### Steady analysis loop
+### Steady analysis loop
 
-##### C++
+#### C++
 
 ```cpp
 while (sc.doIteration()) {
@@ -218,7 +218,7 @@ while (sc.doIteration()) {
 }
 ```
 
-##### C
+#### C
 
 ```c
 SyscError ret;
@@ -230,7 +230,7 @@ while (syscDoIteration() == 1) {
 }
 ```
 
-##### Fortran
+#### Fortran
 
 ```fortran
 type(SyscErrorF) :: ret
@@ -241,7 +241,7 @@ do while (syscDoIterationF())
 end do
 ```
 
-##### Python
+#### Python
 
 ```python
 while sc.doIteration():
@@ -250,9 +250,9 @@ while sc.doIteration():
   sc.updateOutputs(sysc.Converged)
 ```
 
-#### Transient analysis loop with inner iterations (implicit time integration)
+### Transient analysis loop with inner iterations (implicit time integration)
 
-##### C++
+#### C++
 
 ```cpp
 while (sc.doTimeStep()) {
@@ -264,7 +264,7 @@ while (sc.doTimeStep()) {
 }
 ```
 
-##### C
+#### C
 
 ```c
 SyscError ret;
@@ -279,7 +279,7 @@ while (syscDoTimeStep() == 1) {
 }
 ```
 
-##### Fortran
+#### Fortran
 
 ```fortran
 type(SyscErrorF) :: ret
@@ -292,7 +292,7 @@ do while (syscDoTimeStepF())
 end do
 ```
 
-##### Python
+#### Python
 
 ```python
 while sc.doTimeStep():
@@ -302,9 +302,9 @@ while sc.doTimeStep():
     sc.updateOutputs(sysc.Converged)
 ```
 
-#### Transient analysis loop without iterations (explicit time integration)
+### Transient analysis loop without iterations (explicit time integration)
 
-##### C++
+#### C++
 
 ```cpp
 while (sc.doTimeStep()) {
@@ -314,30 +314,30 @@ while (sc.doTimeStep()) {
 }
 ```
 
-### Shutdown the coupled analysis
+## Shutdown the coupled analysis
 
 This step is reached after exiting from coupled analysis loop. System Coupling will be disconnected. The solver should proceed to an orderly shutdown after this step.
 
-#### C++
+### C++
 
 ```cpp
 sc.disconnect();
 ```
 
-#### C
+### C
 
 ```c
 SyscError ret = syscDisconnect();
 ```
 
-#### Fortran
+### Fortran
 
 ```fortran
 type(SyscErrorF) :: ret
 ret = syscDisconnectF()
 ```
 
-#### Python
+### Python
 
 ```python
 sc.disconnect()

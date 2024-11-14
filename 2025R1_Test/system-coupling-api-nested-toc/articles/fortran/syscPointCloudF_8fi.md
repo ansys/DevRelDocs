@@ -1,4 +1,3 @@
-<a id="syscPointCloudF_8fi"></a>
 # File syscPointCloudF.fi
 
 ![][Fortran]

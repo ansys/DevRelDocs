@@ -1,4 +1,3 @@
-<a id="syscDataTransfer_8h"></a>
 # File syscDataTransfer.h
 
 ![][C++]

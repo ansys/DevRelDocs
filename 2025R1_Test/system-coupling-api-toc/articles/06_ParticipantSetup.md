@@ -5,7 +5,7 @@ System Coupling. As mentioned earlier, there are two approaches to communicate
 the setup. The first approach is the _SCP file_ approach
 and the _direct setup_ approach.
 
-### The SCP file approach
+## The SCP file approach
 
 The SCP file approach entails generating an XML-formatted file that contains the
 participant setup information that is relevant to System Coupling.
@@ -26,7 +26,7 @@ The [Heat transfer in square channel air flow](18_ChannelFlowTutorial.md)
 tutorial demonstrates how the SCP file can be used
 during the setup stage to add the participant to the coupled analysis.
 
-### The direct approach
+## The direct approach
 
 The direct setup approach requires starting System Coupling first, and then adding
 the participant by specifying the path to the participant executable
@@ -63,20 +63,20 @@ setup or a solve stage then this wrapper script can decide which executable to i
 based on whether the `--scsetup` argument is provided.
 This wrapper script should then be provided to System Coupling as the participant executable.
 
-### Steps to complete the participant setup
+## Steps to complete the participant setup
 
 The sequence of steps to be traversed during the participant setup is shown in Figure 1.
 
 ![Figure 1: Sequence of Coupled Participant Setup Steps](ParticipantStepsInSetupMode.png)  
 *Figure 1: Sequence of Coupled Participant Setup Steps*
 
-#### Step 1: Start in standalone mode or connect to System Coupling
+### Step 1: Start in standalone mode or connect to System Coupling
 
 If using the SCP file approach, start the participant in standalone mode. If
 using the direct setup approach, connect to System Coupling by providing the
 host name, port number, participant name, and build information.
 
-##### C++
+#### C++
 
 SCP file approach:
 
@@ -95,7 +95,7 @@ unsigned short port;
 sysc::SystemCoupling sc(host, port, name, buildInfo);
 ```
 
-##### C
+#### C
 
 SCP file approach: nothing to be done.
 
@@ -112,7 +112,7 @@ char buildInfo[STRING_MAX_SIZE];
 SyscError ret = syscConnect(host, port, name, buildInfo);
 ```
 
-##### Fortran
+#### Fortran
 
 SCP file approach: nothing to be done.
 
@@ -129,7 +129,7 @@ character(len=256) :: buildInfo
 ret = syscConnectF(scHost, scPort, scName, buildInfo)
 ```
 
-##### Python
+#### Python
 
 SCP file approach.
 
@@ -153,7 +153,7 @@ buildInfo = str()
 sc = sysc.SystemCoupling(host, port, name, buildInfo)
 ```
 
-#### Step 2: Set up the coupled participant
+### Step 2: Set up the coupled participant
 
 Create and register regions, variables, and parameters relevant to the coupled analysis.
 
@@ -162,7 +162,7 @@ Also, two variables (variable X and variable Y) are registered as inputs and out
 on regions A and B.
 Finally, three parameters are registered on the participant: one input parameter, and two output parameters (parameters defined for the c++ and python examples only).
 
-##### C++
+#### C++
 
 ```cpp
 // Add regions and variables.
@@ -218,7 +218,7 @@ sc.addRealAttribute(ia1);
 sc.addRealAttribute(ia2);
 ```
 
-##### C
+#### C
 
 ```c
 
@@ -290,7 +290,7 @@ ret = syscAddRealAttribute(ia1);
 ret = syscAddRealAttribute(ia2);
 ```
 
-##### Fortran
+#### Fortran
 
 ```fortran
 type(SyscErrorF) :: ret
@@ -338,7 +338,7 @@ ret = syscAddRegionF(regionB)
 
 ```
 
-##### Python
+#### Python
 
 ```python
 # Add regions and variables.
@@ -394,11 +394,11 @@ sc.addRealAttribute(ia1);
 sc.addRealAttribute(ia2);
 ```
 
-#### Step 3: Complete setup
+### Step 3: Complete setup
 
 Specify other participant setup information and complete the coupled analysis setup.
 
-##### C++
+#### C++
 
 ```cpp
 // complete coupling setup for a transient analysis
@@ -411,7 +411,7 @@ sysc::SetupInfo setupInfo(analysisType, restartsSupported, dimension, timeIntegr
 sc.completeSetup(setupInfo);
 ```
 
-##### C
+#### C
 
 ```c
 /* Complete coupling setup for a transient analysis. */
@@ -423,7 +423,7 @@ SyscSetupInfo setupInfo = syscGetSetupInfoARDT(analysisType, restartsSupported, 
 SyscError ret = syscCompleteSetup(setupInfo);
 ```
 
-##### Fortran
+#### Fortran
 
 ```fortran
 ! Complete coupling setup for a transient analysis.
@@ -446,7 +446,7 @@ setupInfo = syscGetSetupInfoF_ARDT(analysisType, restartsSupported, dimension, t
 ret = syscCompleteSetupF(setupInfo)
 ```
 
-##### Python
+#### Python
 
 ```python
 # complete coupling setup for a transient analysis
@@ -460,7 +460,7 @@ setupInfo = sysc.SetupInfo(analysisType, restartsSupported, dimension, timeInteg
 sc.completeSetup(setupInfo)
 ```
 
-#### Step 4: Write the setup file/shutdown
+### Step 4: Write the setup file/shutdown
 
 This step is reached after the participant setup is complete.
 
@@ -469,7 +469,7 @@ Write the SCP file (if using the SCP file approach).
 System Coupling will be disconnected (if using the direct approach).
 The participant in setup mode should proceed to an orderly shutdown after this step.
 
-##### C++
+#### C++
 
 SCP file approach:
 
@@ -480,7 +480,7 @@ sc.writeSetupFile(sysc::SetupFileInfo("setup.scp"));
 
 Direct setup approach: in C++, disconnection occurs when `sysc::SystemCoupling` object is destroyed.
 
-##### C
+#### C
 
 SCP file approach:
 
@@ -496,7 +496,7 @@ Direct setup approach:
 SyscError ret = syscDisconnect();
 ```
 
-##### Fortran
+#### Fortran
 
 SCP file approach:
 
@@ -512,7 +512,7 @@ type(SyscErrorF) :: ret
 ret = syscDisconnectF()
 ```
 
-##### Python
+#### Python
 
 SCP file approach:
 

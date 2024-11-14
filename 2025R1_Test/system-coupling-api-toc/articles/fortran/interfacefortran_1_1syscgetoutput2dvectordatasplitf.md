@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetoutput2dvectordatasplitf"></a>
 # Interface fortran::syscgetoutput2dvectordatasplitf
 
 ![][Fortran]

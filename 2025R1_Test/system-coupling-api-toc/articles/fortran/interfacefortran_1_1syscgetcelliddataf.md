@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetcelliddataf"></a>
 # Interface fortran::syscgetcelliddataf
 
 ![][Fortran]

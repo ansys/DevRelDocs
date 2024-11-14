@@ -13,9 +13,9 @@ The second part of the
 [Heat transfer in square channel air flow](18_ChannelFlowTutorial.md)
 tutorial demonstrates the usage of the parallel APIs.
 
-### Using a supported MPI distribution
+## Using a supported MPI distribution
 
-#### Implementing the interfaces in parallel
+### Implementing the interfaces in parallel
 
 If the participant solver is using one of the supported MPIs,
 the relevant MPI communicator should be provided when startint the mapping workflow or
@@ -28,7 +28,7 @@ If some elements and/or nodes are duplicated in multiple partitions
 (for example due to the mesh overlap layer), the participant library can
 be expected to handle such scenarios robustly.
 
-##### C++
+#### C++
 
 Mapping
 
@@ -57,7 +57,7 @@ sysc::SystemCoupling sc(scHost, scPort, scName, MPI_COMM_WORLD, buildInfo));
 ...
 ```
 
-##### C
+#### C
 
 Mapping
 
@@ -86,7 +86,7 @@ syscConnectParallel(scHost, scPort, scName, MPI_COMM_WORLD, buildInfo);
 ...
 ```
 
-##### Fortran
+#### Fortran
 
 Mapping
 
@@ -120,11 +120,11 @@ syscConnectF(scHost, scPort, scName, MPI_COMM_WORLD, buildInfo)
 ...
 ```
 
-##### Python
+#### Python
 
 Parallel interfaces are not supported for Python.
 
-#### Running the participant in parallel
+### Running the participant in parallel
 
 In order to link to the correct MPI wrapper at run-time, the path
 to the correct wrapper directory should be set in the
@@ -145,7 +145,7 @@ For examples of compiling, linking, and executing a program that uses the
 participant library and a supported MPI, see
 [Compiling, linking, and executing applications that use the Participant library](17_CompilingLinkingExecuting.md)
 
-### Using an unsupported MPI distribution
+## Using an unsupported MPI distribution
 
 If the participant solver is using an MPI distribution that is not
 supported by the Fluent's MPI wrapper library, then

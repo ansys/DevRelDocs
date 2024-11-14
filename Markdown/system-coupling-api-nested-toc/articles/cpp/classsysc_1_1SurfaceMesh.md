@@ -1,4 +1,3 @@
-<a id="classsysc_1_1SurfaceMesh"></a>
 # Class sysc::SurfaceMesh
 
 ![][C++]

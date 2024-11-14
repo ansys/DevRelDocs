@@ -1,4 +1,3 @@
-<a id="syscFunctionTypesF_8fi"></a>
 # File syscFunctionTypesF.fi
 
 ![][Fortran]

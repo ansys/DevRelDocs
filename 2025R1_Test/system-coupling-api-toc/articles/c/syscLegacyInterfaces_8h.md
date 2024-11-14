@@ -1,4 +1,3 @@
-<a id="syscLegacyInterfaces_8h"></a>
 # File syscLegacyInterfaces.h
 
 ![][C++]

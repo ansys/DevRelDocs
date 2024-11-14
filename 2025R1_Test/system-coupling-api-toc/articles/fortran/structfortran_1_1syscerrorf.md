@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscerrorf"></a>
 # Type fortran::syscerrorf undefined
 
 ![][Fortran]

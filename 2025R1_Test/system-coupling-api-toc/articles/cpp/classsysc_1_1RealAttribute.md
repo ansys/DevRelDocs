@@ -1,4 +1,3 @@
-<a id="classsysc_1_1RealAttribute"></a>
 # Class sysc::RealAttribute
 
 ![][C++]

@@ -1,6 +1,6 @@
 # Standalone mapping
 
-### Steps to perform mapping
+## Steps to perform mapping
 
 This section describes the mapping workflow. It also provides
 simple APIs implementation examples, so it can be used to familiarize
@@ -16,7 +16,7 @@ Figure 1 and described in more details below.
 The steps are described in more detail below. A couple of code examples for each target
 language is provided at the end of this section.
 
-#### Step 1: Start
+### Step 1: Start
 
 Start by initializing the participant library in standalone mode.
 
@@ -36,17 +36,17 @@ See
 [Execution in a Parallel Environment](09_ParallelExecution.md)
 for more details.
 
-#### Step 2: Set up mapping
+### Step 2: Set up mapping
 
 Create and register variables, regions and coupling interfaces.
 
-#### Step 3: Register heavyweight data access
+### Step 3: Register heavyweight data access
 
 In this step, the callback functions to access the participant's mesh
 and solution data must be registered.
 See [Access to Heavyweight Data](11_HeavyweightDataAccess.md) for more details.
 
-#### Step 4: Update inputs
+### Step 4: Update inputs
 
 During this step, mapping will be performed, and inputs (target values) will
 be brought up-to-date.
@@ -56,7 +56,7 @@ used to fill the inputs.
 Inputs update can be performed multiple times. If the source values change, this will
 be reflected in the target values.
 
-### Mapping examples
+## Mapping examples
 
 Sample code is provided, demonstrating the use of the participant
 library APIs to perform mapping.
@@ -67,7 +67,7 @@ library APIs to perform mapping.
 For information on how to compile the code in these examples,
 see [Compiling, linking, and executing applications that use the Participant library](17_CompilingLinkingExecuting.md).
 
-#### Surface mapping example
+### Surface mapping example
 
 In this example, the solution data is mapped between two surface regions.
 The mesh in each region consists of a single (unit square) quadrilateral element.
@@ -84,7 +84,7 @@ Figure 2 illustrates the problem setup.
 ![Figure 2: Simple surface mapping example](SimpleMappingExample.png)  
 *Figure 2: Simple surface mapping example*
 
-##### C++
+#### C++
 
 ```cpp
 #include "SystemCouplingParticipant/SystemCoupling.hpp"
@@ -196,7 +196,7 @@ sysc::SurfaceMesh getSurfaceMesh(const std::string& regionName)
 //the rest of the code stays unchanged
 ```
 
-##### C
+#### C
 
 ```c
 #include "SystemCouplingParticipant/syscSystemCoupling.h"
@@ -337,7 +337,7 @@ SyscSurfaceMesh getSurfaceMesh(const char* regionName)
 //the rest of the code stays unchanged
 ```
 
-##### Fortran
+#### Fortran
 
 ```fortran
 program simpleMapping
@@ -484,7 +484,7 @@ The above code can be modified as follows:
   !the rest of the code stays unchanged
 ```
 
-##### Python
+#### Python
 
 ```python
 from pyExt import SystemCouplingParticipant as sysc
@@ -580,7 +580,7 @@ def getSurfaceMesh(regionName):
 #the rest of the code stays unchanged
 ```
 
-#### Volume mapping example
+### Volume mapping example
 
 In this example, the solution data is mapped between two volume regions.
 The mesh in each region consists of a single (unit cube) hexahedral element.
@@ -596,7 +596,7 @@ Figure 3 illustrates the problem setup.
 ![Figure 3: Simple volume mapping example](SimpleVolumeMappingExample.png)  
 *Figure 3: Simple volume mapping example*
 
-##### C++
+####  C++
 
 ```cpp
 #include "SystemCouplingParticipant/SystemCoupling.hpp"
@@ -700,7 +700,7 @@ int main(int argc, char* argv[])
 }
 ```
 
-##### C
+####  C
 
 ```c
 #include "SystemCouplingParticipant/syscSystemCoupling.h"
@@ -821,7 +821,7 @@ int main(int argc, char* argv[])
 }
 ```
 
-##### Fortran
+####  Fortran
 
 ```fortran
 program simpleVolumeMapping
@@ -943,7 +943,7 @@ contains
 end program simpleVolumeMapping
 ```
 
-##### Python
+#### Python
 
 ```python
 from pyExt import SystemCouplingParticipant as sysc

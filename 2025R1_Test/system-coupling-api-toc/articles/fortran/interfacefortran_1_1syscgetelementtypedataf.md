@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetelementtypedataf"></a>
 # Interface fortran::syscgetelementtypedataf
 
 ![][Fortran]

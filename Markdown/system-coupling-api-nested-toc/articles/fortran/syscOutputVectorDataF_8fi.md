@@ -1,4 +1,3 @@
-<a id="syscOutputVectorDataF_8fi"></a>
 # File syscOutputVectorDataF.fi
 
 ![][Fortran]

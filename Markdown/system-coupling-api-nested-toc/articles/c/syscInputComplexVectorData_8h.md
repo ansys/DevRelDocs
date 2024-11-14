@@ -1,4 +1,3 @@
-<a id="syscInputComplexVectorData_8h"></a>
 # File syscInputComplexVectorData.h
 
 ![][C++]

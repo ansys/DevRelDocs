@@ -1,4 +1,3 @@
-<a id="classsysc_1_1DataTransfer"></a>
 # Class sysc::DataTransfer
 
 ![][C++]

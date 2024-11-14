@@ -1,4 +1,3 @@
-<a id="structSyscIntegerAttribute"></a>
 # Structure SyscIntegerAttribute
 
 ![][C++]

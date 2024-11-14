@@ -1,4 +1,3 @@
-<a id="OutputVectorData_8hpp"></a>
 # File OutputVectorData.hpp
 
 ![][C++]

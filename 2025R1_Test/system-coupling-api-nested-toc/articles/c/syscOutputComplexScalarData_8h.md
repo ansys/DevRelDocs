@@ -1,4 +1,3 @@
-<a id="syscOutputComplexScalarData_8h"></a>
 # File syscOutputComplexScalarData.h
 
 ![][C++]

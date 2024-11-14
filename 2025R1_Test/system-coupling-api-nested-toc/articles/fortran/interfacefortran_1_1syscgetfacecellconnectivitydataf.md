@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetfacecellconnectivitydataf"></a>
 # Interface fortran::syscgetfacecellconnectivitydataf
 
 ![][Fortran]

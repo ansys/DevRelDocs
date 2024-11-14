@@ -1,4 +1,3 @@
-<a id="SurfaceMesh_8hpp"></a>
 # File SurfaceMesh.hpp
 
 ![][C++]

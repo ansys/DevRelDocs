@@ -1,4 +1,3 @@
-<a id="namespacesysc"></a>
 # Namespace sysc
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="namespacefortran"></a>
 # Namespace fortran
 
 ![][Fortran]
