@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscregisterrestartpointcreationf"></a>
 # Interface fortran::syscregisterrestartpointcreationf
 
 ![][Fortran]

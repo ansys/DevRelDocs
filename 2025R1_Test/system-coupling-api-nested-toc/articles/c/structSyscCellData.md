@@ -1,4 +1,3 @@
-<a id="structSyscCellData"></a>
 # Structure SyscCellData
 
 ![][C++]

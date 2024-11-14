@@ -1,4 +1,3 @@
-<a id="classsysc_1_1VolumeMesh"></a>
 # Class sysc::VolumeMesh
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="structSyscPointCloud"></a>
 # Structure SyscPointCloud
 
 ![][C++]

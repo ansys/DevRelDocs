@@ -1,4 +1,3 @@
-<a id="classsysc_1_1InputScalarData"></a>
 # Class sysc::InputScalarData
 
 ![][C++]

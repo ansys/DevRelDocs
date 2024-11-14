@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetdimensionalityf"></a>
 # Interface fortran::syscgetdimensionalityf
 
 ![][Fortran]

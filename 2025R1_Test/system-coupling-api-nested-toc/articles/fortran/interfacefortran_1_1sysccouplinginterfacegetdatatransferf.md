@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1sysccouplinginterfacegetdatatransferf"></a>
 # Interface fortran::sysccouplinginterfacegetdatatransferf
 
 ![][Fortran]

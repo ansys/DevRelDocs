@@ -6,12 +6,12 @@ described in more details below.
 ![Figure 1: Sequence of steps to set up and execute a coupled analysis](ParticipantStepsInSetupAndExecution.png)  
 *Figure 1: Sequence of steps to set up and execute a coupled analysis*
 
-### Step 1: Set up the participant solver
+## Step 1: Set up the participant solver
 
 In this step, the individual participant solvers are configured to solve the particular problem.
 This step is largely solver-dependent and is beyond the scope of this documentation.
 
-### Step 2: Complete the System Coupling participant setup
+## Step 2: Complete the System Coupling participant setup
 
 In this step, the participant is added to the System Coupling setup and
 the participant setup is communicated to System Coupling.
@@ -30,14 +30,14 @@ connects to it and gets the participant setup information via the socket connect
 For more information about this step and the advantages and disadvantages of either approach, see
 [Completing the System Coupling participant setup](06_ParticipantSetup.md).
 
-### Step 3: Set up the coupled analysis
+## Step 3: Set up the coupled analysis
 
 In this step, the coupled analysis is set up inside System Coupling.
 The Developer's Guide pre-supposes some level of familiarity with general
 System Coupling capabilities, therefore this step is not the focus of this document.
 See System Coupling User's Guide for more information about this step.
 
-### Step 4: Execute the coupled analysis
+## Step 4: Execute the coupled analysis
 
 In this step, the coupled analysis is executed to solve the coupled problem.
 The System Coupling Participant Library

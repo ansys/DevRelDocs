@@ -1,4 +1,3 @@
-<a id="structsysc_1_1ValidityStatus"></a>
 # Structure sysc::ValidityStatus
 
 ![][C++]

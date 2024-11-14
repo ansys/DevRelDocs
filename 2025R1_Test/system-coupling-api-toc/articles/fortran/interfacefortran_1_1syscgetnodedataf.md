@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetnodedataf"></a>
 # Interface fortran::syscgetnodedataf
 
 ![][Fortran]

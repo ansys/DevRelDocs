@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetsetupfileinfof"></a>
 # Interface fortran::syscgetsetupfileinfof
 
 ![][Fortran]

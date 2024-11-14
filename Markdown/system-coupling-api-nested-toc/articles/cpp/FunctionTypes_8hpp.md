@@ -1,4 +1,3 @@
-<a id="FunctionTypes_8hpp"></a>
 # File FunctionTypes.hpp
 
 ![][C++]

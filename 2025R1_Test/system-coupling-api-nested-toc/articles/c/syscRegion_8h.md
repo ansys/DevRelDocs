@@ -1,4 +1,3 @@
-<a id="syscRegion_8h"></a>
 # File syscRegion.h
 
 ![][C++]

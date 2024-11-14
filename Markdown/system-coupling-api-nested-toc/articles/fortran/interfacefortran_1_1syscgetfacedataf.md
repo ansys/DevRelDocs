@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetfacedataf"></a>
 # Interface fortran::syscgetfacedataf
 
 ![][Fortran]

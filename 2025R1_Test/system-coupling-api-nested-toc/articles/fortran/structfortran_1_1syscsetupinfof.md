@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscsetupinfof"></a>
 # Type fortran::syscsetupinfof undefined
 
 ![][Fortran]

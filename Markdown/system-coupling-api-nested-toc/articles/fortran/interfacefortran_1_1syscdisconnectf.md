@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscdisconnectf"></a>
 # Interface fortran::syscdisconnectf
 
 ![][Fortran]

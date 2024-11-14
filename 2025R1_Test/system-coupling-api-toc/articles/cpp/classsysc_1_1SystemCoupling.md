@@ -1,4 +1,3 @@
-<a id="classsysc_1_1SystemCoupling"></a>
 # Class sysc::SystemCoupling
 
 ![][C++]

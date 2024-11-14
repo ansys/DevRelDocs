@@ -1,4 +1,3 @@
-<a id="structSyscSolutionControl"></a>
 # Structure SyscSolutionControl
 
 ![][C++]

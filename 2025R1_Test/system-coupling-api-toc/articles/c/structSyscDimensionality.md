@@ -1,4 +1,3 @@
-<a id="structSyscDimensionality"></a>
 # Structure SyscDimensionality
 
 ![][C++]

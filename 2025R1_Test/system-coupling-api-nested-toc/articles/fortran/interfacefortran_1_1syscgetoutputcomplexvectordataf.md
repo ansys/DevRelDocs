@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetoutputcomplexvectordataf"></a>
 # Interface fortran::syscgetoutputcomplexvectordataf
 
 ![][Fortran]

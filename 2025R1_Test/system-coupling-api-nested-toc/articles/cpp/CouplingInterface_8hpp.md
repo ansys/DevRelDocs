@@ -1,4 +1,3 @@
-<a id="CouplingInterface_8hpp"></a>
 # File CouplingInterface.hpp
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="classsysc_1_1Region"></a>
 # Class sysc::Region
 
 ![][C++]

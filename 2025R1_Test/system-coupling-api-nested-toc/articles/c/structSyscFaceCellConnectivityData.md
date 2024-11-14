@@ -1,4 +1,3 @@
-<a id="structSyscFaceCellConnectivityData"></a>
 # Structure SyscFaceCellConnectivityData
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="syscPointCloud_8h"></a>
 # File syscPointCloud.h
 
 ![][C++]

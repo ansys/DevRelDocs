@@ -10,7 +10,7 @@ It also shows how to implement the restart interfaces in the participant solver,
 create restart points at specified intervals, and restart the coupled analysis
 from a previously generated restart point.
 
-### Topics covered
+## Topics covered
 
 - Transient analysis
 - Force and nodal displacements transfer
@@ -18,14 +18,14 @@ from a previously generated restart point.
 - Restarts
 - Setup via the direct setup approach
 
-### Verify prerequisites
+## Verify prerequisites
 
 Ensure that the following prerequisites are met. You've installed:
 
 - A compiler for one of the [supported languages](17_CompilingLinkingExecuting.md)
 - Ansys installation, including System Coupling and Mechanical
 
-### Problem description and participant setup
+## Problem description and participant setup
 
 This example is a modification of System Coupling's _Oscillating Plate Fluid-Structure Interaction_ tutorial.
 
@@ -61,7 +61,7 @@ that overlap the plate surface in Mechanical. The surface mesh is shown in _Figu
 ![Figure 2: Surface mesh in the damping solver](PlateDampingTutorialFigure2.png)  
 *Figure 2: Surface mesh in the damping solver*
 
-### Get the necessary files
+## Get the necessary files
 
 Download the [SCP library tutorial package](https://github.com/ansys/DevRelPublic/raw/main/Downloads/SystemCoupling/syc_ParticipantLibrary_r1_25.zip)
 and extract it to a local directory. Inside the resulting directory, you will
@@ -93,7 +93,7 @@ Directory containing the following files:
 - `runRestart.py`: System Coupling script file that restarts the coupled
   analysis from a previously created intermediate restart point.
 
-### Build the damping solver
+## Build the damping solver
 
 Build the damping solver program using a compiler for one of
 the supported languages.
@@ -121,47 +121,47 @@ In the following examples, replace
 - `<ANSYSInstallationPath>` with the correct Ansys installation path.
 - `<MultiportVersion>` with the correct version of the Fluent Multiport library.
 
-#### Linux
+### Linux
 
-##### C++
+#### C++
 
 ```bash
 g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o OscillatingPlateDamping OscillatingPlateDamping.cpp -lSysC.SystemCouplingParticipant -lmpi_wrapper
 ```
 
-##### C
+#### C
 
 ```bash
 gcc -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o OscillatingPlateDamping OscillatingPlateDamping.c -lSysC.SystemCouplingParticipant -lmpi_wrapper
 ```
 
-##### Fortran
+#### Fortran
 
 ```bash
 gfortran -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/FortranFixedForm -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o OscillatingPlateDamping OscillatingPlateDamping.f -lSysC.SystemCouplingParticipant.Fortran -lmpi_wrapper
 ```
 
-#### Windows
+### Windows
 
-##### C++
+#### C++
 
 ```bat
 cl /EHsc /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" OscillatingPlateDamping.cpp /FeOscillatingPlateDamping.exe /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.lib
 ```
 
-##### C
+#### C
 
 ```bat
 cl /EHsc /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" OscillatingPlateDamping.c /FeOscillatingPlateDamping.exe /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.lib
 ```
 
-##### Fortran
+#### Fortran
 
 ```bat
 ifort -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\FortranFixedForm" /FeOscillatingPlateDamping.exe OscillatingPlateDamping.f /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.Fortran.lib
 ```
 
-### Run the coupled analysis
+## Run the coupled analysis
 
 Once you have created the damping solver program, run the coupled analysis using System Coupling.
 To do so, execute the `run.py` script to run System Coupling in batch mode:
@@ -175,7 +175,7 @@ Note that in order to use a Python solver, you should replace `OscillatingPlateD
 If the case runs without issue, you've successfully created a simple damping solver and
 run a co-simulation between Mechanical and this damping solver.
 
-### Visualize the results in Ansys EnSight
+## Visualize the results in Ansys EnSight
 
 Use Ansys EnSight to view the Mechanical solver results after the co-simulation run is complete.
 You'll be able to plot the plate deformation over time.
@@ -262,7 +262,7 @@ plate oscillations diminish in amplitude.
 ![Figure 4: Plate tip displacements chart](PlateDampingTutorialFigure4.png)  
 *Figure 4: Plot of plate tip x-displacements over time for different damping coefficients*
 
-### Restarting the coupled analysis from an intermediate point
+## Restarting the coupled analysis from an intermediate point
 
 In the initial coupled analysis, the restart point was generated at every 10th
 coupling time step.

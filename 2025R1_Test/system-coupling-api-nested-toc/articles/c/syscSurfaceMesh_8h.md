@@ -1,4 +1,3 @@
-<a id="syscSurfaceMesh_8h"></a>
 # File syscSurfaceMesh.h
 
 ![][C++]

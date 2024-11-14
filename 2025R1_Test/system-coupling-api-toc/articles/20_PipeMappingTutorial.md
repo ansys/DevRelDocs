@@ -7,12 +7,12 @@ participant library mapping capabilities.
 The tutorial also demonstrates how to use parallel processing capabilities
 within the Participant Library using an MPI environment.
 
-### Topics covered
+## Topics covered
 
 - Standalone mapping
 - Parallel execution
 
-### Verify prerequisites
+## Verify prerequisites
 
 Ensure that the following prerequisites are met. You've installed:
 
@@ -20,7 +20,7 @@ Ensure that the following prerequisites are met. You've installed:
 
 - Ansys installation, including System Coupling and EnSight.
 
-### Problem description and participant setup
+## Problem description and participant setup
 
 In this example, we transfer the data between two regions representing a
 simple pipe geometry.
@@ -45,7 +45,7 @@ from **tri** to **quad** region.
 Finally, we make use of the `writeResults` API function to write the results
 for further post-processing. These results can be visualized in Ansys EnSight.
 
-### Overview of the pipe mapping program and accompanying scripts
+## Overview of the pipe mapping program and accompanying scripts
 
 We provide the source code to generate a simple program that:
 
@@ -113,7 +113,7 @@ so for Python a separate set of wrapper scripts is provided
 More examples of how to execute the Pipe Mapping program and the accompanying
 Python post-processing script are shown in subsequent sections of this tutorial.
 
-### Get the necessary files
+## Get the necessary files
 
 Download the
 [SCP library tutorial package](https://github.com/ansys/DevRelPublic/raw/main/Downloads/SystemCoupling/syc_ParticipantLibrary_r1_25.zip)
@@ -146,7 +146,7 @@ Directory containing the Fortran source code files:
 - `PipeMappingPython.sh`: Linux shell script for executing the Python Pipe Mapping program and writing the output files.
 - `PipeMeshGenerator.py`: The Python source code file for the Pipe Mesh Generator module.
 
-### Build the pipe mapping program
+## Build the pipe mapping program
 
 Build the Pipe Mapping program using a compiler for one of the [supported languages](17_CompilingLinkingExecuting.md).
 
@@ -175,78 +175,78 @@ In the following examples, replace:
 - `<MultiportVersion>` with the correct version of the Fluent Multiport library
 - `<IntelMPIPath>` with the correct path to the Intel MPI library
 
-#### Linux
+### Linux
 
-##### C++ parallel version using Intel MPI
+#### C++ parallel version using Intel MPI
 
 ```bash
 g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin  -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o PipeMapping src_cpp/PipeMeshGenerator.cpp src_cpp/PipeMapping.cpp -lSysC.SystemCouplingParticipant -lmpi -lmpi_wrapper
 ```
 
-##### C parallel version using Intel MPI
+#### C parallel version using Intel MPI
 
 ```bash
 gcc -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin  -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o PipeMapping src_c/PipeMeshGenerator.c src_c/PipeMapping.c -lSysC.SystemCouplingParticipant -lmpi -lmpi_wrapper -lm
 ```
 
-##### Fortran parallel version using Intel MPI
+#### Fortran parallel version using Intel MPI
 
 ```bash
 gfortran -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/FortranFreeForm -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin  -L<IntelMPIPath>/intel64/lib -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o PipeMapping src_fortran/PipeMeshGenerator.f90 src_fortran/PipeMapping.f90 -lSysC.SystemCouplingParticipant.Fortran -lmpifort -lmpi -lmpi_wrapper
 ```
 
-#### Windows
+### Windows
 
-##### C++ parallel version using Intel MPI
+#### C++ parallel version using Intel MPI
 
 ```bat
 cl /EHsc /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" /I"<IntelMPIPath>\intel64\include" src_cpp\PipeMeshGenerator.cpp src_cpp\PipeMapping.cpp /FePipeMapping.exe /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.lib /LIBPATH:"<IntelMPIPath>\intel64\lib" impi.lib
 ```
 
-##### C parallel version using Intel MPI
+#### C parallel version using Intel MPI
 
 ```bat
 cl /EHsc /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" /I"<IntelMPIPath>\intel64\include" src_c\PipeMeshGenerator.c src_c\PipeMapping.c /FePipeMapping.exe /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.lib /LIBPATH:"<IntelMPIPath>\intel64\lib" impi.lib
 ```
 
-##### Fortran parallel version using Intel MPI
+#### Fortran parallel version using Intel MPI
 
 ```bat
 ifort -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\FortranFreeForm" -I"<IntelMPIPath>\intel64\include" /FePipeMapping.exe src_fortran\PipeMeshGenerator.f90 src_fortran\PipeMapping.f90 /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.Fortran.lib /LIBPATH:"<IntelMPIPath>\intel64\lib" impi.lib
 ```
 
-### Execute the pipe mapping program using the default settings
+## Execute the pipe mapping program using the default settings
 
 The Pipe Mapping application can be executed from the command console, as shown below, depending on the
 platform and the implementation language.
 
-#### Windows
+### Windows
 
 Execute from the Command Prompt.
 
-##### Pipe mapping program (non-Python)
+#### Pipe mapping program (non-Python)
 
 ```bat
 PipeMapping.bat
 ```
 
-##### Python pipe mapping program
+#### Python pipe mapping program
 
 ```bat
 PipeMappingPython.bat
 ```
 
-#### Linux
+### Linux
 
 Execute from the shell.
 
-##### Pipe mapping program (non-Python)
+#### Pipe mapping program (non-Python)
 
 ```bat
 ./PipeMapping.sh
 ```
 
-##### Python pipe mapping program
+#### Python pipe mapping program
 
 ```bat
 ./PipeMappingPython.sh
@@ -284,7 +284,7 @@ Maximum error on tri: 1.2232e-03
 > the participant solver environment. Make sure this environment variable is set to the Ansys installation path
 > (for example `C:\Program Files\ANSYS Inc\v<version>`). Alternatively, you can modify the scripts to use a different environment variable.***
 
-### Visualize the results in Ansys EnSight
+## Visualize the results in Ansys EnSight
 
 Use Ansys EnSight to view the results produced by the Pipe Mapping program.
 You'll be able to visualize the pipe mesh and nodal profile of the **linear1** and **linear2**
@@ -336,12 +336,12 @@ profiles are virtually identical in both regions.
 ![Figure 3: Nodal solution data profiles for the mapped variables.](PipeMappingTutorialFigure3.png)  
 *Figure 3: Nodal solution data profiles for the mapped variables*
 
-### Run and post-process the results using the provided customization settings
+## Run and post-process the results using the provided customization settings
 
 Various customization settings can be used. In each case, the post-processing
 step to visualize the .axdt files is the same.
 
-#### Mesh refinement
+### Mesh refinement
 
 To refine the mesh on both **quad** and **tri** regions, re-run the pipe mapping as follows:
 
@@ -354,7 +354,7 @@ To refine the mesh on both **quad** and **tri** regions, re-run the pipe mapping
 ![Figure 4: Solution profiles on refined meshes.](PipeMappingTutorialFigure4.png)  
 *Figure 4: Solution profiles on refined meshes*
 
-#### Axial fffsetting of the pipes
+### Axial fffsetting of the pipes
 
 To offset the pipe by 0.5 [m] in the axial (Z-axis) direction,
 re-run the pipe mapping as follows:
@@ -371,7 +371,7 @@ solution profile.
 ![Figure 5: Solution profiles for axially offset regions.](PipeMappingTutorialFigure5.png)  
 *Figure 5: Solution profiles for axially offset regions*
 
-#### Parallel execution
+### Parallel execution
 
 > **Note:** *Parallel execution using Python is not supported, so
 > this section only applies to Pipe Mapping programs compiled from C++, C, or Fortran.*

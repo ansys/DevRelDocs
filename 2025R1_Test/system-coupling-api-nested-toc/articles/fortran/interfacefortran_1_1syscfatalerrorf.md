@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscfatalerrorf"></a>
 # Interface fortran::syscfatalerrorf
 
 ![][Fortran]

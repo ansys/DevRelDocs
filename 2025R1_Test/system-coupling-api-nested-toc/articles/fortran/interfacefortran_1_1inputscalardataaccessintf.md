@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1inputscalardataaccessintf"></a>
 # Interface fortran::inputscalardataaccessintf
 
 ![][Fortran]

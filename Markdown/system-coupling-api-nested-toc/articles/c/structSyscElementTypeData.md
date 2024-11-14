@@ -1,4 +1,3 @@
-<a id="structSyscElementTypeData"></a>
 # Structure SyscElementTypeData
 
 ![][C++]

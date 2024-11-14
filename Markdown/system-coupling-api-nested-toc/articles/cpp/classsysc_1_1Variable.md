@@ -1,4 +1,3 @@
-<a id="classsysc_1_1Variable"></a>
 # Class sysc::Variable
 
 ![][C++]

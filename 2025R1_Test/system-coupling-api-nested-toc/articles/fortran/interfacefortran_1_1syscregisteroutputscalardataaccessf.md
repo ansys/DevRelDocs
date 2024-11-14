@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscregisteroutputscalardataaccessf"></a>
 # Interface fortran::syscregisteroutputscalardataaccessf
 
 ![][Fortran]

@@ -1,4 +1,3 @@
-<a id="structSyscInputVectorData"></a>
 # Structure SyscInputVectorData
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="syscOutputIntegerDataF_8fi"></a>
 # File syscOutputIntegerDataF.fi
 
 ![][Fortran]

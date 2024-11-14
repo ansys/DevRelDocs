@@ -1,6 +1,6 @@
 # Concepts overview
 
-### Dimensionalities
+## Dimensionalities
 
 A **dimensionality** describes the base quantities of a given physical quantity.
 It can be used to deduce the units of that physical quantity.
@@ -25,7 +25,7 @@ Once the unit system and the dimensionality are known, the units of
 any physical quantity can be deduced.
 Note that currently System Coupling can only work in SI unit system.
 
-### Attributes
+## Attributes
 
 An **attribute** is single-valued property that can be added to either the
 participant or a variable. The value of the attribute is fixed at the time of
@@ -46,7 +46,7 @@ The attributes have the following properties:
 - **Modifiable**: a flag which specifies whether the attribute may be modified
 during the setup phase (if the flag is true) or if the attribute is fixed (if the flag is false).
 
-### Variables
+## Variables
 
 A **variable** represents a physical quantity that is either consumed or provided by
 the participant solver. Variables are associated with the solution field data.
@@ -82,7 +82,7 @@ The variables have the following properties:
 
 Variables can have any number of integer and real-valued attributes.
 
-### Regions
+## Regions
 
 Participants declare which **regions** can be used in the coupled analysis.
 Regions represent portions of the computational domain for the participant solver.
@@ -104,7 +104,7 @@ Each region can declare **input variables** and **output variables**.
 - Input variables represent physical quantities for which the participant expects System Coupling to provide values.
 - Output variables represent physical quantities for which System Coupling expects the participant to provide values.
 
-### Parameters
+## Parameters
 
 Parameters are single-valued variables that are associated not with a region,
 but the solver itself. Instead of having a value for each location on a mesh,
@@ -122,7 +122,7 @@ The participant may define a parameter as either an **input parameter** or **out
 - Input parameters represent physical quantities for which the participant expects System Coupling to provide values.
 - Output parameters represent physical quantities for which System Coupling expects the participant to provide values.
 
-### Coupling interfaces and data transfers
+## Coupling interfaces and data transfers
 
 **Coupling interface** connects two disjoint sets of regions,
 one set for each side of the interface, for the purpose of
@@ -157,24 +157,24 @@ side one to side two and another variable from side two to side one at the same 
 See [Multi-Region Coupling Interfaces](14_Multiregion.md) for more details on how to handle
 interfaces with more than one region per side.
 
-### Parameter data access
+## Parameter data access
 
 Copies of single-valued parameter data are sent to and from the participant.
 See [Access to Parameter Data](10_ParameterDataAccess.md) for more information.
 
-### Heavyweight data access structures
+## Heavyweight data access structures
 
 Heavyweight data access structures provide access to mesh, point cloud, and solution data.
 The participant library makes use of the **callback** functions to access that data.
 See [Access to Heavyweight Data](11_HeavyweightDataAccess.md) for more information.
 
-#### Volume meshes
+### Volume meshes
 
 Volume mesh represents the mesh of a volume region.
 The volume mesh must be communicated using one of the supported volume mesh formats - see
 [Mesh And Point Cloud Data Access](12_MeshDataAccess.md) for more information.
 
-#### Surface meshes
+### Surface meshes
 
 Surface mesh represents the mesh of a surface region.
 The surface mesh must be communicated using one of the supported surface mesh formats.
@@ -183,7 +183,7 @@ This kind of connectivity describes the **mesh model**.
 
 See [Mesh And Point Cloud Data Access](12_MeshDataAccess.md) for more information.
 
-#### Point clouds
+### Point clouds
 
 Point cloud is an alternative option for discretizing
 the computational domain. It describes a set of
@@ -192,7 +192,7 @@ disconnected points in space and can be useful in some applications.
 See [Mesh And Point Cloud Data Access](12_MeshDataAccess.md)
 for more information about the supported point cloud format.
 
-#### Solution field data
+### Solution field data
 
 The **solution field data** represents the field of values of a particular variable on a given region.
 Examples of solution field data are **scalar data**, **vector data**, **complex scalar data**,
@@ -200,7 +200,7 @@ and **complex vector data**. Depending on whether the
 variable is an input or an output on that region, System Coupling
 needs a read/write or read-only access to that field.
 
-#### Dimension
+### Dimension
 
 The **dimension** represents the number of components required to specify a point in space, for example 2D or 3D.
 System Coupling supports 2D and 3D participants, with 3D being the default.

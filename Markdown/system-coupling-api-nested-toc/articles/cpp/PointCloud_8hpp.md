@@ -1,4 +1,3 @@
-<a id="PointCloud_8hpp"></a>
 # File PointCloud.hpp
 
 ![][C++]

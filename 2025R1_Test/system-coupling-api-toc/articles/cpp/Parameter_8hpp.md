@@ -1,4 +1,3 @@
-<a id="Parameter_8hpp"></a>
 # File Parameter.hpp
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscdimensionalityf"></a>
 # Type fortran::syscdimensionalityf undefined
 
 ![][Fortran]

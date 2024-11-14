@@ -1,4 +1,3 @@
-<a id="structSyscRegion"></a>
 # Structure SyscRegion
 
 ![][C++]

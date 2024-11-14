@@ -3,9 +3,9 @@
 Migration guide is provided to help migrate the APIs implementation
 between the releases.
 
-### Migrating from pre-2023 R1 releases
+## Migrating from pre-2023 R1 releases
 
-#### Removed deprecated callback functions (C++ only)
+### Removed deprecated callback functions (C++ only)
 
 Deprecated callback functions that take `sysc::Region` and `sysc::Variable` objects
 as arguments have been removed. They have been replaced with functions
@@ -30,55 +30,55 @@ getInputScalarData(const sysc::RegionName& region, const sysc::VariableName& var
 }
 ```
 
-### Migrating from pre-2022 R2 releases
+## Migrating from pre-2022 R2 releases
 
-#### Disconnect function
+### Disconnect function
 
 This change only applies to C++ and Python APIs. C and Fortran APIs are unaffected.
 
-##### C++
+#### C++
 
 `sysc::SystemCoupling::disconnect` function has been added. Under normal conditions,
 this function must now be called during the coupled analysis shutdown. Do not rely on
 the `sysc::SystemCoupling` object destructor to disconnect cleanly.
 
-##### Python
+#### Python
 
 `sysc.SystemCoupling.disconnect` function has been added. Under normal conditions,
 this function must now be called during the coupled analysis shutdown. Do not rely on
 the `sysc.SystemCoupling` object destructor to disconnect cleanly.
 
-#### Data transfer variables
+### Data transfer variables
 
-##### C++
+#### C++
 
 `sysc::DataTransfer` constructor - uses sourceVariable and targetVariable rather than sideOneVariable and sideTwoVariable
 
-##### C
+#### C
 
 `syscDataTransferST` interface introduced. Same as `syscDataTransfer`, but uses
 sourceVariable and targetVariable rather than sideOneVariable and
 sideTwoVariable
 
-##### Fortran
+#### Fortran
 
 `syscDataTransfer` interface - uses sourceVariable and targetVariable rather than sideOneVariable and sideTwoVariable
 
-##### Python
+#### Python
 
 `sysc.DataTransfer` constructor - uses sourceVariable and targetVariable rather than sideOneVariable and sideTwoVariable
 
-### Migrating from pre-2022 R1 releases
+## Migrating from pre-2022 R1 releases
 
-#### Removal of legacy functions
+### Removal of legacy functions
 
 The following deprecated functions and structures have been deleted:
 
-##### C++
+#### C++
 
 `sysc::SystemCoupling::isAnalysisComplete` function - see `sysc::SystemCoupling::doIteration` instead.
 
-##### C
+#### C
 
 `syscIsAnalysisComplete` function - see `syscDoIteration` instead.
 
@@ -88,7 +88,7 @@ The following deprecated functions and structures have been deleted:
 
 `syscGetFaceBasedVolumeMesh` function- see `syscGetVolumeMeshFaceBased` instead.
 
-##### Fortran
+#### Fortran
 
 `syscIsAnalysisCompleteF` interface - see `syscDoIterationF` instead.
 
@@ -96,9 +96,9 @@ The following deprecated functions and structures have been deleted:
 
 `syscRegisterSurfaceMeshAccessF` interface - see `syscRegisterSurfMeshAccessF` instead.
 
-### Migrating from pre-2021 R2 releases
+## Migrating from pre-2021 R2 releases
 
-#### Surface mesh struct (C and Fortran)
+### Surface mesh struct (C and Fortran)
 
 The members of `SyscSurfaceMesh` struct have changed.
 
@@ -108,19 +108,19 @@ The members of `SyscSurfaceMesh` struct have changed.
 
 `SyscOutputScalarData elemNodeIds` was replaced with `SyscElementNodeConnectivityData elemNodeConnectivity`.
 
-#### Restarts Supported flag
+### Restarts Supported flag
 
 Flag indicating whether the participant supports restarts has been moved from
 `SetupFileInfo` structure to `SetupInfo`.
 
-#### Mesh validity checks (C and Fortran only)
+### Mesh validity checks (C and Fortran only)
 
 `syscCheckMeshValidity` and `syscCheckRegionMeshValidity` functions are removed. Use `syscCheckSurfaceMeshValidity` instead.
 In Fortran, these functions are `syscCheckMeshValidityF`, `syscCheckRegionMeshValidityF`, and `syscCheckSurfaceMeshValidityF`, respectively.
 
-### Migrating from pre-2021 R1 releases
+## Migrating from pre-2021 R1 releases
 
-#### Adding regions and variables (C and Fortran only)
+### Adding regions and variables (C and Fortran only)
 
 In C and Fortran APIs, when adding regions and variables,
 the order in which the following functions should be called
@@ -136,7 +136,7 @@ is added to a region after that region has already been added, that
 function call will have no effect.
 The new behavior is more consistent with the C++ APIs.
 
-##### C
+#### C
 
 ```c
 SyscRegion region = syscGetRegion("region");
@@ -150,7 +150,7 @@ ret = syscAddInputVariable(region, variable);
 ret = syscAddRegion(region);
 ```
 
-##### Fortran
+#### Fortran
 
 ```fortran
 type(SyscRegionF) :: region
@@ -167,7 +167,7 @@ ret = syscAddInputVariableF(region, variable)
 ret = syscAddRegionF(region)
 ```
 
-#### Data access structures (Fortran only)
+### Data access structures (Fortran only)
 
 In Fortran APIs, in `SyscInputScalarDataF`, `SyscInputVectorDataF`,
 `SyscOutputScalarDataF`, and `SyscOutputVectorDataF` structures, the
@@ -178,9 +178,9 @@ access helper functions (for example `syscGetInputScalarDataF`), as described in
 [Access to Heavyweight Data](11_HeavyweightDataAccess.md)
 section.
 
-### Migrating from pre-2020 R2 releases
+## Migrating from pre-2020 R2 releases
 
-#### SyscError struct (C Only)
+### SyscError struct (C Only)
 
 In C APIs, `SyscError` struct has changed. The member `message` is now
 a fixed-length character array, instead of a character pointer. To avoid
@@ -191,9 +191,9 @@ function to initialize `SyscError` struct.
 SyscError ret = syscGetSyscError(0, "");
 ```
 
-#### Regions
+### Regions
 
-##### C
+#### C
 
 When creating/initializing `SyscRegion` structs, to help with migration
 in the future, helper functions `syscGetRegion`,
@@ -214,7 +214,7 @@ SyscRegion var1 = syscGetRegionT("name", SyscSurface);
 SyscRegion reg2 = syscGetRegionDT("name", "displayName", SyscSurface);
 ```
 
-##### Fortran
+#### Fortran
 
 When creating/initializing `SyscRegionF` types, to help with migration
 in the future, helper functions with
@@ -239,14 +239,14 @@ reg1 = syscGetRegionF("name", SyscSurface)
 var2 = syscGetVariableF("name", "displayName", SyscSurface)
 ```
 
-#### Variables
+### Variables
 
 Variables now have new properties:
 
 - Tensor type: indicates the tensor type of the variable, for example whether it's a scalar or a vector
 - Is extensive: indicates whether the it is an extensive property or an intensive property.
 
-##### C++
+#### C++
 
 `Variable.getComponentCount()` method has been removed.
 
@@ -254,7 +254,7 @@ The type of `sysc::QuantityType` has changed from struct to enum.
 Any usages of properties of quantity type (for example `quantityType.initialValue`)
 should be removed.
 
-##### C
+#### C
 
 `SyscVariable` struct now has new members: `tensorType` and `isExtensive`. Their
 values should be set to the correct value.
@@ -297,7 +297,7 @@ SyscVariable var3 = syscGetVariableQ(
   SyscTemperature);
 ```
 
-##### Fortran
+#### Fortran
 
 `SyscVariableF` type now has new members: `tensorType` and `isExtensive`. Their
 values should be set to the correct value.
@@ -344,9 +344,9 @@ var3 = syscGetVariableF(&
   SyscTemperature)
 ```
 
-### Migrating from pre-2020 R1 releases
+## Migrating from pre-2020 R1 releases
 
-#### Setup APIs
+### Setup APIs
 
 The APIs that are related to setup (for example add region, add input/output variable,
 complete coupling setup) should no longer be used _during the coupled analysis_.
@@ -359,7 +359,7 @@ For information on creating the setup files, see
 For the most up-to-date information on the steps in a coupled analysis, see
 [Participant Steps in a Coupled Analysis](07_ParticipantStepsInCoupledAnalysis.md).
 
-#### Heavyweight data access Functions
+### Heavyweight data access Functions
 
 This applies to C++ APIs only. Heavyweight data access functions now take
 region and variable names rather than objects. For example, surface
@@ -373,7 +373,7 @@ sysc::SurfaceMesh getSurfaceMesh(const sysc::Region& region);
 sysc::SurfaceMesh getSurfaceMesh(const std::string& regionName);
 ```
 
-#### Data access helper functions (Fortran only)
+### Data access helper functions (Fortran only)
 
 The following Fortran helper functions
 have been modified to take an additional argument `nElems`:
@@ -388,7 +388,7 @@ have been modified to take an additional argument `nElems`:
 For the most up-to-date information on the usage of these helper functions, see
 [Access to Heavyweight Data](11_HeavyweightDataAccess.md).
 
-### Known issues
+## Known issues
 
 - SyscGetSetupInfoF function may not set the analysis type correctly if the participant solver is compiled with Intel Fortran compiler on Linux. As a workaround, after calling this function, set the analysis type explicitly, for example:
 

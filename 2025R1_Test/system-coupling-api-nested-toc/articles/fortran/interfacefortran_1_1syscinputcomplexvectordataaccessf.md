@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscinputcomplexvectordataaccessf"></a>
 # Interface fortran::syscinputcomplexvectordataaccessf
 
 ![][Fortran]

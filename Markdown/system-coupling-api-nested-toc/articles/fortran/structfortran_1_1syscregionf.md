@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscregionf"></a>
 # Type fortran::syscregionf undefined
 
 ![][Fortran]

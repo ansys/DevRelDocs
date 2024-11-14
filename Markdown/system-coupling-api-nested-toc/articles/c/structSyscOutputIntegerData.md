@@ -1,4 +1,3 @@
-<a id="structSyscOutputIntegerData"></a>
 # Structure SyscOutputIntegerData
 
 ![][C++]

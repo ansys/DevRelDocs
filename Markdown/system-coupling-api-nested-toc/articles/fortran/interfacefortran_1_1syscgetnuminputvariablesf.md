@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetnuminputvariablesf"></a>
 # Interface fortran::syscgetnuminputvariablesf
 
 ![][Fortran]

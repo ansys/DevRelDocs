@@ -1,4 +1,3 @@
-<a id="structfortran_1_1sysctimestepf"></a>
 # Type fortran::sysctimestepf undefined
 
 ![][Fortran]

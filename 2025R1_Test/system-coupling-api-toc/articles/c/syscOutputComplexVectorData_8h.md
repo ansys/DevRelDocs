@@ -1,4 +1,3 @@
-<a id="syscOutputComplexVectorData_8h"></a>
 # File syscOutputComplexVectorData.h
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscoutputscalardataaccessf"></a>
 # Interface fortran::syscoutputscalardataaccessf
 
 ![][Fortran]

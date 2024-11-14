@@ -1,4 +1,3 @@
-<a id="syscMeshDefinition_8h"></a>
 # File syscMeshDefinition.h
 
 ![][C++]

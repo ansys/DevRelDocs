@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscelementnodecountdataf"></a>
 # Type fortran::syscelementnodecountdataf undefined
 
 ![][Fortran]

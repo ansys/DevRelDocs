@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscelementtypedataf"></a>
 # Type fortran::syscelementtypedataf undefined
 
 ![][Fortran]

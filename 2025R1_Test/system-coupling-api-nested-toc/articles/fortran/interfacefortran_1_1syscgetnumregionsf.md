@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetnumregionsf"></a>
 # Interface fortran::syscgetnumregionsf
 
 ![][Fortran]

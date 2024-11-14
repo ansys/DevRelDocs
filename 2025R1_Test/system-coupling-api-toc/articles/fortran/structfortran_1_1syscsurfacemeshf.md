@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscsurfacemeshf"></a>
 # Type fortran::syscsurfacemeshf undefined
 
 ![][Fortran]

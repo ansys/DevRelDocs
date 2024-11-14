@@ -1,4 +1,3 @@
-<a id="classsysc_1_1OutputVectorData"></a>
 # Class sysc::OutputVectorData
 
 ![][C++]

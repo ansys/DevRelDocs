@@ -1,4 +1,3 @@
-<a id="syscInputComplexVectorDataF_8fi"></a>
 # File syscInputComplexVectorDataF.fi
 
 ![][Fortran]

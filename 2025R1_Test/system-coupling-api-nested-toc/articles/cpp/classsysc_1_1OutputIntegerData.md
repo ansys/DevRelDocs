@@ -1,4 +1,3 @@
-<a id="classsysc_1_1OutputIntegerData"></a>
 # Class sysc::OutputIntegerData
 
 ![][C++]

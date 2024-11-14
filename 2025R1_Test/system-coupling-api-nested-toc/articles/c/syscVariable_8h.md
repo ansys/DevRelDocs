@@ -1,4 +1,3 @@
-<a id="syscVariable_8h"></a>
 # File syscVariable.h
 
 ![][C++]

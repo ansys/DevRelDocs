@@ -1,4 +1,3 @@
-<a id="NonFatalError_8hpp"></a>
 # File NonFatalError.hpp
 
 ![][C++]

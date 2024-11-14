@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscoutputvectordataf"></a>
 # Type fortran::syscoutputvectordataf undefined
 
 ![][Fortran]

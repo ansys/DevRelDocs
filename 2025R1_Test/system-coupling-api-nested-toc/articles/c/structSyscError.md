@@ -1,4 +1,3 @@
-<a id="structSyscError"></a>
 # Structure SyscError
 
 ![][C++]

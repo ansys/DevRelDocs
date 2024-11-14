@@ -1,4 +1,3 @@
-<a id="syscElementTypes_8h"></a>
 # File syscElementTypes.h
 
 ![][C++]

@@ -1,4 +1,3 @@
-<a id="syscPartLib_8h"></a>
 # File syscPartLib.h
 
 ![][C++]

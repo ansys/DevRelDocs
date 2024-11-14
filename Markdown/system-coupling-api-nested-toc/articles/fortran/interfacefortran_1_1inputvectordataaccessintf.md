@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1inputvectordataaccessintf"></a>
 # Interface fortran::inputvectordataaccessintf
 
 ![][Fortran]

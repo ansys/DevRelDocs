@@ -4,7 +4,7 @@ The instructions for linking and compiling the participant library
 depend on the target platform, the target language, the MPI distribution, and
 the compiler.
 
-### Supported languages
+## Supported languages
 
 System Coupling interfaces are provided for the following target languages:
 
@@ -22,11 +22,11 @@ The Python interpreter that comes with Microsoft Visual Studio is also supported
 The Python interpreter that comes with Intel Parallel Studio is currently not supported.
 Other Python interpreters have not been tested.
 
-### System Coupling participant library resources
+## System Coupling participant library resources
 
 Resources are available at the following locations:
 
-#### Public header files
+### Public header files
 
 - `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/include/SystemCouplingParticipant`
 
@@ -34,19 +34,19 @@ Resources are available at the following locations:
   located in the above directory. Both fixed and free form headers are available
   for Fortran codes.
 
-##### C++
+#### C++
 
 Only `SystemCoupling.hpp` header file should be included into the source code.
 
-##### C
+#### C
 
 Only `syscSystemCoupling.h` header file should be included into the source code.
 
-##### Fortran
+#### Fortran
 
 Only `syscPartLib.fi` header file should be included into the source code.
 
-##### Python
+#### Python
 
 `pyExt.SystemCouplingParticipant` module should be imported in Python.
 However, first the following directory must be included in `PYTHONPATH` environment variable:
@@ -65,7 +65,7 @@ if sys.platform == "win32":
     os.add_dll_directory("<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/<platform>/<mpi>")
 ```
 
-#### Link-time dependencies
+### Link-time dependencies
 
 - Windows
   - `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/lib`
@@ -80,7 +80,7 @@ if sys.platform == "win32":
   - `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/<platform>/<mpi>`
     - `libmpi_wrapper.so`
 
-#### Run-time dependencies
+### Run-time dependencies
 
 - `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin`
   - `SysC.SystemCouplingParticipant.dll` (Windows)
@@ -100,11 +100,11 @@ The above directories need to be included in the **`PATH`** environment
 variable (on Windows) or **`LD_LIBRARY_PATH`** environment variable
 (on Linux) at run-time.
 
-#### Ansys CPython interpreter (for Python only)
+### Ansys CPython interpreter (for Python only)
 
 - `<ANSYSInstallationPath>/commonfiles/CPython/<version>/release/python`
 
-### Dynamically loadable System Coupling Participant library resources
+## Dynamically loadable System Coupling Participant library resources
 
 System Coupling Participant Library provides a dynamic way to load the library only when required. This uses the dlopen function on Linux and LoadLibraryA function on Windows. This way, the run-time dependency on the library is not required for the workflows when the library is not used.
 
@@ -115,17 +115,17 @@ The participant library and MPI wrapper library paths are passed in explicitly w
 
 Note that on Linux, please pass `NULL` to mpiWrapperPath and add MPI wrapper library path to `LD_LIBRARY_PATH` environment variable. This functionality is available for C and Fortran interface.
 
-#### C/C++
+### C/C++
 
 `syscSystemCoupling.h` and `ParticipantLibrary.h` header file should be included into the source code.
 
-#### Fortran
+### Fortran
 
 `syscPartLib.fi` and `ParticipantLibraryF.fi` header file should be included into the source code.
 
 In addition, Fortran source files are provided under `SystemCouplingParticipant/Fortran` to compile their own fortran application without linking to `SysC.SystemCouplingParticipant.Fortran.dll` or `libSysC.SystemCouplingParticipant.Fortran.so` run time dependency.
 
-#### System coupling participant proxy static library
+### System coupling participant proxy static library
 
 A static library  is provided to link when using system coupling participant proxy APIs .
 
@@ -133,7 +133,7 @@ A static library  is provided to link when using system coupling participant pro
   - `SysC.SystemCouplingParticipant.Proxy.lib` (Windows)
   - `libSysC.SystemCouplingParticipant.Proxy.a` (Linux)
 
-### Examples
+## Examples
 
 In the following examples, mock solver applications from Heat Transfer in Square Channel Air Flow
 tutorial are built with different configurations.
@@ -160,9 +160,9 @@ The following compiler and MPI versions were used:
   - Intel(R) Visual Fortran Intel(R) 64 Compiler Version 19.0.4.245
   - Intel(R) MPI Library for Windows OS, Version 2018 Update 3
 
-#### Linux
+### Linux
 
-##### C++
+#### C++
 
 ```bash
 g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolver ChannelFlowMockSolver.cpp -lSysC.SystemCouplingParticipant -lmpi_wrapper 
@@ -171,13 +171,13 @@ g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupli
 Note that it is important to add the `-D_GLIBCXX_USE_CXX11_ABI=0` compiler flag. If this flag
 cannot be used, then it is recommended that you use the C APIs.
 
-##### C
+#### C
 
 ```bash
 gcc -std=c11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolver ChannelFlowMockSolver.c -lSysC.SystemCouplingParticipant -lmpi_wrapper
 ```
 
-##### Fortran
+#### Fortran
 
 GNU Fortran Compiler
 
@@ -191,19 +191,19 @@ Intel Fortran Compiler
 ifort -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/FortranFixedForm -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolver ChannelFlowMockSolver.f -lSysC.SystemCouplingParticipant.Fortran -lmpi_wrapper -lgfortran
 ```
 
-##### C++ parallel version using Intel MPI
+#### C++ parallel version using Intel MPI
 
 ```bash
 g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin  -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolverMPI ChannelFlowMockSolverMPI.cpp -lSysC.SystemCouplingParticipant -lmpi -lmpi_wrapper
 ```
 
-##### C parallel version using Intel MPI
+#### C parallel version using Intel MPI
 
 ```bash
 gcc -std=c11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin  -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolverMPI ChannelFlowMockSolverMPI.c -lSysC.SystemCouplingParticipant -lmpi -lmpi_wrapper
 ```
 
-##### Fortran parallel version using Intel MPI
+#### Fortran parallel version using Intel MPI
 
 GNU Fortran Compiler
 
@@ -217,13 +217,13 @@ Intel Fortran Compiler
 ifort -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/FortranFixedForm -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<IntelMPIPath>/intel64/lib -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolverMPI ChannelFlowMockSolverMPI.f -lSysC.SystemCouplingParticipant.Fortran -lmpifort -lmpi -lmpi_wrapper -lgfortran
 ```
 
-##### C++ parallel version using Fluent MPI Wrapper
+#### C++ parallel version using Fluent MPI Wrapper
 
 ```bash
 g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolverMPI ChannelFlowMockSolverMPI.cpp -lSysC.SystemCouplingParticipant -lmpi_wrapper
 ```
 
-##### Fortran parallel version using Fluent MPI Wrapper
+#### Fortran parallel version using Fluent MPI Wrapper
 
 Note that to link the MPI Wrapper, `include 'mpif.h'` statement in the application
 must be replaced with the following C preprocessor directive:
@@ -238,7 +238,7 @@ C preprocessor must be used. GNU Fortran compiler option for this is `-cpp`.
 gfortran -cpp -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/FortranFixedForm -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolverMPI ChannelFlowMockSolverMPI.f -lSysC.SystemCouplingParticipant.Fortran -lmpi_wrapper
 ```
 
-##### Executing in standalone mode
+#### Executing in standalone mode
 
 Add the following locations to the `LD_LIBRARY_PATH` environment variable:
 
@@ -258,7 +258,7 @@ Now, execute the Python script in standalone mode:
 
 `python ChannelFlowMockSolver.py --scname="test"`
 
-##### Executing parallel version in standalone mode using Intel MPI
+#### Executing parallel version in standalone mode using Intel MPI
 
 Add the following locations to the `LD_LIBRARY_PATH` environment variable:
 
@@ -270,21 +270,21 @@ Now, execute the program in standalone mode locally using two processes:
 
 `mpirun -n 2 ./ChannelFlowMockSolverMPI --scname="test"`
 
-##### Proxy C++
+#### Proxy C++
 
 ```bash
 g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include  -o ProxyTester <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/ProxyTester.cpp <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/DynamicLibrary.cpp <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/ParticipantLibrary.cpp -ldl
 ```
 
-##### Proxy Fortran
+#### Proxy Fortran
 
 ```bash
 gfortran -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/FortranFreeForm -o ProxyTesterFortranFreeForm  <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Fortran/syscPartLibFortranC.f90 <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/Fortran/ParticipantLibraryFortranC.f90  <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Fortran/\*[!C].f90 <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/Fortran/\*[!C].f90 <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/ProxyTesterFortranFreeForm.f90 <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/DynamicLibrary.cpp <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/ParticipantLibrary.cpp -ldl -lstdc++
 ```
 
-#### Windows
+### Windows
 
-##### C++
+#### C++
 
 ```bat
 cl /EHsc /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" ChannelFlowMockSolver.cpp /FeChannelFlowMockSolver.exe /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.lib
@@ -301,43 +301,43 @@ links against the participant library with `/MT` or `/MD` flags. The debug run-t
 not compatible with the participant library. If you cannot change the compiler flags, then it is recommended
 that you use the C APIs instead.
 
-##### C
+#### C
 
 ```bat
 cl /EHsc /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" ChannelFlowMockSolver.c /FeChannelFlowMockSolver.exe /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.lib
 ```
 
-##### Fortran
+#### Fortran
 
 ```bat
 ifort -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\FortranFixedForm" /FeChannelFlowMockSolver.exe ChannelFlowMockSolver.f /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.Fortran.lib
 ```
 
-##### C++ parallel version using Intel MPI
+#### C++ parallel version using Intel MPI
 
 ```bat
 cl /EHsc /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" /I"<IntelMPIPath>\intel64\include" ChannelFlowMockSolverMPI.cpp /FeChannelFlowMockSolverMPI.exe /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.lib /LIBPATH:"<IntelMPIPath>\intel64\lib" impi.lib
 ```
 
-##### C parallel version using Intel MPI
+#### C parallel version using Intel MPI
 
 ```bat
 cl /EHsc /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" /I"<IntelMPIPath>\intel64\include" ChannelFlowMockSolverMPI.c /FeChannelFlowMockSolverMPI.exe /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.lib /LIBPATH:"<IntelMPIPath>\intel64\lib" impi.lib
 ```
 
-##### Fortran parallel version using Intel MPI
+#### Fortran parallel version using Intel MPI
 
 ```bat
 ifort -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\FortranFixedForm" -I"<IntelMPIPath>\intel64\include" /FeChannelFlowMockSolverMPI.exe ChannelFlowMockSolverMPI.f /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.Fortran.lib /LIBPATH:"<IntelMPIPath>\intel64\lib" impi.lib
 ```
 
-##### C++ parallel version using Fluent MPI Wrapper
+#### C++ parallel version using Fluent MPI Wrapper
 
 ```bat
 cl /EHsc /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\cnlauncher\fluent\fluent<MultiportVersion>\multiport\mpi_wrapper\include" ChannelFlowMockSolverMPI.cpp /FeChannelFlowMockSolverMPI.exe /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.lib /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\cnlauncher\fluent\fluent<MultiportVersion>\multiport\mpi_wrapper\win64\stub" mpi_wrapper.lib
 ```
 
-##### Fortran parallel version using Fluent MPI Wrapper
+#### Fortran parallel version using Fluent MPI Wrapper
 
 Note that to link the MPI Wrapper, `include 'mpif.h'` statement in the application
 must be replaced with the following C preprocessor directive:
@@ -352,13 +352,13 @@ C preprocessor must be used. Intel Fortran compiler option for this is `-fpp`.
 ifort -fpp -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\FortranFixedForm" -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\cnlauncher\fluent\fluent<MultiportVersion>\multiport\mpi_wrapper\include" /FeChannelFlowMockSolverMPI.exe ChannelFlowMockSolverMPI.f /link /subsystem:console /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\lib" SysC.SystemCouplingParticipant.Fortran.lib /LIBPATH:"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\cnlauncher\fluent\fluent<MultiportVersion>\multiport\mpi_wrapper\win64\stub" mpi_wrapper.lib
 ```
 
-##### Proxy C++
+#### Proxy C++
 
 ```bat
 cl /EHsc /MD /I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include" <ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\Proxy\ProxyTester.cpp <ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\Proxy\DynamicLibrary.cpp <ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\Proxy\ParticipantLibrary.cpp user32.lib /FeProxyTester.exe /link /subsystem:console
 ```
 
-##### Proxy Fortran
+#### Proxy Fortran
 
 First generate `DynamicLibrary.staticrt.obj` and `ParticipantLibrary.staticrt.obj` using following command.
 
@@ -373,7 +373,7 @@ Then pass these two objects file to ifort together with other fortran source fil
 ifort -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\FortranFreeForm" /FeProxyTesterFortranFreeForm.exe "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Fortran\syscPartLibFortranC.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Proxy\Fortran\ParticipantLibraryFortranC.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Fortran\*F.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Fortran\*Fortran.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCouplingParticipant\Proxy\Fortran\*Fortran.f90" "<ANSYSInstallationPath>\SystemCoupling\runTime\winx64include\SystemCouplingParticipant\Proxy\ProxyTesterFortranFreeForm.f90" DynamicLibrary.staticrt.obj" ParticipantLibrary.staticrt.obj"  /link /subsystem:console user32.lib
 ```
 
-##### Executing in standalone mode
+#### Executing in standalone mode
 
 Add the following locations to the `PATH` environment variable:
 
@@ -393,7 +393,7 @@ Now, execute the Python script in standalone mode:
 
 `python.exe ChannelFlowMockSolver.py --scname="test"`
 
-##### Executing parallel version in standalone mode using Intel MPI
+#### Executing parallel version in standalone mode using Intel MPI
 
 Add the following locations to the `PATH` environment variable:
 

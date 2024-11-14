@@ -1,4 +1,3 @@
-<a id="classsysc_1_1NonFatalError"></a>
 # Class sysc::NonFatalError
 
 ![][C++]

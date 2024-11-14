@@ -2,12 +2,27 @@
 
 The participant library includes the following tools to help with testing and debugging:
 
-- [Code tracing](#code-tracing)
-- [Standalone Mode (for co-simulation only)](#standalone-mode-for-co-simulation-only)
-- [Mesh Validity Check](#mesh-validity-check)
-- [Record and Playback Capability (for co-simulation only)](#record-and-playback-capabilities)
+- [Testing and debugging tools](#testing-and-debugging-tools)
+  - [Code tracing](#code-tracing)
+  - [Standalone mode (for co-simulation only)](#standalone-mode-for-co-simulation-only)
+    - [C++](#c)
+    - [C](#c-1)
+    - [Fortran](#fortran)
+    - [Python](#python)
+  - [Mesh validity check](#mesh-validity-check)
+    - [C++](#c-2)
+    - [C](#c-3)
+    - [Fortran](#fortran-1)
+    - [Python](#python-1)
+  - [Record and playback capabilities](#record-and-playback-capabilities)
+    - [The record capability](#the-record-capability)
+    - [The playback capability](#the-playback-capability)
+    - [SCP file format](#scp-file-format)
+    - [SCPID file format](#scpid-file-format)
+      - [Format](#format)
+        - [Example](#example)
 
-### Code tracing
+## Code tracing
 
 Code tracing allows to log function calls into a text file, that can be
 used to identify source of a given problem. To enable code tracing,
@@ -16,7 +31,7 @@ The higher the value, the more details will be printed to the text files.
 When running in parallel, each parallel process will print its own text file.
 The files will be named `SyC_Log_CNode*.txt`.
 
-### Standalone mode (for co-simulation only)
+## Standalone mode (for co-simulation only)
 
 Once the SCP library interfaces are implemented, you can use the **standalone** mode to run the
 participant solver without connecting to System Coupling.
@@ -42,7 +57,7 @@ changes are required to run in standalone mode. For a demonstration of how to
 run a participant solver in standalone mode, see Tutorial: Heat Transfer in
 Square Channel Air Flow.
 
-#### C++
+### C++
 
 ```cpp
 std::string scHost;
@@ -54,7 +69,7 @@ scHost = "";
 sysc::System Coupling sc(scHost, scPort, partName, buildInfo);
 ```
 
-#### C
+### C
 
 ```c
 char scHost[256];
@@ -66,7 +81,7 @@ scHost[0] = '\0';
 SyscError ret = syscConnect(scHost, scPort, partName, buildInfo);
 ```
 
-#### Fortran
+### Fortran
 
 ```fortran
 character(len=256) :: scHost
@@ -78,7 +93,7 @@ scHost = ""
 ret = syscConnectF(scHost, scPort, partName, buildInfo)
 ```
 
-#### Python
+### Python
 
 ```python
 from pyExt import SystemCouplingParticipant as sysc
@@ -90,7 +105,7 @@ buildInfo = ""
 sc = sysc.SystemCouplingParticipant(scHost, scPort, scName, buildInfo)
 ```
 
-### Mesh validity check
+## Mesh validity check
 
 A ***mesh validity check*** is available as a debugging tool.
 This is a function that can be called to detect problems
@@ -111,7 +126,7 @@ only ids that are found in the node ids array, etc.
 > - *To ensure optimal performance, this function should not be called
 >  in production workflows.*
 
-#### C++
+### C++
 
 ```cpp
 sysc::SurfaceMesh surfaceMesh(...);
@@ -122,7 +137,7 @@ if (meshStatus.isInvalid) {
 }
 ```
 
-#### C
+### C
 
 ```c
 SyscSurfaceMesh surfaceMesh = syscGetSurfaceMesh...;
@@ -133,7 +148,7 @@ if (ret.retcode != 0) {
 }
 ```
 
-#### Fortran
+### Fortran
 
 ```fortran
 type(SyscSurfaceMeshF) :: surfaceMesh
@@ -145,7 +160,7 @@ if (ret%retcode .NE. SyscStatusOk) then
 endif
 ```
 
-#### Python
+### Python
 
 ```python
 from pyExt import SystemCouplingParticipant as sysc
@@ -157,7 +172,7 @@ if meshStatus.isInvalid:
     print(meshStatus.message)
 ```
 
-### Record and playback capabilities
+## Record and playback capabilities
 
 This feature allows you to reproduce the interactions with
 System Coupling without actually connecting to System Coupling. This can be used
@@ -180,7 +195,7 @@ The "playback" capability refers to the option to read the .scp and .scpid
 files in standalone mode ([see above](#standalone-mode-for-co-simulation-only)) to emulate the interactions with System Coupling
 without using System Coupling.
 
-#### The record capability
+### The record capability
 
 The "record" aspect of the capability describes an option
 in System Coupling setup to generate files containing the information about
@@ -207,26 +222,26 @@ significant digits, min and max are 1 and 16, respectively):
 
 `DatamodelRoot().CouplingParticipant[<participant name>].RecordInteractions.Precision = 10`
 
-#### The playback capability
+### The playback capability
 
 The "playback" aspect involves running in standalone mode. If the .scp and .scpid files described above
 exist in the working directory, and the standalone mode ([see above](#standalone-mode-for-co-simulation-only)) is used, then the SCP library will
 read these files and use them to provide the information to the participant solver as-if the full
 co-simulation analysis was being executed.
 
-#### SCP file format
+### SCP file format
 
 The SCP file is the same file that the SCP library can generate as described in
 [Completing the System Coupling Participant Setup](06_ParticipantSetup.md) section.
 
 More information about the SCP file format can be found in the System Coupling User's Guide.
 
-#### SCPID file format
+### SCPID file format
 
 SCP library input solution file is used to help debug and locate issues in the participant solver without connecting to SystemCoupling
 and running in the standalone mode. This file is called `<ParticipantName>.scpid` and `scpid` extension stands for `System Coupling Participant Interaction Data`.
 
-##### Format
+#### Format
 
 - A list of value can be used for a input variable. For vector and complex input variables, compact complex and complex vector form is used and compact complex comes first if it is a complex vector variable.
 - If a single scalar, vector,complex, or complex vector is specified in the list, then spread this value for all nodes or elements.
@@ -270,7 +285,7 @@ and running in the standalone mode. This file is called `<ParticipantName>.scpid
       CreateRestartPoint (optional)
     ```
 
-###### Example
+##### Example
 
 It's an FSI case, and this is CFD/Fluent. One region called wall_deforming consists of a single quad element. It receives nodal displacements from System Coupling. 1 time step, 2 iterations, create a restart point at the end of the 2nd iteration.
 

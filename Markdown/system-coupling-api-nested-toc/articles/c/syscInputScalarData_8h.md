@@ -1,4 +1,3 @@
-<a id="syscInputScalarData_8h"></a>
 # File syscInputScalarData.h
 
 ![][C++]

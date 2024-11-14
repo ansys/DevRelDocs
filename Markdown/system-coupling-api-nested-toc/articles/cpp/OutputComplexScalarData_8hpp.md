@@ -1,4 +1,3 @@
-<a id="OutputComplexScalarData_8hpp"></a>
 # File OutputComplexScalarData.hpp
 
 ![][C++]

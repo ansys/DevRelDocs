@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscvariablef"></a>
 # Type fortran::syscvariablef undefined
 
 ![][Fortran]

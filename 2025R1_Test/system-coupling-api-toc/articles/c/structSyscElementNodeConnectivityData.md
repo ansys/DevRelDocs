@@ -1,4 +1,3 @@
-<a id="structSyscElementNodeConnectivityData"></a>
 # Structure SyscElementNodeConnectivityData
 
 ![][C++]

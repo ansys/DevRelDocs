@@ -1,4 +1,3 @@
-<a id="namespacestd"></a>
 # Namespace std
 
 ![][C++]

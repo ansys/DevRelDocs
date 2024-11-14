@@ -1,4 +1,3 @@
-<a id="group__SystemCouplingParticipantAPIs"></a>
 # C++ Interfaces for Participant Library
 
 Provides C++ interfaces to the System Coupling participant library.

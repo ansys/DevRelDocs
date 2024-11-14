@@ -1,4 +1,3 @@
-<a id="syscInputScalarDataF_8fi"></a>
 # File syscInputScalarDataF.fi
 
 ![][Fortran]

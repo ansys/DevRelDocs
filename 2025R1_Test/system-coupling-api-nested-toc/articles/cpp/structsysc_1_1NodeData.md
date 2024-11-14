@@ -1,4 +1,3 @@
-<a id="structsysc_1_1NodeData"></a>
 # Structure sysc::NodeData
 
 ![][C++]

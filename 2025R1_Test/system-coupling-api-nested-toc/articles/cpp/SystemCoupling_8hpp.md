@@ -1,4 +1,3 @@
-<a id="SystemCoupling_8hpp"></a>
 # File SystemCoupling.hpp
 
 ![][C++]

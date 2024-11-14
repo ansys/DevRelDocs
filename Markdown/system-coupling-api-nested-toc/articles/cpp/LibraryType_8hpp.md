@@ -1,4 +1,3 @@
-<a id="LibraryType_8hpp"></a>
 # File LibraryType.hpp
 
 ![][C++]

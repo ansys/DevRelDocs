@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetsurfacemeshf"></a>
 # Interface fortran::syscgetsurfacemeshf
 
 ![][Fortran]

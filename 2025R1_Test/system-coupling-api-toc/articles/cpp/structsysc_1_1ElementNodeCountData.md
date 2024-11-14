@@ -1,4 +1,3 @@
-<a id="structsysc_1_1ElementNodeCountData"></a>
 # Structure sysc::ElementNodeCountData
 
 ![][C++]

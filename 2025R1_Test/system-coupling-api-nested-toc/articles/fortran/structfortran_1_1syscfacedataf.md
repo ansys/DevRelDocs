@@ -1,4 +1,3 @@
-<a id="structfortran_1_1syscfacedataf"></a>
 # Type fortran::syscfacedataf undefined
 
 ![][Fortran]

@@ -1,4 +1,3 @@
-<a id="structSyscSurfaceMesh"></a>
 # Structure SyscSurfaceMesh
 
 ![][C++]

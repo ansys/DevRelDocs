@@ -1,4 +1,3 @@
-<a id="interfacefortran_1_1syscgetelementnodecountdataf"></a>
 # Interface fortran::syscgetelementnodecountdataf
 
 ![][Fortran]

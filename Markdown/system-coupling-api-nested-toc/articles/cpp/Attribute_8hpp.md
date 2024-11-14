@@ -1,4 +1,3 @@
-<a id="Attribute_8hpp"></a>
 # File Attribute.hpp
 
 ![][C++]
