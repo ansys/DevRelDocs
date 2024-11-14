@@ -1,8 +1,10 @@
-# Release notes for 2024 R2
+# Changelog
 
-## New APIs for create system coupling SetupInfo
+## Release notes for 2024 R2
 
-### C++
+### New APIs for create system coupling SetupInfo
+
+#### C++
 
 The following new constructor has been added for creating sysc::SetupInfo with specifying the time integration method for the participant:
 
@@ -14,7 +16,7 @@ The following new constructor has been added for creating sysc::SetupInfo with s
     enum TimeIntegration timeIntegration);
 ```
 
-### C
+#### C
 
 A helper function has been added for creating SyscSetupInfo with specifying the time integration method for the participant:
 
@@ -26,7 +28,7 @@ SyscSetupInfo syscGetSetupInfoARDT(
   enum SyscTimeIntegration timeIntegration);
 ```
 
-### Fortran
+#### Fortran
 
 A helper function has been added for creating SyscSetupInfo with specifying the time integration method for the participant:
 
@@ -35,7 +37,7 @@ function syscGetSetupInfoF_ARDT(analysisType, &
   restartsSupported, dimension, timeIntegration) result(ret)
 ```
 
-### Python
+#### Python
 
 A new constructor has been added for sysc.SetupInfo with specifying the time integration method for the participant:
 
@@ -44,13 +46,13 @@ pySetupInfo=sysc.SetupInfo(sysc.Steady, False, sysc.Dimension_D2, sysc.TimeInteg
 ```
 
 
-# Release notes for 2024 R1
+## Release notes for 2024 R1
 
-## 2D vector APIs
+### 2D vector APIs
 
 This change applies to C++, C, Fortran, and Python APIs.
 
-### C++
+#### C++
 
 `sysc::OutputVectorData` and `sysc::InputVectorData` supports constructing both compact and split 2D vector data.
 
@@ -75,7 +77,7 @@ OutputComplexVectorData(const double* dataComplex, std::size_t size, Dimension d
 InputComplexVectorData(double* dataComplex, std::size_t size, Dimension dimension);
 ```
 
-### C
+#### C
 
 For C, helper functions have been added for creating 2D vector data.
 
@@ -106,7 +108,7 @@ SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataDoubleDim(
   enum SyscDimension dimension);
 ```
 
-### Fortran
+#### Fortran
 
 For fortran, helper functions have been added for creating 2D vector data.
 
@@ -131,7 +133,7 @@ function syscGetOutputCompactComplexCompactVectorDataDimF(&
     data, dataSize, dimension) result (ret)
 ```
 
-### Python
+#### Python
 
 For python, new constructors have been added for creating 2D vector data.
 
@@ -153,9 +155,9 @@ For 2D compact complex and compact vector data:
 py2DComplexVector=sysc.OutputComplexVectorData(data1=complexData,dimension=sysc.Dimension_D2)
 ```
 
-## New APIs for create system coupling SetupInfo
+### New APIs for create system coupling SetupInfo
 
-### C++
+#### C++
 
 The following new constructor has been added for creating sysc::SetupInfo with specifying participant dimension:
 
@@ -166,7 +168,7 @@ The following new constructor has been added for creating sysc::SetupInfo with s
     enum Dimension dimension);
 ```
 
-### C
+#### C
 
 A helper function has been added for creating SyscSetupInfo with specifying participant dimension:
 
@@ -177,7 +179,7 @@ SyscSetupInfo syscGetSetupInfoARD(
   enum SyscDimension dimension);
 ```
 
-### Fortran
+#### Fortran
 
 A helper function has been added for creating SyscSetupInfo with specifying participant dimension:
 
@@ -186,7 +188,7 @@ function syscGetSetupInfoF_ARD(analysisType, &
   restartsSupported, dimension) result(ret)
 ```
 
-### Python
+#### Python
 
 A new constructor has been added for sysc.SetupInfo with specifying participant dimension:
 
