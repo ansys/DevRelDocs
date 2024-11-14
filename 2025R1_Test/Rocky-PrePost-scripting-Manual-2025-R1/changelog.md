@@ -1,5 +1,3 @@
-<a id="release-notes-for-2025-r1"></a>
-
 # Release notes for 2025 R1
 
 <a id="added"></a>
