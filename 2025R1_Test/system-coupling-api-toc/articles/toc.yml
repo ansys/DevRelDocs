@@ -41,7 +41,7 @@
     href: 19_PlateDampingTutorial.md
   - name: Pipe mapping tutorial
     href: 20_PipeMappingTutorial.md
-- name: Release notes for 2024 R2
+- name: Changelog
   href: 21_ReleaseNotes.md
 - name: C API reference
   items:
