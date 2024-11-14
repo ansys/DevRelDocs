@@ -94,7 +94,9 @@ To get the average temperature on these two regions,
 the sum of temperature nodal values is divided by the number
 of unique nodes. In this example,
 the average temperature is
-$(500 + 300 + 800 + 600 + 500 + 300) / 6 = 500 [K]$.
+$$
+(500 + 300 + 800 + 600 + 500 + 300) / 6 = 500 [K]
+$$.
 
 ![Figure 6: Nodal intensive variable (temperature) values for the multi-region case with shared nodes](MultiregionFigure6.png)
 *Figure 6: Nodal intensive variable (temperature) values for the multi-region case with shared nodes*
