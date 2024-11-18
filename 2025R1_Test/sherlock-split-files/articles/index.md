@@ -1,4 +1,5 @@
 # Protocol Documentation
+
 <a name="top"></a>
 
 
@@ -6,12 +7,14 @@
 <p align="right"><a href="#top">Top</a></p>
 
 ## SherlockAnalysisService.proto
+
 @Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
 <a name="-GetHarmonicVibeInputFieldsRequest"></a>
 
 ### GetHarmonicVibeInputFieldsRequest
+
 Request to list the valid Harmonic Vibe input fields for the provided model source and user configuration.
 
 
@@ -42,6 +45,7 @@ Request to list the valid Harmonic Vibe input fields for the provided model sour
 <a name="-GetICTAnalysisInputFieldsRequest"></a>
 
 ### GetICTAnalysisInputFieldsRequest
+
 Request to list the valid ICT analysis input fields given the user configuration.
 
 
@@ -67,6 +71,7 @@ Request to list the valid ICT analysis input fields given the user configuration
 <a name="-GetMechanicalShockInputFieldsRequest"></a>
 
 ### GetMechanicalShockInputFieldsRequest
+
 Request to list the valid mechanical shock input fields for the provided model source and user configuration.
 
 
@@ -97,6 +102,7 @@ Request to list the valid mechanical shock input fields for the provided model s
 <a name="-GetNaturalFrequencyInputFieldsRequest"></a>
 
 ### GetNaturalFrequencyInputFieldsRequest
+
 Request to list the valid natural frequency input fields given the user configuration.
 
 
@@ -122,6 +128,7 @@ Request to list the valid natural frequency input fields given the user configur
 <a name="-GetPcbModelingInputFieldsRequest"></a>
 
 ### GetPcbModelingInputFieldsRequest
+
 Request to list the valid PCB Modeling input fields given the user configuration.
 
 
@@ -147,6 +154,7 @@ Request to list the valid PCB Modeling input fields given the user configuration
 <a name="-GetRandomVibeInputFieldsRequest"></a>
 
 ### GetRandomVibeInputFieldsRequest
+
 Request to list the valid random vibe input fields for the provided model source and user configuration.
 
 
@@ -177,6 +185,7 @@ Request to list the valid random vibe input fields for the provided model source
 <a name="-GetSolderFatigueInputFieldsRequest"></a>
 
 ### GetSolderFatigueInputFieldsRequest
+
 Request to list the valid solder fatigue input fields given the user configuration.
 
 
@@ -202,6 +211,7 @@ Request to list the valid solder fatigue input fields given the user configurati
 <a name="-RunAnalysisRequest"></a>
 
 ### RunAnalysisRequest
+
 Request to run one or more Sherlock analysis given the project path, CCA name, analyses, lifecycle phases and events.
 
 
@@ -266,6 +276,7 @@ Request to run one or more Sherlock analysis given the project path, CCA name, a
 <a name="-RunStrainMapAnalysisRequest"></a>
 
 ### RunStrainMapAnalysisRequest
+
 Request to run Sherlock strain map analysis given the project name, CCA name, and strain maps.
 
 
@@ -318,6 +329,7 @@ Request to run Sherlock strain map analysis given the project name, CCA name, an
 <a name="-UpdateHarmonicVibePropsRequest"></a>
 
 ### UpdateHarmonicVibePropsRequest
+
 Request to update the harmonic vibe analysis properties for one or more CCA&#39;s
 in the project indicated.
 
@@ -364,6 +376,7 @@ in the project indicated.
 <a name="-UpdateICTAnalysisPropsRequest"></a>
 
 ### UpdateICTAnalysisPropsRequest
+
 Request to update ICT Analysis properties.
 
 
@@ -402,6 +415,7 @@ Request to update ICT Analysis properties.
 <a name="-UpdateMechanicalShockPropsRequest"></a>
 
 ### UpdateMechanicalShockPropsRequest
+
 Request to update the mechanical shock analysis properties.
 
 
@@ -446,6 +460,7 @@ Request to update the mechanical shock analysis properties.
 <a name="-UpdateNaturalFrequencyPropsRequest"></a>
 
 ### UpdateNaturalFrequencyPropsRequest
+
 Request to update natural frequency analysis properties.
 
 
@@ -471,6 +486,7 @@ Request to update natural frequency analysis properties.
 <a name="-UpdatePartModelingRequest"></a>
 
 ### UpdatePartModelingRequest
+
 Request to update FEA part modeling properties.
 
 
@@ -496,6 +512,7 @@ Request to update FEA part modeling properties.
 <a name="-UpdatePartsListValidationPropsRequest"></a>
 
 ### UpdatePartsListValidationPropsRequest
+
 Request to update the Parts List Validation properties.
 
 
@@ -536,6 +553,7 @@ Request to update the Parts List Validation properties.
 <a name="-UpdatePcbModelingPropsRequest"></a>
 
 ### UpdatePcbModelingPropsRequest
+
 Request to update FEA analysis PCB Modeling properties.
 
 
@@ -578,6 +596,7 @@ Request to update FEA analysis PCB Modeling properties.
 <a name="-UpdateRandomVibePropsRequest"></a>
 
 ### UpdateRandomVibePropsRequest
+
 Request to update random vibe analysis properties.
 
 
@@ -608,6 +627,7 @@ Request to update random vibe analysis properties.
 <a name="-UpdateSolderFatiguePropsRequest"></a>
 
 ### UpdateSolderFatiguePropsRequest
+
 Request to update solder fatigue properties.
 
 
@@ -644,6 +664,7 @@ Request to update solder fatigue properties.
 <a name="-UpdateThermalMechPropsRequest"></a>
 
 ### UpdateThermalMechPropsRequest
+
 Request to update thermal mech analysis properties.
 
 
@@ -665,6 +686,7 @@ Request to update thermal mech analysis properties.
 <a name="-ElementOrder"></a>
 
 ### ElementOrder
+
 Enumeration defining the types of supported element orders.
 
 | Name | Number | Description |
@@ -809,12 +831,14 @@ Enumeration defining the types of supported element orders.
 <p align="right"><a href="#top">Top</a></p>
 
 ## SherlockCommonService.proto
+
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
 <a name="-ExitRequest"></a>
 
 ### ExitRequest
+
 Request to exit the gRPC connection.
 
 
@@ -830,6 +854,7 @@ Request to exit the gRPC connection.
 <a name="-GetSoldersRequest"></a>
 
 ### GetSoldersRequest
+
 Request for a list of valid solder materials.
 
 
@@ -840,6 +865,7 @@ Request for a list of valid solder materials.
 <a name="-GetSoldersResponse"></a>
 
 ### GetSoldersResponse
+
 Represents a list of valid solder materials.
 
 
@@ -855,6 +881,7 @@ Represents a list of valid solder materials.
 <a name="-HealthCheckRequest"></a>
 
 ### HealthCheckRequest
+
 Request to check if the gRPC connection is open.
 
 
@@ -865,6 +892,7 @@ Request to check if the gRPC connection is open.
 <a name="-HealthCheckResponse"></a>
 
 ### HealthCheckResponse
+
 Represents whether the gRPC connection is open.
 
 
@@ -881,6 +909,7 @@ Represents whether the gRPC connection is open.
 <a name="-IsSherlockClientLoadingRequest"></a>
 
 ### IsSherlockClientLoadingRequest
+
 Check if the Sherlock client is still loading.
 
 
@@ -891,6 +920,7 @@ Check if the Sherlock client is still loading.
 <a name="-ListUnitsRequest"></a>
 
 ### ListUnitsRequest
+
 Request for a list of valid units of the provided unit type.
 
 
@@ -906,6 +936,7 @@ Request for a list of valid units of the provided unit type.
 <a name="-ListUnitsResponse"></a>
 
 ### ListUnitsResponse
+
 Represents a list of valid units for the provided unit type.
 
 
@@ -922,6 +953,7 @@ Represents a list of valid units for the provided unit type.
 <a name="-Measurement"></a>
 
 ### Measurement
+
 Represents a common measurement with a value and a unit
 
 
@@ -938,6 +970,7 @@ Represents a common measurement with a value and a unit
 <a name="-ReturnCode"></a>
 
 ### ReturnCode
+
 Status response of a message. A value of 0 indicates a successful request.
 
 
@@ -954,6 +987,7 @@ Status response of a message. A value of 0 indicates a successful request.
 <a name="-SherlockInfoRequest"></a>
 
 ### SherlockInfoRequest
+
 Request to receive Sherlock version and configuration data.
 
 
@@ -964,6 +998,7 @@ Request to receive Sherlock version and configuration data.
 <a name="-SherlockInfoResponse"></a>
 
 ### SherlockInfoResponse
+
 Represents Sherlock version and configuration data.
 
 
@@ -1035,6 +1070,7 @@ Represents Sherlock version and configuration data.
 <a name="-MatchingMode"></a>
 
 ### MatchingMode
+
 Determines how parts in the parts list are matched against parts 
 in the AVL or Part Library.
 
@@ -1048,6 +1084,7 @@ in the AVL or Part Library.
 <a name="-TableDelimiter"></a>
 
 ### TableDelimiter
+
 Types of delimiters that can be used for exporting tables
 
 | Name | Number | Description |
@@ -1085,12 +1122,14 @@ Types of delimiters that can be used for exporting tables
 <p align="right"><a href="#top">Top</a></p>
 
 ## SherlockLayerService.proto
+
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
 <a name="-AddModelingRegionRequest"></a>
 
 ### AddModelingRegionRequest
+
 Request to add one or more modeling regions to a specific project.
 
 
@@ -1107,6 +1146,7 @@ Request to add one or more modeling regions to a specific project.
 <a name="-AddPottingRegionRequest"></a>
 
 ### AddPottingRegionRequest
+
 Request to add a potting region.
 
 
@@ -1168,6 +1208,7 @@ Request to add a potting region.
 <a name="-CopyModelingRegionRequest"></a>
 
 ### CopyModelingRegionRequest
+
 Request to copy one or more modeling regions in a specific project.
 
 
@@ -1203,6 +1244,7 @@ Request to copy one or more modeling regions in a specific project.
 <a name="-DeleteAllICTFixturesRequest"></a>
 
 ### DeleteAllICTFixturesRequest
+
 Request to delete all ICT fixtures in specific CCA of specific project.
 
 
@@ -1219,6 +1261,7 @@ Request to delete all ICT fixtures in specific CCA of specific project.
 <a name="-DeleteAllMountPointsRequest"></a>
 
 ### DeleteAllMountPointsRequest
+
 Request to delete all mount points in specific CCA of specific project.
 
 
@@ -1235,6 +1278,7 @@ Request to delete all mount points in specific CCA of specific project.
 <a name="-DeleteAllTestPointsRequest"></a>
 
 ### DeleteAllTestPointsRequest
+
 Request to delete all ICT fixtures in specific CCA of specific project.
 
 
@@ -1251,6 +1295,7 @@ Request to delete all ICT fixtures in specific CCA of specific project.
 <a name="-DeleteModelingRegionRequest"></a>
 
 ### DeleteModelingRegionRequest
+
 Request to delete one or more modeling regions for a specific project.
 
 
@@ -1283,6 +1328,7 @@ Request to delete one or more modeling regions for a specific project.
 <a name="-ExportAllICTFixturesRequest"></a>
 
 ### ExportAllICTFixturesRequest
+
 Request to export all ICT fixtures and their properties into a CSV formatted file.
 
 
@@ -1301,6 +1347,7 @@ Request to export all ICT fixtures and their properties into a CSV formatted fil
 <a name="-ExportAllMountPointsRequest"></a>
 
 ### ExportAllMountPointsRequest
+
 Request to export all mount points and their properties into a CSV formatted file.
 
 
@@ -1319,6 +1366,7 @@ Request to export all mount points and their properties into a CSV formatted fil
 <a name="-ExportAllTestPointsRequest"></a>
 
 ### ExportAllTestPointsRequest
+
 Request to export all test points and their properties into a CSV formatted file.
 
 
@@ -1339,6 +1387,7 @@ Request to export all test points and their properties into a CSV formatted file
 <a name="-GetMountPointBoundariesRequest"></a>
 
 ### GetMountPointBoundariesRequest
+
 Request to list the valid mount point boundaries.
 
 
@@ -1349,6 +1398,7 @@ Request to list the valid mount point boundaries.
 <a name="-GetMountPointBoundariesResponse"></a>
 
 ### GetMountPointBoundariesResponse
+
 Represents a list of valid mount point boundaries.
 
 
@@ -1365,6 +1415,7 @@ Represents a list of valid mount point boundaries.
 <a name="-GetMountPointChassisMaterialsRequest"></a>
 
 ### GetMountPointChassisMaterialsRequest
+
 Request to list the valid mount point chassis materials.
 
 
@@ -1375,6 +1426,7 @@ Request to list the valid mount point chassis materials.
 <a name="-GetMountPointChassisMaterialsResponse"></a>
 
 ### GetMountPointChassisMaterialsResponse
+
 Represents a list of valid mount point chassis materials.
 
 
@@ -1391,6 +1443,7 @@ Represents a list of valid mount point chassis materials.
 <a name="-GetMountPointShapeTypesRequest"></a>
 
 ### GetMountPointShapeTypesRequest
+
 Request to list the valid mount point shape types.
 
 
@@ -1406,6 +1459,7 @@ Request to list the valid mount point shape types.
 <a name="-GetMountPointShapeTypesResponse"></a>
 
 ### GetMountPointShapeTypesResponse
+
 Represents a list of valid mount point shape types.
 
 
@@ -1422,6 +1476,7 @@ Represents a list of valid mount point shape types.
 <a name="-GetMountPointSidesRequest"></a>
 
 ### GetMountPointSidesRequest
+
 Request to list the valid mount point sides.
 
 
@@ -1432,6 +1487,7 @@ Request to list the valid mount point sides.
 <a name="-GetMountPointSidesResponse"></a>
 
 ### GetMountPointSidesResponse
+
 Represents a list of valid mount point sides.
 
 
@@ -1448,6 +1504,7 @@ Represents a list of valid mount point sides.
 <a name="-GetMountPointTypesRequest"></a>
 
 ### GetMountPointTypesRequest
+
 Request to list the valid mount point types.
 
 
@@ -1458,6 +1515,7 @@ Request to list the valid mount point types.
 <a name="-GetMountPointTypesResponse"></a>
 
 ### GetMountPointTypesResponse
+
 Represents a list of valid mount point types.
 
 
@@ -1474,6 +1532,7 @@ Represents a list of valid mount point types.
 <a name="-GetMountPointUnitsRequest"></a>
 
 ### GetMountPointUnitsRequest
+
 Request to list the valid mount point units.
 
 
@@ -1484,6 +1543,7 @@ Request to list the valid mount point units.
 <a name="-GetMountPointUnitsResponse"></a>
 
 ### GetMountPointUnitsResponse
+
 Represents a list of valid mount point units.
 
 
@@ -1500,6 +1560,7 @@ Represents a list of valid mount point units.
 <a name="-GetMountPointsPropertiesRequest"></a>
 
 ### GetMountPointsPropertiesRequest
+
 Request to list the valid mount point chassis materials.
 
 
@@ -1517,6 +1578,7 @@ Request to list the valid mount point chassis materials.
 <a name="-GetMountPointsPropertiesResponse"></a>
 
 ### GetMountPointsPropertiesResponse
+
 Represents a list of valid mount point properties.
 
 
@@ -1595,6 +1657,7 @@ Represents a list of valid mount point properties.
 <a name="-MountPointProperties"></a>
 
 ### MountPointProperties
+
 Properties of mount point, the properties may varies from the mount point type and mount point shape.
 
 
@@ -1709,6 +1772,7 @@ Properties of mount point, the properties may varies from the mount point type a
 <a name="-UpdateICTFixturesByFileRequest"></a>
 
 ### UpdateICTFixturesByFileRequest
+
 Request to update ICT fixtures properties of a CCA from a CSV formatted file.
 
 
@@ -1726,6 +1790,7 @@ Request to update ICT fixtures properties of a CCA from a CSV formatted file.
 <a name="-UpdateICTFixturesResponse"></a>
 
 ### UpdateICTFixturesResponse
+
 Contains the status of the update as well as all the update error messages.
 
 
@@ -1742,6 +1807,7 @@ Contains the status of the update as well as all the update error messages.
 <a name="-UpdateModelingRegionRequest"></a>
 
 ### UpdateModelingRegionRequest
+
 Request to update one or more modeling regions for a specific project.
 
 
@@ -1758,6 +1824,7 @@ Request to update one or more modeling regions for a specific project.
 <a name="-UpdateMountPointsByFileRequest"></a>
 
 ### UpdateMountPointsByFileRequest
+
 Request to update mount points properties of a CCA from a CSV formatted file.
 
 
@@ -1775,6 +1842,7 @@ Request to update mount points properties of a CCA from a CSV formatted file.
 <a name="-UpdateMountPointsRequest"></a>
 
 ### UpdateMountPointsRequest
+
 Request to update mount points properties of a CCA from a CSV formatted file.
 
 
@@ -1792,6 +1860,7 @@ Request to update mount points properties of a CCA from a CSV formatted file.
 <a name="-UpdateMountPointsResponse"></a>
 
 ### UpdateMountPointsResponse
+
 Contains the status of the update as well as all the update error messages.
 
 
@@ -1808,6 +1877,7 @@ Contains the status of the update as well as all the update error messages.
 <a name="-UpdateTestPointsByFileRequest"></a>
 
 ### UpdateTestPointsByFileRequest
+
 Request to update test points properties of a CCA from a CSV formatted file.
 
 
@@ -1825,6 +1895,7 @@ Request to update test points properties of a CCA from a CSV formatted file.
 <a name="-UpdateTestPointsResponse"></a>
 
 ### UpdateTestPointsResponse
+
 Contains the status of the update as well as all the update error messages.
 
 
@@ -1935,12 +2006,14 @@ Contains the status of the update as well as all the update error messages.
 <p align="right"><a href="#top">Top</a></p>
 
 ## SherlockLifeCycleService.proto
+
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
 <a name="-AddHarmonicEventRequest"></a>
 
 ### AddHarmonicEventRequest
+
 Request to define and add a new harmonic vibe life cycle event.
 
 
@@ -1967,6 +2040,7 @@ Request to define and add a new harmonic vibe life cycle event.
 <a name="-AddHarmonicEventResponse"></a>
 
 ### AddHarmonicEventResponse
+
 Response from adding a harmonic vibe life cycle event.
 
 
@@ -1983,6 +2057,7 @@ Response from adding a harmonic vibe life cycle event.
 <a name="-AddHarmonicVibeProfilesRequest"></a>
 
 ### AddHarmonicVibeProfilesRequest
+
 Request to define and add new harmonic vibe life cycle event profiles.
 
 
@@ -2036,6 +2111,7 @@ Request to define and add new harmonic vibe life cycle event profiles.
 <a name="-AddHarmonicVibeProfilesResponse"></a>
 
 ### AddHarmonicVibeProfilesResponse
+
 Response from adding harmonic vibe life cycle event profiles.
 
 
@@ -2052,6 +2128,7 @@ Response from adding harmonic vibe life cycle event profiles.
 <a name="-AddRandomVibeEventRequest"></a>
 
 ### AddRandomVibeEventRequest
+
 Request to define and add a new random vibe life cycle event.
 
 
@@ -2077,6 +2154,7 @@ Request to define and add a new random vibe life cycle event.
 <a name="-AddRandomVibeEventResponse"></a>
 
 ### AddRandomVibeEventResponse
+
 Response from adding a random vibe life cycle event.
 
 
@@ -2093,6 +2171,7 @@ Response from adding a random vibe life cycle event.
 <a name="-AddRandomVibeProfilesRequest"></a>
 
 ### AddRandomVibeProfilesRequest
+
 Request to define and add new random vibe life cycle event profiles.
 
 
@@ -2145,6 +2224,7 @@ Request to define and add new random vibe life cycle event profiles.
 <a name="-AddRandomVibeProfilesResponse"></a>
 
 ### AddRandomVibeProfilesResponse
+
 Response from adding random vibe profiles.
 
 
@@ -2161,6 +2241,7 @@ Response from adding random vibe profiles.
 <a name="-AddShockEventRequest"></a>
 
 ### AddShockEventRequest
+
 Request to define and add a new shock life cycle event.
 
 
@@ -2185,6 +2266,7 @@ Request to define and add a new shock life cycle event.
 <a name="-AddShockEventResponse"></a>
 
 ### AddShockEventResponse
+
 Response from adding a shock life cycle event.
 
 
@@ -2201,6 +2283,7 @@ Response from adding a shock life cycle event.
 <a name="-AddShockProfilesRequest"></a>
 
 ### AddShockProfilesRequest
+
 Request to define and add new shock life cycle event profiles.
 
 
@@ -2259,6 +2342,7 @@ Request to define and add new shock life cycle event profiles.
 <a name="-AddShockProfilesResponse"></a>
 
 ### AddShockProfilesResponse
+
 Response from adding shock life cycle event profiles.
 
 
@@ -2275,6 +2359,7 @@ Response from adding shock life cycle event profiles.
 <a name="-AddThermalEventRequest"></a>
 
 ### AddThermalEventRequest
+
 Request to define and add a new thermal life cycle event.
 
 
@@ -2296,6 +2381,7 @@ Request to define and add a new thermal life cycle event.
 <a name="-AddThermalEventResponse"></a>
 
 ### AddThermalEventResponse
+
 Response from adding a thermal life cycle event.
 
 
@@ -2312,6 +2398,7 @@ Response from adding a thermal life cycle event.
 <a name="-AddThermalProfilesRequest"></a>
 
 ### AddThermalProfilesRequest
+
 Request to define and add a new thermal life cycle event profiles.
 
 
@@ -2366,6 +2453,7 @@ Request to define and add a new thermal life cycle event profiles.
 <a name="-AddThermalProfilesResponse"></a>
 
 ### AddThermalProfilesResponse
+
 Response from adding thermal profiles.
 
 
@@ -2382,6 +2470,7 @@ Response from adding thermal profiles.
 <a name="-CreateLifePhaseRequest"></a>
 
 ### CreateLifePhaseRequest
+
 Request for creating a life phase.
 
 
@@ -2403,6 +2492,7 @@ Request for creating a life phase.
 <a name="-CreateLifePhaseResponse"></a>
 
 ### CreateLifePhaseResponse
+
 Response from creating a life phase.
 
 
@@ -2419,6 +2509,7 @@ Response from creating a life phase.
 <a name="-DeleteEventRequest"></a>
 
 ### DeleteEventRequest
+
 Request to delete a life cycle event in a project.
 
 
@@ -2436,6 +2527,7 @@ Request to delete a life cycle event in a project.
 <a name="-DeleteLifePhaseResponse"></a>
 
 ### DeleteLifePhaseResponse
+
 Response for deleting a life phase
 
 
@@ -2451,6 +2543,7 @@ Response for deleting a life phase
 <a name="-DeletePhaseRequest"></a>
 
 ### DeletePhaseRequest
+
 Request for deleting a life phase
 
 
@@ -2467,6 +2560,7 @@ Request for deleting a life phase
 <a name="-Events"></a>
 
 ### Events
+
 Represents an event.
 
 
@@ -2483,6 +2577,7 @@ Represents an event.
 <a name="-ListAmplUnitsRequest"></a>
 
 ### ListAmplUnitsRequest
+
 Request for a list of amplitude units.
 
 
@@ -2493,6 +2588,7 @@ Request for a list of amplitude units.
 <a name="-ListAmplUnitsResponse"></a>
 
 ### ListAmplUnitsResponse
+
 Represents a list of amplitude units.
 
 
@@ -2509,6 +2605,7 @@ Represents a list of amplitude units.
 <a name="-ListDurationUnitsRequest"></a>
 
 ### ListDurationUnitsRequest
+
 Request for a list of duration units for event settings.
 
 
@@ -2519,6 +2616,7 @@ Request for a list of duration units for event settings.
 <a name="-ListDurationUnitsResponse"></a>
 
 ### ListDurationUnitsResponse
+
 Represents a list of duration units for event settings in life cycle.
 
 
@@ -2535,6 +2633,7 @@ Represents a list of duration units for event settings in life cycle.
 <a name="-ListFreqUnitsRequest"></a>
 
 ### ListFreqUnitsRequest
+
 Request for a list of frequency units.
 
 
@@ -2545,6 +2644,7 @@ Request for a list of frequency units.
 <a name="-ListFreqUnitsResponse"></a>
 
 ### ListFreqUnitsResponse
+
 Represents a list of frequency units.
 
 
@@ -2561,6 +2661,7 @@ Represents a list of frequency units.
 <a name="-ListHarmonicEventsRequest"></a>
 
 ### ListHarmonicEventsRequest
+
 Request for a list of harmonic events defined for a project.
 
 
@@ -2576,6 +2677,7 @@ Request for a list of harmonic events defined for a project.
 <a name="-ListHarmonicEventsResponse"></a>
 
 ### ListHarmonicEventsResponse
+
 Represents a list of harmonic events defined for a project.
 
 
@@ -2592,6 +2694,7 @@ Represents a list of harmonic events defined for a project.
 <a name="-ListHarmonicProfileTypesRequest"></a>
 
 ### ListHarmonicProfileTypesRequest
+
 Request for a list of harmonic load profile types.
 
 
@@ -2602,6 +2705,7 @@ Request for a list of harmonic load profile types.
 <a name="-ListHarmonicProfileTypesResponse"></a>
 
 ### ListHarmonicProfileTypesResponse
+
 Represents a list of harmonic load profile types.
 
 
@@ -2618,6 +2722,7 @@ Represents a list of harmonic load profile types.
 <a name="-ListLCEventsRequest"></a>
 
 ### ListLCEventsRequest
+
 Request for a list of life cycle phases and events for a project.
 
 
@@ -2633,6 +2738,7 @@ Request for a list of life cycle phases and events for a project.
 <a name="-ListLCEventsResponse"></a>
 
 ### ListLCEventsResponse
+
 Represents the life cycle phases and events for a Sherlock project.
 
 
@@ -2683,6 +2789,7 @@ Represents the life cycle phases and events for a Sherlock project.
 <a name="-ListLCStatesRequest"></a>
 
 ### ListLCStatesRequest
+
 Request for a list of life cycle states.
 
 
@@ -2693,6 +2800,7 @@ Request for a list of life cycle states.
 <a name="-ListLCStatesResponse"></a>
 
 ### ListLCStatesResponse
+
 Represents a list of life cycle states.
 
 
@@ -2709,6 +2817,7 @@ Represents a list of life cycle states.
 <a name="-ListLCTypesRequest"></a>
 
 ### ListLCTypesRequest
+
 Request for a list of life cycle types.
 
 
@@ -2719,6 +2828,7 @@ Request for a list of life cycle types.
 <a name="-ListLCTypesResponse"></a>
 
 ### ListLCTypesResponse
+
 Represents a list of life cycle types.
 
 
@@ -2735,6 +2845,7 @@ Represents a list of life cycle types.
 <a name="-ListRandomVibeEventsRequest"></a>
 
 ### ListRandomVibeEventsRequest
+
 Request for a list of random vibe events defined for a project.
 
 
@@ -2750,6 +2861,7 @@ Request for a list of random vibe events defined for a project.
 <a name="-ListRandomVibeEventsResponse"></a>
 
 ### ListRandomVibeEventsResponse
+
 Represents a list of random vibe events defined for a project.
 
 
@@ -2766,6 +2878,7 @@ Represents a list of random vibe events defined for a project.
 <a name="-ListRandomVibeProfileTypesRequest"></a>
 
 ### ListRandomVibeProfileTypesRequest
+
 Request for a list of random vibe profile types.
 
 
@@ -2776,6 +2889,7 @@ Request for a list of random vibe profile types.
 <a name="-ListRandomVibeProfileTypesResponse"></a>
 
 ### ListRandomVibeProfileTypesResponse
+
 Represents a list of random vibe profile types.
 
 
@@ -2792,6 +2906,7 @@ Represents a list of random vibe profile types.
 <a name="-ListShockEventsRequest"></a>
 
 ### ListShockEventsRequest
+
 Request for a list of shock events defined for a project.
 
 
@@ -2807,6 +2922,7 @@ Request for a list of shock events defined for a project.
 <a name="-ListShockEventsResponse"></a>
 
 ### ListShockEventsResponse
+
 Represents a list of shock events defined for a project.
 
 
@@ -2823,6 +2939,7 @@ Represents a list of shock events defined for a project.
 <a name="-ListShockLoadUnitsRequest"></a>
 
 ### ListShockLoadUnitsRequest
+
 Request for a list of shock load units.
 
 
@@ -2833,6 +2950,7 @@ Request for a list of shock load units.
 <a name="-ListShockLoadUnitsResponse"></a>
 
 ### ListShockLoadUnitsResponse
+
 Represents a list of shock load units.
 
 
@@ -2849,6 +2967,7 @@ Represents a list of shock load units.
 <a name="-ListShockPulsesRequest"></a>
 
 ### ListShockPulsesRequest
+
 Request for a list of shock Pulses.
 
 
@@ -2859,6 +2978,7 @@ Request for a list of shock Pulses.
 <a name="-ListShockPulsesResponse"></a>
 
 ### ListShockPulsesResponse
+
 Represents a list of shock Pulses.
 
 
@@ -2875,6 +2995,7 @@ Represents a list of shock Pulses.
 <a name="-ListTempUnitsRequest"></a>
 
 ### ListTempUnitsRequest
+
 Request for a list of temperature units.
 
 
@@ -2885,6 +3006,7 @@ Request for a list of temperature units.
 <a name="-ListTempUnitsResponse"></a>
 
 ### ListTempUnitsResponse
+
 Represents a list of temperature units.
 
 
@@ -2901,6 +3023,7 @@ Represents a list of temperature units.
 <a name="-LoadHarmonicProfileRequest"></a>
 
 ### LoadHarmonicProfileRequest
+
 Request to load a harmonic life cycle event profile from a .dat or .csv file.
 
 
@@ -2921,6 +3044,7 @@ Request to load a harmonic life cycle event profile from a .dat or .csv file.
 <a name="-LoadHarmonicProfileRequest-CSVProps"></a>
 
 ### LoadHarmonicProfileRequest.CSVProps
+
 .csv file properties. This is only required for a .csv file load.
 
 
@@ -2943,6 +3067,7 @@ Request to load a harmonic life cycle event profile from a .dat or .csv file.
 <a name="-LoadHarmonicProfileResponse"></a>
 
 ### LoadHarmonicProfileResponse
+
 Response from loading a harmonic vibe life cycle event profile from a .dat or .csv file.
 
 
@@ -2959,6 +3084,7 @@ Response from loading a harmonic vibe life cycle event profile from a .dat or .c
 <a name="-LoadRandomVibeProfileRequest"></a>
 
 ### LoadRandomVibeProfileRequest
+
 Request to load a random vibe life cycle event profile from a .dat or .csv file.
 
 
@@ -2978,6 +3104,7 @@ Request to load a random vibe life cycle event profile from a .dat or .csv file.
 <a name="-LoadRandomVibeProfileRequest-CSVProps"></a>
 
 ### LoadRandomVibeProfileRequest.CSVProps
+
 .csv file properties. This is only required for a .csv file load.
 
 
@@ -3000,6 +3127,7 @@ Request to load a random vibe life cycle event profile from a .dat or .csv file.
 <a name="-LoadRandomVibeProfileResponse"></a>
 
 ### LoadRandomVibeProfileResponse
+
 Response from loading a random vibe life cycle event profile from a .dat or .csv file.
 
 
@@ -3016,6 +3144,7 @@ Response from loading a random vibe life cycle event profile from a .dat or .csv
 <a name="-LoadShockProfileDatasetRequest"></a>
 
 ### LoadShockProfileDatasetRequest
+
 Request to load a shock life cycle event profile using the dataset (time and load) from a .dat or .csv file.
 
 
@@ -3035,6 +3164,7 @@ Request to load a shock life cycle event profile using the dataset (time and loa
 <a name="-LoadShockProfileDatasetRequest-CSVProps"></a>
 
 ### LoadShockProfileDatasetRequest.CSVProps
+
 .csv file properties. This is only required for a .csv file load.
 
 
@@ -3057,6 +3187,7 @@ Request to load a shock life cycle event profile using the dataset (time and loa
 <a name="-LoadShockProfileDatasetResponse"></a>
 
 ### LoadShockProfileDatasetResponse
+
 Response from loading a shock profile using the dataset from a .dat or .csv file.
 
 
@@ -3073,6 +3204,7 @@ Response from loading a shock profile using the dataset from a .dat or .csv file
 <a name="-LoadShockProfilePulsesRequest"></a>
 
 ### LoadShockProfilePulsesRequest
+
 Request to load a shock life cycle event profile using pulses from a .dat or .csv file.
 
 
@@ -3092,6 +3224,7 @@ Request to load a shock life cycle event profile using pulses from a .dat or .cs
 <a name="-LoadShockProfilePulsesRequest-CSVProps"></a>
 
 ### LoadShockProfilePulsesRequest.CSVProps
+
 .csv file properties. This is only required for a .csv file load.
 
 
@@ -3120,6 +3253,7 @@ Request to load a shock life cycle event profile using pulses from a .dat or .cs
 <a name="-LoadShockProfilePulsesResponse"></a>
 
 ### LoadShockProfilePulsesResponse
+
 Response from loading a shock profile using pulses from a .dat or .csv file.
 
 
@@ -3136,6 +3270,7 @@ Response from loading a shock profile using pulses from a .dat or .csv file.
 <a name="-LoadThermalProfileRequest"></a>
 
 ### LoadThermalProfileRequest
+
 Request to load a thermal life cycle event profile from a .dat or .csv file.
 
 
@@ -3155,6 +3290,7 @@ Request to load a thermal life cycle event profile from a .dat or .csv file.
 <a name="-LoadThermalProfileRequest-CSVProps"></a>
 
 ### LoadThermalProfileRequest.CSVProps
+
 .csv file properties. This is only required for .csv file load.
 
 
@@ -3179,6 +3315,7 @@ Request to load a thermal life cycle event profile from a .dat or .csv file.
 <a name="-LoadThermalProfileResponse"></a>
 
 ### LoadThermalProfileResponse
+
 Response from loading a thermal profile from a .dat or .csv file.
 
 
@@ -3244,12 +3381,14 @@ Response from loading a thermal profile from a .dat or .csv file.
 <p align="right"><a href="#top">Top</a></p>
 
 ## SherlockModelService.proto
+
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
 <a name="-DrillHoleModeling"></a>
 
 ### DrillHoleModeling
+
 Drill hole properties used for exporting trace models.
 
 
@@ -3269,6 +3408,7 @@ Specifies the size of the segments used to represent round drill holes by a poly
 <a name="-ExportAEDBRequest"></a>
 
 ### ExportAEDBRequest
+
 Request to export an Electronics Desktop model.
 
 
@@ -3288,6 +3428,7 @@ Request to export an Electronics Desktop model.
 <a name="-ExportFEAModelRequest"></a>
 
 ### ExportFEAModelRequest
+
 Request to export an FEA model.
 
 
@@ -3414,6 +3555,7 @@ Request to export an FEA model.
 <a name="-ExportTraceModelRequest"></a>
 
 ### ExportTraceModelRequest
+
 Request to export one or many trace models.
 
 
@@ -3429,6 +3571,7 @@ Request to export one or many trace models.
 <a name="-ExportTraceReinforcementModelRequest"></a>
 
 ### ExportTraceReinforcementModelRequest
+
 Request to export a trace reinforcement model.
 
 
@@ -3551,6 +3694,7 @@ Request to export a trace reinforcement model.
 <a name="-GenerateTraceModelRequest"></a>
 
 ### GenerateTraceModelRequest
+
 Request to generate a trace model.
 
 
@@ -3575,6 +3719,7 @@ Request to generate a trace model.
 <a name="-TraceModelExportParams"></a>
 
 ### TraceModelExportParams
+
 All parameters required to export a trace model.
 
 
@@ -3601,6 +3746,7 @@ All parameters required to export a trace model.
 <a name="-TraceModelExportParams-PcbMeshPropParam"></a>
 
 ### TraceModelExportParams.PcbMeshPropParam
+
 Mesh properties used for exporting trace models.
 
 
@@ -3617,6 +3763,7 @@ Mesh properties used for exporting trace models.
 <a name="-TraceModelExportParams-TracePropParam"></a>
 
 ### TraceModelExportParams.TracePropParam
+
 Trace properties used for exporting trace models.
 
 
@@ -3652,6 +3799,7 @@ Trace properties used for exporting trace models.
 <a name="-MeshType"></a>
 
 ### MeshType
+
 Different ways meshes are created. The options
  available depend on the export file type.
 
@@ -3666,6 +3814,7 @@ Different ways meshes are created. The options
 <a name="-TraceOutputType"></a>
 
 ### TraceOutputType
+
 Indicates which trace regions to include in the 3D model.
 
 | Name | Number | Description |
@@ -3701,12 +3850,14 @@ Indicates which trace regions to include in the 3D model.
 <p align="right"><a href="#top">Top</a></p>
 
 ## SherlockPartsService.proto
+
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
 <a name="-ExportNetListRequest"></a>
 
 ### ExportNetListRequest
+
 Contains the options needed to export a net list to a delimited output file (csv but can have delimiters other than a comma)
 
 
@@ -3727,6 +3878,7 @@ Contains the options needed to export a net list to a delimited output file (csv
 <a name="-ExportPartsListRequest"></a>
 
 ### ExportPartsListRequest
+
 Request to export the parts list for all parts for a project CCA.
 
 
@@ -3744,6 +3896,7 @@ Request to export the parts list for all parts for a project CCA.
 <a name="-GetBoardSidesRequest"></a>
 
 ### GetBoardSidesRequest
+
 Request to list valid board sides.
 
 
@@ -3754,6 +3907,7 @@ Request to list valid board sides.
 <a name="-GetBoardSidesResponse"></a>
 
 ### GetBoardSidesResponse
+
 Represents a list of valid board sides.
 
 
@@ -3770,6 +3924,7 @@ Represents a list of valid board sides.
 <a name="-GetPartLocationRequest"></a>
 
 ### GetPartLocationRequest
+
 Request to get a part&#39;s location.
 
 
@@ -3788,6 +3943,7 @@ Request to get a part&#39;s location.
 <a name="-GetPartLocationResponse"></a>
 
 ### GetPartLocationResponse
+
 Represents one or multiple parts&#39; location properties
 
 
@@ -3825,6 +3981,7 @@ Represents one or multiple parts&#39; location properties
 <a name="-GetPartLocationUnitsRequest"></a>
 
 ### GetPartLocationUnitsRequest
+
 Request to list valid location units.
 
 
@@ -3835,6 +3992,7 @@ Request to list valid location units.
 <a name="-GetPartLocationUnitsResponse"></a>
 
 ### GetPartLocationUnitsResponse
+
 Represents a list of valid location units.
 
 
@@ -3851,6 +4009,7 @@ Represents a list of valid location units.
 <a name="-ImportPartsListRequest"></a>
 
 ### ImportPartsListRequest
+
 Request to import a parts list for a project CCA.
 
 
@@ -3869,6 +4028,7 @@ Request to import a parts list for a project CCA.
 <a name="-ListPartsLibrariesRequest"></a>
 
 ### ListPartsLibrariesRequest
+
 Request to list the available parts libraries.
 
 
@@ -3879,6 +4039,7 @@ Request to list the available parts libraries.
 <a name="-ListPartsLibrariesResponse"></a>
 
 ### ListPartsLibrariesResponse
+
 Represents a list of available parts libraries.
 
 
@@ -3895,6 +4056,7 @@ Represents a list of available parts libraries.
 <a name="-ListPartsNotUpdatedRequest"></a>
 
 ### ListPartsNotUpdatedRequest
+
 Request to get a list of parts not updated from the Sherlock Part Library.
 
 
@@ -3910,6 +4072,7 @@ Request to get a list of parts not updated from the Sherlock Part Library.
 <a name="-ListPartsNotUpdatedResponse"></a>
 
 ### ListPartsNotUpdatedResponse
+
 Represents a list of parts not updated from the Sherlock Part Library.
 
 
@@ -3958,6 +4121,7 @@ Represents a list of parts not updated from the Sherlock Part Library.
 <a name="-UpdateLeadModelingRequest"></a>
 
 ### UpdateLeadModelingRequest
+
 Request to enable Lead Modeling for all non LEADLESS parts leads.
 
 
@@ -3974,6 +4138,7 @@ Request to enable Lead Modeling for all non LEADLESS parts leads.
 <a name="-UpdatePartsListFromAVLRequest"></a>
 
 ### UpdatePartsListFromAVLRequest
+
 Request to update the parts list from AVL.
 
 
@@ -4011,6 +4176,7 @@ Request to update the parts list from AVL.
 <a name="-UpdatePartsListPropertiesRequest"></a>
 
 ### UpdatePartsListPropertiesRequest
+
 Request to update one or more properties of one or more parts in a parts list.
 
 
@@ -4060,6 +4226,7 @@ Request to update one or more properties of one or more parts in a parts list.
 <a name="-UpdatePartsListPropertiesResponse"></a>
 
 ### UpdatePartsListPropertiesResponse
+
 Contains the status of the parts properties update as well as all the update error messages.
 
 
@@ -4092,6 +4259,7 @@ Contains the status of the parts properties update as well as all the update err
 <a name="-UpdatePartsListRequest"></a>
 
 ### UpdatePartsListRequest
+
 Request to update a parts list based on matching and duplication preferences provided.
 
 
@@ -4111,6 +4279,7 @@ Request to update a parts list based on matching and duplication preferences pro
 <a name="-UpdatePartsListResponse"></a>
 
 ### UpdatePartsListResponse
+
 Contains the status of the update as well as all of the update error messages.
 
 
@@ -4127,6 +4296,7 @@ Contains the status of the update as well as all of the update error messages.
 <a name="-UpdatePartsLocationsByFileRequest"></a>
 
 ### UpdatePartsLocationsByFileRequest
+
 Request to update one or more parts&#39; locations using a CSV file.
 
 
@@ -4145,6 +4315,7 @@ Request to update one or more parts&#39; locations using a CSV file.
 <a name="-UpdatePartsLocationsByFileResponse"></a>
 
 ### UpdatePartsLocationsByFileResponse
+
 Contains the status of the parts locations update as well as all the update error messages.
 
 
@@ -4161,6 +4332,7 @@ Contains the status of the parts locations update as well as all the update erro
 <a name="-UpdatePartsLocationsRequest"></a>
 
 ### UpdatePartsLocationsRequest
+
 Request to set a part&#39;s location.
 
 
@@ -4199,6 +4371,7 @@ Request to set a part&#39;s location.
 <a name="-UpdatePartsLocationsResponse"></a>
 
 ### UpdatePartsLocationsResponse
+
 Contains the status of the parts locations update as well as all the update error messages.
 
 
@@ -4217,6 +4390,7 @@ Contains the status of the parts locations update as well as all the update erro
 <a name="-AVLDescription"></a>
 
 ### AVLDescription
+
 Determines if the part description in the parts list 
 will be updated by the AVL.
 
@@ -4230,6 +4404,7 @@ will be updated by the AVL.
 <a name="-AVLPartNum"></a>
 
 ### AVLPartNum
+
 Determines what fields in the part list will get updated by the AVL.
 
 | Name | Number | Description |
@@ -4243,6 +4418,7 @@ Determines what fields in the part list will get updated by the AVL.
 <a name="-DuplicationMode"></a>
 
 ### DuplicationMode
+
 Determines what happens when there are duplicate matches for parts in the part list
 against parts in the AVL or Part Library.
 
@@ -4288,6 +4464,7 @@ against parts in the AVL or Part Library.
 <p align="right"><a href="#top">Top</a></p>
 
 ## SherlockProjectService.proto
+
 Copyright 2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -4310,6 +4487,7 @@ Copyright 2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is pro
 <a name="-AddProjectRequest"></a>
 
 ### AddProjectRequest
+
 Request to add a project to Sherlock.
 
 
@@ -4327,6 +4505,7 @@ Request to add a project to Sherlock.
 <a name="-AddStrainMapRequest"></a>
 
 ### AddStrainMapRequest
+
 Request to add strain map files to CCAs in a Sherlock project.
 
 
@@ -4441,6 +4620,7 @@ Request to add strain map files to CCAs in a Sherlock project.
 <a name="-AddStrainMapResponse"></a>
 
 ### AddStrainMapResponse
+
 Response from adding strain map files.
 
 
@@ -4457,6 +4637,7 @@ Response from adding strain map files.
 <a name="-AddThermalMapRequest"></a>
 
 ### AddThermalMapRequest
+
 Request to add thermal map files to a Sherlock project.
 
 
@@ -4489,6 +4670,7 @@ Request to add thermal map files to a Sherlock project.
 <a name="-AddThermalMapResponse"></a>
 
 ### AddThermalMapResponse
+
 Response from adding thermal map files.
 
 
@@ -4527,6 +4709,7 @@ Response from adding thermal map files.
 <a name="-CreateCcaFromModelingRegionRequest"></a>
 
 ### CreateCcaFromModelingRegionRequest
+
 Request for creating CCA from a specified modeling region.
 
 
@@ -4543,6 +4726,7 @@ Request for creating CCA from a specified modeling region.
 <a name="-CreateCcaFromModelingRegionRequest-CCAFromModelingRegion"></a>
 
 ### CreateCcaFromModelingRegionRequest.CCAFromModelingRegion
+
 Request for each individual property of cca
 
 
@@ -4567,6 +4751,7 @@ Request for each individual property of cca
 <a name="-DeleteProjectRequest"></a>
 
 ### DeleteProjectRequest
+
 Request for deleting project.
 
 
@@ -4582,6 +4767,7 @@ Request for deleting project.
 <a name="-ExportProjectRequest"></a>
 
 ### ExportProjectRequest
+
 Request for exporting the designated Sherlock project as a .zip file.
 
 
@@ -4606,6 +4792,7 @@ Request for exporting the designated Sherlock project as a .zip file.
 <a name="-GenCCAReportRequest"></a>
 
 ### GenCCAReportRequest
+
 Request for project CCA report.
 
 
@@ -4624,6 +4811,7 @@ Request for project CCA report.
 <a name="-GenCCAReportResponse"></a>
 
 ### GenCCAReportResponse
+
 Streams the project CCA report in chunks.
 
 
@@ -4641,6 +4829,7 @@ Streams the project CCA report in chunks.
 <a name="-GenReportRequest"></a>
 
 ### GenReportRequest
+
 Request for project report.
 
 
@@ -4658,6 +4847,7 @@ Request for project report.
 <a name="-GenReportResponse"></a>
 
 ### GenReportResponse
+
 Streams the project report in chunks.
 
 
@@ -4675,6 +4865,7 @@ Streams the project report in chunks.
 <a name="-ImportIPC2581Request"></a>
 
 ### ImportIPC2581Request
+
 Request for importing an IPC-2581 archive.
 
 
@@ -4697,6 +4888,7 @@ Request for importing an IPC-2581 archive.
 <a name="-ImportODBRequest"></a>
 
 ### ImportODBRequest
+
 Request for importing an ODB&#43;&#43; archive.
 
 
@@ -4722,6 +4914,7 @@ Request for importing an ODB&#43;&#43; archive.
 <a name="-ImportProjectZipRequest"></a>
 
 ### ImportProjectZipRequest
+
 Request for importing a .zip project archive when Sherlock is in multiple project mode.
 
 
@@ -4739,6 +4932,7 @@ Request for importing a .zip project archive when Sherlock is in multiple projec
 <a name="-ImportProjectZipSingleModeRequest"></a>
 
 ### ImportProjectZipSingleModeRequest
+
 Request for importing a .zip project archive when Sherlock is in single project mode.
 
 
@@ -4755,6 +4949,7 @@ Request for importing a .zip project archive when Sherlock is in single project 
 <a name="-ListCCAsRequest"></a>
 
 ### ListCCAsRequest
+
 Request to list CCA&#39;s and sub-assembly CCA&#39;s for a project.
 
 
@@ -4771,6 +4966,7 @@ Request to list CCA&#39;s and sub-assembly CCA&#39;s for a project.
 <a name="-ListCCAsResponse"></a>
 
 ### ListCCAsResponse
+
 Represents the circuit cards, their properties, and sub-assemblies for a Sherlock project.
 
 
@@ -4803,6 +4999,7 @@ Represents the circuit cards, their properties, and sub-assemblies for a Sherloc
 <a name="-ListStrainMapsRequest"></a>
 
 ### ListStrainMapsRequest
+
 Request to list CCA strain maps for a project.
 
 
@@ -4819,6 +5016,7 @@ Request to list CCA strain maps for a project.
 <a name="-ListStrainMapsResponse"></a>
 
 ### ListStrainMapsResponse
+
 Lists the strain maps assigned to the project CCA&#39;s.
 
 
@@ -4852,6 +5050,7 @@ Lists the strain maps assigned to the project CCA&#39;s.
 <a name="-ListThermalMapsRequest"></a>
 
 ### ListThermalMapsRequest
+
 Request to list Thermal map files and their types for a project.
 
 
@@ -4868,6 +5067,7 @@ Request to list Thermal map files and their types for a project.
 <a name="-ListThermalMapsResponse"></a>
 
 ### ListThermalMapsResponse
+
 Represents the thermal map files and their types for a Sherlock project.
 
 
@@ -5033,6 +5233,7 @@ Represents the thermal map files and their types for a Sherlock project.
 <a name="-UpdateThermalMapRequest"></a>
 
 ### UpdateThermalMapRequest
+
 Request to update thermal map files to a Sherlock project.
 
 
@@ -5049,6 +5250,7 @@ Request to update thermal map files to a Sherlock project.
 <a name="-UpdateThermalMapsResponse"></a>
 
 ### UpdateThermalMapsResponse
+
 Response from updating thermal map files.
 
 
@@ -5165,6 +5367,7 @@ Response from updating thermal map files.
 <p align="right"><a href="#top">Top</a></p>
 
 ## SherlockService.proto
+
 Copyright 2020-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 The APIs in this service should only be used for Sherlock integration with Workbench.
@@ -5310,6 +5513,7 @@ The APIs in this service should only be used for Sherlock integration with Workb
 <a name="-ImportRequest-ModelTransform"></a>
 
 ### ImportRequest.ModelTransform
+
 Indicate the model transform detection to use.
 
 
@@ -5361,6 +5565,7 @@ Indicate the model transform detection to use.
 <a name="-ServerMessage"></a>
 
 ### ServerMessage
+
 This is the message that is sent to Workbench whenever a relevant addition/update/deletion is made within Sherlock 
 that would affect the same project that is open in WB.
 
@@ -5511,12 +5716,14 @@ ServerMessage and sending it to WB.
 <p align="right"><a href="#top">Top</a></p>
 
 ## SherlockStackupService.proto
+
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
 <a name="-GenStackupRequest"></a>
 
 ### GenStackupRequest
+
 Request to generate stackup layers for a CCA.
 
 
@@ -5546,6 +5753,7 @@ Request to generate stackup layers for a CCA.
 <a name="-GetLayerCountRequest"></a>
 
 ### GetLayerCountRequest
+
 Request the number of layers in the stackup.
 
 
@@ -5562,6 +5770,7 @@ Request the number of layers in the stackup.
 <a name="-GetLayerCountResponse"></a>
 
 ### GetLayerCountResponse
+
 Represents the number of layers in the stackup.
 
 
@@ -5578,6 +5787,7 @@ Represents the number of layers in the stackup.
 <a name="-GetStackupPropsRequest"></a>
 
 ### GetStackupPropsRequest
+
 Request a summary of the stackup properties.
 
 
@@ -5594,6 +5804,7 @@ Request a summary of the stackup properties.
 <a name="-GetStackupPropsResponse"></a>
 
 ### GetStackupPropsResponse
+
 Represents a summary of the stackup properties.
 
 
@@ -5617,6 +5828,7 @@ Represents a summary of the stackup properties.
 <a name="-GetTotalConductorThicknessRequest"></a>
 
 ### GetTotalConductorThicknessRequest
+
 Request the total thickness on all conductor layers in a stackup.
 
 
@@ -5634,6 +5846,7 @@ Request the total thickness on all conductor layers in a stackup.
 <a name="-GetTotalConductorThicknessResponse"></a>
 
 ### GetTotalConductorThicknessResponse
+
 Represents the number of layers in the stackup.
 
 
@@ -5650,6 +5863,7 @@ Represents the number of layers in the stackup.
 <a name="-ListConductorLayersRequest"></a>
 
 ### ListConductorLayersRequest
+
 Request for a list of conductor layers.
 
 
@@ -5665,6 +5879,7 @@ Request for a list of conductor layers.
 <a name="-ListConductorLayersResponse"></a>
 
 ### ListConductorLayersResponse
+
 Represents the properties for all CCAs and their corresponding conductor layers.
 
 
@@ -5681,6 +5896,7 @@ Represents the properties for all CCAs and their corresponding conductor layers.
 <a name="-ListConductorLayersResponse-CCAConductorLayerProp"></a>
 
 ### ListConductorLayersResponse.CCAConductorLayerProp
+
 Represents a CCA and its conductor layers.
 
 
@@ -5697,6 +5913,7 @@ Represents a CCA and its conductor layers.
 <a name="-ListConductorLayersResponse-CCAConductorLayerProp-ConductorLayerProp"></a>
 
 ### ListConductorLayersResponse.CCAConductorLayerProp.ConductorLayerProp
+
 Represents a conductor layer and its properties.
 
 
@@ -5723,6 +5940,7 @@ Represents a conductor layer and its properties.
 <a name="-ListConductorMaterialsRequest"></a>
 
 ### ListConductorMaterialsRequest
+
 Request to list valid conductor materials.
 
 
@@ -5733,6 +5951,7 @@ Request to list valid conductor materials.
 <a name="-ListConductorMaterialsResponse"></a>
 
 ### ListConductorMaterialsResponse
+
 Represents a list of valid conductor materials.
 
 
@@ -5749,6 +5968,7 @@ Represents a list of valid conductor materials.
 <a name="-ListConstructionStylesRequest"></a>
 
 ### ListConstructionStylesRequest
+
 Request to list valid construction styles.
 
 
@@ -5759,6 +5979,7 @@ Request to list valid construction styles.
 <a name="-ListConstructionStylesResponse"></a>
 
 ### ListConstructionStylesResponse
+
 Represents a list of valid construction styles.
 
 
@@ -5775,6 +5996,7 @@ Represents a list of valid construction styles.
 <a name="-ListFiberMaterialsRequest"></a>
 
 ### ListFiberMaterialsRequest
+
 Request to list valid fiber materials.
 
 
@@ -5785,6 +6007,7 @@ Request to list valid fiber materials.
 <a name="-ListFiberMaterialsResponse"></a>
 
 ### ListFiberMaterialsResponse
+
 Represents a list of valid fiber materials.
 
 
@@ -5801,6 +6024,7 @@ Represents a list of valid fiber materials.
 <a name="-ListLaminateMaterialsManufacturersRequest"></a>
 
 ### ListLaminateMaterialsManufacturersRequest
+
 Request to list valid names of materials manufacturers.
 
 
@@ -5811,6 +6035,7 @@ Request to list valid names of materials manufacturers.
 <a name="-ListLaminateMaterialsManufacturersResponse"></a>
 
 ### ListLaminateMaterialsManufacturersResponse
+
 Represents a list of valid names of materials manufacturers.
 
 
@@ -5827,6 +6052,7 @@ Represents a list of valid names of materials manufacturers.
 <a name="-ListLaminateMaterialsRequest"></a>
 
 ### ListLaminateMaterialsRequest
+
 Request to list materials from a given manufacturer.
 If manufacturer is empty, all manufacturers and their materials will be returned.
 
@@ -5843,6 +6069,7 @@ If manufacturer is empty, all manufacturers and their materials will be returned
 <a name="-ListLaminateMaterialsResponse"></a>
 
 ### ListLaminateMaterialsResponse
+
 Represents a list of materials from a given manufacturer.
 
 
@@ -5875,6 +6102,7 @@ Represents a list of materials from a given manufacturer.
 <a name="-ListLaminateMaterialsResponse-ManufacturerMaterials-GradeMaterials"></a>
 
 ### ListLaminateMaterialsResponse.ManufacturerMaterials.GradeMaterials
+
 Represents a grade and the materials with this grade.
 
 
@@ -5891,6 +6119,7 @@ Represents a grade and the materials with this grade.
 <a name="-ListLaminateThicknessUnitsRequest"></a>
 
 ### ListLaminateThicknessUnitsRequest
+
 Request to list valid laminate thickness units.
 
 
@@ -5901,6 +6130,7 @@ Request to list valid laminate thickness units.
 <a name="-ListLaminateThicknessUnitsResponse"></a>
 
 ### ListLaminateThicknessUnitsResponse
+
 Represents a list of valid laminate thickness units.
 
 
@@ -5917,6 +6147,7 @@ Represents a list of valid laminate thickness units.
 <a name="-ListLaminatesRequest"></a>
 
 ### ListLaminatesRequest
+
 Request for a list of laminates.
 
 
@@ -5932,6 +6163,7 @@ Request for a list of laminates.
 <a name="-ListLaminatesResponse"></a>
 
 ### ListLaminatesResponse
+
 Represents the properties for all CCAs and their corresponding laminates.
 
 
@@ -5948,6 +6180,7 @@ Represents the properties for all CCAs and their corresponding laminates.
 <a name="-ListLaminatesResponse-CCALaminateProp"></a>
 
 ### ListLaminatesResponse.CCALaminateProp
+
 Represents a CCA and its laminates.
 
 
@@ -5964,6 +6197,7 @@ Represents a CCA and its laminates.
 <a name="-ListLaminatesResponse-CCALaminateProp-LaminateProp"></a>
 
 ### ListLaminatesResponse.CCALaminateProp.LaminateProp
+
 Represents a laminate layer and its properties.
 
 
@@ -5994,6 +6228,7 @@ Represents a laminate layer and its properties.
 <a name="-ListLaminatesResponse-CCALaminateProp-LaminateProp-GlassConstruction"></a>
 
 ### ListLaminatesResponse.CCALaminateProp.LaminateProp.GlassConstruction
+
 Represents the layers with a glass construction.
 
 
@@ -6012,6 +6247,7 @@ Represents the layers with a glass construction.
 <a name="-UpdateConductorLayerRequest"></a>
 
 ### UpdateConductorLayerRequest
+
 Represents the conductor layer properties requested to be updated.
 To update a thickness, a thickness unit must be provided.
 Any property left out or set to &#34;&#34; or 0.0 will not be updated.
@@ -6037,6 +6273,7 @@ Any property left out or set to &#34;&#34; or 0.0 will not be updated.
 <a name="-UpdateLaminateRequest"></a>
 
 ### UpdateLaminateRequest
+
 Represents the laminate properties requested to be updated.
 To update the material, valid values must be provided for manufacturer, grade, and material.
 To update a thickness, a thickness unit must be provided.
@@ -6068,6 +6305,7 @@ Any property left out or set to &#34;&#34; or 0.0 will not be updated.
 <a name="-UpdateLaminateRequest-GlassConstruction"></a>
 
 ### UpdateLaminateRequest.GlassConstruction
+
 Represents the layers with a glass construction.
 
 
