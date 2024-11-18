@@ -1,24 +1,5 @@
-- name: Introduction
-  href: intro.md
-- name: Reference
-  items:
-    - name: SherlockAnalysisService.proto
-      href: SherlockAnalysisService.proto.md
-    - name: CSherlockCommonService.protoLI
-      href: SherlockCommonService.proto.md
-    - name: SherlockLayerService.proto
-      href: SherlockLayerService.proto.md
-    - name: SherlockLifeCycleService.proto
-      href: SherlockLifeCycleService.proto.md
-    - name: SherlockModelService.proto
-      href: SherlockModelService.proto.md
-    - name: SherlockPartsService.proto
-      href: SherlockPartsService.proto.md
-    - name: SherlockProjectService.proto
-      href: SherlockProjectService.proto.md
-    - name: SherlockService.proto
-      href: SherlockService.proto.md
-    - name: SherlockStackupService.proto
-      href: SherlockStackupService.proto.md
-    - name: Scalar Value Types
-      href: Scalar Value Types.md
+- name: Articles
+  href: articles/
+- name: Api Documentation
+  href: api/
+  homepage: api/index.md
