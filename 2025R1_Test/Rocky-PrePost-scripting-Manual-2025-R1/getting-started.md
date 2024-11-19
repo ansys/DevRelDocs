@@ -1,4 +1,4 @@
-<a id="getting-started"></a>
+
 
 # Getting Started
 

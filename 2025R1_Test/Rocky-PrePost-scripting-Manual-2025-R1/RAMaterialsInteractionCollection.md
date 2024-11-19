@@ -1,4 +1,4 @@
-<a id="ramaterialsinteractioncollection"></a>
+
 
 # RAMaterialsInteractionCollection
 
