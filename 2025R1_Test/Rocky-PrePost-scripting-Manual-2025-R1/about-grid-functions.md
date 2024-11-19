@@ -1,4 +1,4 @@
-<a id="about-grid-functions-properties"></a>
+
 
 # About Grid Functions / Properties
 

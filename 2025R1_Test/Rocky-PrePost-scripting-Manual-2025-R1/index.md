@@ -1,4 +1,4 @@
-<a id="rocky-prepost-scripting-help"></a>
+
 
 # Rocky PrePost Scripting Help
 
@@ -124,10 +124,3 @@
   * [Changed](changelog.md#changed)
   * [Deprecated](changelog.md#deprecated)
   * [Removed](changelog.md#removed)
-* [Release notes for 2024 R2](changelog.md#release-notes-for-2024-r2)
-  * [Added](changelog.md#id1)
-    * [New Classes](changelog.md#id2)
-    * [New Methods](changelog.md#id3)
-  * [Changed](changelog.md#id4)
-  * [Deprecated](changelog.md#id5)
-  * [Removed](changelog.md#id6)

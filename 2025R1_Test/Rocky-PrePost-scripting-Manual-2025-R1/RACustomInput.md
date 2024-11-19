@@ -1,4 +1,4 @@
-<a id="racustominput"></a>
+
 
 # RACustomInput
 
@@ -156,7 +156,7 @@ Set the value of “Default Temperature”.
 Set the path of the file that will be used to generate the particles
 described on the content of the file.
 
-The accepted file extensions are [“.csv”, “.xls”, “.xlsx”, “.xlsm”, “.xlsb”, “.odf”].
+The accepted file extensions are [“.csv”, “.xls”, “.xlsx”, “.xlsm”, “.odf”].
 
 * **Parameters:**
   **file_path** (*str* *or* *Path*) – 

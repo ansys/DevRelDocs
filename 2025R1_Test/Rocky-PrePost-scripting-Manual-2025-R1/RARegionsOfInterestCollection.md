@@ -1,4 +1,4 @@
-<a id="raregionsofinterestcollection"></a>
+
 
 # RARegionsOfInterestCollection
 

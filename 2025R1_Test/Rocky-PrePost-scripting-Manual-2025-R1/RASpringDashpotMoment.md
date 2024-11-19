@@ -1,4 +1,4 @@
-<a id="raspringdashpotmoment"></a>
+
 
 # RASpringDashpotMoment
 
