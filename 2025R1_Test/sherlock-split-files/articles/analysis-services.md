@@ -12,27 +12,9 @@ Table 1.2. Index to Sherlock Analysis Service APIs
 
 Method Name| Request Type| Response Type| Description  
 ---|---|---|---  
-For display purposes, the long strings in columns 1 to 3 are broken into
-multiple lines. The strings should be interpreted as continuous. For example:
-.GetNaturalFrequencyInputFieldsResponse  
-getPcbModeling InputFields| [.GetPcb ModelingInput
-FieldsRequest](analysis-services.md#sherlock_ug_GetPcbModelingInputFieldsRequest
-"GetPcbModelingInputFieldsRequest")| [.GetPcbModeling InputFields
-Response](analysis-services.md#sherlock_ug_GetPcbModelingInputFieldsResponse
-"GetPcbModelingInputFieldsResponse")| Returns the list of valid PCB Modeling
-property field.  
-getHarmonicVibe InputFields| [.GetHarmonicVibe
-InputFieldsRequest](ch01s03s02.md#sherlock_ug_GetHarmonicVibeInputFieldsRequest
-"GetHarmonicVibeInputFieldsRequest")| [.GetHarmonicVibe
-InputFieldsResponse](ch01s03s02s02.md "GetHarmonicVibeInputFieldsResponse")|
-Returns the list of valid Harmonic Vibe input fields for the provided model
-source and user configuration.  
-getICTAnalysis InputFields| [.GetICTAnalysis InputFields
-Request](ch01s03s03.md#sherlock_ug_GetICTAnalysisInputFieldsRequest
-"GetICTAnalysisInputFieldsRequest")| [.GetICTAnalysis InputFields
-Response](ch01s03s03s02.md "GetICTAnalysisInputFieldsResponse")| Returns the
-list of valid ICT analysis property fields given the user configuration.  
-getMechanical ShockInputFields| [.GetMechanical ShockInputFields
+For display purposes, the long strings in columns 1 to 3 are broken into multiple lines. The strings should be interpreted as continuous. For example: .GetNaturalFrequencyInputFieldsResponse getPcbModeling InputFields| [.GetPcbModelingInputFieldsRequest](analysis-services.md#sherlock_ug_GetPcbModelingInputFieldsRequest "GetPcbModelingInputFieldsRequest")| [.GetPcbModeling InputFields
+Response](analysis-services.md#sherlock_ug_GetPcbModelingInputFieldsResponse "GetPcbModelingInputFieldsResponse")| Returns the list of valid PCB Modeling property field. getHarmonicVibe InputFields| [.GetHarmonicVibeInputFieldsRequest](SherlockAnalysisService.proto.md#sherlock_ug_GetHarmonicVibeInputFieldsRequest "GetHarmonicVibeInputFieldsRequest")| [.GetHarmonicVibe
+InputFieldsResponse](ch01s03s02s02.md "GetHarmonicVibeInputFieldsResponse")| Returns the list of valid Harmonic Vibe input fields for the provided model source and user configuration. getICTAnalysis InputFields| [.GetICTAnalysis InputFields Request](SherlockAnalysisService.proto.md#sherlock_ug_GetICTAnalysisInputFieldsRequest "GetICTAnalysisInputFieldsRequest")| [.GetICTAnalysis InputFields Response](SherlockAnalysisService.proto.md "GetICTAnalysisInputFieldsResponse")| Returns the list of valid ICT analysis property fields given the user configuration. getMechanical ShockInputFields| [.GetMechanical ShockInputFields
 Request](ch01s03s04.md#sherlock_ug_GetMechanicalShockInputFieldsRequest
 "GetMechanicalShockInputFieldsRequest")| [.GetMechanical ShockInputFields
 Response](ch01s03s04s02.md "GetMechanicalShockInputFieldsResponse")| Returns
