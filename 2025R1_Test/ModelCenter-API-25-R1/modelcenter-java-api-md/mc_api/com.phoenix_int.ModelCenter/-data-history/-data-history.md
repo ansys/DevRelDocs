@@ -1,0 +1,21 @@
+//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[DataHistory](-data-history.md)
+
+# DataHistory
+
+
+constructor(pstrm: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html))
+
+Connects this Java object to the specified session of ModelCenter
+
+#### Parameters
+
+
+
+| | |
+|---|---|
+| pstrm | A pointer to the COM interface. This constructor will add a COM reference. The reference will be removed when this object is finalized (or closed) |
+
+
+constructor(pstrm: [Long](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html), addRef: [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html))
+
+Internal use only
