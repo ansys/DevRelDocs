@@ -6,7 +6,7 @@
 
 <a id="new-methods"></a>
 
-### New Methods
+### New methods
 
 * `RockyApiApplication`
   * `GetVersion` - This method return the current application version `app.GetVersion()`.
@@ -102,7 +102,7 @@
 
 <a id="new-classes"></a>
 
-### New Classes
+### New classes
 
 * [`RAFilterProcess`](RAFilterProcess.md) - This class allows filtering properties by a cut or range of values. Replaces `RAPropertyProcess`.
 * [`RAResidenceTime`]() - This class allows manipulating Residence Time Calculators in a project.

@@ -1,4 +1,4 @@
-# About Grid Functions / Properties
+# About grid functions / properties
 
 Rocky’s PrePost Scripting provides Grid Functions or Properties that are retrieved by its
 respective name (a string parameter) as shown in the following example:

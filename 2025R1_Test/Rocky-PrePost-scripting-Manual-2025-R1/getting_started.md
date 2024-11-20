@@ -1,6 +1,6 @@
-# Getting Started
+# Getting started
 
-## Setting Up a Project
+## Setting up a project
 
 Create a new project and set the study description and customer:
 
@@ -101,7 +101,7 @@ solver.SetNumberOfProcessors(2)
 study.StartSimulation(skip_summary=True, delete_results=True)
 ```
 
-## Post-Processing Results
+## Post-processing results
 
 The simulation entities that provide results (such as particles, conveyors, and custom geometries)
 have methods in their API wrappers to retrieve the geometry, properties (grid functions), curves, etc.
