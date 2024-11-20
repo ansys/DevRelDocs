@@ -1,4 +1,4 @@
-<a id="raregionofinterestcube"></a>
+
 
 # RARegionOfInterestCube
 

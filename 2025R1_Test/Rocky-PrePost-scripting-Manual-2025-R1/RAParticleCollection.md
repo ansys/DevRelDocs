@@ -1,4 +1,4 @@
-<a id="raparticlecollection"></a>
+
 
 # RAParticleCollection
 
