@@ -1,5 +1,3 @@
-<a id="ravolumetricinletpropertieslist"></a>
-
 # RAVolumetricInletPropertiesList
 
 <!-- Make "generated" the current module for all PrePost Scripting classes so that we can

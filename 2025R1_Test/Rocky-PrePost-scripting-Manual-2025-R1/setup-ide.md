@@ -1,5 +1,3 @@
-<a id="using-vscode-to-create-edit-scripts"></a>
-
 # Using VScode to Create/Edit Scripts
 
 For more complex PrePost Scripting scripts, we suggest you to use a Python IDE, so you get features like
