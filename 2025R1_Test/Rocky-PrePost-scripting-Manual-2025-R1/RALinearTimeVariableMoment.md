@@ -1,4 +1,4 @@
-<a id="ralineartimevariablemoment"></a>
+
 
 # RALinearTimeVariableMoment
 

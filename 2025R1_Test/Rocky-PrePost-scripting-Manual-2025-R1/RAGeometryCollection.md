@@ -1,4 +1,4 @@
-<a id="rageometrycollection"></a>
+
 
 # RAGeometryCollection
 

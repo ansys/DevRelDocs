@@ -1,4 +1,4 @@
-<a id="class-reference"></a>
+
 
 # Class Reference
 

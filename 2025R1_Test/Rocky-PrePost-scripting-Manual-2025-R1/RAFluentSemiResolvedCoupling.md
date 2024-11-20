@@ -1,4 +1,4 @@
-<a id="rafluentsemiresolvedcoupling"></a>
+
 
 # RAFluentSemiResolvedCoupling
 
