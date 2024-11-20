@@ -1,4 +1,4 @@
-# Using VScode to Create/Edit Scripts
+# Using VScode to create/edit scripts
 
 For more complex PrePost Scripting scripts, we suggest you to use a Python IDE, so you get features like
 syntax highlight and code completion. You can use any IDE, but Visual Studio Code (a.k.a. VSCode) has good Python

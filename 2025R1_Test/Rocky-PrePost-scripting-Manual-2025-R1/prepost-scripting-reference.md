@@ -1,4 +1,4 @@
-# Class Reference
+# Class reference
 
 These are the classes and methods available to the user when executing scripts:
 
