@@ -1,5 +1,3 @@
-
-
 # Getting Started
 
 <a id="setting-up-a-project"></a>

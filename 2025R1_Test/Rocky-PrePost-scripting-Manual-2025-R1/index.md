@@ -1,5 +1,3 @@
-
-
 # Rocky PrePost Scripting Help
 
 * [Introduction](basic-usage.md)

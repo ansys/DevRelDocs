@@ -1,5 +1,3 @@
-
-
 # Introduction
 
 Rocky’s PrePost Scripting provides lower-level access to Rocky’s data structures and simulation results.

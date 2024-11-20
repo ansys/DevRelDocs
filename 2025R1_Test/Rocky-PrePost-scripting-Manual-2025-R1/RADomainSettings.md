@@ -1,5 +1,3 @@
-
-
 # RADomainSettings
 
 <!-- Make "generated" the current module for all PrePost Scripting classes so that we can

@@ -1,5 +1,3 @@
-
-
 # Release notes for 2025 R1
 
 <a id="added"></a>
