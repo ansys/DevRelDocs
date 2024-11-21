@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistoryVariableMetadataStruct](index.md)
-
 # DataHistoryVariableMetadataStruct
 
 public class [DataHistoryVariableMetadataStruct](index.md)

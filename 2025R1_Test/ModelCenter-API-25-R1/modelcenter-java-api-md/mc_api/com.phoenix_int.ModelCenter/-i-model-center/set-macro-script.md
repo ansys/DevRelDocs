@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IModelCenter](index.md)/[setMacroScript](set-macro-script.md)
-
 # setMacroScript
 
 

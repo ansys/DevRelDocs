@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[getNumDesignVariables](get-num-design-variables.md)
-
 # getNumDesignVariables
 
 

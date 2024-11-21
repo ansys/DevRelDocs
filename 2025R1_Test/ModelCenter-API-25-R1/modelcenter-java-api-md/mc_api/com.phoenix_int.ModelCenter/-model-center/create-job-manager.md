@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[createJobManager](create-job-manager.md)
-
 # createJobManager
 
 

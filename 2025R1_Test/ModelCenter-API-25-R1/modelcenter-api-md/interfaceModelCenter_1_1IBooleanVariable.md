@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IBooleanVariable"></a>
 # Interface ModelCenter::IBooleanVariable
 
 ![][IDL]

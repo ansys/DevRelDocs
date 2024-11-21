@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAEXPLORERLib_1_1IPHXDataExplorerPointer"></a>
 # Interface PHXDATAEXPLORERLib::IPHXDataExplorerPointer
 
 ![][IDL]

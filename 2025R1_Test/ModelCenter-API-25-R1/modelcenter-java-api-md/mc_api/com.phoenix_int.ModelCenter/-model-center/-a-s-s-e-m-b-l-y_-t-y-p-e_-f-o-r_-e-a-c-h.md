@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[ASSEMBLY_TYPE_FOR_EACH](-a-s-s-e-m-b-l-y_-t-y-p-e_-f-o-r_-e-a-c-h.md)
-
 # ASSEMBLY_TYPE_FOR_EACH
 
 

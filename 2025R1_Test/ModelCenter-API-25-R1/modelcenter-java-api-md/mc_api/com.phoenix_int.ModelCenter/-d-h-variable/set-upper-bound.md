@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DHVariable](index.md)/[setUpperBound](set-upper-bound.md)
-
 # setUpperBound
 
 

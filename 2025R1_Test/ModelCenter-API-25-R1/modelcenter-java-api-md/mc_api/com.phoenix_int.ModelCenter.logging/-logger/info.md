@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.logging](../index.md)/[Logger](index.md)/[info](info.md)
-
 # info
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[showPlugInFrame](show-plug-in-frame.md)
-
 # showPlugInFrame
 
 

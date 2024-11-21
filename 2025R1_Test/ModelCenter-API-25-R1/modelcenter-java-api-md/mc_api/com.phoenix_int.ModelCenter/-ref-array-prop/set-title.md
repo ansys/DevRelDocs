@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[RefArrayProp](index.md)/[setTitle](set-title.md)
-
 # setTitle
 
 

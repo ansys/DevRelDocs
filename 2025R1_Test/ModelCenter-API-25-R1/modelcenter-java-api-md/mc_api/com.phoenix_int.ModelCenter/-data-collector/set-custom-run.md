@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataCollector](index.md)/[setCustomRun](set-custom-run.md)
-
 # setCustomRun
 
 

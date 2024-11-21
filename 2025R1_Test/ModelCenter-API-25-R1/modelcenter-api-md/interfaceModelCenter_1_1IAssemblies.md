@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IAssemblies"></a>
 # Interface ModelCenter::IAssemblies
 
 ![][IDL]

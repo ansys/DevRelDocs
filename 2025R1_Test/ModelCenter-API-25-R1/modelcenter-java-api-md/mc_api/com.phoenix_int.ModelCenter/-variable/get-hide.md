@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Variable](index.md)/[getHide](get-hide.md)
-
 # getHide
 
 

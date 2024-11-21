@@ -1,4 +1,3 @@
-<a id="ComponentPlugIn_8odl"></a>
 # File ComponentPlugIn.odl
 
 ![][IDL]

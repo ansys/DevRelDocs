@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Variant](index.md)/[DOUBLE](-d-o-u-b-l-e.md)
-
 # DOUBLE
 
 

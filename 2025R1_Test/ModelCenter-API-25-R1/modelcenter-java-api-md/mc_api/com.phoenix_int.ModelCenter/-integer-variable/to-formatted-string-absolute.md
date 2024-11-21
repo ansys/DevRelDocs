@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IntegerVariable](index.md)/[toFormattedStringAbsolute](to-formatted-string-absolute.md)
-
 # toFormattedStringAbsolute
 
 

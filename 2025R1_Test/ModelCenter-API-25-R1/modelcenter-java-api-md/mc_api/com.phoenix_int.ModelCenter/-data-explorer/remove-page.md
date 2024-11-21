@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataExplorer](index.md)/[removePage](remove-page.md)
-
 # removePage
 
 

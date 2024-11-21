@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IRefProp"></a>
 # Interface ModelCenter::IRefProp
 
 ![][IDL]

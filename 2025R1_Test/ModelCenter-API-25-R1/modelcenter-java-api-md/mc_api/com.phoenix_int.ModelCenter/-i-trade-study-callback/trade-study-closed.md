@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudyCallback](index.md)/[tradeStudyClosed](trade-study-closed.md)
-
 # tradeStudyClosed
 
 

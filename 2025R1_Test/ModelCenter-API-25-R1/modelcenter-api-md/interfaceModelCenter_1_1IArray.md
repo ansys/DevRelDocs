@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IArray"></a>
 # Interface ModelCenter::IArray
 
 ![][IDL]

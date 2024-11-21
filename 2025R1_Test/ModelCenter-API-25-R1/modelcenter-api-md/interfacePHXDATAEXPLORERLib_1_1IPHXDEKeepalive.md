@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAEXPLORERLib_1_1IPHXDEKeepalive"></a>
 # Interface PHXDATAEXPLORERLib::IPHXDEKeepalive
 
 ![][IDL]

@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility"></a>
 # Interface PHXDATAEXPLORERLib::IPageVisibility
 
 ![][IDL]

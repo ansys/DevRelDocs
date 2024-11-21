@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudy3JobInfo](index.md)/[isInput](is-input.md)
-
 # isInput
 
 

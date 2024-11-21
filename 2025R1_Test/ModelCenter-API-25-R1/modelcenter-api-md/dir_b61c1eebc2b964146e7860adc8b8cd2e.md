@@ -1,4 +1,3 @@
-<a id="dir_b61c1eebc2b964146e7860adc8b8cd2e"></a>
 # Directory LIBS/DataExplorer/PHXDataHistory
 
 **Location**: `LIBS/DataExplorer/PHXDataHistory/`

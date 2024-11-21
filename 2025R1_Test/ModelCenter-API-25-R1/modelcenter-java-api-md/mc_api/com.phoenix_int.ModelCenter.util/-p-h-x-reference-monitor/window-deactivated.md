@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXReferenceMonitor](index.md)/[windowDeactivated](window-deactivated.md)
-
 # windowDeactivated
 
 

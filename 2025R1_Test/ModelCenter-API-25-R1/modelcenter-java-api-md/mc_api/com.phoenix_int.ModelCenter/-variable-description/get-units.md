@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[VariableDescription](index.md)/[getUnits](get-units.md)
-
 # getUnits
 
 

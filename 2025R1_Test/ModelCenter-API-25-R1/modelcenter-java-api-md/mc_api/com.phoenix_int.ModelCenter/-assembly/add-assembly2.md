@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Assembly](index.md)/[addAssembly2](add-assembly2.md)
-
 # addAssembly2
 
 

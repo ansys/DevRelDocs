@@ -1,4 +1,3 @@
-<a id="TradeStudyPlugIn_8odl"></a>
 # File TradeStudyPlugIn.odl
 
 ![][IDL]

@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAHISTORYLib_1_1ISaveContext"></a>
 # Interface PHXDATAHISTORYLib::ISaveContext
 
 ![][IDL]

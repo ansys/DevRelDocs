@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IModelCenter](index.md)/[getRunOnlyMode](get-run-only-mode.md)
-
 # getRunOnlyMode
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IModelCenter](index.md)/[invokeHelp](invoke-help.md)
-
 # invokeHelp
 
 

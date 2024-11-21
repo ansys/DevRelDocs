@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1ITradeStudyEvents"></a>
 # Interface ModelCenter::ITradeStudyEvents
 
 ![][IDL]

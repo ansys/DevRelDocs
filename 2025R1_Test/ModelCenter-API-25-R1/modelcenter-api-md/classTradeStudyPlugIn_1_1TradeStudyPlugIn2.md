@@ -1,4 +1,3 @@
-<a id="classTradeStudyPlugIn_1_1TradeStudyPlugIn2"></a>
 # Class TradeStudyPlugIn::TradeStudyPlugIn2
 
 ![][IDL]

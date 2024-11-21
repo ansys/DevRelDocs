@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IVariableHolder](index.md)/[getVariable](get-variable.md)
-
 # getVariable
 
 

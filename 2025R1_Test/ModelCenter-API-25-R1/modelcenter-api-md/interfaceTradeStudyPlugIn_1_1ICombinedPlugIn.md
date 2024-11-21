@@ -1,4 +1,3 @@
-<a id="interfaceTradeStudyPlugIn_1_1ICombinedPlugIn"></a>
 # Interface TradeStudyPlugIn::ICombinedPlugIn
 
 ![][IDL]

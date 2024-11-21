@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[TradeStudy2](index.md)
-
 # TradeStudy2
 
 public class [TradeStudy2](index.md) : [TradeStudy](../-trade-study/index.md)

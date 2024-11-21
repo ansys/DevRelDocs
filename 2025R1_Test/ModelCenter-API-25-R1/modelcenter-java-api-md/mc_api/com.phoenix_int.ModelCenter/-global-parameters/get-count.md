@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[GlobalParameters](index.md)/[getCount](get-count.md)
-
 # getCount
 
 

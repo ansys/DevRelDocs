@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[AddToModel](index.md)/[addToModel3](add-to-model3.md)
-
 # addToModel3
 
 

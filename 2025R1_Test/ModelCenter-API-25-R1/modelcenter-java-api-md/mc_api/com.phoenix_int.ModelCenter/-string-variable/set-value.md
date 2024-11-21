@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[StringVariable](index.md)/[setValue](set-value.md)
-
 # setValue
 
 

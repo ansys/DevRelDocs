@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[setMemberUpperBound](set-member-upper-bound.md)
-
 # setMemberUpperBound
 
 

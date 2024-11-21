@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[FileArray](index.md)/[getFileExtension](get-file-extension.md)
-
 # getFileExtension
 
 

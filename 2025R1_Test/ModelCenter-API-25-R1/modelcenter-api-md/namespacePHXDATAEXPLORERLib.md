@@ -1,4 +1,3 @@
-<a id="namespacePHXDATAEXPLORERLib"></a>
 # Namespace PHXDATAEXPLORERLib
 
 ![][IDL]

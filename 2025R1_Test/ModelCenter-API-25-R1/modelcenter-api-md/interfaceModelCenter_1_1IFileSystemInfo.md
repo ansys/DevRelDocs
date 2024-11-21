@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IFileSystemInfo"></a>
 # Interface ModelCenter::IFileSystemInfo
 
 ![][IDL]

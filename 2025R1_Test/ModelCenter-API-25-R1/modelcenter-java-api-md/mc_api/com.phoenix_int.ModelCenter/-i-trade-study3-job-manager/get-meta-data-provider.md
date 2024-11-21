@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudy3JobManager](index.md)/[getMetaDataProvider](get-meta-data-provider.md)
-
 # getMetaDataProvider
 
 

@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IAddToModel"></a>
 # Interface ModelCenter::IAddToModel
 
 ![][IDL]

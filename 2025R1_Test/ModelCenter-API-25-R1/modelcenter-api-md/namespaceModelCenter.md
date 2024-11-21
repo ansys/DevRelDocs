@@ -1,4 +1,3 @@
-<a id="namespaceModelCenter"></a>
 # Namespace ModelCenter
 
 ![][IDL]

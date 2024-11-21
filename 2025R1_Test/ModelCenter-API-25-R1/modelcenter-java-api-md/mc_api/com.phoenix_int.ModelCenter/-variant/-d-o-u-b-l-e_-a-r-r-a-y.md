@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Variant](index.md)/[DOUBLE_ARRAY](-d-o-u-b-l-e_-a-r-r-a-y.md)
-
 # DOUBLE_ARRAY
 
 

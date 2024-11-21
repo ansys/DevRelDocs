@@ -1,4 +1,3 @@
-<a id="namespaceComponentPlugIn"></a>
 # Namespace ComponentPlugIn
 
 ![][IDL]

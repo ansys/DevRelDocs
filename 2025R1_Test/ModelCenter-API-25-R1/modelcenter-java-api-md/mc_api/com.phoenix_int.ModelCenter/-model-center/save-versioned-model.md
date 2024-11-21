@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[saveVersionedModel](save-versioned-model.md)
-
 # saveVersionedModel
 
 

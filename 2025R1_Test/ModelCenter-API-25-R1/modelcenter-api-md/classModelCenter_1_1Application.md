@@ -1,4 +1,3 @@
-<a id="classModelCenter_1_1Application"></a>
 # Class ModelCenter::Application
 
 ![][IDL]

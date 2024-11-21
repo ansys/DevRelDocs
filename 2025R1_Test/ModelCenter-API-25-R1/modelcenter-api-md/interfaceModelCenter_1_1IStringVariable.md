@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IStringVariable"></a>
 # Interface ModelCenter::IStringVariable
 
 ![][IDL]
