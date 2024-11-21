@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IFileVariable"></a>
 # Interface ModelCenter::IFileVariable
 
 ![][IDL]

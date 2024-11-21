@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IModelCenter](index.md)/[showFileSaveDialog](show-file-save-dialog.md)
-
 # showFileSaveDialog
 
 

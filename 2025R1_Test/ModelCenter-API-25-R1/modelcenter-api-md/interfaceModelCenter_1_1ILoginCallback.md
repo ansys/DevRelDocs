@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1ILoginCallback"></a>
 # Interface ModelCenter::ILoginCallback
 
 ![][IDL]

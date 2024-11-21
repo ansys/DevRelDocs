@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IVariableLink"></a>
 # Interface ModelCenter::IVariableLink
 
 ![][IDL]

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[getXMLExtension](get-x-m-l-extension.md)
-
 # getXMLExtension
 
 

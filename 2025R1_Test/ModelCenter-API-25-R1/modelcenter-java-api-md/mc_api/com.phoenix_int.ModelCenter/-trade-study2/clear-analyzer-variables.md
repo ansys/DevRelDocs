@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[TradeStudy2](index.md)/[clearAnalyzerVariables](clear-analyzer-variables.md)
-
 # clearAnalyzerVariables
 
 

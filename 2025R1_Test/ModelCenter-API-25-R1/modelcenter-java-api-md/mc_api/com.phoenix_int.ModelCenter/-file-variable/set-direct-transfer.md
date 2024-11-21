@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[FileVariable](index.md)/[setDirectTransfer](set-direct-transfer.md)
-
 # setDirectTransfer
 
 

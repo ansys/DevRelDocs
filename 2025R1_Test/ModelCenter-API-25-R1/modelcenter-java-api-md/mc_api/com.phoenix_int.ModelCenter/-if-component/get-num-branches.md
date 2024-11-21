@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IfComponent](index.md)/[getNumBranches](get-num-branches.md)
-
 # getNumBranches
 
 

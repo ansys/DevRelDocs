@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IScriptComponent"></a>
 # Interface ModelCenter::IScriptComponent
 
 ![][IDL]

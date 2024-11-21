@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[FileSystemInfo](index.md)/[getIsWritable](get-is-writable.md)
-
 # getIsWritable
 
 

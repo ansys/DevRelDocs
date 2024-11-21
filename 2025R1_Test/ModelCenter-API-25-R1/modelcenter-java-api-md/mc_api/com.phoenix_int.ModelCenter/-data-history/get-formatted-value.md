@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[getFormattedValue](get-formatted-value.md)
-
 # getFormattedValue
 
 

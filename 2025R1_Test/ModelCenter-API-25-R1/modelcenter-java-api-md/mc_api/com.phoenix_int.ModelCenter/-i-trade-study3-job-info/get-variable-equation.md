@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudy3JobInfo](index.md)/[getVariableEquation](get-variable-equation.md)
-
 # getVariableEquation
 
 

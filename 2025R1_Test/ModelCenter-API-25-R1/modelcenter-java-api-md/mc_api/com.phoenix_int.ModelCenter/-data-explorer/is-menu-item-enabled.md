@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataExplorer](index.md)/[isMenuItemEnabled](is-menu-item-enabled.md)
-
 # isMenuItemEnabled
 
 

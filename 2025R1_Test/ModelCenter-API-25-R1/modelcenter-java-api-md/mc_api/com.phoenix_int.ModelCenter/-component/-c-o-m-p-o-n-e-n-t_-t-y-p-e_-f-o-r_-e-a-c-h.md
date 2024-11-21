@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Component](index.md)/[COMPONENT_TYPE_FOR_EACH](-c-o-m-p-o-n-e-n-t_-t-y-p-e_-f-o-r_-e-a-c-h.md)
-
 # COMPONENT_TYPE_FOR_EACH
 
 

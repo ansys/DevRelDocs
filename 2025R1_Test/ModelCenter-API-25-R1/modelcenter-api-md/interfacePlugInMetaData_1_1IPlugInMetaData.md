@@ -1,4 +1,3 @@
-<a id="interfacePlugInMetaData_1_1IPlugInMetaData"></a>
 # Interface PlugInMetaData::IPlugInMetaData
 
 ![][IDL]

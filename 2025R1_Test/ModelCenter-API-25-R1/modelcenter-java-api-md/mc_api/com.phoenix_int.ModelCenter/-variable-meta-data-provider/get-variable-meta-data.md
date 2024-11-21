@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[VariableMetaDataProvider](index.md)/[getVariableMetaData](get-variable-meta-data.md)
-
 # getVariableMetaData
 
 

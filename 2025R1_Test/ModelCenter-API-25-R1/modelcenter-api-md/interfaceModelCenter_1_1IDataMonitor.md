@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IDataMonitor"></a>
 # Interface ModelCenter::IDataMonitor
 
 ![][IDL]

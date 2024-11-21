@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataMonitor](index.md)/[getColWidth](get-col-width.md)
-
 # getColWidth
 
 

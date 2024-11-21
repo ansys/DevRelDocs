@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ScriptComponent](index.md)/[setSourceFromString](set-source-from-string.md)
-
 # setSourceFromString
 
 

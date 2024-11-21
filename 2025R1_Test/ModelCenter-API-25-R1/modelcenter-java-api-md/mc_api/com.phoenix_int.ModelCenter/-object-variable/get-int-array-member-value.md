@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[getIntArrayMemberValue](get-int-array-member-value.md)
-
 # getIntArrayMemberValue
 
 

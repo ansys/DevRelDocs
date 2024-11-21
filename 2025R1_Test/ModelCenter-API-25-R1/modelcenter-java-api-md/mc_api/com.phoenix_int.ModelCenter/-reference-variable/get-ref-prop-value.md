@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ReferenceVariable](index.md)/[getRefPropValue](get-ref-prop-value.md)
-
 # getRefPropValue
 
 

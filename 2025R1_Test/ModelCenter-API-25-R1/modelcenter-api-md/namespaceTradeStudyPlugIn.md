@@ -1,4 +1,3 @@
-<a id="namespaceTradeStudyPlugIn"></a>
 # Namespace TradeStudyPlugIn
 
 ![][IDL]

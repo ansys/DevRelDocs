@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[CustomDesignPoint](index.md)/[runFailed](run-failed.md)
-
 # runFailed
 
 

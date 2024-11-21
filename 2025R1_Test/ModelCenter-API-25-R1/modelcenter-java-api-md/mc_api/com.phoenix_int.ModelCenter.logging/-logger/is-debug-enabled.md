@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.logging](../index.md)/[Logger](index.md)/[isDebugEnabled](is-debug-enabled.md)
-
 # isDebugEnabled
 
 

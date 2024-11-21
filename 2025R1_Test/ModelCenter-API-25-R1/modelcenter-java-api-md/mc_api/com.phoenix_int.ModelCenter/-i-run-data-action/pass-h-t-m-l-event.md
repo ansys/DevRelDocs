@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IRunDataAction](index.md)/[passHTMLEvent](pass-h-t-m-l-event.md)
-
 # passHTMLEvent
 
 

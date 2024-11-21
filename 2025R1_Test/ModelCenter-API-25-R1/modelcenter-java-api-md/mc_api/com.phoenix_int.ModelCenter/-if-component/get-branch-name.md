@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IfComponent](index.md)/[getBranchName](get-branch-name.md)
-
 # getBranchName
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[getDoubleMemberValue](get-double-member-value.md)
-
 # getDoubleMemberValue
 
 

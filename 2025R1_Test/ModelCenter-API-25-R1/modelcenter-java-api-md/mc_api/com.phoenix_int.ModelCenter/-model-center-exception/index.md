@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenterException](index.md)
-
 # ModelCenterException
 
 public class [ModelCenterException](index.md) : [Exception](https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html)

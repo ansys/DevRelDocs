@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IDataExplorerPlugIn](index.md)/[invokeMenuItem](invoke-menu-item.md)
-
 # invokeMenuItem
 
 

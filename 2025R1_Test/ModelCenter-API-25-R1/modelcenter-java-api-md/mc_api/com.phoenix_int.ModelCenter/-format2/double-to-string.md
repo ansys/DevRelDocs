@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Format2](index.md)/[doubleToString](double-to-string.md)
-
 # doubleToString
 
 

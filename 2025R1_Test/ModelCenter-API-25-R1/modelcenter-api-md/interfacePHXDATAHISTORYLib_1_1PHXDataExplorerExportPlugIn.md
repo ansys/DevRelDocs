@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerExportPlugIn"></a>
 # Interface PHXDATAHISTORYLib::PHXDataExplorerExportPlugIn
 
 ![][IDL]

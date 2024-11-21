@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IGlobalParameters"></a>
 # Interface ModelCenter::IGlobalParameters
 
 ![][IDL]

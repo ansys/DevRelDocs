@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IntegerArray](index.md)/[getLowerBound](get-lower-bound.md)
-
 # getLowerBound
 
 

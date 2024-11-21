@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IStringArray"></a>
 # Interface ModelCenter::IStringArray
 
 ![][IDL]

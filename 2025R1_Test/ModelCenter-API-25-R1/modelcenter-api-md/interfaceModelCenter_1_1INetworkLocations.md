@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1INetworkLocations"></a>
 # Interface ModelCenter::INetworkLocations
 
 ![][IDL]

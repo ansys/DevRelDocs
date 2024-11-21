@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity"></a>
 # Interface PHXDATAEXPLORERLib::ILegacyVisiblity
 
 ![][IDL]

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[VariableLink](index.md)/[getLHS](get-l-h-s.md)
-
 # getLHS
 
 

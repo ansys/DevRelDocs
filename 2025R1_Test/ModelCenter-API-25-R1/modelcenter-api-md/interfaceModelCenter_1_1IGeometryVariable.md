@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IGeometryVariable"></a>
 # Interface ModelCenter::IGeometryVariable
 
 ![][IDL]

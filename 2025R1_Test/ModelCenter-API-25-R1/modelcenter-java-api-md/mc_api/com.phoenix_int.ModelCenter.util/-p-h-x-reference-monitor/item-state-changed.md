@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXReferenceMonitor](index.md)/[itemStateChanged](item-state-changed.md)
-
 # itemStateChanged
 
 

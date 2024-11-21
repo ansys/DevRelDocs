@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[AddToModel](index.md)/[getAutoRun](get-auto-run.md)
-
 # getAutoRun
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXJarLocation](index.md)/[getClassLocation](get-class-location.md)
-
 # getClassLocation
 
 

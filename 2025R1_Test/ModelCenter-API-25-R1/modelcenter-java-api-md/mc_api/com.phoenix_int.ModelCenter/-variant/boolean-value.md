@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Variant](index.md)/[booleanValue](boolean-value.md)
-
 # booleanValue
 
 

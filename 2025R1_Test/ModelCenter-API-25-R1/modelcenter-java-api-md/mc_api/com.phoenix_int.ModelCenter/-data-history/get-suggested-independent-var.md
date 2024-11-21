@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[getSuggestedIndependentVar](get-suggested-independent-var.md)
-
 # getSuggestedIndependentVar
 
 

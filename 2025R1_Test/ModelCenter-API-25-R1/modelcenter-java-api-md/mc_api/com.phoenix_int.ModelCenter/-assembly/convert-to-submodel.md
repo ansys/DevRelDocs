@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Assembly](index.md)/[convertToSubmodel](convert-to-submodel.md)
-
 # convertToSubmodel
 
 

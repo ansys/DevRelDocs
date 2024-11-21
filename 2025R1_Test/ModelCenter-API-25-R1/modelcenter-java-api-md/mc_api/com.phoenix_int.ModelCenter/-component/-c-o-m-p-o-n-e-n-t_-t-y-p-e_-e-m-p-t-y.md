@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Component](index.md)/[COMPONENT_TYPE_EMPTY](-c-o-m-p-o-n-e-n-t_-t-y-p-e_-e-m-p-t-y.md)
-
 # COMPONENT_TYPE_EMPTY
 
 

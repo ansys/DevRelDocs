@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[getClassURL](get-class-u-r-l.md)
-
 # getClassURL
 
 

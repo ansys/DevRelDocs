@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataCollector](index.md)/[newCustomDesignPoint](new-custom-design-point.md)
-
 # newCustomDesignPoint
 
 

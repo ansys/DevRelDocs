@@ -1,4 +1,3 @@
-<a id="deprecated"></a>
 # Deprecated List
 
 

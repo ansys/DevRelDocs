@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory"></a>
 # Interface PHXDATAHISTORYLib::\_DPHXDataHistory
 
 ![][IDL]

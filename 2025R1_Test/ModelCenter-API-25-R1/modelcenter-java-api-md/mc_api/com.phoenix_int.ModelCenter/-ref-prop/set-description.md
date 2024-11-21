@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[RefProp](index.md)/[setDescription](set-description.md)
-
 # setDescription
 
 

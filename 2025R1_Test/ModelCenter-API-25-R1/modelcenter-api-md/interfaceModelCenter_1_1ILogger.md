@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1ILogger"></a>
 # Interface ModelCenter::ILogger
 
 ![][IDL]

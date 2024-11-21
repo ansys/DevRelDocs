@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[GeometryVariable](index.md)/[setDescription](set-description.md)
-
 # setDescription
 
 

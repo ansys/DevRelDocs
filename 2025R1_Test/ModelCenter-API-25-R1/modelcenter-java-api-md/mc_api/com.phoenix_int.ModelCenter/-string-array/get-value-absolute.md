@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[StringArray](index.md)/[getValueAbsolute](get-value-absolute.md)
-
 # getValueAbsolute
 
 
