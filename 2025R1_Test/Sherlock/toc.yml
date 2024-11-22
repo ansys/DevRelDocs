@@ -1,943 +1,240 @@
 - name: Introduction
-  href: index.md
+  href: content/index.md
 - name: Index to the Sherlock APIs
-  href: ch01s02.md
+  href: content/index-to-sherlock-api.md
 - name: Sherlock Analysis Service- SherlockAnalysisService.proto
-  href: ch01s03.md
+  href: content/SherlockAnalysisService.proto.md
   items:
-  - name: Get Harmonic Vibe Input Fields
-    href: ch01s03s02.md
-    items:
-    - name: GetHarmonicVibeInputFieldsResponse
-      href: ch01s03s02s02.md
-    - name: Example- Get Harmonic Vibe Input Fields
-      href: ch01s03s02s03.md
-  - name: Get ICT Analysis Input Fields
-    href: ch01s03s03.md
-    items:
-    - name: GetICTAnalysisInputFieldsResponse
-      href: ch01s03s03s02.md
-    - name: Examples- Get ICT Analysis Input Fields
-      href: ch01s03s03s03.md
-  - name: Get Mechanical Shock Input Fields
-    href: ch01s03s04.md
-    items:
-    - name: GetMechanicalShockInputFieldsResponse
-      href: ch01s03s04s02.md
-    - name: Examples- Get Mechanical Shock Input Fields
-      href: ch01s03s04s03.md
-  - name: Get Natural Frequency Input Fields
-    href: ch01s03s05.md
-    items:
-    - name: GetNaturalFrequencyInputFieldsResponse
-      href: ch01s03s05s02.md
-    - name: Example- Get Natural Frequency Input Fields
-      href: ch01s03s05s03.md
-  - name: Get Random Vibe Input Fields
-    href: ch01s03s06.md
-    items:
-    - name: GetRandomVibeInputFieldsResponse
-      href: ch01s03s06s02.md
-    - name: Example- Get Random Vibe Input Fields
-      href: ch01s03s06s03.md
-  - name: Get Solder Fatigue Input Fields
-    href: ch01s03s07.md
-    items:
-    - name: GetSolderFatigueInputFieldsResponse
-      href: ch01s03s07s02.md
-    - name: Examples- Get Solder Fatigue Input Fields
-      href: ch01s03s07s03.md
-  - name: Run Analysis
-    href: ch01s03s08.md
-    items:
-    - name: RunAnalysisRequest.Analysis
-      href: ch01s03s08s02.md
-    - name: RunAnalysisRequest.Analysis.Phase
-      href: ch01s03s08s03.md
-    - name: RunAnalysisRequest.Analysis.Phase.Event
-      href: ch01s03s08s04.md
-    - name: Example- Run Part Validation and Mechanical Shock Analysis
-      href: ch01s03s08s05.md
-  - name: Run Strain Map Analysis
-    href: ch01s03s09.md
-    items:
-    - name: RunStrainMapAnalysisRequest.StrainMapAnalysis
-      href: ch01s03s09s02.md
-    - name: RunStrainMapAnalysisRequest.StrainMapAnalysis.EventStrainMap
-      href: ch01s03s09s03.md
-    - name: Example- runStrainMapAnalysis()
-      href: ch01s03s09s04.md
-  - name: Update Harmonic Vibe Props
-    href: ch01s03s10.md
-    items:
-    - name: UpdateHarmonicVibePropsRequest.HarmonicVibe
-      href: ch01s03s10s02.md
-    - name: Example- Update Harmonic Vibe Props
-      href: ch01s03s10s03.md
-  - name: Update ICT Analysis Props
-    href: ch01s03s11.md
-    items:
-    - name: UpdateICTAnalysisPropsRequest.ICTAnalysis
-      href: ch01s03s11s02.md
-    - name: Example- Update ICT Analysis Props
-      href: ch01s03s11s03.md
-  - name: Update Mechanical Shock Props
-    href: ch01s03s12.md
-    items:
-    - name: UpdateMechanicalShockPropsRequest.MechanicalShock
-      href: ch01s03s12s02.md
-    - name: Example- Update Mechanical Shock Props
-      href: ch01s03s12s03.md
-  - name: Update Natural Frequency Properties
-    href: ch01s03s13.md
-    items:
-    - name: Example- Update Natural Frequency Properties
-      href: ch01s03s13s02.md
-  - name: Update Part Modeling
-    href: ch01s03s14.md
-    items:
-    - name: Example- Update Part Modeling
-      href: ch01s03s14s02.md
-  - name: Update PCB Modeling Properties
-    href: ch01s03s15.md
-    items:
-    - name: UpdatePcbModelingPropsRequest.Analysis
-      href: ch01s03s15s02.md
-    - name: Example- Update PCB Modeling Properties
-      href: ch01s03s15s03.md
-  - name: Update Random Vibe Properties
-    href: ch01s03s16.md
-    items:
-    - name: Example- Update Random Vibe Properties
-      href: ch01s03s16s02.md
-  - name: Update Solder Fatigue Props
-    href: ch01s03s17.md
-    items:
-    - name: UpdateSolderFatiguePropsRequest.SolderFatigue
-      href: ch01s03s17s02.md
-    - name: Example- Update Solder Fatigue Props
-      href: ch01s03s17s03.md
-  - name: Update Thermal Mech Properties
-    href: ch01s03s18.md
-    items:
-    - name: Example- Update Thermal Mech Properties
-      href: ch01s03s18s02.md
-  - name: ElementOrder
-    href: ch01s03s19.md
-  - name: ModelSource
-    href: ch01s03s20.md
-  - name: RunAnalysisRequest.Analysis.AnalysisType
-    href: ch01s03s21.md
-  - name: RunStrainMapAnalysisRequest.StrainMapAnalysis.AnalysisType
-    href: ch01s03s22.md
-  - name: UpdatePcbModelingPropsRequest.Analysis.AnalysisType
-    href: ch01s03s23.md
-  - name: UpdatePcbModelingPropsRequest.Analysis.PcbMaterialModel
-    href: ch01s03s24.md
-  - name: UpdatePcbModelingPropsRequest.Analysis.PcbModelType
-    href: ch01s03s25.md
+  - name: Example- Get Harmonic Vibe Input Fields
+    href: content/analysis-service/ch01s03s02s03.md
+  - name: Examples- Get ICT Analysis Input Fields
+    href: content/analysis-service/ch01s03s03s03.md
+  - name: Examples- Get Mechanical Shock Input Fields
+    href: content/analysis-service/ch01s03s04s03.md
+  - name: Example- Get Natural Frequency Input Fields
+    href: content/analysis-service/ch01s03s05s03.md
+  - name: Example- Get Random Vibe Input Fields
+    href: content/analysis-service/ch01s03s06s03.md
+  - name: Examples- Get Solder Fatigue Input Fields
+    href: content/analysis-service/ch01s03s07s03.md
+  - name: Example- Run Part Validation and Mechanical Shock Analysis
+    href: content/analysis-service/ch01s03s08s05.md
+  - name: Example- runStrainMapAnalysis()
+    href: content/analysis-service/ch01s03s09s04.md
+  - name: Example- Update Harmonic Vibe Props
+    href: content/analysis-service/ch01s03s10s03.md
+  - name: Example- Update ICT Analysis Props
+    href: content/analysis-service/ch01s03s11s03.md
+  - name: Example- Update Mechanical Shock Props
+    href: content/analysis-service/ch01s03s12s03.md
+  - name: Example- Update Natural Frequency Properties
+    href: content/analysis-service/ch01s03s13s02.md
+  - name: Example- Update Part Modeling
+    href: content/analysis-service/ch01s03s14s02.md
+  - name: Example- Update PCB Modeling Properties
+    href: content/analysis-service/ch01s03s15s03.md
+  - name: Example- Update Random Vibe Properties
+    href: content/analysis-service/ch01s03s16s02.md
+  - name: Example- Update Solder Fatigue Props
+    href: content/analysis-service/ch01s03s17s03.md
+  - name: Example- Update Thermal Mech Properties
+    href: content/analysis-service/ch01s03s18s02.md
 - name: Sherlock Common Service- SherlockCommonService.proto
-  href: ch01s04.md
+  href: content/common-service/SherlockCommonService.proto.md
   items:
-  - name: IsSherlockClientLoadingRequest
-    href: ch01s04s02.md
-  - name: List Units
-    href: ch01s04s03.md
-    items:
-    - name: ListUnitsRequest.UnitType
-      href: ch01s04s03s02.md
-    - name: ListUnitsResponse
-      href: ch01s04s03s03.md
-  - name: Return Code
-    href: ch01s04s04.md
-  - name: Get Solders
-    href: ch01s04s05.md
-    items:
-    - name: GetSoldersResponse
-      href: ch01s04s05s02.md
-    - name: Example- Get Solders
-      href: ch01s04s05s03.md
-  - name: Health Check
-    href: ch01s04s06.md
-    items:
-    - name: HealthCheckResponse
-      href: ch01s04s06s02.md
-    - name: HealthCheckResponse.ServingStatus
-      href: ch01s04s06s03.md
-    - name: Examples- Health Check
-      href: ch01s04s06s04.md
-    - name: Example- List Units
-      href: ch01s04s06s05.md
+  - name: Example- Get Solders
+    href: content/common-service/ch01s04s05s03.md
+  - name: Examples- Health Check
+    href: content/common-service/ch01s04s06s04.md
+  - name: Example- List Units
+    href: content/common-service/ch01s04s06s05.md
 - name: Sherlock Layer Service-SherlockLayerService.proto
-  href: ch01s05.md
+  href: content/layer-service/SherlockLayerService.proto.md
   items:
-  - name: Delete All ICT Fixtures
-    href: ch01s05s02.md
-    items:
-    - name: Examples- SherlockLayerService.deleteAllITestPoints()
-      href: ch01s05s02s02.md
-  - name: Delete All Mount Points
-    href: ch01s05s03.md
-    items:
-    - name: Examples- SherlockLayerService.deleteAllMountPoints()
-      href: ch01s05s03s02.md
-  - name: Delete All Test Points
-    href: ch01s05s04.md
-    items:
-    - name: Examples- SherlockLayerService.deleteAllITestPoints()
-      href: ch01s05s04s02.md
-  - name: Export All ICT Fixtures
-    href: ch01s05s05.md
-    items:
-    - name: Examples- SherlockLayerService.exportAllICTFixtures()
-      href: ch01s05s05s02.md
-  - name: Export All Mount Points
-    href: ch01s05s06.md
-    items:
-    - name: Examples- SherlockLayerService.exportAllMountPoints()
-      href: ch01s05s06s02.md
-  - name: Export All Test Points
-    href: ch01s05s07.md
-    items:
-    - name: Examples- SherlockLayerService.exportAllTestPoints()
-      href: ch01s05s07s02.md
-  - name: Get Mount Point Boundaries
-    href: ch01s05s08.md
-    items:
-    - name: GetMountPointBoundariesResponse
-      href: ch01s05s08s02.md
-    - name: Examples- Get Mount Point Boundaries
-      href: ch01s05s08s03.md
-  - name: Get Mount Point Chassis Materials
-    href: ch01s05s09.md
-    items:
-    - name: GetMountPointChassisMaterialsResponse
-      href: ch01s05s09s02.md
-    - name: Examples- Get Mount Point Chassis Materials
-      href: ch01s05s09s03.md
-  - name: Get Mount Point Shape Types
-    href: ch01s05s10.md
-    items:
-    - name: GetMountPointShapeTypesResponse
-      href: ch01s05s10s02.md
-    - name: Examples- Get Mount Point Shape Types
-      href: ch01s05s10s03.md
-  - name: Get Mount Point Sides
-    href: ch01s05s11.md
-    items:
-    - name: GetMountPointSidesResponse
-      href: ch01s05s11s02.md
-    - name: Examples- Get Mount Point Sides
-      href: ch01s05s11s03.md
-  - name: Get Mount Point Types
-    href: ch01s05s12.md
-    items:
-    - name: GetMountPointTypesResponse
-      href: ch01s05s12s02.md
-    - name: Examples- Get Mount Point Types
-      href: ch01s05s12s03.md
-  - name: Get Mount Point Units
-    href: ch01s05s13.md
-    items:
-    - name: GetMountPointUnitsResponse
-      href: ch01s05s13s02.md
-    - name: Examples- Get Mount Point Units
-      href: ch01s05s13s03.md
-  - name: Get Mount Points Properties
-    href: ch01s05s14.md
-    items:
-    - name: GetMountPointsPropertiesResponse
-      href: ch01s05s14s02.md
-    - name: Mount Point Properties
-      href: ch01s05s14s03.md
-    - name: Examples- SherlockLayerService.getMountPointsProperties()
-      href: ch01s05s14s04.md
-  - name: PCB Shape
-    href: ch01s05s15.md
-    items:
-    - name: PolygonalShape.Point
-      href: ch01s05s15s02.md
-    - name: RectangularShape
-      href: ch01s05s15s03.md
-    - name: SlotShape
-      href: ch01s05s15s04.md
-  - name: Update ICT Fixtures By File
-    href: ch01s05s16.md
-    items:
-    - name: UpdateICTFixturesResponse
-      href: ch01s05s16s02.md
-    - name: Examples- SherlockLayerService.updateICTFixturesByFile()
-      href: ch01s05s16s03.md
-  - name: Update Mount Points
-    href: ch01s05s17.md
-    items:
-    - name: UpdateMountPointsResponse
-      href: ch01s05s17s02.md
-    - name: Examples- SherlockLayerService.updateMountPoints()
-      href: ch01s05s17s03.md
-  - name: Update Mount Points By File
-    href: ch01s05s18.md
-    items:
-    - name: Examples- SherlockLayerService.updateMountPointsByFile()
-      href: ch01s05s18s02.md
-  - name: Update Test Points By File
-    href: ch01s05s19.md
-    items:
-    - name: UpdateTestPointsResponse
-      href: ch01s05s19s02.md
-    - name: Examples- SherlockLayerService.updateTestPointsByFile()
-      href: ch01s05s19s03.md
+  - name: Examples- SherlockLayerService.deleteAllITestPoints()
+    href: content/layer-service/ch01s05s02s02.md
+  - name: Examples- SherlockLayerService.deleteAllMountPoints()
+    href: content/layer-service/ch01s05s03s02.md
+  - name: Examples- SherlockLayerService.deleteAllITestPoints()
+    href: content/layer-service/ch01s05s04s02.md
+  - name: Examples- SherlockLayerService.exportAllICTFixtures()
+    href: content/layer-service/ch01s05s05s02.md
+  - name: Examples- SherlockLayerService.exportAllMountPoints()
+    href: content/layer-service/ch01s05s06s02.md
+  - name: Examples- SherlockLayerService.exportAllTestPoints()
+    href: content/layer-service/ch01s05s07s02.md
+  - name: Examples- Get Mount Point Boundaries
+    href: content/layer-service/ch01s05s08s03.md
+  - name: Examples- Get Mount Point Chassis Materials
+    href: content/layer-service/ch01s05s09s03.md
+  - name: Examples- Get Mount Point Shape Types
+    href: content/layer-service/ch01s05s10s03.md
+  - name: Examples- Get Mount Point Sides
+    href: content/layer-service/ch01s05s11s03.md
+  - name: Examples- Get Mount Point Types
+    href: content/layer-service/ch01s05s12s03.md
+  - name: Examples- Get Mount Point Units
+    href: content/layer-service/ch01s05s13s03.md
+  - name: Examples- SherlockLayerService.getMountPointsProperties()
+    href: content/layer-service/ch01s05s14s04.md
+  - name: Examples- SherlockLayerService.updateICTFixturesByFile()
+    href: content/layer-service/ch01s05s16s03.md
+  - name: Examples- SherlockLayerService.updateMountPoints()
+    href: content/layer-service/ch01s05s17s03.md
+  - name: Examples- SherlockLayerService.updateMountPointsByFile()
+    href: content/layer-service/ch01s05s18s02.md
+  - name: Examples- SherlockLayerService.updateTestPointsByFile()
+    href: content/layer-service/ch01s05s19s03.md
 - name: Sherlock Life Cycle Service- SherlockLifeCycleService.proto
-  href: ch01s06.md
+  href: content/life-cycle-service/SherlockLifeCycleService.proto.md
   items:
-  - name: Add Harmonic Vibe Profiles
-    href: ch01s06s02.md
-    items:
-    - name: AddHarmonicVibeProfilesRequest.HarmonicVibeProfile
-      href: ch01s06s02s02.md
-    - name: AddHarmonicVibeProfilesRequest.HarmonicVibeProfile.Entry
-      href: ch01s06s02s03.md
-    - name: AddHarmonicVibeProfilesResponse
-      href: ch01s06s02s04.md
-    - name: Example- Add Harmonic Vibe Profiles
-      href: ch01s06s02s05.md
-  - name: Add Shock Event
-    href: ch01s06s03.md
-    items:
-    - name: AddShockEventResponse
-      href: ch01s06s03s02.md
-    - name: Examples- Add Shock Event
-      href: ch01s06s03s03.md
-  - name: Add Shock Profiles
-    href: ch01s06s04.md
-    items:
-    - name: AddShockProfilesRequest.ShockProfile
-      href: ch01s06s04s02.md
-    - name: AddShockProfilesRequest.ShockProfile.Entry
-      href: ch01s06s04s03.md
-    - name: AddShockProfilesResponse
-      href: ch01s06s04s04.md
-    - name: Example- Add Shock Profiles
-      href: ch01s06s04s05.md
-  - name: Add Random Vibe Event
-    href: ch01s06s05.md
-    items:
-    - name: AddRandomVibeEventResponse
-      href: ch01s06s05s02.md
-    - name: Examples- Add Random Vibe Event
-      href: ch01s06s05s03.md
-  - name: Add Random Vibe Profiles
-    href: ch01s06s06.md
-    items:
-    - name: Example- Add Random Vibe Profiles
-      href: ch01s06s06s02.md
-    - name: AddRandomVibeProfilesRequest.RandomVibeProfile
-      href: ch01s06s06s03.md
-    - name: AddRandomVibeProfilesRequest.RandomVibeProfile.Entry
-      href: ch01s06s06s04.md
-    - name: AddRandomVibeProfilesResponse
-      href: ch01s06s06s05.md
-  - name: Add Thermal Event
-    href: ch01s06s07.md
-    items:
-    - name: AddThermalEventResponse
-      href: ch01s06s07s02.md
-    - name: Examples- Add Thermal Event
-      href: ch01s06s07s03.md
-  - name: Add Thermal Profiles
-    href: ch01s06s08.md
-    items:
-    - name: AddThermalProfilesRequest.ThermalProfile
-      href: ch01s06s08s02.md
-    - name: AddThermalProfilesRequest.ThermalProfile.Entry
-      href: ch01s06s08s03.md
-    - name: AddThermalProfilesResponse
-      href: ch01s06s08s04.md
-    - name: Example- Add Thermal Profiles
-      href: ch01s06s08s05.md
-  - name: Create Life Phase
-    href: ch01s06s09.md
-    items:
-    - name: CreateLifePhaseResponse
-      href: ch01s06s09s02.md
-    - name: Examples- Create Life Phase
-      href: ch01s06s09s03.md
-  - name: Delete Event
-    href: ch01s06s10.md
-    items:
-    - name: Examples- SherlockLifeCycleService.deleteEvent()
-      href: ch01s06s10s02.md
-  - name: Delete Life Phase
-    href: ch01s06s11.md
-    items:
-    - name: DeleteLifePhaseResponse
-      href: ch01s06s11s02.md
-    - name: Examples- SherlockLifeCycleService.deletePhase()
-      href: ch01s06s11s03.md
-  - name: Events
-    href: ch01s06s12.md
-  - name: List Amplitude Units
-    href: ch01s06s13.md
-    items:
-    - name: ListAmplUnitsResponse
-      href: ch01s06s13s02.md
-    - name: Examples- List Amplitude Units
-      href: ch01s06s13s03.md
-  - name: List Duration Units
-    href: ch01s06s14.md
-    items:
-    - name: ListDurationUnitsResponse
-      href: ch01s06s14s02.md
-    - name: Examples- List Duration Units
-      href: ch01s06s14s03.md
-  - name: List Frequency Units
-    href: ch01s06s15.md
-    items:
-    - name: ListFreqUnitsResponse
-      href: ch01s06s15s02.md
-    - name: Examples- List Frequency Units
-      href: ch01s06s15s03.md
-  - name: List Harmonic Events
-    href: ch01s06s16.md
-    items:
-    - name: ListHarmonicEventsResponse
-      href: ch01s06s16s02.md
-    - name: List Harmonic Events Example
-      href: ch01s06s16s03.md
-  - name: List Harmonic Profile Types
-    href: ch01s06s17.md
-    items:
-    - name: ListHarmonicProfileTypesResponse
-      href: ch01s06s17s02.md
-    - name: Examples- List Harmonic Profile Types
-      href: ch01s06s17s03.md
-  - name: List Life Cyle Events
-    href: ch01s06s18.md
-    items:
-    - name: ListLCEventsResponse
-      href: ch01s06s18s02.md
-    - name: ListLCEventsResponse.LifeCyclePhase
-      href: ch01s06s18s03.md
-    - name: ListLCEventsResponse.LifeCyclePhase.LifeCycleEvent
-      href: ch01s06s18s04.md
-    - name: Examples- List Life Cycle Events
-      href: ch01s06s18s05.md
-  - name: List Life Cycle States
-    href: ch01s06s19.md
-    items:
-    - name: ListLCStatesResponse
-      href: ch01s06s19s02.md
-    - name: Examples- List Cycle States
-      href: ch01s06s19s03.md
-  - name: List Life Cycle Types
-    href: ch01s06s20.md
-    items:
-    - name: ListLCTypesResponse
-      href: ch01s06s20s02.md
-    - name: Examples- List Life Cycle Types
-      href: ch01s06s20s03.md
-  - name: List Random Vibe Profile Types
-    href: ch01s06s21.md
-    items:
-    - name: ListRandomVibeProfileTypesResponse
-      href: ch01s06s21s02.md
-    - name: Examples- SherlockLifeCycleService.listRandomVibeProfileTypes()
-      href: ch01s06s21s03.md
-  - name: List Random Vibe Event
-    href: ch01s06s22.md
-    items:
-    - name: ListRandomVibeEventsResponse
-      href: ch01s06s22s02.md
-    - name: List Random Vibe Events Example
-      href: ch01s06s22s03.md
-  - name: List Shock Events
-    href: ch01s06s23.md
-    items:
-    - name: ListShockEventsResponse
-      href: ch01s06s23s02.md
-    - name: List Shock Events Example
-      href: ch01s06s23s03.md
-  - name: List Shock Load Units
-    href: ch01s06s24.md
-    items:
-    - name: ListShockLoadUnitsResponse
-      href: ch01s06s24s02.md
-    - name: Examples- List Shock Load Units
-      href: ch01s06s24s03.md
-  - name: List Shock Pulses
-    href: ch01s06s25.md
-    items:
-    - name: ListShockPulsesResponse
-      href: ch01s06s25s02.md
-    - name: Examples- List Shock Pulses
-      href: ch01s06s25s03.md
-  - name: List Temperature Units
-    href: ch01s06s26.md
-    items:
-    - name: ListTempUnitsResponse
-      href: ch01s06s26s02.md
-    - name: Examples- List Temp Units
-      href: ch01s06s26s03.md
-  - name: Load Harmonic Profile
-    href: ch01s06s27.md
-    items:
-    - name: LoadHarmonicProfileRequest.CSVProps
-      href: ch01s06s27s02.md
-    - name: LoadHarmonicProfileResponse
-      href: ch01s06s27s03.md
-    - name: Examples- Load Harmonic Profile
-      href: ch01s06s27s04.md
-  - name: Load Random Vibe Profile
-    href: ch01s06s28.md
-    items:
-    - name: LoadRandomVibeProfileRequest.CSVProps
-      href: ch01s06s28s02.md
-    - name: LoadRandomVibeProfileResponse
-      href: ch01s06s28s03.md
-    - name: SherlockLifeCycleService.loadRandomVibeProfile()
-      href: ch01s06s28s04.md
-  - name: Load Shock Profile Dataset
-    href: ch01s06s29.md
-    items:
-    - name: LoadShockProfileDatasetRequest.CSVProps
-      href: ch01s06s29s02.md
-    - name: LoadShockProfileDatasetResponse
-      href: ch01s06s29s03.md
-    - name: Examples- Load Shock Profile Dataset
-      href: ch01s06s29s04.md
-  - name: Load Shock Profile Pulses
-    href: ch01s06s30.md
-    items:
-    - name: LoadShockProfilePulsesRequest.CSVProps
-      href: ch01s06s30s02.md
-    - name: LoadShockProfilePulsesResponse
-      href: ch01s06s30s03.md
-    - name: Examples- Load Shock Profile Pulses
-      href: ch01s06s30s04.md
-  - name: Load Thermal Profile
-    href: ch01s06s31.md
-    items:
-    - name: LoadThermalProfileRequest.CSVProps
-      href: ch01s06s31s02.md
-    - name: LoadThermalProfileResponse
-      href: ch01s06s31s03.md
-    - name: Examples- Load Thermal Profile
-      href: ch01s06s31s04.md
+  - name: Example- Add Harmonic Vibe Profiles
+    href: content/life-cycle-service/ch01s06s02s05.md
+  - name: Examples- Add Shock Event
+    href: content/life-cycle-service/ch01s06s03s03.md
+  - name: Example- Add Shock Profiles
+    href: content/life-cycle-service/ch01s06s04s05.md
+  - name: Examples- Add Random Vibe Event
+    href: content/life-cycle-service/ch01s06s05s03.md
+  - name: Example- Add Random Vibe Profiles
+    href: content/life-cycle-service/ch01s06s06s02.md
+  - name: Examples- Add Thermal Event
+    href: content/life-cycle-service/ch01s06s07s03.md
+  - name: Example- Add Thermal Profiles
+    href: content/life-cycle-service/ch01s06s08s05.md
+  - name: Examples- Create Life Phase
+    href: content/life-cycle-service/ch01s06s09s03.md
+  - name: Examples- SherlockLifeCycleService.deleteEvent()
+    href: content/life-cycle-service/ch01s06s10s02.md
+  - name: Examples- SherlockLifeCycleService.deletePhase()
+    href: content/life-cycle-service/ch01s06s11s03.md
+  - name: Examples- List Amplitude Units
+    href: content/life-cycle-service/ch01s06s13s03.md
+  - name: Examples- List Duration Units
+    href: content/life-cycle-service/ch01s06s14s03.md
+  - name: Examples- List Frequency Units
+    href: content/life-cycle-service/ch01s06s15s03.md
+  - name: Examples- List Harmonic Profile Types
+    href: content/life-cycle-service/ch01s06s17s03.md
+  - name: Examples- List Life Cycle Events
+    href: content/life-cycle-service/ch01s06s18s05.md
+  - name: Examples- List Cycle States
+    href: content/life-cycle-service/ch01s06s19s03.md
+  - name: Examples- List Life Cycle Types
+    href: content/life-cycle-service/ch01s06s20s03.md
+  - name: Examples- SherlockLifeCycleService.listRandomVibeProfileTypes()
+    href: content/life-cycle-service/ch01s06s21s03.md
+  - name: Examples- List Shock Load Units
+    href: content/life-cycle-service/ch01s06s24s03.md
+  - name: Examples- List Shock Pulses
+    href: content/life-cycle-service/ch01s06s25s03.md
+  - name: Examples- List Temp Units
+    href: content/life-cycle-service/ch01s06s26s03.md
+  - name: Examples- Load Harmonic Profile
+    href: content/life-cycle-service/ch01s06s27s04.md
+  - name: Examples- Load Shock Profile Dataset
+    href: content/life-cycle-service/ch01s06s29s04.md
+  - name: Examples- Load Shock Profile Pulses
+    href: content/life-cycle-service/ch01s06s30s04.md
+  - name: Examples- Load Thermal Profile
+    href: content/life-cycle-service/ch01s06s31s04.md
 - name: Sherlock Model Services- SherlockModelServices.proto
-  href: ch01s07.md
+  href: content/model-service/SherlockModelService.proto.md
   items:
-  - name: Export AEDB
-    href: ch01s07s02.md
-    items:
-    - name: Example- ExportAEDB
-      href: ch01s07s02s02.md
-  - name: Export FEA Model
-    href: ch01s07s03.md
-    items:
-    - name: Examples- Export FEA Model
-      href: ch01s07s03s02.md
-    - name: ExportFEAModelRequest.DrillHoleParam
-      href: ch01s07s03s03.md
-    - name: ExportFEAModelRequest.DrillHoleParam.MaxEdgeLength
-      href: ch01s07s03s04.md
-    - name: ExportFEAModelRequest.DrillHoleParam.MinHoleDiameter
-      href: ch01s07s03s05.md
-    - name: ExportFEAModelRequest.LeadModelParam
-      href: ch01s07s03s06.md
-    - name: ExportFEAModelRequest.LeadModelParam.MaxMeshSize
-      href: ch01s07s03s07.md
-    - name: ExportFEAModelRequest.LeadModelParam.VerticalMeshSize
-      href: ch01s07s03s08.md
-    - name: ExportFEAModelRequest.ExportAnalysis
-      href: ch01s07s03s09.md
-    - name: Examples- Export FEA Model
-      href: ch01s07s03s10.md
-  - name: Export Trace Model
-    href: ch01s07s04.md
-    items:
-    - name: Example- exportTraceModel
-      href: ch01s07s04s02.md
-  - name: Export Trace Reinforcement Model
-    href: ch01s07s05.md
-    items:
-    - name: ExportTraceReinforcementModelRequest.TraceDrillHoleParam
-      href: ch01s07s05s02.md
-    - name: ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MaxEdgeLength
-      href: ch01s07s05s03.md
-    - name: ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MinHoleDiameter
-      href: ch01s07s05s04.md
-    - name: ExportTraceReinforcementModelRequest.TraceParam
-      href: ch01s07s05s05.md
-    - name: ExportTraceReinforcementModelRequest.TraceParam.DiameterThreshold
-      href: ch01s07s05s06.md
-    - name: ExportTraceReinforcementModelRequest.TraceParam.MinHoleDiameterForShellOrBeam
-      href: ch01s07s05s07.md
-    - name: Example- SherlockModelService.exportTraceReinforcementModel()
-      href: ch01s07s05s08.md
-  - name: Generate Trace Model
-    href: ch01s07s06.md
-    items:
-    - name: Example- Generate Trace Model
-      href: ch01s07s06s02.md
-  - name: Trace Model Export Parameters
-    href: ch01s07s07.md
-    items:
-    - name: TraceModelExportParams.PcbMeshPropParam
-      href: ch01s07s07s02.md
-    - name: TraceModelExportParams.TracePropParam
-      href: ch01s07s07s03.md
-  - name: MeshType
-    href: ch01s07s08.md
-  - name: TraceOutputType
-    href: ch01s07s09.md
+  - name: Example- ExportAEDB
+    href: content/model-service/ch01s07s02s02.md
+  - name: Examples- Export FEA Model
+    href: content/model-service/ch01s07s03s02.md
+  - name: Examples- Export FEA Model
+    href: content/model-service/ch01s07s03s10.md
+  - name: Example- exportTraceModel
+    href: content/model-service/ch01s07s04s02.md
+  - name: Example- SherlockModelService.exportTraceReinforcementModel()
+    href: content/model-service/ch01s07s05s08.md
+  - name: Example- Generate Trace Model
+    href: content/model-service/ch01s07s06s02.md
 - name: Sherlock Parts Service- SherlockPartsService.proto
-  href: ch01s08.md
+  href: content/parts-service/SherlockPartsService.proto.md
   items:
-  - name: Export/Import Parts List
-    href: ch01s08s02.md
-    items:
-    - name: Examples- Export Parts List
-      href: ch01s08s02s02.md
-  - name: Get Boards Sides
-    href: ch01s08s03.md
-    items:
-    - name: GetBoardSidesResponse
-      href: ch01s08s03s02.md
-    - name: Examples- Get Board Sides
-      href: ch01s08s03s03.md
-  - name: Import Parts List
-    href: ch01s08s04.md
-    items:
-    - name: Examples- SherlockPartsService.importPartsList()
-      href: ch01s08s04s02.md
-  - name: Get Part Location
-    href: ch01s08s05.md
-    items:
-    - name: GetPartLocationResponse
-      href: ch01s08s05s02.md
-    - name: GetPartLocationResponse.LocationData
-      href: ch01s08s05s03.md
-    - name: Examples- Get Part Location
-      href: ch01s08s05s04.md
-  - name: Get Part Location Units
-    href: ch01s08s06.md
-    items:
-    - name: GetPartLocationUnitsResponse
-      href: ch01s08s06s02.md
-    - name: Examples- Get Part Location Units
-      href: ch01s08s06s03.md
-  - name: List Parts Libraries
-    href: ch01s08s07.md
-    items:
-    - name: ListPartsLibrariesResponse
-      href: ch01s08s07s02.md
-    - name: Examples- List Parts Libraries
-      href: ch01s08s07s03.md
-  - name: List Parts Not Updated
-    href: ch01s08s08.md
-    items:
-    - name: ListPartsNotUpdatedResponse
-      href: ch01s08s08s02.md
-    - name: ListPartsNotUpdatedResponse.CCA
-      href: ch01s08s08s03.md
-    - name: ListPartsNotUpdatedResponse.CCA.Part
-      href: ch01s08s08s04.md
-    - name: Examples- List Parts Not Updated
-      href: ch01s08s08s05.md
-  - name: Update Lead Modeling
-    href: ch01s08s09.md
-    items:
-    - name: Examples- Update Lead Modeling
-      href: ch01s08s09s02.md
-  - name: Update Parts List
-    href: ch01s08s10.md
-    items:
-    - name: UpdatePartsListRequest.DuplicationMode
-      href: ch01s08s10s02.md
-    - name: UpdatePartsListRequest.MatchingMode
-      href: ch01s08s10s03.md
-    - name: UpdatePartsListResponse
-      href: ch01s08s10s04.md
-    - name: Examples- Update Parts List
-      href: ch01s08s10s05.md
-  - name: Update Parts List From AVL
-    href: ch01s08s11.md
-    items:
-    - name: UpdatePartsListFromAVLResponse
-      href: ch01s08s11s02.md
-    - name: Example- Update Parts List From AVL
-      href: ch01s08s11s03.md
-  - name: Update Parts List Properties
-    href: ch01s08s12.md
-    items:
-    - name: UpdatePartsListPropertiesRequest.PartProperties
-      href: ch01s08s12s02.md
-    - name: UpdatePartsListPropertiesRequest.PartProperties.Property
-      href: ch01s08s12s03.md
-    - name: UpdatePartsListPropertiesResponse
-      href: ch01s08s12s04.md
-    - name: UpdatePartsListPropertiesResponse.PartPropertyError
-      href: ch01s08s12s05.md
-    - name: updatePartsListProperties
-      href: ch01s08s12s06.md
-  - name: Update Parts Locations by File Request
-    href: ch01s08s13.md
-    items:
-    - name: UpdatePartsLocationsByFileResponse
-      href: ch01s08s13s02.md
-    - name: Examples- SherlockPartsService.updatePartsLocationsByFile()
-      href: ch01s08s13s03.md
-  - name: UpdatePartsLocationsRequest
-    href: ch01s08s14.md
-    items:
-    - name: UpdatePartsLocationsRequest.PartLocation
-      href: ch01s08s14s02.md
-    - name: UpdatePartsLocationsResponse
-      href: ch01s08s14s03.md
-  - name: AVLDescription
-    href: ch01s08s15.md
-  - name: AVLPartNum
-    href: ch01s08s16.md
-  - name: DuplicationMode
-    href: ch01s08s17.md
-  - name: MatchingMode
-    href: ch01s08s18.md
+  - name: Examples- Export Parts List
+    href: content/parts-service/ch01s08s02s02.md
+  - name: Examples- Get Board Sides
+    href: content/parts-service/ch01s08s03s03.md
+  - name: Examples- SherlockPartsService.importPartsList()
+    href: content/parts-service/ch01s08s04s02.md
+  - name: Examples- Get Part Location
+    href: content/parts-service/ch01s08s05s04.md
+  - name: Examples- Get Part Location Units
+    href: content/parts-service/ch01s08s06s03.md
+  - name: Examples- List Parts Libraries
+    href: content/parts-service/ch01s08s07s03.md
+  - name: Examples- List Parts Not Updated
+    href: content/parts-service/ch01s08s08s05.md
+  - name: Examples- Update Lead Modeling
+    href: content/parts-service/ch01s08s09s02.md
+  - name: Examples- Update Parts List
+    href: content/parts-service/ch01s08s10s05.md
+  - name: Example- Update Parts List From AVL
+    href: content/parts-service/ch01s08s11s03.md
+  - name: Examples- SherlockPartsService.updatePartsLocationsByFile()
+    href: content/parts-service/ch01s08s13s03.md
 - name: Sherlock Project Service- SherlockProjectService.proto
-  href: ch01s09.md
+  href: content/project-service/SherlockProjectService.proto.md
   items:
-  - name: Add Project
-    href: ch01s09s02.md
-    items:
-    - name: Example- AddProjectRequest
-      href: ch01s09s02s02.md
-  - name: Add Strain Map
-    href: ch01s09s03.md
-    items:
-    - name: AddStrainMapRequest.StrainMapFile
-      href: ch01s09s03s02.md
-    - name: AddStrainMapRequest.StrainMapFile.StrainMapImageFile
-      href: ch01s09s03s03.md
-    - name: AddStrainMapRequest.StrainMapFile.StrainMapImageFile.ImageCoordinate
-      href: ch01s09s03s04.md
-    - name: AddStrainMapRequest.StrainMapFile.StrainMapImageFile.LegendCoordinate
-      href: ch01s09s03s05.md
-    - name: AddStrainMapRequest.StrainMapFile.StrainMapImageFile.NodeCoordinate
-      href: ch01s09s03s06.md
-    - name: AddStrainMapRequest.StrainMapFile.FileType
-      href: ch01s09s03s07.md
-    - name: AddStrainMapRequest.StrainMapFile.StrainMapImageFile.LegendOrientation
-      href: ch01s09s03s08.md
-    - name: AddStrainMapResponse
-      href: ch01s09s03s09.md
-    - name: Example- Add Strain Map
-      href: ch01s09s03s10.md
-  - name: Add Thermal Map
-    href: ch01s09s04.md
-    items:
-    - name: AddThermalMapRequest.AddThermalMap
-      href: ch01s09s04s02.md
-    - name: AddThermalMapResponse
-      href: ch01s09s04s03.md
-    - name: Example- AddThermalMap
-      href: ch01s09s04s04.md
-  - name: CCA
-    href: ch01s09s05.md
-  - name: DeleteProjectRequest
-    href: ch01s09s06.md
-  - name: Generate CCA Report
-    href: ch01s09s07.md
-    items:
-    - name: GenCCAReportResponse
-      href: ch01s09s07s02.md
-    - name: Example- Generate CCA Report
-      href: ch01s09s07s03.md
-  - name: Request a Project Report
-    href: ch01s09s08.md
-    items:
-    - name: GenReportResponse
-      href: ch01s09s08s02.md
-    - name: Example- Generate Report
-      href: ch01s09s08s03.md
-  - name: Import IPC2581
-    href: ch01s09s09.md
-    items:
-    - name: Examples- Import IPC 2581
-      href: ch01s09s09s02.md
-  - name: Import ODB
-    href: ch01s09s10.md
-    items:
-    - name: Examples- Import ODB
-      href: ch01s09s10s02.md
-  - name: Import Project Zip Archive
-    href: ch01s09s11.md
-    items:
-    - name: Example- importProjectZipArchive
-      href: ch01s09s11s02.md
-  - name: Import Project Zip- Single Mode
-    href: ch01s09s12.md
-    items:
-    - name: Example- ImportProjectZipSingleModeRequest
-      href: ch01s09s12s02.md
-  - name: List CCAs
-    href: ch01s09s13.md
-    items:
-    - name: ListCCAsResponse.CCA
-      href: ch01s09s13s02.md
-    - name: Example- List CCAs
-      href: ch01s09s13s03.md
-  - name: List Strain Maps
-    href: ch01s09s14.md
-    items:
-    - name: ListStrainMapsResponse
-      href: ch01s09s14s02.md
-    - name: ListStrainMapsResponse.CcaStrainMap
-      href: ch01s09s14s03.md
-    - name: Example- List Strain Maps
-      href: ch01s09s14s04.md
-  - name: List Thermal Maps
-    href: ch01s09s15.md
-    items:
-    - name: ListThermalMapsResponse
-      href: ch01s09s15s02.md
-    - name: ListThermalMapsResponse.CcaThermalMap
-      href: ch01s09s15s03.md
-    - name: ListThermalMapsResponse.CcaThermalMap.ThermalMap
-      href: ch01s09s15s04.md
-    - name: Example- listThermalMaps
-      href: ch01s09s15s05.md
-  - name: Thermal Map File
-    href: ch01s09s16.md
-    items:
-    - name: ThermalMapFile.CsvExcelFile
-      href: ch01s09s16s02.md
-    - name: ThermalMapFile.ImageFile
-      href: ch01s09s16s03.md
-    - name: ThermalMapFile.ImageFile.ImageCoordinate
-      href: ch01s09s16s04.md
-    - name: ThermalMapFile.ImageFile.LegendCoordinate
-      href: ch01s09s16s05.md
-    - name: ThermalMapFile.ImageFile.NodeCoordinate
-      href: ch01s09s16s06.md
-  - name: Thermal Map File
-    href: ch01s09s17.md
-    items:
-    - name: ThermalMapFile.ImageFile.LegendOrientation
-      href: ch01s09s17s02.md
-    - name: ThermalMapFile.ThermalBoardSide
-      href: ch01s09s17s03.md
-  - name: Update Thermal Map
-    href: ch01s09s18.md
-    items:
-    - name: UpdateThermalMapsResponse
-      href: ch01s09s18s02.md
-    - name: Example- updateThermalMaps
-      href: ch01s09s18s03.md
+  - name: Example- AddProjectRequest
+    href: content/project-service/ch01s09s02s02.md
+  - name: Example- Add Strain Map
+    href: content/project-service/ch01s09s03s10.md
+  - name: Example- AddThermalMap
+    href: content/project-service/ch01s09s04s04.md
+  - name: Example- Generate CCA Report
+    href: content/project-service/ch01s09s07s03.md
+  - name: Example- Generate Report
+    href: content/project-service/ch01s09s08s03.md
+  - name: Examples- Import IPC 2581
+    href: content/project-service/ch01s09s09s02.md
+  - name: Examples- Import ODB
+    href: content/project-service/ch01s09s10s02.md
+  - name: Example- importProjectZipArchive
+    href: content/project-service/ch01s09s11s02.md
+  - name: Example- ImportProjectZipSingleModeRequest
+    href: content/project-service/ch01s09s12s02.md
+  - name: Example- List CCAs
+    href: content/project-service/ch01s09s13s03.md
+  - name: Example- List Strain Maps
+    href: content/project-service/ch01s09s14s04.md
+  - name: Example- listThermalMaps
+    href: content/project-service/ch01s09s15s05.md
+  - name: Example- updateThermalMaps
+    href: content/project-service/ch01s09s18s03.md
 - name: Sherlock Stackup Service- SherlockStackupService.proto
-  href: ch01s10.md
+  href: content/stakup-service/SherlockStackupService.proto.md
   items:
-  - name: Get Layer Count
-    href: ch01s10s02.md
-    items:
-    - name: GetLayerCountResponse
-      href: ch01s10s02s02.md
-    - name: Exampes- Get Layer Count
-      href: ch01s10s02s03.md
-  - name: Get Stackup Properties
-    href: ch01s10s03.md
-    items:
-    - name: GetStackupPropsResponse
-      href: ch01s10s03s02.md
-    - name: Example- Get Stackup Properties
-      href: ch01s10s03s03.md
-  - name: Get Conductor Thickness
-    href: ch01s10s04.md
-    items:
-    - name: GetTotalConductorThicknessResponse
-      href: ch01s10s04s02.md
-    - name: Example- Get Total Conductor Thickness
-      href: ch01s10s04s03.md
-  - name: List Conductor Layers
-    href: ch01s10s05.md
-    items:
-    - name: ListConductorLayersResponse
-      href: ch01s10s05s02.md
-    - name: Examples- List Conductor Layers
-      href: ch01s10s05s03.md
-  - name: List CCA Conductor Layer Properties
-    href: ch01s10s06.md
-    items:
-    - name: ListConductorLayersResponse. CCAConductorLayerProp.ConductorLayerProp
-      href: ch01s10s06s02.md
-  - name: List Conductor Materials
-    href: ch01s10s07.md
-    items:
-    - name: ListConductorMaterialsResponse
-      href: ch01s10s07s02.md
-    - name: Examples- List Conductor Materials
-      href: ch01s10s07s03.md
-  - name: List Construction Styles
-    href: ch01s10s08.md
-    items:
-    - name: ListConstructionStylesResponse
-      href: ch01s10s08s02.md
-    - name: Examples- List Construction Styles
-      href: ch01s10s08s03.md
-  - name: List Fiber Materials
-    href: ch01s10s09.md
-    items:
-    - name: ListFiberMaterialsResponse
-      href: ch01s10s09s02.md
-    - name: Examples- List Fiber Materials
-      href: ch01s10s09s03.md
-  - name: List Laminate Materials Manufacturers
-    href: ch01s10s10.md
-    items:
-    - name: ListLaminateMaterialsManufacturersResponse
-      href: ch01s10s10s02.md
-    - name: Examples- List Laminate Materials Manufacturers
-      href: ch01s10s10s03.md
-  - name: List Laminate Materials
-    href: ch01s10s11.md
-    items:
-    - name: ListLaminateMaterialsResponse
-      href: ch01s10s11s02.md
-    - name: ListLaminateMaterialsResponse.ManufacturerMaterials
-      href: ch01s10s11s03.md
-    - name: ListLaminateMaterialsResponse.ManufacturerMaterials.GradeMaterials
-      href: ch01s10s11s04.md
-    - name: Examples- List Laminate Materials
-      href: ch01s10s11s05.md
-  - name: List Laminate Thickness Units
-    href: ch01s10s12.md
-    items:
-    - name: ListLaminateThicknessUnitsResponse
-      href: ch01s10s12s02.md
-    - name: Examples- List Laminate Thickness Units
-      href: ch01s10s12s03.md
-  - name: List Laminates
-    href: ch01s10s13.md
-    items:
-    - name: ListLaminatesResponse
-      href: ch01s10s13s02.md
-    - name: ListLaminatesResponse.CCALaminateProp
-      href: ch01s10s13s03.md
-    - name: ListLaminatesResponse.CCALaminateProp.LaminateProp
-      href: ch01s10s13s04.md
-    - name: ListLaminatesResponse.CCALaminateProp.LaminateProp.GlassConstruction
-      href: ch01s10s13s05.md
-    - name: Examples- List Laminates
-      href: ch01s10s13s06.md
-  - name: Update Conductor Layer
-    href: ch01s10s14.md
-    items:
-    - name: Examples- Update Conductor Layer
-      href: ch01s10s14s02.md
-  - name: Update Laminate
-    href: ch01s10s15.md
-    items:
-    - name: UpdateLaminateRequest.GlassConstruction
-      href: ch01s10s15s02.md
-    - name: Examples- Update Laminate
-      href: ch01s10s15s03.md
+  - name: Exampes- Get Layer Count
+    href: content/stakup-service/ch01s10s02s03.md
+  - name: Example- Get Stackup Properties
+    href: content/stakup-service/ch01s10s03s03.md
+  - name: Example- Get Total Conductor Thickness
+    href: content/stakup-service/ch01s10s04s03.md
+  - name: Examples- List Conductor Layers
+    href: content/stakup-service/ch01s10s05s03.md
+  - name: Examples- List Conductor Materials
+    href: content/stakup-service/ch01s10s07s03.md
+  - name: Examples- List Construction Styles
+    href: content/stakup-service/ch01s10s08s03.md
+  - name: Examples- List Fiber Materials
+    href: content/stakup-service/ch01s10s09s03.md
+  - name: Examples- List Laminate Materials Manufacturers
+    href: content/stakup-service/ch01s10s10s03.md
+  - name: Examples- List Laminate Materials
+    href: content/stakup-service/ch01s10s11s05.md
+  - name: Examples- List Laminate Thickness Units
+    href: content/stakup-service/ch01s10s12s03.md
+  - name: Examples- List Laminates
+    href: content/stakup-service/ch01s10s13s06.md
+  - name: Examples- Update Conductor Layer
+    href: content/stakup-service/ch01s10s14s02.md
+  - name: Examples- Update Laminate
+    href: content/stakup-service/ch01s10s15s03.md
 - name: gRPC Scalar Value Types
-  href: ch01s11.md
+  href: content/scalar-value/Scalar_Value_Types.md

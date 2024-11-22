@@ -19,7 +19,7 @@ generated_scripts)
 
 [Installing and Setting Up BloomRPC (Optional)](index.md#d0e242)
 
-[Index to the Sherlock APIs](ch01s02.md)
+[Index to the Sherlock APIs](index-to-sherlock-api.md)
 
 [Sherlock Analysis Service- SherlockAnalysisService.proto](ch01s03.md)
 
@@ -353,7 +353,6 @@ in this chapter assumes you have some programming experience in one of the
 following languages: Android Java, C#/.NET, C++, Dart, Go, Java, Kotlin"/JVM,
 Node, Objective-C, PHP, Python, Ruby, or Web.
 
-![\[Note\]](file:/F:/AnsysDev/GitRepos/doc/tools/oxygen_frameworks/docbook/css/img/note.png)|
 Note  
 ---|---  
 Python client-side scripts have been generated and are included with your
@@ -361,7 +360,6 @@ Sherlock installation. To use them, see the section below, [the section called
 "Pre-Generated Python Scripts"](index.md#sherlock_ug_API_pre-
 generated_scripts "Pre-Generated Python Scripts").
 
-![\[Note\]](file:/F:/AnsysDev/GitRepos/doc/tools/oxygen_frameworks/docbook/css/img/note.png)|
 Note  
 ---|---  
 In some cases, after a Sherlock API gRPC request is sent, a response is
@@ -451,7 +449,6 @@ Linux:
 
         runSherlock -grpcPort=9090
 
-![\[Tip\]](file:/F:/AnsysDev/GitRepos/doc/tools/oxygen_frameworks/docbook/css/img/tip.png)|
 Tip  
 ---|---  
 You can run API's in Sherlock without launching Sherlock's user interface. See
@@ -460,12 +457,11 @@ Sherlock User Interface").
 
   3. If successful, Sherlock will launch and the Sherlock Client Console appears (Windows), confirming the gRPC server is running on port 9090 or whichever port you selected. For Linux users, the gRPC status appears in the terminal window.
 
-![](../../graphics/gRPC/sherlock_ug_gRPC_3.png)
+![](../graphics/gRPC/sherlock_ug_gRPC_3.png)
 
 Closing Sherlock or the Sherlock Client Console terminates the connection to
 the gRPC server. You will need to repeat the above procedure to reconnect.
 
-![\[Note\]](file:/F:/AnsysDev/GitRepos/doc/tools/oxygen_frameworks/docbook/css/img/note.png)|
 Note  
 ---|---  
 A project must exist in the Sherlock client for the APIs to operate on the
@@ -527,7 +523,7 @@ dependencies using the following command in Python:
 ---
 
 Each API documented in this chapter provides an example of its implementation
-in Python. [The API Index](ch01s02.md "Index to the Sherlock APIs") gives an
+in Python. [The API Index](index-to-sherlock-api.md "Index to the Sherlock APIs") gives an
 overview of all the functions available to you.
 
 ## Installing and Setting Up BloomRPC (Optional)
@@ -538,25 +534,21 @@ API request and see the response. (See the screenshot below.) [This link will ta
 where you can download the latest setup file. Once you have installed
 BloomRPC, follow the configuration instructions below.
 
-![](../../graphics/gRPC/sherlock_ug_gRPC_10.png)
+![](../graphics/gRPC/sherlock_ug_gRPC_10.png)
 ---
 
 Configuring BloomRPC:
 
   1. Open the BloomRPC application.
 
-  2. Load the `.proto` files into BloomRPC by clicking on the ![](../../graphics/gRPC/sherlock_ug_gRPC_1.png) icon in the Protos panel. This will open a file explorer interface. Navigate to your Sherlock installation and select all the Sherlock `.proto` files. (See [the section called "Where to Find the Sherlock .proto Files"](index.md#sherlock_ug_where_to_find_proto_files "Where to Find the Sherlock .proto Files").)
+  2. Load the `.proto` files into BloomRPC by clicking on the ![](../graphics/gRPC/sherlock_ug_gRPC_1.png) icon in the Protos panel. This will open a file explorer interface. Navigate to your Sherlock installation and select all the Sherlock `.proto` files. (See [the section called "Where to Find the Sherlock .proto Files"](index.md#sherlock_ug_where_to_find_proto_files "Where to Find the Sherlock .proto Files").)
 
   3. When successfully loaded into BloomRPC, the files will appear in the Protos panel.
 
-![](../../graphics/gRPC/sherlock_ug_gRPC_2.png)
+![](../graphics/gRPC/sherlock_ug_gRPC_2.png)
 
   4. Connect to the server by entering the server address. In this example, **0.0.0.0:9090** is shown, but use whatever port number you chose in the section above, [the section called "Connecting to the Sherlock gRPC Server"](index.md#sherlock_ug_connecting_to_grpc_server "Connecting to the Sherlock gRPC Server") (step 2).
 
-![](../../graphics/gRPC/sherlock_ug_gRPC_4.png)
+![](../graphics/gRPC/sherlock_ug_gRPC_4.png)
 
-* * *
-
-| /   / [Home](../../index.htm) | [Next](ch01s02.md) |     |
-| ----------------------------- | ------------------ | --- |
 
