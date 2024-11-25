@@ -4,8 +4,8 @@
   href: getting-started.md
 - name: Index to the Sherlock APIs
   href: index-to-sherlock-api.md
-- name: Sherlock reference
-  href: examples/sherlock-reference.md
+- name: Sherlock APIs reference
+  href: sherlock-reference.md
 - name: Examples
   items:
   - name: Sherlock Analysis Service
