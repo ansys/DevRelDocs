@@ -3,7 +3,7 @@
 In the table below, API services are listed alphabetically. Clicking on any of
 the links will take you the pertinent section where the API services are
 presented in detail. Also, links at the bottom of the table take you to tables
-which define [Scalar Value Types](ch01s11.md "gRPC Scalar Value Types").
+which define [Scalar Value Types](sherlock-reference.md#scalar-value-types "gRPC Scalar Value Types").
 
 **Table  1.1. Index to the Sherlock APIs**
 
