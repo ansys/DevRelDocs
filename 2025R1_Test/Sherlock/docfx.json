@@ -5,8 +5,9 @@
         "summary": "",
         "version": "2025 R1",
         "product": "Sherlock",
-        "programming language": "Python",
-        "product collection": "Structures",
+        "status": "Published",
+        "programming-language": "Python",
+        "product-collection": "Structures",
         "physics": "Structures"
       }
     }
