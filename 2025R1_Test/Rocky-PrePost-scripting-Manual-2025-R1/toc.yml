@@ -3,13 +3,13 @@
   href: basic-usage.md
 - name: Getting started
   items:
-  - name: Setting Up a Project
+  - name: Setting up a project
     href: getting-started.md#setting-up-a-project
-  - name: Post-Processing Results
+  - name: Post-processing results
     href: getting-started.md#post-processing-results
-- name: Using VScode to Create/Edit Scripts
+- name: Using VScode to create/edit scripts
   href: setup-ide.md
-- name: Class Reference
+- name: Class reference
   href: prepost-scripting-reference.md
   items:
   - name: RAAirFlow
@@ -226,8 +226,7 @@
     href: RAVolumetricInletPropertiesList.md
   - name: RAWall
     href: RAWall.md
-
-- name: About Grid Functions / Properties
+- name: About grid functions / properties
   href: about-grid-functions.md
 - name: Changelog
   href: changelog.md
