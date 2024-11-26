@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Format](index.md)/[setFormat](set-format.md)
-
 # setFormat
 
 

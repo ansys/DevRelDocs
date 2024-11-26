@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ScriptComponent](index.md)/[setSourceFromFile](set-source-from-file.md)
-
 # setSourceFromFile
 
 

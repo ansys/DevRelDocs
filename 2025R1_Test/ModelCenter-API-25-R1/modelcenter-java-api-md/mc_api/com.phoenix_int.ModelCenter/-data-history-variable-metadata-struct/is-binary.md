@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistoryVariableMetadataStruct](index.md)/[isBinary](is-binary.md)
-
 # isBinary
 
 

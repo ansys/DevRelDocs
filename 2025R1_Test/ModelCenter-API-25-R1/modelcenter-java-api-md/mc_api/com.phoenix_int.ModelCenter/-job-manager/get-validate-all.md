@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[JobManager](index.md)/[getValidateAll](get-validate-all.md)
-
 # getValidateAll
 
 

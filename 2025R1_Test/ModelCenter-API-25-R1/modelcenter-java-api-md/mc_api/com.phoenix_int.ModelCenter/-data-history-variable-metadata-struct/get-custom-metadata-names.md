@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistoryVariableMetadataStruct](index.md)/[getCustomMetadataNames](get-custom-metadata-names.md)
-
 # getCustomMetadataNames
 
 

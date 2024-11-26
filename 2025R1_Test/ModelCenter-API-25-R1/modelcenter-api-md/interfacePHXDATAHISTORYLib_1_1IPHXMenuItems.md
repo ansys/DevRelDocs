@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAHISTORYLib_1_1IPHXMenuItems"></a>
 # Interface PHXDATAHISTORYLib::IPHXMenuItems
 
 ![][IDL]

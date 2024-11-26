@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataMonitor](index.md)/[setName](set-name.md)
-
 # setName
 
 

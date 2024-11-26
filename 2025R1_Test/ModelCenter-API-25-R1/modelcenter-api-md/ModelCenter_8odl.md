@@ -1,4 +1,3 @@
-<a id="ModelCenter_8odl"></a>
 # File ModelCenter.odl
 
 ![][IDL]

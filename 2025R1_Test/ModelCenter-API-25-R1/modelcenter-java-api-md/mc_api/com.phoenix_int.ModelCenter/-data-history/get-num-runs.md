@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[getNumRuns](get-num-runs.md)
-
 # getNumRuns
 
 

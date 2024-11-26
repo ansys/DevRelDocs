@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[setSuggestedCountFrom](set-suggested-count-from.md)
-
 # setSuggestedCountFrom
 
 

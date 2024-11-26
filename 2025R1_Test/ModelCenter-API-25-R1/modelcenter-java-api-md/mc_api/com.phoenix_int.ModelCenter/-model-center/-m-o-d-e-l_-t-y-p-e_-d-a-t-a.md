@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[MODEL_TYPE_DATA](-m-o-d-e-l_-t-y-p-e_-d-a-t-a.md)
-
 # MODEL_TYPE_DATA
 
 

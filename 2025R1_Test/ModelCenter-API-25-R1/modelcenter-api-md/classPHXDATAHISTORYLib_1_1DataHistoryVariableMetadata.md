@@ -1,4 +1,3 @@
-<a id="classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata"></a>
 # Class PHXDATAHISTORYLib::DataHistoryVariableMetadata
 
 ![][IDL]

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IRunDataAction](index.md)/[getComparisonInfoHTMLString](get-comparison-info-h-t-m-l-string.md)
-
 # getComparisonInfoHTMLString
 
 

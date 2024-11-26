@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Component](index.md)/[getMetadata](get-metadata.md)
-
 # getMetadata
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[setMemberFromString](set-member-from-string.md)
-
 # setMemberFromString
 
 

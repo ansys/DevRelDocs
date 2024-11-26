@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Variant](index.md)/[DISPATCH](-d-i-s-p-a-t-c-h.md)
-
 # DISPATCH
 
 

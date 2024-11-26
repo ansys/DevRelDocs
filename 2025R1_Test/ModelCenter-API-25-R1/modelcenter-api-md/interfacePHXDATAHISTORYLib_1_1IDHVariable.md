@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAHISTORYLib_1_1IDHVariable"></a>
 # Interface PHXDATAHISTORYLib::IDHVariable
 
 ![][IDL]

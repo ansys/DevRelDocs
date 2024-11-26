@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataExplorer](index.md)/[getPageType](get-page-type.md)
-
 # getPageType
 
 

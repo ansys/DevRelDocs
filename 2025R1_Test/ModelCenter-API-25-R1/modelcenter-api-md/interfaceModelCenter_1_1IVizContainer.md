@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IVizContainer"></a>
 # Interface ModelCenter::IVizContainer
 
 ![][IDL]

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[getMemberValueAbsoluteAsString](get-member-value-absolute-as-string.md)
-
 # getMemberValueAbsoluteAsString
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXIOConsole](index.md)/[isShowing](is-showing.md)
-
 # isShowing
 
 

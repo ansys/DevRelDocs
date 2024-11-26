@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DHVariable](index.md)/[setType](set-type.md)
-
 # setType
 
 

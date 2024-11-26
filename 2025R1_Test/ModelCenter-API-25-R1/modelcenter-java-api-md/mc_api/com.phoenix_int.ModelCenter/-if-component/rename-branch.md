@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IfComponent](index.md)/[renameBranch](rename-branch.md)
-
 # renameBranch
 
 

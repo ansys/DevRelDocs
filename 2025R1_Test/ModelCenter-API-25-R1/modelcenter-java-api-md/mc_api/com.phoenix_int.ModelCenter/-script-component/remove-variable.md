@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ScriptComponent](index.md)/[removeVariable](remove-variable.md)
-
 # removeVariable
 
 

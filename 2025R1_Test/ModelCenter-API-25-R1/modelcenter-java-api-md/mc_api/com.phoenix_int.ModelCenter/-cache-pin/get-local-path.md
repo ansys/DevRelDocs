@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[CachePin](index.md)/[getLocalPath](get-local-path.md)
-
 # getLocalPath
 
 

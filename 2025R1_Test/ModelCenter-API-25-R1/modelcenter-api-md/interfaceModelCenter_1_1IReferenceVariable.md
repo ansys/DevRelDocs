@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IReferenceVariable"></a>
 # Interface ModelCenter::IReferenceVariable
 
 ![][IDL]

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.Geometry](../index.md)/[AWTExceptionHandler](index.md)
-
 # AWTExceptionHandler
 
 

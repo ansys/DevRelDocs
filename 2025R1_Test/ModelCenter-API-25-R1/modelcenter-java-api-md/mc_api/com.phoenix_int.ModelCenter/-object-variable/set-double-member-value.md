@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[setDoubleMemberValue](set-double-member-value.md)
-
 # setDoubleMemberValue
 
 

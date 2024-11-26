@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DoubleArray](index.md)/[getEnumAliases](get-enum-aliases.md)
-
 # getEnumAliases
 
 

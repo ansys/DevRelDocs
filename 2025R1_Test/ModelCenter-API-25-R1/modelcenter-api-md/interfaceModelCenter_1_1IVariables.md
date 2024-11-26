@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IVariables"></a>
 # Interface ModelCenter::IVariables
 
 ![][IDL]

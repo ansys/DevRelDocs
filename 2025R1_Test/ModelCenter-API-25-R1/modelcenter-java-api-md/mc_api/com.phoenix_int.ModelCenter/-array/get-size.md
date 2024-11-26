@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Array](index.md)/[getSize](get-size.md)
-
 # getSize
 
 

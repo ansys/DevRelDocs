@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[FileArray](index.md)/[setSaveWithModel](set-save-with-model.md)
-
 # setSaveWithModel
 
 

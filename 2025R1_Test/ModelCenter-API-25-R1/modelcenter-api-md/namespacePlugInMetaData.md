@@ -1,4 +1,3 @@
-<a id="namespacePlugInMetaData"></a>
 # Namespace PlugInMetaData
 
 ![][IDL]

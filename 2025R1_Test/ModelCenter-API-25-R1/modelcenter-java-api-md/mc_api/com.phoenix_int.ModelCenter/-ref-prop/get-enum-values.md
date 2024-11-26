@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[RefProp](index.md)/[getEnumValues](get-enum-values.md)
-
 # getEnumValues
 
 

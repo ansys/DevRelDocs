@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[getStringArrayMemberValueAbsolute](get-string-array-member-value-absolute.md)
-
 # getStringArrayMemberValueAbsolute
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IDataCollectorPlugIn](index.md)/[show](show.md)
-
 # show
 
 

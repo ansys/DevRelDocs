@@ -1,4 +1,3 @@
-<a id="interfaceTradeStudyPlugIn_1_1IVariableMetaDataProvider"></a>
 # Interface TradeStudyPlugIn::IVariableMetaDataProvider
 
 ![][IDL]

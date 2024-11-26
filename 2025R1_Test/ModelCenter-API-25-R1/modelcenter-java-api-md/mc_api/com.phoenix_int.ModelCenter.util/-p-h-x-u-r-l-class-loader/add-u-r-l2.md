@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXURLClassLoader](index.md)/[addURL2](add-u-r-l2.md)
-
 # addURL2
 
 

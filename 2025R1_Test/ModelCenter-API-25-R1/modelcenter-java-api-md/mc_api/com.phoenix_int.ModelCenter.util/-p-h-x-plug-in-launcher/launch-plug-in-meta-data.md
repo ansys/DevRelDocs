@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXPlugInLauncher](index.md)/[launchPlugInMetaData](launch-plug-in-meta-data.md)
-
 # launchPlugInMetaData
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ILoginCallback](index.md)/[verifySslWarning](verify-ssl-warning.md)
-
 # verifySslWarning
 
 

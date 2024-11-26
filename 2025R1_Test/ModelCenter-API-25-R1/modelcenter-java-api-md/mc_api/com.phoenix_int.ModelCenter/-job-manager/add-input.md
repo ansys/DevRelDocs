@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[JobManager](index.md)/[addInput](add-input.md)
-
 # addInput
 
 

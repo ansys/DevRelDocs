@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[setBooleanArrayMemberValue](set-boolean-array-member-value.md)
-
 # setBooleanArrayMemberValue
 
 

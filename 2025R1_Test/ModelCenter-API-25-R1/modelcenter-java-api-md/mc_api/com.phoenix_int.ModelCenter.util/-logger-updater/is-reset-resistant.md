@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[LoggerUpdater](index.md)/[isResetResistant](is-reset-resistant.md)
-
 # isResetResistant
 
 

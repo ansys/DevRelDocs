@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudyPlugIn2](index.md)/[setSaveAllAnalyzerVariables](set-save-all-analyzer-variables.md)
-
 # setSaveAllAnalyzerVariables
 
 

@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IDataCollector"></a>
 # Interface ModelCenter::IDataCollector
 
 ![][IDL]

@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IFeature"></a>
 # Interface ModelCenter::IFeature
 
 ![][IDL]

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Feature](index.md)/[checkin](checkin.md)
-
 # checkin
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Array](index.md)/[toStringAbsolute](to-string-absolute.md)
-
 # toStringAbsolute
 
 

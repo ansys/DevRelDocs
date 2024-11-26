@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[setSuggestedDependentVars](set-suggested-dependent-vars.md)
-
 # setSuggestedDependentVars
 
 

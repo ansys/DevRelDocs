@@ -1,4 +1,3 @@
-<a id="PHXDataHistory_8odl"></a>
 # File PHXDataHistory.odl
 
 ![][IDL]

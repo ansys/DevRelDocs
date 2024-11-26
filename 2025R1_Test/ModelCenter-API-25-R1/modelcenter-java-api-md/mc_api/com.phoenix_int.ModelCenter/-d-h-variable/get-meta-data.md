@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DHVariable](index.md)/[getMetaData](get-meta-data.md)
-
 # getMetaData
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Assembly](index.md)/[ASSEMBLY](-a-s-s-e-m-b-l-y.md)
-
 # ASSEMBLY
 
 

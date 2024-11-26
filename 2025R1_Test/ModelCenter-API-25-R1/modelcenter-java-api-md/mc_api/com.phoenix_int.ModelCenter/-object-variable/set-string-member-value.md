@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[setStringMemberValue](set-string-member-value.md)
-
 # setStringMemberValue
 
 
