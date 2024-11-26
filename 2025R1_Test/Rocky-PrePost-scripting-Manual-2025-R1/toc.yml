@@ -1,15 +1,16 @@
+
 - name: Introduction
-  href: basic_usage.md
+  href: basic-usage.md
 - name: Getting started
   items:
-  - name: Setting up a project
-    href: getting_started.md#setting-up-a-project
-  - name: Post-processing results
-    href: getting_started.md#post-processing-results
-- name: Using VScode to create/edit scripts
+  - name: Setting Up a Project
+    href: getting-started.md#setting-up-a-project
+  - name: Post-Processing Results
+    href: getting-started.md#post-processing-results
+- name: Using VScode to Create/Edit Scripts
   href: setup-ide.md
-- name: Class reference
-  href: api_reference.md
+- name: Class Reference
+  href: prepost-scripting-reference.md
   items:
   - name: RAAirFlow
     href: RAAirFlow.md
@@ -29,12 +30,10 @@
     href: RAConstantOneWayCoupling.md
   - name: RAContactData
     href: RAContactData.md
-  - name: RAContactsDataMeshColoring
-    href: RAContactsDataMeshColoring.md
-  - name: RAJointsDataMeshColoring
-    href: RAJointsDataMeshColoring.md
   - name: RAContactToParticleProcess
     href: RAContactToParticleProcess.md
+  - name: RAContactsDataMeshColoring
+    href: RAContactsDataMeshColoring.md
   - name: RACoupledWall
     href: RACoupledWall.md
   - name: RACubeProcess
@@ -53,6 +52,8 @@
     href: RAExportToolkit.md
   - name: RAFeedConveyor
     href: RAFeedConveyor.md
+  - name: RAFilterProcess
+    href: RAFilterProcess.md
   - name: RAFiveRollsBeltProfile
     href: RAFiveRollsBeltProfile.md
   - name: RAFluentOneWayCoupling
@@ -79,18 +80,20 @@
     href: RAInputVariables.md
   - name: RAInspectorProcess
     href: RAInspectorProcess.md
+  - name: RAJointsDataMeshColoring
+    href: RAJointsDataMeshColoring.md
   - name: RALinearTimeVariableForce
     href: RALinearTimeVariableForce.md
   - name: RALinearTimeVariableMoment
     href: RALinearTimeVariableMoment.md
-  - name: RAMacroHooks
-    href: RAMacroHooks.md
   - name: RAMaterialCollection
     href: RAMaterialCollection.md
   - name: RAMaterialsInteraction
     href: RAMaterialsInteraction.md
   - name: RAMaterialsInteractionCollection
     href: RAMaterialsInteractionCollection.md
+  - name: RAMeshColoring
+    href: RAMeshColoring.md
   - name: RAModule
     href: RAModule.md
   - name: RAModuleCollection
@@ -157,8 +160,6 @@
     href: RAPrescribedMoment.md
   - name: RAProject
     href: RAProject.md
-  - name: RAPropertyProcess
-    href: RAPropertyProcess.md
   - name: RAReceivingConveyor
     href: RAReceivingConveyor.md
   - name: RARectangularSurface
@@ -225,8 +226,8 @@
     href: RAVolumetricInletPropertiesList.md
   - name: RAWall
     href: RAWall.md
-- name: About grid functions / properties
+
+- name: About Grid Functions / Properties
   href: about-grid-functions.md
 - name: Changelog
   href: changelog.md
-
