@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[JobManager](index.md)/[setRunInParallel](set-run-in-parallel.md)
-
 # setRunInParallel
 
 

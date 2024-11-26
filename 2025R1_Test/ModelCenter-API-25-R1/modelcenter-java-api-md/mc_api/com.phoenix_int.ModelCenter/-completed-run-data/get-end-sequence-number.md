@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[CompletedRunData](index.md)/[getEndSequenceNumber](get-end-sequence-number.md)
-
 # getEndSequenceNumber
 
 

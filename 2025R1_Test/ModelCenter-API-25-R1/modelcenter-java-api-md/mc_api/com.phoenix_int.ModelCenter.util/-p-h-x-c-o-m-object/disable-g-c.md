@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXCOMObject](index.md)/[disableGC](disable-g-c.md)
-
 # disableGC
 
 

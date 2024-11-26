@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[FileSystemInfo](index.md)/[getIsValid](get-is-valid.md)
-
 # getIsValid
 
 

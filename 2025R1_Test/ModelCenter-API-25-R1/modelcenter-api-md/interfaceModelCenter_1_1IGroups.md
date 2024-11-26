@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IGroups"></a>
 # Interface ModelCenter::IGroups
 
 ![][IDL]

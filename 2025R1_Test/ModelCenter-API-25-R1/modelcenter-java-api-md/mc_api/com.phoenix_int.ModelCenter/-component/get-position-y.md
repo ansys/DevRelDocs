@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Component](index.md)/[getPositionY](get-position-y.md)
-
 # getPositionY
 
 

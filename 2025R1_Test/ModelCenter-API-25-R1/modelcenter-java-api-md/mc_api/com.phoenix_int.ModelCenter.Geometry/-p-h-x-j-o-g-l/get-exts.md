@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.Geometry](../index.md)/[PHXJOGL](index.md)/[getExts](get-exts.md)
-
 # getExts
 
 

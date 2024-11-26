@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ILoginCallback](index.md)/[requestAuthCredentials](request-auth-credentials.md)
-
 # requestAuthCredentials
 
 

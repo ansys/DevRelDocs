@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[addVariableStructs](add-variable-structs.md)
-
 # addVariableStructs
 
 

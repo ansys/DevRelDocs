@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[VariableLink](index.md)/[suspendLink](suspend-link.md)
-
 # suspendLink
 
 

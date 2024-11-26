@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IModelCenter](index.md)/[saveModelAs](save-model-as.md)
-
 # saveModelAs
 
 

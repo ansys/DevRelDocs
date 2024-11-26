@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXMCJarLoader](index.md)/[PHXMCJarLoader](-p-h-x-m-c-jar-loader.md)
-
 # PHXMCJarLoader
 
 

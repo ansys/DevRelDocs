@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IntegerArray](index.md)/[hasUpperBound](has-upper-bound.md)
-
 # hasUpperBound
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Variant](index.md)/[REFERENCE](-r-e-f-e-r-e-n-c-e.md)
-
 # REFERENCE
 
 

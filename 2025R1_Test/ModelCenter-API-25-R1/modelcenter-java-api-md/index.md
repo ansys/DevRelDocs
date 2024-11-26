@@ -1,5 +1,3 @@
-//[mc_api](index.md)
-
 # mc_api
 
 ## Packages

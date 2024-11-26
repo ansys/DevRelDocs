@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[closeHTMLViewer](close-h-t-m-l-viewer.md)
-
 # closeHTMLViewer
 
 

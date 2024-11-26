@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[getMemberType](get-member-type.md)
-
 # getMemberType
 
 

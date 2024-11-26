@@ -1,4 +1,3 @@
-<a id="structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct"></a>
 # Structure PHXDATAHISTORYLib::DataHistoryVariableStruct
 
 ![][IDL]

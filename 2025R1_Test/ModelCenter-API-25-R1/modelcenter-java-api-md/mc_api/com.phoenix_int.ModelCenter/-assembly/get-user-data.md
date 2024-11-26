@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Assembly](index.md)/[getUserData](get-user-data.md)
-
 # getUserData
 
 

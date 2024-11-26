@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXMCJarLoader](index.md)/[classExists](class-exists.md)
-
 # classExists
 
 

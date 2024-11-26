@@ -1,4 +1,3 @@
-<a id="PHXDataExplorer_8odl"></a>
 # File PHXDataExplorer.odl
 
 ![][IDL]

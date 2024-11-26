@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[SaveContext](index.md)/[saveFileStream](save-file-stream.md)
-
 # saveFileStream
 
 

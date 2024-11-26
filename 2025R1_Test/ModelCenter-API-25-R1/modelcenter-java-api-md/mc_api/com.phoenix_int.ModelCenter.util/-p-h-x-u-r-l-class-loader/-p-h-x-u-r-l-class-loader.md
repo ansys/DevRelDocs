@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXURLClassLoader](index.md)/[PHXURLClassLoader](-p-h-x-u-r-l-class-loader.md)
-
 # PHXURLClassLoader
 
 

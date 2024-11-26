@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[PHXIOConsole](index.md)/[actionPerformed](action-performed.md)
-
 # actionPerformed
 
 

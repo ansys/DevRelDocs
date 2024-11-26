@@ -1,4 +1,3 @@
-<a id="PlugInMetaData_8odl"></a>
 # File PlugInMetaData.odl
 
 ![][IDL]

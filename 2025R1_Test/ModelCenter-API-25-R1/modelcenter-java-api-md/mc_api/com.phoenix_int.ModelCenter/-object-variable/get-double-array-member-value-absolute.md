@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[getDoubleArrayMemberValueAbsolute](get-double-array-member-value-absolute.md)
-
 # getDoubleArrayMemberValueAbsolute
 
 

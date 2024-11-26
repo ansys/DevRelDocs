@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IModelCenter](index.md)/[HTMLViewerWaitForClose](-h-t-m-l-viewer-wait-for-close.md)
-
 # HTMLViewerWaitForClose
 
 

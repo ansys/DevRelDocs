@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudyPlugIn2](index.md)
-
 # ITradeStudyPlugIn2
 
 interface [ITradeStudyPlugIn2](index.md) : [ITradeStudyPlugIn](../-i-trade-study-plug-in/index.md)

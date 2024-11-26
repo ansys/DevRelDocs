@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[setLoginCallback](set-login-callback.md)
-
 # setLoginCallback
 
 

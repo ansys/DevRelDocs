@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudyCallback](index.md)/[dataCollectorCreated](data-collector-created.md)
-
 # dataCollectorCreated
 
 

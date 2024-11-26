@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[getCenterLinkServer](get-center-link-server.md)
-
 # getCenterLinkServer
 
 

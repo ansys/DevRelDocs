@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[getTradeStudyFilters](get-trade-study-filters.md)
-
 # getTradeStudyFilters
 
 

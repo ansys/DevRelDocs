@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DHVariable](index.md)/[getNumEnumValues](get-num-enum-values.md)
-
 # getNumEnumValues
 
 

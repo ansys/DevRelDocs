@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudy3JobManager](index.md)/[setValidateAll](set-validate-all.md)
-
 # setValidateAll
 
 

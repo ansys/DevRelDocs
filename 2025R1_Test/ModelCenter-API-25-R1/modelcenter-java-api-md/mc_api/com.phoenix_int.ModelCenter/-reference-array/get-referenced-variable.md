@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ReferenceArray](index.md)/[getReferencedVariable](get-referenced-variable.md)
-
 # getReferencedVariable
 
 

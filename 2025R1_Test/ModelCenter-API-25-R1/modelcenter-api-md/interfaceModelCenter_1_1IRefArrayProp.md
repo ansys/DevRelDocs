@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IRefArrayProp"></a>
 # Interface ModelCenter::IRefArrayProp
 
 ![][IDL]

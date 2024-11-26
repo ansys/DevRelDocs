@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IBooleanArray"></a>
 # Interface ModelCenter::IBooleanArray
 
 ![][IDL]

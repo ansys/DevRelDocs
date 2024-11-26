@@ -1,4 +1,3 @@
-<a id="classPHXDATAHISTORYLib_1_1PHXDataHistory"></a>
 # Class PHXDATAHISTORYLib::PHXDataHistory
 
 ![][IDL]

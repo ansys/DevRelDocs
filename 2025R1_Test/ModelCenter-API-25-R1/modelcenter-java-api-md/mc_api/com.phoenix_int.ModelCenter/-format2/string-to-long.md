@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Format2](index.md)/[stringToLong](string-to-long.md)
-
 # stringToLong
 
 

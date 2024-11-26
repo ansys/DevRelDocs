@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ObjectVariable](index.md)/[getMemberNumDimensions](get-member-num-dimensions.md)
-
 # getMemberNumDimensions
 
 

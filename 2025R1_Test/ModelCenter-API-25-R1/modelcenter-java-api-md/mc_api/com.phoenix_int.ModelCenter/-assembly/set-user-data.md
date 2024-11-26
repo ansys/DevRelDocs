@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Assembly](index.md)/[setUserData](set-user-data.md)
-
 # setUserData
 
 

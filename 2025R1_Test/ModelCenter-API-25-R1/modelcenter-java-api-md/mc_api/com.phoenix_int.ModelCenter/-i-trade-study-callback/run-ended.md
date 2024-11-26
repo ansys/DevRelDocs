@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudyCallback](index.md)/[runEnded](run-ended.md)
-
 # runEnded
 
 

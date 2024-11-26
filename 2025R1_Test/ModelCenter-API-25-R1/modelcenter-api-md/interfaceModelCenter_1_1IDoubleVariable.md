@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IDoubleVariable"></a>
 # Interface ModelCenter::IDoubleVariable
 
 ![][IDL]

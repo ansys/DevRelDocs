@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataExplorer](index.md)/[invokeInsertPageGUI](invoke-insert-page-g-u-i.md)
-
 # invokeInsertPageGUI
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ReferenceVariable](index.md)/[createRefProp](create-ref-prop.md)
-
 # createRefProp
 
 

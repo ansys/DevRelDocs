@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[fromXMLFile](from-x-m-l-file.md)
-
 # fromXMLFile
 
 

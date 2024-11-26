@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IJobManager"></a>
 # Interface ModelCenter::IJobManager
 
 ![][IDL]

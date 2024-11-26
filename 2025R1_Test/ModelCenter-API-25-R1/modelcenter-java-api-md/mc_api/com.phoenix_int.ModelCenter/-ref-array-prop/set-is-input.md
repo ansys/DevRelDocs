@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[RefArrayProp](index.md)/[setIsInput](set-is-input.md)
-
 # setIsInput
 
 

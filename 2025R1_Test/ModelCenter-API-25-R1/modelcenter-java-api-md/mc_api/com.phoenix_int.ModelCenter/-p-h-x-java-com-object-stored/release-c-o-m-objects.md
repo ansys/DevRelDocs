@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[PHXJavaComObjectStored](index.md)/[releaseCOMObjects](release-c-o-m-objects.md)
-
 # releaseCOMObjects
 
 

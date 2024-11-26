@@ -1,4 +1,3 @@
-<a id="interfaceComponentPlugIn_1_1IComponentPlugIn"></a>
 # Interface ComponentPlugIn::IComponentPlugIn
 
 ![][IDL]
@@ -22,7 +21,6 @@
 ## Public functions
 
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1ace85f5a1c843051fe7513c591c373164"></a>
-
 ### Function construct
 
 ![][public]
@@ -46,7 +44,6 @@ void ComponentPlugIn::IComponentPlugIn::construct(IDispatch *modelCenter, IDispa
 **Return type**: void
 
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1adeb4964522dc6e485c3de4bef39a9019"></a>
-
 ### Function show
 
 ![][public]
@@ -64,7 +61,6 @@ boolean ComponentPlugIn::IComponentPlugIn::show()
 **Return type**: boolean
 
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1a14fe2c260d7d43a7f6d1cf661a34189d"></a>
-
 ### Function toString
 
 ![][public]
@@ -82,7 +78,6 @@ BSTR ComponentPlugIn::IComponentPlugIn::toString()
 **Return type**: BSTR
 
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1a3e35deaee9587905584aa8926b2076de"></a>
-
 ### Function fromString
 
 ![][public]
@@ -104,7 +99,6 @@ void ComponentPlugIn::IComponentPlugIn::fromString(BSTR setupString)
 **Return type**: void
 
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1a8745a0b6d995a55b708876bcf0b6d7ab"></a>
-
 ### Function run
 
 ![][public]
@@ -122,7 +116,6 @@ void ComponentPlugIn::IComponentPlugIn::run()
 **Return type**: void
 
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1aa280f5643ed0afe304a3ea2556b41159"></a>
-
 ### Function onEnd
 
 ![][public]

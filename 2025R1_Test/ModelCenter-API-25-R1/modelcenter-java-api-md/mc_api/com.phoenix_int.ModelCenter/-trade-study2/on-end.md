@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[TradeStudy2](index.md)/[onEnd](on-end.md)
-
 # onEnd
 
 

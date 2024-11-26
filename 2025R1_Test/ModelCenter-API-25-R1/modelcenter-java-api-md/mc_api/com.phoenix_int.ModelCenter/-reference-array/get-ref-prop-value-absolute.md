@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ReferenceArray](index.md)/[getRefPropValueAbsolute](get-ref-prop-value-absolute.md)
-
 # getRefPropValueAbsolute
 
 

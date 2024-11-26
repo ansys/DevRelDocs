@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[getNumNonEmptyRuns](get-num-non-empty-runs.md)
-
 # getNumNonEmptyRuns
 
 

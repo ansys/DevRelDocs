@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1ICustomDesignPoint"></a>
 # Interface ModelCenter::ICustomDesignPoint
 
 ![][IDL]

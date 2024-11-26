@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ITradeStudy3JobResult](index.md)/[isRunning](is-running.md)
-
 # isRunning
 
 

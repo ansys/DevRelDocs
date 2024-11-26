@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1ICachePin"></a>
 # Interface ModelCenter::ICachePin
 
 ![][IDL]

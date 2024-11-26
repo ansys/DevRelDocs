@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[FileArray](index.md)/[fromFile](from-file.md)
-
 # fromFile
 
 

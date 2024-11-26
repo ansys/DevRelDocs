@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[AddToModel](index.md)/[setHelpURL](set-help-u-r-l.md)
-
 # setHelpURL
 
 

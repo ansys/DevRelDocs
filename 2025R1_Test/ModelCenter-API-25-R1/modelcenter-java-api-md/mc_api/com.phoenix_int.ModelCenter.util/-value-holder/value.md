@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter.util](../index.md)/[ValueHolder](index.md)/[value](value.md)
-
 # value
 
 

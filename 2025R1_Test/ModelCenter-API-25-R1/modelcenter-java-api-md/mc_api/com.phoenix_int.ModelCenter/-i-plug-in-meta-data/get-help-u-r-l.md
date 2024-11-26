@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IPlugInMetaData](index.md)/[getHelpURL](get-help-u-r-l.md)
-
 # getHelpURL
 
 

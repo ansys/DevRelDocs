@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[ModelCenter](index.md)/[ASSEMBLY_TYPE_SEQUENCE](-a-s-s-e-m-b-l-y_-t-y-p-e_-s-e-q-u-e-n-c-e.md)
-
 # ASSEMBLY_TYPE_SEQUENCE
 
 

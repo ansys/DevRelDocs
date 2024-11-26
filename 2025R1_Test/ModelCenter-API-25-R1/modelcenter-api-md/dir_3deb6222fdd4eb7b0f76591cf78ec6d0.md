@@ -1,4 +1,3 @@
-<a id="dir_3deb6222fdd4eb7b0f76591cf78ec6d0"></a>
 # Directory LIBS
 
 **Location**: `LIBS/`

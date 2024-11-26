@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DoubleVariable](index.md)/[setLowerBound](set-lower-bound.md)
-
 # setLowerBound
 
 

@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataHistory](index.md)/[getCenterLinkJobConnector](get-center-link-job-connector.md)
-
 # getCenterLinkJobConnector
 
 

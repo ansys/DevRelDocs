@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[DataMonitor](index.md)/[getAutoDelete](get-auto-delete.md)
-
 # getAutoDelete
 
 

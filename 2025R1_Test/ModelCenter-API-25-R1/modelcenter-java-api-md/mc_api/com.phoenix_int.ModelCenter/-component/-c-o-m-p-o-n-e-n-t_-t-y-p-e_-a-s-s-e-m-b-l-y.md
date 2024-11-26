@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[Component](index.md)/[COMPONENT_TYPE_ASSEMBLY](-c-o-m-p-o-n-e-n-t_-t-y-p-e_-a-s-s-e-m-b-l-y.md)
-
 # COMPONENT_TYPE_ASSEMBLY
 
 

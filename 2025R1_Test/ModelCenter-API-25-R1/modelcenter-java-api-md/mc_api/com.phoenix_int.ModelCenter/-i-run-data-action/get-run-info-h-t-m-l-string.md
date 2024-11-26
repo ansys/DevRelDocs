@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IRunDataAction](index.md)/[getRunInfoHTMLString](get-run-info-h-t-m-l-string.md)
-
 # getRunInfoHTMLString
 
 

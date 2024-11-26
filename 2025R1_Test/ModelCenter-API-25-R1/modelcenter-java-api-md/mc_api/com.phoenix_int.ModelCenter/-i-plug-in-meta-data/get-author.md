@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IPlugInMetaData](index.md)/[getAuthor](get-author.md)
-
 # getAuthor
 
 

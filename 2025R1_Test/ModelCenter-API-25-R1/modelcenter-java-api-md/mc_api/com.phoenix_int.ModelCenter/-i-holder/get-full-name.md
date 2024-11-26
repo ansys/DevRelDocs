@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IHolder](index.md)/[getFullName](get-full-name.md)
-
 # getFullName
 
 

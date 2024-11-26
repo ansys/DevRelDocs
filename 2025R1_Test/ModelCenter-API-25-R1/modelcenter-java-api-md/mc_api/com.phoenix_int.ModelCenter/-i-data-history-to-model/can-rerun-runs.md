@@ -1,5 +1,3 @@
-//[mc_api](../../../index.md)/[com.phoenix_int.ModelCenter](../index.md)/[IDataHistoryToModel](index.md)/[canRerunRuns](can-rerun-runs.md)
-
 # canRerunRuns
 
 
