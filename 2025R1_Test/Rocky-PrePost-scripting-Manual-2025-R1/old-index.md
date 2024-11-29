@@ -1,6 +1,6 @@
 # Rocky PrePost Scripting Help
 
-* [Introduction](basic-usage.md)
+* [Introduction](index.md)
 * [Getting Started](getting-started.md)
   * [Setting Up a Project](getting-started.md#setting-up-a-project)
   * [Post-Processing Results](getting-started.md#post-processing-results)
