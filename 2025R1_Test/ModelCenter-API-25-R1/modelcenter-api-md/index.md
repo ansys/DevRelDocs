@@ -1,4 +1,6 @@
-# Contents pages
+# ModelCenter COM API
+
+## Contents pages
 
 * [Global contents](global_contents.md)
 * [Interfaces](interface_contents.md)
@@ -9,7 +11,7 @@
 * [Pages](page_contents.md)
 * [Directories](dir_contents.md)
 
-# Index pages
+## Index pages
 
 * [Global index](global_index.md)
 * [Interfaces](interface_index.md)
