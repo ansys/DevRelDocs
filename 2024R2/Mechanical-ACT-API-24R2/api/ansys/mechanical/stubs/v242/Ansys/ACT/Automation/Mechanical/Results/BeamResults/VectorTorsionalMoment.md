@@ -17,7 +17,7 @@ Defines a VectorTorsionalMoment.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#VectorTorsionalMoment.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#VectorTorsionalMoment.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#VectorTorsionalMoment.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a VectorTorsionalMoment.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#VectorTorsionalMoment.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#VectorTorsionalMoment.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#VectorTorsionalMoment.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -96,14 +96,14 @@ Defines a VectorTorsionalMoment.
 | [`Substep`](#VectorTorsionalMoment.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#VectorTorsionalMoment.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#VectorTorsionalMoment.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#VectorTorsionalMoment.SurfaceCoating)                                                                                                                                             | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#VectorTorsionalMoment.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#VectorTorsionalMoment.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#VectorTorsionalMoment.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#VectorTorsionalMoment.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#VectorTorsionalMoment.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#VectorTorsionalMoment.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#VectorTorsionalMoment.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#VectorTorsionalMoment.WaterfallShowTextOnMosaic)                                                                                                                       | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#VectorTorsionalMoment.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -127,7 +127,7 @@ Gets or sets the By.
 
 <a id="VectorTorsionalMoment.CalculateTimeHistory"></a>
 
-### *property* VectorTorsionalMoment.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -135,7 +135,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="VectorTorsionalMoment.Children"></a>
 
-### *property* VectorTorsionalMoment.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -143,7 +143,7 @@ Gets the list of children.
 
 <a id="VectorTorsionalMoment.CombinationNumber"></a>
 
-### *property* VectorTorsionalMoment.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -151,7 +151,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="VectorTorsionalMoment.Comments"></a>
 
-### *property* VectorTorsionalMoment.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -159,7 +159,7 @@ Gets the list of associated comments.
 
 <a id="VectorTorsionalMoment.CoordinateSystem"></a>
 
-### *property* VectorTorsionalMoment.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -169,7 +169,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="VectorTorsionalMoment.CrackFrontNumber"></a>
 
-### *property* VectorTorsionalMoment.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -209,7 +209,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="VectorTorsionalMoment.Figures"></a>
 
-### *property* VectorTorsionalMoment.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -217,7 +217,7 @@ Gets the list of associated figures.
 
 <a id="VectorTorsionalMoment.GlobalIDs"></a>
 
-### *property* VectorTorsionalMoment.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -233,7 +233,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="VectorTorsionalMoment.Identifier"></a>
 
-### *property* VectorTorsionalMoment.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -241,7 +241,7 @@ Gets or sets the Identifier.
 
 <a id="VectorTorsionalMoment.Images"></a>
 
-### *property* VectorTorsionalMoment.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -257,7 +257,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="VectorTorsionalMoment.IsSolved"></a>
 
-### *property* VectorTorsionalMoment.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -273,7 +273,7 @@ Gets or sets the ItemType.
 
 <a id="VectorTorsionalMoment.IterationNumber"></a>
 
-### *property* VectorTorsionalMoment.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -281,7 +281,7 @@ Gets the IterationNumber.
 
 <a id="VectorTorsionalMoment.LoadStep"></a>
 
-### *property* VectorTorsionalMoment.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -289,7 +289,7 @@ Gets the LoadStep.
 
 <a id="VectorTorsionalMoment.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* VectorTorsionalMoment.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -297,7 +297,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="VectorTorsionalMoment.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* VectorTorsionalMoment.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -305,7 +305,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="VectorTorsionalMoment.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* VectorTorsionalMoment.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -313,7 +313,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="VectorTorsionalMoment.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* VectorTorsionalMoment.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -321,7 +321,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="VectorTorsionalMoment.LoadStepNumber"></a>
 
-### *property* VectorTorsionalMoment.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -345,7 +345,7 @@ Gets the Maximum.
 
 <a id="VectorTorsionalMoment.MaximumOccursOn"></a>
 
-### *property* VectorTorsionalMoment.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -377,7 +377,7 @@ Gets the Minimum.
 
 <a id="VectorTorsionalMoment.MinimumOccursOn"></a>
 
-### *property* VectorTorsionalMoment.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -401,7 +401,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="VectorTorsionalMoment.NamedSelections"></a>
 
-### *property* VectorTorsionalMoment.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -425,7 +425,7 @@ Gets the result table.
 
 <a id="VectorTorsionalMoment.Properties"></a>
 
-### *property* VectorTorsionalMoment.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -441,7 +441,7 @@ Gets or sets the ScopingMethod.
 
 <a id="VectorTorsionalMoment.SetNumber"></a>
 
-### *property* VectorTorsionalMoment.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -457,7 +457,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="VectorTorsionalMoment.SolverComponentIDs"></a>
 
-### *property* VectorTorsionalMoment.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -465,7 +465,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="VectorTorsionalMoment.Substep"></a>
 
-### *property* VectorTorsionalMoment.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -473,7 +473,7 @@ Gets the Substep.
 
 <a id="VectorTorsionalMoment.Suppressed"></a>
 
-### *property* VectorTorsionalMoment.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -537,7 +537,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="VectorTorsionalMoment.VisibleProperties"></a>
 
-### *property* VectorTorsionalMoment.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -545,7 +545,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="VectorTorsionalMoment.WaterfallShowTextOnMosaic"></a>
 
-### *property* VectorTorsionalMoment.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorTorsionalMoment.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -597,7 +597,7 @@ Creates a new child Figure.
 
 <a id="VectorTorsionalMoment.AddImage"></a>
 
-### VectorTorsionalMoment.AddImage(filePath: System.String)
+### VectorTorsionalMoment.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -625,7 +625,7 @@ Copies all visible properties from this object to another.
 
 <a id="VectorTorsionalMoment.CreateParameter"></a>
 
-### VectorTorsionalMoment.CreateParameter(propName: System.String)
+### VectorTorsionalMoment.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -673,7 +673,7 @@ Run the EvaluateAllResults action.
 
 <a id="VectorTorsionalMoment.ExportAnimation"></a>
 
-### VectorTorsionalMoment.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### VectorTorsionalMoment.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -681,7 +681,7 @@ Run the ExportAnimation action.
 
 <a id="VectorTorsionalMoment.ExportToTextFile"></a>
 
-### VectorTorsionalMoment.ExportToTextFile(filePath: System.String)
+### VectorTorsionalMoment.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -697,7 +697,7 @@ Run the FetchRemoteResult action.
 
 <a id="VectorTorsionalMoment.GetChildren"></a>
 
-### VectorTorsionalMoment.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### VectorTorsionalMoment.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -705,7 +705,7 @@ Gets the list of children, filtered by type.
 
 <a id="VectorTorsionalMoment.GetParameter"></a>
 
-### VectorTorsionalMoment.GetParameter(propName: System.String)
+### VectorTorsionalMoment.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -737,7 +737,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="VectorTorsionalMoment.PropertyByAPIName"></a>
 
-### VectorTorsionalMoment.PropertyByAPIName(name: System.String)
+### VectorTorsionalMoment.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -748,7 +748,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="VectorTorsionalMoment.PropertyByName"></a>
 
-### VectorTorsionalMoment.PropertyByName(name: System.String)
+### VectorTorsionalMoment.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -756,7 +756,7 @@ Get a property by its unique name.
 
 <a id="VectorTorsionalMoment.RemoveParameter"></a>
 
-### VectorTorsionalMoment.RemoveParameter(propName: System.String)
+### VectorTorsionalMoment.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

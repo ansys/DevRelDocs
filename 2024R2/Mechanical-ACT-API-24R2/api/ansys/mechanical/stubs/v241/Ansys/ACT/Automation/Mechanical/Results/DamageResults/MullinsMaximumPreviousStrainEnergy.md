@@ -122,7 +122,7 @@ Gets the Average.
 
 <a id="MullinsMaximumPreviousStrainEnergy.By"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -130,7 +130,7 @@ Gets or sets the By.
 
 <a id="MullinsMaximumPreviousStrainEnergy.CalculateTimeHistory"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -138,7 +138,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Children"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -146,7 +146,7 @@ Gets the list of children.
 
 <a id="MullinsMaximumPreviousStrainEnergy.CombinationNumber"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -154,7 +154,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Comments"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -172,7 +172,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="MullinsMaximumPreviousStrainEnergy.CrackFrontNumber"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -180,7 +180,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="MullinsMaximumPreviousStrainEnergy.DamageResultType"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.DamageResultType *: [Ansys.Mechanical.DataModel.Enums.DamageResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DamageResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DamageResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.DamageResultType *: [Ansys.Mechanical.DataModel.Enums.DamageResultType](../../../../../Mechanical/DataModel/Enums/DamageResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DamageResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DamageResultType.
 
@@ -188,7 +188,7 @@ Gets the DamageResultType.
 
 <a id="MullinsMaximumPreviousStrainEnergy.DataModelObjectCategory"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -196,7 +196,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MullinsMaximumPreviousStrainEnergy.DisplayOption"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -212,7 +212,7 @@ Gets or sets the DisplayTime.
 
 <a id="MullinsMaximumPreviousStrainEnergy.DpfEvaluation"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -220,7 +220,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Figures"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -228,7 +228,7 @@ Gets the list of associated figures.
 
 <a id="MullinsMaximumPreviousStrainEnergy.GlobalIDs"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -236,7 +236,7 @@ Gets or sets the GlobalIDs.
 
 <a id="MullinsMaximumPreviousStrainEnergy.GraphControlsXAxis"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -244,7 +244,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Identifier"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -252,7 +252,7 @@ Gets or sets the Identifier.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Images"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -268,7 +268,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MullinsMaximumPreviousStrainEnergy.IsSolved"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -276,7 +276,7 @@ Gets the IsSolved.
 
 <a id="MullinsMaximumPreviousStrainEnergy.ItemType"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -284,7 +284,7 @@ Gets or sets the ItemType.
 
 <a id="MullinsMaximumPreviousStrainEnergy.IterationNumber"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -292,7 +292,7 @@ Gets the IterationNumber.
 
 <a id="MullinsMaximumPreviousStrainEnergy.LoadStep"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -300,7 +300,7 @@ Gets the LoadStep.
 
 <a id="MullinsMaximumPreviousStrainEnergy.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -308,7 +308,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="MullinsMaximumPreviousStrainEnergy.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -316,7 +316,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="MullinsMaximumPreviousStrainEnergy.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -324,7 +324,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="MullinsMaximumPreviousStrainEnergy.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -332,7 +332,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="MullinsMaximumPreviousStrainEnergy.LoadStepNumber"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -356,7 +356,7 @@ Gets the Maximum.
 
 <a id="MullinsMaximumPreviousStrainEnergy.MaximumOccursOn"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -388,7 +388,7 @@ Gets the Minimum.
 
 <a id="MullinsMaximumPreviousStrainEnergy.MinimumOccursOn"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -412,7 +412,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Mode"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -420,7 +420,7 @@ Gets or sets the Mode.
 
 <a id="MullinsMaximumPreviousStrainEnergy.NamedSelections"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -428,7 +428,7 @@ Gets or sets the NamedSelections.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Path"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -436,7 +436,7 @@ Path property.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Plies"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -444,7 +444,7 @@ Plies property.
 
 <a id="MullinsMaximumPreviousStrainEnergy.PlotData"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -452,7 +452,7 @@ Gets the result table.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Ply"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -460,7 +460,7 @@ Gets or sets the Ply selection.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Properties"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -468,7 +468,7 @@ Gets the list of properties for this object.
 
 <a id="MullinsMaximumPreviousStrainEnergy.ScopingMethod"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -476,7 +476,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MullinsMaximumPreviousStrainEnergy.SetNumber"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -484,7 +484,7 @@ Gets or sets the Set Number.
 
 <a id="MullinsMaximumPreviousStrainEnergy.SolutionCombinationDriver"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -492,7 +492,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="MullinsMaximumPreviousStrainEnergy.SolverComponentIDs"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -500,7 +500,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Substep"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -508,7 +508,7 @@ Gets the Substep.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Suppressed"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -516,7 +516,7 @@ Gets or sets the Suppressed.
 
 <a id="MullinsMaximumPreviousStrainEnergy.Surface"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -564,7 +564,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="MullinsMaximumPreviousStrainEnergy.VisibleProperties"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -572,7 +572,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="MullinsMaximumPreviousStrainEnergy.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* MullinsMaximumPreviousStrainEnergy.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsMaximumPreviousStrainEnergy.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -624,7 +624,7 @@ Creates a new child Figure.
 
 <a id="MullinsMaximumPreviousStrainEnergy.AddImage"></a>
 
-### MullinsMaximumPreviousStrainEnergy.AddImage(filePath: System.String)
+### MullinsMaximumPreviousStrainEnergy.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -652,7 +652,7 @@ Copies all visible properties from this object to another.
 
 <a id="MullinsMaximumPreviousStrainEnergy.CreateParameter"></a>
 
-### MullinsMaximumPreviousStrainEnergy.CreateParameter(propName: System.String)
+### MullinsMaximumPreviousStrainEnergy.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -700,7 +700,7 @@ Run the EvaluateAllResults action.
 
 <a id="MullinsMaximumPreviousStrainEnergy.ExportAnimation"></a>
 
-### MullinsMaximumPreviousStrainEnergy.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### MullinsMaximumPreviousStrainEnergy.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -708,7 +708,7 @@ Run the ExportAnimation action.
 
 <a id="MullinsMaximumPreviousStrainEnergy.ExportToTextFile"></a>
 
-### MullinsMaximumPreviousStrainEnergy.ExportToTextFile(filePath: System.String)
+### MullinsMaximumPreviousStrainEnergy.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -724,7 +724,7 @@ Run the FetchRemoteResult action.
 
 <a id="MullinsMaximumPreviousStrainEnergy.GetChildren"></a>
 
-### MullinsMaximumPreviousStrainEnergy.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MullinsMaximumPreviousStrainEnergy.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -732,7 +732,7 @@ Gets the list of children, filtered by type.
 
 <a id="MullinsMaximumPreviousStrainEnergy.GetParameter"></a>
 
-### MullinsMaximumPreviousStrainEnergy.GetParameter(propName: System.String)
+### MullinsMaximumPreviousStrainEnergy.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -764,7 +764,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="MullinsMaximumPreviousStrainEnergy.PropertyByAPIName"></a>
 
-### MullinsMaximumPreviousStrainEnergy.PropertyByAPIName(name: System.String)
+### MullinsMaximumPreviousStrainEnergy.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -775,7 +775,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MullinsMaximumPreviousStrainEnergy.PropertyByName"></a>
 
-### MullinsMaximumPreviousStrainEnergy.PropertyByName(name: System.String)
+### MullinsMaximumPreviousStrainEnergy.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -783,7 +783,7 @@ Get a property by its unique name.
 
 <a id="MullinsMaximumPreviousStrainEnergy.RemoveParameter"></a>
 
-### MullinsMaximumPreviousStrainEnergy.RemoveParameter(propName: System.String)
+### MullinsMaximumPreviousStrainEnergy.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

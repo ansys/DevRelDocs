@@ -27,7 +27,7 @@ Defines the mechanical selection information.
 
 <a id="IMechanicalSelectionInfo.ElementFaceIndices"></a>
 
-### *property* IMechanicalSelectionInfo.ElementFaceIndices *: System.Collections.Generic.IList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalSelectionInfo.ElementFaceIndices *: List[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list indices needed to define the face of an element.
 
@@ -35,7 +35,7 @@ Gets the list indices needed to define the face of an element.
 
 <a id="IMechanicalSelectionInfo.Entities"></a>
 
-### *property* IMechanicalSelectionInfo.Entities *: System.Collections.Generic.IList[Ansys.ACT.Interfaces.Geometry.IGeoEntity] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalSelectionInfo.Entities *: List[Ansys.ACT.Interfaces.Geometry.IGeoEntity] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of selected geometry entities.
 

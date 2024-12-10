@@ -17,7 +17,7 @@ Specifies the JointFormulation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------ |
 | [`Bushing`](#JointFormulation.Bushing) |
 | [`MPC`](#JointFormulation.MPC) |
 

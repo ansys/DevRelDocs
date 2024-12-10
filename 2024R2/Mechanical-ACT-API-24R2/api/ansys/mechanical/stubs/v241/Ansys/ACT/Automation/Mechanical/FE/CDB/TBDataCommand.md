@@ -17,7 +17,7 @@ Represents a TBDATA command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
+|-----------------------------------------------------|----------------------------------------------|
 | [`DataValueCount`](#TBDataCommand.DataValueCount)   | Gets the number of data values.              |
 | [`DataValues`](#TBDataCommand.DataValues)           | Gets the data values.                        |
 | [`Index`](#TBDataCommand.Index)                     | Gets the command index.                      |
@@ -34,7 +34,7 @@ Represents a TBDATA command.
 
 <a id="TBDataCommand.DataValueCount"></a>
 
-### *property* TBDataCommand.DataValueCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataCommand.DataValueCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of data values.
 
@@ -42,7 +42,7 @@ Gets the number of data values.
 
 <a id="TBDataCommand.DataValues"></a>
 
-### *property* TBDataCommand.DataValues *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.TBDataValues](TBDataValues.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBDataValues)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataCommand.DataValues *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.TBDataValues](TBDataValues.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBDataValues)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the data values.
 
@@ -50,7 +50,7 @@ Gets the data values.
 
 <a id="TBDataCommand.Index"></a>
 
-### *property* TBDataCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -58,7 +58,7 @@ Gets the command index.
 
 <a id="TBDataCommand.Lab"></a>
 
-### *property* TBDataCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataCommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
 
@@ -66,7 +66,7 @@ Gets the label.
 
 <a id="TBDataCommand.Mat"></a>
 
-### *property* TBDataCommand.Mat *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataCommand.Mat *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
 
@@ -74,7 +74,7 @@ Gets the material number.
 
 <a id="TBDataCommand.Name"></a>
 
-### *property* TBDataCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -82,7 +82,7 @@ Gets the command name.
 
 <a id="TBDataCommand.Npts"></a>
 
-### *property* TBDataCommand.Npts *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataCommand.Npts *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of points, if provided.
 
@@ -90,7 +90,7 @@ Gets the number of points, if provided.
 
 <a id="TBDataCommand.Ntemp"></a>
 
-### *property* TBDataCommand.Ntemp *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataCommand.Ntemp *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of temperature, if provided.
 
@@ -98,7 +98,7 @@ Gets the number of temperature, if provided.
 
 <a id="TBDataCommand.Tbopt"></a>
 
-### *property* TBDataCommand.Tbopt *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBDataCommand.Tbopt *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the option.
 

@@ -127,7 +127,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="BoltPretensionProbe.Children"></a>
 
-### *property* BoltPretensionProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -135,7 +135,7 @@ Gets the list of children.
 
 <a id="BoltPretensionProbe.Comments"></a>
 
-### *property* BoltPretensionProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -159,7 +159,7 @@ Gets or sets the CoordinateSystemSelection.
 
 <a id="BoltPretensionProbe.DataModelObjectCategory"></a>
 
-### *property* BoltPretensionProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -175,7 +175,7 @@ Gets or sets the DisplayTime.
 
 <a id="BoltPretensionProbe.DpfEvaluation"></a>
 
-### *property* BoltPretensionProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -183,7 +183,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="BoltPretensionProbe.Figures"></a>
 
-### *property* BoltPretensionProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -199,7 +199,7 @@ Gets or sets the GeometryLocation.
 
 <a id="BoltPretensionProbe.Images"></a>
 
-### *property* BoltPretensionProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -215,7 +215,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="BoltPretensionProbe.IsSolved"></a>
 
-### *property* BoltPretensionProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -223,7 +223,7 @@ Gets the IsSolved.
 
 <a id="BoltPretensionProbe.IterationNumber"></a>
 
-### *property* BoltPretensionProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -231,7 +231,7 @@ Gets the IterationNumber.
 
 <a id="BoltPretensionProbe.LoadStep"></a>
 
-### *property* BoltPretensionProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -239,7 +239,7 @@ Gets the LoadStep.
 
 <a id="BoltPretensionProbe.LoadStepNumber"></a>
 
-### *property* BoltPretensionProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -247,7 +247,7 @@ Gets or sets the LoadStepNumber.
 
 <a id="BoltPretensionProbe.LocationMethod"></a>
 
-### *property* BoltPretensionProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
@@ -367,7 +367,7 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <a id="BoltPretensionProbe.Properties"></a>
 
-### *property* BoltPretensionProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -375,7 +375,7 @@ Gets the list of properties for this object.
 
 <a id="BoltPretensionProbe.RemotePointSelection"></a>
 
-### *property* BoltPretensionProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -383,7 +383,7 @@ Gets or sets the RemotePointSelection.
 
 <a id="BoltPretensionProbe.ResultSelection"></a>
 
-### *property* BoltPretensionProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultSelection.
 
@@ -391,7 +391,7 @@ Gets or sets the ResultSelection.
 
 <a id="BoltPretensionProbe.ScaleFactor"></a>
 
-### *property* BoltPretensionProbe.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactor.
 
@@ -399,7 +399,7 @@ Gets or sets the ScaleFactor.
 
 <a id="BoltPretensionProbe.ScaleFactorValue"></a>
 
-### *property* BoltPretensionProbe.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -407,7 +407,7 @@ Gets or sets the ScaleFactorValue.
 
 <a id="BoltPretensionProbe.SpatialResolution"></a>
 
-### *property* BoltPretensionProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -423,7 +423,7 @@ Gets or sets the SpringSelection.
 
 <a id="BoltPretensionProbe.Substep"></a>
 
-### *property* BoltPretensionProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -431,7 +431,7 @@ Gets the Substep.
 
 <a id="BoltPretensionProbe.Summation"></a>
 
-### *property* BoltPretensionProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Summation.
 
@@ -439,7 +439,7 @@ Gets or sets the Summation.
 
 <a id="BoltPretensionProbe.Suppressed"></a>
 
-### *property* BoltPretensionProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -447,7 +447,7 @@ Gets or sets the Suppressed.
 
 <a id="BoltPretensionProbe.SurfaceSelection"></a>
 
-### *property* BoltPretensionProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -471,7 +471,7 @@ Gets the Total.
 
 <a id="BoltPretensionProbe.Type"></a>
 
-### *property* BoltPretensionProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -479,7 +479,7 @@ Gets the Type.
 
 <a id="BoltPretensionProbe.VisibleProperties"></a>
 
-### *property* BoltPretensionProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretensionProbe.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -547,7 +547,7 @@ Creates a new child Figure.
 
 <a id="BoltPretensionProbe.AddImage"></a>
 
-### BoltPretensionProbe.AddImage(filePath: System.String)
+### BoltPretensionProbe.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -575,7 +575,7 @@ Copies all visible properties from this object to another.
 
 <a id="BoltPretensionProbe.CreateParameter"></a>
 
-### BoltPretensionProbe.CreateParameter(propName: System.String)
+### BoltPretensionProbe.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -615,7 +615,7 @@ Run the EvaluateAllResults action.
 
 <a id="BoltPretensionProbe.ExportAnimation"></a>
 
-### BoltPretensionProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### BoltPretensionProbe.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -623,7 +623,7 @@ Run the ExportAnimation action.
 
 <a id="BoltPretensionProbe.GetChildren"></a>
 
-### BoltPretensionProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### BoltPretensionProbe.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -631,7 +631,7 @@ Gets the list of children, filtered by type.
 
 <a id="BoltPretensionProbe.GetParameter"></a>
 
-### BoltPretensionProbe.GetParameter(propName: System.String)
+### BoltPretensionProbe.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -655,7 +655,7 @@ Run the GroupSimilarObjects action.
 
 <a id="BoltPretensionProbe.PropertyByAPIName"></a>
 
-### BoltPretensionProbe.PropertyByAPIName(name: System.String)
+### BoltPretensionProbe.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -666,7 +666,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="BoltPretensionProbe.PropertyByName"></a>
 
-### BoltPretensionProbe.PropertyByName(name: System.String)
+### BoltPretensionProbe.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -674,7 +674,7 @@ Get a property by its unique name.
 
 <a id="BoltPretensionProbe.RemoveParameter"></a>
 
-### BoltPretensionProbe.RemoveParameter(propName: System.String)
+### BoltPretensionProbe.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

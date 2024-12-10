@@ -17,7 +17,7 @@ Specifies the SpatialRadiationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------- |
 | [`Full`](#SpatialRadiationType.Full) |
 | [`Partial`](#SpatialRadiationType.Partial) |
 

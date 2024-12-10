@@ -17,7 +17,7 @@ Defines a DeformationFrequencyResponse.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DeformationFrequencyResponse.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#DeformationFrequencyResponse.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#DeformationFrequencyResponse.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a DeformationFrequencyResponse.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [`AccelerationType`](#DeformationFrequencyResponse.AccelerationType)                       | Gets or sets the AccelerationType.                                                               |
 | [`BoundaryCondition`](#DeformationFrequencyResponse.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                                                              |
 | [`ChartDimensions`](#DeformationFrequencyResponse.ChartDimensions)                         | Gets or sets the Chart Dimensions                                                                |
@@ -106,7 +106,7 @@ Gets or sets the AccelerationType.
 
 <a id="DeformationFrequencyResponse.BoundaryCondition"></a>
 
-### *property* DeformationFrequencyResponse.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -130,7 +130,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="DeformationFrequencyResponse.Children"></a>
 
-### *property* DeformationFrequencyResponse.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -138,7 +138,7 @@ Gets the list of children.
 
 <a id="DeformationFrequencyResponse.Comments"></a>
 
-### *property* DeformationFrequencyResponse.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -146,7 +146,7 @@ Gets the list of associated comments.
 
 <a id="DeformationFrequencyResponse.ContactRegion"></a>
 
-### *property* DeformationFrequencyResponse.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
@@ -154,7 +154,7 @@ Gets or sets the ContactRegion.
 
 <a id="DeformationFrequencyResponse.CoordinateSystem"></a>
 
-### *property* DeformationFrequencyResponse.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem. Accepts/Returns None if it is the Solution Coordinate System.
 
@@ -170,7 +170,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="DeformationFrequencyResponse.CutFrequency"></a>
 
-### *property* DeformationFrequencyResponse.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -210,7 +210,7 @@ Gets or sets the Duration.
 
 <a id="DeformationFrequencyResponse.EnhancedTracking"></a>
 
-### *property* DeformationFrequencyResponse.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -250,7 +250,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="DeformationFrequencyResponse.GeometrySelectionString"></a>
 
-### *property* DeformationFrequencyResponse.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -258,7 +258,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="DeformationFrequencyResponse.Images"></a>
 
-### *property* DeformationFrequencyResponse.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -282,7 +282,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DeformationFrequencyResponse.IsSolved"></a>
 
-### *property* DeformationFrequencyResponse.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -290,7 +290,7 @@ Gets the IsSolved.
 
 <a id="DeformationFrequencyResponse.LoadStepNumber"></a>
 
-### *property* DeformationFrequencyResponse.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -362,7 +362,7 @@ Gets the PhaseAngle.
 
 <a id="DeformationFrequencyResponse.Properties"></a>
 
-### *property* DeformationFrequencyResponse.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -410,7 +410,7 @@ Gets the ResultChartType.
 
 <a id="DeformationFrequencyResponse.SectorNumber"></a>
 
-### *property* DeformationFrequencyResponse.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -434,7 +434,7 @@ Gets or sets the SpatialResolution.
 
 <a id="DeformationFrequencyResponse.Spring"></a>
 
-### *property* DeformationFrequencyResponse.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -450,7 +450,7 @@ Gets or sets the StressStrainType.
 
 <a id="DeformationFrequencyResponse.Suppressed"></a>
 
-### *property* DeformationFrequencyResponse.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -466,7 +466,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="DeformationFrequencyResponse.UseParentFrequencyRange"></a>
 
-### *property* DeformationFrequencyResponse.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -482,7 +482,7 @@ Gets or sets the VelocityType.
 
 <a id="DeformationFrequencyResponse.VisibleProperties"></a>
 
-### *property* DeformationFrequencyResponse.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationFrequencyResponse.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -518,7 +518,7 @@ Creates a new child Comment.
 
 <a id="DeformationFrequencyResponse.AddImage"></a>
 
-### DeformationFrequencyResponse.AddImage(filePath: System.String)
+### DeformationFrequencyResponse.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -546,7 +546,7 @@ Copies all visible properties from this object to another.
 
 <a id="DeformationFrequencyResponse.CreateParameter"></a>
 
-### DeformationFrequencyResponse.CreateParameter(propName: System.String)
+### DeformationFrequencyResponse.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -578,7 +578,7 @@ Run the EvaluateAllResults action.
 
 <a id="DeformationFrequencyResponse.ExportAnimation"></a>
 
-### DeformationFrequencyResponse.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DeformationFrequencyResponse.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -586,7 +586,7 @@ Run the ExportAnimation action.
 
 <a id="DeformationFrequencyResponse.GetChildren"></a>
 
-### DeformationFrequencyResponse.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DeformationFrequencyResponse.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -594,7 +594,7 @@ Gets the list of children, filtered by type.
 
 <a id="DeformationFrequencyResponse.GetParameter"></a>
 
-### DeformationFrequencyResponse.GetParameter(propName: System.String)
+### DeformationFrequencyResponse.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -618,7 +618,7 @@ Run the GroupSimilarObjects action.
 
 <a id="DeformationFrequencyResponse.PropertyByAPIName"></a>
 
-### DeformationFrequencyResponse.PropertyByAPIName(name: System.String)
+### DeformationFrequencyResponse.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -629,7 +629,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DeformationFrequencyResponse.PropertyByName"></a>
 
-### DeformationFrequencyResponse.PropertyByName(name: System.String)
+### DeformationFrequencyResponse.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -637,7 +637,7 @@ Get a property by its unique name.
 
 <a id="DeformationFrequencyResponse.RemoveParameter"></a>
 
-### DeformationFrequencyResponse.RemoveParameter(propName: System.String)
+### DeformationFrequencyResponse.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

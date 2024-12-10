@@ -17,7 +17,7 @@ Specifies the ShearMomentDiagramOrientationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |
 | [`BendingMoment`](#ShearMomentDiagramOrientationType.BendingMoment) |
 | [`Displacement`](#ShearMomentDiagramOrientationType.Displacement) |
 | [`ShearForce`](#ShearMomentDiagramOrientationType.ShearForce) |

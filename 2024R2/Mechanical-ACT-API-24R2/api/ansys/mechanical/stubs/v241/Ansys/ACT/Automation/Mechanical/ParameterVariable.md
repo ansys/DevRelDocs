@@ -52,7 +52,7 @@ Defines a ParameterVariable.
 
 <a id="ParameterVariable.Children"></a>
 
-### *property* ParameterVariable.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ParameterVariable.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -60,7 +60,7 @@ Gets the list of children.
 
 <a id="ParameterVariable.Comments"></a>
 
-### *property* ParameterVariable.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ParameterVariable.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -68,7 +68,7 @@ Gets the list of associated comments.
 
 <a id="ParameterVariable.DataModelObjectCategory"></a>
 
-### *property* ParameterVariable.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ParameterVariable.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -76,7 +76,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ParameterVariable.Figures"></a>
 
-### *property* ParameterVariable.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ParameterVariable.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -84,7 +84,7 @@ Gets the list of associated figures.
 
 <a id="ParameterVariable.Images"></a>
 
-### *property* ParameterVariable.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ParameterVariable.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -100,7 +100,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ParameterVariable.Properties"></a>
 
-### *property* ParameterVariable.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ParameterVariable.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -108,7 +108,7 @@ Gets the list of properties for this object.
 
 <a id="ParameterVariable.VisibleProperties"></a>
 
-### *property* ParameterVariable.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ParameterVariable.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -144,7 +144,7 @@ Creates a new child Figure.
 
 <a id="ParameterVariable.AddImage"></a>
 
-### ParameterVariable.AddImage(filePath: System.String)
+### ParameterVariable.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -164,7 +164,7 @@ Copies all visible properties from this object to another.
 
 <a id="ParameterVariable.CreateParameter"></a>
 
-### ParameterVariable.CreateParameter(propName: System.String)
+### ParameterVariable.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -180,7 +180,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ParameterVariable.GetChildren"></a>
 
-### ParameterVariable.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ParameterVariable.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -188,7 +188,7 @@ Gets the list of children, filtered by type.
 
 <a id="ParameterVariable.GetParameter"></a>
 
-### ParameterVariable.GetParameter(propName: System.String)
+### ParameterVariable.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -212,7 +212,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ParameterVariable.PropertyByAPIName"></a>
 
-### ParameterVariable.PropertyByAPIName(name: System.String)
+### ParameterVariable.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -223,7 +223,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ParameterVariable.PropertyByName"></a>
 
-### ParameterVariable.PropertyByName(name: System.String)
+### ParameterVariable.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -231,7 +231,7 @@ Get a property by its unique name.
 
 <a id="ParameterVariable.RemoveParameter"></a>
 
-### ParameterVariable.RemoveParameter(propName: System.String)
+### ParameterVariable.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

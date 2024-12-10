@@ -17,7 +17,7 @@ Specifies the VectorReductionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------- |
 | [`Directional`](#VectorReductionType.Directional) |
 | [`FaceNormal`](#VectorReductionType.FaceNormal) |
 | [`Magnitude`](#VectorReductionType.Magnitude) |

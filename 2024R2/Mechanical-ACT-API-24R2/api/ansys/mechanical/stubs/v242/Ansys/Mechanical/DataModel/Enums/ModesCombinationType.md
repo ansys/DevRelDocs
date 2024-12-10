@@ -17,7 +17,7 @@ Specifies the ModesCombinationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------- |
 | [`CQC`](#ModesCombinationType.CQC) |
 | [`NONE`](#ModesCombinationType.NONE) |
 | [`ROSE`](#ModesCombinationType.ROSE) |

@@ -26,7 +26,7 @@ Collection of keyword arguments.
 
 <a id="AbaqusKeywordArgumentColl.Items"></a>
 
-### *property* AbaqusKeywordArgumentColl.Items *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgument](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/ABAQUS/AbaqusKeywordArgument.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgument)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AbaqusKeywordArgumentColl.Items *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgument](AbaqusKeywordArgument.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgument)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of arguments.
 

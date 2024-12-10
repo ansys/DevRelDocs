@@ -17,7 +17,7 @@ Specifies the Chart Result Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------------------- |
 | [`ContactCNOS`](#ChartResultType.ContactCNOS) |
 | [`ContactElasticSlip`](#ChartResultType.ContactElasticSlip) |
 | [`ContactMaxDampingPressure`](#ChartResultType.ContactMaxDampingPressure) |

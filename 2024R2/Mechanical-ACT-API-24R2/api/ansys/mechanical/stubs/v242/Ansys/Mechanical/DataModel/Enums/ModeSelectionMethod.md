@@ -17,7 +17,7 @@ Specifies the ModeSelectionMethod.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`ModalEffectiveMass`](#ModeSelectionMethod.ModalEffectiveMass) |
 | [`None_`](#ModeSelectionMethod.None_) |
 

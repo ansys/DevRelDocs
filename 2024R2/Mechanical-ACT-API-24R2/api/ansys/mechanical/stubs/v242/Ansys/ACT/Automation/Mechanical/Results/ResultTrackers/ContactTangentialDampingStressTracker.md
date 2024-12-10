@@ -17,7 +17,7 @@ Defines a ContactTangentialDampingStressTracker.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ContactTangentialDampingStressTracker.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ContactTangentialDampingStressTracker.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#ContactTangentialDampingStressTracker.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a ContactTangentialDampingStressTracker.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#ContactTangentialDampingStressTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#ContactTangentialDampingStressTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
 | [`ChartDimensions`](#ContactTangentialDampingStressTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
@@ -105,7 +105,7 @@ Gets or sets the AccelerationType.
 
 <a id="ContactTangentialDampingStressTracker.BoundaryCondition"></a>
 
-### *property* ContactTangentialDampingStressTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -129,7 +129,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="ContactTangentialDampingStressTracker.Children"></a>
 
-### *property* ContactTangentialDampingStressTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -137,7 +137,7 @@ Gets the list of children.
 
 <a id="ContactTangentialDampingStressTracker.Comments"></a>
 
-### *property* ContactTangentialDampingStressTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -145,7 +145,7 @@ Gets the list of associated comments.
 
 <a id="ContactTangentialDampingStressTracker.ContactRegion"></a>
 
-### *property* ContactTangentialDampingStressTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
@@ -153,7 +153,7 @@ Gets or sets the ContactRegion.
 
 <a id="ContactTangentialDampingStressTracker.CoordinateSystem"></a>
 
-### *property* ContactTangentialDampingStressTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -169,7 +169,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="ContactTangentialDampingStressTracker.CutFrequency"></a>
 
-### *property* ContactTangentialDampingStressTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -209,7 +209,7 @@ Gets or sets the Duration.
 
 <a id="ContactTangentialDampingStressTracker.EnhancedTracking"></a>
 
-### *property* ContactTangentialDampingStressTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -249,7 +249,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="ContactTangentialDampingStressTracker.GeometrySelectionString"></a>
 
-### *property* ContactTangentialDampingStressTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -257,7 +257,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="ContactTangentialDampingStressTracker.Images"></a>
 
-### *property* ContactTangentialDampingStressTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -281,7 +281,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactTangentialDampingStressTracker.IsSolved"></a>
 
-### *property* ContactTangentialDampingStressTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -289,7 +289,7 @@ Gets the IsSolved.
 
 <a id="ContactTangentialDampingStressTracker.LoadStepNumber"></a>
 
-### *property* ContactTangentialDampingStressTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -361,7 +361,7 @@ Gets the PhaseAngle.
 
 <a id="ContactTangentialDampingStressTracker.Properties"></a>
 
-### *property* ContactTangentialDampingStressTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -401,7 +401,7 @@ Gets the ResultChartType.
 
 <a id="ContactTangentialDampingStressTracker.SectorNumber"></a>
 
-### *property* ContactTangentialDampingStressTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -425,7 +425,7 @@ Gets or sets the SpatialResolution.
 
 <a id="ContactTangentialDampingStressTracker.Spring"></a>
 
-### *property* ContactTangentialDampingStressTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -441,7 +441,7 @@ Gets or sets the StressStrainType.
 
 <a id="ContactTangentialDampingStressTracker.Suppressed"></a>
 
-### *property* ContactTangentialDampingStressTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -457,7 +457,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="ContactTangentialDampingStressTracker.UseParentFrequencyRange"></a>
 
-### *property* ContactTangentialDampingStressTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -473,7 +473,7 @@ Gets or sets the VelocityType.
 
 <a id="ContactTangentialDampingStressTracker.VisibleProperties"></a>
 
-### *property* ContactTangentialDampingStressTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTangentialDampingStressTracker.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -509,7 +509,7 @@ Creates a new child Comment.
 
 <a id="ContactTangentialDampingStressTracker.AddImage"></a>
 
-### ContactTangentialDampingStressTracker.AddImage(filePath: System.String)
+### ContactTangentialDampingStressTracker.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -537,7 +537,7 @@ Copies all visible properties from this object to another.
 
 <a id="ContactTangentialDampingStressTracker.CreateParameter"></a>
 
-### ContactTangentialDampingStressTracker.CreateParameter(propName: System.String)
+### ContactTangentialDampingStressTracker.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -569,7 +569,7 @@ Run the EvaluateAllResults action.
 
 <a id="ContactTangentialDampingStressTracker.ExportAnimation"></a>
 
-### ContactTangentialDampingStressTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ContactTangentialDampingStressTracker.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -577,7 +577,7 @@ Run the ExportAnimation action.
 
 <a id="ContactTangentialDampingStressTracker.GetChildren"></a>
 
-### ContactTangentialDampingStressTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ContactTangentialDampingStressTracker.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -585,7 +585,7 @@ Gets the list of children, filtered by type.
 
 <a id="ContactTangentialDampingStressTracker.GetParameter"></a>
 
-### ContactTangentialDampingStressTracker.GetParameter(propName: System.String)
+### ContactTangentialDampingStressTracker.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -609,7 +609,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactTangentialDampingStressTracker.PropertyByAPIName"></a>
 
-### ContactTangentialDampingStressTracker.PropertyByAPIName(name: System.String)
+### ContactTangentialDampingStressTracker.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -620,7 +620,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactTangentialDampingStressTracker.PropertyByName"></a>
 
-### ContactTangentialDampingStressTracker.PropertyByName(name: System.String)
+### ContactTangentialDampingStressTracker.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -628,7 +628,7 @@ Get a property by its unique name.
 
 <a id="ContactTangentialDampingStressTracker.RemoveParameter"></a>
 
-### ContactTangentialDampingStressTracker.RemoveParameter(propName: System.String)
+### ContactTangentialDampingStressTracker.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

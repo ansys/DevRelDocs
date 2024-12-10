@@ -101,7 +101,7 @@ Defines a FractureJINTProbe.
 
 <a id="FractureJINTProbe.ActiveContour"></a>
 
-### *property* FractureJINTProbe.ActiveContour *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.ActiveContour *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActiveContour.
 
@@ -125,7 +125,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="FractureJINTProbe.Children"></a>
 
-### *property* FractureJINTProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -133,7 +133,7 @@ Gets the list of children.
 
 <a id="FractureJINTProbe.Comments"></a>
 
-### *property* FractureJINTProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -157,7 +157,7 @@ Gets or sets the CoordinateSystemSelection.
 
 <a id="FractureJINTProbe.CrackLengthPercentage"></a>
 
-### *property* FractureJINTProbe.CrackLengthPercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.CrackLengthPercentage *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackLengthPercentage.
 
@@ -165,7 +165,7 @@ Gets or sets the CrackLengthPercentage.
 
 <a id="FractureJINTProbe.DataModelObjectCategory"></a>
 
-### *property* FractureJINTProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -181,7 +181,7 @@ Gets or sets the DisplayTime.
 
 <a id="FractureJINTProbe.DpfEvaluation"></a>
 
-### *property* FractureJINTProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -189,7 +189,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="FractureJINTProbe.Figures"></a>
 
-### *property* FractureJINTProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -205,7 +205,7 @@ Gets or sets the GeometryLocation.
 
 <a id="FractureJINTProbe.Images"></a>
 
-### *property* FractureJINTProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -221,7 +221,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FractureJINTProbe.IsSolved"></a>
 
-### *property* FractureJINTProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -229,7 +229,7 @@ Gets the IsSolved.
 
 <a id="FractureJINTProbe.IterationNumber"></a>
 
-### *property* FractureJINTProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -237,7 +237,7 @@ Gets the IterationNumber.
 
 <a id="FractureJINTProbe.LoadStep"></a>
 
-### *property* FractureJINTProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -245,7 +245,7 @@ Gets the LoadStep.
 
 <a id="FractureJINTProbe.LoadStepNumber"></a>
 
-### *property* FractureJINTProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -253,7 +253,7 @@ Gets or sets the LoadStepNumber.
 
 <a id="FractureJINTProbe.LocationMethod"></a>
 
-### *property* FractureJINTProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
@@ -357,7 +357,7 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <a id="FractureJINTProbe.Properties"></a>
 
-### *property* FractureJINTProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -365,7 +365,7 @@ Gets the list of properties for this object.
 
 <a id="FractureJINTProbe.RemotePointSelection"></a>
 
-### *property* FractureJINTProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -381,7 +381,7 @@ Gets the ResultProbeValue.
 
 <a id="FractureJINTProbe.ResultSelection"></a>
 
-### *property* FractureJINTProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultSelection.
 
@@ -389,7 +389,7 @@ Gets or sets the ResultSelection.
 
 <a id="FractureJINTProbe.SolverID"></a>
 
-### *property* FractureJINTProbe.SolverID *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.SolverID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverID.
 
@@ -397,7 +397,7 @@ Gets or sets the SolverID.
 
 <a id="FractureJINTProbe.SpatialResolution"></a>
 
-### *property* FractureJINTProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -413,7 +413,7 @@ Gets or sets the SpringSelection.
 
 <a id="FractureJINTProbe.Substep"></a>
 
-### *property* FractureJINTProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -421,7 +421,7 @@ Gets the Substep.
 
 <a id="FractureJINTProbe.Summation"></a>
 
-### *property* FractureJINTProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Summation.
 
@@ -429,7 +429,7 @@ Gets or sets the Summation.
 
 <a id="FractureJINTProbe.Suppressed"></a>
 
-### *property* FractureJINTProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -437,7 +437,7 @@ Gets or sets the Suppressed.
 
 <a id="FractureJINTProbe.SurfaceSelection"></a>
 
-### *property* FractureJINTProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -461,7 +461,7 @@ Gets the Total.
 
 <a id="FractureJINTProbe.Type"></a>
 
-### *property* FractureJINTProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -469,7 +469,7 @@ Gets the Type.
 
 <a id="FractureJINTProbe.VisibleProperties"></a>
 
-### *property* FractureJINTProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureJINTProbe.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -529,7 +529,7 @@ Creates a new child Figure.
 
 <a id="FractureJINTProbe.AddImage"></a>
 
-### FractureJINTProbe.AddImage(filePath: System.String)
+### FractureJINTProbe.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -557,7 +557,7 @@ Copies all visible properties from this object to another.
 
 <a id="FractureJINTProbe.CreateParameter"></a>
 
-### FractureJINTProbe.CreateParameter(propName: System.String)
+### FractureJINTProbe.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -597,7 +597,7 @@ Run the EvaluateAllResults action.
 
 <a id="FractureJINTProbe.ExportAnimation"></a>
 
-### FractureJINTProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FractureJINTProbe.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -605,7 +605,7 @@ Run the ExportAnimation action.
 
 <a id="FractureJINTProbe.GetChildren"></a>
 
-### FractureJINTProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FractureJINTProbe.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -613,7 +613,7 @@ Gets the list of children, filtered by type.
 
 <a id="FractureJINTProbe.GetParameter"></a>
 
-### FractureJINTProbe.GetParameter(propName: System.String)
+### FractureJINTProbe.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -637,7 +637,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FractureJINTProbe.PropertyByAPIName"></a>
 
-### FractureJINTProbe.PropertyByAPIName(name: System.String)
+### FractureJINTProbe.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -648,7 +648,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FractureJINTProbe.PropertyByName"></a>
 
-### FractureJINTProbe.PropertyByName(name: System.String)
+### FractureJINTProbe.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -656,7 +656,7 @@ Get a property by its unique name.
 
 <a id="FractureJINTProbe.RemoveParameter"></a>
 
-### FractureJINTProbe.RemoveParameter(propName: System.String)
+### FractureJINTProbe.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

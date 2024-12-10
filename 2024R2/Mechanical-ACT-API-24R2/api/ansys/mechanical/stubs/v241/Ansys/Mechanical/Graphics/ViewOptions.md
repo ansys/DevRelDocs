@@ -54,7 +54,7 @@ ViewOptions class.
 
 <a id="ViewOptions.AnnotationPreferences"></a>
 
-### *property* ViewOptions.AnnotationPreferences *: [Ansys.Mechanical.Graphics.AnnotationPreferences](../../../../v242/Ansys/Mechanical/Graphics/AnnotationPreferences.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnnotationPreferences) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.AnnotationPreferences *: [Ansys.Mechanical.Graphics.AnnotationPreferences](AnnotationPreferences.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnnotationPreferences) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 AnnotationPreferences property.
 
@@ -70,7 +70,7 @@ Sets the clustered vertices custom tolerance value.
 
 <a id="ViewOptions.DisplayGraphOverlay"></a>
 
-### *property* ViewOptions.DisplayGraphOverlay *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.DisplayGraphOverlay *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Display Graph overlay in the current viewport.
 
@@ -78,7 +78,7 @@ Display Graph overlay in the current viewport.
 
 <a id="ViewOptions.ModelColoring"></a>
 
-### *property* ViewOptions.ModelColoring *: [Ansys.Mechanical.DataModel.Enums.ModelColoring](../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelColoring.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModelColoring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ModelColoring *: [Ansys.Mechanical.DataModel.Enums.ModelColoring](../DataModel/Enums/ModelColoring.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelColoring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the Model display Coloring.
 
@@ -86,7 +86,7 @@ Sets the Model display Coloring.
 
 <a id="ViewOptions.ModelDisplay"></a>
 
-### *property* ViewOptions.ModelDisplay *: [Ansys.Mechanical.DataModel.Enums.ModelDisplay](../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelDisplay.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModelDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ModelDisplay *: [Ansys.Mechanical.DataModel.Enums.ModelDisplay](../DataModel/Enums/ModelDisplay.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the model display option.
 
@@ -94,7 +94,7 @@ Sets the model display option.
 
 <a id="ViewOptions.ResultPreference"></a>
 
-### *property* ViewOptions.ResultPreference *: [Ansys.Mechanical.Graphics.ResultPreference](../../../../v242/Ansys/Mechanical/Graphics/ResultPreference.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.ResultPreference) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ResultPreference *: [Ansys.Mechanical.Graphics.ResultPreference](ResultPreference.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.ResultPreference) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ResultPreference property.
 
@@ -102,7 +102,7 @@ ResultPreference property.
 
 <a id="ViewOptions.ShowBeamThickness"></a>
 
-### *property* ViewOptions.ShowBeamThickness *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowBeamThickness *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the thickness of beams.
 
@@ -110,7 +110,7 @@ Displays the thickness of beams.
 
 <a id="ViewOptions.ShowClusteredVertices"></a>
 
-### *property* ViewOptions.ShowClusteredVertices *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowClusteredVertices *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays all closely clustered vertices of the model.
 
@@ -118,7 +118,7 @@ Displays all closely clustered vertices of the model.
 
 <a id="ViewOptions.ShowCoordinateSystems"></a>
 
-### *property* ViewOptions.ShowCoordinateSystems *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowCoordinateSystems *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays all coordinate system defined.
 
@@ -126,7 +126,7 @@ Displays all coordinate system defined.
 
 <a id="ViewOptions.ShowEdgeDirection"></a>
 
-### *property* ViewOptions.ShowEdgeDirection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowEdgeDirection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the edge direction arrow.
 
@@ -134,7 +134,7 @@ Displays the edge direction arrow.
 
 <a id="ViewOptions.ShowLegend"></a>
 
-### *property* ViewOptions.ShowLegend *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowLegend *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the legend.
 
@@ -142,7 +142,7 @@ Displays the legend.
 
 <a id="ViewOptions.ShowMesh"></a>
 
-### *property* ViewOptions.ShowMesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowMesh *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Display the model’s mesh.
 
@@ -150,7 +150,7 @@ Display the model’s mesh.
 
 <a id="ViewOptions.ShowMeshConnection"></a>
 
-### *property* ViewOptions.ShowMeshConnection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowMeshConnection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays edge connection using a color scheme based on the mesh connection information.
 
@@ -158,7 +158,7 @@ Displays edge connection using a color scheme based on the mesh connection infor
 
 <a id="ViewOptions.ShowRandomColors"></a>
 
-### *property* ViewOptions.ShowRandomColors *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowRandomColors *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets random colors for each object of the application.
 
@@ -166,7 +166,7 @@ Sets random colors for each object of the application.
 
 <a id="ViewOptions.ShowRemotePointConnections"></a>
 
-### *property* ViewOptions.ShowRemotePointConnections *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowRemotePointConnections *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the Remote Point Connections.
 
@@ -174,7 +174,7 @@ Displays the Remote Point Connections.
 
 <a id="ViewOptions.ShowResultVectors"></a>
 
-### *property* ViewOptions.ShowResultVectors *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowResultVectors *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the result vectors.
 
@@ -182,7 +182,7 @@ Displays the result vectors.
 
 <a id="ViewOptions.ShowRuler"></a>
 
-### *property* ViewOptions.ShowRuler *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowRuler *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the ruler.
 
@@ -190,7 +190,7 @@ Displays the ruler.
 
 <a id="ViewOptions.ShowSPHExpansion"></a>
 
-### *property* ViewOptions.ShowSPHExpansion *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowSPHExpansion *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the expansion for SPH elements.
 
@@ -198,7 +198,7 @@ Displays the expansion for SPH elements.
 
 <a id="ViewOptions.ShowShellThickness"></a>
 
-### *property* ViewOptions.ShowShellThickness *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowShellThickness *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the thickness of shells.
 
@@ -206,7 +206,7 @@ Displays the thickness of shells.
 
 <a id="ViewOptions.ShowThickEdgeScoping"></a>
 
-### *property* ViewOptions.ShowThickEdgeScoping *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowThickEdgeScoping *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Thicken the display of edge scoping.
 
@@ -214,7 +214,7 @@ Thicken the display of edge scoping.
 
 <a id="ViewOptions.ShowTriad"></a>
 
-### *property* ViewOptions.ShowTriad *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowTriad *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the triad.
 
@@ -222,7 +222,7 @@ Displays the triad.
 
 <a id="ViewOptions.ShowVertices"></a>
 
-### *property* ViewOptions.ShowVertices *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.ShowVertices *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Display all the vertices of the model.
 
@@ -230,7 +230,7 @@ Display all the vertices of the model.
 
 <a id="ViewOptions.VectorDisplay"></a>
 
-### *property* ViewOptions.VectorDisplay *: [Ansys.Mechanical.Graphics.VectorDisplay](../../../../v242/Ansys/Mechanical/Graphics/VectorDisplay.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.VectorDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ViewOptions.VectorDisplay *: [Ansys.Mechanical.Graphics.VectorDisplay](VectorDisplay.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.VectorDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VectorDisplay property.
 

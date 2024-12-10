@@ -17,7 +17,7 @@ Specifies the FatigueLoadType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------- |
 | [`FullyReversed`](#FatigueLoadType.FullyReversed) |
 | [`HistoryData`](#FatigueLoadType.HistoryData) |
 | [`NonProportional`](#FatigueLoadType.NonProportional) |

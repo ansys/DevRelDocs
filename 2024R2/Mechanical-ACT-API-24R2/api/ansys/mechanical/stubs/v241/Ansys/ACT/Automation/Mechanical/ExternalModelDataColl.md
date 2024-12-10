@@ -17,7 +17,7 @@ Defines a ExternalModelDataColl.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ExternalModelDataColl.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ExternalModelDataColl.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ExternalModelDataColl.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a ExternalModelDataColl.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ExternalModelDataColl.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ExternalModelDataColl.Comments)                               | Gets the list of associated comments.                         |
 | [`Count`](#ExternalModelDataColl.Count)                                     | Gets the NumberOfRows.                                        |
@@ -56,7 +56,7 @@ Defines a ExternalModelDataColl.
 
 <a id="ExternalModelDataColl.Children"></a>
 
-### *property* ExternalModelDataColl.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -64,7 +64,7 @@ Gets the list of children.
 
 <a id="ExternalModelDataColl.Comments"></a>
 
-### *property* ExternalModelDataColl.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -72,7 +72,7 @@ Gets the list of associated comments.
 
 <a id="ExternalModelDataColl.Count"></a>
 
-### *property* ExternalModelDataColl.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberOfRows.
 
@@ -80,7 +80,7 @@ Gets the NumberOfRows.
 
 <a id="ExternalModelDataColl.DataModelObjectCategory"></a>
 
-### *property* ExternalModelDataColl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -88,7 +88,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ExternalModelDataColl.Figures"></a>
 
-### *property* ExternalModelDataColl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -96,7 +96,7 @@ Gets the list of associated figures.
 
 <a id="ExternalModelDataColl.Images"></a>
 
-### *property* ExternalModelDataColl.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -112,7 +112,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ExternalModelDataColl.Properties"></a>
 
-### *property* ExternalModelDataColl.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -120,7 +120,7 @@ Gets the list of properties for this object.
 
 <a id="ExternalModelDataColl.ReadOnly"></a>
 
-### *property* ExternalModelDataColl.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -128,7 +128,7 @@ Gets or sets the ReadOnly.
 
 <a id="ExternalModelDataColl.Suppressed"></a>
 
-### *property* ExternalModelDataColl.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -136,7 +136,7 @@ Gets or sets the Suppressed.
 
 <a id="ExternalModelDataColl.VisibleProperties"></a>
 
-### *property* ExternalModelDataColl.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalModelDataColl.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -172,7 +172,7 @@ Creates a new child Figure.
 
 <a id="ExternalModelDataColl.AddImage"></a>
 
-### ExternalModelDataColl.AddImage(filePath: System.String)
+### ExternalModelDataColl.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -192,7 +192,7 @@ Copies all visible properties from this object to another.
 
 <a id="ExternalModelDataColl.CreateParameter"></a>
 
-### ExternalModelDataColl.CreateParameter(propName: System.String)
+### ExternalModelDataColl.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -216,7 +216,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ExternalModelDataColl.GetChildren"></a>
 
-### ExternalModelDataColl.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ExternalModelDataColl.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -224,7 +224,7 @@ Gets the list of children, filtered by type.
 
 <a id="ExternalModelDataColl.GetParameter"></a>
 
-### ExternalModelDataColl.GetParameter(propName: System.String)
+### ExternalModelDataColl.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -248,7 +248,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ExternalModelDataColl.PropertyByAPIName"></a>
 
-### ExternalModelDataColl.PropertyByAPIName(name: System.String)
+### ExternalModelDataColl.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -259,7 +259,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ExternalModelDataColl.PropertyByName"></a>
 
-### ExternalModelDataColl.PropertyByName(name: System.String)
+### ExternalModelDataColl.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -267,7 +267,7 @@ Get a property by its unique name.
 
 <a id="ExternalModelDataColl.RemoveParameter"></a>
 
-### ExternalModelDataColl.RemoveParameter(propName: System.String)
+### ExternalModelDataColl.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

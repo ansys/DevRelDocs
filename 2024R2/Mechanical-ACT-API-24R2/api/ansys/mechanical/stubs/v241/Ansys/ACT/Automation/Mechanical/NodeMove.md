@@ -61,7 +61,7 @@ Defines a NodeMove.
 
 <a id="NodeMove.Children"></a>
 
-### *property* NodeMove.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -69,7 +69,7 @@ Gets the list of children.
 
 <a id="NodeMove.Comments"></a>
 
-### *property* NodeMove.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -77,7 +77,7 @@ Gets the list of associated comments.
 
 <a id="NodeMove.DataModelObjectCategory"></a>
 
-### *property* NodeMove.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -85,7 +85,7 @@ Gets the current DataModelObject’s category.
 
 <a id="NodeMove.Figures"></a>
 
-### *property* NodeMove.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -93,7 +93,7 @@ Gets the list of associated figures.
 
 <a id="NodeMove.Images"></a>
 
-### *property* NodeMove.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -101,7 +101,7 @@ Gets the list of associated images.
 
 <a id="NodeMove.Information"></a>
 
-### *property* NodeMove.Information *: [Ansys.Mechanical.DataModel.Enums.NodeMoveInformationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodeMoveInformationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NodeMoveInformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.Information *: [Ansys.Mechanical.DataModel.Enums.NodeMoveInformationType](../../../Mechanical/DataModel/Enums/NodeMoveInformationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeMoveInformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Information.
 
@@ -117,7 +117,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="NodeMove.NumberOfMoves"></a>
 
-### *property* NodeMove.NumberOfMoves *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.NumberOfMoves *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberOfMoves.
 
@@ -125,7 +125,7 @@ Gets the NumberOfMoves.
 
 <a id="NodeMove.NumberOfNodes"></a>
 
-### *property* NodeMove.NumberOfNodes *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.NumberOfNodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberOfNodes.
 
@@ -133,7 +133,7 @@ Gets the NumberOfNodes.
 
 <a id="NodeMove.Properties"></a>
 
-### *property* NodeMove.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -141,7 +141,7 @@ Gets the list of properties for this object.
 
 <a id="NodeMove.ReadOnly"></a>
 
-### *property* NodeMove.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -149,7 +149,7 @@ Gets or sets the ReadOnly.
 
 <a id="NodeMove.VisibleProperties"></a>
 
-### *property* NodeMove.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMove.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -185,7 +185,7 @@ Creates a new child Figure.
 
 <a id="NodeMove.AddImage"></a>
 
-### NodeMove.AddImage(filePath: System.String)
+### NodeMove.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -205,7 +205,7 @@ Copies all visible properties from this object to another.
 
 <a id="NodeMove.CreateParameter"></a>
 
-### NodeMove.CreateParameter(propName: System.String)
+### NodeMove.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -229,7 +229,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="NodeMove.GetChildren"></a>
 
-### NodeMove.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NodeMove.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -237,7 +237,7 @@ Gets the list of children, filtered by type.
 
 <a id="NodeMove.GetParameter"></a>
 
-### NodeMove.GetParameter(propName: System.String)
+### NodeMove.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -269,7 +269,7 @@ Morph all the nodes.
 
 <a id="NodeMove.MoveNode"></a>
 
-### NodeMove.MoveNode(nodeId: System.Int32, locX: Ansys.Core.Units.Quantity, locY: Ansys.Core.Units.Quantity, locZ: Ansys.Core.Units.Quantity)
+### NodeMove.MoveNode(nodeId: [int](https://docs.python.org/3/library/functions.html#int), locX: Ansys.Core.Units.Quantity, locY: Ansys.Core.Units.Quantity, locZ: Ansys.Core.Units.Quantity)
 
 Moves a node to a new specified location.  The given locX, locY, and locZ values will be converted to the unit system the mesh is stored in, and the given node will be moved to that absolute location.
 
@@ -277,7 +277,7 @@ Moves a node to a new specified location.  The given locX, locY, and locZ values
 
 <a id="NodeMove.PropertyByAPIName"></a>
 
-### NodeMove.PropertyByAPIName(name: System.String)
+### NodeMove.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -288,7 +288,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NodeMove.PropertyByName"></a>
 
-### NodeMove.PropertyByName(name: System.String)
+### NodeMove.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -296,7 +296,7 @@ Get a property by its unique name.
 
 <a id="NodeMove.RemoveParameter"></a>
 
-### NodeMove.RemoveParameter(propName: System.String)
+### NodeMove.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

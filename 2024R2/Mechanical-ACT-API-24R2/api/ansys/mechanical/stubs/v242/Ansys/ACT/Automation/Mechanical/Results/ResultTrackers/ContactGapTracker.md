@@ -17,7 +17,7 @@ Defines a ContactGapTracker.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ContactGapTracker.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ContactGapTracker.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#ContactGapTracker.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a ContactGapTracker.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#ContactGapTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#ContactGapTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
 | [`ChartDimensions`](#ContactGapTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
@@ -106,7 +106,7 @@ Gets or sets the AccelerationType.
 
 <a id="ContactGapTracker.BoundaryCondition"></a>
 
-### *property* ContactGapTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -130,7 +130,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="ContactGapTracker.Children"></a>
 
-### *property* ContactGapTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -138,7 +138,7 @@ Gets the list of children.
 
 <a id="ContactGapTracker.Comments"></a>
 
-### *property* ContactGapTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -146,7 +146,7 @@ Gets the list of associated comments.
 
 <a id="ContactGapTracker.ContactRegion"></a>
 
-### *property* ContactGapTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
@@ -162,7 +162,7 @@ Gets or sets the ContactSide.
 
 <a id="ContactGapTracker.CoordinateSystem"></a>
 
-### *property* ContactGapTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -178,7 +178,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="ContactGapTracker.CutFrequency"></a>
 
-### *property* ContactGapTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -218,7 +218,7 @@ Gets or sets the Duration.
 
 <a id="ContactGapTracker.EnhancedTracking"></a>
 
-### *property* ContactGapTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -258,7 +258,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="ContactGapTracker.GeometrySelectionString"></a>
 
-### *property* ContactGapTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -266,7 +266,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="ContactGapTracker.Images"></a>
 
-### *property* ContactGapTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -290,7 +290,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactGapTracker.IsSolved"></a>
 
-### *property* ContactGapTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -298,7 +298,7 @@ Gets the IsSolved.
 
 <a id="ContactGapTracker.LoadStepNumber"></a>
 
-### *property* ContactGapTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -370,7 +370,7 @@ Gets the PhaseAngle.
 
 <a id="ContactGapTracker.Properties"></a>
 
-### *property* ContactGapTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -410,7 +410,7 @@ Gets the ResultChartType.
 
 <a id="ContactGapTracker.SectorNumber"></a>
 
-### *property* ContactGapTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -434,7 +434,7 @@ Gets or sets the SpatialResolution.
 
 <a id="ContactGapTracker.Spring"></a>
 
-### *property* ContactGapTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -450,7 +450,7 @@ Gets or sets the StressStrainType.
 
 <a id="ContactGapTracker.Suppressed"></a>
 
-### *property* ContactGapTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -466,7 +466,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="ContactGapTracker.UseParentFrequencyRange"></a>
 
-### *property* ContactGapTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -482,7 +482,7 @@ Gets or sets the VelocityType.
 
 <a id="ContactGapTracker.VisibleProperties"></a>
 
-### *property* ContactGapTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactGapTracker.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -518,7 +518,7 @@ Creates a new child Comment.
 
 <a id="ContactGapTracker.AddImage"></a>
 
-### ContactGapTracker.AddImage(filePath: System.String)
+### ContactGapTracker.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -546,7 +546,7 @@ Copies all visible properties from this object to another.
 
 <a id="ContactGapTracker.CreateParameter"></a>
 
-### ContactGapTracker.CreateParameter(propName: System.String)
+### ContactGapTracker.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -578,7 +578,7 @@ Run the EvaluateAllResults action.
 
 <a id="ContactGapTracker.ExportAnimation"></a>
 
-### ContactGapTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ContactGapTracker.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -586,7 +586,7 @@ Run the ExportAnimation action.
 
 <a id="ContactGapTracker.GetChildren"></a>
 
-### ContactGapTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ContactGapTracker.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -594,7 +594,7 @@ Gets the list of children, filtered by type.
 
 <a id="ContactGapTracker.GetParameter"></a>
 
-### ContactGapTracker.GetParameter(propName: System.String)
+### ContactGapTracker.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -618,7 +618,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactGapTracker.PropertyByAPIName"></a>
 
-### ContactGapTracker.PropertyByAPIName(name: System.String)
+### ContactGapTracker.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -629,7 +629,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactGapTracker.PropertyByName"></a>
 
-### ContactGapTracker.PropertyByName(name: System.String)
+### ContactGapTracker.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -637,7 +637,7 @@ Get a property by its unique name.
 
 <a id="ContactGapTracker.RemoveParameter"></a>
 
-### ContactGapTracker.RemoveParameter(propName: System.String)
+### ContactGapTracker.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

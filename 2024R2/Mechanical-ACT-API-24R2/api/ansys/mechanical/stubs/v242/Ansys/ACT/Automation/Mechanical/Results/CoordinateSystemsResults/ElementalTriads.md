@@ -17,7 +17,7 @@ Defines a ElementalTriads.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ElementalTriads.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ElementalTriads.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ElementalTriads.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ElementalTriads.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#ElementalTriads.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#ElementalTriads.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#ElementalTriads.By)                                                               | Gets or sets the By.                                                   |
@@ -106,7 +106,7 @@ Defines a ElementalTriads.
 | [`Substep`](#ElementalTriads.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#ElementalTriads.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ElementalTriads.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ElementalTriads.SurfaceCoating)                                                                                                                                                    | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ElementalTriads.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#ElementalTriads.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#ElementalTriads.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#ElementalTriads.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -114,7 +114,7 @@ Defines a ElementalTriads.
 | [`TimeForMinimumOfMaximumValues`](#ElementalTriads.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#ElementalTriads.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#ElementalTriads.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ElementalTriads.WaterfallShowTextOnMosaic)                                                                                                                              | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ElementalTriads.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -122,7 +122,7 @@ Defines a ElementalTriads.
 
 <a id="ElementalTriads.Amplitude"></a>
 
-### *property* ElementalTriads.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -146,7 +146,7 @@ Gets or sets the By.
 
 <a id="ElementalTriads.CalculateTimeHistory"></a>
 
-### *property* ElementalTriads.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -154,7 +154,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ElementalTriads.Children"></a>
 
-### *property* ElementalTriads.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -162,7 +162,7 @@ Gets the list of children.
 
 <a id="ElementalTriads.CombinationNumber"></a>
 
-### *property* ElementalTriads.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -170,7 +170,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ElementalTriads.Comments"></a>
 
-### *property* ElementalTriads.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -178,7 +178,7 @@ Gets the list of associated comments.
 
 <a id="ElementalTriads.CoordinateSystem"></a>
 
-### *property* ElementalTriads.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -188,7 +188,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ElementalTriads.CrackFrontNumber"></a>
 
-### *property* ElementalTriads.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -228,7 +228,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ElementalTriads.Figures"></a>
 
-### *property* ElementalTriads.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -244,7 +244,7 @@ Gets or sets the Frequency.
 
 <a id="ElementalTriads.GlobalIDs"></a>
 
-### *property* ElementalTriads.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -260,7 +260,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ElementalTriads.Identifier"></a>
 
-### *property* ElementalTriads.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -268,7 +268,7 @@ Gets or sets the Identifier.
 
 <a id="ElementalTriads.Images"></a>
 
-### *property* ElementalTriads.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -284,7 +284,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ElementalTriads.IsSolved"></a>
 
-### *property* ElementalTriads.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -300,7 +300,7 @@ Gets or sets the ItemType.
 
 <a id="ElementalTriads.IterationNumber"></a>
 
-### *property* ElementalTriads.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -308,7 +308,7 @@ Gets the IterationNumber.
 
 <a id="ElementalTriads.LoadMultiplier"></a>
 
-### *property* ElementalTriads.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -316,7 +316,7 @@ Gets the LoadMultiplier.
 
 <a id="ElementalTriads.LoadStep"></a>
 
-### *property* ElementalTriads.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -324,7 +324,7 @@ Gets the LoadStep.
 
 <a id="ElementalTriads.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ElementalTriads.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -332,7 +332,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ElementalTriads.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ElementalTriads.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -340,7 +340,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ElementalTriads.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ElementalTriads.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -348,7 +348,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ElementalTriads.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ElementalTriads.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -356,7 +356,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ElementalTriads.LoadStepNumber"></a>
 
-### *property* ElementalTriads.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -380,7 +380,7 @@ Gets the Maximum.
 
 <a id="ElementalTriads.MaximumOccursOn"></a>
 
-### *property* ElementalTriads.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -412,7 +412,7 @@ Gets the Minimum.
 
 <a id="ElementalTriads.MinimumOccursOn"></a>
 
-### *property* ElementalTriads.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -436,7 +436,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ElementalTriads.Mode"></a>
 
-### *property* ElementalTriads.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -444,7 +444,7 @@ Gets or sets the Mode.
 
 <a id="ElementalTriads.NamedSelections"></a>
 
-### *property* ElementalTriads.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -476,7 +476,7 @@ Gets the result table.
 
 <a id="ElementalTriads.Ply"></a>
 
-### *property* ElementalTriads.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -492,7 +492,7 @@ Gets or sets the Position.
 
 <a id="ElementalTriads.Properties"></a>
 
-### *property* ElementalTriads.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -508,7 +508,7 @@ Gets or sets the ScaleFactor.
 
 <a id="ElementalTriads.ScaleFactorValue"></a>
 
-### *property* ElementalTriads.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -524,7 +524,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ElementalTriads.SetNumber"></a>
 
-### *property* ElementalTriads.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -540,7 +540,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ElementalTriads.SolverComponentIDs"></a>
 
-### *property* ElementalTriads.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -556,7 +556,7 @@ Gets or sets the SubScopeBy.
 
 <a id="ElementalTriads.Substep"></a>
 
-### *property* ElementalTriads.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -564,7 +564,7 @@ Gets the Substep.
 
 <a id="ElementalTriads.Suppressed"></a>
 
-### *property* ElementalTriads.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -636,7 +636,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="ElementalTriads.VisibleProperties"></a>
 
-### *property* ElementalTriads.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -644,7 +644,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ElementalTriads.WaterfallShowTextOnMosaic"></a>
 
-### *property* ElementalTriads.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalTriads.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -696,7 +696,7 @@ Creates a new child Figure.
 
 <a id="ElementalTriads.AddImage"></a>
 
-### ElementalTriads.AddImage(filePath: System.String)
+### ElementalTriads.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -724,7 +724,7 @@ Copies all visible properties from this object to another.
 
 <a id="ElementalTriads.CreateParameter"></a>
 
-### ElementalTriads.CreateParameter(propName: System.String)
+### ElementalTriads.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -772,7 +772,7 @@ Run the EvaluateAllResults action.
 
 <a id="ElementalTriads.ExportAnimation"></a>
 
-### ElementalTriads.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ElementalTriads.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -780,7 +780,7 @@ Run the ExportAnimation action.
 
 <a id="ElementalTriads.ExportToTextFile"></a>
 
-### ElementalTriads.ExportToTextFile(filePath: System.String)
+### ElementalTriads.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -796,7 +796,7 @@ Run the FetchRemoteResult action.
 
 <a id="ElementalTriads.GetChildren"></a>
 
-### ElementalTriads.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ElementalTriads.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -804,7 +804,7 @@ Gets the list of children, filtered by type.
 
 <a id="ElementalTriads.GetParameter"></a>
 
-### ElementalTriads.GetParameter(propName: System.String)
+### ElementalTriads.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -836,7 +836,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ElementalTriads.PropertyByAPIName"></a>
 
-### ElementalTriads.PropertyByAPIName(name: System.String)
+### ElementalTriads.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -847,7 +847,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ElementalTriads.PropertyByName"></a>
 
-### ElementalTriads.PropertyByName(name: System.String)
+### ElementalTriads.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -855,7 +855,7 @@ Get a property by its unique name.
 
 <a id="ElementalTriads.RemoveParameter"></a>
 
-### ElementalTriads.RemoveParameter(propName: System.String)
+### ElementalTriads.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

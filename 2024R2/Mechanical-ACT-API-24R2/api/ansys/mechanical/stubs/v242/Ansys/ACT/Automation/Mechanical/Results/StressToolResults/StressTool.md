@@ -17,7 +17,7 @@ Defines a StressTool.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#StressTool.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#StressTool.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#StressTool.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -41,7 +41,7 @@ Defines a StressTool.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#StressTool.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#StressTool.Comments)                               | Gets the list of associated comments.                         |
 | [`CompressiveLimit`](#StressTool.CompressiveLimit)               | Gets or sets the CompressiveLimit.                            |
@@ -65,7 +65,7 @@ Defines a StressTool.
 
 <a id="StressTool.Children"></a>
 
-### *property* StressTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -73,7 +73,7 @@ Gets the list of children.
 
 <a id="StressTool.Comments"></a>
 
-### *property* StressTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -105,7 +105,7 @@ Gets the current DataModelObject’s category.
 
 <a id="StressTool.Figures"></a>
 
-### *property* StressTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -113,7 +113,7 @@ Gets the list of associated figures.
 
 <a id="StressTool.Images"></a>
 
-### *property* StressTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -129,7 +129,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="StressTool.LimitFactor"></a>
 
-### *property* StressTool.LimitFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.LimitFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LimitFactor.
 
@@ -137,7 +137,7 @@ Gets or sets the LimitFactor.
 
 <a id="StressTool.Properties"></a>
 
-### *property* StressTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -185,7 +185,7 @@ Gets or sets the Theory.
 
 <a id="StressTool.VisibleProperties"></a>
 
-### *property* StressTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressTool.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -221,7 +221,7 @@ Creates a new child Figure.
 
 <a id="StressTool.AddImage"></a>
 
-### StressTool.AddImage(filePath: System.String)
+### StressTool.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -265,7 +265,7 @@ Copies all visible properties from this object to another.
 
 <a id="StressTool.CreateParameter"></a>
 
-### StressTool.CreateParameter(propName: System.String)
+### StressTool.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -297,7 +297,7 @@ Run the EvaluateAllResults action.
 
 <a id="StressTool.GetChildren"></a>
 
-### StressTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### StressTool.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -305,7 +305,7 @@ Gets the list of children, filtered by type.
 
 <a id="StressTool.GetParameter"></a>
 
-### StressTool.GetParameter(propName: System.String)
+### StressTool.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -329,7 +329,7 @@ Run the GroupSimilarObjects action.
 
 <a id="StressTool.PropertyByAPIName"></a>
 
-### StressTool.PropertyByAPIName(name: System.String)
+### StressTool.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -340,7 +340,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="StressTool.PropertyByName"></a>
 
-### StressTool.PropertyByName(name: System.String)
+### StressTool.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -348,7 +348,7 @@ Get a property by its unique name.
 
 <a id="StressTool.RemoveParameter"></a>
 
-### StressTool.RemoveParameter(propName: System.String)
+### StressTool.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

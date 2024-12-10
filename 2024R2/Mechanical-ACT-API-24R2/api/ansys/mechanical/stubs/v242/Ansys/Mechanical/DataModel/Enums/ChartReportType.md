@@ -17,7 +17,7 @@ Specifies the ChartReportType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------- |
 | [`ChartAndTabularData`](#ChartReportType.ChartAndTabularData) |
 | [`ChartOnly`](#ChartReportType.ChartOnly) |
 | [`None_`](#ChartReportType.None_) |

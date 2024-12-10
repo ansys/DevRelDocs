@@ -58,7 +58,7 @@ Defines a AcousticAbsorptionElement.
 
 <a id="AcousticAbsorptionElement.Children"></a>
 
-### *property* AcousticAbsorptionElement.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionElement.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -66,7 +66,7 @@ Gets the list of children.
 
 <a id="AcousticAbsorptionElement.Comments"></a>
 
-### *property* AcousticAbsorptionElement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionElement.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -82,7 +82,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticAbsorptionElement.Figures"></a>
 
-### *property* AcousticAbsorptionElement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionElement.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -90,7 +90,7 @@ Gets the list of associated figures.
 
 <a id="AcousticAbsorptionElement.Images"></a>
 
-### *property* AcousticAbsorptionElement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionElement.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -114,7 +114,7 @@ Gets or sets the Location.
 
 <a id="AcousticAbsorptionElement.Properties"></a>
 
-### *property* AcousticAbsorptionElement.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionElement.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -122,7 +122,7 @@ Gets the list of properties for this object.
 
 <a id="AcousticAbsorptionElement.ReadOnly"></a>
 
-### *property* AcousticAbsorptionElement.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionElement.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -130,7 +130,7 @@ Gets or sets the ReadOnly.
 
 <a id="AcousticAbsorptionElement.SharedRefBody"></a>
 
-### *property* AcousticAbsorptionElement.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionElement.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -138,7 +138,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticAbsorptionElement.Suppressed"></a>
 
-### *property* AcousticAbsorptionElement.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionElement.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -146,7 +146,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticAbsorptionElement.VisibleProperties"></a>
 
-### *property* AcousticAbsorptionElement.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionElement.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -182,7 +182,7 @@ Creates a new child Figure.
 
 <a id="AcousticAbsorptionElement.AddImage"></a>
 
-### AcousticAbsorptionElement.AddImage(filePath: System.String)
+### AcousticAbsorptionElement.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -202,7 +202,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticAbsorptionElement.CreateParameter"></a>
 
-### AcousticAbsorptionElement.CreateParameter(propName: System.String)
+### AcousticAbsorptionElement.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -226,7 +226,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticAbsorptionElement.GetChildren"></a>
 
-### AcousticAbsorptionElement.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticAbsorptionElement.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -234,7 +234,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticAbsorptionElement.GetParameter"></a>
 
-### AcousticAbsorptionElement.GetParameter(propName: System.String)
+### AcousticAbsorptionElement.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -266,7 +266,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticAbsorptionElement.PropertyByAPIName"></a>
 
-### AcousticAbsorptionElement.PropertyByAPIName(name: System.String)
+### AcousticAbsorptionElement.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -277,7 +277,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticAbsorptionElement.PropertyByName"></a>
 
-### AcousticAbsorptionElement.PropertyByName(name: System.String)
+### AcousticAbsorptionElement.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -285,7 +285,7 @@ Get a property by its unique name.
 
 <a id="AcousticAbsorptionElement.RemoveParameter"></a>
 
-### AcousticAbsorptionElement.RemoveParameter(propName: System.String)
+### AcousticAbsorptionElement.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

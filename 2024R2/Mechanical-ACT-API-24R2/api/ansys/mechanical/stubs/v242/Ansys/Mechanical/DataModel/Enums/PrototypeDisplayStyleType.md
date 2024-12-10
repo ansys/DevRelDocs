@@ -17,7 +17,7 @@ Specifies the PrototypeDisplayStyleType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------- |
 | [`AssemblyColor`](#PrototypeDisplayStyleType.AssemblyColor) |
 | [`BodyColor`](#PrototypeDisplayStyleType.BodyColor) |
 | [`Material`](#PrototypeDisplayStyleType.Material) |

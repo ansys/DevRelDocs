@@ -122,7 +122,7 @@ Defines a AcousticDiffuseSoundTransmissionLoss.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Amplitude"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -138,7 +138,7 @@ Gets the Average.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.By"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -146,7 +146,7 @@ Gets or sets the By.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.CalculateTimeHistory"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -154,7 +154,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Children"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -162,7 +162,7 @@ Gets the list of children.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.CombinationNumber"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -170,7 +170,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Comments"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -188,7 +188,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="AcousticDiffuseSoundTransmissionLoss.CrackFrontNumber"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -204,7 +204,7 @@ Gets the DampedFrequency.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.DataModelObjectCategory"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -212,7 +212,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.DisplayOption"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -228,7 +228,7 @@ Gets or sets the DisplayTime.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.DpfEvaluation"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -236,7 +236,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Figures"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -252,7 +252,7 @@ Gets or sets the Frequency.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.FrequencyRange"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.FrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.FrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencyRange.
 
@@ -260,7 +260,7 @@ Gets or sets the FrequencyRange.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.GlobalIDs"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -268,7 +268,7 @@ Gets or sets the GlobalIDs.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.GraphControlsXAxis"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -276,7 +276,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Identifier"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -284,7 +284,7 @@ Gets or sets the Identifier.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Images"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -300,7 +300,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.IsSolved"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -308,7 +308,7 @@ Gets the IsSolved.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.ItemType"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -316,7 +316,7 @@ Gets or sets the ItemType.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.IterationNumber"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -324,7 +324,7 @@ Gets the IterationNumber.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.LoadStep"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -332,7 +332,7 @@ Gets the LoadStep.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -340,7 +340,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -348,7 +348,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -356,7 +356,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -364,7 +364,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.LoadStepNumber"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -380,7 +380,7 @@ Gets or sets the Location.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.LogarithmicDecrement"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -404,7 +404,7 @@ Gets or sets the MaximumFrequency.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.MaximumOccursOn"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -444,7 +444,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.MinimumOccursOn"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -468,7 +468,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.ModalDampingRatio"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -476,7 +476,7 @@ Gets the ModalDampingRatio.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Mode"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -484,7 +484,7 @@ Gets or sets the Mode.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.NamedSelections"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -492,7 +492,7 @@ Gets or sets the NamedSelections.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Path"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -500,7 +500,7 @@ Path property.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.PlotData"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -508,7 +508,7 @@ Gets the result table.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Properties"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -524,7 +524,7 @@ Gets the ReportedFrequency.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.ScopingMethod"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -532,7 +532,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.SetNumber"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -540,7 +540,7 @@ Gets or sets the Set Number.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.SolutionCombinationDriver"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -548,7 +548,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.SolverComponentIDs"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -564,7 +564,7 @@ Gets the Stability.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Substep"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -572,7 +572,7 @@ Gets the Substep.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Suppressed"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -580,7 +580,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.Surface"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -636,7 +636,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.VisibleProperties"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -644,7 +644,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* AcousticDiffuseSoundTransmissionLoss.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundTransmissionLoss.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -696,7 +696,7 @@ Creates a new child Figure.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.AddImage"></a>
 
-### AcousticDiffuseSoundTransmissionLoss.AddImage(filePath: System.String)
+### AcousticDiffuseSoundTransmissionLoss.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -724,7 +724,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.CreateParameter"></a>
 
-### AcousticDiffuseSoundTransmissionLoss.CreateParameter(propName: System.String)
+### AcousticDiffuseSoundTransmissionLoss.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -772,7 +772,7 @@ Run the EvaluateAllResults action.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.ExportAnimation"></a>
 
-### AcousticDiffuseSoundTransmissionLoss.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AcousticDiffuseSoundTransmissionLoss.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -780,7 +780,7 @@ Run the ExportAnimation action.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.ExportToTextFile"></a>
 
-### AcousticDiffuseSoundTransmissionLoss.ExportToTextFile(filePath: System.String)
+### AcousticDiffuseSoundTransmissionLoss.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -796,7 +796,7 @@ Run the FetchRemoteResult action.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.GetChildren"></a>
 
-### AcousticDiffuseSoundTransmissionLoss.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticDiffuseSoundTransmissionLoss.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -804,7 +804,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.GetParameter"></a>
 
-### AcousticDiffuseSoundTransmissionLoss.GetParameter(propName: System.String)
+### AcousticDiffuseSoundTransmissionLoss.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -836,7 +836,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.PropertyByAPIName"></a>
 
-### AcousticDiffuseSoundTransmissionLoss.PropertyByAPIName(name: System.String)
+### AcousticDiffuseSoundTransmissionLoss.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -847,7 +847,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticDiffuseSoundTransmissionLoss.PropertyByName"></a>
 
-### AcousticDiffuseSoundTransmissionLoss.PropertyByName(name: System.String)
+### AcousticDiffuseSoundTransmissionLoss.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -855,7 +855,7 @@ Get a property by its unique name.
 
 <a id="AcousticDiffuseSoundTransmissionLoss.RemoveParameter"></a>
 
-### AcousticDiffuseSoundTransmissionLoss.RemoveParameter(propName: System.String)
+### AcousticDiffuseSoundTransmissionLoss.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the Legend Orientation.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------- |
 | [`Horizontal`](#LegendOrientationType.Horizontal) |
 | [`Vertical`](#LegendOrientationType.Vertical) |
 

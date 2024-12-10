@@ -56,7 +56,7 @@ Defines a ImportedElementOrientations.
 
 <a id="ImportedElementOrientations.Children"></a>
 
-### *property* ImportedElementOrientations.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -64,7 +64,7 @@ Gets the list of children.
 
 <a id="ImportedElementOrientations.Comments"></a>
 
-### *property* ImportedElementOrientations.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -72,7 +72,7 @@ Gets the list of associated comments.
 
 <a id="ImportedElementOrientations.Count"></a>
 
-### *property* ImportedElementOrientations.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberOfRows.
 
@@ -88,7 +88,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedElementOrientations.Figures"></a>
 
-### *property* ImportedElementOrientations.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -96,7 +96,7 @@ Gets the list of associated figures.
 
 <a id="ImportedElementOrientations.Images"></a>
 
-### *property* ImportedElementOrientations.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -112,7 +112,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedElementOrientations.Properties"></a>
 
-### *property* ImportedElementOrientations.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -120,7 +120,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedElementOrientations.ReadOnly"></a>
 
-### *property* ImportedElementOrientations.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -128,7 +128,7 @@ Gets or sets the ReadOnly.
 
 <a id="ImportedElementOrientations.Suppressed"></a>
 
-### *property* ImportedElementOrientations.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -136,7 +136,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedElementOrientations.VisibleProperties"></a>
 
-### *property* ImportedElementOrientations.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -172,7 +172,7 @@ Creates a new child Figure.
 
 <a id="ImportedElementOrientations.AddImage"></a>
 
-### ImportedElementOrientations.AddImage(filePath: System.String)
+### ImportedElementOrientations.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -192,7 +192,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedElementOrientations.CreateParameter"></a>
 
-### ImportedElementOrientations.CreateParameter(propName: System.String)
+### ImportedElementOrientations.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -216,7 +216,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedElementOrientations.GetChildren"></a>
 
-### ImportedElementOrientations.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedElementOrientations.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -224,7 +224,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedElementOrientations.GetParameter"></a>
 
-### ImportedElementOrientations.GetParameter(propName: System.String)
+### ImportedElementOrientations.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -248,7 +248,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ImportedElementOrientations.PropertyByAPIName"></a>
 
-### ImportedElementOrientations.PropertyByAPIName(name: System.String)
+### ImportedElementOrientations.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -259,7 +259,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedElementOrientations.PropertyByName"></a>
 
-### ImportedElementOrientations.PropertyByName(name: System.String)
+### ImportedElementOrientations.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -267,7 +267,7 @@ Get a property by its unique name.
 
 <a id="ImportedElementOrientations.RemoveParameter"></a>
 
-### ImportedElementOrientations.RemoveParameter(propName: System.String)
+### ImportedElementOrientations.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

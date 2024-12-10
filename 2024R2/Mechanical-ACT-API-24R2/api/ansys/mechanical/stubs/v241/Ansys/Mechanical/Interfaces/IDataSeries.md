@@ -30,11 +30,11 @@ IDataSeries interface.
 
 <a id="IDataSeries.DataType"></a>
 
-### *property* IDataSeries.DataType *: System.Type | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataSeries.DataType *: [type](https://docs.python.org/3/library/functions.html#type) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <a id="IDataSeries.Name"></a>
 
-### *property* IDataSeries.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataSeries.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the name of the data series.
 
@@ -42,7 +42,7 @@ Gets or sets the name of the data series.
 
 <a id="IDataSeries.QuantityName"></a>
 
-### *property* IDataSeries.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataSeries.QuantityName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”.
 
@@ -50,7 +50,7 @@ Gets or sets the quantity name of the data series, e.g., “Length”, “Pressu
 
 <a id="IDataSeries.Unit"></a>
 
-### *property* IDataSeries.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataSeries.Unit *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets a string representation of the data series units, e.g., “m”,
 “kg m^-1 s^-2”, or “kg m^2 s^-3”.
@@ -59,7 +59,7 @@ Gets or sets a string representation of the data series units, e.g., “m”,
 
 <a id="IDataSeries.Values"></a>
 
-### *property* IDataSeries.Values *: System.Collections.ICollection | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataSeries.Values *: Collection | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Explicitly gets or sets the values of the data series.
 

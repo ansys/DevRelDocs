@@ -98,7 +98,7 @@ Defines a ContactMinimumTangentialStiffnessTracker.
 
 <a id="ContactMinimumTangentialStiffnessTracker.AccelerationType"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
@@ -114,7 +114,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="ContactMinimumTangentialStiffnessTracker.ChartDimensions"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
@@ -122,7 +122,7 @@ Gets or sets the Chart Dimensions
 
 <a id="ContactMinimumTangentialStiffnessTracker.ChartViewingStyle"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
@@ -130,7 +130,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="ContactMinimumTangentialStiffnessTracker.Children"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -138,7 +138,7 @@ Gets the list of children.
 
 <a id="ContactMinimumTangentialStiffnessTracker.Comments"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -154,7 +154,7 @@ Gets or sets the ContactRegion.
 
 <a id="ContactMinimumTangentialStiffnessTracker.ContactSide"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactScopingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../Mechanical/DataModel/Enums/ContactScopingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSide.
 
@@ -170,7 +170,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="ContactMinimumTangentialStiffnessTracker.CurvesAppearanceDisplay"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
@@ -178,7 +178,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="ContactMinimumTangentialStiffnessTracker.CutFrequency"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -186,7 +186,7 @@ Gets or sets the CutFrequency.
 
 <a id="ContactMinimumTangentialStiffnessTracker.DataModelObjectCategory"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -194,7 +194,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ContactMinimumTangentialStiffnessTracker.DeformationType"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
@@ -202,7 +202,7 @@ Gets or sets the DeformationType.
 
 <a id="ContactMinimumTangentialStiffnessTracker.DpfEvaluation"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -218,7 +218,7 @@ Gets or sets the Duration.
 
 <a id="ContactMinimumTangentialStiffnessTracker.EnhancedTracking"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -242,7 +242,7 @@ Gets the FilterMinimum.
 
 <a id="ContactMinimumTangentialStiffnessTracker.FilterType"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
@@ -258,7 +258,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="ContactMinimumTangentialStiffnessTracker.GeometrySelectionString"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -266,7 +266,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="ContactMinimumTangentialStiffnessTracker.Images"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -290,7 +290,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactMinimumTangentialStiffnessTracker.IsSolved"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -298,7 +298,7 @@ Gets the IsSolved.
 
 <a id="ContactMinimumTangentialStiffnessTracker.LoadStepNumber"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -354,7 +354,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="ContactMinimumTangentialStiffnessTracker.NormalOrientation"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -370,7 +370,7 @@ Gets the PhaseAngle.
 
 <a id="ContactMinimumTangentialStiffnessTracker.Properties"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -402,7 +402,7 @@ Gets or sets the RequestedFrequency.
 
 <a id="ContactMinimumTangentialStiffnessTracker.ResultChartType"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
@@ -410,7 +410,7 @@ Gets the ResultChartType.
 
 <a id="ContactMinimumTangentialStiffnessTracker.SectorNumber"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -418,7 +418,7 @@ Gets or sets the SectorNumber.
 
 <a id="ContactMinimumTangentialStiffnessTracker.ShearOrientation"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
@@ -426,7 +426,7 @@ Gets or sets the ShearOrientation.
 
 <a id="ContactMinimumTangentialStiffnessTracker.SpatialResolution"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -442,7 +442,7 @@ Gets or sets the Spring.
 
 <a id="ContactMinimumTangentialStiffnessTracker.StressStrainType"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -450,7 +450,7 @@ Gets or sets the StressStrainType.
 
 <a id="ContactMinimumTangentialStiffnessTracker.Suppressed"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -458,7 +458,7 @@ Gets or sets the Suppressed.
 
 <a id="ContactMinimumTangentialStiffnessTracker.TimeHistoryDisplay"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
@@ -466,7 +466,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="ContactMinimumTangentialStiffnessTracker.UseParentFrequencyRange"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -474,7 +474,7 @@ Gets or sets the UseParentFrequencyRange.
 
 <a id="ContactMinimumTangentialStiffnessTracker.VelocityType"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
@@ -482,7 +482,7 @@ Gets or sets the VelocityType.
 
 <a id="ContactMinimumTangentialStiffnessTracker.VisibleProperties"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -490,7 +490,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ContactMinimumTangentialStiffnessTracker.XAxisValues"></a>
 
-### *property* ContactMinimumTangentialStiffnessTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumTangentialStiffnessTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
@@ -518,7 +518,7 @@ Creates a new child Comment.
 
 <a id="ContactMinimumTangentialStiffnessTracker.AddImage"></a>
 
-### ContactMinimumTangentialStiffnessTracker.AddImage(filePath: System.String)
+### ContactMinimumTangentialStiffnessTracker.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -546,7 +546,7 @@ Copies all visible properties from this object to another.
 
 <a id="ContactMinimumTangentialStiffnessTracker.CreateParameter"></a>
 
-### ContactMinimumTangentialStiffnessTracker.CreateParameter(propName: System.String)
+### ContactMinimumTangentialStiffnessTracker.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -578,7 +578,7 @@ Run the EvaluateAllResults action.
 
 <a id="ContactMinimumTangentialStiffnessTracker.ExportAnimation"></a>
 
-### ContactMinimumTangentialStiffnessTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ContactMinimumTangentialStiffnessTracker.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -586,7 +586,7 @@ Run the ExportAnimation action.
 
 <a id="ContactMinimumTangentialStiffnessTracker.GetChildren"></a>
 
-### ContactMinimumTangentialStiffnessTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ContactMinimumTangentialStiffnessTracker.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -594,7 +594,7 @@ Gets the list of children, filtered by type.
 
 <a id="ContactMinimumTangentialStiffnessTracker.GetParameter"></a>
 
-### ContactMinimumTangentialStiffnessTracker.GetParameter(propName: System.String)
+### ContactMinimumTangentialStiffnessTracker.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -618,7 +618,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactMinimumTangentialStiffnessTracker.PropertyByAPIName"></a>
 
-### ContactMinimumTangentialStiffnessTracker.PropertyByAPIName(name: System.String)
+### ContactMinimumTangentialStiffnessTracker.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -629,7 +629,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactMinimumTangentialStiffnessTracker.PropertyByName"></a>
 
-### ContactMinimumTangentialStiffnessTracker.PropertyByName(name: System.String)
+### ContactMinimumTangentialStiffnessTracker.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -637,7 +637,7 @@ Get a property by its unique name.
 
 <a id="ContactMinimumTangentialStiffnessTracker.RemoveParameter"></a>
 
-### ContactMinimumTangentialStiffnessTracker.RemoveParameter(propName: System.String)
+### ContactMinimumTangentialStiffnessTracker.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the MultiOptimTypeStrategyType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------- |
 | [`Off`](#MultiOptimTypeStrategyType.Off) |
 | [`On`](#MultiOptimTypeStrategyType.On) |
 | [`ProgramControlled`](#MultiOptimTypeStrategyType.ProgramControlled) |

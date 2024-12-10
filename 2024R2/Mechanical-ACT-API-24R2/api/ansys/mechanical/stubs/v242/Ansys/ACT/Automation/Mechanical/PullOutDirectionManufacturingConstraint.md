@@ -17,7 +17,7 @@ Defines a PullOutDirectionManufacturingConstraint.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PullOutDirectionManufacturingConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#PullOutDirectionManufacturingConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#PullOutDirectionManufacturingConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a PullOutDirectionManufacturingConstraint.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Axis`](#PullOutDirectionManufacturingConstraint.Axis)                                       | Gets or sets the Axis.                                        |
 | [`Children`](#PullOutDirectionManufacturingConstraint.Children)                               | Gets the list of children.                                    |
 | [`CoordinateSystem`](#PullOutDirectionManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
@@ -64,7 +64,7 @@ Gets or sets the Axis.
 
 <a id="PullOutDirectionManufacturingConstraint.Children"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -72,7 +72,7 @@ Gets the list of children.
 
 <a id="PullOutDirectionManufacturingConstraint.CoordinateSystem"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -112,7 +112,7 @@ Gets or sets the Location.
 
 <a id="PullOutDirectionManufacturingConstraint.Properties"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -144,7 +144,7 @@ Gets or sets the Subtype.
 
 <a id="PullOutDirectionManufacturingConstraint.Suppressed"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -152,7 +152,7 @@ Gets or sets the Suppressed.
 
 <a id="PullOutDirectionManufacturingConstraint.VisibleProperties"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -180,7 +180,7 @@ Copies all visible properties from this object to another.
 
 <a id="PullOutDirectionManufacturingConstraint.CreateParameter"></a>
 
-### PullOutDirectionManufacturingConstraint.CreateParameter(propName: System.String)
+### PullOutDirectionManufacturingConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -204,7 +204,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PullOutDirectionManufacturingConstraint.GetChildren"></a>
 
-### PullOutDirectionManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PullOutDirectionManufacturingConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -212,7 +212,7 @@ Gets the list of children, filtered by type.
 
 <a id="PullOutDirectionManufacturingConstraint.GetParameter"></a>
 
-### PullOutDirectionManufacturingConstraint.GetParameter(propName: System.String)
+### PullOutDirectionManufacturingConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -236,7 +236,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PullOutDirectionManufacturingConstraint.PropertyByAPIName"></a>
 
-### PullOutDirectionManufacturingConstraint.PropertyByAPIName(name: System.String)
+### PullOutDirectionManufacturingConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -247,7 +247,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PullOutDirectionManufacturingConstraint.PropertyByName"></a>
 
-### PullOutDirectionManufacturingConstraint.PropertyByName(name: System.String)
+### PullOutDirectionManufacturingConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -255,7 +255,7 @@ Get a property by its unique name.
 
 <a id="PullOutDirectionManufacturingConstraint.RemoveParameter"></a>
 
-### PullOutDirectionManufacturingConstraint.RemoveParameter(propName: System.String)
+### PullOutDirectionManufacturingConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

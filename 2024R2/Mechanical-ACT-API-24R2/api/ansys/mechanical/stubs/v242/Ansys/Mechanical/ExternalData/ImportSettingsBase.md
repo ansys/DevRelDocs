@@ -17,7 +17,7 @@ A base class for Table import settings.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------|
+|------------------------------------------------------------------------|-------------------------------------------|
 | [`Format`](#ImportSettingsBase.Format)   | Gets the existing corresponding format.   |
 
 <a id="property-detail"></a>

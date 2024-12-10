@@ -27,7 +27,7 @@ CondensedPartExpansionState class.
 
 <a id="CondensedPartExpansionState.Displacement"></a>
 
-### *property* CondensedPartExpansionState.Displacement *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartExpansionState.Displacement *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Displacement Property
 
@@ -35,7 +35,7 @@ Gets or sets the Displacement Property
 
 <a id="CondensedPartExpansionState.Stress"></a>
 
-### *property* CondensedPartExpansionState.Stress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartExpansionState.Stress *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Stress Property
 

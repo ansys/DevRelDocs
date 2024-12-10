@@ -17,7 +17,7 @@ Specifies the MPIType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------- |
+| ----------------------------------- |
 | [`INTELMPI`](#MPIType.INTELMPI) |
 | [`MSMPI`](#MPIType.MSMPI) |
 | [`PCMPI`](#MPIType.PCMPI) |

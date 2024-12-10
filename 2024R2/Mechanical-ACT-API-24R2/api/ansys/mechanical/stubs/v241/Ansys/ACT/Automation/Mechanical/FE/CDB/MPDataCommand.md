@@ -17,7 +17,7 @@ Represents a MPDATA command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------|---------------------------|
+|-----------------------------------|---------------------------|
 | [`Index`](#MPDataCommand.Index)   | Gets the command index.   |
 | [`Lab`](#MPDataCommand.Lab)       | Gets the label.           |
 | [`Mat`](#MPDataCommand.Mat)       | Gets the material number. |
@@ -31,7 +31,7 @@ Represents a MPDATA command.
 
 <a id="MPDataCommand.Index"></a>
 
-### *property* MPDataCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPDataCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -39,7 +39,7 @@ Gets the command index.
 
 <a id="MPDataCommand.Lab"></a>
 
-### *property* MPDataCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPDataCommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
 
@@ -47,7 +47,7 @@ Gets the label.
 
 <a id="MPDataCommand.Mat"></a>
 
-### *property* MPDataCommand.Mat *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPDataCommand.Mat *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
 
@@ -55,7 +55,7 @@ Gets the material number.
 
 <a id="MPDataCommand.Name"></a>
 
-### *property* MPDataCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPDataCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -63,7 +63,7 @@ Gets the command name.
 
 <a id="MPDataCommand.Temps"></a>
 
-### *property* MPDataCommand.Temps *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPDataCommand.Temps *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the temperatures.
 
@@ -71,7 +71,7 @@ Gets the temperatures.
 
 <a id="MPDataCommand.Values"></a>
 
-### *property* MPDataCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPDataCommand.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

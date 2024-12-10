@@ -17,7 +17,7 @@ Specifies the PreStressContactStatus.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`ForceBonded`](#PreStressContactStatus.ForceBonded) |
 | [`ForceSticking`](#PreStressContactStatus.ForceSticking) |
 | [`UseTrueStatus`](#PreStressContactStatus.UseTrueStatus) |

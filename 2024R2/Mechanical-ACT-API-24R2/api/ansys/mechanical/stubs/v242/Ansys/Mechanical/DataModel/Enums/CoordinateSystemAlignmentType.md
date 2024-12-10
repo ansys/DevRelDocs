@@ -17,7 +17,7 @@ Specifies the CoordinateSystemAlignmentType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`Associative`](#CoordinateSystemAlignmentType.Associative) |
 | [`Component`](#CoordinateSystemAlignmentType.Component) |
 | [`Fixed`](#CoordinateSystemAlignmentType.Fixed) |

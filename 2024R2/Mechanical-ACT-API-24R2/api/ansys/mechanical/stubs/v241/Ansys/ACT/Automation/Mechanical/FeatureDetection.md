@@ -17,7 +17,7 @@ Defines a FeatureDetection.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#FeatureDetection.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#FeatureDetection.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#FeatureDetection.AddImage)                               | Creates a new child Image.                                                        |
@@ -39,7 +39,7 @@ Defines a FeatureDetection.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#FeatureDetection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#FeatureDetection.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#FeatureDetection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -58,7 +58,7 @@ Defines a FeatureDetection.
 
 <a id="FeatureDetection.Children"></a>
 
-### *property* FeatureDetection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureDetection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -66,7 +66,7 @@ Gets the list of children.
 
 <a id="FeatureDetection.Comments"></a>
 
-### *property* FeatureDetection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureDetection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -74,7 +74,7 @@ Gets the list of associated comments.
 
 <a id="FeatureDetection.DataModelObjectCategory"></a>
 
-### *property* FeatureDetection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureDetection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -91,7 +91,7 @@ Get the FeatureDetectionDefinition object.
 
 <a id="FeatureDetection.Images"></a>
 
-### *property* FeatureDetection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureDetection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -115,7 +115,7 @@ Gets or sets the Location.
 
 <a id="FeatureDetection.NamedSelection"></a>
 
-### *property* FeatureDetection.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureDetection.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -123,7 +123,7 @@ Gets or sets the NamedSelection.
 
 <a id="FeatureDetection.Properties"></a>
 
-### *property* FeatureDetection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureDetection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -131,7 +131,7 @@ Gets the list of properties for this object.
 
 <a id="FeatureDetection.ScopingMethod"></a>
 
-### *property* FeatureDetection.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureDetection.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -139,7 +139,7 @@ Gets or sets the ScopingMethod.
 
 <a id="FeatureDetection.VisibleProperties"></a>
 
-### *property* FeatureDetection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureDetection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -167,7 +167,7 @@ Creates a new child Comment.
 
 <a id="FeatureDetection.AddImage"></a>
 
-### FeatureDetection.AddImage(filePath: System.String)
+### FeatureDetection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -195,7 +195,7 @@ Copies all visible properties from this object to another.
 
 <a id="FeatureDetection.CreateParameter"></a>
 
-### FeatureDetection.CreateParameter(propName: System.String)
+### FeatureDetection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Run the EvaluateAllResults action.
 
 <a id="FeatureDetection.GetChildren"></a>
 
-### FeatureDetection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FeatureDetection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="FeatureDetection.GetParameter"></a>
 
-### FeatureDetection.GetParameter(propName: System.String)
+### FeatureDetection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -267,7 +267,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FeatureDetection.PropertyByAPIName"></a>
 
-### FeatureDetection.PropertyByAPIName(name: System.String)
+### FeatureDetection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -278,7 +278,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FeatureDetection.PropertyByName"></a>
 
-### FeatureDetection.PropertyByName(name: System.String)
+### FeatureDetection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -286,7 +286,7 @@ Get a property by its unique name.
 
 <a id="FeatureDetection.RemoveParameter"></a>
 
-### FeatureDetection.RemoveParameter(propName: System.String)
+### FeatureDetection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

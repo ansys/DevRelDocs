@@ -17,7 +17,7 @@ Specifies the SecondaryImportPrefType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`Line`](#SecondaryImportPrefType.Line) |
 | [`None_`](#SecondaryImportPrefType.None_) |
 | [`Solid`](#SecondaryImportPrefType.Solid) |

@@ -17,7 +17,7 @@ Defines a PlasticWorkTracker.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PlasticWorkTracker.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#PlasticWorkTracker.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#PlasticWorkTracker.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a PlasticWorkTracker.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#PlasticWorkTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#PlasticWorkTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
 | [`ChartDimensions`](#PlasticWorkTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
@@ -104,7 +104,7 @@ Gets or sets the AccelerationType.
 
 <a id="PlasticWorkTracker.BoundaryCondition"></a>
 
-### *property* PlasticWorkTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -128,7 +128,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="PlasticWorkTracker.Children"></a>
 
-### *property* PlasticWorkTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -136,7 +136,7 @@ Gets the list of children.
 
 <a id="PlasticWorkTracker.Comments"></a>
 
-### *property* PlasticWorkTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -144,7 +144,7 @@ Gets the list of associated comments.
 
 <a id="PlasticWorkTracker.CoordinateSystem"></a>
 
-### *property* PlasticWorkTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -160,7 +160,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="PlasticWorkTracker.CutFrequency"></a>
 
-### *property* PlasticWorkTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -200,7 +200,7 @@ Gets or sets the Duration.
 
 <a id="PlasticWorkTracker.EnhancedTracking"></a>
 
-### *property* PlasticWorkTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -240,7 +240,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="PlasticWorkTracker.GeometrySelectionString"></a>
 
-### *property* PlasticWorkTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -248,7 +248,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="PlasticWorkTracker.Images"></a>
 
-### *property* PlasticWorkTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -272,7 +272,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PlasticWorkTracker.IsSolved"></a>
 
-### *property* PlasticWorkTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -280,7 +280,7 @@ Gets the IsSolved.
 
 <a id="PlasticWorkTracker.LoadStepNumber"></a>
 
-### *property* PlasticWorkTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -352,7 +352,7 @@ Gets the PhaseAngle.
 
 <a id="PlasticWorkTracker.Properties"></a>
 
-### *property* PlasticWorkTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -392,7 +392,7 @@ Gets the ResultChartType.
 
 <a id="PlasticWorkTracker.SectorNumber"></a>
 
-### *property* PlasticWorkTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -416,7 +416,7 @@ Gets or sets the SpatialResolution.
 
 <a id="PlasticWorkTracker.Spring"></a>
 
-### *property* PlasticWorkTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -432,7 +432,7 @@ Gets or sets the StressStrainType.
 
 <a id="PlasticWorkTracker.Suppressed"></a>
 
-### *property* PlasticWorkTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -448,7 +448,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="PlasticWorkTracker.UseParentFrequencyRange"></a>
 
-### *property* PlasticWorkTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -464,7 +464,7 @@ Gets or sets the VelocityType.
 
 <a id="PlasticWorkTracker.VisibleProperties"></a>
 
-### *property* PlasticWorkTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PlasticWorkTracker.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -500,7 +500,7 @@ Creates a new child Comment.
 
 <a id="PlasticWorkTracker.AddImage"></a>
 
-### PlasticWorkTracker.AddImage(filePath: System.String)
+### PlasticWorkTracker.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -528,7 +528,7 @@ Copies all visible properties from this object to another.
 
 <a id="PlasticWorkTracker.CreateParameter"></a>
 
-### PlasticWorkTracker.CreateParameter(propName: System.String)
+### PlasticWorkTracker.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -560,7 +560,7 @@ Run the EvaluateAllResults action.
 
 <a id="PlasticWorkTracker.ExportAnimation"></a>
 
-### PlasticWorkTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### PlasticWorkTracker.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -568,7 +568,7 @@ Run the ExportAnimation action.
 
 <a id="PlasticWorkTracker.GetChildren"></a>
 
-### PlasticWorkTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PlasticWorkTracker.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -576,7 +576,7 @@ Gets the list of children, filtered by type.
 
 <a id="PlasticWorkTracker.GetParameter"></a>
 
-### PlasticWorkTracker.GetParameter(propName: System.String)
+### PlasticWorkTracker.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -600,7 +600,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PlasticWorkTracker.PropertyByAPIName"></a>
 
-### PlasticWorkTracker.PropertyByAPIName(name: System.String)
+### PlasticWorkTracker.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -611,7 +611,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PlasticWorkTracker.PropertyByName"></a>
 
-### PlasticWorkTracker.PropertyByName(name: System.String)
+### PlasticWorkTracker.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -619,7 +619,7 @@ Get a property by its unique name.
 
 <a id="PlasticWorkTracker.RemoveParameter"></a>
 
-### PlasticWorkTracker.RemoveParameter(propName: System.String)
+### PlasticWorkTracker.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

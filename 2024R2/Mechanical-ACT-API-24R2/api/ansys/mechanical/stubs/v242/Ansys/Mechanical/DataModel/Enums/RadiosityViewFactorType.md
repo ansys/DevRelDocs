@@ -17,7 +17,7 @@ Specifies the RadiosityViewFactorType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------------------------- |
 | [`RadiosityFF2DHidden`](#RadiosityViewFactorType.RadiosityFF2DHidden) |
 | [`RadiosityFF2DNonHidden`](#RadiosityViewFactorType.RadiosityFF2DNonHidden) |
 

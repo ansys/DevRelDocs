@@ -17,7 +17,7 @@ Specifies the ManuMemberSizeControlledType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------ |
 | [`Free`](#ManuMemberSizeControlledType.Free) |
 | [`Manual`](#ManuMemberSizeControlledType.Manual) |
 | [`ProgramControlled`](#ManuMemberSizeControlledType.ProgramControlled) |

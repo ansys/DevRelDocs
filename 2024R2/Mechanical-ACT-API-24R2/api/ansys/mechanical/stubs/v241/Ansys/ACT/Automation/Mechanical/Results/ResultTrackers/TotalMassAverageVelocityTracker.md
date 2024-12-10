@@ -96,7 +96,7 @@ Defines a TotalMassAverageVelocityTracker.
 
 <a id="TotalMassAverageVelocityTracker.AccelerationType"></a>
 
-### *property* TotalMassAverageVelocityTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationType.
 
@@ -112,7 +112,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="TotalMassAverageVelocityTracker.ChartDimensions"></a>
 
-### *property* TotalMassAverageVelocityTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Chart Dimensions
 
@@ -120,7 +120,7 @@ Gets or sets the Chart Dimensions
 
 <a id="TotalMassAverageVelocityTracker.ChartViewingStyle"></a>
 
-### *property* TotalMassAverageVelocityTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
@@ -128,7 +128,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="TotalMassAverageVelocityTracker.Children"></a>
 
-### *property* TotalMassAverageVelocityTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -136,7 +136,7 @@ Gets the list of children.
 
 <a id="TotalMassAverageVelocityTracker.Comments"></a>
 
-### *property* TotalMassAverageVelocityTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -152,7 +152,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="TotalMassAverageVelocityTracker.CurvesAppearanceDisplay"></a>
 
-### *property* TotalMassAverageVelocityTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurvesAppearanceDisplay.
 
@@ -160,7 +160,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="TotalMassAverageVelocityTracker.CutFrequency"></a>
 
-### *property* TotalMassAverageVelocityTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -168,7 +168,7 @@ Gets or sets the CutFrequency.
 
 <a id="TotalMassAverageVelocityTracker.DataModelObjectCategory"></a>
 
-### *property* TotalMassAverageVelocityTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -176,7 +176,7 @@ Gets the current DataModelObject’s category.
 
 <a id="TotalMassAverageVelocityTracker.DeformationType"></a>
 
-### *property* TotalMassAverageVelocityTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
@@ -184,7 +184,7 @@ Gets or sets the DeformationType.
 
 <a id="TotalMassAverageVelocityTracker.DpfEvaluation"></a>
 
-### *property* TotalMassAverageVelocityTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -200,7 +200,7 @@ Gets or sets the Duration.
 
 <a id="TotalMassAverageVelocityTracker.EnhancedTracking"></a>
 
-### *property* TotalMassAverageVelocityTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -224,7 +224,7 @@ Gets the FilterMinimum.
 
 <a id="TotalMassAverageVelocityTracker.FilterType"></a>
 
-### *property* TotalMassAverageVelocityTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilterType.
 
@@ -240,7 +240,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="TotalMassAverageVelocityTracker.GeometrySelectionString"></a>
 
-### *property* TotalMassAverageVelocityTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -248,7 +248,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="TotalMassAverageVelocityTracker.Images"></a>
 
-### *property* TotalMassAverageVelocityTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -272,7 +272,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TotalMassAverageVelocityTracker.IsSolved"></a>
 
-### *property* TotalMassAverageVelocityTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -280,7 +280,7 @@ Gets the IsSolved.
 
 <a id="TotalMassAverageVelocityTracker.LoadStepNumber"></a>
 
-### *property* TotalMassAverageVelocityTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -336,7 +336,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="TotalMassAverageVelocityTracker.NormalOrientation"></a>
 
-### *property* TotalMassAverageVelocityTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -352,7 +352,7 @@ Gets the PhaseAngle.
 
 <a id="TotalMassAverageVelocityTracker.Properties"></a>
 
-### *property* TotalMassAverageVelocityTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -384,7 +384,7 @@ Gets or sets the RequestedFrequency.
 
 <a id="TotalMassAverageVelocityTracker.ResultChartType"></a>
 
-### *property* TotalMassAverageVelocityTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
@@ -392,7 +392,7 @@ Gets the ResultChartType.
 
 <a id="TotalMassAverageVelocityTracker.SectorNumber"></a>
 
-### *property* TotalMassAverageVelocityTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -400,7 +400,7 @@ Gets or sets the SectorNumber.
 
 <a id="TotalMassAverageVelocityTracker.ShearOrientation"></a>
 
-### *property* TotalMassAverageVelocityTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
@@ -408,7 +408,7 @@ Gets or sets the ShearOrientation.
 
 <a id="TotalMassAverageVelocityTracker.SpatialResolution"></a>
 
-### *property* TotalMassAverageVelocityTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -424,7 +424,7 @@ Gets or sets the Spring.
 
 <a id="TotalMassAverageVelocityTracker.StressStrainType"></a>
 
-### *property* TotalMassAverageVelocityTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -432,7 +432,7 @@ Gets or sets the StressStrainType.
 
 <a id="TotalMassAverageVelocityTracker.Suppressed"></a>
 
-### *property* TotalMassAverageVelocityTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -440,7 +440,7 @@ Gets or sets the Suppressed.
 
 <a id="TotalMassAverageVelocityTracker.TimeHistoryDisplay"></a>
 
-### *property* TotalMassAverageVelocityTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeHistoryDisplay.
 
@@ -448,7 +448,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="TotalMassAverageVelocityTracker.UseParentFrequencyRange"></a>
 
-### *property* TotalMassAverageVelocityTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -456,7 +456,7 @@ Gets or sets the UseParentFrequencyRange.
 
 <a id="TotalMassAverageVelocityTracker.VelocityType"></a>
 
-### *property* TotalMassAverageVelocityTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VelocityType.
 
@@ -464,7 +464,7 @@ Gets or sets the VelocityType.
 
 <a id="TotalMassAverageVelocityTracker.VisibleProperties"></a>
 
-### *property* TotalMassAverageVelocityTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -472,7 +472,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="TotalMassAverageVelocityTracker.XAxisValues"></a>
 
-### *property* TotalMassAverageVelocityTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalMassAverageVelocityTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XAxisValues.
 
@@ -500,7 +500,7 @@ Creates a new child Comment.
 
 <a id="TotalMassAverageVelocityTracker.AddImage"></a>
 
-### TotalMassAverageVelocityTracker.AddImage(filePath: System.String)
+### TotalMassAverageVelocityTracker.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -528,7 +528,7 @@ Copies all visible properties from this object to another.
 
 <a id="TotalMassAverageVelocityTracker.CreateParameter"></a>
 
-### TotalMassAverageVelocityTracker.CreateParameter(propName: System.String)
+### TotalMassAverageVelocityTracker.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -560,7 +560,7 @@ Run the EvaluateAllResults action.
 
 <a id="TotalMassAverageVelocityTracker.ExportAnimation"></a>
 
-### TotalMassAverageVelocityTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TotalMassAverageVelocityTracker.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -568,7 +568,7 @@ Run the ExportAnimation action.
 
 <a id="TotalMassAverageVelocityTracker.GetChildren"></a>
 
-### TotalMassAverageVelocityTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TotalMassAverageVelocityTracker.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -576,7 +576,7 @@ Gets the list of children, filtered by type.
 
 <a id="TotalMassAverageVelocityTracker.GetParameter"></a>
 
-### TotalMassAverageVelocityTracker.GetParameter(propName: System.String)
+### TotalMassAverageVelocityTracker.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -600,7 +600,7 @@ Run the GroupSimilarObjects action.
 
 <a id="TotalMassAverageVelocityTracker.PropertyByAPIName"></a>
 
-### TotalMassAverageVelocityTracker.PropertyByAPIName(name: System.String)
+### TotalMassAverageVelocityTracker.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -611,7 +611,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TotalMassAverageVelocityTracker.PropertyByName"></a>
 
-### TotalMassAverageVelocityTracker.PropertyByName(name: System.String)
+### TotalMassAverageVelocityTracker.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -619,7 +619,7 @@ Get a property by its unique name.
 
 <a id="TotalMassAverageVelocityTracker.RemoveParameter"></a>
 
-### TotalMassAverageVelocityTracker.RemoveParameter(propName: System.String)
+### TotalMassAverageVelocityTracker.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

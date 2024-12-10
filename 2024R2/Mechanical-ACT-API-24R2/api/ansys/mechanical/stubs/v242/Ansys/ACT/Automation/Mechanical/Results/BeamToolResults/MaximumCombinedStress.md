@@ -17,7 +17,7 @@ Defines a MaximumCombinedStress.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MaximumCombinedStress.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#MaximumCombinedStress.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#MaximumCombinedStress.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a MaximumCombinedStress.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#MaximumCombinedStress.Average)                                                     | Gets the Average.                                                      |
 | [`BeamToolStressResultType`](#MaximumCombinedStress.BeamToolStressResultType)                   | Gets or sets the BeamToolStressResultType.                             |
 | [`By`](#MaximumCombinedStress.By)                                                               | Gets or sets the By.                                                   |
@@ -97,14 +97,14 @@ Defines a MaximumCombinedStress.
 | [`Substep`](#MaximumCombinedStress.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#MaximumCombinedStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#MaximumCombinedStress.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#MaximumCombinedStress.SurfaceCoating)                                                                                                                                                 | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#MaximumCombinedStress.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#MaximumCombinedStress.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#MaximumCombinedStress.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#MaximumCombinedStress.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#MaximumCombinedStress.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#MaximumCombinedStress.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#MaximumCombinedStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#MaximumCombinedStress.WaterfallShowTextOnMosaic)                                                                                                                           | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#MaximumCombinedStress.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -136,7 +136,7 @@ Gets or sets the By.
 
 <a id="MaximumCombinedStress.CalculateTimeHistory"></a>
 
-### *property* MaximumCombinedStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -144,7 +144,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="MaximumCombinedStress.Children"></a>
 
-### *property* MaximumCombinedStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -152,7 +152,7 @@ Gets the list of children.
 
 <a id="MaximumCombinedStress.CombinationNumber"></a>
 
-### *property* MaximumCombinedStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -160,7 +160,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="MaximumCombinedStress.Comments"></a>
 
-### *property* MaximumCombinedStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -168,7 +168,7 @@ Gets the list of associated comments.
 
 <a id="MaximumCombinedStress.CoordinateSystem"></a>
 
-### *property* MaximumCombinedStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -178,7 +178,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="MaximumCombinedStress.CrackFrontNumber"></a>
 
-### *property* MaximumCombinedStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -218,7 +218,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="MaximumCombinedStress.Figures"></a>
 
-### *property* MaximumCombinedStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -226,7 +226,7 @@ Gets the list of associated figures.
 
 <a id="MaximumCombinedStress.GlobalIDs"></a>
 
-### *property* MaximumCombinedStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -242,7 +242,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="MaximumCombinedStress.Identifier"></a>
 
-### *property* MaximumCombinedStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -250,7 +250,7 @@ Gets or sets the Identifier.
 
 <a id="MaximumCombinedStress.Images"></a>
 
-### *property* MaximumCombinedStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -266,7 +266,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MaximumCombinedStress.IsSolved"></a>
 
-### *property* MaximumCombinedStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -282,7 +282,7 @@ Gets or sets the ItemType.
 
 <a id="MaximumCombinedStress.IterationNumber"></a>
 
-### *property* MaximumCombinedStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -290,7 +290,7 @@ Gets the IterationNumber.
 
 <a id="MaximumCombinedStress.LoadStep"></a>
 
-### *property* MaximumCombinedStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -298,7 +298,7 @@ Gets the LoadStep.
 
 <a id="MaximumCombinedStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MaximumCombinedStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -306,7 +306,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="MaximumCombinedStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MaximumCombinedStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -314,7 +314,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="MaximumCombinedStress.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* MaximumCombinedStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -322,7 +322,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="MaximumCombinedStress.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* MaximumCombinedStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -330,7 +330,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="MaximumCombinedStress.LoadStepNumber"></a>
 
-### *property* MaximumCombinedStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -354,7 +354,7 @@ Gets the Maximum.
 
 <a id="MaximumCombinedStress.MaximumOccursOn"></a>
 
-### *property* MaximumCombinedStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -386,7 +386,7 @@ Gets the Minimum.
 
 <a id="MaximumCombinedStress.MinimumOccursOn"></a>
 
-### *property* MaximumCombinedStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -410,7 +410,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="MaximumCombinedStress.NamedSelections"></a>
 
-### *property* MaximumCombinedStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -434,7 +434,7 @@ Gets the result table.
 
 <a id="MaximumCombinedStress.Properties"></a>
 
-### *property* MaximumCombinedStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -450,7 +450,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MaximumCombinedStress.SetNumber"></a>
 
-### *property* MaximumCombinedStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -466,7 +466,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="MaximumCombinedStress.SolverComponentIDs"></a>
 
-### *property* MaximumCombinedStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -474,7 +474,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="MaximumCombinedStress.Substep"></a>
 
-### *property* MaximumCombinedStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -482,7 +482,7 @@ Gets the Substep.
 
 <a id="MaximumCombinedStress.Suppressed"></a>
 
-### *property* MaximumCombinedStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -546,7 +546,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="MaximumCombinedStress.VisibleProperties"></a>
 
-### *property* MaximumCombinedStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -554,7 +554,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="MaximumCombinedStress.WaterfallShowTextOnMosaic"></a>
 
-### *property* MaximumCombinedStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -606,7 +606,7 @@ Creates a new child Figure.
 
 <a id="MaximumCombinedStress.AddImage"></a>
 
-### MaximumCombinedStress.AddImage(filePath: System.String)
+### MaximumCombinedStress.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -634,7 +634,7 @@ Copies all visible properties from this object to another.
 
 <a id="MaximumCombinedStress.CreateParameter"></a>
 
-### MaximumCombinedStress.CreateParameter(propName: System.String)
+### MaximumCombinedStress.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -682,7 +682,7 @@ Run the EvaluateAllResults action.
 
 <a id="MaximumCombinedStress.ExportAnimation"></a>
 
-### MaximumCombinedStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### MaximumCombinedStress.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -690,7 +690,7 @@ Run the ExportAnimation action.
 
 <a id="MaximumCombinedStress.ExportToTextFile"></a>
 
-### MaximumCombinedStress.ExportToTextFile(filePath: System.String)
+### MaximumCombinedStress.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -706,7 +706,7 @@ Run the FetchRemoteResult action.
 
 <a id="MaximumCombinedStress.GetChildren"></a>
 
-### MaximumCombinedStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MaximumCombinedStress.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -714,7 +714,7 @@ Gets the list of children, filtered by type.
 
 <a id="MaximumCombinedStress.GetParameter"></a>
 
-### MaximumCombinedStress.GetParameter(propName: System.String)
+### MaximumCombinedStress.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -746,7 +746,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="MaximumCombinedStress.PropertyByAPIName"></a>
 
-### MaximumCombinedStress.PropertyByAPIName(name: System.String)
+### MaximumCombinedStress.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -757,7 +757,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MaximumCombinedStress.PropertyByName"></a>
 
-### MaximumCombinedStress.PropertyByName(name: System.String)
+### MaximumCombinedStress.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -765,7 +765,7 @@ Get a property by its unique name.
 
 <a id="MaximumCombinedStress.RemoveParameter"></a>
 
-### MaximumCombinedStress.RemoveParameter(propName: System.String)
+### MaximumCombinedStress.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

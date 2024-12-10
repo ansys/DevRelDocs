@@ -30,7 +30,7 @@ Represents a CMBLOCK command.
 
 <a id="CMBlockCommand.Cmname"></a>
 
-### *property* CMBlockCommand.Cmname *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMBlockCommand.Cmname *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the component name.
 
@@ -38,7 +38,7 @@ Gets the component name.
 
 <a id="CMBlockCommand.Elements"></a>
 
-### *property* CMBlockCommand.Elements *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMBlockCommand.Elements *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the type of entities.
 
@@ -46,7 +46,7 @@ Gets the type of entities.
 
 <a id="CMBlockCommand.Index"></a>
 
-### *property* CMBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMBlockCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -54,7 +54,7 @@ Gets the command index.
 
 <a id="CMBlockCommand.Name"></a>
 
-### *property* CMBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMBlockCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -62,7 +62,7 @@ Gets the command name.
 
 <a id="CMBlockCommand.Type"></a>
 
-### *property* CMBlockCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMBlockCommand.Type *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the type of entities (node or elem).
 

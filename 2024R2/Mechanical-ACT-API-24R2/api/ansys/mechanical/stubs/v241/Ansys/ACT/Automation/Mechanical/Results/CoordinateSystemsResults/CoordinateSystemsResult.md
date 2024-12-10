@@ -121,7 +121,7 @@ Defines a CoordinateSystemsResult.
 
 <a id="CoordinateSystemsResult.Amplitude"></a>
 
-### *property* CoordinateSystemsResult.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -137,7 +137,7 @@ Gets the Average.
 
 <a id="CoordinateSystemsResult.By"></a>
 
-### *property* CoordinateSystemsResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -145,7 +145,7 @@ Gets or sets the By.
 
 <a id="CoordinateSystemsResult.CalculateTimeHistory"></a>
 
-### *property* CoordinateSystemsResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -153,7 +153,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="CoordinateSystemsResult.Children"></a>
 
-### *property* CoordinateSystemsResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -161,7 +161,7 @@ Gets the list of children.
 
 <a id="CoordinateSystemsResult.CombinationNumber"></a>
 
-### *property* CoordinateSystemsResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -169,7 +169,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="CoordinateSystemsResult.Comments"></a>
 
-### *property* CoordinateSystemsResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -187,7 +187,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="CoordinateSystemsResult.CrackFrontNumber"></a>
 
-### *property* CoordinateSystemsResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -195,7 +195,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="CoordinateSystemsResult.DataModelObjectCategory"></a>
 
-### *property* CoordinateSystemsResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -203,7 +203,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CoordinateSystemsResult.DisplayOption"></a>
 
-### *property* CoordinateSystemsResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -219,7 +219,7 @@ Gets or sets the DisplayTime.
 
 <a id="CoordinateSystemsResult.DpfEvaluation"></a>
 
-### *property* CoordinateSystemsResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -227,7 +227,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="CoordinateSystemsResult.Figures"></a>
 
-### *property* CoordinateSystemsResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -243,7 +243,7 @@ Gets or sets the Frequency.
 
 <a id="CoordinateSystemsResult.GlobalIDs"></a>
 
-### *property* CoordinateSystemsResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -251,7 +251,7 @@ Gets or sets the GlobalIDs.
 
 <a id="CoordinateSystemsResult.GraphControlsXAxis"></a>
 
-### *property* CoordinateSystemsResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -259,7 +259,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="CoordinateSystemsResult.Identifier"></a>
 
-### *property* CoordinateSystemsResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -267,7 +267,7 @@ Gets or sets the Identifier.
 
 <a id="CoordinateSystemsResult.Images"></a>
 
-### *property* CoordinateSystemsResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -283,7 +283,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CoordinateSystemsResult.IsSolved"></a>
 
-### *property* CoordinateSystemsResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -291,7 +291,7 @@ Gets the IsSolved.
 
 <a id="CoordinateSystemsResult.ItemType"></a>
 
-### *property* CoordinateSystemsResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -299,7 +299,7 @@ Gets or sets the ItemType.
 
 <a id="CoordinateSystemsResult.IterationNumber"></a>
 
-### *property* CoordinateSystemsResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -307,7 +307,7 @@ Gets the IterationNumber.
 
 <a id="CoordinateSystemsResult.LoadMultiplier"></a>
 
-### *property* CoordinateSystemsResult.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -315,7 +315,7 @@ Gets the LoadMultiplier.
 
 <a id="CoordinateSystemsResult.LoadStep"></a>
 
-### *property* CoordinateSystemsResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -323,7 +323,7 @@ Gets the LoadStep.
 
 <a id="CoordinateSystemsResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* CoordinateSystemsResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -331,7 +331,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="CoordinateSystemsResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* CoordinateSystemsResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -339,7 +339,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="CoordinateSystemsResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* CoordinateSystemsResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -347,7 +347,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="CoordinateSystemsResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* CoordinateSystemsResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -355,7 +355,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="CoordinateSystemsResult.LoadStepNumber"></a>
 
-### *property* CoordinateSystemsResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -379,7 +379,7 @@ Gets the Maximum.
 
 <a id="CoordinateSystemsResult.MaximumOccursOn"></a>
 
-### *property* CoordinateSystemsResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -411,7 +411,7 @@ Gets the Minimum.
 
 <a id="CoordinateSystemsResult.MinimumOccursOn"></a>
 
-### *property* CoordinateSystemsResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -435,7 +435,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="CoordinateSystemsResult.Mode"></a>
 
-### *property* CoordinateSystemsResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -443,7 +443,7 @@ Gets or sets the Mode.
 
 <a id="CoordinateSystemsResult.NamedSelections"></a>
 
-### *property* CoordinateSystemsResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -451,7 +451,7 @@ Gets or sets the NamedSelections.
 
 <a id="CoordinateSystemsResult.Path"></a>
 
-### *property* CoordinateSystemsResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -467,7 +467,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="CoordinateSystemsResult.PlotData"></a>
 
-### *property* CoordinateSystemsResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -475,7 +475,7 @@ Gets the result table.
 
 <a id="CoordinateSystemsResult.Ply"></a>
 
-### *property* CoordinateSystemsResult.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -483,7 +483,7 @@ Gets or sets the Ply selection.
 
 <a id="CoordinateSystemsResult.Position"></a>
 
-### *property* CoordinateSystemsResult.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Position.
 
@@ -491,7 +491,7 @@ Gets or sets the Position.
 
 <a id="CoordinateSystemsResult.Properties"></a>
 
-### *property* CoordinateSystemsResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -499,7 +499,7 @@ Gets the list of properties for this object.
 
 <a id="CoordinateSystemsResult.ScaleFactor"></a>
 
-### *property* CoordinateSystemsResult.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactor.
 
@@ -507,7 +507,7 @@ Gets or sets the ScaleFactor.
 
 <a id="CoordinateSystemsResult.ScaleFactorValue"></a>
 
-### *property* CoordinateSystemsResult.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -515,7 +515,7 @@ Gets or sets the ScaleFactorValue.
 
 <a id="CoordinateSystemsResult.ScopingMethod"></a>
 
-### *property* CoordinateSystemsResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -523,7 +523,7 @@ Gets or sets the ScopingMethod.
 
 <a id="CoordinateSystemsResult.SetNumber"></a>
 
-### *property* CoordinateSystemsResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -531,7 +531,7 @@ Gets or sets the Set Number.
 
 <a id="CoordinateSystemsResult.SolutionCombinationDriver"></a>
 
-### *property* CoordinateSystemsResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -539,7 +539,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="CoordinateSystemsResult.SolverComponentIDs"></a>
 
-### *property* CoordinateSystemsResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -547,7 +547,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="CoordinateSystemsResult.SubScopeBy"></a>
 
-### *property* CoordinateSystemsResult.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SubScopeBy.
 
@@ -555,7 +555,7 @@ Gets or sets the SubScopeBy.
 
 <a id="CoordinateSystemsResult.Substep"></a>
 
-### *property* CoordinateSystemsResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -563,7 +563,7 @@ Gets the Substep.
 
 <a id="CoordinateSystemsResult.Suppressed"></a>
 
-### *property* CoordinateSystemsResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -571,7 +571,7 @@ Gets or sets the Suppressed.
 
 <a id="CoordinateSystemsResult.Surface"></a>
 
-### *property* CoordinateSystemsResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -627,7 +627,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="CoordinateSystemsResult.VisibleProperties"></a>
 
-### *property* CoordinateSystemsResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -635,7 +635,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="CoordinateSystemsResult.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* CoordinateSystemsResult.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystemsResult.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -687,7 +687,7 @@ Creates a new child Figure.
 
 <a id="CoordinateSystemsResult.AddImage"></a>
 
-### CoordinateSystemsResult.AddImage(filePath: System.String)
+### CoordinateSystemsResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -715,7 +715,7 @@ Copies all visible properties from this object to another.
 
 <a id="CoordinateSystemsResult.CreateParameter"></a>
 
-### CoordinateSystemsResult.CreateParameter(propName: System.String)
+### CoordinateSystemsResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -763,7 +763,7 @@ Run the EvaluateAllResults action.
 
 <a id="CoordinateSystemsResult.ExportAnimation"></a>
 
-### CoordinateSystemsResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### CoordinateSystemsResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -771,7 +771,7 @@ Run the ExportAnimation action.
 
 <a id="CoordinateSystemsResult.ExportToTextFile"></a>
 
-### CoordinateSystemsResult.ExportToTextFile(filePath: System.String)
+### CoordinateSystemsResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -787,7 +787,7 @@ Run the FetchRemoteResult action.
 
 <a id="CoordinateSystemsResult.GetChildren"></a>
 
-### CoordinateSystemsResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CoordinateSystemsResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -795,7 +795,7 @@ Gets the list of children, filtered by type.
 
 <a id="CoordinateSystemsResult.GetParameter"></a>
 
-### CoordinateSystemsResult.GetParameter(propName: System.String)
+### CoordinateSystemsResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -827,7 +827,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="CoordinateSystemsResult.PropertyByAPIName"></a>
 
-### CoordinateSystemsResult.PropertyByAPIName(name: System.String)
+### CoordinateSystemsResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -838,7 +838,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CoordinateSystemsResult.PropertyByName"></a>
 
-### CoordinateSystemsResult.PropertyByName(name: System.String)
+### CoordinateSystemsResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -846,7 +846,7 @@ Get a property by its unique name.
 
 <a id="CoordinateSystemsResult.RemoveParameter"></a>
 
-### CoordinateSystemsResult.RemoveParameter(propName: System.String)
+### CoordinateSystemsResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

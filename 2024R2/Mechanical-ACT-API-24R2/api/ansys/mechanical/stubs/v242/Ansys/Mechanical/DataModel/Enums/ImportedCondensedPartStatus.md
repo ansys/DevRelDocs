@@ -17,7 +17,7 @@ Specifies the ImportedCondensedPartStatus.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------------------- |
 | [`FileSelectionRequired`](#ImportedCondensedPartStatus.FileSelectionRequired) |
 | [`ImportFailed`](#ImportedCondensedPartStatus.ImportFailed) |
 | [`ImportRequired`](#ImportedCondensedPartStatus.ImportRequired) |

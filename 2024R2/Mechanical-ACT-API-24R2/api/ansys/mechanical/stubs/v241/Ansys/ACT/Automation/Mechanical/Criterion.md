@@ -17,7 +17,7 @@ Defines a Criterion.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Criterion.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Criterion.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Criterion.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a Criterion.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Criterion.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Criterion.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Criterion.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -55,7 +55,7 @@ Defines a Criterion.
 
 <a id="Criterion.Children"></a>
 
-### *property* Criterion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Criterion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -63,7 +63,7 @@ Gets the list of children.
 
 <a id="Criterion.Comments"></a>
 
-### *property* Criterion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Criterion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -71,7 +71,7 @@ Gets the list of associated comments.
 
 <a id="Criterion.DataModelObjectCategory"></a>
 
-### *property* Criterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Criterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -79,7 +79,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Criterion.Figures"></a>
 
-### *property* Criterion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Criterion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -87,7 +87,7 @@ Gets the list of associated figures.
 
 <a id="Criterion.Images"></a>
 
-### *property* Criterion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Criterion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -103,7 +103,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Criterion.Properties"></a>
 
-### *property* Criterion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Criterion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -111,7 +111,7 @@ Gets the list of properties for this object.
 
 <a id="Criterion.ReadOnly"></a>
 
-### *property* Criterion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Criterion.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -119,7 +119,7 @@ Gets or sets the ReadOnly.
 
 <a id="Criterion.Suppressed"></a>
 
-### *property* Criterion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Criterion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -127,7 +127,7 @@ Gets or sets the Suppressed.
 
 <a id="Criterion.VisibleProperties"></a>
 
-### *property* Criterion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Criterion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -163,7 +163,7 @@ Creates a new child Figure.
 
 <a id="Criterion.AddImage"></a>
 
-### Criterion.AddImage(filePath: System.String)
+### Criterion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -183,7 +183,7 @@ Copies all visible properties from this object to another.
 
 <a id="Criterion.CreateParameter"></a>
 
-### Criterion.CreateParameter(propName: System.String)
+### Criterion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -207,7 +207,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Criterion.GetChildren"></a>
 
-### Criterion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Criterion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -215,7 +215,7 @@ Gets the list of children, filtered by type.
 
 <a id="Criterion.GetParameter"></a>
 
-### Criterion.GetParameter(propName: System.String)
+### Criterion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -239,7 +239,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Criterion.PropertyByAPIName"></a>
 
-### Criterion.PropertyByAPIName(name: System.String)
+### Criterion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -250,7 +250,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Criterion.PropertyByName"></a>
 
-### Criterion.PropertyByName(name: System.String)
+### Criterion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -258,7 +258,7 @@ Get a property by its unique name.
 
 <a id="Criterion.RemoveParameter"></a>
 
-### Criterion.RemoveParameter(propName: System.String)
+### Criterion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

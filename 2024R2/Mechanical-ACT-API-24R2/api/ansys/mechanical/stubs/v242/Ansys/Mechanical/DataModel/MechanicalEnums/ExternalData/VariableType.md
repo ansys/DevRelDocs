@@ -18,7 +18,7 @@ T:Ansys.Mechanical.Interfaces.IDataSeries implementation “Ansys.ACT.Automation
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`BodyForceDensity`](#VariableType.BodyForceDensity) |
 | [`Displacement`](#VariableType.Displacement) |
 | [`ElementId`](#VariableType.ElementId) |

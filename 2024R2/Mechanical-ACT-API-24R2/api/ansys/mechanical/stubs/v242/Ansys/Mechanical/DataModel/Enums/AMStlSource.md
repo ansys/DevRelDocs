@@ -17,7 +17,7 @@ Specifies the AMStlSource.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`ConstructionGeometry`](#AMStlSource.ConstructionGeometry) |
 | [`File`](#AMStlSource.File) |
 

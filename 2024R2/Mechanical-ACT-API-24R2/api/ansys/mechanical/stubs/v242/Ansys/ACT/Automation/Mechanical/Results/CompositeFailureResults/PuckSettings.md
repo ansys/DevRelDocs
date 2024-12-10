@@ -51,7 +51,7 @@ Defines the configuration for the Puck failure criterion for reinforced material
 
 <a id="PuckSettings.ConsiderInterFiberParallelStresses"></a>
 
-### *property* PuckSettings.ConsiderInterFiberParallelStresses *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.ConsiderInterFiberParallelStresses *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether inter-fiber failure will include the influence of the fiber parallel stresses.
 
@@ -59,7 +59,7 @@ Gets or sets whether inter-fiber failure will include the influence of the fiber
 
 <a id="PuckSettings.DegradationInitiationFactor"></a>
 
-### *property* PuckSettings.DegradationInitiationFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.DegradationInitiationFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the degradation initiation factor s (0 < s < 1).
 
@@ -67,7 +67,7 @@ Gets or sets the degradation initiation factor s (0 < s < 1).
 
 <a id="PuckSettings.DegradationResidualStrengthFactor"></a>
 
-### *property* PuckSettings.DegradationResidualStrengthFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.DegradationResidualStrengthFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the degradation residual strength factor M (0 < M < 1).
 
@@ -75,7 +75,7 @@ Gets or sets the degradation residual strength factor M (0 < M < 1).
 
 <a id="PuckSettings.DelaminationWeightingFactor"></a>
 
-### *property* PuckSettings.DelaminationWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.DelaminationWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the delamination (pd) evaluation.
 
@@ -83,7 +83,7 @@ Gets or sets the weighting factor for the delamination (pd) evaluation.
 
 <a id="PuckSettings.EvaluateDelamination"></a>
 
-### *property* PuckSettings.EvaluateDelamination *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.EvaluateDelamination *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether delamination is evaluated. Only applies when three-dimensional
 : evaluation is selected. The corresponding failure label is ‘pd’.
@@ -92,7 +92,7 @@ Gets or sets whether delamination is evaluated. Only applies when three-dimensio
 
 <a id="PuckSettings.EvaluateFiberFailure"></a>
 
-### *property* PuckSettings.EvaluateFiberFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.EvaluateFiberFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether fiber failure (pf) is evaluated. The corresponding failure label is ‘pf’.
 
@@ -100,7 +100,7 @@ Gets or sets whether fiber failure (pf) is evaluated. The corresponding failure 
 
 <a id="PuckSettings.EvaluateMatrixCompressionFailure"></a>
 
-### *property* PuckSettings.EvaluateMatrixCompressionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.EvaluateMatrixCompressionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether matrix compression failure is evaluated. The corresponding failure label is ‘pmB’.
 
@@ -108,7 +108,7 @@ Gets or sets whether matrix compression failure is evaluated. The corresponding 
 
 <a id="PuckSettings.EvaluateMatrixShearFailure"></a>
 
-### *property* PuckSettings.EvaluateMatrixShearFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.EvaluateMatrixShearFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether matrix shear failure is evaluated. The corresponding failure label is ‘pmC’.
 
@@ -116,7 +116,7 @@ Gets or sets whether matrix shear failure is evaluated. The corresponding failur
 
 <a id="PuckSettings.EvaluateMatrixTensionFailure"></a>
 
-### *property* PuckSettings.EvaluateMatrixTensionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.EvaluateMatrixTensionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether matrix tension failure is evaluated. The corresponding failure label is ‘pmA’.
 
@@ -124,7 +124,7 @@ Gets or sets whether matrix tension failure is evaluated. The corresponding fail
 
 <a id="PuckSettings.FiberFailureWeightingFactor"></a>
 
-### *property* PuckSettings.FiberFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.FiberFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the fiber failure evaluation.
 
@@ -140,7 +140,7 @@ Gets or sets whether the simplified, 2D, or 3D Puck formulation is used.
 
 <a id="PuckSettings.InclinationFactorTwoOneNegative"></a>
 
-### *property* PuckSettings.InclinationFactorTwoOneNegative *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.InclinationFactorTwoOneNegative *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the p21(-) Puck constant.
 
@@ -148,7 +148,7 @@ Gets or sets the p21(-) Puck constant.
 
 <a id="PuckSettings.InclinationFactorTwoOnePositive"></a>
 
-### *property* PuckSettings.InclinationFactorTwoOnePositive *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.InclinationFactorTwoOnePositive *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the p21(+) Puck constant.
 
@@ -156,7 +156,7 @@ Gets or sets the p21(+) Puck constant.
 
 <a id="PuckSettings.InclinationFactorTwoTwoNegative"></a>
 
-### *property* PuckSettings.InclinationFactorTwoTwoNegative *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.InclinationFactorTwoTwoNegative *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the p22(-) Puck constant.
 
@@ -164,7 +164,7 @@ Gets or sets the p22(-) Puck constant.
 
 <a id="PuckSettings.InclinationFactorTwoTwoPositive"></a>
 
-### *property* PuckSettings.InclinationFactorTwoTwoPositive *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.InclinationFactorTwoTwoPositive *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the p22(+) Puck constant.
 
@@ -172,7 +172,7 @@ Gets or sets the p22(+) Puck constant.
 
 <a id="PuckSettings.InterfaceWeakeningFactor"></a>
 
-### *property* PuckSettings.InterfaceWeakeningFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.InterfaceWeakeningFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the interface weakening factor.
 
@@ -180,7 +180,7 @@ Gets or sets the interface weakening factor.
 
 <a id="PuckSettings.MatrixCompressionFailureWeightingFactor"></a>
 
-### *property* PuckSettings.MatrixCompressionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.MatrixCompressionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the matrix compression (pmB) failure evaluation.
 
@@ -188,7 +188,7 @@ Gets or sets the weighting factor for the matrix compression (pmB) failure evalu
 
 <a id="PuckSettings.MatrixShearFailureWeightingFactor"></a>
 
-### *property* PuckSettings.MatrixShearFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.MatrixShearFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the matrix shear (pmC) failure evaluation.
 
@@ -196,7 +196,7 @@ Gets or sets the weighting factor for the matrix shear (pmC) failure evaluation.
 
 <a id="PuckSettings.MatrixTensionFailureWeightingFactor"></a>
 
-### *property* PuckSettings.MatrixTensionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.MatrixTensionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the matrix tension (pmA) failure evaluation.
 
@@ -204,7 +204,7 @@ Gets or sets the weighting factor for the matrix tension (pmA) failure evaluatio
 
 <a id="PuckSettings.OverrideMaterial"></a>
 
-### *property* PuckSettings.OverrideMaterial *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PuckSettings.OverrideMaterial *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the global Puck constants are used overriding material-specific constants.
 

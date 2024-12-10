@@ -17,7 +17,7 @@ Interface for edges created by ConstructionLine.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------|--------------------------------|
+|-----------------------------|--------------------------------|
 | [`Length`](#IEdge.Length)   | Get the length of this edge.   |
 
 <a id="property-detail"></a>

@@ -58,7 +58,7 @@ Defines a AcousticRigidWall.
 
 <a id="AcousticRigidWall.Children"></a>
 
-### *property* AcousticRigidWall.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRigidWall.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -66,7 +66,7 @@ Gets the list of children.
 
 <a id="AcousticRigidWall.Comments"></a>
 
-### *property* AcousticRigidWall.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRigidWall.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -82,7 +82,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticRigidWall.Figures"></a>
 
-### *property* AcousticRigidWall.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRigidWall.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -90,7 +90,7 @@ Gets the list of associated figures.
 
 <a id="AcousticRigidWall.Images"></a>
 
-### *property* AcousticRigidWall.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRigidWall.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -114,7 +114,7 @@ Gets or sets the Location.
 
 <a id="AcousticRigidWall.Properties"></a>
 
-### *property* AcousticRigidWall.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRigidWall.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -122,7 +122,7 @@ Gets the list of properties for this object.
 
 <a id="AcousticRigidWall.ReadOnly"></a>
 
-### *property* AcousticRigidWall.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRigidWall.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -130,7 +130,7 @@ Gets or sets the ReadOnly.
 
 <a id="AcousticRigidWall.SharedRefBody"></a>
 
-### *property* AcousticRigidWall.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRigidWall.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -138,7 +138,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticRigidWall.Suppressed"></a>
 
-### *property* AcousticRigidWall.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRigidWall.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -146,7 +146,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticRigidWall.VisibleProperties"></a>
 
-### *property* AcousticRigidWall.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRigidWall.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -182,7 +182,7 @@ Creates a new child Figure.
 
 <a id="AcousticRigidWall.AddImage"></a>
 
-### AcousticRigidWall.AddImage(filePath: System.String)
+### AcousticRigidWall.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -202,7 +202,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticRigidWall.CreateParameter"></a>
 
-### AcousticRigidWall.CreateParameter(propName: System.String)
+### AcousticRigidWall.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -226,7 +226,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticRigidWall.GetChildren"></a>
 
-### AcousticRigidWall.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticRigidWall.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -234,7 +234,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticRigidWall.GetParameter"></a>
 
-### AcousticRigidWall.GetParameter(propName: System.String)
+### AcousticRigidWall.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -266,7 +266,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticRigidWall.PropertyByAPIName"></a>
 
-### AcousticRigidWall.PropertyByAPIName(name: System.String)
+### AcousticRigidWall.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -277,7 +277,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticRigidWall.PropertyByName"></a>
 
-### AcousticRigidWall.PropertyByName(name: System.String)
+### AcousticRigidWall.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -285,7 +285,7 @@ Get a property by its unique name.
 
 <a id="AcousticRigidWall.RemoveParameter"></a>
 
-### AcousticRigidWall.RemoveParameter(propName: System.String)
+### AcousticRigidWall.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

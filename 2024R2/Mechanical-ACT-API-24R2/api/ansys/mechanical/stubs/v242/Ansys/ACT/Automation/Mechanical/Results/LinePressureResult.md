@@ -17,7 +17,7 @@ Defines a LinePressureResult.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#LinePressureResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#LinePressureResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#LinePressureResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a LinePressureResult.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#LinePressureResult.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#LinePressureResult.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#LinePressureResult.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -97,14 +97,14 @@ Defines a LinePressureResult.
 | [`Substep`](#LinePressureResult.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#LinePressureResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#LinePressureResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#LinePressureResult.SurfaceCoating)                                                                                                                           | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#LinePressureResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#LinePressureResult.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#LinePressureResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#LinePressureResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#LinePressureResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#LinePressureResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#LinePressureResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#LinePressureResult.WaterfallShowTextOnMosaic)                                                                                                     | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#LinePressureResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -128,7 +128,7 @@ Gets or sets the By.
 
 <a id="LinePressureResult.CalculateTimeHistory"></a>
 
-### *property* LinePressureResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -136,7 +136,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="LinePressureResult.Children"></a>
 
-### *property* LinePressureResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -144,7 +144,7 @@ Gets the list of children.
 
 <a id="LinePressureResult.CombinationNumber"></a>
 
-### *property* LinePressureResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -152,7 +152,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="LinePressureResult.Comments"></a>
 
-### *property* LinePressureResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -160,7 +160,7 @@ Gets the list of associated comments.
 
 <a id="LinePressureResult.CoordinateSystem"></a>
 
-### *property* LinePressureResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -170,7 +170,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="LinePressureResult.CrackFrontNumber"></a>
 
-### *property* LinePressureResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -210,7 +210,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="LinePressureResult.Figures"></a>
 
-### *property* LinePressureResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -218,7 +218,7 @@ Gets the list of associated figures.
 
 <a id="LinePressureResult.GlobalIDs"></a>
 
-### *property* LinePressureResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -234,7 +234,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="LinePressureResult.Identifier"></a>
 
-### *property* LinePressureResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -242,7 +242,7 @@ Gets or sets the Identifier.
 
 <a id="LinePressureResult.Images"></a>
 
-### *property* LinePressureResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -258,7 +258,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LinePressureResult.IsSolved"></a>
 
-### *property* LinePressureResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -274,7 +274,7 @@ Gets or sets the ItemType.
 
 <a id="LinePressureResult.IterationNumber"></a>
 
-### *property* LinePressureResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -290,7 +290,7 @@ Gets or sets the LinePressureResultBasedOn.
 
 <a id="LinePressureResult.LoadStep"></a>
 
-### *property* LinePressureResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -298,7 +298,7 @@ Gets the LoadStep.
 
 <a id="LinePressureResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* LinePressureResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -306,7 +306,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="LinePressureResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* LinePressureResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -314,7 +314,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="LinePressureResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* LinePressureResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -322,7 +322,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="LinePressureResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* LinePressureResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -330,7 +330,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="LinePressureResult.LoadStepNumber"></a>
 
-### *property* LinePressureResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -354,7 +354,7 @@ Gets the Maximum.
 
 <a id="LinePressureResult.MaximumOccursOn"></a>
 
-### *property* LinePressureResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -386,7 +386,7 @@ Gets the Minimum.
 
 <a id="LinePressureResult.MinimumOccursOn"></a>
 
-### *property* LinePressureResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -410,7 +410,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="LinePressureResult.NamedSelections"></a>
 
-### *property* LinePressureResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -434,7 +434,7 @@ Gets the result table.
 
 <a id="LinePressureResult.Properties"></a>
 
-### *property* LinePressureResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -450,7 +450,7 @@ Gets or sets the ScopingMethod.
 
 <a id="LinePressureResult.SetNumber"></a>
 
-### *property* LinePressureResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -466,7 +466,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="LinePressureResult.SolverComponentIDs"></a>
 
-### *property* LinePressureResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -474,7 +474,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="LinePressureResult.Substep"></a>
 
-### *property* LinePressureResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -482,7 +482,7 @@ Gets the Substep.
 
 <a id="LinePressureResult.Suppressed"></a>
 
-### *property* LinePressureResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -546,7 +546,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="LinePressureResult.VisibleProperties"></a>
 
-### *property* LinePressureResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -554,7 +554,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="LinePressureResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* LinePressureResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinePressureResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -606,7 +606,7 @@ Creates a new child Figure.
 
 <a id="LinePressureResult.AddImage"></a>
 
-### LinePressureResult.AddImage(filePath: System.String)
+### LinePressureResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -634,7 +634,7 @@ Copies all visible properties from this object to another.
 
 <a id="LinePressureResult.CreateParameter"></a>
 
-### LinePressureResult.CreateParameter(propName: System.String)
+### LinePressureResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -682,7 +682,7 @@ Run the EvaluateAllResults action.
 
 <a id="LinePressureResult.ExportAnimation"></a>
 
-### LinePressureResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### LinePressureResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -690,7 +690,7 @@ Run the ExportAnimation action.
 
 <a id="LinePressureResult.ExportToTextFile"></a>
 
-### LinePressureResult.ExportToTextFile(filePath: System.String)
+### LinePressureResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -706,7 +706,7 @@ Run the FetchRemoteResult action.
 
 <a id="LinePressureResult.GetChildren"></a>
 
-### LinePressureResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LinePressureResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -714,7 +714,7 @@ Gets the list of children, filtered by type.
 
 <a id="LinePressureResult.GetParameter"></a>
 
-### LinePressureResult.GetParameter(propName: System.String)
+### LinePressureResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -746,7 +746,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="LinePressureResult.PropertyByAPIName"></a>
 
-### LinePressureResult.PropertyByAPIName(name: System.String)
+### LinePressureResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -757,7 +757,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LinePressureResult.PropertyByName"></a>
 
-### LinePressureResult.PropertyByName(name: System.String)
+### LinePressureResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -765,7 +765,7 @@ Get a property by its unique name.
 
 <a id="LinePressureResult.RemoveParameter"></a>
 
-### LinePressureResult.RemoveParameter(propName: System.String)
+### LinePressureResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

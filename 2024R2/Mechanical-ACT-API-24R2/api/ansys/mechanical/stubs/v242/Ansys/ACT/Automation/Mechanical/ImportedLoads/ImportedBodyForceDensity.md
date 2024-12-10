@@ -127,7 +127,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedBodyForceDensity.Children"></a>
 
-### *property* ImportedBodyForceDensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -135,7 +135,7 @@ Gets the list of children.
 
 <a id="ImportedBodyForceDensity.Comments"></a>
 
-### *property* ImportedBodyForceDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -143,7 +143,7 @@ Gets the list of associated comments.
 
 <a id="ImportedBodyForceDensity.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedBodyForceDensity.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -151,7 +151,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedBodyForceDensity.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedBodyForceDensity.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -159,7 +159,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedBodyForceDensity.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedBodyForceDensity.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -175,7 +175,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedBodyForceDensity.DisplayInteriorPoints"></a>
 
-### *property* ImportedBodyForceDensity.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -183,7 +183,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedBodyForceDensity.DisplayProjectionPlane"></a>
 
-### *property* ImportedBodyForceDensity.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -191,7 +191,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedBodyForceDensity.DisplaySourcePointIds"></a>
 
-### *property* ImportedBodyForceDensity.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -199,7 +199,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedBodyForceDensity.DisplaySourcePoints"></a>
 
-### *property* ImportedBodyForceDensity.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -207,7 +207,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedBodyForceDensity.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedBodyForceDensity.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -215,7 +215,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedBodyForceDensity.Figures"></a>
 
-### *property* ImportedBodyForceDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -223,7 +223,7 @@ Gets the list of associated figures.
 
 <a id="ImportedBodyForceDensity.Images"></a>
 
-### *property* ImportedBodyForceDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -287,7 +287,7 @@ LegendRange property.
 
 <a id="ImportedBodyForceDensity.Limit"></a>
 
-### *property* ImportedBodyForceDensity.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -303,7 +303,7 @@ Gets or sets the Location.
 
 <a id="ImportedBodyForceDensity.MappedNodesName"></a>
 
-### *property* ImportedBodyForceDensity.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -343,7 +343,7 @@ Method property.
 
 <a id="ImportedBodyForceDensity.NumberOfPoints"></a>
 
-### *property* ImportedBodyForceDensity.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -351,7 +351,7 @@ NumberOfPoints property.
 
 <a id="ImportedBodyForceDensity.OrientationRealignment"></a>
 
-### *property* ImportedBodyForceDensity.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -359,7 +359,7 @@ OrientationRealignment property.
 
 <a id="ImportedBodyForceDensity.OutsideDistanceCheck"></a>
 
-### *property* ImportedBodyForceDensity.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -367,7 +367,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedBodyForceDensity.OutsideNodesName"></a>
 
-### *property* ImportedBodyForceDensity.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -391,7 +391,7 @@ Pinball property.
 
 <a id="ImportedBodyForceDensity.Projection"></a>
 
-### *property* ImportedBodyForceDensity.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -399,7 +399,7 @@ Projection property.
 
 <a id="ImportedBodyForceDensity.Properties"></a>
 
-### *property* ImportedBodyForceDensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -415,7 +415,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedBodyForceDensity.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedBodyForceDensity.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -423,7 +423,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedBodyForceDensity.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedBodyForceDensity.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -431,7 +431,7 @@ RigidTransformTargetCoordinateSystem property.
 
 <a id="ImportedBodyForceDensity.SharedRefBody"></a>
 
-### *property* ImportedBodyForceDensity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -439,7 +439,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedBodyForceDensity.ShellThicknessFactor"></a>
 
-### *property* ImportedBodyForceDensity.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -463,7 +463,7 @@ SourceMinimum property.
 
 <a id="ImportedBodyForceDensity.Suppressed"></a>
 
-### *property* ImportedBodyForceDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -471,7 +471,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedBodyForceDensity.UnmappedNodesName"></a>
 
-### *property* ImportedBodyForceDensity.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -487,7 +487,7 @@ VariableType property.
 
 <a id="ImportedBodyForceDensity.VisibleProperties"></a>
 
-### *property* ImportedBodyForceDensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBodyForceDensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -531,7 +531,7 @@ Creates a new child Figure.
 
 <a id="ImportedBodyForceDensity.AddImage"></a>
 
-### ImportedBodyForceDensity.AddImage(filePath: System.String)
+### ImportedBodyForceDensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -567,7 +567,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedBodyForceDensity.CreateParameter"></a>
 
-### ImportedBodyForceDensity.CreateParameter(propName: System.String)
+### ImportedBodyForceDensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -591,7 +591,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedBodyForceDensity.ExportToTextFile"></a>
 
-### ImportedBodyForceDensity.ExportToTextFile(filePath: System.String)
+### ImportedBodyForceDensity.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -599,7 +599,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedBodyForceDensity.GetActivateAtLoadStep"></a>
 
-### ImportedBodyForceDensity.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedBodyForceDensity.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -607,7 +607,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedBodyForceDensity.GetChildren"></a>
 
-### ImportedBodyForceDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedBodyForceDensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -615,7 +615,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedBodyForceDensity.GetParameter"></a>
 
-### ImportedBodyForceDensity.GetParameter(propName: System.String)
+### ImportedBodyForceDensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -655,7 +655,7 @@ Run the ImportLoad action.
 
 <a id="ImportedBodyForceDensity.PropertyByAPIName"></a>
 
-### ImportedBodyForceDensity.PropertyByAPIName(name: System.String)
+### ImportedBodyForceDensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -666,7 +666,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedBodyForceDensity.PropertyByName"></a>
 
-### ImportedBodyForceDensity.PropertyByName(name: System.String)
+### ImportedBodyForceDensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -682,7 +682,7 @@ Reload the Imported Load’s setup from its associated configuration file (if av
 
 <a id="ImportedBodyForceDensity.RemoveParameter"></a>
 
-### ImportedBodyForceDensity.RemoveParameter(propName: System.String)
+### ImportedBodyForceDensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -690,7 +690,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedBodyForceDensity.SetActivateAtLoadStep"></a>
 
-### ImportedBodyForceDensity.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedBodyForceDensity.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

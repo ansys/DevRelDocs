@@ -17,7 +17,7 @@ Specifies the ManualContactTreatmentType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`Lumped`](#ManualContactTreatmentType.Lumped) |
 | [`Pairwise`](#ManualContactTreatmentType.Pairwise) |
 

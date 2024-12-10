@@ -17,7 +17,7 @@ ImportSettingsFactory interface.
 ### Constructors
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`GetSettingsForFormat`](#ImportSettingsFactory.GetSettingsForFormat)   | M:Ansys.Mechanical.ExternalData.ImportSettingsFactory.GetSettingsForFormat(Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) constructs and returns the correct settings class   |
 
 <a id="method-detail"></a>

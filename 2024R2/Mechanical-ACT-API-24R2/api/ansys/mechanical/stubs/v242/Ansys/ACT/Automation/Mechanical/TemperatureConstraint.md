@@ -17,7 +17,7 @@ Defines a TemperatureConstraint.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TemperatureConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#TemperatureConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#TemperatureConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a TemperatureConstraint.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`Children`](#TemperatureConstraint.Children)                               | Gets the list of children.                                                               |
 | [`DataModelObjectCategory`](#TemperatureConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#TemperatureConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
@@ -53,7 +53,7 @@ Defines a TemperatureConstraint.
 
 <a id="TemperatureConstraint.Children"></a>
 
-### *property* TemperatureConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -69,7 +69,7 @@ Gets the current DataModelObject’s category.
 
 <a id="TemperatureConstraint.EnvironmentSelection"></a>
 
-### *property* TemperatureConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -93,7 +93,7 @@ Gets or sets the Location.
 
 <a id="TemperatureConstraint.Properties"></a>
 
-### *property* TemperatureConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -109,7 +109,7 @@ Gets or sets the ScopingMethod.
 
 <a id="TemperatureConstraint.Suppressed"></a>
 
-### *property* TemperatureConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -125,7 +125,7 @@ Gets or sets the TemperatureAbsMax.
 
 <a id="TemperatureConstraint.VisibleProperties"></a>
 
-### *property* TemperatureConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -153,7 +153,7 @@ Copies all visible properties from this object to another.
 
 <a id="TemperatureConstraint.CreateParameter"></a>
 
-### TemperatureConstraint.CreateParameter(propName: System.String)
+### TemperatureConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -177,7 +177,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="TemperatureConstraint.GetChildren"></a>
 
-### TemperatureConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TemperatureConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -185,7 +185,7 @@ Gets the list of children, filtered by type.
 
 <a id="TemperatureConstraint.GetParameter"></a>
 
-### TemperatureConstraint.GetParameter(propName: System.String)
+### TemperatureConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -209,7 +209,7 @@ Run the GroupSimilarObjects action.
 
 <a id="TemperatureConstraint.PropertyByAPIName"></a>
 
-### TemperatureConstraint.PropertyByAPIName(name: System.String)
+### TemperatureConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -220,7 +220,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TemperatureConstraint.PropertyByName"></a>
 
-### TemperatureConstraint.PropertyByName(name: System.String)
+### TemperatureConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -228,7 +228,7 @@ Get a property by its unique name.
 
 <a id="TemperatureConstraint.RemoveParameter"></a>
 
-### TemperatureConstraint.RemoveParameter(propName: System.String)
+### TemperatureConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

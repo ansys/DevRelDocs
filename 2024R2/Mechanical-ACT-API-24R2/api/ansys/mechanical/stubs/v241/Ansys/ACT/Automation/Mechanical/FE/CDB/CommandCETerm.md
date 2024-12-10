@@ -17,7 +17,7 @@ Represents a term associated to a CE command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
+|-----------------------------------------------|-----------------------------|
 | [`Coefficient`](#CommandCETerm.Coefficient)   | Gets the coefficient.       |
 | [`Dof`](#CommandCETerm.Dof)                   | Gets the degree of freedom. |
 | [`Node`](#CommandCETerm.Node)                 | Gets the node number.       |
@@ -28,7 +28,7 @@ Represents a term associated to a CE command.
 
 <a id="CommandCETerm.Coefficient"></a>
 
-### *property* CommandCETerm.Coefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandCETerm.Coefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the coefficient.
 
@@ -36,7 +36,7 @@ Gets the coefficient.
 
 <a id="CommandCETerm.Dof"></a>
 
-### *property* CommandCETerm.Dof *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandCETerm.Dof *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the degree of freedom.
 
@@ -44,7 +44,7 @@ Gets the degree of freedom.
 
 <a id="CommandCETerm.Node"></a>
 
-### *property* CommandCETerm.Node *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandCETerm.Node *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the node number.
 

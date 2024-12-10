@@ -17,7 +17,7 @@ Specifies the BoltResultType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------- |
 | [`Adjustment`](#BoltResultType.Adjustment) |
 | [`WorkingLoad`](#BoltResultType.WorkingLoad) |
 

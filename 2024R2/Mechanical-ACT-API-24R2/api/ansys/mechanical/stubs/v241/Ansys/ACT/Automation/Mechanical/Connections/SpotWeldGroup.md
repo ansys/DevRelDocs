@@ -17,7 +17,7 @@ Defines a SpotWeldGroup.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#SpotWeldGroup.Activate)                                       | Activate the current object.                                                      |
 | [`AddComment`](#SpotWeldGroup.AddComment)                                   | Creates a new child Comment.                                                      |
 | [`AddImage`](#SpotWeldGroup.AddImage)                                       | Creates a new child Image.                                                        |
@@ -38,7 +38,7 @@ Defines a SpotWeldGroup.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AngleTolerance`](#SpotWeldGroup.AngleTolerance)                   | Gets or sets the AngleTolerance.                              |
 | [`Children`](#SpotWeldGroup.Children)                               | Gets the list of children.                                    |
 | [`ChildrenCreationMethod`](#SpotWeldGroup.ChildrenCreationMethod)   | Gets or sets the ChildrenCreationMethod.                      |
@@ -78,7 +78,7 @@ Gets or sets the AngleTolerance.
 
 <a id="SpotWeldGroup.Children"></a>
 
-### *property* SpotWeldGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -86,7 +86,7 @@ Gets the list of children.
 
 <a id="SpotWeldGroup.ChildrenCreationMethod"></a>
 
-### *property* SpotWeldGroup.ChildrenCreationMethod *: [Ansys.Mechanical.DataModel.Enums.ConnectionCreationMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConnectionCreationMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConnectionCreationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.ChildrenCreationMethod *: [Ansys.Mechanical.DataModel.Enums.ConnectionCreationMethod](../../../../Mechanical/DataModel/Enums/ConnectionCreationMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConnectionCreationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChildrenCreationMethod.
 
@@ -94,7 +94,7 @@ Gets or sets the ChildrenCreationMethod.
 
 <a id="SpotWeldGroup.Comments"></a>
 
-### *property* SpotWeldGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -102,7 +102,7 @@ Gets the list of associated comments.
 
 <a id="SpotWeldGroup.ConnectionBehavior"></a>
 
-### *property* SpotWeldGroup.ConnectionBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.ConnectionBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionBehavior.
 
@@ -110,7 +110,7 @@ Gets or sets the ConnectionBehavior.
 
 <a id="SpotWeldGroup.DataModelObjectCategory"></a>
 
-### *property* SpotWeldGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -118,7 +118,7 @@ Gets the current DataModelObject’s category.
 
 <a id="SpotWeldGroup.Images"></a>
 
-### *property* SpotWeldGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -134,7 +134,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="SpotWeldGroup.Material"></a>
 
-### *property* SpotWeldGroup.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -142,7 +142,7 @@ Gets or sets the Material.
 
 <a id="SpotWeldGroup.NumConnections"></a>
 
-### *property* SpotWeldGroup.NumConnections *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.NumConnections *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumConnections.
 
@@ -150,7 +150,7 @@ Gets the NumConnections.
 
 <a id="SpotWeldGroup.NumWeldPoints"></a>
 
-### *property* SpotWeldGroup.NumWeldPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.NumWeldPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumWeldPoints.
 
@@ -158,7 +158,7 @@ Gets the NumWeldPoints.
 
 <a id="SpotWeldGroup.NumberOfLayers"></a>
 
-### *property* SpotWeldGroup.NumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.NumberOfLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfLayers.
 
@@ -174,7 +174,7 @@ Gets or sets the PenetrationTolerance.
 
 <a id="SpotWeldGroup.Properties"></a>
 
-### *property* SpotWeldGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -182,7 +182,7 @@ Gets the list of properties for this object.
 
 <a id="SpotWeldGroup.ReadOnly"></a>
 
-### *property* SpotWeldGroup.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -190,7 +190,7 @@ Gets or sets the ReadOnly.
 
 <a id="SpotWeldGroup.ShellThicknessEffect"></a>
 
-### *property* SpotWeldGroup.ShellThicknessEffect *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.ShellThicknessEffect *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellThicknessEffect.
 
@@ -206,7 +206,7 @@ Gets or sets the SnapToEdgeTolerance.
 
 <a id="SpotWeldGroup.SpotWeldFileName"></a>
 
-### *property* SpotWeldGroup.SpotWeldFileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.SpotWeldFileName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpotWeldFileName.
 
@@ -214,7 +214,7 @@ Gets or sets the SpotWeldFileName.
 
 <a id="SpotWeldGroup.StiffnessBehavior"></a>
 
-### *property* SpotWeldGroup.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessBehavior.
 
@@ -222,7 +222,7 @@ Gets or sets the StiffnessBehavior.
 
 <a id="SpotWeldGroup.Units"></a>
 
-### *property* SpotWeldGroup.Units *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.Units *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Units.
 
@@ -230,7 +230,7 @@ Gets or sets the Units.
 
 <a id="SpotWeldGroup.VisibleProperties"></a>
 
-### *property* SpotWeldGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -254,7 +254,7 @@ Gets or sets the WeldSearchDistance.
 
 <a id="SpotWeldGroup.WeldType"></a>
 
-### *property* SpotWeldGroup.WeldType *: [Ansys.Mechanical.DataModel.Enums.SpotWeldTypes](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpotWeldTypes.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpotWeldTypes) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldGroup.WeldType *: [Ansys.Mechanical.DataModel.Enums.SpotWeldTypes](../../../../Mechanical/DataModel/Enums/SpotWeldTypes.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpotWeldTypes) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeldType.
 
@@ -282,7 +282,7 @@ Creates a new child Comment.
 
 <a id="SpotWeldGroup.AddImage"></a>
 
-### SpotWeldGroup.AddImage(filePath: System.String)
+### SpotWeldGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -310,7 +310,7 @@ Copies all visible properties from this object to another.
 
 <a id="SpotWeldGroup.CreateParameter"></a>
 
-### SpotWeldGroup.CreateParameter(propName: System.String)
+### SpotWeldGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -326,7 +326,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="SpotWeldGroup.ExportToFile"></a>
 
-### SpotWeldGroup.ExportToFile(filePath: System.String)
+### SpotWeldGroup.ExportToFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Exports all spot welds to user selected path.
 
@@ -342,7 +342,7 @@ Generate spot welds provided in the Weld input file.
 
 <a id="SpotWeldGroup.GetChildren"></a>
 
-### SpotWeldGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### SpotWeldGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -350,7 +350,7 @@ Gets the list of children, filtered by type.
 
 <a id="SpotWeldGroup.GetParameter"></a>
 
-### SpotWeldGroup.GetParameter(propName: System.String)
+### SpotWeldGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -374,7 +374,7 @@ Run the GroupSimilarObjects action.
 
 <a id="SpotWeldGroup.PropertyByAPIName"></a>
 
-### SpotWeldGroup.PropertyByAPIName(name: System.String)
+### SpotWeldGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -385,7 +385,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="SpotWeldGroup.PropertyByName"></a>
 
-### SpotWeldGroup.PropertyByName(name: System.String)
+### SpotWeldGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -393,7 +393,7 @@ Get a property by its unique name.
 
 <a id="SpotWeldGroup.RemoveParameter"></a>
 
-### SpotWeldGroup.RemoveParameter(propName: System.String)
+### SpotWeldGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

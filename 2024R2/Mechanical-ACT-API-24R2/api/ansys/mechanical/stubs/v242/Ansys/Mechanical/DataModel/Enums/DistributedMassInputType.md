@@ -17,7 +17,7 @@ Specifies the DistributedMassInputType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`MassPerUnitArea`](#DistributedMassInputType.MassPerUnitArea) |
 | [`TotalMass`](#DistributedMassInputType.TotalMass) |
 

@@ -17,7 +17,7 @@ Defines a QualityFactor.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#QualityFactor.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#QualityFactor.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#QualityFactor.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -43,7 +43,7 @@ Defines a QualityFactor.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`BeamSelection`](#QualityFactor.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
 | [`BoundaryConditionSelection`](#QualityFactor.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
 | [`By`](#QualityFactor.By)                                                 | Gets or sets the By.                                                                                                                                                       |
@@ -103,7 +103,7 @@ Defines a QualityFactor.
 
 <a id="QualityFactor.BeamSelection"></a>
 
-### *property* QualityFactor.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamSelection.
 
@@ -127,7 +127,7 @@ Gets or sets the By.
 
 <a id="QualityFactor.Children"></a>
 
-### *property* QualityFactor.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -135,7 +135,7 @@ Gets the list of children.
 
 <a id="QualityFactor.Comments"></a>
 
-### *property* QualityFactor.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -143,7 +143,7 @@ Gets the list of associated comments.
 
 <a id="QualityFactor.ContactRegionSelection"></a>
 
-### *property* QualityFactor.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegionSelection.
 
@@ -151,7 +151,7 @@ Gets or sets the ContactRegionSelection.
 
 <a id="QualityFactor.CoordinateSystemSelection"></a>
 
-### *property* QualityFactor.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemSelection.
 
@@ -183,7 +183,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="QualityFactor.Figures"></a>
 
-### *property* QualityFactor.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -207,7 +207,7 @@ Gets or sets the GeometryLocation.
 
 <a id="QualityFactor.Images"></a>
 
-### *property* QualityFactor.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -223,7 +223,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="QualityFactor.IsSolved"></a>
 
-### *property* QualityFactor.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -231,7 +231,7 @@ Gets the IsSolved.
 
 <a id="QualityFactor.IterationNumber"></a>
 
-### *property* QualityFactor.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -239,7 +239,7 @@ Gets the IterationNumber.
 
 <a id="QualityFactor.LoadStep"></a>
 
-### *property* QualityFactor.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -247,7 +247,7 @@ Gets the LoadStep.
 
 <a id="QualityFactor.LoadStepNumber"></a>
 
-### *property* QualityFactor.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -263,7 +263,7 @@ Gets or sets the LocationMethod.
 
 <a id="QualityFactor.MaximumQualityFactor"></a>
 
-### *property* QualityFactor.MaximumQualityFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.MaximumQualityFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumQualityFactor.
 
@@ -303,7 +303,7 @@ Gets the MaximumZAxis.
 
 <a id="QualityFactor.MeshConnectionSelection"></a>
 
-### *property* QualityFactor.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -311,7 +311,7 @@ Gets or sets the MeshConnectionSelection.
 
 <a id="QualityFactor.MinimumQualityFactor"></a>
 
-### *property* QualityFactor.MinimumQualityFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.MinimumQualityFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumQualityFactor.
 
@@ -351,7 +351,7 @@ Gets the MinimumZAxis.
 
 <a id="QualityFactor.Orientation"></a>
 
-### *property* QualityFactor.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
@@ -359,7 +359,7 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <a id="QualityFactor.Properties"></a>
 
-### *property* QualityFactor.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -367,7 +367,7 @@ Gets the list of properties for this object.
 
 <a id="QualityFactor.QualityFactorValue"></a>
 
-### *property* QualityFactor.QualityFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.QualityFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the QualityFactorValue.
 
@@ -399,7 +399,7 @@ Gets or sets the ResultSelection.
 
 <a id="QualityFactor.SetNumber"></a>
 
-### *property* QualityFactor.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SetNumber.
 
@@ -415,7 +415,7 @@ Gets or sets the SpatialResolution.
 
 <a id="QualityFactor.SpringSelection"></a>
 
-### *property* QualityFactor.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringSelection.
 
@@ -423,7 +423,7 @@ Gets or sets the SpringSelection.
 
 <a id="QualityFactor.Substep"></a>
 
-### *property* QualityFactor.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -439,7 +439,7 @@ Gets or sets the Summation.
 
 <a id="QualityFactor.Suppressed"></a>
 
-### *property* QualityFactor.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -487,7 +487,7 @@ Gets the Type.
 
 <a id="QualityFactor.VisibleProperties"></a>
 
-### *property* QualityFactor.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* QualityFactor.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -547,7 +547,7 @@ Creates a new child Figure.
 
 <a id="QualityFactor.AddImage"></a>
 
-### QualityFactor.AddImage(filePath: System.String)
+### QualityFactor.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -575,7 +575,7 @@ Copies all visible properties from this object to another.
 
 <a id="QualityFactor.CreateParameter"></a>
 
-### QualityFactor.CreateParameter(propName: System.String)
+### QualityFactor.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -615,7 +615,7 @@ Run the EvaluateAllResults action.
 
 <a id="QualityFactor.ExportAnimation"></a>
 
-### QualityFactor.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### QualityFactor.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -623,7 +623,7 @@ Run the ExportAnimation action.
 
 <a id="QualityFactor.GetChildren"></a>
 
-### QualityFactor.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### QualityFactor.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -631,7 +631,7 @@ Gets the list of children, filtered by type.
 
 <a id="QualityFactor.GetParameter"></a>
 
-### QualityFactor.GetParameter(propName: System.String)
+### QualityFactor.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -655,7 +655,7 @@ Run the GroupSimilarObjects action.
 
 <a id="QualityFactor.PropertyByAPIName"></a>
 
-### QualityFactor.PropertyByAPIName(name: System.String)
+### QualityFactor.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -666,7 +666,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="QualityFactor.PropertyByName"></a>
 
-### QualityFactor.PropertyByName(name: System.String)
+### QualityFactor.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -674,7 +674,7 @@ Get a property by its unique name.
 
 <a id="QualityFactor.RemoveParameter"></a>
 
-### QualityFactor.RemoveParameter(propName: System.String)
+### QualityFactor.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

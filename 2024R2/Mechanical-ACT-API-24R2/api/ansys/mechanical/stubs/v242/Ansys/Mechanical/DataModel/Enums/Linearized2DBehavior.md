@@ -17,7 +17,7 @@ Specifies the Linearized2DBehavior.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------- |
 | [`AxisymmetricCurve`](#Linearized2DBehavior.AxisymmetricCurve) |
 | [`AxisymmetricStraight`](#Linearized2DBehavior.AxisymmetricStraight) |
 | [`Planar`](#Linearized2DBehavior.Planar) |

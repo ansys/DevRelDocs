@@ -17,7 +17,7 @@ Specifies the ShearOrientationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------- |
 | [`XYPlane`](#ShearOrientationType.XYPlane) |
 | [`XZPlane`](#ShearOrientationType.XZPlane) |
 | [`YZPlane`](#ShearOrientationType.YZPlane) |

@@ -17,7 +17,7 @@ Specifies the CyclicHarmonicIndex.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`Manual`](#CyclicHarmonicIndex.Manual) |
 | [`ProgramControlled`](#CyclicHarmonicIndex.ProgramControlled) |
 

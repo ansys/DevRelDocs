@@ -17,7 +17,7 @@ Specifies the UpdateContactStiffness.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------- |
 | [`EachIteration`](#UpdateContactStiffness.EachIteration) |
 | [`EachIterationAggressive`](#UpdateContactStiffness.EachIterationAggressive) |
 | [`EachIterationExponential`](#UpdateContactStiffness.EachIterationExponential) |

@@ -17,7 +17,7 @@ Specifies how to interpret the variable data source.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`AXDT`](#ImportFormat.AXDT) |
 | [`CGNS`](#ImportFormat.CGNS) |
 | [`Delimited`](#ImportFormat.Delimited) |

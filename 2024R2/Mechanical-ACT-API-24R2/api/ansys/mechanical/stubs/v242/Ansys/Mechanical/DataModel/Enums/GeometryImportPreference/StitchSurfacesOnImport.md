@@ -17,7 +17,7 @@ Used to specify if and how to join surfaces when imported.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------- |
 | [`None_`](#StitchSurfacesOnImport.None_) |
 | [`Program`](#StitchSurfacesOnImport.Program) |
 | [`User`](#StitchSurfacesOnImport.User) |

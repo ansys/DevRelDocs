@@ -17,7 +17,7 @@ Defines a ContactMatchGroup.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ContactMatchGroup.Activate)                                                     | Activate the current object.                                                      |
 | [`AddComment`](#ContactMatchGroup.AddComment)                                                 | Creates a new child Comment.                                                      |
 | [`AddContactRegion`](#ContactMatchGroup.AddContactRegion)                                     | Creates a new child ContactRegion.                                                |
@@ -47,7 +47,7 @@ Defines a ContactMatchGroup.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`ActiveConnections`](#ContactMatchGroup.ActiveConnections)                             | Gets the ActiveConnections.                                   |
 | [`AutomaticFixedJoints`](#ContactMatchGroup.AutomaticFixedJoints)                       | Gets or sets the AutomaticFixedJoints.                        |
 | [`Children`](#ContactMatchGroup.Children)                                               | Gets the list of children.                                    |
@@ -89,7 +89,7 @@ Defines a ContactMatchGroup.
 
 <a id="ContactMatchGroup.ActiveConnections"></a>
 
-### *property* ContactMatchGroup.ActiveConnections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.ActiveConnections *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ActiveConnections.
 
@@ -97,7 +97,7 @@ Gets the ActiveConnections.
 
 <a id="ContactMatchGroup.AutomaticFixedJoints"></a>
 
-### *property* ContactMatchGroup.AutomaticFixedJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.AutomaticFixedJoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticFixedJoints.
 
@@ -105,7 +105,7 @@ Gets or sets the AutomaticFixedJoints.
 
 <a id="ContactMatchGroup.Children"></a>
 
-### *property* ContactMatchGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -113,7 +113,7 @@ Gets the list of children.
 
 <a id="ContactMatchGroup.Comments"></a>
 
-### *property* ContactMatchGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -121,7 +121,7 @@ Gets the list of associated comments.
 
 <a id="ContactMatchGroup.ConnectionType"></a>
 
-### *property* ContactMatchGroup.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.AutoDetectionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutoDetectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutoDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.AutoDetectionType](../../../Mechanical/DataModel/Enums/AutoDetectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutoDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionType.
 
@@ -129,7 +129,7 @@ Gets or sets the ConnectionType.
 
 <a id="ContactMatchGroup.Connections"></a>
 
-### *property* ContactMatchGroup.Connections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.Connections *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Connections.
 
@@ -137,7 +137,7 @@ Gets the Connections.
 
 <a id="ContactMatchGroup.CylindricalFaces"></a>
 
-### *property* ContactMatchGroup.CylindricalFaces *: [Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CylindricalFacesOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.CylindricalFaces *: [Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption](../../../Mechanical/DataModel/Enums/CylindricalFacesOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CylindricalFaces.
 
@@ -145,7 +145,7 @@ Gets or sets the CylindricalFaces.
 
 <a id="ContactMatchGroup.DataModelObjectCategory"></a>
 
-### *property* ContactMatchGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -153,7 +153,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ContactMatchGroup.EdgeEdge"></a>
 
-### *property* ContactMatchGroup.EdgeEdge *: [Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactEdgeEdgeOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.EdgeEdge *: [Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption](../../../Mechanical/DataModel/Enums/ContactEdgeEdgeOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeEdge.
 
@@ -161,7 +161,7 @@ Gets or sets the EdgeEdge.
 
 <a id="ContactMatchGroup.EdgeOverlapTolerance"></a>
 
-### *property* ContactMatchGroup.EdgeOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.EdgeOverlapTolerance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeOverlapTolerance.
 
@@ -177,7 +177,7 @@ Gets or sets the FaceAngleTolerance.
 
 <a id="ContactMatchGroup.FaceEdge"></a>
 
-### *property* ContactMatchGroup.FaceEdge *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.FaceEdge *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption](../../../Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceEdge.
 
@@ -185,7 +185,7 @@ Gets or sets the FaceEdge.
 
 <a id="ContactMatchGroup.FaceFace"></a>
 
-### *property* ContactMatchGroup.FaceFace *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.FaceFace *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceFace.
 
@@ -201,7 +201,7 @@ Gets or sets the FaceFaceDetectionAngleTolerence.
 
 <a id="ContactMatchGroup.FaceOverlapTolerance"></a>
 
-### *property* ContactMatchGroup.FaceOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.FaceOverlapTolerance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceOverlapTolerance.
 
@@ -209,7 +209,7 @@ Gets or sets the FaceOverlapTolerance.
 
 <a id="ContactMatchGroup.Figures"></a>
 
-### *property* ContactMatchGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -217,7 +217,7 @@ Gets the list of associated figures.
 
 <a id="ContactMatchGroup.GroupBy"></a>
 
-### *property* ContactMatchGroup.GroupBy *: [Ansys.Mechanical.DataModel.Enums.ContactGroupingType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactGroupingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.GroupBy *: [Ansys.Mechanical.DataModel.Enums.ContactGroupingType](../../../Mechanical/DataModel/Enums/ContactGroupingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GroupBy.
 
@@ -225,7 +225,7 @@ Gets or sets the GroupBy.
 
 <a id="ContactMatchGroup.Images"></a>
 
-### *property* ContactMatchGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -249,7 +249,7 @@ Gets or sets the Location.
 
 <a id="ContactMatchGroup.MinimumDistancePercentage"></a>
 
-### *property* ContactMatchGroup.MinimumDistancePercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.MinimumDistancePercentage *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumDistancePercentage.
 
@@ -265,7 +265,7 @@ Gets the MinimumDistanceValue.
 
 <a id="ContactMatchGroup.Priority"></a>
 
-### *property* ContactMatchGroup.Priority *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.Priority *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority](../../../Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Priority.
 
@@ -273,7 +273,7 @@ Gets or sets the Priority.
 
 <a id="ContactMatchGroup.Properties"></a>
 
-### *property* ContactMatchGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -281,7 +281,7 @@ Gets the list of properties for this object.
 
 <a id="ContactMatchGroup.ReadOnly"></a>
 
-### *property* ContactMatchGroup.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -289,7 +289,7 @@ Gets or sets the ReadOnly.
 
 <a id="ContactMatchGroup.RevoluteJoints"></a>
 
-### *property* ContactMatchGroup.RevoluteJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.RevoluteJoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RevoluteJoints.
 
@@ -297,7 +297,7 @@ Gets or sets the RevoluteJoints.
 
 <a id="ContactMatchGroup.SearchAcross"></a>
 
-### *property* ContactMatchGroup.SearchAcross *: [Ansys.Mechanical.DataModel.Enums.ContactSearchingType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSearchingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSearchingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.SearchAcross *: [Ansys.Mechanical.DataModel.Enums.ContactSearchingType](../../../Mechanical/DataModel/Enums/ContactSearchingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSearchingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SearchAcross.
 
@@ -305,7 +305,7 @@ Gets or sets the SearchAcross.
 
 <a id="ContactMatchGroup.Suppressed"></a>
 
-### *property* ContactMatchGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -313,7 +313,7 @@ Gets or sets the Suppressed.
 
 <a id="ContactMatchGroup.ThicknessScaleFactor"></a>
 
-### *property* ContactMatchGroup.ThicknessScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.ThicknessScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThicknessScaleFactor.
 
@@ -321,7 +321,7 @@ Gets or sets the ThicknessScaleFactor.
 
 <a id="ContactMatchGroup.ToleranceSlider"></a>
 
-### *property* ContactMatchGroup.ToleranceSlider *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.ToleranceSlider *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceSlider.
 
@@ -329,7 +329,7 @@ Gets or sets the ToleranceSlider.
 
 <a id="ContactMatchGroup.ToleranceType"></a>
 
-### *property* ContactMatchGroup.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
@@ -345,7 +345,7 @@ Gets or sets the ToleranceValue.
 
 <a id="ContactMatchGroup.UseRange"></a>
 
-### *property* ContactMatchGroup.UseRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.UseRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseRange.
 
@@ -353,7 +353,7 @@ Gets or sets the UseRange.
 
 <a id="ContactMatchGroup.VisibleProperties"></a>
 
-### *property* ContactMatchGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMatchGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -397,7 +397,7 @@ Creates a new child Figure.
 
 <a id="ContactMatchGroup.AddImage"></a>
 
-### ContactMatchGroup.AddImage(filePath: System.String)
+### ContactMatchGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -449,7 +449,7 @@ Run the CreateAutomaticConnections action.
 
 <a id="ContactMatchGroup.CreateParameter"></a>
 
-### ContactMatchGroup.CreateParameter(propName: System.String)
+### ContactMatchGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -481,7 +481,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ContactMatchGroup.GetChildren"></a>
 
-### ContactMatchGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ContactMatchGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -489,7 +489,7 @@ Gets the list of children, filtered by type.
 
 <a id="ContactMatchGroup.GetParameter"></a>
 
-### ContactMatchGroup.GetParameter(propName: System.String)
+### ContactMatchGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -513,7 +513,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactMatchGroup.PropertyByAPIName"></a>
 
-### ContactMatchGroup.PropertyByAPIName(name: System.String)
+### ContactMatchGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -524,7 +524,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactMatchGroup.PropertyByName"></a>
 
-### ContactMatchGroup.PropertyByName(name: System.String)
+### ContactMatchGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -532,7 +532,7 @@ Get a property by its unique name.
 
 <a id="ContactMatchGroup.RemoveParameter"></a>
 
-### ContactMatchGroup.RemoveParameter(propName: System.String)
+### ContactMatchGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

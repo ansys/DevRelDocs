@@ -17,7 +17,7 @@ Specifies the NonLinearFormulationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`Full`](#NonLinearFormulationType.Full) |
 | [`ProgramControlled`](#NonLinearFormulationType.ProgramControlled) |
 | [`Quasi`](#NonLinearFormulationType.Quasi) |

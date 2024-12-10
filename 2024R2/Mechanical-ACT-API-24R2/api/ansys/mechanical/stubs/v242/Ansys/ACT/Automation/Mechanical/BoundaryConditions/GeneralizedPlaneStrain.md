@@ -87,7 +87,7 @@ Gets or sets the BoundaryConditionForRotationAboutY.
 
 <a id="GeneralizedPlaneStrain.Children"></a>
 
-### *property* GeneralizedPlaneStrain.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -95,7 +95,7 @@ Gets the list of children.
 
 <a id="GeneralizedPlaneStrain.Comments"></a>
 
-### *property* GeneralizedPlaneStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -103,7 +103,7 @@ Gets the list of associated comments.
 
 <a id="GeneralizedPlaneStrain.CoordinateSystem"></a>
 
-### *property* GeneralizedPlaneStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -119,7 +119,7 @@ Gets the current DataModelObject’s category.
 
 <a id="GeneralizedPlaneStrain.Figures"></a>
 
-### *property* GeneralizedPlaneStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -127,7 +127,7 @@ Gets the list of associated figures.
 
 <a id="GeneralizedPlaneStrain.Images"></a>
 
-### *property* GeneralizedPlaneStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -167,7 +167,7 @@ Gets or sets the MagnitudeRotationY.
 
 <a id="GeneralizedPlaneStrain.Properties"></a>
 
-### *property* GeneralizedPlaneStrain.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -175,7 +175,7 @@ Gets the list of properties for this object.
 
 <a id="GeneralizedPlaneStrain.Suppressed"></a>
 
-### *property* GeneralizedPlaneStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -183,7 +183,7 @@ Gets or sets the Suppressed.
 
 <a id="GeneralizedPlaneStrain.VisibleProperties"></a>
 
-### *property* GeneralizedPlaneStrain.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -235,7 +235,7 @@ Creates a new child Figure.
 
 <a id="GeneralizedPlaneStrain.AddImage"></a>
 
-### GeneralizedPlaneStrain.AddImage(filePath: System.String)
+### GeneralizedPlaneStrain.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -255,7 +255,7 @@ Copies all visible properties from this object to another.
 
 <a id="GeneralizedPlaneStrain.CreateParameter"></a>
 
-### GeneralizedPlaneStrain.CreateParameter(propName: System.String)
+### GeneralizedPlaneStrain.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -279,7 +279,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="GeneralizedPlaneStrain.GetChildren"></a>
 
-### GeneralizedPlaneStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### GeneralizedPlaneStrain.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -287,7 +287,7 @@ Gets the list of children, filtered by type.
 
 <a id="GeneralizedPlaneStrain.GetParameter"></a>
 
-### GeneralizedPlaneStrain.GetParameter(propName: System.String)
+### GeneralizedPlaneStrain.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -311,7 +311,7 @@ Run the GroupSimilarObjects action.
 
 <a id="GeneralizedPlaneStrain.PropertyByAPIName"></a>
 
-### GeneralizedPlaneStrain.PropertyByAPIName(name: System.String)
+### GeneralizedPlaneStrain.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -322,7 +322,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="GeneralizedPlaneStrain.PropertyByName"></a>
 
-### GeneralizedPlaneStrain.PropertyByName(name: System.String)
+### GeneralizedPlaneStrain.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -330,7 +330,7 @@ Get a property by its unique name.
 
 <a id="GeneralizedPlaneStrain.RemoveParameter"></a>
 
-### GeneralizedPlaneStrain.RemoveParameter(propName: System.String)
+### GeneralizedPlaneStrain.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

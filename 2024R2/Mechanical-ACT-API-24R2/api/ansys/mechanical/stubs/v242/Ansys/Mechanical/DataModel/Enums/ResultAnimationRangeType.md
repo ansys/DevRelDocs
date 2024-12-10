@@ -17,7 +17,7 @@ Specifies the Result Animation Range Type
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------- |
 | [`Distributed`](#ResultAnimationRangeType.Distributed) |
 | [`ResultSets`](#ResultAnimationRangeType.ResultSets) |
 

@@ -17,7 +17,7 @@ Defines global legend settings.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+|----------------------------------------------------------------------|----------------------------------------------------|
 | [`LegendOrientation`](#GlobalLegendSettings.LegendOrientation)       | Whether the orientation of the legend.             |
 | [`ShowDateAndTime`](#GlobalLegendSettings.ShowDateAndTime)           | Whether the  date and time of the legend is shown. |
 | [`ShowDeformingScaling`](#GlobalLegendSettings.ShowDeformingScaling) | Whether the Deformation Scaling is shown.          |
@@ -37,7 +37,7 @@ Whether the orientation of the legend.
 
 <a id="GlobalLegendSettings.ShowDateAndTime"></a>
 
-### *property* GlobalLegendSettings.ShowDateAndTime *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalLegendSettings.ShowDateAndTime *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the  date and time of the legend is shown.
 
@@ -45,7 +45,7 @@ Whether the  date and time of the legend is shown.
 
 <a id="GlobalLegendSettings.ShowDeformingScaling"></a>
 
-### *property* GlobalLegendSettings.ShowDeformingScaling *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalLegendSettings.ShowDeformingScaling *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the Deformation Scaling is shown.
 
@@ -53,7 +53,7 @@ Whether the Deformation Scaling is shown.
 
 <a id="GlobalLegendSettings.ShowMinMax"></a>
 
-### *property* GlobalLegendSettings.ShowMinMax *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalLegendSettings.ShowMinMax *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the Min and Max value are shown.
 

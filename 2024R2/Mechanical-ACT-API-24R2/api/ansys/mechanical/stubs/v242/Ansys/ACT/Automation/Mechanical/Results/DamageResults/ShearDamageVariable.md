@@ -17,7 +17,7 @@ Defines a ShearDamageVariable.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ShearDamageVariable.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ShearDamageVariable.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ShearDamageVariable.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ShearDamageVariable.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#ShearDamageVariable.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#ShearDamageVariable.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#ShearDamageVariable.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -100,14 +100,14 @@ Defines a ShearDamageVariable.
 | [`Substep`](#ShearDamageVariable.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#ShearDamageVariable.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ShearDamageVariable.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ShearDamageVariable.SurfaceCoating)                                                                                                                                             | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ShearDamageVariable.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#ShearDamageVariable.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#ShearDamageVariable.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#ShearDamageVariable.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#ShearDamageVariable.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#ShearDamageVariable.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#ShearDamageVariable.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ShearDamageVariable.WaterfallShowTextOnMosaic)                                                                                                                       | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ShearDamageVariable.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -131,7 +131,7 @@ Gets or sets the By.
 
 <a id="ShearDamageVariable.CalculateTimeHistory"></a>
 
-### *property* ShearDamageVariable.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -139,7 +139,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ShearDamageVariable.Children"></a>
 
-### *property* ShearDamageVariable.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -147,7 +147,7 @@ Gets the list of children.
 
 <a id="ShearDamageVariable.CombinationNumber"></a>
 
-### *property* ShearDamageVariable.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -155,7 +155,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ShearDamageVariable.Comments"></a>
 
-### *property* ShearDamageVariable.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -163,7 +163,7 @@ Gets the list of associated comments.
 
 <a id="ShearDamageVariable.CoordinateSystem"></a>
 
-### *property* ShearDamageVariable.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -173,7 +173,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ShearDamageVariable.CrackFrontNumber"></a>
 
-### *property* ShearDamageVariable.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -221,7 +221,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ShearDamageVariable.Figures"></a>
 
-### *property* ShearDamageVariable.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -229,7 +229,7 @@ Gets the list of associated figures.
 
 <a id="ShearDamageVariable.GlobalIDs"></a>
 
-### *property* ShearDamageVariable.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -245,7 +245,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ShearDamageVariable.Identifier"></a>
 
-### *property* ShearDamageVariable.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -253,7 +253,7 @@ Gets or sets the Identifier.
 
 <a id="ShearDamageVariable.Images"></a>
 
-### *property* ShearDamageVariable.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -269,7 +269,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ShearDamageVariable.IsSolved"></a>
 
-### *property* ShearDamageVariable.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -285,7 +285,7 @@ Gets or sets the ItemType.
 
 <a id="ShearDamageVariable.IterationNumber"></a>
 
-### *property* ShearDamageVariable.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -293,7 +293,7 @@ Gets the IterationNumber.
 
 <a id="ShearDamageVariable.LoadStep"></a>
 
-### *property* ShearDamageVariable.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -301,7 +301,7 @@ Gets the LoadStep.
 
 <a id="ShearDamageVariable.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ShearDamageVariable.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -309,7 +309,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ShearDamageVariable.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ShearDamageVariable.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -317,7 +317,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ShearDamageVariable.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ShearDamageVariable.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -325,7 +325,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ShearDamageVariable.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ShearDamageVariable.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -333,7 +333,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ShearDamageVariable.LoadStepNumber"></a>
 
-### *property* ShearDamageVariable.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -357,7 +357,7 @@ Gets the Maximum.
 
 <a id="ShearDamageVariable.MaximumOccursOn"></a>
 
-### *property* ShearDamageVariable.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -389,7 +389,7 @@ Gets the Minimum.
 
 <a id="ShearDamageVariable.MinimumOccursOn"></a>
 
-### *property* ShearDamageVariable.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -413,7 +413,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ShearDamageVariable.Mode"></a>
 
-### *property* ShearDamageVariable.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -421,7 +421,7 @@ Gets or sets the Mode.
 
 <a id="ShearDamageVariable.NamedSelections"></a>
 
-### *property* ShearDamageVariable.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -437,7 +437,7 @@ Path property.
 
 <a id="ShearDamageVariable.Plies"></a>
 
-### *property* ShearDamageVariable.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -453,7 +453,7 @@ Gets the result table.
 
 <a id="ShearDamageVariable.Ply"></a>
 
-### *property* ShearDamageVariable.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -461,7 +461,7 @@ Gets or sets the Ply selection.
 
 <a id="ShearDamageVariable.Properties"></a>
 
-### *property* ShearDamageVariable.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -477,7 +477,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ShearDamageVariable.SetNumber"></a>
 
-### *property* ShearDamageVariable.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -493,7 +493,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ShearDamageVariable.SolverComponentIDs"></a>
 
-### *property* ShearDamageVariable.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -501,7 +501,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="ShearDamageVariable.Substep"></a>
 
-### *property* ShearDamageVariable.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -509,7 +509,7 @@ Gets the Substep.
 
 <a id="ShearDamageVariable.Suppressed"></a>
 
-### *property* ShearDamageVariable.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -573,7 +573,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="ShearDamageVariable.VisibleProperties"></a>
 
-### *property* ShearDamageVariable.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -581,7 +581,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ShearDamageVariable.WaterfallShowTextOnMosaic"></a>
 
-### *property* ShearDamageVariable.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearDamageVariable.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -633,7 +633,7 @@ Creates a new child Figure.
 
 <a id="ShearDamageVariable.AddImage"></a>
 
-### ShearDamageVariable.AddImage(filePath: System.String)
+### ShearDamageVariable.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -661,7 +661,7 @@ Copies all visible properties from this object to another.
 
 <a id="ShearDamageVariable.CreateParameter"></a>
 
-### ShearDamageVariable.CreateParameter(propName: System.String)
+### ShearDamageVariable.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -709,7 +709,7 @@ Run the EvaluateAllResults action.
 
 <a id="ShearDamageVariable.ExportAnimation"></a>
 
-### ShearDamageVariable.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ShearDamageVariable.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -717,7 +717,7 @@ Run the ExportAnimation action.
 
 <a id="ShearDamageVariable.ExportToTextFile"></a>
 
-### ShearDamageVariable.ExportToTextFile(filePath: System.String)
+### ShearDamageVariable.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -733,7 +733,7 @@ Run the FetchRemoteResult action.
 
 <a id="ShearDamageVariable.GetChildren"></a>
 
-### ShearDamageVariable.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ShearDamageVariable.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -741,7 +741,7 @@ Gets the list of children, filtered by type.
 
 <a id="ShearDamageVariable.GetParameter"></a>
 
-### ShearDamageVariable.GetParameter(propName: System.String)
+### ShearDamageVariable.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -773,7 +773,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ShearDamageVariable.PropertyByAPIName"></a>
 
-### ShearDamageVariable.PropertyByAPIName(name: System.String)
+### ShearDamageVariable.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -784,7 +784,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ShearDamageVariable.PropertyByName"></a>
 
-### ShearDamageVariable.PropertyByName(name: System.String)
+### ShearDamageVariable.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -792,7 +792,7 @@ Get a property by its unique name.
 
 <a id="ShearDamageVariable.RemoveParameter"></a>
 
-### ShearDamageVariable.RemoveParameter(propName: System.String)
+### ShearDamageVariable.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

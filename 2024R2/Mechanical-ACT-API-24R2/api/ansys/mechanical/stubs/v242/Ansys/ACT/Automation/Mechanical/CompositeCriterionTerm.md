@@ -27,7 +27,7 @@ CompositeCriterionTerm class.
 
 <a id="CompositeCriterionTerm.Coefficient"></a>
 
-### *property* CompositeCriterionTerm.Coefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterionTerm.Coefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns coefficient of PrimaryCriterion in the CompositeCriterionTerm.
 

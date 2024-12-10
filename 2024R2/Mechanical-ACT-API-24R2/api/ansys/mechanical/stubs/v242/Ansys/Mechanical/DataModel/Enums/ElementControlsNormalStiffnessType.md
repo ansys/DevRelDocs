@@ -17,7 +17,7 @@ Specifies the ElementControlsNormalStiffnessType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------ |
 | [`AbsoluteValue`](#ElementControlsNormalStiffnessType.AbsoluteValue) |
 | [`Factor`](#ElementControlsNormalStiffnessType.Factor) |
 | [`FromContactRegion`](#ElementControlsNormalStiffnessType.FromContactRegion) |

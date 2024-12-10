@@ -17,7 +17,7 @@ Specifies the VirtualCellGroupAutomaticBehaviorType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------- |
 | [`Custom`](#VirtualCellGroupAutomaticBehaviorType.Custom) |
 | [`EdgesOnly`](#VirtualCellGroupAutomaticBehaviorType.EdgesOnly) |
 | [`High`](#VirtualCellGroupAutomaticBehaviorType.High) |

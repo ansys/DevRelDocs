@@ -17,7 +17,7 @@ Specifies the GapDensityType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------- |
 | [`Coarse`](#GapDensityType.Coarse) |
 | [`Fine`](#GapDensityType.Fine) |
 

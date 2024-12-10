@@ -17,7 +17,7 @@ Defines a MullinsDamageVariable.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MullinsDamageVariable.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#MullinsDamageVariable.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#MullinsDamageVariable.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a MullinsDamageVariable.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#MullinsDamageVariable.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#MullinsDamageVariable.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#MullinsDamageVariable.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -100,14 +100,14 @@ Defines a MullinsDamageVariable.
 | [`Substep`](#MullinsDamageVariable.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#MullinsDamageVariable.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#MullinsDamageVariable.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#MullinsDamageVariable.SurfaceCoating)                                                                                                                                               | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#MullinsDamageVariable.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#MullinsDamageVariable.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#MullinsDamageVariable.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#MullinsDamageVariable.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#MullinsDamageVariable.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#MullinsDamageVariable.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#MullinsDamageVariable.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#MullinsDamageVariable.WaterfallShowTextOnMosaic)                                                                                                                         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#MullinsDamageVariable.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -131,7 +131,7 @@ Gets or sets the By.
 
 <a id="MullinsDamageVariable.CalculateTimeHistory"></a>
 
-### *property* MullinsDamageVariable.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -139,7 +139,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="MullinsDamageVariable.Children"></a>
 
-### *property* MullinsDamageVariable.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -147,7 +147,7 @@ Gets the list of children.
 
 <a id="MullinsDamageVariable.CombinationNumber"></a>
 
-### *property* MullinsDamageVariable.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -155,7 +155,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="MullinsDamageVariable.Comments"></a>
 
-### *property* MullinsDamageVariable.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -163,7 +163,7 @@ Gets the list of associated comments.
 
 <a id="MullinsDamageVariable.CoordinateSystem"></a>
 
-### *property* MullinsDamageVariable.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -173,7 +173,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="MullinsDamageVariable.CrackFrontNumber"></a>
 
-### *property* MullinsDamageVariable.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -221,7 +221,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="MullinsDamageVariable.Figures"></a>
 
-### *property* MullinsDamageVariable.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -229,7 +229,7 @@ Gets the list of associated figures.
 
 <a id="MullinsDamageVariable.GlobalIDs"></a>
 
-### *property* MullinsDamageVariable.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -245,7 +245,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="MullinsDamageVariable.Identifier"></a>
 
-### *property* MullinsDamageVariable.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -253,7 +253,7 @@ Gets or sets the Identifier.
 
 <a id="MullinsDamageVariable.Images"></a>
 
-### *property* MullinsDamageVariable.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -269,7 +269,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MullinsDamageVariable.IsSolved"></a>
 
-### *property* MullinsDamageVariable.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -285,7 +285,7 @@ Gets or sets the ItemType.
 
 <a id="MullinsDamageVariable.IterationNumber"></a>
 
-### *property* MullinsDamageVariable.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -293,7 +293,7 @@ Gets the IterationNumber.
 
 <a id="MullinsDamageVariable.LoadStep"></a>
 
-### *property* MullinsDamageVariable.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -301,7 +301,7 @@ Gets the LoadStep.
 
 <a id="MullinsDamageVariable.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MullinsDamageVariable.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -309,7 +309,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="MullinsDamageVariable.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MullinsDamageVariable.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -317,7 +317,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="MullinsDamageVariable.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* MullinsDamageVariable.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -325,7 +325,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="MullinsDamageVariable.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* MullinsDamageVariable.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -333,7 +333,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="MullinsDamageVariable.LoadStepNumber"></a>
 
-### *property* MullinsDamageVariable.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -357,7 +357,7 @@ Gets the Maximum.
 
 <a id="MullinsDamageVariable.MaximumOccursOn"></a>
 
-### *property* MullinsDamageVariable.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -389,7 +389,7 @@ Gets the Minimum.
 
 <a id="MullinsDamageVariable.MinimumOccursOn"></a>
 
-### *property* MullinsDamageVariable.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -413,7 +413,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="MullinsDamageVariable.Mode"></a>
 
-### *property* MullinsDamageVariable.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -421,7 +421,7 @@ Gets or sets the Mode.
 
 <a id="MullinsDamageVariable.NamedSelections"></a>
 
-### *property* MullinsDamageVariable.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -437,7 +437,7 @@ Path property.
 
 <a id="MullinsDamageVariable.Plies"></a>
 
-### *property* MullinsDamageVariable.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -453,7 +453,7 @@ Gets the result table.
 
 <a id="MullinsDamageVariable.Ply"></a>
 
-### *property* MullinsDamageVariable.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -461,7 +461,7 @@ Gets or sets the Ply selection.
 
 <a id="MullinsDamageVariable.Properties"></a>
 
-### *property* MullinsDamageVariable.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -477,7 +477,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MullinsDamageVariable.SetNumber"></a>
 
-### *property* MullinsDamageVariable.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -493,7 +493,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="MullinsDamageVariable.SolverComponentIDs"></a>
 
-### *property* MullinsDamageVariable.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -501,7 +501,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="MullinsDamageVariable.Substep"></a>
 
-### *property* MullinsDamageVariable.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -509,7 +509,7 @@ Gets the Substep.
 
 <a id="MullinsDamageVariable.Suppressed"></a>
 
-### *property* MullinsDamageVariable.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -573,7 +573,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="MullinsDamageVariable.VisibleProperties"></a>
 
-### *property* MullinsDamageVariable.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -581,7 +581,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="MullinsDamageVariable.WaterfallShowTextOnMosaic"></a>
 
-### *property* MullinsDamageVariable.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MullinsDamageVariable.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -633,7 +633,7 @@ Creates a new child Figure.
 
 <a id="MullinsDamageVariable.AddImage"></a>
 
-### MullinsDamageVariable.AddImage(filePath: System.String)
+### MullinsDamageVariable.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -661,7 +661,7 @@ Copies all visible properties from this object to another.
 
 <a id="MullinsDamageVariable.CreateParameter"></a>
 
-### MullinsDamageVariable.CreateParameter(propName: System.String)
+### MullinsDamageVariable.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -709,7 +709,7 @@ Run the EvaluateAllResults action.
 
 <a id="MullinsDamageVariable.ExportAnimation"></a>
 
-### MullinsDamageVariable.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### MullinsDamageVariable.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -717,7 +717,7 @@ Run the ExportAnimation action.
 
 <a id="MullinsDamageVariable.ExportToTextFile"></a>
 
-### MullinsDamageVariable.ExportToTextFile(filePath: System.String)
+### MullinsDamageVariable.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -733,7 +733,7 @@ Run the FetchRemoteResult action.
 
 <a id="MullinsDamageVariable.GetChildren"></a>
 
-### MullinsDamageVariable.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MullinsDamageVariable.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -741,7 +741,7 @@ Gets the list of children, filtered by type.
 
 <a id="MullinsDamageVariable.GetParameter"></a>
 
-### MullinsDamageVariable.GetParameter(propName: System.String)
+### MullinsDamageVariable.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -773,7 +773,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="MullinsDamageVariable.PropertyByAPIName"></a>
 
-### MullinsDamageVariable.PropertyByAPIName(name: System.String)
+### MullinsDamageVariable.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -784,7 +784,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MullinsDamageVariable.PropertyByName"></a>
 
-### MullinsDamageVariable.PropertyByName(name: System.String)
+### MullinsDamageVariable.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -792,7 +792,7 @@ Get a property by its unique name.
 
 <a id="MullinsDamageVariable.RemoveParameter"></a>
 
-### MullinsDamageVariable.RemoveParameter(propName: System.String)
+### MullinsDamageVariable.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

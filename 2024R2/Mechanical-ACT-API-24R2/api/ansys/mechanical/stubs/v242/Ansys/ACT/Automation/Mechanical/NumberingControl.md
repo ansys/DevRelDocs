@@ -17,7 +17,7 @@ Defines a NumberingControl.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#NumberingControl.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#NumberingControl.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#NumberingControl.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a NumberingControl.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`BeginElementNumber`](#NumberingControl.BeginElementNumber)           | Gets or sets the BeginElementNumber.                          |
 | [`BeginNodeNumber`](#NumberingControl.BeginNodeNumber)                 | Gets or sets the BeginNodeNumber.                             |
 | [`Children`](#NumberingControl.Children)                               | Gets the list of children.                                    |
@@ -60,7 +60,7 @@ Defines a NumberingControl.
 
 <a id="NumberingControl.BeginElementNumber"></a>
 
-### *property* NumberingControl.BeginElementNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.BeginElementNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeginElementNumber.
 
@@ -68,7 +68,7 @@ Gets or sets the BeginElementNumber.
 
 <a id="NumberingControl.BeginNodeNumber"></a>
 
-### *property* NumberingControl.BeginNodeNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.BeginNodeNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeginNodeNumber.
 
@@ -76,7 +76,7 @@ Gets or sets the BeginNodeNumber.
 
 <a id="NumberingControl.Children"></a>
 
-### *property* NumberingControl.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -84,7 +84,7 @@ Gets the list of children.
 
 <a id="NumberingControl.Comments"></a>
 
-### *property* NumberingControl.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -100,7 +100,7 @@ Gets the current DataModelObject’s category.
 
 <a id="NumberingControl.EndElementNumber"></a>
 
-### *property* NumberingControl.EndElementNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.EndElementNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EndElementNumber.
 
@@ -108,7 +108,7 @@ Gets or sets the EndElementNumber.
 
 <a id="NumberingControl.EndNodeNumber"></a>
 
-### *property* NumberingControl.EndNodeNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.EndNodeNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EndNodeNumber.
 
@@ -116,7 +116,7 @@ Gets or sets the EndNodeNumber.
 
 <a id="NumberingControl.Figures"></a>
 
-### *property* NumberingControl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -124,7 +124,7 @@ Gets the list of associated figures.
 
 <a id="NumberingControl.Images"></a>
 
-### *property* NumberingControl.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -148,7 +148,7 @@ Gets or sets the Location.
 
 <a id="NumberingControl.NodeNumber"></a>
 
-### *property* NumberingControl.NodeNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.NodeNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodeNumber.
 
@@ -156,7 +156,7 @@ Gets or sets the NodeNumber.
 
 <a id="NumberingControl.Properties"></a>
 
-### *property* NumberingControl.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -164,7 +164,7 @@ Gets the list of properties for this object.
 
 <a id="NumberingControl.Suppressed"></a>
 
-### *property* NumberingControl.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -172,7 +172,7 @@ Gets or sets the Suppressed.
 
 <a id="NumberingControl.VisibleProperties"></a>
 
-### *property* NumberingControl.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -208,7 +208,7 @@ Creates a new child Figure.
 
 <a id="NumberingControl.AddImage"></a>
 
-### NumberingControl.AddImage(filePath: System.String)
+### NumberingControl.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -228,7 +228,7 @@ Copies all visible properties from this object to another.
 
 <a id="NumberingControl.CreateParameter"></a>
 
-### NumberingControl.CreateParameter(propName: System.String)
+### NumberingControl.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -252,7 +252,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="NumberingControl.GetChildren"></a>
 
-### NumberingControl.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NumberingControl.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -260,7 +260,7 @@ Gets the list of children, filtered by type.
 
 <a id="NumberingControl.GetParameter"></a>
 
-### NumberingControl.GetParameter(propName: System.String)
+### NumberingControl.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -284,7 +284,7 @@ Run the GroupSimilarObjects action.
 
 <a id="NumberingControl.PropertyByAPIName"></a>
 
-### NumberingControl.PropertyByAPIName(name: System.String)
+### NumberingControl.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -295,7 +295,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NumberingControl.PropertyByName"></a>
 
-### NumberingControl.PropertyByName(name: System.String)
+### NumberingControl.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -303,7 +303,7 @@ Get a property by its unique name.
 
 <a id="NumberingControl.RemoveParameter"></a>
 
-### NumberingControl.RemoveParameter(propName: System.String)
+### NumberingControl.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

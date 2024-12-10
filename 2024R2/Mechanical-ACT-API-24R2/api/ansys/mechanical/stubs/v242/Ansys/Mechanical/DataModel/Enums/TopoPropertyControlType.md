@@ -17,7 +17,7 @@ Specifies the TopoPropertyControlType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`Manual`](#TopoPropertyControlType.Manual) |
 | [`ProgramControlled`](#TopoPropertyControlType.ProgramControlled) |
 

@@ -29,7 +29,7 @@ Represents a CMGRP command.
 
 <a id="CMGRPCommand.Aname"></a>
 
-### *property* CMGRPCommand.Aname *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMGRPCommand.Aname *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the assembly name.
 
@@ -37,7 +37,7 @@ Gets the assembly name.
 
 <a id="CMGRPCommand.Cnames"></a>
 
-### *property* CMGRPCommand.Cnames *: System.Collections.Generic.IReadOnlyList[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMGRPCommand.Cnames *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[str](https://docs.python.org/3/library/stdtypes.html#str)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the component and/or assembly names.
 
@@ -45,7 +45,7 @@ Gets the component and/or assembly names.
 
 <a id="CMGRPCommand.Index"></a>
 
-### *property* CMGRPCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMGRPCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -53,7 +53,7 @@ Gets the command index.
 
 <a id="CMGRPCommand.Name"></a>
 
-### *property* CMGRPCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMGRPCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 

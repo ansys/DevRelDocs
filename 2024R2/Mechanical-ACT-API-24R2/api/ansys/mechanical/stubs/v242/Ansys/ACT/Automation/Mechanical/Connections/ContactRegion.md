@@ -169,7 +169,7 @@ Gets the AutomaticDetectionValue.
 
 <a id="ContactRegion.AutomaticElectricCapacitance"></a>
 
-### *property* ContactRegion.AutomaticElectricCapacitance *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.AutomaticElectricCapacitance *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticElectricCapacitance.
 
@@ -177,7 +177,7 @@ Gets or sets the AutomaticElectricCapacitance.
 
 <a id="ContactRegion.AutomaticElectricConductance"></a>
 
-### *property* ContactRegion.AutomaticElectricConductance *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.AutomaticElectricConductance *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticElectricConductance.
 
@@ -185,7 +185,7 @@ Gets or sets the AutomaticElectricConductance.
 
 <a id="ContactRegion.AutomaticNormalStiffness"></a>
 
-### *property* ContactRegion.AutomaticNormalStiffness *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.AutomaticNormalStiffness *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticNormalStiffness.
 
@@ -193,7 +193,7 @@ Gets or sets the AutomaticNormalStiffness.
 
 <a id="ContactRegion.AutomaticThermalConductance"></a>
 
-### *property* ContactRegion.AutomaticThermalConductance *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.AutomaticThermalConductance *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticThermalConductance.
 
@@ -217,7 +217,7 @@ Gets or sets the BeamBeamModel.
 
 <a id="ContactRegion.BeamMaterialName"></a>
 
-### *property* ContactRegion.BeamMaterialName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.BeamMaterialName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamMaterialName.
 
@@ -257,7 +257,7 @@ Gets or sets the Breakable.
 
 <a id="ContactRegion.Children"></a>
 
-### *property* ContactRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -265,7 +265,7 @@ Gets the list of children.
 
 <a id="ContactRegion.Comments"></a>
 
-### *property* ContactRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -281,7 +281,7 @@ Gets or sets the ConstraintType.
 
 <a id="ContactRegion.ContactAPDLName"></a>
 
-### *property* ContactRegion.ContactAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactAPDLName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactAPDLName.
 
@@ -289,7 +289,7 @@ Gets or sets the ContactAPDLName.
 
 <a id="ContactRegion.ContactBodies"></a>
 
-### *property* ContactRegion.ContactBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ContactBodies.
 
@@ -297,7 +297,7 @@ Gets the ContactBodies.
 
 <a id="ContactRegion.ContactCenterPoint"></a>
 
-### *property* ContactRegion.ContactCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactCenterPoint.
 
@@ -305,7 +305,7 @@ Gets or sets the ContactCenterPoint.
 
 <a id="ContactRegion.ContactEndingPoint"></a>
 
-### *property* ContactRegion.ContactEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactEndingPoint.
 
@@ -345,7 +345,7 @@ Gets or sets the ContactShellFace.
 
 <a id="ContactRegion.ContactStartingPoint"></a>
 
-### *property* ContactRegion.ContactStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ContactStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactStartingPoint.
 
@@ -377,7 +377,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ContactRegion.DecayConstant"></a>
 
-### *property* ContactRegion.DecayConstant *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.DecayConstant *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DecayConstant.
 
@@ -393,7 +393,7 @@ Gets or sets the DetectionMethod.
 
 <a id="ContactRegion.DisplayElementNormal"></a>
 
-### *property* ContactRegion.DisplayElementNormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.DisplayElementNormal *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayElementNormal.
 
@@ -401,7 +401,7 @@ Gets or sets the DisplayElementNormal.
 
 <a id="ContactRegion.DynamicCoefficient"></a>
 
-### *property* ContactRegion.DynamicCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.DynamicCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DynamicCoefficient.
 
@@ -425,7 +425,7 @@ Gets or sets the ElasticSlipTolerance.
 
 <a id="ContactRegion.ElasticSlipToleranceFactor"></a>
 
-### *property* ContactRegion.ElasticSlipToleranceFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ElasticSlipToleranceFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElasticSlipToleranceFactor.
 
@@ -457,7 +457,7 @@ Gets or sets the ElectricConductanceValue.
 
 <a id="ContactRegion.Figures"></a>
 
-### *property* ContactRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -465,7 +465,7 @@ Gets the list of associated figures.
 
 <a id="ContactRegion.FlipContact"></a>
 
-### *property* ContactRegion.FlipContact *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.FlipContact *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FlipContact.
 
@@ -473,7 +473,7 @@ Gets or sets the FlipContact.
 
 <a id="ContactRegion.FlipTarget"></a>
 
-### *property* ContactRegion.FlipTarget *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.FlipTarget *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FlipTarget.
 
@@ -481,7 +481,7 @@ Gets or sets the FlipTarget.
 
 <a id="ContactRegion.FrictionCoefficient"></a>
 
-### *property* ContactRegion.FrictionCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.FrictionCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrictionCoefficient.
 
@@ -497,7 +497,7 @@ Gets or sets the Handedness.
 
 <a id="ContactRegion.Images"></a>
 
-### *property* ContactRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -513,7 +513,7 @@ Gets or sets the InitialClearance.
 
 <a id="ContactRegion.InitialClearanceFactor"></a>
 
-### *property* ContactRegion.InitialClearanceFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.InitialClearanceFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialClearanceFactor.
 
@@ -553,7 +553,7 @@ Gets or sets the LineLineDetection.
 
 <a id="ContactRegion.Material"></a>
 
-### *property* ContactRegion.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -569,7 +569,7 @@ Gets or sets the MeanPitchDiameter.
 
 <a id="ContactRegion.NormalForceExponent"></a>
 
-### *property* ContactRegion.NormalForceExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.NormalForceExponent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalForceExponent.
 
@@ -585,7 +585,7 @@ Gets or sets the NormalForceLimit.
 
 <a id="ContactRegion.NormalStiffnessFactor"></a>
 
-### *property* ContactRegion.NormalStiffnessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.NormalStiffnessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalStiffnessFactor.
 
@@ -609,7 +609,7 @@ Gets or sets the NormalStiffnessValueType.
 
 <a id="ContactRegion.NormalStressExponent"></a>
 
-### *property* ContactRegion.NormalStressExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.NormalStressExponent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalStressExponent.
 
@@ -633,7 +633,7 @@ Gets or sets the PenetrationTolerance.
 
 <a id="ContactRegion.PenetrationToleranceFactor"></a>
 
-### *property* ContactRegion.PenetrationToleranceFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.PenetrationToleranceFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PenetrationToleranceFactor.
 
@@ -649,7 +649,7 @@ Gets or sets the PenetrationToleranceValue.
 
 <a id="ContactRegion.PinballFactor"></a>
 
-### *property* ContactRegion.PinballFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.PinballFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PinballFactor.
 
@@ -689,7 +689,7 @@ Gets or sets the PressureAtZeroPenetration.
 
 <a id="ContactRegion.PressureAtZeroPenetrationFactor"></a>
 
-### *property* ContactRegion.PressureAtZeroPenetrationFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.PressureAtZeroPenetrationFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PressureAtZeroPenetrationFactor.
 
@@ -705,7 +705,7 @@ Gets or sets the PressureAtZeroPenetrationValue.
 
 <a id="ContactRegion.Properties"></a>
 
-### *property* ContactRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -713,7 +713,7 @@ Gets the list of properties for this object.
 
 <a id="ContactRegion.Protected"></a>
 
-### *property* ContactRegion.Protected *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Protected *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Protected.
 
@@ -729,7 +729,7 @@ Gets or sets the RBDContactDetection.
 
 <a id="ContactRegion.ReadOnly"></a>
 
-### *property* ContactRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -737,7 +737,7 @@ Gets or sets the ReadOnly.
 
 <a id="ContactRegion.RestitutionFactor"></a>
 
-### *property* ContactRegion.RestitutionFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.RestitutionFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RestitutionFactor.
 
@@ -753,7 +753,7 @@ Gets the ScopeMode.
 
 <a id="ContactRegion.SharedSourceBody"></a>
 
-### *property* ContactRegion.SharedSourceBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.SharedSourceBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedSourceBody.
 
@@ -769,7 +769,7 @@ Gets or sets the SharedSourceReverseNormalLocation.
 
 <a id="ContactRegion.SharedTargetBody"></a>
 
-### *property* ContactRegion.SharedTargetBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.SharedTargetBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedTargetBody.
 
@@ -785,7 +785,7 @@ Gets or sets the SharedTargetReverseNormalLocation.
 
 <a id="ContactRegion.ShearForceExponent"></a>
 
-### *property* ContactRegion.ShearForceExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ShearForceExponent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearForceExponent.
 
@@ -801,7 +801,7 @@ Gets or sets the ShearForceLimit.
 
 <a id="ContactRegion.ShearStressExponent"></a>
 
-### *property* ContactRegion.ShearStressExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ShearStressExponent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearStressExponent.
 
@@ -817,7 +817,7 @@ Gets or sets the ShearStressLimit.
 
 <a id="ContactRegion.ShellThicknessEffect"></a>
 
-### *property* ContactRegion.ShellThicknessEffect *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ShellThicknessEffect *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellThicknessEffect.
 
@@ -841,7 +841,7 @@ Gets or sets the SourceLocation.
 
 <a id="ContactRegion.StabilizationDampingFactor"></a>
 
-### *property* ContactRegion.StabilizationDampingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.StabilizationDampingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StabilizationDampingFactor.
 
@@ -849,7 +849,7 @@ Gets or sets the StabilizationDampingFactor.
 
 <a id="ContactRegion.Suppressed"></a>
 
-### *property* ContactRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -857,7 +857,7 @@ Gets or sets the Suppressed.
 
 <a id="ContactRegion.TargetAPDLName"></a>
 
-### *property* ContactRegion.TargetAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetAPDLName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetAPDLName.
 
@@ -865,7 +865,7 @@ Gets or sets the TargetAPDLName.
 
 <a id="ContactRegion.TargetBodies"></a>
 
-### *property* ContactRegion.TargetBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetBodies *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TargetBodies.
 
@@ -873,7 +873,7 @@ Gets the TargetBodies.
 
 <a id="ContactRegion.TargetCenterPoint"></a>
 
-### *property* ContactRegion.TargetCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetCenterPoint.
 
@@ -881,7 +881,7 @@ Gets or sets the TargetCenterPoint.
 
 <a id="ContactRegion.TargetEndingPoint"></a>
 
-### *property* ContactRegion.TargetEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetEndingPoint.
 
@@ -921,7 +921,7 @@ Gets or sets the TargetShellFace.
 
 <a id="ContactRegion.TargetStartingPoint"></a>
 
-### *property* ContactRegion.TargetStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TargetStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetStartingPoint.
 
@@ -993,7 +993,7 @@ Gets or sets the UserOffset.
 
 <a id="ContactRegion.VisibleProperties"></a>
 
-### *property* ContactRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -1037,7 +1037,7 @@ Creates a new child Figure.
 
 <a id="ContactRegion.AddImage"></a>
 
-### ContactRegion.AddImage(filePath: System.String)
+### ContactRegion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -1065,7 +1065,7 @@ Copies all visible properties from this object to another.
 
 <a id="ContactRegion.CreateParameter"></a>
 
-### ContactRegion.CreateParameter(propName: System.String)
+### ContactRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -1097,7 +1097,7 @@ Run the FlipContactTarget action.
 
 <a id="ContactRegion.GetChildren"></a>
 
-### ContactRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ContactRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1105,7 +1105,7 @@ Gets the list of children, filtered by type.
 
 <a id="ContactRegion.GetParameter"></a>
 
-### ContactRegion.GetParameter(propName: System.String)
+### ContactRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1129,7 +1129,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactRegion.LoadContactRegionSettings"></a>
 
-### ContactRegion.LoadContactRegionSettings(fName: System.String)
+### ContactRegion.LoadContactRegionSettings(fName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the LoadContactRegionSettings action.
 
@@ -1153,7 +1153,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="ContactRegion.PropertyByAPIName"></a>
 
-### ContactRegion.PropertyByAPIName(name: System.String)
+### ContactRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1164,7 +1164,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactRegion.PropertyByName"></a>
 
-### ContactRegion.PropertyByName(name: System.String)
+### ContactRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1172,7 +1172,7 @@ Get a property by its unique name.
 
 <a id="ContactRegion.RemoveParameter"></a>
 
-### ContactRegion.RemoveParameter(propName: System.String)
+### ContactRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -1196,7 +1196,7 @@ Run the ResetToDefault action.
 
 <a id="ContactRegion.SaveContactRegionSettings"></a>
 
-### ContactRegion.SaveContactRegionSettings(fName: System.String)
+### ContactRegion.SaveContactRegionSettings(fName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the SaveContactRegionSettings action.
 

@@ -147,7 +147,7 @@ Defines a StructuralError.
 
 <a id="StructuralError.Amplitude"></a>
 
-### *property* StructuralError.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -163,7 +163,7 @@ Gets the Average.
 
 <a id="StructuralError.AverageAcrossBodies"></a>
 
-### *property* StructuralError.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -195,7 +195,7 @@ Gets the BendingOutside.
 
 <a id="StructuralError.By"></a>
 
-### *property* StructuralError.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -203,7 +203,7 @@ Gets or sets the By.
 
 <a id="StructuralError.CalculateTimeHistory"></a>
 
-### *property* StructuralError.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -211,7 +211,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="StructuralError.Children"></a>
 
-### *property* StructuralError.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -219,7 +219,7 @@ Gets the list of children.
 
 <a id="StructuralError.CombinationNumber"></a>
 
-### *property* StructuralError.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -227,7 +227,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="StructuralError.Comments"></a>
 
-### *property* StructuralError.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -245,7 +245,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="StructuralError.CrackFrontNumber"></a>
 
-### *property* StructuralError.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -253,7 +253,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="StructuralError.CyclicMode"></a>
 
-### *property* StructuralError.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -261,7 +261,7 @@ Gets or sets the CyclicMode.
 
 <a id="StructuralError.DataModelObjectCategory"></a>
 
-### *property* StructuralError.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -269,7 +269,7 @@ Gets the current DataModelObject’s category.
 
 <a id="StructuralError.DisplayOption"></a>
 
-### *property* StructuralError.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -285,7 +285,7 @@ Gets or sets the DisplayTime.
 
 <a id="StructuralError.DpfEvaluation"></a>
 
-### *property* StructuralError.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -301,7 +301,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="StructuralError.Figures"></a>
 
-### *property* StructuralError.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -317,7 +317,7 @@ Gets or sets the Frequency.
 
 <a id="StructuralError.GlobalIDs"></a>
 
-### *property* StructuralError.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -325,7 +325,7 @@ Gets or sets the GlobalIDs.
 
 <a id="StructuralError.GraphControlsXAxis"></a>
 
-### *property* StructuralError.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -333,7 +333,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="StructuralError.HarmonicIndex"></a>
 
-### *property* StructuralError.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -341,7 +341,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="StructuralError.Identifier"></a>
 
-### *property* StructuralError.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -349,7 +349,7 @@ Gets or sets the Identifier.
 
 <a id="StructuralError.Images"></a>
 
-### *property* StructuralError.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -365,7 +365,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="StructuralError.IsSolved"></a>
 
-### *property* StructuralError.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -373,7 +373,7 @@ Gets the IsSolved.
 
 <a id="StructuralError.ItemType"></a>
 
-### *property* StructuralError.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -381,7 +381,7 @@ Gets or sets the ItemType.
 
 <a id="StructuralError.IterationNumber"></a>
 
-### *property* StructuralError.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -389,7 +389,7 @@ Gets the IterationNumber.
 
 <a id="StructuralError.IterationStep"></a>
 
-### *property* StructuralError.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -397,7 +397,7 @@ Gets or sets the IterationStep.
 
 <a id="StructuralError.Layer"></a>
 
-### *property* StructuralError.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -405,7 +405,7 @@ Gets or sets the Layer.
 
 <a id="StructuralError.Linearized2DBehavior"></a>
 
-### *property* StructuralError.Linearized2DBehavior *: [Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/Linearized2DBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Linearized2DBehavior *: [Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior](../../../../../Mechanical/DataModel/Enums/Linearized2DBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Linearized2DBehavior.
 
@@ -413,7 +413,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="StructuralError.LoadMultiplier"></a>
 
-### *property* StructuralError.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -421,7 +421,7 @@ Gets the LoadMultiplier.
 
 <a id="StructuralError.LoadStep"></a>
 
-### *property* StructuralError.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -429,7 +429,7 @@ Gets the LoadStep.
 
 <a id="StructuralError.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* StructuralError.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -437,7 +437,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="StructuralError.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* StructuralError.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -445,7 +445,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="StructuralError.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* StructuralError.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -453,7 +453,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="StructuralError.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* StructuralError.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -461,7 +461,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="StructuralError.LoadStepNumber"></a>
 
-### *property* StructuralError.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -485,7 +485,7 @@ Gets the Maximum.
 
 <a id="StructuralError.MaximumOccursOn"></a>
 
-### *property* StructuralError.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -549,7 +549,7 @@ Gets the Minimum.
 
 <a id="StructuralError.MinimumOccursOn"></a>
 
-### *property* StructuralError.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -573,7 +573,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="StructuralError.Mode"></a>
 
-### *property* StructuralError.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -581,7 +581,7 @@ Gets or sets the Mode.
 
 <a id="StructuralError.NamedSelections"></a>
 
-### *property* StructuralError.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -589,7 +589,7 @@ Gets or sets the NamedSelections.
 
 <a id="StructuralError.NormalOrientation"></a>
 
-### *property* StructuralError.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -597,7 +597,7 @@ Gets or sets the NormalOrientation.
 
 <a id="StructuralError.Path"></a>
 
-### *property* StructuralError.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -637,7 +637,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="StructuralError.Plies"></a>
 
-### *property* StructuralError.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -645,7 +645,7 @@ Plies property.
 
 <a id="StructuralError.PlotData"></a>
 
-### *property* StructuralError.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -653,7 +653,7 @@ Gets the result table.
 
 <a id="StructuralError.Ply"></a>
 
-### *property* StructuralError.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -661,7 +661,7 @@ Gets or sets the Ply selection.
 
 <a id="StructuralError.Position"></a>
 
-### *property* StructuralError.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Position.
 
@@ -669,7 +669,7 @@ Gets or sets the Position.
 
 <a id="StructuralError.Probability"></a>
 
-### *property* StructuralError.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -677,7 +677,7 @@ Gets the Probability.
 
 <a id="StructuralError.Properties"></a>
 
-### *property* StructuralError.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -693,7 +693,7 @@ Gets the ReportedFrequency.
 
 <a id="StructuralError.ScaleFactor"></a>
 
-### *property* StructuralError.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactor.
 
@@ -701,7 +701,7 @@ Gets or sets the ScaleFactor.
 
 <a id="StructuralError.ScopingMethod"></a>
 
-### *property* StructuralError.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -709,7 +709,7 @@ Gets or sets the ScopingMethod.
 
 <a id="StructuralError.SetNumber"></a>
 
-### *property* StructuralError.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -717,7 +717,7 @@ Gets or sets the Set Number.
 
 <a id="StructuralError.SolutionCombinationDriver"></a>
 
-### *property* StructuralError.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -725,7 +725,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="StructuralError.SolverComponentIDs"></a>
 
-### *property* StructuralError.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -733,7 +733,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="StructuralError.StressStrainType"></a>
 
-### *property* StructuralError.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -741,7 +741,7 @@ Gets or sets the StressStrainType.
 
 <a id="StructuralError.SubScopeBy"></a>
 
-### *property* StructuralError.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SubScopeBy.
 
@@ -749,7 +749,7 @@ Gets or sets the SubScopeBy.
 
 <a id="StructuralError.Substep"></a>
 
-### *property* StructuralError.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -757,7 +757,7 @@ Gets the Substep.
 
 <a id="StructuralError.Subtype"></a>
 
-### *property* StructuralError.Subtype *: [Ansys.Mechanical.DataModel.Enums.LinearizedSubtype](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinearizedSubtype.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LinearizedSubtype) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Subtype *: [Ansys.Mechanical.DataModel.Enums.LinearizedSubtype](../../../../../Mechanical/DataModel/Enums/LinearizedSubtype.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LinearizedSubtype) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Subtype.
 
@@ -765,7 +765,7 @@ Gets or sets the Subtype.
 
 <a id="StructuralError.Suppressed"></a>
 
-### *property* StructuralError.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -773,7 +773,7 @@ Gets or sets the Suppressed.
 
 <a id="StructuralError.Surface"></a>
 
-### *property* StructuralError.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -789,7 +789,7 @@ Gets or sets the SweepingPhase.
 
 <a id="StructuralError.ThroughThicknessBendingStress"></a>
 
-### *property* StructuralError.ThroughThicknessBendingStress *: [Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ThroughThicknessBendingStress.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.ThroughThicknessBendingStress *: [Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress](../../../../../Mechanical/DataModel/Enums/ThroughThicknessBendingStress.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThroughThicknessBendingStress.
 
@@ -861,7 +861,7 @@ Gets the TotalOutside.
 
 <a id="StructuralError.VisibleProperties"></a>
 
-### *property* StructuralError.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -869,7 +869,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="StructuralError.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* StructuralError.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StructuralError.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -921,7 +921,7 @@ Creates a new child Figure.
 
 <a id="StructuralError.AddImage"></a>
 
-### StructuralError.AddImage(filePath: System.String)
+### StructuralError.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -949,7 +949,7 @@ Copies all visible properties from this object to another.
 
 <a id="StructuralError.CreateParameter"></a>
 
-### StructuralError.CreateParameter(propName: System.String)
+### StructuralError.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -997,7 +997,7 @@ Run the EvaluateAllResults action.
 
 <a id="StructuralError.ExportAnimation"></a>
 
-### StructuralError.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### StructuralError.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1005,7 +1005,7 @@ Run the ExportAnimation action.
 
 <a id="StructuralError.ExportToTextFile"></a>
 
-### StructuralError.ExportToTextFile(filePath: System.String)
+### StructuralError.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1021,7 +1021,7 @@ Run the FetchRemoteResult action.
 
 <a id="StructuralError.GetChildren"></a>
 
-### StructuralError.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### StructuralError.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1029,7 +1029,7 @@ Gets the list of children, filtered by type.
 
 <a id="StructuralError.GetParameter"></a>
 
-### StructuralError.GetParameter(propName: System.String)
+### StructuralError.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1061,7 +1061,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="StructuralError.PropertyByAPIName"></a>
 
-### StructuralError.PropertyByAPIName(name: System.String)
+### StructuralError.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1072,7 +1072,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="StructuralError.PropertyByName"></a>
 
-### StructuralError.PropertyByName(name: System.String)
+### StructuralError.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1080,7 +1080,7 @@ Get a property by its unique name.
 
 <a id="StructuralError.RemoveParameter"></a>
 
-### StructuralError.RemoveParameter(propName: System.String)
+### StructuralError.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

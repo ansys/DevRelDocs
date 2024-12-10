@@ -17,7 +17,7 @@ Specifies the ResultFileItemType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`ComponentName`](#ResultFileItemType.ComponentName) |
 | [`ElementIDs`](#ResultFileItemType.ElementIDs) |
 | [`ElementNameIDs`](#ResultFileItemType.ElementNameIDs) |

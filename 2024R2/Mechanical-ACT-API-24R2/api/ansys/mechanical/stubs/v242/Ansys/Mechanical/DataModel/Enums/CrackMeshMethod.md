@@ -17,7 +17,7 @@ Specifies the CrackMeshMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------- |
 | [`HexDominant`](#CrackMeshMethod.HexDominant) |
 | [`Tetrahedrons`](#CrackMeshMethod.Tetrahedrons) |
 

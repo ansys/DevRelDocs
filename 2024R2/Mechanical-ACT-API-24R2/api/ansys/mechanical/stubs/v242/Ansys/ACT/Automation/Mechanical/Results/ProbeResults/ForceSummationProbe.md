@@ -17,7 +17,7 @@ Defines a ForceSummationProbe.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ForceSummationProbe.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ForceSummationProbe.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ForceSummationProbe.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -43,7 +43,7 @@ Defines a ForceSummationProbe.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`BeamSelection`](#ForceSummationProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
 | [`BoundaryConditionSelection`](#ForceSummationProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
 | [`Children`](#ForceSummationProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
@@ -96,7 +96,7 @@ Defines a ForceSummationProbe.
 
 <a id="ForceSummationProbe.BeamSelection"></a>
 
-### *property* ForceSummationProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamSelection.
 
@@ -112,7 +112,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="ForceSummationProbe.Children"></a>
 
-### *property* ForceSummationProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -120,7 +120,7 @@ Gets the list of children.
 
 <a id="ForceSummationProbe.Comments"></a>
 
-### *property* ForceSummationProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -128,7 +128,7 @@ Gets the list of associated comments.
 
 <a id="ForceSummationProbe.ContactRegionSelection"></a>
 
-### *property* ForceSummationProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegionSelection.
 
@@ -136,7 +136,7 @@ Gets or sets the ContactRegionSelection.
 
 <a id="ForceSummationProbe.CoordinateSystemSelection"></a>
 
-### *property* ForceSummationProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemSelection.
 
@@ -168,7 +168,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ForceSummationProbe.Figures"></a>
 
-### *property* ForceSummationProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -184,7 +184,7 @@ Gets or sets the GeometryLocation.
 
 <a id="ForceSummationProbe.Images"></a>
 
-### *property* ForceSummationProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -200,7 +200,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ForceSummationProbe.IsSolved"></a>
 
-### *property* ForceSummationProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -208,7 +208,7 @@ Gets the IsSolved.
 
 <a id="ForceSummationProbe.IterationNumber"></a>
 
-### *property* ForceSummationProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -216,7 +216,7 @@ Gets the IterationNumber.
 
 <a id="ForceSummationProbe.LoadStep"></a>
 
-### *property* ForceSummationProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -224,7 +224,7 @@ Gets the LoadStep.
 
 <a id="ForceSummationProbe.LoadStepNumber"></a>
 
-### *property* ForceSummationProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -272,7 +272,7 @@ Gets the MaximumZAxis.
 
 <a id="ForceSummationProbe.MeshConnectionSelection"></a>
 
-### *property* ForceSummationProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -312,7 +312,7 @@ Gets the MinimumZAxis.
 
 <a id="ForceSummationProbe.Orientation"></a>
 
-### *property* ForceSummationProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
@@ -320,7 +320,7 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <a id="ForceSummationProbe.Properties"></a>
 
-### *property* ForceSummationProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -352,7 +352,7 @@ Gets or sets the SpatialResolution.
 
 <a id="ForceSummationProbe.SpringSelection"></a>
 
-### *property* ForceSummationProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringSelection.
 
@@ -360,7 +360,7 @@ Gets or sets the SpringSelection.
 
 <a id="ForceSummationProbe.Substep"></a>
 
-### *property* ForceSummationProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -376,7 +376,7 @@ Gets or sets the Summation.
 
 <a id="ForceSummationProbe.Suppressed"></a>
 
-### *property* ForceSummationProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -392,7 +392,7 @@ Gets or sets the MeshConnectionSelection.
 
 <a id="ForceSummationProbe.SymmetryMultiplier"></a>
 
-### *property* ForceSummationProbe.SymmetryMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.SymmetryMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SymmetryMultiplier.
 
@@ -424,7 +424,7 @@ Gets the Type.
 
 <a id="ForceSummationProbe.VisibleProperties"></a>
 
-### *property* ForceSummationProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ForceSummationProbe.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -484,7 +484,7 @@ Creates a new child Figure.
 
 <a id="ForceSummationProbe.AddImage"></a>
 
-### ForceSummationProbe.AddImage(filePath: System.String)
+### ForceSummationProbe.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -512,7 +512,7 @@ Copies all visible properties from this object to another.
 
 <a id="ForceSummationProbe.CreateParameter"></a>
 
-### ForceSummationProbe.CreateParameter(propName: System.String)
+### ForceSummationProbe.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -552,7 +552,7 @@ Run the EvaluateAllResults action.
 
 <a id="ForceSummationProbe.ExportAnimation"></a>
 
-### ForceSummationProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ForceSummationProbe.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -560,7 +560,7 @@ Run the ExportAnimation action.
 
 <a id="ForceSummationProbe.GetChildren"></a>
 
-### ForceSummationProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ForceSummationProbe.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -568,7 +568,7 @@ Gets the list of children, filtered by type.
 
 <a id="ForceSummationProbe.GetParameter"></a>
 
-### ForceSummationProbe.GetParameter(propName: System.String)
+### ForceSummationProbe.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -592,7 +592,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ForceSummationProbe.PropertyByAPIName"></a>
 
-### ForceSummationProbe.PropertyByAPIName(name: System.String)
+### ForceSummationProbe.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -603,7 +603,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ForceSummationProbe.PropertyByName"></a>
 
-### ForceSummationProbe.PropertyByName(name: System.String)
+### ForceSummationProbe.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -611,7 +611,7 @@ Get a property by its unique name.
 
 <a id="ForceSummationProbe.RemoveParameter"></a>
 
-### ForceSummationProbe.RemoveParameter(propName: System.String)
+### ForceSummationProbe.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

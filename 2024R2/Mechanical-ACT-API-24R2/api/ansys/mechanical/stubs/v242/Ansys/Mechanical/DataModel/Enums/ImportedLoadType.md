@@ -17,7 +17,7 @@ Specifies the ImportedLoadType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------ |
 | [`BodyForceDensity`](#ImportedLoadType.BodyForceDensity) |
 | [`ElementOrientation`](#ImportedLoadType.ElementOrientation) |
 | [`FiberRatio`](#ImportedLoadType.FiberRatio) |

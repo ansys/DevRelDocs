@@ -17,7 +17,7 @@ Specifies the RemoteApplicationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------- |
 | [`DirectAttachment`](#RemoteApplicationType.DirectAttachment) |
 | [`RemoteAttachment`](#RemoteApplicationType.RemoteAttachment) |
 

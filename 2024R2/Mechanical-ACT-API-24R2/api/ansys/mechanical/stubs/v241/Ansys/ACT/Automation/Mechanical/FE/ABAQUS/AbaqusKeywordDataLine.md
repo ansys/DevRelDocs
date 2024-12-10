@@ -17,7 +17,7 @@ Represents a keyword data line.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+|-------------------------------------------|------------------------------|
 | [`Items`](#AbaqusKeywordDataLine.Items)   | Gets the data line values.   |
 
 <a id="property-detail"></a>
@@ -26,7 +26,7 @@ Represents a keyword data line.
 
 <a id="AbaqusKeywordDataLine.Items"></a>
 
-### *property* AbaqusKeywordDataLine.Items *: System.Collections.Generic.IReadOnlyList[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AbaqusKeywordDataLine.Items *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[str](https://docs.python.org/3/library/stdtypes.html#str)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the data line values.
 

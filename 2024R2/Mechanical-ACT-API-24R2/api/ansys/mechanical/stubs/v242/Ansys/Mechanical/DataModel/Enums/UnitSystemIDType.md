@@ -17,7 +17,7 @@ Specifies the Unit System ID Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`UnitsBFT`](#UnitSystemIDType.UnitsBFT) |
 | [`UnitsBIN`](#UnitSystemIDType.UnitsBIN) |
 | [`UnitsCGS`](#UnitSystemIDType.UnitsCGS) |

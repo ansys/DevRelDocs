@@ -17,7 +17,7 @@ Defines a CoordinateSystems.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CoordinateSystems.Activate)                                                   | Activate the current object.                                                      |
 | [`AddComment`](#CoordinateSystems.AddComment)                                               | Creates a new child Comment.                                                      |
 | [`AddCoordinateSystem`](#CoordinateSystems.AddCoordinateSystem)                             | Creates a new CoordinateSystem                                                    |
@@ -38,7 +38,7 @@ Defines a CoordinateSystems.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#CoordinateSystems.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CoordinateSystems.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#CoordinateSystems.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -54,7 +54,7 @@ Defines a CoordinateSystems.
 
 <a id="CoordinateSystems.Children"></a>
 
-### *property* CoordinateSystems.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystems.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -62,7 +62,7 @@ Gets the list of children.
 
 <a id="CoordinateSystems.Comments"></a>
 
-### *property* CoordinateSystems.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystems.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -70,7 +70,7 @@ Gets the list of associated comments.
 
 <a id="CoordinateSystems.DataModelObjectCategory"></a>
 
-### *property* CoordinateSystems.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystems.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -78,7 +78,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CoordinateSystems.Figures"></a>
 
-### *property* CoordinateSystems.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystems.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -86,7 +86,7 @@ Gets the list of associated figures.
 
 <a id="CoordinateSystems.Images"></a>
 
-### *property* CoordinateSystems.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystems.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -102,7 +102,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CoordinateSystems.Properties"></a>
 
-### *property* CoordinateSystems.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystems.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -110,7 +110,7 @@ Gets the list of properties for this object.
 
 <a id="CoordinateSystems.VisibleProperties"></a>
 
-### *property* CoordinateSystems.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystems.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -146,7 +146,7 @@ Creates a new CoordinateSystem
 
 <a id="CoordinateSystems.AddCoordinateSystemAtCenterOfMass"></a>
 
-### CoordinateSystems.AddCoordinateSystemAtCenterOfMass(geoBodies: System.Collections.Generic.IList[Ansys.ACT.Interfaces.Geometry.IBaseGeoBody], pointMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.PointMass](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PointMass)], distributedMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.DistributedMass](DistributedMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DistributedMass)])
+### CoordinateSystems.AddCoordinateSystemAtCenterOfMass(geoBodies: List[Ansys.ACT.Interfaces.Geometry.IBaseGeoBody], pointMasses: List[[Ansys.ACT.Automation.Mechanical.PointMass](PointMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PointMass)], distributedMasses: List[[Ansys.ACT.Automation.Mechanical.DistributedMass](DistributedMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DistributedMass)])
 
 AddCoordinateSystemAtCenterOfMass method.
 
@@ -162,7 +162,7 @@ Creates a new child Figure.
 
 <a id="CoordinateSystems.AddImage"></a>
 
-### CoordinateSystems.AddImage(filePath: System.String)
+### CoordinateSystems.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -182,7 +182,7 @@ Copies all visible properties from this object to another.
 
 <a id="CoordinateSystems.CreateParameter"></a>
 
-### CoordinateSystems.CreateParameter(propName: System.String)
+### CoordinateSystems.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -198,7 +198,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CoordinateSystems.GetChildren"></a>
 
-### CoordinateSystems.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CoordinateSystems.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -206,7 +206,7 @@ Gets the list of children, filtered by type.
 
 <a id="CoordinateSystems.GetParameter"></a>
 
-### CoordinateSystems.GetParameter(propName: System.String)
+### CoordinateSystems.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -230,7 +230,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CoordinateSystems.PropertyByAPIName"></a>
 
-### CoordinateSystems.PropertyByAPIName(name: System.String)
+### CoordinateSystems.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -241,7 +241,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CoordinateSystems.PropertyByName"></a>
 
-### CoordinateSystems.PropertyByName(name: System.String)
+### CoordinateSystems.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -249,7 +249,7 @@ Get a property by its unique name.
 
 <a id="CoordinateSystems.RemoveParameter"></a>
 
-### CoordinateSystems.RemoveParameter(propName: System.String)
+### CoordinateSystems.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

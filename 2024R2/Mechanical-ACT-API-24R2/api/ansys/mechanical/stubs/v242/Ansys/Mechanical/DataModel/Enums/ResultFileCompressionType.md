@@ -17,7 +17,7 @@ Specifies the ResultFileCompressionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------- |
 | [`Off`](#ResultFileCompressionType.Off) |
 | [`ProgramControlled`](#ResultFileCompressionType.ProgramControlled) |
 | [`Sparse`](#ResultFileCompressionType.Sparse) |

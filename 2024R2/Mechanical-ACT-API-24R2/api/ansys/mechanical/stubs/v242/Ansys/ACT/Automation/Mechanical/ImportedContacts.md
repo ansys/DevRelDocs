@@ -56,7 +56,7 @@ Defines a ImportedContacts.
 
 <a id="ImportedContacts.Children"></a>
 
-### *property* ImportedContacts.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedContacts.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -64,7 +64,7 @@ Gets the list of children.
 
 <a id="ImportedContacts.Comments"></a>
 
-### *property* ImportedContacts.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedContacts.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -72,7 +72,7 @@ Gets the list of associated comments.
 
 <a id="ImportedContacts.Count"></a>
 
-### *property* ImportedContacts.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedContacts.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberOfRows.
 
@@ -88,7 +88,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedContacts.Figures"></a>
 
-### *property* ImportedContacts.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedContacts.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -96,7 +96,7 @@ Gets the list of associated figures.
 
 <a id="ImportedContacts.Images"></a>
 
-### *property* ImportedContacts.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedContacts.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -112,7 +112,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedContacts.Properties"></a>
 
-### *property* ImportedContacts.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedContacts.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -120,7 +120,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedContacts.ReadOnly"></a>
 
-### *property* ImportedContacts.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedContacts.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -128,7 +128,7 @@ Gets or sets the ReadOnly.
 
 <a id="ImportedContacts.Suppressed"></a>
 
-### *property* ImportedContacts.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedContacts.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -136,7 +136,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedContacts.VisibleProperties"></a>
 
-### *property* ImportedContacts.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedContacts.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -172,7 +172,7 @@ Creates a new child Figure.
 
 <a id="ImportedContacts.AddImage"></a>
 
-### ImportedContacts.AddImage(filePath: System.String)
+### ImportedContacts.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -192,7 +192,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedContacts.CreateParameter"></a>
 
-### ImportedContacts.CreateParameter(propName: System.String)
+### ImportedContacts.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -216,7 +216,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedContacts.GetChildren"></a>
 
-### ImportedContacts.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedContacts.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -224,7 +224,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedContacts.GetParameter"></a>
 
-### ImportedContacts.GetParameter(propName: System.String)
+### ImportedContacts.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -248,7 +248,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ImportedContacts.PropertyByAPIName"></a>
 
-### ImportedContacts.PropertyByAPIName(name: System.String)
+### ImportedContacts.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -259,7 +259,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedContacts.PropertyByName"></a>
 
-### ImportedContacts.PropertyByName(name: System.String)
+### ImportedContacts.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -267,7 +267,7 @@ Get a property by its unique name.
 
 <a id="ImportedContacts.RemoveParameter"></a>
 
-### ImportedContacts.RemoveParameter(propName: System.String)
+### ImportedContacts.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

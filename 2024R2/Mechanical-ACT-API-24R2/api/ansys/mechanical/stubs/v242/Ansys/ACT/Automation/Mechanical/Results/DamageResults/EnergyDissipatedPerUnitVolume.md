@@ -17,7 +17,7 @@ Defines a EnergyDissipatedPerUnitVolume.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#EnergyDissipatedPerUnitVolume.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#EnergyDissipatedPerUnitVolume.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#EnergyDissipatedPerUnitVolume.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a EnergyDissipatedPerUnitVolume.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#EnergyDissipatedPerUnitVolume.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#EnergyDissipatedPerUnitVolume.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#EnergyDissipatedPerUnitVolume.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -100,14 +100,14 @@ Defines a EnergyDissipatedPerUnitVolume.
 | [`Substep`](#EnergyDissipatedPerUnitVolume.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#EnergyDissipatedPerUnitVolume.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#EnergyDissipatedPerUnitVolume.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#EnergyDissipatedPerUnitVolume.SurfaceCoating)                                                                                                                                                       | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#EnergyDissipatedPerUnitVolume.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#EnergyDissipatedPerUnitVolume.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#EnergyDissipatedPerUnitVolume.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#EnergyDissipatedPerUnitVolume.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#EnergyDissipatedPerUnitVolume.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#EnergyDissipatedPerUnitVolume.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#EnergyDissipatedPerUnitVolume.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#EnergyDissipatedPerUnitVolume.WaterfallShowTextOnMosaic)                                                                                                                                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#EnergyDissipatedPerUnitVolume.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -131,7 +131,7 @@ Gets or sets the By.
 
 <a id="EnergyDissipatedPerUnitVolume.CalculateTimeHistory"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -139,7 +139,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="EnergyDissipatedPerUnitVolume.Children"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -147,7 +147,7 @@ Gets the list of children.
 
 <a id="EnergyDissipatedPerUnitVolume.CombinationNumber"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -155,7 +155,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="EnergyDissipatedPerUnitVolume.Comments"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -163,7 +163,7 @@ Gets the list of associated comments.
 
 <a id="EnergyDissipatedPerUnitVolume.CoordinateSystem"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -173,7 +173,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="EnergyDissipatedPerUnitVolume.CrackFrontNumber"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -221,7 +221,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="EnergyDissipatedPerUnitVolume.Figures"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -229,7 +229,7 @@ Gets the list of associated figures.
 
 <a id="EnergyDissipatedPerUnitVolume.GlobalIDs"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -245,7 +245,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="EnergyDissipatedPerUnitVolume.Identifier"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -253,7 +253,7 @@ Gets or sets the Identifier.
 
 <a id="EnergyDissipatedPerUnitVolume.Images"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -269,7 +269,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EnergyDissipatedPerUnitVolume.IsSolved"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -285,7 +285,7 @@ Gets or sets the ItemType.
 
 <a id="EnergyDissipatedPerUnitVolume.IterationNumber"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -293,7 +293,7 @@ Gets the IterationNumber.
 
 <a id="EnergyDissipatedPerUnitVolume.LoadStep"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -301,7 +301,7 @@ Gets the LoadStep.
 
 <a id="EnergyDissipatedPerUnitVolume.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -309,7 +309,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="EnergyDissipatedPerUnitVolume.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -317,7 +317,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="EnergyDissipatedPerUnitVolume.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -325,7 +325,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="EnergyDissipatedPerUnitVolume.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -333,7 +333,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="EnergyDissipatedPerUnitVolume.LoadStepNumber"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -357,7 +357,7 @@ Gets the Maximum.
 
 <a id="EnergyDissipatedPerUnitVolume.MaximumOccursOn"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -389,7 +389,7 @@ Gets the Minimum.
 
 <a id="EnergyDissipatedPerUnitVolume.MinimumOccursOn"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -413,7 +413,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="EnergyDissipatedPerUnitVolume.Mode"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -421,7 +421,7 @@ Gets or sets the Mode.
 
 <a id="EnergyDissipatedPerUnitVolume.NamedSelections"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -437,7 +437,7 @@ Path property.
 
 <a id="EnergyDissipatedPerUnitVolume.Plies"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -453,7 +453,7 @@ Gets the result table.
 
 <a id="EnergyDissipatedPerUnitVolume.Ply"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -461,7 +461,7 @@ Gets or sets the Ply selection.
 
 <a id="EnergyDissipatedPerUnitVolume.Properties"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -477,7 +477,7 @@ Gets or sets the ScopingMethod.
 
 <a id="EnergyDissipatedPerUnitVolume.SetNumber"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -493,7 +493,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="EnergyDissipatedPerUnitVolume.SolverComponentIDs"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -501,7 +501,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="EnergyDissipatedPerUnitVolume.Substep"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -509,7 +509,7 @@ Gets the Substep.
 
 <a id="EnergyDissipatedPerUnitVolume.Suppressed"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -573,7 +573,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="EnergyDissipatedPerUnitVolume.VisibleProperties"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -581,7 +581,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EnergyDissipatedPerUnitVolume.WaterfallShowTextOnMosaic"></a>
 
-### *property* EnergyDissipatedPerUnitVolume.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EnergyDissipatedPerUnitVolume.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -633,7 +633,7 @@ Creates a new child Figure.
 
 <a id="EnergyDissipatedPerUnitVolume.AddImage"></a>
 
-### EnergyDissipatedPerUnitVolume.AddImage(filePath: System.String)
+### EnergyDissipatedPerUnitVolume.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -661,7 +661,7 @@ Copies all visible properties from this object to another.
 
 <a id="EnergyDissipatedPerUnitVolume.CreateParameter"></a>
 
-### EnergyDissipatedPerUnitVolume.CreateParameter(propName: System.String)
+### EnergyDissipatedPerUnitVolume.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -709,7 +709,7 @@ Run the EvaluateAllResults action.
 
 <a id="EnergyDissipatedPerUnitVolume.ExportAnimation"></a>
 
-### EnergyDissipatedPerUnitVolume.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### EnergyDissipatedPerUnitVolume.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -717,7 +717,7 @@ Run the ExportAnimation action.
 
 <a id="EnergyDissipatedPerUnitVolume.ExportToTextFile"></a>
 
-### EnergyDissipatedPerUnitVolume.ExportToTextFile(filePath: System.String)
+### EnergyDissipatedPerUnitVolume.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -733,7 +733,7 @@ Run the FetchRemoteResult action.
 
 <a id="EnergyDissipatedPerUnitVolume.GetChildren"></a>
 
-### EnergyDissipatedPerUnitVolume.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EnergyDissipatedPerUnitVolume.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -741,7 +741,7 @@ Gets the list of children, filtered by type.
 
 <a id="EnergyDissipatedPerUnitVolume.GetParameter"></a>
 
-### EnergyDissipatedPerUnitVolume.GetParameter(propName: System.String)
+### EnergyDissipatedPerUnitVolume.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -773,7 +773,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="EnergyDissipatedPerUnitVolume.PropertyByAPIName"></a>
 
-### EnergyDissipatedPerUnitVolume.PropertyByAPIName(name: System.String)
+### EnergyDissipatedPerUnitVolume.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -784,7 +784,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EnergyDissipatedPerUnitVolume.PropertyByName"></a>
 
-### EnergyDissipatedPerUnitVolume.PropertyByName(name: System.String)
+### EnergyDissipatedPerUnitVolume.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -792,7 +792,7 @@ Get a property by its unique name.
 
 <a id="EnergyDissipatedPerUnitVolume.RemoveParameter"></a>
 
-### EnergyDissipatedPerUnitVolume.RemoveParameter(propName: System.String)
+### EnergyDissipatedPerUnitVolume.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

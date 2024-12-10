@@ -17,7 +17,7 @@ Specifies the TopoBoundType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------- |
 | [`LowerBound`](#TopoBoundType.LowerBound) |
 | [`UpperBound`](#TopoBoundType.UpperBound) |
 

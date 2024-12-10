@@ -17,7 +17,7 @@ Represents a BFE command.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------|-----------------------------|
+|------------------------------------|-----------------------------|
 | [`Elem`](#BFECommand.Elem)         | Gets the element number.    |
 | [`Index`](#BFECommand.Index)       | Gets the command index.     |
 | [`Lab`](#BFECommand.Lab)           | Gets the label.             |
@@ -32,7 +32,7 @@ Represents a BFE command.
 
 <a id="BFECommand.Elem"></a>
 
-### *property* BFECommand.Elem *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFECommand.Elem *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element number.
 
@@ -40,7 +40,7 @@ Gets the element number.
 
 <a id="BFECommand.Index"></a>
 
-### *property* BFECommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFECommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -48,7 +48,7 @@ Gets the command index.
 
 <a id="BFECommand.Lab"></a>
 
-### *property* BFECommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFECommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
 
@@ -56,7 +56,7 @@ Gets the label.
 
 <a id="BFECommand.Name"></a>
 
-### *property* BFECommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFECommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -64,7 +64,7 @@ Gets the command name.
 
 <a id="BFECommand.Stloc"></a>
 
-### *property* BFECommand.Stloc *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFECommand.Stloc *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the starting location.
 
@@ -72,7 +72,7 @@ Gets the starting location.
 
 <a id="BFECommand.ValCount"></a>
 
-### *property* BFECommand.ValCount *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFECommand.ValCount *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of values.
 
@@ -80,7 +80,7 @@ Gets the number of values.
 
 <a id="BFECommand.Values"></a>
 
-### *property* BFECommand.Values *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFECommand.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

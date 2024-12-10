@@ -75,7 +75,7 @@ Defines a PointMass.
 
 <a id="PointMass.AppliedBy"></a>
 
-### *property* PointMass.AppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemoteApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.AppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AppliedBy.
 
@@ -91,7 +91,7 @@ Gets or sets the BeamRadius.
 
 <a id="PointMass.Behavior"></a>
 
-### *property* PointMass.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -99,7 +99,7 @@ Gets or sets the Behavior.
 
 <a id="PointMass.Children"></a>
 
-### *property* PointMass.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -107,7 +107,7 @@ Gets the list of children.
 
 <a id="PointMass.Comments"></a>
 
-### *property* PointMass.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -123,7 +123,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="PointMass.DataModelObjectCategory"></a>
 
-### *property* PointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -131,7 +131,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PointMass.ElementAPDLName"></a>
 
-### *property* PointMass.ElementAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.ElementAPDLName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementAPDLName.
 
@@ -139,7 +139,7 @@ Gets or sets the ElementAPDLName.
 
 <a id="PointMass.Figures"></a>
 
-### *property* PointMass.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -147,7 +147,7 @@ Gets the list of associated figures.
 
 <a id="PointMass.Images"></a>
 
-### *property* PointMass.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -163,7 +163,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PointMass.IsDistributedMass"></a>
 
-### *property* PointMass.IsDistributedMass *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.IsDistributedMass *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsDistributedMass.
 
@@ -211,7 +211,7 @@ Gets or sets the MassMomentOfInertiaZ.
 
 <a id="PointMass.Material"></a>
 
-### *property* PointMass.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -235,7 +235,7 @@ Gets or sets the PinballRegion.
 
 <a id="PointMass.Properties"></a>
 
-### *property* PointMass.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -243,7 +243,7 @@ Gets the list of properties for this object.
 
 <a id="PointMass.ReadOnly"></a>
 
-### *property* PointMass.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -251,7 +251,7 @@ Gets or sets the ReadOnly.
 
 <a id="PointMass.RemotePoint"></a>
 
-### *property* PointMass.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the remote point associated to the point mass.
 
@@ -259,7 +259,7 @@ Gets the remote point associated to the point mass.
 
 <a id="PointMass.Suppressed"></a>
 
-### *property* PointMass.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -267,7 +267,7 @@ Gets or sets the Suppressed.
 
 <a id="PointMass.VisibleProperties"></a>
 
-### *property* PointMass.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PointMass.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -335,7 +335,7 @@ Creates a new child Figure.
 
 <a id="PointMass.AddImage"></a>
 
-### PointMass.AddImage(filePath: System.String)
+### PointMass.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -355,7 +355,7 @@ Copies all visible properties from this object to another.
 
 <a id="PointMass.CreateParameter"></a>
 
-### PointMass.CreateParameter(propName: System.String)
+### PointMass.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -379,7 +379,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PointMass.GetChildren"></a>
 
-### PointMass.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PointMass.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -387,7 +387,7 @@ Gets the list of children, filtered by type.
 
 <a id="PointMass.GetParameter"></a>
 
-### PointMass.GetParameter(propName: System.String)
+### PointMass.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -419,7 +419,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="PointMass.PropertyByAPIName"></a>
 
-### PointMass.PropertyByAPIName(name: System.String)
+### PointMass.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -430,7 +430,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PointMass.PropertyByName"></a>
 
-### PointMass.PropertyByName(name: System.String)
+### PointMass.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -438,7 +438,7 @@ Get a property by its unique name.
 
 <a id="PointMass.RemoveParameter"></a>
 
-### PointMass.RemoveParameter(propName: System.String)
+### PointMass.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

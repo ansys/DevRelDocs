@@ -17,7 +17,7 @@ Specifies the SlidingContactType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`ConnectedSurface`](#SlidingContactType.ConnectedSurface) |
 | [`DiscreteSurface`](#SlidingContactType.DiscreteSurface) |
 

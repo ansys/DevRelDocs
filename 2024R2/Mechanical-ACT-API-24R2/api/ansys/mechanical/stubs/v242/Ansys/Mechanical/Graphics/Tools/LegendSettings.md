@@ -17,7 +17,7 @@ Represents a LegendSettings object. This object holds properties of the Standalo
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+|------------------------------------------------------------------|-------------------------------------------------------------------------|
 | [`GetBandColor`](#LegendSettings.GetBandColor)                   | Gets the color of the specified band.                                   |
 | [`GetBandColorAuto`](#LegendSettings.GetBandColorAuto)           | Gets whether the specified band is set to Automatic or not.             |
 | [`GetLowerBandValueAuto`](#LegendSettings.GetLowerBandValueAuto) | Gets whether the lower specified band value is set to Automatic or not. |
@@ -34,7 +34,7 @@ Represents a LegendSettings object. This object holds properties of the Standalo
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+|--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | [`AllScientificNotation`](#LegendSettings.AllScientificNotation)   | Whether the result values are displayed in scientific notation.                                    |
 | [`ColorScheme`](#LegendSettings.ColorScheme)                       | Color Scheme for the legend.                                                                       |
 | [`Digits`](#LegendSettings.Digits)                                 | Number of significant digits (min:2 , max:8).                                                      |
@@ -50,7 +50,7 @@ Represents a LegendSettings object. This object holds properties of the Standalo
 
 <a id="LegendSettings.AllScientificNotation"></a>
 
-### *property* LegendSettings.AllScientificNotation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegendSettings.AllScientificNotation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the result values are displayed in scientific notation.
 
@@ -66,7 +66,7 @@ Color Scheme for the legend.
 
 <a id="LegendSettings.Digits"></a>
 
-### *property* LegendSettings.Digits *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegendSettings.Digits *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Number of significant digits (min:2 , max:8).
 
@@ -74,7 +74,7 @@ Number of significant digits (min:2 , max:8).
 
 <a id="LegendSettings.HighFidelity"></a>
 
-### *property* LegendSettings.HighFidelity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegendSettings.HighFidelity *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether to replot and improve the synchronization of the result values.
 
@@ -82,7 +82,7 @@ Whether to replot and improve the synchronization of the result values.
 
 <a id="LegendSettings.LogarithmicScale"></a>
 
-### *property* LegendSettings.LogarithmicScale *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegendSettings.LogarithmicScale *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the result values are distributed in a Logarithmic scale.
 
@@ -90,7 +90,7 @@ Whether the result values are distributed in a Logarithmic scale.
 
 <a id="LegendSettings.NumberOfBands"></a>
 
-### *property* LegendSettings.NumberOfBands *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegendSettings.NumberOfBands *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.
 
@@ -98,7 +98,7 @@ Number of bands on the legend (min:3, max:30). Bands are added/removed from the 
 
 <a id="LegendSettings.SemiTransparency"></a>
 
-### *property* LegendSettings.SemiTransparency *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegendSettings.SemiTransparency *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the legend is semi-transparent.
 
@@ -106,7 +106,7 @@ Whether the legend is semi-transparent.
 
 <a id="LegendSettings.Unit"></a>
 
-### *property* LegendSettings.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LegendSettings.Unit *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The unit for the legend.
 
@@ -118,7 +118,7 @@ The unit for the legend.
 
 <a id="LegendSettings.GetBandColor"></a>
 
-### LegendSettings.GetBandColor(index: System.Int32)
+### LegendSettings.GetBandColor(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the color of the specified band.
 
@@ -126,7 +126,7 @@ Gets the color of the specified band.
 
 <a id="LegendSettings.GetBandColorAuto"></a>
 
-### LegendSettings.GetBandColorAuto(index: System.Int32)
+### LegendSettings.GetBandColorAuto(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets whether the specified band is set to Automatic or not.
 
@@ -134,7 +134,7 @@ Gets whether the specified band is set to Automatic or not.
 
 <a id="LegendSettings.GetLowerBandValueAuto"></a>
 
-### LegendSettings.GetLowerBandValueAuto(index: System.Int32)
+### LegendSettings.GetLowerBandValueAuto(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets whether the lower specified band value is set to Automatic or not.
 
@@ -142,7 +142,7 @@ Gets whether the lower specified band value is set to Automatic or not.
 
 <a id="LegendSettings.GetLowerBound"></a>
 
-### LegendSettings.GetLowerBound(index: System.Int32)
+### LegendSettings.GetLowerBound(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets lower bound value of the specified band.
 
@@ -150,7 +150,7 @@ Gets lower bound value of the specified band.
 
 <a id="LegendSettings.GetUpperBandValueAuto"></a>
 
-### LegendSettings.GetUpperBandValueAuto(index: System.Int32)
+### LegendSettings.GetUpperBandValueAuto(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets whether the specified upper band value is set to Automatic or not.
 
@@ -158,7 +158,7 @@ Gets whether the specified upper band value is set to Automatic or not.
 
 <a id="LegendSettings.GetUpperBound"></a>
 
-### LegendSettings.GetUpperBound(index: System.Int32)
+### LegendSettings.GetUpperBound(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets upper bound value of the specified band.
 
@@ -182,7 +182,7 @@ Resets all colors to default values.
 
 <a id="LegendSettings.SetBandColor"></a>
 
-### LegendSettings.SetBandColor(index: System.Int32, colorValue: System.UInt32)
+### LegendSettings.SetBandColor(index: [int](https://docs.python.org/3/library/functions.html#int), colorValue: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the color of the specified band.
 
@@ -190,7 +190,7 @@ Sets the color of the specified band.
 
 <a id="LegendSettings.SetBandColorAuto"></a>
 
-### LegendSettings.SetBandColorAuto(index: System.Int32, val: System.Boolean)
+### LegendSettings.SetBandColorAuto(index: [int](https://docs.python.org/3/library/functions.html#int), val: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the specified band to Automatic.
 
@@ -198,7 +198,7 @@ Sets the specified band to Automatic.
 
 <a id="LegendSettings.SetLowerBound"></a>
 
-### LegendSettings.SetLowerBound(index: System.Int32, value: Ansys.Core.Units.Quantity)
+### LegendSettings.SetLowerBound(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets lower bound value of the specified band.
 
@@ -206,7 +206,7 @@ Sets lower bound value of the specified band.
 
 <a id="LegendSettings.SetUpperBound"></a>
 
-### LegendSettings.SetUpperBound(index: System.Int32, value: Ansys.Core.Units.Quantity)
+### LegendSettings.SetUpperBound(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets upper bound value of the specified band.
 

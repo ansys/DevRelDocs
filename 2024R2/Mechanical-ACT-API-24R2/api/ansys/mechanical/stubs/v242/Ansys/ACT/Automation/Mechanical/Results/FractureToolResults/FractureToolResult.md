@@ -17,7 +17,7 @@ Defines a FractureToolResult.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#FractureToolResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#FractureToolResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#FractureToolResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a FractureToolResult.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`ActiveContour`](#FractureToolResult.ActiveContour)                                         | Gets or sets the ActiveContour.                                        |
 | [`ActiveContourEnd`](#FractureToolResult.ActiveContourEnd)                                   | Gets or sets the ActiveContourEnd.                                     |
 | [`ActiveContourStart`](#FractureToolResult.ActiveContourStart)                               | Gets or sets the ActiveContourStart.                                   |
@@ -103,14 +103,14 @@ Defines a FractureToolResult.
 | [`Substep`](#FractureToolResult.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#FractureToolResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#FractureToolResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#FractureToolResult.SurfaceCoating)                                                                                                                                                  | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#FractureToolResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#FractureToolResult.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#FractureToolResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#FractureToolResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#FractureToolResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#FractureToolResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#FractureToolResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#FractureToolResult.WaterfallShowTextOnMosaic)                                                                                                                            | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#FractureToolResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -118,7 +118,7 @@ Defines a FractureToolResult.
 
 <a id="FractureToolResult.ActiveContour"></a>
 
-### *property* FractureToolResult.ActiveContour *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.ActiveContour *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActiveContour.
 
@@ -126,7 +126,7 @@ Gets or sets the ActiveContour.
 
 <a id="FractureToolResult.ActiveContourEnd"></a>
 
-### *property* FractureToolResult.ActiveContourEnd *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.ActiveContourEnd *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActiveContourEnd.
 
@@ -134,7 +134,7 @@ Gets or sets the ActiveContourEnd.
 
 <a id="FractureToolResult.ActiveContourStart"></a>
 
-### *property* FractureToolResult.ActiveContourStart *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.ActiveContourStart *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActiveContourStart.
 
@@ -158,7 +158,7 @@ Gets or sets the By.
 
 <a id="FractureToolResult.CalculateTimeHistory"></a>
 
-### *property* FractureToolResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -166,7 +166,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="FractureToolResult.Children"></a>
 
-### *property* FractureToolResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -174,7 +174,7 @@ Gets the list of children.
 
 <a id="FractureToolResult.CombinationNumber"></a>
 
-### *property* FractureToolResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -182,7 +182,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="FractureToolResult.Comments"></a>
 
-### *property* FractureToolResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -190,7 +190,7 @@ Gets the list of associated comments.
 
 <a id="FractureToolResult.CoordinateSystem"></a>
 
-### *property* FractureToolResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -200,7 +200,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="FractureToolResult.CrackFrontNumber"></a>
 
-### *property* FractureToolResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -240,7 +240,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="FractureToolResult.Figures"></a>
 
-### *property* FractureToolResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -264,7 +264,7 @@ Gets or sets the FractureResultType.
 
 <a id="FractureToolResult.GlobalIDs"></a>
 
-### *property* FractureToolResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -280,7 +280,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="FractureToolResult.Identifier"></a>
 
-### *property* FractureToolResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -288,7 +288,7 @@ Gets or sets the Identifier.
 
 <a id="FractureToolResult.Images"></a>
 
-### *property* FractureToolResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -304,7 +304,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FractureToolResult.IsSolved"></a>
 
-### *property* FractureToolResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -320,7 +320,7 @@ Gets or sets the ItemType.
 
 <a id="FractureToolResult.IterationNumber"></a>
 
-### *property* FractureToolResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -328,7 +328,7 @@ Gets the IterationNumber.
 
 <a id="FractureToolResult.LoadStep"></a>
 
-### *property* FractureToolResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -336,7 +336,7 @@ Gets the LoadStep.
 
 <a id="FractureToolResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* FractureToolResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -344,7 +344,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="FractureToolResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* FractureToolResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -352,7 +352,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="FractureToolResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* FractureToolResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -360,7 +360,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="FractureToolResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* FractureToolResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -368,7 +368,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="FractureToolResult.LoadStepNumber"></a>
 
-### *property* FractureToolResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -392,7 +392,7 @@ Gets the Maximum.
 
 <a id="FractureToolResult.MaximumOccursOn"></a>
 
-### *property* FractureToolResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -424,7 +424,7 @@ Gets the Minimum.
 
 <a id="FractureToolResult.MinimumOccursOn"></a>
 
-### *property* FractureToolResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -448,7 +448,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="FractureToolResult.Mode"></a>
 
-### *property* FractureToolResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -456,7 +456,7 @@ Gets or sets the Mode.
 
 <a id="FractureToolResult.NamedSelections"></a>
 
-### *property* FractureToolResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -480,7 +480,7 @@ Gets the result table.
 
 <a id="FractureToolResult.Properties"></a>
 
-### *property* FractureToolResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -496,7 +496,7 @@ Gets or sets the ScopingMethod.
 
 <a id="FractureToolResult.SetNumber"></a>
 
-### *property* FractureToolResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -512,7 +512,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="FractureToolResult.SolverComponentIDs"></a>
 
-### *property* FractureToolResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -520,7 +520,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="FractureToolResult.SolverID"></a>
 
-### *property* FractureToolResult.SolverID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.SolverID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverID.
 
@@ -528,7 +528,7 @@ Gets or sets the SolverID.
 
 <a id="FractureToolResult.Substep"></a>
 
-### *property* FractureToolResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -536,7 +536,7 @@ Gets the Substep.
 
 <a id="FractureToolResult.Suppressed"></a>
 
-### *property* FractureToolResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -600,7 +600,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="FractureToolResult.VisibleProperties"></a>
 
-### *property* FractureToolResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -608,7 +608,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="FractureToolResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* FractureToolResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -660,7 +660,7 @@ Creates a new child Figure.
 
 <a id="FractureToolResult.AddImage"></a>
 
-### FractureToolResult.AddImage(filePath: System.String)
+### FractureToolResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -688,7 +688,7 @@ Copies all visible properties from this object to another.
 
 <a id="FractureToolResult.CreateParameter"></a>
 
-### FractureToolResult.CreateParameter(propName: System.String)
+### FractureToolResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -736,7 +736,7 @@ Run the EvaluateAllResults action.
 
 <a id="FractureToolResult.ExportAnimation"></a>
 
-### FractureToolResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FractureToolResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -744,7 +744,7 @@ Run the ExportAnimation action.
 
 <a id="FractureToolResult.ExportToTextFile"></a>
 
-### FractureToolResult.ExportToTextFile(filePath: System.String)
+### FractureToolResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -760,7 +760,7 @@ Run the FetchRemoteResult action.
 
 <a id="FractureToolResult.GetChildren"></a>
 
-### FractureToolResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FractureToolResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -768,7 +768,7 @@ Gets the list of children, filtered by type.
 
 <a id="FractureToolResult.GetParameter"></a>
 
-### FractureToolResult.GetParameter(propName: System.String)
+### FractureToolResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -800,7 +800,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="FractureToolResult.PropertyByAPIName"></a>
 
-### FractureToolResult.PropertyByAPIName(name: System.String)
+### FractureToolResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -811,7 +811,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FractureToolResult.PropertyByName"></a>
 
-### FractureToolResult.PropertyByName(name: System.String)
+### FractureToolResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -819,7 +819,7 @@ Get a property by its unique name.
 
 <a id="FractureToolResult.RemoveParameter"></a>
 
-### FractureToolResult.RemoveParameter(propName: System.String)
+### FractureToolResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

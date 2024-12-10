@@ -17,7 +17,7 @@ Specifies the ExpandResultFrom.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------ |
 | [`HarmonicSolution`](#ExpandResultFrom.HarmonicSolution) |
 | [`ModalSolution`](#ExpandResultFrom.ModalSolution) |
 | [`ProgramControlled`](#ExpandResultFrom.ProgramControlled) |

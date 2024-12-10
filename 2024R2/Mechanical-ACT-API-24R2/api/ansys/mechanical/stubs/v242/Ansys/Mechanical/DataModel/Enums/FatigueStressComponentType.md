@@ -17,7 +17,7 @@ Specifies the Fatigue Stress Component Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------ |
 | [`FatigueToolAbsMaxPrincipal`](#FatigueStressComponentType.FatigueToolAbsMaxPrincipal) |
 | [`FatigueToolComponent_X`](#FatigueStressComponentType.FatigueToolComponent_X) |
 | [`FatigueToolComponent_XY`](#FatigueStressComponentType.FatigueToolComponent_XY) |

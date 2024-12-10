@@ -91,7 +91,7 @@ Defines a NodeMergeGroup.
 
 <a id="NodeMergeGroup.ActiveConnections"></a>
 
-### *property* NodeMergeGroup.ActiveConnections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.ActiveConnections *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ActiveConnections.
 
@@ -99,7 +99,7 @@ Gets the ActiveConnections.
 
 <a id="NodeMergeGroup.AutomaticFixedJoints"></a>
 
-### *property* NodeMergeGroup.AutomaticFixedJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.AutomaticFixedJoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticFixedJoints.
 
@@ -107,7 +107,7 @@ Gets or sets the AutomaticFixedJoints.
 
 <a id="NodeMergeGroup.Children"></a>
 
-### *property* NodeMergeGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -115,7 +115,7 @@ Gets the list of children.
 
 <a id="NodeMergeGroup.Comments"></a>
 
-### *property* NodeMergeGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -123,7 +123,7 @@ Gets the list of associated comments.
 
 <a id="NodeMergeGroup.ConnectionType"></a>
 
-### *property* NodeMergeGroup.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.AutoDetectionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutoDetectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutoDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.AutoDetectionType](../../../Mechanical/DataModel/Enums/AutoDetectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutoDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionType.
 
@@ -131,7 +131,7 @@ Gets or sets the ConnectionType.
 
 <a id="NodeMergeGroup.Connections"></a>
 
-### *property* NodeMergeGroup.Connections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.Connections *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Connections.
 
@@ -139,7 +139,7 @@ Gets the Connections.
 
 <a id="NodeMergeGroup.CylindricalFaces"></a>
 
-### *property* NodeMergeGroup.CylindricalFaces *: [Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CylindricalFacesOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.CylindricalFaces *: [Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption](../../../Mechanical/DataModel/Enums/CylindricalFacesOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CylindricalFaces.
 
@@ -147,7 +147,7 @@ Gets or sets the CylindricalFaces.
 
 <a id="NodeMergeGroup.DataModelObjectCategory"></a>
 
-### *property* NodeMergeGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -155,7 +155,7 @@ Gets the current DataModelObject’s category.
 
 <a id="NodeMergeGroup.EdgeEdge"></a>
 
-### *property* NodeMergeGroup.EdgeEdge *: [Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactEdgeEdgeOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.EdgeEdge *: [Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption](../../../Mechanical/DataModel/Enums/ContactEdgeEdgeOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeEdge.
 
@@ -163,7 +163,7 @@ Gets or sets the EdgeEdge.
 
 <a id="NodeMergeGroup.EdgeOverlapTolerance"></a>
 
-### *property* NodeMergeGroup.EdgeOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.EdgeOverlapTolerance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeOverlapTolerance.
 
@@ -179,7 +179,7 @@ Gets or sets the FaceAngleTolerance.
 
 <a id="NodeMergeGroup.FaceEdge"></a>
 
-### *property* NodeMergeGroup.FaceEdge *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.FaceEdge *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption](../../../Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceEdge.
 
@@ -187,7 +187,7 @@ Gets or sets the FaceEdge.
 
 <a id="NodeMergeGroup.FaceFace"></a>
 
-### *property* NodeMergeGroup.FaceFace *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.FaceFace *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceFace.
 
@@ -203,7 +203,7 @@ Gets or sets the FaceFaceDetectionAngleTolerence.
 
 <a id="NodeMergeGroup.FaceOverlapTolerance"></a>
 
-### *property* NodeMergeGroup.FaceOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.FaceOverlapTolerance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceOverlapTolerance.
 
@@ -211,7 +211,7 @@ Gets or sets the FaceOverlapTolerance.
 
 <a id="NodeMergeGroup.Figures"></a>
 
-### *property* NodeMergeGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -219,7 +219,7 @@ Gets the list of associated figures.
 
 <a id="NodeMergeGroup.GroupBy"></a>
 
-### *property* NodeMergeGroup.GroupBy *: [Ansys.Mechanical.DataModel.Enums.ContactGroupingType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactGroupingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.GroupBy *: [Ansys.Mechanical.DataModel.Enums.ContactGroupingType](../../../Mechanical/DataModel/Enums/ContactGroupingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GroupBy.
 
@@ -227,7 +227,7 @@ Gets or sets the GroupBy.
 
 <a id="NodeMergeGroup.Images"></a>
 
-### *property* NodeMergeGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -251,7 +251,7 @@ Gets or sets the Location.
 
 <a id="NodeMergeGroup.MinimumDistancePercentage"></a>
 
-### *property* NodeMergeGroup.MinimumDistancePercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.MinimumDistancePercentage *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumDistancePercentage.
 
@@ -267,7 +267,7 @@ Gets the MinimumDistanceValue.
 
 <a id="NodeMergeGroup.Priority"></a>
 
-### *property* NodeMergeGroup.Priority *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.Priority *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority](../../../Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Priority.
 
@@ -275,7 +275,7 @@ Gets or sets the Priority.
 
 <a id="NodeMergeGroup.Properties"></a>
 
-### *property* NodeMergeGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -283,7 +283,7 @@ Gets the list of properties for this object.
 
 <a id="NodeMergeGroup.ReadOnly"></a>
 
-### *property* NodeMergeGroup.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -291,7 +291,7 @@ Gets or sets the ReadOnly.
 
 <a id="NodeMergeGroup.RevoluteJoints"></a>
 
-### *property* NodeMergeGroup.RevoluteJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.RevoluteJoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RevoluteJoints.
 
@@ -299,7 +299,7 @@ Gets or sets the RevoluteJoints.
 
 <a id="NodeMergeGroup.SearchAcross"></a>
 
-### *property* NodeMergeGroup.SearchAcross *: [Ansys.Mechanical.DataModel.Enums.ContactSearchingType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSearchingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSearchingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.SearchAcross *: [Ansys.Mechanical.DataModel.Enums.ContactSearchingType](../../../Mechanical/DataModel/Enums/ContactSearchingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSearchingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SearchAcross.
 
@@ -307,7 +307,7 @@ Gets or sets the SearchAcross.
 
 <a id="NodeMergeGroup.Suppressed"></a>
 
-### *property* NodeMergeGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -315,7 +315,7 @@ Gets or sets the Suppressed.
 
 <a id="NodeMergeGroup.ThicknessScaleFactor"></a>
 
-### *property* NodeMergeGroup.ThicknessScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.ThicknessScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThicknessScaleFactor.
 
@@ -323,7 +323,7 @@ Gets or sets the ThicknessScaleFactor.
 
 <a id="NodeMergeGroup.ToleranceSlider"></a>
 
-### *property* NodeMergeGroup.ToleranceSlider *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.ToleranceSlider *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceSlider.
 
@@ -331,7 +331,7 @@ Gets or sets the ToleranceSlider.
 
 <a id="NodeMergeGroup.ToleranceType"></a>
 
-### *property* NodeMergeGroup.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
@@ -347,7 +347,7 @@ Gets or sets the ToleranceValue.
 
 <a id="NodeMergeGroup.UseRange"></a>
 
-### *property* NodeMergeGroup.UseRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.UseRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseRange.
 
@@ -355,7 +355,7 @@ Gets or sets the UseRange.
 
 <a id="NodeMergeGroup.VisibleProperties"></a>
 
-### *property* NodeMergeGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodeMergeGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -399,7 +399,7 @@ Creates a new child Figure.
 
 <a id="NodeMergeGroup.AddImage"></a>
 
-### NodeMergeGroup.AddImage(filePath: System.String)
+### NodeMergeGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -459,7 +459,7 @@ Run the CreateAutomaticConnections action.
 
 <a id="NodeMergeGroup.CreateParameter"></a>
 
-### NodeMergeGroup.CreateParameter(propName: System.String)
+### NodeMergeGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -499,7 +499,7 @@ Run the GenerateNodeMerge action.
 
 <a id="NodeMergeGroup.GetChildren"></a>
 
-### NodeMergeGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NodeMergeGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -507,7 +507,7 @@ Gets the list of children, filtered by type.
 
 <a id="NodeMergeGroup.GetParameter"></a>
 
-### NodeMergeGroup.GetParameter(propName: System.String)
+### NodeMergeGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -531,7 +531,7 @@ Run the GroupSimilarObjects action.
 
 <a id="NodeMergeGroup.PropertyByAPIName"></a>
 
-### NodeMergeGroup.PropertyByAPIName(name: System.String)
+### NodeMergeGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -542,7 +542,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NodeMergeGroup.PropertyByName"></a>
 
-### NodeMergeGroup.PropertyByName(name: System.String)
+### NodeMergeGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -550,7 +550,7 @@ Get a property by its unique name.
 
 <a id="NodeMergeGroup.RemoveParameter"></a>
 
-### NodeMergeGroup.RemoveParameter(propName: System.String)
+### NodeMergeGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

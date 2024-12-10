@@ -17,7 +17,7 @@ Specifies the ProximitySFSourcesType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Edges`](#ProximitySFSourcesType.Edges) |
 | [`Faces`](#ProximitySFSourcesType.Faces) |
 | [`FacesAndEdges`](#ProximitySFSourcesType.FacesAndEdges) |

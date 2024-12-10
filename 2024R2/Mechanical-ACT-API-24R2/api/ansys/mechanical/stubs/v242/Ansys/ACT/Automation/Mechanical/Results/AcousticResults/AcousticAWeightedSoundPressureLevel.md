@@ -17,7 +17,7 @@ Defines a AcousticAWeightedSoundPressureLevel.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticAWeightedSoundPressureLevel.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#AcousticAWeightedSoundPressureLevel.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#AcousticAWeightedSoundPressureLevel.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a AcousticAWeightedSoundPressureLevel.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#AcousticAWeightedSoundPressureLevel.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#AcousticAWeightedSoundPressureLevel.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#AcousticAWeightedSoundPressureLevel.By)                                                               | Gets or sets the By.                                                   |
@@ -104,7 +104,7 @@ Defines a AcousticAWeightedSoundPressureLevel.
 | [`Substep`](#AcousticAWeightedSoundPressureLevel.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#AcousticAWeightedSoundPressureLevel.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#AcousticAWeightedSoundPressureLevel.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#AcousticAWeightedSoundPressureLevel.SurfaceCoating)                                                                                                                                                               | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#AcousticAWeightedSoundPressureLevel.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#AcousticAWeightedSoundPressureLevel.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#AcousticAWeightedSoundPressureLevel.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#AcousticAWeightedSoundPressureLevel.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -112,7 +112,7 @@ Defines a AcousticAWeightedSoundPressureLevel.
 | [`TimeForMinimumOfMaximumValues`](#AcousticAWeightedSoundPressureLevel.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#AcousticAWeightedSoundPressureLevel.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#AcousticAWeightedSoundPressureLevel.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#AcousticAWeightedSoundPressureLevel.WaterfallShowTextOnMosaic)                                                                                                                                         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#AcousticAWeightedSoundPressureLevel.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -120,7 +120,7 @@ Defines a AcousticAWeightedSoundPressureLevel.
 
 <a id="AcousticAWeightedSoundPressureLevel.Amplitude"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -144,7 +144,7 @@ Gets or sets the By.
 
 <a id="AcousticAWeightedSoundPressureLevel.CalculateTimeHistory"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -152,7 +152,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="AcousticAWeightedSoundPressureLevel.Children"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -160,7 +160,7 @@ Gets the list of children.
 
 <a id="AcousticAWeightedSoundPressureLevel.CombinationNumber"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -168,7 +168,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="AcousticAWeightedSoundPressureLevel.Comments"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -176,7 +176,7 @@ Gets the list of associated comments.
 
 <a id="AcousticAWeightedSoundPressureLevel.CoordinateSystem"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -186,7 +186,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="AcousticAWeightedSoundPressureLevel.CrackFrontNumber"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -234,7 +234,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="AcousticAWeightedSoundPressureLevel.Figures"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -250,7 +250,7 @@ Gets or sets the Frequency.
 
 <a id="AcousticAWeightedSoundPressureLevel.GlobalIDs"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -266,7 +266,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticAWeightedSoundPressureLevel.Identifier"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -274,7 +274,7 @@ Gets or sets the Identifier.
 
 <a id="AcousticAWeightedSoundPressureLevel.Images"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -290,7 +290,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticAWeightedSoundPressureLevel.IsSolved"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -306,7 +306,7 @@ Gets or sets the ItemType.
 
 <a id="AcousticAWeightedSoundPressureLevel.IterationNumber"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -314,7 +314,7 @@ Gets the IterationNumber.
 
 <a id="AcousticAWeightedSoundPressureLevel.LoadStep"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -322,7 +322,7 @@ Gets the LoadStep.
 
 <a id="AcousticAWeightedSoundPressureLevel.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -330,7 +330,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="AcousticAWeightedSoundPressureLevel.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -338,7 +338,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="AcousticAWeightedSoundPressureLevel.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -346,7 +346,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="AcousticAWeightedSoundPressureLevel.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -354,7 +354,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="AcousticAWeightedSoundPressureLevel.LoadStepNumber"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -370,7 +370,7 @@ Gets or sets the Location.
 
 <a id="AcousticAWeightedSoundPressureLevel.LogarithmicDecrement"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -386,7 +386,7 @@ Gets the Maximum.
 
 <a id="AcousticAWeightedSoundPressureLevel.MaximumOccursOn"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -418,7 +418,7 @@ Gets the Minimum.
 
 <a id="AcousticAWeightedSoundPressureLevel.MinimumOccursOn"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -442,7 +442,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="AcousticAWeightedSoundPressureLevel.ModalDampingRatio"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -450,7 +450,7 @@ Gets the ModalDampingRatio.
 
 <a id="AcousticAWeightedSoundPressureLevel.Mode"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -458,7 +458,7 @@ Gets or sets the Mode.
 
 <a id="AcousticAWeightedSoundPressureLevel.NamedSelections"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -482,7 +482,7 @@ Gets the result table.
 
 <a id="AcousticAWeightedSoundPressureLevel.Properties"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -506,7 +506,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AcousticAWeightedSoundPressureLevel.SetNumber"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -522,7 +522,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="AcousticAWeightedSoundPressureLevel.SolverComponentIDs"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -538,7 +538,7 @@ Gets the Stability.
 
 <a id="AcousticAWeightedSoundPressureLevel.Substep"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -546,7 +546,7 @@ Gets the Substep.
 
 <a id="AcousticAWeightedSoundPressureLevel.Suppressed"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -618,7 +618,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="AcousticAWeightedSoundPressureLevel.VisibleProperties"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -626,7 +626,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticAWeightedSoundPressureLevel.WaterfallShowTextOnMosaic"></a>
 
-### *property* AcousticAWeightedSoundPressureLevel.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAWeightedSoundPressureLevel.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -678,7 +678,7 @@ Creates a new child Figure.
 
 <a id="AcousticAWeightedSoundPressureLevel.AddImage"></a>
 
-### AcousticAWeightedSoundPressureLevel.AddImage(filePath: System.String)
+### AcousticAWeightedSoundPressureLevel.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -706,7 +706,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticAWeightedSoundPressureLevel.CreateParameter"></a>
 
-### AcousticAWeightedSoundPressureLevel.CreateParameter(propName: System.String)
+### AcousticAWeightedSoundPressureLevel.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -754,7 +754,7 @@ Run the EvaluateAllResults action.
 
 <a id="AcousticAWeightedSoundPressureLevel.ExportAnimation"></a>
 
-### AcousticAWeightedSoundPressureLevel.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AcousticAWeightedSoundPressureLevel.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -762,7 +762,7 @@ Run the ExportAnimation action.
 
 <a id="AcousticAWeightedSoundPressureLevel.ExportToTextFile"></a>
 
-### AcousticAWeightedSoundPressureLevel.ExportToTextFile(filePath: System.String)
+### AcousticAWeightedSoundPressureLevel.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -778,7 +778,7 @@ Run the FetchRemoteResult action.
 
 <a id="AcousticAWeightedSoundPressureLevel.GetChildren"></a>
 
-### AcousticAWeightedSoundPressureLevel.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticAWeightedSoundPressureLevel.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -786,7 +786,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticAWeightedSoundPressureLevel.GetParameter"></a>
 
-### AcousticAWeightedSoundPressureLevel.GetParameter(propName: System.String)
+### AcousticAWeightedSoundPressureLevel.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -818,7 +818,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticAWeightedSoundPressureLevel.PropertyByAPIName"></a>
 
-### AcousticAWeightedSoundPressureLevel.PropertyByAPIName(name: System.String)
+### AcousticAWeightedSoundPressureLevel.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -829,7 +829,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticAWeightedSoundPressureLevel.PropertyByName"></a>
 
-### AcousticAWeightedSoundPressureLevel.PropertyByName(name: System.String)
+### AcousticAWeightedSoundPressureLevel.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -837,7 +837,7 @@ Get a property by its unique name.
 
 <a id="AcousticAWeightedSoundPressureLevel.RemoveParameter"></a>
 
-### AcousticAWeightedSoundPressureLevel.RemoveParameter(propName: System.String)
+### AcousticAWeightedSoundPressureLevel.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

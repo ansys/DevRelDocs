@@ -17,7 +17,7 @@ Specifies the SendAs.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`Mesh200`](#SendAs.Mesh200) |
 | [`Nodes`](#SendAs.Nodes) |
 | [`NotApplicable`](#SendAs.NotApplicable) |

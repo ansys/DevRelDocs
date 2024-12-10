@@ -179,7 +179,7 @@ Defines a AutomaticMethod.
 
 <a id="AutomaticMethod.Active"></a>
 
-### *property* AutomaticMethod.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Active.
 
@@ -187,7 +187,7 @@ Gets the Active.
 
 <a id="AutomaticMethod.AggressiveInflateOption"></a>
 
-### *property* AutomaticMethod.AggressiveInflateOption *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.AggressiveInflateOption *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AggressiveInflateOption.
 
@@ -195,7 +195,7 @@ Gets or sets the AggressiveInflateOption.
 
 <a id="AutomaticMethod.AggressiveTetImprovement"></a>
 
-### *property* AutomaticMethod.AggressiveTetImprovement *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.AggressiveTetImprovement *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AggressiveTetImprovement.
 
@@ -211,7 +211,7 @@ Gets or sets the Algorithm.
 
 <a id="AutomaticMethod.ApproximativeNumberOfElementsPerPart"></a>
 
-### *property* AutomaticMethod.ApproximativeNumberOfElementsPerPart *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ApproximativeNumberOfElementsPerPart *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ApproximativeNumberOfElementsPerPart.
 
@@ -299,7 +299,7 @@ Gets or sets the AutomaticNodeMovement method under PCTet.
 
 <a id="AutomaticMethod.BFCartSubType"></a>
 
-### *property* AutomaticMethod.BFCartSubType *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.BFCartSubType *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the BFCartSubType.
 
@@ -323,7 +323,7 @@ Gets or sets the BodyStackingType.
 
 <a id="AutomaticMethod.CartSweepSpacingOption"></a>
 
-### *property* AutomaticMethod.CartSweepSpacingOption *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.CartSweepSpacingOption *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  CartSweep SpacingOption in Multizone ( 0 = Uniform, 1 = Key-Points).
 
@@ -339,7 +339,7 @@ Gets or sets the CartesianSize in Multizone.
 
 <a id="AutomaticMethod.Children"></a>
 
-### *property* AutomaticMethod.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -355,7 +355,7 @@ Gets or sets the Clearence.
 
 <a id="AutomaticMethod.Comments"></a>
 
-### *property* AutomaticMethod.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -363,7 +363,7 @@ Gets the list of associated comments.
 
 <a id="AutomaticMethod.ConstrainBoundary"></a>
 
-### *property* AutomaticMethod.ConstrainBoundary *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ConstrainBoundary *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConstrainBoundary.
 
@@ -371,7 +371,7 @@ Gets or sets the ConstrainBoundary.
 
 <a id="AutomaticMethod.ControlMessages"></a>
 
-### *property* AutomaticMethod.ControlMessages *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ControlMessages *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ControlMessages.
 
@@ -379,7 +379,7 @@ Gets the ControlMessages.
 
 <a id="AutomaticMethod.CoordinateSystem"></a>
 
-### *property* AutomaticMethod.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -419,7 +419,7 @@ Gets or sets the DecompositionType in Multizone.
 
 <a id="AutomaticMethod.DefeatureLayerVolume"></a>
 
-### *property* AutomaticMethod.DefeatureLayerVolume *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.DefeatureLayerVolume *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefeatureLayerVolume.
 
@@ -467,7 +467,7 @@ Gets or sets the ElementOrder.
 
 <a id="AutomaticMethod.FaceProximityGapFactor"></a>
 
-### *property* AutomaticMethod.FaceProximityGapFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.FaceProximityGapFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceProximityGapFactor for PCTet.
 
@@ -499,7 +499,7 @@ Gets or sets the DihedralAngle for AutoNodeMove under PCTet.
 
 <a id="AutomaticMethod.Figures"></a>
 
-### *property* AutomaticMethod.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -507,7 +507,7 @@ Gets the list of associated figures.
 
 <a id="AutomaticMethod.FilletCollapse"></a>
 
-### *property* AutomaticMethod.FilletCollapse *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.FilletCollapse *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FilletCollapse for AutoNodeMove under PCTet ( 0 = No, 1 = ProgramControlled ).
 
@@ -523,7 +523,7 @@ Gets or sets the FillingDirection.
 
 <a id="AutomaticMethod.FillingFraction"></a>
 
-### *property* AutomaticMethod.FillingFraction *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.FillingFraction *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FillingFraction.
 
@@ -531,7 +531,7 @@ Gets or sets the FillingFraction.
 
 <a id="AutomaticMethod.FreeFaceMeshType"></a>
 
-### *property* AutomaticMethod.FreeFaceMeshType *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.FreeFaceMeshType *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FreeFaceMeshType.
 
@@ -539,7 +539,7 @@ Gets or sets the FreeFaceMeshType.
 
 <a id="AutomaticMethod.FreeMeshType"></a>
 
-### *property* AutomaticMethod.FreeMeshType *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.FreeMeshType *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FreeMeshType.
 
@@ -547,7 +547,7 @@ Gets or sets the FreeMeshType.
 
 <a id="AutomaticMethod.GenerateLayersUsingFacets"></a>
 
-### *property* AutomaticMethod.GenerateLayersUsingFacets *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.GenerateLayersUsingFacets *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateLayersUsingFacets.
 
@@ -555,7 +555,7 @@ Gets or sets the GenerateLayersUsingFacets.
 
 <a id="AutomaticMethod.Images"></a>
 
-### *property* AutomaticMethod.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -563,7 +563,7 @@ Gets the list of associated images.
 
 <a id="AutomaticMethod.ImprovementIterations"></a>
 
-### *property* AutomaticMethod.ImprovementIterations *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ImprovementIterations *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ImprovementIterations for AutoNodeMove under PCTet.
 
@@ -571,7 +571,7 @@ Gets or sets the ImprovementIterations for AutoNodeMove under PCTet.
 
 <a id="AutomaticMethod.InflateRelativeTolerance"></a>
 
-### *property* AutomaticMethod.InflateRelativeTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.InflateRelativeTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InflateRelativeTolerance.
 
@@ -603,7 +603,7 @@ Gets or sets the KeyPoints Tolerance in Multizone.
 
 <a id="AutomaticMethod.LateralDefeatureSize"></a>
 
-### *property* AutomaticMethod.LateralDefeatureSize *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.LateralDefeatureSize *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LateralDefeatureSize.
 
@@ -611,7 +611,7 @@ Gets or sets the LateralDefeatureSize.
 
 <a id="AutomaticMethod.LayerHeight"></a>
 
-### *property* AutomaticMethod.LayerHeight *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.LayerHeight *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LayerHeight.
 
@@ -619,7 +619,7 @@ Gets or sets the LayerHeight.
 
 <a id="AutomaticMethod.LayerStart"></a>
 
-### *property* AutomaticMethod.LayerStart *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.LayerStart *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LayerStart.
 
@@ -635,11 +635,11 @@ Gets or sets the Location.
 
 <a id="AutomaticMethod.MZSweepNumberDivisions"></a>
 
-### *property* AutomaticMethod.MZSweepNumberDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.MZSweepNumberDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <a id="AutomaticMethod.MappedSweptType"></a>
 
-### *property* AutomaticMethod.MappedSweptType *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.MappedSweptType *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MappedSweptType.
 
@@ -647,7 +647,7 @@ Gets or sets the MappedSweptType.
 
 <a id="AutomaticMethod.MatchMeshWherePossible"></a>
 
-### *property* AutomaticMethod.MatchMeshWherePossible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.MatchMeshWherePossible *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MatchMeshWherePossible.
 
@@ -663,7 +663,7 @@ Gets or sets the MaximumElementSize.
 
 <a id="AutomaticMethod.MeshBasedDefeaturing"></a>
 
-### *property* AutomaticMethod.MeshBasedDefeaturing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.MeshBasedDefeaturing *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshBasedDefeaturing.
 
@@ -679,7 +679,7 @@ Gets or sets the MeshFlowControl.
 
 <a id="AutomaticMethod.MeshInCenter"></a>
 
-### *property* AutomaticMethod.MeshInCenter *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.MeshInCenter *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshInCenter.
 
@@ -695,7 +695,7 @@ Gets or sets the MeshType.
 
 <a id="AutomaticMethod.MeshUsingVoxelization"></a>
 
-### *property* AutomaticMethod.MeshUsingVoxelization *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.MeshUsingVoxelization *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshUsingVoxelization.
 
@@ -743,7 +743,7 @@ Gets or sets the NamedSelection.
 
 <a id="AutomaticMethod.NumberOfCellsAcrossGap"></a>
 
-### *property* AutomaticMethod.NumberOfCellsAcrossGap *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.NumberOfCellsAcrossGap *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfCellsAcrossGap.
 
@@ -751,7 +751,7 @@ Gets or sets the NumberOfCellsAcrossGap.
 
 <a id="AutomaticMethod.NumberOfElementLayers"></a>
 
-### *property* AutomaticMethod.NumberOfElementLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.NumberOfElementLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfElementLayers for PCTet.
 
@@ -767,7 +767,7 @@ Gets or sets the OverlappingAngle.
 
 <a id="AutomaticMethod.PartialFill"></a>
 
-### *property* AutomaticMethod.PartialFill *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.PartialFill *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PartialFill.
 
@@ -775,7 +775,7 @@ Gets or sets the PartialFill.
 
 <a id="AutomaticMethod.ParticleCoordinateSystem"></a>
 
-### *property* AutomaticMethod.ParticleCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ParticleCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ParticleCoordinateSystem.
 
@@ -791,7 +791,7 @@ Gets or sets the ParticleDiameter.
 
 <a id="AutomaticMethod.PreserveBoundaries"></a>
 
-### *property* AutomaticMethod.PreserveBoundaries *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.PreserveBoundaries *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreserveBoundaries.
 
@@ -807,7 +807,7 @@ Gets or sets the PrimeMethodAutoRepair.
 
 <a id="AutomaticMethod.ProjectCornersToTop"></a>
 
-### *property* AutomaticMethod.ProjectCornersToTop *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ProjectCornersToTop *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProjectCornersToTop.
 
@@ -815,7 +815,7 @@ Gets or sets the ProjectCornersToTop.
 
 <a id="AutomaticMethod.ProjectInConstantZPlane"></a>
 
-### *property* AutomaticMethod.ProjectInConstantZPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ProjectInConstantZPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProjectInConstantZPlane.
 
@@ -823,7 +823,7 @@ Gets or sets the ProjectInConstantZPlane.
 
 <a id="AutomaticMethod.ProjectionFactor"></a>
 
-### *property* AutomaticMethod.ProjectionFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ProjectionFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProjectionFactor.
 
@@ -831,7 +831,7 @@ Gets or sets the ProjectionFactor.
 
 <a id="AutomaticMethod.Properties"></a>
 
-### *property* AutomaticMethod.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -839,7 +839,7 @@ Gets the list of properties for this object.
 
 <a id="AutomaticMethod.RadialGrowthRate"></a>
 
-### *property* AutomaticMethod.RadialGrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.RadialGrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RadialGrowthRate.
 
@@ -847,7 +847,7 @@ Gets or sets the RadialGrowthRate.
 
 <a id="AutomaticMethod.RefineAtThinSection"></a>
 
-### *property* AutomaticMethod.RefineAtThinSection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.RefineAtThinSection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RefineAtThinSection for PCTet.
 
@@ -855,7 +855,7 @@ Gets or sets the RefineAtThinSection for PCTet.
 
 <a id="AutomaticMethod.RefineSurfaceMesh"></a>
 
-### *property* AutomaticMethod.RefineSurfaceMesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.RefineSurfaceMesh *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RefineSurfaceMesh for PCTet.
 
@@ -863,7 +863,7 @@ Gets or sets the RefineSurfaceMesh for PCTet.
 
 <a id="AutomaticMethod.Refinement"></a>
 
-### *property* AutomaticMethod.Refinement *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Refinement *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Refinement.
 
@@ -871,7 +871,7 @@ Gets or sets the Refinement.
 
 <a id="AutomaticMethod.RelativeTolerance"></a>
 
-### *property* AutomaticMethod.RelativeTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.RelativeTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PrimeRelativeTolerance.
 
@@ -887,7 +887,7 @@ Gets or sets the RemoveSharpAngleFaces.
 
 <a id="AutomaticMethod.RepairFacets"></a>
 
-### *property* AutomaticMethod.RepairFacets *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.RepairFacets *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RepairFacets.
 
@@ -895,7 +895,7 @@ Gets or sets the RepairFacets.
 
 <a id="AutomaticMethod.RestrictNodeMovementsToSurface"></a>
 
-### *property* AutomaticMethod.RestrictNodeMovementsToSurface *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.RestrictNodeMovementsToSurface *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RestrictNodeMovementsToSurface for AutoNodeMove under PCTet.
 
@@ -903,7 +903,7 @@ Gets or sets the RestrictNodeMovementsToSurface for AutoNodeMove under PCTet.
 
 <a id="AutomaticMethod.ReuseBlocking"></a>
 
-### *property* AutomaticMethod.ReuseBlocking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ReuseBlocking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReuseBlocking.
 
@@ -919,7 +919,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AutomaticMethod.ShowAdvancedImproveOptions"></a>
 
-### *property* AutomaticMethod.ShowAdvancedImproveOptions *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.ShowAdvancedImproveOptions *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowAdvancedImproveOptions for AutoNodeMove under PCTet.
 
@@ -927,7 +927,7 @@ Gets or sets the ShowAdvancedImproveOptions for AutoNodeMove under PCTet.
 
 <a id="AutomaticMethod.SlicerFeatureAngle"></a>
 
-### *property* AutomaticMethod.SlicerFeatureAngle *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SlicerFeatureAngle *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SlicerFeatureAngle.
 
@@ -935,7 +935,7 @@ Gets or sets the SlicerFeatureAngle.
 
 <a id="AutomaticMethod.SliverTriangleHeight"></a>
 
-### *property* AutomaticMethod.SliverTriangleHeight *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SliverTriangleHeight *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SliverTriangleHeight.
 
@@ -943,7 +943,7 @@ Gets or sets the SliverTriangleHeight.
 
 <a id="AutomaticMethod.SmoothMeshSpacing"></a>
 
-### *property* AutomaticMethod.SmoothMeshSpacing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SmoothMeshSpacing *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SmoothMeshSpacing in Multizone.
 
@@ -951,7 +951,7 @@ Gets or sets the SmoothMeshSpacing in Multizone.
 
 <a id="AutomaticMethod.SmoothTransition"></a>
 
-### *property* AutomaticMethod.SmoothTransition *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SmoothTransition *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SmoothTransition.
 
@@ -999,7 +999,7 @@ Gets or sets the SourceLocation.
 
 <a id="AutomaticMethod.SourceTargetSelection"></a>
 
-### *property* AutomaticMethod.SourceTargetSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SourceTargetSelection *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SourceTargetSelection.
 
@@ -1007,7 +1007,7 @@ Gets or sets the SourceTargetSelection.
 
 <a id="AutomaticMethod.SpacingOption"></a>
 
-### *property* AutomaticMethod.SpacingOption *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SpacingOption *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpacingOption.
 
@@ -1023,7 +1023,7 @@ Gets or sets the SplitAngle in Multizone.
 
 <a id="AutomaticMethod.StackerCoordinateSystem"></a>
 
-### *property* AutomaticMethod.StackerCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.StackerCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StackerCoordinateSystem.
 
@@ -1055,7 +1055,7 @@ Gets or sets the StackingAxis.
 
 <a id="AutomaticMethod.StackingDefeatureSize"></a>
 
-### *property* AutomaticMethod.StackingDefeatureSize *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.StackingDefeatureSize *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StackingDefeatureSize.
 
@@ -1063,7 +1063,7 @@ Gets or sets the StackingDefeatureSize.
 
 <a id="AutomaticMethod.StretchFactorX"></a>
 
-### *property* AutomaticMethod.StretchFactorX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.StretchFactorX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StretchFactorX.
 
@@ -1071,7 +1071,7 @@ Gets or sets the StretchFactorX.
 
 <a id="AutomaticMethod.StretchFactorY"></a>
 
-### *property* AutomaticMethod.StretchFactorY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.StretchFactorY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StretchFactorY.
 
@@ -1079,7 +1079,7 @@ Gets or sets the StretchFactorY.
 
 <a id="AutomaticMethod.StretchFactorZ"></a>
 
-### *property* AutomaticMethod.StretchFactorZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.StretchFactorZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StretchFactorZ.
 
@@ -1087,7 +1087,7 @@ Gets or sets the StretchFactorZ.
 
 <a id="AutomaticMethod.SubsampleRate"></a>
 
-### *property* AutomaticMethod.SubsampleRate *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SubsampleRate *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SubsampleRate.
 
@@ -1095,7 +1095,7 @@ Gets or sets the SubsampleRate.
 
 <a id="AutomaticMethod.Suppressed"></a>
 
-### *property* AutomaticMethod.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -1103,7 +1103,7 @@ Gets or sets the Suppressed.
 
 <a id="AutomaticMethod.SurfaceMeshMethod"></a>
 
-### *property* AutomaticMethod.SurfaceMeshMethod *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SurfaceMeshMethod *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SurfaceMeshMethod.
 
@@ -1119,7 +1119,7 @@ Gets or sets the SweepBiasType.
 
 <a id="AutomaticMethod.SweepBiasValue"></a>
 
-### *property* AutomaticMethod.SweepBiasValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SweepBiasValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SweepBiasValue.
 
@@ -1127,7 +1127,7 @@ Gets or sets the SweepBiasValue.
 
 <a id="AutomaticMethod.SweepESizeType"></a>
 
-### *property* AutomaticMethod.SweepESizeType *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SweepESizeType *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SweepESizeType.
 
@@ -1151,7 +1151,7 @@ Gets or sets the SweepElementSize.
 
 <a id="AutomaticMethod.SweepNumberDivisions"></a>
 
-### *property* AutomaticMethod.SweepNumberDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SweepNumberDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SweepNumberDivisions.
 
@@ -1159,7 +1159,7 @@ Gets or sets the SweepNumberDivisions.
 
 <a id="AutomaticMethod.SweepSizeBehavior"></a>
 
-### *property* AutomaticMethod.SweepSizeBehavior *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.SweepSizeBehavior *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SweepSizeBehavior.
 
@@ -1183,7 +1183,7 @@ Gets or sets the TargetLocation.
 
 <a id="AutomaticMethod.TetraGrowthRate"></a>
 
-### *property* AutomaticMethod.TetraGrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.TetraGrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TetraGrowthRate.
 
@@ -1199,7 +1199,7 @@ Gets or sets the TriangleReduction.
 
 <a id="AutomaticMethod.UseSplitAngle"></a>
 
-### *property* AutomaticMethod.UseSplitAngle *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.UseSplitAngle *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseSplitAngle in Multizone.
 
@@ -1207,7 +1207,7 @@ Gets or sets the UseSplitAngle in Multizone.
 
 <a id="AutomaticMethod.VisibleProperties"></a>
 
-### *property* AutomaticMethod.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -1223,7 +1223,7 @@ Gets or sets the WallThickness.
 
 <a id="AutomaticMethod.WriteICEMCFDFiles"></a>
 
-### *property* AutomaticMethod.WriteICEMCFDFiles *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AutomaticMethod.WriteICEMCFDFiles *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WriteICEMCFDFiles.
 
@@ -1259,7 +1259,7 @@ Creates a new child Figure.
 
 <a id="AutomaticMethod.AddImage"></a>
 
-### AutomaticMethod.AddImage(filePath: System.String)
+### AutomaticMethod.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -1279,7 +1279,7 @@ Copies all visible properties from this object to another.
 
 <a id="AutomaticMethod.CreateParameter"></a>
 
-### AutomaticMethod.CreateParameter(propName: System.String)
+### AutomaticMethod.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -1311,7 +1311,7 @@ Generate the Mesh.
 
 <a id="AutomaticMethod.GetChildren"></a>
 
-### AutomaticMethod.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AutomaticMethod.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1319,7 +1319,7 @@ Gets the list of children, filtered by type.
 
 <a id="AutomaticMethod.GetParameter"></a>
 
-### AutomaticMethod.GetParameter(propName: System.String)
+### AutomaticMethod.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1343,7 +1343,7 @@ Run the GroupSimilarObjects action.
 
 <a id="AutomaticMethod.PropertyByAPIName"></a>
 
-### AutomaticMethod.PropertyByAPIName(name: System.String)
+### AutomaticMethod.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1354,7 +1354,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AutomaticMethod.PropertyByName"></a>
 
-### AutomaticMethod.PropertyByName(name: System.String)
+### AutomaticMethod.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1362,7 +1362,7 @@ Get a property by its unique name.
 
 <a id="AutomaticMethod.RemoveParameter"></a>
 
-### AutomaticMethod.RemoveParameter(propName: System.String)
+### AutomaticMethod.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

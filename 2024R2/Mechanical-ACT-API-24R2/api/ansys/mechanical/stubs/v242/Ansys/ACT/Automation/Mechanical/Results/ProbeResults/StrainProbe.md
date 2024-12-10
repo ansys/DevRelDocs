@@ -17,7 +17,7 @@ Defines a StrainProbe.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#StrainProbe.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#StrainProbe.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#StrainProbe.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -43,7 +43,7 @@ Defines a StrainProbe.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`BeamSelection`](#StrainProbe.BeamSelection)                                 | Gets or sets the BeamSelection.                                                                                                                                            |
 | [`BoundaryConditionSelection`](#StrainProbe.BoundaryConditionSelection)       | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
 | [`Children`](#StrainProbe.Children)                                           | Gets the list of children.                                                                                                                                                 |
@@ -130,7 +130,7 @@ Defines a StrainProbe.
 
 <a id="StrainProbe.BeamSelection"></a>
 
-### *property* StrainProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamSelection.
 
@@ -146,7 +146,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="StrainProbe.Children"></a>
 
-### *property* StrainProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -154,7 +154,7 @@ Gets the list of children.
 
 <a id="StrainProbe.Comments"></a>
 
-### *property* StrainProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -162,7 +162,7 @@ Gets the list of associated comments.
 
 <a id="StrainProbe.ContactRegionSelection"></a>
 
-### *property* StrainProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegionSelection.
 
@@ -170,7 +170,7 @@ Gets or sets the ContactRegionSelection.
 
 <a id="StrainProbe.CoordinateSystemSelection"></a>
 
-### *property* StrainProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemSelection.
 
@@ -210,7 +210,7 @@ Gets the EquivalentStrain.
 
 <a id="StrainProbe.Figures"></a>
 
-### *property* StrainProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -226,7 +226,7 @@ Gets or sets the GeometryLocation.
 
 <a id="StrainProbe.Images"></a>
 
-### *property* StrainProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -242,7 +242,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="StrainProbe.IsSolved"></a>
 
-### *property* StrainProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -250,7 +250,7 @@ Gets the IsSolved.
 
 <a id="StrainProbe.IterationNumber"></a>
 
-### *property* StrainProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -258,7 +258,7 @@ Gets the IterationNumber.
 
 <a id="StrainProbe.LoadStep"></a>
 
-### *property* StrainProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -266,7 +266,7 @@ Gets the LoadStep.
 
 <a id="StrainProbe.LoadStepNumber"></a>
 
-### *property* StrainProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -410,7 +410,7 @@ Gets the MaximumZAxis.
 
 <a id="StrainProbe.MeshConnectionSelection"></a>
 
-### *property* StrainProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -586,7 +586,7 @@ Gets the NormalZAxisStrain.
 
 <a id="StrainProbe.Orientation"></a>
 
-### *property* StrainProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
@@ -594,7 +594,7 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <a id="StrainProbe.Properties"></a>
 
-### *property* StrainProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -626,7 +626,7 @@ Gets or sets the SpatialResolution.
 
 <a id="StrainProbe.SpringSelection"></a>
 
-### *property* StrainProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringSelection.
 
@@ -650,7 +650,7 @@ Gets the StrainIntensity.
 
 <a id="StrainProbe.Substep"></a>
 
-### *property* StrainProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -666,7 +666,7 @@ Gets or sets the Summation.
 
 <a id="StrainProbe.Suppressed"></a>
 
-### *property* StrainProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -706,7 +706,7 @@ Gets the Type.
 
 <a id="StrainProbe.VisibleProperties"></a>
 
-### *property* StrainProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -790,7 +790,7 @@ Creates a new child Figure.
 
 <a id="StrainProbe.AddImage"></a>
 
-### StrainProbe.AddImage(filePath: System.String)
+### StrainProbe.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -818,7 +818,7 @@ Copies all visible properties from this object to another.
 
 <a id="StrainProbe.CreateParameter"></a>
 
-### StrainProbe.CreateParameter(propName: System.String)
+### StrainProbe.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -858,7 +858,7 @@ Run the EvaluateAllResults action.
 
 <a id="StrainProbe.ExportAnimation"></a>
 
-### StrainProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### StrainProbe.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -866,7 +866,7 @@ Run the ExportAnimation action.
 
 <a id="StrainProbe.GetChildren"></a>
 
-### StrainProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### StrainProbe.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -874,7 +874,7 @@ Gets the list of children, filtered by type.
 
 <a id="StrainProbe.GetParameter"></a>
 
-### StrainProbe.GetParameter(propName: System.String)
+### StrainProbe.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -898,7 +898,7 @@ Run the GroupSimilarObjects action.
 
 <a id="StrainProbe.PropertyByAPIName"></a>
 
-### StrainProbe.PropertyByAPIName(name: System.String)
+### StrainProbe.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -909,7 +909,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="StrainProbe.PropertyByName"></a>
 
-### StrainProbe.PropertyByName(name: System.String)
+### StrainProbe.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -917,7 +917,7 @@ Get a property by its unique name.
 
 <a id="StrainProbe.RemoveParameter"></a>
 
-### StrainProbe.RemoveParameter(propName: System.String)
+### StrainProbe.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

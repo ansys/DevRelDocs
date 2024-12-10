@@ -17,7 +17,7 @@ Defines a AcousticAbsorptionCoefficient.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticAbsorptionCoefficient.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#AcousticAbsorptionCoefficient.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#AcousticAbsorptionCoefficient.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a AcousticAbsorptionCoefficient.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#AcousticAbsorptionCoefficient.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#AcousticAbsorptionCoefficient.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#AcousticAbsorptionCoefficient.By)                                                               | Gets or sets the By.                                                   |
@@ -108,7 +108,7 @@ Defines a AcousticAbsorptionCoefficient.
 | [`Substep`](#AcousticAbsorptionCoefficient.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#AcousticAbsorptionCoefficient.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#AcousticAbsorptionCoefficient.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#AcousticAbsorptionCoefficient.SurfaceCoating)                                                                                                                                                         | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#AcousticAbsorptionCoefficient.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#AcousticAbsorptionCoefficient.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#AcousticAbsorptionCoefficient.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#AcousticAbsorptionCoefficient.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -116,7 +116,7 @@ Defines a AcousticAbsorptionCoefficient.
 | [`TimeForMinimumOfMaximumValues`](#AcousticAbsorptionCoefficient.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#AcousticAbsorptionCoefficient.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#AcousticAbsorptionCoefficient.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#AcousticAbsorptionCoefficient.WaterfallShowTextOnMosaic)                                                                                                                                   | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#AcousticAbsorptionCoefficient.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -124,7 +124,7 @@ Defines a AcousticAbsorptionCoefficient.
 
 <a id="AcousticAbsorptionCoefficient.Amplitude"></a>
 
-### *property* AcousticAbsorptionCoefficient.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -148,7 +148,7 @@ Gets or sets the By.
 
 <a id="AcousticAbsorptionCoefficient.CalculateTimeHistory"></a>
 
-### *property* AcousticAbsorptionCoefficient.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -156,7 +156,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="AcousticAbsorptionCoefficient.Children"></a>
 
-### *property* AcousticAbsorptionCoefficient.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -164,7 +164,7 @@ Gets the list of children.
 
 <a id="AcousticAbsorptionCoefficient.CombinationNumber"></a>
 
-### *property* AcousticAbsorptionCoefficient.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -172,7 +172,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="AcousticAbsorptionCoefficient.Comments"></a>
 
-### *property* AcousticAbsorptionCoefficient.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -180,7 +180,7 @@ Gets the list of associated comments.
 
 <a id="AcousticAbsorptionCoefficient.CoordinateSystem"></a>
 
-### *property* AcousticAbsorptionCoefficient.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -190,7 +190,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="AcousticAbsorptionCoefficient.CrackFrontNumber"></a>
 
-### *property* AcousticAbsorptionCoefficient.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -238,7 +238,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="AcousticAbsorptionCoefficient.Figures"></a>
 
-### *property* AcousticAbsorptionCoefficient.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -254,7 +254,7 @@ Gets or sets the Frequency.
 
 <a id="AcousticAbsorptionCoefficient.FrequencyRange"></a>
 
-### *property* AcousticAbsorptionCoefficient.FrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.FrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencyRange.
 
@@ -262,7 +262,7 @@ Gets or sets the FrequencyRange.
 
 <a id="AcousticAbsorptionCoefficient.GlobalIDs"></a>
 
-### *property* AcousticAbsorptionCoefficient.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -278,7 +278,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticAbsorptionCoefficient.Identifier"></a>
 
-### *property* AcousticAbsorptionCoefficient.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -286,7 +286,7 @@ Gets or sets the Identifier.
 
 <a id="AcousticAbsorptionCoefficient.Images"></a>
 
-### *property* AcousticAbsorptionCoefficient.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -294,7 +294,7 @@ Gets the list of associated images.
 
 <a id="AcousticAbsorptionCoefficient.InputPort"></a>
 
-### *property* AcousticAbsorptionCoefficient.InputPort *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPort.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.InputPort *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](../../BoundaryConditions/AcousticPort.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputPort.
 
@@ -310,7 +310,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticAbsorptionCoefficient.IsSolved"></a>
 
-### *property* AcousticAbsorptionCoefficient.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -326,7 +326,7 @@ Gets or sets the ItemType.
 
 <a id="AcousticAbsorptionCoefficient.IterationNumber"></a>
 
-### *property* AcousticAbsorptionCoefficient.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -334,7 +334,7 @@ Gets the IterationNumber.
 
 <a id="AcousticAbsorptionCoefficient.LoadStep"></a>
 
-### *property* AcousticAbsorptionCoefficient.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -342,7 +342,7 @@ Gets the LoadStep.
 
 <a id="AcousticAbsorptionCoefficient.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticAbsorptionCoefficient.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -350,7 +350,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="AcousticAbsorptionCoefficient.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticAbsorptionCoefficient.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -358,7 +358,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="AcousticAbsorptionCoefficient.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* AcousticAbsorptionCoefficient.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -366,7 +366,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="AcousticAbsorptionCoefficient.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* AcousticAbsorptionCoefficient.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -374,7 +374,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="AcousticAbsorptionCoefficient.LoadStepNumber"></a>
 
-### *property* AcousticAbsorptionCoefficient.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -390,7 +390,7 @@ Gets or sets the Location.
 
 <a id="AcousticAbsorptionCoefficient.LogarithmicDecrement"></a>
 
-### *property* AcousticAbsorptionCoefficient.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -414,7 +414,7 @@ Gets or sets the MaximumFrequency.
 
 <a id="AcousticAbsorptionCoefficient.MaximumOccursOn"></a>
 
-### *property* AcousticAbsorptionCoefficient.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -454,7 +454,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="AcousticAbsorptionCoefficient.MinimumOccursOn"></a>
 
-### *property* AcousticAbsorptionCoefficient.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -478,7 +478,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="AcousticAbsorptionCoefficient.ModalDampingRatio"></a>
 
-### *property* AcousticAbsorptionCoefficient.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -486,7 +486,7 @@ Gets the ModalDampingRatio.
 
 <a id="AcousticAbsorptionCoefficient.Mode"></a>
 
-### *property* AcousticAbsorptionCoefficient.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -494,7 +494,7 @@ Gets or sets the Mode.
 
 <a id="AcousticAbsorptionCoefficient.NamedSelections"></a>
 
-### *property* AcousticAbsorptionCoefficient.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -518,7 +518,7 @@ Gets the result table.
 
 <a id="AcousticAbsorptionCoefficient.Properties"></a>
 
-### *property* AcousticAbsorptionCoefficient.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -542,7 +542,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AcousticAbsorptionCoefficient.SetNumber"></a>
 
-### *property* AcousticAbsorptionCoefficient.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -558,7 +558,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="AcousticAbsorptionCoefficient.SolverComponentIDs"></a>
 
-### *property* AcousticAbsorptionCoefficient.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -574,7 +574,7 @@ Gets the Stability.
 
 <a id="AcousticAbsorptionCoefficient.Substep"></a>
 
-### *property* AcousticAbsorptionCoefficient.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -582,7 +582,7 @@ Gets the Substep.
 
 <a id="AcousticAbsorptionCoefficient.Suppressed"></a>
 
-### *property* AcousticAbsorptionCoefficient.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -654,7 +654,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="AcousticAbsorptionCoefficient.VisibleProperties"></a>
 
-### *property* AcousticAbsorptionCoefficient.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -662,7 +662,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticAbsorptionCoefficient.WaterfallShowTextOnMosaic"></a>
 
-### *property* AcousticAbsorptionCoefficient.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -714,7 +714,7 @@ Creates a new child Figure.
 
 <a id="AcousticAbsorptionCoefficient.AddImage"></a>
 
-### AcousticAbsorptionCoefficient.AddImage(filePath: System.String)
+### AcousticAbsorptionCoefficient.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -742,7 +742,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticAbsorptionCoefficient.CreateParameter"></a>
 
-### AcousticAbsorptionCoefficient.CreateParameter(propName: System.String)
+### AcousticAbsorptionCoefficient.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -790,7 +790,7 @@ Run the EvaluateAllResults action.
 
 <a id="AcousticAbsorptionCoefficient.ExportAnimation"></a>
 
-### AcousticAbsorptionCoefficient.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AcousticAbsorptionCoefficient.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -798,7 +798,7 @@ Run the ExportAnimation action.
 
 <a id="AcousticAbsorptionCoefficient.ExportToTextFile"></a>
 
-### AcousticAbsorptionCoefficient.ExportToTextFile(filePath: System.String)
+### AcousticAbsorptionCoefficient.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -814,7 +814,7 @@ Run the FetchRemoteResult action.
 
 <a id="AcousticAbsorptionCoefficient.GetChildren"></a>
 
-### AcousticAbsorptionCoefficient.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticAbsorptionCoefficient.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -822,7 +822,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticAbsorptionCoefficient.GetParameter"></a>
 
-### AcousticAbsorptionCoefficient.GetParameter(propName: System.String)
+### AcousticAbsorptionCoefficient.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -854,7 +854,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticAbsorptionCoefficient.PropertyByAPIName"></a>
 
-### AcousticAbsorptionCoefficient.PropertyByAPIName(name: System.String)
+### AcousticAbsorptionCoefficient.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -865,7 +865,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticAbsorptionCoefficient.PropertyByName"></a>
 
-### AcousticAbsorptionCoefficient.PropertyByName(name: System.String)
+### AcousticAbsorptionCoefficient.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -873,7 +873,7 @@ Get a property by its unique name.
 
 <a id="AcousticAbsorptionCoefficient.RemoveParameter"></a>
 
-### AcousticAbsorptionCoefficient.RemoveParameter(propName: System.String)
+### AcousticAbsorptionCoefficient.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the OptimizationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Lattice`](#OptimizationType.Lattice) |
 | [`MixableDensity`](#OptimizationType.MixableDensity) |
 | [`Shape`](#OptimizationType.Shape) |

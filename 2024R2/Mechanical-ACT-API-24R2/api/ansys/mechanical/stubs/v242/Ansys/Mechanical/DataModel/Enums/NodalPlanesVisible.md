@@ -17,7 +17,7 @@ Specifies the NodalPlanesVisible.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------- |
 | [`All`](#NodalPlanesVisible.All) |
 | [`Range`](#NodalPlanesVisible.Range) |
 

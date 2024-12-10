@@ -174,7 +174,7 @@ Gets the AMProcess.
 
 <a id="Model.Ambient"></a>
 
-### *property* Model.Ambient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Ambient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ambient Lighting factor.
 
@@ -182,7 +182,7 @@ Gets or sets the Ambient Lighting factor.
 
 <a id="Model.Analyses"></a>
 
-### *property* Model.Analyses *: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Analyses *: List[[Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Analyses.
 
@@ -190,7 +190,7 @@ Gets the Analyses.
 
 <a id="Model.CellId"></a>
 
-### *property* Model.CellId *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.CellId *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CellId.
 
@@ -198,7 +198,7 @@ Gets the CellId.
 
 <a id="Model.Children"></a>
 
-### *property* Model.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -206,7 +206,7 @@ Gets the list of children.
 
 <a id="Model.Color"></a>
 
-### *property* Model.Color *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Color *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Lighting Color. Can also be set using Hex color codes; three byte hexadecimal numbers (consisting of six digits) preceded by ‘0x’, where each byte (or pair of characters in the Hex code) represents the intensity of red, green and blue in the color respectively. For example, 0xFFFFFF.
 
@@ -214,7 +214,7 @@ Gets or sets the Lighting Color. Can also be set using Hex color codes; three by
 
 <a id="Model.Comments"></a>
 
-### *property* Model.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -246,7 +246,7 @@ Gets the ConstructionGeometry.
 
 <a id="Model.Control"></a>
 
-### *property* Model.Control *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Control *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Control.
 
@@ -270,7 +270,7 @@ Gets the CrossSections.
 
 <a id="Model.DataModelObjectCategory"></a>
 
-### *property* Model.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -278,7 +278,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Model.Diffuse"></a>
 
-### *property* Model.Diffuse *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Diffuse *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Diffuse Lighting factor.
 
@@ -286,7 +286,7 @@ Gets or sets the Diffuse Lighting factor.
 
 <a id="Model.Environments"></a>
 
-### *property* Model.Environments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Environments *: Iterable[[Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Analyses.
 
@@ -302,7 +302,7 @@ Gets the FeatureDetection.
 
 <a id="Model.Figures"></a>
 
-### *property* Model.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -334,7 +334,7 @@ Gets the GeometryImportGroup.
 
 <a id="Model.Images"></a>
 
-### *property* Model.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -374,7 +374,7 @@ Gets the Mesh.
 
 <a id="Model.MeshEdit"></a>
 
-### *property* Model.MeshEdit *: [Ansys.ACT.Automation.Mechanical.MeshEdit](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshEdit.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshEdit) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.MeshEdit *: [Ansys.ACT.Automation.Mechanical.MeshEdit](MeshEdit.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshEdit) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MeshEdit.
 
@@ -382,7 +382,7 @@ Gets the MeshEdit.
 
 <a id="Model.MeshNumbering"></a>
 
-### *property* Model.MeshNumbering *: [Ansys.ACT.Automation.Mechanical.MeshNumbering](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshNumbering) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.MeshNumbering *: [Ansys.ACT.Automation.Mechanical.MeshNumbering](MeshNumbering.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshNumbering) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MeshNumbering.
 
@@ -390,7 +390,7 @@ Gets the MeshNumbering.
 
 <a id="Model.NamedSelections"></a>
 
-### *property* Model.NamedSelections *: [Ansys.ACT.Automation.Mechanical.NamedSelections](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelections.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelections) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.NamedSelections *: [Ansys.ACT.Automation.Mechanical.NamedSelections](NamedSelections.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelections) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NamedSelections.
 
@@ -398,7 +398,7 @@ Gets the NamedSelections.
 
 <a id="Model.PartTransformGroup"></a>
 
-### *property* Model.PartTransformGroup *: [Ansys.ACT.Automation.Mechanical.PartTransformGroup](../../../../../v242/Ansys/ACT/Automation/Mechanical/PartTransformGroup.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PartTransformGroup) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.PartTransformGroup *: [Ansys.ACT.Automation.Mechanical.PartTransformGroup](PartTransformGroup.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PartTransformGroup) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PartTransformGroup.
 
@@ -406,7 +406,7 @@ Gets the PartTransformGroup.
 
 <a id="Model.Properties"></a>
 
-### *property* Model.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -414,7 +414,7 @@ Gets the list of properties for this object.
 
 <a id="Model.RemotePoints"></a>
 
-### *property* Model.RemotePoints *: [Ansys.ACT.Automation.Mechanical.RemotePoints](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoints.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoints) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.RemotePoints *: [Ansys.ACT.Automation.Mechanical.RemotePoints](RemotePoints.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoints) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RemotePoints.
 
@@ -422,7 +422,7 @@ Gets the RemotePoints.
 
 <a id="Model.Specular"></a>
 
-### *property* Model.Specular *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Specular *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Specular Lighting factor.
 
@@ -430,7 +430,7 @@ Gets or sets the Specular Lighting factor.
 
 <a id="Model.Symmetry"></a>
 
-### *property* Model.Symmetry *: [Ansys.ACT.Automation.Mechanical.Symmetry](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Symmetry) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.Symmetry *: [Ansys.ACT.Automation.Mechanical.Symmetry](Symmetry.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Symmetry) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Symmetry.
 
@@ -438,7 +438,7 @@ Gets the Symmetry.
 
 <a id="Model.SystemCaption"></a>
 
-### *property* Model.SystemCaption *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.SystemCaption *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SystemCaption.
 
@@ -446,7 +446,7 @@ Gets the SystemCaption.
 
 <a id="Model.TableGroup"></a>
 
-### *property* Model.TableGroup *: [Ansys.ACT.Automation.Mechanical.TableGroup](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.TableGroup) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.TableGroup *: [Ansys.ACT.Automation.Mechanical.TableGroup](TableGroup.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.TableGroup) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TableGroup.
 
@@ -454,7 +454,7 @@ Gets the TableGroup.
 
 <a id="Model.VirtualTopology"></a>
 
-### *property* Model.VirtualTopology *: [Ansys.ACT.Automation.Mechanical.VirtualTopology](../../../../../v242/Ansys/ACT/Automation/Mechanical/VirtualTopology.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.VirtualTopology) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.VirtualTopology *: [Ansys.ACT.Automation.Mechanical.VirtualTopology](VirtualTopology.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.VirtualTopology) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the VirtualTopology.
 
@@ -462,7 +462,7 @@ Gets the VirtualTopology.
 
 <a id="Model.VisibleProperties"></a>
 
-### *property* Model.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Model.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -674,7 +674,7 @@ Run the AddHarmonicResponseAnalysis action.
 
 <a id="Model.AddImage"></a>
 
-### Model.AddImage(filePath: System.String)
+### Model.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -886,7 +886,7 @@ Creates a new Symmetry
 
 <a id="Model.AddTableGroup"></a>
 
-### Model.AddTableGroup(activate: System.Boolean)
+### Model.AddTableGroup(activate: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Get the
 
@@ -926,7 +926,7 @@ Run the AddTransientThermalAnalysis action.
 
 <a id="Model.AddTreeGroupingFolder"></a>
 
-### Model.AddTreeGroupingFolder(dataModelObjects: System.Collections.IEnumerable)
+### Model.AddTreeGroupingFolder(dataModelObjects: Iterable)
 
 Move the Data Model Objects to a new TreeGroupingFolder.
 
@@ -977,7 +977,7 @@ Copies all visible properties from this object to another.
 
 <a id="Model.CreateCylindricalBolt"></a>
 
-### Model.CreateCylindricalBolt(headHeight: System.Object, headRadius: System.Object, shankLength: System.Object, shankRadius: System.Object)
+### Model.CreateCylindricalBolt(headHeight: Any, headRadius: Any, shankLength: Any, shankRadius: Any)
 
 ```text
 Create bolt with a cylinder head based on the specified dimensions. The bolt will be
@@ -992,7 +992,7 @@ Valid input arguments include:
 
 <a id="Model.CreateCylindricalNut"></a>
 
-### Model.CreateCylindricalNut(height: System.Object, innerRadius: System.Object, outerRadius: System.Object)
+### Model.CreateCylindricalNut(height: Any, innerRadius: Any, outerRadius: Any)
 
 ```text
 Create a cylindrical nut with the specified dimensions. The nut will be created so that
@@ -1007,7 +1007,7 @@ Valid input arguments include:
 
 <a id="Model.CreateHexBolt"></a>
 
-### Model.CreateHexBolt(headHeight: System.Object, wrenchWidth: System.Object, shankLength: System.Object, shankRadius: System.Object)
+### Model.CreateHexBolt(headHeight: Any, wrenchWidth: Any, shankLength: Any, shankRadius: Any)
 
 ```text
 Create a bolt with a hex head based on the specified dimensions. The bolt will be
@@ -1022,7 +1022,7 @@ Valid input arguments include:
 
 <a id="Model.CreateHexNut"></a>
 
-### Model.CreateHexNut(height: System.Object, innerRadius: System.Object, wrenchWidth: System.Object)
+### Model.CreateHexNut(height: Any, innerRadius: Any, wrenchWidth: Any)
 
 ```text
 Create a hex nut with the specified dimensions. The nut will be created so that the
@@ -1037,7 +1037,7 @@ Valid input arguments include:
 
 <a id="Model.CreateParameter"></a>
 
-### Model.CreateParameter(propName: System.String)
+### Model.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -1057,7 +1057,7 @@ reasons.
 
 <a id="Model.DeleteParts"></a>
 
-### Model.DeleteParts(parts: System.Object)
+### Model.DeleteParts(parts: Any)
 
 Deletes the provide parts if they exist. Otherwise, nothing happens. An exception will be issued if the argument is invalid.
 
@@ -1092,7 +1092,7 @@ EvaluateScriptDefinedResults method.
 
 <a id="Model.FreezeMeshOnSelectedParts"></a>
 
-### Model.FreezeMeshOnSelectedParts(parts: System.Object)
+### Model.FreezeMeshOnSelectedParts(parts: Any)
 
 Run the FreezeMeshOnSelectedParts action.
 
@@ -1100,7 +1100,7 @@ Run the FreezeMeshOnSelectedParts action.
 
 <a id="Model.GetChildren"></a>
 
-### Model.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Model.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1108,7 +1108,7 @@ Gets the list of children, filtered by type.
 
 <a id="Model.GetFECommandsRepository"></a>
 
-### Model.GetFECommandsRepository(source: System.String, fileIdentifier: System.String)
+### Model.GetFECommandsRepository(source: [str](https://docs.python.org/3/library/stdtypes.html#str), fileIdentifier: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the commands repository for a file from external model.
 
@@ -1116,7 +1116,7 @@ Gets the commands repository for a file from external model.
 
 <a id="Model.GetParameter"></a>
 
-### Model.GetParameter(propName: System.String)
+### Model.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1156,7 +1156,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Model.LoadResultFile"></a>
 
-### Model.LoadResultFile(filePath: System.String)
+### Model.LoadResultFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a results-only system and loads the result file.
 
@@ -1164,7 +1164,7 @@ Creates a results-only system and loads the result file.
 
 <a id="Model.PropertyByAPIName"></a>
 
-### Model.PropertyByAPIName(name: System.String)
+### Model.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1175,7 +1175,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Model.PropertyByName"></a>
 
-### Model.PropertyByName(name: System.String)
+### Model.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1191,7 +1191,7 @@ Run the RefresMaterials action.
 
 <a id="Model.RemoveParameter"></a>
 
-### Model.RemoveParameter(propName: System.String)
+### Model.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -1199,7 +1199,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Model.SetTransformationOnPart"></a>
 
-### Model.SetTransformationOnPart(part: Ansys.ACT.Interfaces.Geometry.IGeoPart, transformationMatrix: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../../../../v242/Ansys/Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix))
+### Model.SetTransformationOnPart(part: Ansys.ACT.Interfaces.Geometry.IGeoPart, transformationMatrix: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../../Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix))
 
 ```text
 Transform a part with given transformation. Only rigid body transformation is
@@ -1212,7 +1212,7 @@ emitted if the matrix is ill-formed.
 
 <a id="Model.Solve"></a>
 
-### Model.Solve(wait: System.Boolean, config: System.String)
+### Model.Solve(wait: [bool](https://docs.python.org/3/library/functions.html#bool), config: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the Solve action.
 
@@ -1220,7 +1220,7 @@ Run the Solve action.
 
 <a id="Model.UnfreezeMeshOnSelectedParts"></a>
 
-### Model.UnfreezeMeshOnSelectedParts(parts: System.Object)
+### Model.UnfreezeMeshOnSelectedParts(parts: Any)
 
 Run the UnfreezeMeshOnSelectedParts action.
 

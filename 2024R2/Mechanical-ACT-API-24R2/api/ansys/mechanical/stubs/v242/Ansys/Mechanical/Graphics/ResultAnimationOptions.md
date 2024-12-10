@@ -17,13 +17,13 @@ ResultAnimationOptions class.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [`DisplacementTraces`](#ResultAnimationOptions.DisplacementTraces)                             | Gets or Sets if the Displacement Traces are Enabled/Disabled                                |
 | [`Duration`](#ResultAnimationOptions.Duration)                                                 | Gets or Sets the Duration for Result Animation.                                             |
 | [`FitDeformationScalingToAnimation`](#ResultAnimationOptions.FitDeformationScalingToAnimation) | Gets or Sets if the Animation Displacement Fits for full range of Time Steps in the Screen. |
 | [`NumberOfFrames`](#ResultAnimationOptions.NumberOfFrames)                                     | Gets or Sets the Number Of Frames for Distributed Result Animation.                         |
 | [`RangeType`](#ResultAnimationOptions.RangeType)                                               | Gets or Sets the Range Type for Result Animation.                                           |
-| [`TimeDecay`](#ResultAnimationOptions.TimeDecay)                                                                                                                   | Gets or Sets the Time Decay.                                                                |
+| [`TimeDecay`](#ResultAnimationOptions.TimeDecay)                                               | Gets or Sets the Time Decay.                                                                |
 | [`TimeDecayCycles`](#ResultAnimationOptions.TimeDecayCycles)                                   | Gets or Sets the Number of Cycles for Time Decay.                                           |
 | [`UpdateContourRangeAtEachFrame`](#ResultAnimationOptions.UpdateContourRangeAtEachFrame)       | Gets or Sets if the Legend Contours will Update at Each Frame.                              |
 
@@ -33,7 +33,7 @@ ResultAnimationOptions class.
 
 <a id="ResultAnimationOptions.DisplacementTraces"></a>
 
-### *property* ResultAnimationOptions.DisplacementTraces *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultAnimationOptions.DisplacementTraces *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets if the Displacement Traces are Enabled/Disabled
 
@@ -49,7 +49,7 @@ Gets or Sets the Duration for Result Animation.
 
 <a id="ResultAnimationOptions.FitDeformationScalingToAnimation"></a>
 
-### *property* ResultAnimationOptions.FitDeformationScalingToAnimation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultAnimationOptions.FitDeformationScalingToAnimation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets if the Animation Displacement Fits for full range of Time Steps in the Screen.
 
@@ -57,7 +57,7 @@ Gets or Sets if the Animation Displacement Fits for full range of Time Steps in 
 
 <a id="ResultAnimationOptions.NumberOfFrames"></a>
 
-### *property* ResultAnimationOptions.NumberOfFrames *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultAnimationOptions.NumberOfFrames *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Number Of Frames for Distributed Result Animation.
 
@@ -73,7 +73,7 @@ Gets or Sets the Range Type for Result Animation.
 
 <a id="ResultAnimationOptions.TimeDecay"></a>
 
-### *property* ResultAnimationOptions.TimeDecay *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultAnimationOptions.TimeDecay *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Time Decay.
 
@@ -81,7 +81,7 @@ Gets or Sets the Time Decay.
 
 <a id="ResultAnimationOptions.TimeDecayCycles"></a>
 
-### *property* ResultAnimationOptions.TimeDecayCycles *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultAnimationOptions.TimeDecayCycles *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Number of Cycles for Time Decay.
 
@@ -89,7 +89,7 @@ Gets or Sets the Number of Cycles for Time Decay.
 
 <a id="ResultAnimationOptions.UpdateContourRangeAtEachFrame"></a>
 
-### *property* ResultAnimationOptions.UpdateContourRangeAtEachFrame *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultAnimationOptions.UpdateContourRangeAtEachFrame *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets if the Legend Contours will Update at Each Frame.
 

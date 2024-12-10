@@ -51,7 +51,7 @@ Defines a TreeGroupingFolder.
 
 <a id="TreeGroupingFolder.Children"></a>
 
-### *property* TreeGroupingFolder.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -59,7 +59,7 @@ Gets the list of children.
 
 <a id="TreeGroupingFolder.ChildrenInGroup"></a>
 
-### *property* TreeGroupingFolder.ChildrenInGroup *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.ChildrenInGroup *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ChildrenInGroup.
 
@@ -67,7 +67,7 @@ Gets the ChildrenInGroup.
 
 <a id="TreeGroupingFolder.DataModelObjectCategory"></a>
 
-### *property* TreeGroupingFolder.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -83,7 +83,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TreeGroupingFolder.Properties"></a>
 
-### *property* TreeGroupingFolder.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -91,7 +91,7 @@ Gets the list of properties for this object.
 
 <a id="TreeGroupingFolder.ReadOnly"></a>
 
-### *property* TreeGroupingFolder.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -99,7 +99,7 @@ Gets or sets the ReadOnly.
 
 <a id="TreeGroupingFolder.Suppressed"></a>
 
-### *property* TreeGroupingFolder.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -107,7 +107,7 @@ Gets or sets the Suppressed.
 
 <a id="TreeGroupingFolder.VisibleProperties"></a>
 
-### *property* TreeGroupingFolder.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -135,7 +135,7 @@ Copies all visible properties from this object to another.
 
 <a id="TreeGroupingFolder.CreateParameter"></a>
 
-### TreeGroupingFolder.CreateParameter(propName: System.String)
+### TreeGroupingFolder.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -159,7 +159,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="TreeGroupingFolder.GetChildren"></a>
 
-### TreeGroupingFolder.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TreeGroupingFolder.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -167,7 +167,7 @@ Gets the list of children, filtered by type.
 
 <a id="TreeGroupingFolder.GetParameter"></a>
 
-### TreeGroupingFolder.GetParameter(propName: System.String)
+### TreeGroupingFolder.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -191,7 +191,7 @@ Run the GroupSimilarObjects action.
 
 <a id="TreeGroupingFolder.PropertyByAPIName"></a>
 
-### TreeGroupingFolder.PropertyByAPIName(name: System.String)
+### TreeGroupingFolder.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -202,7 +202,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TreeGroupingFolder.PropertyByName"></a>
 
-### TreeGroupingFolder.PropertyByName(name: System.String)
+### TreeGroupingFolder.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -210,7 +210,7 @@ Get a property by its unique name.
 
 <a id="TreeGroupingFolder.RemoveParameter"></a>
 
-### TreeGroupingFolder.RemoveParameter(propName: System.String)
+### TreeGroupingFolder.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

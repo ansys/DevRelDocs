@@ -17,7 +17,7 @@ Specifies the BeamSolutionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------ |
 | [`Bending`](#BeamSolutionType.Bending) |
 | [`Truss`](#BeamSolutionType.Truss) |
 

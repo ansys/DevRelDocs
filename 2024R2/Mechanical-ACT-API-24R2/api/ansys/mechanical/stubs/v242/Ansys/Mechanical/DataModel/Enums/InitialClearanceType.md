@@ -17,7 +17,7 @@ Specifies the InitialClearanceType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`Factor`](#InitialClearanceType.Factor) |
 | [`ProgramControlled`](#InitialClearanceType.ProgramControlled) |
 | [`Value`](#InitialClearanceType.Value) |

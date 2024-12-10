@@ -17,7 +17,7 @@ Specifies the ConnectionOptions.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------- |
 | [`AllToAll`](#ConnectionOptions.AllToAll) |
 | [`FreeToAll`](#ConnectionOptions.FreeToAll) |
 | [`FreeToFree`](#ConnectionOptions.FreeToFree) |

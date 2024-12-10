@@ -107,7 +107,7 @@ Object that wraps IDSEngineeringModelControl.
 
 <a id="MeshWorkflowControl.AppendData"></a>
 
-### *property* MeshWorkflowControl.AppendData *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.AppendData *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property lets the user choose whether to append the mesh data being read to the current PrimeMesh model or to clear the model content before the mesh data is being read. The default value is false.
 
@@ -115,7 +115,7 @@ This property lets the user choose whether to append the mesh data being read to
 
 <a id="MeshWorkflowControl.AutomaticExternalScope"></a>
 
-### *property* MeshWorkflowControl.AutomaticExternalScope *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.AutomaticExternalScope *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The external scoping method and pattern of the current step is decided programmatically. The default value is false.
 
@@ -123,7 +123,7 @@ The external scoping method and pattern of the current step is decided programma
 
 <a id="MeshWorkflowControl.CenterPosition"></a>
 
-### *property* MeshWorkflowControl.CenterPosition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.CenterPosition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by “Centered”, “Minimal”, and “User Defined”.
 
@@ -131,7 +131,7 @@ It is defined by “Centered”, “Minimal”, and “User Defined”.
 
 <a id="MeshWorkflowControl.Children"></a>
 
-### *property* MeshWorkflowControl.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -147,7 +147,7 @@ Height of a single layer of mesh elements.
 
 <a id="MeshWorkflowControl.ControlType"></a>
 
-### *property* MeshWorkflowControl.ControlType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ControlType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the type of the control.
 
@@ -155,11 +155,11 @@ Returns the type of the control.
 
 <a id="MeshWorkflowControl.CreateQuads"></a>
 
-### *property* MeshWorkflowControl.CreateQuads *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.CreateQuads *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <a id="MeshWorkflowControl.DataModelObjectCategory"></a>
 
-### *property* MeshWorkflowControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -167,7 +167,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshWorkflowControl.DeleteEmptyVolumes"></a>
 
-### *property* MeshWorkflowControl.DeleteEmptyVolumes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.DeleteEmptyVolumes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property is used to enable or disable the automatic deletion of empty topo volumes  during mesh to topology conversion. The default value is false.
 
@@ -175,7 +175,7 @@ This property is used to enable or disable the automatic deletion of empty topo 
 
 <a id="MeshWorkflowControl.DeleteInputScope"></a>
 
-### *property* MeshWorkflowControl.DeleteInputScope *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.DeleteInputScope *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Deletion of input scope. The default value is false.
 
@@ -199,7 +199,7 @@ Define element size to achieve desired mesh results. User can achieve coarse, me
 
 <a id="MeshWorkflowControl.EnableCheckpoint"></a>
 
-### *property* MeshWorkflowControl.EnableCheckpoint *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.CheckpointDefinitionType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/CheckpointDefinitionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.CheckpointDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.EnableCheckpoint *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.CheckpointDefinitionType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/CheckpointDefinitionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.CheckpointDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Flag whether to enable a checkpoint or not. The default value is false.
 
@@ -207,7 +207,7 @@ Flag whether to enable a checkpoint or not. The default value is false.
 
 <a id="MeshWorkflowControl.ExcludeEnclosure"></a>
 
-### *property* MeshWorkflowControl.ExcludeEnclosure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ExcludeEnclosure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Excluding Enclosure . The default value is false.
 
@@ -215,7 +215,7 @@ Excluding Enclosure . The default value is false.
 
 <a id="MeshWorkflowControl.ExternalLabelName"></a>
 
-### *property* MeshWorkflowControl.ExternalLabelName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ExternalLabelName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property is used to rename the default external label name generated during execution of step.
 
@@ -223,7 +223,7 @@ This property is used to rename the default external label name generated during
 
 <a id="MeshWorkflowControl.ExternalScopeDefinition"></a>
 
-### *property* MeshWorkflowControl.ExternalScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ExternalScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by value or outcome depending on if the External scope is defined manual by the user or defined based on a previous outcome.
 
@@ -231,7 +231,7 @@ It is defined by value or outcome depending on if the External scope is defined 
 
 <a id="MeshWorkflowControl.ExternalScopeMethod"></a>
 
-### *property* MeshWorkflowControl.ExternalScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ExternalScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The method can be label/zone/part and it is applied to external region of enclosure.
 
@@ -239,7 +239,7 @@ The method can be label/zone/part and it is applied to external region of enclos
 
 <a id="MeshWorkflowControl.ExternalScopeOutcome"></a>
 
-### *property* MeshWorkflowControl.ExternalScopeOutcome *: [Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowOutcome.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ExternalScopeOutcome *: [Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome](MeshWorkflowOutcome.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 If the InnerScopeDefinition is set to Outcome, then this property is visible. It defines the previous step outcome. This way we input the results of a previous step to the current step. The input applies to inner region of enclosure.
 
@@ -247,7 +247,7 @@ If the InnerScopeDefinition is set to Outcome, then this property is visible. It
 
 <a id="MeshWorkflowControl.ExternalScopePattern"></a>
 
-### *property* MeshWorkflowControl.ExternalScopePattern *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ExternalScopePattern *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The value can be a name of a region or a predefined patterns to select multiple region names.
 
@@ -255,7 +255,7 @@ The value can be a name of a region or a predefined patterns to select multiple 
 
 <a id="MeshWorkflowControl.FaceZoneName"></a>
 
-### *property* MeshWorkflowControl.FaceZoneName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.FaceZoneName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property is used to define the name of the default face zone name generated during execution of step.
 
@@ -263,7 +263,7 @@ This property is used to define the name of the default face zone name generated
 
 <a id="MeshWorkflowControl.Figures"></a>
 
-### *property* MeshWorkflowControl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -271,7 +271,7 @@ Gets the list of associated figures.
 
 <a id="MeshWorkflowControl.Filename"></a>
 
-### *property* MeshWorkflowControl.Filename *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.Filename *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Assign full path to the filename would like to Import/Export.
 
@@ -279,7 +279,7 @@ Assign full path to the filename would like to Import/Export.
 
 <a id="MeshWorkflowControl.Filenames"></a>
 
-### *property* MeshWorkflowControl.Filenames *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.Filenames *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Assign paths with ‘|’ seperator to this property to read multiple files, pass without seperator if single file.
 
@@ -287,7 +287,7 @@ Assign paths with ‘|’ seperator to this property to read multiple files, pas
 
 <a id="MeshWorkflowControl.GrowthRate"></a>
 
-### *property* MeshWorkflowControl.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gradient of element size as each layer grows.
 
@@ -295,7 +295,7 @@ Gradient of element size as each layer grows.
 
 <a id="MeshWorkflowControl.Images"></a>
 
-### *property* MeshWorkflowControl.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -303,7 +303,7 @@ Gets the list of associated images.
 
 <a id="MeshWorkflowControl.InnerScopeDefinition"></a>
 
-### *property* MeshWorkflowControl.InnerScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.InnerScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by value or outcome depending on if the Inner scope is defined manually by the user or defined based on a previous outcome.
 
@@ -311,7 +311,7 @@ It is defined by value or outcome depending on if the Inner scope is defined man
 
 <a id="MeshWorkflowControl.InnerScopeMethod"></a>
 
-### *property* MeshWorkflowControl.InnerScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.InnerScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The method can be label/zone/part and it is applied to inner region of enclosure.
 
@@ -319,7 +319,7 @@ The method can be label/zone/part and it is applied to inner region of enclosure
 
 <a id="MeshWorkflowControl.InnerScopeOutcome"></a>
 
-### *property* MeshWorkflowControl.InnerScopeOutcome *: [Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowOutcome.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.InnerScopeOutcome *: [Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome](MeshWorkflowOutcome.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 If the InnerScopeDefinition is set to Outcome, then this property is visible. It defines the previous step outcome. This way we input the results of a previous step to the current step. The input applies to inner region of enclosure.
 
@@ -327,7 +327,7 @@ If the InnerScopeDefinition is set to Outcome, then this property is visible. It
 
 <a id="MeshWorkflowControl.InnerScopePattern"></a>
 
-### *property* MeshWorkflowControl.InnerScopePattern *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.InnerScopePattern *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The value can be a name of a region or a predefined patterns to select multiple region names.
 
@@ -335,7 +335,7 @@ The value can be a name of a region or a predefined patterns to select multiple 
 
 <a id="MeshWorkflowControl.InternalLabelName"></a>
 
-### *property* MeshWorkflowControl.InternalLabelName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.InternalLabelName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property is used to rename the default Internal label name generated during execution of step.
 
@@ -351,7 +351,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshWorkflowControl.LabelName"></a>
 
-### *property* MeshWorkflowControl.LabelName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.LabelName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property is used to rename the default label name generated during execution of step.
 
@@ -359,7 +359,7 @@ This property is used to rename the default label name generated during executio
 
 <a id="MeshWorkflowControl.Material"></a>
 
-### *property* MeshWorkflowControl.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -367,7 +367,7 @@ Gets or sets the Material.
 
 <a id="MeshWorkflowControl.MaterialName"></a>
 
-### *property* MeshWorkflowControl.MaterialName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.MaterialName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material Name.
 
@@ -375,7 +375,7 @@ Gets or sets the Material Name.
 
 <a id="MeshWorkflowControl.MaterialPointType"></a>
 
-### *property* MeshWorkflowControl.MaterialPointType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/MaterialPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.MaterialPointType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/MaterialPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It defines the type of material point, it can be “Include” or “Exclude”.
 
@@ -391,7 +391,7 @@ This property gives control over the flow of mesh during surface mesh generation
 
 <a id="MeshWorkflowControl.MinimalNumberOfVolumetricLayers"></a>
 
-### *property* MeshWorkflowControl.MinimalNumberOfVolumetricLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.MinimalNumberOfVolumetricLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It determines the minimal number of layers of volume elements to be created around the scoped body.
 
@@ -407,7 +407,7 @@ It defines the desired minimal radius of the spherical enclosure.
 
 <a id="MeshWorkflowControl.NumberOfAttempts"></a>
 
-### *property* MeshWorkflowControl.NumberOfAttempts *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.NumberOfAttempts *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Number of attempts for mesh convergence.
 
@@ -415,7 +415,7 @@ Number of attempts for mesh convergence.
 
 <a id="MeshWorkflowControl.NumberOfLayers"></a>
 
-### *property* MeshWorkflowControl.NumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.NumberOfLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Number of layers of mesh elements.
 
@@ -423,7 +423,7 @@ Number of layers of mesh elements.
 
 <a id="MeshWorkflowControl.PartName"></a>
 
-### *property* MeshWorkflowControl.PartName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.PartName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property allows user to rename the default part name generated during wrap operation.
 
@@ -431,7 +431,7 @@ This property allows user to rename the default part name generated during wrap 
 
 <a id="MeshWorkflowControl.PercentageIncrement"></a>
 
-### *property* MeshWorkflowControl.PercentageIncrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.PercentageIncrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of volumetric Layers determines the number of layers. This property decides whether all the layers are an equal size (default 0.0) or they should gradually increase the size of volume element than previous element.
 
@@ -439,7 +439,7 @@ The number of volumetric Layers determines the number of layers. This property d
 
 <a id="MeshWorkflowControl.Properties"></a>
 
-### *property* MeshWorkflowControl.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -447,7 +447,7 @@ Gets the list of properties for this object.
 
 <a id="MeshWorkflowControl.RegionType"></a>
 
-### *property* MeshWorkflowControl.RegionType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WrapperRegionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.RegionType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WrapperRegionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by Material Point or External.
 
@@ -455,7 +455,7 @@ It is defined by Material Point or External.
 
 <a id="MeshWorkflowControl.Remesh"></a>
 
-### *property* MeshWorkflowControl.Remesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.Remesh *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Remesh if volume mesh fails. The default value is false.
 
@@ -463,7 +463,7 @@ Remesh if volume mesh fails. The default value is false.
 
 <a id="MeshWorkflowControl.RestrictBoundaryNodes"></a>
 
-### *property* MeshWorkflowControl.RestrictBoundaryNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.RestrictBoundaryNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Restrict the boundary nodes. The default value is true.
 
@@ -471,7 +471,7 @@ Restrict the boundary nodes. The default value is true.
 
 <a id="MeshWorkflowControl.ReverseSurfaceOrientation"></a>
 
-### *property* MeshWorkflowControl.ReverseSurfaceOrientation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ReverseSurfaceOrientation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Reverse Surface Orientation. The default value is false.
 
@@ -479,7 +479,7 @@ Reverse Surface Orientation. The default value is false.
 
 <a id="MeshWorkflowControl.ScaleFactor"></a>
 
-### *property* MeshWorkflowControl.ScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Scale Factor is used to scale shapes in different dimensions.
 
@@ -487,7 +487,7 @@ Scale Factor is used to scale shapes in different dimensions.
 
 <a id="MeshWorkflowControl.ScopeDefinition"></a>
 
-### *property* MeshWorkflowControl.ScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ScopeDefinition *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 It is defined by value or outcome.
 
@@ -495,7 +495,7 @@ It is defined by value or outcome.
 
 <a id="MeshWorkflowControl.ScopeMethod"></a>
 
-### *property* MeshWorkflowControl.ScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ScopeMethod *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The method can be label/zone/part.
 
@@ -503,7 +503,7 @@ The method can be label/zone/part.
 
 <a id="MeshWorkflowControl.ScopeOutcome"></a>
 
-### *property* MeshWorkflowControl.ScopeOutcome *: [Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowOutcome.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ScopeOutcome *: [Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome](MeshWorkflowOutcome.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 If the InnerScopeDefinition is set to Outcome, then this property is visible. It defines the previous step outcome. This way we input the results of a previous step to the current step. The input applies to inner region of enclosure.
 
@@ -511,7 +511,7 @@ If the InnerScopeDefinition is set to Outcome, then this property is visible. It
 
 <a id="MeshWorkflowControl.ScopePattern"></a>
 
-### *property* MeshWorkflowControl.ScopePattern *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.ScopePattern *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The value can be a name of a region or a predefined patterns to select multiple region names.
 
@@ -519,7 +519,7 @@ The value can be a name of a region or a predefined patterns to select multiple 
 
 <a id="MeshWorkflowControl.SmoothingIterations"></a>
 
-### *property* MeshWorkflowControl.SmoothingIterations *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.SmoothingIterations *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Allows user to input number of iterations needed to achieve good mesh results.
 
@@ -527,7 +527,7 @@ Allows user to input number of iterations needed to achieve good mesh results.
 
 <a id="MeshWorkflowControl.SmoothingPreserveVolume"></a>
 
-### *property* MeshWorkflowControl.SmoothingPreserveVolume *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.SmoothingPreserveVolume *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The option to enable and disable the volume preserving smoothing. If enabled, the smoothing will preserve the initial volume of the input. The default value is false.
 
@@ -535,7 +535,7 @@ The option to enable and disable the volume preserving smoothing. If enabled, th
 
 <a id="MeshWorkflowControl.SurfaceMeshType"></a>
 
-### *property* MeshWorkflowControl.SurfaceMeshType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.SurfaceMeshType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property gives control over what type of elements need to be generated in the mesh. The supported surface mesh types are Triangles and Quadrilaterals.
 
@@ -543,7 +543,7 @@ This property gives control over what type of elements need to be generated in t
 
 <a id="MeshWorkflowControl.TargetSkewness"></a>
 
-### *property* MeshWorkflowControl.TargetSkewness *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.TargetSkewness *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Set Limit to the skewness of an element. Higher the skewness value, expecting a better mesh result.
 
@@ -559,7 +559,7 @@ This property gives control over the mode/degree of triangle count reduction dur
 
 <a id="MeshWorkflowControl.VisibleProperties"></a>
 
-### *property* MeshWorkflowControl.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -567,7 +567,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="MeshWorkflowControl.VolumeMeshType"></a>
 
-### *property* MeshWorkflowControl.VolumeMeshType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.VolumeMeshType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/VolumeMeshType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.VolumeMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.VolumeMeshType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.VolumeMeshType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/VolumeMeshType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.VolumeMeshType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Type of Volume elements such as Tetrahedrons and Hex.
 
@@ -575,7 +575,7 @@ Type of Volume elements such as Tetrahedrons and Hex.
 
 <a id="MeshWorkflowControl.VolumeZoneName"></a>
 
-### *property* MeshWorkflowControl.VolumeZoneName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowControl.VolumeZoneName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property is used to rename the default volume zone name generated during execution of step.
 
@@ -627,7 +627,7 @@ Creates a new child Figure.
 
 <a id="MeshWorkflowControl.AddImage"></a>
 
-### MeshWorkflowControl.AddImage(filePath: System.String)
+### MeshWorkflowControl.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -647,7 +647,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshWorkflowControl.CreateParameter"></a>
 
-### MeshWorkflowControl.CreateParameter(propName: System.String)
+### MeshWorkflowControl.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -671,7 +671,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MeshWorkflowControl.GetChildren"></a>
 
-### MeshWorkflowControl.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshWorkflowControl.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -679,7 +679,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshWorkflowControl.GetParameter"></a>
 
-### MeshWorkflowControl.GetParameter(propName: System.String)
+### MeshWorkflowControl.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -703,7 +703,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshWorkflowControl.PropertyByAPIName"></a>
 
-### MeshWorkflowControl.PropertyByAPIName(name: System.String)
+### MeshWorkflowControl.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -714,7 +714,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshWorkflowControl.PropertyByName"></a>
 
-### MeshWorkflowControl.PropertyByName(name: System.String)
+### MeshWorkflowControl.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -722,7 +722,7 @@ Get a property by its unique name.
 
 <a id="MeshWorkflowControl.RemoveParameter"></a>
 
-### MeshWorkflowControl.RemoveParameter(propName: System.String)
+### MeshWorkflowControl.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

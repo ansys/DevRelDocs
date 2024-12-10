@@ -17,7 +17,7 @@ Specifies the CoordinateSystemType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`Cartesian`](#CoordinateSystemType.Cartesian) |
 | [`Cylindrical`](#CoordinateSystemType.Cylindrical) |
 | [`Spherical`](#CoordinateSystemType.Spherical) |

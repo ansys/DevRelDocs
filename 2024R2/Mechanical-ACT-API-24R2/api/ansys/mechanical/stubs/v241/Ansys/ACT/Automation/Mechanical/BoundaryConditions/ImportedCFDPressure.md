@@ -17,7 +17,7 @@ Defines a ImportedCFDPressure.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ImportedCFDPressure.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ImportedCFDPressure.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ImportedCFDPressure.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a ImportedCFDPressure.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`CFDPressureFile`](#ImportedCFDPressure.CFDPressureFile)                 | Gets or sets the CFDPressureFile.                             |
 | [`Children`](#ImportedCFDPressure.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ImportedCFDPressure.Comments)                               | Gets the list of associated comments.                         |
@@ -59,7 +59,7 @@ Defines a ImportedCFDPressure.
 
 <a id="ImportedCFDPressure.CFDPressureFile"></a>
 
-### *property* ImportedCFDPressure.CFDPressureFile *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.CFDPressureFile *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CFDPressureFile.
 
@@ -67,7 +67,7 @@ Gets or sets the CFDPressureFile.
 
 <a id="ImportedCFDPressure.Children"></a>
 
-### *property* ImportedCFDPressure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="ImportedCFDPressure.Comments"></a>
 
-### *property* ImportedCFDPressure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -83,7 +83,7 @@ Gets the list of associated comments.
 
 <a id="ImportedCFDPressure.DataModelObjectCategory"></a>
 
-### *property* ImportedCFDPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedCFDPressure.Figures"></a>
 
-### *property* ImportedCFDPressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -99,7 +99,7 @@ Gets the list of associated figures.
 
 <a id="ImportedCFDPressure.Images"></a>
 
-### *property* ImportedCFDPressure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -123,7 +123,7 @@ Gets or sets the Location.
 
 <a id="ImportedCFDPressure.Properties"></a>
 
-### *property* ImportedCFDPressure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -131,7 +131,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedCFDPressure.ReadOnly"></a>
 
-### *property* ImportedCFDPressure.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -147,7 +147,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedCFDPressure.Suppressed"></a>
 
-### *property* ImportedCFDPressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -155,7 +155,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedCFDPressure.VisibleProperties"></a>
 
-### *property* ImportedCFDPressure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -191,7 +191,7 @@ Creates a new child Figure.
 
 <a id="ImportedCFDPressure.AddImage"></a>
 
-### ImportedCFDPressure.AddImage(filePath: System.String)
+### ImportedCFDPressure.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -211,7 +211,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedCFDPressure.CreateParameter"></a>
 
-### ImportedCFDPressure.CreateParameter(propName: System.String)
+### ImportedCFDPressure.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedCFDPressure.GetChildren"></a>
 
-### ImportedCFDPressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedCFDPressure.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedCFDPressure.GetParameter"></a>
 
-### ImportedCFDPressure.GetParameter(propName: System.String)
+### ImportedCFDPressure.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -275,7 +275,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ImportedCFDPressure.PropertyByAPIName"></a>
 
-### ImportedCFDPressure.PropertyByAPIName(name: System.String)
+### ImportedCFDPressure.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -286,7 +286,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedCFDPressure.PropertyByName"></a>
 
-### ImportedCFDPressure.PropertyByName(name: System.String)
+### ImportedCFDPressure.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Get a property by its unique name.
 
 <a id="ImportedCFDPressure.RemoveParameter"></a>
 
-### ImportedCFDPressure.RemoveParameter(propName: System.String)
+### ImportedCFDPressure.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

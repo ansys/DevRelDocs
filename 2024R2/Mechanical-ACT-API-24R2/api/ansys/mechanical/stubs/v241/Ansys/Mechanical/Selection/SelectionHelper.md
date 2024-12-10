@@ -27,7 +27,7 @@ SelectionHelper class.
 
 <a id="SelectionHelper.CastRayOnGeometry"></a>
 
-### *classmethod* SelectionHelper.CastRayOnGeometry(castVector: [Ansys.Mechanical.Math.BoundVector](../../../../v242/Ansys/Mechanical/Math/BoundVector.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Math.BoundVector), settings: [Ansys.Mechanical.Selection.GeometryRayCastSettings](../../../../v242/Ansys/Mechanical/Selection/GeometryRayCastSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Selection.GeometryRayCastSettings))
+### *classmethod* SelectionHelper.CastRayOnGeometry(castVector: [Ansys.Mechanical.Math.BoundVector](../Math/BoundVector.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Math.BoundVector), settings: [Ansys.Mechanical.Selection.GeometryRayCastSettings](GeometryRayCastSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Selection.GeometryRayCastSettings))
 
 ```text
 Finds geometry entities intersecting input BoundVector and returns them in list of GeometryRayCastHit.
@@ -38,7 +38,7 @@ These are returned in the order they are hit, each item containing the entity an
 
 <a id="SelectionHelper.CreateVector3D"></a>
 
-### *classmethod* SelectionHelper.CreateVector3D(selection: Ansys.ACT.Interfaces.Common.ISelectionInfo, reversed: System.Boolean)
+### *classmethod* SelectionHelper.CreateVector3D(selection: Ansys.ACT.Interfaces.Common.ISelectionInfo, reversed: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 ```text
 Creates a Vector3D object based on the given selection and reverse flag.

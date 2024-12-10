@@ -17,7 +17,7 @@ Specifies the Fluid Discretization Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------------------------- |
 | [`FluidCentralLinear`](#FluidDiscretizationType.FluidCentralLinear) |
 | [`FluidUpwindExponential`](#FluidDiscretizationType.FluidUpwindExponential) |
 | [`FluidUpwindLinear`](#FluidDiscretizationType.FluidUpwindLinear) |

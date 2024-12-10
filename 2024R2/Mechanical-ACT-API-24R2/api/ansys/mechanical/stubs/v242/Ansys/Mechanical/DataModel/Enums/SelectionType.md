@@ -17,7 +17,7 @@ Specifies the selection type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------- |
 | [`GeoBody`](#SelectionType.GeoBody) |
 | [`GeoEdge`](#SelectionType.GeoEdge) |
 | [`GeoFace`](#SelectionType.GeoFace) |

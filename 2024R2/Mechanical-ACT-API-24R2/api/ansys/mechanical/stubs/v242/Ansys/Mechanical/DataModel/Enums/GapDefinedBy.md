@@ -17,7 +17,7 @@ Specifies the GapDefinedBy.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------- |
 | [`CADParameters`](#GapDefinedBy.CADParameters) |
 | [`Range`](#GapDefinedBy.Range) |
 

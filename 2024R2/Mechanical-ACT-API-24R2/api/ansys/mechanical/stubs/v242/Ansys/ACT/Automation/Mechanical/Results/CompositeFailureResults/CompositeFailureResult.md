@@ -17,7 +17,7 @@ CompositeFailureResult class.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CompositeFailureResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#CompositeFailureResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#CompositeFailureResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ CompositeFailureResult class.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#CompositeFailureResult.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#CompositeFailureResult.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#CompositeFailureResult.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -92,20 +92,20 @@ CompositeFailureResult class.
 | [`Properties`](#CompositeFailureResult.Properties)                                               | Gets the list of properties for this object.                           |
 | [`ScopingMethod`](#CompositeFailureResult.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
 | [`SetNumber`](#CompositeFailureResult.SetNumber)                                                 | Gets or sets the Set Number.                                           |
-| [`ShowOnReferenceSurface`](#CompositeFailureResult.ShowOnReferenceSurface)                                                                                                                                          | Gets or sets the Show On Reference Surface property.                   |
+| [`ShowOnReferenceSurface`](#CompositeFailureResult.ShowOnReferenceSurface)                       | Gets or sets the Show On Reference Surface property.                   |
 | [`SolutionCombinationDriver`](#CompositeFailureResult.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
 | [`SolverComponentIDs`](#CompositeFailureResult.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
 | [`Substep`](#CompositeFailureResult.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#CompositeFailureResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#CompositeFailureResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#CompositeFailureResult.SurfaceCoating)                                                                                                                                                          | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#CompositeFailureResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#CompositeFailureResult.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#CompositeFailureResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#CompositeFailureResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#CompositeFailureResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#CompositeFailureResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#CompositeFailureResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#CompositeFailureResult.WaterfallShowTextOnMosaic)                                                                                                                                    | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#CompositeFailureResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -129,7 +129,7 @@ Gets or sets the By.
 
 <a id="CompositeFailureResult.CalculateTimeHistory"></a>
 
-### *property* CompositeFailureResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -137,7 +137,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="CompositeFailureResult.Children"></a>
 
-### *property* CompositeFailureResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -145,7 +145,7 @@ Gets the list of children.
 
 <a id="CompositeFailureResult.CombinationNumber"></a>
 
-### *property* CompositeFailureResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -153,7 +153,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="CompositeFailureResult.Comments"></a>
 
-### *property* CompositeFailureResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -161,7 +161,7 @@ Gets the list of associated comments.
 
 <a id="CompositeFailureResult.CoordinateSystem"></a>
 
-### *property* CompositeFailureResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -171,7 +171,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="CompositeFailureResult.CrackFrontNumber"></a>
 
-### *property* CompositeFailureResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -211,7 +211,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="CompositeFailureResult.Figures"></a>
 
-### *property* CompositeFailureResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -219,7 +219,7 @@ Gets the list of associated figures.
 
 <a id="CompositeFailureResult.GlobalIDs"></a>
 
-### *property* CompositeFailureResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -235,7 +235,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="CompositeFailureResult.Identifier"></a>
 
-### *property* CompositeFailureResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -243,7 +243,7 @@ Gets or sets the Identifier.
 
 <a id="CompositeFailureResult.Images"></a>
 
-### *property* CompositeFailureResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -259,7 +259,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CompositeFailureResult.IsSolved"></a>
 
-### *property* CompositeFailureResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -275,7 +275,7 @@ Gets or sets the ItemType.
 
 <a id="CompositeFailureResult.IterationNumber"></a>
 
-### *property* CompositeFailureResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -283,7 +283,7 @@ Gets the IterationNumber.
 
 <a id="CompositeFailureResult.LoadStep"></a>
 
-### *property* CompositeFailureResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -291,7 +291,7 @@ Gets the LoadStep.
 
 <a id="CompositeFailureResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* CompositeFailureResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -299,7 +299,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="CompositeFailureResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* CompositeFailureResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -307,7 +307,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="CompositeFailureResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* CompositeFailureResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -315,7 +315,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="CompositeFailureResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* CompositeFailureResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -323,7 +323,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="CompositeFailureResult.LoadStepNumber"></a>
 
-### *property* CompositeFailureResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -347,7 +347,7 @@ Gets the Maximum.
 
 <a id="CompositeFailureResult.MaximumOccursOn"></a>
 
-### *property* CompositeFailureResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -379,7 +379,7 @@ Gets the Minimum.
 
 <a id="CompositeFailureResult.MinimumOccursOn"></a>
 
-### *property* CompositeFailureResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -403,7 +403,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="CompositeFailureResult.NamedSelections"></a>
 
-### *property* CompositeFailureResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -427,7 +427,7 @@ Gets the result table.
 
 <a id="CompositeFailureResult.Ply"></a>
 
-### *property* CompositeFailureResult.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -435,7 +435,7 @@ Gets or sets the Ply selection.
 
 <a id="CompositeFailureResult.Properties"></a>
 
-### *property* CompositeFailureResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -451,7 +451,7 @@ Gets or sets the ScopingMethod.
 
 <a id="CompositeFailureResult.SetNumber"></a>
 
-### *property* CompositeFailureResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -459,7 +459,7 @@ Gets or sets the Set Number.
 
 <a id="CompositeFailureResult.ShowOnReferenceSurface"></a>
 
-### *property* CompositeFailureResult.ShowOnReferenceSurface *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.ShowOnReferenceSurface *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Show On Reference Surface property.
 
@@ -475,7 +475,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="CompositeFailureResult.SolverComponentIDs"></a>
 
-### *property* CompositeFailureResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -483,7 +483,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="CompositeFailureResult.Substep"></a>
 
-### *property* CompositeFailureResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -491,7 +491,7 @@ Gets the Substep.
 
 <a id="CompositeFailureResult.Suppressed"></a>
 
-### *property* CompositeFailureResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -555,7 +555,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="CompositeFailureResult.VisibleProperties"></a>
 
-### *property* CompositeFailureResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -563,7 +563,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="CompositeFailureResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* CompositeFailureResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -615,7 +615,7 @@ Creates a new child Figure.
 
 <a id="CompositeFailureResult.AddImage"></a>
 
-### CompositeFailureResult.AddImage(filePath: System.String)
+### CompositeFailureResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -643,7 +643,7 @@ Copies all visible properties from this object to another.
 
 <a id="CompositeFailureResult.CreateParameter"></a>
 
-### CompositeFailureResult.CreateParameter(propName: System.String)
+### CompositeFailureResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -691,7 +691,7 @@ Run the EvaluateAllResults action.
 
 <a id="CompositeFailureResult.ExportAnimation"></a>
 
-### CompositeFailureResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### CompositeFailureResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -699,7 +699,7 @@ Run the ExportAnimation action.
 
 <a id="CompositeFailureResult.ExportToTextFile"></a>
 
-### CompositeFailureResult.ExportToTextFile(filePath: System.String)
+### CompositeFailureResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -715,7 +715,7 @@ Run the FetchRemoteResult action.
 
 <a id="CompositeFailureResult.GetChildren"></a>
 
-### CompositeFailureResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CompositeFailureResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -723,7 +723,7 @@ Gets the list of children, filtered by type.
 
 <a id="CompositeFailureResult.GetParameter"></a>
 
-### CompositeFailureResult.GetParameter(propName: System.String)
+### CompositeFailureResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -755,7 +755,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="CompositeFailureResult.PropertyByAPIName"></a>
 
-### CompositeFailureResult.PropertyByAPIName(name: System.String)
+### CompositeFailureResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -766,7 +766,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CompositeFailureResult.PropertyByName"></a>
 
-### CompositeFailureResult.PropertyByName(name: System.String)
+### CompositeFailureResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -774,7 +774,7 @@ Get a property by its unique name.
 
 <a id="CompositeFailureResult.RemoveParameter"></a>
 
-### CompositeFailureResult.RemoveParameter(propName: System.String)
+### CompositeFailureResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

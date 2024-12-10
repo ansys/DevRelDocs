@@ -17,7 +17,7 @@ Defines a Moment.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Moment.Activate)                                             | Activate the current object.                                                      |
 | [`AddComment`](#Moment.AddComment)                                         | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Moment.AddFigure)                                           | Creates a new child Figure.                                                       |
@@ -43,7 +43,7 @@ Defines a Moment.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------|---------------------------------------------------------------|
 | [`BeamMaterial`](#Moment.BeamMaterial)                       | Gets or sets the BeamMaterial.                                |
 | [`BeamRadius`](#Moment.BeamRadius)                           | Gets or sets the BeamRadius.                                  |
 | [`Behavior`](#Moment.Behavior)                               | Gets or sets the Behavior.                                    |
@@ -92,7 +92,7 @@ Defines a Moment.
 
 <a id="Moment.BeamMaterial"></a>
 
-### *property* Moment.BeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.BeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamMaterial.
 
@@ -108,7 +108,7 @@ Gets or sets the BeamRadius.
 
 <a id="Moment.Behavior"></a>
 
-### *property* Moment.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -116,7 +116,7 @@ Gets or sets the Behavior.
 
 <a id="Moment.Children"></a>
 
-### *property* Moment.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -124,7 +124,7 @@ Gets the list of children.
 
 <a id="Moment.Comments"></a>
 
-### *property* Moment.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -140,7 +140,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="Moment.DataModelObjectCategory"></a>
 
-### *property* Moment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -148,7 +148,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Moment.DefineBy"></a>
 
-### *property* Moment.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -164,7 +164,7 @@ Gets or sets the Direction.
 
 <a id="Moment.Figures"></a>
 
-### *property* Moment.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -172,7 +172,7 @@ Gets the list of associated figures.
 
 <a id="Moment.HarmonicIndex"></a>
 
-### *property* Moment.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -180,7 +180,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="Moment.Images"></a>
 
-### *property* Moment.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -188,7 +188,7 @@ Gets the list of associated images.
 
 <a id="Moment.IndependentVariable"></a>
 
-### *property* Moment.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -204,7 +204,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Moment.LoadingApplicationType"></a>
 
-### *property* Moment.LoadingApplicationType *: [Ansys.Mechanical.DataModel.Enums.LoadingApplicationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadingApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadingApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.LoadingApplicationType *: [Ansys.Mechanical.DataModel.Enums.LoadingApplicationType](../../../../Mechanical/DataModel/Enums/LoadingApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadingApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadingApplicationType.
 
@@ -220,7 +220,7 @@ Gets or sets the Geometry.
 
 <a id="Moment.Magnitude"></a>
 
-### *property* Moment.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -228,7 +228,7 @@ Gets the Magnitude.
 
 <a id="Moment.MagnitudeImag"></a>
 
-### *property* Moment.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MagnitudeImag.
 
@@ -236,7 +236,7 @@ Gets the MagnitudeImag.
 
 <a id="Moment.NonCyclicLoadingType"></a>
 
-### *property* Moment.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonCyclicLoadingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](../../../../Mechanical/DataModel/Enums/NonCyclicLoadingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonCyclicLoadingType.
 
@@ -244,7 +244,7 @@ Gets or sets the NonCyclicLoadingType.
 
 <a id="Moment.NumberOfSegments"></a>
 
-### *property* Moment.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -252,7 +252,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="Moment.PhaseAngle"></a>
 
-### *property* Moment.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PhaseAngle.
 
@@ -268,7 +268,7 @@ Gets or sets the PinballRegion.
 
 <a id="Moment.Properties"></a>
 
-### *property* Moment.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -276,7 +276,7 @@ Gets the list of properties for this object.
 
 <a id="Moment.ReadOnly"></a>
 
-### *property* Moment.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -284,7 +284,7 @@ Gets or sets the ReadOnly.
 
 <a id="Moment.RemotePoint"></a>
 
-### *property* Moment.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the remote point associated to the point mass.
 
@@ -300,7 +300,7 @@ Gets or sets the RpmSelection.
 
 <a id="Moment.SectorNumber"></a>
 
-### *property* Moment.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -316,7 +316,7 @@ Gets or sets the SharedRefBody.
 
 <a id="Moment.StepSelection"></a>
 
-### *property* Moment.StepSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.StepSelection *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepSelection.
 
@@ -324,7 +324,7 @@ Gets or sets the StepSelection.
 
 <a id="Moment.StepVarying"></a>
 
-### *property* Moment.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StepVarying.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](../../../../Mechanical/DataModel/Enums/StepVarying.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepVarying.
 
@@ -332,7 +332,7 @@ Gets or sets the StepVarying.
 
 <a id="Moment.Suppressed"></a>
 
-### *property* Moment.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -340,7 +340,7 @@ Gets or sets the Suppressed.
 
 <a id="Moment.VisibleProperties"></a>
 
-### *property* Moment.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -348,7 +348,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Moment.XComponent"></a>
 
-### *property* Moment.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponent.
 
@@ -356,7 +356,7 @@ Gets the XComponent.
 
 <a id="Moment.XComponentImag"></a>
 
-### *property* Moment.XComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.XComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponentImag.
 
@@ -364,7 +364,7 @@ Gets the XComponentImag.
 
 <a id="Moment.XPhaseAngle"></a>
 
-### *property* Moment.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XPhaseAngle.
 
@@ -372,7 +372,7 @@ Gets the XPhaseAngle.
 
 <a id="Moment.YComponent"></a>
 
-### *property* Moment.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
@@ -380,7 +380,7 @@ Gets the YComponent.
 
 <a id="Moment.YComponentImag"></a>
 
-### *property* Moment.YComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.YComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponentImag.
 
@@ -388,7 +388,7 @@ Gets the YComponentImag.
 
 <a id="Moment.YPhaseAngle"></a>
 
-### *property* Moment.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YPhaseAngle.
 
@@ -396,7 +396,7 @@ Gets the YPhaseAngle.
 
 <a id="Moment.ZComponent"></a>
 
-### *property* Moment.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponent.
 
@@ -404,7 +404,7 @@ Gets the ZComponent.
 
 <a id="Moment.ZComponentImag"></a>
 
-### *property* Moment.ZComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.ZComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponentImag.
 
@@ -412,7 +412,7 @@ Gets the ZComponentImag.
 
 <a id="Moment.ZPhaseAngle"></a>
 
-### *property* Moment.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Moment.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZPhaseAngle.
 
@@ -448,7 +448,7 @@ Creates a new child Figure.
 
 <a id="Moment.AddImage"></a>
 
-### Moment.AddImage(filePath: System.String)
+### Moment.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -468,7 +468,7 @@ Copies all visible properties from this object to another.
 
 <a id="Moment.CreateParameter"></a>
 
-### Moment.CreateParameter(propName: System.String)
+### Moment.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -492,7 +492,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Moment.GetActivateAtLoadStep"></a>
 
-### Moment.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### Moment.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -500,7 +500,7 @@ GetActivateAtLoadStep method.
 
 <a id="Moment.GetChildren"></a>
 
-### Moment.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Moment.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -508,7 +508,7 @@ Gets the list of children, filtered by type.
 
 <a id="Moment.GetComponentActivateAtLoadStep"></a>
 
-### Moment.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### Moment.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -516,7 +516,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="Moment.GetParameter"></a>
 
-### Moment.GetParameter(propName: System.String)
+### Moment.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -556,7 +556,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="Moment.PropertyByAPIName"></a>
 
-### Moment.PropertyByAPIName(name: System.String)
+### Moment.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -567,7 +567,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Moment.PropertyByName"></a>
 
-### Moment.PropertyByName(name: System.String)
+### Moment.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -575,7 +575,7 @@ Get a property by its unique name.
 
 <a id="Moment.RemoveParameter"></a>
 
-### Moment.RemoveParameter(propName: System.String)
+### Moment.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -583,7 +583,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Moment.SetActivateAtLoadStep"></a>
 
-### Moment.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### Moment.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -591,7 +591,7 @@ SetActivateAtLoadStep method.
 
 <a id="Moment.SetComponentActivateAtLoadStep"></a>
 
-### Moment.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### Moment.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

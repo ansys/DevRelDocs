@@ -17,13 +17,13 @@ The class representing a solve configuration.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+|------------------------------------------------------|-------------------------------------------------|
 | [`SetAsDefault`](#SolveConfiguration.SetAsDefault)   | Sets this solve configuration as the default.   |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+|--------------------------------------------------------------------|-----------------------------------------------------------------|
 | [`Default`](#SolveConfiguration.Default)                           | Whether this solve configuration is the default.                |
 | [`Name`](#SolveConfiguration.Name)                                 | The name of the solve configuration.                            |
 | [`Settings`](#SolveConfiguration.Settings)                         | Returns the queue settings of this solve configuration.         |
@@ -35,7 +35,7 @@ The class representing a solve configuration.
 
 <a id="SolveConfiguration.Default"></a>
 
-### *property* SolveConfiguration.Default *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveConfiguration.Default *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether this solve configuration is the default.
 
@@ -43,7 +43,7 @@ Whether this solve configuration is the default.
 
 <a id="SolveConfiguration.Name"></a>
 
-### *property* SolveConfiguration.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveConfiguration.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the solve configuration.
 

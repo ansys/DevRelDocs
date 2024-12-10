@@ -17,7 +17,7 @@ Defines a StressRatio.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#StressRatio.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#StressRatio.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#StressRatio.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a StressRatio.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#StressRatio.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#StressRatio.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#StressRatio.By)                                                               | Gets or sets the By.                                                   |
@@ -97,14 +97,14 @@ Defines a StressRatio.
 | [`Substep`](#StressRatio.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#StressRatio.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#StressRatio.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#StressRatio.SurfaceCoating)                                                                                                                                         | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#StressRatio.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#StressRatio.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#StressRatio.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#StressRatio.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#StressRatio.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#StressRatio.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#StressRatio.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#StressRatio.WaterfallShowTextOnMosaic)                                                                                                                   | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#StressRatio.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -120,7 +120,7 @@ Gets the Average.
 
 <a id="StressRatio.AverageAcrossBodies"></a>
 
-### *property* StressRatio.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -136,7 +136,7 @@ Gets or sets the By.
 
 <a id="StressRatio.CalculateTimeHistory"></a>
 
-### *property* StressRatio.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -144,7 +144,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="StressRatio.Children"></a>
 
-### *property* StressRatio.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -152,7 +152,7 @@ Gets the list of children.
 
 <a id="StressRatio.CombinationNumber"></a>
 
-### *property* StressRatio.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -160,7 +160,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="StressRatio.Comments"></a>
 
-### *property* StressRatio.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -168,7 +168,7 @@ Gets the list of associated comments.
 
 <a id="StressRatio.CoordinateSystem"></a>
 
-### *property* StressRatio.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -178,7 +178,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="StressRatio.CrackFrontNumber"></a>
 
-### *property* StressRatio.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -218,7 +218,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="StressRatio.Figures"></a>
 
-### *property* StressRatio.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -226,7 +226,7 @@ Gets the list of associated figures.
 
 <a id="StressRatio.GlobalIDs"></a>
 
-### *property* StressRatio.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -242,7 +242,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="StressRatio.Identifier"></a>
 
-### *property* StressRatio.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -250,7 +250,7 @@ Gets or sets the Identifier.
 
 <a id="StressRatio.Images"></a>
 
-### *property* StressRatio.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -266,7 +266,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="StressRatio.IsSolved"></a>
 
-### *property* StressRatio.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -282,7 +282,7 @@ Gets or sets the ItemType.
 
 <a id="StressRatio.IterationNumber"></a>
 
-### *property* StressRatio.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -290,7 +290,7 @@ Gets the IterationNumber.
 
 <a id="StressRatio.LoadStep"></a>
 
-### *property* StressRatio.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -298,7 +298,7 @@ Gets the LoadStep.
 
 <a id="StressRatio.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* StressRatio.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -306,7 +306,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="StressRatio.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* StressRatio.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -314,7 +314,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="StressRatio.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* StressRatio.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -322,7 +322,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="StressRatio.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* StressRatio.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -330,7 +330,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="StressRatio.LoadStepNumber"></a>
 
-### *property* StressRatio.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -354,7 +354,7 @@ Gets the Maximum.
 
 <a id="StressRatio.MaximumOccursOn"></a>
 
-### *property* StressRatio.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -386,7 +386,7 @@ Gets the Minimum.
 
 <a id="StressRatio.MinimumOccursOn"></a>
 
-### *property* StressRatio.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -410,7 +410,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="StressRatio.NamedSelections"></a>
 
-### *property* StressRatio.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -434,7 +434,7 @@ Gets the result table.
 
 <a id="StressRatio.Properties"></a>
 
-### *property* StressRatio.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -450,7 +450,7 @@ Gets or sets the ScopingMethod.
 
 <a id="StressRatio.SetNumber"></a>
 
-### *property* StressRatio.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -466,7 +466,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="StressRatio.SolverComponentIDs"></a>
 
-### *property* StressRatio.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -474,7 +474,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="StressRatio.Substep"></a>
 
-### *property* StressRatio.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -482,7 +482,7 @@ Gets the Substep.
 
 <a id="StressRatio.Suppressed"></a>
 
-### *property* StressRatio.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -546,7 +546,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="StressRatio.VisibleProperties"></a>
 
-### *property* StressRatio.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -554,7 +554,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="StressRatio.WaterfallShowTextOnMosaic"></a>
 
-### *property* StressRatio.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressRatio.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -606,7 +606,7 @@ Creates a new child Figure.
 
 <a id="StressRatio.AddImage"></a>
 
-### StressRatio.AddImage(filePath: System.String)
+### StressRatio.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -634,7 +634,7 @@ Copies all visible properties from this object to another.
 
 <a id="StressRatio.CreateParameter"></a>
 
-### StressRatio.CreateParameter(propName: System.String)
+### StressRatio.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -682,7 +682,7 @@ Run the EvaluateAllResults action.
 
 <a id="StressRatio.ExportAnimation"></a>
 
-### StressRatio.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### StressRatio.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -690,7 +690,7 @@ Run the ExportAnimation action.
 
 <a id="StressRatio.ExportToTextFile"></a>
 
-### StressRatio.ExportToTextFile(filePath: System.String)
+### StressRatio.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -706,7 +706,7 @@ Run the FetchRemoteResult action.
 
 <a id="StressRatio.GetChildren"></a>
 
-### StressRatio.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### StressRatio.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -714,7 +714,7 @@ Gets the list of children, filtered by type.
 
 <a id="StressRatio.GetParameter"></a>
 
-### StressRatio.GetParameter(propName: System.String)
+### StressRatio.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -746,7 +746,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="StressRatio.PropertyByAPIName"></a>
 
-### StressRatio.PropertyByAPIName(name: System.String)
+### StressRatio.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -757,7 +757,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="StressRatio.PropertyByName"></a>
 
-### StressRatio.PropertyByName(name: System.String)
+### StressRatio.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -765,7 +765,7 @@ Get a property by its unique name.
 
 <a id="StressRatio.RemoveParameter"></a>
 
-### StressRatio.RemoveParameter(propName: System.String)
+### StressRatio.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Defines a ImportedStresses.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ImportedStresses.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ImportedStresses.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ImportedStresses.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a ImportedStresses.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ImportedStresses.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ImportedStresses.Comments)                               | Gets the list of associated comments.                         |
 | [`Count`](#ImportedStresses.Count)                                     | Gets the NumberOfRows.                                        |
@@ -56,7 +56,7 @@ Defines a ImportedStresses.
 
 <a id="ImportedStresses.Children"></a>
 
-### *property* ImportedStresses.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -64,7 +64,7 @@ Gets the list of children.
 
 <a id="ImportedStresses.Comments"></a>
 
-### *property* ImportedStresses.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -72,7 +72,7 @@ Gets the list of associated comments.
 
 <a id="ImportedStresses.Count"></a>
 
-### *property* ImportedStresses.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberOfRows.
 
@@ -80,7 +80,7 @@ Gets the NumberOfRows.
 
 <a id="ImportedStresses.DataModelObjectCategory"></a>
 
-### *property* ImportedStresses.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -88,7 +88,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedStresses.Figures"></a>
 
-### *property* ImportedStresses.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -96,7 +96,7 @@ Gets the list of associated figures.
 
 <a id="ImportedStresses.Images"></a>
 
-### *property* ImportedStresses.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -112,7 +112,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedStresses.Properties"></a>
 
-### *property* ImportedStresses.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -120,7 +120,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedStresses.ReadOnly"></a>
 
-### *property* ImportedStresses.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -128,7 +128,7 @@ Gets or sets the ReadOnly.
 
 <a id="ImportedStresses.Suppressed"></a>
 
-### *property* ImportedStresses.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -136,7 +136,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedStresses.VisibleProperties"></a>
 
-### *property* ImportedStresses.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedStresses.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -172,7 +172,7 @@ Creates a new child Figure.
 
 <a id="ImportedStresses.AddImage"></a>
 
-### ImportedStresses.AddImage(filePath: System.String)
+### ImportedStresses.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -192,7 +192,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedStresses.CreateParameter"></a>
 
-### ImportedStresses.CreateParameter(propName: System.String)
+### ImportedStresses.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -216,7 +216,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedStresses.GetChildren"></a>
 
-### ImportedStresses.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedStresses.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -224,7 +224,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedStresses.GetParameter"></a>
 
-### ImportedStresses.GetParameter(propName: System.String)
+### ImportedStresses.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -248,7 +248,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ImportedStresses.PropertyByAPIName"></a>
 
-### ImportedStresses.PropertyByAPIName(name: System.String)
+### ImportedStresses.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -259,7 +259,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedStresses.PropertyByName"></a>
 
-### ImportedStresses.PropertyByName(name: System.String)
+### ImportedStresses.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -267,7 +267,7 @@ Get a property by its unique name.
 
 <a id="ImportedStresses.RemoveParameter"></a>
 
-### ImportedStresses.RemoveParameter(propName: System.String)
+### ImportedStresses.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

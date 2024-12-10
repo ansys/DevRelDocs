@@ -17,7 +17,7 @@ Specifies the Objective Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------------------------- |
 | [`MaximizeCriterion`](#ObjectiveType.MaximizeCriterion) |
 | [`MaximizeFrequency`](#ObjectiveType.MaximizeFrequency) |
 | [`MinimizeAccumulatedEquivalentPlasticStrain`](#ObjectiveType.MinimizeAccumulatedEquivalentPlasticStrain) |

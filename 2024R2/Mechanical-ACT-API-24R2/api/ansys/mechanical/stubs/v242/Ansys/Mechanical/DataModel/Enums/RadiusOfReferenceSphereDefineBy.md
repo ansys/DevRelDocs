@@ -17,7 +17,7 @@ Specifies the RadiusOfReferenceSphereDefineBy.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------- |
 | [`ProgramControlled`](#RadiusOfReferenceSphereDefineBy.ProgramControlled) |
 | [`UserDefined`](#RadiusOfReferenceSphereDefineBy.UserDefined) |
 

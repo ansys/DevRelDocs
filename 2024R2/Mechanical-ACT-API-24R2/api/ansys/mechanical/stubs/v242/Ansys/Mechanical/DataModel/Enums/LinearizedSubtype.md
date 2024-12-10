@@ -17,7 +17,7 @@ Specifies the LinearizedSubtype.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------- |
 | [`All`](#LinearizedSubtype.All) |
 | [`Bending`](#LinearizedSubtype.Bending) |
 | [`Membrane`](#LinearizedSubtype.Membrane) |

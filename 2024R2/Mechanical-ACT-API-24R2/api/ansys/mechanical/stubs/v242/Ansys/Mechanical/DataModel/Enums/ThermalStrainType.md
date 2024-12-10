@@ -17,7 +17,7 @@ Specifies the ThermalStrainType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`ProgramControlled`](#ThermalStrainType.ProgramControlled) |
 | [`Strong`](#ThermalStrainType.Strong) |
 | [`Weak`](#ThermalStrainType.Weak) |

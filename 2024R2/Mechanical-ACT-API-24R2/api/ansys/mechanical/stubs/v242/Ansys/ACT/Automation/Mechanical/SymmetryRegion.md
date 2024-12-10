@@ -17,7 +17,7 @@ Defines a SymmetryRegion.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#SymmetryRegion.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#SymmetryRegion.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#SymmetryRegion.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a SymmetryRegion.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`ApplyTo`](#SymmetryRegion.ApplyTo)                                 | Gets or sets the ApplyTo.                                     |
 | [`Behavior`](#SymmetryRegion.Behavior)                               | Gets or sets the Behavior.                                    |
 | [`Children`](#SymmetryRegion.Children)                               | Gets the list of children.                                    |
@@ -83,7 +83,7 @@ Gets or sets the Behavior.
 
 <a id="SymmetryRegion.Children"></a>
 
-### *property* SymmetryRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -91,7 +91,7 @@ Gets the list of children.
 
 <a id="SymmetryRegion.Comments"></a>
 
-### *property* SymmetryRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -99,7 +99,7 @@ Gets the list of associated comments.
 
 <a id="SymmetryRegion.CoordinateSystem"></a>
 
-### *property* SymmetryRegion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -115,7 +115,7 @@ Gets the current DataModelObject’s category.
 
 <a id="SymmetryRegion.Figures"></a>
 
-### *property* SymmetryRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -131,7 +131,7 @@ Gets or sets the HighBoundaryLocation.
 
 <a id="SymmetryRegion.Images"></a>
 
-### *property* SymmetryRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -179,7 +179,7 @@ Gets or sets the PeriodicityDirection.
 
 <a id="SymmetryRegion.Properties"></a>
 
-### *property* SymmetryRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -187,7 +187,7 @@ Gets the list of properties for this object.
 
 <a id="SymmetryRegion.ReadOnly"></a>
 
-### *property* SymmetryRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -203,7 +203,7 @@ Gets the ScopeMode.
 
 <a id="SymmetryRegion.Suppressed"></a>
 
-### *property* SymmetryRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -227,7 +227,7 @@ Gets or sets the Type.
 
 <a id="SymmetryRegion.VisibleProperties"></a>
 
-### *property* SymmetryRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -263,7 +263,7 @@ Creates a new child Figure.
 
 <a id="SymmetryRegion.AddImage"></a>
 
-### SymmetryRegion.AddImage(filePath: System.String)
+### SymmetryRegion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -283,7 +283,7 @@ Copies all visible properties from this object to another.
 
 <a id="SymmetryRegion.CreateParameter"></a>
 
-### SymmetryRegion.CreateParameter(propName: System.String)
+### SymmetryRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -315,7 +315,7 @@ Flips the High and Low Boundaries.
 
 <a id="SymmetryRegion.GetChildren"></a>
 
-### SymmetryRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### SymmetryRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -323,7 +323,7 @@ Gets the list of children, filtered by type.
 
 <a id="SymmetryRegion.GetParameter"></a>
 
-### SymmetryRegion.GetParameter(propName: System.String)
+### SymmetryRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -347,7 +347,7 @@ Run the GroupSimilarObjects action.
 
 <a id="SymmetryRegion.PropertyByAPIName"></a>
 
-### SymmetryRegion.PropertyByAPIName(name: System.String)
+### SymmetryRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -358,7 +358,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="SymmetryRegion.PropertyByName"></a>
 
-### SymmetryRegion.PropertyByName(name: System.String)
+### SymmetryRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -366,7 +366,7 @@ Get a property by its unique name.
 
 <a id="SymmetryRegion.RemoveParameter"></a>
 
-### SymmetryRegion.RemoveParameter(propName: System.String)
+### SymmetryRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

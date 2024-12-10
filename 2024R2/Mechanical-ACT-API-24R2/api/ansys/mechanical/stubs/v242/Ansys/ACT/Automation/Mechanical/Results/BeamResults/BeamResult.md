@@ -17,7 +17,7 @@ Defines a BeamResult.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#BeamResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#BeamResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#BeamResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a BeamResult.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#BeamResult.Average)                                                     | Gets the Average.                                                      |
 | [`BeamResultType`](#BeamResult.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`By`](#BeamResult.By)                                                               | Gets or sets the By.                                                   |
@@ -97,14 +97,14 @@ Defines a BeamResult.
 | [`Substep`](#BeamResult.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#BeamResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#BeamResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#BeamResult.SurfaceCoating)                                                                                                                                  | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#BeamResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#BeamResult.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#BeamResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#BeamResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#BeamResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#BeamResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#BeamResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#BeamResult.WaterfallShowTextOnMosaic)                                                                                                            | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#BeamResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -136,7 +136,7 @@ Gets or sets the By.
 
 <a id="BeamResult.CalculateTimeHistory"></a>
 
-### *property* BeamResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -144,7 +144,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="BeamResult.Children"></a>
 
-### *property* BeamResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -152,7 +152,7 @@ Gets the list of children.
 
 <a id="BeamResult.CombinationNumber"></a>
 
-### *property* BeamResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -160,7 +160,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="BeamResult.Comments"></a>
 
-### *property* BeamResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -168,7 +168,7 @@ Gets the list of associated comments.
 
 <a id="BeamResult.CoordinateSystem"></a>
 
-### *property* BeamResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -178,7 +178,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="BeamResult.CrackFrontNumber"></a>
 
-### *property* BeamResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -218,7 +218,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="BeamResult.Figures"></a>
 
-### *property* BeamResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -226,7 +226,7 @@ Gets the list of associated figures.
 
 <a id="BeamResult.GlobalIDs"></a>
 
-### *property* BeamResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -242,7 +242,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="BeamResult.Identifier"></a>
 
-### *property* BeamResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -250,7 +250,7 @@ Gets or sets the Identifier.
 
 <a id="BeamResult.Images"></a>
 
-### *property* BeamResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -266,7 +266,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="BeamResult.IsSolved"></a>
 
-### *property* BeamResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -282,7 +282,7 @@ Gets or sets the ItemType.
 
 <a id="BeamResult.IterationNumber"></a>
 
-### *property* BeamResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -290,7 +290,7 @@ Gets the IterationNumber.
 
 <a id="BeamResult.LoadStep"></a>
 
-### *property* BeamResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -298,7 +298,7 @@ Gets the LoadStep.
 
 <a id="BeamResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* BeamResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -306,7 +306,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="BeamResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* BeamResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -314,7 +314,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="BeamResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* BeamResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -322,7 +322,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="BeamResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* BeamResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -330,7 +330,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="BeamResult.LoadStepNumber"></a>
 
-### *property* BeamResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -354,7 +354,7 @@ Gets the Maximum.
 
 <a id="BeamResult.MaximumOccursOn"></a>
 
-### *property* BeamResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -386,7 +386,7 @@ Gets the Minimum.
 
 <a id="BeamResult.MinimumOccursOn"></a>
 
-### *property* BeamResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -410,7 +410,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="BeamResult.NamedSelections"></a>
 
-### *property* BeamResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -434,7 +434,7 @@ Gets the result table.
 
 <a id="BeamResult.Properties"></a>
 
-### *property* BeamResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -450,7 +450,7 @@ Gets or sets the ScopingMethod.
 
 <a id="BeamResult.SetNumber"></a>
 
-### *property* BeamResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -466,7 +466,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="BeamResult.SolverComponentIDs"></a>
 
-### *property* BeamResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -474,7 +474,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="BeamResult.Substep"></a>
 
-### *property* BeamResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -482,7 +482,7 @@ Gets the Substep.
 
 <a id="BeamResult.Suppressed"></a>
 
-### *property* BeamResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -546,7 +546,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="BeamResult.VisibleProperties"></a>
 
-### *property* BeamResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -554,7 +554,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="BeamResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* BeamResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -606,7 +606,7 @@ Creates a new child Figure.
 
 <a id="BeamResult.AddImage"></a>
 
-### BeamResult.AddImage(filePath: System.String)
+### BeamResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -634,7 +634,7 @@ Copies all visible properties from this object to another.
 
 <a id="BeamResult.CreateParameter"></a>
 
-### BeamResult.CreateParameter(propName: System.String)
+### BeamResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -682,7 +682,7 @@ Run the EvaluateAllResults action.
 
 <a id="BeamResult.ExportAnimation"></a>
 
-### BeamResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### BeamResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -690,7 +690,7 @@ Run the ExportAnimation action.
 
 <a id="BeamResult.ExportToTextFile"></a>
 
-### BeamResult.ExportToTextFile(filePath: System.String)
+### BeamResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -706,7 +706,7 @@ Run the FetchRemoteResult action.
 
 <a id="BeamResult.GetChildren"></a>
 
-### BeamResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### BeamResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -714,7 +714,7 @@ Gets the list of children, filtered by type.
 
 <a id="BeamResult.GetParameter"></a>
 
-### BeamResult.GetParameter(propName: System.String)
+### BeamResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -746,7 +746,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="BeamResult.PropertyByAPIName"></a>
 
-### BeamResult.PropertyByAPIName(name: System.String)
+### BeamResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -757,7 +757,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="BeamResult.PropertyByName"></a>
 
-### BeamResult.PropertyByName(name: System.String)
+### BeamResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -765,7 +765,7 @@ Get a property by its unique name.
 
 <a id="BeamResult.RemoveParameter"></a>
 
-### BeamResult.RemoveParameter(propName: System.String)
+### BeamResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

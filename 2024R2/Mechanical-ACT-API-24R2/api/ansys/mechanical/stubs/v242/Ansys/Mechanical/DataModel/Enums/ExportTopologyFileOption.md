@@ -17,7 +17,7 @@ Specifies the ExportTopologyFileOption.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`GeometryOnly`](#ExportTopologyFileOption.GeometryOnly) |
 | [`Model`](#ExportTopologyFileOption.Model) |
 | [`No`](#ExportTopologyFileOption.No) |

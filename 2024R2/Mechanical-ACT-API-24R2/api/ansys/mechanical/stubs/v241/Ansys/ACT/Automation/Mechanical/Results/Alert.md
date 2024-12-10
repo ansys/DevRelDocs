@@ -54,7 +54,7 @@ Defines a Alert.
 
 <a id="Alert.Children"></a>
 
-### *property* Alert.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -62,7 +62,7 @@ Gets the list of children.
 
 <a id="Alert.Comments"></a>
 
-### *property* Alert.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -70,7 +70,7 @@ Gets the list of associated comments.
 
 <a id="Alert.DataModelObjectCategory"></a>
 
-### *property* Alert.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -78,7 +78,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Alert.FailsIf"></a>
 
-### *property* Alert.FailsIf *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.FailsIf *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FailsIf.
 
@@ -86,7 +86,7 @@ Gets or sets the FailsIf.
 
 <a id="Alert.Images"></a>
 
-### *property* Alert.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -102,7 +102,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Alert.Properties"></a>
 
-### *property* Alert.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -110,7 +110,7 @@ Gets the list of properties for this object.
 
 <a id="Alert.Status"></a>
 
-### *property* Alert.Status *: [Ansys.Mechanical.DataModel.Enums.PassFailResult](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/PassFailResult.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PassFailResult) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.Status *: [Ansys.Mechanical.DataModel.Enums.PassFailResult](../../../../Mechanical/DataModel/Enums/PassFailResult.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PassFailResult) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Status.
 
@@ -118,7 +118,7 @@ Gets the Status.
 
 <a id="Alert.Value"></a>
 
-### *property* Alert.Value *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.Value *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Value.
 
@@ -126,7 +126,7 @@ Gets or sets the Value.
 
 <a id="Alert.VisibleProperties"></a>
 
-### *property* Alert.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Alert.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -154,7 +154,7 @@ Creates a new child Comment.
 
 <a id="Alert.AddImage"></a>
 
-### Alert.AddImage(filePath: System.String)
+### Alert.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -174,7 +174,7 @@ Copies all visible properties from this object to another.
 
 <a id="Alert.CreateParameter"></a>
 
-### Alert.CreateParameter(propName: System.String)
+### Alert.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -198,7 +198,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Alert.GetChildren"></a>
 
-### Alert.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Alert.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -206,7 +206,7 @@ Gets the list of children, filtered by type.
 
 <a id="Alert.GetParameter"></a>
 
-### Alert.GetParameter(propName: System.String)
+### Alert.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -230,7 +230,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Alert.PropertyByAPIName"></a>
 
-### Alert.PropertyByAPIName(name: System.String)
+### Alert.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -241,7 +241,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Alert.PropertyByName"></a>
 
-### Alert.PropertyByName(name: System.String)
+### Alert.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -249,7 +249,7 @@ Get a property by its unique name.
 
 <a id="Alert.RemoveParameter"></a>
 
-### Alert.RemoveParameter(propName: System.String)
+### Alert.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

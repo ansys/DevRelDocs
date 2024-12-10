@@ -17,7 +17,7 @@ Specifies the DampingDefineBy.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------------------------------------- |
 | [`ConstantStructuralDampingCoefficient`](#DampingDefineBy.ConstantStructuralDampingCoefficient) |
 | [`DampingRatio`](#DampingDefineBy.DampingRatio) |
 

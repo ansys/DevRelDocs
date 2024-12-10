@@ -50,7 +50,7 @@ Defines a ManufacturingConstraint.
 
 <a id="ManufacturingConstraint.Children"></a>
 
-### *property* ManufacturingConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ManufacturingConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -74,7 +74,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ManufacturingConstraint.Properties"></a>
 
-### *property* ManufacturingConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ManufacturingConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -90,7 +90,7 @@ Gets or sets the Selection.
 
 <a id="ManufacturingConstraint.Suppressed"></a>
 
-### *property* ManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ManufacturingConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -98,7 +98,7 @@ Gets or sets the Suppressed.
 
 <a id="ManufacturingConstraint.VisibleProperties"></a>
 
-### *property* ManufacturingConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ManufacturingConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -126,7 +126,7 @@ Copies all visible properties from this object to another.
 
 <a id="ManufacturingConstraint.CreateParameter"></a>
 
-### ManufacturingConstraint.CreateParameter(propName: System.String)
+### ManufacturingConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -150,7 +150,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ManufacturingConstraint.GetChildren"></a>
 
-### ManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ManufacturingConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -158,7 +158,7 @@ Gets the list of children, filtered by type.
 
 <a id="ManufacturingConstraint.GetParameter"></a>
 
-### ManufacturingConstraint.GetParameter(propName: System.String)
+### ManufacturingConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -182,7 +182,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ManufacturingConstraint.PropertyByAPIName"></a>
 
-### ManufacturingConstraint.PropertyByAPIName(name: System.String)
+### ManufacturingConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -193,7 +193,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ManufacturingConstraint.PropertyByName"></a>
 
-### ManufacturingConstraint.PropertyByName(name: System.String)
+### ManufacturingConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -201,7 +201,7 @@ Get a property by its unique name.
 
 <a id="ManufacturingConstraint.RemoveParameter"></a>
 
-### ManufacturingConstraint.RemoveParameter(propName: System.String)
+### ManufacturingConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

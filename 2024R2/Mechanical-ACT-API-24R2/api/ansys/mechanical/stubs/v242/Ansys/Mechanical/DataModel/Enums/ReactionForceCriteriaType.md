@@ -17,7 +17,7 @@ Specifies the ReactionForceCriteriaType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`AbsoluteMaximum`](#ReactionForceCriteriaType.AbsoluteMaximum) |
 | [`Sum`](#ReactionForceCriteriaType.Sum) |
 

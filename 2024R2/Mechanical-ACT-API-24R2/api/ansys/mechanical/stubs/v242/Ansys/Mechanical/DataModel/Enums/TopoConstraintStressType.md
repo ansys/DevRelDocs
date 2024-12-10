@@ -17,7 +17,7 @@ Specifies the TopoConstraintStressType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------ |
 | [`LocalStrainEnergy`](#TopoConstraintStressType.LocalStrainEnergy) |
 | [`MaximumPrincipalStress`](#TopoConstraintStressType.MaximumPrincipalStress) |
 | [`VonMisesStress`](#TopoConstraintStressType.VonMisesStress) |

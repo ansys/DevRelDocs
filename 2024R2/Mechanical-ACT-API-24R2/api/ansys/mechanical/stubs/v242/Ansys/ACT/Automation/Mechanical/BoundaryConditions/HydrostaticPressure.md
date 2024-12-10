@@ -83,7 +83,7 @@ Gets or sets the AppliedBy.
 
 <a id="HydrostaticPressure.Children"></a>
 
-### *property* HydrostaticPressure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -91,7 +91,7 @@ Gets the list of children.
 
 <a id="HydrostaticPressure.Comments"></a>
 
-### *property* HydrostaticPressure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -99,7 +99,7 @@ Gets the list of associated comments.
 
 <a id="HydrostaticPressure.CoordinateSystem"></a>
 
-### *property* HydrostaticPressure.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -131,7 +131,7 @@ Gets or sets the Direction.
 
 <a id="HydrostaticPressure.Figures"></a>
 
-### *property* HydrostaticPressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -147,7 +147,7 @@ Gets or sets the FluidDensity.
 
 <a id="HydrostaticPressure.Images"></a>
 
-### *property* HydrostaticPressure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -179,7 +179,7 @@ Gets the Magnitude.
 
 <a id="HydrostaticPressure.Properties"></a>
 
-### *property* HydrostaticPressure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -187,7 +187,7 @@ Gets the list of properties for this object.
 
 <a id="HydrostaticPressure.ReadOnly"></a>
 
-### *property* HydrostaticPressure.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -195,7 +195,7 @@ Gets or sets the ReadOnly.
 
 <a id="HydrostaticPressure.SharedRefBody"></a>
 
-### *property* HydrostaticPressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -211,7 +211,7 @@ Gets or sets the ShellFace.
 
 <a id="HydrostaticPressure.Suppressed"></a>
 
-### *property* HydrostaticPressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -219,7 +219,7 @@ Gets or sets the Suppressed.
 
 <a id="HydrostaticPressure.VisibleProperties"></a>
 
-### *property* HydrostaticPressure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HydrostaticPressure.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -303,7 +303,7 @@ Creates a new child Figure.
 
 <a id="HydrostaticPressure.AddImage"></a>
 
-### HydrostaticPressure.AddImage(filePath: System.String)
+### HydrostaticPressure.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -323,7 +323,7 @@ Copies all visible properties from this object to another.
 
 <a id="HydrostaticPressure.CreateParameter"></a>
 
-### HydrostaticPressure.CreateParameter(propName: System.String)
+### HydrostaticPressure.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -347,7 +347,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="HydrostaticPressure.GetActivateAtLoadStep"></a>
 
-### HydrostaticPressure.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### HydrostaticPressure.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -355,7 +355,7 @@ GetActivateAtLoadStep method.
 
 <a id="HydrostaticPressure.GetChildren"></a>
 
-### HydrostaticPressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### HydrostaticPressure.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -363,7 +363,7 @@ Gets the list of children, filtered by type.
 
 <a id="HydrostaticPressure.GetComponentActivateAtLoadStep"></a>
 
-### HydrostaticPressure.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### HydrostaticPressure.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -371,7 +371,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="HydrostaticPressure.GetParameter"></a>
 
-### HydrostaticPressure.GetParameter(propName: System.String)
+### HydrostaticPressure.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -403,7 +403,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="HydrostaticPressure.PropertyByAPIName"></a>
 
-### HydrostaticPressure.PropertyByAPIName(name: System.String)
+### HydrostaticPressure.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -414,7 +414,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="HydrostaticPressure.PropertyByName"></a>
 
-### HydrostaticPressure.PropertyByName(name: System.String)
+### HydrostaticPressure.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -422,7 +422,7 @@ Get a property by its unique name.
 
 <a id="HydrostaticPressure.RemoveParameter"></a>
 
-### HydrostaticPressure.RemoveParameter(propName: System.String)
+### HydrostaticPressure.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -430,7 +430,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="HydrostaticPressure.SetActivateAtLoadStep"></a>
 
-### HydrostaticPressure.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### HydrostaticPressure.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -438,7 +438,7 @@ SetActivateAtLoadStep method.
 
 <a id="HydrostaticPressure.SetComponentActivateAtLoadStep"></a>
 
-### HydrostaticPressure.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### HydrostaticPressure.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

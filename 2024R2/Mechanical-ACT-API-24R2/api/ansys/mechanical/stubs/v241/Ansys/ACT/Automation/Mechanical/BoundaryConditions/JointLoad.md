@@ -17,7 +17,7 @@ Defines a JointLoad.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#JointLoad.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#JointLoad.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#JointLoad.AddComment)                           | Creates a new child Comment.                                                      |
@@ -41,7 +41,7 @@ Defines a JointLoad.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#JointLoad.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#JointLoad.Comments)                               | Gets the list of associated comments.                         |
 | [`CutoffFrequency`](#JointLoad.CutoffFrequency)                 | Gets or sets the CutoffFrequency.                             |
@@ -66,7 +66,7 @@ Defines a JointLoad.
 
 <a id="JointLoad.Children"></a>
 
-### *property* JointLoad.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -74,7 +74,7 @@ Gets the list of children.
 
 <a id="JointLoad.Comments"></a>
 
-### *property* JointLoad.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -82,7 +82,7 @@ Gets the list of associated comments.
 
 <a id="JointLoad.CutoffFrequency"></a>
 
-### *property* JointLoad.CutoffFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.CutoffFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutoffFrequency.
 
@@ -90,7 +90,7 @@ Gets or sets the CutoffFrequency.
 
 <a id="JointLoad.DOF"></a>
 
-### *property* JointLoad.DOF *: [Ansys.Mechanical.DataModel.Enums.KinematicDOF](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KinematicDOF.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KinematicDOF) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.DOF *: [Ansys.Mechanical.DataModel.Enums.KinematicDOF](../../../../Mechanical/DataModel/Enums/KinematicDOF.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KinematicDOF) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DOF.
 
@@ -98,7 +98,7 @@ Gets or sets the DOF.
 
 <a id="JointLoad.DataModelObjectCategory"></a>
 
-### *property* JointLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -106,7 +106,7 @@ Gets the current DataModelObject’s category.
 
 <a id="JointLoad.Figures"></a>
 
-### *property* JointLoad.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -114,7 +114,7 @@ Gets the list of associated figures.
 
 <a id="JointLoad.FittingMethod"></a>
 
-### *property* JointLoad.FittingMethod *: [Ansys.Mechanical.DataModel.Enums.FittingMethodType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FittingMethodType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FittingMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.FittingMethod *: [Ansys.Mechanical.DataModel.Enums.FittingMethodType](../../../../Mechanical/DataModel/Enums/FittingMethodType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FittingMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FittingMethod.
 
@@ -122,7 +122,7 @@ Gets or sets the FittingMethod.
 
 <a id="JointLoad.Images"></a>
 
-### *property* JointLoad.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -146,7 +146,7 @@ Gets or sets the Joint.
 
 <a id="JointLoad.JointConditionType"></a>
 
-### *property* JointLoad.JointConditionType *: [Ansys.Mechanical.DataModel.Enums.JointConditionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointConditionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointConditionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.JointConditionType *: [Ansys.Mechanical.DataModel.Enums.JointConditionType](../../../../Mechanical/DataModel/Enums/JointConditionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointConditionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the JointConditionType.
 
@@ -154,7 +154,7 @@ Gets or sets the JointConditionType.
 
 <a id="JointLoad.LockAtLoadStep"></a>
 
-### *property* JointLoad.LockAtLoadStep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.LockAtLoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LockAtLoadStep.
 
@@ -162,7 +162,7 @@ Gets or sets the LockAtLoadStep.
 
 <a id="JointLoad.Magnitude"></a>
 
-### *property* JointLoad.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -170,7 +170,7 @@ Gets the Magnitude.
 
 <a id="JointLoad.NumberOfSegments"></a>
 
-### *property* JointLoad.NumberOfSegments *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -178,7 +178,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="JointLoad.Properties"></a>
 
-### *property* JointLoad.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -186,7 +186,7 @@ Gets the list of properties for this object.
 
 <a id="JointLoad.Suppressed"></a>
 
-### *property* JointLoad.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -194,7 +194,7 @@ Gets or sets the Suppressed.
 
 <a id="JointLoad.VisibleProperties"></a>
 
-### *property* JointLoad.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* JointLoad.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -238,7 +238,7 @@ Creates a new child Figure.
 
 <a id="JointLoad.AddImage"></a>
 
-### JointLoad.AddImage(filePath: System.String)
+### JointLoad.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -258,7 +258,7 @@ Copies all visible properties from this object to another.
 
 <a id="JointLoad.CreateParameter"></a>
 
-### JointLoad.CreateParameter(propName: System.String)
+### JointLoad.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -282,7 +282,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="JointLoad.GetActivateAtLoadStep"></a>
 
-### JointLoad.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### JointLoad.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -290,7 +290,7 @@ GetActivateAtLoadStep method.
 
 <a id="JointLoad.GetChildren"></a>
 
-### JointLoad.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### JointLoad.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -298,7 +298,7 @@ Gets the list of children, filtered by type.
 
 <a id="JointLoad.GetParameter"></a>
 
-### JointLoad.GetParameter(propName: System.String)
+### JointLoad.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -322,7 +322,7 @@ Run the GroupSimilarObjects action.
 
 <a id="JointLoad.PropertyByAPIName"></a>
 
-### JointLoad.PropertyByAPIName(name: System.String)
+### JointLoad.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -333,7 +333,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="JointLoad.PropertyByName"></a>
 
-### JointLoad.PropertyByName(name: System.String)
+### JointLoad.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -341,7 +341,7 @@ Get a property by its unique name.
 
 <a id="JointLoad.RemoveParameter"></a>
 
-### JointLoad.RemoveParameter(propName: System.String)
+### JointLoad.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -357,7 +357,7 @@ Run the RenameBasedOnDefinition action.
 
 <a id="JointLoad.SetActivateAtLoadStep"></a>
 
-### JointLoad.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### JointLoad.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

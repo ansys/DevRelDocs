@@ -17,7 +17,7 @@ Specifies the DataTypeOptions.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------- |
 | [`ForceAndMoment`](#DataTypeOptions.ForceAndMoment) |
 | [`ForceOnly`](#DataTypeOptions.ForceOnly) |
 | [`MomentOnly`](#DataTypeOptions.MomentOnly) |

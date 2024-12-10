@@ -17,7 +17,7 @@ Defines a DirectionalThermalStrain.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DirectionalThermalStrain.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#DirectionalThermalStrain.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#DirectionalThermalStrain.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a DirectionalThermalStrain.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#DirectionalThermalStrain.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#DirectionalThermalStrain.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#DirectionalThermalStrain.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -113,7 +113,7 @@ Defines a DirectionalThermalStrain.
 | [`Substep`](#DirectionalThermalStrain.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#DirectionalThermalStrain.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#DirectionalThermalStrain.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#DirectionalThermalStrain.SurfaceCoating)                                                                                                                                                  | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#DirectionalThermalStrain.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#DirectionalThermalStrain.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#DirectionalThermalStrain.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#DirectionalThermalStrain.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -121,7 +121,7 @@ Defines a DirectionalThermalStrain.
 | [`TimeForMinimumOfMaximumValues`](#DirectionalThermalStrain.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#DirectionalThermalStrain.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#DirectionalThermalStrain.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#DirectionalThermalStrain.WaterfallShowTextOnMosaic)                                                                                                                            | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#DirectionalThermalStrain.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -129,7 +129,7 @@ Defines a DirectionalThermalStrain.
 
 <a id="DirectionalThermalStrain.Amplitude"></a>
 
-### *property* DirectionalThermalStrain.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -145,7 +145,7 @@ Gets the Average.
 
 <a id="DirectionalThermalStrain.AverageAcrossBodies"></a>
 
-### *property* DirectionalThermalStrain.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -161,7 +161,7 @@ Gets or sets the By.
 
 <a id="DirectionalThermalStrain.CalculateTimeHistory"></a>
 
-### *property* DirectionalThermalStrain.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -169,7 +169,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="DirectionalThermalStrain.Children"></a>
 
-### *property* DirectionalThermalStrain.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -177,7 +177,7 @@ Gets the list of children.
 
 <a id="DirectionalThermalStrain.CombinationNumber"></a>
 
-### *property* DirectionalThermalStrain.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -185,7 +185,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DirectionalThermalStrain.Comments"></a>
 
-### *property* DirectionalThermalStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -193,7 +193,7 @@ Gets the list of associated comments.
 
 <a id="DirectionalThermalStrain.CoordinateSystem"></a>
 
-### *property* DirectionalThermalStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -203,7 +203,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DirectionalThermalStrain.CrackFrontNumber"></a>
 
-### *property* DirectionalThermalStrain.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -211,7 +211,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="DirectionalThermalStrain.CyclicMode"></a>
 
-### *property* DirectionalThermalStrain.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -251,7 +251,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="DirectionalThermalStrain.EnvironmentSelection"></a>
 
-### *property* DirectionalThermalStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -259,7 +259,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="DirectionalThermalStrain.Figures"></a>
 
-### *property* DirectionalThermalStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -275,7 +275,7 @@ Gets or sets the Frequency.
 
 <a id="DirectionalThermalStrain.GlobalIDs"></a>
 
-### *property* DirectionalThermalStrain.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -291,7 +291,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="DirectionalThermalStrain.HarmonicIndex"></a>
 
-### *property* DirectionalThermalStrain.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -299,7 +299,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="DirectionalThermalStrain.Identifier"></a>
 
-### *property* DirectionalThermalStrain.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -307,7 +307,7 @@ Gets or sets the Identifier.
 
 <a id="DirectionalThermalStrain.Images"></a>
 
-### *property* DirectionalThermalStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -323,7 +323,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DirectionalThermalStrain.IsSolved"></a>
 
-### *property* DirectionalThermalStrain.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -339,7 +339,7 @@ Gets or sets the ItemType.
 
 <a id="DirectionalThermalStrain.IterationNumber"></a>
 
-### *property* DirectionalThermalStrain.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -347,7 +347,7 @@ Gets the IterationNumber.
 
 <a id="DirectionalThermalStrain.IterationStep"></a>
 
-### *property* DirectionalThermalStrain.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -355,7 +355,7 @@ Gets or sets the IterationStep.
 
 <a id="DirectionalThermalStrain.LoadMultiplier"></a>
 
-### *property* DirectionalThermalStrain.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -363,7 +363,7 @@ Gets the LoadMultiplier.
 
 <a id="DirectionalThermalStrain.LoadStep"></a>
 
-### *property* DirectionalThermalStrain.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -371,7 +371,7 @@ Gets the LoadStep.
 
 <a id="DirectionalThermalStrain.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* DirectionalThermalStrain.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -379,7 +379,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="DirectionalThermalStrain.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* DirectionalThermalStrain.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -387,7 +387,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="DirectionalThermalStrain.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* DirectionalThermalStrain.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -395,7 +395,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="DirectionalThermalStrain.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* DirectionalThermalStrain.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -403,7 +403,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="DirectionalThermalStrain.LoadStepNumber"></a>
 
-### *property* DirectionalThermalStrain.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -427,7 +427,7 @@ Gets the Maximum.
 
 <a id="DirectionalThermalStrain.MaximumOccursOn"></a>
 
-### *property* DirectionalThermalStrain.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -459,7 +459,7 @@ Gets the Minimum.
 
 <a id="DirectionalThermalStrain.MinimumOccursOn"></a>
 
-### *property* DirectionalThermalStrain.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -483,7 +483,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="DirectionalThermalStrain.Mode"></a>
 
-### *property* DirectionalThermalStrain.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -491,7 +491,7 @@ Gets or sets the Mode.
 
 <a id="DirectionalThermalStrain.NamedSelections"></a>
 
-### *property* DirectionalThermalStrain.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -523,7 +523,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="DirectionalThermalStrain.Plies"></a>
 
-### *property* DirectionalThermalStrain.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -539,7 +539,7 @@ Gets the result table.
 
 <a id="DirectionalThermalStrain.Ply"></a>
 
-### *property* DirectionalThermalStrain.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -555,7 +555,7 @@ Gets or sets the Position.
 
 <a id="DirectionalThermalStrain.Properties"></a>
 
-### *property* DirectionalThermalStrain.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -579,7 +579,7 @@ Gets or sets the ScopingMethod.
 
 <a id="DirectionalThermalStrain.SetNumber"></a>
 
-### *property* DirectionalThermalStrain.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -595,7 +595,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DirectionalThermalStrain.SolverComponentIDs"></a>
 
-### *property* DirectionalThermalStrain.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -619,7 +619,7 @@ Gets or sets the SubScopeBy.
 
 <a id="DirectionalThermalStrain.Substep"></a>
 
-### *property* DirectionalThermalStrain.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -627,7 +627,7 @@ Gets the Substep.
 
 <a id="DirectionalThermalStrain.Suppressed"></a>
 
-### *property* DirectionalThermalStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -699,7 +699,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="DirectionalThermalStrain.VisibleProperties"></a>
 
-### *property* DirectionalThermalStrain.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -707,7 +707,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DirectionalThermalStrain.WaterfallShowTextOnMosaic"></a>
 
-### *property* DirectionalThermalStrain.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalThermalStrain.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -759,7 +759,7 @@ Creates a new child Figure.
 
 <a id="DirectionalThermalStrain.AddImage"></a>
 
-### DirectionalThermalStrain.AddImage(filePath: System.String)
+### DirectionalThermalStrain.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -787,7 +787,7 @@ Copies all visible properties from this object to another.
 
 <a id="DirectionalThermalStrain.CreateParameter"></a>
 
-### DirectionalThermalStrain.CreateParameter(propName: System.String)
+### DirectionalThermalStrain.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -835,7 +835,7 @@ Run the EvaluateAllResults action.
 
 <a id="DirectionalThermalStrain.ExportAnimation"></a>
 
-### DirectionalThermalStrain.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DirectionalThermalStrain.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -843,7 +843,7 @@ Run the ExportAnimation action.
 
 <a id="DirectionalThermalStrain.ExportToTextFile"></a>
 
-### DirectionalThermalStrain.ExportToTextFile(filePath: System.String)
+### DirectionalThermalStrain.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -859,7 +859,7 @@ Run the FetchRemoteResult action.
 
 <a id="DirectionalThermalStrain.GetChildren"></a>
 
-### DirectionalThermalStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DirectionalThermalStrain.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -867,7 +867,7 @@ Gets the list of children, filtered by type.
 
 <a id="DirectionalThermalStrain.GetParameter"></a>
 
-### DirectionalThermalStrain.GetParameter(propName: System.String)
+### DirectionalThermalStrain.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -899,7 +899,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="DirectionalThermalStrain.PropertyByAPIName"></a>
 
-### DirectionalThermalStrain.PropertyByAPIName(name: System.String)
+### DirectionalThermalStrain.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -910,7 +910,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DirectionalThermalStrain.PropertyByName"></a>
 
-### DirectionalThermalStrain.PropertyByName(name: System.String)
+### DirectionalThermalStrain.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -918,7 +918,7 @@ Get a property by its unique name.
 
 <a id="DirectionalThermalStrain.RemoveParameter"></a>
 
-### DirectionalThermalStrain.RemoveParameter(propName: System.String)
+### DirectionalThermalStrain.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Defines a CylindricalCrack.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CylindricalCrack.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#CylindricalCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#CylindricalCrack.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a CylindricalCrack.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`BottomFaceNodes`](#CylindricalCrack.BottomFaceNodes)                       | Gets or sets the BottomFaceNodes.                             |
 | [`Children`](#CylindricalCrack.Children)                                     | Gets the list of children.                                    |
 | [`CircumferentialDivisions`](#CylindricalCrack.CircumferentialDivisions)     | Gets or sets the CircumferentialDivisions.                    |
@@ -84,7 +84,7 @@ Defines a CylindricalCrack.
 
 <a id="CylindricalCrack.BottomFaceNodes"></a>
 
-### *property* CylindricalCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.BottomFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomFaceNodes.
 
@@ -92,7 +92,7 @@ Gets or sets the BottomFaceNodes.
 
 <a id="CylindricalCrack.Children"></a>
 
-### *property* CylindricalCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -100,7 +100,7 @@ Gets the list of children.
 
 <a id="CylindricalCrack.CircumferentialDivisions"></a>
 
-### *property* CylindricalCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.CircumferentialDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CircumferentialDivisions.
 
@@ -108,7 +108,7 @@ Gets or sets the CircumferentialDivisions.
 
 <a id="CylindricalCrack.Comments"></a>
 
-### *property* CylindricalCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -116,7 +116,7 @@ Gets the list of associated comments.
 
 <a id="CylindricalCrack.Contact1Nodes"></a>
 
-### *property* CylindricalCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.Contact1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Contact1Nodes.
 
@@ -124,7 +124,7 @@ Gets or sets the Contact1Nodes.
 
 <a id="CylindricalCrack.ContactPairsNodes"></a>
 
-### *property* CylindricalCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.ContactPairsNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactPairsNodes.
 
@@ -140,7 +140,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="CylindricalCrack.CrackFacesNodes"></a>
 
-### *property* CylindricalCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.CrackFacesNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFacesNodes.
 
@@ -148,7 +148,7 @@ Gets or sets the CrackFacesNodes.
 
 <a id="CylindricalCrack.CrackFrontDivisions"></a>
 
-### *property* CylindricalCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.CrackFrontDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontDivisions.
 
@@ -156,7 +156,7 @@ Gets or sets the CrackFrontDivisions.
 
 <a id="CylindricalCrack.CrackFrontNodes"></a>
 
-### *property* CylindricalCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.CrackFrontNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNodes.
 
@@ -164,7 +164,7 @@ Gets or sets the CrackFrontNodes.
 
 <a id="CylindricalCrack.CrackID"></a>
 
-### *property* CylindricalCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.CrackID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackID.
 
@@ -172,7 +172,7 @@ Gets the CrackID.
 
 <a id="CylindricalCrack.CrackMeshMethod"></a>
 
-### *property* CylindricalCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackMeshMethod.
 
@@ -180,7 +180,7 @@ Gets or sets the CrackMeshMethod.
 
 <a id="CylindricalCrack.CrackShape"></a>
 
-### *property* CylindricalCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackShape.
 
@@ -188,7 +188,7 @@ Gets the CrackShape.
 
 <a id="CylindricalCrack.CrackSourceType"></a>
 
-### *property* CylindricalCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackSourceType.
 
@@ -196,7 +196,7 @@ Gets the CrackSourceType.
 
 <a id="CylindricalCrack.DataModelObjectCategory"></a>
 
-### *property* CylindricalCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -204,7 +204,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CylindricalCrack.Figures"></a>
 
-### *property* CylindricalCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -212,7 +212,7 @@ Gets the list of associated figures.
 
 <a id="CylindricalCrack.FractureAffectedZone"></a>
 
-### *property* CylindricalCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FractureAffectedZone.
 
@@ -236,7 +236,7 @@ Gets or sets the FrontElementSize.
 
 <a id="CylindricalCrack.GrowthRate"></a>
 
-### *property* CylindricalCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -252,7 +252,7 @@ Gets or sets the Height.
 
 <a id="CylindricalCrack.Images"></a>
 
-### *property* CylindricalCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -292,7 +292,7 @@ Gets or sets the MajorRadius.
 
 <a id="CylindricalCrack.MeshContours"></a>
 
-### *property* CylindricalCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.MeshContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshContours.
 
@@ -308,7 +308,7 @@ Gets or sets the MinorRadius.
 
 <a id="CylindricalCrack.Properties"></a>
 
-### *property* CylindricalCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -316,7 +316,7 @@ Gets the list of properties for this object.
 
 <a id="CylindricalCrack.ReadOnly"></a>
 
-### *property* CylindricalCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -324,7 +324,7 @@ Gets or sets the ReadOnly.
 
 <a id="CylindricalCrack.SolutionContours"></a>
 
-### *property* CylindricalCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.SolutionContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionContours.
 
@@ -332,7 +332,7 @@ Gets or sets the SolutionContours.
 
 <a id="CylindricalCrack.Suppressed"></a>
 
-### *property* CylindricalCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -340,7 +340,7 @@ Gets or sets the Suppressed.
 
 <a id="CylindricalCrack.Target1Nodes"></a>
 
-### *property* CylindricalCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.Target1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Target1Nodes.
 
@@ -348,7 +348,7 @@ Gets or sets the Target1Nodes.
 
 <a id="CylindricalCrack.TopFaceNodes"></a>
 
-### *property* CylindricalCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.TopFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopFaceNodes.
 
@@ -356,7 +356,7 @@ Gets or sets the TopFaceNodes.
 
 <a id="CylindricalCrack.VisibleProperties"></a>
 
-### *property* CylindricalCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -364,7 +364,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="CylindricalCrack.XScaleFactor"></a>
 
-### *property* CylindricalCrack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.XScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XScaleFactor.
 
@@ -372,7 +372,7 @@ Gets or sets the XScaleFactor.
 
 <a id="CylindricalCrack.YScaleFactor"></a>
 
-### *property* CylindricalCrack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.YScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YScaleFactor.
 
@@ -380,7 +380,7 @@ Gets or sets the YScaleFactor.
 
 <a id="CylindricalCrack.ZScaleFactor"></a>
 
-### *property* CylindricalCrack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalCrack.ZScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZScaleFactor.
 
@@ -424,7 +424,7 @@ Creates a new child Figure.
 
 <a id="CylindricalCrack.AddImage"></a>
 
-### CylindricalCrack.AddImage(filePath: System.String)
+### CylindricalCrack.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -444,7 +444,7 @@ Copies all visible properties from this object to another.
 
 <a id="CylindricalCrack.CreateParameter"></a>
 
-### CylindricalCrack.CreateParameter(propName: System.String)
+### CylindricalCrack.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -468,7 +468,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CylindricalCrack.GetChildren"></a>
 
-### CylindricalCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CylindricalCrack.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -476,7 +476,7 @@ Gets the list of children, filtered by type.
 
 <a id="CylindricalCrack.GetParameter"></a>
 
-### CylindricalCrack.GetParameter(propName: System.String)
+### CylindricalCrack.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -500,7 +500,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CylindricalCrack.PropertyByAPIName"></a>
 
-### CylindricalCrack.PropertyByAPIName(name: System.String)
+### CylindricalCrack.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -511,7 +511,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CylindricalCrack.PropertyByName"></a>
 
-### CylindricalCrack.PropertyByName(name: System.String)
+### CylindricalCrack.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -519,7 +519,7 @@ Get a property by its unique name.
 
 <a id="CylindricalCrack.RemoveParameter"></a>
 
-### CylindricalCrack.RemoveParameter(propName: System.String)
+### CylindricalCrack.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the BoundaryConditionSelection.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------- |
 | [`AllFixedSupports`](#BoundaryConditionSelectionType.AllFixedSupports) |
 | [`None_`](#BoundaryConditionSelectionType.None_) |
 

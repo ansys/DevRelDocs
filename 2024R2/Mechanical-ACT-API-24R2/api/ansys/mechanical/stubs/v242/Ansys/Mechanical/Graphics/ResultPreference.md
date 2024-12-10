@@ -17,7 +17,7 @@ ResultPreference class.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | [`CappingType`](#ResultPreference.CappingType)                               | Sets the result capping type.                                           |
 | [`ContourView`](#ResultPreference.ContourView)                               | Sets the result contour view.                                           |
 | [`DeformationScaleMultiplier`](#ResultPreference.DeformationScaleMultiplier) | Sets the deformation scale multiplier.                                  |
@@ -51,7 +51,7 @@ Sets the result contour view.
 
 <a id="ResultPreference.DeformationScaleMultiplier"></a>
 
-### *property* ResultPreference.DeformationScaleMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultPreference.DeformationScaleMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the deformation scale multiplier.
 
@@ -99,7 +99,7 @@ Sets the result scoping display.
 
 <a id="ResultPreference.ShowMaximum"></a>
 
-### *property* ResultPreference.ShowMaximum *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultPreference.ShowMaximum *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the result maximum value annotation label.
 
@@ -107,7 +107,7 @@ Displays the result maximum value annotation label.
 
 <a id="ResultPreference.ShowMinimum"></a>
 
-### *property* ResultPreference.ShowMinimum *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultPreference.ShowMinimum *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the result minimum value annotation label.
 

@@ -17,7 +17,7 @@ Specifies the LowReducedFrequencyModelType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`CircularTube`](#LowReducedFrequencyModelType.CircularTube) |
 | [`RectangularTube`](#LowReducedFrequencyModelType.RectangularTube) |
 | [`ThinLayer`](#LowReducedFrequencyModelType.ThinLayer) |

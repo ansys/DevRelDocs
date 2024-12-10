@@ -17,7 +17,7 @@ Specifies the ContactPenetrationToleranceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------------- |
 | [`Factor`](#ContactPenetrationToleranceType.Factor) |
 | [`ProgramControlled`](#ContactPenetrationToleranceType.ProgramControlled) |
 | [`Value`](#ContactPenetrationToleranceType.Value) |

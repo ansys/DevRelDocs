@@ -18,7 +18,7 @@ a material which already exists in Mechanical.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------- |
 | [`New`](#ExistingMaterialOperation.New) |
 | [`Replace`](#ExistingMaterialOperation.Replace) |
 

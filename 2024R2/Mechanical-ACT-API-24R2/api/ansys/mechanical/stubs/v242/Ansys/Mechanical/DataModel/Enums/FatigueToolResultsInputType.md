@@ -17,7 +17,7 @@ Specifies the FatigueToolResultsInputType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- |
 | [`Strain`](#FatigueToolResultsInputType.Strain) |
 | [`Stress`](#FatigueToolResultsInputType.Stress) |
 

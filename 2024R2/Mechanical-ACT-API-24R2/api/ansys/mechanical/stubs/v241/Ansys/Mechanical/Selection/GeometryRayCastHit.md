@@ -35,7 +35,7 @@ Geometry entity hit by ray cast
 
 <a id="GeometryRayCastHit.HitVector"></a>
 
-### *property* GeometryRayCastHit.HitVector *: [Ansys.Mechanical.Math.BoundVector](../../../../v242/Ansys/Mechanical/Math/BoundVector.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Math.BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryRayCastHit.HitVector *: [Ansys.Mechanical.Math.BoundVector](../Math/BoundVector.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Math.BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 BoundVector with location and normal direction on geometry entity to ray cast
 

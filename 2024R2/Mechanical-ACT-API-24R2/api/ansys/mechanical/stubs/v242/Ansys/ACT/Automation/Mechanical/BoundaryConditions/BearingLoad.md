@@ -69,7 +69,7 @@ Defines a BearingLoad.
 
 <a id="BearingLoad.Children"></a>
 
-### *property* BearingLoad.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -77,7 +77,7 @@ Gets the list of children.
 
 <a id="BearingLoad.Comments"></a>
 
-### *property* BearingLoad.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -85,7 +85,7 @@ Gets the list of associated comments.
 
 <a id="BearingLoad.CoordinateSystem"></a>
 
-### *property* BearingLoad.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -117,7 +117,7 @@ Gets or sets the Direction.
 
 <a id="BearingLoad.Figures"></a>
 
-### *property* BearingLoad.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -125,7 +125,7 @@ Gets the list of associated figures.
 
 <a id="BearingLoad.Images"></a>
 
-### *property* BearingLoad.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -157,7 +157,7 @@ Gets the Magnitude.
 
 <a id="BearingLoad.Properties"></a>
 
-### *property* BearingLoad.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -165,7 +165,7 @@ Gets the list of properties for this object.
 
 <a id="BearingLoad.ReadOnly"></a>
 
-### *property* BearingLoad.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -173,7 +173,7 @@ Gets or sets the ReadOnly.
 
 <a id="BearingLoad.SharedRefBody"></a>
 
-### *property* BearingLoad.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -181,7 +181,7 @@ Gets or sets the SharedRefBody.
 
 <a id="BearingLoad.Suppressed"></a>
 
-### *property* BearingLoad.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -189,7 +189,7 @@ Gets or sets the Suppressed.
 
 <a id="BearingLoad.VisibleProperties"></a>
 
-### *property* BearingLoad.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BearingLoad.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -249,7 +249,7 @@ Creates a new child Figure.
 
 <a id="BearingLoad.AddImage"></a>
 
-### BearingLoad.AddImage(filePath: System.String)
+### BearingLoad.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -269,7 +269,7 @@ Copies all visible properties from this object to another.
 
 <a id="BearingLoad.CreateParameter"></a>
 
-### BearingLoad.CreateParameter(propName: System.String)
+### BearingLoad.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -293,7 +293,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="BearingLoad.GetActivateAtLoadStep"></a>
 
-### BearingLoad.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### BearingLoad.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -301,7 +301,7 @@ GetActivateAtLoadStep method.
 
 <a id="BearingLoad.GetChildren"></a>
 
-### BearingLoad.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### BearingLoad.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -309,7 +309,7 @@ Gets the list of children, filtered by type.
 
 <a id="BearingLoad.GetComponentActivateAtLoadStep"></a>
 
-### BearingLoad.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### BearingLoad.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -317,7 +317,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="BearingLoad.GetParameter"></a>
 
-### BearingLoad.GetParameter(propName: System.String)
+### BearingLoad.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -349,7 +349,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="BearingLoad.PropertyByAPIName"></a>
 
-### BearingLoad.PropertyByAPIName(name: System.String)
+### BearingLoad.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -360,7 +360,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="BearingLoad.PropertyByName"></a>
 
-### BearingLoad.PropertyByName(name: System.String)
+### BearingLoad.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -368,7 +368,7 @@ Get a property by its unique name.
 
 <a id="BearingLoad.RemoveParameter"></a>
 
-### BearingLoad.RemoveParameter(propName: System.String)
+### BearingLoad.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -376,7 +376,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="BearingLoad.SetActivateAtLoadStep"></a>
 
-### BearingLoad.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### BearingLoad.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -384,7 +384,7 @@ SetActivateAtLoadStep method.
 
 <a id="BearingLoad.SetComponentActivateAtLoadStep"></a>
 
-### BearingLoad.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### BearingLoad.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

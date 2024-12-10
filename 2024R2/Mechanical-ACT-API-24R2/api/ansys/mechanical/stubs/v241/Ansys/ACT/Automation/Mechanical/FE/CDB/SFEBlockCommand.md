@@ -17,7 +17,7 @@ Represents a SFEBLOCK command.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+|-------------------------------------------------------------------------|---------------------------------------------|
 | [`ElementSurfaceLoadCount`](#SFEBlockCommand.ElementSurfaceLoadCount)   | Gets the number of element surface loads.   |
 | [`ElementSurfaceLoads`](#SFEBlockCommand.ElementSurfaceLoads)           | Get the element surface loads.              |
 | [`Index`](#SFEBlockCommand.Index)                                       | Gets the command index.                     |
@@ -30,7 +30,7 @@ Represents a SFEBLOCK command.
 
 <a id="SFEBlockCommand.ElementSurfaceLoadCount"></a>
 
-### *property* SFEBlockCommand.ElementSurfaceLoadCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFEBlockCommand.ElementSurfaceLoadCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of element surface loads.
 
@@ -38,7 +38,7 @@ Gets the number of element surface loads.
 
 <a id="SFEBlockCommand.ElementSurfaceLoads"></a>
 
-### *property* SFEBlockCommand.ElementSurfaceLoads *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoad](CommandElementSurfaceLoad.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoad)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFEBlockCommand.ElementSurfaceLoads *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoad](CommandElementSurfaceLoad.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoad)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the element surface loads.
 
@@ -46,7 +46,7 @@ Get the element surface loads.
 
 <a id="SFEBlockCommand.Index"></a>
 
-### *property* SFEBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFEBlockCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -54,7 +54,7 @@ Gets the command index.
 
 <a id="SFEBlockCommand.Lab"></a>
 
-### *property* SFEBlockCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFEBlockCommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the surface load label.
 
@@ -62,7 +62,7 @@ Gets the surface load label.
 
 <a id="SFEBlockCommand.Name"></a>
 
-### *property* SFEBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFEBlockCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 

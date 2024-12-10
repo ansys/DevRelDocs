@@ -17,7 +17,7 @@ Defines the various ways to define the values of a variable.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------- |
 | [`Discrete`](#VariableDefinitionType.Discrete) |
 | [`Formula`](#VariableDefinitionType.Formula) |
 | [`Free`](#VariableDefinitionType.Free) |

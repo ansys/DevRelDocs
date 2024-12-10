@@ -17,7 +17,7 @@ Defines a ContactMinimumGeometricSlidingDistanceTracker.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ContactMinimumGeometricSlidingDistanceTracker.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ContactMinimumGeometricSlidingDistanceTracker.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#ContactMinimumGeometricSlidingDistanceTracker.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a ContactMinimumGeometricSlidingDistanceTracker.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#ContactMinimumGeometricSlidingDistanceTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#ContactMinimumGeometricSlidingDistanceTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
 | [`ChartDimensions`](#ContactMinimumGeometricSlidingDistanceTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
@@ -106,7 +106,7 @@ Gets or sets the AccelerationType.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.BoundaryCondition"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -130,7 +130,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.Children"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -138,7 +138,7 @@ Gets the list of children.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.Comments"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -146,7 +146,7 @@ Gets the list of associated comments.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.ContactRegion"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
@@ -162,7 +162,7 @@ Gets or sets the ContactSide.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.CoordinateSystem"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -178,7 +178,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.CutFrequency"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -218,7 +218,7 @@ Gets or sets the Duration.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.EnhancedTracking"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -258,7 +258,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.GeometrySelectionString"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -266,7 +266,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.Images"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -290,7 +290,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.IsSolved"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -298,7 +298,7 @@ Gets the IsSolved.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.LoadStepNumber"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -370,7 +370,7 @@ Gets the PhaseAngle.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.Properties"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -410,7 +410,7 @@ Gets the ResultChartType.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.SectorNumber"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -434,7 +434,7 @@ Gets or sets the SpatialResolution.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.Spring"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -450,7 +450,7 @@ Gets or sets the StressStrainType.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.Suppressed"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -466,7 +466,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.UseParentFrequencyRange"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -482,7 +482,7 @@ Gets or sets the VelocityType.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.VisibleProperties"></a>
 
-### *property* ContactMinimumGeometricSlidingDistanceTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactMinimumGeometricSlidingDistanceTracker.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -518,7 +518,7 @@ Creates a new child Comment.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.AddImage"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.AddImage(filePath: System.String)
+### ContactMinimumGeometricSlidingDistanceTracker.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -546,7 +546,7 @@ Copies all visible properties from this object to another.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.CreateParameter"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.CreateParameter(propName: System.String)
+### ContactMinimumGeometricSlidingDistanceTracker.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -578,7 +578,7 @@ Run the EvaluateAllResults action.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.ExportAnimation"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ContactMinimumGeometricSlidingDistanceTracker.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -586,7 +586,7 @@ Run the ExportAnimation action.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.GetChildren"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ContactMinimumGeometricSlidingDistanceTracker.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -594,7 +594,7 @@ Gets the list of children, filtered by type.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.GetParameter"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.GetParameter(propName: System.String)
+### ContactMinimumGeometricSlidingDistanceTracker.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -618,7 +618,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.PropertyByAPIName"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.PropertyByAPIName(name: System.String)
+### ContactMinimumGeometricSlidingDistanceTracker.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -629,7 +629,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.PropertyByName"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.PropertyByName(name: System.String)
+### ContactMinimumGeometricSlidingDistanceTracker.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -637,7 +637,7 @@ Get a property by its unique name.
 
 <a id="ContactMinimumGeometricSlidingDistanceTracker.RemoveParameter"></a>
 
-### ContactMinimumGeometricSlidingDistanceTracker.RemoveParameter(propName: System.String)
+### ContactMinimumGeometricSlidingDistanceTracker.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

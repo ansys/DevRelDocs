@@ -81,7 +81,7 @@ Defines a PhysicsRegion.
 
 <a id="PhysicsRegion.Acoustics"></a>
 
-### *property* PhysicsRegion.Acoustics *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Acoustics *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Acoustics.
 
@@ -89,7 +89,7 @@ Gets or sets the Acoustics.
 
 <a id="PhysicsRegion.ArtificiallyMatchedLayers"></a>
 
-### *property* PhysicsRegion.ArtificiallyMatchedLayers *: [Ansys.Mechanical.DataModel.Enums.ArtificiallyMatchedLayers](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ArtificiallyMatchedLayers.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ArtificiallyMatchedLayers) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ArtificiallyMatchedLayers *: [Ansys.Mechanical.DataModel.Enums.ArtificiallyMatchedLayers](../../../Mechanical/DataModel/Enums/ArtificiallyMatchedLayers.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ArtificiallyMatchedLayers) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ArtificiallyMatchedLayers.
 
@@ -97,7 +97,7 @@ Gets or sets the ArtificiallyMatchedLayers.
 
 <a id="PhysicsRegion.Children"></a>
 
-### *property* PhysicsRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -105,7 +105,7 @@ Gets the list of children.
 
 <a id="PhysicsRegion.Comments"></a>
 
-### *property* PhysicsRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -113,7 +113,7 @@ Gets the list of associated comments.
 
 <a id="PhysicsRegion.DataModelObjectCategory"></a>
 
-### *property* PhysicsRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -121,7 +121,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PhysicsRegion.Electric"></a>
 
-### *property* PhysicsRegion.Electric *: [Ansys.Mechanical.DataModel.Enums.ElectricType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElectricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElectricType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Electric *: [Ansys.Mechanical.DataModel.Enums.ElectricType](../../../Mechanical/DataModel/Enums/ElectricType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElectricType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Electric.
 
@@ -129,7 +129,7 @@ Gets or sets the Electric.
 
 <a id="PhysicsRegion.ElectrostaticForce"></a>
 
-### *property* PhysicsRegion.ElectrostaticForce *: [Ansys.Mechanical.DataModel.Enums.ElectrostaticForce](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElectrostaticForce.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElectrostaticForce) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ElectrostaticForce *: [Ansys.Mechanical.DataModel.Enums.ElectrostaticForce](../../../Mechanical/DataModel/Enums/ElectrostaticForce.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElectrostaticForce) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElectrostaticForce.
 
@@ -137,7 +137,7 @@ Gets or sets the ElectrostaticForce.
 
 <a id="PhysicsRegion.ElementMorphing"></a>
 
-### *property* PhysicsRegion.ElementMorphing *: [Ansys.Mechanical.DataModel.Enums.ElementMorphingType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementMorphingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementMorphingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ElementMorphing *: [Ansys.Mechanical.DataModel.Enums.ElementMorphingType](../../../Mechanical/DataModel/Enums/ElementMorphingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementMorphingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementMorphing.
 
@@ -145,7 +145,7 @@ Gets or sets the ElementMorphing.
 
 <a id="PhysicsRegion.EvanescentWaveAttenuation"></a>
 
-### *property* PhysicsRegion.EvanescentWaveAttenuation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.EvanescentWaveAttenuation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EvanescentWaveAttenuation.
 
@@ -153,7 +153,7 @@ Gets or sets the EvanescentWaveAttenuation.
 
 <a id="PhysicsRegion.Figures"></a>
 
-### *property* PhysicsRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -161,7 +161,7 @@ Gets the list of associated figures.
 
 <a id="PhysicsRegion.FluidBehavior"></a>
 
-### *property* PhysicsRegion.FluidBehavior *: [Ansys.Mechanical.DataModel.Enums.FluidBehavior](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FluidBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FluidBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.FluidBehavior *: [Ansys.Mechanical.DataModel.Enums.FluidBehavior](../../../Mechanical/DataModel/Enums/FluidBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FluidBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FluidBehavior.
 
@@ -169,7 +169,7 @@ Gets or sets the FluidBehavior.
 
 <a id="PhysicsRegion.Images"></a>
 
-### *property* PhysicsRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -201,7 +201,7 @@ Gets or sets the PMLElementCoordinateSystem.
 
 <a id="PhysicsRegion.PMLOptions"></a>
 
-### *property* PhysicsRegion.PMLOptions *: [Ansys.Mechanical.DataModel.Enums.PMLOptions](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PMLOptions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PMLOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.PMLOptions *: [Ansys.Mechanical.DataModel.Enums.PMLOptions](../../../Mechanical/DataModel/Enums/PMLOptions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PMLOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PMLOptions.
 
@@ -209,7 +209,7 @@ Gets or sets the PMLOptions.
 
 <a id="PhysicsRegion.Piezoelectric"></a>
 
-### *property* PhysicsRegion.Piezoelectric *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Piezoelectric *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Piezoelectric.
 
@@ -217,7 +217,7 @@ Gets the Piezoelectric.
 
 <a id="PhysicsRegion.Properties"></a>
 
-### *property* PhysicsRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -241,7 +241,7 @@ Gets or sets the ReferenceStaticPressure.
 
 <a id="PhysicsRegion.ReflectionCoefficient"></a>
 
-### *property* PhysicsRegion.ReflectionCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ReflectionCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReflectionCoefficient.
 
@@ -249,7 +249,7 @@ Gets or sets the ReflectionCoefficient.
 
 <a id="PhysicsRegion.ReflectionCoefficientInNegativeXDirection"></a>
 
-### *property* PhysicsRegion.ReflectionCoefficientInNegativeXDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ReflectionCoefficientInNegativeXDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReflectionCoefficientInNegativeXDirection.
 
@@ -257,7 +257,7 @@ Gets or sets the ReflectionCoefficientInNegativeXDirection.
 
 <a id="PhysicsRegion.ReflectionCoefficientInNegativeYDirection"></a>
 
-### *property* PhysicsRegion.ReflectionCoefficientInNegativeYDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ReflectionCoefficientInNegativeYDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReflectionCoefficientInNegativeYDirection.
 
@@ -265,7 +265,7 @@ Gets or sets the ReflectionCoefficientInNegativeYDirection.
 
 <a id="PhysicsRegion.ReflectionCoefficientInNegativeZDirection"></a>
 
-### *property* PhysicsRegion.ReflectionCoefficientInNegativeZDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ReflectionCoefficientInNegativeZDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReflectionCoefficientInNegativeZDirection.
 
@@ -273,7 +273,7 @@ Gets or sets the ReflectionCoefficientInNegativeZDirection.
 
 <a id="PhysicsRegion.ReflectionCoefficientInPositiveXDirection"></a>
 
-### *property* PhysicsRegion.ReflectionCoefficientInPositiveXDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ReflectionCoefficientInPositiveXDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReflectionCoefficientInPositiveXDirection.
 
@@ -281,7 +281,7 @@ Gets or sets the ReflectionCoefficientInPositiveXDirection.
 
 <a id="PhysicsRegion.ReflectionCoefficientInPositiveYDirection"></a>
 
-### *property* PhysicsRegion.ReflectionCoefficientInPositiveYDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ReflectionCoefficientInPositiveYDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReflectionCoefficientInPositiveYDirection.
 
@@ -289,7 +289,7 @@ Gets or sets the ReflectionCoefficientInPositiveYDirection.
 
 <a id="PhysicsRegion.ReflectionCoefficientInPositiveZDirection"></a>
 
-### *property* PhysicsRegion.ReflectionCoefficientInPositiveZDirection *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ReflectionCoefficientInPositiveZDirection *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReflectionCoefficientInPositiveZDirection.
 
@@ -297,7 +297,7 @@ Gets or sets the ReflectionCoefficientInPositiveZDirection.
 
 <a id="PhysicsRegion.ReflectionCoefficientsType"></a>
 
-### *property* PhysicsRegion.ReflectionCoefficientsType *: [Ansys.Mechanical.DataModel.Enums.ReflectionCoefficientsType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReflectionCoefficientsType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ReflectionCoefficientsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ReflectionCoefficientsType *: [Ansys.Mechanical.DataModel.Enums.ReflectionCoefficientsType](../../../Mechanical/DataModel/Enums/ReflectionCoefficientsType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReflectionCoefficientsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReflectionCoefficientsType.
 
@@ -305,7 +305,7 @@ Gets or sets the ReflectionCoefficientsType.
 
 <a id="PhysicsRegion.Structural"></a>
 
-### *property* PhysicsRegion.Structural *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Structural *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Structural.
 
@@ -313,7 +313,7 @@ Gets or sets the Structural.
 
 <a id="PhysicsRegion.Suppressed"></a>
 
-### *property* PhysicsRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -321,7 +321,7 @@ Gets or sets the Suppressed.
 
 <a id="PhysicsRegion.Thermal"></a>
 
-### *property* PhysicsRegion.Thermal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.Thermal *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Thermal.
 
@@ -329,7 +329,7 @@ Gets or sets the Thermal.
 
 <a id="PhysicsRegion.ThermalStrain"></a>
 
-### *property* PhysicsRegion.ThermalStrain *: [Ansys.Mechanical.DataModel.Enums.ThermalStrainType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ThermalStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThermalStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ThermalStrain *: [Ansys.Mechanical.DataModel.Enums.ThermalStrainType](../../../Mechanical/DataModel/Enums/ThermalStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThermalStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrain.
 
@@ -337,7 +337,7 @@ Gets or sets the ThermalStrain.
 
 <a id="PhysicsRegion.ThermoelasticDamping"></a>
 
-### *property* PhysicsRegion.ThermoelasticDamping *: [Ansys.Mechanical.DataModel.Enums.ThermoelasticDampingType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ThermoelasticDampingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThermoelasticDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.ThermoelasticDamping *: [Ansys.Mechanical.DataModel.Enums.ThermoelasticDampingType](../../../Mechanical/DataModel/Enums/ThermoelasticDampingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThermoelasticDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermoelasticDamping.
 
@@ -345,7 +345,7 @@ Gets or sets the ThermoelasticDamping.
 
 <a id="PhysicsRegion.VisibleProperties"></a>
 
-### *property* PhysicsRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PhysicsRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -381,7 +381,7 @@ Creates a new child Figure.
 
 <a id="PhysicsRegion.AddImage"></a>
 
-### PhysicsRegion.AddImage(filePath: System.String)
+### PhysicsRegion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -401,7 +401,7 @@ Copies all visible properties from this object to another.
 
 <a id="PhysicsRegion.CreateParameter"></a>
 
-### PhysicsRegion.CreateParameter(propName: System.String)
+### PhysicsRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -425,7 +425,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PhysicsRegion.GetChildren"></a>
 
-### PhysicsRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PhysicsRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -433,7 +433,7 @@ Gets the list of children, filtered by type.
 
 <a id="PhysicsRegion.GetParameter"></a>
 
-### PhysicsRegion.GetParameter(propName: System.String)
+### PhysicsRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -457,7 +457,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PhysicsRegion.PropertyByAPIName"></a>
 
-### PhysicsRegion.PropertyByAPIName(name: System.String)
+### PhysicsRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -468,7 +468,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PhysicsRegion.PropertyByName"></a>
 
-### PhysicsRegion.PropertyByName(name: System.String)
+### PhysicsRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -476,7 +476,7 @@ Get a property by its unique name.
 
 <a id="PhysicsRegion.RemoveParameter"></a>
 
-### PhysicsRegion.RemoveParameter(propName: System.String)
+### PhysicsRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

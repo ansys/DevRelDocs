@@ -17,7 +17,7 @@ Represents the various types of Polynomial which combines with Kriging model.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------ |
 | [`PolyConst`](#KrigingPolynomType.PolyConst) |
 | [`PolyCrossQuad`](#KrigingPolynomType.PolyCrossQuad) |
 | [`PolyLinear`](#KrigingPolynomType.PolyLinear) |

@@ -17,7 +17,7 @@ Specifies the FrequencyReductionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------ |
 | [`Average`](#FrequencyReductionType.Average) |
 
 <a id="attribute-detail"></a>

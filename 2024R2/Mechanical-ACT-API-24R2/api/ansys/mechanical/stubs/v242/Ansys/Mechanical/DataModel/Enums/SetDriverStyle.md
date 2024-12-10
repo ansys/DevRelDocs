@@ -17,7 +17,7 @@ Specifies the SetDriverStyle.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`CyclicPhaseOfMaximum`](#SetDriverStyle.CyclicPhaseOfMaximum) |
 | [`MaximumOfCyclicPhase`](#SetDriverStyle.MaximumOfCyclicPhase) |
 | [`MaximumOverModes`](#SetDriverStyle.MaximumOverModes) |

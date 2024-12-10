@@ -17,7 +17,7 @@ Specifies the CondensedPartFileFormat.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------- |
 | [`ExportedCondensedPart_CPA`](#CondensedPartFileFormat.ExportedCondensedPart_CPA) |
 | [`GenerationPassOutput_SUB`](#CondensedPartFileFormat.GenerationPassOutput_SUB) |
 | [`SuperElement_MATRIX`](#CondensedPartFileFormat.SuperElement_MATRIX) |

@@ -17,7 +17,7 @@ Specifies the AutomaticOrManual.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------- |
 | [`Automatic`](#AutomaticOrManual.Automatic) |
 | [`Manual`](#AutomaticOrManual.Manual) |
 

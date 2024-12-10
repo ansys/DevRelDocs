@@ -17,7 +17,7 @@ Specifies the BoundaryConditionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------- |
 | [`AllLoads`](#BoundaryConditionType.AllLoads) |
 | [`AllLoadsAndSupports`](#BoundaryConditionType.AllLoadsAndSupports) |
 | [`AllSupports`](#BoundaryConditionType.AllSupports) |

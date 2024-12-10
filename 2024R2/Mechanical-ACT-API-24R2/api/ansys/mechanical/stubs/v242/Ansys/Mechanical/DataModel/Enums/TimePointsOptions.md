@@ -17,7 +17,7 @@ Specifies the TimePointsOptions.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`AllTimePoints`](#TimePointsOptions.AllTimePoints) |
 | [`EquallySpacedPoints`](#TimePointsOptions.EquallySpacedPoints) |
 | [`LastTimePoints`](#TimePointsOptions.LastTimePoints) |

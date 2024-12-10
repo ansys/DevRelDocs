@@ -17,7 +17,7 @@ Specifies the SpatialReductionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`AbsoluteMax`](#SpatialReductionType.AbsoluteMax) |
 | [`Average`](#SpatialReductionType.Average) |
 | [`StandardDeviation`](#SpatialReductionType.StandardDeviation) |

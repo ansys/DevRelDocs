@@ -17,7 +17,7 @@ Defines a NewtonRaphsonResidualMoment.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#NewtonRaphsonResidualMoment.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#NewtonRaphsonResidualMoment.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#NewtonRaphsonResidualMoment.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a NewtonRaphsonResidualMoment.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#NewtonRaphsonResidualMoment.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#NewtonRaphsonResidualMoment.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#NewtonRaphsonResidualMoment.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -96,14 +96,14 @@ Defines a NewtonRaphsonResidualMoment.
 | [`Substep`](#NewtonRaphsonResidualMoment.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#NewtonRaphsonResidualMoment.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#NewtonRaphsonResidualMoment.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#NewtonRaphsonResidualMoment.SurfaceCoating)                                                                                                                                    | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#NewtonRaphsonResidualMoment.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#NewtonRaphsonResidualMoment.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#NewtonRaphsonResidualMoment.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#NewtonRaphsonResidualMoment.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#NewtonRaphsonResidualMoment.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#NewtonRaphsonResidualMoment.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#NewtonRaphsonResidualMoment.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#NewtonRaphsonResidualMoment.WaterfallShowTextOnMosaic)                                                                                                              | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#NewtonRaphsonResidualMoment.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -127,7 +127,7 @@ Gets or sets the By.
 
 <a id="NewtonRaphsonResidualMoment.CalculateTimeHistory"></a>
 
-### *property* NewtonRaphsonResidualMoment.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -135,7 +135,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="NewtonRaphsonResidualMoment.Children"></a>
 
-### *property* NewtonRaphsonResidualMoment.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -143,7 +143,7 @@ Gets the list of children.
 
 <a id="NewtonRaphsonResidualMoment.CombinationNumber"></a>
 
-### *property* NewtonRaphsonResidualMoment.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -151,7 +151,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="NewtonRaphsonResidualMoment.Comments"></a>
 
-### *property* NewtonRaphsonResidualMoment.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -159,7 +159,7 @@ Gets the list of associated comments.
 
 <a id="NewtonRaphsonResidualMoment.CoordinateSystem"></a>
 
-### *property* NewtonRaphsonResidualMoment.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -169,7 +169,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="NewtonRaphsonResidualMoment.CrackFrontNumber"></a>
 
-### *property* NewtonRaphsonResidualMoment.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -209,7 +209,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="NewtonRaphsonResidualMoment.Figures"></a>
 
-### *property* NewtonRaphsonResidualMoment.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -217,7 +217,7 @@ Gets the list of associated figures.
 
 <a id="NewtonRaphsonResidualMoment.GlobalIDs"></a>
 
-### *property* NewtonRaphsonResidualMoment.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -233,7 +233,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="NewtonRaphsonResidualMoment.Identifier"></a>
 
-### *property* NewtonRaphsonResidualMoment.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -241,7 +241,7 @@ Gets or sets the Identifier.
 
 <a id="NewtonRaphsonResidualMoment.Images"></a>
 
-### *property* NewtonRaphsonResidualMoment.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -257,7 +257,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="NewtonRaphsonResidualMoment.IsSolved"></a>
 
-### *property* NewtonRaphsonResidualMoment.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -273,7 +273,7 @@ Gets or sets the ItemType.
 
 <a id="NewtonRaphsonResidualMoment.IterationNumber"></a>
 
-### *property* NewtonRaphsonResidualMoment.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -281,7 +281,7 @@ Gets the IterationNumber.
 
 <a id="NewtonRaphsonResidualMoment.LoadStep"></a>
 
-### *property* NewtonRaphsonResidualMoment.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -289,7 +289,7 @@ Gets the LoadStep.
 
 <a id="NewtonRaphsonResidualMoment.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* NewtonRaphsonResidualMoment.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -297,7 +297,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="NewtonRaphsonResidualMoment.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* NewtonRaphsonResidualMoment.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -305,7 +305,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="NewtonRaphsonResidualMoment.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* NewtonRaphsonResidualMoment.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -313,7 +313,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="NewtonRaphsonResidualMoment.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* NewtonRaphsonResidualMoment.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -321,7 +321,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="NewtonRaphsonResidualMoment.LoadStepNumber"></a>
 
-### *property* NewtonRaphsonResidualMoment.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -345,7 +345,7 @@ Gets the Maximum.
 
 <a id="NewtonRaphsonResidualMoment.MaximumOccursOn"></a>
 
-### *property* NewtonRaphsonResidualMoment.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -377,7 +377,7 @@ Gets the Minimum.
 
 <a id="NewtonRaphsonResidualMoment.MinimumOccursOn"></a>
 
-### *property* NewtonRaphsonResidualMoment.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -401,7 +401,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="NewtonRaphsonResidualMoment.NamedSelections"></a>
 
-### *property* NewtonRaphsonResidualMoment.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -425,7 +425,7 @@ Gets the result table.
 
 <a id="NewtonRaphsonResidualMoment.Properties"></a>
 
-### *property* NewtonRaphsonResidualMoment.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -441,7 +441,7 @@ Gets or sets the ScopingMethod.
 
 <a id="NewtonRaphsonResidualMoment.SetNumber"></a>
 
-### *property* NewtonRaphsonResidualMoment.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -457,7 +457,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="NewtonRaphsonResidualMoment.SolverComponentIDs"></a>
 
-### *property* NewtonRaphsonResidualMoment.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -465,7 +465,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="NewtonRaphsonResidualMoment.Substep"></a>
 
-### *property* NewtonRaphsonResidualMoment.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -473,7 +473,7 @@ Gets the Substep.
 
 <a id="NewtonRaphsonResidualMoment.Suppressed"></a>
 
-### *property* NewtonRaphsonResidualMoment.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -537,7 +537,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="NewtonRaphsonResidualMoment.VisibleProperties"></a>
 
-### *property* NewtonRaphsonResidualMoment.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -545,7 +545,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="NewtonRaphsonResidualMoment.WaterfallShowTextOnMosaic"></a>
 
-### *property* NewtonRaphsonResidualMoment.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NewtonRaphsonResidualMoment.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -597,7 +597,7 @@ Creates a new child Figure.
 
 <a id="NewtonRaphsonResidualMoment.AddImage"></a>
 
-### NewtonRaphsonResidualMoment.AddImage(filePath: System.String)
+### NewtonRaphsonResidualMoment.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -625,7 +625,7 @@ Copies all visible properties from this object to another.
 
 <a id="NewtonRaphsonResidualMoment.CreateParameter"></a>
 
-### NewtonRaphsonResidualMoment.CreateParameter(propName: System.String)
+### NewtonRaphsonResidualMoment.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -673,7 +673,7 @@ Run the EvaluateAllResults action.
 
 <a id="NewtonRaphsonResidualMoment.ExportAnimation"></a>
 
-### NewtonRaphsonResidualMoment.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### NewtonRaphsonResidualMoment.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -681,7 +681,7 @@ Run the ExportAnimation action.
 
 <a id="NewtonRaphsonResidualMoment.ExportToTextFile"></a>
 
-### NewtonRaphsonResidualMoment.ExportToTextFile(filePath: System.String)
+### NewtonRaphsonResidualMoment.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -697,7 +697,7 @@ Run the FetchRemoteResult action.
 
 <a id="NewtonRaphsonResidualMoment.GetChildren"></a>
 
-### NewtonRaphsonResidualMoment.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NewtonRaphsonResidualMoment.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -705,7 +705,7 @@ Gets the list of children, filtered by type.
 
 <a id="NewtonRaphsonResidualMoment.GetParameter"></a>
 
-### NewtonRaphsonResidualMoment.GetParameter(propName: System.String)
+### NewtonRaphsonResidualMoment.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -737,7 +737,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="NewtonRaphsonResidualMoment.PropertyByAPIName"></a>
 
-### NewtonRaphsonResidualMoment.PropertyByAPIName(name: System.String)
+### NewtonRaphsonResidualMoment.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -748,7 +748,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NewtonRaphsonResidualMoment.PropertyByName"></a>
 
-### NewtonRaphsonResidualMoment.PropertyByName(name: System.String)
+### NewtonRaphsonResidualMoment.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -756,7 +756,7 @@ Get a property by its unique name.
 
 <a id="NewtonRaphsonResidualMoment.RemoveParameter"></a>
 
-### NewtonRaphsonResidualMoment.RemoveParameter(propName: System.String)
+### NewtonRaphsonResidualMoment.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

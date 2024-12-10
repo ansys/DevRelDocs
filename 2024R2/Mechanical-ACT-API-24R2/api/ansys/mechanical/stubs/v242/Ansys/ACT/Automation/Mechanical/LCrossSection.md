@@ -69,7 +69,7 @@ Gets the Area.
 
 <a id="LCrossSection.Children"></a>
 
-### *property* LCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LCrossSection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -77,7 +77,7 @@ Gets the list of children.
 
 <a id="LCrossSection.Comments"></a>
 
-### *property* LCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LCrossSection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -93,7 +93,7 @@ Gets the current DataModelObject’s category.
 
 <a id="LCrossSection.Figures"></a>
 
-### *property* LCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LCrossSection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -117,7 +117,7 @@ Gets the IZZ.
 
 <a id="LCrossSection.Images"></a>
 
-### *property* LCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LCrossSection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -133,7 +133,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LCrossSection.Properties"></a>
 
-### *property* LCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LCrossSection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -141,7 +141,7 @@ Gets the list of properties for this object.
 
 <a id="LCrossSection.ReadOnly"></a>
 
-### *property* LCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LCrossSection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -165,7 +165,7 @@ Gets or sets the Thick2.
 
 <a id="LCrossSection.VisibleProperties"></a>
 
-### *property* LCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LCrossSection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -217,7 +217,7 @@ Creates a new child Figure.
 
 <a id="LCrossSection.AddImage"></a>
 
-### LCrossSection.AddImage(filePath: System.String)
+### LCrossSection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -237,7 +237,7 @@ Copies all visible properties from this object to another.
 
 <a id="LCrossSection.CreateParameter"></a>
 
-### LCrossSection.CreateParameter(propName: System.String)
+### LCrossSection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -261,7 +261,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="LCrossSection.GetChildren"></a>
 
-### LCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LCrossSection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -269,7 +269,7 @@ Gets the list of children, filtered by type.
 
 <a id="LCrossSection.GetParameter"></a>
 
-### LCrossSection.GetParameter(propName: System.String)
+### LCrossSection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -293,7 +293,7 @@ Run the GroupSimilarObjects action.
 
 <a id="LCrossSection.PropertyByAPIName"></a>
 
-### LCrossSection.PropertyByAPIName(name: System.String)
+### LCrossSection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -304,7 +304,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LCrossSection.PropertyByName"></a>
 
-### LCrossSection.PropertyByName(name: System.String)
+### LCrossSection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -312,7 +312,7 @@ Get a property by its unique name.
 
 <a id="LCrossSection.RemoveParameter"></a>
 
-### LCrossSection.RemoveParameter(propName: System.String)
+### LCrossSection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

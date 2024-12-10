@@ -17,7 +17,7 @@ Defines a Force.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Force.Activate)                                             | Activate the current object.                                                      |
 | [`AddComment`](#Force.AddComment)                                         | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Force.AddFigure)                                           | Creates a new child Figure.                                                       |
@@ -42,7 +42,7 @@ Defines a Force.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------|---------------------------------------------------------------|
 | [`AppliedBy`](#Force.AppliedBy)                                 | Gets or sets the AppliedBy.                                   |
 | [`Children`](#Force.Children)                                   | Gets the list of children.                                    |
 | [`Comments`](#Force.Comments)                                   | Gets the list of associated comments.                         |
@@ -93,7 +93,7 @@ Defines a Force.
 
 <a id="Force.AppliedBy"></a>
 
-### *property* Force.AppliedBy *: [Ansys.Mechanical.DataModel.Enums.LoadAppliedBy](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadAppliedBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadAppliedBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.AppliedBy *: [Ansys.Mechanical.DataModel.Enums.LoadAppliedBy](../../../../Mechanical/DataModel/Enums/LoadAppliedBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadAppliedBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AppliedBy.
 
@@ -101,7 +101,7 @@ Gets or sets the AppliedBy.
 
 <a id="Force.Children"></a>
 
-### *property* Force.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -109,7 +109,7 @@ Gets the list of children.
 
 <a id="Force.Comments"></a>
 
-### *property* Force.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -125,7 +125,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="Force.DataModelObjectCategory"></a>
 
-### *property* Force.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -133,7 +133,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Force.DefineBy"></a>
 
-### *property* Force.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -149,7 +149,7 @@ Gets or sets the Direction.
 
 <a id="Force.DivideLoadByNodes"></a>
 
-### *property* Force.DivideLoadByNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.DivideLoadByNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DivideLoadByNodes.
 
@@ -157,7 +157,7 @@ Gets or sets the DivideLoadByNodes.
 
 <a id="Force.DynamicRelaxationBehavior"></a>
 
-### *property* Force.DynamicRelaxationBehavior *: [Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DynamicRelaxationBehaviorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.DynamicRelaxationBehavior *: [Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType](../../../../Mechanical/DataModel/Enums/DynamicRelaxationBehaviorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DynamicRelaxationBehavior.
 
@@ -165,7 +165,7 @@ Gets or sets the DynamicRelaxationBehavior.
 
 <a id="Force.Figures"></a>
 
-### *property* Force.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -173,7 +173,7 @@ Gets the list of associated figures.
 
 <a id="Force.GraphControlsXAxis"></a>
 
-### *property* Force.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -181,7 +181,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="Force.HarmonicIndex"></a>
 
-### *property* Force.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -189,7 +189,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="Force.Images"></a>
 
-### *property* Force.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -197,7 +197,7 @@ Gets the list of associated images.
 
 <a id="Force.IndependentVariable"></a>
 
-### *property* Force.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -213,7 +213,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Force.LoadVectorAssignment"></a>
 
-### *property* Force.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVectorAssignment.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorAssignment.
 
@@ -221,7 +221,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="Force.LoadVectorNumber"></a>
 
-### *property* Force.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.LoadVectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorNumber.
 
@@ -237,7 +237,7 @@ Gets or sets the Location.
 
 <a id="Force.Magnitude"></a>
 
-### *property* Force.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -245,7 +245,7 @@ Gets the Magnitude.
 
 <a id="Force.MagnitudeImag"></a>
 
-### *property* Force.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MagnitudeImag.
 
@@ -253,7 +253,7 @@ Gets the MagnitudeImag.
 
 <a id="Force.NonCyclicLoadingType"></a>
 
-### *property* Force.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonCyclicLoadingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](../../../../Mechanical/DataModel/Enums/NonCyclicLoadingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonCyclicLoadingType.
 
@@ -261,7 +261,7 @@ Gets or sets the NonCyclicLoadingType.
 
 <a id="Force.NumberOfSegments"></a>
 
-### *property* Force.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -269,7 +269,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="Force.PhaseAngle"></a>
 
-### *property* Force.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PhaseAngle.
 
@@ -277,7 +277,7 @@ Gets the PhaseAngle.
 
 <a id="Force.Properties"></a>
 
-### *property* Force.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -301,7 +301,7 @@ Gets or sets the RangeMinimum.
 
 <a id="Force.ReadOnly"></a>
 
-### *property* Force.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -317,7 +317,7 @@ Gets or sets the RpmSelection.
 
 <a id="Force.SectorNumber"></a>
 
-### *property* Force.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -333,7 +333,7 @@ Gets or sets the SharedRefBody.
 
 <a id="Force.StepSelection"></a>
 
-### *property* Force.StepSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.StepSelection *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepSelection.
 
@@ -341,7 +341,7 @@ Gets or sets the StepSelection.
 
 <a id="Force.StepVarying"></a>
 
-### *property* Force.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StepVarying.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](../../../../Mechanical/DataModel/Enums/StepVarying.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepVarying.
 
@@ -349,7 +349,7 @@ Gets or sets the StepVarying.
 
 <a id="Force.Suppressed"></a>
 
-### *property* Force.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -357,7 +357,7 @@ Gets or sets the Suppressed.
 
 <a id="Force.VisibleProperties"></a>
 
-### *property* Force.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -365,7 +365,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Force.XComponent"></a>
 
-### *property* Force.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponent.
 
@@ -373,7 +373,7 @@ Gets the XComponent.
 
 <a id="Force.XComponentImag"></a>
 
-### *property* Force.XComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.XComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponentImag.
 
@@ -381,7 +381,7 @@ Gets the XComponentImag.
 
 <a id="Force.XPhaseAngle"></a>
 
-### *property* Force.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XPhaseAngle.
 
@@ -389,7 +389,7 @@ Gets the XPhaseAngle.
 
 <a id="Force.YComponent"></a>
 
-### *property* Force.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
@@ -397,7 +397,7 @@ Gets the YComponent.
 
 <a id="Force.YComponentImag"></a>
 
-### *property* Force.YComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.YComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YComponentImag.
 
@@ -405,7 +405,7 @@ Gets or sets the YComponentImag.
 
 <a id="Force.YPhaseAngle"></a>
 
-### *property* Force.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YPhaseAngle.
 
@@ -413,7 +413,7 @@ Gets the YPhaseAngle.
 
 <a id="Force.ZComponent"></a>
 
-### *property* Force.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponent.
 
@@ -421,7 +421,7 @@ Gets the ZComponent.
 
 <a id="Force.ZComponentImag"></a>
 
-### *property* Force.ZComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.ZComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZComponentImag.
 
@@ -429,7 +429,7 @@ Gets or sets the ZComponentImag.
 
 <a id="Force.ZPhaseAngle"></a>
 
-### *property* Force.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Force.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZPhaseAngle.
 
@@ -465,7 +465,7 @@ Creates a new child Figure.
 
 <a id="Force.AddImage"></a>
 
-### Force.AddImage(filePath: System.String)
+### Force.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -485,7 +485,7 @@ Copies all visible properties from this object to another.
 
 <a id="Force.CreateParameter"></a>
 
-### Force.CreateParameter(propName: System.String)
+### Force.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -509,7 +509,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Force.GetActivateAtLoadStep"></a>
 
-### Force.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### Force.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -517,7 +517,7 @@ GetActivateAtLoadStep method.
 
 <a id="Force.GetChildren"></a>
 
-### Force.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Force.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -525,7 +525,7 @@ Gets the list of children, filtered by type.
 
 <a id="Force.GetComponentActivateAtLoadStep"></a>
 
-### Force.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### Force.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -533,7 +533,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="Force.GetParameter"></a>
 
-### Force.GetParameter(propName: System.String)
+### Force.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -565,7 +565,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="Force.PropertyByAPIName"></a>
 
-### Force.PropertyByAPIName(name: System.String)
+### Force.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -576,7 +576,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Force.PropertyByName"></a>
 
-### Force.PropertyByName(name: System.String)
+### Force.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -584,7 +584,7 @@ Get a property by its unique name.
 
 <a id="Force.RemoveParameter"></a>
 
-### Force.RemoveParameter(propName: System.String)
+### Force.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -592,7 +592,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Force.SetActivateAtLoadStep"></a>
 
-### Force.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### Force.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -600,7 +600,7 @@ SetActivateAtLoadStep method.
 
 <a id="Force.SetComponentActivateAtLoadStep"></a>
 
-### Force.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### Force.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

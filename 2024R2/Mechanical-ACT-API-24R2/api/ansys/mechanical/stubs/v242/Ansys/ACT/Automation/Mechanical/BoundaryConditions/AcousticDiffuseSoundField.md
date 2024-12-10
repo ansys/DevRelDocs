@@ -73,7 +73,7 @@ Defines a AcousticDiffuseSoundField.
 
 <a id="AcousticDiffuseSoundField.Children"></a>
 
-### *property* AcousticDiffuseSoundField.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -81,7 +81,7 @@ Gets the list of children.
 
 <a id="AcousticDiffuseSoundField.Comments"></a>
 
-### *property* AcousticDiffuseSoundField.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -89,7 +89,7 @@ Gets the list of associated comments.
 
 <a id="AcousticDiffuseSoundField.CoordinateSystem"></a>
 
-### *property* AcousticDiffuseSoundField.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -105,7 +105,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticDiffuseSoundField.Figures"></a>
 
-### *property* AcousticDiffuseSoundField.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -113,7 +113,7 @@ Gets the list of associated figures.
 
 <a id="AcousticDiffuseSoundField.FrequencyOfNormConvergenceCheck"></a>
 
-### *property* AcousticDiffuseSoundField.FrequencyOfNormConvergenceCheck *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.FrequencyOfNormConvergenceCheck *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencyOfNormConvergenceCheck.
 
@@ -121,7 +121,7 @@ Gets or sets the FrequencyOfNormConvergenceCheck.
 
 <a id="AcousticDiffuseSoundField.Images"></a>
 
-### *property* AcousticDiffuseSoundField.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -153,7 +153,7 @@ Gets the MassDensity.
 
 <a id="AcousticDiffuseSoundField.Material"></a>
 
-### *property* AcousticDiffuseSoundField.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -161,7 +161,7 @@ Gets or sets the Material.
 
 <a id="AcousticDiffuseSoundField.MaterialAssignment"></a>
 
-### *property* AcousticDiffuseSoundField.MaterialAssignment *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.MaterialAssignment *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -177,7 +177,7 @@ Gets or sets the MaximumIncidentAngle.
 
 <a id="AcousticDiffuseSoundField.NormConvergenceTolerance"></a>
 
-### *property* AcousticDiffuseSoundField.NormConvergenceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.NormConvergenceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormConvergenceTolerance.
 
@@ -185,7 +185,7 @@ Gets or sets the NormConvergenceTolerance.
 
 <a id="AcousticDiffuseSoundField.NumberOfDivisionsOnReferenceSphere"></a>
 
-### *property* AcousticDiffuseSoundField.NumberOfDivisionsOnReferenceSphere *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.NumberOfDivisionsOnReferenceSphere *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfDivisionsOnReferenceSphere.
 
@@ -193,7 +193,7 @@ Gets or sets the NumberOfDivisionsOnReferenceSphere.
 
 <a id="AcousticDiffuseSoundField.NumberOfRandomSampling"></a>
 
-### *property* AcousticDiffuseSoundField.NumberOfRandomSampling *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.NumberOfRandomSampling *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfRandomSampling.
 
@@ -201,7 +201,7 @@ Gets or sets the NumberOfRandomSampling.
 
 <a id="AcousticDiffuseSoundField.PressureExcitation"></a>
 
-### *property* AcousticDiffuseSoundField.PressureExcitation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.PressureExcitation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PressureExcitation.
 
@@ -209,7 +209,7 @@ Gets the PressureExcitation.
 
 <a id="AcousticDiffuseSoundField.Properties"></a>
 
-### *property* AcousticDiffuseSoundField.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -241,7 +241,7 @@ Gets or sets the RandomSamplingType.
 
 <a id="AcousticDiffuseSoundField.ReadOnly"></a>
 
-### *property* AcousticDiffuseSoundField.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -257,7 +257,7 @@ Gets or sets the ReferencePowerSpectralDensity.
 
 <a id="AcousticDiffuseSoundField.SharedRefBody"></a>
 
-### *property* AcousticDiffuseSoundField.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -273,7 +273,7 @@ Gets the SpeedOfSound.
 
 <a id="AcousticDiffuseSoundField.Suppressed"></a>
 
-### *property* AcousticDiffuseSoundField.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -281,7 +281,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticDiffuseSoundField.VisibleProperties"></a>
 
-### *property* AcousticDiffuseSoundField.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDiffuseSoundField.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -317,7 +317,7 @@ Creates a new child Figure.
 
 <a id="AcousticDiffuseSoundField.AddImage"></a>
 
-### AcousticDiffuseSoundField.AddImage(filePath: System.String)
+### AcousticDiffuseSoundField.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -337,7 +337,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticDiffuseSoundField.CreateParameter"></a>
 
-### AcousticDiffuseSoundField.CreateParameter(propName: System.String)
+### AcousticDiffuseSoundField.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -361,7 +361,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticDiffuseSoundField.GetChildren"></a>
 
-### AcousticDiffuseSoundField.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticDiffuseSoundField.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -369,7 +369,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticDiffuseSoundField.GetParameter"></a>
 
-### AcousticDiffuseSoundField.GetParameter(propName: System.String)
+### AcousticDiffuseSoundField.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -401,7 +401,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticDiffuseSoundField.PropertyByAPIName"></a>
 
-### AcousticDiffuseSoundField.PropertyByAPIName(name: System.String)
+### AcousticDiffuseSoundField.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -412,7 +412,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticDiffuseSoundField.PropertyByName"></a>
 
-### AcousticDiffuseSoundField.PropertyByName(name: System.String)
+### AcousticDiffuseSoundField.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -420,7 +420,7 @@ Get a property by its unique name.
 
 <a id="AcousticDiffuseSoundField.RemoveParameter"></a>
 
-### AcousticDiffuseSoundField.RemoveParameter(propName: System.String)
+### AcousticDiffuseSoundField.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
