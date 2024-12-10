@@ -18,7 +18,7 @@ holding external data files.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------|----------------|
+|--------------------------------------------------------------|----------------|
 | [`Add`](#ExternalDataFileCollection.Add)                     |                |
 | [`Clear`](#ExternalDataFileCollection.Clear)                 |                |
 | [`Contains`](#ExternalDataFileCollection.Contains)           |                |
@@ -32,7 +32,7 @@ holding external data files.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | [`Count`](#ExternalDataFileCollection.Count)                               | Gets the number of external data files.                                                               |
 | [`Item`](#ExternalDataFileCollection.Item)                                 | Item property.                                                                                        |
 | [`SaveFilesWithProject`](#ExternalDataFileCollection.SaveFilesWithProject) | Gets or sets the flag controlling if the external data files will be copied to the project directory. |
@@ -43,7 +43,7 @@ holding external data files.
 
 <a id="ExternalDataFileCollection.Count"></a>
 
-### *property* ExternalDataFileCollection.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalDataFileCollection.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of external data files.
 
@@ -59,7 +59,7 @@ Item property.
 
 <a id="ExternalDataFileCollection.SaveFilesWithProject"></a>
 
-### *property* ExternalDataFileCollection.SaveFilesWithProject *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalDataFileCollection.SaveFilesWithProject *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the flag controlling if the external data files will be copied to the project directory.
 If this flag is set to False, the external data files will directly reference the file path.
@@ -85,7 +85,7 @@ The default is False.
 
 <a id="ExternalDataFileCollection.CopyTo"></a>
 
-### ExternalDataFileCollection.CopyTo(array: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile), arrayIndex: System.Int32)
+### ExternalDataFileCollection.CopyTo(array: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile), arrayIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 CopyTo method.
 
@@ -101,7 +101,7 @@ CopyTo method.
 
 <a id="ExternalDataFileCollection.Insert"></a>
 
-### ExternalDataFileCollection.Insert(index: System.Int32, item: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile))
+### ExternalDataFileCollection.Insert(index: [int](https://docs.python.org/3/library/functions.html#int), item: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile))
 
 <a id="ExternalDataFileCollection.Remove"></a>
 
@@ -109,6 +109,6 @@ CopyTo method.
 
 <a id="ExternalDataFileCollection.RemoveAt"></a>
 
-### ExternalDataFileCollection.RemoveAt(index: System.Int32)
+### ExternalDataFileCollection.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 

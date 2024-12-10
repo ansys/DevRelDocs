@@ -17,7 +17,7 @@ Defines a SurfaceCoating.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#SurfaceCoating.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#SurfaceCoating.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#SurfaceCoating.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a SurfaceCoating.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#SurfaceCoating.Children)                                               | Gets the list of children.                                    |
 | [`Comments`](#SurfaceCoating.Comments)                                               | Gets the list of associated comments.                         |
 | [`CoordinateSystem`](#SurfaceCoating.CoordinateSystem)                               | Gets or sets the CoordinateSystem.                            |
@@ -60,7 +60,7 @@ Defines a SurfaceCoating.
 
 <a id="SurfaceCoating.Children"></a>
 
-### *property* SurfaceCoating.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -68,7 +68,7 @@ Gets the list of children.
 
 <a id="SurfaceCoating.Comments"></a>
 
-### *property* SurfaceCoating.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -76,7 +76,7 @@ Gets the list of associated comments.
 
 <a id="SurfaceCoating.CoordinateSystem"></a>
 
-### *property* SurfaceCoating.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -92,7 +92,7 @@ Gets the current DataModelObject’s category.
 
 <a id="SurfaceCoating.Figures"></a>
 
-### *property* SurfaceCoating.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -100,7 +100,7 @@ Gets the list of associated figures.
 
 <a id="SurfaceCoating.Images"></a>
 
-### *property* SurfaceCoating.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -124,7 +124,7 @@ Gets or sets the Location.
 
 <a id="SurfaceCoating.Material"></a>
 
-### *property* SurfaceCoating.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -132,7 +132,7 @@ Gets or sets the Material.
 
 <a id="SurfaceCoating.Properties"></a>
 
-### *property* SurfaceCoating.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -140,7 +140,7 @@ Gets the list of properties for this object.
 
 <a id="SurfaceCoating.ReadOnly"></a>
 
-### *property* SurfaceCoating.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -148,7 +148,7 @@ Gets or sets the ReadOnly.
 
 <a id="SurfaceCoating.Suppressed"></a>
 
-### *property* SurfaceCoating.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -172,7 +172,7 @@ Gets or sets the Thickness.
 
 <a id="SurfaceCoating.VisibleProperties"></a>
 
-### *property* SurfaceCoating.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceCoating.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -208,7 +208,7 @@ Creates a new child Figure.
 
 <a id="SurfaceCoating.AddImage"></a>
 
-### SurfaceCoating.AddImage(filePath: System.String)
+### SurfaceCoating.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -228,7 +228,7 @@ Copies all visible properties from this object to another.
 
 <a id="SurfaceCoating.CreateParameter"></a>
 
-### SurfaceCoating.CreateParameter(propName: System.String)
+### SurfaceCoating.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -252,7 +252,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="SurfaceCoating.GetChildren"></a>
 
-### SurfaceCoating.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### SurfaceCoating.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -260,7 +260,7 @@ Gets the list of children, filtered by type.
 
 <a id="SurfaceCoating.GetParameter"></a>
 
-### SurfaceCoating.GetParameter(propName: System.String)
+### SurfaceCoating.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -284,7 +284,7 @@ Run the GroupSimilarObjects action.
 
 <a id="SurfaceCoating.PropertyByAPIName"></a>
 
-### SurfaceCoating.PropertyByAPIName(name: System.String)
+### SurfaceCoating.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -295,7 +295,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="SurfaceCoating.PropertyByName"></a>
 
-### SurfaceCoating.PropertyByName(name: System.String)
+### SurfaceCoating.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -303,7 +303,7 @@ Get a property by its unique name.
 
 <a id="SurfaceCoating.RemoveParameter"></a>
 
-### SurfaceCoating.RemoveParameter(propName: System.String)
+### SurfaceCoating.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

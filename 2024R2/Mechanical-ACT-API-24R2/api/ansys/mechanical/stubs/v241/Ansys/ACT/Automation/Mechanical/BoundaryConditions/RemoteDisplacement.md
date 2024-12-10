@@ -17,7 +17,7 @@ Defines a RemoteDisplacement.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#RemoteDisplacement.Activate)                                             | Activate the current object.                                                      |
 | [`AddComment`](#RemoteDisplacement.AddComment)                                         | Creates a new child Comment.                                                      |
 | [`AddFigure`](#RemoteDisplacement.AddFigure)                                           | Creates a new child Figure.                                                       |
@@ -43,7 +43,7 @@ Defines a RemoteDisplacement.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`BeamMaterial`](#RemoteDisplacement.BeamMaterial)                                       | Gets or sets the BeamMaterial.                                |
 | [`BeamRadius`](#RemoteDisplacement.BeamRadius)                                           | Gets or sets the BeamRadius.                                  |
 | [`Behavior`](#RemoteDisplacement.Behavior)                                               | Gets or sets the Behavior.                                    |
@@ -81,7 +81,7 @@ Defines a RemoteDisplacement.
 
 <a id="RemoteDisplacement.BeamMaterial"></a>
 
-### *property* RemoteDisplacement.BeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.BeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamMaterial.
 
@@ -97,7 +97,7 @@ Gets or sets the BeamRadius.
 
 <a id="RemoteDisplacement.Behavior"></a>
 
-### *property* RemoteDisplacement.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -105,7 +105,7 @@ Gets or sets the Behavior.
 
 <a id="RemoteDisplacement.Children"></a>
 
-### *property* RemoteDisplacement.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -113,7 +113,7 @@ Gets the list of children.
 
 <a id="RemoteDisplacement.Comments"></a>
 
-### *property* RemoteDisplacement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -129,7 +129,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="RemoteDisplacement.DataModelObjectCategory"></a>
 
-### *property* RemoteDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -137,7 +137,7 @@ Gets the current DataModelObject’s category.
 
 <a id="RemoteDisplacement.DynamicRelaxationBehavior"></a>
 
-### *property* RemoteDisplacement.DynamicRelaxationBehavior *: [Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DynamicRelaxationBehaviorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.DynamicRelaxationBehavior *: [Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType](../../../../Mechanical/DataModel/Enums/DynamicRelaxationBehaviorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DynamicRelaxationBehavior.
 
@@ -145,7 +145,7 @@ Gets or sets the DynamicRelaxationBehavior.
 
 <a id="RemoteDisplacement.Figures"></a>
 
-### *property* RemoteDisplacement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -153,7 +153,7 @@ Gets the list of associated figures.
 
 <a id="RemoteDisplacement.Images"></a>
 
-### *property* RemoteDisplacement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -177,7 +177,7 @@ Gets or sets the Geometry.
 
 <a id="RemoteDisplacement.NumberOfSegments"></a>
 
-### *property* RemoteDisplacement.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -193,7 +193,7 @@ Gets or sets the PinballRegion.
 
 <a id="RemoteDisplacement.Properties"></a>
 
-### *property* RemoteDisplacement.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -201,7 +201,7 @@ Gets the list of properties for this object.
 
 <a id="RemoteDisplacement.ReadOnly"></a>
 
-### *property* RemoteDisplacement.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -209,7 +209,7 @@ Gets or sets the ReadOnly.
 
 <a id="RemoteDisplacement.RemotePoint"></a>
 
-### *property* RemoteDisplacement.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the remote point associated to the point mass.
 
@@ -217,7 +217,7 @@ Gets the remote point associated to the point mass.
 
 <a id="RemoteDisplacement.ReverseDirectionForInverseSteps"></a>
 
-### *property* RemoteDisplacement.ReverseDirectionForInverseSteps *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.ReverseDirectionForInverseSteps *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReverseDirectionForInverseSteps.
 
@@ -225,7 +225,7 @@ Gets or sets the ReverseDirectionForInverseSteps.
 
 <a id="RemoteDisplacement.RotationX"></a>
 
-### *property* RemoteDisplacement.RotationX *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.RotationX *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RotationX.
 
@@ -233,7 +233,7 @@ Gets the RotationX.
 
 <a id="RemoteDisplacement.RotationY"></a>
 
-### *property* RemoteDisplacement.RotationY *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.RotationY *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RotationY.
 
@@ -241,7 +241,7 @@ Gets the RotationY.
 
 <a id="RemoteDisplacement.RotationZ"></a>
 
-### *property* RemoteDisplacement.RotationZ *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.RotationZ *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RotationZ.
 
@@ -257,7 +257,7 @@ Gets or sets the SharedRefBody.
 
 <a id="RemoteDisplacement.Suppressed"></a>
 
-### *property* RemoteDisplacement.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -265,7 +265,7 @@ Gets or sets the Suppressed.
 
 <a id="RemoteDisplacement.VisibleProperties"></a>
 
-### *property* RemoteDisplacement.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -273,7 +273,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="RemoteDisplacement.XComponent"></a>
 
-### *property* RemoteDisplacement.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponent.
 
@@ -289,7 +289,7 @@ Gets or sets the XCoordinate.
 
 <a id="RemoteDisplacement.YComponent"></a>
 
-### *property* RemoteDisplacement.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
@@ -305,7 +305,7 @@ Gets or sets the YCoordinate.
 
 <a id="RemoteDisplacement.ZComponent"></a>
 
-### *property* RemoteDisplacement.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteDisplacement.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponent.
 
@@ -349,7 +349,7 @@ Creates a new child Figure.
 
 <a id="RemoteDisplacement.AddImage"></a>
 
-### RemoteDisplacement.AddImage(filePath: System.String)
+### RemoteDisplacement.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -369,7 +369,7 @@ Copies all visible properties from this object to another.
 
 <a id="RemoteDisplacement.CreateParameter"></a>
 
-### RemoteDisplacement.CreateParameter(propName: System.String)
+### RemoteDisplacement.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -393,7 +393,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RemoteDisplacement.GetActivateAtLoadStep"></a>
 
-### RemoteDisplacement.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### RemoteDisplacement.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -401,7 +401,7 @@ GetActivateAtLoadStep method.
 
 <a id="RemoteDisplacement.GetChildren"></a>
 
-### RemoteDisplacement.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RemoteDisplacement.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -409,7 +409,7 @@ Gets the list of children, filtered by type.
 
 <a id="RemoteDisplacement.GetComponentActivateAtLoadStep"></a>
 
-### RemoteDisplacement.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### RemoteDisplacement.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -417,7 +417,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="RemoteDisplacement.GetParameter"></a>
 
-### RemoteDisplacement.GetParameter(propName: System.String)
+### RemoteDisplacement.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -457,7 +457,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="RemoteDisplacement.PropertyByAPIName"></a>
 
-### RemoteDisplacement.PropertyByAPIName(name: System.String)
+### RemoteDisplacement.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -468,7 +468,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RemoteDisplacement.PropertyByName"></a>
 
-### RemoteDisplacement.PropertyByName(name: System.String)
+### RemoteDisplacement.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -476,7 +476,7 @@ Get a property by its unique name.
 
 <a id="RemoteDisplacement.RemoveParameter"></a>
 
-### RemoteDisplacement.RemoveParameter(propName: System.String)
+### RemoteDisplacement.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -484,7 +484,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="RemoteDisplacement.SetActivateAtLoadStep"></a>
 
-### RemoteDisplacement.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### RemoteDisplacement.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -492,7 +492,7 @@ SetActivateAtLoadStep method.
 
 <a id="RemoteDisplacement.SetComponentActivateAtLoadStep"></a>
 
-### RemoteDisplacement.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### RemoteDisplacement.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

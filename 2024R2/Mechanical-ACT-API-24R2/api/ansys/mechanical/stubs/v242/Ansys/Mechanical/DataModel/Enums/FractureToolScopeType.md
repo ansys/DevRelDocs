@@ -17,7 +17,7 @@ Specifies the FractureToolScopeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------- |
 | [`CrackSelection`](#FractureToolScopeType.CrackSelection) |
 | [`ResultFileItem`](#FractureToolScopeType.ResultFileItem) |
 

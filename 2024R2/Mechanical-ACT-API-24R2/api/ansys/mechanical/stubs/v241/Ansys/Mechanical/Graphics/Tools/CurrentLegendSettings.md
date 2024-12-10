@@ -50,7 +50,7 @@ Represents a CurrentLegendSettings object. This object holds properties of the C
 
 <a id="CurrentLegendSettings.AllScientificNotation"></a>
 
-### *property* CurrentLegendSettings.AllScientificNotation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CurrentLegendSettings.AllScientificNotation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the result values are displayed in scientific notation.
 
@@ -58,7 +58,7 @@ Whether the result values are displayed in scientific notation.
 
 <a id="CurrentLegendSettings.ColorScheme"></a>
 
-### *property* CurrentLegendSettings.ColorScheme *: [Ansys.Mechanical.DataModel.Enums.LegendColorSchemeType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendColorSchemeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendColorSchemeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CurrentLegendSettings.ColorScheme *: [Ansys.Mechanical.DataModel.Enums.LegendColorSchemeType](../../DataModel/Enums/LegendColorSchemeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendColorSchemeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Color Scheme for the legend.
 
@@ -66,7 +66,7 @@ Color Scheme for the legend.
 
 <a id="CurrentLegendSettings.Digits"></a>
 
-### *property* CurrentLegendSettings.Digits *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CurrentLegendSettings.Digits *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Number of significant digits(min:2, max:8).
 
@@ -74,7 +74,7 @@ Number of significant digits(min:2, max:8).
 
 <a id="CurrentLegendSettings.HighFidelity"></a>
 
-### *property* CurrentLegendSettings.HighFidelity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CurrentLegendSettings.HighFidelity *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether to replot and improve the synchronization of the result values.
 
@@ -82,7 +82,7 @@ Whether to replot and improve the synchronization of the result values.
 
 <a id="CurrentLegendSettings.LogarithmicScale"></a>
 
-### *property* CurrentLegendSettings.LogarithmicScale *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CurrentLegendSettings.LogarithmicScale *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the result values are distributed in a Logarithmic scale.
 
@@ -90,7 +90,7 @@ Whether the result values are distributed in a Logarithmic scale.
 
 <a id="CurrentLegendSettings.NumberOfBands"></a>
 
-### *property* CurrentLegendSettings.NumberOfBands *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CurrentLegendSettings.NumberOfBands *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Number of bands on the legend (min:3, max:30). Bands are added/removed from the top of the legend.
 
@@ -98,7 +98,7 @@ Number of bands on the legend (min:3, max:30). Bands are added/removed from the 
 
 <a id="CurrentLegendSettings.SemiTransparency"></a>
 
-### *property* CurrentLegendSettings.SemiTransparency *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CurrentLegendSettings.SemiTransparency *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the legend is semi-transparent.
 
@@ -110,7 +110,7 @@ Whether the legend is semi-transparent.
 
 <a id="CurrentLegendSettings.GetBandColor"></a>
 
-### CurrentLegendSettings.GetBandColor(index: System.Int32)
+### CurrentLegendSettings.GetBandColor(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the color of the specified band.
 
@@ -118,7 +118,7 @@ Gets the color of the specified band.
 
 <a id="CurrentLegendSettings.GetBandColorAuto"></a>
 
-### CurrentLegendSettings.GetBandColorAuto(index: System.Int32)
+### CurrentLegendSettings.GetBandColorAuto(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets whether the specified band is set to Automatic or not.
 
@@ -126,7 +126,7 @@ Gets whether the specified band is set to Automatic or not.
 
 <a id="CurrentLegendSettings.GetLowerBandValueAuto"></a>
 
-### CurrentLegendSettings.GetLowerBandValueAuto(index: System.Int32)
+### CurrentLegendSettings.GetLowerBandValueAuto(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets whether the specified lower band value is set to Automatic or not.
 
@@ -134,7 +134,7 @@ Gets whether the specified lower band value is set to Automatic or not.
 
 <a id="CurrentLegendSettings.GetLowerBound"></a>
 
-### CurrentLegendSettings.GetLowerBound(index: System.Int32)
+### CurrentLegendSettings.GetLowerBound(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets lower bound value of the specified band.
 
@@ -142,7 +142,7 @@ Gets lower bound value of the specified band.
 
 <a id="CurrentLegendSettings.GetUpperBandValueAuto"></a>
 
-### CurrentLegendSettings.GetUpperBandValueAuto(index: System.Int32)
+### CurrentLegendSettings.GetUpperBandValueAuto(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets whether the specified upper band value is set to Automatic or not.
 
@@ -150,7 +150,7 @@ Gets whether the specified upper band value is set to Automatic or not.
 
 <a id="CurrentLegendSettings.GetUpperBound"></a>
 
-### CurrentLegendSettings.GetUpperBound(index: System.Int32)
+### CurrentLegendSettings.GetUpperBound(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets upper bound value of the specified band.
 
@@ -182,7 +182,7 @@ Resets all colors to default values.
 
 <a id="CurrentLegendSettings.SetBandColor"></a>
 
-### CurrentLegendSettings.SetBandColor(index: System.Int32, ColorValue: System.UInt32)
+### CurrentLegendSettings.SetBandColor(index: [int](https://docs.python.org/3/library/functions.html#int), ColorValue: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the color of the specified band.
 
@@ -190,7 +190,7 @@ Sets the color of the specified band.
 
 <a id="CurrentLegendSettings.SetBandColorAuto"></a>
 
-### CurrentLegendSettings.SetBandColorAuto(index: System.Int32, val: System.Boolean)
+### CurrentLegendSettings.SetBandColorAuto(index: [int](https://docs.python.org/3/library/functions.html#int), val: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the specified band to Automatic.
 
@@ -198,7 +198,7 @@ Sets the specified band to Automatic.
 
 <a id="CurrentLegendSettings.SetLowerBound"></a>
 
-### CurrentLegendSettings.SetLowerBound(index: System.Int32, value: Ansys.Core.Units.Quantity)
+### CurrentLegendSettings.SetLowerBound(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets lower bound value of the specified band.
 
@@ -206,7 +206,7 @@ Sets lower bound value of the specified band.
 
 <a id="CurrentLegendSettings.SetUpperBound"></a>
 
-### CurrentLegendSettings.SetUpperBound(index: System.Int32, value: Ansys.Core.Units.Quantity)
+### CurrentLegendSettings.SetUpperBound(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets upper bound value of the specified band.
 

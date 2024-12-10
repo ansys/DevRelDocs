@@ -17,7 +17,7 @@ This enum is referenced in the “Output” tree node and defines how the genera
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------ |
 | [`ByTopology`](#DataTransferType.ByTopology) |
 | [`ByZones`](#DataTransferType.ByZones) |
 | [`ProgramControlled`](#DataTransferType.ProgramControlled) |

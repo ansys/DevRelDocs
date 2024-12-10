@@ -17,7 +17,7 @@ Specifies the TopoObjectiveFormulation.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------ |
 | [`Displacement`](#TopoObjectiveFormulation.Displacement) |
 | [`Force`](#TopoObjectiveFormulation.Force) |
 | [`LocalStrainEnergy`](#TopoObjectiveFormulation.LocalStrainEnergy) |

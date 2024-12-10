@@ -34,7 +34,7 @@ Represents a MP command.
 
 <a id="MPCommand.C0"></a>
 
-### *property* MPCommand.C0 *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPCommand.C0 *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the temperature-independent term of the property.
 
@@ -42,7 +42,7 @@ Gets the temperature-independent term of the property.
 
 <a id="MPCommand.C1"></a>
 
-### *property* MPCommand.C1 *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPCommand.C1 *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the coefficient of the linear term in the property-versus-temperature polynomial.
 
@@ -50,7 +50,7 @@ Gets the coefficient of the linear term in the property-versus-temperature polyn
 
 <a id="MPCommand.C2"></a>
 
-### *property* MPCommand.C2 *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPCommand.C2 *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the coefficient of the quadratic term in the property-versus-temperature polynomial.
 
@@ -58,7 +58,7 @@ Gets the coefficient of the quadratic term in the property-versus-temperature po
 
 <a id="MPCommand.C3"></a>
 
-### *property* MPCommand.C3 *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPCommand.C3 *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the coefficient of the cubic term in the property-versus-temperature polynomial.
 
@@ -66,7 +66,7 @@ Gets the coefficient of the cubic term in the property-versus-temperature polyno
 
 <a id="MPCommand.C4"></a>
 
-### *property* MPCommand.C4 *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPCommand.C4 *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the coefficient of the quartic term in the property-versus-temperature polynomial.
 
@@ -74,7 +74,7 @@ Gets the coefficient of the quartic term in the property-versus-temperature poly
 
 <a id="MPCommand.Index"></a>
 
-### *property* MPCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -82,7 +82,7 @@ Gets the command index.
 
 <a id="MPCommand.Lab"></a>
 
-### *property* MPCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPCommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
 
@@ -90,7 +90,7 @@ Gets the label.
 
 <a id="MPCommand.Mat"></a>
 
-### *property* MPCommand.Mat *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPCommand.Mat *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
 
@@ -98,7 +98,7 @@ Gets the material number.
 
 <a id="MPCommand.Name"></a>
 
-### *property* MPCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 

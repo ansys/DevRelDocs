@@ -17,7 +17,7 @@ Defines a CompositeCriterion.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CompositeCriterion.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#CompositeCriterion.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#CompositeCriterion.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -40,7 +40,7 @@ Defines a CompositeCriterion.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#CompositeCriterion.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CompositeCriterion.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#CompositeCriterion.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -59,7 +59,7 @@ Defines a CompositeCriterion.
 
 <a id="CompositeCriterion.Children"></a>
 
-### *property* CompositeCriterion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="CompositeCriterion.Comments"></a>
 
-### *property* CompositeCriterion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -75,7 +75,7 @@ Gets the list of associated comments.
 
 <a id="CompositeCriterion.DataModelObjectCategory"></a>
 
-### *property* CompositeCriterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -83,7 +83,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CompositeCriterion.Figures"></a>
 
-### *property* CompositeCriterion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -91,7 +91,7 @@ Gets the list of associated figures.
 
 <a id="CompositeCriterion.Images"></a>
 
-### *property* CompositeCriterion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -107,7 +107,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CompositeCriterion.Properties"></a>
 
-### *property* CompositeCriterion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -115,7 +115,7 @@ Gets the list of properties for this object.
 
 <a id="CompositeCriterion.ReadOnly"></a>
 
-### *property* CompositeCriterion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterion.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -123,7 +123,7 @@ Gets or sets the ReadOnly.
 
 <a id="CompositeCriterion.Suppressed"></a>
 
-### *property* CompositeCriterion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -139,7 +139,7 @@ Gets the Value.
 
 <a id="CompositeCriterion.VisibleProperties"></a>
 
-### *property* CompositeCriterion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -175,7 +175,7 @@ Creates a new child Figure.
 
 <a id="CompositeCriterion.AddImage"></a>
 
-### CompositeCriterion.AddImage(filePath: System.String)
+### CompositeCriterion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -203,7 +203,7 @@ Copies all visible properties from this object to another.
 
 <a id="CompositeCriterion.CreateParameter"></a>
 
-### CompositeCriterion.CreateParameter(propName: System.String)
+### CompositeCriterion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Run the EvaluateAllResults action.
 
 <a id="CompositeCriterion.GetChildren"></a>
 
-### CompositeCriterion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CompositeCriterion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -254,7 +254,7 @@ This Definition is a list of CompositeCriterionTerms.
 
 <a id="CompositeCriterion.GetParameter"></a>
 
-### CompositeCriterion.GetParameter(propName: System.String)
+### CompositeCriterion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -278,7 +278,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CompositeCriterion.PropertyByAPIName"></a>
 
-### CompositeCriterion.PropertyByAPIName(name: System.String)
+### CompositeCriterion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -289,7 +289,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CompositeCriterion.PropertyByName"></a>
 
-### CompositeCriterion.PropertyByName(name: System.String)
+### CompositeCriterion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -297,7 +297,7 @@ Get a property by its unique name.
 
 <a id="CompositeCriterion.RemoveParameter"></a>
 
-### CompositeCriterion.RemoveParameter(propName: System.String)
+### CompositeCriterion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

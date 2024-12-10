@@ -63,7 +63,7 @@ MaterialCombination class.
 
 <a id="MaterialCombination.AssignedBodies"></a>
 
-### *property* MaterialCombination.AssignedBodies *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialCombination.AssignedBodies *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AssignedBodies.
 
@@ -71,7 +71,7 @@ Gets the AssignedBodies.
 
 <a id="MaterialCombination.Children"></a>
 
-### *property* MaterialCombination.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialCombination.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -79,7 +79,7 @@ Gets the list of children.
 
 <a id="MaterialCombination.Comments"></a>
 
-### *property* MaterialCombination.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialCombination.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -95,7 +95,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MaterialCombination.Figures"></a>
 
-### *property* MaterialCombination.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialCombination.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -103,7 +103,7 @@ Gets the list of associated figures.
 
 <a id="MaterialCombination.Images"></a>
 
-### *property* MaterialCombination.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialCombination.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -127,7 +127,7 @@ Dictionary of Material to Fraction in Combination.
 
 <a id="MaterialCombination.Properties"></a>
 
-### *property* MaterialCombination.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialCombination.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -135,7 +135,7 @@ Gets the list of properties for this object.
 
 <a id="MaterialCombination.Suppressed"></a>
 
-### *property* MaterialCombination.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialCombination.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Suppress or unsuppress the MaterialCombination.
 
@@ -143,7 +143,7 @@ Suppress or unsuppress the MaterialCombination.
 
 <a id="MaterialCombination.VisibleProperties"></a>
 
-### *property* MaterialCombination.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaterialCombination.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -179,7 +179,7 @@ Creates a new child Figure.
 
 <a id="MaterialCombination.AddImage"></a>
 
-### MaterialCombination.AddImage(filePath: System.String)
+### MaterialCombination.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -191,7 +191,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <a id="MaterialCombination.AddMaterial"></a>
 
-### MaterialCombination.AddMaterial(material: [Ansys.ACT.Automation.Mechanical.Material](../../../../../v241/Ansys/ACT/Automation/Mechanical/Material.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Material))
+### MaterialCombination.AddMaterial(material: [Ansys.ACT.Automation.Mechanical.Material](Material.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Material))
 
 Add a material to the combination.
 
@@ -207,7 +207,7 @@ Run the AddMaterialAssignment action.
 
 <a id="MaterialCombination.AddMaterialByName"></a>
 
-### MaterialCombination.AddMaterialByName(name: System.String)
+### MaterialCombination.AddMaterialByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Add a material to the combination by name.
 
@@ -231,7 +231,7 @@ Run the CreateMaterialAssignment action.
 
 <a id="MaterialCombination.CreateParameter"></a>
 
-### MaterialCombination.CreateParameter(propName: System.String)
+### MaterialCombination.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -263,7 +263,7 @@ Returns material as a python dictionary
 
 <a id="MaterialCombination.GetChildren"></a>
 
-### MaterialCombination.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MaterialCombination.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -271,7 +271,7 @@ Gets the list of children, filtered by type.
 
 <a id="MaterialCombination.GetParameter"></a>
 
-### MaterialCombination.GetParameter(propName: System.String)
+### MaterialCombination.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -295,7 +295,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MaterialCombination.PropertyByAPIName"></a>
 
-### MaterialCombination.PropertyByAPIName(name: System.String)
+### MaterialCombination.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -306,7 +306,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MaterialCombination.PropertyByName"></a>
 
-### MaterialCombination.PropertyByName(name: System.String)
+### MaterialCombination.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -314,7 +314,7 @@ Get a property by its unique name.
 
 <a id="MaterialCombination.RemoveMaterial"></a>
 
-### MaterialCombination.RemoveMaterial(material: [Ansys.ACT.Automation.Mechanical.Material](../../../../../v241/Ansys/ACT/Automation/Mechanical/Material.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Material))
+### MaterialCombination.RemoveMaterial(material: [Ansys.ACT.Automation.Mechanical.Material](Material.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Material))
 
 Remove material from the combination.
 
@@ -322,7 +322,7 @@ Remove material from the combination.
 
 <a id="MaterialCombination.RemoveMaterialByName"></a>
 
-### MaterialCombination.RemoveMaterialByName(name: System.String)
+### MaterialCombination.RemoveMaterialByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Remove material from the combination by name.
 
@@ -330,7 +330,7 @@ Remove material from the combination by name.
 
 <a id="MaterialCombination.RemoveParameter"></a>
 
-### MaterialCombination.RemoveParameter(propName: System.String)
+### MaterialCombination.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

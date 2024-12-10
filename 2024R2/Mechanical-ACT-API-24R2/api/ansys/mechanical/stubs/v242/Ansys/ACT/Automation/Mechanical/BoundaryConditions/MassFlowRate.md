@@ -59,7 +59,7 @@ Defines a MassFlowRate.
 
 <a id="MassFlowRate.Children"></a>
 
-### *property* MassFlowRate.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="MassFlowRate.Comments"></a>
 
-### *property* MassFlowRate.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -83,7 +83,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MassFlowRate.Figures"></a>
 
-### *property* MassFlowRate.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -91,7 +91,7 @@ Gets the list of associated figures.
 
 <a id="MassFlowRate.Images"></a>
 
-### *property* MassFlowRate.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -123,7 +123,7 @@ Gets the Magnitude.
 
 <a id="MassFlowRate.Properties"></a>
 
-### *property* MassFlowRate.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -131,7 +131,7 @@ Gets the list of properties for this object.
 
 <a id="MassFlowRate.ReadOnly"></a>
 
-### *property* MassFlowRate.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -139,7 +139,7 @@ Gets or sets the ReadOnly.
 
 <a id="MassFlowRate.SharedRefBody"></a>
 
-### *property* MassFlowRate.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -147,7 +147,7 @@ Gets or sets the SharedRefBody.
 
 <a id="MassFlowRate.Suppressed"></a>
 
-### *property* MassFlowRate.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -155,7 +155,7 @@ Gets or sets the Suppressed.
 
 <a id="MassFlowRate.VisibleProperties"></a>
 
-### *property* MassFlowRate.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -191,7 +191,7 @@ Creates a new child Figure.
 
 <a id="MassFlowRate.AddImage"></a>
 
-### MassFlowRate.AddImage(filePath: System.String)
+### MassFlowRate.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -211,7 +211,7 @@ Copies all visible properties from this object to another.
 
 <a id="MassFlowRate.CreateParameter"></a>
 
-### MassFlowRate.CreateParameter(propName: System.String)
+### MassFlowRate.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MassFlowRate.GetChildren"></a>
 
-### MassFlowRate.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MassFlowRate.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="MassFlowRate.GetParameter"></a>
 
-### MassFlowRate.GetParameter(propName: System.String)
+### MassFlowRate.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -275,7 +275,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="MassFlowRate.PropertyByAPIName"></a>
 
-### MassFlowRate.PropertyByAPIName(name: System.String)
+### MassFlowRate.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -286,7 +286,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MassFlowRate.PropertyByName"></a>
 
-### MassFlowRate.PropertyByName(name: System.String)
+### MassFlowRate.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Get a property by its unique name.
 
 <a id="MassFlowRate.RemoveParameter"></a>
 
-### MassFlowRate.RemoveParameter(propName: System.String)
+### MassFlowRate.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

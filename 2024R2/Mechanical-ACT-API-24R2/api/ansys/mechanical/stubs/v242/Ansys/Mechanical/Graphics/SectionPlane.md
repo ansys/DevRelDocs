@@ -17,13 +17,13 @@ Represents a SectionPlane object. This object holds properties of the Plane.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [`Equals`](#SectionPlane.Equals)   | Indicates whether the current SectionPlane properties are equal to the properties of another SectionPlane object.   |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+|----------------------------------------|---------------------------------------------------------|
 | [`Active`](#SectionPlane.Active)       | Gets or Sets the Active State of the Section Plane      |
 | [`Center`](#SectionPlane.Center)       | Gets or Sets the Center point of the Section Plane      |
 | [`Direction`](#SectionPlane.Direction) | Gets or Sets the Direction(Normal) of the Section Plane |
@@ -36,7 +36,7 @@ Represents a SectionPlane object. This object holds properties of the Plane.
 
 <a id="SectionPlane.Active"></a>
 
-### *property* SectionPlane.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectionPlane.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Active State of the Section Plane
 
@@ -60,7 +60,7 @@ Gets or Sets the Direction(Normal) of the Section Plane
 
 <a id="SectionPlane.Name"></a>
 
-### *property* SectionPlane.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectionPlane.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Name of the Section Plane
 

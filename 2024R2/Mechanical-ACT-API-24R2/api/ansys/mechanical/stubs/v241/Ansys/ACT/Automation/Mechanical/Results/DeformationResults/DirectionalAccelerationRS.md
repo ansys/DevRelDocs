@@ -134,7 +134,7 @@ Defines a DirectionalAccelerationRS.
 
 <a id="DirectionalAccelerationRS.AccelerationInG"></a>
 
-### *property* DirectionalAccelerationRS.AccelerationInG *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.AccelerationInG *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationInG.
 
@@ -142,7 +142,7 @@ Gets or sets the AccelerationInG.
 
 <a id="DirectionalAccelerationRS.AllowPhaseSweep"></a>
 
-### *property* DirectionalAccelerationRS.AllowPhaseSweep *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.AllowPhaseSweep *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AllowPhaseSweep.
 
@@ -150,7 +150,7 @@ Gets or sets the AllowPhaseSweep.
 
 <a id="DirectionalAccelerationRS.Amplitude"></a>
 
-### *property* DirectionalAccelerationRS.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -166,7 +166,7 @@ Gets the Average.
 
 <a id="DirectionalAccelerationRS.By"></a>
 
-### *property* DirectionalAccelerationRS.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -174,7 +174,7 @@ Gets or sets the By.
 
 <a id="DirectionalAccelerationRS.CalculateTimeHistory"></a>
 
-### *property* DirectionalAccelerationRS.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -182,7 +182,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="DirectionalAccelerationRS.Children"></a>
 
-### *property* DirectionalAccelerationRS.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -190,7 +190,7 @@ Gets the list of children.
 
 <a id="DirectionalAccelerationRS.CombinationNumber"></a>
 
-### *property* DirectionalAccelerationRS.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -198,7 +198,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DirectionalAccelerationRS.Comments"></a>
 
-### *property* DirectionalAccelerationRS.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -216,7 +216,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DirectionalAccelerationRS.CrackFrontNumber"></a>
 
-### *property* DirectionalAccelerationRS.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -224,7 +224,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="DirectionalAccelerationRS.CyclicMode"></a>
 
-### *property* DirectionalAccelerationRS.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -248,7 +248,7 @@ Gets the DampedFrequency.
 
 <a id="DirectionalAccelerationRS.DataModelObjectCategory"></a>
 
-### *property* DirectionalAccelerationRS.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -256,7 +256,7 @@ Gets the current DataModelObject’s category.
 
 <a id="DirectionalAccelerationRS.DeformationType"></a>
 
-### *property* DirectionalAccelerationRS.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeformationType.
 
@@ -264,7 +264,7 @@ Gets or sets the DeformationType.
 
 <a id="DirectionalAccelerationRS.DisplayOption"></a>
 
-### *property* DirectionalAccelerationRS.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -280,7 +280,7 @@ Gets or sets the DisplayTime.
 
 <a id="DirectionalAccelerationRS.DpfEvaluation"></a>
 
-### *property* DirectionalAccelerationRS.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -296,7 +296,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="DirectionalAccelerationRS.Figures"></a>
 
-### *property* DirectionalAccelerationRS.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -312,7 +312,7 @@ Gets or sets the Frequency.
 
 <a id="DirectionalAccelerationRS.GlobalIDs"></a>
 
-### *property* DirectionalAccelerationRS.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -320,7 +320,7 @@ Gets or sets the GlobalIDs.
 
 <a id="DirectionalAccelerationRS.GraphControlsXAxis"></a>
 
-### *property* DirectionalAccelerationRS.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -328,7 +328,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="DirectionalAccelerationRS.HarmonicIndex"></a>
 
-### *property* DirectionalAccelerationRS.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -336,7 +336,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="DirectionalAccelerationRS.Identifier"></a>
 
-### *property* DirectionalAccelerationRS.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -344,7 +344,7 @@ Gets or sets the Identifier.
 
 <a id="DirectionalAccelerationRS.Images"></a>
 
-### *property* DirectionalAccelerationRS.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -360,7 +360,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DirectionalAccelerationRS.IsSolved"></a>
 
-### *property* DirectionalAccelerationRS.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -368,7 +368,7 @@ Gets the IsSolved.
 
 <a id="DirectionalAccelerationRS.ItemType"></a>
 
-### *property* DirectionalAccelerationRS.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -376,7 +376,7 @@ Gets or sets the ItemType.
 
 <a id="DirectionalAccelerationRS.IterationNumber"></a>
 
-### *property* DirectionalAccelerationRS.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -384,7 +384,7 @@ Gets the IterationNumber.
 
 <a id="DirectionalAccelerationRS.IterationStep"></a>
 
-### *property* DirectionalAccelerationRS.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -392,7 +392,7 @@ Gets or sets the IterationStep.
 
 <a id="DirectionalAccelerationRS.LoadMultiplier"></a>
 
-### *property* DirectionalAccelerationRS.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -400,7 +400,7 @@ Gets the LoadMultiplier.
 
 <a id="DirectionalAccelerationRS.LoadStep"></a>
 
-### *property* DirectionalAccelerationRS.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -408,7 +408,7 @@ Gets the LoadStep.
 
 <a id="DirectionalAccelerationRS.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* DirectionalAccelerationRS.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -416,7 +416,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="DirectionalAccelerationRS.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* DirectionalAccelerationRS.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -424,7 +424,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="DirectionalAccelerationRS.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* DirectionalAccelerationRS.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -432,7 +432,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="DirectionalAccelerationRS.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* DirectionalAccelerationRS.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -440,7 +440,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="DirectionalAccelerationRS.LoadStepNumber"></a>
 
-### *property* DirectionalAccelerationRS.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -456,7 +456,7 @@ Gets or sets the Location.
 
 <a id="DirectionalAccelerationRS.LogarithmicDecrement"></a>
 
-### *property* DirectionalAccelerationRS.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -472,7 +472,7 @@ Gets the Maximum.
 
 <a id="DirectionalAccelerationRS.MaximumOccursOn"></a>
 
-### *property* DirectionalAccelerationRS.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -504,7 +504,7 @@ Gets the Minimum.
 
 <a id="DirectionalAccelerationRS.MinimumOccursOn"></a>
 
-### *property* DirectionalAccelerationRS.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -528,7 +528,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="DirectionalAccelerationRS.ModalDampingRatio"></a>
 
-### *property* DirectionalAccelerationRS.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -536,7 +536,7 @@ Gets the ModalDampingRatio.
 
 <a id="DirectionalAccelerationRS.Mode"></a>
 
-### *property* DirectionalAccelerationRS.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -544,7 +544,7 @@ Gets or sets the Mode.
 
 <a id="DirectionalAccelerationRS.NamedSelections"></a>
 
-### *property* DirectionalAccelerationRS.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -552,7 +552,7 @@ Gets or sets the NamedSelections.
 
 <a id="DirectionalAccelerationRS.NormalOrientation"></a>
 
-### *property* DirectionalAccelerationRS.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NormalOrientation.
 
@@ -560,7 +560,7 @@ Gets or sets the NormalOrientation.
 
 <a id="DirectionalAccelerationRS.Path"></a>
 
-### *property* DirectionalAccelerationRS.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -576,7 +576,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="DirectionalAccelerationRS.PlotData"></a>
 
-### *property* DirectionalAccelerationRS.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -584,7 +584,7 @@ Gets the result table.
 
 <a id="DirectionalAccelerationRS.Probability"></a>
 
-### *property* DirectionalAccelerationRS.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -592,7 +592,7 @@ Gets the Probability.
 
 <a id="DirectionalAccelerationRS.Properties"></a>
 
-### *property* DirectionalAccelerationRS.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -600,7 +600,7 @@ Gets the list of properties for this object.
 
 <a id="DirectionalAccelerationRS.Reference"></a>
 
-### *property* DirectionalAccelerationRS.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Reference.
 
@@ -616,7 +616,7 @@ Gets the ReportedFrequency.
 
 <a id="DirectionalAccelerationRS.ScaleFactor"></a>
 
-### *property* DirectionalAccelerationRS.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactor.
 
@@ -624,7 +624,7 @@ Gets or sets the ScaleFactor.
 
 <a id="DirectionalAccelerationRS.ScaleFactorValue"></a>
 
-### *property* DirectionalAccelerationRS.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -632,7 +632,7 @@ Gets or sets the ScaleFactorValue.
 
 <a id="DirectionalAccelerationRS.ScopingMethod"></a>
 
-### *property* DirectionalAccelerationRS.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -640,7 +640,7 @@ Gets or sets the ScopingMethod.
 
 <a id="DirectionalAccelerationRS.SetNumber"></a>
 
-### *property* DirectionalAccelerationRS.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -648,7 +648,7 @@ Gets or sets the Set Number.
 
 <a id="DirectionalAccelerationRS.SolutionCombinationDriver"></a>
 
-### *property* DirectionalAccelerationRS.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -656,7 +656,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DirectionalAccelerationRS.SolverComponentIDs"></a>
 
-### *property* DirectionalAccelerationRS.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -672,7 +672,7 @@ Gets the Stability.
 
 <a id="DirectionalAccelerationRS.Substep"></a>
 
-### *property* DirectionalAccelerationRS.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -680,7 +680,7 @@ Gets the Substep.
 
 <a id="DirectionalAccelerationRS.Suppressed"></a>
 
-### *property* DirectionalAccelerationRS.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -688,7 +688,7 @@ Gets or sets the Suppressed.
 
 <a id="DirectionalAccelerationRS.Surface"></a>
 
-### *property* DirectionalAccelerationRS.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -744,7 +744,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="DirectionalAccelerationRS.VisibleProperties"></a>
 
-### *property* DirectionalAccelerationRS.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -752,7 +752,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DirectionalAccelerationRS.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* DirectionalAccelerationRS.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAccelerationRS.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -804,7 +804,7 @@ Creates a new child Figure.
 
 <a id="DirectionalAccelerationRS.AddImage"></a>
 
-### DirectionalAccelerationRS.AddImage(filePath: System.String)
+### DirectionalAccelerationRS.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -832,7 +832,7 @@ Copies all visible properties from this object to another.
 
 <a id="DirectionalAccelerationRS.CreateParameter"></a>
 
-### DirectionalAccelerationRS.CreateParameter(propName: System.String)
+### DirectionalAccelerationRS.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -880,7 +880,7 @@ Run the EvaluateAllResults action.
 
 <a id="DirectionalAccelerationRS.ExportAnimation"></a>
 
-### DirectionalAccelerationRS.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DirectionalAccelerationRS.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -888,7 +888,7 @@ Run the ExportAnimation action.
 
 <a id="DirectionalAccelerationRS.ExportToTextFile"></a>
 
-### DirectionalAccelerationRS.ExportToTextFile(filePath: System.String)
+### DirectionalAccelerationRS.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -904,7 +904,7 @@ Run the FetchRemoteResult action.
 
 <a id="DirectionalAccelerationRS.GetChildren"></a>
 
-### DirectionalAccelerationRS.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DirectionalAccelerationRS.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -912,7 +912,7 @@ Gets the list of children, filtered by type.
 
 <a id="DirectionalAccelerationRS.GetParameter"></a>
 
-### DirectionalAccelerationRS.GetParameter(propName: System.String)
+### DirectionalAccelerationRS.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -944,7 +944,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="DirectionalAccelerationRS.PropertyByAPIName"></a>
 
-### DirectionalAccelerationRS.PropertyByAPIName(name: System.String)
+### DirectionalAccelerationRS.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -955,7 +955,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DirectionalAccelerationRS.PropertyByName"></a>
 
-### DirectionalAccelerationRS.PropertyByName(name: System.String)
+### DirectionalAccelerationRS.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -963,7 +963,7 @@ Get a property by its unique name.
 
 <a id="DirectionalAccelerationRS.RemoveParameter"></a>
 
-### DirectionalAccelerationRS.RemoveParameter(propName: System.String)
+### DirectionalAccelerationRS.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

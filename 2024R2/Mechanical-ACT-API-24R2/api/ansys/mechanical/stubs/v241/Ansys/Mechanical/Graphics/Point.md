@@ -42,7 +42,7 @@ Point class.
 
 <a id="Point.Location"></a>
 
-### *property* Point.Location *: System.Collections.Generic.IList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Point.Location *: List[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The location of the Point.
 
@@ -50,7 +50,7 @@ The location of the Point.
 
 <a id="Point.Unit"></a>
 
-### *property* Point.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Point.Unit *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The length unit of the Point.
 
@@ -62,7 +62,7 @@ The length unit of the Point.
 
 <a id="Point.ConvertUnit"></a>
 
-### *classmethod* Point.ConvertUnit(inPoint: [Ansys.Mechanical.Graphics.Point](../../../../v242/Ansys/Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Point), outputUnit: System.String)
+### *classmethod* Point.ConvertUnit(inPoint: [Ansys.Mechanical.Graphics.Point](#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point), outputUnit: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Returns a new Point given new unit.
 
@@ -70,7 +70,7 @@ Returns a new Point given new unit.
 
 <a id="Point.Equals"></a>
 
-### Point.Equals(o: System.Object)
+### Point.Equals(o: Any)
 
 Object.Equals(object o) override
 
@@ -86,7 +86,7 @@ Object.GetHashCode() override
 
 <a id="Point.op_Equality"></a>
 
-### *classmethod* Point.op_Equality(a: [Ansys.Mechanical.Graphics.Point](../../../../v242/Ansys/Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Point), b: [Ansys.Mechanical.Graphics.Point](../../../../v242/Ansys/Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Point))
+### *classmethod* Point.op_Equality(a: [Ansys.Mechanical.Graphics.Point](#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point), b: [Ansys.Mechanical.Graphics.Point](#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point))
 
 Equal operator
 
@@ -94,7 +94,7 @@ Equal operator
 
 <a id="Point.op_Inequality"></a>
 
-### *classmethod* Point.op_Inequality(a: [Ansys.Mechanical.Graphics.Point](../../../../v242/Ansys/Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Point), b: [Ansys.Mechanical.Graphics.Point](../../../../v242/Ansys/Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Point))
+### *classmethod* Point.op_Inequality(a: [Ansys.Mechanical.Graphics.Point](#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point), b: [Ansys.Mechanical.Graphics.Point](#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point))
 
 Not-Equal operator
 

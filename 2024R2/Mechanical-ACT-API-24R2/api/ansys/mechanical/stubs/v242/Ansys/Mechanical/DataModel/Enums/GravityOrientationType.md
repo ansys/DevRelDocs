@@ -17,7 +17,7 @@ Specifies the GravityOrientationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------ |
 | [`NegativeXAxis`](#GravityOrientationType.NegativeXAxis) |
 | [`NegativeYAxis`](#GravityOrientationType.NegativeYAxis) |
 | [`NegativeZAxis`](#GravityOrientationType.NegativeZAxis) |

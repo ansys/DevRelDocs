@@ -17,7 +17,7 @@ Specifies the BodyTreatment.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------- |
 | [`ConstructionBody`](#BodyTreatment.ConstructionBody) |
 | [`None_`](#BodyTreatment.None_) |
 

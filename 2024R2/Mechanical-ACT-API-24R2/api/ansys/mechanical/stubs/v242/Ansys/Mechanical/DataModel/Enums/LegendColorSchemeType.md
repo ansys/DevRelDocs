@@ -17,7 +17,7 @@ Specifies the Legend Color Scheme type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`GrayScale`](#LegendColorSchemeType.GrayScale) |
 | [`Rainbow`](#LegendColorSchemeType.Rainbow) |
 | [`ReverseGrayScale`](#LegendColorSchemeType.ReverseGrayScale) |

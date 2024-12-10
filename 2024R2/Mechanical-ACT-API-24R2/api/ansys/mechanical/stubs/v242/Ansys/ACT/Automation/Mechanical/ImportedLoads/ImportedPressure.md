@@ -139,7 +139,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedPressure.Children"></a>
 
-### *property* ImportedPressure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -147,7 +147,7 @@ Gets the list of children.
 
 <a id="ImportedPressure.Comments"></a>
 
-### *property* ImportedPressure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -155,7 +155,7 @@ Gets the list of associated comments.
 
 <a id="ImportedPressure.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedPressure.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -163,7 +163,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedPressure.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedPressure.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -171,7 +171,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedPressure.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedPressure.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -187,7 +187,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedPressure.DisplayInteriorPoints"></a>
 
-### *property* ImportedPressure.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -195,7 +195,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedPressure.DisplayProjectionPlane"></a>
 
-### *property* ImportedPressure.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -203,7 +203,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedPressure.DisplaySourcePointIds"></a>
 
-### *property* ImportedPressure.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -211,7 +211,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedPressure.DisplaySourcePoints"></a>
 
-### *property* ImportedPressure.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -219,7 +219,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedPressure.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedPressure.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -227,7 +227,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedPressure.Figures"></a>
 
-### *property* ImportedPressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -235,7 +235,7 @@ Gets the list of associated figures.
 
 <a id="ImportedPressure.Images"></a>
 
-### *property* ImportedPressure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -299,7 +299,7 @@ LegendRange property.
 
 <a id="ImportedPressure.Limit"></a>
 
-### *property* ImportedPressure.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -315,7 +315,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="ImportedPressure.LoadVectorNumber"></a>
 
-### *property* ImportedPressure.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.LoadVectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorNumber.
 
@@ -323,7 +323,7 @@ Gets or sets the LoadVectorNumber.
 
 <a id="ImportedPressure.LoadVectorNumberImaginary"></a>
 
-### *property* ImportedPressure.LoadVectorNumberImaginary *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.LoadVectorNumberImaginary *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorNumberImaginary.
 
@@ -339,7 +339,7 @@ Gets or sets the Location.
 
 <a id="ImportedPressure.MappedNodesName"></a>
 
-### *property* ImportedPressure.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -379,7 +379,7 @@ Method property.
 
 <a id="ImportedPressure.NumberOfPoints"></a>
 
-### *property* ImportedPressure.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -387,7 +387,7 @@ NumberOfPoints property.
 
 <a id="ImportedPressure.OrientationRealignment"></a>
 
-### *property* ImportedPressure.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -395,7 +395,7 @@ OrientationRealignment property.
 
 <a id="ImportedPressure.OutsideDistanceCheck"></a>
 
-### *property* ImportedPressure.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -403,7 +403,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedPressure.OutsideNodesName"></a>
 
-### *property* ImportedPressure.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -427,7 +427,7 @@ Pinball property.
 
 <a id="ImportedPressure.Projection"></a>
 
-### *property* ImportedPressure.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -435,7 +435,7 @@ Projection property.
 
 <a id="ImportedPressure.Properties"></a>
 
-### *property* ImportedPressure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -451,7 +451,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedPressure.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedPressure.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -459,7 +459,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedPressure.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedPressure.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -467,7 +467,7 @@ RigidTransformTargetCoordinateSystem property.
 
 <a id="ImportedPressure.SharedRefBody"></a>
 
-### *property* ImportedPressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -475,7 +475,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedPressure.ShellThicknessFactor"></a>
 
-### *property* ImportedPressure.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -499,7 +499,7 @@ SourceMinimum property.
 
 <a id="ImportedPressure.Suppressed"></a>
 
-### *property* ImportedPressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -507,7 +507,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedPressure.UnmappedNodesName"></a>
 
-### *property* ImportedPressure.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -523,7 +523,7 @@ VariableType property.
 
 <a id="ImportedPressure.VisibleProperties"></a>
 
-### *property* ImportedPressure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPressure.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -567,7 +567,7 @@ Creates a new child Figure.
 
 <a id="ImportedPressure.AddImage"></a>
 
-### ImportedPressure.AddImage(filePath: System.String)
+### ImportedPressure.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -603,7 +603,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedPressure.CreateParameter"></a>
 
-### ImportedPressure.CreateParameter(propName: System.String)
+### ImportedPressure.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -627,7 +627,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedPressure.ExportToTextFile"></a>
 
-### ImportedPressure.ExportToTextFile(filePath: System.String)
+### ImportedPressure.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -635,7 +635,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedPressure.GetActivateAtLoadStep"></a>
 
-### ImportedPressure.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedPressure.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -643,7 +643,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedPressure.GetChildren"></a>
 
-### ImportedPressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedPressure.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -651,7 +651,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedPressure.GetParameter"></a>
 
-### ImportedPressure.GetParameter(propName: System.String)
+### ImportedPressure.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -691,7 +691,7 @@ Run the ImportLoad action.
 
 <a id="ImportedPressure.PropertyByAPIName"></a>
 
-### ImportedPressure.PropertyByAPIName(name: System.String)
+### ImportedPressure.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -702,7 +702,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedPressure.PropertyByName"></a>
 
-### ImportedPressure.PropertyByName(name: System.String)
+### ImportedPressure.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -718,7 +718,7 @@ Reload the Imported Load’s setup from its associated configuration file (if av
 
 <a id="ImportedPressure.RemoveParameter"></a>
 
-### ImportedPressure.RemoveParameter(propName: System.String)
+### ImportedPressure.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -726,7 +726,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedPressure.SetActivateAtLoadStep"></a>
 
-### ImportedPressure.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedPressure.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

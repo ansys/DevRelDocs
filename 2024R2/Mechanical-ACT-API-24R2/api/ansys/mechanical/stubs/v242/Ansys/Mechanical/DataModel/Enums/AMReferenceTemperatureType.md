@@ -17,7 +17,7 @@ Specifies the AMReferenceTemperatureType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`ProgramControlled`](#AMReferenceTemperatureType.ProgramControlled) |
 | [`UserSpecified`](#AMReferenceTemperatureType.UserSpecified) |
 

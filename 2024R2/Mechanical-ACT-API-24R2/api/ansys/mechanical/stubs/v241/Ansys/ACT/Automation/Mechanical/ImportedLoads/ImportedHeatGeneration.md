@@ -17,7 +17,7 @@ Defines a ImportedHeatGeneration.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ImportedHeatGeneration.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ImportedHeatGeneration.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ImportedHeatGeneration.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -44,7 +44,7 @@ Defines a ImportedHeatGeneration.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`Algorithm`](#ImportedHeatGeneration.Algorithm)                                                       | Algorithm property.                                                                                     |
 | [`ApplyAs`](#ImportedHeatGeneration.ApplyAs)                                                           | This controls how the imported load is applied, either as a boundary condition or an initial condition. |
 | [`BoundingBoxTolerance`](#ImportedHeatGeneration.BoundingBoxTolerance)                                 | BoundingBoxTolerance property.                                                                          |
@@ -102,7 +102,7 @@ Defines a ImportedHeatGeneration.
 
 <a id="ImportedHeatGeneration.Algorithm"></a>
 
-### *property* ImportedHeatGeneration.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Algorithm property.
 
@@ -110,7 +110,7 @@ Algorithm property.
 
 <a id="ImportedHeatGeneration.ApplyAs"></a>
 
-### *property* ImportedHeatGeneration.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This controls how the imported load is applied, either as a boundary condition or an initial condition.
 
@@ -126,7 +126,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedHeatGeneration.Children"></a>
 
-### *property* ImportedHeatGeneration.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -134,7 +134,7 @@ Gets the list of children.
 
 <a id="ImportedHeatGeneration.Comments"></a>
 
-### *property* ImportedHeatGeneration.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -142,7 +142,7 @@ Gets the list of associated comments.
 
 <a id="ImportedHeatGeneration.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedHeatGeneration.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -150,7 +150,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedHeatGeneration.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedHeatGeneration.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -158,7 +158,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedHeatGeneration.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedHeatGeneration.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -166,7 +166,7 @@ CreateNameSelectionForUnmappedNodes property.
 
 <a id="ImportedHeatGeneration.DataModelObjectCategory"></a>
 
-### *property* ImportedHeatGeneration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -174,7 +174,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedHeatGeneration.DisplayInteriorPoints"></a>
 
-### *property* ImportedHeatGeneration.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -182,7 +182,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedHeatGeneration.DisplayProjectionPlane"></a>
 
-### *property* ImportedHeatGeneration.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -190,7 +190,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedHeatGeneration.DisplaySourcePointIds"></a>
 
-### *property* ImportedHeatGeneration.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -198,7 +198,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedHeatGeneration.DisplaySourcePoints"></a>
 
-### *property* ImportedHeatGeneration.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -206,7 +206,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedHeatGeneration.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedHeatGeneration.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -214,7 +214,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedHeatGeneration.Figures"></a>
 
-### *property* ImportedHeatGeneration.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -222,7 +222,7 @@ Gets the list of associated figures.
 
 <a id="ImportedHeatGeneration.Images"></a>
 
-### *property* ImportedHeatGeneration.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -238,7 +238,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedHeatGeneration.Interpolation"></a>
 
-### *property* ImportedHeatGeneration.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Interpolation property.
 
@@ -246,7 +246,7 @@ Interpolation property.
 
 <a id="ImportedHeatGeneration.KrigingCorrelationFunction"></a>
 
-### *property* ImportedHeatGeneration.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingCorrelationFunction property.
 
@@ -254,7 +254,7 @@ KrigingCorrelationFunction property.
 
 <a id="ImportedHeatGeneration.KrigingPolynom"></a>
 
-### *property* ImportedHeatGeneration.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingPolynom property.
 
@@ -278,7 +278,7 @@ LegendMinimum property.
 
 <a id="ImportedHeatGeneration.LegendRange"></a>
 
-### *property* ImportedHeatGeneration.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LegendRange property.
 
@@ -286,7 +286,7 @@ LegendRange property.
 
 <a id="ImportedHeatGeneration.Limit"></a>
 
-### *property* ImportedHeatGeneration.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -302,7 +302,7 @@ Gets or sets the Location.
 
 <a id="ImportedHeatGeneration.MappedNodesName"></a>
 
-### *property* ImportedHeatGeneration.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -310,7 +310,7 @@ MappedNodesName property.
 
 <a id="ImportedHeatGeneration.Mapping"></a>
 
-### *property* ImportedHeatGeneration.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Mapping property.
 
@@ -318,7 +318,7 @@ Mapping property.
 
 <a id="ImportedHeatGeneration.MappingControl"></a>
 
-### *property* ImportedHeatGeneration.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappingControl property.
 
@@ -334,7 +334,7 @@ MaxOutsideDistance property.
 
 <a id="ImportedHeatGeneration.Method"></a>
 
-### *property* ImportedHeatGeneration.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Method property.
 
@@ -342,7 +342,7 @@ Method property.
 
 <a id="ImportedHeatGeneration.NumberOfPoints"></a>
 
-### *property* ImportedHeatGeneration.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -350,7 +350,7 @@ NumberOfPoints property.
 
 <a id="ImportedHeatGeneration.OrientationRealignment"></a>
 
-### *property* ImportedHeatGeneration.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -358,7 +358,7 @@ OrientationRealignment property.
 
 <a id="ImportedHeatGeneration.OutsideDistanceCheck"></a>
 
-### *property* ImportedHeatGeneration.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -366,7 +366,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedHeatGeneration.OutsideNodesName"></a>
 
-### *property* ImportedHeatGeneration.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -374,7 +374,7 @@ OutsideNodesName property.
 
 <a id="ImportedHeatGeneration.OutsideOption"></a>
 
-### *property* ImportedHeatGeneration.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideOption property.
 
@@ -398,7 +398,7 @@ Projection property.
 
 <a id="ImportedHeatGeneration.Properties"></a>
 
-### *property* ImportedHeatGeneration.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -406,7 +406,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedHeatGeneration.RigidBodyTransformationType"></a>
 
-### *property* ImportedHeatGeneration.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidBodyTransformationType property.
 
@@ -438,7 +438,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedHeatGeneration.ShellThicknessFactor"></a>
 
-### *property* ImportedHeatGeneration.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -462,7 +462,7 @@ SourceMinimum property.
 
 <a id="ImportedHeatGeneration.Suppressed"></a>
 
-### *property* ImportedHeatGeneration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -470,7 +470,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedHeatGeneration.UnmappedNodesName"></a>
 
-### *property* ImportedHeatGeneration.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -478,7 +478,7 @@ UnmappedNodesName property.
 
 <a id="ImportedHeatGeneration.VariableType"></a>
 
-### *property* ImportedHeatGeneration.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VariableType property.
 
@@ -486,7 +486,7 @@ VariableType property.
 
 <a id="ImportedHeatGeneration.VisibleProperties"></a>
 
-### *property* ImportedHeatGeneration.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -494,7 +494,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ImportedHeatGeneration.Weighting"></a>
 
-### *property* ImportedHeatGeneration.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatGeneration.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Weighting property.
 
@@ -530,7 +530,7 @@ Creates a new child Figure.
 
 <a id="ImportedHeatGeneration.AddImage"></a>
 
-### ImportedHeatGeneration.AddImage(filePath: System.String)
+### ImportedHeatGeneration.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -566,7 +566,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedHeatGeneration.CreateParameter"></a>
 
-### ImportedHeatGeneration.CreateParameter(propName: System.String)
+### ImportedHeatGeneration.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -590,7 +590,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedHeatGeneration.ExportToTextFile"></a>
 
-### ImportedHeatGeneration.ExportToTextFile(filePath: System.String)
+### ImportedHeatGeneration.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -598,7 +598,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedHeatGeneration.GetActivateAtLoadStep"></a>
 
-### ImportedHeatGeneration.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedHeatGeneration.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -606,7 +606,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedHeatGeneration.GetChildren"></a>
 
-### ImportedHeatGeneration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedHeatGeneration.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -614,7 +614,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedHeatGeneration.GetParameter"></a>
 
-### ImportedHeatGeneration.GetParameter(propName: System.String)
+### ImportedHeatGeneration.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -654,7 +654,7 @@ Run the ImportLoad action.
 
 <a id="ImportedHeatGeneration.PropertyByAPIName"></a>
 
-### ImportedHeatGeneration.PropertyByAPIName(name: System.String)
+### ImportedHeatGeneration.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -665,7 +665,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedHeatGeneration.PropertyByName"></a>
 
-### ImportedHeatGeneration.PropertyByName(name: System.String)
+### ImportedHeatGeneration.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -673,7 +673,7 @@ Get a property by its unique name.
 
 <a id="ImportedHeatGeneration.RemoveParameter"></a>
 
-### ImportedHeatGeneration.RemoveParameter(propName: System.String)
+### ImportedHeatGeneration.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -681,7 +681,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedHeatGeneration.SetActivateAtLoadStep"></a>
 
-### ImportedHeatGeneration.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedHeatGeneration.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

@@ -17,7 +17,7 @@ Specifies the PrototypeModelType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------- |
 | [`AxisymmetricShell`](#PrototypeModelType.AxisymmetricShell) |
 | [`Beam`](#PrototypeModelType.Beam) |
 | [`Cable`](#PrototypeModelType.Cable) |

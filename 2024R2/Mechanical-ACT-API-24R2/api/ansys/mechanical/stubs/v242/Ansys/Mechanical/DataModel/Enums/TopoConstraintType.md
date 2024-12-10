@@ -17,7 +17,7 @@ Specifies the TopoConstraintType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------- |
 | [`ManufacturingConstraint`](#TopoConstraintType.ManufacturingConstraint) |
 | [`ResponseConstrain`](#TopoConstraintType.ResponseConstrain) |
 

@@ -17,7 +17,7 @@ Specifies the PilotNodeScopingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`CoordinateSystem`](#PilotNodeScopingType.CoordinateSystem) |
 | [`Point`](#PilotNodeScopingType.Point) |
 

@@ -14,7 +14,7 @@
 
 ## Description
 
-Ansys Mechanical v242 subpackage.
+Ansys Mechanical v242 module.
 
 <!-- !! processed by numpydoc !! -->
 

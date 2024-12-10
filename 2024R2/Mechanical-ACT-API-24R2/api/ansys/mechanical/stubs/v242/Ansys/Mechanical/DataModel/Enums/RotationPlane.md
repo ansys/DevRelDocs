@@ -17,7 +17,7 @@ Specifies the RotationPlane.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------- |
+| ----------------------------------- |
 | [`None_`](#RotationPlane.None_) |
 | [`XY`](#RotationPlane.XY) |
 | [`XZ`](#RotationPlane.XZ) |

@@ -69,7 +69,7 @@ Defines a MappingValidation.
 
 <a id="MappingValidation.ActiveSequence"></a>
 
-### *property* MappingValidation.ActiveSequence *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.ActiveSequence *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActiveSequence.
 
@@ -77,7 +77,7 @@ Gets or sets the ActiveSequence.
 
 <a id="MappingValidation.ActiveSequenceByValue"></a>
 
-### *property* MappingValidation.ActiveSequenceByValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.ActiveSequenceByValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActiveSequenceByValue.
 
@@ -85,7 +85,7 @@ Gets or sets the ActiveSequenceByValue.
 
 <a id="MappingValidation.BoundingTolerance"></a>
 
-### *property* MappingValidation.BoundingTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.BoundingTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundingTolerance.
 
@@ -93,7 +93,7 @@ Gets or sets the BoundingTolerance.
 
 <a id="MappingValidation.Children"></a>
 
-### *property* MappingValidation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -101,7 +101,7 @@ Gets the list of children.
 
 <a id="MappingValidation.Comments"></a>
 
-### *property* MappingValidation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -109,7 +109,7 @@ Gets the list of associated comments.
 
 <a id="MappingValidation.ComplexComponent"></a>
 
-### *property* MappingValidation.ComplexComponent *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.ComplexComponent *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ComplexComponent.
 
@@ -157,7 +157,7 @@ Gets or sets the DisplayDataType.
 
 <a id="MappingValidation.Figures"></a>
 
-### *property* MappingValidation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -165,7 +165,7 @@ Gets the list of associated figures.
 
 <a id="MappingValidation.FileIdentifierIndex"></a>
 
-### *property* MappingValidation.FileIdentifierIndex *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.FileIdentifierIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FileIdentifierIndex.
 
@@ -173,7 +173,7 @@ Gets or sets the FileIdentifierIndex.
 
 <a id="MappingValidation.Images"></a>
 
-### *property* MappingValidation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -205,7 +205,7 @@ IsolineType property.
 
 <a id="MappingValidation.Layer"></a>
 
-### *property* MappingValidation.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -213,7 +213,7 @@ Gets or sets the Layer.
 
 <a id="MappingValidation.LegendDivisions"></a>
 
-### *property* MappingValidation.LegendDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.LegendDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LegendDivisions property.
 
@@ -221,7 +221,7 @@ LegendDivisions property.
 
 <a id="MappingValidation.Properties"></a>
 
-### *property* MappingValidation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -229,7 +229,7 @@ Gets the list of properties for this object.
 
 <a id="MappingValidation.Scale"></a>
 
-### *property* MappingValidation.Scale *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.Scale *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Scale property.
 
@@ -253,7 +253,7 @@ Type property.
 
 <a id="MappingValidation.VisibleProperties"></a>
 
-### *property* MappingValidation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MappingValidation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -289,7 +289,7 @@ Creates a new child Figure.
 
 <a id="MappingValidation.AddImage"></a>
 
-### MappingValidation.AddImage(filePath: System.String)
+### MappingValidation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -309,7 +309,7 @@ Copies all visible properties from this object to another.
 
 <a id="MappingValidation.CreateParameter"></a>
 
-### MappingValidation.CreateParameter(propName: System.String)
+### MappingValidation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -333,7 +333,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MappingValidation.GetChildren"></a>
 
-### MappingValidation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MappingValidation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -341,7 +341,7 @@ Gets the list of children, filtered by type.
 
 <a id="MappingValidation.GetParameter"></a>
 
-### MappingValidation.GetParameter(propName: System.String)
+### MappingValidation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -365,7 +365,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MappingValidation.PropertyByAPIName"></a>
 
-### MappingValidation.PropertyByAPIName(name: System.String)
+### MappingValidation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -376,7 +376,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MappingValidation.PropertyByName"></a>
 
-### MappingValidation.PropertyByName(name: System.String)
+### MappingValidation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -384,7 +384,7 @@ Get a property by its unique name.
 
 <a id="MappingValidation.RemoveParameter"></a>
 
-### MappingValidation.RemoveParameter(propName: System.String)
+### MappingValidation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

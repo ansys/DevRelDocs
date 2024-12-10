@@ -17,7 +17,7 @@ Defines a AcousticFreeSurface.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticFreeSurface.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#AcousticFreeSurface.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#AcousticFreeSurface.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a AcousticFreeSurface.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#AcousticFreeSurface.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#AcousticFreeSurface.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#AcousticFreeSurface.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -58,7 +58,7 @@ Defines a AcousticFreeSurface.
 
 <a id="AcousticFreeSurface.Children"></a>
 
-### *property* AcousticFreeSurface.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -66,7 +66,7 @@ Gets the list of children.
 
 <a id="AcousticFreeSurface.Comments"></a>
 
-### *property* AcousticFreeSurface.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -74,7 +74,7 @@ Gets the list of associated comments.
 
 <a id="AcousticFreeSurface.DataModelObjectCategory"></a>
 
-### *property* AcousticFreeSurface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -82,7 +82,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticFreeSurface.Figures"></a>
 
-### *property* AcousticFreeSurface.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -90,7 +90,7 @@ Gets the list of associated figures.
 
 <a id="AcousticFreeSurface.Images"></a>
 
-### *property* AcousticFreeSurface.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -114,7 +114,7 @@ Gets or sets the Location.
 
 <a id="AcousticFreeSurface.Properties"></a>
 
-### *property* AcousticFreeSurface.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -122,7 +122,7 @@ Gets the list of properties for this object.
 
 <a id="AcousticFreeSurface.ReadOnly"></a>
 
-### *property* AcousticFreeSurface.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -138,7 +138,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticFreeSurface.Suppressed"></a>
 
-### *property* AcousticFreeSurface.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -146,7 +146,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticFreeSurface.VisibleProperties"></a>
 
-### *property* AcousticFreeSurface.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -182,7 +182,7 @@ Creates a new child Figure.
 
 <a id="AcousticFreeSurface.AddImage"></a>
 
-### AcousticFreeSurface.AddImage(filePath: System.String)
+### AcousticFreeSurface.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -202,7 +202,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticFreeSurface.CreateParameter"></a>
 
-### AcousticFreeSurface.CreateParameter(propName: System.String)
+### AcousticFreeSurface.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -226,7 +226,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticFreeSurface.GetChildren"></a>
 
-### AcousticFreeSurface.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticFreeSurface.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -234,7 +234,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticFreeSurface.GetParameter"></a>
 
-### AcousticFreeSurface.GetParameter(propName: System.String)
+### AcousticFreeSurface.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -266,7 +266,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticFreeSurface.PropertyByAPIName"></a>
 
-### AcousticFreeSurface.PropertyByAPIName(name: System.String)
+### AcousticFreeSurface.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -277,7 +277,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticFreeSurface.PropertyByName"></a>
 
-### AcousticFreeSurface.PropertyByName(name: System.String)
+### AcousticFreeSurface.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -285,7 +285,7 @@ Get a property by its unique name.
 
 <a id="AcousticFreeSurface.RemoveParameter"></a>
 
-### AcousticFreeSurface.RemoveParameter(propName: System.String)
+### AcousticFreeSurface.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the Prototype Phase Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------- |
 | [`DefinedByGeometry`](#PhaseType.DefinedByGeometry) |
 | [`LiquidGas`](#PhaseType.LiquidGas) |
 | [`Solid`](#PhaseType.Solid) |

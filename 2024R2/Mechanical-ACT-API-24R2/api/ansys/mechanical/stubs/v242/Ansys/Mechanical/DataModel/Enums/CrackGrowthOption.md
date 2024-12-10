@@ -17,7 +17,7 @@ Specifies the CrackGrowthOption.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`Fatigue`](#CrackGrowthOption.Fatigue) |
 | [`Static`](#CrackGrowthOption.Static) |
 

@@ -17,7 +17,7 @@ Specifies the Topology Optimization Result Show Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------ |
 | [`AllRegions`](#TopologyOptimizationResultShowType.AllRegions) |
 | [`RemovedRegion`](#TopologyOptimizationResultShowType.RemovedRegion) |
 | [`RetainedRegion`](#TopologyOptimizationResultShowType.RetainedRegion) |

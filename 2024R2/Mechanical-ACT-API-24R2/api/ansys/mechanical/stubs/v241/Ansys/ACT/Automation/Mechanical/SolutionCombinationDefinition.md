@@ -54,7 +54,7 @@ SolutionCombinationDefinition class.
 
 <a id="SolutionCombinationDefinition.BaseCaseCount"></a>
 
-### *property* SolutionCombinationDefinition.BaseCaseCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionCombinationDefinition.BaseCaseCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of bases cases
 
@@ -62,7 +62,7 @@ Gets the number of bases cases
 
 <a id="SolutionCombinationDefinition.LoadCombinationCount"></a>
 
-### *property* SolutionCombinationDefinition.LoadCombinationCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionCombinationDefinition.LoadCombinationCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of load combinations
 
@@ -74,7 +74,7 @@ Gets the number of load combinations
 
 <a id="SolutionCombinationDefinition.AddBaseCase"></a>
 
-### SolutionCombinationDefinition.AddBaseCase(name: System.String, analysis: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis), time: System.Double)
+### SolutionCombinationDefinition.AddBaseCase(name: [str](https://docs.python.org/3/library/stdtypes.html#str), analysis: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis), time: [float](https://docs.python.org/3/library/functions.html#float))
 
 Add a BaseCase to the SolutionCombinationDefinition
 
@@ -82,7 +82,7 @@ Add a BaseCase to the SolutionCombinationDefinition
 
 <a id="SolutionCombinationDefinition.AddLoadCombination"></a>
 
-### SolutionCombinationDefinition.AddLoadCombination(name: System.String, type: System.Int32)
+### SolutionCombinationDefinition.AddLoadCombination(name: [str](https://docs.python.org/3/library/stdtypes.html#str), type: [int](https://docs.python.org/3/library/functions.html#int))
 
 Add a LoadCombination to the SolutionCombination Definition
 
@@ -90,7 +90,7 @@ Add a LoadCombination to the SolutionCombination Definition
 
 <a id="SolutionCombinationDefinition.DeleteBaseCase"></a>
 
-### SolutionCombinationDefinition.DeleteBaseCase(index: System.Int32)
+### SolutionCombinationDefinition.DeleteBaseCase(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Delete a BaseCase from the SolutionCombinationDefinition
 
@@ -98,7 +98,7 @@ Delete a BaseCase from the SolutionCombinationDefinition
 
 <a id="SolutionCombinationDefinition.DeleteLoadCombination"></a>
 
-### SolutionCombinationDefinition.DeleteLoadCombination(index: System.Int32)
+### SolutionCombinationDefinition.DeleteLoadCombination(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Delete a LoadCombination from the SolutionCombination Definition
 
@@ -106,7 +106,7 @@ Delete a LoadCombination from the SolutionCombination Definition
 
 <a id="SolutionCombinationDefinition.Export"></a>
 
-### SolutionCombinationDefinition.Export(filepath: System.String)
+### SolutionCombinationDefinition.Export(filepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Export Load Combination Definition data to Comma Separated Value (CSV) files
 
@@ -114,7 +114,7 @@ Export Load Combination Definition data to Comma Separated Value (CSV) files
 
 <a id="SolutionCombinationDefinition.GetBaseCaseAnalysis"></a>
 
-### SolutionCombinationDefinition.GetBaseCaseAnalysis(index: System.Int32)
+### SolutionCombinationDefinition.GetBaseCaseAnalysis(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the BaseCase Analysis property at given index.
 
@@ -122,7 +122,7 @@ Gets the BaseCase Analysis property at given index.
 
 <a id="SolutionCombinationDefinition.GetBaseCaseFrequency"></a>
 
-### SolutionCombinationDefinition.GetBaseCaseFrequency(index: System.Int32)
+### SolutionCombinationDefinition.GetBaseCaseFrequency(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Frequency property from the Base Case at given index
 
@@ -130,7 +130,7 @@ Gets the Frequency property from the Base Case at given index
 
 <a id="SolutionCombinationDefinition.GetBaseCaseName"></a>
 
-### SolutionCombinationDefinition.GetBaseCaseName(index: System.Int32)
+### SolutionCombinationDefinition.GetBaseCaseName(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the BaseCase Name property at given index
 
@@ -138,7 +138,7 @@ Gets the BaseCase Name property at given index
 
 <a id="SolutionCombinationDefinition.GetBaseCasePhaseAngle"></a>
 
-### SolutionCombinationDefinition.GetBaseCasePhaseAngle(index: System.Int32)
+### SolutionCombinationDefinition.GetBaseCasePhaseAngle(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Phase Angle property from the Base Case at given index
 
@@ -146,7 +146,7 @@ Gets the Phase Angle property from the Base Case at given index
 
 <a id="SolutionCombinationDefinition.GetBaseCaseTime"></a>
 
-### SolutionCombinationDefinition.GetBaseCaseTime(index: System.Int32)
+### SolutionCombinationDefinition.GetBaseCaseTime(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Time property from the Base Case at given index
 
@@ -154,7 +154,7 @@ Gets the Time property from the Base Case at given index
 
 <a id="SolutionCombinationDefinition.GetCoefficient"></a>
 
-### SolutionCombinationDefinition.GetCoefficient(LCindex: System.Int32, BCindex: System.Int32)
+### SolutionCombinationDefinition.GetCoefficient(LCindex: [int](https://docs.python.org/3/library/functions.html#int), BCindex: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient property at given LoadCombination index and BaseCase index
 
@@ -162,7 +162,7 @@ Gets the Coefficient property at given LoadCombination index and BaseCase index
 
 <a id="SolutionCombinationDefinition.GetLoadCombinationName"></a>
 
-### SolutionCombinationDefinition.GetLoadCombinationName(index: System.Int32)
+### SolutionCombinationDefinition.GetLoadCombinationName(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the LoadCombination Name property at given index
 
@@ -170,7 +170,7 @@ Gets the LoadCombination Name property at given index
 
 <a id="SolutionCombinationDefinition.GetLoadCombinationType"></a>
 
-### SolutionCombinationDefinition.GetLoadCombinationType(index: System.Int32)
+### SolutionCombinationDefinition.GetLoadCombinationType(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Load Combination Type property at given index
 
@@ -178,7 +178,7 @@ Gets the Load Combination Type property at given index
 
 <a id="SolutionCombinationDefinition.Import"></a>
 
-### SolutionCombinationDefinition.Import(filepath: System.String)
+### SolutionCombinationDefinition.Import(filepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Import Load Combination Definition data from Comma Separated Value (CSV) files
 
@@ -186,7 +186,7 @@ Import Load Combination Definition data from Comma Separated Value (CSV) files
 
 <a id="SolutionCombinationDefinition.SetBaseCaseAnalysis"></a>
 
-### SolutionCombinationDefinition.SetBaseCaseAnalysis(index: System.Int32, analysis: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
+### SolutionCombinationDefinition.SetBaseCaseAnalysis(index: [int](https://docs.python.org/3/library/functions.html#int), analysis: [Ansys.ACT.Automation.Mechanical.Analysis](Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
 
 Sets the BaseCase Analysis property to given index.
 
@@ -194,7 +194,7 @@ Sets the BaseCase Analysis property to given index.
 
 <a id="SolutionCombinationDefinition.SetBaseCaseFrequency"></a>
 
-### SolutionCombinationDefinition.SetBaseCaseFrequency(index: System.Int32, value: System.Double)
+### SolutionCombinationDefinition.SetBaseCaseFrequency(index: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Frequency property to the Base Case at given index
 
@@ -202,7 +202,7 @@ Sets the Frequency property to the Base Case at given index
 
 <a id="SolutionCombinationDefinition.SetBaseCaseName"></a>
 
-### SolutionCombinationDefinition.SetBaseCaseName(index: System.Int32, name: System.String)
+### SolutionCombinationDefinition.SetBaseCaseName(index: [int](https://docs.python.org/3/library/functions.html#int), name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Sets the BaseCase Name property at given index
 
@@ -210,7 +210,7 @@ Sets the BaseCase Name property at given index
 
 <a id="SolutionCombinationDefinition.SetBaseCasePhaseAngle"></a>
 
-### SolutionCombinationDefinition.SetBaseCasePhaseAngle(index: System.Int32, value: System.Double)
+### SolutionCombinationDefinition.SetBaseCasePhaseAngle(index: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Phase Angle property to the Base Case at given index
 
@@ -218,7 +218,7 @@ Sets the Phase Angle property to the Base Case at given index
 
 <a id="SolutionCombinationDefinition.SetBaseCaseTime"></a>
 
-### SolutionCombinationDefinition.SetBaseCaseTime(index: System.Int32, value: System.Double)
+### SolutionCombinationDefinition.SetBaseCaseTime(index: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Time property to the Base Case at given index
 
@@ -226,7 +226,7 @@ Sets the Time property to the Base Case at given index
 
 <a id="SolutionCombinationDefinition.SetCoefficient"></a>
 
-### SolutionCombinationDefinition.SetCoefficient(LCindex: System.Int32, BCindex: System.Int32, value: System.Double)
+### SolutionCombinationDefinition.SetCoefficient(LCindex: [int](https://docs.python.org/3/library/functions.html#int), BCindex: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets  the Coefficient property at given LoadCombination index and BaseCase index
 
@@ -234,7 +234,7 @@ Sets  the Coefficient property at given LoadCombination index and BaseCase index
 
 <a id="SolutionCombinationDefinition.SetLoadCombinationName"></a>
 
-### SolutionCombinationDefinition.SetLoadCombinationName(index: System.Int32, name: System.String)
+### SolutionCombinationDefinition.SetLoadCombinationName(index: [int](https://docs.python.org/3/library/functions.html#int), name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Sets the LoadCombination Name property at given index
 
@@ -242,7 +242,7 @@ Sets the LoadCombination Name property at given index
 
 <a id="SolutionCombinationDefinition.SetLoadCombinationType"></a>
 
-### SolutionCombinationDefinition.SetLoadCombinationType(index: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.LoadCombinationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadCombinationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadCombinationType))
+### SolutionCombinationDefinition.SetLoadCombinationType(index: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.LoadCombinationType](../../../Mechanical/DataModel/Enums/LoadCombinationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadCombinationType))
 
 Sets the Load Combination Type property at given index
 

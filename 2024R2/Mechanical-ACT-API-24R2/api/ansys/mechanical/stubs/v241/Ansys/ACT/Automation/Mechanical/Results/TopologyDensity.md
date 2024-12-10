@@ -77,7 +77,7 @@ Defines a TopologyDensity.
 
 <a id="TopologyDensity.CalculateTimeHistory"></a>
 
-### *property* TopologyDensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -85,7 +85,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="TopologyDensity.Children"></a>
 
-### *property* TopologyDensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -93,7 +93,7 @@ Gets the list of children.
 
 <a id="TopologyDensity.Comments"></a>
 
-### *property* TopologyDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -101,7 +101,7 @@ Gets the list of associated comments.
 
 <a id="TopologyDensity.DataModelObjectCategory"></a>
 
-### *property* TopologyDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -109,7 +109,7 @@ Gets the current DataModelObject’s category.
 
 <a id="TopologyDensity.ExclusionsParticipation"></a>
 
-### *property* TopologyDensity.ExclusionsParticipation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.ExclusionsParticipation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExclusionsParticipation.
 
@@ -117,7 +117,7 @@ Gets or sets the ExclusionsParticipation.
 
 <a id="TopologyDensity.Figures"></a>
 
-### *property* TopologyDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -141,7 +141,7 @@ Gets the FinalVolume.
 
 <a id="TopologyDensity.Images"></a>
 
-### *property* TopologyDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -157,7 +157,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TopologyDensity.IterationNumber"></a>
 
-### *property* TopologyDensity.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -165,7 +165,7 @@ Gets the IterationNumber.
 
 <a id="TopologyDensity.IterationStep"></a>
 
-### *property* TopologyDensity.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -181,7 +181,7 @@ Gets or sets the Location.
 
 <a id="TopologyDensity.Maximum"></a>
 
-### *property* TopologyDensity.Maximum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.Maximum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
@@ -189,7 +189,7 @@ Gets the Maximum.
 
 <a id="TopologyDensity.Minimum"></a>
 
-### *property* TopologyDensity.Minimum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.Minimum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
@@ -213,7 +213,7 @@ Gets the OriginalVolume.
 
 <a id="TopologyDensity.PercentMassOfOriginal"></a>
 
-### *property* TopologyDensity.PercentMassOfOriginal *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.PercentMassOfOriginal *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PercentMassOfOriginal.
 
@@ -221,7 +221,7 @@ Gets the PercentMassOfOriginal.
 
 <a id="TopologyDensity.PercentVolumeOfOriginal"></a>
 
-### *property* TopologyDensity.PercentVolumeOfOriginal *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.PercentVolumeOfOriginal *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PercentVolumeOfOriginal.
 
@@ -229,7 +229,7 @@ Gets the PercentVolumeOfOriginal.
 
 <a id="TopologyDensity.Properties"></a>
 
-### *property* TopologyDensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -237,7 +237,7 @@ Gets the list of properties for this object.
 
 <a id="TopologyDensity.RetainedThreshold"></a>
 
-### *property* TopologyDensity.RetainedThreshold *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.RetainedThreshold *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RetainedThreshold.
 
@@ -245,7 +245,7 @@ Gets or sets the RetainedThreshold.
 
 <a id="TopologyDensity.ScopingMethod"></a>
 
-### *property* TopologyDensity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -253,7 +253,7 @@ Gets or sets the ScopingMethod.
 
 <a id="TopologyDensity.Selection"></a>
 
-### *property* TopologyDensity.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Selection.
 
@@ -261,7 +261,7 @@ Gets or sets the Selection.
 
 <a id="TopologyDensity.ShowOptimizedRegion"></a>
 
-### *property* TopologyDensity.ShowOptimizedRegion *: [Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopologyOptimizationResultShowType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.ShowOptimizedRegion *: [Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType](../../../../Mechanical/DataModel/Enums/TopologyOptimizationResultShowType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowOptimizedRegion.
 
@@ -269,7 +269,7 @@ Gets or sets the ShowOptimizedRegion.
 
 <a id="TopologyDensity.Suppressed"></a>
 
-### *property* TopologyDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -277,7 +277,7 @@ Gets or sets the Suppressed.
 
 <a id="TopologyDensity.VisibleProperties"></a>
 
-### *property* TopologyDensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopologyDensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -313,7 +313,7 @@ Creates a new child Figure.
 
 <a id="TopologyDensity.AddImage"></a>
 
-### TopologyDensity.AddImage(filePath: System.String)
+### TopologyDensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -349,7 +349,7 @@ Copies all visible properties from this object to another.
 
 <a id="TopologyDensity.CreateParameter"></a>
 
-### TopologyDensity.CreateParameter(propName: System.String)
+### TopologyDensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -381,7 +381,7 @@ Run the EvaluateAllResults action.
 
 <a id="TopologyDensity.ExportAnimation"></a>
 
-### TopologyDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TopologyDensity.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -389,7 +389,7 @@ Run the ExportAnimation action.
 
 <a id="TopologyDensity.GetChildren"></a>
 
-### TopologyDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TopologyDensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -397,7 +397,7 @@ Gets the list of children, filtered by type.
 
 <a id="TopologyDensity.GetParameter"></a>
 
-### TopologyDensity.GetParameter(propName: System.String)
+### TopologyDensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -429,7 +429,7 @@ Run the InsertSmoothing action.
 
 <a id="TopologyDensity.PropertyByAPIName"></a>
 
-### TopologyDensity.PropertyByAPIName(name: System.String)
+### TopologyDensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -440,7 +440,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TopologyDensity.PropertyByName"></a>
 
-### TopologyDensity.PropertyByName(name: System.String)
+### TopologyDensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -448,7 +448,7 @@ Get a property by its unique name.
 
 <a id="TopologyDensity.RemoveParameter"></a>
 
-### TopologyDensity.RemoveParameter(propName: System.String)
+### TopologyDensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

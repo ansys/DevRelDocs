@@ -17,7 +17,7 @@ Specifies the SymmetryBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------ |
 | [`Coupled`](#SymmetryBehavior.Coupled) |
 | [`Free`](#SymmetryBehavior.Free) |
 

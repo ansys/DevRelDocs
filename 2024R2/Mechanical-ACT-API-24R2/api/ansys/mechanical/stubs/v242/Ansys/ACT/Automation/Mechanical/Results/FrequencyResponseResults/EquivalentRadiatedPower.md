@@ -17,7 +17,7 @@ Defines a EquivalentRadiatedPower.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#EquivalentRadiatedPower.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#EquivalentRadiatedPower.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#EquivalentRadiatedPower.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a EquivalentRadiatedPower.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#EquivalentRadiatedPower.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#EquivalentRadiatedPower.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#EquivalentRadiatedPower.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -59,7 +59,7 @@ Defines a EquivalentRadiatedPower.
 | [`CrackFrontNumber`](#EquivalentRadiatedPower.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
 | [`DataModelObjectCategory`](#EquivalentRadiatedPower.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
 | [`DisplayOption`](#EquivalentRadiatedPower.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DisplayPanel`](#EquivalentRadiatedPower.DisplayPanel)                                                                                                                                                                | Gets or sets the DisplayPanel.                                         |
+| [`DisplayPanel`](#EquivalentRadiatedPower.DisplayPanel)                                           | Gets or sets the DisplayPanel.                                         |
 | [`DisplayTime`](#EquivalentRadiatedPower.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
 | [`DpfEvaluation`](#EquivalentRadiatedPower.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
 | [`Figures`](#EquivalentRadiatedPower.Figures)                                                     | Gets the list of associated figures.                                   |
@@ -90,8 +90,8 @@ Defines a EquivalentRadiatedPower.
 | [`MinimumOfMaximumOverTime`](#EquivalentRadiatedPower.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
 | [`MinimumOfMinimumOverTime`](#EquivalentRadiatedPower.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
 | [`NamedSelections`](#EquivalentRadiatedPower.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`PanelContribution`](#EquivalentRadiatedPower.PanelContribution)                                                                                                                                                      | Gets or sets the PanelContribution.                                    |
-| [`PanelsToDisplay`](#EquivalentRadiatedPower.PanelsToDisplay)                                                                                                                                                          | Gets or sets the PanelsToDisplay.                                      |
+| [`PanelContribution`](#EquivalentRadiatedPower.PanelContribution)                                 | Gets or sets the PanelContribution.                                    |
+| [`PanelsToDisplay`](#EquivalentRadiatedPower.PanelsToDisplay)                                     | Gets or sets the PanelsToDisplay.                                      |
 | [`Path`](#EquivalentRadiatedPower.Path)                                                           | Path property.                                                         |
 | [`PlotData`](#EquivalentRadiatedPower.PlotData)                                                   | Gets the result table.                                                 |
 | [`Properties`](#EquivalentRadiatedPower.Properties)                                               | Gets the list of properties for this object.                           |
@@ -102,14 +102,14 @@ Defines a EquivalentRadiatedPower.
 | [`Substep`](#EquivalentRadiatedPower.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#EquivalentRadiatedPower.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#EquivalentRadiatedPower.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#EquivalentRadiatedPower.SurfaceCoating)                                                                                                                                                            | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#EquivalentRadiatedPower.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#EquivalentRadiatedPower.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#EquivalentRadiatedPower.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#EquivalentRadiatedPower.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#EquivalentRadiatedPower.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#EquivalentRadiatedPower.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#EquivalentRadiatedPower.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#EquivalentRadiatedPower.WaterfallShowTextOnMosaic)                                                                                                                                      | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#EquivalentRadiatedPower.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -133,7 +133,7 @@ Gets or sets the By.
 
 <a id="EquivalentRadiatedPower.CalculateTimeHistory"></a>
 
-### *property* EquivalentRadiatedPower.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -141,7 +141,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="EquivalentRadiatedPower.Children"></a>
 
-### *property* EquivalentRadiatedPower.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -149,7 +149,7 @@ Gets the list of children.
 
 <a id="EquivalentRadiatedPower.CombinationNumber"></a>
 
-### *property* EquivalentRadiatedPower.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -157,7 +157,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="EquivalentRadiatedPower.Comments"></a>
 
-### *property* EquivalentRadiatedPower.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -165,7 +165,7 @@ Gets the list of associated comments.
 
 <a id="EquivalentRadiatedPower.CoordinateSystem"></a>
 
-### *property* EquivalentRadiatedPower.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -175,7 +175,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="EquivalentRadiatedPower.CrackFrontNumber"></a>
 
-### *property* EquivalentRadiatedPower.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -199,7 +199,7 @@ Gets or sets the DisplayOption.
 
 <a id="EquivalentRadiatedPower.DisplayPanel"></a>
 
-### *property* EquivalentRadiatedPower.DisplayPanel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.DisplayPanel *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayPanel.
 
@@ -223,7 +223,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="EquivalentRadiatedPower.Figures"></a>
 
-### *property* EquivalentRadiatedPower.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -231,7 +231,7 @@ Gets the list of associated figures.
 
 <a id="EquivalentRadiatedPower.FrequencyRange"></a>
 
-### *property* EquivalentRadiatedPower.FrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.FrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencyRange.
 
@@ -239,7 +239,7 @@ Gets or sets the FrequencyRange.
 
 <a id="EquivalentRadiatedPower.GlobalIDs"></a>
 
-### *property* EquivalentRadiatedPower.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -255,7 +255,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="EquivalentRadiatedPower.Identifier"></a>
 
-### *property* EquivalentRadiatedPower.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -263,7 +263,7 @@ Gets or sets the Identifier.
 
 <a id="EquivalentRadiatedPower.Images"></a>
 
-### *property* EquivalentRadiatedPower.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -279,7 +279,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EquivalentRadiatedPower.IsSolved"></a>
 
-### *property* EquivalentRadiatedPower.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -295,7 +295,7 @@ Gets or sets the ItemType.
 
 <a id="EquivalentRadiatedPower.IterationNumber"></a>
 
-### *property* EquivalentRadiatedPower.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -303,7 +303,7 @@ Gets the IterationNumber.
 
 <a id="EquivalentRadiatedPower.LoadStep"></a>
 
-### *property* EquivalentRadiatedPower.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -311,7 +311,7 @@ Gets the LoadStep.
 
 <a id="EquivalentRadiatedPower.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* EquivalentRadiatedPower.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -319,7 +319,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="EquivalentRadiatedPower.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* EquivalentRadiatedPower.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -327,7 +327,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="EquivalentRadiatedPower.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* EquivalentRadiatedPower.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -335,7 +335,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="EquivalentRadiatedPower.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* EquivalentRadiatedPower.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -343,7 +343,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="EquivalentRadiatedPower.LoadStepNumber"></a>
 
-### *property* EquivalentRadiatedPower.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -375,7 +375,7 @@ Gets or sets the MaximumFrequency.
 
 <a id="EquivalentRadiatedPower.MaximumOccursOn"></a>
 
-### *property* EquivalentRadiatedPower.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -415,7 +415,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="EquivalentRadiatedPower.MinimumOccursOn"></a>
 
-### *property* EquivalentRadiatedPower.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -439,7 +439,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="EquivalentRadiatedPower.NamedSelections"></a>
 
-### *property* EquivalentRadiatedPower.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -447,7 +447,7 @@ Gets or sets the NamedSelections.
 
 <a id="EquivalentRadiatedPower.PanelContribution"></a>
 
-### *property* EquivalentRadiatedPower.PanelContribution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.PanelContribution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelContribution.
 
@@ -455,7 +455,7 @@ Gets or sets the PanelContribution.
 
 <a id="EquivalentRadiatedPower.PanelsToDisplay"></a>
 
-### *property* EquivalentRadiatedPower.PanelsToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.PanelsToDisplay *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelsToDisplay.
 
@@ -479,7 +479,7 @@ Gets the result table.
 
 <a id="EquivalentRadiatedPower.Properties"></a>
 
-### *property* EquivalentRadiatedPower.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -495,7 +495,7 @@ Gets or sets the ScopingMethod.
 
 <a id="EquivalentRadiatedPower.SetNumber"></a>
 
-### *property* EquivalentRadiatedPower.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -511,7 +511,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="EquivalentRadiatedPower.SolverComponentIDs"></a>
 
-### *property* EquivalentRadiatedPower.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -519,7 +519,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="EquivalentRadiatedPower.Substep"></a>
 
-### *property* EquivalentRadiatedPower.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -527,7 +527,7 @@ Gets the Substep.
 
 <a id="EquivalentRadiatedPower.Suppressed"></a>
 
-### *property* EquivalentRadiatedPower.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -591,7 +591,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="EquivalentRadiatedPower.VisibleProperties"></a>
 
-### *property* EquivalentRadiatedPower.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -599,7 +599,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EquivalentRadiatedPower.WaterfallShowTextOnMosaic"></a>
 
-### *property* EquivalentRadiatedPower.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPower.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -651,7 +651,7 @@ Creates a new child Figure.
 
 <a id="EquivalentRadiatedPower.AddImage"></a>
 
-### EquivalentRadiatedPower.AddImage(filePath: System.String)
+### EquivalentRadiatedPower.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -679,7 +679,7 @@ Copies all visible properties from this object to another.
 
 <a id="EquivalentRadiatedPower.CreateParameter"></a>
 
-### EquivalentRadiatedPower.CreateParameter(propName: System.String)
+### EquivalentRadiatedPower.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -727,7 +727,7 @@ Run the EvaluateAllResults action.
 
 <a id="EquivalentRadiatedPower.ExportAnimation"></a>
 
-### EquivalentRadiatedPower.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### EquivalentRadiatedPower.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -735,7 +735,7 @@ Run the ExportAnimation action.
 
 <a id="EquivalentRadiatedPower.ExportToTextFile"></a>
 
-### EquivalentRadiatedPower.ExportToTextFile(filePath: System.String)
+### EquivalentRadiatedPower.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -751,7 +751,7 @@ Run the FetchRemoteResult action.
 
 <a id="EquivalentRadiatedPower.GetChildren"></a>
 
-### EquivalentRadiatedPower.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EquivalentRadiatedPower.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -759,7 +759,7 @@ Gets the list of children, filtered by type.
 
 <a id="EquivalentRadiatedPower.GetParameter"></a>
 
-### EquivalentRadiatedPower.GetParameter(propName: System.String)
+### EquivalentRadiatedPower.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -791,7 +791,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="EquivalentRadiatedPower.PropertyByAPIName"></a>
 
-### EquivalentRadiatedPower.PropertyByAPIName(name: System.String)
+### EquivalentRadiatedPower.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -802,7 +802,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EquivalentRadiatedPower.PropertyByName"></a>
 
-### EquivalentRadiatedPower.PropertyByName(name: System.String)
+### EquivalentRadiatedPower.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -810,7 +810,7 @@ Get a property by its unique name.
 
 <a id="EquivalentRadiatedPower.RemoveParameter"></a>
 
-### EquivalentRadiatedPower.RemoveParameter(propName: System.String)
+### EquivalentRadiatedPower.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

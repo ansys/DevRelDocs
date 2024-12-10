@@ -28,7 +28,7 @@ Represents a RLBLOCK command.
 
 <a id="RLBlockCommand.Index"></a>
 
-### *property* RLBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RLBlockCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -36,7 +36,7 @@ Gets the command index.
 
 <a id="RLBlockCommand.Name"></a>
 
-### *property* RLBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RLBlockCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -44,7 +44,7 @@ Gets the command name.
 
 <a id="RLBlockCommand.Reals"></a>
 
-### *property* RLBlockCommand.Reals *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandReal.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RLBlockCommand.Reals *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal](CommandReal.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the real constant sets.
 

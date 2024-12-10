@@ -17,7 +17,7 @@ Specifies the CriterionFrequencyRangeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------- |
 | [`Manual`](#CriterionFrequencyRangeType.Manual) |
 | [`UseParent`](#CriterionFrequencyRangeType.UseParent) |
 

@@ -28,7 +28,7 @@ T:Ansys.Mechanical.ExternalData.MAPDLImportSettings defines how to import extern
 
 <a id="MAPDLImportSettings.Dimension"></a>
 
-### *property* MAPDLImportSettings.Dimension *: [Ansys.Mechanical.DataModel.Enums.SourceDimension](../../../../v242/Ansys/Mechanical/DataModel/Enums/SourceDimension.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SourceDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLImportSettings.Dimension *: [Ansys.Mechanical.DataModel.Enums.SourceDimension](../DataModel/Enums/SourceDimension.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The dimension of the MAPDL CDB file.
 
@@ -36,7 +36,7 @@ The dimension of the MAPDL CDB file.
 
 <a id="MAPDLImportSettings.Format"></a>
 
-### *property* MAPDLImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 
@@ -44,7 +44,7 @@ Gets the existing corresponding format.
 
 <a id="MAPDLImportSettings.LengthUnit"></a>
 
-### *property* MAPDLImportSettings.LengthUnit *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit](../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/LengthUnit.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLImportSettings.LengthUnit *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit](../DataModel/MechanicalEnums/ExternalData/LengthUnit.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The length unit of the MAPDL CDB file.
 

@@ -17,7 +17,7 @@ Defines a SemiEllipticalCrack.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#SemiEllipticalCrack.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#SemiEllipticalCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#SemiEllipticalCrack.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a SemiEllipticalCrack.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AlignWithFaceNormal`](#SemiEllipticalCrack.AlignWithFaceNormal)               | Gets or sets the AlignWithFaceNormal.                         |
 | [`BottomFaceNodes`](#SemiEllipticalCrack.BottomFaceNodes)                       | Gets or sets the BottomFaceNodes.                             |
 | [`Children`](#SemiEllipticalCrack.Children)                                     | Gets the list of children.                                    |
@@ -85,7 +85,7 @@ Defines a SemiEllipticalCrack.
 
 <a id="SemiEllipticalCrack.AlignWithFaceNormal"></a>
 
-### *property* SemiEllipticalCrack.AlignWithFaceNormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.AlignWithFaceNormal *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AlignWithFaceNormal.
 
@@ -93,7 +93,7 @@ Gets or sets the AlignWithFaceNormal.
 
 <a id="SemiEllipticalCrack.BottomFaceNodes"></a>
 
-### *property* SemiEllipticalCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.BottomFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomFaceNodes.
 
@@ -101,7 +101,7 @@ Gets or sets the BottomFaceNodes.
 
 <a id="SemiEllipticalCrack.Children"></a>
 
-### *property* SemiEllipticalCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -109,7 +109,7 @@ Gets the list of children.
 
 <a id="SemiEllipticalCrack.CircumferentialDivisions"></a>
 
-### *property* SemiEllipticalCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.CircumferentialDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CircumferentialDivisions.
 
@@ -117,7 +117,7 @@ Gets or sets the CircumferentialDivisions.
 
 <a id="SemiEllipticalCrack.Comments"></a>
 
-### *property* SemiEllipticalCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -125,7 +125,7 @@ Gets the list of associated comments.
 
 <a id="SemiEllipticalCrack.Contact1Nodes"></a>
 
-### *property* SemiEllipticalCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.Contact1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Contact1Nodes.
 
@@ -133,7 +133,7 @@ Gets or sets the Contact1Nodes.
 
 <a id="SemiEllipticalCrack.ContactPairsNodes"></a>
 
-### *property* SemiEllipticalCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.ContactPairsNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactPairsNodes.
 
@@ -141,7 +141,7 @@ Gets or sets the ContactPairsNodes.
 
 <a id="SemiEllipticalCrack.CoordinateSystem"></a>
 
-### *property* SemiEllipticalCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -149,7 +149,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="SemiEllipticalCrack.CrackFacesNodes"></a>
 
-### *property* SemiEllipticalCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.CrackFacesNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFacesNodes.
 
@@ -157,7 +157,7 @@ Gets or sets the CrackFacesNodes.
 
 <a id="SemiEllipticalCrack.CrackFrontDivisions"></a>
 
-### *property* SemiEllipticalCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.CrackFrontDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontDivisions.
 
@@ -165,7 +165,7 @@ Gets or sets the CrackFrontDivisions.
 
 <a id="SemiEllipticalCrack.CrackFrontNodes"></a>
 
-### *property* SemiEllipticalCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.CrackFrontNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNodes.
 
@@ -173,7 +173,7 @@ Gets or sets the CrackFrontNodes.
 
 <a id="SemiEllipticalCrack.CrackID"></a>
 
-### *property* SemiEllipticalCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.CrackID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackID.
 
@@ -213,7 +213,7 @@ Gets the current DataModelObject’s category.
 
 <a id="SemiEllipticalCrack.Figures"></a>
 
-### *property* SemiEllipticalCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -245,7 +245,7 @@ Gets or sets the FrontElementSize.
 
 <a id="SemiEllipticalCrack.GrowthRate"></a>
 
-### *property* SemiEllipticalCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -253,7 +253,7 @@ Gets or sets the GrowthRate.
 
 <a id="SemiEllipticalCrack.Images"></a>
 
-### *property* SemiEllipticalCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -293,7 +293,7 @@ Gets or sets the MajorRadius.
 
 <a id="SemiEllipticalCrack.MeshContours"></a>
 
-### *property* SemiEllipticalCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.MeshContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshContours.
 
@@ -309,7 +309,7 @@ Gets or sets the MinorRadius.
 
 <a id="SemiEllipticalCrack.ProjectToNearestSurface"></a>
 
-### *property* SemiEllipticalCrack.ProjectToNearestSurface *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.ProjectToNearestSurface *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProjectToNearestSurface.
 
@@ -317,7 +317,7 @@ Gets or sets the ProjectToNearestSurface.
 
 <a id="SemiEllipticalCrack.Properties"></a>
 
-### *property* SemiEllipticalCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -325,7 +325,7 @@ Gets the list of properties for this object.
 
 <a id="SemiEllipticalCrack.ReadOnly"></a>
 
-### *property* SemiEllipticalCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -333,7 +333,7 @@ Gets or sets the ReadOnly.
 
 <a id="SemiEllipticalCrack.SolutionContours"></a>
 
-### *property* SemiEllipticalCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.SolutionContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionContours.
 
@@ -341,7 +341,7 @@ Gets or sets the SolutionContours.
 
 <a id="SemiEllipticalCrack.Suppressed"></a>
 
-### *property* SemiEllipticalCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -349,7 +349,7 @@ Gets or sets the Suppressed.
 
 <a id="SemiEllipticalCrack.Target1Nodes"></a>
 
-### *property* SemiEllipticalCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.Target1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Target1Nodes.
 
@@ -357,7 +357,7 @@ Gets or sets the Target1Nodes.
 
 <a id="SemiEllipticalCrack.TopFaceNodes"></a>
 
-### *property* SemiEllipticalCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.TopFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TopFaceNodes.
 
@@ -365,7 +365,7 @@ Gets or sets the TopFaceNodes.
 
 <a id="SemiEllipticalCrack.VisibleProperties"></a>
 
-### *property* SemiEllipticalCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -373,7 +373,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="SemiEllipticalCrack.XScaleFactor"></a>
 
-### *property* SemiEllipticalCrack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.XScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XScaleFactor.
 
@@ -381,7 +381,7 @@ Gets or sets the XScaleFactor.
 
 <a id="SemiEllipticalCrack.YScaleFactor"></a>
 
-### *property* SemiEllipticalCrack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.YScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YScaleFactor.
 
@@ -389,7 +389,7 @@ Gets or sets the YScaleFactor.
 
 <a id="SemiEllipticalCrack.ZScaleFactor"></a>
 
-### *property* SemiEllipticalCrack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SemiEllipticalCrack.ZScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZScaleFactor.
 
@@ -433,7 +433,7 @@ Creates a new child Figure.
 
 <a id="SemiEllipticalCrack.AddImage"></a>
 
-### SemiEllipticalCrack.AddImage(filePath: System.String)
+### SemiEllipticalCrack.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -453,7 +453,7 @@ Copies all visible properties from this object to another.
 
 <a id="SemiEllipticalCrack.CreateParameter"></a>
 
-### SemiEllipticalCrack.CreateParameter(propName: System.String)
+### SemiEllipticalCrack.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -477,7 +477,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="SemiEllipticalCrack.GetChildren"></a>
 
-### SemiEllipticalCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### SemiEllipticalCrack.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -485,7 +485,7 @@ Gets the list of children, filtered by type.
 
 <a id="SemiEllipticalCrack.GetParameter"></a>
 
-### SemiEllipticalCrack.GetParameter(propName: System.String)
+### SemiEllipticalCrack.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -509,7 +509,7 @@ Run the GroupSimilarObjects action.
 
 <a id="SemiEllipticalCrack.PropertyByAPIName"></a>
 
-### SemiEllipticalCrack.PropertyByAPIName(name: System.String)
+### SemiEllipticalCrack.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -520,7 +520,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="SemiEllipticalCrack.PropertyByName"></a>
 
-### SemiEllipticalCrack.PropertyByName(name: System.String)
+### SemiEllipticalCrack.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -528,7 +528,7 @@ Get a property by its unique name.
 
 <a id="SemiEllipticalCrack.RemoveParameter"></a>
 
-### SemiEllipticalCrack.RemoveParameter(propName: System.String)
+### SemiEllipticalCrack.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

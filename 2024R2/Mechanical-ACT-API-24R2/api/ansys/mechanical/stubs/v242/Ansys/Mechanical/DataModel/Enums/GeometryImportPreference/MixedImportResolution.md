@@ -18,7 +18,7 @@ of assemblies which have parts of different dimension.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------- |
 | [`Line`](#MixedImportResolution.Line) |
 | [`None_`](#MixedImportResolution.None_) |
 | [`Solid`](#MixedImportResolution.Solid) |

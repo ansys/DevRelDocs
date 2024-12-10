@@ -101,7 +101,7 @@ Defines a FractureEquivalentSIFSRangeProbe.
 
 <a id="FractureEquivalentSIFSRangeProbe.ActiveContour"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.ActiveContour *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.ActiveContour *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActiveContour.
 
@@ -125,7 +125,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="FractureEquivalentSIFSRangeProbe.Children"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -133,7 +133,7 @@ Gets the list of children.
 
 <a id="FractureEquivalentSIFSRangeProbe.Comments"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -157,7 +157,7 @@ Gets or sets the CoordinateSystemSelection.
 
 <a id="FractureEquivalentSIFSRangeProbe.CrackLengthPercentage"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.CrackLengthPercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.CrackLengthPercentage *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackLengthPercentage.
 
@@ -165,7 +165,7 @@ Gets or sets the CrackLengthPercentage.
 
 <a id="FractureEquivalentSIFSRangeProbe.DataModelObjectCategory"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -181,7 +181,7 @@ Gets or sets the DisplayTime.
 
 <a id="FractureEquivalentSIFSRangeProbe.DpfEvaluation"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -189,7 +189,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="FractureEquivalentSIFSRangeProbe.Figures"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -205,7 +205,7 @@ Gets or sets the GeometryLocation.
 
 <a id="FractureEquivalentSIFSRangeProbe.Images"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -221,7 +221,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FractureEquivalentSIFSRangeProbe.IsSolved"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -229,7 +229,7 @@ Gets the IsSolved.
 
 <a id="FractureEquivalentSIFSRangeProbe.IterationNumber"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -237,7 +237,7 @@ Gets the IterationNumber.
 
 <a id="FractureEquivalentSIFSRangeProbe.LoadStep"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -245,7 +245,7 @@ Gets the LoadStep.
 
 <a id="FractureEquivalentSIFSRangeProbe.LoadStepNumber"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -253,7 +253,7 @@ Gets or sets the LoadStepNumber.
 
 <a id="FractureEquivalentSIFSRangeProbe.LocationMethod"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
@@ -357,7 +357,7 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <a id="FractureEquivalentSIFSRangeProbe.Properties"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -365,7 +365,7 @@ Gets the list of properties for this object.
 
 <a id="FractureEquivalentSIFSRangeProbe.RemotePointSelection"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -381,7 +381,7 @@ Gets the ResultProbeValue.
 
 <a id="FractureEquivalentSIFSRangeProbe.ResultSelection"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultSelection.
 
@@ -389,7 +389,7 @@ Gets or sets the ResultSelection.
 
 <a id="FractureEquivalentSIFSRangeProbe.SolverID"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.SolverID *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.SolverID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverID.
 
@@ -397,7 +397,7 @@ Gets or sets the SolverID.
 
 <a id="FractureEquivalentSIFSRangeProbe.SpatialResolution"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -413,7 +413,7 @@ Gets or sets the SpringSelection.
 
 <a id="FractureEquivalentSIFSRangeProbe.Substep"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -421,7 +421,7 @@ Gets the Substep.
 
 <a id="FractureEquivalentSIFSRangeProbe.Summation"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Summation.
 
@@ -429,7 +429,7 @@ Gets or sets the Summation.
 
 <a id="FractureEquivalentSIFSRangeProbe.Suppressed"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -437,7 +437,7 @@ Gets or sets the Suppressed.
 
 <a id="FractureEquivalentSIFSRangeProbe.SurfaceSelection"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -461,7 +461,7 @@ Gets the Total.
 
 <a id="FractureEquivalentSIFSRangeProbe.Type"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -469,7 +469,7 @@ Gets the Type.
 
 <a id="FractureEquivalentSIFSRangeProbe.VisibleProperties"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -529,7 +529,7 @@ Creates a new child Figure.
 
 <a id="FractureEquivalentSIFSRangeProbe.AddImage"></a>
 
-### FractureEquivalentSIFSRangeProbe.AddImage(filePath: System.String)
+### FractureEquivalentSIFSRangeProbe.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -557,7 +557,7 @@ Copies all visible properties from this object to another.
 
 <a id="FractureEquivalentSIFSRangeProbe.CreateParameter"></a>
 
-### FractureEquivalentSIFSRangeProbe.CreateParameter(propName: System.String)
+### FractureEquivalentSIFSRangeProbe.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -597,7 +597,7 @@ Run the EvaluateAllResults action.
 
 <a id="FractureEquivalentSIFSRangeProbe.ExportAnimation"></a>
 
-### FractureEquivalentSIFSRangeProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FractureEquivalentSIFSRangeProbe.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -605,7 +605,7 @@ Run the ExportAnimation action.
 
 <a id="FractureEquivalentSIFSRangeProbe.GetChildren"></a>
 
-### FractureEquivalentSIFSRangeProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FractureEquivalentSIFSRangeProbe.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -613,7 +613,7 @@ Gets the list of children, filtered by type.
 
 <a id="FractureEquivalentSIFSRangeProbe.GetParameter"></a>
 
-### FractureEquivalentSIFSRangeProbe.GetParameter(propName: System.String)
+### FractureEquivalentSIFSRangeProbe.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -637,7 +637,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FractureEquivalentSIFSRangeProbe.PropertyByAPIName"></a>
 
-### FractureEquivalentSIFSRangeProbe.PropertyByAPIName(name: System.String)
+### FractureEquivalentSIFSRangeProbe.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -648,7 +648,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FractureEquivalentSIFSRangeProbe.PropertyByName"></a>
 
-### FractureEquivalentSIFSRangeProbe.PropertyByName(name: System.String)
+### FractureEquivalentSIFSRangeProbe.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -656,7 +656,7 @@ Get a property by its unique name.
 
 <a id="FractureEquivalentSIFSRangeProbe.RemoveParameter"></a>
 
-### FractureEquivalentSIFSRangeProbe.RemoveParameter(propName: System.String)
+### FractureEquivalentSIFSRangeProbe.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

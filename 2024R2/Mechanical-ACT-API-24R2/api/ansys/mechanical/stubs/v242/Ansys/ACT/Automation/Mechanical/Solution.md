@@ -17,7 +17,7 @@ Defines a Solution.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | [`Activate`](#Solution.Activate)                                                                                     | Activate the current object.                                                                                                 |
 | [`AddAccelerationFrequencyResponse`](#Solution.AddAccelerationFrequencyResponse)                                     | Creates a new AccelerationFrequencyResponse                                                                                  |
 | [`AddAccelerationPhaseResponse`](#Solution.AddAccelerationPhaseResponse)                                             | Creates a new AccelerationPhaseResponse                                                                                      |
@@ -305,7 +305,7 @@ Defines a Solution.
 | [`EvaluateAllResults`](#Solution.EvaluateAllResults)                                                                 | Run the EvaluateAllResults action.                                                                                           |
 | [`EvaluateContactTracker`](#Solution.EvaluateContactTracker)                                                         | EvaluateContactTracker method.                                                                                               |
 | [`ExecutePostCommands`](#Solution.ExecutePostCommands)                                                               | Run Execute Post Commands for all post command objects.                                                                      |
-| [`ExportSubstructure`](#Solution.ExportSubstructure)                                                                                                                                | Export Substructure to cpa file.                                                                                             |
+| [`ExportSubstructure`](#Solution.ExportSubstructure)                                                                 | Export Substructure to cpa file.                                                                                             |
 | [`ExtractSolutionStatistics`](#Solution.ExtractSolutionStatistics)                                                   | ExtractSolutionStatistics method.                                                                                            |
 | [`FetchRemoteResults`](#Solution.FetchRemoteResults)                                                                 | FetchRemoteResults method.                                                                                                   |
 | [`FormatValue`](#Solution.FormatValue)                                                                               | FormatValue method.                                                                                                          |
@@ -334,7 +334,7 @@ Defines a Solution.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`AllThreadsCPUTime`](#Solution.AllThreadsCPUTime)                         | AllThreadsCPUTime property.                                                              |
 | [`CalculateBeamSectionResults`](#Solution.CalculateBeamSectionResults)     | Gets or sets the CalculateBeamSectionResults.                                            |
 | [`CellId`](#Solution.CellId)                                               | Gets the CellId.                                                                         |
@@ -417,7 +417,7 @@ Defines a Solution.
 
 <a id="Solution.AllThreadsCPUTime"></a>
 
-### *property* Solution.AllThreadsCPUTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.AllThreadsCPUTime *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 AllThreadsCPUTime property.
 
@@ -425,7 +425,7 @@ AllThreadsCPUTime property.
 
 <a id="Solution.CalculateBeamSectionResults"></a>
 
-### *property* Solution.CalculateBeamSectionResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.CalculateBeamSectionResults *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateBeamSectionResults.
 
@@ -433,7 +433,7 @@ Gets or sets the CalculateBeamSectionResults.
 
 <a id="Solution.CellId"></a>
 
-### *property* Solution.CellId *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.CellId *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CellId.
 
@@ -441,7 +441,7 @@ Gets the CellId.
 
 <a id="Solution.Children"></a>
 
-### *property* Solution.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -449,7 +449,7 @@ Gets the list of children.
 
 <a id="Solution.Comments"></a>
 
-### *property* Solution.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -457,7 +457,7 @@ Gets the list of associated comments.
 
 <a id="Solution.CyclicSectorDisplayRangeBegin"></a>
 
-### *property* Solution.CyclicSectorDisplayRangeBegin *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.CyclicSectorDisplayRangeBegin *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicSectorDisplayRangeBegin.
 
@@ -473,7 +473,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Solution.DateOfRun"></a>
 
-### *property* Solution.DateOfRun *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.DateOfRun *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DateOfRun property.
 
@@ -489,7 +489,7 @@ EigenSolverType property.
 
 <a id="Solution.ElapsedRunTime"></a>
 
-### *property* Solution.ElapsedRunTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ElapsedRunTime *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElapsedRunTime.
 
@@ -497,7 +497,7 @@ Gets or sets the ElapsedRunTime.
 
 <a id="Solution.ElapsedTime"></a>
 
-### *property* Solution.ElapsedTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ElapsedTime *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ElapsedTime property.
 
@@ -505,7 +505,7 @@ ElapsedTime property.
 
 <a id="Solution.ElementLoadBalRatio"></a>
 
-### *property* Solution.ElementLoadBalRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ElementLoadBalRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ElementLoadBalRatio property.
 
@@ -521,7 +521,7 @@ Gets or sets the ElementSelection.
 
 <a id="Solution.Elements"></a>
 
-### *property* Solution.Elements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Elements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Elements property.
 
@@ -545,7 +545,7 @@ Gets or sets the ExportTopologyFile.
 
 <a id="Solution.Figures"></a>
 
-### *property* Solution.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -561,7 +561,7 @@ GPUType property.
 
 <a id="Solution.GpuAcceleration"></a>
 
-### *property* Solution.GpuAcceleration *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.GpuAcceleration *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 GpuAcceleration property.
 
@@ -569,7 +569,7 @@ GpuAcceleration property.
 
 <a id="Solution.IOBound"></a>
 
-### *property* Solution.IOBound *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IOBound *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IOBound property.
 
@@ -577,7 +577,7 @@ IOBound property.
 
 <a id="Solution.IORead"></a>
 
-### *property* Solution.IORead *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IORead *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IORead property.
 
@@ -585,7 +585,7 @@ IORead property.
 
 <a id="Solution.IOWrite"></a>
 
-### *property* Solution.IOWrite *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IOWrite *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IOWrite property.
 
@@ -593,7 +593,7 @@ IOWrite property.
 
 <a id="Solution.Images"></a>
 
-### *property* Solution.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -609,7 +609,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Solution.IsAutoHybridParallel"></a>
 
-### *property* Solution.IsAutoHybridParallel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IsAutoHybridParallel *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns if Hybrid Parallel was turned on by APDL or not (i.e. Automatic Hybrid Parallel)
 
@@ -617,7 +617,7 @@ Returns if Hybrid Parallel was turned on by APDL or not (i.e. Automatic Hybrid P
 
 <a id="Solution.IsDataExtractionComplete"></a>
 
-### *property* Solution.IsDataExtractionComplete *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IsDataExtractionComplete *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsDataExtractionComplete property.
 
@@ -625,7 +625,7 @@ IsDataExtractionComplete property.
 
 <a id="Solution.IsDistributedSolution"></a>
 
-### *property* Solution.IsDistributedSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IsDistributedSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsDistributedSolution property.
 
@@ -633,7 +633,7 @@ IsDistributedSolution property.
 
 <a id="Solution.IsEigenSolver"></a>
 
-### *property* Solution.IsEigenSolver *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IsEigenSolver *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsEigenSolver property.
 
@@ -641,7 +641,7 @@ IsEigenSolver property.
 
 <a id="Solution.IsGPUAccelerationRequested"></a>
 
-### *property* Solution.IsGPUAccelerationRequested *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IsGPUAccelerationRequested *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsGPUAccelerationRequested property.
 
@@ -649,7 +649,7 @@ IsGPUAccelerationRequested property.
 
 <a id="Solution.IsHybridParallelSolution"></a>
 
-### *property* Solution.IsHybridParallelSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IsHybridParallelSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsHybridParallelSolution property.
 
@@ -657,7 +657,7 @@ IsHybridParallelSolution property.
 
 <a id="Solution.IsUnsymmetricMatrixSolve"></a>
 
-### *property* Solution.IsUnsymmetricMatrixSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.IsUnsymmetricMatrixSolve *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsUnsymmetricMatrixSolve property.
 
@@ -665,7 +665,7 @@ IsUnsymmetricMatrixSolve property.
 
 <a id="Solution.License"></a>
 
-### *property* Solution.License *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.License *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 License property.
 
@@ -673,7 +673,7 @@ License property.
 
 <a id="Solution.LicenseCoresAvailable"></a>
 
-### *property* Solution.LicenseCoresAvailable *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.LicenseCoresAvailable *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LicenseCoresAvailable property.
 
@@ -689,7 +689,7 @@ MPIType property.
 
 <a id="Solution.MSUPHarmonicAnalysis"></a>
 
-### *property* Solution.MSUPHarmonicAnalysis *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.MSUPHarmonicAnalysis *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MSUPHarmonicAnalysis property.
 
@@ -697,7 +697,7 @@ MSUPHarmonicAnalysis property.
 
 <a id="Solution.MainThreadCPUTime"></a>
 
-### *property* Solution.MainThreadCPUTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.MainThreadCPUTime *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MainThreadCPUTime property.
 
@@ -705,7 +705,7 @@ MainThreadCPUTime property.
 
 <a id="Solution.MaximumRefinementLoops"></a>
 
-### *property* Solution.MaximumRefinementLoops *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.MaximumRefinementLoops *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumRefinementLoops.
 
@@ -713,7 +713,7 @@ Gets or sets the MaximumRefinementLoops.
 
 <a id="Solution.MemoryAvailable"></a>
 
-### *property* Solution.MemoryAvailable *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.MemoryAvailable *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MemoryAvailable property.
 
@@ -721,7 +721,7 @@ MemoryAvailable property.
 
 <a id="Solution.MemoryUsed"></a>
 
-### *property* Solution.MemoryUsed *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.MemoryUsed *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MemoryUsed.
 
@@ -737,7 +737,7 @@ Gets or sets the MeshSource.
 
 <a id="Solution.Nodes"></a>
 
-### *property* Solution.Nodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Nodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Nodes property.
 
@@ -745,7 +745,7 @@ Nodes property.
 
 <a id="Solution.NumCoresAvailable"></a>
 
-### *property* Solution.NumCoresAvailable *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.NumCoresAvailable *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumCoresAvailable property.
 
@@ -753,7 +753,7 @@ NumCoresAvailable property.
 
 <a id="Solution.NumGPURequested"></a>
 
-### *property* Solution.NumGPURequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.NumGPURequested *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumGPURequested property.
 
@@ -761,7 +761,7 @@ NumGPURequested property.
 
 <a id="Solution.NumMachinesRequested"></a>
 
-### *property* Solution.NumMachinesRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.NumMachinesRequested *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumMachinesRequested property.
 
@@ -769,7 +769,7 @@ NumMachinesRequested property.
 
 <a id="Solution.NumProcRequested"></a>
 
-### *property* Solution.NumProcRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.NumProcRequested *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumProcRequested property.
 
@@ -777,7 +777,7 @@ NumProcRequested property.
 
 <a id="Solution.NumVirtualCoresAvailable"></a>
 
-### *property* Solution.NumVirtualCoresAvailable *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.NumVirtualCoresAvailable *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumVirtualCoresAvailable property.
 
@@ -785,7 +785,7 @@ NumVirtualCoresAvailable property.
 
 <a id="Solution.NumberOfDOF"></a>
 
-### *property* Solution.NumberOfDOF *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.NumberOfDOF *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Number of DOF.
 
@@ -793,7 +793,7 @@ Get the Number of DOF.
 
 <a id="Solution.NumberOfProcessesRequested"></a>
 
-### *property* Solution.NumberOfProcessesRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.NumberOfProcessesRequested *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfProcessesRequested property.
 
@@ -801,7 +801,7 @@ NumberOfProcessesRequested property.
 
 <a id="Solution.NumberofSectors"></a>
 
-### *property* Solution.NumberofSectors *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.NumberofSectors *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberofSectors.
 
@@ -809,7 +809,7 @@ Gets or sets the NumberofSectors.
 
 <a id="Solution.OperatingSystem"></a>
 
-### *property* Solution.OperatingSystem *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.OperatingSystem *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OperatingSystem property.
 
@@ -817,7 +817,7 @@ OperatingSystem property.
 
 <a id="Solution.ProcessorModel"></a>
 
-### *property* Solution.ProcessorModel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ProcessorModel *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ProcessorModel property.
 
@@ -825,7 +825,7 @@ ProcessorModel property.
 
 <a id="Solution.Properties"></a>
 
-### *property* Solution.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -833,7 +833,7 @@ Gets the list of properties for this object.
 
 <a id="Solution.RefinementDepth"></a>
 
-### *property* Solution.RefinementDepth *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.RefinementDepth *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RefinementDepth.
 
@@ -841,7 +841,7 @@ Gets or sets the RefinementDepth.
 
 <a id="Solution.ResultFileDirectory"></a>
 
-### *property* Solution.ResultFileDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ResultFileDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultFileDirectory.
 
@@ -849,7 +849,7 @@ Gets the ResultFileDirectory.
 
 <a id="Solution.ResultFileName"></a>
 
-### *property* Solution.ResultFileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ResultFileName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultFileName.
 
@@ -857,7 +857,7 @@ Gets the ResultFileName.
 
 <a id="Solution.ResultFilePath"></a>
 
-### *property* Solution.ResultFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ResultFilePath *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the result file full path.
 
@@ -865,7 +865,7 @@ Get the result file full path.
 
 <a id="Solution.ResultFileSize"></a>
 
-### *property* Solution.ResultFileSize *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ResultFileSize *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultFileSize.
 
@@ -873,7 +873,7 @@ Gets the ResultFileSize.
 
 <a id="Solution.ResultFileTimestamp"></a>
 
-### *property* Solution.ResultFileTimestamp *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ResultFileTimestamp *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultFileTimestamp.
 
@@ -889,7 +889,7 @@ Gets the ResultFileUnitSystem.
 
 <a id="Solution.ResultTrackingVectorLength"></a>
 
-### *property* Solution.ResultTrackingVectorLength *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ResultTrackingVectorLength *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ResultTrackingVectorLength property.
 
@@ -897,7 +897,7 @@ ResultTrackingVectorLength property.
 
 <a id="Solution.SkipSolveCommand"></a>
 
-### *property* Solution.SkipSolveCommand *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.SkipSolveCommand *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the flag to avoid issuing the solve command in the MAPDL solver.
 
@@ -913,7 +913,7 @@ Gets the SolutionInformation.
 
 <a id="Solution.SolutionTrackingVectorLength"></a>
 
-### *property* Solution.SolutionTrackingVectorLength *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.SolutionTrackingVectorLength *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 SolutionTrackingVectorLength property.
 
@@ -929,7 +929,7 @@ SolutionUnitSystem property.
 
 <a id="Solution.SolverData"></a>
 
-### *property* Solution.SolverData *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.SolverData *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 SolverData property.
 
@@ -945,7 +945,7 @@ SolverType property.
 
 <a id="Solution.SparseMode"></a>
 
-### *property* Solution.SparseMode *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.SparseMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Sparse Mode value.
 
@@ -961,7 +961,7 @@ Gets the Status.
 
 <a id="Solution.ThreadsPerProcessRequested"></a>
 
-### *property* Solution.ThreadsPerProcessRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ThreadsPerProcessRequested *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ThreadsPerProcessRequested property.
 
@@ -969,7 +969,7 @@ ThreadsPerProcessRequested property.
 
 <a id="Solution.TimeOfRun"></a>
 
-### *property* Solution.TimeOfRun *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.TimeOfRun *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 TimeOfRun property.
 
@@ -977,7 +977,7 @@ TimeOfRun property.
 
 <a id="Solution.TimeToCombineDistributedFiles"></a>
 
-### *property* Solution.TimeToCombineDistributedFiles *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.TimeToCombineDistributedFiles *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 TimeToCombineDistributedFiles property.
 
@@ -993,7 +993,7 @@ Gets or sets the TopologyResult.
 
 <a id="Solution.TotalMemoryUsed"></a>
 
-### *property* Solution.TotalMemoryUsed *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.TotalMemoryUsed *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 TotalMemoryUsed property.
 
@@ -1001,7 +1001,7 @@ TotalMemoryUsed property.
 
 <a id="Solution.VisibleProperties"></a>
 
-### *property* Solution.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -1009,7 +1009,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Solution.WorkingDir"></a>
 
-### *property* Solution.WorkingDir *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.WorkingDir *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the WorkingDir.
 
@@ -2037,7 +2037,7 @@ Creates a new ForceReactionFrequencyResponse
 
 <a id="Solution.AddForceReactionsForContactRegions"></a>
 
-### Solution.AddForceReactionsForContactRegions(contactRegionObjIds: System.Collections.Generic.IEnumerable[System.Int32])
+### Solution.AddForceReactionsForContactRegions(contactRegionObjIds: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 AddForceReactionsForContactRegions method.
 
@@ -2069,7 +2069,7 @@ Creates a new GeneralizedPlaneStrainProbe
 
 <a id="Solution.AddGroupedScopedACPResults"></a>
 
-### Solution.AddGroupedScopedACPResults(resultType: [Ansys.Mechanical.DataModel.Enums.ResultType](../../../Mechanical/DataModel/Enums/ResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultType), selectedPlies: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Solution.AddGroupedScopedACPResults(resultType: [Ansys.Mechanical.DataModel.Enums.ResultType](../../../Mechanical/DataModel/Enums/ResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultType), selectedPlies: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 AddGroupedScopedACPResults method.
 
@@ -2077,7 +2077,7 @@ AddGroupedScopedACPResults method.
 
 <a id="Solution.AddGroupedScopedCustomResult"></a>
 
-### Solution.AddGroupedScopedCustomResult(selectedPlies: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Solution.AddGroupedScopedCustomResult(selectedPlies: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 AddGroupedScopedCustomResult method.
 
@@ -2093,7 +2093,7 @@ Creates a new HeatFluxProbe
 
 <a id="Solution.AddImage"></a>
 
-### Solution.AddImage(filePath: System.String)
+### Solution.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -2449,7 +2449,7 @@ Creates a new MomentReaction
 
 <a id="Solution.AddMomentReactionsForContactRegions"></a>
 
-### Solution.AddMomentReactionsForContactRegions(contactRegionObjIds: System.Collections.Generic.IEnumerable[System.Int32])
+### Solution.AddMomentReactionsForContactRegions(contactRegionObjIds: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 AddMomentReactionsForContactRegions method.
 
@@ -2625,7 +2625,7 @@ Creates a new ReactionProbe
 
 <a id="Solution.AddReactionsForContactRegions"></a>
 
-### Solution.AddReactionsForContactRegions(contactRegionObjIds: System.Collections.Generic.IEnumerable[System.Int32])
+### Solution.AddReactionsForContactRegions(contactRegionObjIds: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 AddReactionsForContactRegions method.
 
@@ -3249,7 +3249,7 @@ Copies all visible properties from this object to another.
 
 <a id="Solution.CreateParameter"></a>
 
-### Solution.CreateParameter(propName: System.String)
+### Solution.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -3257,7 +3257,7 @@ Creates a new parameter for a Property.
 
 <a id="Solution.CreateResultsAtAllSets"></a>
 
-### Solution.CreateResultsAtAllSets(resId: System.UInt32)
+### Solution.CreateResultsAtAllSets(resId: [int](https://docs.python.org/3/library/functions.html#int))
 
 CreateResultsAtAllSets method.
 
@@ -3265,7 +3265,7 @@ CreateResultsAtAllSets method.
 
 <a id="Solution.DeleteRow"></a>
 
-### Solution.DeleteRow(index: System.UInt32)
+### Solution.DeleteRow(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 DeleteRow method.
 
@@ -3321,7 +3321,7 @@ Run Execute Post Commands for all post command objects.
 
 <a id="Solution.ExportSubstructure"></a>
 
-### Solution.ExportSubstructure(exportFileName: System.String, exportFormat: [Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat](../../../Mechanical/DataModel/MechanicalEnums/Substructure/ExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat), exportSettings: [Ansys.ACT.Automation.Mechanical.Substructure.ExportSettings](Substructure/ExportSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Substructure.ExportSettings))
+### Solution.ExportSubstructure(exportFileName: [str](https://docs.python.org/3/library/stdtypes.html#str), exportFormat: [Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat](../../../Mechanical/DataModel/MechanicalEnums/Substructure/ExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat), exportSettings: [Ansys.ACT.Automation.Mechanical.Substructure.ExportSettings](Substructure/ExportSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Substructure.ExportSettings))
 
 Export Substructure to cpa file.
 
@@ -3345,7 +3345,7 @@ FetchRemoteResults method.
 
 <a id="Solution.FormatValue"></a>
 
-### Solution.FormatValue(value: System.Double, unitType: System.Int32)
+### Solution.FormatValue(value: [float](https://docs.python.org/3/library/functions.html#float), unitType: [int](https://docs.python.org/3/library/functions.html#int))
 
 FormatValue method.
 
@@ -3361,7 +3361,7 @@ GenerateAdaptedMesh method.
 
 <a id="Solution.GetChildren"></a>
 
-### Solution.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Solution.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -3369,7 +3369,7 @@ Gets the list of children, filtered by type.
 
 <a id="Solution.GetParameter"></a>
 
-### Solution.GetParameter(propName: System.String)
+### Solution.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -3409,7 +3409,7 @@ Checks if the referenced result file has been changed.
 
 <a id="Solution.IsResultFileSameAsLoaded"></a>
 
-### Solution.IsResultFileSameAsLoaded(filepath: System.String)
+### Solution.IsResultFileSameAsLoaded(filepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Checks if the given result file is same the loaded result file
 
@@ -3425,7 +3425,7 @@ Run the OpenSolverFilesDirectory action.
 
 <a id="Solution.PropertyByAPIName"></a>
 
-### Solution.PropertyByAPIName(name: System.String)
+### Solution.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -3436,7 +3436,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Solution.PropertyByName"></a>
 
-### Solution.PropertyByName(name: System.String)
+### Solution.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -3452,7 +3452,7 @@ Run the Ansys ReadResults action.
 
 <a id="Solution.ReadGivenAnsysResultFile"></a>
 
-### Solution.ReadGivenAnsysResultFile(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType))
+### Solution.ReadGivenAnsysResultFile(resultFilePath: [str](https://docs.python.org/3/library/stdtypes.html#str), unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType))
 
 Run the given Ansys ReadResults action.///
 
@@ -3460,7 +3460,7 @@ Run the given Ansys ReadResults action.///
 
 <a id="Solution.ReadGivenAnsysResultFileByReference"></a>
 
-### Solution.ReadGivenAnsysResultFileByReference(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType))
+### Solution.ReadGivenAnsysResultFileByReference(resultFilePath: [str](https://docs.python.org/3/library/stdtypes.html#str), unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType))
 
 Run the given Ansys ReadResults by reference action.///
 
@@ -3476,7 +3476,7 @@ ReconnectRemoteJob method.
 
 <a id="Solution.RelinkResultFile"></a>
 
-### Solution.RelinkResultFile(filepath: System.String)
+### Solution.RelinkResultFile(filepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Relink the result file. This action allows repairing the result file referencing without altering the generated result data.
 
@@ -3492,7 +3492,7 @@ Reload the result file. For results-only systems, this action reloads the result
 
 <a id="Solution.RemoveParameter"></a>
 
-### Solution.RemoveParameter(propName: System.String)
+### Solution.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -3500,7 +3500,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Solution.Solve"></a>
 
-### Solution.Solve(wait: System.Boolean, config: System.String)
+### Solution.Solve(wait: [bool](https://docs.python.org/3/library/functions.html#bool), config: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the Solve action.
 
@@ -3508,7 +3508,7 @@ Run the Solve action.
 
 <a id="Solution.ValueForResultTracking"></a>
 
-### Solution.ValueForResultTracking(index: System.UInt32, key: System.String)
+### Solution.ValueForResultTracking(index: [int](https://docs.python.org/3/library/functions.html#int), key: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ValueForResultTracking method.
 
@@ -3516,7 +3516,7 @@ ValueForResultTracking method.
 
 <a id="Solution.ValueForSolutionTracking"></a>
 
-### Solution.ValueForSolutionTracking(index: System.UInt32, key: System.String)
+### Solution.ValueForSolutionTracking(index: [int](https://docs.python.org/3/library/functions.html#int), key: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ValueForSolutionTracking method.
 

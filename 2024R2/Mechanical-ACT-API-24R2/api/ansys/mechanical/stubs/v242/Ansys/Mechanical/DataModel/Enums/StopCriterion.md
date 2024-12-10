@@ -17,7 +17,7 @@ Specifies the StopCriterion.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |
 | [`FreeBoundary`](#StopCriterion.FreeBoundary) |
 | [`MaxCrackExtension`](#StopCriterion.MaxCrackExtension) |
 | [`MaxStressIntensityFactor`](#StopCriterion.MaxStressIntensityFactor) |

@@ -17,7 +17,7 @@ Specifies the SpacingOptionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------- |
 | [`Default`](#SpacingOptionType.Default) |
 | [`UserControlled`](#SpacingOptionType.UserControlled) |
 

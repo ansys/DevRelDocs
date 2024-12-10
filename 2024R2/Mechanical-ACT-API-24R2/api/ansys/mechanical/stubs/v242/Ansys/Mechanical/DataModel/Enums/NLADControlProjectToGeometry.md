@@ -17,7 +17,7 @@ Specifies the NLADControlProjectToGeometry.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`No`](#NLADControlProjectToGeometry.No) |
 | [`Yes`](#NLADControlProjectToGeometry.Yes) |
 

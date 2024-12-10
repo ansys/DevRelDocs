@@ -91,7 +91,7 @@ Gets or sets the Axis.
 
 <a id="RotatingForce.AxisComponentX"></a>
 
-### *property* RotatingForce.AxisComponentX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.AxisComponentX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AxisComponentX.
 
@@ -99,7 +99,7 @@ Gets the AxisComponentX.
 
 <a id="RotatingForce.AxisComponentY"></a>
 
-### *property* RotatingForce.AxisComponentY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.AxisComponentY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AxisComponentY.
 
@@ -107,7 +107,7 @@ Gets the AxisComponentY.
 
 <a id="RotatingForce.AxisComponentZ"></a>
 
-### *property* RotatingForce.AxisComponentZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.AxisComponentZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AxisComponentZ.
 
@@ -139,7 +139,7 @@ Gets the AxisLocationZ.
 
 <a id="RotatingForce.CalculatedFromUnbalancedMass"></a>
 
-### *property* RotatingForce.CalculatedFromUnbalancedMass *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.CalculatedFromUnbalancedMass *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculatedFromUnbalancedMass.
 
@@ -147,7 +147,7 @@ Gets or sets the CalculatedFromUnbalancedMass.
 
 <a id="RotatingForce.Children"></a>
 
-### *property* RotatingForce.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -155,7 +155,7 @@ Gets the list of children.
 
 <a id="RotatingForce.Comments"></a>
 
-### *property* RotatingForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -163,7 +163,7 @@ Gets the list of associated comments.
 
 <a id="RotatingForce.CoordinateSystem"></a>
 
-### *property* RotatingForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -187,7 +187,7 @@ Gets or sets the DefineBy.
 
 <a id="RotatingForce.Figures"></a>
 
-### *property* RotatingForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -219,7 +219,7 @@ Gets the HitPointLocationZ.
 
 <a id="RotatingForce.HitPointNodeId"></a>
 
-### *property* RotatingForce.HitPointNodeId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.HitPointNodeId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the HitPointNodeId.
 
@@ -235,7 +235,7 @@ Gets or sets the HitPointRemotePointSelection.
 
 <a id="RotatingForce.HitPointSelection"></a>
 
-### *property* RotatingForce.HitPointSelection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.HitPointSelection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HitPointSelection.
 
@@ -243,7 +243,7 @@ Gets or sets the HitPointSelection.
 
 <a id="RotatingForce.Images"></a>
 
-### *property* RotatingForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -283,7 +283,7 @@ Gets or sets the PhaseAngle.
 
 <a id="RotatingForce.Properties"></a>
 
-### *property* RotatingForce.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -291,7 +291,7 @@ Gets the list of properties for this object.
 
 <a id="RotatingForce.ReadOnly"></a>
 
-### *property* RotatingForce.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -315,7 +315,7 @@ Gets or sets the RotatingRadius.
 
 <a id="RotatingForce.SharedRefBody"></a>
 
-### *property* RotatingForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -323,7 +323,7 @@ Gets or sets the SharedRefBody.
 
 <a id="RotatingForce.Suppressed"></a>
 
-### *property* RotatingForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -331,7 +331,7 @@ Gets or sets the Suppressed.
 
 <a id="RotatingForce.SynchronousRatio"></a>
 
-### *property* RotatingForce.SynchronousRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.SynchronousRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SynchronousRatio.
 
@@ -339,7 +339,7 @@ Gets or sets the SynchronousRatio.
 
 <a id="RotatingForce.UnbalancedForceMagnitude"></a>
 
-### *property* RotatingForce.UnbalancedForceMagnitude *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.UnbalancedForceMagnitude *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UnbalancedForceMagnitude.
 
@@ -347,7 +347,7 @@ Gets or sets the UnbalancedForceMagnitude.
 
 <a id="RotatingForce.VisibleProperties"></a>
 
-### *property* RotatingForce.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RotatingForce.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -407,7 +407,7 @@ Creates a new child Figure.
 
 <a id="RotatingForce.AddImage"></a>
 
-### RotatingForce.AddImage(filePath: System.String)
+### RotatingForce.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -427,7 +427,7 @@ Copies all visible properties from this object to another.
 
 <a id="RotatingForce.CreateParameter"></a>
 
-### RotatingForce.CreateParameter(propName: System.String)
+### RotatingForce.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -451,7 +451,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RotatingForce.GetChildren"></a>
 
-### RotatingForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RotatingForce.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -459,7 +459,7 @@ Gets the list of children, filtered by type.
 
 <a id="RotatingForce.GetParameter"></a>
 
-### RotatingForce.GetParameter(propName: System.String)
+### RotatingForce.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -491,7 +491,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="RotatingForce.PropertyByAPIName"></a>
 
-### RotatingForce.PropertyByAPIName(name: System.String)
+### RotatingForce.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -502,7 +502,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RotatingForce.PropertyByName"></a>
 
-### RotatingForce.PropertyByName(name: System.String)
+### RotatingForce.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -510,7 +510,7 @@ Get a property by its unique name.
 
 <a id="RotatingForce.RemoveParameter"></a>
 
-### RotatingForce.RemoveParameter(propName: System.String)
+### RotatingForce.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

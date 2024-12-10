@@ -17,7 +17,7 @@ Specifies the SourceTimeDefinitionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------- |
 | [`SourceTimeDefinition_All`](#SourceTimeDefinitionType.SourceTimeDefinition_All) |
 | [`SourceTimeDefinition_Range`](#SourceTimeDefinitionType.SourceTimeDefinition_Range) |
 

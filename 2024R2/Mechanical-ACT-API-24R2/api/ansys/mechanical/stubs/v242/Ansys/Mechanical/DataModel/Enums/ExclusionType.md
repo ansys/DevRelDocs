@@ -17,7 +17,7 @@ Specifies the ExclusionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------- |
 | [`Isotropic`](#ExclusionType.Isotropic) |
 | [`Orthotropic`](#ExclusionType.Orthotropic) |
 

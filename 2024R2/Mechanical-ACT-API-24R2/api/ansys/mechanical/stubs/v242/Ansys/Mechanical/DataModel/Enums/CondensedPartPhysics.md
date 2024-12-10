@@ -17,7 +17,7 @@ Specifies the CondensedPartPhysics.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`Structural`](#CondensedPartPhysics.Structural) |
 | [`Thermal`](#CondensedPartPhysics.Thermal) |
 

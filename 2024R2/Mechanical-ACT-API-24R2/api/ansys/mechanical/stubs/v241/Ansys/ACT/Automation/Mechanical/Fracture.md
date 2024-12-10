@@ -17,7 +17,7 @@ Defines a Fracture.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Fracture.Activate)                                                 | Activate the current object.                                                      |
 | [`AddArbitraryCrack`](#Fracture.AddArbitraryCrack)                               | Creates a new ArbitraryCrack                                                      |
 | [`AddComment`](#Fracture.AddComment)                                             | Creates a new child Comment.                                                      |
@@ -52,7 +52,7 @@ Defines a Fracture.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Fracture.Children)                                             | Gets the list of children.                                    |
 | [`Comments`](#Fracture.Comments)                                             | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Fracture.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
@@ -69,7 +69,7 @@ Defines a Fracture.
 
 <a id="Fracture.Children"></a>
 
-### *property* Fracture.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Fracture.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -77,7 +77,7 @@ Gets the list of children.
 
 <a id="Fracture.Comments"></a>
 
-### *property* Fracture.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Fracture.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -85,7 +85,7 @@ Gets the list of associated comments.
 
 <a id="Fracture.DataModelObjectCategory"></a>
 
-### *property* Fracture.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Fracture.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -93,7 +93,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Fracture.Figures"></a>
 
-### *property* Fracture.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Fracture.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -101,7 +101,7 @@ Gets the list of associated figures.
 
 <a id="Fracture.Images"></a>
 
-### *property* Fracture.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Fracture.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -117,7 +117,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Fracture.Properties"></a>
 
-### *property* Fracture.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Fracture.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -125,7 +125,7 @@ Gets the list of properties for this object.
 
 <a id="Fracture.RemeshHexDominantToTetrahedral"></a>
 
-### *property* Fracture.RemeshHexDominantToTetrahedral *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Fracture.RemeshHexDominantToTetrahedral *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshHexDominantToTetrahedral.
 
@@ -133,7 +133,7 @@ Gets or sets the RemeshHexDominantToTetrahedral.
 
 <a id="Fracture.VisibleProperties"></a>
 
-### *property* Fracture.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Fracture.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -225,7 +225,7 @@ Creates a new child Figure.
 
 <a id="Fracture.AddImage"></a>
 
-### Fracture.AddImage(filePath: System.String)
+### Fracture.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -293,7 +293,7 @@ Copies all visible properties from this object to another.
 
 <a id="Fracture.CreateParameter"></a>
 
-### Fracture.CreateParameter(propName: System.String)
+### Fracture.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -333,7 +333,7 @@ Generate all interfaces delamination from an external model.
 
 <a id="Fracture.GetChildren"></a>
 
-### Fracture.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Fracture.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -341,7 +341,7 @@ Gets the list of children, filtered by type.
 
 <a id="Fracture.GetParameter"></a>
 
-### Fracture.GetParameter(propName: System.String)
+### Fracture.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -365,7 +365,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Fracture.PropertyByAPIName"></a>
 
-### Fracture.PropertyByAPIName(name: System.String)
+### Fracture.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -376,7 +376,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Fracture.PropertyByName"></a>
 
-### Fracture.PropertyByName(name: System.String)
+### Fracture.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -384,7 +384,7 @@ Get a property by its unique name.
 
 <a id="Fracture.RemoveParameter"></a>
 
-### Fracture.RemoveParameter(propName: System.String)
+### Fracture.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

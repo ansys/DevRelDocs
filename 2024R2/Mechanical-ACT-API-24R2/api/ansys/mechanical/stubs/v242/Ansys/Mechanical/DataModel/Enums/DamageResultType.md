@@ -17,7 +17,7 @@ Specifies the DamageResultType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------- |
 | [`DamageStatus`](#DamageResultType.DamageStatus) |
 | [`EnergyDissipatedPerUnitVolume`](#DamageResultType.EnergyDissipatedPerUnitVolume) |
 | [`FiberCompressiveDamageVariable`](#DamageResultType.FiberCompressiveDamageVariable) |

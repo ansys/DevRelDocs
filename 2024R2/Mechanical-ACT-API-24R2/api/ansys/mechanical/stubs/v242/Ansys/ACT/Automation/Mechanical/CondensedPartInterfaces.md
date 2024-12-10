@@ -34,7 +34,7 @@ A collection of condensed part interface.
 
 <a id="CondensedPartInterfaces.Item"></a>
 
-### *property* CondensedPartInterfaces.Item *: [Ansys.ACT.Automation.Mechanical.CondensedPartInterface](../../../../../v241/Ansys/ACT/Automation/Mechanical/CondensedPartInterface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPartInterface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPartInterfaces.Item *: [Ansys.ACT.Automation.Mechanical.CondensedPartInterface](CondensedPartInterface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPartInterface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -62,7 +62,7 @@ Clears all the condensed part interfaces
 
 <a id="CondensedPartInterfaces.RemoveAt"></a>
 
-### CondensedPartInterfaces.RemoveAt(index: System.Int32)
+### CondensedPartInterfaces.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Remove condensed part interface at the given index
 

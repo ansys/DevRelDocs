@@ -17,7 +17,7 @@ Specifies the TransferAdmittanceModelType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------- |
 | [`HexagonalGridStructure`](#TransferAdmittanceModelType.HexagonalGridStructure) |
 | [`PerforatedPlate`](#TransferAdmittanceModelType.PerforatedPlate) |
 | [`SquareGridStructure`](#TransferAdmittanceModelType.SquareGridStructure) |

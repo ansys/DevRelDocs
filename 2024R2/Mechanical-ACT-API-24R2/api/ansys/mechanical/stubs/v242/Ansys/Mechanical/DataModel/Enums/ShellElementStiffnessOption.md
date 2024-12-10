@@ -17,7 +17,7 @@ Specifies the ShellElementStiffnessOption.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------- |
 | [`MembraneAndBending`](#ShellElementStiffnessOption.MembraneAndBending) |
 | [`MembraneOnly`](#ShellElementStiffnessOption.MembraneOnly) |
 | [`StressEvaluationOnly`](#ShellElementStiffnessOption.StressEvaluationOnly) |

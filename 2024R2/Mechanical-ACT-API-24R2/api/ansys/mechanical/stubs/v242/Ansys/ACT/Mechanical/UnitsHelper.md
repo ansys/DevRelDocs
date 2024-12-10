@@ -17,7 +17,7 @@ Defines set of methods that can be used to find mechanical unit information
 ### Constructors
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+|-------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`ConvertMechanicalUnitToCoreUnit`](#UnitsHelper.ConvertMechanicalUnitToCoreUnit)   | Takes input mechanical unit string and category string   |
 | [`GetValidQuantityNamesAndUnits`](#UnitsHelper.GetValidQuantityNamesAndUnits)       | Retrieve a dictionary of quantity names to unit strings. |
 
@@ -27,7 +27,7 @@ Defines set of methods that can be used to find mechanical unit information
 
 <a id="UnitsHelper.ConvertMechanicalUnitToCoreUnit"></a>
 
-### *classmethod* UnitsHelper.ConvertMechanicalUnitToCoreUnit(mechanicalUnit: System.String, unitCategory: System.String)
+### *classmethod* UnitsHelper.ConvertMechanicalUnitToCoreUnit(mechanicalUnit: [str](https://docs.python.org/3/library/stdtypes.html#str), unitCategory: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Takes input mechanical unit string and category string

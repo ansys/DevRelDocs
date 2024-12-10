@@ -17,7 +17,7 @@ Specifies the CommandEditorTarget.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`ABAQUS`](#CommandEditorTarget.ABAQUS) |
 | [`ANSYS`](#CommandEditorTarget.ANSYS) |
 | [`LSDYNA`](#CommandEditorTarget.LSDYNA) |

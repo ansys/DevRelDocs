@@ -17,7 +17,7 @@ Defines a RemotePoints.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#RemotePoints.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#RemotePoints.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#RemotePoints.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a RemotePoints.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#RemotePoints.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#RemotePoints.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#RemotePoints.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -53,7 +53,7 @@ Defines a RemotePoints.
 
 <a id="RemotePoints.Children"></a>
 
-### *property* RemotePoints.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoints.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -61,7 +61,7 @@ Gets the list of children.
 
 <a id="RemotePoints.Comments"></a>
 
-### *property* RemotePoints.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoints.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -77,7 +77,7 @@ Gets the current DataModelObject’s category.
 
 <a id="RemotePoints.Figures"></a>
 
-### *property* RemotePoints.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoints.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -85,7 +85,7 @@ Gets the list of associated figures.
 
 <a id="RemotePoints.Images"></a>
 
-### *property* RemotePoints.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoints.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -101,7 +101,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="RemotePoints.Properties"></a>
 
-### *property* RemotePoints.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoints.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -109,7 +109,7 @@ Gets the list of properties for this object.
 
 <a id="RemotePoints.VisibleProperties"></a>
 
-### *property* RemotePoints.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoints.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -145,7 +145,7 @@ Creates a new child Figure.
 
 <a id="RemotePoints.AddImage"></a>
 
-### RemotePoints.AddImage(filePath: System.String)
+### RemotePoints.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -173,7 +173,7 @@ Copies all visible properties from this object to another.
 
 <a id="RemotePoints.CreateParameter"></a>
 
-### RemotePoints.CreateParameter(propName: System.String)
+### RemotePoints.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -189,7 +189,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="RemotePoints.GetChildren"></a>
 
-### RemotePoints.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### RemotePoints.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -197,7 +197,7 @@ Gets the list of children, filtered by type.
 
 <a id="RemotePoints.GetParameter"></a>
 
-### RemotePoints.GetParameter(propName: System.String)
+### RemotePoints.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -221,7 +221,7 @@ Run the GroupSimilarObjects action.
 
 <a id="RemotePoints.PropertyByAPIName"></a>
 
-### RemotePoints.PropertyByAPIName(name: System.String)
+### RemotePoints.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -232,7 +232,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="RemotePoints.PropertyByName"></a>
 
-### RemotePoints.PropertyByName(name: System.String)
+### RemotePoints.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -240,7 +240,7 @@ Get a property by its unique name.
 
 <a id="RemotePoints.RemoveParameter"></a>
 
-### RemotePoints.RemoveParameter(propName: System.String)
+### RemotePoints.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

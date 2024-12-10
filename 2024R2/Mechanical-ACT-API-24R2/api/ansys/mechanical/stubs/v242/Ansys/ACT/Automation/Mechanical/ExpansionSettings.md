@@ -67,7 +67,7 @@ Defines a ExpansionSettings.
 
 <a id="ExpansionSettings.Children"></a>
 
-### *property* ExpansionSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="ExpansionSettings.CleanupOptionalFiles"></a>
 
-### *property* ExpansionSettings.CleanupOptionalFiles *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.CleanupOptionalFiles *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CleanupOptionalFiles.
 
@@ -83,7 +83,7 @@ Gets or sets the CleanupOptionalFiles.
 
 <a id="ExpansionSettings.Comments"></a>
 
-### *property* ExpansionSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -107,7 +107,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ExpansionSettings.ExpandAfterUsePassFailure"></a>
 
-### *property* ExpansionSettings.ExpandAfterUsePassFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.ExpandAfterUsePassFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExpandAfterUsePassFailure.
 
@@ -115,7 +115,7 @@ Gets or sets the ExpandAfterUsePassFailure.
 
 <a id="ExpansionSettings.Figures"></a>
 
-### *property* ExpansionSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -123,7 +123,7 @@ Gets the list of associated figures.
 
 <a id="ExpansionSettings.GeneralMiscellaneous"></a>
 
-### *property* ExpansionSettings.GeneralMiscellaneous *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.GeneralMiscellaneous *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeneralMiscellaneous.
 
@@ -131,7 +131,7 @@ Gets or sets the GeneralMiscellaneous.
 
 <a id="ExpansionSettings.Images"></a>
 
-### *property* ExpansionSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -155,7 +155,7 @@ Gets or sets the NodalForces.
 
 <a id="ExpansionSettings.Properties"></a>
 
-### *property* ExpansionSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -163,7 +163,7 @@ Gets the list of properties for this object.
 
 <a id="ExpansionSettings.Strain"></a>
 
-### *property* ExpansionSettings.Strain *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.Strain *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Strain.
 
@@ -171,7 +171,7 @@ Gets or sets the Strain.
 
 <a id="ExpansionSettings.Stress"></a>
 
-### *property* ExpansionSettings.Stress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.Stress *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Stress.
 
@@ -179,7 +179,7 @@ Gets or sets the Stress.
 
 <a id="ExpansionSettings.Suppressed"></a>
 
-### *property* ExpansionSettings.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -187,7 +187,7 @@ Gets or sets the Suppressed.
 
 <a id="ExpansionSettings.VisibleProperties"></a>
 
-### *property* ExpansionSettings.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExpansionSettings.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -223,7 +223,7 @@ Creates a new child Figure.
 
 <a id="ExpansionSettings.AddImage"></a>
 
-### ExpansionSettings.AddImage(filePath: System.String)
+### ExpansionSettings.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -251,7 +251,7 @@ Copies all visible properties from this object to another.
 
 <a id="ExpansionSettings.CreateParameter"></a>
 
-### ExpansionSettings.CreateParameter(propName: System.String)
+### ExpansionSettings.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -283,7 +283,7 @@ Run the EvaluateAllResults action.
 
 <a id="ExpansionSettings.GetChildren"></a>
 
-### ExpansionSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ExpansionSettings.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -291,7 +291,7 @@ Gets the list of children, filtered by type.
 
 <a id="ExpansionSettings.GetCompletedExpansionState"></a>
 
-### ExpansionSettings.GetCompletedExpansionState(condensedPart: [Ansys.ACT.Automation.Mechanical.CondensedPart](../../../../../v241/Ansys/ACT/Automation/Mechanical/CondensedPart.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPart))
+### ExpansionSettings.GetCompletedExpansionState(condensedPart: [Ansys.ACT.Automation.Mechanical.CondensedPart](CondensedPart.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPart))
 
 Gets the completed expansion state of a given Condensed Part
 
@@ -299,7 +299,7 @@ Gets the completed expansion state of a given Condensed Part
 
 <a id="ExpansionSettings.GetExpansionState"></a>
 
-### ExpansionSettings.GetExpansionState(condensedPart: [Ansys.ACT.Automation.Mechanical.CondensedPart](../../../../../v241/Ansys/ACT/Automation/Mechanical/CondensedPart.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPart))
+### ExpansionSettings.GetExpansionState(condensedPart: [Ansys.ACT.Automation.Mechanical.CondensedPart](CondensedPart.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPart))
 
 Gets the requested expansion state of a given Condensed Part
 
@@ -307,7 +307,7 @@ Gets the requested expansion state of a given Condensed Part
 
 <a id="ExpansionSettings.GetParameter"></a>
 
-### ExpansionSettings.GetParameter(propName: System.String)
+### ExpansionSettings.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -339,7 +339,7 @@ Run the PerformExpansionPass action.
 
 <a id="ExpansionSettings.PropertyByAPIName"></a>
 
-### ExpansionSettings.PropertyByAPIName(name: System.String)
+### ExpansionSettings.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -350,7 +350,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ExpansionSettings.PropertyByName"></a>
 
-### ExpansionSettings.PropertyByName(name: System.String)
+### ExpansionSettings.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -358,7 +358,7 @@ Get a property by its unique name.
 
 <a id="ExpansionSettings.RemoveParameter"></a>
 
-### ExpansionSettings.RemoveParameter(propName: System.String)
+### ExpansionSettings.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -366,7 +366,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ExpansionSettings.SetExpansionState"></a>
 
-### ExpansionSettings.SetExpansionState(condensedPart: [Ansys.ACT.Automation.Mechanical.CondensedPart](../../../../../v241/Ansys/ACT/Automation/Mechanical/CondensedPart.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPart), state: [Ansys.ACT.Automation.Mechanical.CondensedPartExpansionState](../../../../../v241/Ansys/ACT/Automation/Mechanical/CondensedPartExpansionState.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPartExpansionState))
+### ExpansionSettings.SetExpansionState(condensedPart: [Ansys.ACT.Automation.Mechanical.CondensedPart](CondensedPart.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPart), state: [Ansys.ACT.Automation.Mechanical.CondensedPartExpansionState](CondensedPartExpansionState.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPartExpansionState))
 
 Sets the requested expansion state of a given Condensed Part
 

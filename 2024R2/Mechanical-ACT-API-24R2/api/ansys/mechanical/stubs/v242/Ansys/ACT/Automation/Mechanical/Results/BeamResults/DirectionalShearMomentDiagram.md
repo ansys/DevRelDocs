@@ -17,7 +17,7 @@ Defines a DirectionalShearMomentDiagram.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DirectionalShearMomentDiagram.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#DirectionalShearMomentDiagram.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#DirectionalShearMomentDiagram.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a DirectionalShearMomentDiagram.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#DirectionalShearMomentDiagram.Average)                                                     | Gets the Average.                                                      |
 | [`BeamResultType`](#DirectionalShearMomentDiagram.BeamResultType)                                       | Gets or sets the BeamResultType.                                       |
 | [`By`](#DirectionalShearMomentDiagram.By)                                                               | Gets or sets the By.                                                   |
@@ -99,14 +99,14 @@ Defines a DirectionalShearMomentDiagram.
 | [`Substep`](#DirectionalShearMomentDiagram.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#DirectionalShearMomentDiagram.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#DirectionalShearMomentDiagram.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#DirectionalShearMomentDiagram.SurfaceCoating)                                                                                                                                                     | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#DirectionalShearMomentDiagram.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#DirectionalShearMomentDiagram.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#DirectionalShearMomentDiagram.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#DirectionalShearMomentDiagram.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#DirectionalShearMomentDiagram.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#DirectionalShearMomentDiagram.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#DirectionalShearMomentDiagram.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#DirectionalShearMomentDiagram.WaterfallShowTextOnMosaic)                                                                                                                               | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#DirectionalShearMomentDiagram.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -138,7 +138,7 @@ Gets or sets the By.
 
 <a id="DirectionalShearMomentDiagram.CalculateTimeHistory"></a>
 
-### *property* DirectionalShearMomentDiagram.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -146,7 +146,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="DirectionalShearMomentDiagram.Children"></a>
 
-### *property* DirectionalShearMomentDiagram.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -154,7 +154,7 @@ Gets the list of children.
 
 <a id="DirectionalShearMomentDiagram.CombinationNumber"></a>
 
-### *property* DirectionalShearMomentDiagram.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -162,7 +162,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DirectionalShearMomentDiagram.Comments"></a>
 
-### *property* DirectionalShearMomentDiagram.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -170,7 +170,7 @@ Gets the list of associated comments.
 
 <a id="DirectionalShearMomentDiagram.CoordinateSystem"></a>
 
-### *property* DirectionalShearMomentDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -180,7 +180,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DirectionalShearMomentDiagram.CrackFrontNumber"></a>
 
-### *property* DirectionalShearMomentDiagram.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -220,7 +220,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="DirectionalShearMomentDiagram.Figures"></a>
 
-### *property* DirectionalShearMomentDiagram.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -228,7 +228,7 @@ Gets the list of associated figures.
 
 <a id="DirectionalShearMomentDiagram.GlobalIDs"></a>
 
-### *property* DirectionalShearMomentDiagram.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -252,7 +252,7 @@ Gets or sets the GraphicsDisplay.
 
 <a id="DirectionalShearMomentDiagram.Identifier"></a>
 
-### *property* DirectionalShearMomentDiagram.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -260,7 +260,7 @@ Gets or sets the Identifier.
 
 <a id="DirectionalShearMomentDiagram.Images"></a>
 
-### *property* DirectionalShearMomentDiagram.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -276,7 +276,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DirectionalShearMomentDiagram.IsSolved"></a>
 
-### *property* DirectionalShearMomentDiagram.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -292,7 +292,7 @@ Gets or sets the ItemType.
 
 <a id="DirectionalShearMomentDiagram.IterationNumber"></a>
 
-### *property* DirectionalShearMomentDiagram.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -300,7 +300,7 @@ Gets the IterationNumber.
 
 <a id="DirectionalShearMomentDiagram.LoadStep"></a>
 
-### *property* DirectionalShearMomentDiagram.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -308,7 +308,7 @@ Gets the LoadStep.
 
 <a id="DirectionalShearMomentDiagram.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* DirectionalShearMomentDiagram.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -316,7 +316,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="DirectionalShearMomentDiagram.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* DirectionalShearMomentDiagram.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -324,7 +324,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="DirectionalShearMomentDiagram.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* DirectionalShearMomentDiagram.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -332,7 +332,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="DirectionalShearMomentDiagram.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* DirectionalShearMomentDiagram.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -340,7 +340,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="DirectionalShearMomentDiagram.LoadStepNumber"></a>
 
-### *property* DirectionalShearMomentDiagram.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -364,7 +364,7 @@ Gets the Maximum.
 
 <a id="DirectionalShearMomentDiagram.MaximumOccursOn"></a>
 
-### *property* DirectionalShearMomentDiagram.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -396,7 +396,7 @@ Gets the Minimum.
 
 <a id="DirectionalShearMomentDiagram.MinimumOccursOn"></a>
 
-### *property* DirectionalShearMomentDiagram.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -420,7 +420,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="DirectionalShearMomentDiagram.NamedSelections"></a>
 
-### *property* DirectionalShearMomentDiagram.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -444,7 +444,7 @@ Gets the result table.
 
 <a id="DirectionalShearMomentDiagram.Properties"></a>
 
-### *property* DirectionalShearMomentDiagram.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -460,7 +460,7 @@ Gets or sets the ScopingMethod.
 
 <a id="DirectionalShearMomentDiagram.SetNumber"></a>
 
-### *property* DirectionalShearMomentDiagram.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -484,7 +484,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DirectionalShearMomentDiagram.SolverComponentIDs"></a>
 
-### *property* DirectionalShearMomentDiagram.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -492,7 +492,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="DirectionalShearMomentDiagram.Substep"></a>
 
-### *property* DirectionalShearMomentDiagram.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -500,7 +500,7 @@ Gets the Substep.
 
 <a id="DirectionalShearMomentDiagram.Suppressed"></a>
 
-### *property* DirectionalShearMomentDiagram.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -564,7 +564,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="DirectionalShearMomentDiagram.VisibleProperties"></a>
 
-### *property* DirectionalShearMomentDiagram.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -572,7 +572,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DirectionalShearMomentDiagram.WaterfallShowTextOnMosaic"></a>
 
-### *property* DirectionalShearMomentDiagram.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalShearMomentDiagram.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -624,7 +624,7 @@ Creates a new child Figure.
 
 <a id="DirectionalShearMomentDiagram.AddImage"></a>
 
-### DirectionalShearMomentDiagram.AddImage(filePath: System.String)
+### DirectionalShearMomentDiagram.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -652,7 +652,7 @@ Copies all visible properties from this object to another.
 
 <a id="DirectionalShearMomentDiagram.CreateParameter"></a>
 
-### DirectionalShearMomentDiagram.CreateParameter(propName: System.String)
+### DirectionalShearMomentDiagram.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -700,7 +700,7 @@ Run the EvaluateAllResults action.
 
 <a id="DirectionalShearMomentDiagram.ExportAnimation"></a>
 
-### DirectionalShearMomentDiagram.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DirectionalShearMomentDiagram.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -708,7 +708,7 @@ Run the ExportAnimation action.
 
 <a id="DirectionalShearMomentDiagram.ExportToTextFile"></a>
 
-### DirectionalShearMomentDiagram.ExportToTextFile(filePath: System.String)
+### DirectionalShearMomentDiagram.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -724,7 +724,7 @@ Run the FetchRemoteResult action.
 
 <a id="DirectionalShearMomentDiagram.GetChildren"></a>
 
-### DirectionalShearMomentDiagram.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DirectionalShearMomentDiagram.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -732,7 +732,7 @@ Gets the list of children, filtered by type.
 
 <a id="DirectionalShearMomentDiagram.GetParameter"></a>
 
-### DirectionalShearMomentDiagram.GetParameter(propName: System.String)
+### DirectionalShearMomentDiagram.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -764,7 +764,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="DirectionalShearMomentDiagram.PropertyByAPIName"></a>
 
-### DirectionalShearMomentDiagram.PropertyByAPIName(name: System.String)
+### DirectionalShearMomentDiagram.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -775,7 +775,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DirectionalShearMomentDiagram.PropertyByName"></a>
 
-### DirectionalShearMomentDiagram.PropertyByName(name: System.String)
+### DirectionalShearMomentDiagram.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -783,7 +783,7 @@ Get a property by its unique name.
 
 <a id="DirectionalShearMomentDiagram.RemoveParameter"></a>
 
-### DirectionalShearMomentDiagram.RemoveParameter(propName: System.String)
+### DirectionalShearMomentDiagram.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

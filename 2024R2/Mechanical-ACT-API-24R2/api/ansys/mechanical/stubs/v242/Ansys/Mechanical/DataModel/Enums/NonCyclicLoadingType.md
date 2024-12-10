@@ -17,7 +17,7 @@ Specifies the NonCyclicLoadingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`HarmonicIndex`](#NonCyclicLoadingType.HarmonicIndex) |
 | [`No`](#NonCyclicLoadingType.No) |
 | [`SectorNumber`](#NonCyclicLoadingType.SectorNumber) |

@@ -30,7 +30,7 @@ Represents a N command.
 
 <a id="NCommand.Index"></a>
 
-### *property* NCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -38,7 +38,7 @@ Gets the command index.
 
 <a id="NCommand.Name"></a>
 
-### *property* NCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -46,7 +46,7 @@ Gets the command name.
 
 <a id="NCommand.Node"></a>
 
-### *property* NCommand.Node *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NCommand.Node *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the node number.
 
@@ -54,7 +54,7 @@ Gets the node number.
 
 <a id="NCommand.Type"></a>
 
-### *property* NCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NCommand.Type *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the type of the data to be defined.
 
@@ -62,7 +62,7 @@ Gets the type of the data to be defined.
 
 <a id="NCommand.Values"></a>
 
-### *property* NCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NCommand.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

@@ -17,7 +17,7 @@ Specifies the ContactInitialEffect.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`AddOffsetNoRamping`](#ContactInitialEffect.AddOffsetNoRamping) |
 | [`AddOffsetRampedEffects`](#ContactInitialEffect.AddOffsetRampedEffects) |
 | [`AdjustToTouch`](#ContactInitialEffect.AdjustToTouch) |

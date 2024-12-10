@@ -37,7 +37,7 @@ CompositeCriterionDefinition class.
 
 <a id="CompositeCriterionDefinition.Count"></a>
 
-### *property* CompositeCriterionDefinition.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterionDefinition.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gives the number of CompositeCriterionTerms in the definition.
 
@@ -45,7 +45,7 @@ Gives the number of CompositeCriterionTerms in the definition.
 
 <a id="CompositeCriterionDefinition.Item"></a>
 
-### *property* CompositeCriterionDefinition.Item *: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](../../../../../v241/Ansys/ACT/Automation/Mechanical/CompositeCriterionTerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeCriterionDefinition.Item *: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](CompositeCriterionTerm.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -57,7 +57,7 @@ Item property.
 
 <a id="CompositeCriterionDefinition.Add"></a>
 
-### CompositeCriterionDefinition.Add(item: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](../../../../../v241/Ansys/ACT/Automation/Mechanical/CompositeCriterionTerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm))
+### CompositeCriterionDefinition.Add(item: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](CompositeCriterionTerm.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm))
 
 ```text
 Adds a CompositeCriterionTerm at the end in the definition.
@@ -77,7 +77,7 @@ Clears all the CompositeCriterionTerms in the definition.
 
 <a id="CompositeCriterionDefinition.IndexOf"></a>
 
-### CompositeCriterionDefinition.IndexOf(item: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](../../../../../v241/Ansys/ACT/Automation/Mechanical/CompositeCriterionTerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm))
+### CompositeCriterionDefinition.IndexOf(item: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](CompositeCriterionTerm.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm))
 
 ```text
 Gives the index where the specified CompositeCriterionTerm exists in the definition.
@@ -88,7 +88,7 @@ Returns -1 if the term is not found in the definition.
 
 <a id="CompositeCriterionDefinition.Insert"></a>
 
-### CompositeCriterionDefinition.Insert(index: System.Int32, item: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](../../../../../v241/Ansys/ACT/Automation/Mechanical/CompositeCriterionTerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm))
+### CompositeCriterionDefinition.Insert(index: [int](https://docs.python.org/3/library/functions.html#int), item: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](CompositeCriterionTerm.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm))
 
 ```text
 Inserts a CompositeCriterionTerm at a specified index in the definition.
@@ -101,7 +101,7 @@ Usage:
 
 <a id="CompositeCriterionDefinition.RemoveAt"></a>
 
-### CompositeCriterionDefinition.RemoveAt(index: System.Int32)
+### CompositeCriterionDefinition.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 ```text
 Removes the CompositeCriterionTerm at a specified index in the definition.

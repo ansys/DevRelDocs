@@ -17,7 +17,7 @@ Specifies the AggressiveRemeshingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------- |
 | [`Off`](#AggressiveRemeshingType.Off) |
 | [`On`](#AggressiveRemeshingType.On) |
 

@@ -17,7 +17,7 @@ Specifies the PeriodicApplyTo.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------- |
 | [`ApplicableDOF`](#PeriodicApplyTo.ApplicableDOF) |
 | [`Displacement`](#PeriodicApplyTo.Displacement) |
 | [`Voltage`](#PeriodicApplyTo.Voltage) |

@@ -17,7 +17,7 @@ Represents a ETBLOCK command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+|----------------------------------------------------------|--------------------------------|
 | [`ElementTypeCount`](#ETBlockCommand.ElementTypeCount)   | Gets the element type count.   |
 | [`ElementTypes`](#ETBlockCommand.ElementTypes)           | Gets the element types.        |
 | [`Index`](#ETBlockCommand.Index)                         | Gets the command index.        |
@@ -29,7 +29,7 @@ Represents a ETBLOCK command.
 
 <a id="ETBlockCommand.ElementTypeCount"></a>
 
-### *property* ETBlockCommand.ElementTypeCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ETBlockCommand.ElementTypeCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element type count.
 
@@ -37,7 +37,7 @@ Gets the element type count.
 
 <a id="ETBlockCommand.ElementTypes"></a>
 
-### *property* ETBlockCommand.ElementTypes *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementType](CommandElementType.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementType)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ETBlockCommand.ElementTypes *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementType](CommandElementType.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementType)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element types.
 
@@ -45,7 +45,7 @@ Gets the element types.
 
 <a id="ETBlockCommand.Index"></a>
 
-### *property* ETBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ETBlockCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -53,7 +53,7 @@ Gets the command index.
 
 <a id="ETBlockCommand.Name"></a>
 
-### *property* ETBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ETBlockCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 

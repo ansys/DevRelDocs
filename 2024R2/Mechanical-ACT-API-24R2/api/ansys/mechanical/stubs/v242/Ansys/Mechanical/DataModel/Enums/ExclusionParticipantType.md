@@ -17,7 +17,7 @@ Specifies the ExclusionParticipantType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`ExcludeExclusion`](#ExclusionParticipantType.ExcludeExclusion) |
 | [`IncludeExclusion`](#ExclusionParticipantType.IncludeExclusion) |
 

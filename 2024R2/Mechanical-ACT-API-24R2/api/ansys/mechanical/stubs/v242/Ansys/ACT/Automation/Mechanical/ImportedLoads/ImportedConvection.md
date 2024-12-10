@@ -130,7 +130,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedConvection.Children"></a>
 
-### *property* ImportedConvection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -138,7 +138,7 @@ Gets the list of children.
 
 <a id="ImportedConvection.Comments"></a>
 
-### *property* ImportedConvection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -146,7 +146,7 @@ Gets the list of associated comments.
 
 <a id="ImportedConvection.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedConvection.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -154,7 +154,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedConvection.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedConvection.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -162,7 +162,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedConvection.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedConvection.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -178,7 +178,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedConvection.DisplayConnectionLines"></a>
 
-### *property* ImportedConvection.DisplayConnectionLines *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.DisplayConnectionLines *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayConnectionLines.
 
@@ -186,7 +186,7 @@ Gets or sets the DisplayConnectionLines.
 
 <a id="ImportedConvection.DisplayInteriorPoints"></a>
 
-### *property* ImportedConvection.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -194,7 +194,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedConvection.DisplayProjectionPlane"></a>
 
-### *property* ImportedConvection.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -202,7 +202,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedConvection.DisplaySourcePointIds"></a>
 
-### *property* ImportedConvection.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -210,7 +210,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedConvection.DisplaySourcePoints"></a>
 
-### *property* ImportedConvection.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -218,7 +218,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedConvection.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedConvection.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -226,7 +226,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedConvection.Figures"></a>
 
-### *property* ImportedConvection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -234,7 +234,7 @@ Gets the list of associated figures.
 
 <a id="ImportedConvection.FluidFlow"></a>
 
-### *property* ImportedConvection.FluidFlow *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.FluidFlow *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FluidFlow.
 
@@ -250,7 +250,7 @@ Gets or sets the FluidFlowLocation.
 
 <a id="ImportedConvection.Images"></a>
 
-### *property* ImportedConvection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -314,7 +314,7 @@ LegendRange property.
 
 <a id="ImportedConvection.Limit"></a>
 
-### *property* ImportedConvection.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -330,7 +330,7 @@ Gets or sets the Location.
 
 <a id="ImportedConvection.MappedNodesName"></a>
 
-### *property* ImportedConvection.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -370,7 +370,7 @@ Method property.
 
 <a id="ImportedConvection.NumberOfPoints"></a>
 
-### *property* ImportedConvection.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -378,7 +378,7 @@ NumberOfPoints property.
 
 <a id="ImportedConvection.OrientationRealignment"></a>
 
-### *property* ImportedConvection.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -386,7 +386,7 @@ OrientationRealignment property.
 
 <a id="ImportedConvection.OutsideDistanceCheck"></a>
 
-### *property* ImportedConvection.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -394,7 +394,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedConvection.OutsideNodesName"></a>
 
-### *property* ImportedConvection.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -418,7 +418,7 @@ Pinball property.
 
 <a id="ImportedConvection.Projection"></a>
 
-### *property* ImportedConvection.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -426,7 +426,7 @@ Projection property.
 
 <a id="ImportedConvection.Properties"></a>
 
-### *property* ImportedConvection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -442,7 +442,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedConvection.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedConvection.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -450,7 +450,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedConvection.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedConvection.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -458,7 +458,7 @@ RigidTransformTargetCoordinateSystem property.
 
 <a id="ImportedConvection.SharedRefBody"></a>
 
-### *property* ImportedConvection.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -466,7 +466,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedConvection.ShellThicknessFactor"></a>
 
-### *property* ImportedConvection.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -490,7 +490,7 @@ SourceMinimum property.
 
 <a id="ImportedConvection.Suppressed"></a>
 
-### *property* ImportedConvection.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -498,7 +498,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedConvection.UnmappedNodesName"></a>
 
-### *property* ImportedConvection.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -514,7 +514,7 @@ VariableType property.
 
 <a id="ImportedConvection.VisibleProperties"></a>
 
-### *property* ImportedConvection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedConvection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -558,7 +558,7 @@ Creates a new child Figure.
 
 <a id="ImportedConvection.AddImage"></a>
 
-### ImportedConvection.AddImage(filePath: System.String)
+### ImportedConvection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -594,7 +594,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedConvection.CreateParameter"></a>
 
-### ImportedConvection.CreateParameter(propName: System.String)
+### ImportedConvection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -618,7 +618,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedConvection.ExportToTextFile"></a>
 
-### ImportedConvection.ExportToTextFile(filePath: System.String)
+### ImportedConvection.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -626,7 +626,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedConvection.GetActivateAtLoadStep"></a>
 
-### ImportedConvection.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedConvection.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -634,7 +634,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedConvection.GetChildren"></a>
 
-### ImportedConvection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedConvection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -642,7 +642,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedConvection.GetParameter"></a>
 
-### ImportedConvection.GetParameter(propName: System.String)
+### ImportedConvection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -682,7 +682,7 @@ Run the ImportLoad action.
 
 <a id="ImportedConvection.PropertyByAPIName"></a>
 
-### ImportedConvection.PropertyByAPIName(name: System.String)
+### ImportedConvection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -693,7 +693,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedConvection.PropertyByName"></a>
 
-### ImportedConvection.PropertyByName(name: System.String)
+### ImportedConvection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -709,7 +709,7 @@ Reload the Imported Load’s setup from its associated configuration file (if av
 
 <a id="ImportedConvection.RemoveParameter"></a>
 
-### ImportedConvection.RemoveParameter(propName: System.String)
+### ImportedConvection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -717,7 +717,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedConvection.SetActivateAtLoadStep"></a>
 
-### ImportedConvection.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedConvection.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

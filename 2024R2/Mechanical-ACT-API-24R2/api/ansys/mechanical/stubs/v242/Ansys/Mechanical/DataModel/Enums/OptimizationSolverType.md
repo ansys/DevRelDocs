@@ -17,7 +17,7 @@ Specifies the OptimizationSolverType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------- |
 | [`OptimalityCriteria`](#OptimizationSolverType.OptimalityCriteria) |
 | [`ProgramControlled`](#OptimizationSolverType.ProgramControlled) |
 | [`SequentialConvexProgramming`](#OptimizationSolverType.SequentialConvexProgramming) |

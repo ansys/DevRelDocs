@@ -17,7 +17,7 @@ Specifies the PipeLoadingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------- |
 | [`External`](#PipeLoadingType.External) |
 | [`Internal`](#PipeLoadingType.Internal) |
 

@@ -17,7 +17,7 @@ Specifies the ScatteringOutputType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------- |
 | [`Scattered`](#ScatteringOutputType.Scattered) |
 | [`Total`](#ScatteringOutputType.Total) |
 

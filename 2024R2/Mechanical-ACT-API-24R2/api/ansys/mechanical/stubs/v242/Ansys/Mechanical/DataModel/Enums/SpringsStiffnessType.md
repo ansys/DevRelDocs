@@ -17,7 +17,7 @@ Specifies the SpringsStiffnessType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`Factor`](#SpringsStiffnessType.Factor) |
 | [`Manual`](#SpringsStiffnessType.Manual) |
 | [`ProgramControlled`](#SpringsStiffnessType.ProgramControlled) |

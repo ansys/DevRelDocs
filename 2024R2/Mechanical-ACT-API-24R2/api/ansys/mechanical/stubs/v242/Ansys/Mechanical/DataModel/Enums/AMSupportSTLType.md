@@ -17,7 +17,7 @@ Specifies the AMSupportSTLType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------- |
 | [`Solid`](#AMSupportSTLType.Solid) |
 | [`Volumeless`](#AMSupportSTLType.Volumeless) |
 

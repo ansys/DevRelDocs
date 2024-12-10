@@ -17,7 +17,7 @@ Specifies the ExternalLoadDefineActiveSequenceBy.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`Row`](#ExternalLoadDefineActiveSequenceBy.Row) |
 | [`Undefined`](#ExternalLoadDefineActiveSequenceBy.Undefined) |
 | [`Value`](#ExternalLoadDefineActiveSequenceBy.Value) |

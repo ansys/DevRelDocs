@@ -17,7 +17,7 @@ Specifies the Graphics Image Resolution Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------- |
 | [`EnhancedResolution`](#GraphicsResolutionType.EnhancedResolution) |
 | [`HighResolution`](#GraphicsResolutionType.HighResolution) |
 | [`NormalResolution`](#GraphicsResolutionType.NormalResolution) |

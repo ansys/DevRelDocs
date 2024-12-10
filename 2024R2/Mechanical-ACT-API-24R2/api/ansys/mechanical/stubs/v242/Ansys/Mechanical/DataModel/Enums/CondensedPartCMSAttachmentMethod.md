@@ -17,7 +17,7 @@ Specifies the CondensedPartCMSAttachmentMethod.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------- |
 | [`FixedMaster`](#CondensedPartCMSAttachmentMethod.FixedMaster) |
 | [`Orthogonalization`](#CondensedPartCMSAttachmentMethod.Orthogonalization) |
 | [`ProgramControlled`](#CondensedPartCMSAttachmentMethod.ProgramControlled) |

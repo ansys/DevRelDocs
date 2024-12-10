@@ -17,7 +17,7 @@ Defines a VectorPrincipalElasticStrain.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#VectorPrincipalElasticStrain.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#VectorPrincipalElasticStrain.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#VectorPrincipalElasticStrain.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a VectorPrincipalElasticStrain.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#VectorPrincipalElasticStrain.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#VectorPrincipalElasticStrain.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#VectorPrincipalElasticStrain.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -112,7 +112,7 @@ Defines a VectorPrincipalElasticStrain.
 | [`Substep`](#VectorPrincipalElasticStrain.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#VectorPrincipalElasticStrain.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#VectorPrincipalElasticStrain.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#VectorPrincipalElasticStrain.SurfaceCoating)                                                                                                                                                      | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#VectorPrincipalElasticStrain.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#VectorPrincipalElasticStrain.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#VectorPrincipalElasticStrain.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#VectorPrincipalElasticStrain.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -120,7 +120,7 @@ Defines a VectorPrincipalElasticStrain.
 | [`TimeForMinimumOfMaximumValues`](#VectorPrincipalElasticStrain.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#VectorPrincipalElasticStrain.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#VectorPrincipalElasticStrain.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#VectorPrincipalElasticStrain.WaterfallShowTextOnMosaic)                                                                                                                                | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#VectorPrincipalElasticStrain.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -128,7 +128,7 @@ Defines a VectorPrincipalElasticStrain.
 
 <a id="VectorPrincipalElasticStrain.Amplitude"></a>
 
-### *property* VectorPrincipalElasticStrain.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -144,7 +144,7 @@ Gets the Average.
 
 <a id="VectorPrincipalElasticStrain.AverageAcrossBodies"></a>
 
-### *property* VectorPrincipalElasticStrain.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -160,7 +160,7 @@ Gets or sets the By.
 
 <a id="VectorPrincipalElasticStrain.CalculateTimeHistory"></a>
 
-### *property* VectorPrincipalElasticStrain.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -168,7 +168,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="VectorPrincipalElasticStrain.Children"></a>
 
-### *property* VectorPrincipalElasticStrain.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -176,7 +176,7 @@ Gets the list of children.
 
 <a id="VectorPrincipalElasticStrain.CombinationNumber"></a>
 
-### *property* VectorPrincipalElasticStrain.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -184,7 +184,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="VectorPrincipalElasticStrain.Comments"></a>
 
-### *property* VectorPrincipalElasticStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -192,7 +192,7 @@ Gets the list of associated comments.
 
 <a id="VectorPrincipalElasticStrain.CoordinateSystem"></a>
 
-### *property* VectorPrincipalElasticStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -202,7 +202,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="VectorPrincipalElasticStrain.CrackFrontNumber"></a>
 
-### *property* VectorPrincipalElasticStrain.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -210,7 +210,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="VectorPrincipalElasticStrain.CyclicMode"></a>
 
-### *property* VectorPrincipalElasticStrain.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -250,7 +250,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="VectorPrincipalElasticStrain.EnvironmentSelection"></a>
 
-### *property* VectorPrincipalElasticStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -258,7 +258,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="VectorPrincipalElasticStrain.Figures"></a>
 
-### *property* VectorPrincipalElasticStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -274,7 +274,7 @@ Gets or sets the Frequency.
 
 <a id="VectorPrincipalElasticStrain.GlobalIDs"></a>
 
-### *property* VectorPrincipalElasticStrain.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -290,7 +290,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="VectorPrincipalElasticStrain.HarmonicIndex"></a>
 
-### *property* VectorPrincipalElasticStrain.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -298,7 +298,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="VectorPrincipalElasticStrain.Identifier"></a>
 
-### *property* VectorPrincipalElasticStrain.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -306,7 +306,7 @@ Gets or sets the Identifier.
 
 <a id="VectorPrincipalElasticStrain.Images"></a>
 
-### *property* VectorPrincipalElasticStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -322,7 +322,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="VectorPrincipalElasticStrain.IsSolved"></a>
 
-### *property* VectorPrincipalElasticStrain.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -338,7 +338,7 @@ Gets or sets the ItemType.
 
 <a id="VectorPrincipalElasticStrain.IterationNumber"></a>
 
-### *property* VectorPrincipalElasticStrain.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -346,7 +346,7 @@ Gets the IterationNumber.
 
 <a id="VectorPrincipalElasticStrain.IterationStep"></a>
 
-### *property* VectorPrincipalElasticStrain.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -354,7 +354,7 @@ Gets or sets the IterationStep.
 
 <a id="VectorPrincipalElasticStrain.LoadMultiplier"></a>
 
-### *property* VectorPrincipalElasticStrain.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -362,7 +362,7 @@ Gets the LoadMultiplier.
 
 <a id="VectorPrincipalElasticStrain.LoadStep"></a>
 
-### *property* VectorPrincipalElasticStrain.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -370,7 +370,7 @@ Gets the LoadStep.
 
 <a id="VectorPrincipalElasticStrain.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* VectorPrincipalElasticStrain.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -378,7 +378,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="VectorPrincipalElasticStrain.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* VectorPrincipalElasticStrain.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -386,7 +386,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="VectorPrincipalElasticStrain.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* VectorPrincipalElasticStrain.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -394,7 +394,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="VectorPrincipalElasticStrain.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* VectorPrincipalElasticStrain.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -402,7 +402,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="VectorPrincipalElasticStrain.LoadStepNumber"></a>
 
-### *property* VectorPrincipalElasticStrain.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -426,7 +426,7 @@ Gets the Maximum.
 
 <a id="VectorPrincipalElasticStrain.MaximumOccursOn"></a>
 
-### *property* VectorPrincipalElasticStrain.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -458,7 +458,7 @@ Gets the Minimum.
 
 <a id="VectorPrincipalElasticStrain.MinimumOccursOn"></a>
 
-### *property* VectorPrincipalElasticStrain.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -482,7 +482,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="VectorPrincipalElasticStrain.Mode"></a>
 
-### *property* VectorPrincipalElasticStrain.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -490,7 +490,7 @@ Gets or sets the Mode.
 
 <a id="VectorPrincipalElasticStrain.NamedSelections"></a>
 
-### *property* VectorPrincipalElasticStrain.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -514,7 +514,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="VectorPrincipalElasticStrain.Plies"></a>
 
-### *property* VectorPrincipalElasticStrain.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -530,7 +530,7 @@ Gets the result table.
 
 <a id="VectorPrincipalElasticStrain.Ply"></a>
 
-### *property* VectorPrincipalElasticStrain.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -546,7 +546,7 @@ Gets or sets the Position.
 
 <a id="VectorPrincipalElasticStrain.Properties"></a>
 
-### *property* VectorPrincipalElasticStrain.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -570,7 +570,7 @@ Gets or sets the ScopingMethod.
 
 <a id="VectorPrincipalElasticStrain.SetNumber"></a>
 
-### *property* VectorPrincipalElasticStrain.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -586,7 +586,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="VectorPrincipalElasticStrain.SolverComponentIDs"></a>
 
-### *property* VectorPrincipalElasticStrain.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -610,7 +610,7 @@ Gets or sets the SubScopeBy.
 
 <a id="VectorPrincipalElasticStrain.Substep"></a>
 
-### *property* VectorPrincipalElasticStrain.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -618,7 +618,7 @@ Gets the Substep.
 
 <a id="VectorPrincipalElasticStrain.Suppressed"></a>
 
-### *property* VectorPrincipalElasticStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -690,7 +690,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="VectorPrincipalElasticStrain.VisibleProperties"></a>
 
-### *property* VectorPrincipalElasticStrain.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -698,7 +698,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="VectorPrincipalElasticStrain.WaterfallShowTextOnMosaic"></a>
 
-### *property* VectorPrincipalElasticStrain.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorPrincipalElasticStrain.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -750,7 +750,7 @@ Creates a new child Figure.
 
 <a id="VectorPrincipalElasticStrain.AddImage"></a>
 
-### VectorPrincipalElasticStrain.AddImage(filePath: System.String)
+### VectorPrincipalElasticStrain.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -778,7 +778,7 @@ Copies all visible properties from this object to another.
 
 <a id="VectorPrincipalElasticStrain.CreateParameter"></a>
 
-### VectorPrincipalElasticStrain.CreateParameter(propName: System.String)
+### VectorPrincipalElasticStrain.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -826,7 +826,7 @@ Run the EvaluateAllResults action.
 
 <a id="VectorPrincipalElasticStrain.ExportAnimation"></a>
 
-### VectorPrincipalElasticStrain.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### VectorPrincipalElasticStrain.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -834,7 +834,7 @@ Run the ExportAnimation action.
 
 <a id="VectorPrincipalElasticStrain.ExportToTextFile"></a>
 
-### VectorPrincipalElasticStrain.ExportToTextFile(filePath: System.String)
+### VectorPrincipalElasticStrain.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -850,7 +850,7 @@ Run the FetchRemoteResult action.
 
 <a id="VectorPrincipalElasticStrain.GetChildren"></a>
 
-### VectorPrincipalElasticStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### VectorPrincipalElasticStrain.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -858,7 +858,7 @@ Gets the list of children, filtered by type.
 
 <a id="VectorPrincipalElasticStrain.GetParameter"></a>
 
-### VectorPrincipalElasticStrain.GetParameter(propName: System.String)
+### VectorPrincipalElasticStrain.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -890,7 +890,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="VectorPrincipalElasticStrain.PropertyByAPIName"></a>
 
-### VectorPrincipalElasticStrain.PropertyByAPIName(name: System.String)
+### VectorPrincipalElasticStrain.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -901,7 +901,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="VectorPrincipalElasticStrain.PropertyByName"></a>
 
-### VectorPrincipalElasticStrain.PropertyByName(name: System.String)
+### VectorPrincipalElasticStrain.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -909,7 +909,7 @@ Get a property by its unique name.
 
 <a id="VectorPrincipalElasticStrain.RemoveParameter"></a>
 
-### VectorPrincipalElasticStrain.RemoveParameter(propName: System.String)
+### VectorPrincipalElasticStrain.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

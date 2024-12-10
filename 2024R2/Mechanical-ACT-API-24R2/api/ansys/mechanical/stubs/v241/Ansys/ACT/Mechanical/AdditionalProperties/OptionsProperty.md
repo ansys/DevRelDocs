@@ -33,7 +33,7 @@ Provides a way to create properties that show up as a drop down in the UI.
 
 <a id="OptionsProperty.DisplayName"></a>
 
-### *property* OptionsProperty.DisplayName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsProperty.DisplayName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the property shown in the UI. If not set, the Name property is used.
 
@@ -41,7 +41,7 @@ The name of the property shown in the UI. If not set, the Name property is used.
 
 <a id="OptionsProperty.GroupName"></a>
 
-### *property* OptionsProperty.GroupName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsProperty.GroupName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The group name of the property shown in the UI, and used to separate properties based on group name.
 
@@ -49,7 +49,7 @@ The group name of the property shown in the UI, and used to separate properties 
 
 <a id="OptionsProperty.Name"></a>
 
-### *property* OptionsProperty.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsProperty.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the property.
 
@@ -57,7 +57,7 @@ The name of the property.
 
 <a id="OptionsProperty.Options"></a>
 
-### *property* OptionsProperty.Options *: System.Collections.Generic.IDictionary[System.Object, System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsProperty.Options *: [dict](https://docs.python.org/3/library/stdtypes.html#dict)[Any, Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Options shown in the drop-down, represented by a dictionary of int -> string.
 Where the int represents the option, and string represents string shown in the UI.
@@ -67,7 +67,7 @@ When an option is selected the Value property of the property is set to to the o
 
 <a id="OptionsProperty.ReadOnly"></a>
 
-### *property* OptionsProperty.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsProperty.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns whether a property is readonly.
 
@@ -75,7 +75,7 @@ Returns whether a property is readonly.
 
 <a id="OptionsProperty.Tooltip"></a>
 
-### *property* OptionsProperty.Tooltip *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsProperty.Tooltip *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The tooltip of the property in the UI.
 
@@ -83,7 +83,7 @@ The tooltip of the property in the UI.
 
 <a id="OptionsProperty.Value"></a>
 
-### *property* OptionsProperty.Value *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsProperty.Value *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The stored value of the property.
 
@@ -91,7 +91,7 @@ The stored value of the property.
 
 <a id="OptionsProperty.ValueString"></a>
 
-### *property* OptionsProperty.ValueString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsProperty.ValueString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the string representation of the value.
 

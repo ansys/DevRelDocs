@@ -17,7 +17,7 @@ Specifies the SpringScopingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- |
 | [`BodyToBody`](#SpringScopingType.BodyToBody) |
 | [`BodyToGround`](#SpringScopingType.BodyToGround) |
 

@@ -17,7 +17,7 @@ Specifies the TransformationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`Custom`](#TransformationType.Custom) |
 | [`Flip`](#TransformationType.Flip) |
 | [`Offset`](#TransformationType.Offset) |

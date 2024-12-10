@@ -17,7 +17,7 @@ Defines a MaximumPrincipalThermalStrain.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MaximumPrincipalThermalStrain.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#MaximumPrincipalThermalStrain.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#MaximumPrincipalThermalStrain.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a MaximumPrincipalThermalStrain.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#MaximumPrincipalThermalStrain.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#MaximumPrincipalThermalStrain.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#MaximumPrincipalThermalStrain.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -112,7 +112,7 @@ Defines a MaximumPrincipalThermalStrain.
 | [`Substep`](#MaximumPrincipalThermalStrain.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#MaximumPrincipalThermalStrain.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#MaximumPrincipalThermalStrain.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#MaximumPrincipalThermalStrain.SurfaceCoating)                                                                                                                                                       | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#MaximumPrincipalThermalStrain.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#MaximumPrincipalThermalStrain.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#MaximumPrincipalThermalStrain.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#MaximumPrincipalThermalStrain.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -120,7 +120,7 @@ Defines a MaximumPrincipalThermalStrain.
 | [`TimeForMinimumOfMaximumValues`](#MaximumPrincipalThermalStrain.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#MaximumPrincipalThermalStrain.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#MaximumPrincipalThermalStrain.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#MaximumPrincipalThermalStrain.WaterfallShowTextOnMosaic)                                                                                                                                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#MaximumPrincipalThermalStrain.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -128,7 +128,7 @@ Defines a MaximumPrincipalThermalStrain.
 
 <a id="MaximumPrincipalThermalStrain.Amplitude"></a>
 
-### *property* MaximumPrincipalThermalStrain.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -144,7 +144,7 @@ Gets the Average.
 
 <a id="MaximumPrincipalThermalStrain.AverageAcrossBodies"></a>
 
-### *property* MaximumPrincipalThermalStrain.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -160,7 +160,7 @@ Gets or sets the By.
 
 <a id="MaximumPrincipalThermalStrain.CalculateTimeHistory"></a>
 
-### *property* MaximumPrincipalThermalStrain.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -168,7 +168,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="MaximumPrincipalThermalStrain.Children"></a>
 
-### *property* MaximumPrincipalThermalStrain.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -176,7 +176,7 @@ Gets the list of children.
 
 <a id="MaximumPrincipalThermalStrain.CombinationNumber"></a>
 
-### *property* MaximumPrincipalThermalStrain.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -184,7 +184,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="MaximumPrincipalThermalStrain.Comments"></a>
 
-### *property* MaximumPrincipalThermalStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -192,7 +192,7 @@ Gets the list of associated comments.
 
 <a id="MaximumPrincipalThermalStrain.CoordinateSystem"></a>
 
-### *property* MaximumPrincipalThermalStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -202,7 +202,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="MaximumPrincipalThermalStrain.CrackFrontNumber"></a>
 
-### *property* MaximumPrincipalThermalStrain.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -210,7 +210,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="MaximumPrincipalThermalStrain.CyclicMode"></a>
 
-### *property* MaximumPrincipalThermalStrain.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -250,7 +250,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="MaximumPrincipalThermalStrain.EnvironmentSelection"></a>
 
-### *property* MaximumPrincipalThermalStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -258,7 +258,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="MaximumPrincipalThermalStrain.Figures"></a>
 
-### *property* MaximumPrincipalThermalStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -274,7 +274,7 @@ Gets or sets the Frequency.
 
 <a id="MaximumPrincipalThermalStrain.GlobalIDs"></a>
 
-### *property* MaximumPrincipalThermalStrain.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -290,7 +290,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="MaximumPrincipalThermalStrain.HarmonicIndex"></a>
 
-### *property* MaximumPrincipalThermalStrain.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -298,7 +298,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="MaximumPrincipalThermalStrain.Identifier"></a>
 
-### *property* MaximumPrincipalThermalStrain.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -306,7 +306,7 @@ Gets or sets the Identifier.
 
 <a id="MaximumPrincipalThermalStrain.Images"></a>
 
-### *property* MaximumPrincipalThermalStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -322,7 +322,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MaximumPrincipalThermalStrain.IsSolved"></a>
 
-### *property* MaximumPrincipalThermalStrain.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -338,7 +338,7 @@ Gets or sets the ItemType.
 
 <a id="MaximumPrincipalThermalStrain.IterationNumber"></a>
 
-### *property* MaximumPrincipalThermalStrain.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -346,7 +346,7 @@ Gets the IterationNumber.
 
 <a id="MaximumPrincipalThermalStrain.IterationStep"></a>
 
-### *property* MaximumPrincipalThermalStrain.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -354,7 +354,7 @@ Gets or sets the IterationStep.
 
 <a id="MaximumPrincipalThermalStrain.LoadMultiplier"></a>
 
-### *property* MaximumPrincipalThermalStrain.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -362,7 +362,7 @@ Gets the LoadMultiplier.
 
 <a id="MaximumPrincipalThermalStrain.LoadStep"></a>
 
-### *property* MaximumPrincipalThermalStrain.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -370,7 +370,7 @@ Gets the LoadStep.
 
 <a id="MaximumPrincipalThermalStrain.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MaximumPrincipalThermalStrain.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -378,7 +378,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="MaximumPrincipalThermalStrain.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MaximumPrincipalThermalStrain.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -386,7 +386,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="MaximumPrincipalThermalStrain.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* MaximumPrincipalThermalStrain.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -394,7 +394,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="MaximumPrincipalThermalStrain.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* MaximumPrincipalThermalStrain.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -402,7 +402,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="MaximumPrincipalThermalStrain.LoadStepNumber"></a>
 
-### *property* MaximumPrincipalThermalStrain.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -426,7 +426,7 @@ Gets the Maximum.
 
 <a id="MaximumPrincipalThermalStrain.MaximumOccursOn"></a>
 
-### *property* MaximumPrincipalThermalStrain.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -458,7 +458,7 @@ Gets the Minimum.
 
 <a id="MaximumPrincipalThermalStrain.MinimumOccursOn"></a>
 
-### *property* MaximumPrincipalThermalStrain.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -482,7 +482,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="MaximumPrincipalThermalStrain.Mode"></a>
 
-### *property* MaximumPrincipalThermalStrain.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -490,7 +490,7 @@ Gets or sets the Mode.
 
 <a id="MaximumPrincipalThermalStrain.NamedSelections"></a>
 
-### *property* MaximumPrincipalThermalStrain.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -514,7 +514,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="MaximumPrincipalThermalStrain.Plies"></a>
 
-### *property* MaximumPrincipalThermalStrain.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -530,7 +530,7 @@ Gets the result table.
 
 <a id="MaximumPrincipalThermalStrain.Ply"></a>
 
-### *property* MaximumPrincipalThermalStrain.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -546,7 +546,7 @@ Gets or sets the Position.
 
 <a id="MaximumPrincipalThermalStrain.Properties"></a>
 
-### *property* MaximumPrincipalThermalStrain.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -570,7 +570,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MaximumPrincipalThermalStrain.SetNumber"></a>
 
-### *property* MaximumPrincipalThermalStrain.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -586,7 +586,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="MaximumPrincipalThermalStrain.SolverComponentIDs"></a>
 
-### *property* MaximumPrincipalThermalStrain.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -610,7 +610,7 @@ Gets or sets the SubScopeBy.
 
 <a id="MaximumPrincipalThermalStrain.Substep"></a>
 
-### *property* MaximumPrincipalThermalStrain.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -618,7 +618,7 @@ Gets the Substep.
 
 <a id="MaximumPrincipalThermalStrain.Suppressed"></a>
 
-### *property* MaximumPrincipalThermalStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -690,7 +690,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="MaximumPrincipalThermalStrain.VisibleProperties"></a>
 
-### *property* MaximumPrincipalThermalStrain.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -698,7 +698,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="MaximumPrincipalThermalStrain.WaterfallShowTextOnMosaic"></a>
 
-### *property* MaximumPrincipalThermalStrain.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumPrincipalThermalStrain.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -750,7 +750,7 @@ Creates a new child Figure.
 
 <a id="MaximumPrincipalThermalStrain.AddImage"></a>
 
-### MaximumPrincipalThermalStrain.AddImage(filePath: System.String)
+### MaximumPrincipalThermalStrain.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -778,7 +778,7 @@ Copies all visible properties from this object to another.
 
 <a id="MaximumPrincipalThermalStrain.CreateParameter"></a>
 
-### MaximumPrincipalThermalStrain.CreateParameter(propName: System.String)
+### MaximumPrincipalThermalStrain.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -826,7 +826,7 @@ Run the EvaluateAllResults action.
 
 <a id="MaximumPrincipalThermalStrain.ExportAnimation"></a>
 
-### MaximumPrincipalThermalStrain.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### MaximumPrincipalThermalStrain.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -834,7 +834,7 @@ Run the ExportAnimation action.
 
 <a id="MaximumPrincipalThermalStrain.ExportToTextFile"></a>
 
-### MaximumPrincipalThermalStrain.ExportToTextFile(filePath: System.String)
+### MaximumPrincipalThermalStrain.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -850,7 +850,7 @@ Run the FetchRemoteResult action.
 
 <a id="MaximumPrincipalThermalStrain.GetChildren"></a>
 
-### MaximumPrincipalThermalStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MaximumPrincipalThermalStrain.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -858,7 +858,7 @@ Gets the list of children, filtered by type.
 
 <a id="MaximumPrincipalThermalStrain.GetParameter"></a>
 
-### MaximumPrincipalThermalStrain.GetParameter(propName: System.String)
+### MaximumPrincipalThermalStrain.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -890,7 +890,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="MaximumPrincipalThermalStrain.PropertyByAPIName"></a>
 
-### MaximumPrincipalThermalStrain.PropertyByAPIName(name: System.String)
+### MaximumPrincipalThermalStrain.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -901,7 +901,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MaximumPrincipalThermalStrain.PropertyByName"></a>
 
-### MaximumPrincipalThermalStrain.PropertyByName(name: System.String)
+### MaximumPrincipalThermalStrain.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -909,7 +909,7 @@ Get a property by its unique name.
 
 <a id="MaximumPrincipalThermalStrain.RemoveParameter"></a>
 
-### MaximumPrincipalThermalStrain.RemoveParameter(propName: System.String)
+### MaximumPrincipalThermalStrain.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

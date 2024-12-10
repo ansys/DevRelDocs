@@ -17,7 +17,7 @@ Specifies the Electric Physics Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------- |
 | [`ChargeBased`](#ElectricType.ChargeBased) |
 | [`Conduction`](#ElectricType.Conduction) |
 | [`No`](#ElectricType.No) |

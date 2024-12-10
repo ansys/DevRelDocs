@@ -59,7 +59,7 @@ Defines a AcousticSymmetryPlane.
 
 <a id="AcousticSymmetryPlane.Children"></a>
 
-### *property* AcousticSymmetryPlane.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="AcousticSymmetryPlane.Comments"></a>
 
-### *property* AcousticSymmetryPlane.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -75,7 +75,7 @@ Gets the list of associated comments.
 
 <a id="AcousticSymmetryPlane.CoordinateSystem"></a>
 
-### *property* AcousticSymmetryPlane.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticSymmetryPlane.Figures"></a>
 
-### *property* AcousticSymmetryPlane.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -99,7 +99,7 @@ Gets the list of associated figures.
 
 <a id="AcousticSymmetryPlane.Images"></a>
 
-### *property* AcousticSymmetryPlane.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -123,7 +123,7 @@ Gets or sets the Location.
 
 <a id="AcousticSymmetryPlane.Properties"></a>
 
-### *property* AcousticSymmetryPlane.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -131,7 +131,7 @@ Gets the list of properties for this object.
 
 <a id="AcousticSymmetryPlane.ReadOnly"></a>
 
-### *property* AcousticSymmetryPlane.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -139,7 +139,7 @@ Gets or sets the ReadOnly.
 
 <a id="AcousticSymmetryPlane.SharedRefBody"></a>
 
-### *property* AcousticSymmetryPlane.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -147,7 +147,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticSymmetryPlane.Suppressed"></a>
 
-### *property* AcousticSymmetryPlane.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -155,7 +155,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticSymmetryPlane.VisibleProperties"></a>
 
-### *property* AcousticSymmetryPlane.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSymmetryPlane.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -191,7 +191,7 @@ Creates a new child Figure.
 
 <a id="AcousticSymmetryPlane.AddImage"></a>
 
-### AcousticSymmetryPlane.AddImage(filePath: System.String)
+### AcousticSymmetryPlane.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -211,7 +211,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticSymmetryPlane.CreateParameter"></a>
 
-### AcousticSymmetryPlane.CreateParameter(propName: System.String)
+### AcousticSymmetryPlane.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticSymmetryPlane.GetChildren"></a>
 
-### AcousticSymmetryPlane.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticSymmetryPlane.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticSymmetryPlane.GetParameter"></a>
 
-### AcousticSymmetryPlane.GetParameter(propName: System.String)
+### AcousticSymmetryPlane.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -275,7 +275,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticSymmetryPlane.PropertyByAPIName"></a>
 
-### AcousticSymmetryPlane.PropertyByAPIName(name: System.String)
+### AcousticSymmetryPlane.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -286,7 +286,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticSymmetryPlane.PropertyByName"></a>
 
-### AcousticSymmetryPlane.PropertyByName(name: System.String)
+### AcousticSymmetryPlane.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Get a property by its unique name.
 
 <a id="AcousticSymmetryPlane.RemoveParameter"></a>
 
-### AcousticSymmetryPlane.RemoveParameter(propName: System.String)
+### AcousticSymmetryPlane.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

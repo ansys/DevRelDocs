@@ -17,7 +17,7 @@ Defines a Mechanical user object.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+|-------------------------------------------------|---------------------------------|
 | [`Analysis`](#IMechanicalUserObject.Analysis)   | Gets the associated analysis.   |
 
 <a id="property-detail"></a>

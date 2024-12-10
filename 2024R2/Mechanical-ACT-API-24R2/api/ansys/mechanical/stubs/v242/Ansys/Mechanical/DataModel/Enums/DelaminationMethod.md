@@ -17,7 +17,7 @@ Specifies the DelaminationMethod.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------- |
 | [`CZM`](#DelaminationMethod.CZM) |
 | [`SMART`](#DelaminationMethod.SMART) |
 | [`VCCT`](#DelaminationMethod.VCCT) |

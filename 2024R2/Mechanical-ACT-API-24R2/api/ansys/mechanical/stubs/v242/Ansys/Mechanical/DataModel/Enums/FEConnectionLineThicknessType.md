@@ -17,7 +17,7 @@ Specifies the FEConnectionLineThicknessType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------- |
 | [`Double`](#FEConnectionLineThicknessType.Double) |
 | [`Single`](#FEConnectionLineThicknessType.Single) |
 | [`Triple`](#FEConnectionLineThicknessType.Triple) |

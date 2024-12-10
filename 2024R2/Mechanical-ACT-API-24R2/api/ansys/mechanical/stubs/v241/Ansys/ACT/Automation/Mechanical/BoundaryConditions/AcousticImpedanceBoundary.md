@@ -17,7 +17,7 @@ Defines a AcousticImpedanceBoundary.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticImpedanceBoundary.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#AcousticImpedanceBoundary.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#AcousticImpedanceBoundary.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a AcousticImpedanceBoundary.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#AcousticImpedanceBoundary.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#AcousticImpedanceBoundary.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#AcousticImpedanceBoundary.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -61,7 +61,7 @@ Defines a AcousticImpedanceBoundary.
 
 <a id="AcousticImpedanceBoundary.Children"></a>
 
-### *property* AcousticImpedanceBoundary.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -69,7 +69,7 @@ Gets the list of children.
 
 <a id="AcousticImpedanceBoundary.Comments"></a>
 
-### *property* AcousticImpedanceBoundary.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -77,7 +77,7 @@ Gets the list of associated comments.
 
 <a id="AcousticImpedanceBoundary.DataModelObjectCategory"></a>
 
-### *property* AcousticImpedanceBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -85,7 +85,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AcousticImpedanceBoundary.Figures"></a>
 
-### *property* AcousticImpedanceBoundary.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -101,7 +101,7 @@ Gets or sets the Frequency.
 
 <a id="AcousticImpedanceBoundary.Images"></a>
 
-### *property* AcousticImpedanceBoundary.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -125,7 +125,7 @@ Gets or sets the Location.
 
 <a id="AcousticImpedanceBoundary.Properties"></a>
 
-### *property* AcousticImpedanceBoundary.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -133,7 +133,7 @@ Gets the list of properties for this object.
 
 <a id="AcousticImpedanceBoundary.Reactance"></a>
 
-### *property* AcousticImpedanceBoundary.Reactance *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.Reactance *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Reactance.
 
@@ -141,7 +141,7 @@ Gets or sets the Reactance.
 
 <a id="AcousticImpedanceBoundary.ReadOnly"></a>
 
-### *property* AcousticImpedanceBoundary.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -149,7 +149,7 @@ Gets or sets the ReadOnly.
 
 <a id="AcousticImpedanceBoundary.Resistance"></a>
 
-### *property* AcousticImpedanceBoundary.Resistance *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.Resistance *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Resistance.
 
@@ -165,7 +165,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticImpedanceBoundary.Suppressed"></a>
 
-### *property* AcousticImpedanceBoundary.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -173,7 +173,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticImpedanceBoundary.VisibleProperties"></a>
 
-### *property* AcousticImpedanceBoundary.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticImpedanceBoundary.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -209,7 +209,7 @@ Creates a new child Figure.
 
 <a id="AcousticImpedanceBoundary.AddImage"></a>
 
-### AcousticImpedanceBoundary.AddImage(filePath: System.String)
+### AcousticImpedanceBoundary.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -229,7 +229,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticImpedanceBoundary.CreateParameter"></a>
 
-### AcousticImpedanceBoundary.CreateParameter(propName: System.String)
+### AcousticImpedanceBoundary.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -253,7 +253,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticImpedanceBoundary.GetChildren"></a>
 
-### AcousticImpedanceBoundary.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticImpedanceBoundary.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -261,7 +261,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticImpedanceBoundary.GetParameter"></a>
 
-### AcousticImpedanceBoundary.GetParameter(propName: System.String)
+### AcousticImpedanceBoundary.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -293,7 +293,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticImpedanceBoundary.PropertyByAPIName"></a>
 
-### AcousticImpedanceBoundary.PropertyByAPIName(name: System.String)
+### AcousticImpedanceBoundary.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -304,7 +304,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticImpedanceBoundary.PropertyByName"></a>
 
-### AcousticImpedanceBoundary.PropertyByName(name: System.String)
+### AcousticImpedanceBoundary.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -312,7 +312,7 @@ Get a property by its unique name.
 
 <a id="AcousticImpedanceBoundary.RemoveParameter"></a>
 
-### AcousticImpedanceBoundary.RemoveParameter(propName: System.String)
+### AcousticImpedanceBoundary.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the AnalysisType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`Buckling`](#AnalysisType.Buckling) |
 | [`DesignAssessment`](#AnalysisType.DesignAssessment) |
 | [`ExplicitDynamics`](#AnalysisType.ExplicitDynamics) |

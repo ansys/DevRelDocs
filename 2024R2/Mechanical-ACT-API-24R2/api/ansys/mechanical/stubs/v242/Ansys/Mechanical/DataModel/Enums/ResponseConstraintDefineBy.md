@@ -17,7 +17,7 @@ Specifies the ResponseConstraintDefineBy.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------- |
 | [`AbsoluteConstant`](#ResponseConstraintDefineBy.AbsoluteConstant) |
 | [`AbsoluteRange`](#ResponseConstraintDefineBy.AbsoluteRange) |
 | [`Constant`](#ResponseConstraintDefineBy.Constant) |

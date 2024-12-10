@@ -17,7 +17,7 @@ Defines a InterfaceDelamination.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#InterfaceDelamination.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#InterfaceDelamination.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#InterfaceDelamination.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a InterfaceDelamination.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AutomaticTimeStepping`](#InterfaceDelamination.AutomaticTimeStepping)     | Gets or sets the AutomaticTimeStepping.                       |
 | [`Children`](#InterfaceDelamination.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#InterfaceDelamination.Comments)                               | Gets the list of associated comments.                         |
@@ -72,7 +72,7 @@ Defines a InterfaceDelamination.
 
 <a id="InterfaceDelamination.AutomaticTimeStepping"></a>
 
-### *property* InterfaceDelamination.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticTimeStepping.
 
@@ -80,7 +80,7 @@ Gets or sets the AutomaticTimeStepping.
 
 <a id="InterfaceDelamination.Children"></a>
 
-### *property* InterfaceDelamination.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -88,7 +88,7 @@ Gets the list of children.
 
 <a id="InterfaceDelamination.Comments"></a>
 
-### *property* InterfaceDelamination.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -104,7 +104,7 @@ Gets or sets the CriticalRate.
 
 <a id="InterfaceDelamination.DataModelObjectCategory"></a>
 
-### *property* InterfaceDelamination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -120,7 +120,7 @@ Gets or sets the DistanceTolerance.
 
 <a id="InterfaceDelamination.FailureCriteriaOption"></a>
 
-### *property* InterfaceDelamination.FailureCriteriaOption *: [Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.FailureCriteriaOption *: [Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption](../../../Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FailureCriteriaOption.
 
@@ -128,7 +128,7 @@ Gets or sets the FailureCriteriaOption.
 
 <a id="InterfaceDelamination.Figures"></a>
 
-### *property* InterfaceDelamination.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -136,7 +136,7 @@ Gets the list of associated figures.
 
 <a id="InterfaceDelamination.GenerationMethod"></a>
 
-### *property* InterfaceDelamination.GenerationMethod *: [Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.GenerationMethod *: [Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod](../../../Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerationMethod.
 
@@ -144,7 +144,7 @@ Gets or sets the GenerationMethod.
 
 <a id="InterfaceDelamination.Images"></a>
 
-### *property* InterfaceDelamination.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -184,7 +184,7 @@ Gets or sets the MatchControl.
 
 <a id="InterfaceDelamination.Material"></a>
 
-### *property* InterfaceDelamination.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -200,7 +200,7 @@ Gets or sets the MaximumTimeStep.
 
 <a id="InterfaceDelamination.Method"></a>
 
-### *property* InterfaceDelamination.Method *: [Ansys.Mechanical.DataModel.Enums.DelaminationMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DelaminationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Method *: [Ansys.Mechanical.DataModel.Enums.DelaminationMethod](../../../Mechanical/DataModel/Enums/DelaminationMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Method.
 
@@ -216,7 +216,7 @@ Gets or sets the MinimumTimeStep.
 
 <a id="InterfaceDelamination.Properties"></a>
 
-### *property* InterfaceDelamination.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -224,7 +224,7 @@ Gets the list of properties for this object.
 
 <a id="InterfaceDelamination.ReadOnly"></a>
 
-### *property* InterfaceDelamination.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -240,7 +240,7 @@ Gets or sets the SourceLocation.
 
 <a id="InterfaceDelamination.Suppressed"></a>
 
-### *property* InterfaceDelamination.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -256,7 +256,7 @@ Gets or sets the TargetLocation.
 
 <a id="InterfaceDelamination.ToleranceType"></a>
 
-### *property* InterfaceDelamination.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](../../../Mechanical/DataModel/Enums/ToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
@@ -264,7 +264,7 @@ Gets or sets the ToleranceType.
 
 <a id="InterfaceDelamination.Type"></a>
 
-### *property* InterfaceDelamination.Type *: [Ansys.Mechanical.DataModel.Enums.DelaminationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DelaminationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.Type *: [Ansys.Mechanical.DataModel.Enums.DelaminationType](../../../Mechanical/DataModel/Enums/DelaminationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -272,7 +272,7 @@ Gets the Type.
 
 <a id="InterfaceDelamination.VisibleProperties"></a>
 
-### *property* InterfaceDelamination.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InterfaceDelamination.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -316,7 +316,7 @@ Creates a new child Figure.
 
 <a id="InterfaceDelamination.AddImage"></a>
 
-### InterfaceDelamination.AddImage(filePath: System.String)
+### InterfaceDelamination.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -336,7 +336,7 @@ Copies all visible properties from this object to another.
 
 <a id="InterfaceDelamination.CreateParameter"></a>
 
-### InterfaceDelamination.CreateParameter(propName: System.String)
+### InterfaceDelamination.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -360,7 +360,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="InterfaceDelamination.GetChildren"></a>
 
-### InterfaceDelamination.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### InterfaceDelamination.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -368,7 +368,7 @@ Gets the list of children, filtered by type.
 
 <a id="InterfaceDelamination.GetParameter"></a>
 
-### InterfaceDelamination.GetParameter(propName: System.String)
+### InterfaceDelamination.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -392,7 +392,7 @@ Run the GroupSimilarObjects action.
 
 <a id="InterfaceDelamination.PropertyByAPIName"></a>
 
-### InterfaceDelamination.PropertyByAPIName(name: System.String)
+### InterfaceDelamination.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -403,7 +403,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="InterfaceDelamination.PropertyByName"></a>
 
-### InterfaceDelamination.PropertyByName(name: System.String)
+### InterfaceDelamination.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -411,7 +411,7 @@ Get a property by its unique name.
 
 <a id="InterfaceDelamination.RemoveParameter"></a>
 
-### InterfaceDelamination.RemoveParameter(propName: System.String)
+### InterfaceDelamination.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

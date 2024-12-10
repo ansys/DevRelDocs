@@ -17,7 +17,7 @@ Defines a ANSYSAnalysisSettings.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [`Activate`](#ANSYSAnalysisSettings.Activate)                                                                     | Activate the current object.                                                           |
 | [`AddComment`](#ANSYSAnalysisSettings.AddComment)                                                                 | Creates a new child Comment.                                                           |
 | [`AddFigure`](#ANSYSAnalysisSettings.AddFigure)                                                                   | Creates a new child Figure.                                                            |
@@ -186,7 +186,7 @@ Defines a ANSYSAnalysisSettings.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [`AMCooldownNumberOfSubsteps`](#ANSYSAnalysisSettings.AMCooldownNumberOfSubsteps)                             | Gets or sets the AM Cooldown Number of Substeps.                                                    |
 | [`AMPSConvergence`](#ANSYSAnalysisSettings.AMPSConvergence)                                                   | Gets or sets the AMPSConvergence.                                                                   |
 | [`AMStepType`](#ANSYSAnalysisSettings.AMStepType)                                                             | Gets or sets the AM Process Step Type.                                                              |
@@ -475,7 +475,7 @@ Defines a ANSYSAnalysisSettings.
 
 <a id="ANSYSAnalysisSettings.AMCooldownNumberOfSubsteps"></a>
 
-### *property* ANSYSAnalysisSettings.AMCooldownNumberOfSubsteps *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AMCooldownNumberOfSubsteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Cooldown Number of Substeps.
 
@@ -483,7 +483,7 @@ Gets or sets the AM Cooldown Number of Substeps.
 
 <a id="ANSYSAnalysisSettings.AMPSConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.AMPSConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AMPSConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AMPSConvergence.
 
@@ -491,7 +491,7 @@ Gets or sets the AMPSConvergence.
 
 <a id="ANSYSAnalysisSettings.AMStepType"></a>
 
-### *property* ANSYSAnalysisSettings.AMStepType *: [Ansys.Mechanical.DataModel.Enums.AMProcessStepType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMProcessStepType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMProcessStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AMStepType *: [Ansys.Mechanical.DataModel.Enums.AMProcessStepType](../../../../Mechanical/DataModel/Enums/AMProcessStepType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMProcessStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Process Step Type.
 
@@ -499,7 +499,7 @@ Gets or sets the AM Process Step Type.
 
 <a id="ANSYSAnalysisSettings.AMSubstepsBetweenHeating"></a>
 
-### *property* ANSYSAnalysisSettings.AMSubstepsBetweenHeating *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AMSubstepsBetweenHeating *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Substeps Between Heating.
 
@@ -507,7 +507,7 @@ Gets or sets the AM Substeps Between Heating.
 
 <a id="ANSYSAnalysisSettings.AMSubstepsToApplyHeats"></a>
 
-### *property* ANSYSAnalysisSettings.AMSubstepsToApplyHeats *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AMSubstepsToApplyHeats *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Substeps to Apply Heat.
 
@@ -515,7 +515,7 @@ Gets or sets the AM Substeps to Apply Heat.
 
 <a id="ANSYSAnalysisSettings.AggressiveRemeshing"></a>
 
-### *property* ANSYSAnalysisSettings.AggressiveRemeshing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AggressiveRemeshing *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AggressiveRemeshing.
 
@@ -523,7 +523,7 @@ Gets or sets the AggressiveRemeshing.
 
 <a id="ANSYSAnalysisSettings.AutomaticTimeStepping"></a>
 
-### *property* ANSYSAnalysisSettings.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticTimeStepping.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AutomaticTimeStepping *: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticTimeStepping.
 
@@ -531,7 +531,7 @@ Gets or sets the AutomaticTimeStepping.
 
 <a id="ANSYSAnalysisSettings.AxisymmetryDivisions"></a>
 
-### *property* ANSYSAnalysisSettings.AxisymmetryDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.AxisymmetryDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AxisymmetryDivisions.
 
@@ -539,7 +539,7 @@ Gets or sets the AxisymmetryDivisions.
 
 <a id="ANSYSAnalysisSettings.BackStress"></a>
 
-### *property* ANSYSAnalysisSettings.BackStress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.BackStress *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BackStress.
 
@@ -547,7 +547,7 @@ Gets or sets the BackStress.
 
 <a id="ANSYSAnalysisSettings.BaseRemovalType"></a>
 
-### *property* ANSYSAnalysisSettings.BaseRemovalType *: [Ansys.Mechanical.DataModel.Enums.AMBaseRemovalType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBaseRemovalType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMBaseRemovalType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.BaseRemovalType *: [Ansys.Mechanical.DataModel.Enums.AMBaseRemovalType](../../../../Mechanical/DataModel/Enums/AMBaseRemovalType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMBaseRemovalType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BaseRemovalType.
 
@@ -563,7 +563,7 @@ Gets or sets the BoundaryAngle.
 
 <a id="ANSYSAnalysisSettings.CSGConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.CSGConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CSGConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CSGConvergence.
 
@@ -571,7 +571,7 @@ Gets or sets the CSGConvergence.
 
 <a id="ANSYSAnalysisSettings.CStarIntegral"></a>
 
-### *property* ANSYSAnalysisSettings.CStarIntegral *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CStarIntegral *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CStarIntegral.
 
@@ -579,7 +579,7 @@ Gets or sets the CStarIntegral.
 
 <a id="ANSYSAnalysisSettings.CacheResultsInMemory"></a>
 
-### *property* ANSYSAnalysisSettings.CacheResultsInMemory *: [Ansys.Mechanical.DataModel.Enums.CacheResultsInMemory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CacheResultsInMemory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CacheResultsInMemory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CacheResultsInMemory *: [Ansys.Mechanical.DataModel.Enums.CacheResultsInMemory](../../../../Mechanical/DataModel/Enums/CacheResultsInMemory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CacheResultsInMemory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CacheResultsInMemory.
 
@@ -587,7 +587,7 @@ Gets or sets the CacheResultsInMemory.
 
 <a id="ANSYSAnalysisSettings.CalculateAcceleration"></a>
 
-### *property* ANSYSAnalysisSettings.CalculateAcceleration *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CalculateAcceleration *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateAcceleration.
 
@@ -595,7 +595,7 @@ Gets or sets the CalculateAcceleration.
 
 <a id="ANSYSAnalysisSettings.CalculateEnergy"></a>
 
-### *property* ANSYSAnalysisSettings.CalculateEnergy *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CalculateEnergy *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateEnergy.
 
@@ -603,7 +603,7 @@ Gets or sets the CalculateEnergy.
 
 <a id="ANSYSAnalysisSettings.CalculateEulerAngles"></a>
 
-### *property* ANSYSAnalysisSettings.CalculateEulerAngles *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CalculateEulerAngles *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateEulerAngles.
 
@@ -611,7 +611,7 @@ Gets or sets the CalculateEulerAngles.
 
 <a id="ANSYSAnalysisSettings.CalculateReactions"></a>
 
-### *property* ANSYSAnalysisSettings.CalculateReactions *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CalculateReactions *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateReactions.
 
@@ -619,7 +619,7 @@ Gets or sets the CalculateReactions.
 
 <a id="ANSYSAnalysisSettings.CalculateThermalFlux"></a>
 
-### *property* ANSYSAnalysisSettings.CalculateThermalFlux *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CalculateThermalFlux *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateThermalFlux.
 
@@ -627,7 +627,7 @@ Gets or sets the CalculateThermalFlux.
 
 <a id="ANSYSAnalysisSettings.CalculateVelocity"></a>
 
-### *property* ANSYSAnalysisSettings.CalculateVelocity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CalculateVelocity *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateVelocity.
 
@@ -635,7 +635,7 @@ Gets or sets the CalculateVelocity.
 
 <a id="ANSYSAnalysisSettings.CalculateVelocityAndAcceleration"></a>
 
-### *property* ANSYSAnalysisSettings.CalculateVelocityAndAcceleration *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CalculateVelocityAndAcceleration *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateVelocityAndAcceleration.
 
@@ -643,7 +643,7 @@ Gets or sets the CalculateVelocityAndAcceleration.
 
 <a id="ANSYSAnalysisSettings.CalculateVolumeEnergy"></a>
 
-### *property* ANSYSAnalysisSettings.CalculateVolumeEnergy *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CalculateVolumeEnergy *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateVolumeEnergy.
 
@@ -651,7 +651,7 @@ Gets or sets the CalculateVolumeEnergy.
 
 <a id="ANSYSAnalysisSettings.CampbellDiagram"></a>
 
-### *property* ANSYSAnalysisSettings.CampbellDiagram *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CampbellDiagram *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CampbellDiagram.
 
@@ -659,7 +659,7 @@ Gets or sets the CampbellDiagram.
 
 <a id="ANSYSAnalysisSettings.CarryOverTimeStep"></a>
 
-### *property* ANSYSAnalysisSettings.CarryOverTimeStep *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CarryOverTimeStep *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CarryOverTimeStep.
 
@@ -675,7 +675,7 @@ Gets or sets the CentralFrequency.
 
 <a id="ANSYSAnalysisSettings.ChargeConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.ChargeConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ChargeConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChargeConvergence.
 
@@ -691,7 +691,7 @@ Gets or sets the ChargeConvergenceMinimumReference.
 
 <a id="ANSYSAnalysisSettings.ChargeConvergenceTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.ChargeConvergenceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ChargeConvergenceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChargeConvergenceTolerance.
 
@@ -707,7 +707,7 @@ Gets or sets the ChargeConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.Children"></a>
 
-### *property* ANSYSAnalysisSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -715,7 +715,7 @@ Gets the list of children.
 
 <a id="ANSYSAnalysisSettings.ClusterNumber"></a>
 
-### *property* ANSYSAnalysisSettings.ClusterNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ClusterNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ClusterNumber.
 
@@ -723,7 +723,7 @@ Gets or sets the ClusterNumber.
 
 <a id="ANSYSAnalysisSettings.ClusterResults"></a>
 
-### *property* ANSYSAnalysisSettings.ClusterResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ClusterResults *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ClusterResults.
 
@@ -731,7 +731,7 @@ Gets or sets the ClusterResults.
 
 <a id="ANSYSAnalysisSettings.CombineRestartFiles"></a>
 
-### *property* ANSYSAnalysisSettings.CombineRestartFiles *: [Ansys.Mechanical.DataModel.Enums.CombineRestartFilesType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CombineRestartFilesType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CombineRestartFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CombineRestartFiles *: [Ansys.Mechanical.DataModel.Enums.CombineRestartFilesType](../../../../Mechanical/DataModel/Enums/CombineRestartFilesType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CombineRestartFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CombineRestartFiles.
 
@@ -739,7 +739,7 @@ Gets or sets the CombineRestartFiles.
 
 <a id="ANSYSAnalysisSettings.Comments"></a>
 
-### *property* ANSYSAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -747,7 +747,7 @@ Gets the list of associated comments.
 
 <a id="ANSYSAnalysisSettings.ConstantDamping"></a>
 
-### *property* ANSYSAnalysisSettings.ConstantDamping *: [Ansys.Mechanical.DataModel.Enums.ConstantDampingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConstantDampingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConstantDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ConstantDamping *: [Ansys.Mechanical.DataModel.Enums.ConstantDampingType](../../../../Mechanical/DataModel/Enums/ConstantDampingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConstantDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConstantDamping.
 
@@ -755,7 +755,7 @@ Gets or sets the ConstantDamping.
 
 <a id="ANSYSAnalysisSettings.ConstantDampingRatio"></a>
 
-### *property* ANSYSAnalysisSettings.ConstantDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ConstantDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConstantDampingRatio.
 
@@ -763,7 +763,7 @@ Gets or sets the ConstantDampingRatio.
 
 <a id="ANSYSAnalysisSettings.ContactData"></a>
 
-### *property* ANSYSAnalysisSettings.ContactData *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ContactData *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactData.
 
@@ -771,7 +771,7 @@ Gets or sets the ContactData.
 
 <a id="ANSYSAnalysisSettings.ContactMiscellaneous"></a>
 
-### *property* ANSYSAnalysisSettings.ContactMiscellaneous *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ContactMiscellaneous *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactMiscellaneous.
 
@@ -779,7 +779,7 @@ Gets or sets the ContactMiscellaneous.
 
 <a id="ANSYSAnalysisSettings.ContactSplit"></a>
 
-### *property* ANSYSAnalysisSettings.ContactSplit *: [Ansys.Mechanical.DataModel.Enums.ContactSplitType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSplitType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSplitType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ContactSplit *: [Ansys.Mechanical.DataModel.Enums.ContactSplitType](../../../../Mechanical/DataModel/Enums/ContactSplitType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSplitType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSplit.
 
@@ -787,7 +787,7 @@ Gets or sets the ContactSplit.
 
 <a id="ANSYSAnalysisSettings.ContactSplitMaxNum"></a>
 
-### *property* ANSYSAnalysisSettings.ContactSplitMaxNum *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ContactSplitMaxNum *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSplitMaxNum.
 
@@ -795,7 +795,7 @@ Gets or sets the ContactSplitMaxNum.
 
 <a id="ANSYSAnalysisSettings.ContactSummary"></a>
 
-### *property* ANSYSAnalysisSettings.ContactSummary *: [Ansys.Mechanical.DataModel.Enums.ContactSummaryType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSummaryType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSummaryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ContactSummary *: [Ansys.Mechanical.DataModel.Enums.ContactSummaryType](../../../../Mechanical/DataModel/Enums/ContactSummaryType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSummaryType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactSummary.
 
@@ -811,7 +811,7 @@ Gets or sets the AM Cooldown Time.
 
 <a id="ANSYSAnalysisSettings.CooldownTimeType"></a>
 
-### *property* ANSYSAnalysisSettings.CooldownTimeType *: [Ansys.Mechanical.DataModel.Enums.AMCooldownTimeType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMCooldownTimeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMCooldownTimeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CooldownTimeType *: [Ansys.Mechanical.DataModel.Enums.AMCooldownTimeType](../../../../Mechanical/DataModel/Enums/AMCooldownTimeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMCooldownTimeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Cooldown Time Type.
 
@@ -819,7 +819,7 @@ Gets or sets the AM Cooldown Time Type.
 
 <a id="ANSYSAnalysisSettings.CoriolisEffectApplied"></a>
 
-### *property* ANSYSAnalysisSettings.CoriolisEffectApplied *: [Ansys.Mechanical.DataModel.Enums.CoriolisEffectType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoriolisEffectType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoriolisEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CoriolisEffectApplied *: [Ansys.Mechanical.DataModel.Enums.CoriolisEffectType](../../../../Mechanical/DataModel/Enums/CoriolisEffectType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoriolisEffectType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoriolisEffectApplied.
 
@@ -827,7 +827,7 @@ Gets or sets the CoriolisEffectApplied.
 
 <a id="ANSYSAnalysisSettings.CreepEffects"></a>
 
-### *property* ANSYSAnalysisSettings.CreepEffects *: [Ansys.Mechanical.DataModel.Enums.Creep](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/Creep.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.Creep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CreepEffects *: [Ansys.Mechanical.DataModel.Enums.Creep](../../../../Mechanical/DataModel/Enums/Creep.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Creep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CreepEffects.
 
@@ -835,7 +835,7 @@ Gets or sets the CreepEffects.
 
 <a id="ANSYSAnalysisSettings.CreepLimitRatio"></a>
 
-### *property* ANSYSAnalysisSettings.CreepLimitRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CreepLimitRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CreepLimitRatio.
 
@@ -843,7 +843,7 @@ Gets or sets the CreepLimitRatio.
 
 <a id="ANSYSAnalysisSettings.CurrentConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.CurrentConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CurrentConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurrentConvergence.
 
@@ -859,7 +859,7 @@ Gets or sets the CurrentConvergenceMinimumReference.
 
 <a id="ANSYSAnalysisSettings.CurrentConvergenceTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.CurrentConvergenceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CurrentConvergenceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurrentConvergenceTolerance.
 
@@ -875,7 +875,7 @@ Gets or sets the CurrentConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.CurrentRestartPoint"></a>
 
-### *property* ANSYSAnalysisSettings.CurrentRestartPoint *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CurrentRestartPoint *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Current Restart Point.
 
@@ -883,7 +883,7 @@ Gets or sets the Current Restart Point.
 
 <a id="ANSYSAnalysisSettings.CurrentStepNumber"></a>
 
-### *property* ANSYSAnalysisSettings.CurrentStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CurrentStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurrentStepNumber.
 
@@ -891,7 +891,7 @@ Gets or sets the CurrentStepNumber.
 
 <a id="ANSYSAnalysisSettings.CurrentStepNumberHarmonic"></a>
 
-### *property* ANSYSAnalysisSettings.CurrentStepNumberHarmonic *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CurrentStepNumberHarmonic *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurrentStepNumberHarmonic.
 
@@ -899,7 +899,7 @@ Gets or sets the CurrentStepNumberHarmonic.
 
 <a id="ANSYSAnalysisSettings.CyclicModeSuperposition"></a>
 
-### *property* ANSYSAnalysisSettings.CyclicModeSuperposition *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.CyclicModeSuperposition *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicModeSuperposition.
 
@@ -907,7 +907,7 @@ Gets or sets the CyclicModeSuperposition.
 
 <a id="ANSYSAnalysisSettings.Damped"></a>
 
-### *property* ANSYSAnalysisSettings.Damped *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Damped *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Damped.
 
@@ -915,7 +915,7 @@ Gets or sets the Damped.
 
 <a id="ANSYSAnalysisSettings.DampingDefineBy"></a>
 
-### *property* ANSYSAnalysisSettings.DampingDefineBy *: [Ansys.Mechanical.DataModel.Enums.DampingDefineBy](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DampingDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DampingDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DampingDefineBy *: [Ansys.Mechanical.DataModel.Enums.DampingDefineBy](../../../../Mechanical/DataModel/Enums/DampingDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DampingDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DampingDefineBy.
 
@@ -923,7 +923,7 @@ Gets or sets the DampingDefineBy.
 
 <a id="ANSYSAnalysisSettings.DampingRatio"></a>
 
-### *property* ANSYSAnalysisSettings.DampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DampingRatio.
 
@@ -931,7 +931,7 @@ Gets or sets the DampingRatio.
 
 <a id="ANSYSAnalysisSettings.DataModelObjectCategory"></a>
 
-### *property* ANSYSAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -939,7 +939,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ANSYSAnalysisSettings.DefineBy"></a>
 
-### *property* ANSYSAnalysisSettings.DefineBy *: [Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimeStepDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DefineBy *: [Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType](../../../../Mechanical/DataModel/Enums/TimeStepDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -947,7 +947,7 @@ Gets or sets the DefineBy.
 
 <a id="ANSYSAnalysisSettings.DeleteUnneededFiles"></a>
 
-### *property* ANSYSAnalysisSettings.DeleteUnneededFiles *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DeleteUnneededFiles *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeleteUnneededFiles.
 
@@ -955,7 +955,7 @@ Gets or sets the DeleteUnneededFiles.
 
 <a id="ANSYSAnalysisSettings.DisplacementConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.DisplacementConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.DisplacementConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplacementConvergence.
 
@@ -995,7 +995,7 @@ Gets or sets the EdgeSplittingAngle.
 
 <a id="ANSYSAnalysisSettings.ElectricOnly"></a>
 
-### *property* ANSYSAnalysisSettings.ElectricOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ElectricOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElectricOnly.
 
@@ -1003,7 +1003,7 @@ Gets or sets the ElectricOnly.
 
 <a id="ANSYSAnalysisSettings.ElectromagneticNodalForces"></a>
 
-### *property* ANSYSAnalysisSettings.ElectromagneticNodalForces *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ElectromagneticNodalForces *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElectromagneticNodalForces.
 
@@ -1011,7 +1011,7 @@ Gets or sets the ElectromagneticNodalForces.
 
 <a id="ANSYSAnalysisSettings.ElementCurrentDensity"></a>
 
-### *property* ANSYSAnalysisSettings.ElementCurrentDensity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ElementCurrentDensity *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementCurrentDensity.
 
@@ -1027,7 +1027,7 @@ Gets or sets the EmagAMPSConvergenceMinimumReference.
 
 <a id="ANSYSAnalysisSettings.EmagAMPSConvergenceTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.EmagAMPSConvergenceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.EmagAMPSConvergenceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EmagAMPSConvergenceTolerance.
 
@@ -1051,7 +1051,7 @@ Gets or sets the EmagCSGConvergenceMinimumReference.
 
 <a id="ANSYSAnalysisSettings.EmagCSGConvergenceTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.EmagCSGConvergenceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.EmagCSGConvergenceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EmagCSGConvergenceTolerance.
 
@@ -1067,7 +1067,7 @@ Gets or sets the EmagCSGConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.EnergyConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.EnergyConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.EnergyConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnergyConvergence.
 
@@ -1083,7 +1083,7 @@ Gets or sets the EnergyConvergenceMinimumReference.
 
 <a id="ANSYSAnalysisSettings.EnergyConvergenceTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.EnergyConvergenceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.EnergyConvergenceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnergyConvergenceTolerance.
 
@@ -1099,7 +1099,7 @@ Gets or sets the EnergyConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.EngineOrderofExcitation"></a>
 
-### *property* ANSYSAnalysisSettings.EngineOrderofExcitation *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.EngineOrderofExcitation *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EngineOrderofExcitation.
 
@@ -1107,7 +1107,7 @@ Gets or sets the EngineOrderofExcitation.
 
 <a id="ANSYSAnalysisSettings.EqvDampingRatioFromModal"></a>
 
-### *property* ANSYSAnalysisSettings.EqvDampingRatioFromModal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.EqvDampingRatioFromModal *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EqvDampingRatioFromModal.
 
@@ -1115,7 +1115,7 @@ Gets or sets the EqvDampingRatioFromModal.
 
 <a id="ANSYSAnalysisSettings.ExcludeInsignificantModes"></a>
 
-### *property* ANSYSAnalysisSettings.ExcludeInsignificantModes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ExcludeInsignificantModes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExcludeInsignificantModes.
 
@@ -1123,7 +1123,7 @@ Gets or sets the ExcludeInsignificantModes.
 
 <a id="ANSYSAnalysisSettings.ExpandResultsFrom"></a>
 
-### *property* ANSYSAnalysisSettings.ExpandResultsFrom *: [Ansys.Mechanical.DataModel.Enums.ExpandResultFrom](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExpandResultFrom.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExpandResultFrom) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ExpandResultsFrom *: [Ansys.Mechanical.DataModel.Enums.ExpandResultFrom](../../../../Mechanical/DataModel/Enums/ExpandResultFrom.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExpandResultFrom) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExpandResultsFrom.
 
@@ -1131,7 +1131,7 @@ Gets or sets the ExpandResultsFrom.
 
 <a id="ANSYSAnalysisSettings.Expansion"></a>
 
-### *property* ANSYSAnalysisSettings.Expansion *: [Ansys.Mechanical.DataModel.Enums.ExpandResultsSubType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExpandResultsSubType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExpandResultsSubType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Expansion *: [Ansys.Mechanical.DataModel.Enums.ExpandResultsSubType](../../../../Mechanical/DataModel/Enums/ExpandResultsSubType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExpandResultsSubType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Expansion.
 
@@ -1139,7 +1139,7 @@ Gets the Expansion.
 
 <a id="ANSYSAnalysisSettings.ExportHighStrains"></a>
 
-### *property* ANSYSAnalysisSettings.ExportHighStrains *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ExportHighStrains *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExportHighStrains.
 
@@ -1147,7 +1147,7 @@ Gets or sets the ExportHighStrains.
 
 <a id="ANSYSAnalysisSettings.ExportLayerEndTemperature"></a>
 
-### *property* ANSYSAnalysisSettings.ExportLayerEndTemperature *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ExportLayerEndTemperature *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExportLayerEndTemperature.
 
@@ -1155,7 +1155,7 @@ Gets or sets the ExportLayerEndTemperature.
 
 <a id="ANSYSAnalysisSettings.ExportRecoaterInterference"></a>
 
-### *property* ANSYSAnalysisSettings.ExportRecoaterInterference *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ExportRecoaterInterference *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExportRecoaterInterference.
 
@@ -1163,7 +1163,7 @@ Gets or sets the ExportRecoaterInterference.
 
 <a id="ANSYSAnalysisSettings.FarFieldRadiationSurface"></a>
 
-### *property* ANSYSAnalysisSettings.FarFieldRadiationSurface *: [Ansys.Mechanical.DataModel.Enums.FarFieldRadiationSurfaceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FarFieldRadiationSurfaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FarFieldRadiationSurfaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.FarFieldRadiationSurface *: [Ansys.Mechanical.DataModel.Enums.FarFieldRadiationSurfaceType](../../../../Mechanical/DataModel/Enums/FarFieldRadiationSurfaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FarFieldRadiationSurfaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FarFieldRadiationSurface.
 
@@ -1171,7 +1171,7 @@ Gets or sets the FarFieldRadiationSurface.
 
 <a id="ANSYSAnalysisSettings.FieldIntensityandFluxDensity"></a>
 
-### *property* ANSYSAnalysisSettings.FieldIntensityandFluxDensity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.FieldIntensityandFluxDensity *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FieldIntensityandFluxDensity.
 
@@ -1179,7 +1179,7 @@ Gets or sets the FieldIntensityandFluxDensity.
 
 <a id="ANSYSAnalysisSettings.Figures"></a>
 
-### *property* ANSYSAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -1187,7 +1187,7 @@ Gets the list of associated figures.
 
 <a id="ANSYSAnalysisSettings.FluxConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.FluxConvergence *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.FluxConvergence *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FluxConvergence.
 
@@ -1195,7 +1195,7 @@ Gets or sets the FluxConvergence.
 
 <a id="ANSYSAnalysisSettings.ForceConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.ForceConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ForceConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ForceConvergence.
 
@@ -1227,7 +1227,7 @@ Gets or sets the ForceConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.FractureSolverControls"></a>
 
-### *property* ANSYSAnalysisSettings.FractureSolverControls *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.FractureSolverControls *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FractureSolverControls.
 
@@ -1243,7 +1243,7 @@ Gets or sets the Frequency.
 
 <a id="ANSYSAnalysisSettings.FrequencySpacing"></a>
 
-### *property* ANSYSAnalysisSettings.FrequencySpacing *: [Ansys.Mechanical.DataModel.Enums.FrequencySpacingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencySpacingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.FrequencySpacing *: [Ansys.Mechanical.DataModel.Enums.FrequencySpacingType](../../../../Mechanical/DataModel/Enums/FrequencySpacingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencySpacingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencySpacing.
 
@@ -1251,7 +1251,7 @@ Gets or sets the FrequencySpacing.
 
 <a id="ANSYSAnalysisSettings.FutureAnalysis"></a>
 
-### *property* ANSYSAnalysisSettings.FutureAnalysis *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FutureIntentType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.FutureAnalysis *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../../Mechanical/DataModel/Enums/FutureIntentType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FutureAnalysis.
 
@@ -1259,7 +1259,7 @@ Gets or sets the FutureAnalysis.
 
 <a id="ANSYSAnalysisSettings.GeneralMiscellaneous"></a>
 
-### *property* ANSYSAnalysisSettings.GeneralMiscellaneous *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.GeneralMiscellaneous *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeneralMiscellaneous.
 
@@ -1267,7 +1267,7 @@ Gets or sets the GeneralMiscellaneous.
 
 <a id="ANSYSAnalysisSettings.GeneralMiscellaneousOption"></a>
 
-### *property* ANSYSAnalysisSettings.GeneralMiscellaneousOption *: [Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeneralMiscellaneousOptionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.GeneralMiscellaneousOption *: [Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType](../../../../Mechanical/DataModel/Enums/GeneralMiscellaneousOptionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeneralMiscellaneousOption.
 
@@ -1275,7 +1275,7 @@ Gets or sets the GeneralMiscellaneousOption.
 
 <a id="ANSYSAnalysisSettings.GenerateMeshRestartPoints"></a>
 
-### *property* ANSYSAnalysisSettings.GenerateMeshRestartPoints *: [Ansys.Mechanical.DataModel.Enums.MeshRestartControlsType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartControlsType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshRestartControlsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.GenerateMeshRestartPoints *: [Ansys.Mechanical.DataModel.Enums.MeshRestartControlsType](../../../../Mechanical/DataModel/Enums/MeshRestartControlsType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartControlsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateMeshRestartPoints.
 
@@ -1283,7 +1283,7 @@ Gets or sets the GenerateMeshRestartPoints.
 
 <a id="ANSYSAnalysisSettings.GenerateRestartPoints"></a>
 
-### *property* ANSYSAnalysisSettings.GenerateRestartPoints *: [Ansys.Mechanical.DataModel.Enums.RestartControlsType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartControlsType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RestartControlsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.GenerateRestartPoints *: [Ansys.Mechanical.DataModel.Enums.RestartControlsType](../../../../Mechanical/DataModel/Enums/RestartControlsType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartControlsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateRestartPoints.
 
@@ -1291,7 +1291,7 @@ Gets or sets the GenerateRestartPoints.
 
 <a id="ANSYSAnalysisSettings.GlobalSizeRatioQualityImprovement"></a>
 
-### *property* ANSYSAnalysisSettings.GlobalSizeRatioQualityImprovement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.GlobalSizeRatioQualityImprovement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalSizeRatioQualityImprovement.
 
@@ -1299,7 +1299,7 @@ Gets or sets the GlobalSizeRatioQualityImprovement.
 
 <a id="ANSYSAnalysisSettings.GlobalSizeRatioQualityRefinement"></a>
 
-### *property* ANSYSAnalysisSettings.GlobalSizeRatioQualityRefinement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.GlobalSizeRatioQualityRefinement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalSizeRatioQualityRefinement.
 
@@ -1307,7 +1307,7 @@ Gets or sets the GlobalSizeRatioQualityRefinement.
 
 <a id="ANSYSAnalysisSettings.Graph"></a>
 
-### *property* ANSYSAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../../../v242/Ansys/Mechanical/Graphics/AnalysisSettingsGraph.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Graph property.
 
@@ -1315,7 +1315,7 @@ Graph property.
 
 <a id="ANSYSAnalysisSettings.HarmonicIndexInterval"></a>
 
-### *property* ANSYSAnalysisSettings.HarmonicIndexInterval *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.HarmonicIndexInterval *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndexInterval.
 
@@ -1323,7 +1323,7 @@ Gets or sets the HarmonicIndexInterval.
 
 <a id="ANSYSAnalysisSettings.HarmonicIndexRange"></a>
 
-### *property* ANSYSAnalysisSettings.HarmonicIndexRange *: [Ansys.Mechanical.DataModel.Enums.CyclicHarmonicIndex](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CyclicHarmonicIndex.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CyclicHarmonicIndex) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.HarmonicIndexRange *: [Ansys.Mechanical.DataModel.Enums.CyclicHarmonicIndex](../../../../Mechanical/DataModel/Enums/CyclicHarmonicIndex.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CyclicHarmonicIndex) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndexRange.
 
@@ -1331,7 +1331,7 @@ Gets or sets the HarmonicIndexRange.
 
 <a id="ANSYSAnalysisSettings.HarmonicOrders"></a>
 
-### *property* ANSYSAnalysisSettings.HarmonicOrders *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.HarmonicOrders *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicOrders.
 
@@ -1339,7 +1339,7 @@ Gets or sets the HarmonicOrders.
 
 <a id="ANSYSAnalysisSettings.HeatConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.HeatConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.HeatConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HeatConvergence.
 
@@ -1355,7 +1355,7 @@ Gets or sets the HeatConvergenceMinimumReference.
 
 <a id="ANSYSAnalysisSettings.HeatConvergenceTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.HeatConvergenceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.HeatConvergenceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HeatConvergenceTolerance.
 
@@ -1371,7 +1371,7 @@ Gets or sets the HeatConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.HeatGenerationRate"></a>
 
-### *property* ANSYSAnalysisSettings.HeatGenerationRate *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.HeatGenerationRate *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HeatGenerationRate.
 
@@ -1379,7 +1379,7 @@ Gets or sets the HeatGenerationRate.
 
 <a id="ANSYSAnalysisSettings.HemicubeResolution"></a>
 
-### *property* ANSYSAnalysisSettings.HemicubeResolution *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.HemicubeResolution *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HemicubeResolution.
 
@@ -1387,7 +1387,7 @@ Gets or sets the HemicubeResolution.
 
 <a id="ANSYSAnalysisSettings.IgnoreAcousticDamping"></a>
 
-### *property* ANSYSAnalysisSettings.IgnoreAcousticDamping *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.IgnoreAcousticDamping *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IgnoreAcousticDamping.
 
@@ -1395,7 +1395,7 @@ Gets or sets the IgnoreAcousticDamping.
 
 <a id="ANSYSAnalysisSettings.Images"></a>
 
-### *property* ANSYSAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -1403,7 +1403,7 @@ Gets the list of associated images.
 
 <a id="ANSYSAnalysisSettings.IncludeNegativeLoadMultiplier"></a>
 
-### *property* ANSYSAnalysisSettings.IncludeNegativeLoadMultiplier *: [Ansys.Mechanical.DataModel.Enums.SolverControlsIncludeNegativeLoadMultiplier](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverControlsIncludeNegativeLoadMultiplier.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverControlsIncludeNegativeLoadMultiplier) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.IncludeNegativeLoadMultiplier *: [Ansys.Mechanical.DataModel.Enums.SolverControlsIncludeNegativeLoadMultiplier](../../../../Mechanical/DataModel/Enums/SolverControlsIncludeNegativeLoadMultiplier.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverControlsIncludeNegativeLoadMultiplier) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IncludeNegativeLoadMultiplier.
 
@@ -1411,7 +1411,7 @@ Gets or sets the IncludeNegativeLoadMultiplier.
 
 <a id="ANSYSAnalysisSettings.IncludeResidualVector"></a>
 
-### *property* ANSYSAnalysisSettings.IncludeResidualVector *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.IncludeResidualVector *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IncludeResidualVector.
 
@@ -1419,7 +1419,7 @@ Gets or sets the IncludeResidualVector.
 
 <a id="ANSYSAnalysisSettings.InertiaRelief"></a>
 
-### *property* ANSYSAnalysisSettings.InertiaRelief *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.InertiaRelief *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InertiaRelief.
 
@@ -1427,7 +1427,7 @@ Gets or sets the InertiaRelief.
 
 <a id="ANSYSAnalysisSettings.InitialSubsteps"></a>
 
-### *property* ANSYSAnalysisSettings.InitialSubsteps *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.InitialSubsteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialSubsteps.
 
@@ -1451,7 +1451,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ANSYSAnalysisSettings.InverseOption"></a>
 
-### *property* ANSYSAnalysisSettings.InverseOption *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.InverseOption *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InverseOption.
 
@@ -1459,7 +1459,7 @@ Gets or sets the InverseOption.
 
 <a id="ANSYSAnalysisSettings.InverseOptionEndStep"></a>
 
-### *property* ANSYSAnalysisSettings.InverseOptionEndStep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.InverseOptionEndStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InverseOptionEndStep.
 
@@ -1467,7 +1467,7 @@ Gets or sets the InverseOptionEndStep.
 
 <a id="ANSYSAnalysisSettings.JIntegral"></a>
 
-### *property* ANSYSAnalysisSettings.JIntegral *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.JIntegral *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the JIntegral.
 
@@ -1475,7 +1475,7 @@ Gets or sets the JIntegral.
 
 <a id="ANSYSAnalysisSettings.KeepModalResults"></a>
 
-### *property* ANSYSAnalysisSettings.KeepModalResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.KeepModalResults *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the KeepModalResults.
 
@@ -1483,7 +1483,7 @@ Gets or sets the KeepModalResults.
 
 <a id="ANSYSAnalysisSettings.KeepPreStressLoadPattern"></a>
 
-### *property* ANSYSAnalysisSettings.KeepPreStressLoadPattern *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.KeepPreStressLoadPattern *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the KeepPreStressLoadPattern.
 
@@ -1491,7 +1491,7 @@ Gets or sets the KeepPreStressLoadPattern.
 
 <a id="ANSYSAnalysisSettings.KrylovResidualTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.KrylovResidualTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.KrylovResidualTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the KrylovResidualTolerance.
 
@@ -1499,7 +1499,7 @@ Gets or sets the KrylovResidualTolerance.
 
 <a id="ANSYSAnalysisSettings.KrylovSubspaceDimension"></a>
 
-### *property* ANSYSAnalysisSettings.KrylovSubspaceDimension *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.KrylovSubspaceDimension *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the KrylovSubspaceDimension.
 
@@ -1515,7 +1515,7 @@ Gets or sets the KrylovSubspaceFrequency.
 
 <a id="ANSYSAnalysisSettings.LargeDeflection"></a>
 
-### *property* ANSYSAnalysisSettings.LargeDeflection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.LargeDeflection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LargeDeflection.
 
@@ -1523,7 +1523,7 @@ Gets or sets the LargeDeflection.
 
 <a id="ANSYSAnalysisSettings.LayersToBuild"></a>
 
-### *property* ANSYSAnalysisSettings.LayersToBuild *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.LayersToBuild *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Layers to Build.
 
@@ -1531,7 +1531,7 @@ Gets or sets the AM Layers to Build.
 
 <a id="ANSYSAnalysisSettings.LimitSearchToRange"></a>
 
-### *property* ANSYSAnalysisSettings.LimitSearchToRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.LimitSearchToRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LimitSearchToRange.
 
@@ -1539,7 +1539,7 @@ Gets or sets the LimitSearchToRange.
 
 <a id="ANSYSAnalysisSettings.LineSearch"></a>
 
-### *property* ANSYSAnalysisSettings.LineSearch *: [Ansys.Mechanical.DataModel.Enums.LineSearchType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LineSearchType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LineSearchType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.LineSearch *: [Ansys.Mechanical.DataModel.Enums.LineSearchType](../../../../Mechanical/DataModel/Enums/LineSearchType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LineSearchType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LineSearch.
 
@@ -1547,7 +1547,7 @@ Gets or sets the LineSearch.
 
 <a id="ANSYSAnalysisSettings.LoadStepValue"></a>
 
-### *property* ANSYSAnalysisSettings.LoadStepValue *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.LoadStepValue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepValue.
 
@@ -1555,7 +1555,7 @@ Gets or sets the LoadStepValue.
 
 <a id="ANSYSAnalysisSettings.MassCoefficient"></a>
 
-### *property* ANSYSAnalysisSettings.MassCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MassCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MassCoefficient.
 
@@ -1563,7 +1563,7 @@ Gets or sets the MassCoefficient.
 
 <a id="ANSYSAnalysisSettings.MaterialForce"></a>
 
-### *property* ANSYSAnalysisSettings.MaterialForce *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MaterialForce *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialForce.
 
@@ -1571,7 +1571,7 @@ Gets or sets the MaterialForce.
 
 <a id="ANSYSAnalysisSettings.MaximumHarmonicIndex"></a>
 
-### *property* ANSYSAnalysisSettings.MaximumHarmonicIndex *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MaximumHarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumHarmonicIndex.
 
@@ -1579,7 +1579,7 @@ Gets or sets the MaximumHarmonicIndex.
 
 <a id="ANSYSAnalysisSettings.MaximumIteration"></a>
 
-### *property* ANSYSAnalysisSettings.MaximumIteration *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MaximumIteration *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumIteration.
 
@@ -1587,7 +1587,7 @@ Gets or sets the MaximumIteration.
 
 <a id="ANSYSAnalysisSettings.MaximumModesToFind"></a>
 
-### *property* ANSYSAnalysisSettings.MaximumModesToFind *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MaximumModesToFind *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumModesToFind.
 
@@ -1595,7 +1595,7 @@ Gets or sets the MaximumModesToFind.
 
 <a id="ANSYSAnalysisSettings.MaximumPointsToSavePerStep"></a>
 
-### *property* ANSYSAnalysisSettings.MaximumPointsToSavePerStep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MaximumPointsToSavePerStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumPointsToSavePerStep.
 
@@ -1603,7 +1603,7 @@ Gets or sets the MaximumPointsToSavePerStep.
 
 <a id="ANSYSAnalysisSettings.MaximumSubsteps"></a>
 
-### *property* ANSYSAnalysisSettings.MaximumSubsteps *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MaximumSubsteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumSubsteps.
 
@@ -1619,7 +1619,7 @@ Gets or sets the MaximumTimeStep.
 
 <a id="ANSYSAnalysisSettings.MeshLoadStepValue"></a>
 
-### *property* ANSYSAnalysisSettings.MeshLoadStepValue *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MeshLoadStepValue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshLoadStepValue.
 
@@ -1627,7 +1627,7 @@ Gets or sets the MeshLoadStepValue.
 
 <a id="ANSYSAnalysisSettings.MeshRetainFilesAfterFullSolve"></a>
 
-### *property* ANSYSAnalysisSettings.MeshRetainFilesAfterFullSolve *: [Ansys.Mechanical.DataModel.Enums.MeshRestartRetainFilesType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartRetainFilesType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshRestartRetainFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MeshRetainFilesAfterFullSolve *: [Ansys.Mechanical.DataModel.Enums.MeshRestartRetainFilesType](../../../../Mechanical/DataModel/Enums/MeshRestartRetainFilesType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartRetainFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshRetainFilesAfterFullSolve.
 
@@ -1635,7 +1635,7 @@ Gets or sets the MeshRetainFilesAfterFullSolve.
 
 <a id="ANSYSAnalysisSettings.MeshSaveAtLoadStep"></a>
 
-### *property* ANSYSAnalysisSettings.MeshSaveAtLoadStep *: [Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtLoadStep](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartSaveAtLoadStep.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtLoadStep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MeshSaveAtLoadStep *: [Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtLoadStep](../../../../Mechanical/DataModel/Enums/MeshRestartSaveAtLoadStep.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtLoadStep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshSaveAtLoadStep.
 
@@ -1643,7 +1643,7 @@ Gets or sets the MeshSaveAtLoadStep.
 
 <a id="ANSYSAnalysisSettings.MeshSaveAtSubstep"></a>
 
-### *property* ANSYSAnalysisSettings.MeshSaveAtSubstep *: [Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtSubstep](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartSaveAtSubstep.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtSubstep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MeshSaveAtSubstep *: [Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtSubstep](../../../../Mechanical/DataModel/Enums/MeshRestartSaveAtSubstep.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtSubstep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshSaveAtSubstep.
 
@@ -1659,7 +1659,7 @@ Gets or sets the Minimum Element Size property for Geometry Based Adaptivity.
 
 <a id="ANSYSAnalysisSettings.MinimumHarmonicIndex"></a>
 
-### *property* ANSYSAnalysisSettings.MinimumHarmonicIndex *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MinimumHarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumHarmonicIndex.
 
@@ -1667,7 +1667,7 @@ Gets or sets the MinimumHarmonicIndex.
 
 <a id="ANSYSAnalysisSettings.MinimumSubsteps"></a>
 
-### *property* ANSYSAnalysisSettings.MinimumSubsteps *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MinimumSubsteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumSubsteps.
 
@@ -1683,7 +1683,7 @@ Gets or sets the MinimumTimeStep.
 
 <a id="ANSYSAnalysisSettings.ModalFrequencyRange"></a>
 
-### *property* ANSYSAnalysisSettings.ModalFrequencyRange *: [Ansys.Mechanical.DataModel.Enums.ModalFrequencyRangeType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModalFrequencyRangeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModalFrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModalFrequencyRange *: [Ansys.Mechanical.DataModel.Enums.ModalFrequencyRangeType](../../../../Mechanical/DataModel/Enums/ModalFrequencyRangeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModalFrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalFrequencyRange.
 
@@ -1691,7 +1691,7 @@ Gets or sets the ModalFrequencyRange.
 
 <a id="ANSYSAnalysisSettings.ModalNumberOfPoints"></a>
 
-### *property* ANSYSAnalysisSettings.ModalNumberOfPoints *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModalNumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModalNumberOfPoints.
 
@@ -1715,7 +1715,7 @@ Gets or sets the ModalRangeMinimum.
 
 <a id="ANSYSAnalysisSettings.ModeReuse"></a>
 
-### *property* ANSYSAnalysisSettings.ModeReuse *: [Ansys.Mechanical.DataModel.Enums.SolverControlsModeReuse](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverControlsModeReuse.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverControlsModeReuse) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModeReuse *: [Ansys.Mechanical.DataModel.Enums.SolverControlsModeReuse](../../../../Mechanical/DataModel/Enums/SolverControlsModeReuse.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverControlsModeReuse) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeReuse.
 
@@ -1723,7 +1723,7 @@ Gets or sets the ModeReuse.
 
 <a id="ANSYSAnalysisSettings.ModeSelectionMethod"></a>
 
-### *property* ANSYSAnalysisSettings.ModeSelectionMethod *: [Ansys.Mechanical.DataModel.Enums.ModeSelectionMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModeSelectionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModeSelectionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModeSelectionMethod *: [Ansys.Mechanical.DataModel.Enums.ModeSelectionMethod](../../../../Mechanical/DataModel/Enums/ModeSelectionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModeSelectionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeSelectionMethod.
 
@@ -1731,7 +1731,7 @@ Gets or sets the ModeSelectionMethod.
 
 <a id="ANSYSAnalysisSettings.ModeSignificanceLevel"></a>
 
-### *property* ANSYSAnalysisSettings.ModeSignificanceLevel *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModeSignificanceLevel *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeSignificanceLevel.
 
@@ -1739,7 +1739,7 @@ Gets or sets the ModeSignificanceLevel.
 
 <a id="ANSYSAnalysisSettings.ModesCombinationType"></a>
 
-### *property* ANSYSAnalysisSettings.ModesCombinationType *: [Ansys.Mechanical.DataModel.Enums.ModesCombinationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModesCombinationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModesCombinationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ModesCombinationType *: [Ansys.Mechanical.DataModel.Enums.ModesCombinationType](../../../../Mechanical/DataModel/Enums/ModesCombinationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModesCombinationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModesCombinationType.
 
@@ -1747,7 +1747,7 @@ Gets or sets the ModesCombinationType.
 
 <a id="ANSYSAnalysisSettings.MomentConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.MomentConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MomentConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MomentConvergence.
 
@@ -1779,7 +1779,7 @@ Gets or sets the MomentConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.Multistep"></a>
 
-### *property* ANSYSAnalysisSettings.Multistep *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Multistep *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Multistep.
 
@@ -1787,7 +1787,7 @@ Gets or sets the Multistep.
 
 <a id="ANSYSAnalysisSettings.MultistepType"></a>
 
-### *property* ANSYSAnalysisSettings.MultistepType *: [Ansys.Mechanical.DataModel.Enums.HarmonicMultiStepType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMultiStepType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.HarmonicMultiStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.MultistepType *: [Ansys.Mechanical.DataModel.Enums.HarmonicMultiStepType](../../../../Mechanical/DataModel/Enums/HarmonicMultiStepType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMultiStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MultistepType.
 
@@ -1795,7 +1795,7 @@ Gets or sets the MultistepType.
 
 <a id="ANSYSAnalysisSettings.NewtonRaphsonOption"></a>
 
-### *property* ANSYSAnalysisSettings.NewtonRaphsonOption *: [Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NewtonRaphsonType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NewtonRaphsonOption *: [Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType](../../../../Mechanical/DataModel/Enums/NewtonRaphsonType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NewtonRaphsonOption.
 
@@ -1803,7 +1803,7 @@ Gets or sets the NewtonRaphsonOption.
 
 <a id="ANSYSAnalysisSettings.NodalForces"></a>
 
-### *property* ANSYSAnalysisSettings.NodalForces *: [Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/OutputControlsNodalForcesType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NodalForces *: [Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType](../../../../Mechanical/DataModel/Enums/OutputControlsNodalForcesType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodalForces.
 
@@ -1811,7 +1811,7 @@ Gets or sets the NodalForces.
 
 <a id="ANSYSAnalysisSettings.NonLinearFormulation"></a>
 
-### *property* ANSYSAnalysisSettings.NonLinearFormulation *: [Ansys.Mechanical.DataModel.Enums.NonLinearFormulationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonLinearFormulationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonLinearFormulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NonLinearFormulation *: [Ansys.Mechanical.DataModel.Enums.NonLinearFormulationType](../../../../Mechanical/DataModel/Enums/NonLinearFormulationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonLinearFormulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonLinearFormulation.
 
@@ -1819,7 +1819,7 @@ Gets or sets the NonLinearFormulation.
 
 <a id="ANSYSAnalysisSettings.NonLinearSolution"></a>
 
-### *property* ANSYSAnalysisSettings.NonLinearSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NonLinearSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NonLinearSolution.
 
@@ -1827,7 +1827,7 @@ Gets the NonLinearSolution.
 
 <a id="ANSYSAnalysisSettings.NonlinearData"></a>
 
-### *property* ANSYSAnalysisSettings.NonlinearData *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NonlinearData *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonlinearData.
 
@@ -1835,7 +1835,7 @@ Gets or sets the NonlinearData.
 
 <a id="ANSYSAnalysisSettings.NumLoadVectors"></a>
 
-### *property* ANSYSAnalysisSettings.NumLoadVectors *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumLoadVectors *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumLoadVectors.
 
@@ -1843,7 +1843,7 @@ Gets or sets the NumLoadVectors.
 
 <a id="ANSYSAnalysisSettings.NumberOfModesToUse"></a>
 
-### *property* ANSYSAnalysisSettings.NumberOfModesToUse *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumberOfModesToUse *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfModesToUse.
 
@@ -1851,7 +1851,7 @@ Gets or sets the NumberOfModesToUse.
 
 <a id="ANSYSAnalysisSettings.NumberOfRPMs"></a>
 
-### *property* ANSYSAnalysisSettings.NumberOfRPMs *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumberOfRPMs *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfRPMs.
 
@@ -1859,7 +1859,7 @@ Gets or sets the NumberOfRPMs.
 
 <a id="ANSYSAnalysisSettings.NumberOfRestartPoints"></a>
 
-### *property* ANSYSAnalysisSettings.NumberOfRestartPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumberOfRestartPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets Number of Restart Points.
 
@@ -1867,7 +1867,7 @@ Gets Number of Restart Points.
 
 <a id="ANSYSAnalysisSettings.NumberOfSculptedLayersQualityImprovement"></a>
 
-### *property* ANSYSAnalysisSettings.NumberOfSculptedLayersQualityImprovement *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumberOfSculptedLayersQualityImprovement *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSculptedLayersQualityImprovement.
 
@@ -1875,7 +1875,7 @@ Gets or sets the NumberOfSculptedLayersQualityImprovement.
 
 <a id="ANSYSAnalysisSettings.NumberOfSculptedLayersRefinement"></a>
 
-### *property* ANSYSAnalysisSettings.NumberOfSculptedLayersRefinement *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumberOfSculptedLayersRefinement *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSculptedLayersRefinement.
 
@@ -1883,7 +1883,7 @@ Gets or sets the NumberOfSculptedLayersRefinement.
 
 <a id="ANSYSAnalysisSettings.NumberOfSteps"></a>
 
-### *property* ANSYSAnalysisSettings.NumberOfSteps *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumberOfSteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSteps.
 
@@ -1891,7 +1891,7 @@ Gets or sets the NumberOfSteps.
 
 <a id="ANSYSAnalysisSettings.NumberOfSubSteps"></a>
 
-### *property* ANSYSAnalysisSettings.NumberOfSubSteps *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumberOfSubSteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSubSteps.
 
@@ -1899,7 +1899,7 @@ Gets or sets the NumberOfSubSteps.
 
 <a id="ANSYSAnalysisSettings.NumberOfZones"></a>
 
-### *property* ANSYSAnalysisSettings.NumberOfZones *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumberOfZones *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfZones.
 
@@ -1907,7 +1907,7 @@ Gets or sets the NumberOfZones.
 
 <a id="ANSYSAnalysisSettings.NumericalDamping"></a>
 
-### *property* ANSYSAnalysisSettings.NumericalDamping *: [Ansys.Mechanical.DataModel.Enums.TransientDampingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientDampingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TransientDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumericalDamping *: [Ansys.Mechanical.DataModel.Enums.TransientDampingType](../../../../Mechanical/DataModel/Enums/TransientDampingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransientDampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumericalDamping.
 
@@ -1915,7 +1915,7 @@ Gets or sets the NumericalDamping.
 
 <a id="ANSYSAnalysisSettings.NumericalDampingValue"></a>
 
-### *property* ANSYSAnalysisSettings.NumericalDampingValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.NumericalDampingValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumericalDampingValue.
 
@@ -1923,7 +1923,7 @@ Gets or sets the NumericalDampingValue.
 
 <a id="ANSYSAnalysisSettings.OnDemandExpansionOption"></a>
 
-### *property* ANSYSAnalysisSettings.OnDemandExpansionOption *: [Ansys.Mechanical.DataModel.Enums.OnDemandExpansionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/OnDemandExpansionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OnDemandExpansionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.OnDemandExpansionOption *: [Ansys.Mechanical.DataModel.Enums.OnDemandExpansionType](../../../../Mechanical/DataModel/Enums/OnDemandExpansionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OnDemandExpansionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OnDemandExpansionOption.
 
@@ -1931,7 +1931,7 @@ Gets or sets the OnDemandExpansionOption.
 
 <a id="ANSYSAnalysisSettings.OverRelaxation"></a>
 
-### *property* ANSYSAnalysisSettings.OverRelaxation *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.OverRelaxation *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OverRelaxation.
 
@@ -1939,7 +1939,7 @@ Gets or sets the OverRelaxation.
 
 <a id="ANSYSAnalysisSettings.ParticipationFactor"></a>
 
-### *property* ANSYSAnalysisSettings.ParticipationFactor *: [Ansys.Mechanical.DataModel.Enums.CalculateParticipationFactorResult](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CalculateParticipationFactorResult.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CalculateParticipationFactorResult) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ParticipationFactor *: [Ansys.Mechanical.DataModel.Enums.CalculateParticipationFactorResult](../../../../Mechanical/DataModel/Enums/CalculateParticipationFactorResult.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CalculateParticipationFactorResult) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ParticipationFactor.
 
@@ -1947,7 +1947,7 @@ Gets or sets the ParticipationFactor.
 
 <a id="ANSYSAnalysisSettings.ProjectToGeometry"></a>
 
-### *property* ANSYSAnalysisSettings.ProjectToGeometry *: [Ansys.Mechanical.DataModel.Enums.NLADControlProjectToGeometry](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NLADControlProjectToGeometry.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NLADControlProjectToGeometry) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ProjectToGeometry *: [Ansys.Mechanical.DataModel.Enums.NLADControlProjectToGeometry](../../../../Mechanical/DataModel/Enums/NLADControlProjectToGeometry.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NLADControlProjectToGeometry) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProjectToGeometry.
 
@@ -1955,7 +1955,7 @@ Gets or sets the ProjectToGeometry.
 
 <a id="ANSYSAnalysisSettings.Properties"></a>
 
-### *property* ANSYSAnalysisSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -1963,7 +1963,7 @@ Gets the list of properties for this object.
 
 <a id="ANSYSAnalysisSettings.QuasiStaticSolution"></a>
 
-### *property* ANSYSAnalysisSettings.QuasiStaticSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.QuasiStaticSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the QuasiStaticSolution.
 
@@ -1971,7 +1971,7 @@ Gets or sets the QuasiStaticSolution.
 
 <a id="ANSYSAnalysisSettings.RadiositySolver"></a>
 
-### *property* ANSYSAnalysisSettings.RadiositySolver *: [Ansys.Mechanical.DataModel.Enums.RadiositySolverType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiositySolverType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RadiositySolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RadiositySolver *: [Ansys.Mechanical.DataModel.Enums.RadiositySolverType](../../../../Mechanical/DataModel/Enums/RadiositySolverType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiositySolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RadiositySolver.
 
@@ -2003,7 +2003,7 @@ Gets or sets the AM Reference Temperature.
 
 <a id="ANSYSAnalysisSettings.ReferenceTemperatureType"></a>
 
-### *property* ANSYSAnalysisSettings.ReferenceTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMReferenceTemperatureType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMReferenceTemperatureType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMReferenceTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ReferenceTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMReferenceTemperatureType](../../../../Mechanical/DataModel/Enums/AMReferenceTemperatureType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMReferenceTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Reference Temperature Type.
 
@@ -2011,7 +2011,7 @@ Gets or sets the AM Reference Temperature Type.
 
 <a id="ANSYSAnalysisSettings.RefinementAlgorithm"></a>
 
-### *property* ANSYSAnalysisSettings.RefinementAlgorithm *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRefinementAlgorithmType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRefinementAlgorithmType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRefinementAlgorithmType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RefinementAlgorithm *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRefinementAlgorithmType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRefinementAlgorithmType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRefinementAlgorithmType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RefinementAlgorithm.
 
@@ -2019,7 +2019,7 @@ Gets or sets the RefinementAlgorithm.
 
 <a id="ANSYSAnalysisSettings.ReformulationTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.ReformulationTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ReformulationTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReformulationTolerance.
 
@@ -2035,7 +2035,7 @@ Gets or sets the RelaxationTemperature.
 
 <a id="ANSYSAnalysisSettings.RelaxationTemperatureType"></a>
 
-### *property* ANSYSAnalysisSettings.RelaxationTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMRelaxationTemperatureType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMRelaxationTemperatureType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMRelaxationTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RelaxationTemperatureType *: [Ansys.Mechanical.DataModel.Enums.AMRelaxationTemperatureType](../../../../Mechanical/DataModel/Enums/AMRelaxationTemperatureType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMRelaxationTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AM Relaxation Temperature Type.
 
@@ -2043,7 +2043,7 @@ Gets or sets the AM Relaxation Temperature Type.
 
 <a id="ANSYSAnalysisSettings.RemeshingGradient"></a>
 
-### *property* ANSYSAnalysisSettings.RemeshingGradient *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRemeshingGradientType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRemeshingGradientType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRemeshingGradientType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RemeshingGradient *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRemeshingGradientType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRemeshingGradientType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRemeshingGradientType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshingGradient.
 
@@ -2051,7 +2051,7 @@ Gets or sets the RemeshingGradient.
 
 <a id="ANSYSAnalysisSettings.RemeshingToleranceQualityImprovement"></a>
 
-### *property* ANSYSAnalysisSettings.RemeshingToleranceQualityImprovement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RemeshingToleranceQualityImprovement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshingToleranceQualityImprovement.
 
@@ -2059,7 +2059,7 @@ Gets or sets the RemeshingToleranceQualityImprovement.
 
 <a id="ANSYSAnalysisSettings.RemeshingToleranceRefinement"></a>
 
-### *property* ANSYSAnalysisSettings.RemeshingToleranceRefinement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RemeshingToleranceRefinement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshingToleranceRefinement.
 
@@ -2083,7 +2083,7 @@ Gets or sets the RemovalStepSize.
 
 <a id="ANSYSAnalysisSettings.RestartAtLoadStep"></a>
 
-### *property* ANSYSAnalysisSettings.RestartAtLoadStep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RestartAtLoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RestartAtLoadStep.
 
@@ -2091,7 +2091,7 @@ Gets the RestartAtLoadStep.
 
 <a id="ANSYSAnalysisSettings.RestartAtSubstep"></a>
 
-### *property* ANSYSAnalysisSettings.RestartAtSubstep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RestartAtSubstep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RestartAtSubstep.
 
@@ -2099,7 +2099,7 @@ Gets the RestartAtSubstep.
 
 <a id="ANSYSAnalysisSettings.RestartAtTime"></a>
 
-### *property* ANSYSAnalysisSettings.RestartAtTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RestartAtTime *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RestartAtTime.
 
@@ -2107,7 +2107,7 @@ Gets the RestartAtTime.
 
 <a id="ANSYSAnalysisSettings.RestartType"></a>
 
-### *property* ANSYSAnalysisSettings.RestartType *: [Ansys.Mechanical.DataModel.Enums.RestartType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RestartType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RestartType *: [Ansys.Mechanical.DataModel.Enums.RestartType](../../../../Mechanical/DataModel/Enums/RestartType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RestartType.
 
@@ -2115,7 +2115,7 @@ Gets or sets the RestartType.
 
 <a id="ANSYSAnalysisSettings.ResultFileCompression"></a>
 
-### *property* ANSYSAnalysisSettings.ResultFileCompression *: [Ansys.Mechanical.DataModel.Enums.ResultFileCompressionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileCompressionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileCompressionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ResultFileCompression *: [Ansys.Mechanical.DataModel.Enums.ResultFileCompressionType](../../../../Mechanical/DataModel/Enums/ResultFileCompressionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileCompressionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultFileCompression.
 
@@ -2123,7 +2123,7 @@ Gets or sets the ResultFileCompression.
 
 <a id="ANSYSAnalysisSettings.RetainFilesAfterFullSolve"></a>
 
-### *property* ANSYSAnalysisSettings.RetainFilesAfterFullSolve *: [Ansys.Mechanical.DataModel.Enums.RestartRetainFilesType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartRetainFilesType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RestartRetainFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RetainFilesAfterFullSolve *: [Ansys.Mechanical.DataModel.Enums.RestartRetainFilesType](../../../../Mechanical/DataModel/Enums/RestartRetainFilesType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartRetainFilesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RetainFilesAfterFullSolve.
 
@@ -2131,7 +2131,7 @@ Gets or sets the RetainFilesAfterFullSolve.
 
 <a id="ANSYSAnalysisSettings.RetainModesymFileAfterSolve"></a>
 
-### *property* ANSYSAnalysisSettings.RetainModesymFileAfterSolve *: [Ansys.Mechanical.DataModel.Enums.UseExistingModesymFile](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/UseExistingModesymFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UseExistingModesymFile) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RetainModesymFileAfterSolve *: [Ansys.Mechanical.DataModel.Enums.UseExistingModesymFile](../../../../Mechanical/DataModel/Enums/UseExistingModesymFile.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UseExistingModesymFile) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RetainModesymFileAfterSolve.
 
@@ -2139,7 +2139,7 @@ Gets or sets the RetainModesymFileAfterSolve.
 
 <a id="ANSYSAnalysisSettings.RotationConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.RotationConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RotationConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RotationConvergence.
 
@@ -2171,7 +2171,7 @@ Gets or sets the RpmCentralFrequency.
 
 <a id="ANSYSAnalysisSettings.RpmClusterNumber"></a>
 
-### *property* ANSYSAnalysisSettings.RpmClusterNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RpmClusterNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RpmClusterNumber.
 
@@ -2179,7 +2179,7 @@ Gets or sets the RpmClusterNumber.
 
 <a id="ANSYSAnalysisSettings.RpmFrequencySpacing"></a>
 
-### *property* ANSYSAnalysisSettings.RpmFrequencySpacing *: [Ansys.Mechanical.DataModel.Enums.FrequencySpacingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencySpacingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RpmFrequencySpacing *: [Ansys.Mechanical.DataModel.Enums.FrequencySpacingType](../../../../Mechanical/DataModel/Enums/FrequencySpacingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencySpacingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RpmFrequencySpacing.
 
@@ -2203,7 +2203,7 @@ Gets or sets the RpmRangeMinimum.
 
 <a id="ANSYSAnalysisSettings.RpmSolutionIntervals"></a>
 
-### *property* ANSYSAnalysisSettings.RpmSolutionIntervals *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.RpmSolutionIntervals *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RpmSolutionIntervals.
 
@@ -2219,7 +2219,7 @@ Gets or sets the RpmValue.
 
 <a id="ANSYSAnalysisSettings.SIFS"></a>
 
-### *property* ANSYSAnalysisSettings.SIFS *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SIFS *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SIFS.
 
@@ -2227,7 +2227,7 @@ Gets or sets the SIFS.
 
 <a id="ANSYSAnalysisSettings.SaveAtLoadStep"></a>
 
-### *property* ANSYSAnalysisSettings.SaveAtLoadStep *: [Ansys.Mechanical.DataModel.Enums.RestartSaveAtLoadStep](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtLoadStep.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RestartSaveAtLoadStep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SaveAtLoadStep *: [Ansys.Mechanical.DataModel.Enums.RestartSaveAtLoadStep](../../../../Mechanical/DataModel/Enums/RestartSaveAtLoadStep.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartSaveAtLoadStep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveAtLoadStep.
 
@@ -2235,7 +2235,7 @@ Gets or sets the SaveAtLoadStep.
 
 <a id="ANSYSAnalysisSettings.SaveAtSubstep"></a>
 
-### *property* ANSYSAnalysisSettings.SaveAtSubstep *: [Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtSubstep.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SaveAtSubstep *: [Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep](../../../../Mechanical/DataModel/Enums/RestartSaveAtSubstep.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveAtSubstep.
 
@@ -2243,7 +2243,7 @@ Gets or sets the SaveAtSubstep.
 
 <a id="ANSYSAnalysisSettings.SaveMAPDLDB"></a>
 
-### *property* ANSYSAnalysisSettings.SaveMAPDLDB *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SaveMAPDLDB *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveMAPDLDB.
 
@@ -2251,7 +2251,7 @@ Gets or sets the SaveMAPDLDB.
 
 <a id="ANSYSAnalysisSettings.SaveSpecifiedLoadStep"></a>
 
-### *property* ANSYSAnalysisSettings.SaveSpecifiedLoadStep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SaveSpecifiedLoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveSpecifiedLoadStep.
 
@@ -2259,7 +2259,7 @@ Gets or sets the SaveSpecifiedLoadStep.
 
 <a id="ANSYSAnalysisSettings.ScatteredFieldFormulation"></a>
 
-### *property* ANSYSAnalysisSettings.ScatteredFieldFormulation *: [Ansys.Mechanical.DataModel.Enums.ScatteredFieldFormulation](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScatteredFieldFormulation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScatteredFieldFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ScatteredFieldFormulation *: [Ansys.Mechanical.DataModel.Enums.ScatteredFieldFormulation](../../../../Mechanical/DataModel/Enums/ScatteredFieldFormulation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScatteredFieldFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScatteredFieldFormulation.
 
@@ -2267,7 +2267,7 @@ Gets or sets the ScatteredFieldFormulation.
 
 <a id="ANSYSAnalysisSettings.ScatteringOutputType"></a>
 
-### *property* ANSYSAnalysisSettings.ScatteringOutputType *: [Ansys.Mechanical.DataModel.Enums.ScatteringOutputType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScatteringOutputType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScatteringOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ScatteringOutputType *: [Ansys.Mechanical.DataModel.Enums.ScatteringOutputType](../../../../Mechanical/DataModel/Enums/ScatteringOutputType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScatteringOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScatteringOutputType.
 
@@ -2275,7 +2275,7 @@ Gets or sets the ScatteringOutputType.
 
 <a id="ANSYSAnalysisSettings.ScratchSolverFilesDirectory"></a>
 
-### *property* ANSYSAnalysisSettings.ScratchSolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ScratchSolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScratchSolverFilesDirectory.
 
@@ -2299,7 +2299,7 @@ Gets or sets the Range Minimum property in Options group of Analysis Settings in
 
 <a id="ANSYSAnalysisSettings.SignificanceThreshold"></a>
 
-### *property* ANSYSAnalysisSettings.SignificanceThreshold *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SignificanceThreshold *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SignificanceThreshold.
 
@@ -2307,7 +2307,7 @@ Gets or sets the SignificanceThreshold.
 
 <a id="ANSYSAnalysisSettings.SolutionIntervals"></a>
 
-### *property* ANSYSAnalysisSettings.SolutionIntervals *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolutionIntervals *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionIntervals.
 
@@ -2315,7 +2315,7 @@ Gets or sets the SolutionIntervals.
 
 <a id="ANSYSAnalysisSettings.SolutionMethod"></a>
 
-### *property* ANSYSAnalysisSettings.SolutionMethod *: [Ansys.Mechanical.DataModel.Enums.HarmonicMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.HarmonicMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolutionMethod *: [Ansys.Mechanical.DataModel.Enums.HarmonicMethod](../../../../Mechanical/DataModel/Enums/HarmonicMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionMethod.
 
@@ -2323,7 +2323,7 @@ Gets or sets the SolutionMethod.
 
 <a id="ANSYSAnalysisSettings.SolverFilesDirectory"></a>
 
-### *property* ANSYSAnalysisSettings.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverFilesDirectory.
 
@@ -2331,7 +2331,7 @@ Gets the SolverFilesDirectory.
 
 <a id="ANSYSAnalysisSettings.SolverPivotChecking"></a>
 
-### *property* ANSYSAnalysisSettings.SolverPivotChecking *: [Ansys.Mechanical.DataModel.Enums.SolverPivotChecking](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverPivotChecking.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverPivotChecking) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolverPivotChecking *: [Ansys.Mechanical.DataModel.Enums.SolverPivotChecking](../../../../Mechanical/DataModel/Enums/SolverPivotChecking.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverPivotChecking) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverPivotChecking.
 
@@ -2347,7 +2347,7 @@ Gets or sets the SolverTolerance.
 
 <a id="ANSYSAnalysisSettings.SolverType"></a>
 
-### *property* ANSYSAnalysisSettings.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](../../../../Mechanical/DataModel/Enums/SolverType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverType.
 
@@ -2355,7 +2355,7 @@ Gets or sets the SolverType.
 
 <a id="ANSYSAnalysisSettings.SolverUnitSystem"></a>
 
-### *property* ANSYSAnalysisSettings.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnitSystem.
 
@@ -2363,7 +2363,7 @@ Gets or sets the SolverUnitSystem.
 
 <a id="ANSYSAnalysisSettings.SolverUnits"></a>
 
-### *property* ANSYSAnalysisSettings.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverUnitsControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnits.
 
@@ -2371,7 +2371,7 @@ Gets or sets the SolverUnits.
 
 <a id="ANSYSAnalysisSettings.SpectrumType"></a>
 
-### *property* ANSYSAnalysisSettings.SpectrumType *: [Ansys.Mechanical.DataModel.Enums.SpectrumType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpectrumType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpectrumType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SpectrumType *: [Ansys.Mechanical.DataModel.Enums.SpectrumType](../../../../Mechanical/DataModel/Enums/SpectrumType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpectrumType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpectrumType.
 
@@ -2379,7 +2379,7 @@ Gets or sets the SpectrumType.
 
 <a id="ANSYSAnalysisSettings.SpinSoftening"></a>
 
-### *property* ANSYSAnalysisSettings.SpinSoftening *: [Ansys.Mechanical.DataModel.Enums.SpinSofteningType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpinSofteningType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpinSofteningType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SpinSoftening *: [Ansys.Mechanical.DataModel.Enums.SpinSofteningType](../../../../Mechanical/DataModel/Enums/SpinSofteningType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpinSofteningType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpinSoftening.
 
@@ -2387,7 +2387,7 @@ Gets or sets the SpinSoftening.
 
 <a id="ANSYSAnalysisSettings.SpringStiffness"></a>
 
-### *property* ANSYSAnalysisSettings.SpringStiffness *: [Ansys.Mechanical.DataModel.Enums.SpringsStiffnessType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringsStiffnessType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpringsStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SpringStiffness *: [Ansys.Mechanical.DataModel.Enums.SpringsStiffnessType](../../../../Mechanical/DataModel/Enums/SpringsStiffnessType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringsStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringStiffness.
 
@@ -2395,7 +2395,7 @@ Gets or sets the SpringStiffness.
 
 <a id="ANSYSAnalysisSettings.SpringStiffnessFactor"></a>
 
-### *property* ANSYSAnalysisSettings.SpringStiffnessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.SpringStiffnessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringStiffnessFactor.
 
@@ -2411,7 +2411,7 @@ Gets or sets the SpringStiffnessValue.
 
 <a id="ANSYSAnalysisSettings.Stabilization"></a>
 
-### *property* ANSYSAnalysisSettings.Stabilization *: [Ansys.Mechanical.DataModel.Enums.StabilizationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StabilizationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Stabilization *: [Ansys.Mechanical.DataModel.Enums.StabilizationType](../../../../Mechanical/DataModel/Enums/StabilizationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Stabilization.
 
@@ -2419,7 +2419,7 @@ Gets or sets the Stabilization.
 
 <a id="ANSYSAnalysisSettings.StabilizationActivationForFirstSubstep"></a>
 
-### *property* ANSYSAnalysisSettings.StabilizationActivationForFirstSubstep *: [Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StabilizationActivationForFirstSubstep *: [Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption](../../../../Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StabilizationActivationForFirstSubstep.
 
@@ -2427,7 +2427,7 @@ Gets or sets the StabilizationActivationForFirstSubstep.
 
 <a id="ANSYSAnalysisSettings.StabilizationDampingFactor"></a>
 
-### *property* ANSYSAnalysisSettings.StabilizationDampingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StabilizationDampingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StabilizationDampingFactor.
 
@@ -2435,7 +2435,7 @@ Gets or sets the StabilizationDampingFactor.
 
 <a id="ANSYSAnalysisSettings.StabilizationEnergyDissipationRatio"></a>
 
-### *property* ANSYSAnalysisSettings.StabilizationEnergyDissipationRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StabilizationEnergyDissipationRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StabilizationEnergyDissipationRatio.
 
@@ -2443,7 +2443,7 @@ Gets or sets the StabilizationEnergyDissipationRatio.
 
 <a id="ANSYSAnalysisSettings.StabilizationForceLimit"></a>
 
-### *property* ANSYSAnalysisSettings.StabilizationForceLimit *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StabilizationForceLimit *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StabilizationForceLimit.
 
@@ -2451,7 +2451,7 @@ Gets or sets the StabilizationForceLimit.
 
 <a id="ANSYSAnalysisSettings.StabilizationMethod"></a>
 
-### *property* ANSYSAnalysisSettings.StabilizationMethod *: [Ansys.Mechanical.DataModel.Enums.StabilizationMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StabilizationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StabilizationMethod *: [Ansys.Mechanical.DataModel.Enums.StabilizationMethod](../../../../Mechanical/DataModel/Enums/StabilizationMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StabilizationMethod.
 
@@ -2467,7 +2467,7 @@ Gets or sets the StepEndTime.
 
 <a id="ANSYSAnalysisSettings.StepName"></a>
 
-### *property* ANSYSAnalysisSettings.StepName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StepName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Step Name.
 
@@ -2475,7 +2475,7 @@ Gets or sets the Step Name.
 
 <a id="ANSYSAnalysisSettings.StiffnessCoefficient"></a>
 
-### *property* ANSYSAnalysisSettings.StiffnessCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StiffnessCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessCoefficient.
 
@@ -2483,7 +2483,7 @@ Gets or sets the StiffnessCoefficient.
 
 <a id="ANSYSAnalysisSettings.StiffnessCoefficientDefineBy"></a>
 
-### *property* ANSYSAnalysisSettings.StiffnessCoefficientDefineBy *: [Ansys.Mechanical.DataModel.Enums.DampingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DampingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StiffnessCoefficientDefineBy *: [Ansys.Mechanical.DataModel.Enums.DampingType](../../../../Mechanical/DataModel/Enums/DampingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DampingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessCoefficientDefineBy.
 
@@ -2491,7 +2491,7 @@ Gets or sets the StiffnessCoefficientDefineBy.
 
 <a id="ANSYSAnalysisSettings.StoreComplexSolution"></a>
 
-### *property* ANSYSAnalysisSettings.StoreComplexSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StoreComplexSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreComplexSolution.
 
@@ -2499,7 +2499,7 @@ Gets or sets the StoreComplexSolution.
 
 <a id="ANSYSAnalysisSettings.StoreModalResults"></a>
 
-### *property* ANSYSAnalysisSettings.StoreModalResults *: [Ansys.Mechanical.DataModel.Enums.StoreModalResult](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StoreModalResult.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StoreModalResult) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StoreModalResults *: [Ansys.Mechanical.DataModel.Enums.StoreModalResult](../../../../Mechanical/DataModel/Enums/StoreModalResult.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StoreModalResult) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreModalResults.
 
@@ -2507,7 +2507,7 @@ Gets or sets the StoreModalResults.
 
 <a id="ANSYSAnalysisSettings.StoreResulsAtValue"></a>
 
-### *property* ANSYSAnalysisSettings.StoreResulsAtValue *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StoreResulsAtValue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreResulsAtValue.
 
@@ -2515,7 +2515,7 @@ Gets or sets the StoreResulsAtValue.
 
 <a id="ANSYSAnalysisSettings.StoreResultsAt"></a>
 
-### *property* ANSYSAnalysisSettings.StoreResultsAt *: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimePointsOptions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimePointsOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StoreResultsAt *: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimePointsOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreResultsAt.
 
@@ -2523,7 +2523,7 @@ Gets or sets the StoreResultsAt.
 
 <a id="ANSYSAnalysisSettings.StoreResultsAtAllFrequencies"></a>
 
-### *property* ANSYSAnalysisSettings.StoreResultsAtAllFrequencies *: [Ansys.Mechanical.DataModel.Enums.HarmonicMSUPStorage](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMSUPStorage.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.HarmonicMSUPStorage) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StoreResultsAtAllFrequencies *: [Ansys.Mechanical.DataModel.Enums.HarmonicMSUPStorage](../../../../Mechanical/DataModel/Enums/HarmonicMSUPStorage.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMSUPStorage) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreResultsAtAllFrequencies.
 
@@ -2531,7 +2531,7 @@ Gets or sets the StoreResultsAtAllFrequencies.
 
 <a id="ANSYSAnalysisSettings.Strain"></a>
 
-### *property* ANSYSAnalysisSettings.Strain *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Strain *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Strain.
 
@@ -2539,7 +2539,7 @@ Gets or sets the Strain.
 
 <a id="ANSYSAnalysisSettings.Stress"></a>
 
-### *property* ANSYSAnalysisSettings.Stress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.Stress *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Stress.
 
@@ -2547,7 +2547,7 @@ Gets or sets the Stress.
 
 <a id="ANSYSAnalysisSettings.StructuralDampingCoefficient"></a>
 
-### *property* ANSYSAnalysisSettings.StructuralDampingCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StructuralDampingCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StructuralDampingCoefficient.
 
@@ -2555,7 +2555,7 @@ Gets or sets the StructuralDampingCoefficient.
 
 <a id="ANSYSAnalysisSettings.StructuralOnly"></a>
 
-### *property* ANSYSAnalysisSettings.StructuralOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.StructuralOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StructuralOnly.
 
@@ -2563,7 +2563,7 @@ Gets or sets the StructuralOnly.
 
 <a id="ANSYSAnalysisSettings.TStress"></a>
 
-### *property* ANSYSAnalysisSettings.TStress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TStress *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TStress.
 
@@ -2571,7 +2571,7 @@ Gets or sets the TStress.
 
 <a id="ANSYSAnalysisSettings.TemperatureConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.TemperatureConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TemperatureConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TemperatureConvergence.
 
@@ -2595,7 +2595,7 @@ Gets or sets the TemperatureConvergenceMinimumReference.
 
 <a id="ANSYSAnalysisSettings.TemperatureConvergenceTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.TemperatureConvergenceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TemperatureConvergenceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TemperatureConvergenceTolerance.
 
@@ -2603,7 +2603,7 @@ Gets or sets the TemperatureConvergenceTolerance.
 
 <a id="ANSYSAnalysisSettings.TemperatureConvergenceValue"></a>
 
-### *property* ANSYSAnalysisSettings.TemperatureConvergenceValue *: [Ansys.Mechanical.DataModel.Enums.NonLinearValueType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonLinearValueType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonLinearValueType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TemperatureConvergenceValue *: [Ansys.Mechanical.DataModel.Enums.NonLinearValueType](../../../../Mechanical/DataModel/Enums/NonLinearValueType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonLinearValueType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TemperatureConvergenceValue.
 
@@ -2611,7 +2611,7 @@ Gets or sets the TemperatureConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.ThermalOnly"></a>
 
-### *property* ANSYSAnalysisSettings.ThermalOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ThermalOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalOnly.
 
@@ -2619,7 +2619,7 @@ Gets or sets the ThermalOnly.
 
 <a id="ANSYSAnalysisSettings.TimeIntegration"></a>
 
-### *property* ANSYSAnalysisSettings.TimeIntegration *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TimeIntegration *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeIntegration.
 
@@ -2635,7 +2635,7 @@ Gets or sets the TimeStep.
 
 <a id="ANSYSAnalysisSettings.TransientApplication"></a>
 
-### *property* ANSYSAnalysisSettings.TransientApplication *: [Ansys.Mechanical.DataModel.Enums.TransientApplicationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TransientApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TransientApplication *: [Ansys.Mechanical.DataModel.Enums.TransientApplicationType](../../../../Mechanical/DataModel/Enums/TransientApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransientApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransientApplication.
 
@@ -2643,7 +2643,7 @@ Gets or sets the TransientApplication.
 
 <a id="ANSYSAnalysisSettings.TransientApplicationUserDefined"></a>
 
-### *property* ANSYSAnalysisSettings.TransientApplicationUserDefined *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.TransientApplicationUserDefined *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransientApplicationUserDefined.
 
@@ -2651,7 +2651,7 @@ Gets or sets the TransientApplicationUserDefined.
 
 <a id="ANSYSAnalysisSettings.UserDefinedFrequencies"></a>
 
-### *property* ANSYSAnalysisSettings.UserDefinedFrequencies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.UserDefinedFrequencies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UserDefinedFrequencies.
 
@@ -2659,7 +2659,7 @@ Gets or sets the UserDefinedFrequencies.
 
 <a id="ANSYSAnalysisSettings.UserDefinedFrequencySteps"></a>
 
-### *property* ANSYSAnalysisSettings.UserDefinedFrequencySteps *: System.Collections.Generic.IList[Ansys.Core.Units.Quantity] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.UserDefinedFrequencySteps *: List[Ansys.Core.Units.Quantity] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UserDefinedFrequencySteps.
 
@@ -2667,7 +2667,7 @@ Gets or sets the UserDefinedFrequencySteps.
 
 <a id="ANSYSAnalysisSettings.ViewFactorMethod"></a>
 
-### *property* ANSYSAnalysisSettings.ViewFactorMethod *: [Ansys.Mechanical.DataModel.Enums.RadiosityViewFactorType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiosityViewFactorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RadiosityViewFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.ViewFactorMethod *: [Ansys.Mechanical.DataModel.Enums.RadiosityViewFactorType](../../../../Mechanical/DataModel/Enums/RadiosityViewFactorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiosityViewFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ViewFactorMethod.
 
@@ -2675,7 +2675,7 @@ Gets or sets the ViewFactorMethod.
 
 <a id="ANSYSAnalysisSettings.VisibleProperties"></a>
 
-### *property* ANSYSAnalysisSettings.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -2683,7 +2683,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ANSYSAnalysisSettings.VoltageConvergence"></a>
 
-### *property* ANSYSAnalysisSettings.VoltageConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.VoltageConvergence *: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VoltageConvergence.
 
@@ -2699,7 +2699,7 @@ Gets or sets the VoltageConvergenceMinimumReference.
 
 <a id="ANSYSAnalysisSettings.VoltageConvergenceTolerance"></a>
 
-### *property* ANSYSAnalysisSettings.VoltageConvergenceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.VoltageConvergenceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VoltageConvergenceTolerance.
 
@@ -2715,7 +2715,7 @@ Gets or sets the VoltageConvergenceValue.
 
 <a id="ANSYSAnalysisSettings.WeakSprings"></a>
 
-### *property* ANSYSAnalysisSettings.WeakSprings *: [Ansys.Mechanical.DataModel.Enums.WeakSpringsType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WeakSpringsType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeakSpringsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ANSYSAnalysisSettings.WeakSprings *: [Ansys.Mechanical.DataModel.Enums.WeakSpringsType](../../../../Mechanical/DataModel/Enums/WeakSpringsType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WeakSpringsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the WeakSprings.
 
@@ -2751,7 +2751,7 @@ Creates a new child Figure.
 
 <a id="ANSYSAnalysisSettings.AddImage"></a>
 
-### ANSYSAnalysisSettings.AddImage(filePath: System.String)
+### ANSYSAnalysisSettings.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -2771,7 +2771,7 @@ CopyTo method.
 
 <a id="ANSYSAnalysisSettings.CreateParameter"></a>
 
-### ANSYSAnalysisSettings.CreateParameter(propName: System.String)
+### ANSYSAnalysisSettings.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -2795,7 +2795,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ANSYSAnalysisSettings.GetAMStepType"></a>
 
-### ANSYSAnalysisSettings.GetAMStepType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetAMStepType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the AM Process Step Type at a given step.
 
@@ -2803,7 +2803,7 @@ Gets the AM Process Step Type at a given step.
 
 <a id="ANSYSAnalysisSettings.GetAutomaticTimeStepping"></a>
 
-### ANSYSAnalysisSettings.GetAutomaticTimeStepping(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetAutomaticTimeStepping(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Automatic Time Stepping at a given solution step.
 
@@ -2811,7 +2811,7 @@ Gets the Automatic Time Stepping at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetCarryOverTimeStep"></a>
 
-### ANSYSAnalysisSettings.GetCarryOverTimeStep(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetCarryOverTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Carry Over Time Step at a given solution step.
 
@@ -2819,7 +2819,7 @@ Gets the Carry Over Time Step at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetChildren"></a>
 
-### ANSYSAnalysisSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ANSYSAnalysisSettings.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -2827,7 +2827,7 @@ Gets the list of children, filtered by type.
 
 <a id="ANSYSAnalysisSettings.GetCreepEffects"></a>
 
-### ANSYSAnalysisSettings.GetCreepEffects(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetCreepEffects(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Creep Effects for a given solution step.
 
@@ -2835,7 +2835,7 @@ Gets the Creep Effects for a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetCreepLimitRatio"></a>
 
-### ANSYSAnalysisSettings.GetCreepLimitRatio(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetCreepLimitRatio(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Creep Limit Ratio for a given solution step.
 
@@ -2843,7 +2843,7 @@ Gets the Creep Limit Ratio for a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetCurrentConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetCurrentConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetCurrentConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Current Convergence Minimum Reference at a given solution step.
 
@@ -2851,7 +2851,7 @@ Gets the Current Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetCurrentConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetCurrentConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetCurrentConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Current Convergence Tolerance as a percentage at a given solution step.
 
@@ -2859,7 +2859,7 @@ Gets the Current Convergence Tolerance as a percentage at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetCurrentConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetCurrentConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetCurrentConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Current Convergence Tolerance type at a given solution step.
 
@@ -2867,7 +2867,7 @@ Gets the Current Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetCurrentConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetCurrentConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetCurrentConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Current Convergence Value at a given solution step.
 
@@ -2875,7 +2875,7 @@ Gets the Current Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetDefineBy"></a>
 
-### ANSYSAnalysisSettings.GetDefineBy(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetDefineBy(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Define By at a given solution step.
 
@@ -2883,7 +2883,7 @@ Gets the Define By at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetDisplacementConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetDisplacementConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetDisplacementConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Displacement Convergence Minimum Reference at a given solution step.
 
@@ -2891,7 +2891,7 @@ Gets the Displacement Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetDisplacementConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetDisplacementConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetDisplacementConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Displacement Convergence Tolerance as a percentage at a given solution step.
 
@@ -2899,7 +2899,7 @@ Gets the Displacement Convergence Tolerance as a percentage at a given solution 
 
 <a id="ANSYSAnalysisSettings.GetDisplacementConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetDisplacementConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetDisplacementConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Displacement Convergence Tolerance type at a given solution step.
 
@@ -2907,7 +2907,7 @@ Gets the Displacement Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetDisplacementConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetDisplacementConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetDisplacementConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Displacement Convergence Value at a given solution step.
 
@@ -2915,7 +2915,7 @@ Gets the Displacement Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEmagAMPSConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetEmagAMPSConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEmagAMPSConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the EmagAMPS Convergence Minimum Reference at a given solution step.
 
@@ -2923,7 +2923,7 @@ Gets the EmagAMPS Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEmagAMPSConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetEmagAMPSConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEmagAMPSConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the EmagAMPS Convergence Tolerance as a percentage at a given solution step.
 
@@ -2931,7 +2931,7 @@ Gets the EmagAMPS Convergence Tolerance as a percentage at a given solution step
 
 <a id="ANSYSAnalysisSettings.GetEmagAMPSConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetEmagAMPSConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEmagAMPSConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the EmagAMPS Convergence Tolerance type at a given solution step.
 
@@ -2939,7 +2939,7 @@ Gets the EmagAMPS Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEmagAMPSConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetEmagAMPSConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEmagAMPSConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the EmagAMPS Convergence Value at a given solution step.
 
@@ -2947,7 +2947,7 @@ Gets the EmagAMPS Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEmagCSGConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetEmagCSGConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEmagCSGConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the EmagCSG Convergence Minimum Reference at a given solution step.
 
@@ -2955,7 +2955,7 @@ Gets the EmagCSG Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEmagCSGConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetEmagCSGConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEmagCSGConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the EmagCSG Convergence Tolerance as a percentage at a given solution step.
 
@@ -2963,7 +2963,7 @@ Gets the EmagCSG Convergence Tolerance as a percentage at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEmagCSGConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetEmagCSGConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEmagCSGConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the EmagCSG Convergence Tolerance type at a given solution step.
 
@@ -2971,7 +2971,7 @@ Gets the EmagCSG Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEmagCSGConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetEmagCSGConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEmagCSGConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the EmagCSG Convergence Value at a given solution step.
 
@@ -2979,7 +2979,7 @@ Gets the EmagCSG Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEnergyConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetEnergyConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEnergyConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Energy Convergence Minimum Reference at a given solution step.
 
@@ -2987,7 +2987,7 @@ Gets the Energy Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEnergyConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetEnergyConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEnergyConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Energy Convergence Tolerance as a percentage at a given solution step.
 
@@ -2995,7 +2995,7 @@ Gets the Energy Convergence Tolerance as a percentage at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEnergyConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetEnergyConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEnergyConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Energy Convergence Tolerance type at a given solution step.
 
@@ -3003,7 +3003,7 @@ Gets the Energy Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetEnergyConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetEnergyConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetEnergyConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Energy Convergence Value at a given solution step.
 
@@ -3011,7 +3011,7 @@ Gets the Energy Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetForceConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetForceConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetForceConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Force Convergence Minimum Reference at a given solution step.
 
@@ -3019,7 +3019,7 @@ Gets the Force Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetForceConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetForceConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetForceConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Force Convergence Tolerance as a percentage at a given solution step.
 
@@ -3027,7 +3027,7 @@ Gets the Force Convergence Tolerance as a percentage at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetForceConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetForceConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetForceConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Force Convergence Tolerance Type at a given solution step.
 
@@ -3035,7 +3035,7 @@ Gets the Force Convergence Tolerance Type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetForceConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetForceConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetForceConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Force Convergence Value at a given solution step.
 
@@ -3043,7 +3043,7 @@ Gets the Force Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetHeatConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetHeatConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetHeatConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Heat Convergence Minimum Reference at a given solution step.
 
@@ -3051,7 +3051,7 @@ Gets the Heat Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetHeatConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetHeatConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetHeatConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Heat Convergence Tolerance as a percentage at a given solution step.
 
@@ -3059,7 +3059,7 @@ Gets the Heat Convergence Tolerance as a percentage at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetHeatConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetHeatConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetHeatConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Heat Convergence Tolerance type at a given solution step.
 
@@ -3067,7 +3067,7 @@ Gets the Heat Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetHeatConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetHeatConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetHeatConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Heat Convergence Value at a given solution step.
 
@@ -3075,7 +3075,7 @@ Gets the Heat Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetInitialSubsteps"></a>
 
-### ANSYSAnalysisSettings.GetInitialSubsteps(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetInitialSubsteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Initial Substeps at a given solution step.
 
@@ -3083,7 +3083,7 @@ Gets the Initial Substeps at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetInitialTimeStep"></a>
 
-### ANSYSAnalysisSettings.GetInitialTimeStep(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetInitialTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Initial Time Step at a given solution step.
 
@@ -3091,7 +3091,7 @@ Gets the Initial Time Step at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetLineSearch"></a>
 
-### ANSYSAnalysisSettings.GetLineSearch(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetLineSearch(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Line Search at a given solution step.
 
@@ -3099,7 +3099,7 @@ Gets the Line Search at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetMaximumSubsteps"></a>
 
-### ANSYSAnalysisSettings.GetMaximumSubsteps(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetMaximumSubsteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Maximum Substeps at a given solution step.
 
@@ -3107,7 +3107,7 @@ Gets the Maximum Substeps at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetMaximumTimeStep"></a>
 
-### ANSYSAnalysisSettings.GetMaximumTimeStep(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetMaximumTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Maximum Time Step at a given solution step.
 
@@ -3115,7 +3115,7 @@ Gets the Maximum Time Step at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetMinimumSubsteps"></a>
 
-### ANSYSAnalysisSettings.GetMinimumSubsteps(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetMinimumSubsteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Minimum Substeps at a given solution step.
 
@@ -3123,7 +3123,7 @@ Gets the Minimum Substeps at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetMinimumTimeStep"></a>
 
-### ANSYSAnalysisSettings.GetMinimumTimeStep(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetMinimumTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Minimum Time Step at a given solution step.
 
@@ -3131,7 +3131,7 @@ Gets the Minimum Time Step at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetMomentConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetMomentConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetMomentConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Moment Convergence Minimum Reference at a given solution step.
 
@@ -3139,7 +3139,7 @@ Gets the Moment Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetMomentConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetMomentConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetMomentConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Moment Convergence Tolerance as a percentage at a given solution step.
 
@@ -3147,7 +3147,7 @@ Gets the Moment Convergence Tolerance as a percentage at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetMomentConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetMomentConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetMomentConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Moment Convergence Tolerance type at a given solution step.
 
@@ -3155,7 +3155,7 @@ Gets the Moment Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetMomentConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetMomentConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetMomentConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Moment Convergence Value at a given solution step.
 
@@ -3163,7 +3163,7 @@ Gets the Moment Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetNumberOfSubSteps"></a>
 
-### ANSYSAnalysisSettings.GetNumberOfSubSteps(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetNumberOfSubSteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Number of Substeps for a given solution step.
 
@@ -3171,7 +3171,7 @@ Gets the Number of Substeps for a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetParameter"></a>
 
-### ANSYSAnalysisSettings.GetParameter(propName: System.String)
+### ANSYSAnalysisSettings.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -3179,7 +3179,7 @@ Gets the parameter corresponding to the given property.
 
 <a id="ANSYSAnalysisSettings.GetRotationConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetRotationConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetRotationConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Rotation Convergence Minimum Reference at a given solution step.
 
@@ -3187,7 +3187,7 @@ Gets the Rotation Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetRotationConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetRotationConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetRotationConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Rotation Convergence Tolerance as a percentage at a given solution step.
 
@@ -3195,7 +3195,7 @@ Gets the Rotation Convergence Tolerance as a percentage at a given solution step
 
 <a id="ANSYSAnalysisSettings.GetRotationConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetRotationConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetRotationConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Rotation Convergence Tolerance type at a given solution step.
 
@@ -3203,7 +3203,7 @@ Gets the Rotation Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetRotationConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetRotationConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetRotationConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Rotation Convergence Value at a given solution step.
 
@@ -3211,7 +3211,7 @@ Gets the Rotation Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStabilization"></a>
 
-### ANSYSAnalysisSettings.GetStabilization(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStabilization(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Stabilization at a given solution step.
 
@@ -3219,7 +3219,7 @@ Gets the Stabilization at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStabilizationDampingFactor"></a>
 
-### ANSYSAnalysisSettings.GetStabilizationDampingFactor(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStabilizationDampingFactor(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Stabilization Damping Factor at a given solution step.
 
@@ -3227,7 +3227,7 @@ Gets the Stabilization Damping Factor at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStabilizationEnergyDissipationRatio"></a>
 
-### ANSYSAnalysisSettings.GetStabilizationEnergyDissipationRatio(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStabilizationEnergyDissipationRatio(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Stabilization Energy Dissipation Ratio at a given solution step.
 
@@ -3235,7 +3235,7 @@ Gets the Stabilization Energy Dissipation Ratio at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStabilizationFirstSubstepOption"></a>
 
-### ANSYSAnalysisSettings.GetStabilizationFirstSubstepOption(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStabilizationFirstSubstepOption(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Stabilization First Substep Option at a given solution step.
 
@@ -3243,7 +3243,7 @@ Gets the Stabilization First Substep Option at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStabilizationForceLimit"></a>
 
-### ANSYSAnalysisSettings.GetStabilizationForceLimit(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStabilizationForceLimit(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Stabilization Force Limit at a given solution step.
 
@@ -3251,7 +3251,7 @@ Gets the Stabilization Force Limit at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStabilizationMethod"></a>
 
-### ANSYSAnalysisSettings.GetStabilizationMethod(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStabilizationMethod(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Stabilization Method at a given solution step.
 
@@ -3259,7 +3259,7 @@ Gets the Stabilization Method at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStepEndTime"></a>
 
-### ANSYSAnalysisSettings.GetStepEndTime(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStepEndTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Step End Time at a given solution step.
 
@@ -3267,7 +3267,7 @@ Gets the Step End Time at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStepName"></a>
 
-### ANSYSAnalysisSettings.GetStepName(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStepName(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Step name at a given step.
 
@@ -3275,7 +3275,7 @@ Gets the Step name at a given step.
 
 <a id="ANSYSAnalysisSettings.GetStoreResulsAtValue"></a>
 
-### ANSYSAnalysisSettings.GetStoreResulsAtValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStoreResulsAtValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Store Results At Value at a given solution step.
 
@@ -3283,7 +3283,7 @@ Gets the Store Results At Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStoreResultsAt"></a>
 
-### ANSYSAnalysisSettings.GetStoreResultsAt(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStoreResultsAt(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Store Results At at a given solution step.
 
@@ -3291,7 +3291,7 @@ Gets the Store Results At at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetStructuralOnly"></a>
 
-### ANSYSAnalysisSettings.GetStructuralOnly(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetStructuralOnly(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the TimeIntegration Structural for a given solution step.
 
@@ -3299,7 +3299,7 @@ Gets the TimeIntegration Structural for a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetTemperatureConvergenceInputValue"></a>
 
-### ANSYSAnalysisSettings.GetTemperatureConvergenceInputValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetTemperatureConvergenceInputValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Temperature Convergence Input Value at a given solution step.
 
@@ -3307,7 +3307,7 @@ Gets the Temperature Convergence Input Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetTemperatureConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetTemperatureConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetTemperatureConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Temperature Convergence Minimum Reference at a given solution step.
 
@@ -3315,7 +3315,7 @@ Gets the Temperature Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetTemperatureConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetTemperatureConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetTemperatureConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Temperature Convergence Tolerance as a percentage at a given solution step.
 
@@ -3323,7 +3323,7 @@ Gets the Temperature Convergence Tolerance as a percentage at a given solution s
 
 <a id="ANSYSAnalysisSettings.GetTemperatureConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetTemperatureConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetTemperatureConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Temperature Convergence Tolerance type at a given solution step.
 
@@ -3331,7 +3331,7 @@ Gets the Temperature Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetTemperatureConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetTemperatureConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetTemperatureConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Temperature Convergence Value at a given solution step.
 
@@ -3339,7 +3339,7 @@ Gets the Temperature Convergence Value at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetThermalOnly"></a>
 
-### ANSYSAnalysisSettings.GetThermalOnly(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetThermalOnly(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the TimeIntegration Thermal for a given solution step.
 
@@ -3347,7 +3347,7 @@ Sets the TimeIntegration Thermal for a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetTimeIntegration"></a>
 
-### ANSYSAnalysisSettings.GetTimeIntegration(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetTimeIntegration(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the TimeIntegration for a given solution step.
 
@@ -3355,7 +3355,7 @@ Gets the TimeIntegration for a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetTimeStep"></a>
 
-### ANSYSAnalysisSettings.GetTimeStep(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the Time Step for a given solution step.
 
@@ -3363,7 +3363,7 @@ Sets the Time Step for a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetVoltageConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.GetVoltageConvergenceMinimumReference(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetVoltageConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Voltage Convergence Minimum Reference at a given solution step.
 
@@ -3371,7 +3371,7 @@ Gets the Voltage Convergence Minimum Reference at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetVoltageConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.GetVoltageConvergenceTolerance(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetVoltageConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Voltage Convergence Tolerance as a percentage at a given solution step.
 
@@ -3379,7 +3379,7 @@ Gets the Voltage Convergence Tolerance as a percentage at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetVoltageConvergenceType"></a>
 
-### ANSYSAnalysisSettings.GetVoltageConvergenceType(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetVoltageConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Voltage Convergence Tolerance type at a given solution step.
 
@@ -3387,7 +3387,7 @@ Gets the Voltage Convergence Tolerance type at a given solution step.
 
 <a id="ANSYSAnalysisSettings.GetVoltageConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.GetVoltageConvergenceValue(stepNumber: System.UInt32)
+### ANSYSAnalysisSettings.GetVoltageConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Voltage Convergence Value at a given solution step.
 
@@ -3411,7 +3411,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ANSYSAnalysisSettings.PropertyByAPIName"></a>
 
-### ANSYSAnalysisSettings.PropertyByAPIName(name: System.String)
+### ANSYSAnalysisSettings.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -3422,7 +3422,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ANSYSAnalysisSettings.PropertyByName"></a>
 
-### ANSYSAnalysisSettings.PropertyByName(name: System.String)
+### ANSYSAnalysisSettings.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -3430,7 +3430,7 @@ Get a property by its unique name.
 
 <a id="ANSYSAnalysisSettings.RemoveParameter"></a>
 
-### ANSYSAnalysisSettings.RemoveParameter(propName: System.String)
+### ANSYSAnalysisSettings.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -3438,7 +3438,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ANSYSAnalysisSettings.SetAutomaticTimeStepping"></a>
 
-### ANSYSAnalysisSettings.SetAutomaticTimeStepping(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticTimeStepping.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping))
+### ANSYSAnalysisSettings.SetAutomaticTimeStepping(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping](../../../../Mechanical/DataModel/Enums/AutomaticTimeStepping.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping))
 
 Sets the Automatic Time Stepping for a given solution step.
 
@@ -3446,7 +3446,7 @@ Sets the Automatic Time Stepping for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetCarryOverTimeStep"></a>
 
-### ANSYSAnalysisSettings.SetCarryOverTimeStep(stepNumber: System.UInt32, value: System.Boolean)
+### ANSYSAnalysisSettings.SetCarryOverTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the Carry Over Time Step for a given solution step.
 
@@ -3454,7 +3454,7 @@ Sets the Carry Over Time Step for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetChargeConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetChargeConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetChargeConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Charge Convergence Minimum Reference for a given solution step.
 
@@ -3462,7 +3462,7 @@ Sets the Charge Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetChargeConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetChargeConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetChargeConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Charge Convergence Tolerance as a percentage for a given solution step.
@@ -3473,7 +3473,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetChargeConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetChargeConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetChargeConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Charge Convergence Tolerance type for a given solution step.
 
@@ -3481,7 +3481,7 @@ Sets the Charge Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetChargeConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetChargeConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetChargeConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Charge Convergence Value for a given solution step.
 
@@ -3489,7 +3489,7 @@ Sets the Charge Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetCreepEffects"></a>
 
-### ANSYSAnalysisSettings.SetCreepEffects(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.Creep](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/Creep.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.Creep))
+### ANSYSAnalysisSettings.SetCreepEffects(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.Creep](../../../../Mechanical/DataModel/Enums/Creep.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Creep))
 
 Sets the Creep Effects for a given solution step.
 
@@ -3497,7 +3497,7 @@ Sets the Creep Effects for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetCreepLimitRatio"></a>
 
-### ANSYSAnalysisSettings.SetCreepLimitRatio(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetCreepLimitRatio(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Creep Limit Ratio for a given solution step.
 
@@ -3505,7 +3505,7 @@ Sets the Creep Limit Ratio for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetCurrentConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetCurrentConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetCurrentConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Current Convergence Minimum Reference for a given solution step.
 
@@ -3513,7 +3513,7 @@ Sets the Current Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetCurrentConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetCurrentConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetCurrentConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Current Convergence Tolerance as a percentage for a given solution step.
@@ -3524,7 +3524,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetCurrentConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetCurrentConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetCurrentConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Current Convergence Tolerance type for a given solution step.
 
@@ -3532,7 +3532,7 @@ Sets the Current Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetCurrentConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetCurrentConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetCurrentConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Current Convergence Value for a given solution step.
 
@@ -3540,7 +3540,7 @@ Sets the Current Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetDefineBy"></a>
 
-### ANSYSAnalysisSettings.SetDefineBy(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimeStepDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType))
+### ANSYSAnalysisSettings.SetDefineBy(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType](../../../../Mechanical/DataModel/Enums/TimeStepDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType))
 
 Sets the Define By for a given solution step.
 
@@ -3548,7 +3548,7 @@ Sets the Define By for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetDisplacementConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetDisplacementConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetDisplacementConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Displacement Convergence Minimum Reference for a given solution step.
 
@@ -3556,7 +3556,7 @@ Sets the Displacement Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetDisplacementConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetDisplacementConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetDisplacementConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Displacement Convergence Tolerance as a percentage for a given solution step.
@@ -3567,7 +3567,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetDisplacementConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetDisplacementConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetDisplacementConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Displacement Convergence Tolerance type for a given solution step.
 
@@ -3575,7 +3575,7 @@ Sets the Displacement Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetDisplacementConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetDisplacementConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetDisplacementConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Displacement Convergence Value for a given solution step.
 
@@ -3583,7 +3583,7 @@ Sets the Displacement Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEmagAMPSConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetEmagAMPSConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetEmagAMPSConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the EmagAMPS Convergence Minimum Reference for a given solution step.
 
@@ -3591,7 +3591,7 @@ Sets the EmagAMPS Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEmagAMPSConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetEmagAMPSConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetEmagAMPSConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the EmagAMPS Convergence Tolerance as a percentage for a given solution step.
@@ -3602,7 +3602,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetEmagAMPSConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetEmagAMPSConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetEmagAMPSConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the EmagAMPS Convergence Tolerance type for a given solution step.
 
@@ -3610,7 +3610,7 @@ Sets the EmagAMPS Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEmagAMPSConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetEmagAMPSConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetEmagAMPSConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the EmagAMPS Convergence Value for a given solution step.
 
@@ -3618,7 +3618,7 @@ Sets the EmagAMPS Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEmagCSGConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetEmagCSGConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetEmagCSGConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the EmagCSG Convergence Minimum Reference for a given solution step.
 
@@ -3626,7 +3626,7 @@ Sets the EmagCSG Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEmagCSGConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetEmagCSGConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetEmagCSGConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the EmagCSG Convergence Tolerance as a percentage for a given solution step.
@@ -3637,7 +3637,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetEmagCSGConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetEmagCSGConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetEmagCSGConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the EmagCSG Convergence Tolerance type for a given solution step.
 
@@ -3645,7 +3645,7 @@ Sets the EmagCSG Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEmagCSGConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetEmagCSGConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetEmagCSGConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the EmagCSG Convergence Value for a given solution step.
 
@@ -3653,7 +3653,7 @@ Sets the EmagCSG Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEnergyConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetEnergyConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetEnergyConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Energy Convergence Minimum Reference for a given solution step.
 
@@ -3661,7 +3661,7 @@ Sets the Energy Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEnergyConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetEnergyConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetEnergyConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Energy Convergence Tolerance as a percentage for a given solution step.
@@ -3672,7 +3672,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetEnergyConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetEnergyConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetEnergyConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Energy Convergence Tolerance type for a given solution step.
 
@@ -3680,7 +3680,7 @@ Sets the Energy Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetEnergyConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetEnergyConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetEnergyConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Energy Convergence Value for a given solution step.
 
@@ -3688,7 +3688,7 @@ Sets the Energy Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetForceConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetForceConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetForceConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Force Convergence Minimum Reference for a given solution step.
 
@@ -3696,7 +3696,7 @@ Sets the Force Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetForceConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetForceConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetForceConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Force Convergence Tolerance as a percentage for a given solution step.
@@ -3707,7 +3707,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetForceConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetForceConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetForceConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Force Convergence Tolerance Type for a given solution step.
 
@@ -3715,7 +3715,7 @@ Sets the Force Convergence Tolerance Type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetForceConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetForceConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetForceConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Force Convergence Value for a given solution step.
 
@@ -3723,7 +3723,7 @@ Sets the Force Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetHeatConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetHeatConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetHeatConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Heat Convergence Minimum Reference for a given solution step.
 
@@ -3731,7 +3731,7 @@ Sets the Heat Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetHeatConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetHeatConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetHeatConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Heat Convergence Tolerance as a percentage for a given solution step.
@@ -3742,7 +3742,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetHeatConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetHeatConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetHeatConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Heat Convergence Tolerance type for a given solution step.
 
@@ -3750,7 +3750,7 @@ Sets the Heat Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetHeatConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetHeatConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetHeatConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Heat Convergence Value for a given solution step.
 
@@ -3758,7 +3758,7 @@ Sets the Heat Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetInitialSubsteps"></a>
 
-### ANSYSAnalysisSettings.SetInitialSubsteps(stepNumber: System.UInt32, value: System.UInt32)
+### ANSYSAnalysisSettings.SetInitialSubsteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the Initial Substeps for a given solution step.
 
@@ -3766,7 +3766,7 @@ Sets the Initial Substeps for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetInitialTimeStep"></a>
 
-### ANSYSAnalysisSettings.SetInitialTimeStep(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetInitialTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Initial Time Step for a given solution step.
 
@@ -3774,7 +3774,7 @@ Sets the Initial Time Step for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetLineSearch"></a>
 
-### ANSYSAnalysisSettings.SetLineSearch(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.LineSearchType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LineSearchType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LineSearchType))
+### ANSYSAnalysisSettings.SetLineSearch(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.LineSearchType](../../../../Mechanical/DataModel/Enums/LineSearchType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LineSearchType))
 
 Sets the Line Search for a given solution step.
 
@@ -3782,7 +3782,7 @@ Sets the Line Search for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetMaximumSubsteps"></a>
 
-### ANSYSAnalysisSettings.SetMaximumSubsteps(stepNumber: System.UInt32, value: System.UInt32)
+### ANSYSAnalysisSettings.SetMaximumSubsteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the Maximum Substeps for a given solution step.
 
@@ -3790,7 +3790,7 @@ Sets the Maximum Substeps for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetMaximumTimeStep"></a>
 
-### ANSYSAnalysisSettings.SetMaximumTimeStep(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetMaximumTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Maximum Time Step for a given solution step.
 
@@ -3798,7 +3798,7 @@ Sets the Maximum Time Step for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetMinimumSubsteps"></a>
 
-### ANSYSAnalysisSettings.SetMinimumSubsteps(stepNumber: System.UInt32, value: System.UInt32)
+### ANSYSAnalysisSettings.SetMinimumSubsteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the Minimum Substeps for a given solution step.
 
@@ -3806,7 +3806,7 @@ Sets the Minimum Substeps for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetMinimumTimeStep"></a>
 
-### ANSYSAnalysisSettings.SetMinimumTimeStep(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetMinimumTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Minimum Time Step for a given solution step.
 
@@ -3814,7 +3814,7 @@ Sets the Minimum Time Step for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetMomentConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetMomentConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetMomentConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Moment Convergence Minimum Reference for a given solution step.
 
@@ -3822,7 +3822,7 @@ Sets the Moment Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetMomentConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetMomentConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetMomentConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Moment Convergence Tolerance as a percentage for a given solution step.
@@ -3833,7 +3833,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetMomentConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetMomentConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetMomentConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Moment Convergence Tolerance type for a given solution step.
 
@@ -3841,7 +3841,7 @@ Sets the Moment Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetMomentConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetMomentConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetMomentConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Moment Convergence Value for a given solution step.
 
@@ -3849,7 +3849,7 @@ Sets the Moment Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetNumberOfSubSteps"></a>
 
-### ANSYSAnalysisSettings.SetNumberOfSubSteps(stepNumber: System.UInt32, value: System.UInt32)
+### ANSYSAnalysisSettings.SetNumberOfSubSteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the Number of Substeps for a given solution step.
 
@@ -3857,7 +3857,7 @@ Sets the Number of Substeps for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetRotationConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetRotationConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetRotationConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Rotation Convergence Minimum Reference for a given solution step.
 
@@ -3865,7 +3865,7 @@ Sets the Rotation Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetRotationConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetRotationConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetRotationConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Rotation Convergence Tolerance as a percentage for a given solution step.
@@ -3876,7 +3876,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetRotationConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetRotationConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetRotationConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Rotation Convergence Tolerance type for a given solution step.
 
@@ -3884,7 +3884,7 @@ Sets the Rotation Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetRotationConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetRotationConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetRotationConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Rotation Convergence Value for a given solution step.
 
@@ -3892,7 +3892,7 @@ Sets the Rotation Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStabilization"></a>
 
-### ANSYSAnalysisSettings.SetStabilization(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.StabilizationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StabilizationType))
+### ANSYSAnalysisSettings.SetStabilization(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.StabilizationType](../../../../Mechanical/DataModel/Enums/StabilizationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationType))
 
 Sets the Stabilization for a given solution step.
 
@@ -3900,7 +3900,7 @@ Sets the Stabilization for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStabilizationDampingFactor"></a>
 
-### ANSYSAnalysisSettings.SetStabilizationDampingFactor(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetStabilizationDampingFactor(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Stabilization Damping Factor for a given solution step.
 
@@ -3908,7 +3908,7 @@ Sets the Stabilization Damping Factor for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStabilizationEnergyDissipationRatio"></a>
 
-### ANSYSAnalysisSettings.SetStabilizationEnergyDissipationRatio(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetStabilizationEnergyDissipationRatio(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Stabilization Energy Dissipation Ratio for a given solution step.
 
@@ -3916,7 +3916,7 @@ Sets the Stabilization Energy Dissipation Ratio for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStabilizationFirstSubstepOption"></a>
 
-### ANSYSAnalysisSettings.SetStabilizationFirstSubstepOption(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption))
+### ANSYSAnalysisSettings.SetStabilizationFirstSubstepOption(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption](../../../../Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption))
 
 Sets the Stabilization First Substep Option for a given solution step.
 
@@ -3924,7 +3924,7 @@ Sets the Stabilization First Substep Option for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStabilizationForceLimit"></a>
 
-### ANSYSAnalysisSettings.SetStabilizationForceLimit(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetStabilizationForceLimit(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Stabilization Force Limit for a given solution step.
 
@@ -3932,7 +3932,7 @@ Sets the Stabilization Force Limit for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStabilizationMethod"></a>
 
-### ANSYSAnalysisSettings.SetStabilizationMethod(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.StabilizationMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StabilizationMethod))
+### ANSYSAnalysisSettings.SetStabilizationMethod(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.StabilizationMethod](../../../../Mechanical/DataModel/Enums/StabilizationMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationMethod))
 
 Sets the Stabilization Method for a given solution step.
 
@@ -3940,7 +3940,7 @@ Sets the Stabilization Method for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStepEndTime"></a>
 
-### ANSYSAnalysisSettings.SetStepEndTime(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetStepEndTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Step End Time for a given solution step.
 
@@ -3948,7 +3948,7 @@ Sets the Step End Time for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStepName"></a>
 
-### ANSYSAnalysisSettings.SetStepName(stepNumber: System.UInt32, value: System.String)
+### ANSYSAnalysisSettings.SetStepName(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Sets the Step name at a given step.
 
@@ -3956,7 +3956,7 @@ Sets the Step name at a given step.
 
 <a id="ANSYSAnalysisSettings.SetStoreResulsAtValue"></a>
 
-### ANSYSAnalysisSettings.SetStoreResulsAtValue(stepNumber: System.UInt32, value: System.UInt32)
+### ANSYSAnalysisSettings.SetStoreResulsAtValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the Store Results At Value for a given solution step.
 
@@ -3964,7 +3964,7 @@ Sets the Store Results At Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStoreResultsAt"></a>
 
-### ANSYSAnalysisSettings.SetStoreResultsAt(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimePointsOptions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimePointsOptions))
+### ANSYSAnalysisSettings.SetStoreResultsAt(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.TimePointsOptions](../../../../Mechanical/DataModel/Enums/TimePointsOptions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimePointsOptions))
 
 Sets the Store Results At for a given solution step.
 
@@ -3972,7 +3972,7 @@ Sets the Store Results At for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetStructuralOnly"></a>
 
-### ANSYSAnalysisSettings.SetStructuralOnly(stepNumber: System.UInt32, value: System.Boolean)
+### ANSYSAnalysisSettings.SetStructuralOnly(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the TimeIntegration Structural for a given solution step.
 
@@ -3980,7 +3980,7 @@ Sets the TimeIntegration Structural for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetTemperatureConvergenceInputValue"></a>
 
-### ANSYSAnalysisSettings.SetTemperatureConvergenceInputValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetTemperatureConvergenceInputValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Temperature Convergence Input Value for a given solution step.
 
@@ -3988,7 +3988,7 @@ Sets the Temperature Convergence Input Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetTemperatureConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetTemperatureConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetTemperatureConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Temperature Convergence Minimum Reference for a given solution step.
 
@@ -3996,7 +3996,7 @@ Sets the Temperature Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetTemperatureConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetTemperatureConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetTemperatureConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Temperature Convergence Tolerance as a percentage for a given solution step.
@@ -4007,7 +4007,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetTemperatureConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetTemperatureConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetTemperatureConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Temperature Convergence Tolerance type for a given solution step.
 
@@ -4015,7 +4015,7 @@ Sets the Temperature Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetTemperatureConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetTemperatureConvergenceValue(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.NonLinearValueType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonLinearValueType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonLinearValueType))
+### ANSYSAnalysisSettings.SetTemperatureConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.NonLinearValueType](../../../../Mechanical/DataModel/Enums/NonLinearValueType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonLinearValueType))
 
 Sets the Temperature Convergence Value for a given solution step.
 
@@ -4023,7 +4023,7 @@ Sets the Temperature Convergence Value for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetThermalOnly"></a>
 
-### ANSYSAnalysisSettings.SetThermalOnly(stepNumber: System.UInt32, value: System.Boolean)
+### ANSYSAnalysisSettings.SetThermalOnly(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the TimeIntegration Thermal for a given solution step.
 
@@ -4031,7 +4031,7 @@ Sets the TimeIntegration Thermal for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetTimeIntegration"></a>
 
-### ANSYSAnalysisSettings.SetTimeIntegration(stepNumber: System.UInt32, value: System.Boolean)
+### ANSYSAnalysisSettings.SetTimeIntegration(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the TimeIntegration for a given solution step.
 
@@ -4039,7 +4039,7 @@ Sets the TimeIntegration for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetTimeStep"></a>
 
-### ANSYSAnalysisSettings.SetTimeStep(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Time Step for a given solution step.
 
@@ -4047,7 +4047,7 @@ Sets the Time Step for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetVoltageConvergenceMinimumReference"></a>
 
-### ANSYSAnalysisSettings.SetVoltageConvergenceMinimumReference(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetVoltageConvergenceMinimumReference(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Voltage Convergence Minimum Reference for a given solution step.
 
@@ -4055,7 +4055,7 @@ Sets the Voltage Convergence Minimum Reference for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetVoltageConvergenceTolerance"></a>
 
-### ANSYSAnalysisSettings.SetVoltageConvergenceTolerance(stepNumber: System.UInt32, value: System.Double)
+### ANSYSAnalysisSettings.SetVoltageConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Sets the Voltage Convergence Tolerance as a percentage for a given solution step.
@@ -4066,7 +4066,7 @@ For example if the user input is 5% then the "value" argument should be set to 5
 
 <a id="ANSYSAnalysisSettings.SetVoltageConvergenceType"></a>
 
-### ANSYSAnalysisSettings.SetVoltageConvergenceType(stepNumber: System.UInt32, value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
+### ANSYSAnalysisSettings.SetVoltageConvergenceType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType](../../../../Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType))
 
 Sets the Voltage Convergence Tolerance type for a given solution step.
 
@@ -4074,7 +4074,7 @@ Sets the Voltage Convergence Tolerance type for a given solution step.
 
 <a id="ANSYSAnalysisSettings.SetVoltageConvergenceValue"></a>
 
-### ANSYSAnalysisSettings.SetVoltageConvergenceValue(stepNumber: System.UInt32, value: Ansys.Core.Units.Quantity)
+### ANSYSAnalysisSettings.SetVoltageConvergenceValue(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Voltage Convergence Value for a given solution step.
 

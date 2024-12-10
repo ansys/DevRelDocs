@@ -27,7 +27,7 @@ Represents a tuple of values for the TBPT commmand.
 
 <a id="TBPTValues.ValueCount"></a>
 
-### *property* TBPTValues.ValueCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTValues.ValueCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of values.
 
@@ -35,7 +35,7 @@ Gets the number of values.
 
 <a id="TBPTValues.Values"></a>
 
-### *property* TBPTValues.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TBPTValues.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

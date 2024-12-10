@@ -17,7 +17,7 @@ To select the MeshWorkflow Process Entity Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`Disabled`](#CheckpointDefinitionType.Disabled) |
 | [`Enabled`](#CheckpointDefinitionType.Enabled) |
 

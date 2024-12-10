@@ -17,7 +17,7 @@ Represents a SFE command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------|----------------------------|
+|--------------------------------|----------------------------|
 | [`Elem`](#SFECommand.Elem)     | Gets the element number.   |
 | [`Index`](#SFECommand.Index)   | Gets the command index.    |
 | [`Key`](#SFECommand.Key)       | Gets the value key.        |
@@ -32,7 +32,7 @@ Represents a SFE command.
 
 <a id="SFECommand.Elem"></a>
 
-### *property* SFECommand.Elem *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFECommand.Elem *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element number.
 
@@ -40,7 +40,7 @@ Gets the element number.
 
 <a id="SFECommand.Index"></a>
 
-### *property* SFECommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFECommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -48,7 +48,7 @@ Gets the command index.
 
 <a id="SFECommand.Key"></a>
 
-### *property* SFECommand.Key *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFECommand.Key *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the value key.
 
@@ -56,7 +56,7 @@ Gets the value key.
 
 <a id="SFECommand.LKey"></a>
 
-### *property* SFECommand.LKey *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFECommand.LKey *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the load key.
 
@@ -64,7 +64,7 @@ Get the load key.
 
 <a id="SFECommand.Lab"></a>
 
-### *property* SFECommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFECommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the load label.
 
@@ -72,7 +72,7 @@ Gets the load label.
 
 <a id="SFECommand.Name"></a>
 
-### *property* SFECommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFECommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -80,7 +80,7 @@ Gets the command name.
 
 <a id="SFECommand.Values"></a>
 
-### *property* SFECommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFECommand.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[float](https://docs.python.org/3/library/functions.html#float)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

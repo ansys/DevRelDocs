@@ -41,19 +41,19 @@ T:Ansys.Mechanical.ExternalData.FixedWidthImportSettings defines how to import e
 
 <a id="FixedWidthImportSettings.AverageCornerNodesToMidsideNodes"></a>
 
-### *property* FixedWidthImportSettings.AverageCornerNodesToMidsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedWidthImportSettings.AverageCornerNodesToMidsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="FixedWidthImportSettings.ColumnWidths"></a>
 
-### *property* FixedWidthImportSettings.ColumnWidths *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedWidthImportSettings.ColumnWidths *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="FixedWidthImportSettings.Count"></a>
 
-### *property* FixedWidthImportSettings.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedWidthImportSettings.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of column definitions.
 
@@ -61,7 +61,7 @@ Gets the number of column definitions.
 
 <a id="FixedWidthImportSettings.Format"></a>
 
-### *property* FixedWidthImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedWidthImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 
@@ -69,7 +69,7 @@ Gets the existing corresponding format.
 
 <a id="FixedWidthImportSettings.Item"></a>
 
-### *property* FixedWidthImportSettings.Item *: [Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition](../../../../v242/Ansys/Mechanical/ExternalData/ColumnarDataImportDefinition.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedWidthImportSettings.Item *: [Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition](ColumnarDataImportDefinition.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -77,7 +77,7 @@ Item property.
 
 <a id="FixedWidthImportSettings.SkipFooter"></a>
 
-### *property* FixedWidthImportSettings.SkipFooter *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedWidthImportSettings.SkipFooter *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the number of rows to ignore at the end of the file during import.
 
@@ -85,7 +85,7 @@ Gets or sets the number of rows to ignore at the end of the file during import.
 
 <a id="FixedWidthImportSettings.SkipRows"></a>
 
-### *property* FixedWidthImportSettings.SkipRows *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedWidthImportSettings.SkipRows *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the number of rows to skip over at the start of the file during import.
 
@@ -105,7 +105,7 @@ Gets or sets the number of rows to skip over at the start of the file during imp
 
 <a id="FixedWidthImportSettings.RemoveAt"></a>
 
-### FixedWidthImportSettings.RemoveAt(index: System.Int32)
+### FixedWidthImportSettings.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Removes the import definition at the specified index.
 
@@ -113,7 +113,7 @@ Removes the import definition at the specified index.
 
 <a id="FixedWidthImportSettings.UseColumn"></a>
 
-### FixedWidthImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType), unit: System.String, name: System.String)
+### FixedWidthImportSettings.UseColumn(index: [int](https://docs.python.org/3/library/functions.html#int), variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../DataModel/MechanicalEnums/ExternalData/VariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType), unit: [str](https://docs.python.org/3/library/stdtypes.html#str), name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 <!-- !! processed by numpydoc !! -->
 

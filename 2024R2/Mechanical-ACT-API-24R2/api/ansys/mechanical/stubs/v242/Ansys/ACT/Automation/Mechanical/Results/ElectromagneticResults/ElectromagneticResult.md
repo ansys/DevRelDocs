@@ -17,7 +17,7 @@ Defines a ElectromagneticResult.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ElectromagneticResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ElectromagneticResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ElectromagneticResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ElectromagneticResult.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#ElectromagneticResult.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#ElectromagneticResult.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#ElectromagneticResult.By)                                                               | Gets or sets the By.                                                   |
@@ -98,14 +98,14 @@ Defines a ElectromagneticResult.
 | [`Substep`](#ElectromagneticResult.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#ElectromagneticResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ElectromagneticResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ElectromagneticResult.SurfaceCoating)                                                                                                                                                        | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ElectromagneticResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#ElectromagneticResult.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#ElectromagneticResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#ElectromagneticResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#ElectromagneticResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#ElectromagneticResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#ElectromagneticResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ElectromagneticResult.WaterfallShowTextOnMosaic)                                                                                                                                  | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ElectromagneticResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -121,7 +121,7 @@ Gets the Average.
 
 <a id="ElectromagneticResult.AverageAcrossBodies"></a>
 
-### *property* ElectromagneticResult.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -137,7 +137,7 @@ Gets or sets the By.
 
 <a id="ElectromagneticResult.CalculateTimeHistory"></a>
 
-### *property* ElectromagneticResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -145,7 +145,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ElectromagneticResult.Children"></a>
 
-### *property* ElectromagneticResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -153,7 +153,7 @@ Gets the list of children.
 
 <a id="ElectromagneticResult.CombinationNumber"></a>
 
-### *property* ElectromagneticResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -161,7 +161,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ElectromagneticResult.Comments"></a>
 
-### *property* ElectromagneticResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -169,7 +169,7 @@ Gets the list of associated comments.
 
 <a id="ElectromagneticResult.CoordinateSystem"></a>
 
-### *property* ElectromagneticResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -179,7 +179,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ElectromagneticResult.CrackFrontNumber"></a>
 
-### *property* ElectromagneticResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -227,7 +227,7 @@ Gets or sets the ElectromagneticResultType.
 
 <a id="ElectromagneticResult.Figures"></a>
 
-### *property* ElectromagneticResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -235,7 +235,7 @@ Gets the list of associated figures.
 
 <a id="ElectromagneticResult.GlobalIDs"></a>
 
-### *property* ElectromagneticResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -251,7 +251,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ElectromagneticResult.Identifier"></a>
 
-### *property* ElectromagneticResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -259,7 +259,7 @@ Gets or sets the Identifier.
 
 <a id="ElectromagneticResult.Images"></a>
 
-### *property* ElectromagneticResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -275,7 +275,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ElectromagneticResult.IsSolved"></a>
 
-### *property* ElectromagneticResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -291,7 +291,7 @@ Gets or sets the ItemType.
 
 <a id="ElectromagneticResult.IterationNumber"></a>
 
-### *property* ElectromagneticResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -299,7 +299,7 @@ Gets the IterationNumber.
 
 <a id="ElectromagneticResult.LoadStep"></a>
 
-### *property* ElectromagneticResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -307,7 +307,7 @@ Gets the LoadStep.
 
 <a id="ElectromagneticResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ElectromagneticResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -315,7 +315,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ElectromagneticResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ElectromagneticResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -323,7 +323,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ElectromagneticResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ElectromagneticResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -331,7 +331,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ElectromagneticResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ElectromagneticResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -339,7 +339,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ElectromagneticResult.LoadStepNumber"></a>
 
-### *property* ElectromagneticResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -363,7 +363,7 @@ Gets the Maximum.
 
 <a id="ElectromagneticResult.MaximumOccursOn"></a>
 
-### *property* ElectromagneticResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -395,7 +395,7 @@ Gets the Minimum.
 
 <a id="ElectromagneticResult.MinimumOccursOn"></a>
 
-### *property* ElectromagneticResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -419,7 +419,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ElectromagneticResult.NamedSelections"></a>
 
-### *property* ElectromagneticResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -443,7 +443,7 @@ Gets the result table.
 
 <a id="ElectromagneticResult.Properties"></a>
 
-### *property* ElectromagneticResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -459,7 +459,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ElectromagneticResult.SetNumber"></a>
 
-### *property* ElectromagneticResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -475,7 +475,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ElectromagneticResult.SolverComponentIDs"></a>
 
-### *property* ElectromagneticResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -483,7 +483,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="ElectromagneticResult.Substep"></a>
 
-### *property* ElectromagneticResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -491,7 +491,7 @@ Gets the Substep.
 
 <a id="ElectromagneticResult.Suppressed"></a>
 
-### *property* ElectromagneticResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -555,7 +555,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="ElectromagneticResult.VisibleProperties"></a>
 
-### *property* ElectromagneticResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -563,7 +563,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ElectromagneticResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* ElectromagneticResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromagneticResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -615,7 +615,7 @@ Creates a new child Figure.
 
 <a id="ElectromagneticResult.AddImage"></a>
 
-### ElectromagneticResult.AddImage(filePath: System.String)
+### ElectromagneticResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -643,7 +643,7 @@ Copies all visible properties from this object to another.
 
 <a id="ElectromagneticResult.CreateParameter"></a>
 
-### ElectromagneticResult.CreateParameter(propName: System.String)
+### ElectromagneticResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -691,7 +691,7 @@ Run the EvaluateAllResults action.
 
 <a id="ElectromagneticResult.ExportAnimation"></a>
 
-### ElectromagneticResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ElectromagneticResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -699,7 +699,7 @@ Run the ExportAnimation action.
 
 <a id="ElectromagneticResult.ExportToTextFile"></a>
 
-### ElectromagneticResult.ExportToTextFile(filePath: System.String)
+### ElectromagneticResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -715,7 +715,7 @@ Run the FetchRemoteResult action.
 
 <a id="ElectromagneticResult.GetChildren"></a>
 
-### ElectromagneticResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ElectromagneticResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -723,7 +723,7 @@ Gets the list of children, filtered by type.
 
 <a id="ElectromagneticResult.GetParameter"></a>
 
-### ElectromagneticResult.GetParameter(propName: System.String)
+### ElectromagneticResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -755,7 +755,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ElectromagneticResult.PropertyByAPIName"></a>
 
-### ElectromagneticResult.PropertyByAPIName(name: System.String)
+### ElectromagneticResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -766,7 +766,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ElectromagneticResult.PropertyByName"></a>
 
-### ElectromagneticResult.PropertyByName(name: System.String)
+### ElectromagneticResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -774,7 +774,7 @@ Get a property by its unique name.
 
 <a id="ElectromagneticResult.RemoveParameter"></a>
 
-### ElectromagneticResult.RemoveParameter(propName: System.String)
+### ElectromagneticResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

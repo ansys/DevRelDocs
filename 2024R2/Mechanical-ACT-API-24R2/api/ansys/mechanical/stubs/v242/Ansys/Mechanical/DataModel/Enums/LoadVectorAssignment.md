@@ -17,7 +17,7 @@ Specifies the LoadVectorAssignment.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------- |
 | [`LoadVectorAssignment_Manual`](#LoadVectorAssignment.LoadVectorAssignment_Manual) |
 | [`LoadVectorAssignment_ProgramControlled`](#LoadVectorAssignment.LoadVectorAssignment_ProgramControlled) |
 

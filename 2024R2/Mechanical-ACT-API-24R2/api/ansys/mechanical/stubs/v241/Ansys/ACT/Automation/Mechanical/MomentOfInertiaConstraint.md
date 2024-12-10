@@ -61,7 +61,7 @@ Defines a MomentOfInertiaConstraint.
 
 <a id="MomentOfInertiaConstraint.Axis"></a>
 
-### *property* MomentOfInertiaConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
@@ -69,7 +69,7 @@ Gets or sets the Axis.
 
 <a id="MomentOfInertiaConstraint.Children"></a>
 
-### *property* MomentOfInertiaConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -85,7 +85,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="MomentOfInertiaConstraint.DataModelObjectCategory"></a>
 
-### *property* MomentOfInertiaConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -93,7 +93,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MomentOfInertiaConstraint.DefineBy"></a>
 
-### *property* MomentOfInertiaConstraint.DefineBy *: [Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResponseConstraintDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.DefineBy *: [Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy](../../../Mechanical/DataModel/Enums/ResponseConstraintDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -101,7 +101,7 @@ Gets or sets the DefineBy.
 
 <a id="MomentOfInertiaConstraint.EnvironmentSelection"></a>
 
-### *property* MomentOfInertiaConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -141,7 +141,7 @@ Gets or sets the MinimumValue.
 
 <a id="MomentOfInertiaConstraint.PercentageToRetain"></a>
 
-### *property* MomentOfInertiaConstraint.PercentageToRetain *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.PercentageToRetain *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PercentageToRetain.
 
@@ -149,7 +149,7 @@ Gets or sets the PercentageToRetain.
 
 <a id="MomentOfInertiaConstraint.PercentageToRetainMax"></a>
 
-### *property* MomentOfInertiaConstraint.PercentageToRetainMax *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.PercentageToRetainMax *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PercentageToRetainMax.
 
@@ -157,7 +157,7 @@ Gets or sets the PercentageToRetainMax.
 
 <a id="MomentOfInertiaConstraint.PercentageToRetainMin"></a>
 
-### *property* MomentOfInertiaConstraint.PercentageToRetainMin *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.PercentageToRetainMin *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PercentageToRetainMin.
 
@@ -165,7 +165,7 @@ Gets or sets the PercentageToRetainMin.
 
 <a id="MomentOfInertiaConstraint.Properties"></a>
 
-### *property* MomentOfInertiaConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -173,7 +173,7 @@ Gets the list of properties for this object.
 
 <a id="MomentOfInertiaConstraint.ScopingMethod"></a>
 
-### *property* MomentOfInertiaConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -181,7 +181,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MomentOfInertiaConstraint.Selection"></a>
 
-### *property* MomentOfInertiaConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Selection.
 
@@ -189,7 +189,7 @@ Gets or sets the Selection.
 
 <a id="MomentOfInertiaConstraint.Suppressed"></a>
 
-### *property* MomentOfInertiaConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -197,7 +197,7 @@ Gets or sets the Suppressed.
 
 <a id="MomentOfInertiaConstraint.VisibleProperties"></a>
 
-### *property* MomentOfInertiaConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MomentOfInertiaConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -225,7 +225,7 @@ Copies all visible properties from this object to another.
 
 <a id="MomentOfInertiaConstraint.CreateParameter"></a>
 
-### MomentOfInertiaConstraint.CreateParameter(propName: System.String)
+### MomentOfInertiaConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -249,7 +249,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MomentOfInertiaConstraint.GetChildren"></a>
 
-### MomentOfInertiaConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MomentOfInertiaConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -257,7 +257,7 @@ Gets the list of children, filtered by type.
 
 <a id="MomentOfInertiaConstraint.GetParameter"></a>
 
-### MomentOfInertiaConstraint.GetParameter(propName: System.String)
+### MomentOfInertiaConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -281,7 +281,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MomentOfInertiaConstraint.PropertyByAPIName"></a>
 
-### MomentOfInertiaConstraint.PropertyByAPIName(name: System.String)
+### MomentOfInertiaConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -292,7 +292,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MomentOfInertiaConstraint.PropertyByName"></a>
 
-### MomentOfInertiaConstraint.PropertyByName(name: System.String)
+### MomentOfInertiaConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -300,7 +300,7 @@ Get a property by its unique name.
 
 <a id="MomentOfInertiaConstraint.RemoveParameter"></a>
 
-### MomentOfInertiaConstraint.RemoveParameter(propName: System.String)
+### MomentOfInertiaConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

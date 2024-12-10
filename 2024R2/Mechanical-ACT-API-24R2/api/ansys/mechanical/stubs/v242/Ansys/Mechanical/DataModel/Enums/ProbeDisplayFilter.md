@@ -17,7 +17,7 @@ Specifies the ProbeDisplayFilter.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------- |
 | [`All`](#ProbeDisplayFilter.All) |
 | [`AxialForce`](#ProbeDisplayFilter.AxialForce) |
 | [`CoEnergy`](#ProbeDisplayFilter.CoEnergy) |

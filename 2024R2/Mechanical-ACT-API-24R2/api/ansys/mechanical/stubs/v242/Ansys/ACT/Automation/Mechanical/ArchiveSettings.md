@@ -27,7 +27,7 @@ A settings class for the project Archive operation
 
 <a id="ArchiveSettings.IncludeResultAndSolutionFiles"></a>
 
-### *property* ArchiveSettings.IncludeResultAndSolutionFiles *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ArchiveSettings.IncludeResultAndSolutionFiles *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 A boolean which configures the option to include result/solution files in the archive file
 
@@ -35,7 +35,7 @@ A boolean which configures the option to include result/solution files in the ar
 
 <a id="ArchiveSettings.IncludeUserFiles"></a>
 
-### *property* ArchiveSettings.IncludeUserFiles *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ArchiveSettings.IncludeUserFiles *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 A boolean which configures the option to include files inside the UserFiles folder in the archive file
 

@@ -17,7 +17,7 @@ Specifies the JointScopingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------- |
 | [`BodyToBody`](#JointScopingType.BodyToBody) |
 | [`BodyToGround`](#JointScopingType.BodyToGround) |
 

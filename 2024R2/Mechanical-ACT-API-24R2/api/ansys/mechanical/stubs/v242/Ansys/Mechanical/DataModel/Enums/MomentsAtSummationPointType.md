@@ -17,7 +17,7 @@ Specifies the Moments at summation point type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |
 | [`Centroid`](#MomentsAtSummationPointType.Centroid) |
 | [`OrientationSystem`](#MomentsAtSummationPointType.OrientationSystem) |
 

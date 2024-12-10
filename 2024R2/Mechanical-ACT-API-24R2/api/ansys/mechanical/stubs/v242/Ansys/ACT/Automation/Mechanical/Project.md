@@ -17,7 +17,7 @@ Defines a Project.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [`Activate`](#Project.Activate)                                                   | Activate the current object.                                                                                |
 | [`AddComment`](#Project.AddComment)                                               | Creates a new child Comment.                                                                                |
 | [`AddImage`](#Project.AddImage)                                                   | Creates a new child Image.                                                                                  |
@@ -45,7 +45,7 @@ Defines a Project.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+|-------------------------------------------------------------------|----------------------------------------------------------------------|
 | [`Author`](#Project.Author)                                       | Gets or sets the Author.                                             |
 | [`Children`](#Project.Children)                                   | Gets the list of children.                                           |
 | [`Comments`](#Project.Comments)                                   | Gets the list of associated comments.                                |
@@ -78,7 +78,7 @@ Defines a Project.
 
 <a id="Project.Author"></a>
 
-### *property* Project.Author *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.Author *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Author.
 
@@ -86,7 +86,7 @@ Gets or sets the Author.
 
 <a id="Project.Children"></a>
 
-### *property* Project.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -94,7 +94,7 @@ Gets the list of children.
 
 <a id="Project.Comments"></a>
 
-### *property* Project.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -102,7 +102,7 @@ Gets the list of associated comments.
 
 <a id="Project.CreationDate"></a>
 
-### *property* Project.CreationDate *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.CreationDate *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CreationDate.
 
@@ -110,7 +110,7 @@ Gets the CreationDate.
 
 <a id="Project.CreationTime"></a>
 
-### *property* Project.CreationTime *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.CreationTime *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CreationTime.
 
@@ -126,7 +126,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Project.FilePath"></a>
 
-### *property* Project.FilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.FilePath *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Mechanical Project file path of current Mechanical session.
 
@@ -134,7 +134,7 @@ Gets the Mechanical Project file path of current Mechanical session.
 
 <a id="Project.FirstSaved"></a>
 
-### *property* Project.FirstSaved *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.FirstSaved *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FirstSaved.
 
@@ -142,7 +142,7 @@ Gets the FirstSaved.
 
 <a id="Project.Images"></a>
 
-### *property* Project.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -150,7 +150,7 @@ Gets the list of associated images.
 
 <a id="Project.ImportedSource"></a>
 
-### *property* Project.ImportedSource *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.ImportedSource *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ImportedSource.
 
@@ -158,7 +158,7 @@ Gets the ImportedSource.
 
 <a id="Project.ImportedVersion"></a>
 
-### *property* Project.ImportedVersion *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.ImportedVersion *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ImportedVersion.
 
@@ -174,7 +174,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Project.LastSaved"></a>
 
-### *property* Project.LastSaved *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.LastSaved *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LastSaved.
 
@@ -190,7 +190,7 @@ Gets the Model.
 
 <a id="Project.Models"></a>
 
-### *property* Project.Models *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Model](Model.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Model)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.Models *: Iterable[[Ansys.ACT.Automation.Mechanical.Model](Model.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Model)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Model.
 
@@ -198,7 +198,7 @@ Gets the Model.
 
 <a id="Project.PreparedFor"></a>
 
-### *property* Project.PreparedFor *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.PreparedFor *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreparedFor.
 
@@ -206,7 +206,7 @@ Gets or sets the PreparedFor.
 
 <a id="Project.ProductVersion"></a>
 
-### *property* Project.ProductVersion *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.ProductVersion *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ProductVersion.
 
@@ -214,7 +214,7 @@ Gets the ProductVersion.
 
 <a id="Project.ProjectDirectory"></a>
 
-### *property* Project.ProjectDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.ProjectDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Project Directory
 
@@ -222,7 +222,7 @@ Gets the Project Directory
 
 <a id="Project.Properties"></a>
 
-### *property* Project.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -230,7 +230,7 @@ Gets the list of properties for this object.
 
 <a id="Project.SaveProjectAfterSolution"></a>
 
-### *property* Project.SaveProjectAfterSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.SaveProjectAfterSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveProjectAfterSolution.
 
@@ -238,7 +238,7 @@ Gets or sets the SaveProjectAfterSolution.
 
 <a id="Project.SaveProjectBeforeSolution"></a>
 
-### *property* Project.SaveProjectBeforeSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.SaveProjectBeforeSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveProjectBeforeSolution.
 
@@ -246,7 +246,7 @@ Gets or sets the SaveProjectBeforeSolution.
 
 <a id="Project.Subject"></a>
 
-### *property* Project.Subject *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.Subject *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Subject.
 
@@ -262,7 +262,7 @@ Change the Unit System.
 
 <a id="Project.UserFiles"></a>
 
-### *property* Project.UserFiles *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.UserFiles *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the path of the user files folder of current project.
 
@@ -270,7 +270,7 @@ Gets the path of the user files folder of current project.
 
 <a id="Project.VisibleProperties"></a>
 
-### *property* Project.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Project.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -298,7 +298,7 @@ Creates a new child Comment.
 
 <a id="Project.AddImage"></a>
 
-### Project.AddImage(filePath: System.String)
+### Project.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -310,7 +310,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <a id="Project.Archive"></a>
 
-### Project.Archive(archivePath: System.String, overwrite: System.Boolean, settings: [Ansys.ACT.Automation.Mechanical.ArchiveSettings](../../../../../v241/Ansys/ACT/Automation/Mechanical/ArchiveSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ArchiveSettings))
+### Project.Archive(archivePath: [str](https://docs.python.org/3/library/stdtypes.html#str), overwrite: [bool](https://docs.python.org/3/library/functions.html#bool), settings: [Ansys.ACT.Automation.Mechanical.ArchiveSettings](ArchiveSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ArchiveSettings))
 
 For Mechanical opened independently, without Workbench. Archive a Mechanical project.
 
@@ -326,7 +326,7 @@ Run the ClearGeneratedData action.
 
 <a id="Project.CombineTextFiles"></a>
 
-### Project.CombineTextFiles(PrimaryFileName: System.String, SecondaryFileName: System.String)
+### Project.CombineTextFiles(PrimaryFileName: [str](https://docs.python.org/3/library/stdtypes.html#str), SecondaryFileName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Combines two text(.txt / .dmig / .inp / .dat) files. The secondary file will be appened to the primary file
 
@@ -342,7 +342,7 @@ Copies all visible properties from this object to another.
 
 <a id="Project.CreateParameter"></a>
 
-### Project.CreateParameter(propName: System.String)
+### Project.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -358,7 +358,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Project.GetChildren"></a>
 
-### Project.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Project.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -366,7 +366,7 @@ Gets the list of children, filtered by type.
 
 <a id="Project.GetParameter"></a>
 
-### Project.GetParameter(propName: System.String)
+### Project.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -398,7 +398,7 @@ For Mechanical opened independently, without Workbench. Start a new Mechanical p
 
 <a id="Project.Open"></a>
 
-### Project.Open(filePath: System.String)
+### Project.Open(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 For Mechanical opened independently, without Workbench. Open an existing Mechanical project.
 
@@ -406,7 +406,7 @@ For Mechanical opened independently, without Workbench. Open an existing Mechani
 
 <a id="Project.PropertyByAPIName"></a>
 
-### Project.PropertyByAPIName(name: System.String)
+### Project.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -417,7 +417,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Project.PropertyByName"></a>
 
-### Project.PropertyByName(name: System.String)
+### Project.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -425,7 +425,7 @@ Get a property by its unique name.
 
 <a id="Project.RemoveParameter"></a>
 
-### Project.RemoveParameter(propName: System.String)
+### Project.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -441,7 +441,7 @@ For Mechanical opened independently, without Workbench. Save current Mechanical 
 
 <a id="Project.SaveAs"></a>
 
-### Project.SaveAs(filePath: System.String, overwrite: System.Boolean)
+### Project.SaveAs(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), overwrite: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 For Mechanical opened independently, without Workbench. Save current Mechanical project to given filePath.
 
@@ -465,7 +465,7 @@ Specify the use of Kelvin thermal units for metric unit systems.
 
 <a id="Project.Unarchive"></a>
 
-### Project.Unarchive(archivePath: System.String, projectPath: System.String, overwrite: System.Boolean)
+### Project.Unarchive(archivePath: [str](https://docs.python.org/3/library/stdtypes.html#str), projectPath: [str](https://docs.python.org/3/library/stdtypes.html#str), overwrite: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 ```text
 For Mechanical opened independently, without Workbench. Unarchive a Mechanical project and open it.

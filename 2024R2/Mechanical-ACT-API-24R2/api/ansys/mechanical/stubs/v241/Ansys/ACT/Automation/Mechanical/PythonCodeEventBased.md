@@ -54,7 +54,7 @@ Defines a PythonCodeEventBased.
 
 <a id="PythonCodeEventBased.Connected"></a>
 
-### *property* PythonCodeEventBased.Connected *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.Connected *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets whether the callbacks are currently connected.
 
@@ -62,7 +62,7 @@ Gets whether the callbacks are currently connected.
 
 <a id="PythonCodeEventBased.DataModelObjectCategory"></a>
 
-### *property* PythonCodeEventBased.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -78,7 +78,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PythonCodeEventBased.Properties"></a>
 
-### *property* PythonCodeEventBased.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -94,7 +94,7 @@ Gets or sets the propperty provider instance associated with this python code ob
 
 <a id="PythonCodeEventBased.ScriptExecutionScope"></a>
 
-### *property* PythonCodeEventBased.ScriptExecutionScope *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.ScriptExecutionScope *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The scope identifier in which the code execution will take place.
 
@@ -102,7 +102,7 @@ The scope identifier in which the code execution will take place.
 
 <a id="PythonCodeEventBased.SolverTarget"></a>
 
-### *property* PythonCodeEventBased.SolverTarget *: [Ansys.Mechanical.DataModel.Enums.CommandEditorTarget](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CommandEditorTarget.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CommandEditorTarget) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.SolverTarget *: [Ansys.Mechanical.DataModel.Enums.CommandEditorTarget](../../../Mechanical/DataModel/Enums/CommandEditorTarget.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CommandEditorTarget) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverTarget.
 
@@ -110,7 +110,7 @@ Gets the SolverTarget.
 
 <a id="PythonCodeEventBased.Suppressed"></a>
 
-### *property* PythonCodeEventBased.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -118,7 +118,7 @@ Gets or sets the Suppressed.
 
 <a id="PythonCodeEventBased.TargetCallback"></a>
 
-### *property* PythonCodeEventBased.TargetCallback *: [Ansys.Mechanical.DataModel.Enums.PythonCodeTargetCallback](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PythonCodeTargetCallback) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.TargetCallback *: [Ansys.Mechanical.DataModel.Enums.PythonCodeTargetCallback](../../../Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PythonCodeTargetCallback) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TargetCallback.
 
@@ -126,7 +126,7 @@ Gets or sets the TargetCallback.
 
 <a id="PythonCodeEventBased.Text"></a>
 
-### *property* PythonCodeEventBased.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.Text *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the text in the script tab for the Python Code object.
 
@@ -134,7 +134,7 @@ Gets or sets the text in the script tab for the Python Code object.
 
 <a id="PythonCodeEventBased.VisibleProperties"></a>
 
-### *property* PythonCodeEventBased.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCodeEventBased.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -170,7 +170,7 @@ Copies all visible properties from this object to another.
 
 <a id="PythonCodeEventBased.CreateParameter"></a>
 
-### PythonCodeEventBased.CreateParameter(propName: System.String)
+### PythonCodeEventBased.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -194,7 +194,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PythonCodeEventBased.GetParameter"></a>
 
-### PythonCodeEventBased.GetParameter(propName: System.String)
+### PythonCodeEventBased.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -218,7 +218,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PythonCodeEventBased.PropertyByAPIName"></a>
 
-### PythonCodeEventBased.PropertyByAPIName(name: System.String)
+### PythonCodeEventBased.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -229,7 +229,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PythonCodeEventBased.PropertyByName"></a>
 
-### PythonCodeEventBased.PropertyByName(name: System.String)
+### PythonCodeEventBased.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -245,7 +245,7 @@ Reload properties to update properties provided by the provider.
 
 <a id="PythonCodeEventBased.RemoveParameter"></a>
 
-### PythonCodeEventBased.RemoveParameter(propName: System.String)
+### PythonCodeEventBased.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

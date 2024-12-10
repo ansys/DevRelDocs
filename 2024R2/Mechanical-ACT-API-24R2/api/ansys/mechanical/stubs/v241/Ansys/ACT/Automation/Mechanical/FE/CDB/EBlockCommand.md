@@ -17,7 +17,7 @@ Represents an EBLOCK command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------|-------------------------|
+|-----------------------------------------|-------------------------|
 | [`Elements`](#EBlockCommand.Elements)   | Gets the elements.      |
 | [`Index`](#EBlockCommand.Index)         | Gets the command index. |
 | [`Name`](#EBlockCommand.Name)           | Gets the command name.  |
@@ -28,7 +28,7 @@ Represents an EBLOCK command.
 
 <a id="EBlockCommand.Elements"></a>
 
-### *property* EBlockCommand.Elements *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElement](CommandElement.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElement)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EBlockCommand.Elements *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElement](CommandElement.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElement)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the elements.
 
@@ -36,7 +36,7 @@ Gets the elements.
 
 <a id="EBlockCommand.Index"></a>
 
-### *property* EBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EBlockCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -44,7 +44,7 @@ Gets the command index.
 
 <a id="EBlockCommand.Name"></a>
 
-### *property* EBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EBlockCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 

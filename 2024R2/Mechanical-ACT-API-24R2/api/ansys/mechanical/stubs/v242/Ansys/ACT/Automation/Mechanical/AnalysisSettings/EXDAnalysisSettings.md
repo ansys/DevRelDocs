@@ -202,7 +202,7 @@ Note: Cycles in the UI are referred to as TimeSteps in API
 
 <a id="EXDAnalysisSettings.ArtificialViscosityForShellsType"></a>
 
-### *property* EXDAnalysisSettings.ArtificialViscosityForShellsType *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ArtificialViscosityForShellsType *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ArtificialViscosityForShellsType.
 
@@ -210,7 +210,7 @@ Gets or sets the ArtificialViscosityForShellsType.
 
 <a id="EXDAnalysisSettings.AutomaticMassScalingType"></a>
 
-### *property* EXDAnalysisSettings.AutomaticMassScalingType *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.AutomaticMassScalingType *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  AutomaticMassScaling.
 
@@ -226,7 +226,7 @@ Gets or sets the  BeamSolutionType.
 
 <a id="EXDAnalysisSettings.BeamTimeStepSafetyFactor"></a>
 
-### *property* EXDAnalysisSettings.BeamTimeStepSafetyFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.BeamTimeStepSafetyFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  BeamTimeStepSafetyFactor.
 
@@ -242,7 +242,7 @@ Gets or sets the  CharZoneDimensionType.
 
 <a id="EXDAnalysisSettings.Children"></a>
 
-### *property* EXDAnalysisSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -250,7 +250,7 @@ Gets the list of children.
 
 <a id="EXDAnalysisSettings.Comments"></a>
 
-### *property* EXDAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -258,7 +258,7 @@ Gets the list of associated comments.
 
 <a id="EXDAnalysisSettings.CurrentStepNumber"></a>
 
-### *property* EXDAnalysisSettings.CurrentStepNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.CurrentStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CurrentStepNumber.
 
@@ -290,7 +290,7 @@ Gets or sets the  DetonationBurnType.
 
 <a id="EXDAnalysisSettings.ErosionGeomStrainLimit"></a>
 
-### *property* EXDAnalysisSettings.ErosionGeomStrainLimit *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ErosionGeomStrainLimit *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ErosionGeomStrainLimit
 
@@ -306,7 +306,7 @@ Gets or sets the ErosionMinElemTimestep
 
 <a id="EXDAnalysisSettings.ErosionOnGeomStrainType"></a>
 
-### *property* EXDAnalysisSettings.ErosionOnGeomStrainType *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ErosionOnGeomStrainType *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ErosionOnGeomStrainType.
 
@@ -314,7 +314,7 @@ Gets or sets the ErosionOnGeomStrainType.
 
 <a id="EXDAnalysisSettings.ErosionOnMaterialFailureType"></a>
 
-### *property* EXDAnalysisSettings.ErosionOnMaterialFailureType *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ErosionOnMaterialFailureType *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ErosionOnMaterialFailureType
 
@@ -322,7 +322,7 @@ Gets or sets the ErosionOnMaterialFailureType
 
 <a id="EXDAnalysisSettings.ErosionOnMinElemTimestepType"></a>
 
-### *property* EXDAnalysisSettings.ErosionOnMinElemTimestepType *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ErosionOnMinElemTimestepType *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ErosionOnMinElemTimestepType
 
@@ -330,7 +330,7 @@ Gets or sets the ErosionOnMinElemTimestepType
 
 <a id="EXDAnalysisSettings.ErosionRetainIntertiaType"></a>
 
-### *property* EXDAnalysisSettings.ErosionRetainIntertiaType *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ErosionRetainIntertiaType *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ErosionRetainIntertiaType
 
@@ -394,7 +394,7 @@ Gets or sets the  EulerCellSize.
 
 <a id="EXDAnalysisSettings.EulerDisplayBox"></a>
 
-### *property* EXDAnalysisSettings.EulerDisplayBox *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerDisplayBox *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerDisplayBox.
 
@@ -426,7 +426,7 @@ Gets or sets the  EulerGradeIncrement.
 
 <a id="EXDAnalysisSettings.EulerGradeNumberOfTimes"></a>
 
-### *property* EXDAnalysisSettings.EulerGradeNumberOfTimes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerGradeNumberOfTimes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerGradeNumberOfTimes.
 
@@ -442,7 +442,7 @@ Gets or sets the  EulerGradedDefinition.
 
 <a id="EXDAnalysisSettings.EulerPropertyDisplayBox"></a>
 
-### *property* EXDAnalysisSettings.EulerPropertyDisplayBox *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerPropertyDisplayBox *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerPropertyDisplayBox.
 
@@ -458,7 +458,7 @@ Gets or sets the  EulerPropertyXmin.
 
 <a id="EXDAnalysisSettings.EulerPropertyXres"></a>
 
-### *property* EXDAnalysisSettings.EulerPropertyXres *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerPropertyXres *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerPropertyXres.
 
@@ -482,7 +482,7 @@ Gets or sets the  EulerPropertyYmin.
 
 <a id="EXDAnalysisSettings.EulerPropertyYres"></a>
 
-### *property* EXDAnalysisSettings.EulerPropertyYres *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerPropertyYres *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerPropertyYres.
 
@@ -506,7 +506,7 @@ Gets or sets the  EulerPropertyZmin.
 
 <a id="EXDAnalysisSettings.EulerPropertyZres"></a>
 
-### *property* EXDAnalysisSettings.EulerPropertyZres *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerPropertyZres *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerPropertyZres.
 
@@ -538,7 +538,7 @@ Gets or sets the  EulerSizeDefType.
 
 <a id="EXDAnalysisSettings.EulerTotalCells"></a>
 
-### *property* EXDAnalysisSettings.EulerTotalCells *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerTotalCells *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerTotalCells.
 
@@ -570,7 +570,7 @@ Gets or sets the  EulerXOrigin.
 
 <a id="EXDAnalysisSettings.EulerXScaleFactor"></a>
 
-### *property* EXDAnalysisSettings.EulerXScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerXScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerXScaleFactor.
 
@@ -578,7 +578,7 @@ Gets or sets the  EulerXScaleFactor.
 
 <a id="EXDAnalysisSettings.EulerXZones"></a>
 
-### *property* EXDAnalysisSettings.EulerXZones *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerXZones *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerXZones.
 
@@ -602,7 +602,7 @@ Gets or sets the  EulerYOrigin.
 
 <a id="EXDAnalysisSettings.EulerYScaleFactor"></a>
 
-### *property* EXDAnalysisSettings.EulerYScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerYScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerYScaleFactor.
 
@@ -610,7 +610,7 @@ Gets or sets the  EulerYScaleFactor.
 
 <a id="EXDAnalysisSettings.EulerYZones"></a>
 
-### *property* EXDAnalysisSettings.EulerYZones *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerYZones *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerYZones.
 
@@ -634,7 +634,7 @@ Gets or sets the  EulerZOrigin.
 
 <a id="EXDAnalysisSettings.EulerZScaleFactor"></a>
 
-### *property* EXDAnalysisSettings.EulerZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerZScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerZScaleFactor.
 
@@ -642,7 +642,7 @@ Gets or sets the  EulerZScaleFactor.
 
 <a id="EXDAnalysisSettings.EulerZZones"></a>
 
-### *property* EXDAnalysisSettings.EulerZZones *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.EulerZZones *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  EulerZZones.
 
@@ -650,7 +650,7 @@ Gets or sets the  EulerZZones.
 
 <a id="EXDAnalysisSettings.Figures"></a>
 
-### *property* EXDAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -682,7 +682,7 @@ Gets or sets the HourglassDampingType.
 
 <a id="EXDAnalysisSettings.Images"></a>
 
-### *property* EXDAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -698,7 +698,7 @@ Gets or sets the InitialTimeStep.
 
 <a id="EXDAnalysisSettings.InternalObject"></a>
 
-### *property* EXDAnalysisSettings.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.InternalObject *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Internal Object. For advanced usage only.
 
@@ -706,7 +706,7 @@ Gets the Internal Object. For advanced usage only.
 
 <a id="EXDAnalysisSettings.LinearArtificialViscosity"></a>
 
-### *property* EXDAnalysisSettings.LinearArtificialViscosity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.LinearArtificialViscosity *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LinearArtificialViscosity.
 
@@ -714,7 +714,7 @@ Gets or sets the LinearArtificialViscosity.
 
 <a id="EXDAnalysisSettings.LinearViscosityExpansionType"></a>
 
-### *property* EXDAnalysisSettings.LinearViscosityExpansionType *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.LinearViscosityExpansionType *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LinearViscosityExpansionType.
 
@@ -722,7 +722,7 @@ Gets or sets the LinearViscosityExpansionType.
 
 <a id="EXDAnalysisSettings.LinearViscositySPH"></a>
 
-### *property* EXDAnalysisSettings.LinearViscositySPH *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.LinearViscositySPH *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Linear Artificial Viscosity for SPH.
 
@@ -730,7 +730,7 @@ Gets or sets the Linear Artificial Viscosity for SPH.
 
 <a id="EXDAnalysisSettings.MassScalingMaxElem"></a>
 
-### *property* EXDAnalysisSettings.MassScalingMaxElem *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.MassScalingMaxElem *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  MassScalingMaxElem.
 
@@ -738,7 +738,7 @@ Gets or sets the  MassScalingMaxElem.
 
 <a id="EXDAnalysisSettings.MassScalingMaxPart"></a>
 
-### *property* EXDAnalysisSettings.MassScalingMaxPart *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.MassScalingMaxPart *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  MassScalingMaxPart.
 
@@ -754,7 +754,7 @@ Gets or sets the  MassScalingMinTimeStep.
 
 <a id="EXDAnalysisSettings.MassScalingUpdateFreq"></a>
 
-### *property* EXDAnalysisSettings.MassScalingUpdateFreq *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.MassScalingUpdateFreq *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  MassScalingUpdateFreq.
 
@@ -762,7 +762,7 @@ Gets or sets the  MassScalingUpdateFreq.
 
 <a id="EXDAnalysisSettings.MaximumEnergyError"></a>
 
-### *property* EXDAnalysisSettings.MaximumEnergyError *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.MaximumEnergyError *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  MaximumEnergyError.
 
@@ -778,7 +778,7 @@ Gets or sets the MaximumTimeStep.
 
 <a id="EXDAnalysisSettings.MaximumTimeSteps"></a>
 
-### *property* EXDAnalysisSettings.MaximumTimeSteps *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.MaximumTimeSteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaximumNumberofCycles.
 
@@ -794,7 +794,7 @@ Gets or sets the  MaximumVelocity.
 
 <a id="EXDAnalysisSettings.MinimumStrainCutOff"></a>
 
-### *property* EXDAnalysisSettings.MinimumStrainCutOff *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.MinimumStrainCutOff *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  MinimumStrainCutOff.
 
@@ -818,7 +818,7 @@ Gets or sets the  MinimumVelocity.
 
 <a id="EXDAnalysisSettings.NumberOfSteps"></a>
 
-### *property* EXDAnalysisSettings.NumberOfSteps *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.NumberOfSteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSteps.
 
@@ -826,7 +826,7 @@ Gets or sets the NumberOfSteps.
 
 <a id="EXDAnalysisSettings.OutputContactForcesOnPoints"></a>
 
-### *property* EXDAnalysisSettings.OutputContactForcesOnPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.OutputContactForcesOnPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Points increment for OutputContactForcesOnPoints.
 
@@ -842,7 +842,7 @@ Gets or Sets the Time increment for OutputContactForcesOnTime.
 
 <a id="EXDAnalysisSettings.OutputContactForcesOnTimeSteps"></a>
 
-### *property* EXDAnalysisSettings.OutputContactForcesOnTimeSteps *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.OutputContactForcesOnTimeSteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Cycle increment for OutputContactForcesOnTimeSteps.
 
@@ -874,7 +874,7 @@ Gets or sets the PreferenceType
 
 <a id="EXDAnalysisSettings.Properties"></a>
 
-### *property* EXDAnalysisSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -882,7 +882,7 @@ Gets the list of properties for this object.
 
 <a id="EXDAnalysisSettings.PusoCoefficient"></a>
 
-### *property* EXDAnalysisSettings.PusoCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.PusoCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  PusoCoefficient.
 
@@ -890,7 +890,7 @@ Gets or sets the  PusoCoefficient.
 
 <a id="EXDAnalysisSettings.QuadraticArtificialViscosity"></a>
 
-### *property* EXDAnalysisSettings.QuadraticArtificialViscosity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.QuadraticArtificialViscosity *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the QuadraticArtificialViscosity.
 
@@ -898,7 +898,7 @@ Gets or sets the QuadraticArtificialViscosity.
 
 <a id="EXDAnalysisSettings.QuadratricViscositySPH"></a>
 
-### *property* EXDAnalysisSettings.QuadratricViscositySPH *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.QuadratricViscositySPH *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Quadratic Artificial Viscosity for SPH.
 
@@ -906,7 +906,7 @@ Gets or sets the Quadratic Artificial Viscosity for SPH.
 
 <a id="EXDAnalysisSettings.RadiusCutoff"></a>
 
-### *property* EXDAnalysisSettings.RadiusCutoff *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.RadiusCutoff *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  RadiusCutoff.
 
@@ -914,7 +914,7 @@ Gets or sets the  RadiusCutoff.
 
 <a id="EXDAnalysisSettings.ReferenceEnergyTimeStep"></a>
 
-### *property* EXDAnalysisSettings.ReferenceEnergyTimeStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ReferenceEnergyTimeStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceEnergyCycle.
 
@@ -922,7 +922,7 @@ Gets or sets the ReferenceEnergyCycle.
 
 <a id="EXDAnalysisSettings.ResumeFromTimeStep"></a>
 
-### *property* EXDAnalysisSettings.ResumeFromTimeStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ResumeFromTimeStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResumeFromCycle.
 
@@ -930,7 +930,7 @@ Gets or sets the ResumeFromCycle.
 
 <a id="EXDAnalysisSettings.SPHMaxDensityFactor"></a>
 
-### *property* EXDAnalysisSettings.SPHMaxDensityFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SPHMaxDensityFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  Maximum Density Factor for SPH.
 
@@ -938,7 +938,7 @@ Gets or sets the  Maximum Density Factor for SPH.
 
 <a id="EXDAnalysisSettings.SPHMinDensityFactor"></a>
 
-### *property* EXDAnalysisSettings.SPHMinDensityFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SPHMinDensityFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  Minimum Density Factor for SPH.
 
@@ -962,7 +962,7 @@ Gets or Sets the Time increment for SavePrintSummaryOnTime.
 
 <a id="EXDAnalysisSettings.SavePrintSummaryOnTimeSteps"></a>
 
-### *property* EXDAnalysisSettings.SavePrintSummaryOnTimeSteps *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SavePrintSummaryOnTimeSteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets Cycle increment for SavePrintSummaryOnTimeSteps.
 
@@ -986,7 +986,7 @@ Gets or Sets Time increment for SaveUserEditOnTime.
 
 <a id="EXDAnalysisSettings.SaveUserEditOnTimeSteps"></a>
 
-### *property* EXDAnalysisSettings.SaveUserEditOnTimeSteps *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SaveUserEditOnTimeSteps *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets Cycle increment for SaveUserEditOnTimeSteps.
 
@@ -1002,7 +1002,7 @@ Gets or Sets SaveUserEditOnType.
 
 <a id="EXDAnalysisSettings.ScratchSolverFilesDirectory"></a>
 
-### *property* EXDAnalysisSettings.ScratchSolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ScratchSolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScratchSolverFilesDirectory.
 
@@ -1018,7 +1018,7 @@ Gets or sets the  ShellInertiaUpdateType.
 
 <a id="EXDAnalysisSettings.ShellShearCorrectionFactor"></a>
 
-### *property* EXDAnalysisSettings.ShellShearCorrectionFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ShellShearCorrectionFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  ShellShearCorrectionFactor.
 
@@ -1026,7 +1026,7 @@ Gets or sets the  ShellShearCorrectionFactor.
 
 <a id="EXDAnalysisSettings.ShellSublayers"></a>
 
-### *property* EXDAnalysisSettings.ShellSublayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ShellSublayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  ShellSublayers.
 
@@ -1042,7 +1042,7 @@ Gets or sets the  ShellThicknessUpdateType.
 
 <a id="EXDAnalysisSettings.ShellWarpCorrection"></a>
 
-### *property* EXDAnalysisSettings.ShellWarpCorrection *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ShellWarpCorrection *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  ShellWarpCorrection.
 
@@ -1058,7 +1058,7 @@ Gets or sets the  SolveUnits.
 
 <a id="EXDAnalysisSettings.SolverFilesDirectory"></a>
 
-### *property* EXDAnalysisSettings.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.SolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverFilesDirectory.
 
@@ -1082,7 +1082,7 @@ Gets or sets the  Minimum Timestep for SPH.
 
 <a id="EXDAnalysisSettings.StepawareMassScalingType"></a>
 
-### *property* EXDAnalysisSettings.StepawareMassScalingType *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.StepawareMassScalingType *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Step aware Mass Scaling Controls.
 
@@ -1090,7 +1090,7 @@ Gets or Sets the Step aware Mass Scaling Controls.
 
 <a id="EXDAnalysisSettings.StepawareOutputControlsType"></a>
 
-### *property* EXDAnalysisSettings.StepawareOutputControlsType *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.StepawareOutputControlsType *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Step aware Output Controls.
 
@@ -1098,7 +1098,7 @@ Gets or Sets the Step aware Output Controls.
 
 <a id="EXDAnalysisSettings.StiffnessCoefficient"></a>
 
-### *property* EXDAnalysisSettings.StiffnessCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.StiffnessCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessCoefficient.
 
@@ -1114,7 +1114,7 @@ Gets or sets the  TetIntegrationType.
 
 <a id="EXDAnalysisSettings.TimeStepSafetyFactor"></a>
 
-### *property* EXDAnalysisSettings.TimeStepSafetyFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.TimeStepSafetyFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the  TimeStepSafetyFactor.
 
@@ -1122,7 +1122,7 @@ Gets or sets the  TimeStepSafetyFactor.
 
 <a id="EXDAnalysisSettings.ViscousCoefficient"></a>
 
-### *property* EXDAnalysisSettings.ViscousCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ViscousCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ViscousCoefficient.
 
@@ -1130,7 +1130,7 @@ Gets or sets the ViscousCoefficient.
 
 <a id="EXDAnalysisSettings.ViscousCoefficientFB"></a>
 
-### *property* EXDAnalysisSettings.ViscousCoefficientFB *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.ViscousCoefficientFB *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ViscousCoefficientFB.
 
@@ -1138,7 +1138,7 @@ Gets or sets the ViscousCoefficientFB.
 
 <a id="EXDAnalysisSettings.VisibleProperties"></a>
 
-### *property* EXDAnalysisSettings.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EXDAnalysisSettings.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -1174,7 +1174,7 @@ Creates a new child Figure.
 
 <a id="EXDAnalysisSettings.AddImage"></a>
 
-### EXDAnalysisSettings.AddImage(filePath: System.String)
+### EXDAnalysisSettings.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -1194,7 +1194,7 @@ Copies all visible properties from this object to another.
 
 <a id="EXDAnalysisSettings.CreateParameter"></a>
 
-### EXDAnalysisSettings.CreateParameter(propName: System.String)
+### EXDAnalysisSettings.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -1218,7 +1218,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="EXDAnalysisSettings.GetAutomaticMassScalingType"></a>
 
-### EXDAnalysisSettings.GetAutomaticMassScalingType(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetAutomaticMassScalingType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the  AutomaticMassScalingType for a load step.
 
@@ -1226,7 +1226,7 @@ Gets the  AutomaticMassScalingType for a load step.
 
 <a id="EXDAnalysisSettings.GetChildren"></a>
 
-### EXDAnalysisSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EXDAnalysisSettings.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1234,7 +1234,7 @@ Gets the list of children, filtered by type.
 
 <a id="EXDAnalysisSettings.GetLoadStepType"></a>
 
-### EXDAnalysisSettings.GetLoadStepType(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetLoadStepType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the  LoadStepType for a step.
 
@@ -1242,7 +1242,7 @@ Gets the  LoadStepType for a step.
 
 <a id="EXDAnalysisSettings.GetMassScalingMinTimeStep"></a>
 
-### EXDAnalysisSettings.GetMassScalingMinTimeStep(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetMassScalingMinTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the  MassScalingMinTimeStep for a load step.
 
@@ -1250,7 +1250,7 @@ Gets the  MassScalingMinTimeStep for a load step.
 
 <a id="EXDAnalysisSettings.GetParameter"></a>
 
-### EXDAnalysisSettings.GetParameter(propName: System.String)
+### EXDAnalysisSettings.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1258,7 +1258,7 @@ Gets the parameter corresponding to the given property.
 
 <a id="EXDAnalysisSettings.GetSaveProbeDataOnTime"></a>
 
-### EXDAnalysisSettings.GetSaveProbeDataOnTime(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveProbeDataOnTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Time increment for Save ProbeData On for a load step.
 
@@ -1266,7 +1266,7 @@ Gets the Time increment for Save ProbeData On for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveProbeDataOnTimeSteps"></a>
 
-### EXDAnalysisSettings.GetSaveProbeDataOnTimeSteps(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveProbeDataOnTimeSteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Cycle increment for Save ProbeData On for a load step.
 
@@ -1274,7 +1274,7 @@ Gets the Cycle increment for Save ProbeData On for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveProbeDataOnType"></a>
 
-### EXDAnalysisSettings.GetSaveProbeDataOnType(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveProbeDataOnType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the  Save ProbeData Type for a load step.
 
@@ -1282,7 +1282,7 @@ Gets the  Save ProbeData Type for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveRestartsOnPoints"></a>
 
-### EXDAnalysisSettings.GetSaveRestartsOnPoints(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveRestartsOnPoints(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Points increment for Save Restarts On Points for a load step.
 
@@ -1290,7 +1290,7 @@ Gets the Points increment for Save Restarts On Points for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveRestartsOnTime"></a>
 
-### EXDAnalysisSettings.GetSaveRestartsOnTime(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveRestartsOnTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Time increment for Save Restarts On for a load step.
 
@@ -1298,7 +1298,7 @@ Gets the Time increment for Save Restarts On for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveRestartsOnTimeSteps"></a>
 
-### EXDAnalysisSettings.GetSaveRestartsOnTimeSteps(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveRestartsOnTimeSteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Cycle increment for Save Restarts On for a load step.
 
@@ -1306,7 +1306,7 @@ Gets the Cycle increment for Save Restarts On for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveRestartsOnType"></a>
 
-### EXDAnalysisSettings.GetSaveRestartsOnType(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveRestartsOnType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the  Save Restarts Type for a load step.
 
@@ -1314,7 +1314,7 @@ Gets the  Save Restarts Type for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveResultsOnPoints"></a>
 
-### EXDAnalysisSettings.GetSaveResultsOnPoints(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveResultsOnPoints(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Points increment for Save Results On for a load step.
 
@@ -1322,7 +1322,7 @@ Gets the Points increment for Save Results On for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveResultsOnTime"></a>
 
-### EXDAnalysisSettings.GetSaveResultsOnTime(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveResultsOnTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Time increment for Save Results On for a load step.
 
@@ -1330,7 +1330,7 @@ Gets the Time increment for Save Results On for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveResultsOnTimeSteps"></a>
 
-### EXDAnalysisSettings.GetSaveResultsOnTimeSteps(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveResultsOnTimeSteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Cycle increment for Save Results On for a load step.
 
@@ -1338,7 +1338,7 @@ Gets the Cycle increment for Save Results On for a load step.
 
 <a id="EXDAnalysisSettings.GetSaveResultsOnType"></a>
 
-### EXDAnalysisSettings.GetSaveResultsOnType(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetSaveResultsOnType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the  Save Results Type for a load step.
 
@@ -1346,7 +1346,7 @@ Gets the  Save Results Type for a load step.
 
 <a id="EXDAnalysisSettings.GetStaticDamping"></a>
 
-### EXDAnalysisSettings.GetStaticDamping(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetStaticDamping(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the StaticDamping.
 
@@ -1354,7 +1354,7 @@ Gets the StaticDamping.
 
 <a id="EXDAnalysisSettings.GetStepEndTime"></a>
 
-### EXDAnalysisSettings.GetStepEndTime(stepNumber: System.Int32)
+### EXDAnalysisSettings.GetStepEndTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Step End Time at a given solution step.
 
@@ -1378,7 +1378,7 @@ Run the GroupSimilarObjects action.
 
 <a id="EXDAnalysisSettings.PropertyByAPIName"></a>
 
-### EXDAnalysisSettings.PropertyByAPIName(name: System.String)
+### EXDAnalysisSettings.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1389,7 +1389,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EXDAnalysisSettings.PropertyByName"></a>
 
-### EXDAnalysisSettings.PropertyByName(name: System.String)
+### EXDAnalysisSettings.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1397,7 +1397,7 @@ Get a property by its unique name.
 
 <a id="EXDAnalysisSettings.RemoveParameter"></a>
 
-### EXDAnalysisSettings.RemoveParameter(propName: System.String)
+### EXDAnalysisSettings.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -1405,7 +1405,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="EXDAnalysisSettings.SetAutomaticMassScalingType"></a>
 
-### EXDAnalysisSettings.SetAutomaticMassScalingType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDAutomaticMassScalingType](../../../../Mechanical/DataModel/Enums/EXDAutomaticMassScalingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDAutomaticMassScalingType))
+### EXDAnalysisSettings.SetAutomaticMassScalingType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.EXDAutomaticMassScalingType](../../../../Mechanical/DataModel/Enums/EXDAutomaticMassScalingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDAutomaticMassScalingType))
 
 Sets the  AutomaticMassScalingType for a load step.
 
@@ -1413,7 +1413,7 @@ Sets the  AutomaticMassScalingType for a load step.
 
 <a id="EXDAnalysisSettings.SetLoadStepType"></a>
 
-### EXDAnalysisSettings.SetLoadStepType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDLoadStepType](../../../../Mechanical/DataModel/Enums/EXDLoadStepType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDLoadStepType))
+### EXDAnalysisSettings.SetLoadStepType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.EXDLoadStepType](../../../../Mechanical/DataModel/Enums/EXDLoadStepType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDLoadStepType))
 
 Sets the LoadStepType for a step.
 
@@ -1421,7 +1421,7 @@ Sets the LoadStepType for a step.
 
 <a id="EXDAnalysisSettings.SetMassScalingMinTimeStep"></a>
 
-### EXDAnalysisSettings.SetMassScalingMinTimeStep(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### EXDAnalysisSettings.SetMassScalingMinTimeStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the  MassScalingMinTimeStep for a load step.
 
@@ -1429,7 +1429,7 @@ Sets the  MassScalingMinTimeStep for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveProbeDataOnTime"></a>
 
-### EXDAnalysisSettings.SetSaveProbeDataOnTime(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### EXDAnalysisSettings.SetSaveProbeDataOnTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Set the Time increment for Save ProbeData On for a load step.
 
@@ -1437,7 +1437,7 @@ Set the Time increment for Save ProbeData On for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveProbeDataOnTimeSteps"></a>
 
-### EXDAnalysisSettings.SetSaveProbeDataOnTimeSteps(stepNumber: System.Int32, value: System.Int32)
+### EXDAnalysisSettings.SetSaveProbeDataOnTimeSteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Set the Cycle increment for Save ProbeData On for a load step.
 
@@ -1445,7 +1445,7 @@ Set the Cycle increment for Save ProbeData On for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveProbeDataOnType"></a>
 
-### EXDAnalysisSettings.SetSaveProbeDataOnType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDSaveProbeDataOnType](../../../../Mechanical/DataModel/Enums/EXDSaveProbeDataOnType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSaveProbeDataOnType))
+### EXDAnalysisSettings.SetSaveProbeDataOnType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.EXDSaveProbeDataOnType](../../../../Mechanical/DataModel/Enums/EXDSaveProbeDataOnType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSaveProbeDataOnType))
 
 Sets the  Save ProbeData Type for a load step.
 
@@ -1453,7 +1453,7 @@ Sets the  Save ProbeData Type for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveRestartsOnPoints"></a>
 
-### EXDAnalysisSettings.SetSaveRestartsOnPoints(stepNumber: System.Int32, value: System.Int32)
+### EXDAnalysisSettings.SetSaveRestartsOnPoints(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Set the Points increment for Save Restarts On for a load step.
 
@@ -1461,7 +1461,7 @@ Set the Points increment for Save Restarts On for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveRestartsOnTime"></a>
 
-### EXDAnalysisSettings.SetSaveRestartsOnTime(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### EXDAnalysisSettings.SetSaveRestartsOnTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Set the Time increment for Save Restarts On for a load step.
 
@@ -1469,7 +1469,7 @@ Set the Time increment for Save Restarts On for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveRestartsOnTimeSteps"></a>
 
-### EXDAnalysisSettings.SetSaveRestartsOnTimeSteps(stepNumber: System.Int32, value: System.Int32)
+### EXDAnalysisSettings.SetSaveRestartsOnTimeSteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Set the Cycle increment for Save Restarts On for a load step.
 
@@ -1477,7 +1477,7 @@ Set the Cycle increment for Save Restarts On for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveRestartsOnType"></a>
 
-### EXDAnalysisSettings.SetSaveRestartsOnType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDSaveRestartsOnType](../../../../Mechanical/DataModel/Enums/EXDSaveRestartsOnType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSaveRestartsOnType))
+### EXDAnalysisSettings.SetSaveRestartsOnType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.EXDSaveRestartsOnType](../../../../Mechanical/DataModel/Enums/EXDSaveRestartsOnType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSaveRestartsOnType))
 
 Sets the  Save Restarts Type for a load step.
 
@@ -1485,7 +1485,7 @@ Sets the  Save Restarts Type for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveResultsOnPoints"></a>
 
-### EXDAnalysisSettings.SetSaveResultsOnPoints(stepNumber: System.Int32, value: System.Int32)
+### EXDAnalysisSettings.SetSaveResultsOnPoints(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Set the Points increment for Save Results On for a load step.
 
@@ -1493,7 +1493,7 @@ Set the Points increment for Save Results On for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveResultsOnTime"></a>
 
-### EXDAnalysisSettings.SetSaveResultsOnTime(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### EXDAnalysisSettings.SetSaveResultsOnTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Set the Time increment for Save Results On for a load step.
 
@@ -1501,7 +1501,7 @@ Set the Time increment for Save Results On for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveResultsOnTimeSteps"></a>
 
-### EXDAnalysisSettings.SetSaveResultsOnTimeSteps(stepNumber: System.Int32, value: System.Int32)
+### EXDAnalysisSettings.SetSaveResultsOnTimeSteps(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the Cycle increment for Save Results On for a load step.
 
@@ -1509,7 +1509,7 @@ Sets the Cycle increment for Save Results On for a load step.
 
 <a id="EXDAnalysisSettings.SetSaveResultsOnType"></a>
 
-### EXDAnalysisSettings.SetSaveResultsOnType(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDSaveResultsOnType](../../../../Mechanical/DataModel/Enums/EXDSaveResultsOnType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSaveResultsOnType))
+### EXDAnalysisSettings.SetSaveResultsOnType(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.EXDSaveResultsOnType](../../../../Mechanical/DataModel/Enums/EXDSaveResultsOnType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSaveResultsOnType))
 
 Sets the  Save Results Type for a load step.
 
@@ -1517,7 +1517,7 @@ Sets the  Save Results Type for a load step.
 
 <a id="EXDAnalysisSettings.SetStaticDamping"></a>
 
-### EXDAnalysisSettings.SetStaticDamping(stepNumber: System.Int32, value: System.Double)
+### EXDAnalysisSettings.SetStaticDamping(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the StaticDamping.
 
@@ -1525,7 +1525,7 @@ Sets the StaticDamping.
 
 <a id="EXDAnalysisSettings.SetStepEndTime"></a>
 
-### EXDAnalysisSettings.SetStepEndTime(stepNumber: System.Int32, value: Ansys.Core.Units.Quantity)
+### EXDAnalysisSettings.SetStepEndTime(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Core.Units.Quantity)
 
 Sets the Step End Time for a given solution step.
 
@@ -1533,7 +1533,7 @@ Sets the Step End Time for a given solution step.
 
 <a id="EXDAnalysisSettings.getADRConvergenceMethod"></a>
 
-### EXDAnalysisSettings.getADRConvergenceMethod(stepNumber: System.Int32)
+### EXDAnalysisSettings.getADRConvergenceMethod(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Covergence Method for ADR loadstep.
 
@@ -1541,7 +1541,7 @@ Gets the Covergence Method for ADR loadstep.
 
 <a id="EXDAnalysisSettings.getADRConvergenceTolerance"></a>
 
-### EXDAnalysisSettings.getADRConvergenceTolerance(stepNumber: System.Int32)
+### EXDAnalysisSettings.getADRConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Covergence Tolerance for ADR loadstep.
 
@@ -1549,7 +1549,7 @@ Gets the Covergence Tolerance for ADR loadstep.
 
 <a id="EXDAnalysisSettings.getADRMaximumIterations"></a>
 
-### EXDAnalysisSettings.getADRMaximumIterations(stepNumber: System.Int32)
+### EXDAnalysisSettings.getADRMaximumIterations(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Maximum Iterations for ADR loadstep.
 
@@ -1557,7 +1557,7 @@ Gets the Maximum Iterations for ADR loadstep.
 
 <a id="EXDAnalysisSettings.setADRConvergenceMethod"></a>
 
-### EXDAnalysisSettings.setADRConvergenceMethod(stepNumber: System.Int32, value: [Ansys.Mechanical.DataModel.Enums.EXDADRConvergenceMethod](../../../../Mechanical/DataModel/Enums/EXDADRConvergenceMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDADRConvergenceMethod))
+### EXDAnalysisSettings.setADRConvergenceMethod(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.Mechanical.DataModel.Enums.EXDADRConvergenceMethod](../../../../Mechanical/DataModel/Enums/EXDADRConvergenceMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDADRConvergenceMethod))
 
 Sets the Covergence Method for ADR loadstep.
 
@@ -1565,7 +1565,7 @@ Sets the Covergence Method for ADR loadstep.
 
 <a id="EXDAnalysisSettings.setADRConvergenceTolerance"></a>
 
-### EXDAnalysisSettings.setADRConvergenceTolerance(stepNumber: System.Int32, value: System.Double)
+### EXDAnalysisSettings.setADRConvergenceTolerance(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Covergence Tolerance for ADR loadstep.
 
@@ -1573,7 +1573,7 @@ Sets the Covergence Tolerance for ADR loadstep.
 
 <a id="EXDAnalysisSettings.setADRMaximumIterations"></a>
 
-### EXDAnalysisSettings.setADRMaximumIterations(stepNumber: System.Int32, value: System.Int32)
+### EXDAnalysisSettings.setADRMaximumIterations(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the Maximum Iterations for ADR loadstep.
 

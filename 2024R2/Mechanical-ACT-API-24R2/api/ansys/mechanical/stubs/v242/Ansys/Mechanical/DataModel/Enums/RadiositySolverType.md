@@ -17,7 +17,7 @@ Specifies the RadiositySolverType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------- |
 | [`Direct`](#RadiositySolverType.Direct) |
 | [`IterativeGaussSeidel`](#RadiositySolverType.IterativeGaussSeidel) |
 | [`IterativeJacobi`](#RadiositySolverType.IterativeJacobi) |

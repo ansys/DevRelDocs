@@ -17,7 +17,7 @@ Defines a BendingStressIntensity.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#BendingStressIntensity.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#BendingStressIntensity.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#BendingStressIntensity.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a BendingStressIntensity.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#BendingStressIntensity.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#BendingStressIntensity.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#BendingStressIntensity.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -128,7 +128,7 @@ Defines a BendingStressIntensity.
 | [`Subtype`](#BendingStressIntensity.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#BendingStressIntensity.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#BendingStressIntensity.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#BendingStressIntensity.SurfaceCoating)                                                                                                                                                | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#BendingStressIntensity.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#BendingStressIntensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#BendingStressIntensity.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#BendingStressIntensity.Time)                                                           | Gets the Time.                                                         |
@@ -140,7 +140,7 @@ Defines a BendingStressIntensity.
 | [`TotalInside`](#BendingStressIntensity.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#BendingStressIntensity.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#BendingStressIntensity.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#BendingStressIntensity.WaterfallShowTextOnMosaic)                                                                                                                          | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#BendingStressIntensity.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -148,7 +148,7 @@ Defines a BendingStressIntensity.
 
 <a id="BendingStressIntensity.Amplitude"></a>
 
-### *property* BendingStressIntensity.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -164,7 +164,7 @@ Gets the Average.
 
 <a id="BendingStressIntensity.AverageAcrossBodies"></a>
 
-### *property* BendingStressIntensity.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -204,7 +204,7 @@ Gets or sets the By.
 
 <a id="BendingStressIntensity.CalculateTimeHistory"></a>
 
-### *property* BendingStressIntensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -212,7 +212,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="BendingStressIntensity.Children"></a>
 
-### *property* BendingStressIntensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -220,7 +220,7 @@ Gets the list of children.
 
 <a id="BendingStressIntensity.CombinationNumber"></a>
 
-### *property* BendingStressIntensity.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -228,7 +228,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="BendingStressIntensity.Comments"></a>
 
-### *property* BendingStressIntensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -236,7 +236,7 @@ Gets the list of associated comments.
 
 <a id="BendingStressIntensity.CoordinateSystem"></a>
 
-### *property* BendingStressIntensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -246,7 +246,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="BendingStressIntensity.CrackFrontNumber"></a>
 
-### *property* BendingStressIntensity.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -254,7 +254,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="BendingStressIntensity.CyclicMode"></a>
 
-### *property* BendingStressIntensity.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -294,7 +294,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="BendingStressIntensity.EnvironmentSelection"></a>
 
-### *property* BendingStressIntensity.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -302,7 +302,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="BendingStressIntensity.Figures"></a>
 
-### *property* BendingStressIntensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -318,7 +318,7 @@ Gets or sets the Frequency.
 
 <a id="BendingStressIntensity.GlobalIDs"></a>
 
-### *property* BendingStressIntensity.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -334,7 +334,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="BendingStressIntensity.HarmonicIndex"></a>
 
-### *property* BendingStressIntensity.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -342,7 +342,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="BendingStressIntensity.Identifier"></a>
 
-### *property* BendingStressIntensity.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -350,7 +350,7 @@ Gets or sets the Identifier.
 
 <a id="BendingStressIntensity.Images"></a>
 
-### *property* BendingStressIntensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -366,7 +366,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="BendingStressIntensity.IsSolved"></a>
 
-### *property* BendingStressIntensity.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -382,7 +382,7 @@ Gets or sets the ItemType.
 
 <a id="BendingStressIntensity.IterationNumber"></a>
 
-### *property* BendingStressIntensity.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -390,7 +390,7 @@ Gets the IterationNumber.
 
 <a id="BendingStressIntensity.IterationStep"></a>
 
-### *property* BendingStressIntensity.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -398,7 +398,7 @@ Gets or sets the IterationStep.
 
 <a id="BendingStressIntensity.Layer"></a>
 
-### *property* BendingStressIntensity.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -414,7 +414,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="BendingStressIntensity.LoadMultiplier"></a>
 
-### *property* BendingStressIntensity.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -422,7 +422,7 @@ Gets the LoadMultiplier.
 
 <a id="BendingStressIntensity.LoadStep"></a>
 
-### *property* BendingStressIntensity.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -430,7 +430,7 @@ Gets the LoadStep.
 
 <a id="BendingStressIntensity.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* BendingStressIntensity.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -438,7 +438,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="BendingStressIntensity.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* BendingStressIntensity.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -446,7 +446,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="BendingStressIntensity.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* BendingStressIntensity.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -454,7 +454,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="BendingStressIntensity.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* BendingStressIntensity.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -462,7 +462,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="BendingStressIntensity.LoadStepNumber"></a>
 
-### *property* BendingStressIntensity.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -486,7 +486,7 @@ Gets the Maximum.
 
 <a id="BendingStressIntensity.MaximumOccursOn"></a>
 
-### *property* BendingStressIntensity.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -550,7 +550,7 @@ Gets the Minimum.
 
 <a id="BendingStressIntensity.MinimumOccursOn"></a>
 
-### *property* BendingStressIntensity.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -574,7 +574,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="BendingStressIntensity.Mode"></a>
 
-### *property* BendingStressIntensity.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -582,7 +582,7 @@ Gets or sets the Mode.
 
 <a id="BendingStressIntensity.NamedSelections"></a>
 
-### *property* BendingStressIntensity.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -638,7 +638,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="BendingStressIntensity.Plies"></a>
 
-### *property* BendingStressIntensity.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -654,7 +654,7 @@ Gets the result table.
 
 <a id="BendingStressIntensity.Ply"></a>
 
-### *property* BendingStressIntensity.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -670,7 +670,7 @@ Gets or sets the Position.
 
 <a id="BendingStressIntensity.Probability"></a>
 
-### *property* BendingStressIntensity.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -678,7 +678,7 @@ Gets the Probability.
 
 <a id="BendingStressIntensity.Properties"></a>
 
-### *property* BendingStressIntensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -710,7 +710,7 @@ Gets or sets the ScopingMethod.
 
 <a id="BendingStressIntensity.SetNumber"></a>
 
-### *property* BendingStressIntensity.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -726,7 +726,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="BendingStressIntensity.SolverComponentIDs"></a>
 
-### *property* BendingStressIntensity.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -750,7 +750,7 @@ Gets or sets the SubScopeBy.
 
 <a id="BendingStressIntensity.Substep"></a>
 
-### *property* BendingStressIntensity.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -766,7 +766,7 @@ Gets or sets the Subtype.
 
 <a id="BendingStressIntensity.Suppressed"></a>
 
-### *property* BendingStressIntensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -870,7 +870,7 @@ Gets the TotalOutside.
 
 <a id="BendingStressIntensity.VisibleProperties"></a>
 
-### *property* BendingStressIntensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -878,7 +878,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="BendingStressIntensity.WaterfallShowTextOnMosaic"></a>
 
-### *property* BendingStressIntensity.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BendingStressIntensity.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -930,7 +930,7 @@ Creates a new child Figure.
 
 <a id="BendingStressIntensity.AddImage"></a>
 
-### BendingStressIntensity.AddImage(filePath: System.String)
+### BendingStressIntensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -958,7 +958,7 @@ Copies all visible properties from this object to another.
 
 <a id="BendingStressIntensity.CreateParameter"></a>
 
-### BendingStressIntensity.CreateParameter(propName: System.String)
+### BendingStressIntensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -1006,7 +1006,7 @@ Run the EvaluateAllResults action.
 
 <a id="BendingStressIntensity.ExportAnimation"></a>
 
-### BendingStressIntensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### BendingStressIntensity.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1014,7 +1014,7 @@ Run the ExportAnimation action.
 
 <a id="BendingStressIntensity.ExportToTextFile"></a>
 
-### BendingStressIntensity.ExportToTextFile(filePath: System.String)
+### BendingStressIntensity.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1030,7 +1030,7 @@ Run the FetchRemoteResult action.
 
 <a id="BendingStressIntensity.GetChildren"></a>
 
-### BendingStressIntensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### BendingStressIntensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1038,7 +1038,7 @@ Gets the list of children, filtered by type.
 
 <a id="BendingStressIntensity.GetParameter"></a>
 
-### BendingStressIntensity.GetParameter(propName: System.String)
+### BendingStressIntensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1070,7 +1070,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="BendingStressIntensity.PropertyByAPIName"></a>
 
-### BendingStressIntensity.PropertyByAPIName(name: System.String)
+### BendingStressIntensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1081,7 +1081,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="BendingStressIntensity.PropertyByName"></a>
 
-### BendingStressIntensity.PropertyByName(name: System.String)
+### BendingStressIntensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1089,7 +1089,7 @@ Get a property by its unique name.
 
 <a id="BendingStressIntensity.RemoveParameter"></a>
 
-### BendingStressIntensity.RemoveParameter(propName: System.String)
+### BendingStressIntensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

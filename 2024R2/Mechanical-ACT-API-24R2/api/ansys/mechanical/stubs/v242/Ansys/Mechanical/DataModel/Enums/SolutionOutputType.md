@@ -17,7 +17,7 @@ Specifies the SolutionOutputType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`CSGConvergence`](#SolutionOutputType.CSGConvergence) |
 | [`ChargeConvergence`](#SolutionOutputType.ChargeConvergence) |
 | [`ContactOutput`](#SolutionOutputType.ContactOutput) |

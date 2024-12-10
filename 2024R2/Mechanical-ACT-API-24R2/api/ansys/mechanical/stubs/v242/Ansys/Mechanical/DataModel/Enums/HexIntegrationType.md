@@ -17,7 +17,7 @@ Specifies the HexIntegrationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`Exact`](#HexIntegrationType.Exact) |
 | [`OnePtGauss`](#HexIntegrationType.OnePtGauss) |
 

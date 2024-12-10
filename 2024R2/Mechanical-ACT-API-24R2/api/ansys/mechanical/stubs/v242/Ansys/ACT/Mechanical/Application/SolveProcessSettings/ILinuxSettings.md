@@ -17,7 +17,7 @@ ILinuxSettings interface.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
 | [`Active`](#ILinuxSettings.Active)               | Gets or sets whether or not manual linux settings are enable for the configuration.   |
 | [`UserName`](#ILinuxSettings.UserName)           | Gets or sets the user name field for the manual linux settings.                       |
 | [`WorkingFolder`](#ILinuxSettings.WorkingFolder) | Gets or sets the working folder field for the manual linxus settings.                 |
@@ -28,7 +28,7 @@ ILinuxSettings interface.
 
 <a id="ILinuxSettings.Active"></a>
 
-### *property* ILinuxSettings.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ILinuxSettings.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether or not manual linux settings are enable for the configuration.
 
@@ -36,7 +36,7 @@ Gets or sets whether or not manual linux settings are enable for the configurati
 
 <a id="ILinuxSettings.UserName"></a>
 
-### *property* ILinuxSettings.UserName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ILinuxSettings.UserName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the user name field for the manual linux settings.
 
@@ -44,7 +44,7 @@ Gets or sets the user name field for the manual linux settings.
 
 <a id="ILinuxSettings.WorkingFolder"></a>
 
-### *property* ILinuxSettings.WorkingFolder *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ILinuxSettings.WorkingFolder *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the working folder field for the manual linxus settings.
 

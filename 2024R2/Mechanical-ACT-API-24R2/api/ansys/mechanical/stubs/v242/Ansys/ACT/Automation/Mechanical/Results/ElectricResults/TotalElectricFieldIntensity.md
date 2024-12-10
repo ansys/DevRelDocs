@@ -17,7 +17,7 @@ Defines a TotalElectricFieldIntensity.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TotalElectricFieldIntensity.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#TotalElectricFieldIntensity.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#TotalElectricFieldIntensity.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a TotalElectricFieldIntensity.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#TotalElectricFieldIntensity.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#TotalElectricFieldIntensity.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#TotalElectricFieldIntensity.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -102,7 +102,7 @@ Defines a TotalElectricFieldIntensity.
 | [`Substep`](#TotalElectricFieldIntensity.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#TotalElectricFieldIntensity.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#TotalElectricFieldIntensity.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#TotalElectricFieldIntensity.SurfaceCoating)                                                                                                                                                       | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#TotalElectricFieldIntensity.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#TotalElectricFieldIntensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#TotalElectricFieldIntensity.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#TotalElectricFieldIntensity.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -110,7 +110,7 @@ Defines a TotalElectricFieldIntensity.
 | [`TimeForMinimumOfMaximumValues`](#TotalElectricFieldIntensity.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#TotalElectricFieldIntensity.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#TotalElectricFieldIntensity.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#TotalElectricFieldIntensity.WaterfallShowTextOnMosaic)                                                                                                                                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#TotalElectricFieldIntensity.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -118,7 +118,7 @@ Defines a TotalElectricFieldIntensity.
 
 <a id="TotalElectricFieldIntensity.Amplitude"></a>
 
-### *property* TotalElectricFieldIntensity.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -134,7 +134,7 @@ Gets the Average.
 
 <a id="TotalElectricFieldIntensity.AverageAcrossBodies"></a>
 
-### *property* TotalElectricFieldIntensity.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -150,7 +150,7 @@ Gets or sets the By.
 
 <a id="TotalElectricFieldIntensity.CalculateTimeHistory"></a>
 
-### *property* TotalElectricFieldIntensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -158,7 +158,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="TotalElectricFieldIntensity.Children"></a>
 
-### *property* TotalElectricFieldIntensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -166,7 +166,7 @@ Gets the list of children.
 
 <a id="TotalElectricFieldIntensity.CombinationNumber"></a>
 
-### *property* TotalElectricFieldIntensity.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -174,7 +174,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="TotalElectricFieldIntensity.Comments"></a>
 
-### *property* TotalElectricFieldIntensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -182,7 +182,7 @@ Gets the list of associated comments.
 
 <a id="TotalElectricFieldIntensity.CoordinateSystem"></a>
 
-### *property* TotalElectricFieldIntensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -192,7 +192,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="TotalElectricFieldIntensity.CrackFrontNumber"></a>
 
-### *property* TotalElectricFieldIntensity.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -240,7 +240,7 @@ Gets or sets the ElectricResultType.
 
 <a id="TotalElectricFieldIntensity.Figures"></a>
 
-### *property* TotalElectricFieldIntensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -256,7 +256,7 @@ Gets or sets the Frequency.
 
 <a id="TotalElectricFieldIntensity.GlobalIDs"></a>
 
-### *property* TotalElectricFieldIntensity.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -272,7 +272,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="TotalElectricFieldIntensity.Identifier"></a>
 
-### *property* TotalElectricFieldIntensity.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -280,7 +280,7 @@ Gets or sets the Identifier.
 
 <a id="TotalElectricFieldIntensity.Images"></a>
 
-### *property* TotalElectricFieldIntensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -296,7 +296,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TotalElectricFieldIntensity.IsSolved"></a>
 
-### *property* TotalElectricFieldIntensity.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -312,7 +312,7 @@ Gets or sets the ItemType.
 
 <a id="TotalElectricFieldIntensity.IterationNumber"></a>
 
-### *property* TotalElectricFieldIntensity.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -320,7 +320,7 @@ Gets the IterationNumber.
 
 <a id="TotalElectricFieldIntensity.LoadStep"></a>
 
-### *property* TotalElectricFieldIntensity.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -328,7 +328,7 @@ Gets the LoadStep.
 
 <a id="TotalElectricFieldIntensity.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* TotalElectricFieldIntensity.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -336,7 +336,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="TotalElectricFieldIntensity.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* TotalElectricFieldIntensity.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -344,7 +344,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="TotalElectricFieldIntensity.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* TotalElectricFieldIntensity.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -352,7 +352,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="TotalElectricFieldIntensity.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* TotalElectricFieldIntensity.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -360,7 +360,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="TotalElectricFieldIntensity.LoadStepNumber"></a>
 
-### *property* TotalElectricFieldIntensity.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -384,7 +384,7 @@ Gets the Maximum.
 
 <a id="TotalElectricFieldIntensity.MaximumOccursOn"></a>
 
-### *property* TotalElectricFieldIntensity.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -416,7 +416,7 @@ Gets the Minimum.
 
 <a id="TotalElectricFieldIntensity.MinimumOccursOn"></a>
 
-### *property* TotalElectricFieldIntensity.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -440,7 +440,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="TotalElectricFieldIntensity.NamedSelections"></a>
 
-### *property* TotalElectricFieldIntensity.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -472,7 +472,7 @@ Gets the result table.
 
 <a id="TotalElectricFieldIntensity.Properties"></a>
 
-### *property* TotalElectricFieldIntensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -496,7 +496,7 @@ Gets or sets the ScopingMethod.
 
 <a id="TotalElectricFieldIntensity.SetNumber"></a>
 
-### *property* TotalElectricFieldIntensity.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -512,7 +512,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="TotalElectricFieldIntensity.SolverComponentIDs"></a>
 
-### *property* TotalElectricFieldIntensity.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -520,7 +520,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="TotalElectricFieldIntensity.Substep"></a>
 
-### *property* TotalElectricFieldIntensity.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -528,7 +528,7 @@ Gets the Substep.
 
 <a id="TotalElectricFieldIntensity.Suppressed"></a>
 
-### *property* TotalElectricFieldIntensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -600,7 +600,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="TotalElectricFieldIntensity.VisibleProperties"></a>
 
-### *property* TotalElectricFieldIntensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -608,7 +608,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="TotalElectricFieldIntensity.WaterfallShowTextOnMosaic"></a>
 
-### *property* TotalElectricFieldIntensity.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalElectricFieldIntensity.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -660,7 +660,7 @@ Creates a new child Figure.
 
 <a id="TotalElectricFieldIntensity.AddImage"></a>
 
-### TotalElectricFieldIntensity.AddImage(filePath: System.String)
+### TotalElectricFieldIntensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -688,7 +688,7 @@ Copies all visible properties from this object to another.
 
 <a id="TotalElectricFieldIntensity.CreateParameter"></a>
 
-### TotalElectricFieldIntensity.CreateParameter(propName: System.String)
+### TotalElectricFieldIntensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -736,7 +736,7 @@ Run the EvaluateAllResults action.
 
 <a id="TotalElectricFieldIntensity.ExportAnimation"></a>
 
-### TotalElectricFieldIntensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TotalElectricFieldIntensity.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -744,7 +744,7 @@ Run the ExportAnimation action.
 
 <a id="TotalElectricFieldIntensity.ExportToTextFile"></a>
 
-### TotalElectricFieldIntensity.ExportToTextFile(filePath: System.String)
+### TotalElectricFieldIntensity.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -760,7 +760,7 @@ Run the FetchRemoteResult action.
 
 <a id="TotalElectricFieldIntensity.GetChildren"></a>
 
-### TotalElectricFieldIntensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TotalElectricFieldIntensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -768,7 +768,7 @@ Gets the list of children, filtered by type.
 
 <a id="TotalElectricFieldIntensity.GetParameter"></a>
 
-### TotalElectricFieldIntensity.GetParameter(propName: System.String)
+### TotalElectricFieldIntensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -800,7 +800,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="TotalElectricFieldIntensity.PropertyByAPIName"></a>
 
-### TotalElectricFieldIntensity.PropertyByAPIName(name: System.String)
+### TotalElectricFieldIntensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -811,7 +811,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TotalElectricFieldIntensity.PropertyByName"></a>
 
-### TotalElectricFieldIntensity.PropertyByName(name: System.String)
+### TotalElectricFieldIntensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -819,7 +819,7 @@ Get a property by its unique name.
 
 <a id="TotalElectricFieldIntensity.RemoveParameter"></a>
 
-### TotalElectricFieldIntensity.RemoveParameter(propName: System.String)
+### TotalElectricFieldIntensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -76,7 +76,7 @@ Defines a NamedSelection.
 
 <a id="NamedSelection.Children"></a>
 
-### *property* NamedSelection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -84,7 +84,7 @@ Gets the list of children.
 
 <a id="NamedSelection.Comments"></a>
 
-### *property* NamedSelection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -92,7 +92,7 @@ Gets the list of associated comments.
 
 <a id="NamedSelection.CrackFrontNumber"></a>
 
-### *property* NamedSelection.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackFrontNumber.
 
@@ -108,7 +108,7 @@ Gets the CreatedForCrack.
 
 <a id="NamedSelection.DataModelObjectCategory"></a>
 
-### *property* NamedSelection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -116,7 +116,7 @@ Gets the current DataModelObject’s category.
 
 <a id="NamedSelection.Figures"></a>
 
-### *property* NamedSelection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -124,7 +124,7 @@ Gets the list of associated figures.
 
 <a id="NamedSelection.GenerationCriteria"></a>
 
-### *property* NamedSelection.GenerationCriteria *: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriteria](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelectionCriteria.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelectionCriteria) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.GenerationCriteria *: [Ansys.ACT.Automation.Mechanical.NamedSelectionCriteria](NamedSelectionCriteria.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriteria) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the generation criteria that is used to generate the selection.
 
@@ -132,7 +132,7 @@ Returns the generation criteria that is used to generate the selection.
 
 <a id="NamedSelection.Images"></a>
 
-### *property* NamedSelection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -140,7 +140,7 @@ Gets the list of associated images.
 
 <a id="NamedSelection.IncludeProgramControlledInflation"></a>
 
-### *property* NamedSelection.IncludeProgramControlledInflation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.IncludeProgramControlledInflation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IncludeProgramControlledInflation.
 
@@ -156,7 +156,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="NamedSelection.LSDynaUserId"></a>
 
-### *property* NamedSelection.LSDynaUserId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.LSDynaUserId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LSDynaUserId.
 
@@ -172,7 +172,7 @@ Gets or sets the Location.
 
 <a id="NamedSelection.PreserveDuringSolve"></a>
 
-### *property* NamedSelection.PreserveDuringSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.PreserveDuringSolve *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreserveDuringSolve.
 
@@ -180,7 +180,7 @@ Gets or sets the PreserveDuringSolve.
 
 <a id="NamedSelection.Properties"></a>
 
-### *property* NamedSelection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -188,7 +188,7 @@ Gets the list of properties for this object.
 
 <a id="NamedSelection.ReadOnly"></a>
 
-### *property* NamedSelection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -196,7 +196,7 @@ Gets or sets the ReadOnly.
 
 <a id="NamedSelection.RelativeTolerance"></a>
 
-### *property* NamedSelection.RelativeTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.RelativeTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RelativeTolerance.
 
@@ -204,7 +204,7 @@ Gets or sets the RelativeTolerance.
 
 <a id="NamedSelection.ScopingMethod"></a>
 
-### *property* NamedSelection.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -212,7 +212,7 @@ Gets or sets the ScopingMethod.
 
 <a id="NamedSelection.SendAs"></a>
 
-### *property* NamedSelection.SendAs *: [Ansys.Mechanical.DataModel.Enums.SendAs](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SendAs.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SendAs) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.SendAs *: [Ansys.Mechanical.DataModel.Enums.SendAs](../../../Mechanical/DataModel/Enums/SendAs.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SendAs) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SendAs.
 
@@ -220,7 +220,7 @@ Gets or sets the SendAs.
 
 <a id="NamedSelection.SendToSolver"></a>
 
-### *property* NamedSelection.SendToSolver *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.SendToSolver *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SendToSolver.
 
@@ -228,7 +228,7 @@ Gets or sets the SendToSolver.
 
 <a id="NamedSelection.Suppressed"></a>
 
-### *property* NamedSelection.Suppressed *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.Suppressed *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Suppressed.
 
@@ -236,7 +236,7 @@ Gets the Suppressed.
 
 <a id="NamedSelection.ToleranceType"></a>
 
-### *property* NamedSelection.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ToleranceType](../../../Mechanical/DataModel/Enums/ToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
@@ -244,7 +244,7 @@ Gets or sets the ToleranceType.
 
 <a id="NamedSelection.TotalSelection"></a>
 
-### *property* NamedSelection.TotalSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.TotalSelection *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TotalSelection.
 
@@ -252,7 +252,7 @@ Gets the TotalSelection.
 
 <a id="NamedSelection.Type"></a>
 
-### *property* NamedSelection.Type *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.Type *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -260,7 +260,7 @@ Gets the Type.
 
 <a id="NamedSelection.UsedByMeshWorksheet"></a>
 
-### *property* NamedSelection.UsedByMeshWorksheet *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.UsedByMeshWorksheet *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the UsedByMeshWorksheet.
 
@@ -268,7 +268,7 @@ Gets the UsedByMeshWorksheet.
 
 <a id="NamedSelection.Visible"></a>
 
-### *property* NamedSelection.Visible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.Visible *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Visible.
 
@@ -276,7 +276,7 @@ Gets or sets the Visible.
 
 <a id="NamedSelection.VisibleProperties"></a>
 
-### *property* NamedSelection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -284,7 +284,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="NamedSelection.ZeroTolerance"></a>
 
-### *property* NamedSelection.ZeroTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelection.ZeroTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZeroTolerance.
 
@@ -320,7 +320,7 @@ Creates a new child Figure.
 
 <a id="NamedSelection.AddImage"></a>
 
-### NamedSelection.AddImage(filePath: System.String)
+### NamedSelection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -348,7 +348,7 @@ Creates a new Named Selection object containing all the nodes from the entities 
 
 <a id="NamedSelection.CreateParameter"></a>
 
-### NamedSelection.CreateParameter(propName: System.String)
+### NamedSelection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -372,7 +372,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="NamedSelection.ExportNamedSelectionToCDBFile"></a>
 
-### NamedSelection.ExportNamedSelectionToCDBFile(filepath: System.String)
+### NamedSelection.ExportNamedSelectionToCDBFile(filepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Export Named Selection to CDB file
 
@@ -380,7 +380,7 @@ Export Named Selection to CDB file
 
 <a id="NamedSelection.ExportToTextFile"></a>
 
-### NamedSelection.ExportToTextFile(filePath: System.String)
+### NamedSelection.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -396,7 +396,7 @@ Generates the selection based on the generation criteria.
 
 <a id="NamedSelection.GetChildren"></a>
 
-### NamedSelection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NamedSelection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -404,7 +404,7 @@ Gets the list of children, filtered by type.
 
 <a id="NamedSelection.GetParameter"></a>
 
-### NamedSelection.GetParameter(propName: System.String)
+### NamedSelection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -428,7 +428,7 @@ Run the GroupSimilarObjects action.
 
 <a id="NamedSelection.PropertyByAPIName"></a>
 
-### NamedSelection.PropertyByAPIName(name: System.String)
+### NamedSelection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -439,7 +439,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NamedSelection.PropertyByName"></a>
 
-### NamedSelection.PropertyByName(name: System.String)
+### NamedSelection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -447,7 +447,7 @@ Get a property by its unique name.
 
 <a id="NamedSelection.RemoveParameter"></a>
 
-### NamedSelection.RemoveParameter(propName: System.String)
+### NamedSelection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

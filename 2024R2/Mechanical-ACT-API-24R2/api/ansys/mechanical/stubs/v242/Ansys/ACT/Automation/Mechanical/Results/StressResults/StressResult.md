@@ -17,7 +17,7 @@ Defines a StressResult.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#StressResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#StressResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#StressResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a StressResult.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#StressResult.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#StressResult.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#StressResult.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -128,7 +128,7 @@ Defines a StressResult.
 | [`Subtype`](#StressResult.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#StressResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#StressResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#StressResult.SurfaceCoating)                                                                                                                                      | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#StressResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#StressResult.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#StressResult.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#StressResult.Time)                                                           | Gets the Time.                                                         |
@@ -140,7 +140,7 @@ Defines a StressResult.
 | [`TotalInside`](#StressResult.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#StressResult.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#StressResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#StressResult.WaterfallShowTextOnMosaic)                                                                                                                | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#StressResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -148,7 +148,7 @@ Defines a StressResult.
 
 <a id="StressResult.Amplitude"></a>
 
-### *property* StressResult.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -164,7 +164,7 @@ Gets the Average.
 
 <a id="StressResult.AverageAcrossBodies"></a>
 
-### *property* StressResult.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -204,7 +204,7 @@ Gets or sets the By.
 
 <a id="StressResult.CalculateTimeHistory"></a>
 
-### *property* StressResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -212,7 +212,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="StressResult.Children"></a>
 
-### *property* StressResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -220,7 +220,7 @@ Gets the list of children.
 
 <a id="StressResult.CombinationNumber"></a>
 
-### *property* StressResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -228,7 +228,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="StressResult.Comments"></a>
 
-### *property* StressResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -236,7 +236,7 @@ Gets the list of associated comments.
 
 <a id="StressResult.CoordinateSystem"></a>
 
-### *property* StressResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -246,7 +246,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="StressResult.CrackFrontNumber"></a>
 
-### *property* StressResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -254,7 +254,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="StressResult.CyclicMode"></a>
 
-### *property* StressResult.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -294,7 +294,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="StressResult.EnvironmentSelection"></a>
 
-### *property* StressResult.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -302,7 +302,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="StressResult.Figures"></a>
 
-### *property* StressResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -318,7 +318,7 @@ Gets or sets the Frequency.
 
 <a id="StressResult.GlobalIDs"></a>
 
-### *property* StressResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -334,7 +334,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="StressResult.HarmonicIndex"></a>
 
-### *property* StressResult.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -342,7 +342,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="StressResult.Identifier"></a>
 
-### *property* StressResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -350,7 +350,7 @@ Gets or sets the Identifier.
 
 <a id="StressResult.Images"></a>
 
-### *property* StressResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -366,7 +366,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="StressResult.IsSolved"></a>
 
-### *property* StressResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -382,7 +382,7 @@ Gets or sets the ItemType.
 
 <a id="StressResult.IterationNumber"></a>
 
-### *property* StressResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -390,7 +390,7 @@ Gets the IterationNumber.
 
 <a id="StressResult.IterationStep"></a>
 
-### *property* StressResult.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -398,7 +398,7 @@ Gets or sets the IterationStep.
 
 <a id="StressResult.Layer"></a>
 
-### *property* StressResult.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -414,7 +414,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="StressResult.LoadMultiplier"></a>
 
-### *property* StressResult.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -422,7 +422,7 @@ Gets the LoadMultiplier.
 
 <a id="StressResult.LoadStep"></a>
 
-### *property* StressResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -430,7 +430,7 @@ Gets the LoadStep.
 
 <a id="StressResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* StressResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -438,7 +438,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="StressResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* StressResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -446,7 +446,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="StressResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* StressResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -454,7 +454,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="StressResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* StressResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -462,7 +462,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="StressResult.LoadStepNumber"></a>
 
-### *property* StressResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -486,7 +486,7 @@ Gets the Maximum.
 
 <a id="StressResult.MaximumOccursOn"></a>
 
-### *property* StressResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -550,7 +550,7 @@ Gets the Minimum.
 
 <a id="StressResult.MinimumOccursOn"></a>
 
-### *property* StressResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -574,7 +574,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="StressResult.Mode"></a>
 
-### *property* StressResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -582,7 +582,7 @@ Gets or sets the Mode.
 
 <a id="StressResult.NamedSelections"></a>
 
-### *property* StressResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -638,7 +638,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="StressResult.Plies"></a>
 
-### *property* StressResult.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -654,7 +654,7 @@ Gets the result table.
 
 <a id="StressResult.Ply"></a>
 
-### *property* StressResult.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -670,7 +670,7 @@ Gets or sets the Position.
 
 <a id="StressResult.Probability"></a>
 
-### *property* StressResult.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -678,7 +678,7 @@ Gets the Probability.
 
 <a id="StressResult.Properties"></a>
 
-### *property* StressResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -710,7 +710,7 @@ Gets or sets the ScopingMethod.
 
 <a id="StressResult.SetNumber"></a>
 
-### *property* StressResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -726,7 +726,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="StressResult.SolverComponentIDs"></a>
 
-### *property* StressResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -750,7 +750,7 @@ Gets or sets the SubScopeBy.
 
 <a id="StressResult.Substep"></a>
 
-### *property* StressResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -766,7 +766,7 @@ Gets or sets the Subtype.
 
 <a id="StressResult.Suppressed"></a>
 
-### *property* StressResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -870,7 +870,7 @@ Gets the TotalOutside.
 
 <a id="StressResult.VisibleProperties"></a>
 
-### *property* StressResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -878,7 +878,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="StressResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* StressResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StressResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -930,7 +930,7 @@ Creates a new child Figure.
 
 <a id="StressResult.AddImage"></a>
 
-### StressResult.AddImage(filePath: System.String)
+### StressResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -958,7 +958,7 @@ Copies all visible properties from this object to another.
 
 <a id="StressResult.CreateParameter"></a>
 
-### StressResult.CreateParameter(propName: System.String)
+### StressResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -1006,7 +1006,7 @@ Run the EvaluateAllResults action.
 
 <a id="StressResult.ExportAnimation"></a>
 
-### StressResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### StressResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -1014,7 +1014,7 @@ Run the ExportAnimation action.
 
 <a id="StressResult.ExportToTextFile"></a>
 
-### StressResult.ExportToTextFile(filePath: System.String)
+### StressResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -1030,7 +1030,7 @@ Run the FetchRemoteResult action.
 
 <a id="StressResult.GetChildren"></a>
 
-### StressResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### StressResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1038,7 +1038,7 @@ Gets the list of children, filtered by type.
 
 <a id="StressResult.GetParameter"></a>
 
-### StressResult.GetParameter(propName: System.String)
+### StressResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1070,7 +1070,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="StressResult.PropertyByAPIName"></a>
 
-### StressResult.PropertyByAPIName(name: System.String)
+### StressResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1081,7 +1081,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="StressResult.PropertyByName"></a>
 
-### StressResult.PropertyByName(name: System.String)
+### StressResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1089,7 +1089,7 @@ Get a property by its unique name.
 
 <a id="StressResult.RemoveParameter"></a>
 
-### StressResult.RemoveParameter(propName: System.String)
+### StressResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

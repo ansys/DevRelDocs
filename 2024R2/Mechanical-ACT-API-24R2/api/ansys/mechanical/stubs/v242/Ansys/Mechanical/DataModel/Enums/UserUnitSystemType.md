@@ -17,7 +17,7 @@ Specifies the UserUnitSystemType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`NoUnitSystem`](#UserUnitSystemType.NoUnitSystem) |
 | [`StandardBFT`](#UserUnitSystemType.StandardBFT) |
 | [`StandardBIN`](#UserUnitSystemType.StandardBIN) |

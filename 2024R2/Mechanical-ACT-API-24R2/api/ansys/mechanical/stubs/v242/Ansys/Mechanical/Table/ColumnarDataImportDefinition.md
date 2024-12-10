@@ -18,12 +18,12 @@ columnar format should be processed.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [`Index`](#ColumnarDataImportDefinition.Index)                            | Gets or sets the specified data source column index from which this variable will be   |
-| [`Name`](#ColumnarDataImportDefinition.Name)                              | Gets or sets an identifier for the data source column.                                 |
-| [`Unit`](#ColumnarDataImportDefinition.Unit)                              | Gets or sets the unit of the column.                                                   |
-| [`VariableClassification`](#ColumnarDataImportDefinition.VariableClassification) | Gets or sets the variable classification of the column.                                |
-| [`VariableType`](#ColumnarDataImportDefinition.VariableType)              | Gets or sets the variable type of the column.                                          |
+|-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Index`](#ColumnarDataImportDefinition.Index)               | Gets or sets the specified data source column index from which this variable will be   |
+| [`Name`](#ColumnarDataImportDefinition.Name)                 | Gets or sets an identifier for the data source column.                                 |
+| [`Unit`](#ColumnarDataImportDefinition.Unit)                 | Gets or sets the unit of the column.                                                   |
+| [`VariableClassification`](#ColumnarDataImportDefinition.VariableClassification)                            | Gets or sets the variable classification of the column.                                |
+| [`VariableType`](#ColumnarDataImportDefinition.VariableType) | Gets or sets the variable type of the column.                                          |
 
 <a id="property-detail"></a>
 
@@ -31,7 +31,7 @@ columnar format should be processed.
 
 <a id="ColumnarDataImportDefinition.Index"></a>
 
-### *property* ColumnarDataImportDefinition.Index *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ColumnarDataImportDefinition.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the specified data source column index from which this variable will be
 imported.
@@ -40,7 +40,7 @@ imported.
 
 <a id="ColumnarDataImportDefinition.Name"></a>
 
-### *property* ColumnarDataImportDefinition.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ColumnarDataImportDefinition.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets an identifier for the data source column.
 
@@ -48,7 +48,7 @@ Gets or sets an identifier for the data source column.
 
 <a id="ColumnarDataImportDefinition.Unit"></a>
 
-### *property* ColumnarDataImportDefinition.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ColumnarDataImportDefinition.Unit *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the unit of the column.
 

@@ -17,7 +17,7 @@ Specifies the CrossSectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------ |
 | [`Channel`](#CrossSectionType.Channel) |
 | [`Circular`](#CrossSectionType.Circular) |
 | [`CircularTube`](#CrossSectionType.CircularTube) |

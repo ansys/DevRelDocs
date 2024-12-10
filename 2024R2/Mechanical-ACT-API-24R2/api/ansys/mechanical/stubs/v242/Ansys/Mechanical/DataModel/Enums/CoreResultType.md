@@ -17,7 +17,7 @@ Specifies the CoreResultType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------- |
 | [`Acceleration`](#CoreResultType.Acceleration) |
 | [`Displacement`](#CoreResultType.Displacement) |
 | [`OtherResult`](#CoreResultType.OtherResult) |

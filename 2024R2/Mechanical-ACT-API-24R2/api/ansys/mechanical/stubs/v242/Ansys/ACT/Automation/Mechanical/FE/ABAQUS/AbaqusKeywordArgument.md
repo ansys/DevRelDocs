@@ -27,7 +27,7 @@ Represents a keyword argument (with Key and Value).
 
 <a id="AbaqusKeywordArgument.Key"></a>
 
-### *property* AbaqusKeywordArgument.Key *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AbaqusKeywordArgument.Key *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Key.
 
@@ -35,7 +35,7 @@ Gets the Key.
 
 <a id="AbaqusKeywordArgument.Value"></a>
 
-### *property* AbaqusKeywordArgument.Value *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AbaqusKeywordArgument.Value *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Value.
 

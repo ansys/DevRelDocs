@@ -17,7 +17,7 @@ The class representing an RSM Queue.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
+|----------------------------------------------------|-------------------------------------------|
 | [`HPCConfiguration`](#RSMQueue.HPCConfiguration)   | The HPC configuration of the RSM Queue.   |
 | [`HPCQueue`](#RSMQueue.HPCQueue)                   | The HPC Queue of the RSM Queue.           |
 | [`HPCType`](#RSMQueue.HPCType)                     | The HPC type of the RSM Queue             |
@@ -29,7 +29,7 @@ The class representing an RSM Queue.
 
 <a id="RSMQueue.HPCConfiguration"></a>
 
-### *property* RSMQueue.HPCConfiguration *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSMQueue.HPCConfiguration *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The HPC configuration of the RSM Queue.
 
@@ -37,7 +37,7 @@ The HPC configuration of the RSM Queue.
 
 <a id="RSMQueue.HPCQueue"></a>
 
-### *property* RSMQueue.HPCQueue *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSMQueue.HPCQueue *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The HPC Queue of the RSM Queue.
 
@@ -45,7 +45,7 @@ The HPC Queue of the RSM Queue.
 
 <a id="RSMQueue.HPCType"></a>
 
-### *property* RSMQueue.HPCType *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSMQueue.HPCType *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The HPC type of the RSM Queue
 
@@ -53,7 +53,7 @@ The HPC type of the RSM Queue
 
 <a id="RSMQueue.Name"></a>
 
-### *property* RSMQueue.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RSMQueue.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The name of the RSM Queue.
 

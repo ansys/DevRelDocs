@@ -17,7 +17,7 @@ Specifies the Behavior for ThermalPointMass.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`Coupled`](#ThermalPointMassBehavior.Coupled) |
 | [`HeatFluxDistributed`](#ThermalPointMassBehavior.HeatFluxDistributed) |
 | [`Isothermal`](#ThermalPointMassBehavior.Isothermal) |

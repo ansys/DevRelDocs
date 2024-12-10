@@ -17,7 +17,7 @@ Specifies the ChartScale.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------ |
+| ------------------------------------ |
 | [`Linear`](#ChartScale.Linear) |
 | [`LogLog`](#ChartScale.LogLog) |
 | [`SemiLogX`](#ChartScale.SemiLogX) |

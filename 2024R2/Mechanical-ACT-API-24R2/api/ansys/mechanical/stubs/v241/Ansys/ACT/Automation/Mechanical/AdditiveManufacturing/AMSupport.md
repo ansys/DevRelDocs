@@ -17,7 +17,7 @@ Defines a AMSupport.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AMSupport.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#AMSupport.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#AMSupport.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a AMSupport.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#AMSupport.Children)                                             | Gets the list of children.                                    |
 | [`Comments`](#AMSupport.Comments)                                             | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#AMSupport.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
@@ -70,7 +70,7 @@ Defines a AMSupport.
 
 <a id="AMSupport.Children"></a>
 
-### *property* AMSupport.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -78,7 +78,7 @@ Gets the list of children.
 
 <a id="AMSupport.Comments"></a>
 
-### *property* AMSupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -86,7 +86,7 @@ Gets the list of associated comments.
 
 <a id="AMSupport.DataModelObjectCategory"></a>
 
-### *property* AMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -94,7 +94,7 @@ Gets the current DataModelObject’s category.
 
 <a id="AMSupport.DensityMultiple"></a>
 
-### *property* AMSupport.DensityMultiple *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.DensityMultiple *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DensityMultiple.
 
@@ -102,7 +102,7 @@ Gets or sets the DensityMultiple.
 
 <a id="AMSupport.ElasticModulusMultipleInX"></a>
 
-### *property* AMSupport.ElasticModulusMultipleInX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.ElasticModulusMultipleInX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElasticModulusMultipleInX.
 
@@ -110,7 +110,7 @@ Gets or sets the ElasticModulusMultipleInX.
 
 <a id="AMSupport.ElasticModulusMultipleInY"></a>
 
-### *property* AMSupport.ElasticModulusMultipleInY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.ElasticModulusMultipleInY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElasticModulusMultipleInY.
 
@@ -118,7 +118,7 @@ Gets or sets the ElasticModulusMultipleInY.
 
 <a id="AMSupport.ElasticModulusMultipleInZ"></a>
 
-### *property* AMSupport.ElasticModulusMultipleInZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.ElasticModulusMultipleInZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElasticModulusMultipleInZ.
 
@@ -126,7 +126,7 @@ Gets or sets the ElasticModulusMultipleInZ.
 
 <a id="AMSupport.Figures"></a>
 
-### *property* AMSupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -134,7 +134,7 @@ Gets the list of associated figures.
 
 <a id="AMSupport.Images"></a>
 
-### *property* AMSupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -150,7 +150,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AMSupport.MaterialMultiplier"></a>
 
-### *property* AMSupport.MaterialMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.MaterialMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialMultiplier.
 
@@ -158,7 +158,7 @@ Gets or sets the MaterialMultiplier.
 
 <a id="AMSupport.MultiplierEntry"></a>
 
-### *property* AMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMultiplierEntryType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](../../../../Mechanical/DataModel/Enums/AMMultiplierEntryType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MultiplierEntry.
 
@@ -166,7 +166,7 @@ Gets or sets the MultiplierEntry.
 
 <a id="AMSupport.Properties"></a>
 
-### *property* AMSupport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -174,7 +174,7 @@ Gets the list of properties for this object.
 
 <a id="AMSupport.ShearModulusMultipleInXY"></a>
 
-### *property* AMSupport.ShearModulusMultipleInXY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.ShearModulusMultipleInXY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearModulusMultipleInXY.
 
@@ -182,7 +182,7 @@ Gets or sets the ShearModulusMultipleInXY.
 
 <a id="AMSupport.ShearModulusMultipleInXZ"></a>
 
-### *property* AMSupport.ShearModulusMultipleInXZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.ShearModulusMultipleInXZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearModulusMultipleInXZ.
 
@@ -190,7 +190,7 @@ Gets or sets the ShearModulusMultipleInXZ.
 
 <a id="AMSupport.ShearModulusMultipleInYZ"></a>
 
-### *property* AMSupport.ShearModulusMultipleInYZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.ShearModulusMultipleInYZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearModulusMultipleInYZ.
 
@@ -198,7 +198,7 @@ Gets or sets the ShearModulusMultipleInYZ.
 
 <a id="AMSupport.SupportType"></a>
 
-### *property* AMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMSupportType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](../../../../Mechanical/DataModel/Enums/AMSupportType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SupportType.
 
@@ -206,7 +206,7 @@ Gets or sets the SupportType.
 
 <a id="AMSupport.ThermalConductivityMultipleInX"></a>
 
-### *property* AMSupport.ThermalConductivityMultipleInX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.ThermalConductivityMultipleInX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalConductivityMultipleInX.
 
@@ -214,7 +214,7 @@ Gets or sets the ThermalConductivityMultipleInX.
 
 <a id="AMSupport.ThermalConductivityMultipleInY"></a>
 
-### *property* AMSupport.ThermalConductivityMultipleInY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.ThermalConductivityMultipleInY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalConductivityMultipleInY.
 
@@ -222,7 +222,7 @@ Gets or sets the ThermalConductivityMultipleInY.
 
 <a id="AMSupport.ThermalConductivityMultipleInZ"></a>
 
-### *property* AMSupport.ThermalConductivityMultipleInZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.ThermalConductivityMultipleInZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalConductivityMultipleInZ.
 
@@ -230,7 +230,7 @@ Gets or sets the ThermalConductivityMultipleInZ.
 
 <a id="AMSupport.VisibleProperties"></a>
 
-### *property* AMSupport.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMSupport.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -298,7 +298,7 @@ Creates a new child Figure.
 
 <a id="AMSupport.AddImage"></a>
 
-### AMSupport.AddImage(filePath: System.String)
+### AMSupport.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -318,7 +318,7 @@ Copies all visible properties from this object to another.
 
 <a id="AMSupport.CreateParameter"></a>
 
-### AMSupport.CreateParameter(propName: System.String)
+### AMSupport.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -342,7 +342,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AMSupport.GetChildren"></a>
 
-### AMSupport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AMSupport.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -350,7 +350,7 @@ Gets the list of children, filtered by type.
 
 <a id="AMSupport.GetParameter"></a>
 
-### AMSupport.GetParameter(propName: System.String)
+### AMSupport.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -374,7 +374,7 @@ Run the GroupSimilarObjects action.
 
 <a id="AMSupport.PropertyByAPIName"></a>
 
-### AMSupport.PropertyByAPIName(name: System.String)
+### AMSupport.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -385,7 +385,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AMSupport.PropertyByName"></a>
 
-### AMSupport.PropertyByName(name: System.String)
+### AMSupport.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -393,7 +393,7 @@ Get a property by its unique name.
 
 <a id="AMSupport.RemoveParameter"></a>
 
-### AMSupport.RemoveParameter(propName: System.String)
+### AMSupport.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

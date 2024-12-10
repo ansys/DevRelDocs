@@ -17,7 +17,7 @@ Specifies the Model2DBehavior.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------- |
 | [`AxiSymmetric`](#Model2DBehavior.AxiSymmetric) |
 | [`ByBody`](#Model2DBehavior.ByBody) |
 | [`GeneralAxisymmetric`](#Model2DBehavior.GeneralAxisymmetric) |

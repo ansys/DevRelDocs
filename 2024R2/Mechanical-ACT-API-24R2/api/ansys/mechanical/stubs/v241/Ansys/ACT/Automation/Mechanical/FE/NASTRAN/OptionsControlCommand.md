@@ -17,7 +17,7 @@ Options control command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+|-----------------------------------------------------|-------------------------|
 | [`Arguments`](#OptionsControlCommand.Arguments)     | Gets the arguments.     |
 | [`Index`](#OptionsControlCommand.Index)             | Gets the command index. |
 | [`Name`](#OptionsControlCommand.Name)               | Gets the command name.  |
@@ -29,7 +29,7 @@ Options control command.
 
 <a id="OptionsControlCommand.Arguments"></a>
 
-### *property* OptionsControlCommand.Arguments *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsControlCommand.Arguments *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the arguments.
 
@@ -37,7 +37,7 @@ Gets the arguments.
 
 <a id="OptionsControlCommand.Index"></a>
 
-### *property* OptionsControlCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsControlCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -45,7 +45,7 @@ Gets the command index.
 
 <a id="OptionsControlCommand.Name"></a>
 
-### *property* OptionsControlCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsControlCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -53,7 +53,7 @@ Gets the command name.
 
 <a id="OptionsControlCommand.OptionLines"></a>
 
-### *property* OptionsControlCommand.OptionLines *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsControlCommand.OptionLines *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the option lines.
 

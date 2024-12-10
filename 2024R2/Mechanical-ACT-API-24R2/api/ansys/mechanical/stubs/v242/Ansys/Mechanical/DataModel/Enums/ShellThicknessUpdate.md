@@ -17,7 +17,7 @@ Specifies the ShellThicknessUpdate.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------- |
 | [`Elemental`](#ShellThicknessUpdate.Elemental) |
 | [`Nodal`](#ShellThicknessUpdate.Nodal) |
 

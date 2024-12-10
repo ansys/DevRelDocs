@@ -17,7 +17,7 @@ Specifies the CombineRestartFilesType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`No`](#CombineRestartFilesType.No) |
 | [`ProgramControlled`](#CombineRestartFilesType.ProgramControlled) |
 | [`Yes`](#CombineRestartFilesType.Yes) |

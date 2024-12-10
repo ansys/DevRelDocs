@@ -17,7 +17,7 @@ Specifies the CouplingConditionDOFType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------ |
 | [`Temperature`](#CouplingConditionDOFType.Temperature) |
 | [`Unknown`](#CouplingConditionDOFType.Unknown) |
 | [`Voltage`](#CouplingConditionDOFType.Voltage) |

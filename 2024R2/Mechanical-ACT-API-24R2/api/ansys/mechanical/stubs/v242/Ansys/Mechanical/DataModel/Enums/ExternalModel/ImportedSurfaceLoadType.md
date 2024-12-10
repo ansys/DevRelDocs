@@ -17,7 +17,7 @@ Specifies the ImportedSurfaceLoadType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------- |
 | [`Convection`](#ImportedSurfaceLoadType.Convection) |
 | [`HeatFlux`](#ImportedSurfaceLoadType.HeatFlux) |
 | [`Pressure`](#ImportedSurfaceLoadType.Pressure) |

@@ -17,7 +17,7 @@ Defines a DeformationResult.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DeformationResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#DeformationResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#DeformationResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a DeformationResult.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`AccelerationInG`](#DeformationResult.AccelerationInG)                                     | Gets or sets the AccelerationInG.                                      |
 | [`AllowPhaseSweep`](#DeformationResult.AllowPhaseSweep)                                     | Gets or sets the AllowPhaseSweep.                                      |
 | [`Amplitude`](#DeformationResult.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
@@ -118,7 +118,7 @@ Defines a DeformationResult.
 | [`Substep`](#DeformationResult.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#DeformationResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#DeformationResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#DeformationResult.SurfaceCoating)                                                                                                                                                | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#DeformationResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#DeformationResult.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#DeformationResult.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#DeformationResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -126,7 +126,7 @@ Defines a DeformationResult.
 | [`TimeForMinimumOfMaximumValues`](#DeformationResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#DeformationResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#DeformationResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#DeformationResult.WaterfallShowTextOnMosaic)                                                                                                                          | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#DeformationResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -134,7 +134,7 @@ Defines a DeformationResult.
 
 <a id="DeformationResult.AccelerationInG"></a>
 
-### *property* DeformationResult.AccelerationInG *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.AccelerationInG *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationInG.
 
@@ -142,7 +142,7 @@ Gets or sets the AccelerationInG.
 
 <a id="DeformationResult.AllowPhaseSweep"></a>
 
-### *property* DeformationResult.AllowPhaseSweep *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.AllowPhaseSweep *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AllowPhaseSweep.
 
@@ -150,7 +150,7 @@ Gets or sets the AllowPhaseSweep.
 
 <a id="DeformationResult.Amplitude"></a>
 
-### *property* DeformationResult.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -174,7 +174,7 @@ Gets or sets the By.
 
 <a id="DeformationResult.CalculateTimeHistory"></a>
 
-### *property* DeformationResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -182,7 +182,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="DeformationResult.Children"></a>
 
-### *property* DeformationResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -190,7 +190,7 @@ Gets the list of children.
 
 <a id="DeformationResult.CombinationNumber"></a>
 
-### *property* DeformationResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -198,7 +198,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DeformationResult.Comments"></a>
 
-### *property* DeformationResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -206,7 +206,7 @@ Gets the list of associated comments.
 
 <a id="DeformationResult.CoordinateSystem"></a>
 
-### *property* DeformationResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -216,7 +216,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DeformationResult.CrackFrontNumber"></a>
 
-### *property* DeformationResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -224,7 +224,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="DeformationResult.CyclicMode"></a>
 
-### *property* DeformationResult.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -288,7 +288,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="DeformationResult.EnvironmentSelection"></a>
 
-### *property* DeformationResult.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -296,7 +296,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="DeformationResult.Figures"></a>
 
-### *property* DeformationResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -312,7 +312,7 @@ Gets or sets the Frequency.
 
 <a id="DeformationResult.GlobalIDs"></a>
 
-### *property* DeformationResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -328,7 +328,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="DeformationResult.HarmonicIndex"></a>
 
-### *property* DeformationResult.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -336,7 +336,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="DeformationResult.Identifier"></a>
 
-### *property* DeformationResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -344,7 +344,7 @@ Gets or sets the Identifier.
 
 <a id="DeformationResult.Images"></a>
 
-### *property* DeformationResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -360,7 +360,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DeformationResult.IsSolved"></a>
 
-### *property* DeformationResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -376,7 +376,7 @@ Gets or sets the ItemType.
 
 <a id="DeformationResult.IterationNumber"></a>
 
-### *property* DeformationResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -384,7 +384,7 @@ Gets the IterationNumber.
 
 <a id="DeformationResult.IterationStep"></a>
 
-### *property* DeformationResult.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -392,7 +392,7 @@ Gets or sets the IterationStep.
 
 <a id="DeformationResult.LoadMultiplier"></a>
 
-### *property* DeformationResult.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -400,7 +400,7 @@ Gets the LoadMultiplier.
 
 <a id="DeformationResult.LoadStep"></a>
 
-### *property* DeformationResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -408,7 +408,7 @@ Gets the LoadStep.
 
 <a id="DeformationResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* DeformationResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -416,7 +416,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="DeformationResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* DeformationResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -424,7 +424,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="DeformationResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* DeformationResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -432,7 +432,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="DeformationResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* DeformationResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -440,7 +440,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="DeformationResult.LoadStepNumber"></a>
 
-### *property* DeformationResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -456,7 +456,7 @@ Gets or sets the Location.
 
 <a id="DeformationResult.LogarithmicDecrement"></a>
 
-### *property* DeformationResult.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -472,7 +472,7 @@ Gets the Maximum.
 
 <a id="DeformationResult.MaximumOccursOn"></a>
 
-### *property* DeformationResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -504,7 +504,7 @@ Gets the Minimum.
 
 <a id="DeformationResult.MinimumOccursOn"></a>
 
-### *property* DeformationResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -528,7 +528,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="DeformationResult.ModalDampingRatio"></a>
 
-### *property* DeformationResult.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -536,7 +536,7 @@ Gets the ModalDampingRatio.
 
 <a id="DeformationResult.Mode"></a>
 
-### *property* DeformationResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -544,7 +544,7 @@ Gets or sets the Mode.
 
 <a id="DeformationResult.NamedSelections"></a>
 
-### *property* DeformationResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -576,7 +576,7 @@ Gets the result table.
 
 <a id="DeformationResult.Probability"></a>
 
-### *property* DeformationResult.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -584,7 +584,7 @@ Gets the Probability.
 
 <a id="DeformationResult.Properties"></a>
 
-### *property* DeformationResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -616,7 +616,7 @@ Gets or sets the ScaleFactor.
 
 <a id="DeformationResult.ScaleFactorValue"></a>
 
-### *property* DeformationResult.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -632,7 +632,7 @@ Gets or sets the ScopingMethod.
 
 <a id="DeformationResult.SetNumber"></a>
 
-### *property* DeformationResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -648,7 +648,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DeformationResult.SolverComponentIDs"></a>
 
-### *property* DeformationResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -664,7 +664,7 @@ Gets the Stability.
 
 <a id="DeformationResult.Substep"></a>
 
-### *property* DeformationResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -672,7 +672,7 @@ Gets the Substep.
 
 <a id="DeformationResult.Suppressed"></a>
 
-### *property* DeformationResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -744,7 +744,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="DeformationResult.VisibleProperties"></a>
 
-### *property* DeformationResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -752,7 +752,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DeformationResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* DeformationResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DeformationResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -804,7 +804,7 @@ Creates a new child Figure.
 
 <a id="DeformationResult.AddImage"></a>
 
-### DeformationResult.AddImage(filePath: System.String)
+### DeformationResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -832,7 +832,7 @@ Copies all visible properties from this object to another.
 
 <a id="DeformationResult.CreateParameter"></a>
 
-### DeformationResult.CreateParameter(propName: System.String)
+### DeformationResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -880,7 +880,7 @@ Run the EvaluateAllResults action.
 
 <a id="DeformationResult.ExportAnimation"></a>
 
-### DeformationResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DeformationResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -888,7 +888,7 @@ Run the ExportAnimation action.
 
 <a id="DeformationResult.ExportToTextFile"></a>
 
-### DeformationResult.ExportToTextFile(filePath: System.String)
+### DeformationResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -904,7 +904,7 @@ Run the FetchRemoteResult action.
 
 <a id="DeformationResult.GetChildren"></a>
 
-### DeformationResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DeformationResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -912,7 +912,7 @@ Gets the list of children, filtered by type.
 
 <a id="DeformationResult.GetParameter"></a>
 
-### DeformationResult.GetParameter(propName: System.String)
+### DeformationResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -944,7 +944,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="DeformationResult.PropertyByAPIName"></a>
 
-### DeformationResult.PropertyByAPIName(name: System.String)
+### DeformationResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -955,7 +955,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DeformationResult.PropertyByName"></a>
 
-### DeformationResult.PropertyByName(name: System.String)
+### DeformationResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -963,7 +963,7 @@ Get a property by its unique name.
 
 <a id="DeformationResult.RemoveParameter"></a>
 
-### DeformationResult.RemoveParameter(propName: System.String)
+### DeformationResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the SolverPivotChecking.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`Error`](#SolverPivotChecking.Error) |
 | [`Off`](#SolverPivotChecking.Off) |
 | [`ProgramControlled`](#SolverPivotChecking.ProgramControlled) |

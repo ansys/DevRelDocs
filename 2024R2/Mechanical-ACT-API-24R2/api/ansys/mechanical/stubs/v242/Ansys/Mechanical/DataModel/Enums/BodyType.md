@@ -17,7 +17,7 @@ Specifies the BodyType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------ |
+| -------------------------------- |
 | [`Line`](#BodyType.Line) |
 | [`Solid`](#BodyType.Solid) |
 | [`Surface`](#BodyType.Surface) |

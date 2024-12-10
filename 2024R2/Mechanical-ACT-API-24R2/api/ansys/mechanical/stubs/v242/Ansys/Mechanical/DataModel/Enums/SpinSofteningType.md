@@ -17,7 +17,7 @@ Specifies the SpinSofteningType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`No`](#SpinSofteningType.No) |
 | [`ProgramControlled`](#SpinSofteningType.ProgramControlled) |
 | [`Yes`](#SpinSofteningType.Yes) |

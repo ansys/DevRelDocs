@@ -17,7 +17,7 @@ Defines a NodalTriads.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#NodalTriads.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#NodalTriads.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#NodalTriads.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a NodalTriads.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#NodalTriads.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#NodalTriads.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#NodalTriads.By)                                                               | Gets or sets the By.                                                   |
@@ -106,7 +106,7 @@ Defines a NodalTriads.
 | [`Substep`](#NodalTriads.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#NodalTriads.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#NodalTriads.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#NodalTriads.SurfaceCoating)                                                                                                                                                | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#NodalTriads.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#NodalTriads.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#NodalTriads.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#NodalTriads.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -114,7 +114,7 @@ Defines a NodalTriads.
 | [`TimeForMinimumOfMaximumValues`](#NodalTriads.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#NodalTriads.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#NodalTriads.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#NodalTriads.WaterfallShowTextOnMosaic)                                                                                                                          | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#NodalTriads.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -122,7 +122,7 @@ Defines a NodalTriads.
 
 <a id="NodalTriads.Amplitude"></a>
 
-### *property* NodalTriads.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -146,7 +146,7 @@ Gets or sets the By.
 
 <a id="NodalTriads.CalculateTimeHistory"></a>
 
-### *property* NodalTriads.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -154,7 +154,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="NodalTriads.Children"></a>
 
-### *property* NodalTriads.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -162,7 +162,7 @@ Gets the list of children.
 
 <a id="NodalTriads.CombinationNumber"></a>
 
-### *property* NodalTriads.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -170,7 +170,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="NodalTriads.Comments"></a>
 
-### *property* NodalTriads.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -178,7 +178,7 @@ Gets the list of associated comments.
 
 <a id="NodalTriads.CoordinateSystem"></a>
 
-### *property* NodalTriads.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -188,7 +188,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="NodalTriads.CrackFrontNumber"></a>
 
-### *property* NodalTriads.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -228,7 +228,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="NodalTriads.Figures"></a>
 
-### *property* NodalTriads.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -244,7 +244,7 @@ Gets or sets the Frequency.
 
 <a id="NodalTriads.GlobalIDs"></a>
 
-### *property* NodalTriads.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -260,7 +260,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="NodalTriads.Identifier"></a>
 
-### *property* NodalTriads.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -268,7 +268,7 @@ Gets or sets the Identifier.
 
 <a id="NodalTriads.Images"></a>
 
-### *property* NodalTriads.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -284,7 +284,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="NodalTriads.IsSolved"></a>
 
-### *property* NodalTriads.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -300,7 +300,7 @@ Gets or sets the ItemType.
 
 <a id="NodalTriads.IterationNumber"></a>
 
-### *property* NodalTriads.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -308,7 +308,7 @@ Gets the IterationNumber.
 
 <a id="NodalTriads.LoadMultiplier"></a>
 
-### *property* NodalTriads.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -316,7 +316,7 @@ Gets the LoadMultiplier.
 
 <a id="NodalTriads.LoadStep"></a>
 
-### *property* NodalTriads.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -324,7 +324,7 @@ Gets the LoadStep.
 
 <a id="NodalTriads.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* NodalTriads.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -332,7 +332,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="NodalTriads.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* NodalTriads.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -340,7 +340,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="NodalTriads.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* NodalTriads.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -348,7 +348,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="NodalTriads.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* NodalTriads.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -356,7 +356,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="NodalTriads.LoadStepNumber"></a>
 
-### *property* NodalTriads.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -380,7 +380,7 @@ Gets the Maximum.
 
 <a id="NodalTriads.MaximumOccursOn"></a>
 
-### *property* NodalTriads.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -412,7 +412,7 @@ Gets the Minimum.
 
 <a id="NodalTriads.MinimumOccursOn"></a>
 
-### *property* NodalTriads.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -436,7 +436,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="NodalTriads.Mode"></a>
 
-### *property* NodalTriads.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -444,7 +444,7 @@ Gets or sets the Mode.
 
 <a id="NodalTriads.NamedSelections"></a>
 
-### *property* NodalTriads.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -476,7 +476,7 @@ Gets the result table.
 
 <a id="NodalTriads.Ply"></a>
 
-### *property* NodalTriads.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -492,7 +492,7 @@ Gets or sets the Position.
 
 <a id="NodalTriads.Properties"></a>
 
-### *property* NodalTriads.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -508,7 +508,7 @@ Gets or sets the ScaleFactor.
 
 <a id="NodalTriads.ScaleFactorValue"></a>
 
-### *property* NodalTriads.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -524,7 +524,7 @@ Gets or sets the ScopingMethod.
 
 <a id="NodalTriads.SetNumber"></a>
 
-### *property* NodalTriads.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -540,7 +540,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="NodalTriads.SolverComponentIDs"></a>
 
-### *property* NodalTriads.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -556,7 +556,7 @@ Gets or sets the SubScopeBy.
 
 <a id="NodalTriads.Substep"></a>
 
-### *property* NodalTriads.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -564,7 +564,7 @@ Gets the Substep.
 
 <a id="NodalTriads.Suppressed"></a>
 
-### *property* NodalTriads.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -636,7 +636,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="NodalTriads.VisibleProperties"></a>
 
-### *property* NodalTriads.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -644,7 +644,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="NodalTriads.WaterfallShowTextOnMosaic"></a>
 
-### *property* NodalTriads.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalTriads.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -696,7 +696,7 @@ Creates a new child Figure.
 
 <a id="NodalTriads.AddImage"></a>
 
-### NodalTriads.AddImage(filePath: System.String)
+### NodalTriads.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -724,7 +724,7 @@ Copies all visible properties from this object to another.
 
 <a id="NodalTriads.CreateParameter"></a>
 
-### NodalTriads.CreateParameter(propName: System.String)
+### NodalTriads.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -772,7 +772,7 @@ Run the EvaluateAllResults action.
 
 <a id="NodalTriads.ExportAnimation"></a>
 
-### NodalTriads.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### NodalTriads.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -780,7 +780,7 @@ Run the ExportAnimation action.
 
 <a id="NodalTriads.ExportToTextFile"></a>
 
-### NodalTriads.ExportToTextFile(filePath: System.String)
+### NodalTriads.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -796,7 +796,7 @@ Run the FetchRemoteResult action.
 
 <a id="NodalTriads.GetChildren"></a>
 
-### NodalTriads.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NodalTriads.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -804,7 +804,7 @@ Gets the list of children, filtered by type.
 
 <a id="NodalTriads.GetParameter"></a>
 
-### NodalTriads.GetParameter(propName: System.String)
+### NodalTriads.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -836,7 +836,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="NodalTriads.PropertyByAPIName"></a>
 
-### NodalTriads.PropertyByAPIName(name: System.String)
+### NodalTriads.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -847,7 +847,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NodalTriads.PropertyByName"></a>
 
-### NodalTriads.PropertyByName(name: System.String)
+### NodalTriads.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -855,7 +855,7 @@ Get a property by its unique name.
 
 <a id="NodalTriads.RemoveParameter"></a>
 
-### NodalTriads.RemoveParameter(propName: System.String)
+### NodalTriads.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

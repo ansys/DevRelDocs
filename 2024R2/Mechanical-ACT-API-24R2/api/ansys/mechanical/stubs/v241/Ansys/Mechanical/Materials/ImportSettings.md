@@ -26,7 +26,7 @@ ImportSettings interface.
 
 <a id="ImportSettings.Filter"></a>
 
-### *property* ImportSettings.Filter *: System.Collections.Generic.IList[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportSettings.Filter *: List[[str](https://docs.python.org/3/library/stdtypes.html#str)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 All materials will be imported if this list of the names of
 specific materials to be imported is not specified.

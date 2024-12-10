@@ -17,7 +17,7 @@ Represents the different themes that can be set in Mechanical.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------- |
+| ----------------------------------- |
 | [`Classic`](#ThemeName.Classic) |
 | [`Dark`](#ThemeName.Dark) |
 | [`Light`](#ThemeName.Light) |

@@ -17,7 +17,7 @@ Specifies the ForceComponentType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------- |
 | [`All`](#ForceComponentSelectionType.All) |
 | [`Contact`](#ForceComponentSelectionType.Contact) |
 | [`Coupling`](#ForceComponentSelectionType.Coupling) |

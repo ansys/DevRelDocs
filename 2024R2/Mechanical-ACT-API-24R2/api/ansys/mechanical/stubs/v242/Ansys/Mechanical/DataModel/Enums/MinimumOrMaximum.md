@@ -17,7 +17,7 @@ Specifies the MinimumOrMaximum.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------ |
 | [`Maximum`](#MinimumOrMaximum.Maximum) |
 | [`Minimum`](#MinimumOrMaximum.Minimum) |
 

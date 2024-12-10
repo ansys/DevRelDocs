@@ -17,7 +17,7 @@ Specifies the VectorLengthType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`Proportional`](#VectorLengthType.Proportional) |
 | [`Uniform`](#VectorLengthType.Uniform) |
 

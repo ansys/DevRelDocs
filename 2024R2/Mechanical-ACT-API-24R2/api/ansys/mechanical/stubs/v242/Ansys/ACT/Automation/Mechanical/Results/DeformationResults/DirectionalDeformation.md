@@ -17,7 +17,7 @@ Defines a DirectionalDeformation.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DirectionalDeformation.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#DirectionalDeformation.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#DirectionalDeformation.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a DirectionalDeformation.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`AccelerationInG`](#DirectionalDeformation.AccelerationInG)                                     | Gets or sets the AccelerationInG.                                      |
 | [`AllowPhaseSweep`](#DirectionalDeformation.AllowPhaseSweep)                                     | Gets or sets the AllowPhaseSweep.                                      |
 | [`Amplitude`](#DirectionalDeformation.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
@@ -119,7 +119,7 @@ Defines a DirectionalDeformation.
 | [`Substep`](#DirectionalDeformation.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#DirectionalDeformation.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#DirectionalDeformation.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#DirectionalDeformation.SurfaceCoating)                                                                                                                                                     | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#DirectionalDeformation.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#DirectionalDeformation.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#DirectionalDeformation.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#DirectionalDeformation.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -127,7 +127,7 @@ Defines a DirectionalDeformation.
 | [`TimeForMinimumOfMaximumValues`](#DirectionalDeformation.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#DirectionalDeformation.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#DirectionalDeformation.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#DirectionalDeformation.WaterfallShowTextOnMosaic)                                                                                                                               | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#DirectionalDeformation.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -135,7 +135,7 @@ Defines a DirectionalDeformation.
 
 <a id="DirectionalDeformation.AccelerationInG"></a>
 
-### *property* DirectionalDeformation.AccelerationInG *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.AccelerationInG *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationInG.
 
@@ -143,7 +143,7 @@ Gets or sets the AccelerationInG.
 
 <a id="DirectionalDeformation.AllowPhaseSweep"></a>
 
-### *property* DirectionalDeformation.AllowPhaseSweep *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.AllowPhaseSweep *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AllowPhaseSweep.
 
@@ -151,7 +151,7 @@ Gets or sets the AllowPhaseSweep.
 
 <a id="DirectionalDeformation.Amplitude"></a>
 
-### *property* DirectionalDeformation.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -175,7 +175,7 @@ Gets or sets the By.
 
 <a id="DirectionalDeformation.CalculateTimeHistory"></a>
 
-### *property* DirectionalDeformation.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -183,7 +183,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="DirectionalDeformation.Children"></a>
 
-### *property* DirectionalDeformation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -191,7 +191,7 @@ Gets the list of children.
 
 <a id="DirectionalDeformation.CombinationNumber"></a>
 
-### *property* DirectionalDeformation.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -199,7 +199,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DirectionalDeformation.Comments"></a>
 
-### *property* DirectionalDeformation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -207,7 +207,7 @@ Gets the list of associated comments.
 
 <a id="DirectionalDeformation.CoordinateSystem"></a>
 
-### *property* DirectionalDeformation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -217,7 +217,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DirectionalDeformation.CrackFrontNumber"></a>
 
-### *property* DirectionalDeformation.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -225,7 +225,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="DirectionalDeformation.CyclicMode"></a>
 
-### *property* DirectionalDeformation.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -289,7 +289,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="DirectionalDeformation.EnvironmentSelection"></a>
 
-### *property* DirectionalDeformation.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -297,7 +297,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="DirectionalDeformation.Figures"></a>
 
-### *property* DirectionalDeformation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -313,7 +313,7 @@ Gets or sets the Frequency.
 
 <a id="DirectionalDeformation.GlobalIDs"></a>
 
-### *property* DirectionalDeformation.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -329,7 +329,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="DirectionalDeformation.HarmonicIndex"></a>
 
-### *property* DirectionalDeformation.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -337,7 +337,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="DirectionalDeformation.Identifier"></a>
 
-### *property* DirectionalDeformation.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -345,7 +345,7 @@ Gets or sets the Identifier.
 
 <a id="DirectionalDeformation.Images"></a>
 
-### *property* DirectionalDeformation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -361,7 +361,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DirectionalDeformation.IsSolved"></a>
 
-### *property* DirectionalDeformation.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -377,7 +377,7 @@ Gets or sets the ItemType.
 
 <a id="DirectionalDeformation.IterationNumber"></a>
 
-### *property* DirectionalDeformation.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -385,7 +385,7 @@ Gets the IterationNumber.
 
 <a id="DirectionalDeformation.IterationStep"></a>
 
-### *property* DirectionalDeformation.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -393,7 +393,7 @@ Gets or sets the IterationStep.
 
 <a id="DirectionalDeformation.LoadMultiplier"></a>
 
-### *property* DirectionalDeformation.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -401,7 +401,7 @@ Gets the LoadMultiplier.
 
 <a id="DirectionalDeformation.LoadStep"></a>
 
-### *property* DirectionalDeformation.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -409,7 +409,7 @@ Gets the LoadStep.
 
 <a id="DirectionalDeformation.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* DirectionalDeformation.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -417,7 +417,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="DirectionalDeformation.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* DirectionalDeformation.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -425,7 +425,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="DirectionalDeformation.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* DirectionalDeformation.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -433,7 +433,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="DirectionalDeformation.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* DirectionalDeformation.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -441,7 +441,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="DirectionalDeformation.LoadStepNumber"></a>
 
-### *property* DirectionalDeformation.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -457,7 +457,7 @@ Gets or sets the Location.
 
 <a id="DirectionalDeformation.LogarithmicDecrement"></a>
 
-### *property* DirectionalDeformation.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -473,7 +473,7 @@ Gets the Maximum.
 
 <a id="DirectionalDeformation.MaximumOccursOn"></a>
 
-### *property* DirectionalDeformation.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -505,7 +505,7 @@ Gets the Minimum.
 
 <a id="DirectionalDeformation.MinimumOccursOn"></a>
 
-### *property* DirectionalDeformation.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -529,7 +529,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="DirectionalDeformation.ModalDampingRatio"></a>
 
-### *property* DirectionalDeformation.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -537,7 +537,7 @@ Gets the ModalDampingRatio.
 
 <a id="DirectionalDeformation.Mode"></a>
 
-### *property* DirectionalDeformation.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -545,7 +545,7 @@ Gets or sets the Mode.
 
 <a id="DirectionalDeformation.NamedSelections"></a>
 
-### *property* DirectionalDeformation.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -585,7 +585,7 @@ Gets the result table.
 
 <a id="DirectionalDeformation.Probability"></a>
 
-### *property* DirectionalDeformation.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -593,7 +593,7 @@ Gets the Probability.
 
 <a id="DirectionalDeformation.Properties"></a>
 
-### *property* DirectionalDeformation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -625,7 +625,7 @@ Gets or sets the ScaleFactor.
 
 <a id="DirectionalDeformation.ScaleFactorValue"></a>
 
-### *property* DirectionalDeformation.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -641,7 +641,7 @@ Gets or sets the ScopingMethod.
 
 <a id="DirectionalDeformation.SetNumber"></a>
 
-### *property* DirectionalDeformation.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -657,7 +657,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DirectionalDeformation.SolverComponentIDs"></a>
 
-### *property* DirectionalDeformation.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -673,7 +673,7 @@ Gets the Stability.
 
 <a id="DirectionalDeformation.Substep"></a>
 
-### *property* DirectionalDeformation.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -681,7 +681,7 @@ Gets the Substep.
 
 <a id="DirectionalDeformation.Suppressed"></a>
 
-### *property* DirectionalDeformation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -753,7 +753,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="DirectionalDeformation.VisibleProperties"></a>
 
-### *property* DirectionalDeformation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -761,7 +761,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DirectionalDeformation.WaterfallShowTextOnMosaic"></a>
 
-### *property* DirectionalDeformation.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformation.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -813,7 +813,7 @@ Creates a new child Figure.
 
 <a id="DirectionalDeformation.AddImage"></a>
 
-### DirectionalDeformation.AddImage(filePath: System.String)
+### DirectionalDeformation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -841,7 +841,7 @@ Copies all visible properties from this object to another.
 
 <a id="DirectionalDeformation.CreateParameter"></a>
 
-### DirectionalDeformation.CreateParameter(propName: System.String)
+### DirectionalDeformation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -889,7 +889,7 @@ Run the EvaluateAllResults action.
 
 <a id="DirectionalDeformation.ExportAnimation"></a>
 
-### DirectionalDeformation.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DirectionalDeformation.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -897,7 +897,7 @@ Run the ExportAnimation action.
 
 <a id="DirectionalDeformation.ExportToTextFile"></a>
 
-### DirectionalDeformation.ExportToTextFile(filePath: System.String)
+### DirectionalDeformation.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -913,7 +913,7 @@ Run the FetchRemoteResult action.
 
 <a id="DirectionalDeformation.GetChildren"></a>
 
-### DirectionalDeformation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DirectionalDeformation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -921,7 +921,7 @@ Gets the list of children, filtered by type.
 
 <a id="DirectionalDeformation.GetParameter"></a>
 
-### DirectionalDeformation.GetParameter(propName: System.String)
+### DirectionalDeformation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -953,7 +953,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="DirectionalDeformation.PropertyByAPIName"></a>
 
-### DirectionalDeformation.PropertyByAPIName(name: System.String)
+### DirectionalDeformation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -964,7 +964,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DirectionalDeformation.PropertyByName"></a>
 
-### DirectionalDeformation.PropertyByName(name: System.String)
+### DirectionalDeformation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -972,7 +972,7 @@ Get a property by its unique name.
 
 <a id="DirectionalDeformation.RemoveParameter"></a>
 
-### DirectionalDeformation.RemoveParameter(propName: System.String)
+### DirectionalDeformation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

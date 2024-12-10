@@ -17,7 +17,7 @@ Specifies the ExternalLoadDisplayComponentType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`All`](#ExternalLoadDisplayComponentType.All) |
 | [`Total`](#ExternalLoadDisplayComponentType.Total) |
 | [`Undefined`](#ExternalLoadDisplayComponentType.Undefined) |

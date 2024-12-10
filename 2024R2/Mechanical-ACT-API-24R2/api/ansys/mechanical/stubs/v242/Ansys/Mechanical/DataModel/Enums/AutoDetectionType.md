@@ -17,7 +17,7 @@ Specifies the AutoDetectionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------- |
 | [`Contact`](#AutoDetectionType.Contact) |
 | [`Joint`](#AutoDetectionType.Joint) |
 
