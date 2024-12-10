@@ -1,4 +1,4 @@
-# mc_api
+# ModelCenter Java API
 
 ## Packages
 
