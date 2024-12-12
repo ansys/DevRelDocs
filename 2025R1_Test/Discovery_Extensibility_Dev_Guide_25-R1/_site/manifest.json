@@ -1,0 +1,1442 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/DevRelDocs/2024R2/Discovery_Extensibility_Dev_Guide_24-R2",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/api_geo_architecture.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/api_geo_architecture.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/api_geo_architecture.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/api_geo_architecture.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image001_-1210292702.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image001_-1210292702.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image001_-1977119144.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image001_-1977119144.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image001_-442329363.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image001_-442329363.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image002_-118000159.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image002_-118000159.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image002_-1195313335.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image002_-1195313335.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image002_-119644277.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image002_-119644277.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image002_-2042548837.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image002_-2042548837.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image002_-559470509.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image002_-559470509.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image002_-854738110.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image002_-854738110.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image002_1534273071.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image002_1534273071.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image002_575412888.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image002_575412888.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image002_830298129.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image002_830298129.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image003_-190035975.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image003_-190035975.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/clip_image003_840272926.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/clip_image003_840272926.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/custom_tree_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/custom_tree_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/custom_tree_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/custom_tree_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/geo_doc_structure.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/geo_doc_structure.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/ribbon_customization_groups.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/ribbon_customization_groups.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/ribbon_customization_tabs.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/ribbon_customization_tabs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/shape_general.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/shape_general.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/tool_customization.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/tool_customization.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/tool_customization_expanded_options.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/tool_customization_expanded_options.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/tool_customization_expanded_options_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/tool_customization_expanded_options_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/tool_customization_preferred_options.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/tool_customization_preferred_options.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/tool_customization_preferred_options_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/tool_customization_preferred_options_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "_site/articles/images/tool_customization_tool_guide.png",
+      "output": {
+        "resource": {
+          "relative_path": "_site/articles/images/tool_customization_tool_guide.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "xuCi5zjXPEfx2qvWzXJ6t5pb9TZyN9CYx1xbC8o0wgo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/accuracy/accuracy.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/accuracy/accuracy.html",
+          "hash": "tJJjRf9sZRLx70YA+PH/GbAFUvgWlNDifto5hPVGK7Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/accuracy/compare_angles_lengths.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/accuracy/compare_angles_lengths.html",
+          "hash": "wqWJrTPKBHJEZpGIbxFlfJyLQtExIphqS/343xff9LM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/accuracy/compare_geo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/accuracy/compare_geo.html",
+          "hash": "buARqyjYodYgF+AibTUEbbv5QkmZmYTH89KR5MB1I7M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/accuracy/compare_uv.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/accuracy/compare_uv.html",
+          "hash": "NKIeGieVpRwjBShVYJhVJIxTAotuapPIDlOYfrxGTmA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/accuracy/compare_xyz.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/accuracy/compare_xyz.html",
+          "hash": "AUWNf044KCvOH3epoQlX6W8Mn0dqPYR9E7THowjQzI4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/accuracy/linear_angular_res.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/accuracy/linear_angular_res.html",
+          "hash": "mO2IOvLk6ygcQYPq3mwx5uCM8v2MdtUThhw6JehPVps="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/application_integration/app_integration.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/application_integration/app_integration.html",
+          "hash": "ZGOjnAgaGLE+hB0mW69Fn54zVBJ283NRjNCv8LsJoLI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/application_integration/persist_ids.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/application_integration/persist_ids.html",
+          "hash": "h29fhVkbYulBNRRk5a81tI25GBiSIlXED5ko8Z1hgCI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/application_integration/replacements.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/application_integration/replacements.html",
+          "hash": "CsYN378lChMdi/Cp5Nj4dM7ADdsCYeCWlffA9K1w+NA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/application_integration/update_states.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/application_integration/update_states.html",
+          "hash": "B9t4G7fYfMm4Qu65xN9ovQSghxeHWg8rBI0GmV/eVxI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/c_disco_api_architecture.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/c_disco_api_architecture.html",
+          "hash": "9D1zj0aZXCOcoHfE1m3Op2UzEAuMRbkSolWTxLyFDjo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/doc_objects/document_doc_objects.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/doc_objects/document_doc_objects.html",
+          "hash": "WVUTaWs3o8AJJ0HGvT3gxaQ+y/Qfx81Ozu1ZRC2iBc4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/doc_objects/gen_objects_masters.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/doc_objects/gen_objects_masters.html",
+          "hash": "lD0U1KRrwNNDBmzVkUNYOchfgEnvtsTm+gSD7sdU2o0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/doc_objects/getting_occurrences.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/doc_objects/getting_occurrences.html",
+          "hash": "59ge6vs180So5Lvdd3y3uXxWzTvl41eArY4txWNovmc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/doc_objects/occurrence_chains.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/doc_objects/occurrence_chains.html",
+          "hash": "8i9Smht8va4gdXjuNaK4rFG5einuhC7aca0aJqBpiGA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/doc_objects/originals_masters.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/doc_objects/originals_masters.html",
+          "hash": "QfQ+SbAUA85OW3WO2cwb8plJp58hmeLLkSjKOq5JcPI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/doc_objects/parent_child_hierarchy.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/doc_objects/parent_child_hierarchy.html",
+          "hash": "CYUpuyFcw9BPq6dAmI2xcyS2ZyRZLPD96BnzuECAE+Y="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/doc_objects/parts_components.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/doc_objects/parts_components.html",
+          "hash": "F9Tsn+ttYozodOqsUHVFiar+3IR0/nFlaCvrHRZRm18="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/doc_objects/transform_master_space.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/doc_objects/transform_master_space.html",
+          "hash": "c9pOWE+JK8Y8PRw9on0Xn4uQ8XIjOCSRcJcAfc5zasI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/geo_topology/design_bodies.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/geo_topology/design_bodies.html",
+          "hash": "NqVF5J9OdQsIKONMZcccIS3f517KlkW4aXojdaoedIA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/geo_topology/design_curves.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/geo_topology/design_curves.html",
+          "hash": "oPP+niBMiQFLYVthDQroa1j4HrUAgfBkf6Kgh0BpjMg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/geo_topology/doc_obj_geo.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/geo_topology/doc_obj_geo.html",
+          "hash": "Lo54hYdZgLNY0rAvkPZKUaZTLE50AlbldEvJ3WaiFK4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/geo_topology/geo_topology.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/geo_topology/geo_topology.html",
+          "hash": "NzDePg7v69vz3VjhLbTm5Rl0eKycjWSCWqaOzHuXO3U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/geo_topology/shape_general.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/geo_topology/shape_general.html",
+          "hash": "qyofb6qyQbLzWwwWL4z0WoAFeSCF62ze3Q1xKa5KZ8E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/geo_topology/topology.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/geo_topology/topology.html",
+          "hash": "SKES58+8gppWPnmW5jzucz4Mca47GMvY/5/d5lHRQ6o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/geo_topology/unbound_geo_trim_obj.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/geo_topology/unbound_geo_trim_obj.html",
+          "hash": "3mXU0qOdhzEdHKHE/rIMJBw867k8eagN2TbJgM1xEE8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/id_objects/ID_during_export.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/id_objects/ID_during_export.html",
+          "hash": "6WR69eyQYHydnd3dpac8d6b31bsxtuabDnxvt2TRHAo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/id_objects/ID_objects.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/id_objects/ID_objects.html",
+          "hash": "MigboqCNzrR/conj0piAizh+TeYVPWqEKVoldFVIVXQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/id_objects/foreign_ID.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/id_objects/foreign_ID.html",
+          "hash": "J313VssmGxdWEduDxHA+2J5jG2LKpeKN4CTPITRClW0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/storing_custom_data/attribute_propagation.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/storing_custom_data/attribute_propagation.html",
+          "hash": "NlzaLIWFx0BOc+CLUGOknekOnpl5aqxV/OolohKWf30="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/storing_custom_data/custom_attributes.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/storing_custom_data/custom_attributes.html",
+          "hash": "fwsuibeIQXAX++2HWxS/xq1NBQLKeUBpL7wsxuf3Mls="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/storing_custom_data/doc_properties.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/storing_custom_data/doc_properties.html",
+          "hash": "VjvylH9he1S73+QGGIaRg/R8r8k3CwkuzLk+Fz4iLIQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/storing_custom_data/storing_custom_data.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/storing_custom_data/storing_custom_data.html",
+          "hash": "MNMutrcTEIQl+yCWwiGp9M6o5HUSFfnoAhTtNA5WV8Q="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/units/custom_conversion.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/units/custom_conversion.html",
+          "hash": "ntSmrlOkr5PYKQmQTMOeNdXLiGCFEIk9syGNtHuTmgg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/units/input_vals.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/units/input_vals.html",
+          "hash": "C86nJHqO3A47/nX1wWHceRwXkCvLWfpsQnZOFMHp/vw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/units/output_vals.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/units/output_vals.html",
+          "hash": "zlXN3LSBQ/9pEV4H04uGQ/PgzGKzUvHinE07qrv9Iz8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/units/system_units.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/units/system_units.html",
+          "hash": "gRQr2KwOknud0NlooDpj8foAEfcAH/++UWNA4zLDYh8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/architecture/units/units.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/architecture/units/units.html",
+          "hash": "bSvoDvs8n/w46LTkL7a/sA5zE6TAFAcyA3N4MT2W1+o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/changelog/V24-r2.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/changelog/V24-r2.html",
+          "hash": "aSmo0lwMbWkXx1z3Q+S8Xgzq93N4dl9doa1CXVtpDHM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/changelog/c_disco_api_addin_changelog.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/changelog/c_disco_api_addin_changelog.html",
+          "hash": "YCQUK4eUFlO+dXsc6a0g8BZraESfxJc42pIRirqQb9g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.html",
+          "hash": "lqTVBms5iiXwQVTxl//lMzjqeUK81QhAVo443Vd1kzE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin_gettingstarted.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin_gettingstarted.html",
+          "hash": "42Z2yrBR4VSXDmAdSo+cmcFMJofnnayipq5DHph3mVU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_create_csharp.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_create_csharp.html",
+          "hash": "OyMEeOiK2sEKunCCAEAsn5XjVAMbXPbPlV6ACl1cE8A="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_create_custom.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_create_custom.html",
+          "hash": "5ZvFxVq7XXbKbPyLxFiHTKfSjRO20CKaXYbizRpX0ZU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_object_wrappers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_object_wrappers.html",
+          "hash": "Yxasf0Mf/Dtb+tYDlRZIWf1kuf3ewMft0TdmWzlfqRg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_objects_custom_tree.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_objects_custom_tree.html",
+          "hash": "GXQa8OJg5OLUiDH9G/cehUvD+ark70gVO5Sp/3ouYUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.html",
+          "hash": "LgXLGjeXEV9tpQ6UEAe2fcsA6ZYT++B5UxFOD9nCvow="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.html",
+          "hash": "YwTnof9Ref6+Xlv2vZT3CsEzCVtavvT8rgp82tBTH5E="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.html",
+          "hash": "J7qsdhIe2CMME1gw7U4zAR1Ops2S0GPvEXyuQ+lmC18="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_samples.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_samples.html",
+          "hash": "xUxoVJZBWt4X/aOH65DIoP9hWgy9Mh3bQTZ0fHdOBfM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.html",
+          "hash": "Qc2728Dd+cO5CcBSwCL5wMsKwHXBniNWbDW70xlPTWI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_custom_wrappers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_custom_wrappers.html",
+          "hash": "Do3FmhETmvHBk5yepG3epxVifitwlkvCzZet+AazpEY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_discovery_custom_wrappers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_discovery_custom_wrappers.html",
+          "hash": "RSXzwDkPQ1EvYKzYQX3fOCHGS7pMfSe2jMdvS++q+qU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_physics_custom_wrappers.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_physics_custom_wrappers.html",
+          "hash": "GN4ZsFvSmPR5x23fKO3Lt8zOlSZxLki301uoD//loK0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/geometry_overview/topics/geo_doc_objects.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/geometry_overview/topics/geo_doc_objects.html",
+          "hash": "Xj5gBr0eWZ8DldKn0YB5C7S9Z8qrXkSoCv/tD0C2XwA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/geometry_overview/topics/geo_doc_structure.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/geometry_overview/topics/geo_doc_structure.html",
+          "hash": "tsHJQmrNDFouLYqzUGYivBCGE3sMdwDtJGKJFWqA+Lk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/geometry_overview/topics/geo_overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/geometry_overview/topics/geo_overview.html",
+          "hash": "DhYdrD9XyR2LE4PasB7i1iFUdJtTVqteGDPm5iPGsn4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/geometry_overview/topics/geo_part_structure.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/geometry_overview/topics/geo_part_structure.html",
+          "hash": "SNls9qM3lJ1fxspVZAXW4YPFjgasuVaPnFMGZhmauaU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/UDA/add_api/introduction/topics/disco_api_intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/UDA/add_api/introduction/topics/disco_api_intro.html",
+          "hash": "6qoCABPQQMjzJRhO4u4yDS+3Jzf3s1qA+JOCZlxhZAA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/api_geo_architecture.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/api_geo_architecture.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/api_geo_architecture.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/api_geo_architecture.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image001_-1210292702.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image001_-1210292702.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image001_-1977119144.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image001_-1977119144.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image001_-442329363.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image001_-442329363.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image002_-118000159.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image002_-118000159.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image002_-1195313335.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image002_-1195313335.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image002_-119644277.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image002_-119644277.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image002_-2042548837.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image002_-2042548837.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image002_-559470509.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image002_-559470509.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image002_-854738110.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image002_-854738110.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image002_1534273071.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image002_1534273071.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image002_575412888.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image002_575412888.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image002_830298129.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image002_830298129.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image003_-190035975.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image003_-190035975.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/clip_image003_840272926.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/clip_image003_840272926.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/custom_tree_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/custom_tree_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/custom_tree_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/custom_tree_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/geo_doc_structure.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/geo_doc_structure.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/ribbon_customization_groups.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/ribbon_customization_groups.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/ribbon_customization_tabs.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/ribbon_customization_tabs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/shape_general.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/shape_general.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/tool_customization.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/tool_customization.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/tool_customization_expanded_options.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/tool_customization_expanded_options.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/tool_customization_expanded_options_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/tool_customization_expanded_options_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/tool_customization_preferred_options.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/tool_customization_preferred_options.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/tool_customization_preferred_options_2.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/tool_customization_preferred_options_2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/tool_customization_tool_guide.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/tool_customization_tool_guide.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "articles/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/index.html",
+          "hash": "bBUv24VfcVEKJ9eW1Re3hClK6AVvBh80ZjGmMXprj2Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "sl7RlWLdTdx5QZTUCKEfK6vyq9l7yfOc8m9AzpCsAa0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "K0nx7Balv9Qde93ziWatH9S9uYgpyZs1v/4vQSkbhPQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "pP1OND5aBJNQiuX0kYnWUAcL6X1NBpUaPSXKY4Mm07k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 62,
+          "skipped_file_count": 61
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

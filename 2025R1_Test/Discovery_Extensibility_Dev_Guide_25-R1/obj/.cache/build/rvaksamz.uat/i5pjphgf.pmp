@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Creating manifest files </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Creating manifest files ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="creating-manifest-files" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="1">Creating manifest files</h1>
+
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="3">Discovery uses XML manifest files to describe add-ins. The manifest file provides two types of information:</p>
+<ul sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="5">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="5">Metadata (name, description). This is presented to the user in the Discovery Options dialog, even for disabled add-ins, which don't get loaded.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="6">Execution data (assembly, type name, hosting option). This is used to load the add-in when Discovery starts up.</li>
+</ul>
+<h2 id="discovery-of-add-ins" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="8">Discovery of add-ins</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="10">Discovery will search for manifest files in all of the following areas:</p>
+<ul sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="12">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="12">In folders beneath the add-ins folder: <code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="12">&lt;CommonApplicationData\&gt;\\Discovery\\AddIns</code>.
+<ul sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="13">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="13">The default location on the latest version of Windows is: <code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="13">C:\\ProgramData\\Discovery\\AddIns</code>.</li>
+</ul>
+</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="14">In folders beneath the Addins folder inside the Discovery installation folder.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="15">In the add-ins registry key: <code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="15">HKEY\_LOCAL\_MACHINE\\SOFTWARE\\Discovery\\AddIns</code>.
+<ul sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="16">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="16">A string value (REG_SZ or REG_EXPAND_SZ) may be added to this registry key to specify the path of a single manifest filename or the path of a folder where manifest files are located.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="17">Many of these string values can be added to the Addins registry key.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="18">The name of each string value is not significant, but it must be unique within the <strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="18">Addins</strong> registry key. Therefore a name such as <code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="18">BeachSoft.SurfingAddIn</code> is recommended.</li>
+</ul>
+</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="19">The manifest file specified by the /AddInManifestFile command line switch supplied when Discovery is run.
+<ul sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="20">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="20">Discovery.exe /AddInManifestFile=&quot;&lt;path of manifest file&gt;&quot;.</li>
+</ul>
+</li>
+</ul>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="22"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="22">Notes:</strong></p>
+<ol sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="24">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="24">Putting the manifest file in the ProgramData\Discovery\Addins directory is the approach to follow when an add-in should only be visible for a single user.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="25">Putting the manifest file in the Addins folder inside the Discovery installation folder typically requires Administrative privileges and should be done for add-ins that are installed as part of Discovery.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="26">Creating a string value in the add-ins registry is the recommended approach when a third party add-in is installed. This way, Discovery and the add-in do not need to know where each other is installed.</li>
+</ol>
+<h2 id="contents-of-manifest-files" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="28">Contents of manifest files</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="30">Here is an example manifest file:</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="32">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+&lt;AddIns&gt;
+  &lt;AddIn
+    name=&quot;Sample Add-in&quot;
+    description=”Sample commands illustrating how to use the API.”
+    assembly=&quot;SampleAddIn.dll&quot;
+    typename=”Sample.AddIn”
+    host=&quot;NewAppDomain&quot; /&gt;
+&lt;/AddIns&gt;
+
+</code></pre>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="45">The Addins element encloses a list of add-ins. A single manifest file can describe more than one add-in, although commonly it describes just one add-in.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="47">The <strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="47">AddIn</strong> element has five attributes.</p>
+<table sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="49">
+<thead>
+<tr sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="49">
+<th sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="49">Attribute</th>
+<th sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="49">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="51">
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="51">name</td>
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="51">The name of the add-in. This is presented to the user in the Options dialog.</td>
+</tr>
+<tr sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="52">
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="52">description</td>
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="52">The one-line description for the add-in is presented to the user in the Options dialog.</td>
+</tr>
+<tr sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="53">
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="53">assembly</td>
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="53">The filename or full path of the DLL that contains the add-in. If the assembly attribute only specifies a filename and not a full path, the assembly will be assumed to be in the same folder as the manifest file.</td>
+</tr>
+<tr sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="54">
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="54">typename</td>
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="54">The type of the add-in class to create when Discovery starts up. This type must be derived from AddIn and must implement the IExtensibility interface.</td>
+</tr>
+<tr sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="55">
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="55">host</td>
+<td sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="55">The way in which the add-in should be hosted. The only supported value for Discovery is: SameAppDomain. The SpaceClaim options NewAppDomain or NewProcess are related to .NetRemoting, which is not supported in Discovery.</td>
+</tr>
+</tbody>
+</table>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="57">Only the host attribute has a default value if not present. All other attributes must be specified.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="59">While developing an add-in, the add-ins folder can be used in one of two ways:</p>
+<ol sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="61">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="61">Place the add-in assembly and its manifest file in a folder inside the add-ins folder. You can set the build output path directly to this folder to save any copying and set the properties of the manifest file so that it is copied to the output directory. In the manifest file, specify the add-in filename (not the full path) in the assembly attribute.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="62">Place the manifest file in the add-ins folder, and the add-in assembly in a folder</li>
+</ol>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="64"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="64">Customizing the ribbon</strong></p>
+<ol sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="66">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="66">If the add-in needs to customize the ribbon it will implement the IRibbonExtensibility interface.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md" sourcestartlinenumber="67">In the GetCustomUI method, return a string that contains the XML description of the items to be added to the ribbon.</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ansys/DevRelDocs/blob/jlw_extensibility_guide_updates/2024R2/Discovery_Extensibility_Dev_Guide_24-R2/articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

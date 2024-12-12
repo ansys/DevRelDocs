@@ -1,0 +1,248 @@
+﻿
+<div id="sidetoggle">
+  <div>
+    <div class="sidefilter">
+      <form class="toc-filter">
+        <span class="glyphicon glyphicon-filter filter-icon"></span>
+        <span class="glyphicon glyphicon-remove clear-icon" id="toc_filter_clear"></span>
+        <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+      </form>
+    </div>
+    <div class="sidetoc">
+      <div class="toc" id="toc">
+          
+          <ul class="nav level1">
+                <li>
+                    <a href="UDA/add_api/introduction/topics/disco_api_intro.html" name="" title="Introduction">Introduction</a>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.html" name="" title="Creating Add-in applications">Creating Add-in applications</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_addin_gettingstarted.html" name="" title="Getting started">Getting started</a>
+                          </li>
+                          <li>
+                              <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_create_csharp.html" name="" title="Creating a C# add-in">Creating a C# add-in</a>
+                          </li>
+                          <li>
+                              <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.html" name="" title="Creating manifest files">Creating manifest files</a>
+                          </li>
+                          <li>
+                              <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_create_custom.html" name="" title="Creating custom commands">Creating custom commands</a>
+                          </li>
+                          <li>
+                              <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.html" name="" title="Customizing the ribbon">Customizing the ribbon</a>
+                          </li>
+                          <li>
+                              <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.html" name="" title="Customizing tools">Customizing tools</a>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_objects_custom_tree.html" name="" title="Custom objects and custom tree">Custom objects and custom tree</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <span class="expand-stub"></span>
+                                        <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_object_wrappers.html" name="" title="Custom object wrappers">Custom object wrappers</a>
+                                        
+                                        <ul class="nav level4">
+                                              <li>
+                                                  <a href="UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_custom_wrappers.html" name="" title="CustomWrapper">CustomWrapper</a>
+                                              </li>
+                                              <li>
+                                                  <a href="UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_discovery_custom_wrappers.html" name="" title="DiscoveryCustomWrapper">DiscoveryCustomWrapper</a>
+                                              </li>
+                                              <li>
+                                                  <a href="UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_physics_custom_wrappers.html" name="" title="PhysicsCustomWrapper">PhysicsCustomWrapper</a>
+                                              </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.html" name="" title="Custom tree">Custom tree</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <a href="UDA/add_api/creating_addin_apps/topics/c_disco_api_samples.html" name="" title="Sample projects">Sample projects</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="UDA/add_api/geometry_overview/topics/geo_overview.html" name="" title="Geometry API overview">Geometry API overview</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="UDA/add_api/geometry_overview/topics/geo_doc_objects.html" name="" title="Doc objects">Doc objects</a>
+                          </li>
+                          <li>
+                              <a href="UDA/add_api/geometry_overview/topics/geo_doc_structure.html" name="" title="Document structure">Document structure</a>
+                          </li>
+                          <li>
+                              <a href="UDA/add_api/geometry_overview/topics/geo_part_structure.html" name="" title="Part structure">Part structure</a>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="UDA/add_api/architecture/c_disco_api_architecture.html" name="" title="Geometry architecture">Geometry architecture</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="UDA/add_api/architecture/doc_objects/document_doc_objects.html" name="" title="Documents and doc objects">Documents and doc objects</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="UDA/add_api/architecture/doc_objects/parent_child_hierarchy.html" name="" title="Parent-child hierarchy">Parent-child hierarchy</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/doc_objects/parts_components.html" name="" title="Parts and components">Parts and components</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/doc_objects/occurrence_chains.html" name="" title="Occurrence chains">Occurrence chains</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/doc_objects/gen_objects_masters.html" name="" title="General objects and masters">General objects and masters</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/doc_objects/originals_masters.html" name="" title="Originals and masters">Originals and masters</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/doc_objects/transform_master_space.html" name="" title="Transforming to master-space">Transforming to master-space</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/doc_objects/getting_occurrences.html" name="" title="Getting cccurrences">Getting cccurrences</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="UDA/add_api/architecture/application_integration/app_integration.html" name="" title="Application integration">Application integration</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="UDA/add_api/architecture/application_integration/persist_ids.html" name="" title="Persistent identifiers">Persistent identifiers</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/application_integration/replacements.html" name="" title="Replacements">Replacements</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/application_integration/update_states.html" name="" title="Update states">Update states</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="UDA/add_api/architecture/storing_custom_data/storing_custom_data.html" name="" title="Storing custom data">Storing custom data</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="UDA/add_api/architecture/storing_custom_data/doc_properties.html" name="" title="Document properties">Document properties</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/storing_custom_data/custom_attributes.html" name="" title="Custom attributes">Custom attributes</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/storing_custom_data/attribute_propagation.html" name="" title="Attribute propagation">Attribute propagation</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="UDA/add_api/architecture/id_objects/ID_during_export.html" name="" title="Identifiers during export">Identifiers during export</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="UDA/add_api/architecture/id_objects/ID_objects.html" name="" title="Identifying objects in ACIS and Parasolid files">Identifying objects in ACIS and Parasolid files</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/id_objects/foreign_ID.html" name="" title="Foreign identifiers during import and export">Foreign identifiers during import and export</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="UDA/add_api/architecture/geo_topology/geo_topology.html" name="" title="Geometry and topology">Geometry and topology</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="UDA/add_api/architecture/geo_topology/unbound_geo_trim_obj.html" name="" title="Unbounded geometry and trimmed objects">Unbounded geometry and trimmed objects</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/geo_topology/topology.html" name="" title="Topology">Topology</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/geo_topology/doc_obj_geo.html" name="" title="Doc objects and geometry">Doc objects and geometry</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/geo_topology/design_curves.html" name="" title="Design curves">Design curves</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/geo_topology/design_bodies.html" name="" title="Design bodies">Design bodies</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/geo_topology/shape_general.html" name="" title="Shape in general">Shape in general</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="UDA/add_api/architecture/accuracy/accuracy.html" name="" title="Accuracy">Accuracy</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="UDA/add_api/architecture/accuracy/linear_angular_res.html" name="" title="Linear and angular resolution">Linear and angular resolution</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/accuracy/compare_angles_lengths.html" name="" title="Comparing lengths and angles">Comparing lengths and angles</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/accuracy/compare_xyz.html" name="" title="Comparing XYZ objects">Comparing XYZ objects</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/accuracy/compare_uv.html" name="" title="Comparing UV objects">Comparing UV objects</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/accuracy/compare_geo.html" name="" title="Comparing geometry">Comparing geometry</a>
+                                    </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <span class="expand-stub"></span>
+                              <a href="UDA/add_api/architecture/units/units.html" name="" title="Units">Units</a>
+                              
+                              <ul class="nav level3">
+                                    <li>
+                                        <a href="UDA/add_api/architecture/units/system_units.html" name="" title="System units and user units">System units and user units</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/units/output_vals.html" name="" title="Outputting values">Outputting values</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/units/input_vals.html" name="" title="Inputting values">Inputting values</a>
+                                    </li>
+                                    <li>
+                                        <a href="UDA/add_api/architecture/units/custom_conversion.html" name="" title="Custom conversions">Custom conversions</a>
+                                    </li>
+                              </ul>
+                          </li>
+                    </ul>
+                </li>
+                <li>
+                    <span class="expand-stub"></span>
+                    <a href="UDA/add_api/changelog/c_disco_api_addin_changelog.html" name="" title="Changelog">Changelog</a>
+                    
+                    <ul class="nav level2">
+                          <li>
+                              <a href="UDA/add_api/changelog/V24-r2.html" name="" title="Version 2024 R2">Version 2024 R2</a>
+                          </li>
+                    </ul>
+                </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</div>

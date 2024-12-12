@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Design curves </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Design curves ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="design-curves" sourcefile="articles/UDA/add_api/architecture/geo_topology/design_curves.md" sourcestartlinenumber="1">Design curves</h1>
+
+<p sourcefile="articles/UDA/add_api/architecture/geo_topology/design_curves.md" sourcestartlinenumber="3">Design curves are what the end user refers to as <em sourcefile="articles/UDA/add_api/architecture/geo_topology/design_curves.md" sourcestartlinenumber="3">sketch curves</em>. They're called <em sourcefile="articles/UDA/add_api/architecture/geo_topology/design_curves.md" sourcestartlinenumber="3">design curves</em> in the API for consistency with design bodies, design faces, and design edges.</p>
+<p sourcefile="articles/UDA/add_api/architecture/geo_topology/design_curves.md" sourcestartlinenumber="5">A DesignCurve is a doc object, which has a trimmed curve Shape.</p>
+<pre><code sourcefile="articles/UDA/add_api/architecture/geo_topology/design_curves.md" sourcestartlinenumber="7">public static void Example(Part part) {
+	Line line = Line.Create(Point.Origin, Direction.DirX);
+	ITrimmedCurve shape = CurveSegment.Create(line, Interval.Create(-0.01, 0.01));
+
+	// create a design curve
+	DesignCurve desCurve = DesignCurve.Create(part, Plane.PlaneXY, shape);
+
+	// the Shape property returns the trimmed curve
+	Debug.Assert(Accuracy.EqualLengths(desCurve.Shape.Length, 0.02));
+
+	// override the layer color
+	desCurve.SetColor(null, Color.DarkSalmon);
+}
+
+</code></pre>
+<p sourcefile="articles/UDA/add_api/architecture/geo_topology/design_curves.md" sourcestartlinenumber="24">A design curve has other properties that are outside the concept of a trimmed curve, such as layer, color override, and name.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ansys/DevRelDocs/blob/jlw_extensibility_guide_updates/2024R2/Discovery_Extensibility_Dev_Guide_24-R2/articles/UDA/add_api/architecture/geo_topology/design_curves.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

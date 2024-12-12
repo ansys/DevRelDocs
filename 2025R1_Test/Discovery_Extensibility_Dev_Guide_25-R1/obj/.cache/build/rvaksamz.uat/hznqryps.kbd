@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Foreign identifiers during import and export </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Foreign identifiers during import and export ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="foreign-identifiers-during-import-and-export" sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="1">Foreign identifiers during import and export</h1>
+
+<p sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="3">There may be a requirement to import a model from another system, modify it in Discovery, and then export it again, such that the other system can track the identity of faces and edges during this round trip.</p>
+<p sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="5">When importing an ACIS or Parasolid file, if any body, face, or edge entities have <em sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="5">id</em> attributes, these are converted to Discovery text attributes on the resulting design body, design face, or design edge masters. These text attributes have the reserved name: <code sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="5">@id</code>.</p>
+<ul sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="7">
+<li sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="7">An ACIS <em sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="7">id</em> attribute is a &quot;named attribute&quot; <code sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="7">\(ATTRIB\_GEN\_NAME\)</code> with the attribute name: <code sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="7">ATTRIB\_XACIS\_ID</code>.</li>
+<li sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="8">A Parasolid <em sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="8">id</em> attribute has the name, <code sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="8">ATTRIB\_XPARASOLID\_ID</code>, and has an attribute definition, which is described in the documentation for the <code sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="8">Part.Export</code> method.</li>
+</ul>
+<p sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="10">Attributes applied to doc object masters are propagated if the object is replaced. For example, if a design face has a text attribute, and this face is split during a modeling operation, the replacement design face fragments will also carry the same text attribute.</p>
+<p sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="12">When exporting an ACIS or Parasolid file, if any design bodies, design faces, or design edges have text attributes with the name, <code sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="12">@id</code>, these are written as <em sourcefile="articles/UDA/add_api/architecture/id_objects/foreign_ID.md" sourcestartlinenumber="12">id</em> attributes applied to resulting ACIS or Parasolid entities.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ansys/DevRelDocs/blob/jlw_extensibility_guide_updates/2024R2/Discovery_Extensibility_Dev_Guide_24-R2/articles/UDA/add_api/architecture/id_objects/foreign_ID.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

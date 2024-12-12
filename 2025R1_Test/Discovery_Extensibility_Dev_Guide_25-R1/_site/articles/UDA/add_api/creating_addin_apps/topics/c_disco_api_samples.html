@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sample projects </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Sample projects ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="sample-projects">Sample projects</h1>
+
+<p>The Sample Add-in project (C#) contains programming examples of how to use various areas of functionality in the API.</p>
+<table>
+<thead>
+<tr>
+<th>Sample Project</th>
+<th>Version</th>
+<th>Language</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Discovery Basic Template #1: Command Example</strong><br><br>Demonstrates how to create an add-in and use a command to create a sample block.</td>
+<td>API V242</td>
+<td>C#</td>
+<td><a href="https://innovationspace.ansys.com/ais-discovery/">Visit the Ansys Discovery Space</a></td>
+</tr>
+<tr>
+<td><strong>Discovery Basic Template #2: Tool Example</strong><br><br>Demonstrates how to define a button that activates a tool on the HUD. The tool has a text box for double values and a second toolbox for an example physical quantity temperature. A check box allows you to switch between the two text boxes, chaining their visibility and keeping values in sync between the two fields.</td>
+<td>API V242</td>
+<td>C#</td>
+<td><a href="https://innovationspace.ansys.com/ais-discovery/">Visit the Ansys Discovery Space</a></td>
+</tr>
+<tr>
+<td><strong>Discovery Basic Template Installer #3: Custom Object/Custom Tree Example</strong><br><br>Includes the functionality from the Discovery Basic Template #2: Tool Example and adds functionality to create a custom object that is displayed in the custom tree. The example shows how to link the custom object with the tool properties displayed in the HUD.</td>
+<td>API V242</td>
+<td>C#</td>
+<td><a href="https://innovationspace.ansys.com/ais-discovery/">Visit the Ansys Discovery Space</a></td>
+</tr>
+<tr>
+<td><strong>Sample Add-in</strong><br><br><strong>Copy Component</strong> - Show how to create a new translated component instance.<br><br><strong>Create Assembly</strong> - Shows how to create a simple assembly with two positioned instances of one part, and one instance of another part.<br><br><strong>Create Block</strong> - Shows how to create a block by extruding a rectangular profile.<br><br><strong>Create Gear</strong> - Shows how to create a simple gear by extruding a complex profile involving lines and arcs.<br><br><strong>Create Hole</strong> - Shows how to create a hole by subtracting a cylinder.<br><br><strong>Create Notes</strong> - Shows how to create an annotation plane and then create notes at various angles, with different fonts and colors.<br><br><strong>Create Torus</strong> - Shows how to create a torus by sweeping a circular profile around a larger circle.<br><br><strong>Export</strong> - Shows how to export a document in various file formats.<br><br><strong>Find Matching Faces</strong> - Shows how to traverse bodies and faces in an assembly and compare their geometry.<br><br><strong>Scene Graph</strong> - Creates a scene graph.<br><br><strong>Select Loop</strong> - Shows how to access the topology of a body and traverse edges, loops and fins.<br><br><strong>Sketch Tool</strong> - Shows how to create an interaction tool for sketching lines.<br><br><strong>Spin Component</strong> - Demonstrates animation by rotating selected component.<br><br><strong>Profile Tool</strong> - Shows how to create and modify a custom object using an interaction tool.</td>
+<td>API V242</td>
+<td>C#</td>
+<td><a href="https://innovationspace.ansys.com/ais-discovery/">Visit the Ansys Discovery Space</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="building-the-sample-add-in-project">Building the sample add-in project</h2>
+<ol>
+<li><p>Download the SampleAddin zip file and unzip it.</p>
+<p><strong>Note:</strong> Note: Use the Extract All command on the content menu in Windows Explorer.</p>
+</li>
+<li><p>In the extracted folder, locate the reference to the NuGet package (NuGet.config) and delete it.</p>
+</li>
+<li><p>Launch Visual Studio and open the project file (SampleAddin.csproj). Alternatively, you may double-click the project file and open it with Visual Studio.</p>
+</li>
+<li><p>In the Solution Explorer in Visual Studio, right-click References and select Add Reference.</p>
+</li>
+<li><p>In the Reference Manager, select the Browse tab. Locate the API assembly in the subfolder inside the Discovery Installation folder. Right-click this reference and set Copy Local to False.</p>
+</li>
+<li><p>Build the project is Visual Studio.</p>
+<p><strong>Note:</strong> Build the project using x64.</p>
+</li>
+<li><p>Launch Discovery.</p>
+<p>The Sample Add-in will appear in the Discovery Ribbon.</p>
+</li>
+</ol>
+<p><strong>Note:</strong> Samples that require a beta version of the API must reference that beta version.</p>
+<p><strong>Note:</strong> To build the samples or any add-in, .NET 4.8 is required. If .NET 4.8 is not available to build with in your version of Visual Studio, the Microsoft .NET Framework 4.8 Developer Pack can be downloaded and installed for Visual Studio 2017 and Visual Studio 2019.</p>
+<p><strong>Note:</strong> Sample projects have their build output path set to a folder beneath <code>%ALLUSERSPROFILE%\\SpaceClaim\\AddIns</code>, which means Discovery will automatically find the add-in at start-up (see Manifest Files).</p>
+<h2 id="add-ins-frequently-asked-questions">Add-ins frequently asked questions</h2>
+<ol>
+<li><p><strong>What can I do when my add-in project can’t build because it’s missing references or packages? Add-ins require several Discovery DLL libraries:</strong></p>
+<p><code>Discovery.API.2X</code></p>
+<p><code>SpaceClaim.API.2X</code></p>
+<p><code>SpaceClaim.API.2X.Internal</code></p>
+</li>
+<li><p><strong>What can I do when my add-in project is built, but I can’t see it in Discovery?</strong></p>
+<p>Either the add-in is not completely built, or it is just not visible on Discovery.</p>
+<p>Check Discovery Settings &gt; Add-in and determine if the add-in is present. If it’s found, go to the Ribbon section in the advanced part.</p>
+<p>If the add-in is not found, verify that the add-in output files are configured for the Program Data folder. The manifest file will also appear there.</p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ansys/DevRelDocs/blob/jlw_extensibility_guide_updates/2024R2/Discovery_Extensibility_Dev_Guide_24-R2/articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_samples.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>
