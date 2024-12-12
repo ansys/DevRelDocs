@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Creating add-in applications </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Creating add-in applications ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="creating-add-in-applications" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="1">Creating add-in applications</h1>
+
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="3">The Discovery Application Programming Interface (API) Developer Guide contains documentation and samples that allow you to create add-in applications that extend the functionality of Discovery. An add-in is a managed code DLL that uses the Discovery API. The API version referred to in this document is API.V22.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="5">This document contains information on the following:</p>
+<ul sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="7">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="7">The basic infrastructure for add-in customization.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="8">How to add custom elements to the User Interface.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="9">An overview of the geometry architecture.</li>
+</ul>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="12">This section contains the following topics:</p>
+<ul sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="14">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="14"><p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="14"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="14"><a href="c_disco_api_addin_gettingstarted.html" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="14">Getting started</a></strong></p>
+</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="16"><p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="16"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="16"><a href="c_disco_api_create_csharp.html" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="16">Creating a C# add-in</a></strong></p>
+</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="18"><p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="18"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="18"><a href="c_disco_api_manifest.html" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="18">Creating manifest files</a></strong></p>
+</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="20"><p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="20"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="20"><a href="c_disco_api_create_custom.html" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="20">Creating custom commands</a></strong></p>
+</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="22"><p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="22"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="22"><a href="c_disco_api_ribbon_customize.html" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="22">Customizing the ribbon</a></strong></p>
+</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="24"><p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="24"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="24"><a href="c_disco_api_tool_customize.html" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="24">Customizing tools</a></strong></p>
+</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="26"><p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="26"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="26"><a href="c_disco_api_custom_objects_custom_tree.html" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="26">Custom objects and custom tree</a></strong></p>
+</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="28"><p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="28"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="28"><a href="c_disco_api_samples.html" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md" sourcestartlinenumber="28">Sample projects</a></strong></p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ansys/DevRelDocs/blob/jlw_extensibility_guide_updates/2024R2/Discovery_Extensibility_Dev_Guide_24-R2/articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

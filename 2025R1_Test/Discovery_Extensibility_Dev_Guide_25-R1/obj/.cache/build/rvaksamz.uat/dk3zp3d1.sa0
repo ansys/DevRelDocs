@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Customizing the ribbon </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Customizing the ribbon ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="customizing-the-ribbon" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="1">Customizing the ribbon</h1>
+
+<h2 id="ribbon-customization" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="3">Ribbon customization</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="5">In Discovery, add-ins can be used to customize the user interface for their workflows. A good place to start with workflow customization is the ribbon. The ribbon is a graphical control element that appears along a horizontal strip at the top edge of an application window and can be used to organize related commands so that they are easier to find. It is the location in the user-interface where tabs like &quot;Design&quot; and &quot;Simulation&quot; are found. Typically, a ribbon includes tabbed toolbars that are filled with graphical buttons and other graphical control elements and grouped by functionality.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="7">Each add-in can have its own tab or tabs in the ribbon to display and organize the tools created in the add-in.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="9">To customize the ribbon, an add-in implements the IRibbonExtensibility interface. When Discovery is started it calls the add-in’s <code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="9">IRibbonExtensibility.GetCustomUI</code> method, and the add-in returns a string that contains an XML description of the changes to be made to the ribbon. The add-in can add new UI objects to the ribbon or change existing ones.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="11">Each UI object such as buttons, check boxes, etc. must be associated with a previously created Command. The command handles the setting of the UI object's text, image, tool tip, and any events that are raised.</p>
+<h2 id="tabs" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="13">Tabs</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="15">Add-ins can add a new tab to the ribbon.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="17"><img src="../../../../images/ribbon_customization_tabs.png" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="17" alt=""></p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="19">Below is the XML code you can use to create the ribbon tab.</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="21">&lt;customUI 
+	  xmlns=&quot;http://schemas.spaceclaim.com/customui&quot; 
+	  xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; 
+	  xsi:schemaLocation=&quot;http://schemas.spaceclaim.com/customui 	          	  
+         http://schemas.spaceclaim.com/customui/SpaceClaimCustomUI.V20.xsd&quot;&gt;   
+ &lt;ribbon&gt; 
+    &lt;tabs&gt; 
+      &lt;tab id=&quot;Discovery DiscoverySampleAddIn&quot; command=&quot;DiscoverySampleAddIn.RibbonTab&quot; label = “My Tab”&gt; 
+        &lt;group id =&quot;Geometry&quot; command=&quot;DiscoverySampleAddIn.Geometry&quot; label=&quot;Geometry&quot;&gt; 
+	  &lt;button id=&quot;DiscoverySampleAddIn.CreateBlock&quot; size=&quot;large&quot; command=&quot;DiscoverySampleAddIn.CreateBlock&quot;/&gt; 
+        &lt;/group&gt; 
+        &lt;group id =&quot;Tool&quot; command=&quot;DiscoverySampleAddIn.Tool&quot; label=&quot;Tool&quot;&gt; 
+	  &lt;button id=&quot;DiscoverySampleAddIn.button1&quot; size=&quot;large&quot; command=&quot;DiscoverySampleAddIn.FooTool&quot;/&gt; 
+	&lt;/group&gt; 
+	&lt;group id =&quot;Object&quot; command=&quot;DiscoverySampleAddIn.Object&quot; label=&quot;Object&quot;&gt; 
+	  &lt;button id=&quot;DiscoverySampleAddIn.button2&quot; size=&quot;large&quot; command=&quot;DiscoverySampleAddIn.BarTool&quot;/&gt; 
+	&lt;/group&gt; 
+      &lt;/tab&gt; 
+    &lt;/tabs&gt; 
+  &lt;/ribbon&gt; 
+&lt;/customUI&gt; 
+
+</code></pre>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="46">The XML content that defines the ribbon should be placed into the customUI tags. Under the ribbon tag, you can define a new tab using the tab object. It has the following three attributes:</p>
+<ul sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="48">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="48">tab id</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="49">label (optional)</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="50">command (optional)</li>
+</ul>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="52">If a label is defined, it is used as the displayed name on the user-interface. If the label is not defined, the tab id is used as the displayed name.</p>
+<h2 id="groups" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="54">Groups</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="56">A tab is the collection of buttons, but the buttons can be further categorized using &quot;groups.&quot; Groups are useful to bring relevant buttons together and give them more context.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="58"><img src="../../../../images/ribbon_customization_groups.png" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="58" alt=""></p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="60">In the example above, &quot;geometry,&quot; &quot;material properties,&quot; etc. are groups that contain relevant buttons and functionalities.</p>
+<h2 id="buttons" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="62">Buttons</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="64">Buttons are the controls that can be used to execute a function (like the activation of a tool). When defining the buttons in the customUI XML, you need to define its identifier (display name), command, and the size of the button. The size of the button should be defined as &quot;large&quot; for standard buttons requiring a row or &quot;small&quot; for mini buttons that require less space. Below is the schema file that contains examples.</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="66">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; 
+&lt;customUI 
+  xmlns=&quot;http://schemas.spaceclaim.com/customui&quot; 
+  xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; 
+  xsi:schemaLocation=&quot;http://schemas.spaceclaim.com/customui http://schemas.spaceclaim.com/customui/SpaceClaimCustomUI.V20.xsd&quot;&gt; 
+  &lt;ribbon&gt; 
+   &lt;tabs&gt; 
+      &lt;tab id=&quot;Discovery DiscoverySampleAddIn&quot; command=&quot;DiscoverySampleAddIn.RibbonTab&quot;&gt; 
+        &lt;group id =&quot;Geometry&quot; command=&quot;DiscoverySampleAddIn.Geometry&quot; label=&quot;Geometry&quot;&gt; 
+          &lt;button id=&quot;DiscoverySampleAddIn.CreateBlock&quot; size=&quot;large&quot; command=&quot;DiscoverySampleAddIn.CreateBlock&quot;/&gt; 
+        &lt;/group&gt; 
+        &lt;group id =&quot;Tool&quot; command=&quot;DiscoverySampleAddIn.Tool&quot; label=&quot;Tool&quot;&gt; 
+          &lt;button id=&quot;DiscoverySampleAddIn.button1&quot; size=&quot;large&quot; command=&quot;DiscoverySampleAddIn.FooTool&quot;/&gt; 
+        &lt;/group&gt; 
+        &lt;group id =&quot;Object&quot; command=&quot;DiscoverySampleAddIn.Object&quot; label=&quot;Object&quot;&gt; 
+          &lt;button id=&quot;DiscoverySampleAddIn.button2&quot; size=&quot;large&quot; command=&quot;DiscoverySampleAddIn.BarTool&quot;/&gt; 
+        &lt;/group&gt; 
+      &lt;/tab&gt; 
+  &lt;/tabs&gt; 
+  &lt;/ribbon&gt; 
+&lt;/customUI&gt; 
+</code></pre>
+<h2 id="customizing-the-file-menu" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="90">Customizing the file menu</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="92">Additionally, custom buttons can be added to the file menu (at the top left, under the Discovery icon).</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="94">To add custom buttons to the file menu, encapsulate the tool buttons with &lt;menu&gt; &lt;menu/&gt;.</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md" sourcestartlinenumber="96">&lt;ribbon&gt; 
+    &lt;menu&gt; 
+      &lt;button id=&quot;DiscoverySampleAddIn.Button1Tool&quot; position=&quot;save&quot; command=&quot; DiscoverySampleAddIn.Button1Tool&quot;/&gt; 
+      &lt;button id=&quot; DiscoverySampleAddIn.CustomTestTool3&quot; position=&quot;close&quot; command=&quot; DiscoverySampleAddIn.CustomTestTool3&quot;/&gt; 
+    &lt;/menu&gt; 
+&lt;/ribbon 
+</code></pre>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ansys/DevRelDocs/blob/jlw_extensibility_guide_updates/2024R2/Discovery_Extensibility_Dev_Guide_24-R2/articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

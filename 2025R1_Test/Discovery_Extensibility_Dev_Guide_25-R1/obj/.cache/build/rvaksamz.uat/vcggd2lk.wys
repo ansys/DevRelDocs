@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Custom tree </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Custom tree ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="custom-tree" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="1">Custom tree</h1>
+
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="3">Discovery uses trees to represent objects for geometry and physics. Add-ins can use the custom tree to display their own custom objects.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="5">Within an add-in a custom tree is defined by implementing the <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="5">ITreeHierarchy</em>interface. The class that implements <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="5">ITreeHierarchy</em>interface must be marked with the attribute</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="7">[Export(typeof(ITreeHierarchy))] 
+</code></pre>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="11">Using Managed Extensibility FrameWork (MEF), Discovery collects the classes that implement <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="11">ITreeHierarchy</em> and adds them to the application at the startup.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="13">The interface has the properties below that a custom tree can define and modify.</p>
+<ul sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="15">
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="15"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="15">ID</strong>: identifier for custom tree.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="16"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="16">TreeName</strong>: user visible name for the custom tree.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="17"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="17">DefaultGroup</strong>: default group for custom tree items.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="18"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="18">RootGroups</strong>: list of the items that displayed as root nodes.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="19"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="19">SubGroupMapping</strong>: dictionary to define the hierarchy in tree items. Key is the parent node, value is the list of child nodes.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="20"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="20">GroupsToDisplayName</strong>: dictionary to match the tree groups and their display names on the tree.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="21"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="21">GroupsToImages</strong>: dictionary to match the tree groups and their images.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="22"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="22">DefaultGroupThreshold</strong>: minimum number of items required to form a group value of 0 or 1 groups immediately of -1 or lower never groups</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="23"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="23">UseParentGroupingThresholds</strong>: whether subgroups will use the same threshold and other rules as the parent group</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="24"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="24">CountIndirectChildren</strong>: if true, counts direct non-group children and counts each direct subgroup child as its indirect children, else counts each direct subgroup as 1</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="25"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="25">IgnoreThresholdAfterFirstSubGroup</strong>: when true, groups will ignore its threshold and will form immediately if it contains a subgroup and anything else</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="26"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="26">UseDeepGrouping</strong>: when true, grouping will be applied to the children of every node in the tree instead of just the root node</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="27"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="27">GroupsToImageKeys</strong>: when true, enables you to change the grouping of objects using drag and drop</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="28"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="28">RootNodeImageKey</strong>: image key for the root node.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="29"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="29">StageIdentifiers</strong>: identifiers of stages where this tree will be displayed.</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="30"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="30">IsDragEnabled</strong>: when true, enables you to change the grouping of objects using drag and drop</li>
+<li sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="31"><strong sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="31">CanDrop</strong>: allows add-in control on enabling/disabling the target of the drop</li>
+</ul>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="33">The <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="33">Custom tree</em> definition is flexible in terms of its hierarchy and how objects are represented with respect to each other. The drag and drop feature also enables changing the hierarchy during the session. As noted in the previous section, the specification of a <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="33">TreeParent</em> for a custom objects overrides the group definition.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="35">![](../../../../images/custom_tree_1.png alt-text=&quot;Custom objects are organized in linear form.&quot;)</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="37">![](../../../../images/custom_tree_2.png alt-text=&quot;Object 1 is nested into object 3.&quot;)</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="39">By using the <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="39">StageIdentifer</em> property add-ins can control the visibility of the custom tree based upon the current stage. The <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="39">Custom Tree</em>will only show in the stages specified in the <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="39">StageIdentifers</em> list and won’t be displayed in the other stages. In the figures below, the tree is shown in the <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="39">CustomStage</em> that the add-in defined, but it is not shown in the <em sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md" sourcestartlinenumber="39">Refine</em> stage.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ansys/DevRelDocs/blob/jlw_extensibility_guide_updates/2024R2/Discovery_Extensibility_Dev_Guide_24-R2/articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

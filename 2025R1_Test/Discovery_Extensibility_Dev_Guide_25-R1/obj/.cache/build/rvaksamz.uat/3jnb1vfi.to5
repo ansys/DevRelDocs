@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Customizing tools </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Customizing tools ">
+    <meta name="generator" content="docfx 2.59.4.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="customizing-tools" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="1">Customizing tools</h1>
+
+<h2 id="custom-tool" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="3">Custom tool</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="5">In Discovery, a tool is defined as a piece of functionality related to geometry manipulation (for example, the Pull tool for geometry extrusion) or a physical condition definition (for example, the creation of a Force). The definition of a tool requires user inputs, called tool options.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="7">In the C# code, a tool is defined by a class derived from <code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="7">SpaceClaim.Api.V22.Tool</code>. The OptionsXml property defines the layout of the panel that contains the tool options, like the ribbon XML.</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="9">class CustomTool : Tool  
+{ 
+	public CustomTool() 
+			: base(InteractionMode.Solid) {} 
+      /* 
+       * Defines an options panel for the custom tool. 
+       */ 
+	public override string OptionsXml  
+     { 
+		get { return Resources.CustomToolOptions; } 
+     } 
+}
+</code></pre>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="24">This XML defines the layout and structure of the options panel for a custom tool.</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="26">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt; 
+&lt;customUI xmlns=&quot;http://schemas.spaceclaim.com/customui&quot;&gt; 
+  &lt;panel command=&quot;DiscoverySampleAddIn.BarTool&quot; label=&quot;Tool&quot; modeLabel=&quot;TextBox&quot;&gt; 
+    &lt;group id=&quot;DiscoverySampleAddIn.BarToolGuide&quot; label=&quot;Tool Guides&quot; optionsType=&quot;toolGuide&quot;&gt; 
+      &lt;button id=&quot;DiscoverySampleAddIn.TickMark&quot; command=&quot;DiscoverySampleAddIn.TickMark&quot;/&gt; 
+    &lt;/group&gt; 
+    &lt;group id=&quot;DiscoverySampleAddIn.BarTool&quot; label=&quot;Textbox Options&quot; optionsType=&quot;primary&quot;&gt; 
+      &lt;container id=&quot;DiscoverySampleAddIn.BarToolContainer&quot; layoutOrientation=&quot;vertical&quot;&gt; 
+        &lt;textBox id=&quot;DiscoverySampleAddIn.CustomObjetMagnitude&quot; command=&quot;DiscoverySampleAddIn.CustomObjectMagnitude&quot; width=&quot;80&quot; label=&quot;Double only:&quot; /&gt; 
+      &lt;/container&gt; 
+    &lt;/group&gt; 
+  &lt;/panel&gt; 
+&lt;/customUI&gt; 
+</code></pre>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="42"><img src="../../../../images/tool_customization.png" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="42" alt=""></p>
+<h2 id="tool-guide" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="44">Tool guide</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="46">Another configurable tool item by the add-ins is the tool guide. It is a short cut for reaching tools from various tabs quickly.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="48"><img src="../../../../images/tool_customization_tool_guide.png" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="48" alt=""></p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="50">&lt;group id=&quot; DiscoverySampleAddIn.CustomTestTool3ToolGuideGroup1&quot; label=&quot;Tool Guides 1&quot; optionsType=&quot;toolGuide&quot;&gt; 
+	&lt;button id=&quot; DiscoverySampleAddIn.CustomTestTool3ToolGuide&quot; command=&quot; DiscoverySampleAddIn.TextBoxTool&quot;/&gt; 
+	&lt;button id=&quot; DiscoverySampleAddIn.CustomTestTool3ToolGuide&quot; command=&quot; DiscoverySampleAddIn.CheckBoxTool&quot;/&gt; 
+&lt;/group&gt; 
+</code></pre>
+<h2 id="tool-sub-options" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="57">Tool sub-options</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="59">If a tool has options to choose from, it should be expressed as below:</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="61">&lt;group id=&quot;DiscoverySampleAddIn.FooToolSubOption&quot; label=&quot;Tool Sub Options&quot; optionsType=&quot;toolSubOption&quot;&gt; 
+   &lt;toolSubOption id=&quot;DiscoverySampleAddIn.FooToolSubOption&quot; command=&quot;DiscoverySampleAddIn.FooToolSubOption&quot; width=&quot;80&quot;&gt; 
+        &lt;item label=&quot;Sub Option1&quot;/&gt; 
+        &lt;item label=&quot;Sub Option2&quot;/&gt; 
+   &lt;/toolSubOption&gt; 
+&lt;/group&gt; 
+
+</code></pre>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="71">Tool sub option is a collection of tool sub option items (unbounded) that will be shown in a dropdown. In the example above, there are two items with labels, &quot;Sub Option1&quot; and &quot;Sub Option 2,&quot; which are also the display names. Using this code, items tools options can be grouped and filtered. The command for the tool sub option can be defined as shown below in C# and linked to the XML by the command name.</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="73">static class FooToolSubOptionComboBox 
+    { 
+        const string commandName = &quot;DiscoverySampleAddIn.FooToolSubOption&quot;; 
+  
+        public static readonly string[] toolSubOptionStrings = 
+        { 
+            &quot;Sub Option1&quot;, 
+            &quot;Sub Option2&quot; 
+        }; 
+  
+        public static void Initialize() 
+        { 
+            Command command = Command.Create(commandName); 
+  
+            string[] items = Array.ConvertAll(toolSubOptionStrings, toolSubOption =&gt; toolSubOption.ToString()); 
+            command.ControlState = ComboBoxState.CreateFixed(items, 0); 
+        } 
+  
+        public static Command Command =&gt; Command.GetCommand(commandName); 
+  
+        public static string SelectedLoadType 
+        { 
+            get 
+            { 
+                var state = (ComboBoxState)Command.ControlState; 
+                return toolSubOptionStrings[state.SelectedIndex]; 
+            } 
+        } 
+  
+    } 
+</code></pre>
+<h2 id="primary-options" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="106">Primary options</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="108">The primary options are mostly used to add another level of selection. They should be created as another group in the tool XML file. They are most likely the key input item for the tool.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="110">Below is an example add-in showing how you can create primary options.</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="112">&lt;group id=&quot;DiscoverySampleAddIn.FooToolPrimary&quot; label=&quot;Textbox Options&quot; optionsType=&quot;primary&quot;&gt; 
+      &lt;container id=&quot;DiscoverySampleAddIn.FooToolContainer&quot; layoutOrientation=&quot;vertical&quot;&gt; 
+        &lt;checkBox id=&quot;DiscoverySampleAddIn.CheckBox&quot; label=&quot;Unitless&quot; command=&quot;DiscoverySampleAddIn.CheckBox&quot;/&gt; 
+        &lt;textBox id=&quot;DiscoverySampleAddIn.TextBoxDouble&quot; command=&quot;DiscoverySampleAddIn.TextBoxDouble&quot; width=&quot;80&quot; label=&quot;Double only:&quot; /&gt; 
+        &lt;textBox id=&quot;DiscoverySampleAddIn.TextBoxDouble2&quot; command=&quot;DiscoverySampleAddIn.TextBoxDouble2&quot; width=&quot;80&quot; label=&quot;Double only:&quot; /&gt; 
+        &lt;textBox id=&quot;DiscoverySampleAddIn.TextBoxQuantity&quot; command=&quot;DiscoverySampleAddIn.TextBoxQuantity&quot; width=&quot;80&quot; label=&quot;Quantity :&quot; quantityType=&quot;temperature&quot; /&gt; 
+      &lt;/container&gt; 
+&lt;/group&gt; 
+
+</code></pre>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="124">In primary options, multiple buttons or text box fields can be stacked together. As shown in the example above, they are added to a container with a layout orientation of &quot;vertical.&quot;</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="126">The example above also defines some check boxes and text boxes. (See controls for the complete list of controls applicable in the tools.)</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="128">Text box can be set to work with a specific type by setting the <code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="128">quantityType</code> attribute.</p>
+<h2 id="preferred-options" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="130">Preferred options</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="132">Preferred options can be found on the right-side of the tool and they appear with a black background. Preferred options are built in a similar way to the primary options. You can customize preferred options with a variety of buttons and set their visibility.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="134">To create a preferred options block, the add-in needs to define a group with optionsType=&quot;preferred.&quot; Then, using containers, the items layout can be specified.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="136">In the example below, the preferred options are stacked vertically. As you can see, a button item can be used as an expander to group other items. Also, shown below, the spin box is only visible when a button is clicked. This button functionality can be useful when there are multiple fields that need to be activated under certain conditions.</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="138">
+&lt;group id=&quot;DiscoverySampleAddIn.FooToolPreferred&quot; label=&quot;Textbox Options&quot; optionsType=&quot;preferred&quot;&gt; 
+     &lt;container id=&quot;DiscoverySampleAddIn.FooToolContainer&quot; layoutOrientation=&quot;vertical&quot;&gt; 
+       &lt;textBox id=&quot;DiscoverySampleAddIn.PreferredTextBox1&quot; command=&quot;DiscoverySampleAddIn.PreferredTextBox1&quot; width=&quot;80&quot; label=&quot;preferred 1:&quot; /&gt; 
+       &lt;textBox id=&quot;DiscoverySampleAddIn.PreferredTextBox2&quot; command=&quot;DiscoverySampleAddIn.PreferredTextBox2&quot; width=&quot;80&quot; label=&quot;preferred 2:&quot; /&gt; 
+       &lt;button id=&quot;DiscoverySampleAddIn.ExpanderButton&quot; command=&quot;DiscoverySampleAddIn.ExpanderButton&quot;  label=&quot;Sample Expander Button&quot;&gt; 
+       	  &lt;spinBox id=&quot;DiscoverySampleAddIn.SpinBox&quot; command=&quot;DiscoverySampleAddIn.SpinBox&quot; minimumValue=&quot;1&quot; maximumValue=&quot;8&quot; width=&quot;35&quot;/&gt; 
+       &lt;/button&gt; 
+     &lt;/container&gt; 
+&lt;/group&gt; 
+</code></pre>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="151"><img src="../../../../images/tool_customization_preferred_options.png" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="151" alt=""></p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="153"><img src="../../../../images/tool_customization_preferred_options_2.png" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="153" alt=""></p>
+<h2 id="expanded-options" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="155">Expanded options</h2>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="157">Expanded options allow for further grouping on the tools and they work in a similar way to buttons, but visually they are represented as arrows on the preferred options. To create expanded options, define a group in XML using optionsType=&quot;expanded.&quot;</p>
+<pre><code sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="159">&lt;group id=&quot;DiscoverySampleAddIn.FooToolExpanded&quot; label=&quot;Textbox Options&quot; optionsType=&quot;expanded&quot;&gt; 
+        &lt;container id=&quot;DiscoverySampleAddIn.FooToolContainer&quot; layoutOrientation=&quot;vertical&quot;&gt; 
+          &lt;textBox id=&quot;DiscoverySampleAddIn.ExpandedDouble1&quot; command=&quot;DiscoverySampleAddIn.ExpandedDouble1&quot; width=&quot;80&quot; label=&quot;expanded 1:&quot; /&gt; 
+        &lt;/container&gt; 
+...
+</code></pre>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="167"><img src="../../../../images/tool_customization_expanded_options.png" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="167" alt=""></p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="169">The items inside of this group only become visible after clicking the double arrow above the preferred options.</p>
+<p sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="171"><img src="../../../../images/tool_customization_expanded_options_2.png" sourcefile="articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md" sourcestartlinenumber="171" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ansys/DevRelDocs/blob/jlw_extensibility_guide_updates/2024R2/Discovery_Extensibility_Dev_Guide_24-R2/articles/UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>
