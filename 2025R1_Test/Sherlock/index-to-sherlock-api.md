@@ -16,6 +16,7 @@ which define [Scalar Value Types](sherlock-reference.md#scalar-value-types "gRPC
 [Model Service](sherlock-reference.md#sherlockmodelserviceproto)|  The APIs in this section allows you to export the 3D model, material definitions, and material assignments from Sherlock so they can be shared with other applications such as Ansys Workbench. `SherlockModelService.proto`
 [Parts Service](sherlock-reference.md#sherlockpartsserviceproto) |  In this section you will find APIs that allow you to see the user-configured part libraries, to see a list of parts with properties different than those in the Sherlock Part Library, and to update the Parts List for a given project. `SherlockPartsService.proto`
 [Project Service](sherlock-reference.md#sherlockprojectserviceproto)|  The APIs in this section perform project level functions such as generating reports and importing ECAD files. `SherlockProjectService.proto`
+[Service](sherlock-reference.md#sherlockserviceproto)|  The APIs in this service should only be used for Sherlock integration with Workbench. `SherlockService.proto`
 [Stackup Service](sherlock-reference.md#sherlockstackupserviceproto) |  The APIs in this section allow you to perform updates on laminate layers. `SherlockStackupService.proto`
 [Scalar Value Types](sherlock-reference.md#scalar-value-types)| <!--Add a description here--> |
 
