@@ -10,49 +10,49 @@
   items:
   - name: Sherlock Analysis Service
     items:
-    - name: Example- Get Harmonic Vibe Input Fields
+    - name: Example- Get harmonic vibe input fields
       href: examples/analysis-service/ch01s03s02s03.md
-    - name: Examples- Get ICT Analysis Input Fields
+    - name: Examples- Get ICT analysis input fields
       href: examples/analysis-service/ch01s03s03s03.md
-    - name: Examples- Get Mechanical Shock Input Fields
+    - name: Examples- Get mechanical shock input fields
       href: examples/analysis-service/ch01s03s04s03.md
-    - name: Example- Get Natural Frequency Input Fields
+    - name: Example- Get natural frequency input fields
       href: examples/analysis-service/ch01s03s05s03.md
-    - name: Example- Get Random Vibe Input Fields
+    - name: Example- Get random vibe input fields
       href: examples/analysis-service/ch01s03s06s03.md
-    - name: Examples- Get Solder Fatigue Input Fields
+    - name: Examples- Get solder fatigue input fields
       href: examples/analysis-service/ch01s03s07s03.md
-    - name: Example- Run Part Validation and Mechanical Shock Analysis
+    - name: Example- Run part validation and mechanical shock analysis
       href: examples/analysis-service/ch01s03s08s05.md
     - name: Example- runStrainMapAnalysis()
       href: examples/analysis-service/ch01s03s09s04.md
-    - name: Example- Update Harmonic Vibe Props
+    - name: Example- update harmonic vibe props
       href: examples/analysis-service/ch01s03s10s03.md
-    - name: Example- Update ICT Analysis Props
+    - name: Example- update ICT analysis props
       href: examples/analysis-service/ch01s03s11s03.md
-    - name: Example- Update Mechanical Shock Props
+    - name: Example- Update mechanical shock props
       href: examples/analysis-service/ch01s03s12s03.md
-    - name: Example- Update Natural Frequency Properties
+    - name: Example- Update natural frequency properties
       href: examples/analysis-service/ch01s03s13s02.md
-    - name: Example- Update Part Modeling
+    - name: Example- Update part modeling
       href: examples/analysis-service/ch01s03s14s02.md
-    - name: Example- Update PCB Modeling Properties
+    - name: Example- Update PCB modeling properties
       href: examples/analysis-service/ch01s03s15s03.md
-    - name: Example- Update Random Vibe Properties
+    - name: Example- Update Random vibe properties
       href: examples/analysis-service/ch01s03s16s02.md
-    - name: Example- Update Solder Fatigue Props
+    - name: Example- Update solder fatigue properties
       href: examples/analysis-service/ch01s03s17s03.md
-    - name: Example- Update Thermal Mech Properties
+    - name: Example- Update thermal mech properties
       href: examples/analysis-service/ch01s03s18s02.md
-  - name: Sherlock Common Service
+  - name: Sherlock common service
     items:
-    - name: Example- Get Solders
+    - name: Example- Get solders
       href: examples/common-service/ch01s04s05s03.md
-    - name: Examples- Health Check
+    - name: Examples- Health check
       href: examples/common-service/ch01s04s06s04.md
-    - name: Example- List Units
+    - name: Example- List units
       href: examples/common-service/ch01s04s06s05.md
-  - name: Sherlock Layer Service
+  - name: Sherlock layer service
     items:
     - name: Examples- SherlockLayerService.deleteAllITestPoints()
       href: examples/layer-service/ch01s05s02s02.md
@@ -66,17 +66,17 @@
       href: examples/layer-service/ch01s05s06s02.md
     - name: Examples- SherlockLayerService.exportAllTestPoints()
       href: examples/layer-service/ch01s05s07s02.md
-    - name: Examples- Get Mount Point Boundaries
+    - name: Examples- Get mount point boundaries
       href: examples/layer-service/ch01s05s08s03.md
-    - name: Examples- Get Mount Point Chassis Materials
+    - name: Examples- Get mount point chassis materials
       href: examples/layer-service/ch01s05s09s03.md
-    - name: Examples- Get Mount Point Shape Types
+    - name: Examples- Get mount point shape types
       href: examples/layer-service/ch01s05s10s03.md
-    - name: Examples- Get Mount Point Sides
+    - name: Examples- Get mount point sides
       href: examples/layer-service/ch01s05s11s03.md
-    - name: Examples- Get Mount Point Types
+    - name: Examples- Get mount point types
       href: examples/layer-service/ch01s05s12s03.md
-    - name: Examples- Get Mount Point Units
+    - name: Examples- Get mount point units
       href: examples/layer-service/ch01s05s13s03.md
     - name: Examples- SherlockLayerService.getMountPointsProperties()
       href: examples/layer-service/ch01s05s14s04.md
@@ -88,93 +88,93 @@
       href: examples/layer-service/ch01s05s18s02.md
     - name: Examples- SherlockLayerService.updateTestPointsByFile()
       href: examples/layer-service/ch01s05s19s03.md
-  - name: Sherlock Life Cycle Service
+  - name: Sherlock life cycle service
     items:
-    - name: Example- Add Harmonic Vibe Profiles
+    - name: Example- Add harmonic vibe profiles
       href: examples/life-cycle-service/ch01s06s02s05.md
-    - name: Examples- Add Shock Event
+    - name: Examples- Add shock event
       href: examples/life-cycle-service/ch01s06s03s03.md
-    - name: Example- Add Shock Profiles
+    - name: Example- Add shock profiles
       href: examples/life-cycle-service/ch01s06s04s05.md
-    - name: Examples- Add Random Vibe Event
+    - name: Examples- Add random vibe event
       href: examples/life-cycle-service/ch01s06s05s03.md
-    - name: Example- Add Random Vibe Profiles
+    - name: Example- Add random vibe profiles
       href: examples/life-cycle-service/ch01s06s06s02.md
-    - name: Examples- Add Thermal Event
+    - name: Examples- Add thermal event
       href: examples/life-cycle-service/ch01s06s07s03.md
-    - name: Example- Add Thermal Profiles
+    - name: Example- Add thermal profiles
       href: examples/life-cycle-service/ch01s06s08s05.md
-    - name: Examples- Create Life Phase
+    - name: Examples- Create life phase
       href: examples/life-cycle-service/ch01s06s09s03.md
     - name: Examples- SherlockLifeCycleService.deleteEvent()
       href: examples/life-cycle-service/ch01s06s10s02.md
     - name: Examples- SherlockLifeCycleService.deletePhase()
       href: examples/life-cycle-service/ch01s06s11s03.md
-    - name: Examples- List Amplitude Units
+    - name: Examples- List amplitude units
       href: examples/life-cycle-service/ch01s06s13s03.md
-    - name: Examples- List Duration Units
+    - name: Examples- List duration units
       href: examples/life-cycle-service/ch01s06s14s03.md
-    - name: Examples- List Frequency Units
+    - name: Examples- List frequency units
       href: examples/life-cycle-service/ch01s06s15s03.md
-    - name: Examples- List Harmonic Profile Types
+    - name: Examples- List harmonic profile types
       href: examples/life-cycle-service/ch01s06s17s03.md
-    - name: Examples- List Life Cycle Events
+    - name: Examples- List life cycle events
       href: examples/life-cycle-service/ch01s06s18s05.md
-    - name: Examples- List Cycle States
+    - name: Examples- List cycle states
       href: examples/life-cycle-service/ch01s06s19s03.md
-    - name: Examples- List Life Cycle Types
+    - name: Examples- List life cycle types
       href: examples/life-cycle-service/ch01s06s20s03.md
     - name: Examples- SherlockLifeCycleService.listRandomVibeProfileTypes()
       href: examples/life-cycle-service/ch01s06s21s03.md
-    - name: Examples- List Shock Load Units
+    - name: Examples- List shock load units
       href: examples/life-cycle-service/ch01s06s24s03.md
-    - name: Examples- List Shock Pulses
+    - name: Examples- List shock pulses
       href: examples/life-cycle-service/ch01s06s25s03.md
-    - name: Examples- List Temp Units
+    - name: Examples- List temp units
       href: examples/life-cycle-service/ch01s06s26s03.md
-    - name: Examples- Load Harmonic Profile
+    - name: Examples- Load harmonic profile
       href: examples/life-cycle-service/ch01s06s27s04.md
-    - name: Examples- Load Shock Profile Dataset
+    - name: Examples- Load shock profile dataset
       href: examples/life-cycle-service/ch01s06s29s04.md
-    - name: Examples- Load Shock Profile Pulses
+    - name: Examples- Load shock profile pulses
       href: examples/life-cycle-service/ch01s06s30s04.md
-    - name: Examples- Load Thermal Profile
+    - name: Examples- Load thermal profile
       href: examples/life-cycle-service/ch01s06s31s04.md
-  - name: Sherlock Model Services
+  - name: Sherlock model services
     items:
     - name: Example- ExportAEDB
       href: examples/model-service/ch01s07s02s02.md
-    - name: Examples- Export FEA Model
+    - name: Examples- Export FEA model
       href: examples/model-service/ch01s07s03s02.md
-    - name: Examples- Export FEA Model
+    - name: Examples- Export FEA model
       href: examples/model-service/ch01s07s03s10.md
     - name: Example- exportTraceModel
       href: examples/model-service/ch01s07s04s02.md
     - name: Example- SherlockModelService.exportTraceReinforcementModel()
       href: examples/model-service/ch01s07s05s08.md
-    - name: Example- Generate Trace Model
+    - name: Example- Generate trace model
       href: examples/model-service/ch01s07s06s02.md
   - name: Sherlock Parts Service- SherlockPartsService.proto
     items:
-    - name: Examples- Export Parts List
+    - name: Examples- Export parts list
       href: examples/parts-service/ch01s08s02s02.md
-    - name: Examples- Get Board Sides
+    - name: Examples- Get board sides
       href: examples/parts-service/ch01s08s03s03.md
     - name: Examples- SherlockPartsService.importPartsList()
       href: examples/parts-service/ch01s08s04s02.md
-    - name: Examples- Get Part Location
+    - name: Examples- Get part location
       href: examples/parts-service/ch01s08s05s04.md
-    - name: Examples- Get Part Location Units
+    - name: Examples- Get part location units
       href: examples/parts-service/ch01s08s06s03.md
-    - name: Examples- List Parts Libraries
+    - name: Examples- List parts libraries
       href: examples/parts-service/ch01s08s07s03.md
-    - name: Examples- List Parts Not Updated
+    - name: Examples- List parts not updated
       href: examples/parts-service/ch01s08s08s05.md
-    - name: Examples- Update Lead Modeling
+    - name: Examples- Update lead modeling
       href: examples/parts-service/ch01s08s09s02.md
-    - name: Examples- Update Parts List
+    - name: Examples- Update parts list
       href: examples/parts-service/ch01s08s10s05.md
-    - name: Example- Update Parts List From AVL
+    - name: Example- Update parts list from AVL
       href: examples/parts-service/ch01s08s11s03.md
     - name: Examples- SherlockPartsService.updatePartsLocationsByFile()
       href: examples/parts-service/ch01s08s13s03.md
@@ -182,13 +182,13 @@
     items:
     - name: Example- AddProjectRequest
       href: examples/project-service/ch01s09s02s02.md
-    - name: Example- Add Strain Map
+    - name: Example- Add strain map
       href: examples/project-service/ch01s09s03s10.md
     - name: Example- AddThermalMap
       href: examples/project-service/ch01s09s04s04.md
-    - name: Example- Generate CCA Report
+    - name: Example- Generate CCA report
       href: examples/project-service/ch01s09s07s03.md
-    - name: Example- Generate Report
+    - name: Example- Generate report
       href: examples/project-service/ch01s09s08s03.md
     - name: Examples- Import IPC 2581
       href: examples/project-service/ch01s09s09s02.md
@@ -200,37 +200,37 @@
       href: examples/project-service/ch01s09s12s02.md
     - name: Example- List CCAs
       href: examples/project-service/ch01s09s13s03.md
-    - name: Example- List Strain Maps
+    - name: Example- List strain maps
       href: examples/project-service/ch01s09s14s04.md
     - name: Example- listThermalMaps
       href: examples/project-service/ch01s09s15s05.md
     - name: Example- updateThermalMaps
       href: examples/project-service/ch01s09s18s03.md
-  - name: Sherlock Stackup Service- SherlockStackupService.proto
+  - name: Sherlock stackup service- SherlockStackupService.proto
     items:
-    - name: Exampes- Get Layer Count
+    - name: Exampes- Get layer count
       href: examples/stakup-service/ch01s10s02s03.md
-    - name: Example- Get Stackup Properties
+    - name: Example- Get stackup properties
       href: examples/stakup-service/ch01s10s03s03.md
-    - name: Example- Get Total Conductor Thickness
+    - name: Example- Get total conductor thickness
       href: examples/stakup-service/ch01s10s04s03.md
-    - name: Examples- List Conductor Layers
+    - name: Examples- List conductor layers
       href: examples/stakup-service/ch01s10s05s03.md
-    - name: Examples- List Conductor Materials
+    - name: Examples- List conductor materials
       href: examples/stakup-service/ch01s10s07s03.md
-    - name: Examples- List Construction Styles
+    - name: Examples- List construction styles
       href: examples/stakup-service/ch01s10s08s03.md
-    - name: Examples- List Fiber Materials
+    - name: Examples- List fiber materials
       href: examples/stakup-service/ch01s10s09s03.md
-    - name: Examples- List Laminate Materials Manufacturers
+    - name: Examples- List laminate materials manufacturers
       href: examples/stakup-service/ch01s10s10s03.md
-    - name: Examples- List Laminate Materials
+    - name: Examples- List laminate materials
       href: examples/stakup-service/ch01s10s11s05.md
-    - name: Examples- List Laminate Thickness Units
+    - name: Examples- List laminate thickness units
       href: examples/stakup-service/ch01s10s12s03.md
-    - name: Examples- List Laminates
+    - name: Examples- List laminates
       href: examples/stakup-service/ch01s10s13s06.md
-    - name: Examples- Update Conductor Layer
+    - name: Examples- Update conductor layer
       href: examples/stakup-service/ch01s10s14s02.md
-    - name: Examples- Update Laminate
+    - name: Examples- Update laminate
       href: examples/stakup-service/ch01s10s15s03.md
