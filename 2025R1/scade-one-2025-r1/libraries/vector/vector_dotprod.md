@@ -1,10 +1,10 @@
-# DotProd {#vector__dotprod .sone-topic}
+# DotProd 
 
 Dot product \(or scalar product\) of two vectors.
 
 ![](../images/vector__dotprod_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

@@ -1,10 +1,10 @@
-# Incr {#vector__incr .sone-topic}
+# Incr 
 
 Addition of a scalar to all elements of a vector.
 
 ![](../images/vector__incr_01.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

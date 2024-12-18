@@ -1,8 +1,8 @@
-# Det3x3 {#matrix__det3x3 .sone-topic}
+# Det3x3 
 
 Determinant of a 3 by 3 matrix.
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

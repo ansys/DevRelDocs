@@ -1,10 +1,10 @@
-# TensorProd {#vector__tensorprod .sone-topic}
+# TensorProd 
 
 Tensor product \(or outer product\) of two vectors.
 
 ![](../images/vector__tensorprod_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

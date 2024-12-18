@@ -1,10 +1,10 @@
-# GetDiagonal {#matrix__getdiagonal .sone-topic}
+# GetDiagonal 
 
 Returns the diagonal vector of the input matrix.
 
 ![](../images/matrix__getdiagonal_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

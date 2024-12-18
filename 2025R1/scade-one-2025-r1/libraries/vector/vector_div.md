@@ -1,10 +1,10 @@
-# Div {#vector__div .sone-topic}
+# Div 
 
 Division of two vectors, element-wise.
 
 ![](../images/vector__div_01.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

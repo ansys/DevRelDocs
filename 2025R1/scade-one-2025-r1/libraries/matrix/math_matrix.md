@@ -1,4 +1,4 @@
-# Math::Matrix {#math_matrix .sone-topic}
+# Math::Matrix 
 
 The Matrix library provides common operations for matrices.
 

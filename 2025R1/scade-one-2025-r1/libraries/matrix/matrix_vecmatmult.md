@@ -1,10 +1,10 @@
-# VecMatMult {#matrix__vecmatmult .sone-topic}
+# VecMatMult 
 
 Multiplication of a vector and a matrix.
 
 ![](../images/matrix__vecmatmult_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

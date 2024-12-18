@@ -1,8 +1,8 @@
-# Det2x2 {#matrix__det2x2 .sone-topic}
+# Det2x2 
 
 Determinant of a 2 by 2 matrix.
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

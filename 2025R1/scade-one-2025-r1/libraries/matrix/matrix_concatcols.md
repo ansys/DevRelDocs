@@ -1,10 +1,10 @@
-# ConcatCols {#matrix__concatcols .sone-topic}
+# ConcatCols 
 
 Concatenation of two matrices' columns.
 
 ![](../images/matrix__concatcols_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

@@ -1,4 +1,4 @@
-# NormVector {#vector__normvector .sone-topic}
+# NormVector 
 
 Normalization of a vector.
 
@@ -6,7 +6,7 @@ Returns a vector of length 1 with the same direction. If the vector has length z
 
 ![](../images/vector__normvector_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

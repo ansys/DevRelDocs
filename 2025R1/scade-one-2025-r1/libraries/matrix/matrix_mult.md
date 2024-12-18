@@ -1,10 +1,10 @@
-# Mult {#matrix__mult .sone-topic}
+# Mult 
 
 Multiplication of two matrices, element-wise.
 
 ![](../images/matrix__mult_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

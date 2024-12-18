@@ -1,4 +1,4 @@
-# Math::Vector {#math_vector .sone-topic}
+# Math::Vector
 
 The Vector library provides common operations for vectors.
 

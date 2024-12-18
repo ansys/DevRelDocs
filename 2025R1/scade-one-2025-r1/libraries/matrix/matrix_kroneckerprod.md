@@ -1,4 +1,4 @@
-# KroneckerProd {#matrix__kroneckerprod .sone-topic}
+# KroneckerProd 
 
 Kronecker product of two matrices.
 
@@ -8,7 +8,7 @@ The resulting matrix is defined by block by:
 
 Each element of the output matrix is defined by: ![](../images/matrix__kroneckerprod_01.svg) \(where / and % are respectively the quotient and remainder of the integer division\)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

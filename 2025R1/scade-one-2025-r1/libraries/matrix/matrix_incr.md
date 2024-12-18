@@ -1,10 +1,10 @@
-# Incr {#matrix__incr .sone-topic}
+# Incr 
 
 Addition of a scalar to all elements of a matrix.
 
 ![](../images/matrix__incr_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
