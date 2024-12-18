@@ -1,4 +1,3 @@
-<a id="_changelog_sonelib"></a>
 # Changelog
 
 

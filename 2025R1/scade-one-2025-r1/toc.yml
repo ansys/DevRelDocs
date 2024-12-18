@@ -1,5 +1,5 @@
 - name: Introduction
-  href: libraries/libraries.md
+  href: index.md
 - name: Libraries
   items:
   - name: Bitfield
@@ -411,3 +411,5 @@
         href: libraries/sources/t__step.md
       - name: Triangular
         href: libraries/sources/t__triangular.md
+- name: Changelog
+  href: changelog.md
