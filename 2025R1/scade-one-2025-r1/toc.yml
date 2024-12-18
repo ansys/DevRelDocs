@@ -274,7 +274,7 @@
     - name: ToPolar
       href: libraries/complex/complex__topolar.md
   - name: Math::Matrix
-    href: libraries/complex/math_complex.md
+    href: libraries/matrix/math_matrix.md
     items:
     - name: Add
       href: libraries/matrix/matrix_add.md
