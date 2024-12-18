@@ -9,5 +9,5 @@ Returns the modulus, or absolute value or magnitude, of the operand.
 |a|I|Complex|Operand|
 |v|O|Real|Result of the operation|
 
-**Parent topic:**[Math::Complex](../../libraries/complex/math_complex.md)
+**Parent topic:**[Math::Complex](./math_complex.md)
 

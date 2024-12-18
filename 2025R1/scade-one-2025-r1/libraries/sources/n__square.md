@@ -19,5 +19,5 @@ The figure shows the output flow for a square waveform with the following inputs
 |offset|I|float|Offset to be added to the output flow \(default 0\)|
 |flow|O|float|Output flow|
 
-**Parent topic:**[Sources::N](../../libraries/sources/sources_n.md)
+**Parent topic:**[Sources::N](./sources_n.md)
 

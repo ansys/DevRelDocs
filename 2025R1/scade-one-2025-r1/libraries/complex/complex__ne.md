@@ -11,5 +11,5 @@ Returns whether two complex numbers are not equal.
 |e|I|Real|Relative precision of the comparison \(default 0.0\)|
 |v|O|bool|Result of the comparison|
 
-**Parent topic:**[Math::Complex](../../libraries/complex/math_complex.md)
+**Parent topic:**[Math::Complex](./math_complex.md)
 

@@ -34,5 +34,5 @@ The Check library provides a set of operators to build oracles for test harnesse
 |[UpperBound](check__upperbound.md)|Checks if the input signal is less than the upper bound.|
 
 
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

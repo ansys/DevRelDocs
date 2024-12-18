@@ -12,5 +12,5 @@ The implementation uses the C runtime library functions fmod and fmodf.
 |y|I|Float|Second operand|
 |v|O|Float|Result of the operation|
 
-**Parent topic:**[Math::Common](../../libraries/common/math_common.md)
+**Parent topic:**[Math::Common](./math_common.md)
 

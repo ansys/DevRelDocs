@@ -39,5 +39,5 @@ The Vector library provides common operations for vectors.
 -   **[TensorProd](../../../techdoc_en-US/libraries/vector/vector__tensorprod.md)**  
  Tensor product \(or outer product\) of two vectors.
 
-**Parent topic:**[Libraries](../../../techdoc_en-US/libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

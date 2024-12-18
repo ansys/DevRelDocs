@@ -11,5 +11,5 @@ Returns whether all bits defined in mask are set in the input.
 |mask|I|unsigned<\<N\>\>|Mask used to set the bits|
 |v|O|bool|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

@@ -11,5 +11,5 @@ Determines whether a value is less or equal to another value, with respect to an
 |e|I|float|Absolute precision of the comparison<br>Range: Positive|
 |comp|O|bool|Result of the comparison|
 
-**Parent topic:**[Float](../../libraries/float/float.md)
+**Parent topic:**[Float](./float.md)
 

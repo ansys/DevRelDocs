@@ -11,5 +11,5 @@ Determine whether two values are identical with respect to a relative precision.
 |e|I|float|Relative precision of the comparison<br>Range: Positive|
 |comp|O|bool|Result of the comparison|
 
-**Parent topic:**[Float](../../libraries/float/float.md)
+**Parent topic:**[Float](./float.md)
 

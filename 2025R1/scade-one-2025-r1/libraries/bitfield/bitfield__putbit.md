@@ -12,5 +12,5 @@ Returns the input with the bit set to 1 if status, otherwise 0, at the given pos
 |status|I|bool|Specify whether the bit is to be set or cleared|
 |v|O|unsigned<\<N\>\>|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

@@ -11,5 +11,5 @@ Returns the input with the bits set to 1 as per the corresponding Mask bits when
 |mask|I|unsigned<\<N\>\>|Mask used to set the bits|
 |v|O|unsigned<\<N\>\>|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

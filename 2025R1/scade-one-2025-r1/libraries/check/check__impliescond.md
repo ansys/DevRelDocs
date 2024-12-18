@@ -17,5 +17,5 @@ The following figure shows the output prop for the inputs p, q and c:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

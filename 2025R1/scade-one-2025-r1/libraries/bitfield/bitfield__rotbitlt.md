@@ -11,5 +11,5 @@ Returns the input with all bits rotated to the left by a number. The most signif
 |l|I|Integer|Number of bits to rotate<br>Range: \[0, N\[|
 |v|O|unsigned<\<N\>\>|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

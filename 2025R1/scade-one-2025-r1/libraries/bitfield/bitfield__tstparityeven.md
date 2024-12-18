@@ -10,5 +10,5 @@ Returns whether the number of bits defined and set to 1 if the input is even.
 |bf|I|unsigned<\<N\>\>|Input bit-field|
 |v|O|bool|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

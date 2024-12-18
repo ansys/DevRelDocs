@@ -10,5 +10,5 @@ Returns an array of bytes from the input.
 |bf|I|unsigned<\<N\>\>|Input bit-field|
 |v|O|uint8 ^ N/8|Array of bytes|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

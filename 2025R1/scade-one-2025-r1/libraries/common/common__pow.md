@@ -12,5 +12,5 @@ The implementation uses the C runtime library functions pow and powf.
 |y|I|Numeric|Second operand|
 |v|O|Numeric|Result of the operation|
 
-**Parent topic:**[Math::Common](../../libraries/common/math_common.md)
+**Parent topic:**[Math::Common](./math_common.md)
 

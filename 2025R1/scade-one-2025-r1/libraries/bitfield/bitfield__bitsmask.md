@@ -11,5 +11,5 @@ Returns a mask of a number of bits at the given position.
 |l|I|integer|Number of bits to set<br>Range: \[0, N-p\[|
 |mask|O|unsigned<\<N\>\>|Resulting mask|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](bitfield.md)
 

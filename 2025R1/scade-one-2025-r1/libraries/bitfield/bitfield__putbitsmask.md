@@ -12,5 +12,5 @@ Returns the input with the bits from pattern copied, with respect to a mask.
 |mask|I|unsigned<\<N\>\>|Mask for the pattern|
 |v|O|unsigned<\<N\>\>|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

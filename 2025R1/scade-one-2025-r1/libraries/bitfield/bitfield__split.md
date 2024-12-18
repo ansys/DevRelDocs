@@ -11,5 +11,5 @@ Returns the input split in two parts.
 |bl|O|unsigned<\<N/2\>\>|Least significant bits|
 |bh|O|unsigned<\<N/2\>\>|Most significant bits|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

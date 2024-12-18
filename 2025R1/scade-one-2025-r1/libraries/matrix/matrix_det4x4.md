@@ -9,5 +9,5 @@ Determinant of a 4 by 4 matrix.
 |A|I|numeric^4^4|Input matrix|
 |d|O|numeric|Determinant|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

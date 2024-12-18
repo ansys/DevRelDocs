@@ -13,5 +13,5 @@ Returns the input with a number of bits of the pattern copied at the given posit
 |pattern|I|unsigned<\<N\>\>|Pattern to be set|
 |v|O|unsigned<\<N\>\>|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

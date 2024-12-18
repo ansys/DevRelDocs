@@ -14,4 +14,4 @@ When the limit value is reached, the output is held at this value and the sat fl
 |count|O|integer|Rising edge count|
 |sat|O|bool|Saturation flag|
 
-**Parent topic:**[Flows](../../libraries/flows/flows.md)
+**Parent topic:**[Flows](./flows.md)
