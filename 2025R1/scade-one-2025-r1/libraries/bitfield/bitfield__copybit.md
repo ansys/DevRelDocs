@@ -13,5 +13,5 @@ Returns the input with the bit at the given position copied from the source at a
 |sp|I|integer|Source bit position<br>Range: \[0, N\[|
 |v|O|unsigned<\<N\>\>|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

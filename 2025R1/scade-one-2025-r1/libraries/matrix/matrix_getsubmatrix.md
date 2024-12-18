@@ -15,5 +15,5 @@ Returns the sub matrix of size Ms by Ns, starting at row Midx and column Nidx.
 |A|I|numeric^N^M|Input matrix|
 |S|O|numeric^Ns^Ms|Output sub matrix|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

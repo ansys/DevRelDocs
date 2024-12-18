@@ -11,5 +11,5 @@ Returns the relative precision for comparing two numbers with an absolute precis
 |e|I|float|Absolute precision<br>Range: Positive|
 |precision|O|float|Relative precision|
 
-**Parent topic:**[Float](../../libraries/float/float.md)
+**Parent topic:**[Float](./float.md)
 

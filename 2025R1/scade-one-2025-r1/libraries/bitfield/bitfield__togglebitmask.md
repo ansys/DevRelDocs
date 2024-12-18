@@ -11,5 +11,5 @@ Returns the input with the bits toggled when the corresponding bit of the mask i
 |mask|I|unsigned<\<N\>\>|Mask used to toggle the bits|
 |v|O|unsigned<\<N\>\>|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

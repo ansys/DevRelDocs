@@ -20,5 +20,5 @@ Each element of the output matrix is defined by: ![](../images/matrix__kronecker
 |B|I|numeric^P^Q|Second input matrix|
 |C|O|numeric^\(Q\*N\)^\(P\*M\)|Output matrix|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

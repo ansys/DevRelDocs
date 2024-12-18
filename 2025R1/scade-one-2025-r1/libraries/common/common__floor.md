@@ -11,5 +11,5 @@ The implementation uses the C runtime library functions floor and floorf.
 |x|I|Numeric|Operand|
 |v|O|Numeric|Result of the operation|
 
-**Parent topic:**[Math::Common](../../libraries/common/math_common.md)
+**Parent topic:**[Math::Common](./math_common.md)
 

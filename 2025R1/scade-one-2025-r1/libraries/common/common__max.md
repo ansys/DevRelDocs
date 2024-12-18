@@ -10,5 +10,5 @@ Returns the maximum value of two operands.
 |y|I|Numeric|Second operand|
 |v|O|Numeric|Result of the comparison|
 
-**Parent topic:**[Math::Common](../../libraries/common/math_common.md)
+**Parent topic:**[Math::Common](./math_common.md)
 

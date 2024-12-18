@@ -34,5 +34,5 @@ The BitField library provides a set of operations on arrays of bits or integers 
 |[TstBitMask](bitfield__tstbitmask.md)|Returns whether all bits defined in mask are set in the input.|
 |[TstParityEven](bitfield__tstparityeven.md)|Returns whether the number of bits defined and set to 1 if the input is even.|
 
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

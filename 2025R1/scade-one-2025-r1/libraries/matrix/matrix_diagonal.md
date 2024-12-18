@@ -12,5 +12,5 @@ Creation of a matrix, of size N by N, with the input vector on the diagonal and 
 |v|I|numeric^N|Input vector|
 |A|O|numeric^N^N|Output matrix|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

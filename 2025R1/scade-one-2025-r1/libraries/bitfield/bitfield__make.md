@@ -11,5 +11,5 @@ Returns a bit-field from the concatenation of two bit-fields.
 |bh|I|unsigned<\<N/2\>\>|Most significant bits|
 |bf|O|unsigned<\<N\>\>|Resulting bit-field|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

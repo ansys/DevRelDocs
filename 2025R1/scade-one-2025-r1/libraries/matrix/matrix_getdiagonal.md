@@ -12,5 +12,5 @@ Returns the diagonal vector of the input matrix.
 |A|I|numeric^N^N|Input matrix|
 |v|O|numeric^N|Output vector|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

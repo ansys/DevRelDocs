@@ -15,5 +15,5 @@ Common trigonometric functions and their inverse.
 |[Tan](trigo__tangent.md)|Returns the tangent of an angle.|
 
 
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

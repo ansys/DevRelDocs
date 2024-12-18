@@ -14,5 +14,5 @@ Subtraction of two matrices, element-wise.
 |B|I|numeric^N^M|Second input matrix|
 |C|O|numeric^N^M|Output matrix|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

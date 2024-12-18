@@ -15,5 +15,5 @@ The Flows library provides a set of simple operators on flows \(delays, counters
 |[Times](flows__times.md)|Counts down the repeated occurrence if the condition input is true before rising a flag.|
 
 
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

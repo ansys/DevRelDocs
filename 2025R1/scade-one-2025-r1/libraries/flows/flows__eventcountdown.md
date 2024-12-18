@@ -10,5 +10,5 @@ Decreases the count by one at each cycle when the input is true.
 |init|I|integer|Counter Initialization value|
 |count|O|integer|Rising edge count|
 
-**Parent topic:**[Flows](../../libraries/flows/flows.md)
+**Parent topic:**[Flows](./flows.md)
 

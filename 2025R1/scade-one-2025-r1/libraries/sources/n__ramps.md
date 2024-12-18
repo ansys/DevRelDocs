@@ -20,5 +20,5 @@ The figure shows the output flow for a sequence of 3 ramps with the following in
 |offsets|I|float ^ SIZE|Offset to be added to the output flow of each ramp \(default 0 ^ SIZE\)|
 |flow|O|float|Output flow|
 
-**Parent topic:**[Sources::N](../../libraries/sources/sources_n.md)
+**Parent topic:**[Sources::N](./sources_n.md)
 

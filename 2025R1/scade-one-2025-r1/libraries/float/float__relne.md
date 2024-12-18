@@ -11,5 +11,5 @@ Determines whether a value is different from another value, with respect to a re
 |e|I|float|Relative precision of the comparison<br>Range: Positive|
 |comp|O|bool|Result of the comparison|
 
-**Parent topic:**[Float](../../libraries/float/float.md)
+**Parent topic:**[Float](./float.md)
 

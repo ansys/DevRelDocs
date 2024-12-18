@@ -14,5 +14,5 @@ Multiplication of a matrix and a vector.
 |v|I|numeric^N|Input vector|
 |w|O|numeric^M|Output vector|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

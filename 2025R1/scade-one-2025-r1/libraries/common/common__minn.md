@@ -10,5 +10,5 @@ Returns the minimum value of the elements of the array operand.
 |x|I|Numeric ^ N|Operand|
 |v|O|Numeric|Result of the comparison|
 
-**Parent topic:**[Math::Common](../../libraries/common/math_common.md)
+**Parent topic:**[Math::Common](./math_common.md)
 

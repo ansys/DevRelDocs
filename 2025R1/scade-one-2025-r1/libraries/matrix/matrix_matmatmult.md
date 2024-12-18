@@ -15,5 +15,5 @@ Multiplication of two matrices.
 |B|I|numeric^P^N|Second input matrix|
 |C|O|numeric^P^M|Output matrix|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

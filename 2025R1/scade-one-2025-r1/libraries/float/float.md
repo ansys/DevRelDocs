@@ -21,5 +21,5 @@ The Float library ensures good practices in the use of floating-point numbers.
 |[RelNE](float__relne.md)|Determines whether a value is different from another value, with respect to a relative precision.|
 
 
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

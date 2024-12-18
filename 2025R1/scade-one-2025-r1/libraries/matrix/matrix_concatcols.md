@@ -15,5 +15,5 @@ Concatenation of two matrices' columns.
 |A2|I|numeric^N2^M|Second input matrix|
 |B|O|numeric^\(N1+N2\)^M|Output matrix|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

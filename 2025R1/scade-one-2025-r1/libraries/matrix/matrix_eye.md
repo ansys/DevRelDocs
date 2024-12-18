@@ -12,5 +12,5 @@ Creation of an identity matrix, of size N by N, with 1 on the diagonal and 0 els
 |dummy|I|numeric|A dummy value of the matrix base type \(unused\)|
 |A|O|numeric^N^N|Identity matrix|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

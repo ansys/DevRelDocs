@@ -27,5 +27,5 @@ Type and operations on complex numbers.
 |[ToPolar](complex__topolar.md)|Return the modulus and argument of a complex number.|
 
 
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

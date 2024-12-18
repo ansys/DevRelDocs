@@ -11,5 +11,5 @@ The implementation uses the C runtime library functions ceil and ceilf.
 |x|I|Float|Operand|
 |v|O|Float|Result of the operation|
 
-**Parent topic:**[Math::Common](../../libraries/common/math_common.md)
+**Parent topic:**[Math::Common](./math_common.md)
 

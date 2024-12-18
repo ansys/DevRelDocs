@@ -12,5 +12,5 @@ Output value at first cycle is false.
 |cycles|I|integer|Number of cycles to keep output buffered<br>Range: \>0|
 |out|O|bool|Detection flag|
 
-**Parent topic:**[Digital](../../libraries/digital/digital.md)
+**Parent topic:**[Digital](./digital.md)
 

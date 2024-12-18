@@ -11,5 +11,5 @@ Output value at first cycle is false. The output is true during the transition c
 |in|I|bool|Observed flow|
 |out|O|bool|Detection flag|
 
-**Parent topic:**[Digital](../../libraries/digital/digital.md)
+**Parent topic:**[Digital](./digital.md)
 

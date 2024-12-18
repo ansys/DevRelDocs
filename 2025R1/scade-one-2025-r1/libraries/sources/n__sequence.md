@@ -18,5 +18,5 @@ The figure shows the output flow for a sequence of 3 ramps with the following in
 |values|I|float ^ \(SIZE+1\)|Input array of values defining the bounds of the ramps|
 |flow|O|float|Output flow|
 
-**Parent topic:**[Sources::N](../../libraries/sources/sources_n.md)
+**Parent topic:**[Sources::N](./sources_n.md)
 

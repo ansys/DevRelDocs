@@ -13,5 +13,5 @@ Returns an error flag and a matrix filled with zeros if the determinant is equal
 |invA|O|numeric^3^3|Inverse matrix|
 |error|O|bool|True if determinant is equal to zero|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 

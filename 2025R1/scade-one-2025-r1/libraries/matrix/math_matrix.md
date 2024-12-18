@@ -72,5 +72,5 @@ The Matrix library provides common operations for matrices.
 -   **[VecMatMult](../../../techdoc_en-US/libraries/matrix/matrix_vecmatmult.md)**  
  Multiplication of a vector and a matrix.
 
-**Parent topic:**[Libraries](../../../techdoc_en-US/libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

@@ -10,5 +10,5 @@ Increases the count by one at each cycle when the input is true.
 |in|I|bool|Observed flow|
 |count|O|integer|Rising edge count|
 
-**Parent topic:**[Flows](../../libraries/flows/flows.md)
+**Parent topic:**[Flows](./flows.md)
 

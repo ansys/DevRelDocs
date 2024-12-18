@@ -11,5 +11,5 @@ Evaluates polynomial coefficients on the operand.
 |c|I|Numeric ^N|Coefficients|
 |v|O|Numeric|Result of the operation|
 
-**Parent topic:**[Math::Common](../../libraries/common/math_common.md)
+**Parent topic:**[Math::Common](./math_common.md)
 

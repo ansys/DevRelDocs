@@ -12,5 +12,5 @@ Returns a number of bits for the input starting at the given position.
 |l|I|integer|Number of bits to get<br>Range: \[0, N-p\[|
 |v|O|unsigned<\<N\>\>|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

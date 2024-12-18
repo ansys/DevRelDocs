@@ -26,5 +26,5 @@ Common mathematical operations.
 |[Sqrt](common__sqrt.md)|Returns the square root of the operand.|
 |[Trunc](common__trunc.md)|Returns the largest integer less than or equal to the operand.|
 
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

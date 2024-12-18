@@ -14,5 +14,5 @@ Addition of a scalar to all elements of a matrix.
 |x|I|numeric|Scalar|
 |B|O|numeric^N^M|Output matrix|
 
-**Parent topic:**[Math::Matrix](../../../techdoc_en-US/libraries/matrix/math_matrix.md)
+**Parent topic:**[Math::Matrix](./math_matrix.md)
 
