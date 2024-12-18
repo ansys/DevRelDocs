@@ -1,4 +1,4 @@
-# Protocol reference documentation
+# Reference documentation
 
 <a name="top"></a>
 
@@ -278,9 +278,7 @@ asymmetric = cartesian coordinates
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| spectrum_incidence | [double](#double) |  | spectrum information
-
-radians in [0, pi/2] |
+| spectrum_incidence | [double](#double) |  | spectrum information radians in [0, pi/2] |
 | spectrum_anisotropy | [double](#double) |  | radians in [0, 2*pi] |
 | spectrum | [AnisotropicBsdfData.Bsdf.WavelengthCoefficientPair](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-AnisotropicBsdfData-Bsdf-WavelengthCoefficientPair) | repeated |  |
 | anisotropic_samples | [AnisotropicBsdfData.Bsdf.AnisotropicSample](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-AnisotropicBsdfData-Bsdf-AnisotropicSample) | repeated |  |
