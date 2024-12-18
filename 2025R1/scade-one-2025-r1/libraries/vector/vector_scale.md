@@ -1,10 +1,10 @@
-# Scale {#vector__scale .sone-topic}
+# Scale 
 
 Multiplication of all elements of a vector by a scalar.
 
 ![](../images/vector__scale_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

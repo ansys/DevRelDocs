@@ -1,10 +1,10 @@
-# Norm {#vector__norm .sone-topic}
+# Norm 
 
 Euclidean norm of a vector.
 
 ![](../images/vector__norm_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

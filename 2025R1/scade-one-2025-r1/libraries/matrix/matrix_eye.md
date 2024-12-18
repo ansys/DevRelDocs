@@ -1,10 +1,10 @@
-# Eye {#matrix__eye .sone-topic}
+# Eye 
 
 Creation of an identity matrix, of size N by N, with 1 on the diagonal and 0 elsewhere.
 
 ![](../images/matrix__eye_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

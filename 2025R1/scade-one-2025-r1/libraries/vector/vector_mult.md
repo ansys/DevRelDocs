@@ -1,10 +1,10 @@
-# Mult {#vector__mult .sone-topic}
+# Mult 
 
 Multiplication of two vectors, element-wise.
 
 ![](../images/vector__mult_01.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

@@ -1,10 +1,10 @@
-# MatMatMult {#matrix__matmatmult .sone-topic}
+# MatMatMult 
 
 Multiplication of two matrices.
 
 ![](../images/matrix__matmatmult_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

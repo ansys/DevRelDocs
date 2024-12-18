@@ -1,10 +1,10 @@
-# CrossProd {#vector__crossprod .sone-topic}
+# CrossProd 
 
 Cross product of two vectors of size 3.
 
 ![](../images/vector__crossprod_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

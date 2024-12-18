@@ -1,10 +1,10 @@
-# ConcatRows {#matrix__concatrows .sone-topic}
+# ConcatRows 
 
 Concatenation of two matrices' rows.
 
 ![](../images/matrix__concatrows_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

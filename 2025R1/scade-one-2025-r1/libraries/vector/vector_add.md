@@ -1,10 +1,10 @@
-# Add {#vector__add .sone-topic}
+# Add 
 
 Addition of two vectors, element-wise.
 
 ![](../images/vector__add_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

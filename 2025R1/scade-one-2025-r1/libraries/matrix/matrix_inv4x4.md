@@ -1,10 +1,10 @@
-# Inv4x4 {#matrix__inv4x4 .sone-topic}
+# Inv4x4 
 
 Inverse of a 4 by 4 matrix.
 
 Returns an error flag and a matrix filled with zeros if the determinant is equal to zero.
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

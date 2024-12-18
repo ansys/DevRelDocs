@@ -1,10 +1,10 @@
-# Add {#matrix__add .sone-topic}
+# Add 
 
 Addition of two matrices, element-wise.
 
 ![](../images/matrix__add_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

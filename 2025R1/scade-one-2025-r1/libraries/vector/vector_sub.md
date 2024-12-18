@@ -1,10 +1,10 @@
-# Sub {#vector__sub .sone-topic}
+# Sub 
 
 Subtraction of two vectors, element-wise.
 
 ![](../images/vector__sub_01.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

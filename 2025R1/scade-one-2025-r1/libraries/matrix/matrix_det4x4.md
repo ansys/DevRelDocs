@@ -1,8 +1,8 @@
-# Det4x4 {#matrix__det4x4 .sone-topic}
+# Det4x4 
 
 Determinant of a 4 by 4 matrix.
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

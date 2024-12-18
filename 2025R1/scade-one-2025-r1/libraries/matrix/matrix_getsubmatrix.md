@@ -1,8 +1,8 @@
-# GetSubMatrix {#matrix__getsubmatrix .sone-topic}
+# GetSubMatrix 
 
 Returns the sub matrix of size Ms by Ns, starting at row Midx and column Nidx.
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

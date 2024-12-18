@@ -1,10 +1,10 @@
-# Div {#matrix__div .sone-topic}
+# Div 
 
 Division of two matrices, element-wise.
 
 ![](../images/matrix__div_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

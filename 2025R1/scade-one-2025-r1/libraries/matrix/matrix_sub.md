@@ -1,10 +1,10 @@
-# Sub {#matrix__sub .sone-topic}
+# Sub 
 
 Subtraction of two matrices, element-wise.
 
 ![](../images/matrix__sub_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|

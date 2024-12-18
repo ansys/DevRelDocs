@@ -17,6 +17,6 @@ This version includes two additional libraries.<br/>
 
 
 **Added:** 
-* Math::Matrix 
 
-* Math::Vector 
+* [Math::Matrix](librairies/matrix/math_matrix.md)
+* [Math::Vector](librairies/vector/math_vector.md)
