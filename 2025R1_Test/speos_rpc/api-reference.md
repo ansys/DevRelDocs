@@ -313,9 +313,7 @@ asymmetric = cartesian coordinates
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | incidence_sample | [double](#double) |  | radians in [0, pi/2] |
-| theta_samples | [double](#double) | repeated | intensity diagram
-
-radians in [0, pi/2] for reflection // radians in [pi/2, pi] for transmission |
+| theta_samples | [double](#double) | repeated | intensity diagram radians in [0, pi/2] for reflection // radians in [pi/2, pi] for transmission |
 | phi_samples | [double](#double) | repeated | radians in [0, 2*pi] |
 | bsdf_cos_theta | [double](#double) | repeated | 1/steradians |
 | integral | [double](#double) |  | reflection/transmission coefficient |
