@@ -59,7 +59,7 @@
 
 [3] For details, see [Execution in a parallel environment](parallel-execution.md).
 
-[4] For details, see [Compiling, linking, and executing applications that use the Participant Library](compiling-linking-executing.md).
+[4] For details, see [Compiling, linking, and executing applications that use the Participant Library](user-guide/compiling-linking-executing.md).
 
 Note the following limitations:
 

@@ -10,7 +10,7 @@ The details of the mapping algorithms can be found in the System Coupling User's
 The steps involved in setting up and executing mapping of data are shown in
 Figure 1 and described in more details below.
 
-![Figure 1: Sequence of steps to execute mapping](images/ParticipantStepsInMapping.png)  
+![Figure 1: Sequence of steps to execute mapping](../images/ParticipantStepsInMapping.png)  
 *Figure 1: Sequence of steps to execute mapping*
 
 The steps are described in more detail below. A couple of code examples for each target
@@ -44,7 +44,7 @@ Create and register variables, regions and coupling interfaces.
 
 In this step, the callback functions to access the participant's mesh
 and solution data must be registered.
-See [Access to Heavyweight Data](heavyweight-data-access.md) for more details.
+See [Access to Heavyweight Data](user-guide/heavyweight-data-access.md) for more details.
 
 ### Step 4: Update inputs
 
@@ -65,7 +65,7 @@ library APIs to perform mapping.
 - [Volume mapping example](#volume-mapping-example)
 
 For information on how to compile the code in these examples,
-see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md).
+see [Compiling, linking, and executing applications that use the Participant library](user-guide/compiling-linking-executing.md).
 
 ### Surface mapping example
 
@@ -81,7 +81,7 @@ also becomes `33.3`.
 
 Figure 2 illustrates the problem setup.
 
-![Figure 2: Simple surface mapping example](images/SimpleMappingExample.png)  
+![Figure 2: Simple surface mapping example](../images/SimpleMappingExample.png)  
 *Figure 2: Simple surface mapping example*
 
 #### C++
@@ -593,7 +593,7 @@ also become `33.3`.
 
 Figure 3 illustrates the problem setup.
 
-![Figure 3: Simple volume mapping example](images/SimpleVolumeMappingExample.png)  
+![Figure 3: Simple volume mapping example](../images/SimpleVolumeMappingExample.png)  
 *Figure 3: Simple volume mapping example*
 
 ####  C++

@@ -23,7 +23,7 @@ as does Region R. However, when taken together,
 there are only 6 unique nodes between these two regions,
 because the 2 nodes in the middle (marked A and B) are shared nodes.
 
-![Figure 1: Example of two regions with shared mesh nodes](images/MultiregionFigure1.png)  
+![Figure 1: Example of two regions with shared mesh nodes](../images/MultiregionFigure1.png)  
 *Figure 1: Example of two regions with shared mesh nodes*
 
 System Coupling will detect a shared node by its node id.
@@ -34,7 +34,7 @@ the node A as shared between the two regions.
 To further illustrate this example,
 surface mesh arrays for both regions are shown in Figure 2.
 
-![Figure 2: Mesh arrays for the case with shared nodes](images/MultiregionFigure2.png)  
+![Figure 2: Mesh arrays for the case with shared nodes](../images/MultiregionFigure2.png)  
 *Figure 2: Mesh arrays for the case with shared nodes*
 
 As shown in Figure 2, nodes with ids 3 and 4 are repeated
@@ -52,14 +52,14 @@ compare Figure 2 to Figure 3. The latter figure shows the case
 without shared nodes. Note that this is a different setup and
 may result in a different solution.
 
-![Figure 3: Mesh arrays for the case with non-shared nodes](images/MultiregionFigure3.png)  
+![Figure 3: Mesh arrays for the case with non-shared nodes](../images/MultiregionFigure3.png)  
 *Figure 3: Mesh arrays for the case with non-shared nodes*
 
 Finally, these two regions can be agglomerated into a single region,
 as shown in Figure 4. If the two regions above are to be used in a
 single coupling interface, then agglomeration is preferred but not necessary.
 
-![Figure 4: Mesh arrays for the case where regions are agglomerated into one](images/MultiregionFigure4.png)  
+![Figure 4: Mesh arrays for the case where regions are agglomerated into one](../images/MultiregionFigure4.png)  
 *Figure 4: Mesh arrays for the case where regions are agglomerated into one*
 
 ## Solution field data for multi-region coupling interfaces
@@ -82,7 +82,7 @@ both regions are taken together, the shared nodes A and B will
 each have heat rate value of 5 Watts. The sum of heat rate values
 for both regions in this example is 30 Watts.
 
-![Figure 5: Nodal extensive variable (heat rate) values for the multi-region case with shared nodes](images/MultiregionFigure5.png)
+![Figure 5: Nodal extensive variable (heat rate) values for the multi-region case with shared nodes](../images/MultiregionFigure5.png)
 *Figure 5: Nodal extensive variable (heat rate) values for the multi-region case with shared nodes*
 
 Values for intensive variables should be identical
@@ -98,7 +98,7 @@ $$
 (500 + 300 + 800 + 600 + 500 + 300) / 6 = 500 [K]
 $$.
 
-![Figure 6: Nodal intensive variable (temperature) values for the multi-region case with shared nodes](images/MultiregionFigure6.png)
+![Figure 6: Nodal intensive variable (temperature) values for the multi-region case with shared nodes](../images/MultiregionFigure6.png)
 *Figure 6: Nodal intensive variable (temperature) values for the multi-region case with shared nodes*
 
 > **NOTE:** *Sometimes, variable values on shared nodes can differ.

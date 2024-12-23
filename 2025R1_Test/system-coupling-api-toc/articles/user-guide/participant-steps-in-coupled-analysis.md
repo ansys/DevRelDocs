@@ -5,13 +5,13 @@ This process is depicted in Figure 1 for a steady analysis, Figure 2 for a trans
 analysis with iterations (implicit time integration), and Figure 3 for transient analysis
 without iterations (explicit time integration). Each step is described in more detail below.
 
-![Figure 1: Sequence of participant steps for a steady analysis](images/ParticipantStepsInCoupledAnalysisFigure1.png)  
+![Figure 1: Sequence of participant steps for a steady analysis](../images/ParticipantStepsInCoupledAnalysisFigure1.png)  
 *Figure 1: Sequence of participant steps for a steady analysis*
 
-![Figure 2: Sequence of participant steps for a transient analysis with iterations](images/ParticipantStepsInCoupledAnalysisFigure2.png)  
+![Figure 2: Sequence of participant steps for a transient analysis with iterations](../images/ParticipantStepsInCoupledAnalysisFigure2.png)  
 *Figure 2: Sequence of participant steps for a transient analysis with iterations*
 
-![Figure 3: Sequence of participant steps for a transient analysis without iterations](images/ParticipantStepsInCoupledAnalysisFigure3.png)  
+![Figure 3: Sequence of participant steps for a transient analysis without iterations](../images/ParticipantStepsInCoupledAnalysisFigure3.png)  
 *Figure 3: Sequence of participant steps for a transient analysis without iterations*
 
 As described in the introduction, co-simulation and mapping workflows can be
@@ -90,7 +90,7 @@ Register any other callback functions (for example a callback for creating a res
 In the examples below, `getSurfaceMesh`, `getInputScalarData`, and
 `createRestartPoint` are functions that conform to provided prototypes that
 are to be implemented in the participant solver. See
-[Access to heavyweight data](heavyweight-data-access.md) and
+[Access to heavyweight data](user-guide/heavyweight-data-access.md) and
 [Creating restart points and restarting a coupled analysis](restarts.md)
 for more details.
 

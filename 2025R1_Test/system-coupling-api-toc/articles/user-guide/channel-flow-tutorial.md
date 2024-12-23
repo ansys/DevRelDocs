@@ -49,7 +49,7 @@ The geometry is discretized using tetrahedral mesh, as shown in _Figure 1_.
 
 - The case is set up to perform five Fluent solver iterations per coupling iteration.
 
-![Figure 1: Fluent geometry](images/ChannelFlowTutorialFigure1.png)  
+![Figure 1: Fluent geometry](../images/ChannelFlowTutorialFigure1.png)  
 *Figure 1: Fluent geometry*
 
 ### Mock solver
@@ -64,7 +64,7 @@ a rectangle extending from origin to point (1, 0.1, 0).
 
 - It sends heat rate on elements as outputs on the **FSI** region. Each of the four elements provides constant 5 [W], so a total of 20 [W] is supplied to Fluent by the mock solver.
 
-![Figure 2: Mock solver geometry](images/ChannelFlowTutorialFigure2.png)  
+![Figure 2: Mock solver geometry](../images/ChannelFlowTutorialFigure2.png)  
 *Figure 2: Mock solver geometry*
 
 ## Get the necessary files
@@ -104,7 +104,7 @@ Directory containing the following files:
     information to be consumed by System Coupling. Note that this file has been
     pre-generated for this tutorial. For information about how to generate setup
     files using the Participant Library,
-    see [Completing the System Coupling Participant Setup](participant-setup.md) in the
+    see [Completing the System Coupling Participant Setup](../participant-setup.md) in the
     Participant Library Developer's Guide.
 
 - `runSerial.py`: System Coupling script file to setup and execute the coupled
@@ -210,7 +210,7 @@ You'll be able to visualize the air temperature as it gets heated while flowing 
 
     This allows you to visualize the air temperature as the air flows through the channel and the hot air is mixed with the colder air.
 
-![Figure 3: Fluent temperature results after co-simulation with the mock solver](images/ChannelFlowTutorialFigure3.png)  
+![Figure 3: Fluent temperature results after co-simulation with the mock solver](../images/ChannelFlowTutorialFigure3.png)  
 *Figure 3: Fluent temperature results after co-simulation with the mock solver*
 
 ## Part 2: The parallel version of the mock solver
@@ -276,7 +276,7 @@ the tutorial package. Refer to that source code and the comments for more
 implementation details.
 
 For more details on how to implement the Participant Library APIs for execution
-in a parallel environment, see [Execution in a Parallel Environment](parallel-execution.md) in the
+in a parallel environment, see [Execution in a Parallel Environment](../parallel-execution.md) in the
 Participant Library _Developer's Guide_.
 
 ### Build the parallel mock solver
