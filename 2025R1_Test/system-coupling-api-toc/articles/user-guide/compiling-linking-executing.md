@@ -17,7 +17,7 @@ System Coupling interfaces are provided for the following target languages:
 
 \* Only some Python interpreters are supported.
 The CPython interpreter located in `<ANSYSInstallationPath>/commonfiles/CPython` is supported on Windows and on Linux.
-On Windows, the Python 3.10 interpreter from [www.python.org](www.python.org) is supported.
+On Windows, the Python 3.10 interpreter from [www.python.org](../www.python.org) is supported.
 The Python interpreter that comes with Microsoft Visual Studio is also supported on Windows.
 The Python interpreter that comes with Intel Parallel Studio is currently not supported.
 Other Python interpreters have not been tested.
