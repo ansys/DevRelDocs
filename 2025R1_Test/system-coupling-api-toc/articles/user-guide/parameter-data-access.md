@@ -1,7 +1,7 @@
 # Access to parameter data
 
 **Parameter data** are data representing single-valued, non-field data.
-Since each parameter stores only a single value, the participant library does not provide access via shared memory (as is done with [Heavyweight Data](user-guide/heavyweight-data-access.md)). Instead, the participant library provides access via direct get and set calls for the parameter data.
+Since each parameter stores only a single value, the participant library does not provide access via shared memory (as is done with [Heavyweight Data](heavyweight-data-access.md)). Instead, the participant library provides access via direct get and set calls for the parameter data.
 
 For more information, see:
 

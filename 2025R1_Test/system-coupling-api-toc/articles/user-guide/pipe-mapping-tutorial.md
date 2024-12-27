@@ -16,7 +16,7 @@ within the Participant Library using an MPI environment.
 
 Ensure that the following prerequisites are met. You've installed:
 
-- A compiler for one of the [supported languages](user-guide/compiling-linking-executing.md)
+- A compiler for one of the [supported languages](compiling-linking-executing.md)
 
 - Ansys installation, including System Coupling and EnSight.
 
@@ -148,7 +148,7 @@ Directory containing the Fortran source code files:
 
 ## Build the pipe mapping program
 
-Build the Pipe Mapping program using a compiler for one of the [supported languages](user-guide/compiling-linking-executing.md).
+Build the Pipe Mapping program using a compiler for one of the [supported languages](compiling-linking-executing.md).
 
 > **Note:** *Pre-built executables are provided along with the source code, so this step is optional.*
 >

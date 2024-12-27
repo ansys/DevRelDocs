@@ -22,7 +22,7 @@ from a previously generated restart point.
 
 Ensure that the following prerequisites are met. You've installed:
 
-- A compiler for one of the [supported languages](user-guide/compiling-linking-executing.md)
+- A compiler for one of the [supported languages](compiling-linking-executing.md)
 - Ansys installation, including System Coupling and Mechanical
 
 ## Problem description and participant setup
@@ -107,7 +107,7 @@ The source code is provided in the **dampingsolver** subdirectory.
 In the following examples, damping solver applications are built with different configurations.
 The actual build steps depend on your system configuration, compilers, and other details.
 See
-[Compiling, Linking, and Executing Applications That Use the Participant Library](user-guide/compiling-linking-executing.md)
+[Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md)
 for additional information.
 
 The following compilers were used in these examples:
