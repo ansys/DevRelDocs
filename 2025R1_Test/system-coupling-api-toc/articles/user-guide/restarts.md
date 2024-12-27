@@ -17,7 +17,7 @@ When using the participant library to setup the participant,
 the `restartsSupported` flag can be set in the Setup Info
 structure. Once that structure is created, the setup can
 be completed. See
-[Completing the System Coupling participant setup](../participant-setup.md)
+[Completing the System Coupling participant setup](./participant-setup.md)
 for more details.
 
 ## Creating restart points
@@ -120,5 +120,5 @@ The participant solver is expected to resume the analysis from its state
 when the restart point was created.
 The participant steps in a coupled analysis are the same as for
 the initial run. See
-[Participant steps in a coupled analysis](../participant-steps-in-coupled-analysis.md)
+[Participant steps in a coupled analysis](./participant-steps-in-coupled-analysis.md)
 for more details.

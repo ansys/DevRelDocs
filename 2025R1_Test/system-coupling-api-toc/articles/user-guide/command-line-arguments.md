@@ -54,7 +54,7 @@ the participant library, System Coupling will pass available computing
 resources via a command-line argument when starting this
 participant.
 
-See [Execution in a parallel environment](../parallel-execution.md)
+See [Execution in a parallel environment](./parallel-execution.md)
 for more details.
 
 ### Local parallel execution
