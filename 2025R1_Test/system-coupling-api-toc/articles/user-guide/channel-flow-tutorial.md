@@ -104,7 +104,7 @@ Directory containing the following files:
     information to be consumed by System Coupling. Note that this file has been
     pre-generated for this tutorial. For information about how to generate setup
     files using the Participant Library,
-    see [Completing the System Coupling Participant Setup](./participant-setup.md) in the
+    see [Completing the System Coupling Participant Setup](participant-setup.md) in the
     Participant Library Developer's Guide.
 
 - `runSerial.py`: System Coupling script file to setup and execute the coupled
@@ -276,7 +276,7 @@ the tutorial package. Refer to that source code and the comments for more
 implementation details.
 
 For more details on how to implement the Participant Library APIs for execution
-in a parallel environment, see [Execution in a Parallel Environment](./parallel-execution.md) in the
+in a parallel environment, see [Execution in a Parallel Environment](parallel-execution.md) in the
 Participant Library _Developer's Guide_.
 
 ### Build the parallel mock solver
