@@ -1,4 +1,4 @@
-# Access to Heavyweight Data
+# Access to heavyweight data
 
 **Heavyweight data** are data representing mesh, point cloud, and solution field data.
 Often, solvers store heavyweight data in contiguous arrays in
