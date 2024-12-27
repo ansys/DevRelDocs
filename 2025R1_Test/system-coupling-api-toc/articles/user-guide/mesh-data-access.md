@@ -1,6 +1,6 @@
 # Mesh and point cloud data access
 
-This section pre-supposes familiarity with the concepts introduced in [Access to heavyweight data](user-guide/heavyweight-data-access.md) section.
+This section pre-supposes familiarity with the concepts introduced in [Access to heavyweight data](heavyweight-data-access.md) section.
 Heavyweight array data access structures described in that section can be
 combined into higher-level structures to provide access to mesh and point cloud data.
 This section describes these higher-level structures as well as requirements of mesh and point cloud structures.

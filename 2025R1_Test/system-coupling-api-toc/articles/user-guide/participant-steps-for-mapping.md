@@ -44,7 +44,7 @@ Create and register variables, regions and coupling interfaces.
 
 In this step, the callback functions to access the participant's mesh
 and solution data must be registered.
-See [Access to Heavyweight Data](user-guide/heavyweight-data-access.md) for more details.
+See [Access to Heavyweight Data](heavyweight-data-access.md) for more details.
 
 ### Step 4: Update inputs
 
@@ -65,7 +65,7 @@ library APIs to perform mapping.
 - [Volume mapping example](#volume-mapping-example)
 
 For information on how to compile the code in these examples,
-see [Compiling, linking, and executing applications that use the Participant library](user-guide/compiling-linking-executing.md).
+see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md).
 
 ### Surface mapping example
 

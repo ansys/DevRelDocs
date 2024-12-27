@@ -90,7 +90,7 @@ Register any other callback functions (for example a callback for creating a res
 In the examples below, `getSurfaceMesh`, `getInputScalarData`, and
 `createRestartPoint` are functions that conform to provided prototypes that
 are to be implemented in the participant solver. See
-[Access to heavyweight data](user-guide/heavyweight-data-access.md) and
+[Access to heavyweight data](heavyweight-data-access.md) and
 [Creating restart points and restarting a coupled analysis](restarts.md)
 for more details.
 
