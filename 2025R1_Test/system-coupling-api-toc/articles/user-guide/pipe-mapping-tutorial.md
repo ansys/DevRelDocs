@@ -156,9 +156,7 @@ Build the Pipe Mapping program using a compiler for one of the [supported langua
 
 In the following examples, Pipe Mapping programs are built with different
 configurations. The actual build steps depend on your system configuration,
-compilers, and other details. For additional information, see [Compiling,compiling-linking-executing.md17_CompilingLinkingExecuting.md
-Linking, and Executing Applications That Use the Participant
-Library](17_CompilingLinkingExecuting.md) in the Participant Library
+compilers, and other details. For additional information, see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md) in the Participant Library
 _Developer's Guide_.
 
 The following compilers were used in these examples:

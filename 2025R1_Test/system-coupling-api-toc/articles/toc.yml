@@ -41,8 +41,6 @@
     href: user-guide/plate-damping-tutorial.md
   - name: Pipe mapping tutorial
     href: user-guide/pipe-mapping-tutorial.md
-- name: Changelog
-  href: release-notes.md
 - name: C API reference
   items:
   - name: Groups
@@ -503,3 +501,5 @@
       href: fortran-reference/structfortran_1_1syscvolumemeshf.md
 - name: Python API reference
   homepage: python-reference/PythonAPIsNotes.md
+- name: Changelog
+  href: changelog.md
