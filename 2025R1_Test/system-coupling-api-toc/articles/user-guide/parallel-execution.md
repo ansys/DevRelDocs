@@ -159,5 +159,5 @@ in the following directory:
 
 `<Ansys Installation Path>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<version>/multiport/mpi_wrapper/<platform>/stub`
 
-See [Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md)
+See [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
 for more detailed examples.

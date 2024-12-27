@@ -107,7 +107,7 @@ The source code is provided in the **dampingsolver** subdirectory.
 In the following examples, damping solver applications are built with different configurations.
 The actual build steps depend on your system configuration, compilers, and other details.
 See
-[Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md)
+[Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
 for additional information.
 
 The following compilers were used in these examples:

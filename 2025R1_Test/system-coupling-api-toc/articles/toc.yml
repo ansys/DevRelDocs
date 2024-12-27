@@ -13,7 +13,7 @@
     href: user-guide/steps-to-setup-and-executed-coupled-analysis.md
   - name: Completing the System Coupling participant setup
     href: user-guide/participant-setup.md
-  - name: participant steps in a coupled analysis
+  - name: Participant steps in a coupled analysis
     href: user-guide/participant-steps-in-coupled-analysis.md
   - name: Command line arguments for participant solvers
     href: user-guide/command-line-arguments.md
@@ -21,7 +21,7 @@
     href: user-guide/parallel-execution.md
   - name: Access to parameter data
     href: user-guide/parameter-data-access.md
-  - name: Access to Heavyweight Data
+  - name: Access to heavyweight data
     href: user-guide/heavyweight-data-access.md
   - name: Mesh and point cloud data access
     href: user-guide/mesh-data-access.md

@@ -124,7 +124,7 @@ demonstrated in the second part of this tutorial.
 
 Build the mock solver program using a compiler for one of the supported
 languages. For examples of how to build this mock solver with different
-compilers on different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md)
+compilers on different platforms, see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
 in the Participant Library Developer's Guide.
 
 > **NOTE:** Pre-built solver executables are provided along with
@@ -283,7 +283,7 @@ Participant Library _Developer's Guide_.
 
 Build the parallel mock solver program using a compiler for one of the supported
 languages. For examples of how to build this solver with different compilers on
-different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md) in the Participant
+different platforms, see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md) in the Participant
 Library _Developer's Guide_.
 
 > **Note:** Pre-built solver executables are provided along with
@@ -292,7 +292,7 @@ Library _Developer's Guide_.
 ### Run the parallel mock solver in standalone mode
 
 For examples of how to execute this solver in standalone mode with different
-compilers on different platforms, see [Compiling, Linking, and Executing Applications That Use the Participant Library](compiling-linking-executing.md)
+compilers on different platforms, see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
 in the Participant Library _Developer's Guide_.
 
 ### Perform the coupled analysis using the parallel mock solver

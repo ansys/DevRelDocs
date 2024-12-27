@@ -166,7 +166,7 @@ See [Access to Parameter Data](parameter-data-access.md) for more information.
 
 Heavyweight data access structures provide access to mesh, point cloud, and solution data.
 The participant library makes use of the **callback** functions to access that data.
-See [Access to Heavyweight Data](heavyweight-data-access.md) for more information.
+See [Access to heavyweight data](heavyweight-data-access.md) for more information.
 
 ### Volume meshes
 
