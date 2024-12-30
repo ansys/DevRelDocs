@@ -127,6 +127,8 @@
 - name: Changelog
   href: UDA/add_api/changelog/c_disco_api_addin_changelog.md
   items:
+  - name: Version 2025 R1
+    href: UDA/add_api/changelog/V25-r1.md
   - name: Version 2024 R2
     href: UDA/add_api/changelog/V24-r2.md
 # -  name: Copyright and trademark information
