@@ -234,3 +234,5 @@
       href: examples/stakup-service/ch01s10s14s02.md
     - name: Examples- Update laminate
       href: examples/stakup-service/ch01s10s15s03.md
+- name: Changelog
+  href: changelog.md
