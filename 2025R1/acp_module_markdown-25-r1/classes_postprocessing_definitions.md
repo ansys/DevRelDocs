@@ -2,7 +2,7 @@
 
 <a id="combinedfailurecriteria"></a>
 
-## [`CombinedFailureCriteria`](#compolyx.CombinedFailureCriteria)
+## `CombinedFailureCriteria`
 
 <a id="compolyx.CombinedFailureCriteria"></a>
 
@@ -24,7 +24,7 @@ Serialize to Python string.
 
 <a id="maxstresscriterion"></a>
 
-### [`MaxStressCriterion`](#compolyx.MaxStressCriterion)
+### `MaxStressCriterion`
 
 <a id="compolyx.MaxStressCriterion"></a>
 
@@ -115,7 +115,7 @@ Weighting factor of s3.
 
 <a id="maxstraincriterion"></a>
 
-### [`MaxStrainCriterion`](#compolyx.MaxStrainCriterion)
+### `MaxStrainCriterion`
 
 <a id="compolyx.MaxStrainCriterion"></a>
 
@@ -263,7 +263,7 @@ Weighting factor of e3.
 
 <a id="tsaiwu"></a>
 
-### [`TsaiWu`](#compolyx.TsaiWu)
+### `TsaiWu`
 
 <a id="compolyx.TsaiWu"></a>
 
@@ -291,7 +291,7 @@ Weighting factor.
 
 <a id="tsaihill"></a>
 
-### [`TsaiHill`](#compolyx.TsaiHill)
+### `TsaiHill`
 
 <a id="compolyx.TsaiHill"></a>
 
@@ -319,7 +319,7 @@ Weighting factor.
 
 <a id="hashin"></a>
 
-### [`Hashin`](#compolyx.Hashin)
+### `Hashin`
 
 <a id="compolyx.Hashin"></a>
 
@@ -377,7 +377,7 @@ Weighting factor.
 
 <a id="hoffman"></a>
 
-### [`Hoffman`](#compolyx.Hoffman)
+### `Hoffman`
 
 <a id="compolyx.Hoffman"></a>
 
@@ -405,7 +405,7 @@ Weighting factor.
 
 <a id="puck"></a>
 
-### [`Puck`](#compolyx.Puck)
+### `Puck`
 
 <a id="compolyx.Puck"></a>
 
@@ -541,7 +541,7 @@ Weighting factor.
 
 <a id="wrinkling"></a>
 
-### [`Wrinkling`](#compolyx.Wrinkling)
+### `Wrinkling`
 
 <a id="compolyx.Wrinkling"></a>
 
@@ -575,7 +575,7 @@ Weighting factor.
 
 <a id="coreshear"></a>
 
-### [`CoreShear`](#compolyx.CoreShear)
+### `CoreShear`
 
 <a id="compolyx.CoreShear"></a>
 
@@ -609,7 +609,7 @@ Weighting factor.
 
 <a id="larc"></a>
 
-### [`Larc`](#compolyx.Larc)
+### `Larc`
 
 <a id="compolyx.Larc"></a>
 
@@ -679,7 +679,7 @@ Weighting factor for lmt.
 
 <a id="cuntze"></a>
 
-### [`Cuntze`](#compolyx.Cuntze)
+### `Cuntze`
 
 <a id="compolyx.Cuntze"></a>
 
@@ -785,7 +785,7 @@ Weighting factor.
 
 <a id="vonmises"></a>
 
-### [`VonMises`](#compolyx.VonMises)
+### `VonMises`
 
 <a id="compolyx.VonMises"></a>
 
@@ -837,7 +837,7 @@ Weighting factor.
 
 <a id="shearcrimping"></a>
 
-### [`ShearCrimping`](#compolyx.ShearCrimping)
+### `ShearCrimping`
 
 <a id="compolyx.ShearCrimping"></a>
 
