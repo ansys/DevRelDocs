@@ -4,7 +4,7 @@
 
 ### New APIs
 
-- `exportProject()`: Exports selected project data/files into a .zip file.
+- `exportProjectRequest()`: Exports selected project data/files into a .zip file.
 - `updatePartsListValidationProps()`: Sets properties for the Part List Validation analysis.
 - `addModelingRegion()`: Adds a list of modeling regions for display in a specified CCA's Layer Viewer.
 - `createCCAFromModelingRegion()`: Creates a list of CCAs from already existing modeling regions
