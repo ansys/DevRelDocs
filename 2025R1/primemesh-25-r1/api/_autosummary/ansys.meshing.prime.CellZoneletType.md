@@ -10,8 +10,9 @@ Types of cell zonelet.
 
 ### Methods
 
-| [`CellZoneletType.conjugate`](ansys.meshing.prime.CellZoneletType.conjugate.md#ansys.meshing.prime.CellZoneletType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`CellZoneletType.conjugate`](ansys.meshing.prime.CellZoneletType.conjugate.md#ansys.meshing.prime.CellZoneletType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`CellZoneletType.bit_length`](ansys.meshing.prime.CellZoneletType.bit_length.md#ansys.meshing.prime.CellZoneletType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`CellZoneletType.bit_count`](ansys.meshing.prime.CellZoneletType.bit_count.md#ansys.meshing.prime.CellZoneletType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`CellZoneletType.to_bytes`](ansys.meshing.prime.CellZoneletType.to_bytes.md#ansys.meshing.prime.CellZoneletType.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ Types of cell zonelet.
 
 ### Attributes
 
-| [`CellZoneletType.real`](ansys.meshing.prime.CellZoneletType.real.md#ansys.meshing.prime.CellZoneletType.real)                      | the real part of a complex number                    |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`CellZoneletType.real`](ansys.meshing.prime.CellZoneletType.real.md#ansys.meshing.prime.CellZoneletType.real)                      | the real part of a complex number                    |
 | [`CellZoneletType.imag`](ansys.meshing.prime.CellZoneletType.imag.md#ansys.meshing.prime.CellZoneletType.imag)                      | the imaginary part of a complex number               |
 | [`CellZoneletType.numerator`](ansys.meshing.prime.CellZoneletType.numerator.md#ansys.meshing.prime.CellZoneletType.numerator)       | the numerator of a rational number in lowest terms   |
 | [`CellZoneletType.denominator`](ansys.meshing.prime.CellZoneletType.denominator.md#ansys.meshing.prime.CellZoneletType.denominator) | the denominator of a rational number in lowest terms |

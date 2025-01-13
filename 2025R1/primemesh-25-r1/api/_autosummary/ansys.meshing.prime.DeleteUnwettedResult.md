@@ -26,12 +26,14 @@ Results structure associated with delete unwetted surfaces operation.
 
 ### Methods
 
-| [`DeleteUnwettedResult.print_default`](ansys.meshing.prime.DeleteUnwettedResult.print_default.md#ansys.meshing.prime.DeleteUnwettedResult.print_default)()       | Print the default values of `DeleteUnwettedResult` object.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`DeleteUnwettedResult.print_default`](ansys.meshing.prime.DeleteUnwettedResult.print_default.md#ansys.meshing.prime.DeleteUnwettedResult.print_default)()       | Print the default values of `DeleteUnwettedResult` object.   |
 | [`DeleteUnwettedResult.set_default`](ansys.meshing.prime.DeleteUnwettedResult.set_default.md#ansys.meshing.prime.DeleteUnwettedResult.set_default)([error_code]) | Set the default values of the `DeleteUnwettedResult` object. |
 
 ### Attributes
 
-| [`DeleteUnwettedResult.error_code`](ansys.meshing.prime.DeleteUnwettedResult.error_code.md#ansys.meshing.prime.DeleteUnwettedResult.error_code)   | Error code associated with delete unwetted surfaces operation.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`DeleteUnwettedResult.error_code`](ansys.meshing.prime.DeleteUnwettedResult.error_code.md#ansys.meshing.prime.DeleteUnwettedResult.error_code)   | Error code associated with delete unwetted surfaces operation.   |
 <!-- vale on -->

@@ -10,8 +10,9 @@ ScopeExpressionType uses expression type to evaluate the scope.
 
 ### Methods
 
-| [`ScopeExpressionType.conjugate`](ansys.meshing.prime.ScopeExpressionType.conjugate.md#ansys.meshing.prime.ScopeExpressionType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`ScopeExpressionType.conjugate`](ansys.meshing.prime.ScopeExpressionType.conjugate.md#ansys.meshing.prime.ScopeExpressionType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`ScopeExpressionType.bit_length`](ansys.meshing.prime.ScopeExpressionType.bit_length.md#ansys.meshing.prime.ScopeExpressionType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`ScopeExpressionType.bit_count`](ansys.meshing.prime.ScopeExpressionType.bit_count.md#ansys.meshing.prime.ScopeExpressionType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`ScopeExpressionType.to_bytes`](ansys.meshing.prime.ScopeExpressionType.to_bytes.md#ansys.meshing.prime.ScopeExpressionType.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ ScopeExpressionType uses expression type to evaluate the scope.
 
 ### Attributes
 
-| [`ScopeExpressionType.real`](ansys.meshing.prime.ScopeExpressionType.real.md#ansys.meshing.prime.ScopeExpressionType.real)                      | the real part of a complex number                    |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`ScopeExpressionType.real`](ansys.meshing.prime.ScopeExpressionType.real.md#ansys.meshing.prime.ScopeExpressionType.real)                      | the real part of a complex number                    |
 | [`ScopeExpressionType.imag`](ansys.meshing.prime.ScopeExpressionType.imag.md#ansys.meshing.prime.ScopeExpressionType.imag)                      | the imaginary part of a complex number               |
 | [`ScopeExpressionType.numerator`](ansys.meshing.prime.ScopeExpressionType.numerator.md#ansys.meshing.prime.ScopeExpressionType.numerator)       | the numerator of a rational number in lowest terms   |
 | [`ScopeExpressionType.denominator`](ansys.meshing.prime.ScopeExpressionType.denominator.md#ansys.meshing.prime.ScopeExpressionType.denominator) | the denominator of a rational number in lowest terms |

@@ -42,14 +42,16 @@ Hence, a 90 degree arc will be divided into approximately 18 segments.
 
 ### Methods
 
-| [`CurvatureSizingParams.print_default`](ansys.meshing.prime.CurvatureSizingParams.print_default.md#ansys.meshing.prime.CurvatureSizingParams.print_default)()     | Print the default values of `CurvatureSizingParams` object.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`CurvatureSizingParams.print_default`](ansys.meshing.prime.CurvatureSizingParams.print_default.md#ansys.meshing.prime.CurvatureSizingParams.print_default)()     | Print the default values of `CurvatureSizingParams` object.   |
 | [`CurvatureSizingParams.set_default`](ansys.meshing.prime.CurvatureSizingParams.set_default.md#ansys.meshing.prime.CurvatureSizingParams.set_default)([min, ...]) | Set the default values of the `CurvatureSizingParams` object. |
 
 ### Attributes
 
-| [`CurvatureSizingParams.growth_rate`](ansys.meshing.prime.CurvatureSizingParams.growth_rate.md#ansys.meshing.prime.CurvatureSizingParams.growth_rate)                   | Growth rate used for transitioning from one element size to neighbor element size.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`CurvatureSizingParams.growth_rate`](ansys.meshing.prime.CurvatureSizingParams.growth_rate.md#ansys.meshing.prime.CurvatureSizingParams.growth_rate)                   | Growth rate used for transitioning from one element size to neighbor element size.   |
 | [`CurvatureSizingParams.max`](ansys.meshing.prime.CurvatureSizingParams.max.md#ansys.meshing.prime.CurvatureSizingParams.max)                                           | Maximum size used for computing edge and face size using curavture size control.     |
 | [`CurvatureSizingParams.min`](ansys.meshing.prime.CurvatureSizingParams.min.md#ansys.meshing.prime.CurvatureSizingParams.min)                                           | Minimum size used for computing edge and face size using curavture size control.     |
 | [`CurvatureSizingParams.normal_angle`](ansys.meshing.prime.CurvatureSizingParams.normal_angle.md#ansys.meshing.prime.CurvatureSizingParams.normal_angle)                | Maximum allowable angle at which one element edge may span.                          |

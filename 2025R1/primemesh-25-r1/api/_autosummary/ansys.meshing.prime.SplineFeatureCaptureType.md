@@ -10,8 +10,9 @@ Options to capture features in spline.
 
 ### Methods
 
-| [`SplineFeatureCaptureType.conjugate`](ansys.meshing.prime.SplineFeatureCaptureType.conjugate.md#ansys.meshing.prime.SplineFeatureCaptureType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`SplineFeatureCaptureType.conjugate`](ansys.meshing.prime.SplineFeatureCaptureType.conjugate.md#ansys.meshing.prime.SplineFeatureCaptureType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`SplineFeatureCaptureType.bit_length`](ansys.meshing.prime.SplineFeatureCaptureType.bit_length.md#ansys.meshing.prime.SplineFeatureCaptureType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`SplineFeatureCaptureType.bit_count`](ansys.meshing.prime.SplineFeatureCaptureType.bit_count.md#ansys.meshing.prime.SplineFeatureCaptureType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`SplineFeatureCaptureType.to_bytes`](ansys.meshing.prime.SplineFeatureCaptureType.to_bytes.md#ansys.meshing.prime.SplineFeatureCaptureType.to_bytes)(/[, ...])                  | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ Options to capture features in spline.
 
 ### Attributes
 
-| [`SplineFeatureCaptureType.real`](ansys.meshing.prime.SplineFeatureCaptureType.real.md#ansys.meshing.prime.SplineFeatureCaptureType.real)                      | the real part of a complex number                    |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`SplineFeatureCaptureType.real`](ansys.meshing.prime.SplineFeatureCaptureType.real.md#ansys.meshing.prime.SplineFeatureCaptureType.real)                      | the real part of a complex number                    |
 | [`SplineFeatureCaptureType.imag`](ansys.meshing.prime.SplineFeatureCaptureType.imag.md#ansys.meshing.prime.SplineFeatureCaptureType.imag)                      | the imaginary part of a complex number               |
 | [`SplineFeatureCaptureType.numerator`](ansys.meshing.prime.SplineFeatureCaptureType.numerator.md#ansys.meshing.prime.SplineFeatureCaptureType.numerator)       | the numerator of a rational number in lowest terms   |
 | [`SplineFeatureCaptureType.denominator`](ansys.meshing.prime.SplineFeatureCaptureType.denominator.md#ansys.meshing.prime.SplineFeatureCaptureType.denominator) | the denominator of a rational number in lowest terms |

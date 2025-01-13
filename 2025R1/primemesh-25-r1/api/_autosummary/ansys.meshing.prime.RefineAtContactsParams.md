@@ -35,14 +35,16 @@ Parameters to refine face elements in contact.
 
 ### Methods
 
-| [`RefineAtContactsParams.print_default`](ansys.meshing.prime.RefineAtContactsParams.print_default.md#ansys.meshing.prime.RefineAtContactsParams.print_default)()   | Print the default values of `RefineAtContactsParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`RefineAtContactsParams.print_default`](ansys.meshing.prime.RefineAtContactsParams.print_default.md#ansys.meshing.prime.RefineAtContactsParams.print_default)()   | Print the default values of `RefineAtContactsParams` object.   |
 | [`RefineAtContactsParams.set_default`](ansys.meshing.prime.RefineAtContactsParams.set_default.md#ansys.meshing.prime.RefineAtContactsParams.set_default)([...])    | Set the default values of the `RefineAtContactsParams` object. |
 
 ### Attributes
 
-| [`RefineAtContactsParams.contact_tolerance`](ansys.meshing.prime.RefineAtContactsParams.contact_tolerance.md#ansys.meshing.prime.RefineAtContactsParams.contact_tolerance)       | Maximum tolerance used to identify face elements as contacts.    |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`RefineAtContactsParams.contact_tolerance`](ansys.meshing.prime.RefineAtContactsParams.contact_tolerance.md#ansys.meshing.prime.RefineAtContactsParams.contact_tolerance)       | Maximum tolerance used to identify face elements as contacts.    |
 | [`RefineAtContactsParams.project_on_geometry`](ansys.meshing.prime.RefineAtContactsParams.project_on_geometry.md#ansys.meshing.prime.RefineAtContactsParams.project_on_geometry) | Project on geometry on remesh.                                   |
 | [`RefineAtContactsParams.refine_max_size`](ansys.meshing.prime.RefineAtContactsParams.refine_max_size.md#ansys.meshing.prime.RefineAtContactsParams.refine_max_size)             | Maximum size used to refine contact face elements.               |
 | [`RefineAtContactsParams.relative_tolerance`](ansys.meshing.prime.RefineAtContactsParams.relative_tolerance.md#ansys.meshing.prime.RefineAtContactsParams.relative_tolerance)    | Option to specify the contact tolerance is relative or absolute. |

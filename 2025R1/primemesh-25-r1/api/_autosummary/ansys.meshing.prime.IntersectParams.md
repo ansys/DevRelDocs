@@ -38,14 +38,16 @@ Parameters used for intersection.
 
 ### Methods
 
-| [`IntersectParams.print_default`](ansys.meshing.prime.IntersectParams.print_default.md#ansys.meshing.prime.IntersectParams.print_default)()           | Print the default values of `IntersectParams` object.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`IntersectParams.print_default`](ansys.meshing.prime.IntersectParams.print_default.md#ansys.meshing.prime.IntersectParams.print_default)()           | Print the default values of `IntersectParams` object.   |
 | [`IntersectParams.set_default`](ansys.meshing.prime.IntersectParams.set_default.md#ansys.meshing.prime.IntersectParams.set_default)([tolerance, ...]) | Set the default values of the `IntersectParams` object. |
 
 ### Attributes
 
-| [`IntersectParams.collapse_feature_angle`](ansys.meshing.prime.IntersectParams.collapse_feature_angle.md#ansys.meshing.prime.IntersectParams.collapse_feature_angle)       | Angle to preserve features while performing collapse in improve operation.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| [`IntersectParams.collapse_feature_angle`](ansys.meshing.prime.IntersectParams.collapse_feature_angle.md#ansys.meshing.prime.IntersectParams.collapse_feature_angle)       | Angle to preserve features while performing collapse in improve operation.   |
 | [`IntersectParams.collapse_target_skewness`](ansys.meshing.prime.IntersectParams.collapse_target_skewness.md#ansys.meshing.prime.IntersectParams.collapse_target_skewness) | Perform collapse on faces with skewness above the provided target skewness.  |
 | [`IntersectParams.remesh`](ansys.meshing.prime.IntersectParams.remesh.md#ansys.meshing.prime.IntersectParams.remesh)                                                       | Local remesh at the intersection.                                            |
 | [`IntersectParams.tolerance`](ansys.meshing.prime.IntersectParams.tolerance.md#ansys.meshing.prime.IntersectParams.tolerance)                                              | Intersection tolerance.                                                      |

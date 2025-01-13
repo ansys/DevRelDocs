@@ -26,12 +26,14 @@ Parameters to control fold detection.
 
 ### Methods
 
-| [`SearchByFoldsParams.print_default`](ansys.meshing.prime.SearchByFoldsParams.print_default.md#ansys.meshing.prime.SearchByFoldsParams.print_default)()           | Print the default values of `SearchByFoldsParams` object.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`SearchByFoldsParams.print_default`](ansys.meshing.prime.SearchByFoldsParams.print_default.md#ansys.meshing.prime.SearchByFoldsParams.print_default)()           | Print the default values of `SearchByFoldsParams` object.   |
 | [`SearchByFoldsParams.set_default`](ansys.meshing.prime.SearchByFoldsParams.set_default.md#ansys.meshing.prime.SearchByFoldsParams.set_default)([critical_angle]) | Set the default values of the `SearchByFoldsParams` object. |
 
 ### Attributes
 
-| [`SearchByFoldsParams.critical_angle`](ansys.meshing.prime.SearchByFoldsParams.critical_angle.md#ansys.meshing.prime.SearchByFoldsParams.critical_angle)   | Threshold angle for fold detection.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| [`SearchByFoldsParams.critical_angle`](ansys.meshing.prime.SearchByFoldsParams.critical_angle.md#ansys.meshing.prime.SearchByFoldsParams.critical_angle)   | Threshold angle for fold detection.   |
 <!-- vale on -->

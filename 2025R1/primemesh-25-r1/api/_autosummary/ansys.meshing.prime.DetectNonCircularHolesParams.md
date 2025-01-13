@@ -43,14 +43,16 @@ Parameters for detect non circular holes operation.
 
 ### Methods
 
-| [`DetectNonCircularHolesParams.print_default`](ansys.meshing.prime.DetectNonCircularHolesParams.print_default.md#ansys.meshing.prime.DetectNonCircularHolesParams.print_default)()   | Print the default values of `DetectNonCircularHolesParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [`DetectNonCircularHolesParams.print_default`](ansys.meshing.prime.DetectNonCircularHolesParams.print_default.md#ansys.meshing.prime.DetectNonCircularHolesParams.print_default)()   | Print the default values of `DetectNonCircularHolesParams` object.   |
 | [`DetectNonCircularHolesParams.set_default`](ansys.meshing.prime.DetectNonCircularHolesParams.set_default.md#ansys.meshing.prime.DetectNonCircularHolesParams.set_default)([...])    | Set the default values of the `DetectNonCircularHolesParams` object. |
 
 ### Attributes
 
-| [`DetectNonCircularHolesParams.allow_curved_topo_faces`](ansys.meshing.prime.DetectNonCircularHolesParams.allow_curved_topo_faces.md#ansys.meshing.prime.DetectNonCircularHolesParams.allow_curved_topo_faces)             | Option to allow holes in curved topoface.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| [`DetectNonCircularHolesParams.allow_curved_topo_faces`](ansys.meshing.prime.DetectNonCircularHolesParams.allow_curved_topo_faces.md#ansys.meshing.prime.DetectNonCircularHolesParams.allow_curved_topo_faces)             | Option to allow holes in curved topoface.   |
 | [`DetectNonCircularHolesParams.max_hole_length`](ansys.meshing.prime.DetectNonCircularHolesParams.max_hole_length.md#ansys.meshing.prime.DetectNonCircularHolesParams.max_hole_length)                                     | Maximum length of holes.                    |
 | [`DetectNonCircularHolesParams.merge_edge_allow_self_close`](ansys.meshing.prime.DetectNonCircularHolesParams.merge_edge_allow_self_close.md#ansys.meshing.prime.DetectNonCircularHolesParams.merge_edge_allow_self_close) | Option for merging self-closing edge loops. |
 | [`DetectNonCircularHolesParams.min_hole_length`](ansys.meshing.prime.DetectNonCircularHolesParams.min_hole_length.md#ansys.meshing.prime.DetectNonCircularHolesParams.min_hole_length)                                     | Minimum length of holes.                    |

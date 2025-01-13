@@ -26,8 +26,9 @@ Model allows you to query TopoData, ControlData, Parts, SizeFields and more.
 
 ### Methods
 
-| [`Model.activate_volumetric_size_fields`](ansys.meshing.prime.Model.activate_volumetric_size_fields.md#ansys.meshing.prime.Model.activate_volumetric_size_fields)(...)       | Activate the sizefields identified by the given sizefield ids.           |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [`Model.activate_volumetric_size_fields`](ansys.meshing.prime.Model.activate_volumetric_size_fields.md#ansys.meshing.prime.Model.activate_volumetric_size_fields)(...)       | Activate the sizefields identified by the given sizefield ids.           |
 | [`Model.as_polydata`](ansys.meshing.prime.Model.as_polydata.md#ansys.meshing.prime.Model.as_polydata)([update])                                                              | Get the model as a polydata.                                             |
 | [`Model.create_zone`](ansys.meshing.prime.Model.create_zone.md#ansys.meshing.prime.Model.create_zone)(suggested_name, type)                                                  | Creates zone for the given zone type.                                    |
 | [`Model.deactivate_volumetric_size_fields`](ansys.meshing.prime.Model.deactivate_volumetric_size_fields.md#ansys.meshing.prime.Model.deactivate_volumetric_size_fields)(...) | Deactivate the size fields with the given size field ids.                |
@@ -55,8 +56,9 @@ Model allows you to query TopoData, ControlData, Parts, SizeFields and more.
 
 ### Attributes
 
-| [`Model.control_data`](ansys.meshing.prime.Model.control_data.md#ansys.meshing.prime.Model.control_data)                      | Get the control data for the model.                            |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`Model.control_data`](ansys.meshing.prime.Model.control_data.md#ansys.meshing.prime.Model.control_data)                      | Get the control data for the model.                            |
 | [`Model.id`](ansys.meshing.prime.Model.id.md#ansys.meshing.prime.Model.id)                                                    | Get the id of Model.                                           |
 | [`Model.logger`](ansys.meshing.prime.Model.logger.md#ansys.meshing.prime.Model.logger)                                        | Get PyPrimeMesh's logger instance.                             |
 | [`Model.material_point_data`](ansys.meshing.prime.Model.material_point_data.md#ansys.meshing.prime.Model.material_point_data) | Get material point data for the model.                         |

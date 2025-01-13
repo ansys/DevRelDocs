@@ -29,13 +29,15 @@ Parameters to fill holes at given plane.
 
 ### Methods
 
-| [`FillHolesAtPlaneParams.print_default`](ansys.meshing.prime.FillHolesAtPlaneParams.print_default.md#ansys.meshing.prime.FillHolesAtPlaneParams.print_default)()   | Print the default values of `FillHolesAtPlaneParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`FillHolesAtPlaneParams.print_default`](ansys.meshing.prime.FillHolesAtPlaneParams.print_default.md#ansys.meshing.prime.FillHolesAtPlaneParams.print_default)()   | Print the default values of `FillHolesAtPlaneParams` object.   |
 | [`FillHolesAtPlaneParams.set_default`](ansys.meshing.prime.FillHolesAtPlaneParams.set_default.md#ansys.meshing.prime.FillHolesAtPlaneParams.set_default)([...])    | Set the default values of the `FillHolesAtPlaneParams` object. |
 
 ### Attributes
 
-| [`FillHolesAtPlaneParams.create_zone`](ansys.meshing.prime.FillHolesAtPlaneParams.create_zone.md#ansys.meshing.prime.FillHolesAtPlaneParams.create_zone)                         | Option to create a face zone for the zonelets created to fill holes.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`FillHolesAtPlaneParams.create_zone`](ansys.meshing.prime.FillHolesAtPlaneParams.create_zone.md#ansys.meshing.prime.FillHolesAtPlaneParams.create_zone)                         | Option to create a face zone for the zonelets created to fill holes.   |
 | [`FillHolesAtPlaneParams.suggested_zone_name`](ansys.meshing.prime.FillHolesAtPlaneParams.suggested_zone_name.md#ansys.meshing.prime.FillHolesAtPlaneParams.suggested_zone_name) | Suggested name to be set on merged part.                               |
 <!-- vale on -->

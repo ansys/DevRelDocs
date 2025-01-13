@@ -29,14 +29,16 @@ Provides the `Client` class for PyPrimeMesh.
 
 ### Methods
 
-| [`Client.exit`](ansys.meshing.prime.Client.exit.md#ansys.meshing.prime.Client.exit)()                                  | Close the connection with the server.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+| [`Client.exit`](ansys.meshing.prime.Client.exit.md#ansys.meshing.prime.Client.exit)()                                  | Close the connection with the server.   |
 | [`Client.run_on_server`](ansys.meshing.prime.Client.run_on_server.md#ansys.meshing.prime.Client.run_on_server)(recipe) | Run a recipe on the server.             |
 
 ### Attributes
 
-| [`Client.model`](ansys.meshing.prime.Client.model.md#ansys.meshing.prime.Client.model)   | Get model associated with the client.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------|-----------------------------------------|
+| [`Client.model`](ansys.meshing.prime.Client.model.md#ansys.meshing.prime.Client.model)   | Get model associated with the client.   |
 
 <a id="examples-using-client"></a>
 

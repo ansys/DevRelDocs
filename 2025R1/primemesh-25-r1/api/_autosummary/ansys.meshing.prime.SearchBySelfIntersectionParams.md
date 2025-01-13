@@ -23,7 +23,8 @@ Parameters to search by face element intersection.
 
 ### Methods
 
-| [`SearchBySelfIntersectionParams.print_default`](ansys.meshing.prime.SearchBySelfIntersectionParams.print_default.md#ansys.meshing.prime.SearchBySelfIntersectionParams.print_default)()   | Print the default values of `SearchBySelfIntersectionParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`SearchBySelfIntersectionParams.print_default`](ansys.meshing.prime.SearchBySelfIntersectionParams.print_default.md#ansys.meshing.prime.SearchBySelfIntersectionParams.print_default)()   | Print the default values of `SearchBySelfIntersectionParams` object.   |
 | [`SearchBySelfIntersectionParams.set_default`](ansys.meshing.prime.SearchBySelfIntersectionParams.set_default.md#ansys.meshing.prime.SearchBySelfIntersectionParams.set_default)()         | Set the default values of the `SearchBySelfIntersectionParams` object. |
 <!-- vale on -->

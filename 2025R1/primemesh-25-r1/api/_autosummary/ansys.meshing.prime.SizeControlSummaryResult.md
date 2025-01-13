@@ -26,12 +26,14 @@ Results of size control summary.
 
 ### Methods
 
-| [`SizeControlSummaryResult.print_default`](ansys.meshing.prime.SizeControlSummaryResult.print_default.md#ansys.meshing.prime.SizeControlSummaryResult.print_default)()    | Print the default values of `SizeControlSummaryResult` object.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`SizeControlSummaryResult.print_default`](ansys.meshing.prime.SizeControlSummaryResult.print_default.md#ansys.meshing.prime.SizeControlSummaryResult.print_default)()    | Print the default values of `SizeControlSummaryResult` object.   |
 | [`SizeControlSummaryResult.set_default`](ansys.meshing.prime.SizeControlSummaryResult.set_default.md#ansys.meshing.prime.SizeControlSummaryResult.set_default)([message]) | Set the default values of the `SizeControlSummaryResult` object. |
 
 ### Attributes
 
-| [`SizeControlSummaryResult.message`](ansys.meshing.prime.SizeControlSummaryResult.message.md#ansys.meshing.prime.SizeControlSummaryResult.message)   | Size control summary text.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+| [`SizeControlSummaryResult.message`](ansys.meshing.prime.SizeControlSummaryResult.message.md#ansys.meshing.prime.SizeControlSummaryResult.message)   | Size control summary text.   |
 <!-- vale on -->

@@ -53,14 +53,16 @@ Results associated with the fuse operations.
 
 ### Methods
 
-| [`FuseResults.print_default`](ansys.meshing.prime.FuseResults.print_default.md#ansys.meshing.prime.FuseResults.print_default)()             | Print the default values of `FuseResults` object.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| [`FuseResults.print_default`](ansys.meshing.prime.FuseResults.print_default.md#ansys.meshing.prime.FuseResults.print_default)()             | Print the default values of `FuseResults` object.   |
 | [`FuseResults.set_default`](ansys.meshing.prime.FuseResults.set_default.md#ansys.meshing.prime.FuseResults.set_default)([fused_pairs, ...]) | Set the default values of the `FuseResults` object. |
 
 ### Attributes
 
-| [`FuseResults.error_code`](ansys.meshing.prime.FuseResults.error_code.md#ansys.meshing.prime.FuseResults.error_code)                                                 | Error code associated with failure of the fuse operation.                                                     |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| [`FuseResults.error_code`](ansys.meshing.prime.FuseResults.error_code.md#ansys.meshing.prime.FuseResults.error_code)                                                 | Error code associated with failure of the fuse operation.                                                     |
 | [`FuseResults.fused_area`](ansys.meshing.prime.FuseResults.fused_area.md#ansys.meshing.prime.FuseResults.fused_area)                                                 | Total area of fused regions from both source and target faces.                                                |
 | [`FuseResults.fused_pairs`](ansys.meshing.prime.FuseResults.fused_pairs.md#ansys.meshing.prime.FuseResults.fused_pairs)                                              | Number of face region pairs that were fused.                                                                  |
 | [`FuseResults.intersecting_locations`](ansys.meshing.prime.FuseResults.intersecting_locations.md#ansys.meshing.prime.FuseResults.intersecting_locations)             | Locations where the fuse operation did not remove self-intersections in the input.                            |

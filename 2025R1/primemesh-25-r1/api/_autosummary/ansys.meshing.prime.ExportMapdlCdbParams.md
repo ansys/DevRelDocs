@@ -108,14 +108,16 @@ Parameters to control MAPDL CDB export settings.
 
 ### Methods
 
-| [`ExportMapdlCdbParams.print_default`](ansys.meshing.prime.ExportMapdlCdbParams.print_default.md#ansys.meshing.prime.ExportMapdlCdbParams.print_default)()   | Print the default values of `ExportMapdlCdbParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`ExportMapdlCdbParams.print_default`](ansys.meshing.prime.ExportMapdlCdbParams.print_default.md#ansys.meshing.prime.ExportMapdlCdbParams.print_default)()   | Print the default values of `ExportMapdlCdbParams` object.   |
 | [`ExportMapdlCdbParams.set_default`](ansys.meshing.prime.ExportMapdlCdbParams.set_default.md#ansys.meshing.prime.ExportMapdlCdbParams.set_default)([...])    | Set the default values of the `ExportMapdlCdbParams` object. |
 
 ### Attributes
 
-| [`ExportMapdlCdbParams.analysis_settings`](ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings.md#ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings)                                                                      | Boundary conditions can be included into analysis settings.                            |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`ExportMapdlCdbParams.analysis_settings`](ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings.md#ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings)                                                                      | Boundary conditions can be included into analysis settings.                            |
 | [`ExportMapdlCdbParams.analysis_settings_file_name`](ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings_file_name.md#ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings_file_name)                                        | File path to export mapdl analysis settings.                                           |
 | [`ExportMapdlCdbParams.analysis_type`](ansys.meshing.prime.ExportMapdlCdbParams.analysis_type.md#ansys.meshing.prime.ExportMapdlCdbParams.analysis_type)                                                                                  | Option to specify CDB analysis type.                                                   |
 | [`ExportMapdlCdbParams.boundary_conditions`](ansys.meshing.prime.ExportMapdlCdbParams.boundary_conditions.md#ansys.meshing.prime.ExportMapdlCdbParams.boundary_conditions)                                                                | Boundary conditions in CDB format to be added to the file.                             |

@@ -23,7 +23,8 @@ DeleteUnwettedParams defines parameters for delete unwetted surfaces operation.
 
 ### Methods
 
-| [`DeleteUnwettedParams.print_default`](ansys.meshing.prime.DeleteUnwettedParams.print_default.md#ansys.meshing.prime.DeleteUnwettedParams.print_default)()   | Print the default values of `DeleteUnwettedParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`DeleteUnwettedParams.print_default`](ansys.meshing.prime.DeleteUnwettedParams.print_default.md#ansys.meshing.prime.DeleteUnwettedParams.print_default)()   | Print the default values of `DeleteUnwettedParams` object.   |
 | [`DeleteUnwettedParams.set_default`](ansys.meshing.prime.DeleteUnwettedParams.set_default.md#ansys.meshing.prime.DeleteUnwettedParams.set_default)()         | Set the default values of the `DeleteUnwettedParams` object. |
 <!-- vale on -->

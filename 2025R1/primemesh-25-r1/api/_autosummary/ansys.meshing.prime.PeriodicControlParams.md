@@ -32,14 +32,16 @@ PeriodicControlParams contains the parameters for periodic surface recovery.  Pa
 
 ### Methods
 
-| [`PeriodicControlParams.print_default`](ansys.meshing.prime.PeriodicControlParams.print_default.md#ansys.meshing.prime.PeriodicControlParams.print_default)()        | Print the default values of `PeriodicControlParams` object.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`PeriodicControlParams.print_default`](ansys.meshing.prime.PeriodicControlParams.print_default.md#ansys.meshing.prime.PeriodicControlParams.print_default)()        | Print the default values of `PeriodicControlParams` object.   |
 | [`PeriodicControlParams.set_default`](ansys.meshing.prime.PeriodicControlParams.set_default.md#ansys.meshing.prime.PeriodicControlParams.set_default)([center, ...]) | Set the default values of the `PeriodicControlParams` object. |
 
 ### Attributes
 
-| [`PeriodicControlParams.angle`](ansys.meshing.prime.PeriodicControlParams.angle.md#ansys.meshing.prime.PeriodicControlParams.angle)    | Angle in degrees.        |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
+| [`PeriodicControlParams.angle`](ansys.meshing.prime.PeriodicControlParams.angle.md#ansys.meshing.prime.PeriodicControlParams.angle)    | Angle in degrees.        |
 | [`PeriodicControlParams.axis`](ansys.meshing.prime.PeriodicControlParams.axis.md#ansys.meshing.prime.PeriodicControlParams.axis)       | Axis vector coordinates. |
 | [`PeriodicControlParams.center`](ansys.meshing.prime.PeriodicControlParams.center.md#ansys.meshing.prime.PeriodicControlParams.center) | Center coordinates.      |
 <!-- vale on -->

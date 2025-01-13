@@ -38,14 +38,16 @@ Results structure associated to improve quality.
 
 ### Methods
 
-| [`WrapperImproveResult.print_default`](ansys.meshing.prime.WrapperImproveResult.print_default.md#ansys.meshing.prime.WrapperImproveResult.print_default)()   | Print the default values of `WrapperImproveResult` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`WrapperImproveResult.print_default`](ansys.meshing.prime.WrapperImproveResult.print_default.md#ansys.meshing.prime.WrapperImproveResult.print_default)()   | Print the default values of `WrapperImproveResult` object.   |
 | [`WrapperImproveResult.set_default`](ansys.meshing.prime.WrapperImproveResult.set_default.md#ansys.meshing.prime.WrapperImproveResult.set_default)([...])    | Set the default values of the `WrapperImproveResult` object. |
 
 ### Attributes
 
-| [`WrapperImproveResult.error_code`](ansys.meshing.prime.WrapperImproveResult.error_code.md#ansys.meshing.prime.WrapperImproveResult.error_code)                                                          | Error code associated with a wrapper operation.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| [`WrapperImproveResult.error_code`](ansys.meshing.prime.WrapperImproveResult.error_code.md#ansys.meshing.prime.WrapperImproveResult.error_code)                                                          | Error code associated with a wrapper operation.   |
 | [`WrapperImproveResult.n_face_intersections_found`](ansys.meshing.prime.WrapperImproveResult.n_face_intersections_found.md#ansys.meshing.prime.WrapperImproveResult.n_face_intersections_found)          | Number of self intersections found.               |
 | [`WrapperImproveResult.n_skew_found`](ansys.meshing.prime.WrapperImproveResult.n_skew_found.md#ansys.meshing.prime.WrapperImproveResult.n_skew_found)                                                    | Number of skewed faces found.                     |
 | [`WrapperImproveResult.remaining_skew_faces`](ansys.meshing.prime.WrapperImproveResult.remaining_skew_faces.md#ansys.meshing.prime.WrapperImproveResult.remaining_skew_faces)                            | Number of remaining skew faces.                   |

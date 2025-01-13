@@ -17,8 +17,9 @@ Scaffolder is used for achieving connections in structures made of sheets and be
 
 ### Methods
 
-| [`Scaffolder.delete_shadowed_topo_faces`](ansys.meshing.prime.Scaffolder.delete_shadowed_topo_faces.md#ansys.meshing.prime.Scaffolder.delete_shadowed_topo_faces)(...)                | Delete fully shadowed topofaces.                   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`Scaffolder.delete_shadowed_topo_faces`](ansys.meshing.prime.Scaffolder.delete_shadowed_topo_faces.md#ansys.meshing.prime.Scaffolder.delete_shadowed_topo_faces)(...)                | Delete fully shadowed topofaces.                   |
 | [`Scaffolder.merge_overlapping_topo_faces`](ansys.meshing.prime.Scaffolder.merge_overlapping_topo_faces.md#ansys.meshing.prime.Scaffolder.merge_overlapping_topo_faces)(...)          | Merge overlapping topofaces.                       |
 | [`Scaffolder.scaffold_topo_faces_and_beams`](ansys.meshing.prime.Scaffolder.scaffold_topo_faces_and_beams.md#ansys.meshing.prime.Scaffolder.scaffold_topo_faces_and_beams)(...)       | Scaffold faces and beams with provided parameters. |
 | [`Scaffolder.split_topo_faces_by_mesh_region`](ansys.meshing.prime.Scaffolder.split_topo_faces_by_mesh_region.md#ansys.meshing.prime.Scaffolder.split_topo_faces_by_mesh_region)(...) | Split input topofaces by mesh region.              |

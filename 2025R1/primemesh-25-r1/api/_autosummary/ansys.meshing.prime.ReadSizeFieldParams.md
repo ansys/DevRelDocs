@@ -26,12 +26,14 @@ Parameters used to read size field file.
 
 ### Methods
 
-| [`ReadSizeFieldParams.print_default`](ansys.meshing.prime.ReadSizeFieldParams.print_default.md#ansys.meshing.prime.ReadSizeFieldParams.print_default)()   | Print the default values of `ReadSizeFieldParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`ReadSizeFieldParams.print_default`](ansys.meshing.prime.ReadSizeFieldParams.print_default.md#ansys.meshing.prime.ReadSizeFieldParams.print_default)()   | Print the default values of `ReadSizeFieldParams` object.   |
 | [`ReadSizeFieldParams.set_default`](ansys.meshing.prime.ReadSizeFieldParams.set_default.md#ansys.meshing.prime.ReadSizeFieldParams.set_default)([append]) | Set the default values of the `ReadSizeFieldParams` object. |
 
 ### Attributes
 
-| [`ReadSizeFieldParams.append`](ansys.meshing.prime.ReadSizeFieldParams.append.md#ansys.meshing.prime.ReadSizeFieldParams.append)   | Option to append the size fields from file.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [`ReadSizeFieldParams.append`](ansys.meshing.prime.ReadSizeFieldParams.append.md#ansys.meshing.prime.ReadSizeFieldParams.append)   | Option to append the size fields from file.   |
 <!-- vale on -->

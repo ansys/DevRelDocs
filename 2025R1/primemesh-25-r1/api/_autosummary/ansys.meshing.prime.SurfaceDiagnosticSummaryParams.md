@@ -38,14 +38,16 @@ Parameters to control surface diagnostics summary results.
 
 ### Methods
 
-| [`SurfaceDiagnosticSummaryParams.print_default`](ansys.meshing.prime.SurfaceDiagnosticSummaryParams.print_default.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams.print_default)()   | Print the default values of `SurfaceDiagnosticSummaryParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`SurfaceDiagnosticSummaryParams.print_default`](ansys.meshing.prime.SurfaceDiagnosticSummaryParams.print_default.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams.print_default)()   | Print the default values of `SurfaceDiagnosticSummaryParams` object.   |
 | [`SurfaceDiagnosticSummaryParams.set_default`](ansys.meshing.prime.SurfaceDiagnosticSummaryParams.set_default.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams.set_default)([...])    | Set the default values of the `SurfaceDiagnosticSummaryParams` object. |
 
 ### Attributes
 
-| [`SurfaceDiagnosticSummaryParams.compute_duplicate_faces`](ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_duplicate_faces.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_duplicate_faces)          | Control to identify duplicate faces are present or not.    |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`SurfaceDiagnosticSummaryParams.compute_duplicate_faces`](ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_duplicate_faces.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_duplicate_faces)          | Control to identify duplicate faces are present or not.    |
 | [`SurfaceDiagnosticSummaryParams.compute_free_edges`](ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_free_edges.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_free_edges)                         | Control to identify free face edges are present or not.    |
 | [`SurfaceDiagnosticSummaryParams.compute_multi_edges`](ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_multi_edges.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_multi_edges)                      | Control to identify multi face edges are present or not.   |
 | [`SurfaceDiagnosticSummaryParams.compute_self_intersections`](ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_self_intersections.md#ansys.meshing.prime.SurfaceDiagnosticSummaryParams.compute_self_intersections) | Control to identify face intersections are present or not. |

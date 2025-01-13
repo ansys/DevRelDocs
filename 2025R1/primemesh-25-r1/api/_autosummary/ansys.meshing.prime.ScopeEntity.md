@@ -10,8 +10,9 @@ ScopeDefinition uses entity type to scope entities.
 
 ### Methods
 
-| [`ScopeEntity.conjugate`](ansys.meshing.prime.ScopeEntity.conjugate.md#ansys.meshing.prime.ScopeEntity.conjugate)                           | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`ScopeEntity.conjugate`](ansys.meshing.prime.ScopeEntity.conjugate.md#ansys.meshing.prime.ScopeEntity.conjugate)                           | Returns self, the complex conjugate of any int.                            |
 | [`ScopeEntity.bit_length`](ansys.meshing.prime.ScopeEntity.bit_length.md#ansys.meshing.prime.ScopeEntity.bit_length)(/)                     | Number of bits necessary to represent self in binary.                      |
 | [`ScopeEntity.bit_count`](ansys.meshing.prime.ScopeEntity.bit_count.md#ansys.meshing.prime.ScopeEntity.bit_count)(/)                        | Number of ones in the binary representation of the absolute value of self. |
 | [`ScopeEntity.to_bytes`](ansys.meshing.prime.ScopeEntity.to_bytes.md#ansys.meshing.prime.ScopeEntity.to_bytes)(/[, length, byteorder, ...]) | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ ScopeDefinition uses entity type to scope entities.
 
 ### Attributes
 
-| [`ScopeEntity.real`](ansys.meshing.prime.ScopeEntity.real.md#ansys.meshing.prime.ScopeEntity.real)                                              | the real part of a complex number                    |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`ScopeEntity.real`](ansys.meshing.prime.ScopeEntity.real.md#ansys.meshing.prime.ScopeEntity.real)                                              | the real part of a complex number                    |
 | [`ScopeEntity.imag`](ansys.meshing.prime.ScopeEntity.imag.md#ansys.meshing.prime.ScopeEntity.imag)                                              | the imaginary part of a complex number               |
 | [`ScopeEntity.numerator`](ansys.meshing.prime.ScopeEntity.numerator.md#ansys.meshing.prime.ScopeEntity.numerator)                               | the numerator of a rational number in lowest terms   |
 | [`ScopeEntity.denominator`](ansys.meshing.prime.ScopeEntity.denominator.md#ansys.meshing.prime.ScopeEntity.denominator)                         | the denominator of a rational number in lowest terms |
