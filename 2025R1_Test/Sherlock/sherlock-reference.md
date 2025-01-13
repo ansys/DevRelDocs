@@ -1,436 +1,77 @@
 # Reference documentation
 
-## Table of contents
-
-- [Reference documentation](#reference-documentation)
-  - [Table of contents](#table-of-contents)
-  - [SherlockAnalysisService.proto](#sherlockanalysisserviceproto)
-    - [GetHarmonicVibeInputFieldsRequest](#getharmonicvibeinputfieldsrequest)
-    - [GetHarmonicVibeInputFieldsResponse](#getharmonicvibeinputfieldsresponse)
-    - [GetICTAnalysisInputFieldsRequest](#getictanalysisinputfieldsrequest)
-    - [GetICTAnalysisInputFieldsResponse](#getictanalysisinputfieldsresponse)
-    - [GetMechanicalShockInputFieldsRequest](#getmechanicalshockinputfieldsrequest)
-    - [GetMechanicalShockInputFieldsResponse](#getmechanicalshockinputfieldsresponse)
-    - [GetNaturalFrequencyInputFieldsRequest](#getnaturalfrequencyinputfieldsrequest)
-    - [GetNaturalFrequencyInputFieldsResponse](#getnaturalfrequencyinputfieldsresponse)
-    - [GetPartsListValidationPropsRequest](#getpartslistvalidationpropsrequest)
-    - [GetPcbModelingInputFieldsRequest](#getpcbmodelinginputfieldsrequest)
-    - [GetPcbModelingInputFieldsResponse](#getpcbmodelinginputfieldsresponse)
-    - [GetRandomVibeInputFieldsRequest](#getrandomvibeinputfieldsrequest)
-    - [GetRandomVibeInputFieldsResponse](#getrandomvibeinputfieldsresponse)
-    - [GetSolderFatigueInputFieldsRequest](#getsolderfatigueinputfieldsrequest)
-    - [GetSolderFatigueInputFieldsResponse](#getsolderfatigueinputfieldsresponse)
-    - [PartsListValidationPropsResponse](#partslistvalidationpropsresponse)
-    - [RunAnalysisRequest](#runanalysisrequest)
-    - [RunAnalysisRequest.Analysis](#runanalysisrequestanalysis)
-    - [RunAnalysisRequest.Analysis.Phase](#runanalysisrequestanalysisphase)
-    - [RunAnalysisRequest.Analysis.Phase.Event](#runanalysisrequestanalysisphaseevent)
-    - [RunStrainMapAnalysisRequest](#runstrainmapanalysisrequest)
-    - [RunStrainMapAnalysisRequest.StrainMapAnalysis](#runstrainmapanalysisrequeststrainmapanalysis)
-    - [RunStrainMapAnalysisRequest.StrainMapAnalysis.EventStrainMap](#runstrainmapanalysisrequeststrainmapanalysiseventstrainmap)
-    - [UpdateHarmonicVibePropsRequest](#updateharmonicvibepropsrequest)
-    - [UpdateHarmonicVibePropsRequest.HarmonicVibe](#updateharmonicvibepropsrequestharmonicvibe)
-    - [UpdateICTAnalysisPropsRequest](#updateictanalysispropsrequest)
-    - [UpdateICTAnalysisPropsRequest.ICTAnalysis](#updateictanalysispropsrequestictanalysis)
-    - [UpdateMechanicalShockPropsRequest](#updatemechanicalshockpropsrequest)
-    - [UpdateMechanicalShockPropsRequest.MechanicalShock](#updatemechanicalshockpropsrequestmechanicalshock)
-    - [UpdateNaturalFrequencyPropsRequest](#updatenaturalfrequencypropsrequest)
-    - [UpdatePartModelingRequest](#updatepartmodelingrequest)
-    - [UpdatePartsListValidationPropsRequest](#updatepartslistvalidationpropsrequest)
-    - [UpdatePartsListValidationPropsRequest.PartsListValidation](#updatepartslistvalidationpropsrequestpartslistvalidation)
-    - [UpdatePcbModelingPropsRequest](#updatepcbmodelingpropsrequest)
-    - [UpdatePcbModelingPropsRequest.Analysis](#updatepcbmodelingpropsrequestanalysis)
-    - [UpdateRandomVibePropsRequest](#updaterandomvibepropsrequest)
-    - [UpdateSolderFatiguePropsRequest](#updatesolderfatiguepropsrequest)
-    - [UpdateSolderFatiguePropsRequest.SolderFatigue](#updatesolderfatiguepropsrequestsolderfatigue)
-    - [UpdateThermalMechPropsRequest](#updatethermalmechpropsrequest)
-    - [ElementOrder](#elementorder)
-    - [ModelSource](#modelsource)
-    - [AnalysisType](#analysistype)
-    - [AnalysisType](#analysistype-1)
-    - [AnalysisType](#analysistype-2)
-    - [PcbMaterialModel](#pcbmaterialmodel)
-    - [PcbModelType](#pcbmodeltype)
-    - [SherlockAnalysisService](#sherlockanalysisservice)
-  - [SherlockCommonService.proto](#sherlockcommonserviceproto)
-    - [ExitRequest](#exitrequest)
-    - [GetSoldersRequest](#getsoldersrequest)
-    - [GetSoldersResponse](#getsoldersresponse)
-    - [HealthCheckRequest](#healthcheckrequest)
-    - [HealthCheckResponse](#healthcheckresponse)
-    - [IsSherlockClientLoadingRequest](#issherlockclientloadingrequest)
-    - [ListUnitsRequest](#listunitsrequest)
-    - [ListUnitsResponse](#listunitsresponse)
-    - [Measurement](#measurement)
-    - [ReturnCode](#returncode)
-    - [SherlockInfoRequest](#sherlockinforequest)
-    - [SherlockInfoResponse](#sherlockinforesponse)
-    - [ServingStatus](#servingstatus)
-    - [UnitType](#unittype)
-    - [MatchingMode](#matchingmode)
-    - [TableDelimiter](#tabledelimiter)
-    - [SherlockCommonService](#sherlockcommonservice)
-  - [SherlockLayerService.proto](#sherlocklayerserviceproto)
-    - [AddModelingRegionRequest](#addmodelingregionrequest)
-    - [AddPottingRegionRequest](#addpottingregionrequest)
-    - [AddPottingRegionRequest.PottingRegion](#addpottingregionrequestpottingregion)
-    - [CircularShape](#circularshape)
-    - [CopyModelingRegionRequest](#copymodelingregionrequest)
-    - [CopyModelingRegionRequest.CopyModelingRegionInfo](#copymodelingregionrequestcopymodelingregioninfo)
-    - [CopyPottingRegionRequest](#copypottingregionrequest)
-    - [CopyPottingRegionRequest.PottingRegionCopyData](#copypottingregionrequestpottingregioncopydata)
-    - [DeleteAllICTFixturesRequest](#deleteallictfixturesrequest)
-    - [DeleteAllMountPointsRequest](#deleteallmountpointsrequest)
-    - [DeleteAllTestPointsRequest](#deletealltestpointsrequest)
-    - [DeleteModelingRegionRequest](#deletemodelingregionrequest)
-    - [DeleteModelingRegionRequest.DeleteModelingRegionInfo](#deletemodelingregionrequestdeletemodelingregioninfo)
-    - [DeletePottingRegionRequest](#deletepottingregionrequest)
-    - [DeletePottingRegionRequest.PottingRegionDeleteData](#deletepottingregionrequestpottingregiondeletedata)
-    - [ExportAllICTFixturesRequest](#exportallictfixturesrequest)
-    - [ExportAllMountPointsRequest](#exportallmountpointsrequest)
-    - [ExportAllTestPointsRequest](#exportalltestpointsrequest)
-    - [GetMountPointBoundariesRequest](#getmountpointboundariesrequest)
-    - [GetMountPointBoundariesResponse](#getmountpointboundariesresponse)
-    - [GetMountPointChassisMaterialsRequest](#getmountpointchassismaterialsrequest)
-    - [GetMountPointChassisMaterialsResponse](#getmountpointchassismaterialsresponse)
-    - [GetMountPointShapeTypesRequest](#getmountpointshapetypesrequest)
-    - [GetMountPointShapeTypesResponse](#getmountpointshapetypesresponse)
-    - [GetMountPointSidesRequest](#getmountpointsidesrequest)
-    - [GetMountPointSidesResponse](#getmountpointsidesresponse)
-    - [GetMountPointTypesRequest](#getmountpointtypesrequest)
-    - [GetMountPointTypesResponse](#getmountpointtypesresponse)
-    - [GetMountPointUnitsRequest](#getmountpointunitsrequest)
-    - [GetMountPointUnitsResponse](#getmountpointunitsresponse)
-    - [GetMountPointsPropertiesRequest](#getmountpointspropertiesrequest)
-    - [GetMountPointsPropertiesResponse](#getmountpointspropertiesresponse)
-    - [ModelingRegion](#modelingregion)
-    - [ModelingRegion.PCBModelingProperties](#modelingregionpcbmodelingproperties)
-    - [ModelingRegion.TraceModelingProperties](#modelingregiontracemodelingproperties)
-    - [MountPointProperties](#mountpointproperties)
-    - [PCBShape](#pcbshape)
-    - [PolygonalShape](#polygonalshape)
-    - [PolygonalShape.Point](#polygonalshapepoint)
-    - [PottingRegion](#pottingregion)
-    - [RectangularShape](#rectangularshape)
-    - [SlotShape](#slotshape)
-    - [UpdateICTFixturesByFileRequest](#updateictfixturesbyfilerequest)
-    - [UpdateICTFixturesResponse](#updateictfixturesresponse)
-    - [UpdateModelingRegionRequest](#updatemodelingregionrequest)
-    - [UpdateMountPointsByFileRequest](#updatemountpointsbyfilerequest)
-    - [UpdateMountPointsRequest](#updatemountpointsrequest)
-    - [UpdateMountPointsResponse](#updatemountpointsresponse)
-    - [UpdatePottingRegionRequest](#updatepottingregionrequest)
-    - [UpdatePottingRegionRequest.PottingRegionUpdateData](#updatepottingregionrequestpottingregionupdatedata)
-    - [UpdateTestPointsByFileRequest](#updatetestpointsbyfilerequest)
-    - [UpdateTestPointsResponse](#updatetestpointsresponse)
-    - [ElementOrder](#elementorder-1)
-    - [ModelingMode](#modelingmode)
-    - [ExportModelType](#exportmodeltype)
-    - [TraceModelingType](#tracemodelingtype)
-    - [SherlockLayerService](#sherlocklayerservice)
-  - [SherlockLifeCycleService.proto](#sherlocklifecycleserviceproto)
-    - [AddHarmonicEventRequest](#addharmoniceventrequest)
-    - [AddHarmonicEventResponse](#addharmoniceventresponse)
-    - [AddHarmonicVibeProfilesRequest](#addharmonicvibeprofilesrequest)
-    - [AddHarmonicVibeProfilesRequest.HarmonicVibeProfile](#addharmonicvibeprofilesrequestharmonicvibeprofile)
-    - [AddHarmonicVibeProfilesRequest.HarmonicVibeProfile.Entry](#addharmonicvibeprofilesrequestharmonicvibeprofileentry)
-    - [AddHarmonicVibeProfilesResponse](#addharmonicvibeprofilesresponse)
-    - [AddRandomVibeEventRequest](#addrandomvibeeventrequest)
-    - [AddRandomVibeEventResponse](#addrandomvibeeventresponse)
-    - [AddRandomVibeProfilesRequest](#addrandomvibeprofilesrequest)
-    - [AddRandomVibeProfilesRequest.RandomVibeProfile](#addrandomvibeprofilesrequestrandomvibeprofile)
-    - [AddRandomVibeProfilesRequest.RandomVibeProfile.Entry](#addrandomvibeprofilesrequestrandomvibeprofileentry)
-    - [AddRandomVibeProfilesResponse](#addrandomvibeprofilesresponse)
-    - [AddShockEventRequest](#addshockeventrequest)
-    - [AddShockEventResponse](#addshockeventresponse)
-    - [AddShockProfilesRequest](#addshockprofilesrequest)
-    - [AddShockProfilesRequest.ShockProfile](#addshockprofilesrequestshockprofile)
-    - [AddShockProfilesRequest.ShockProfile.Entry](#addshockprofilesrequestshockprofileentry)
-    - [AddShockProfilesResponse](#addshockprofilesresponse)
-    - [AddThermalEventRequest](#addthermaleventrequest)
-    - [AddThermalEventResponse](#addthermaleventresponse)
-    - [AddThermalProfilesRequest](#addthermalprofilesrequest)
-    - [AddThermalProfilesRequest.ThermalProfile](#addthermalprofilesrequestthermalprofile)
-    - [AddThermalProfilesRequest.ThermalProfile.Entry](#addthermalprofilesrequestthermalprofileentry)
-    - [AddThermalProfilesResponse](#addthermalprofilesresponse)
-    - [CreateLifePhaseRequest](#createlifephaserequest)
-    - [CreateLifePhaseResponse](#createlifephaseresponse)
-    - [DeleteEventRequest](#deleteeventrequest)
-    - [DeleteLifePhaseResponse](#deletelifephaseresponse)
-    - [DeletePhaseRequest](#deletephaserequest)
-    - [Events](#events)
-    - [ListAmplUnitsRequest](#listamplunitsrequest)
-    - [ListAmplUnitsResponse](#listamplunitsresponse)
-    - [ListDurationUnitsRequest](#listdurationunitsrequest)
-    - [ListDurationUnitsResponse](#listdurationunitsresponse)
-    - [ListFreqUnitsRequest](#listfrequnitsrequest)
-    - [ListFreqUnitsResponse](#listfrequnitsresponse)
-    - [ListHarmonicEventsRequest](#listharmoniceventsrequest)
-    - [ListHarmonicEventsResponse](#listharmoniceventsresponse)
-    - [ListHarmonicProfileTypesRequest](#listharmonicprofiletypesrequest)
-    - [ListHarmonicProfileTypesResponse](#listharmonicprofiletypesresponse)
-    - [ListLCEventsRequest](#listlceventsrequest)
-    - [ListLCEventsResponse](#listlceventsresponse)
-    - [ListLCEventsResponse.LifeCyclePhase](#listlceventsresponselifecyclephase)
-    - [ListLCEventsResponse.LifeCyclePhase.LifeCycleEvent](#listlceventsresponselifecyclephaselifecycleevent)
-    - [ListLCStatesRequest](#listlcstatesrequest)
-    - [ListLCStatesResponse](#listlcstatesresponse)
-    - [ListLCTypesRequest](#listlctypesrequest)
-    - [ListLCTypesResponse](#listlctypesresponse)
-    - [ListRandomVibeEventsRequest](#listrandomvibeeventsrequest)
-    - [ListRandomVibeEventsResponse](#listrandomvibeeventsresponse)
-    - [ListRandomVibeProfileTypesRequest](#listrandomvibeprofiletypesrequest)
-    - [ListRandomVibeProfileTypesResponse](#listrandomvibeprofiletypesresponse)
-    - [ListShockEventsRequest](#listshockeventsrequest)
-    - [ListShockEventsResponse](#listshockeventsresponse)
-    - [ListShockLoadUnitsRequest](#listshockloadunitsrequest)
-    - [ListShockLoadUnitsResponse](#listshockloadunitsresponse)
-    - [ListShockPulsesRequest](#listshockpulsesrequest)
-    - [ListShockPulsesResponse](#listshockpulsesresponse)
-    - [ListTempUnitsRequest](#listtempunitsrequest)
-    - [ListTempUnitsResponse](#listtempunitsresponse)
-    - [LoadHarmonicProfileRequest](#loadharmonicprofilerequest)
-    - [LoadHarmonicProfileRequest.CSVProps](#loadharmonicprofilerequestcsvprops)
-    - [LoadHarmonicProfileResponse](#loadharmonicprofileresponse)
-    - [LoadRandomVibeProfileRequest](#loadrandomvibeprofilerequest)
-    - [LoadRandomVibeProfileRequest.CSVProps](#loadrandomvibeprofilerequestcsvprops)
-    - [LoadRandomVibeProfileResponse](#loadrandomvibeprofileresponse)
-    - [LoadShockProfileDatasetRequest](#loadshockprofiledatasetrequest)
-    - [LoadShockProfileDatasetRequest.CSVProps](#loadshockprofiledatasetrequestcsvprops)
-    - [LoadShockProfileDatasetResponse](#loadshockprofiledatasetresponse)
-    - [LoadShockProfilePulsesRequest](#loadshockprofilepulsesrequest)
-    - [LoadShockProfilePulsesRequest.CSVProps](#loadshockprofilepulsesrequestcsvprops)
-    - [LoadShockProfilePulsesResponse](#loadshockprofilepulsesresponse)
-    - [LoadThermalProfileRequest](#loadthermalprofilerequest)
-    - [LoadThermalProfileRequest.CSVProps](#loadthermalprofilerequestcsvprops)
-    - [LoadThermalProfileResponse](#loadthermalprofileresponse)
-    - [SherlockLifeCycleService](#sherlocklifecycleservice)
-  - [SherlockModelService.proto](#sherlockmodelserviceproto)
-    - [DrillHoleModeling](#drillholemodeling)
-    - [ExportAEDBRequest](#exportaedbrequest)
-    - [ExportFEAModelRequest](#exportfeamodelrequest)
-    - [ExportFEAModelRequest.DrillHoleParam](#exportfeamodelrequestdrillholeparam)
-    - [ExportFEAModelRequest.DrillHoleParam.MaxEdgeLength](#exportfeamodelrequestdrillholeparammaxedgelength)
-    - [ExportFEAModelRequest.DrillHoleParam.MinHoleDiameter](#exportfeamodelrequestdrillholeparamminholediameter)
-    - [ExportFEAModelRequest.LeadModelParam](#exportfeamodelrequestleadmodelparam)
-    - [ExportFEAModelRequest.LeadModelParam.MaxMeshSize](#exportfeamodelrequestleadmodelparammaxmeshsize)
-    - [ExportFEAModelRequest.LeadModelParam.VerticalMeshSize](#exportfeamodelrequestleadmodelparamverticalmeshsize)
-    - [ExportTraceModelRequest](#exporttracemodelrequest)
-    - [ExportTraceReinforcementModelRequest](#exporttracereinforcementmodelrequest)
-    - [ExportTraceReinforcementModelRequest.TraceDrillHoleParam](#exporttracereinforcementmodelrequesttracedrillholeparam)
-    - [ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MaxEdgeLength](#exporttracereinforcementmodelrequesttracedrillholeparammaxedgelength)
-    - [ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MinHoleDiameter](#exporttracereinforcementmodelrequesttracedrillholeparamminholediameter)
-    - [ExportTraceReinforcementModelRequest.TraceParam](#exporttracereinforcementmodelrequesttraceparam)
-    - [ExportTraceReinforcementModelRequest.TraceParam.DiameterThreshold](#exporttracereinforcementmodelrequesttraceparamdiameterthreshold)
-    - [ExportTraceReinforcementModelRequest.TraceParam.MinHoleDiameterForShellOrBeam](#exporttracereinforcementmodelrequesttraceparamminholediameterforshellorbeam)
-    - [GenerateTraceModelRequest](#generatetracemodelrequest)
-    - [TraceModelExportParams](#tracemodelexportparams)
-    - [TraceModelExportParams.PcbMeshPropParam](#tracemodelexportparamspcbmeshpropparam)
-    - [TraceModelExportParams.TracePropParam](#tracemodelexportparamstracepropparam)
-    - [ExportAnalysis](#exportanalysis)
-    - [MeshType](#meshtype)
-    - [TraceOutputType](#traceoutputtype)
-    - [SherlockModelService](#sherlockmodelservice)
-  - [SherlockPartsService.proto](#sherlockpartsserviceproto)
-    - [ExportNetListRequest](#exportnetlistrequest)
-    - [ExportPartsListRequest](#exportpartslistrequest)
-    - [GetBoardSidesRequest](#getboardsidesrequest)
-    - [GetBoardSidesResponse](#getboardsidesresponse)
-    - [GetPartLocationRequest](#getpartlocationrequest)
-    - [GetPartLocationResponse](#getpartlocationresponse)
-    - [GetPartLocationResponse.LocationData](#getpartlocationresponselocationdata)
-    - [GetPartLocationUnitsRequest](#getpartlocationunitsrequest)
-    - [GetPartLocationUnitsResponse](#getpartlocationunitsresponse)
-    - [ImportPartsListRequest](#importpartslistrequest)
-    - [ListPartsLibrariesRequest](#listpartslibrariesrequest)
-    - [ListPartsLibrariesResponse](#listpartslibrariesresponse)
-    - [ListPartsNotUpdatedRequest](#listpartsnotupdatedrequest)
-    - [ListPartsNotUpdatedResponse](#listpartsnotupdatedresponse)
-    - [ListPartsNotUpdatedResponse.CCA](#listpartsnotupdatedresponsecca)
-    - [ListPartsNotUpdatedResponse.CCA.Part](#listpartsnotupdatedresponseccapart)
-    - [UpdateLeadModelingRequest](#updateleadmodelingrequest)
-    - [UpdatePartsListFromAVLRequest](#updatepartslistfromavlrequest)
-    - [UpdatePartsListFromAVLResponse](#updatepartslistfromavlresponse)
-    - [UpdatePartsListPropertiesRequest](#updatepartslistpropertiesrequest)
-    - [UpdatePartsListPropertiesRequest.PartProperties](#updatepartslistpropertiesrequestpartproperties)
-    - [UpdatePartsListPropertiesRequest.PartProperties.Property](#updatepartslistpropertiesrequestpartpropertiesproperty)
-    - [UpdatePartsListPropertiesResponse](#updatepartslistpropertiesresponse)
-    - [UpdatePartsListPropertiesResponse.PartPropertyError](#updatepartslistpropertiesresponsepartpropertyerror)
-    - [UpdatePartsListRequest](#updatepartslistrequest)
-    - [UpdatePartsListResponse](#updatepartslistresponse)
-    - [UpdatePartsLocationsByFileRequest](#updatepartslocationsbyfilerequest)
-    - [UpdatePartsLocationsByFileResponse](#updatepartslocationsbyfileresponse)
-    - [UpdatePartsLocationsRequest](#updatepartslocationsrequest)
-    - [UpdatePartsLocationsRequest.PartLocation](#updatepartslocationsrequestpartlocation)
-    - [UpdatePartsLocationsResponse](#updatepartslocationsresponse)
-    - [AVLDescription](#avldescription)
-    - [AVLPartNum](#avlpartnum)
-    - [DuplicationMode](#duplicationmode)
-    - [SherlockPartsService](#sherlockpartsservice)
-  - [SherlockProjectService.proto](#sherlockprojectserviceproto)
-    - [AddCcaRequest](#addccarequest)
-    - [AddProjectRequest](#addprojectrequest)
-    - [AddStrainMapRequest](#addstrainmaprequest)
-    - [AddStrainMapRequest.StrainMapFile](#addstrainmaprequeststrainmapfile)
-    - [AddStrainMapRequest.StrainMapFile.StrainMapImageFile](#addstrainmaprequeststrainmapfilestrainmapimagefile)
-    - [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.ImageCoordinate](#addstrainmaprequeststrainmapfilestrainmapimagefileimagecoordinate)
-    - [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.LegendCoordinate](#addstrainmaprequeststrainmapfilestrainmapimagefilelegendcoordinate)
-    - [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.NodeCoordinate](#addstrainmaprequeststrainmapfilestrainmapimagefilenodecoordinate)
-    - [AddStrainMapResponse](#addstrainmapresponse)
-    - [AddThermalMapRequest](#addthermalmaprequest)
-    - [AddThermalMapRequest.AddThermalMap](#addthermalmaprequestaddthermalmap)
-    - [AddThermalMapResponse](#addthermalmapresponse)
-    - [CCA](#cca)
-    - [CreateCcaFromModelingRegionRequest](#createccafrommodelingregionrequest)
-    - [CreateCcaFromModelingRegionRequest.CCAFromModelingRegion](#createccafrommodelingregionrequestccafrommodelingregion)
-    - [DeleteProjectRequest](#deleteprojectrequest)
-    - [ExportProjectRequest](#exportprojectrequest)
-    - [GenCCAReportRequest](#genccareportrequest)
-    - [GenCCAReportResponse](#genccareportresponse)
-    - [GenReportRequest](#genreportrequest)
-    - [GenReportResponse](#genreportresponse)
-    - [ImportIPC2581Request](#importipc2581request)
-    - [ImportODBRequest](#importodbrequest)
-    - [ImportProjectZipRequest](#importprojectziprequest)
-    - [ImportProjectZipSingleModeRequest](#importprojectzipsinglemoderequest)
-    - [ListCCAsRequest](#listccasrequest)
-    - [ListCCAsResponse](#listccasresponse)
-    - [ListCCAsResponse.CCA](#listccasresponsecca)
-    - [ListStrainMapsRequest](#liststrainmapsrequest)
-    - [ListStrainMapsResponse](#liststrainmapsresponse)
-    - [ListStrainMapsResponse.CcaStrainMap](#liststrainmapsresponseccastrainmap)
-    - [ListThermalMapsRequest](#listthermalmapsrequest)
-    - [ListThermalMapsResponse](#listthermalmapsresponse)
-    - [ListThermalMapsResponse.CcaThermalMap](#listthermalmapsresponseccathermalmap)
-    - [ListThermalMapsResponse.CcaThermalMap.ThermalMap](#listthermalmapsresponseccathermalmapthermalmap)
-    - [ThermalMapFile](#thermalmapfile)
-    - [ThermalMapFile.CsvExcelFile](#thermalmapfilecsvexcelfile)
-    - [ThermalMapFile.ImageFile](#thermalmapfileimagefile)
-    - [ThermalMapFile.ImageFile.ImageCoordinate](#thermalmapfileimagefileimagecoordinate)
-    - [ThermalMapFile.ImageFile.LegendCoordinate](#thermalmapfileimagefilelegendcoordinate)
-    - [ThermalMapFile.ImageFile.NodeCoordinate](#thermalmapfileimagefilenodecoordinate)
-    - [UpdateThermalMapRequest](#updatethermalmaprequest)
-    - [UpdateThermalMapsResponse](#updatethermalmapsresponse)
-    - [FileType](#filetype)
-    - [LegendOrientation](#legendorientation)
-    - [FileType](#filetype-1)
-    - [LegendOrientation](#legendorientation-1)
-    - [ThermalBoardSide](#thermalboardside)
-    - [SherlockProjectService](#sherlockprojectservice)
-  - [SherlockService.proto](#sherlockserviceproto)
-    - [ClientMessage](#clientmessage)
-    - [ExportRequest](#exportrequest)
-    - [ExportTraceReinforcementRequest](#exporttracereinforcementrequest)
-    - [GetCCARequest](#getccarequest)
-    - [GetCCAResponse](#getccaresponse)
-    - [ImportRequest](#importrequest)
-    - [ImportRequest.AnalysisImport](#importrequestanalysisimport)
-    - [ImportRequest.AnalysisImport.rst](#importrequestanalysisimportrst)
-    - [ImportRequest.ModelTransform](#importrequestmodeltransform)
-    - [OpenProjectRequest](#openprojectrequest)
-    - [SaveProjectRequest](#saveprojectrequest)
-    - [ServerMessage](#servermessage)
-    - [SetWorkingDirRequest](#setworkingdirrequest)
-    - [ExportAnalysis](#exportanalysis-1)
-    - [ImportAnalysis](#importanalysis)
-    - [DetectTransform](#detecttransform)
-    - [Item](#item)
-    - [State](#state)
-    - [SherlockService](#sherlockservice)
-  - [SherlockStackupService.proto](#sherlockstackupserviceproto)
-    - [GenStackupRequest](#genstackuprequest)
-    - [GetLayerCountRequest](#getlayercountrequest)
-    - [GetLayerCountResponse](#getlayercountresponse)
-    - [GetStackupPropsRequest](#getstackuppropsrequest)
-    - [GetStackupPropsResponse](#getstackuppropsresponse)
-    - [GetTotalConductorThicknessRequest](#gettotalconductorthicknessrequest)
-    - [GetTotalConductorThicknessResponse](#gettotalconductorthicknessresponse)
-    - [ListConductorLayersRequest](#listconductorlayersrequest)
-    - [ListConductorLayersResponse](#listconductorlayersresponse)
-    - [ListConductorLayersResponse.CCAConductorLayerProp](#listconductorlayersresponseccaconductorlayerprop)
-    - [ListConductorLayersResponse.CCAConductorLayerProp.ConductorLayerProp](#listconductorlayersresponseccaconductorlayerpropconductorlayerprop)
-    - [ListConductorMaterialsRequest](#listconductormaterialsrequest)
-    - [ListConductorMaterialsResponse](#listconductormaterialsresponse)
-    - [ListConstructionStylesRequest](#listconstructionstylesrequest)
-    - [ListConstructionStylesResponse](#listconstructionstylesresponse)
-    - [ListFiberMaterialsRequest](#listfibermaterialsrequest)
-    - [ListFiberMaterialsResponse](#listfibermaterialsresponse)
-    - [ListLaminateMaterialsManufacturersRequest](#listlaminatematerialsmanufacturersrequest)
-    - [ListLaminateMaterialsManufacturersResponse](#listlaminatematerialsmanufacturersresponse)
-    - [ListLaminateMaterialsRequest](#listlaminatematerialsrequest)
-    - [ListLaminateMaterialsResponse](#listlaminatematerialsresponse)
-    - [ListLaminateMaterialsResponse.ManufacturerMaterials](#listlaminatematerialsresponsemanufacturermaterials)
-    - [ListLaminateMaterialsResponse.ManufacturerMaterials.GradeMaterials](#listlaminatematerialsresponsemanufacturermaterialsgradematerials)
-    - [ListLaminateThicknessUnitsRequest](#listlaminatethicknessunitsrequest)
-    - [ListLaminateThicknessUnitsResponse](#listlaminatethicknessunitsresponse)
-    - [ListLaminatesRequest](#listlaminatesrequest)
-    - [ListLaminatesResponse](#listlaminatesresponse)
-    - [ListLaminatesResponse.CCALaminateProp](#listlaminatesresponseccalaminateprop)
-    - [ListLaminatesResponse.CCALaminateProp.LaminateProp](#listlaminatesresponseccalaminateproplaminateprop)
-    - [ListLaminatesResponse.CCALaminateProp.LaminateProp.GlassConstruction](#listlaminatesresponseccalaminateproplaminatepropglassconstruction)
-    - [UpdateConductorLayerRequest](#updateconductorlayerrequest)
-    - [UpdateLaminateRequest](#updatelaminaterequest)
-    - [UpdateLaminateRequest.GlassConstruction](#updatelaminaterequestglassconstruction)
-    - [SherlockStackupService](#sherlockstackupservice)
-  - [Scalar Value Types](#scalar-value-types)
-
-Back to [Top](#table-of-contents)
-
 ## SherlockAnalysisService.proto
-
-@Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
+ 
+@Copyright 2023-2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### GetHarmonicVibeInputFieldsRequest
-
-Request to list the valid Harmonic Vibe input fields for the provided model source and user configuration.
+ 
+Request to list the valid harmonic vibe input fields for the provided model source and user configuration.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | modelSource | [ModelSource](#modelsource) | optional | Optional model source. Default: GENERATED. |
 
 ### GetHarmonicVibeInputFieldsResponse
+ 
+Response that includes the valid harmonic vibe input fields.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | fieldName | [string](#string) | repeated | List of Harmonic Vibe input fields. |
 
 ### GetICTAnalysisInputFieldsRequest
-
+ 
 Request to list the valid ICT analysis input fields given the user configuration.
+ 
 
 ### GetICTAnalysisInputFieldsResponse
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | fieldName | [string](#string) | repeated | List of ICT Analysis input fields. |
 
 ### GetMechanicalShockInputFieldsRequest
-
+ 
 Request to list the valid mechanical shock input fields for the provided model source and user configuration.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | modelSource | [ModelSource](#modelsource) | optional | Optional model source. Default: GENERATED. |
 
 ### GetMechanicalShockInputFieldsResponse
+ 
+Response that includes the valid mechanical shock input fields.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | fieldName | [string](#string) | repeated | List of Mechanical Shock input fields for a model source. |
 
 ### GetNaturalFrequencyInputFieldsRequest
-
+ 
 Request to list the valid natural frequency input fields given the user configuration.
+ 
 
 ### GetNaturalFrequencyInputFieldsResponse
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | fieldName | [string](#string) | repeated | List of Natural Frequency input fields. |
 
 ### GetPartsListValidationPropsRequest
-
-Request to retrieve the Parts List Validation properties.
+ 
+Request to retrieve the parts list validation properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -438,42 +79,55 @@ Request to retrieve the Parts List Validation properties.
 | ccaName | [string](#string) |  | The CCA name. |
 
 ### GetPcbModelingInputFieldsRequest
-
+ 
 Request to list the valid PCB Modeling input fields given the user configuration.
+ 
 
 ### GetPcbModelingInputFieldsResponse
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | fieldName | [string](#string) | repeated | List of Pcb Modeling input fields. |
 
 ### GetRandomVibeInputFieldsRequest
-
+ 
 Request to list the valid random vibe input fields for the provided model source and user configuration.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | modelSource | [ModelSource](#modelsource) | optional | Optional model source. Default: GENERATED. |
 
 ### GetRandomVibeInputFieldsResponse
+ 
+Response that includes the valid random vibe input fields.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | fieldName | [string](#string) | repeated | List of Random Vibe input fields. |
 
 ### GetSolderFatigueInputFieldsRequest
-
+ 
 Request to list the valid solder fatigue input fields given the user configuration.
+ 
 
 ### GetSolderFatigueInputFieldsResponse
+ 
+Response that includes the valid solder fatigue input fields.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | fieldName | [string](#string) | repeated | List of Solder Fatigue input fields. |
 
 ### PartsListValidationPropsResponse
-
-Response that includes Parts List Validation properties.
+ 
+Response that includes parts list validation properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -489,53 +143,70 @@ Response that includes Parts List Validation properties.
 | avlRequireApprovedManufacturer | [bool](#bool) |  | AVL option to require approved manufacturer. |
 
 ### RunAnalysisRequest
-
+ 
 Request to run one or more Sherlock analysis given the project path, CCA name, analyses, lifecycle phases and events.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 | ccaName | [string](#string) |  | The CCA name. |
-| analyses | [RunAnalysisRequest.Analysis](#runanalysisrequest.analysis) | repeated | List of Analyses to run. |
+| analyses | [RunAnalysisRequest.Analysis](#runanalysisrequestanalysis) | repeated | List of Analyses to run. |
 
 ### RunAnalysisRequest.Analysis
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| type | [RunAnalysisRequest.Analysis.AnalysisType](#runanalysisrequest.analysis.analysistype) |  | Type of Analysis to run. |
-| phases | [RunAnalysisRequest.Analysis.Phase](#runanalysisrequest.analysis.phase) | repeated | List of Phases for each Analysis to run. |
+| type | [RunAnalysisRequest.Analysis.AnalysisType](#runanalysisrequestanalysisanalysistype) |  | Type of Analysis to run. |
+| phases | [RunAnalysisRequest.Analysis.Phase](#runanalysisrequestanalysisphase) | repeated | List of Phases for each Analysis to run. |
 
 ### RunAnalysisRequest.Analysis.Phase
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  | Life cycle phase name. |
-| events | [RunAnalysisRequest.Analysis.Phase.Event](#runanalysisrequest.analysis.phase.event) | repeated | List of life cycle Events. |
+| events | [RunAnalysisRequest.Analysis.Phase.Event](#runanalysisrequestanalysisphaseevent) | repeated | List of life cycle Events. |
 
 ### RunAnalysisRequest.Analysis.Phase.Event
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  | Life cycle event name. |
 
 ### RunStrainMapAnalysisRequest
-
+ 
 Request to run Sherlock strain map analysis given the project name, CCA name, and strain maps.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 | ccaName | [string](#string) |  | The CCA name of the main CCA for the analysis. |
-| strainMapAnalyses | [RunStrainMapAnalysisRequest.StrainMapAnalysis](#runstrainmapanalysisrequest.strainmapanalysis) | repeated | List of Strain Map Analyses to run. |
+| strainMapAnalyses | [RunStrainMapAnalysisRequest.StrainMapAnalysis](#runstrainmapanalysisrequeststrainmapanalysis) | repeated | List of Strain Map Analyses to run. |
 
 ### RunStrainMapAnalysisRequest.StrainMapAnalysis
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| type | [RunStrainMapAnalysisRequest.StrainMapAnalysis.AnalysisType](#runstrainmapanalysisrequest.strainmapanalysis.analysistype) |  | Type of Strain Map analysis to run. |
-| eventStrainMaps | [RunStrainMapAnalysisRequest.StrainMapAnalysis.EventStrainMap](#runstrainmapanalysisrequest.strainmapanalysis.eventstrainmap) | repeated | List of Strain Map events to run. |
+| type | [RunStrainMapAnalysisRequest.StrainMapAnalysis.AnalysisType](#runstrainmapanalysisrequeststrainmapanalysisanalysistype) |  | Type of Strain Map analysis to run. |
+| eventStrainMaps | [RunStrainMapAnalysisRequest.StrainMapAnalysis.EventStrainMap](#runstrainmapanalysisrequeststrainmapanalysiseventstrainmap) | repeated | List of Strain Map events to run. |
 
 ### RunStrainMapAnalysisRequest.StrainMapAnalysis.EventStrainMap
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -545,17 +216,44 @@ Request to run Sherlock strain map analysis given the project name, CCA name, an
 | strainMap | [string](#string) |  | Strain map assigned to the event. |
 | subAssemblyName | [string](#string) | optional | The name of the sub-assembly CCA to be assigned the strain map. |
 
-### UpdateHarmonicVibePropsRequest
+### UpdateComponentFailureMechanismPropsRequest
+ 
+Request to update the component failure mechanism properties.
+ 
 
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock Project name. |
+| componentFailureMechanismProperties | [UpdateComponentFailureMechanismPropsRequest.ComponentFailureMechanism](#updatecomponentfailuremechanismpropsrequestcomponentfailuremechanism) | repeated | Properties for each CCA in the project. |
+
+### UpdateComponentFailureMechanismPropsRequest.ComponentFailureMechanism
+ 
+
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| ccaName | [string](#string) |  | The CCA name. |
+| defaultPartTempRise | [double](#double) | optional | Default part temperature rise. |
+| defaultPartTempRiseUnits | [string](#string) | optional | Default part temperature rise units. |
+| partTempRiseMinEnabled | [bool](#bool) | optional | Whether part temperature rise value is applied to the minimum temperature defined in the thermal cycle. |
+| partValidationEnabled | [bool](#bool) | optional | Flag indicating if part validation should be performed. |
+
+### UpdateHarmonicVibePropsRequest
+ 
 Request to update the harmonic vibe analysis properties for one or more CCA's
 in the project indicated.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Project name. |
-| harmonicVibeProperties | [UpdateHarmonicVibePropsRequest.HarmonicVibe](#updateharmonicvibepropsrequest.harmonicvibe) | repeated | List of HarmonicVibe analysis properties to update. |
+| harmonicVibeProperties | [UpdateHarmonicVibePropsRequest.HarmonicVibe](#updateharmonicvibepropsrequestharmonicvibe) | repeated | List of HarmonicVibe analysis properties to update. |
 
 ### UpdateHarmonicVibePropsRequest.HarmonicVibe
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -577,15 +275,19 @@ in the project indicated.
 | strainMapNaturalFreq | [double](#double) | optional | Maximum Natural Frequency used for strain map analysis. |
 
 ### UpdateICTAnalysisPropsRequest
-
+ 
 Request to update ICT Analysis properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock Project name. |
-| ictAnalysisProperties | [UpdateICTAnalysisPropsRequest.ICTAnalysis](#updateictanalysispropsrequest.ictanalysis) | repeated | List of ICTAnalysis properties to update for each CCA in a project. |
+| ictAnalysisProperties | [UpdateICTAnalysisPropsRequest.ICTAnalysis](#updateictanalysispropsrequestictanalysis) | repeated | List of ICTAnalysis properties to update for each CCA in a project. |
 
 ### UpdateICTAnalysisPropsRequest.ICTAnalysis
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -599,15 +301,19 @@ Request to update ICT Analysis properties.
 | ictResultCount | [int32](#int32) | optional | Number of ICT layers to generate when using thermal analysis. |
 
 ### UpdateMechanicalShockPropsRequest
-
+ 
 Request to update the mechanical shock analysis properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock Project name. |
-| mechanicalShockProperties | [UpdateMechanicalShockPropsRequest.MechanicalShock](#updatemechanicalshockpropsrequest.mechanicalshock) | repeated | List of MechanicalShock properties to update. |
+| mechanicalShockProperties | [UpdateMechanicalShockPropsRequest.MechanicalShock](#updatemechanicalshockpropsrequestmechanicalshock) | repeated | List of MechanicalShock properties to update. |
 
 ### UpdateMechanicalShockPropsRequest.MechanicalShock
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -627,8 +333,9 @@ Request to update the mechanical shock analysis properties.
 | analysisTempUnits | [string](#string) | optional | Temperature units. |
 
 ### UpdateNaturalFrequencyPropsRequest
-
+ 
 Request to update natural frequency analysis properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -645,8 +352,9 @@ Request to update natural frequency analysis properties.
 | analysisTempUnits | [string](#string) | optional | Temperature units (C, F, or K). |
 
 ### UpdatePartModelingRequest
-
+ 
 Request to update FEA part modeling properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -663,15 +371,19 @@ Request to update FEA part modeling properties.
 | partResultsFiltered | [bool](#bool) | optional | Whether to enable filtered part results. |
 
 ### UpdatePartsListValidationPropsRequest
-
-Request to update the Parts List Validation properties.
+ 
+Request to update the parts list validation properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock Project name. |
-| partsListValidationProperties | [UpdatePartsListValidationPropsRequest.PartsListValidation](#updatepartslistvalidationpropsrequest.partslistvalidation) | repeated | Properties for each CCA in the project. |
+| partsListValidationProperties | [UpdatePartsListValidationPropsRequest.PartsListValidation](#updatepartslistvalidationpropsrequestpartslistvalidation) | repeated | Properties for each CCA in the project. |
 
 ### UpdatePartsListValidationPropsRequest.PartsListValidation
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -687,23 +399,27 @@ Request to update the Parts List Validation properties.
 | avlRequireApprovedManufacturer | [bool](#bool) | optional | AVL require approved manufacturer. |
 
 ### UpdatePcbModelingPropsRequest
-
+ 
 Request to update FEA analysis PCB Modeling properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 | ccaNames | [string](#string) | repeated | The CCA names for which to assign the PCB modeling parameters. |
-| analyses | [UpdatePcbModelingPropsRequest.Analysis](#updatepcbmodelingpropsrequest.analysis) | repeated | List of Analysis message types. |
+| analyses | [UpdatePcbModelingPropsRequest.Analysis](#updatepcbmodelingpropsrequestanalysis) | repeated | List of Analysis message types. |
 
 ### UpdatePcbModelingPropsRequest.Analysis
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| type | [UpdatePcbModelingPropsRequest.Analysis.AnalysisType](#updatepcbmodelingpropsrequest.analysis.analysistype) |  | The type of analysis for which PCB modeling properties apply. |
-| modelType | [UpdatePcbModelingPropsRequest.Analysis.PcbModelType](#updatepcbmodelingpropsrequest.analysis.pcbmodeltype) |  | The PCB modeling mesh type. |
+| type | [UpdatePcbModelingPropsRequest.Analysis.AnalysisType](#updatepcbmodelingpropsrequestanalysisanalysistype) |  | The type of analysis for which PCB modeling properties apply. |
+| modelType | [UpdatePcbModelingPropsRequest.Analysis.PcbModelType](#updatepcbmodelingpropsrequestanalysispcbmodeltype) |  | The PCB modeling mesh type. |
 | modelingRegionEnabled | [bool](#bool) |  | Indicates if modeling regions are enabled. |
-| pcbMaterialModel | [UpdatePcbModelingPropsRequest.Analysis.PcbMaterialModel](#updatepcbmodelingpropsrequest.analysis.pcbmaterialmodel) |  | The PCB modeling PCB model type. |
+| pcbMaterialModel | [UpdatePcbModelingPropsRequest.Analysis.PcbMaterialModel](#updatepcbmodelingpropsrequestanalysispcbmaterialmodel) |  | The PCB modeling PCB model type. |
 | pcbMaxMaterials | [int32](#int32) | optional | The number of PCB materials for Uniform Elements and Layered Elements PCB model types. |
 | pcbElemOrder | [ElementOrder](#elementorder) |  | The element order for PCB elements. |
 | pcbMaxEdgeLength | [double](#double) |  | The maximum mesh size for PCB elements. |
@@ -713,8 +429,9 @@ Request to update FEA analysis PCB Modeling properties.
 | quadsPreferred | [bool](#bool) |  | Indicates that the meshing engine should attempt to generate quad-shaped elements when creating the mesh. |
 
 ### UpdateRandomVibePropsRequest
-
+ 
 Request to update random vibe analysis properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -735,16 +452,45 @@ Request to update random vibe analysis properties.
 | modelSource | [ModelSource](#modelsource) | optional | Optional model source. Default: GENERATED. |
 | strainMapNaturalFreqs | [string](#string) | optional | Comma-separated list of natural frequencies for strain map analysis. |
 
-### UpdateSolderFatiguePropsRequest
-
-Request to update solder fatigue properties.
+### UpdateSemiconductorWearoutAnalysisPropsRequest
+ 
+Request to update Semiconductor Wearout Analysis properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock Project name. |
-| solderFatigueProperties | [UpdateSolderFatiguePropsRequest.SolderFatigue](#updatesolderfatiguepropsrequest.solderfatigue) | repeated | List of SolderFatigue properties to update for a CCA. |
+| SemiconductorWearoutAnalysiProperties | [UpdateSemiconductorWearoutAnalysisPropsRequest.SemiconductorWearoutAnalysis](#updatesemiconductorwearoutanalysispropsrequestsemiconductorwearoutanalysis) | repeated | List of SemiconductorWearoutAnalysis properties to update for each CCA in a project. |
+
+### UpdateSemiconductorWearoutAnalysisPropsRequest.SemiconductorWearoutAnalysis
+ 
+
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| ccaName | [string](#string) |  | The CCA name. |
+| maxFeatureSize | [double](#double) | optional | Maximum feature size. |
+| maxFeatureSizeUnits | [string](#string) | optional | Maximum feature size units. |
+| partTempRise | [double](#double) | optional | Part temperature rise. |
+| partTempRiseUnits | [string](#string) | optional | Part temperature rise units. |
+| partTempRiseMinEnabled | [bool](#bool) | optional | Whether part temperature rise value is applied to the minimum temperature defined in the thermal cycle. |
+| partValidationEnabled | [bool](#bool) | optional | Flag indicating if part validation should be performed. |
+
+### UpdateSolderFatiguePropsRequest
+ 
+Request to update solder fatigue properties.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock Project name. |
+| solderFatigueProperties | [UpdateSolderFatiguePropsRequest.SolderFatigue](#updatesolderfatiguepropsrequestsolderfatigue) | repeated | List of SolderFatigue properties to update for a CCA. |
 
 ### UpdateSolderFatiguePropsRequest.SolderFatigue
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -752,12 +498,13 @@ Request to update solder fatigue properties.
 | solderMaterial | [string](#string) | optional | Name of the solder material. |
 | partTemp | [double](#double) | optional | Part temperature rise. |
 | partTempUnits | [string](#string) | optional | Part temperature rise units. |
-| partTempRiseMinEnabled | [bool](#bool) | optional | Flag indicating if part temperature minimum rise should be enabled. |
+| partTempRiseMinEnabled | [bool](#bool) | optional | Whether part temperature rise value is applied to the minimum temperature defined in the thermal cycle. |
 | partValidationEnabled | [bool](#bool) | optional | Flag indicating if part validation should be performed. |
 
 ### UpdateThermalMechPropsRequest
-
+ 
 Request to update thermal mech analysis properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -767,10 +514,11 @@ Request to update thermal mech analysis properties.
 | partValidationEnabled | [bool](#bool) |  | Part Validation. |
 | requireMaterialAssignmentEnabled | [bool](#bool) |  | Require Material Assignment. |
 
+
 ### ElementOrder
-
+ 
 Enumeration defining the types of supported element orders.
-
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | UnknownOrder | 0 | Default enum to catch invalid element order. |
@@ -779,15 +527,19 @@ Enumeration defining the types of supported element orders.
 | SolidShell | 3 | Enum for solid shell elements. |
 
 ### ModelSource
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | UNKNOWN | 0 | Default enum to catch invalid source. |
 | GENERATED | 1 | Generated analysis model source. |
 | STRAIN_MAP | 2 | Strain map analysis model source. |
 
-### AnalysisType
+### RunAnalysisRequest.Analysis.AnalysisType
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | UNKNOWN | 0 | Default enum to catch invalid analysis. |
@@ -805,8 +557,10 @@ Enumeration defining the types of supported element orders.
 | ThermalDerating | 13 | Enum for the Thermal Derating analysis. |
 | ThermalMech | 14 | Enum for the Thermal Mech analysis. |
 
-### AnalysisType
+### RunStrainMapAnalysisRequest.StrainMapAnalysis.AnalysisType
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | UNKNOWN | 0 | Default enum to catch invalid analysis. |
@@ -814,8 +568,10 @@ Enumeration defining the types of supported element orders.
 | MechanicalShock | 2 | Enum for Mechanical Shock analysis. |
 | HarmonicVibe | 3 | Enum for the Harmonic Vibe analysis. |
 
-### AnalysisType
+### UpdatePcbModelingPropsRequest.Analysis.AnalysisType
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | UnknownAnalysisType | 0 | Default enum to catch invalid analysis. |
@@ -826,8 +582,10 @@ Enumeration defining the types of supported element orders.
 | RandomVibe | 5 | Enum for the Random Vibe analysis. |
 | ThermalMech | 6 | Enum for the Thermal Mech analysis. |
 
-### PcbMaterialModel
+### UpdatePcbModelingPropsRequest.Analysis.PcbMaterialModel
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | UnknownPcbModel | 0 | Default enum to catch invalid PCB model. |
@@ -836,15 +594,20 @@ Enumeration defining the types of supported element orders.
 | UniformElements | 3 | Enum for uniform elements PCB model. |
 | LayeredElements | 4 | Enum for layered elements PCB model. |
 
-### PcbModelType
+### UpdatePcbModelingPropsRequest.Analysis.PcbModelType
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | UnknownMeshType | 0 | Default enum to catch invalid mesh type. |
 | Bonded | 1 | Bonded FEA model. |
 
-### SherlockAnalysisService
 
+### SherlockAnalysisService
+ 
+
+ 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | runAnalysis | [.RunAnalysisRequest](#runanalysisrequest) | [.ReturnCode](#returncode) | Runs one or more Sherlock analysis. |
@@ -867,61 +630,72 @@ Enumeration defining the types of supported element orders.
 | updateICTAnalysisProps | [.UpdateICTAnalysisPropsRequest](#updateictanalysispropsrequest) | [.ReturnCode](#returncode) | Updates the analysis properties for ICT analysis. |
 | updatePartsListValidationProps | [.UpdatePartsListValidationPropsRequest](#updatepartslistvalidationpropsrequest) | [.ReturnCode](#returncode) | Updates the analysis properties for parts list validation analysis. |
 | getPartsListValidationProps | [.GetPartsListValidationPropsRequest](#getpartslistvalidationpropsrequest) | [.PartsListValidationPropsResponse](#partslistvalidationpropsresponse) | Returns the parts list validation properties. |
+| updateComponentFailureMechanismProps | [.UpdateComponentFailureMechanismPropsRequest](#updatecomponentfailuremechanismpropsrequest) | [.ReturnCode](#returncode) stream | Updates the analysis properties for component failure mechanism analysis. |
+| updateSemiconductorWearoutAnalysisProps | [.UpdateSemiconductorWearoutAnalysisPropsRequest](#updatesemiconductorwearoutanalysispropsrequest) | [.ReturnCode](#returncode) | Updates the analysis properties for semiconductor wearout analysis. |
+
 
 Back to [Top](#table-of-contents)
-
+ 
 ## SherlockCommonService.proto
-
+ 
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### ExitRequest
-
+ 
 Request to exit the gRPC connection.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | closeSherlockClient | [bool](#bool) |  | If set to true, exits the Sherlock client if it is opened. Otherwise, just closes the gRPC connection. |
 
 ### GetSoldersRequest
-
+ 
 Request for a list of valid solder materials.
+ 
 
 ### GetSoldersResponse
-
+ 
 Represents a list of valid solder materials.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | solderName | [string](#string) | repeated | List of valid solder materials. |
 
 ### HealthCheckRequest
-
+ 
 Request to check if the gRPC connection is open.
+ 
 
 ### HealthCheckResponse
-
+ 
 Represents whether the gRPC connection is open.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| status | [HealthCheckResponse.ServingStatus](#healthcheckresponse.servingstatus) |  | Enum representing connection status. |
+| status | [HealthCheckResponse.ServingStatus](#healthcheckresponseservingstatus) |  | Enum representing connection status. |
 | port | [int32](#int32) |  | Listening port number on server. |
 
 ### IsSherlockClientLoadingRequest
-
+ 
 Check if the Sherlock client is still loading.
+ 
 
 ### ListUnitsRequest
-
+ 
 Request for a list of valid units of the provided unit type.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| unitType | [ListUnitsRequest.UnitType](#listunitsrequest.unittype) |  | Unit type to request valid units of. |
+| unitType | [ListUnitsRequest.UnitType](#listunitsrequestunittype) |  | Unit type to request valid units of. |
 
 ### ListUnitsResponse
-
+ 
 Represents a list of valid units for the provided unit type.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -929,8 +703,9 @@ Represents a list of valid units for the provided unit type.
 | units | [string](#string) | repeated | List of valid units for the requested type. |
 
 ### Measurement
-
+ 
 Represents a common measurement with a value and a unit
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -938,8 +713,9 @@ Represents a common measurement with a value and a unit
 | units | [string](#string) |  | Units of the numerical value. |
 
 ### ReturnCode
-
+ 
 Status response of a message. A value of 0 indicates a successful request.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -947,12 +723,14 @@ Status response of a message. A value of 0 indicates a successful request.
 | message | [string](#string) |  | Message indicating the status of response including any error. |
 
 ### SherlockInfoRequest
-
+ 
 Request to receive Sherlock version and configuration data.
+ 
 
 ### SherlockInfoResponse
-
+ 
 Represents Sherlock version and configuration data.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -960,16 +738,21 @@ Represents Sherlock version and configuration data.
 | defaultProjectDir | [string](#string) |  | The project directory currently used by Sherlock. |
 | isSingleProjectMode | [bool](#bool) |  | When true, indicates that Sherlock is in single-project mode. When false, indicates that Sherlock is in multi-project mode. |
 
-### ServingStatus
 
+### HealthCheckResponse.ServingStatus
+ 
+
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | UNKNOWN | 0 | Indicates an unknown connection status. |
 | SERVING | 1 | Indicates the connection is up and server is listening. |
 | NOT_SERVING | 2 | Indicates connection with server is closed. |
 
-### UnitType
+### ListUnitsRequest.UnitType
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | UNKNOWN | 0 | Indicates an unknown unit type. |
@@ -1003,19 +786,19 @@ Represents Sherlock version and configuration data.
 | WEIGHT | 28 | Units used for weight. |
 
 ### MatchingMode
-
-Determines how parts in the parts list are matched against parts
+ 
+Determines how parts in the parts list are matched against parts 
 in the AVL or Part Library.
-
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | Both | 0 | Matches both part number and manufacturer. |
 | Part | 1 | Matches part number only. |
 
 ### TableDelimiter
-
+ 
 Types of delimiters that can be used for exporting tables
-
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | COMMA | 0 | Represents ',' delimiter. |
@@ -1023,8 +806,11 @@ Types of delimiters that can be used for exporting tables
 | TAB | 2 | Represents tab key delimiter. |
 | SEMICOLON | 3 | Represents ';' delimiter. |
 
-### SherlockCommonService
 
+### SherlockCommonService
+ 
+
+ 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | check | [.HealthCheckRequest](#healthcheckrequest) | [.HealthCheckResponse](#healthcheckresponse) | Returns health status of gRPC server. |
@@ -1034,15 +820,17 @@ Types of delimiters that can be used for exporting tables
 | getSolders | [.GetSoldersRequest](#getsoldersrequest) | [.GetSoldersResponse](#getsoldersresponse) | Returns a list of valid solder materials. |
 | getSherlockInfo | [.SherlockInfoRequest](#sherlockinforequest) | [.SherlockInfoResponse](#sherlockinforesponse) | Returns meta data about Sherlock. |
 
+
 Back to [Top](#table-of-contents)
-
+ 
 ## SherlockLayerService.proto
-
+ 
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### AddModelingRegionRequest
-
+ 
 Request to add one or more modeling regions to a specific project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1050,15 +838,19 @@ Request to add one or more modeling regions to a specific project.
 | modelingRegions | [ModelingRegion](#modelingregion) | repeated | List of modeling regions to add to the project. |
 
 ### AddPottingRegionRequest
-
+ 
 Request to add a potting region.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | The name of the Sherlock project to add the potting regions to. |
-| pottingRegions | [AddPottingRegionRequest.PottingRegion](#addpottingregionrequest.pottingregion) | repeated | The potting regions to add. |
+| pottingRegions | [AddPottingRegionRequest.PottingRegion](#addpottingregionrequestpottingregion) | repeated | The potting regions to add. |
 
 ### AddPottingRegionRequest.PottingRegion
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1076,6 +868,9 @@ Request to add a potting region.
 | pCBShape | [PCBShape](#pcbshape) |  | Used to add a region with a PCB shape. |
 
 ### CircularShape
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1086,15 +881,19 @@ Request to add a potting region.
 | rotation | [double](#double) | optional | The rotation of the shape in degrees. |
 
 ### CopyModelingRegionRequest
-
+ 
 Request to copy one or more modeling regions in a specific project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | The name of the Sherlock project. |
-| copyRegions | [CopyModelingRegionRequest.CopyModelingRegionInfo](#copymodelingregionrequest.copymodelingregioninfo) | repeated | List of modeling regions to copy along with their corresponding "copy to" parameters. |
+| copyRegions | [CopyModelingRegionRequest.CopyModelingRegionInfo](#copymodelingregionrequestcopymodelingregioninfo) | repeated | List of modeling regions to copy along with their corresponding "copy to" parameters. |
 
 ### CopyModelingRegionRequest.CopyModelingRegionInfo
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1105,17 +904,19 @@ Request to copy one or more modeling regions in a specific project.
 | centerY | [double](#double) |  | The center y coordinate of the modeling region copy -- used for location placement in the Layer Viewer. |
 
 ### CopyPottingRegionRequest
-
+ 
 Request to copy 1 or more potting regions.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | The name of the Sherlock project that contains the potting region(s) to copy. |
-| pottingRegionCopyData | [CopyPottingRegionRequest.PottingRegionCopyData](#copypottingregionrequest.pottingregioncopydata) | repeated | List of information needed to copy a specific Potting Region. |
+| pottingRegionCopyData | [CopyPottingRegionRequest.PottingRegionCopyData](#copypottingregionrequestpottingregioncopydata) | repeated | List of information needed to copy a specific Potting Region. |
 
 ### CopyPottingRegionRequest.PottingRegionCopyData
-
+ 
 Potting region data used to identify a single pre-existing potting region which should be copied.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1126,8 +927,9 @@ Potting region data used to identify a single pre-existing potting region which 
 | centerY | [double](#double) | optional | The y coordinate for the center of the copied potting region. |
 
 ### DeleteAllICTFixturesRequest
-
+ 
 Request to delete all ICT fixtures in specific CCA of specific project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1135,8 +937,9 @@ Request to delete all ICT fixtures in specific CCA of specific project.
 | ccaName | [string](#string) |  | The CCA name. |
 
 ### DeleteAllMountPointsRequest
-
+ 
 Request to delete all mount points in specific CCA of specific project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1144,8 +947,9 @@ Request to delete all mount points in specific CCA of specific project.
 | ccaName | [string](#string) |  | The CCA name. |
 
 ### DeleteAllTestPointsRequest
-
+ 
 Request to delete all ICT fixtures in specific CCA of specific project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1153,15 +957,19 @@ Request to delete all ICT fixtures in specific CCA of specific project.
 | ccaName | [string](#string) |  | The CCA name. |
 
 ### DeleteModelingRegionRequest
-
+ 
 Request to delete one or more modeling regions for a specific project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | The name of the Sherlock project. |
-| deleteRegions | [DeleteModelingRegionRequest.DeleteModelingRegionInfo](#deletemodelingregionrequest.deletemodelingregioninfo) | repeated | List of modeling regions to delete in the project. |
+| deleteRegions | [DeleteModelingRegionRequest.DeleteModelingRegionInfo](#deletemodelingregionrequestdeletemodelingregioninfo) | repeated | List of modeling regions to delete in the project. |
 
 ### DeleteModelingRegionRequest.DeleteModelingRegionInfo
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1169,17 +977,19 @@ Request to delete one or more modeling regions for a specific project.
 | regionId | [string](#string) |  | Unique region ID of the modeling region to delete. |
 
 ### DeletePottingRegionRequest
-
+ 
 Request to delete 1 or more potting regions.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | The name of the Sherlock project that contains the potting region(s) to delete. |
-| pottingRegionDeleteData | [DeletePottingRegionRequest.PottingRegionDeleteData](#deletepottingregionrequest.pottingregiondeletedata) | repeated | List of information needed to delete a specific Potting Region. |
+| pottingRegionDeleteData | [DeletePottingRegionRequest.PottingRegionDeleteData](#deletepottingregionrequestpottingregiondeletedata) | repeated | List of information needed to delete a specific Potting Region. |
 
 ### DeletePottingRegionRequest.PottingRegionDeleteData
-
+ 
 Potting region data used to identify a single pre-existing potting region which should be deleted.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1187,8 +997,9 @@ Potting region data used to identify a single pre-existing potting region which 
 | pottingID | [string](#string) |  | The potting ID. |
 
 ### ExportAllICTFixturesRequest
-
+ 
 Request to export all ICT fixtures and their properties into a CSV formatted file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1198,8 +1009,9 @@ Request to export all ICT fixtures and their properties into a CSV formatted fil
 | filePath | [string](#string) |  | The filepath of the CSV file to be exported. |
 
 ### ExportAllMountPointsRequest
-
+ 
 Request to export all mount points and their properties into a CSV formatted file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1209,8 +1021,9 @@ Request to export all mount points and their properties into a CSV formatted fil
 | filePath | [string](#string) |  | The filepath of the CSV file to be exported. |
 
 ### ExportAllTestPointsRequest
-
+ 
 Request to export all test points and their properties into a CSV formatted file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1221,13 +1034,54 @@ Request to export all test points and their properties into a CSV formatted file
 | forceUnits | [string](#string) |  | Force Units used in exporting. |
 | filePath | [string](#string) |  | The filepath of the CSV file to be exported. |
 
-### GetMountPointBoundariesRequest
+### ExportLayerImageRequest
+ 
+Request to export one or more 2D Layer Viewer images from a project CCA.
+ 
 
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| ccaName | [string](#string) |  | The CCA name. |
+| exportLayers | [ExportLayerImageRequest.ExportLayerImageInfo](#exportlayerimagerequestexportlayerimageinfo) | repeated | List of layer images to export along with their export parameters. |
+
+### ExportLayerImageRequest.ExportLayerImageInfo
+ 
+
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| componentsEnabled | [bool](#bool) | optional | Displays the components in the export image. Default to true when not provided. |
+| labelsEnabled | [bool](#bool) | optional | Displays the component reference designators in the export image. Default to true when not provided. |
+| leadsEnabled | [bool](#bool) | optional | Displays the component leads and solder balls in the export image. Default to true when not provided. |
+| axesEnabled | [bool](#bool) |  | Displays the x and y axes in the export image. |
+| gridEnabled | [bool](#bool) |  | Displays a grid in the export image. |
+| layer | [string](#string) | repeated | List of names of the layers to be exported. This cannot be empty. |
+| filePath | [string](#string) |  | Full file path of the export image. |
+| imageHeight | [int32](#int32) |  | The export image height. |
+| imageWidth | [int32](#int32) |  | The export image width. |
+| overwriteExistingFile | [bool](#bool) |  | If the file path already exists, overwrite the file if this is set to true. |
+
+### ExportLayerImageResponse
+ 
+
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| returnCode | [ReturnCode](#returncode) |  | Status code of response. |
+| exportMessages | [string](#string) | repeated | Informational and error messages about the export. |
+
+### GetMountPointBoundariesRequest
+ 
 Request to list the valid mount point boundaries.
+ 
 
 ### GetMountPointBoundariesResponse
-
+ 
 Represents a list of valid mount point boundaries.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1235,12 +1089,14 @@ Represents a list of valid mount point boundaries.
 | boundary | [string](#string) | repeated | Mount Point boundary. |
 
 ### GetMountPointChassisMaterialsRequest
-
+ 
 Request to list the valid mount point chassis materials.
+ 
 
 ### GetMountPointChassisMaterialsResponse
-
+ 
 Represents a list of valid mount point chassis materials.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1248,16 +1104,18 @@ Represents a list of valid mount point chassis materials.
 | chassisMaterial | [string](#string) | repeated | Mount Point chassis material. |
 
 ### GetMountPointShapeTypesRequest
-
+ 
 Request to list the valid mount point shape types.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | mountPointType | [string](#string) |  | Mount Point Type. Supported values are: Mount Hole, Mount Pad, Standoff, and Support Pin. |
 
 ### GetMountPointShapeTypesResponse
-
+ 
 Represents a list of valid mount point shape types.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1265,12 +1123,14 @@ Represents a list of valid mount point shape types.
 | type | [string](#string) | repeated | Mount Point Shape Type. |
 
 ### GetMountPointSidesRequest
-
+ 
 Request to list the valid mount point sides.
+ 
 
 ### GetMountPointSidesResponse
-
+ 
 Represents a list of valid mount point sides.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1278,12 +1138,14 @@ Represents a list of valid mount point sides.
 | side | [string](#string) | repeated | Mount Point side. |
 
 ### GetMountPointTypesRequest
-
+ 
 Request to list the valid mount point types.
+ 
 
 ### GetMountPointTypesResponse
-
+ 
 Represents a list of valid mount point types.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1291,12 +1153,14 @@ Represents a list of valid mount point types.
 | type | [string](#string) | repeated | Mount Point Type. |
 
 ### GetMountPointUnitsRequest
-
+ 
 Request to list the valid mount point units.
+ 
 
 ### GetMountPointUnitsResponse
-
+ 
 Represents a list of valid mount point units.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1304,8 +1168,9 @@ Represents a list of valid mount point units.
 | units | [string](#string) | repeated | Mount Point units. |
 
 ### GetMountPointsPropertiesRequest
-
+ 
 Request to list the valid mount point chassis materials.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1314,52 +1179,83 @@ Request to list the valid mount point chassis materials.
 | mountPointIDs | [string](#string) |  | A comma separated list of mount point id for a list of mount point, or a mount id for one part. |
 
 ### GetMountPointsPropertiesResponse
-
+ 
 Represents a list of valid mount point properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | mountPointsProperties | [MountPointProperties](#mountpointproperties) | repeated | Mount point properties. |
 
+### ListLayersRequest
+ 
+Request to list all layers in a specific project CCA.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| project | [string](#string) |  | Sherlock project name. |
+| ccaName | [string](#string) |  | The CCA name. |
+
+### ListLayersResponse
+ 
+Contains the list of layers.
+ 
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| returnCode | [ReturnCode](#returncode) |  | Status code of response. |
+| layer | [string](#string) | repeated | Layer name. The list of layers returned is ordered by the folder names, then by the layer names. |
+
 ### ModelingRegion
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | ccaName | [string](#string) | optional | Name of the CCA. |
 | regionId | [string](#string) | optional | Unique modeling region ID. |
 | regionUnits | [string](#string) | optional | Modeling region units. |
-| modelMode | [ModelingRegion.ModelingMode](#modelingregion.modelingmode) | optional | Mode that specified how the region is used. |
+| modelMode | [ModelingRegion.ModelingMode](#modelingregionmodelingmode) | optional | Mode that specified how the region is used. |
 | polygonalShape | [PolygonalShape](#polygonalshape) |  | Defined by N points that form a convex polygon. |
 | rectangularShape | [RectangularShape](#rectangularshape) |  | Defined by 4 points that form a rectangle. |
 | slotShape | [SlotShape](#slotshape) |  | Defined by 8 points that form a rectangle with rounded ends. |
 | circularShape | [CircularShape](#circularshape) |  | Defined by N points that form a circle. |
-| pcbModelProps | [ModelingRegion.PCBModelingProperties](#modelingregion.pcbmodelingproperties) | optional | Mesh properties for the modeling region. |
-| traceModelProps | [ModelingRegion.TraceModelingProperties](#modelingregion.tracemodelingproperties) | optional | Trace modeling properties for the region. |
+| pcbModelProps | [ModelingRegion.PCBModelingProperties](#modelingregionpcbmodelingproperties) | optional | Mesh properties for the modeling region. |
+| traceModelProps | [ModelingRegion.TraceModelingProperties](#modelingregiontracemodelingproperties) | optional | Trace modeling properties for the region. |
 | regionIdReplacement | [string](#string) | optional | Represents a unique region id that will replace the existing regionId value during |
 
 ### ModelingRegion.PCBModelingProperties
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| exportModelType | [ModelingRegion.PCBModelingProperties.ExportModelType](#modelingregion.pcbmodelingproperties.exportmodeltype) |  | The type of model to be generated for a given modeling region. |
-| elemOrder | [ModelingRegion.ElementOrder](#modelingregion.elementorder) |  | The type of 3D elements to be created for the PCB in the modeling region. |
+| exportModelType | [ModelingRegion.PCBModelingProperties.ExportModelType](#modelingregionpcbmodelingpropertiesexportmodeltype) |  | The type of model to be generated for a given modeling region. |
+| elemOrder | [ModelingRegion.ElementOrder](#modelingregionelementorder) |  | The type of 3D elements to be created for the PCB in the modeling region. |
 | maxMeshSize | [double](#double) |  | The maximum size of the mesh to be used in the region. |
 | maxMeshSizeUnits | [string](#string) |  | Units for the maximum mesh size. |
 | quadsPreferred | [bool](#bool) |  | If true, then the meshing engine should attempt to generate quad-shaped elements when creating the mesh. |
 
 ### ModelingRegion.TraceModelingProperties
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| traceModelType | [ModelingRegion.TraceModelingProperties.TraceModelingType](#modelingregion.tracemodelingproperties.tracemodelingtype) |  | Specifies if trace modeling should be performed inside of the region. |
-| elemOrder | [ModelingRegion.ElementOrder](#modelingregion.elementorder) | optional | The type of 3D elements to be created for traces in the region when trace modeling is enabled. |
+| traceModelType | [ModelingRegion.TraceModelingProperties.TraceModelingType](#modelingregiontracemodelingpropertiestracemodelingtype) |  | Specifies if trace modeling should be performed inside of the region. |
+| elemOrder | [ModelingRegion.ElementOrder](#modelingregionelementorder) | optional | The type of 3D elements to be created for traces in the region when trace modeling is enabled. |
 | traceMeshSize | [double](#double) | optional | The maximum mesh size to be used in the region when trace modeling is enabled. |
 | traceMeshSizeUnits | [string](#string) | optional | Units for the maximum mesh size when trace modeling is enabled. |
 
 ### MountPointProperties
-
+ 
 Properties of mount point, the properties may varies from the mount point type and mount point shape.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1384,15 +1280,24 @@ Properties of mount point, the properties may varies from the mount point type a
 | chassisMaterial | [string](#string) |  | Chassis material. |
 
 ### PCBShape
+ 
+
+ 
 
 ### PolygonalShape
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| points | [PolygonalShape.Point](#polygonalshape.point) | repeated | The points used to define the polygonal shape, must be >= 3. |
+| points | [PolygonalShape.Point](#polygonalshapepoint) | repeated | The points used to define the polygonal shape, must be >= 3. |
 | rotation | [double](#double) | optional | The rotation of the shape in degrees. |
 
 ### PolygonalShape.Point
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1400,8 +1305,9 @@ Properties of mount point, the properties may varies from the mount point type a
 | y | [double](#double) |  | The y coordinate of the point. |
 
 ### PottingRegion
-
+ 
 Data that fully describes a potting region.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1419,6 +1325,9 @@ Data that fully describes a potting region.
 | pCBShape | [PCBShape](#pcbshape) |  | Used to add a region with a PCB shape. |
 
 ### RectangularShape
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1429,6 +1338,9 @@ Data that fully describes a potting region.
 | rotation | [double](#double) | optional | The rotation of the rectangle in degrees. |
 
 ### SlotShape
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1440,8 +1352,9 @@ Data that fully describes a potting region.
 | rotation | [double](#double) | optional | The rotation of the shape in degrees. |
 
 ### UpdateICTFixturesByFileRequest
-
+ 
 Request to update ICT fixtures properties of a CCA from a CSV formatted file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1450,8 +1363,9 @@ Request to update ICT fixtures properties of a CCA from a CSV formatted file.
 | filePath | [string](#string) |  | The filepath of the CSV file containing the ICT fixtures properties. |
 
 ### UpdateICTFixturesResponse
-
+ 
 Contains the status of the update as well as all the update error messages.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1459,8 +1373,9 @@ Contains the status of the update as well as all the update error messages.
 | updateError | [string](#string) | repeated | ICT fixtures update error messages. |
 
 ### UpdateModelingRegionRequest
-
+ 
 Request to update one or more modeling regions for a specific project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1468,8 +1383,9 @@ Request to update one or more modeling regions for a specific project.
 | modelingRegions | [ModelingRegion](#modelingregion) | repeated | List of modeling regions to update in the project. The regionId for |
 
 ### UpdateMountPointsByFileRequest
-
+ 
 Request to update mount points properties of a CCA from a CSV formatted file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1478,8 +1394,9 @@ Request to update mount points properties of a CCA from a CSV formatted file.
 | filePath | [string](#string) |  | The filepath of the CSV file containing the mount points properties. |
 
 ### UpdateMountPointsRequest
-
+ 
 Request to update mount points properties of a CCA from a CSV formatted file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1488,8 +1405,9 @@ Request to update mount points properties of a CCA from a CSV formatted file.
 | mountPointsProperties | [MountPointProperties](#mountpointproperties) | repeated | Mount point properties. |
 
 ### UpdateMountPointsResponse
-
+ 
 Contains the status of the update as well as all the update error messages.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1497,17 +1415,19 @@ Contains the status of the update as well as all the update error messages.
 | updateError | [string](#string) | repeated | Mount Points update error messages. |
 
 ### UpdatePottingRegionRequest
-
+ 
 Request to update 1 or more potting regions in a single CCA.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | The name of the Sherlock project that contains the potting region(s) to update. |
-| updatePottingRegions | [UpdatePottingRegionRequest.PottingRegionUpdateData](#updatepottingregionrequest.pottingregionupdatedata) | repeated | List of data needed to update each potting region. |
+| updatePottingRegions | [UpdatePottingRegionRequest.PottingRegionUpdateData](#updatepottingregionrequestpottingregionupdatedata) | repeated | List of data needed to update each potting region. |
 
 ### UpdatePottingRegionRequest.PottingRegionUpdateData
-
+ 
 Potting region data used to describe a single potting region and identify which one should be updated.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1515,8 +1435,9 @@ Potting region data used to describe a single potting region and identify which 
 | pottingRegion | [PottingRegion](#pottingregion) |  | Data that describes a potting region. |
 
 ### UpdateTestPointsByFileRequest
-
+ 
 Request to update test points properties of a CCA from a CSV formatted file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1525,32 +1446,40 @@ Request to update test points properties of a CCA from a CSV formatted file.
 | filePath | [string](#string) |  | The filepath of the CSV file containing the test points properties. |
 
 ### UpdateTestPointsResponse
-
+ 
 Contains the status of the update as well as all the update error messages.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | updateError | [string](#string) | repeated | Test Points update error messages. |
 
-### ElementOrder
 
+### ModelingRegion.ElementOrder
+ 
+
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | First_Order | 0 | First order (Linear) 3D elements should be created for the PCB in the modeling region. |
 | Second_Order | 1 | Second order (Quadratic) 3D elements should be created for the PCB in the modeling region. |
 | Solid_Shell | 2 | Used for relatively flat elements, like those found in a PCB layer to reduce modeling generation time. |
 
-### ModelingMode
+### ModelingRegion.ModelingMode
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | Enabled | 0 | Use the modeling region. |
 | Disabled | 1 | Ignore the modeling region. |
 | Excluded | 2 | Don't generate any elements for the region. |
 
-### ExportModelType
+### ModelingRegion.PCBModelingProperties.ExportModelType
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | Default | 0 | Region type is based on the Mesh Type property defined in the PCB Modeling tab in the FEA Model Export dialog. |
@@ -1558,16 +1487,21 @@ Contains the status of the update as well as all the update error messages.
 | Sweep | 2 | Use mesh elements generated by the FEA tool to model the region. |
 | None | 3 | Define only geometric volumes for the region, without generating mesh elements. |
 
-### TraceModelingType
+### ModelingRegion.TraceModelingProperties.TraceModelingType
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | Default | 0 | Trace modeling type is based on the Trace Modeling property defined in the Trace Modeling tab in the FEA Model Export dialog. |
 | Enabled | 1 | Trace modeling is enabled for this region. |
 | Disabled | 2 | Trace modeling is disabled for this region. |
 
-### SherlockLayerService
 
+### SherlockLayerService
+ 
+
+ 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | addPottingRegion | [.AddPottingRegionRequest](#addpottingregionrequest) | [.ReturnCode](#returncode) | Add a potting region with the specified shape and properties. |
@@ -1595,16 +1529,20 @@ Contains the status of the update as well as all the update error messages.
 | updateModelingRegion | [.UpdateModelingRegionRequest](#updatemodelingregionrequest) | [.ReturnCode](#returncode) | Update one or more modeling regions with the specified shapes and properties. |
 | deleteModelingRegion | [.DeleteModelingRegionRequest](#deletemodelingregionrequest) | [.ReturnCode](#returncode) | Delete one or more existing modeling regions. |
 | copyModelingRegion | [.CopyModelingRegionRequest](#copymodelingregionrequest) | [.ReturnCode](#returncode) | Copy one or more existing modeling regions. |
+| listLayers | [.ListLayersRequest](#listlayersrequest) | [.ListLayersResponse](#listlayersresponse) | List all the available layers as seen in the layer viewer for a project CCA. |
+| exportLayerImage | [.ExportLayerImageRequest](#exportlayerimagerequest) | [.ExportLayerImageResponse](#exportlayerimageresponse) | Export one or more 2D Layer Viewer images from a project CCA. |
+
 
 Back to [Top](#table-of-contents)
-
+ 
 ## SherlockLifeCycleService.proto
-
+ 
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### AddHarmonicEventRequest
-
+ 
 Request to define and add a new harmonic vibe life cycle event.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1622,8 +1560,9 @@ Request to define and add a new harmonic vibe life cycle event.
 | loadDirection | [string](#string) |  | Load direction in the format of x,y,z. Example: "0,0,1". |
 
 ### AddHarmonicEventResponse
-
+ 
 Response from adding a harmonic vibe life cycle event.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1631,15 +1570,19 @@ Response from adding a harmonic vibe life cycle event.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### AddHarmonicVibeProfilesRequest
-
+ 
 Request to define and add new harmonic vibe life cycle event profiles.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
-| harmonicVibeProfiles | [AddHarmonicVibeProfilesRequest.HarmonicVibeProfile](#addharmonicvibeprofilesrequest.harmonicvibeprofile) | repeated | List of harmonic vibe life cycle event profiles for a specified project. |
+| harmonicVibeProfiles | [AddHarmonicVibeProfilesRequest.HarmonicVibeProfile](#addharmonicvibeprofilesrequestharmonicvibeprofile) | repeated | List of harmonic vibe life cycle event profiles for a specified project. |
 
 ### AddHarmonicVibeProfilesRequest.HarmonicVibeProfile
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1648,10 +1591,13 @@ Request to define and add new harmonic vibe life cycle event profiles.
 | profileName | [string](#string) |  | Name of the harmonic profile. |
 | freqUnits | [string](#string) |  | Frequency units. |
 | loadUnits | [string](#string) |  | Load units. |
-| harmonicVibeProfileEntries | [AddHarmonicVibeProfilesRequest.HarmonicVibeProfile.Entry](#addharmonicvibeprofilesrequest.harmonicvibeprofile.entry) | repeated | List of frequency and load values for a harmonic vibe life cycle phase. |
+| harmonicVibeProfileEntries | [AddHarmonicVibeProfilesRequest.HarmonicVibeProfile.Entry](#addharmonicvibeprofilesrequestharmonicvibeprofileentry) | repeated | List of frequency and load values for a harmonic vibe life cycle phase. |
 | triaxialAxis | [string](#string) |  | If the harmonic profile type is "Triaxial", the axis this profile should be assigned to. Valid values are: x, y, z. |
 
 ### AddHarmonicVibeProfilesRequest.HarmonicVibeProfile.Entry
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1659,8 +1605,9 @@ Request to define and add new harmonic vibe life cycle event profiles.
 | load | [double](#double) |  | Load. |
 
 ### AddHarmonicVibeProfilesResponse
-
+ 
 Response from adding harmonic vibe life cycle event profiles.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1668,8 +1615,9 @@ Response from adding harmonic vibe life cycle event profiles.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### AddRandomVibeEventRequest
-
+ 
 Request to define and add a new random vibe life cycle event.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1686,8 +1634,9 @@ Request to define and add a new random vibe life cycle event.
 | loadDirection | [string](#string) |  | Load direction in the format of x,y,z. Example: "0,0,1". |
 
 ### AddRandomVibeEventResponse
-
+ 
 Response from adding a random vibe life cycle event.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1695,15 +1644,19 @@ Response from adding a random vibe life cycle event.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### AddRandomVibeProfilesRequest
-
+ 
 Request to define and add new random vibe life cycle event profiles.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
-| randomVibeProfiles | [AddRandomVibeProfilesRequest.RandomVibeProfile](#addrandomvibeprofilesrequest.randomvibeprofile) | repeated | List of random vibe life cycle event profiles for a specified project. |
+| randomVibeProfiles | [AddRandomVibeProfilesRequest.RandomVibeProfile](#addrandomvibeprofilesrequestrandomvibeprofile) | repeated | List of random vibe life cycle event profiles for a specified project. |
 
 ### AddRandomVibeProfilesRequest.RandomVibeProfile
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1712,9 +1665,12 @@ Request to define and add new random vibe life cycle event profiles.
 | profileName | [string](#string) |  | Name of the random vibe profile. |
 | freqUnits | [string](#string) |  | Frequency units. |
 | amplUnits | [string](#string) |  | Amplitude units. |
-| randomVibeProfileEntries | [AddRandomVibeProfilesRequest.RandomVibeProfile.Entry](#addrandomvibeprofilesrequest.randomvibeprofile.entry) | repeated | List of frequency and amplitude values for a random vibe life cycle event. |
+| randomVibeProfileEntries | [AddRandomVibeProfilesRequest.RandomVibeProfile.Entry](#addrandomvibeprofilesrequestrandomvibeprofileentry) | repeated | List of frequency and amplitude values for a random vibe life cycle event. |
 
 ### AddRandomVibeProfilesRequest.RandomVibeProfile.Entry
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1722,8 +1678,9 @@ Request to define and add new random vibe life cycle event profiles.
 | ampl | [double](#double) |  | Amplitude. |
 
 ### AddRandomVibeProfilesResponse
-
+ 
 Response from adding random vibe profiles.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1731,8 +1688,9 @@ Response from adding random vibe profiles.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### AddShockEventRequest
-
+ 
 Request to define and add a new shock life cycle event.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1748,8 +1706,9 @@ Request to define and add a new shock life cycle event.
 | loadDirection | [string](#string) |  | Load direction in the format of x,y,z. Example: 0,0,1 |
 
 ### AddShockEventResponse
-
+ 
 Response from adding a shock life cycle event.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1757,15 +1716,19 @@ Response from adding a shock life cycle event.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### AddShockProfilesRequest
-
+ 
 Request to define and add new shock life cycle event profiles.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
-| shockProfiles | [AddShockProfilesRequest.ShockProfile](#addshockprofilesrequest.shockprofile) | repeated | List of shock life cycle event profiles for a specified project. |
+| shockProfiles | [AddShockProfilesRequest.ShockProfile](#addshockprofilesrequestshockprofile) | repeated | List of shock life cycle event profiles for a specified project. |
 
 ### AddShockProfilesRequest.ShockProfile
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1778,9 +1741,12 @@ Request to define and add new shock life cycle event profiles.
 | sampleRateUnits | [string](#string) |  | Sample rate unit. |
 | loadUnits | [string](#string) |  | Load unit. |
 | freqUnits | [string](#string) |  | Frequency unit. |
-| shockProfileEntries | [AddShockProfilesRequest.ShockProfile.Entry](#addshockprofilesrequest.shockprofile.entry) | repeated | Primary shape entry for the shock profile. |
+| shockProfileEntries | [AddShockProfilesRequest.ShockProfile.Entry](#addshockprofilesrequestshockprofileentry) | repeated | Primary shape entry for the shock profile. |
 
 ### AddShockProfilesRequest.ShockProfile.Entry
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1790,8 +1756,9 @@ Request to define and add new shock life cycle event profiles.
 | decay | [double](#double) |  | Decay rate. |
 
 ### AddShockProfilesResponse
-
+ 
 Response from adding shock life cycle event profiles.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1799,8 +1766,9 @@ Response from adding shock life cycle event profiles.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### AddThermalEventRequest
-
+ 
 Request to define and add a new thermal life cycle event.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1813,8 +1781,9 @@ Request to define and add a new thermal life cycle event.
 | cycleState | [string](#string) |  | The life cycle state. For example: "OPERATING", "STORAGE". |
 
 ### AddThermalEventResponse
-
+ 
 Response from adding a thermal life cycle event.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1822,15 +1791,19 @@ Response from adding a thermal life cycle event.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### AddThermalProfilesRequest
-
+ 
 Request to define and add a new thermal life cycle event profiles.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
-| thermalProfiles | [AddThermalProfilesRequest.ThermalProfile](#addthermalprofilesrequest.thermalprofile) | repeated | List of thermal life cycle event profiles for a specified project. |
+| thermalProfiles | [AddThermalProfilesRequest.ThermalProfile](#addthermalprofilesrequestthermalprofile) | repeated | List of thermal life cycle event profiles for a specified project. |
 
 ### AddThermalProfilesRequest.ThermalProfile
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1839,9 +1812,12 @@ Request to define and add a new thermal life cycle event profiles.
 | profileName | [string](#string) |  | Name of the thermal profile. |
 | timeUnits | [string](#string) |  | Time units. |
 | tempUnits | [string](#string) |  | Temperature units. |
-| thermalProfileEntries | [AddThermalProfilesRequest.ThermalProfile.Entry](#addthermalprofilesrequest.thermalprofile.entry) | repeated | List of step entries for a life cycle event and/or phase. |
+| thermalProfileEntries | [AddThermalProfilesRequest.ThermalProfile.Entry](#addthermalprofilesrequestthermalprofileentry) | repeated | List of step entries for a life cycle event and/or phase. |
 
 ### AddThermalProfilesRequest.ThermalProfile.Entry
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1851,8 +1827,9 @@ Request to define and add a new thermal life cycle event profiles.
 | temp | [double](#double) |  | Temperature of the step. |
 
 ### AddThermalProfilesResponse
-
+ 
 Response from adding thermal profiles.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1860,8 +1837,9 @@ Response from adding thermal profiles.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### CreateLifePhaseRequest
-
+ 
 Request for creating a life phase.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1874,8 +1852,9 @@ Request for creating a life phase.
 | cycleType | [string](#string) |  | The cycle type. For example: "COUNT", "DUTY CYCLE", "PER YEAR", "PER HOUR", etc. |
 
 ### CreateLifePhaseResponse
-
+ 
 Response from creating a life phase.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1883,8 +1862,9 @@ Response from creating a life phase.
 | errors | [string](#string) | repeated | List of error messages. |
 
 ### DeleteEventRequest
-
+ 
 Request to delete a life cycle event in a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1893,16 +1873,18 @@ Request to delete a life cycle event in a project.
 | eventName | [string](#string) |  | Name of the event to be deleted. |
 
 ### DeleteLifePhaseResponse
-
+ 
 Response for deleting a life phase
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 
 ### DeletePhaseRequest
-
+ 
 Request for deleting a life phase
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1910,8 +1892,9 @@ Request for deleting a life phase
 | phaseName | [string](#string) |  | Sherlock life phase name. |
 
 ### Events
-
+ 
 Represents an event.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1919,12 +1902,14 @@ Represents an event.
 | eventName | [string](#string) |  | Event name. |
 
 ### ListAmplUnitsRequest
-
+ 
 Request for a list of amplitude units.
+ 
 
 ### ListAmplUnitsResponse
-
+ 
 Represents a list of amplitude units.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1932,12 +1917,14 @@ Represents a list of amplitude units.
 | amplUnits | [string](#string) | repeated | List of amplitude units. |
 
 ### ListDurationUnitsRequest
-
+ 
 Request for a list of duration units for event settings.
+ 
 
 ### ListDurationUnitsResponse
-
+ 
 Represents a list of duration units for event settings in life cycle.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1945,12 +1932,14 @@ Represents a list of duration units for event settings in life cycle.
 | durationUnits | [string](#string) | repeated | List of duration units. |
 
 ### ListFreqUnitsRequest
-
+ 
 Request for a list of frequency units.
+ 
 
 ### ListFreqUnitsResponse
-
+ 
 Represents a list of frequency units.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1958,16 +1947,18 @@ Represents a list of frequency units.
 | freqUnits | [string](#string) | repeated | List of frequency units. For example: "HZ", "KHZ", "MHZ", "GHZ". |
 
 ### ListHarmonicEventsRequest
-
+ 
 Request for a list of harmonic events defined for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 
 ### ListHarmonicEventsResponse
-
+ 
 Represents a list of harmonic events defined for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1975,12 +1966,14 @@ Represents a list of harmonic events defined for a project.
 | event | [Events](#events) | repeated | List of harmonic events. |
 
 ### ListHarmonicProfileTypesRequest
-
+ 
 Request for a list of harmonic load profile types.
+ 
 
 ### ListHarmonicProfileTypesResponse
-
+ 
 Represents a list of harmonic load profile types.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -1988,31 +1981,39 @@ Represents a list of harmonic load profile types.
 | types | [string](#string) | repeated | List of harmonic load profile types. "Uniaxial", "Triaxial". |
 
 ### ListLCEventsRequest
-
+ 
 Request for a list of life cycle phases and events for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 
 ### ListLCEventsResponse
-
+ 
 Represents the life cycle phases and events for a Sherlock project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| lcPhases | [ListLCEventsResponse.LifeCyclePhase](#listlceventsresponse.lifecyclephase) | repeated | List of LifeCyclePhases for a specified project. |
+| lcPhases | [ListLCEventsResponse.LifeCyclePhase](#listlceventsresponselifecyclephase) | repeated | List of LifeCyclePhases for a specified project. |
 
 ### ListLCEventsResponse.LifeCyclePhase
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  | Life cycle phase name. |
 | description | [string](#string) |  | Life cycle phase description. |
-| lcEvents | [ListLCEventsResponse.LifeCyclePhase.LifeCycleEvent](#listlceventsresponse.lifecyclephase.lifecycleevent) | repeated | List of LifeCycleEvents for a project phase. |
+| lcEvents | [ListLCEventsResponse.LifeCyclePhase.LifeCycleEvent](#listlceventsresponselifecyclephaselifecycleevent) | repeated | List of LifeCycleEvents for a project phase. |
 
 ### ListLCEventsResponse.LifeCyclePhase.LifeCycleEvent
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2021,12 +2022,14 @@ Represents the life cycle phases and events for a Sherlock project.
 | type | [string](#string) |  | Life cycle type. For example: "Thermal Event", "Shock Event", "Random Vibe", "Harmonic Vibe". |
 
 ### ListLCStatesRequest
-
+ 
 Request for a list of life cycle states.
+ 
 
 ### ListLCStatesResponse
-
+ 
 Represents a list of life cycle states.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2034,12 +2037,14 @@ Represents a list of life cycle states.
 | states | [string](#string) | repeated | List of life cycle states. For example: "Operating", "Storage". |
 
 ### ListLCTypesRequest
-
+ 
 Request for a list of life cycle types.
+ 
 
 ### ListLCTypesResponse
-
+ 
 Represents a list of life cycle types.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2047,16 +2052,18 @@ Represents a list of life cycle types.
 | types | [string](#string) | repeated | List of life cycle types. For example, "DUTY CYCLE", "PER YEAR", "PER HOUR", etc. |
 
 ### ListRandomVibeEventsRequest
-
+ 
 Request for a list of random vibe events defined for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 
 ### ListRandomVibeEventsResponse
-
+ 
 Represents a list of random vibe events defined for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2064,12 +2071,14 @@ Represents a list of random vibe events defined for a project.
 | event | [Events](#events) | repeated | List of random vibe events. |
 
 ### ListRandomVibeProfileTypesRequest
-
+ 
 Request for a list of random vibe profile types.
+ 
 
 ### ListRandomVibeProfileTypesResponse
-
+ 
 Represents a list of random vibe profile types.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2077,16 +2086,18 @@ Represents a list of random vibe profile types.
 | types | [string](#string) | repeated | List of random vibe profile types. Currently there is only one: "Uniaxial". |
 
 ### ListShockEventsRequest
-
+ 
 Request for a list of shock events defined for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 
 ### ListShockEventsResponse
-
+ 
 Represents a list of shock events defined for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2094,12 +2105,14 @@ Represents a list of shock events defined for a project.
 | event | [Events](#events) | repeated | List of shock events. |
 
 ### ListShockLoadUnitsRequest
-
+ 
 Request for a list of shock load units.
+ 
 
 ### ListShockLoadUnitsResponse
-
+ 
 Represents a list of shock load units.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2107,12 +2120,14 @@ Represents a list of shock load units.
 | units | [string](#string) | repeated | List of shock load units. For example: "G", "m/s2", "mm/s2". |
 
 ### ListShockPulsesRequest
-
+ 
 Request for a list of shock Pulses.
+ 
 
 ### ListShockPulsesResponse
-
+ 
 Represents a list of shock Pulses.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2120,12 +2135,14 @@ Represents a list of shock Pulses.
 | shockPulse | [string](#string) | repeated | List of shock pulses. For example: "FullSine", "HalfSine", "Triangle", "Sawtooth", "FullSquare". |
 
 ### ListTempUnitsRequest
-
+ 
 Request for a list of temperature units.
+ 
 
 ### ListTempUnitsResponse
-
+ 
 Represents a list of temperature units.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2133,8 +2150,9 @@ Represents a list of temperature units.
 | tempUnits | [string](#string) | repeated | List of temperature units. For example: "C", "F", "K". |
 
 ### LoadHarmonicProfileRequest
-
+ 
 Request to load a harmonic life cycle event profile from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2142,12 +2160,13 @@ Request to load a harmonic life cycle event profile from a .dat or .csv file.
 | phaseName | [string](#string) |  | The name of the life cycle phase this event is associated. |
 | eventName | [string](#string) |  | Harmonic event name. |
 | filePath | [string](#string) |  | The full path for the .dat or .csv file. |
-| harmonicCsvProps | [LoadHarmonicProfileRequest.CSVProps](#loadharmonicprofilerequest.csvprops) |  | Properties for a .csv file load. |
+| harmonicCsvProps | [LoadHarmonicProfileRequest.CSVProps](#loadharmonicprofilerequestcsvprops) |  | Properties for a .csv file load. |
 | triaxialAxis | [string](#string) |  | If the harmonic profile type is "Triaxial", the axis this profile should be assigned to. Valid values are: x, y, z. |
 
 ### LoadHarmonicProfileRequest.CSVProps
-
+ 
 .csv file properties. This is only required for a .csv file load.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2161,8 +2180,9 @@ Request to load a harmonic life cycle event profile from a .dat or .csv file.
 | loadUnits | [string](#string) |  | Load units. |
 
 ### LoadHarmonicProfileResponse
-
+ 
 Response from loading a harmonic vibe life cycle event profile from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2170,8 +2190,9 @@ Response from loading a harmonic vibe life cycle event profile from a .dat or .c
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### LoadRandomVibeProfileRequest
-
+ 
 Request to load a random vibe life cycle event profile from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2179,11 +2200,12 @@ Request to load a random vibe life cycle event profile from a .dat or .csv file.
 | phaseName | [string](#string) |  | The name of the life cycle phase this event is associated. |
 | eventName | [string](#string) |  | Random vibe event name. |
 | filePath | [string](#string) |  | The full path for the .dat or .csv file. |
-| randomVibeCsvProps | [LoadRandomVibeProfileRequest.CSVProps](#loadrandomvibeprofilerequest.csvprops) |  | Properties for a .csv file load. |
+| randomVibeCsvProps | [LoadRandomVibeProfileRequest.CSVProps](#loadrandomvibeprofilerequestcsvprops) |  | Properties for a .csv file load. |
 
 ### LoadRandomVibeProfileRequest.CSVProps
-
+ 
 .csv file properties. This is only required for a .csv file load.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2197,8 +2219,9 @@ Request to load a random vibe life cycle event profile from a .dat or .csv file.
 | amplUnits | [string](#string) |  | Amplitude units. |
 
 ### LoadRandomVibeProfileResponse
-
+ 
 Response from loading a random vibe life cycle event profile from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2206,8 +2229,9 @@ Response from loading a random vibe life cycle event profile from a .dat or .csv
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### LoadShockProfileDatasetRequest
-
+ 
 Request to load a shock life cycle event profile using the dataset (time and load) from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2215,11 +2239,12 @@ Request to load a shock life cycle event profile using the dataset (time and loa
 | phaseName | [string](#string) |  | The name of the life cycle phase this event is associated. |
 | eventName | [string](#string) |  | Shock event name. |
 | filePath | [string](#string) |  | The full path for the .dat or .csv file. |
-| shockDsCsvProps | [LoadShockProfileDatasetRequest.CSVProps](#loadshockprofiledatasetrequest.csvprops) |  | Properties for a .csv file load. |
+| shockDsCsvProps | [LoadShockProfileDatasetRequest.CSVProps](#loadshockprofiledatasetrequestcsvprops) |  | Properties for a .csv file load. |
 
 ### LoadShockProfileDatasetRequest.CSVProps
-
+ 
 .csv file properties. This is only required for a .csv file load.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2233,8 +2258,9 @@ Request to load a shock life cycle event profile using the dataset (time and loa
 | loadUnits | [string](#string) |  | Load units. |
 
 ### LoadShockProfileDatasetResponse
-
+ 
 Response from loading a shock profile using the dataset from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2242,8 +2268,9 @@ Response from loading a shock profile using the dataset from a .dat or .csv file
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### LoadShockProfilePulsesRequest
-
+ 
 Request to load a shock life cycle event profile using pulses from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2251,11 +2278,12 @@ Request to load a shock life cycle event profile using pulses from a .dat or .cs
 | phaseName | [string](#string) |  | The name of the life cycle phase this event is associated. |
 | eventName | [string](#string) |  | Shock event name. |
 | filePath | [string](#string) |  | The full path for the .dat or .csv file. |
-| shockPulsesCsvProps | [LoadShockProfilePulsesRequest.CSVProps](#loadshockprofilepulsesrequest.csvprops) |  | Properties for a .csv file load. |
+| shockPulsesCsvProps | [LoadShockProfilePulsesRequest.CSVProps](#loadshockprofilepulsesrequestcsvprops) |  | Properties for a .csv file load. |
 
 ### LoadShockProfilePulsesRequest.CSVProps
-
+ 
 .csv file properties. This is only required for a .csv file load.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2275,8 +2303,9 @@ Request to load a shock life cycle event profile using pulses from a .dat or .cs
 | decayColumn | [string](#string) |  | Decay column name. |
 
 ### LoadShockProfilePulsesResponse
-
+ 
 Response from loading a shock profile using pulses from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2284,8 +2313,9 @@ Response from loading a shock profile using pulses from a .dat or .csv file.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### LoadThermalProfileRequest
-
+ 
 Request to load a thermal life cycle event profile from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2293,11 +2323,12 @@ Request to load a thermal life cycle event profile from a .dat or .csv file.
 | phaseName | [string](#string) |  | The name of the life cycle phase this event is associated. |
 | eventName | [string](#string) |  | Thermal event name. |
 | filePath | [string](#string) |  | The full path for the .dat or .csv file. |
-| csvProps | [LoadThermalProfileRequest.CSVProps](#loadthermalprofilerequest.csvprops) |  | Properties for a .csv file load. |
+| csvProps | [LoadThermalProfileRequest.CSVProps](#loadthermalprofilerequestcsvprops) |  | Properties for a .csv file load. |
 
 ### LoadThermalProfileRequest.CSVProps
-
+ 
 .csv file properties. This is only required for .csv file load.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2313,16 +2344,21 @@ Request to load a thermal life cycle event profile from a .dat or .csv file.
 | tempUnits | [string](#string) |  | Temperature units column name. |
 
 ### LoadThermalProfileResponse
-
+ 
 Response from loading a thermal profile from a .dat or .csv file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | errors | [string](#string) | repeated | List of validation errors. |
 
-### SherlockLifeCycleService
 
+
+### SherlockLifeCycleService
+ 
+
+ 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | addHarmonicEvent | [.AddHarmonicEventRequest](#addharmoniceventrequest) | [.AddHarmonicEventResponse](#addharmoniceventresponse) | Define and add a new harmonic vibe life cycle event. |
@@ -2356,15 +2392,17 @@ Response from loading a thermal profile from a .dat or .csv file.
 | loadThermalProfile | [.LoadThermalProfileRequest](#loadthermalprofilerequest) | [.LoadThermalProfileResponse](#loadthermalprofileresponse) | Loads a thermal profile from a .dat or .csv file. |
 | deletePhase | [.DeletePhaseRequest](#deletephaserequest) | [.ReturnCode](#returncode) | Delete a life phase for a project. |
 
+
 Back to [Top](#table-of-contents)
-
+ 
 ## SherlockModelService.proto
-
+ 
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### DrillHoleModeling
-
+ 
 Drill hole properties used for exporting trace models.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2373,8 +2411,9 @@ Drill hole properties used for exporting trace models.
 | maxEdgeLength | [Measurement](#measurement) |  | Set this to 0 to include all drill holes.<br><br>Specifies the size of the segments used to represent round drill holes by a polygon. |
 
 ### ExportAEDBRequest
-
+ 
 Request to export an Electronics Desktop model.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2385,32 +2424,39 @@ Request to export an Electronics Desktop model.
 | displayModel | [bool](#bool) |  | Display model after export if true. |
 
 ### ExportFEAModelRequest
-
+ 
 Request to export an FEA model.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 | ccaName | [string](#string) |  | The CCA name. |
 | exportFile | [string](#string) |  | Full file path to the export file. |
-| analysis | [ExportFEAModelRequest.ExportAnalysis](#exportfeamodelrequest.exportanalysis) |  | The ExportAnalysis enum representing the type of analysis that is being exported. |
-| drillHoleParam | [ExportFEAModelRequest.DrillHoleParam](#exportfeamodelrequest.drillholeparam) |  | Drill Holes modeling parameters - Min Hole Diameter and Max. Edge Length. If any of this parameter is provided, drill hole modeling will be enabled. |
+| analysis | [ExportFEAModelRequest.ExportAnalysis](#exportfeamodelrequestexportanalysis) |  | The ExportAnalysis enum representing the type of analysis that is being exported. |
+| drillHoleParam | [ExportFEAModelRequest.DrillHoleParam](#exportfeamodelrequestdrillholeparam) |  | Drill Holes modeling parameters - Min Hole Diameter and Max. Edge Length. If any of this parameter is provided, drill hole modeling will be enabled. |
 | detectLeadModeling | [string](#string) |  | If enabled, automatically enable lead modeling if any part has lead geometry defined, valid values are ENABLED/enabled or DISABLED/disabled. |
-| leadModelParam | [ExportFEAModelRequest.LeadModelParam](#exportfeamodelrequest.leadmodelparam) |  | Lead modeling parameter. |
+| leadModelParam | [ExportFEAModelRequest.LeadModelParam](#exportfeamodelrequestleadmodelparam) |  | Lead modeling parameter. |
 | displayModel | [bool](#bool) |  | Display model after export. |
 | clearFEADatabase | [bool](#bool) |  | Clear FEA Database before defining model. |
 | useFEAModelID | [bool](#bool) |  | Use FEA Model ID. |
 | coordinateUnits | [string](#string) |  | Units of exported model coordinates, valid values are "in", "mm", "m", "mil", "micron", "nm". |
 
 ### ExportFEAModelRequest.DrillHoleParam
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | drillHoleModeling | [string](#string) |  | Enables or disables drill hole modeling, valid values are ENABLED/enabled or DISABLED/disabled. |
-| minHoleDiameter | [ExportFEAModelRequest.DrillHoleParam.MinHoleDiameter](#exportfeamodelrequest.drillholeparam.minholediameter) |  | Minimum hole diameter info for a drill hole. |
-| maxEdgeLength | [ExportFEAModelRequest.DrillHoleParam.MaxEdgeLength](#exportfeamodelrequest.drillholeparam.maxedgelength) |  | Maximum edge length info for a drill hole. |
+| minHoleDiameter | [ExportFEAModelRequest.DrillHoleParam.MinHoleDiameter](#exportfeamodelrequestdrillholeparamminholediameter) |  | Minimum hole diameter info for a drill hole. |
+| maxEdgeLength | [ExportFEAModelRequest.DrillHoleParam.MaxEdgeLength](#exportfeamodelrequestdrillholeparammaxedgelength) |  | Maximum edge length info for a drill hole. |
 
 ### ExportFEAModelRequest.DrillHoleParam.MaxEdgeLength
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2418,6 +2464,9 @@ Request to export an FEA model.
 | unit | [string](#string) |  | Maximum edge length unit. |
 
 ### ExportFEAModelRequest.DrillHoleParam.MinHoleDiameter
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2425,17 +2474,23 @@ Request to export an FEA model.
 | unit | [string](#string) |  | Minimum hole diameter unit. |
 
 ### ExportFEAModelRequest.LeadModelParam
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | leadModeling | [string](#string) |  | Enables or disables lead modeling, valid values are ENABLED/enabled or DISABLED/disabled. |
 | leadElemOrder | [string](#string) |  | Element order, valid values are "First Order (Linear)", "Second Order (Quadratic)", or "Solid Shell". |
-| maxMeshSize | [ExportFEAModelRequest.LeadModelParam.MaxMeshSize](#exportfeamodelrequest.leadmodelparam.maxmeshsize) |  | Max mesh size info for a lead model param. |
-| verticalMeshSize | [ExportFEAModelRequest.LeadModelParam.VerticalMeshSize](#exportfeamodelrequest.leadmodelparam.verticalmeshsize) |  | Vertical mesh size info for a lead model param. |
+| maxMeshSize | [ExportFEAModelRequest.LeadModelParam.MaxMeshSize](#exportfeamodelrequestleadmodelparammaxmeshsize) |  | Max mesh size info for a lead model param. |
+| verticalMeshSize | [ExportFEAModelRequest.LeadModelParam.VerticalMeshSize](#exportfeamodelrequestleadmodelparamverticalmeshsize) |  | Vertical mesh size info for a lead model param. |
 | thicknessCount | [int32](#int32) |  | The number of elements through the lead thickness that will be created per lead. |
 | aspectRatio | [int32](#int32) |  | The aspect ratio is multiplied by the lead thickness divided by the through thickness count to give the lead element height. |
 
 ### ExportFEAModelRequest.LeadModelParam.MaxMeshSize
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2443,6 +2498,9 @@ Request to export an FEA model.
 | unit | [string](#string) |  | Max mesh size unit. |
 
 ### ExportFEAModelRequest.LeadModelParam.VerticalMeshSize
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2450,16 +2508,18 @@ Request to export an FEA model.
 | unit | [string](#string) |  | Vertical mesh size unit. |
 
 ### ExportTraceModelRequest
-
+ 
 Request to export one or many trace models.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | traceModelExportParams | [TraceModelExportParams](#tracemodelexportparams) | repeated | Parameters for a single trace model export. |
 
 ### ExportTraceReinforcementModelRequest
-
+ 
 Request to export a trace reinforcement model.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2470,20 +2530,26 @@ Request to export a trace reinforcement model.
 | displayModel | [bool](#bool) |  | Display model after export if true. |
 | clearFEADatabase | [bool](#bool) |  | Clear FEA Database before defining model if true. |
 | generateModelsForAllLayers | [bool](#bool) |  | Generate models for all layers. |
-| traceParam | [ExportTraceReinforcementModelRequest.TraceParam](#exporttracereinforcementmodelrequest.traceparam) |  | Trace properties (Diameter Threshold and Minimum Hole Diameter for Shell/Beam). |
-| traceDrillHoleParam | [ExportTraceReinforcementModelRequest.TraceDrillHoleParam](#exporttracereinforcementmodelrequest.tracedrillholeparam) |  | **Deprecated.** Drill Holes modeling parameters - Min Hole Diameter and Max. Edge Length. If any of this parameter is provided, drill hole modeling will be enabled. |
+| traceParam | [ExportTraceReinforcementModelRequest.TraceParam](#exporttracereinforcementmodelrequesttraceparam) |  | Trace properties (Diameter Threshold and Minimum Hole Diameter for Shell/Beam). |
+| traceDrillHoleParam | [ExportTraceReinforcementModelRequest.TraceDrillHoleParam](#exporttracereinforcementmodelrequesttracedrillholeparam) |  | **Deprecated.** Drill Holes modeling parameters - Min Hole Diameter and Max. Edge Length. If any of this parameter is provided, drill hole modeling will be enabled. |
 | drillHoleModeling | [DrillHoleModeling](#drillholemodeling) |  | Properties used for exporting drill holes. |
 | coordinateUnits | [string](#string) |  | Units of exported model coordinates, valid values are "in", "mm", "m", "mil", "micron", "nm". |
 
 ### ExportTraceReinforcementModelRequest.TraceDrillHoleParam
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | drillHoleModeling | [string](#string) |  | Enables or disables drill hole modeling, valid values are ENABLED/enabled or DISABLED/disabled. |
-| minHoleDiameter | [ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MinHoleDiameter](#exporttracereinforcementmodelrequest.tracedrillholeparam.minholediameter) |  | Minimum hole diameter info for a trace drill hole param. |
-| maxEdgeLength | [ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MaxEdgeLength](#exporttracereinforcementmodelrequest.tracedrillholeparam.maxedgelength) |  | Maximum edge length info for a trace drill hole param. |
+| minHoleDiameter | [ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MinHoleDiameter](#exporttracereinforcementmodelrequesttracedrillholeparamminholediameter) |  | Minimum hole diameter info for a trace drill hole param. |
+| maxEdgeLength | [ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MaxEdgeLength](#exporttracereinforcementmodelrequesttracedrillholeparammaxedgelength) |  | Maximum edge length info for a trace drill hole param. |
 
 ### ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MaxEdgeLength
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2491,6 +2557,9 @@ Request to export a trace reinforcement model.
 | unit | [string](#string) |  | Maximum edge length unit. |
 
 ### ExportTraceReinforcementModelRequest.TraceDrillHoleParam.MinHoleDiameter
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2498,13 +2567,19 @@ Request to export a trace reinforcement model.
 | unit | [string](#string) |  | Minimum hole diameter unit. |
 
 ### ExportTraceReinforcementModelRequest.TraceParam
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| diameterThreshold | [ExportTraceReinforcementModelRequest.TraceParam.DiameterThreshold](#exporttracereinforcementmodelrequest.traceparam.diameterthreshold) |  | Diameter threshold info for a trace parameter. |
-| minHoleDiameterForShellOrBeam | [ExportTraceReinforcementModelRequest.TraceParam.MinHoleDiameterForShellOrBeam](#exporttracereinforcementmodelrequest.traceparam.minholediameterforshellorbeam) |  | Minimum hole diameter info for Shell or Beam for a trace parameter. |
+| diameterThreshold | [ExportTraceReinforcementModelRequest.TraceParam.DiameterThreshold](#exporttracereinforcementmodelrequesttraceparamdiameterthreshold) |  | Diameter threshold info for a trace parameter. |
+| minHoleDiameterForShellOrBeam | [ExportTraceReinforcementModelRequest.TraceParam.MinHoleDiameterForShellOrBeam](#exporttracereinforcementmodelrequesttraceparamminholediameterforshellorbeam) |  | Minimum hole diameter info for Shell or Beam for a trace parameter. |
 
 ### ExportTraceReinforcementModelRequest.TraceParam.DiameterThreshold
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2512,6 +2587,9 @@ Request to export a trace reinforcement model.
 | unit | [string](#string) |  | Diameter threshold unit. |
 
 ### ExportTraceReinforcementModelRequest.TraceParam.MinHoleDiameterForShellOrBeam
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2519,8 +2597,9 @@ Request to export a trace reinforcement model.
 | unit | [string](#string) |  | Min. hole diameter unit for Shell/Beam. |
 
 ### GenerateTraceModelRequest
-
+ 
 Request to generate a trace model.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2536,8 +2615,9 @@ Request to generate a trace model.
 | useSnapshotForNonImageLayer | [bool](#bool) |  | Use an image to generate the trace model for layers that are not image layers. If a snapshot image exists for the layer, that snapshot is used. Otherwise this creates an image that is identical to creating a snapshot. |
 
 ### TraceModelExportParams
-
+ 
 All parameters required to export a trace model.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2550,13 +2630,14 @@ All parameters required to export a trace model.
 | clearFEADatabase | [bool](#bool) | optional | Clears FEA Database. Applicable for .apdl, and .cdb. This will be set to false if it is omitted for applicable file types. |
 | useFEAModelID | [bool](#bool) |  | Use FEA Model ID. |
 | coordUnits | [string](#string) | optional | Units of the coordinate system. Applicable to .py .wbjn, and .stp/.step. This will be set to mm if omitted for applicable file types. |
-| pcbMeshPropParam | [TraceModelExportParams.PcbMeshPropParam](#tracemodelexportparams.pcbmeshpropparam) |  | Properties used for exporting PCB mesh. |
-| tracePropParam | [TraceModelExportParams.TracePropParam](#tracemodelexportparams.tracepropparam) |  | Properties used for exporting the traces. |
+| pcbMeshPropParam | [TraceModelExportParams.PcbMeshPropParam](#tracemodelexportparamspcbmeshpropparam) |  | Properties used for exporting PCB mesh. |
+| tracePropParam | [TraceModelExportParams.TracePropParam](#tracemodelexportparamstracepropparam) |  | Properties used for exporting the traces. |
 | drillHoleModeling | [DrillHoleModeling](#drillholemodeling) |  | Properties used for exporting drill holes. |
 
 ### TraceModelExportParams.PcbMeshPropParam
-
+ 
 Mesh properties used for exporting trace models.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2564,8 +2645,9 @@ Mesh properties used for exporting trace models.
 | isModelingRegionEnabled | [bool](#bool) |  | Determines if pre-defined modeling regions will be applied to the exported trace model. |
 
 ### TraceModelExportParams.TracePropParam
-
+ 
 Trace properties used for exporting trace models.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2574,8 +2656,11 @@ Trace properties used for exporting trace models.
 | maxMeshSize | [Measurement](#measurement) |  | Value passed to FEA meshing tool to indicate the desired element sizes. |
 | maxHolesPerTrace | [int32](#int32) |  | Maximum number of holes allowed in a trace before partitioning it into multiple traces. |
 
-### ExportAnalysis
 
+### ExportFEAModelRequest.ExportAnalysis
+ 
+
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | NaturalFreq | 0 | Natural Frequency Analysis. |
@@ -2585,10 +2670,10 @@ Trace properties used for exporting trace models.
 | RandomVibe | 4 | Random Vibe Analysis. |
 
 ### MeshType
-
+ 
 Different ways meshes are created. The options
  available depend on the export file type.
-
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | NONE | 0 | Defines only geometric volumes without generating mesh elements. |
@@ -2596,17 +2681,20 @@ Different ways meshes are created. The options
 | SWEEP | 2 | Defines geometric volumes along with commands to mesh the volumes depending on the file type. |
 
 ### TraceOutputType
-
+ 
 Indicates which trace regions to include in the 3D model.
-
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | ALL_REGIONS | 0 | Both Conductor and Dielectric. |
 | CONDUCTOR_REGIONS | 1 | The traces themselves. |
 | DIELECTRIC_REGIONS | 2 | Regions that surround the conductor regions (Ex. areas filled with resin). |
 
-### SherlockModelService
 
+### SherlockModelService
+ 
+
+ 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | exportFEAModel | [.ExportFEAModelRequest](#exportfeamodelrequest) | [.ReturnCode](#returncode) | Export an FEA Model. |
@@ -2615,15 +2703,17 @@ Indicates which trace regions to include in the 3D model.
 | exportTraceModel | [.ExportTraceModelRequest](#exporttracemodelrequest) | [.ReturnCode](#returncode) | Export a trace model. |
 | exportAEDB | [.ExportAEDBRequest](#exportaedbrequest) | [.ReturnCode](#returncode) | Export an Electronics Desktop model. |
 
+
 Back to [Top](#table-of-contents)
-
+ 
 ## SherlockPartsService.proto
-
+ 
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### ExportNetListRequest
-
+ 
 Contains the options needed to export a net list to a delimited output file (csv but can have delimiters other than a comma)
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2635,8 +2725,9 @@ Contains the options needed to export a net list to a delimited output file (csv
 | utf8Enabled | [bool](#bool) |  | Flag that specifies if UTF-8 will be used. False by default. Not applicable to Excel files like xls, xlsx. |
 
 ### ExportPartsListRequest
-
+ 
 Request to export the parts list for all parts for a project CCA.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2645,12 +2736,14 @@ Request to export the parts list for all parts for a project CCA.
 | exportFile | [string](#string) |  | Full file path to the export parts list .csv file. |
 
 ### GetBoardSidesRequest
-
+ 
 Request to list valid board sides.
+ 
 
 ### GetBoardSidesResponse
-
+ 
 Represents a list of valid board sides.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2658,8 +2751,9 @@ Represents a list of valid board sides.
 | boardSides | [string](#string) | repeated | Board sides. |
 
 ### GetPartLocationRequest
-
+ 
 Request to get a part's location.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2669,15 +2763,19 @@ Request to get a part's location.
 | locationUnits | [string](#string) |  | Unit of length for the part location. Supported values are IN, MM, M, MIL, MICRON, and NM. |
 
 ### GetPartLocationResponse
-
+ 
 Represents one or multiple parts' location properties
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| locationData | [GetPartLocationResponse.LocationData](#getpartlocationresponse.locationdata) | repeated | List of location data for a part or list of parts in a specified project and CCA. |
+| locationData | [GetPartLocationResponse.LocationData](#getpartlocationresponselocationdata) | repeated | List of location data for a part or list of parts in a specified project and CCA. |
 
 ### GetPartLocationResponse.LocationData
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2690,12 +2788,14 @@ Represents one or multiple parts' location properties
 | refDes | [string](#string) |  | Ref Des for the corresponding part. |
 
 ### GetPartLocationUnitsRequest
-
+ 
 Request to list valid location units.
+ 
 
 ### GetPartLocationUnitsResponse
-
+ 
 Represents a list of valid location units.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2703,8 +2803,9 @@ Represents a list of valid location units.
 | units | [string](#string) | repeated | Location units. |
 
 ### ImportPartsListRequest
-
+ 
 Request to import a parts list for a project CCA.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2714,12 +2815,14 @@ Request to import a parts list for a project CCA.
 | importAsUserSrc | [bool](#bool) |  | If true, set the data source of the properties to "User". Otherwise, set the data source to the name of the importFile. |
 
 ### ListPartsLibrariesRequest
-
+ 
 Request to list the available parts libraries.
+ 
 
 ### ListPartsLibrariesResponse
-
+ 
 Represents a list of available parts libraries.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2727,30 +2830,38 @@ Represents a list of available parts libraries.
 | partLibrary | [string](#string) | repeated | Parts library name. |
 
 ### ListPartsNotUpdatedRequest
-
+ 
 Request to get a list of parts not updated from the Sherlock Part Library.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 
 ### ListPartsNotUpdatedResponse
-
+ 
 Represents a list of parts not updated from the Sherlock Part Library.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| ccas | [ListPartsNotUpdatedResponse.CCA](#listpartsnotupdatedresponse.cca) | repeated | List of CCAs containing Parts not updated. |
+| ccas | [ListPartsNotUpdatedResponse.CCA](#listpartsnotupdatedresponsecca) | repeated | List of CCAs containing Parts not updated. |
 
 ### ListPartsNotUpdatedResponse.CCA
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | ccaName | [string](#string) |  | The CCA name. |
-| parts | [ListPartsNotUpdatedResponse.CCA.Part](#listpartsnotupdatedresponse.cca.part) | repeated | List of Parts not updated for a CCA. |
+| parts | [ListPartsNotUpdatedResponse.CCA.Part](#listpartsnotupdatedresponseccapart) | repeated | List of Parts not updated for a CCA. |
 
 ### ListPartsNotUpdatedResponse.CCA.Part
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2758,8 +2869,9 @@ Represents a list of parts not updated from the Sherlock Part Library.
 | partNumber | [string](#string) |  | Part number. |
 
 ### UpdateLeadModelingRequest
-
+ 
 Request to enable Lead Modeling for all non LEADLESS parts leads.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2767,8 +2879,9 @@ Request to enable Lead Modeling for all non LEADLESS parts leads.
 | ccaName | [string](#string) |  | The CCA name. |
 
 ### UpdatePartsListFromAVLRequest
-
+ 
 Request to update the parts list from AVL.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2780,6 +2893,9 @@ Request to update the parts list from AVL.
 | avlDesc | [AVLDescription](#avldescription) |  | Update description or not. |
 
 ### UpdatePartsListFromAVLResponse
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2788,23 +2904,30 @@ Request to update the parts list from AVL.
 | updateErrors | [string](#string) | repeated | Specific errors that occured during update. |
 
 ### UpdatePartsListPropertiesRequest
-
+ 
 Request to update one or more properties of one or more parts in a parts list.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 | ccaName | [string](#string) |  | The CCA name for which part properties will be updated. |
-| partProperties | [UpdatePartsListPropertiesRequest.PartProperties](#updatepartslistpropertiesrequest.partproperties) | repeated | List of parts with properties to be updated. |
+| partProperties | [UpdatePartsListPropertiesRequest.PartProperties](#updatepartslistpropertiesrequestpartproperties) | repeated | List of parts with properties to be updated. |
 
 ### UpdatePartsListPropertiesRequest.PartProperties
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | refDes | [string](#string) | repeated | The reference designator for each part to be updated. If not included, update properties for all parts in the CCA. |
-| properties | [UpdatePartsListPropertiesRequest.PartProperties.Property](#updatepartslistpropertiesrequest.partproperties.property) | repeated | Part properties to be updated. |
+| properties | [UpdatePartsListPropertiesRequest.PartProperties.Property](#updatepartslistpropertiesrequestpartpropertiesproperty) | repeated | Part properties to be updated. |
 
 ### UpdatePartsListPropertiesRequest.PartProperties.Property
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2812,15 +2935,19 @@ Request to update one or more properties of one or more parts in a parts list.
 | value | [string](#string) |  | Value to be applied to the chosen part property. |
 
 ### UpdatePartsListPropertiesResponse
-
+ 
 Contains the status of the parts properties update as well as all the update error messages.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| updateErrors | [UpdatePartsListPropertiesResponse.PartPropertyError](#updatepartslistpropertiesresponse.partpropertyerror) | repeated | Part property update errors. |
+| updateErrors | [UpdatePartsListPropertiesResponse.PartPropertyError](#updatepartslistpropertiesresponsepartpropertyerror) | repeated | Part property update errors. |
 
 ### UpdatePartsListPropertiesResponse.PartPropertyError
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2828,8 +2955,9 @@ Contains the status of the parts properties update as well as all the update err
 | message | [string](#string) |  | Error message when updating the part. |
 
 ### UpdatePartsListRequest
-
+ 
 Request to update a parts list based on matching and duplication preferences provided.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2840,8 +2968,9 @@ Request to update a parts list based on matching and duplication preferences pro
 | duplication | [DuplicationMode](#duplicationmode) |  | Designates how to handle duplications during update. |
 
 ### UpdatePartsListResponse
-
+ 
 Contains the status of the update as well as all of the update error messages.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2849,8 +2978,9 @@ Contains the status of the update as well as all of the update error messages.
 | updateError | [string](#string) | repeated | Parts update error messages. |
 
 ### UpdatePartsLocationsByFileRequest
-
+ 
 Request to update one or more parts' locations using a CSV file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2860,8 +2990,9 @@ Request to update one or more parts' locations using a CSV file.
 | filePath | [string](#string) |  | File that contains the components and location properties. |
 
 ### UpdatePartsLocationsByFileResponse
-
+ 
 Contains the status of the parts locations update as well as all the update error messages.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2869,16 +3000,20 @@ Contains the status of the parts locations update as well as all the update erro
 | updateError | [string](#string) | repeated | Parts locations update error messages. |
 
 ### UpdatePartsLocationsRequest
-
+ 
 Request to set a part's location.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 | ccaName | [string](#string) |  | The CCA name. |
-| partLoc | [UpdatePartsLocationsRequest.PartLocation](#updatepartslocationsrequest.partlocation) | repeated | List of part locations to be updated for a specified project and CCA. |
+| partLoc | [UpdatePartsLocationsRequest.PartLocation](#updatepartslocationsrequestpartlocation) | repeated | List of part locations to be updated for a specified project and CCA. |
 
 ### UpdatePartsLocationsRequest.PartLocation
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2891,28 +3026,30 @@ Request to set a part's location.
 | mirrored | [string](#string) |  | Indicates if the component is mirrored across the Y-axis. Supported values are Y, and N. |
 
 ### UpdatePartsLocationsResponse
-
+ 
 Contains the status of the parts locations update as well as all the update error messages.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | updateError | [string](#string) | repeated | Parts locations update error messages. |
 
+
 ### AVLDescription
-
-Determines if the part description in the parts list
+ 
+Determines if the part description in the parts list 
 will be updated by the AVL.
-
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | AssignApprovedDescription | 0 | Assign approved description. |
 | DoNotChangeDescription | 1 | Do not change description. |
 
 ### AVLPartNum
-
+ 
 Determines what fields in the part list will get updated by the AVL.
-
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | AssignInternalPartNum | 0 | Assign internal part number. |
@@ -2920,18 +3057,21 @@ Determines what fields in the part list will get updated by the AVL.
 | DoNotChangeVendorOrPartNum | 2 | Do not change vendor / part number. |
 
 ### DuplicationMode
-
+ 
 Determines what happens when there are duplicate matches for parts in the part list
 against parts in the AVL or Part Library.
-
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | First | 0 | Uses first matched when there is duplication. |
 | Error | 1 | Generates an error when there is duplication. |
 | Ignore | 2 | Ignore the matches when there is duplication. |
 
-### SherlockPartsService
 
+### SherlockPartsService
+ 
+
+ 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | listPartsLibraries | [.ListPartsLibrariesRequest](#listpartslibrariesrequest) | [.ListPartsLibrariesResponse](#listpartslibrariesresponse) | List the available parts libraries. |
@@ -2949,13 +3089,17 @@ against parts in the AVL or Part Library.
 | getPartLocation | [.GetPartLocationRequest](#getpartlocationrequest) | [.GetPartLocationResponse](#getpartlocationresponse) | Get the location properties for a part. |
 | exportNetList | [.ExportNetListRequest](#exportnetlistrequest) | [.ReturnCode](#returncode) | Export the net list to a file |
 
+
 Back to [Top](#table-of-contents)
-
+ 
 ## SherlockProjectService.proto
-
+ 
 Copyright 2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### AddCcaRequest
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2963,8 +3107,9 @@ Copyright 2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is pro
 | CCAs | [CCA](#cca) | repeated | CCAs to add. |
 
 ### AddProjectRequest
-
+ 
 Request to add a project to Sherlock.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2973,15 +3118,19 @@ Request to add a project to Sherlock.
 | description | [string](#string) |  | Project description. |
 
 ### AddStrainMapRequest
-
+ 
 Request to add strain map files to CCAs in a Sherlock project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
-| strainMapFiles | [AddStrainMapRequest.StrainMapFile](#addstrainmaprequest.strainmapfile) | repeated | Strain map files and associated properties to be added. |
+| strainMapFiles | [AddStrainMapRequest.StrainMapFile](#addstrainmaprequeststrainmapfile) | repeated | Strain map files and associated properties to be added. |
 
 ### AddStrainMapRequest.StrainMapFile
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -2993,23 +3142,29 @@ Request to add strain map files to CCAs in a Sherlock project.
 | strainUnits | [string](#string) |  | Strain units used in the strain map file. Valid units: µε, ε. |
 | cca | [string](#string) | repeated | Project CCA names to to add the file to. |
 | numericFormat | [string](#string) |  | Numeric format for values. |
-| fileType | [AddStrainMapRequest.StrainMapFile.FileType](#addstrainmaprequest.strainmapfile.filetype) |  | Type of the strain map file. |
-| imageFile | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile](#addstrainmaprequest.strainmapfile.strainmapimagefile) |  | Image strain map file properties. |
+| fileType | [AddStrainMapRequest.StrainMapFile.FileType](#addstrainmaprequeststrainmapfilefiletype) |  | Type of the strain map file. |
+| imageFile | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile](#addstrainmaprequeststrainmapfilestrainmapimagefile) |  | Image strain map file properties. |
 
 ### AddStrainMapRequest.StrainMapFile.StrainMapImageFile
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | coordinateUnits | [string](#string) |  | Coordinate units used for board, lengend and image boundaries. |
-| boardBounds | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.NodeCoordinate](#addstrainmaprequest.strainmapfile.strainmapimagefile.nodecoordinate) | repeated | Coordinates of the nodes which make up the board outline. |
-| imageBounds | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.ImageCoordinate](#addstrainmaprequest.strainmapfile.strainmapimagefile.imagecoordinate) |  | Coordinates of the board bounds within the image. |
-| legendBounds | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.LegendCoordinate](#addstrainmaprequest.strainmapfile.strainmapimagefile.legendcoordinate) |  | Coordinates of the bounds of legend within the image. |
-| legendOrientation | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.LegendOrientation](#addstrainmaprequest.strainmapfile.strainmapimagefile.legendorientation) |  | Specify the legend orientation. |
+| boardBounds | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.NodeCoordinate](#addstrainmaprequeststrainmapfilestrainmapimagefilenodecoordinate) | repeated | Coordinates of the nodes which make up the board outline. |
+| imageBounds | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.ImageCoordinate](#addstrainmaprequeststrainmapfilestrainmapimagefileimagecoordinate) |  | Coordinates of the board bounds within the image. |
+| legendBounds | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.LegendCoordinate](#addstrainmaprequeststrainmapfilestrainmapimagefilelegendcoordinate) |  | Coordinates of the bounds of legend within the image. |
+| legendOrientation | [AddStrainMapRequest.StrainMapFile.StrainMapImageFile.LegendOrientation](#addstrainmaprequeststrainmapfilestrainmapimagefilelegendorientation) |  | Specify the legend orientation. |
 | minStrain | [double](#double) |  | Minimum strain value. |
 | maxStrain | [double](#double) |  | Maximum strain value. |
 | strainUnits | [string](#string) |  | Units for minimum and maximum strain values. |
 
 ### AddStrainMapRequest.StrainMapFile.StrainMapImageFile.ImageCoordinate
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3019,6 +3174,9 @@ Request to add strain map files to CCAs in a Sherlock project.
 | imageW | [double](#double) |  | Width of the image. |
 
 ### AddStrainMapRequest.StrainMapFile.StrainMapImageFile.LegendCoordinate
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3028,6 +3186,9 @@ Request to add strain map files to CCAs in a Sherlock project.
 | legendW | [double](#double) |  | Width of the legend. |
 
 ### AddStrainMapRequest.StrainMapFile.StrainMapImageFile.NodeCoordinate
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3035,8 +3196,9 @@ Request to add strain map files to CCAs in a Sherlock project.
 | vertexY | [double](#double) |  | Y-coordinate of the node. |
 
 ### AddStrainMapResponse
-
+ 
 Response from adding strain map files.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3044,15 +3206,19 @@ Response from adding strain map files.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### AddThermalMapRequest
-
+ 
 Request to add thermal map files to a Sherlock project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
-| thermalMapFiles | [AddThermalMapRequest.AddThermalMap](#addthermalmaprequest.addthermalmap) | repeated | Thermal map files and associated properties to be added. |
+| thermalMapFiles | [AddThermalMapRequest.AddThermalMap](#addthermalmaprequestaddthermalmap) | repeated | Thermal map files and associated properties to be added. |
 
 ### AddThermalMapRequest.AddThermalMap
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3060,8 +3226,9 @@ Request to add thermal map files to a Sherlock project.
 | thermalMapFileProperties | [ThermalMapFile](#thermalmapfile) |  | Thermal map file properties. |
 
 ### AddThermalMapResponse
-
+ 
 Response from adding thermal map files.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3069,6 +3236,9 @@ Response from adding thermal map files.
 | errors | [string](#string) | repeated | List of validation errors. |
 
 ### CCA
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3082,17 +3252,19 @@ Response from adding thermal map files.
 | guessPartPropertiesEnabled | [bool](#bool) | optional | Whether to enable guess part properties. |
 
 ### CreateCcaFromModelingRegionRequest
-
+ 
 Request for creating CCA from a specified modeling region.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
-| cCAsFromModelingRegions | [CreateCcaFromModelingRegionRequest.CCAFromModelingRegion](#createccafrommodelingregionrequest.ccafrommodelingregion) | repeated | CCAs from modeling regions to add. |
+| cCAsFromModelingRegions | [CreateCcaFromModelingRegionRequest.CCAFromModelingRegion](#createccafrommodelingregionrequestccafrommodelingregion) | repeated | CCAs from modeling regions to add. |
 
 ### CreateCcaFromModelingRegionRequest.CCAFromModelingRegion
-
+ 
 Request for each individual property of cca
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3108,16 +3280,18 @@ Request for each individual property of cca
 | generateImageLayers | [bool](#bool) | optional | Whether to generate image layers |
 
 ### DeleteProjectRequest
-
+ 
 Request for deleting project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Project name of project to be deleted. |
 
 ### ExportProjectRequest
-
+ 
 Request for exporting the designated Sherlock project as a .zip file.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3133,8 +3307,9 @@ Request for exporting the designated Sherlock project as a .zip file.
 | overwriteExistingFile | [bool](#bool) |  | If true, an existing file will be overwritten. |
 
 ### GenCCAReportRequest
-
+ 
 Request for project CCA report.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3144,8 +3319,9 @@ Request for project CCA report.
 | company | [string](#string) |  | Name of author's company. |
 
 ### GenCCAReportResponse
-
+ 
 Streams the project CCA report in chunks.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3154,8 +3330,9 @@ Streams the project CCA report in chunks.
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 
 ### GenReportRequest
-
+ 
 Request for project report.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3164,8 +3341,9 @@ Request for project report.
 | company | [string](#string) |  | Name of author's company. |
 
 ### GenReportResponse
-
+ 
 Streams the project report in chunks.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3174,8 +3352,9 @@ Streams the project report in chunks.
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 
 ### ImportIPC2581Request
-
+ 
 Request for importing an IPC-2581 archive.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3189,8 +3368,9 @@ Request for importing an IPC-2581 archive.
 | polylineToleranceUnits | [string](#string) |  | Polyline simplification tolerance units. |
 
 ### ImportODBRequest
-
+ 
 Request for importing an ODB++ archive.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3207,8 +3387,9 @@ Request for importing an ODB++ archive.
 | polylineToleranceUnits | [string](#string) |  | Polyline simplification tolerance units. |
 
 ### ImportProjectZipRequest
-
+ 
 Request for importing a .zip project archive when Sherlock is in multiple project mode.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3217,8 +3398,9 @@ Request for importing a .zip project archive when Sherlock is in multiple projec
 | archiveFile | [string](#string) |  | Full path to the .zip archive file containing the project data. |
 
 ### ImportProjectZipSingleModeRequest
-
+ 
 Request for importing a .zip project archive when Sherlock is in single project mode.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3226,8 +3408,9 @@ Request for importing a .zip project archive when Sherlock is in single project 
 | destFileDir | [string](#string) |  | Directory in which the Sherlock project folder will be created. |
 
 ### ListCCAsRequest
-
+ 
 Request to list CCA's and sub-assembly CCA's for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3235,24 +3418,29 @@ Request to list CCA's and sub-assembly CCA's for a project.
 | cca | [string](#string) | repeated | Optional project CCA names to return. |
 
 ### ListCCAsResponse
-
+ 
 Represents the circuit cards, their properties, and sub-assemblies for a Sherlock project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| ccas | [ListCCAsResponse.CCA](#listccasresponse.cca) | repeated | CCA's assigned to the project. |
+| ccas | [ListCCAsResponse.CCA](#listccasresponsecca) | repeated | CCA's assigned to the project. |
 
 ### ListCCAsResponse.CCA
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | ccaName | [string](#string) |  | Name of the CCA. |
-| subAssemblies | [ListCCAsResponse.CCA](#listccasresponse.cca) | repeated | Sub-assemblies assigned to the CCA. |
+| subAssemblies | [ListCCAsResponse.CCA](#listccasresponsecca) | repeated | Sub-assemblies assigned to the CCA. |
 
 ### ListStrainMapsRequest
-
+ 
 Request to list CCA strain maps for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3260,16 +3448,20 @@ Request to list CCA strain maps for a project.
 | cca | [string](#string) | repeated | Optional project CCA names to list strain maps for. |
 
 ### ListStrainMapsResponse
-
+ 
 Lists the strain maps assigned to the project CCA's.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | errors | [string](#string) | repeated | List of errors encountered. |
-| ccaStrainMaps | [ListStrainMapsResponse.CcaStrainMap](#liststrainmapsresponse.ccastrainmap) | repeated | CCA strain maps assigned to the project. |
+| ccaStrainMaps | [ListStrainMapsResponse.CcaStrainMap](#liststrainmapsresponseccastrainmap) | repeated | CCA strain maps assigned to the project. |
 
 ### ListStrainMapsResponse.CcaStrainMap
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3277,8 +3469,9 @@ Lists the strain maps assigned to the project CCA's.
 | strainMaps | [string](#string) | repeated | Strain map names assigned to the CCA. |
 
 ### ListThermalMapsRequest
-
+ 
 Request to list Thermal map files and their types for a project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3286,23 +3479,30 @@ Request to list Thermal map files and their types for a project.
 | cca | [string](#string) | repeated | Optional project CCA names to list thermal maps for. |
 
 ### ListThermalMapsResponse
-
+ 
 Represents the thermal map files and their types for a Sherlock project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | errors | [string](#string) | repeated | List of errors encountered. |
-| ccaThermalMaps | [ListThermalMapsResponse.CcaThermalMap](#listthermalmapsresponse.ccathermalmap) | repeated | CCA thermal map files assigned to the project. |
+| ccaThermalMaps | [ListThermalMapsResponse.CcaThermalMap](#listthermalmapsresponseccathermalmap) | repeated | CCA thermal map files assigned to the project. |
 
 ### ListThermalMapsResponse.CcaThermalMap
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | ccaName | [string](#string) |  | Project CCA name. |
-| thermalMaps | [ListThermalMapsResponse.CcaThermalMap.ThermalMap](#listthermalmapsresponse.ccathermalmap.thermalmap) | repeated | Thermal map files assigned to the CCA. |
+| thermalMaps | [ListThermalMapsResponse.CcaThermalMap.ThermalMap](#listthermalmapsresponseccathermalmapthermalmap) | repeated | Thermal map files assigned to the CCA. |
 
 ### ListThermalMapsResponse.CcaThermalMap.ThermalMap
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3310,19 +3510,25 @@ Represents the thermal map files and their types for a Sherlock project.
 | fileType | [string](#string) |  | Thermal map file type. Possible values are: "Icepak Thermal Map (TMAP)", "Thermal Map (CSV)", "Thermal Map (Excel)", "Thermal Map (Image)". |
 
 ### ThermalMapFile
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | fileName | [string](#string) |  | The name of the thermal file to update. |
-| fileType | [ThermalMapFile.FileType](#thermalmapfile.filetype) |  | Thermal file type. |
+| fileType | [ThermalMapFile.FileType](#thermalmapfilefiletype) |  | Thermal file type. |
 | fileComment | [string](#string) |  | Include a comment or description for the file. |
-| thermalBoardSide | [ThermalMapFile.ThermalBoardSide](#thermalmapfile.thermalboardside) |  | Thermal board side. |
-| csvExcelFile | [ThermalMapFile.CsvExcelFile](#thermalmapfile.csvexcelfile) |  | Used to CSV and Excel files. |
-| imageFile | [ThermalMapFile.ImageFile](#thermalmapfile.imagefile) |  | Used to add properties to Image files. |
+| thermalBoardSide | [ThermalMapFile.ThermalBoardSide](#thermalmapfilethermalboardside) |  | Thermal board side. |
+| csvExcelFile | [ThermalMapFile.CsvExcelFile](#thermalmapfilecsvexcelfile) |  | Used to CSV and Excel files. |
+| imageFile | [ThermalMapFile.ImageFile](#thermalmapfileimagefile) |  | Used to add properties to Image files. |
 | thermalProfiles | [string](#string) | repeated | List of thermal profiles. |
 | cca | [string](#string) | repeated | Project CCA Name. |
 
 ### ThermalMapFile.CsvExcelFile
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3333,20 +3539,26 @@ Represents the thermal map files and their types for a Sherlock project.
 | numericFormat | [string](#string) |  | Numeric format for values. |
 
 ### ThermalMapFile.ImageFile
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | coordinateUnits | [string](#string) |  | Coordinate units used for board, lengend and image boundaries. |
-| boardBounds | [ThermalMapFile.ImageFile.NodeCoordinate](#thermalmapfile.imagefile.nodecoordinate) | repeated | Coordinates of the nodes which make up the board outline. |
-| imageBounds | [ThermalMapFile.ImageFile.ImageCoordinate](#thermalmapfile.imagefile.imagecoordinate) |  | Coordinates of the board bounds within the image. |
-| legendBounds | [ThermalMapFile.ImageFile.LegendCoordinate](#thermalmapfile.imagefile.legendcoordinate) |  | Coordinates of the bounds of legend within the image. |
-| legendOrientation | [ThermalMapFile.ImageFile.LegendOrientation](#thermalmapfile.imagefile.legendorientation) |  | Specify the legend orientation. |
+| boardBounds | [ThermalMapFile.ImageFile.NodeCoordinate](#thermalmapfileimagefilenodecoordinate) | repeated | Coordinates of the nodes which make up the board outline. |
+| imageBounds | [ThermalMapFile.ImageFile.ImageCoordinate](#thermalmapfileimagefileimagecoordinate) |  | Coordinates of the board bounds within the image. |
+| legendBounds | [ThermalMapFile.ImageFile.LegendCoordinate](#thermalmapfileimagefilelegendcoordinate) |  | Coordinates of the bounds of legend within the image. |
+| legendOrientation | [ThermalMapFile.ImageFile.LegendOrientation](#thermalmapfileimagefilelegendorientation) |  | Specify the legend orientation. |
 | minTemperature | [double](#double) |  | Minimum temperature value. |
 | minTemperatureUnits | [string](#string) |  | Units for minimum temperature value. |
 | maxTemperature | [double](#double) |  | Maximum temperature value. |
 | maxTemperatureUnits | [string](#string) |  | Units for maximum temperature value. |
 
 ### ThermalMapFile.ImageFile.ImageCoordinate
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3356,6 +3568,9 @@ Represents the thermal map files and their types for a Sherlock project.
 | imageW | [double](#double) |  | Width of the image. |
 
 ### ThermalMapFile.ImageFile.LegendCoordinate
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3365,6 +3580,9 @@ Represents the thermal map files and their types for a Sherlock project.
 | legendW | [double](#double) |  | Width of the legend. |
 
 ### ThermalMapFile.ImageFile.NodeCoordinate
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3372,8 +3590,9 @@ Represents the thermal map files and their types for a Sherlock project.
 | vertexY | [double](#double) |  | Y-coordinate of the node. |
 
 ### UpdateThermalMapRequest
-
+ 
 Request to update thermal map files to a Sherlock project.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3381,31 +3600,39 @@ Request to update thermal map files to a Sherlock project.
 | thermalMapFiles | [ThermalMapFile](#thermalmapfile) | repeated | Thermal Map files. |
 
 ### UpdateThermalMapsResponse
-
+ 
 Response from updating thermal map files.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 | errors | [string](#string) | repeated | List of validation errors. |
 
-### FileType
 
+### AddStrainMapRequest.StrainMapFile.FileType
+ 
+
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | CSV | 0 | Csv file. |
 | Excel | 1 | Excel file. |
 | Image | 2 | Image file. |
 
-### LegendOrientation
+### AddStrainMapRequest.StrainMapFile.StrainMapImageFile.LegendOrientation
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | Horizontal | 0 | Horizontal legend orientation. |
 | Vertical | 1 | Vertical legend orientation. |
 
-### FileType
+### ThermalMapFile.FileType
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | CSV | 0 | Csv file. |
@@ -3413,23 +3640,30 @@ Response from updating thermal map files.
 | Image | 2 | Image file. |
 | TMAP | 3 | Icepack file. |
 
-### LegendOrientation
+### ThermalMapFile.ImageFile.LegendOrientation
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | Horizontal | 0 | Horizontal legend orientation. |
 | Vertical | 1 | Vertical legend orientation. |
 
-### ThermalBoardSide
+### ThermalMapFile.ThermalBoardSide
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | Bottom | 0 | Bottom side of the board. |
 | Both | 1 | Both sides of the board. |
 | Top | 2 | Top side of the board. |
 
-### SherlockProjectService
 
+### SherlockProjectService
+ 
+
+ 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | genReport | [.GenReportRequest](#genreportrequest) | [.GenReportResponse](#genreportresponse) stream | Generates the project report and return it via streaming. |
@@ -3450,21 +3684,28 @@ Response from updating thermal map files.
 | exportProject | [.ExportProjectRequest](#exportprojectrequest) | [.ReturnCode](#returncode) | Exports project to a zipped archive file. |
 | createCCAFromModelingRegion | [.CreateCcaFromModelingRegionRequest](#createccafrommodelingregionrequest) | [.ReturnCode](#returncode) | Creates a CCA from a given modeling region |
 
+
 Back to [Top](#table-of-contents)
-
+ 
 ## SherlockService.proto
-
+ 
 Copyright 2020-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 The APIs in this service should only be used for Sherlock integration with Workbench.
 
 ### ClientMessage
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | clientMessage | [string](#string) |  | Incoming message from Workbench in bi-directional stream. |
 
 ### ExportRequest
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3472,9 +3713,12 @@ The APIs in this service should only be used for Sherlock integration with Workb
 | destGeometryFile | [string](#string) |  | Destination directory for exported geometry and materials. |
 | systemName | [string](#string) |  | gRPC system name. |
 | componentName | [string](#string) |  | gRPC component name. |
-| analysis | [ExportRequest.ExportAnalysis](#exportrequest.exportanalysis) |  | Type of analysis to export. |
+| analysis | [ExportRequest.ExportAnalysis](#exportrequestexportanalysis) |  | Type of analysis to export. |
 
 ### ExportTraceReinforcementRequest
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3484,8 +3728,14 @@ The APIs in this service should only be used for Sherlock integration with Workb
 | componentName | [string](#string) |  | gRPC component name. |
 
 ### GetCCARequest
+ 
+
+ 
 
 ### GetCCAResponse
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3493,29 +3743,38 @@ The APIs in this service should only be used for Sherlock integration with Workb
 | ccaNames | [string](#string) | repeated | List of CCA names for a specified project. |
 
 ### ImportRequest
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | resultFile | [string](#string) |  | Name of result file (.rst) to import. |
 | projectName | [string](#string) |  | Name of project associated with the result file. |
 | ccaName | [string](#string) |  | Name of CCA associated with the result file. |
-| analysis | [ImportRequest.ImportAnalysis](#importrequest.importanalysis) |  | Type of analysis result. |
+| analysis | [ImportRequest.ImportAnalysis](#importrequestimportanalysis) |  | Type of analysis result. |
 | modalResultFile | [string](#string) |  | File name of modal result. |
 | phaseName | [string](#string) |  | The life cycle phase of the event associated with the results file. |
 | eventName | [string](#string) |  | The life cycle event associated with the results file. |
-| modelTransform | [ImportRequest.ModelTransform](#importrequest.modeltransform) |  | Model transformation info associated with the results. |
-| analysisImports | [ImportRequest.AnalysisImport](#importrequest.analysisimport) | repeated | List of various analysis results to import and the associated files. |
+| modelTransform | [ImportRequest.ModelTransform](#importrequestmodeltransform) |  | Model transformation info associated with the results. |
+| analysisImports | [ImportRequest.AnalysisImport](#importrequestanalysisimport) | repeated | List of various analysis results to import and the associated files. |
 
 ### ImportRequest.AnalysisImport
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | ccaName | [string](#string) |  | Name of CCA. |
-| analysis | [ImportRequest.ImportAnalysis](#importrequest.importanalysis) |  | Type of analysis result. |
-| rsts | [ImportRequest.AnalysisImport.rst](#importrequest.analysisimport.rst) | repeated | List of results file to import. |
-| modelTransform | [ImportRequest.ModelTransform](#importrequest.modeltransform) |  | Model transformation info for the imported analysis results. |
+| analysis | [ImportRequest.ImportAnalysis](#importrequestimportanalysis) |  | Type of analysis result. |
+| rsts | [ImportRequest.AnalysisImport.rst](#importrequestanalysisimportrst) | repeated | List of results file to import. |
+| modelTransform | [ImportRequest.ModelTransform](#importrequestmodeltransform) |  | Model transformation info for the imported analysis results. |
 
 ### ImportRequest.AnalysisImport.rst
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3525,12 +3784,13 @@ The APIs in this service should only be used for Sherlock integration with Workb
 | eventName | [string](#string) |  | The life cycle event associated with the results file. |
 
 ### ImportRequest.ModelTransform
-
+ 
 Indicate the model transform detection to use.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| detectTransform | [ImportRequest.ModelTransform.DetectTransform](#importrequest.modeltransform.detecttransform) |  | Type of model transformation detection to use. |
+| detectTransform | [ImportRequest.ModelTransform.DetectTransform](#importrequestmodeltransformdetecttransform) |  | Type of model transformation detection to use. |
 | transformX | [double](#double) |  | Model translation applied in X direction. |
 | transformY | [double](#double) |  | Model translation applied in Y direction. |
 | transformZ | [double](#double) |  | Model translation applied in Z direction. |
@@ -3539,20 +3799,26 @@ Indicate the model transform detection to use.
 | transformRotZ | [double](#double) |  | Model rotation (in degrees) applied in Z direction. |
 
 ### OpenProjectRequest
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | directory | [string](#string) |  | Directory location of the project to open. |
 
 ### SaveProjectRequest
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | directory | [string](#string) |  | Directory location where the project is to be saved. |
 
 ### ServerMessage
-
-This is the message that is sent to Workbench whenever a relevant addition/update/deletion is made within Sherlock
+ 
+This is the message that is sent to Workbench whenever a relevant addition/update/deletion is made within Sherlock 
 that would affect the same project that is open in WB.
 
 Note that the enum Item refers to Workbench module terminology for the request changes.
@@ -3565,23 +3831,30 @@ be sent to Workbench with Item = Project.
 
 States are all inclusive based on the states that are recognized in Workbench.  Some of these may never need to be used
 in ServerMessage but the enum contains the complete set just in case they are needed in the future, i.e., if the granularity
-of the Sherlock changes become more finely-grained. For now we are using just the Modified state when constructing a
+of the Sherlock changes become more finely-grained. For now we are using just the Modified state when constructing a 
 ServerMessage and sending it to WB.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| newState | [ServerMessage.State](#servermessage.state) |  | The enum represents the states that are recognized in Workbench, inclusive. For now, Sherlock is just returning State.Modified. |
-| updatedItem | [ServerMessage.Item](#servermessage.item) |  | Represents the first module in Workbench that is affected by the Sherlock change. |
+| newState | [ServerMessage.State](#servermessagestate) |  | The enum represents the states that are recognized in Workbench, inclusive. For now, Sherlock is just returning State.Modified. |
+| updatedItem | [ServerMessage.Item](#servermessageitem) |  | Represents the first module in Workbench that is affected by the Sherlock change. |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
 
 ### SetWorkingDirRequest
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | directory | [string](#string) |  | Path to set as working directory location for Sherlock projects. |
 
-### ExportAnalysis
 
+### ExportRequest.ExportAnalysis
+ 
+
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | NF | 0 | Natural Frequency analysis type. |
@@ -3590,8 +3863,10 @@ ServerMessage and sending it to WB.
 | SH | 3 | Mechanical Shock analysis type.` |
 | RV | 4 | Random Vibe analysis type. |
 
-### ImportAnalysis
+### ImportRequest.ImportAnalysis
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | NaturalFreq | 0 | Natural Frequency result type. |
@@ -3600,24 +3875,30 @@ ServerMessage and sending it to WB.
 | MechanicalShock | 3 | Mechanical Shock result type. |
 | RandomVibe | 4 | Random Vibe result type. |
 
-### DetectTransform
+### ImportRequest.ModelTransform.DetectTransform
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | DISABLED | 0 | No model transformation is performed. |
 | ENABLED | 1 | Sherlock automatically detects the model transformation. |
 | MANUAL | 2 | User provides model transformation parameters. |
 
-### Item
+### ServerMessage.Item
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | Project | 0 | Project = WB/Mech Model Change. |
 | Setup | 1 | Setup = Sherlock Pre. |
 | LifePrediction | 2 | Life Prediction = Sherlock Post Change. |
 
-### State
+### ServerMessage.State
+ 
 
+ 
 | Name | Number | Description |
 | ---- | ------ | ----------- |
 | Disabled | 0 | Workbench state -- not currently used. |
@@ -3631,8 +3912,11 @@ ServerMessage and sending it to WB.
 | Unfulfilled | 8 | Workbench state -- not currently used. |
 | UpToDate | 9 | Workbench state -- not currently used. |
 
-### SherlockService
 
+### SherlockService
+ 
+
+ 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | openProject | [.OpenProjectRequest](#openprojectrequest) | [.ReturnCode](#returncode) | Opens specific Sherlock project given the full path. |
@@ -3645,15 +3929,17 @@ ServerMessage and sending it to WB.
 | setWorkingDir | [.SetWorkingDirRequest](#setworkingdirrequest) | [.ReturnCode](#returncode) | Set working directory. <br>In the case where there is not already a project loaded in Sherlock, this API sets the default project directory for any new project created.<br>In the case where there is already a project loaded in Sherlock, this API reloads the project from the new directory provided and refreshes the Sherlock UI. |
 | eventCommunication | [.ClientMessage](#clientmessage) stream | [.ServerMessage](#servermessage) stream | Bi-directional stream between Sherlock and Workbench that notifies Workbench of specific changes/updates made within <br>Sherlock that would affect the same project open in Workbench. |
 
+
 Back to [Top](#table-of-contents)
-
+ 
 ## SherlockStackupService.proto
-
+ 
 Copyright 2023-2024 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 ### GenStackupRequest
-
+ 
 Request to generate stackup layers for a CCA.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3674,8 +3960,9 @@ Request to generate stackup layers for a CCA.
 | powerLayerThicknessUnit | [string](#string) |  | Power layer thickness unit. |
 
 ### GetLayerCountRequest
-
+ 
 Request the number of layers in the stackup.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3683,8 +3970,9 @@ Request the number of layers in the stackup.
 | ccaName | [string](#string) |  | The CCA name. |
 
 ### GetLayerCountResponse
-
+ 
 Represents the number of layers in the stackup.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3692,8 +3980,9 @@ Represents the number of layers in the stackup.
 | count | [int32](#int32) |  | Number of stackup layers. |
 
 ### GetStackupPropsRequest
-
+ 
 Request a summary of the stackup properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3701,8 +3990,9 @@ Request a summary of the stackup properties.
 | ccaName | [string](#string) |  | The CCA name. |
 
 ### GetStackupPropsResponse
-
+ 
 Represents a summary of the stackup properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3717,8 +4007,9 @@ Represents a summary of the stackup properties.
 | ez | [string](#string) |  | Ez. |
 
 ### GetTotalConductorThicknessRequest
-
+ 
 Request the total thickness on all conductor layers in a stackup.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3727,8 +4018,9 @@ Request the total thickness on all conductor layers in a stackup.
 | thicknessUnit | [string](#string) |  | Conductor layer thickness unit. |
 
 ### GetTotalConductorThicknessResponse
-
+ 
 Represents the number of layers in the stackup.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3736,34 +4028,38 @@ Represents the number of layers in the stackup.
 | totalThickness | [double](#double) |  | Total thickness. |
 
 ### ListConductorLayersRequest
-
+ 
 Request for a list of conductor layers.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 
 ### ListConductorLayersResponse
-
+ 
 Represents the properties for all CCAs and their corresponding conductor layers.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| ccaConductorLayerProps | [ListConductorLayersResponse.CCAConductorLayerProp](#listconductorlayersresponse.ccaconductorlayerprop) | repeated | List of CCAs and their associated conductor layers for a specified project. |
+| ccaConductorLayerProps | [ListConductorLayersResponse.CCAConductorLayerProp](#listconductorlayersresponseccaconductorlayerprop) | repeated | List of CCAs and their associated conductor layers for a specified project. |
 
 ### ListConductorLayersResponse.CCAConductorLayerProp
-
+ 
 Represents a CCA and its conductor layers.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | ccaName | [string](#string) |  | The CCA name. |
-| conductorLayerProps | [ListConductorLayersResponse.CCAConductorLayerProp.ConductorLayerProp](#listconductorlayersresponse.ccaconductorlayerprop.conductorlayerprop) | repeated | List of conductor layers and their associated properties for a specified CCA. |
+| conductorLayerProps | [ListConductorLayersResponse.CCAConductorLayerProp.ConductorLayerProp](#listconductorlayersresponseccaconductorlayerpropconductorlayerprop) | repeated | List of conductor layers and their associated properties for a specified CCA. |
 
 ### ListConductorLayersResponse.CCAConductorLayerProp.ConductorLayerProp
-
+ 
 Represents a conductor layer and its properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3781,12 +4077,14 @@ Represents a conductor layer and its properties.
 | Ez | [double](#double) |  | Ez. |
 
 ### ListConductorMaterialsRequest
-
+ 
 Request to list valid conductor materials.
+ 
 
 ### ListConductorMaterialsResponse
-
+ 
 Represents a list of valid conductor materials.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3794,12 +4092,14 @@ Represents a list of valid conductor materials.
 | conductorMaterial | [string](#string) | repeated | Conductor material name. |
 
 ### ListConstructionStylesRequest
-
+ 
 Request to list valid construction styles.
+ 
 
 ### ListConstructionStylesResponse
-
+ 
 Represents a list of valid construction styles.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3807,12 +4107,14 @@ Represents a list of valid construction styles.
 | constructionStyle | [string](#string) | repeated | Construction style. |
 
 ### ListFiberMaterialsRequest
-
+ 
 Request to list valid fiber materials.
+ 
 
 ### ListFiberMaterialsResponse
-
+ 
 Represents a list of valid fiber materials.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3820,12 +4122,14 @@ Represents a list of valid fiber materials.
 | fiberMaterial | [string](#string) | repeated | Fiber material name. |
 
 ### ListLaminateMaterialsManufacturersRequest
-
+ 
 Request to list valid names of materials manufacturers.
+ 
 
 ### ListLaminateMaterialsManufacturersResponse
-
+ 
 Represents a list of valid names of materials manufacturers.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3833,33 +4137,39 @@ Represents a list of valid names of materials manufacturers.
 | manufacturer | [string](#string) | repeated | Manufacturer name. |
 
 ### ListLaminateMaterialsRequest
-
+ 
 Request to list materials from a given manufacturer.
 If manufacturer is empty, all manufacturers and their materials will be returned.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | manufacturer | [string](#string) |  | Manufacturer name. |
 
 ### ListLaminateMaterialsResponse
-
+ 
 Represents a list of materials from a given manufacturer.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| manufacturerMaterials | [ListLaminateMaterialsResponse.ManufacturerMaterials](#listlaminatematerialsresponse.manufacturermaterials) | repeated | List of manufacturers and their associated grades and materials. |
+| manufacturerMaterials | [ListLaminateMaterialsResponse.ManufacturerMaterials](#listlaminatematerialsresponsemanufacturermaterials) | repeated | List of manufacturers and their associated grades and materials. |
 
 ### ListLaminateMaterialsResponse.ManufacturerMaterials
+ 
+
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | manufacturer | [string](#string) |  | Manufacturer name. |
-| gradeMaterials | [ListLaminateMaterialsResponse.ManufacturerMaterials.GradeMaterials](#listlaminatematerialsresponse.manufacturermaterials.gradematerials) | repeated | List of Grades and their associated materials. |
+| gradeMaterials | [ListLaminateMaterialsResponse.ManufacturerMaterials.GradeMaterials](#listlaminatematerialsresponsemanufacturermaterialsgradematerials) | repeated | List of Grades and their associated materials. |
 
 ### ListLaminateMaterialsResponse.ManufacturerMaterials.GradeMaterials
-
+ 
 Represents a grade and the materials with this grade.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3867,12 +4177,14 @@ Represents a grade and the materials with this grade.
 | laminateMaterial | [string](#string) | repeated | Material name. |
 
 ### ListLaminateThicknessUnitsRequest
-
+ 
 Request to list valid laminate thickness units.
+ 
 
 ### ListLaminateThicknessUnitsResponse
-
+ 
 Represents a list of valid laminate thickness units.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3880,34 +4192,38 @@ Represents a list of valid laminate thickness units.
 | unit | [string](#string) | repeated | Thickness unit. |
 
 ### ListLaminatesRequest
-
+ 
 Request for a list of laminates.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | project | [string](#string) |  | Sherlock project name. |
 
 ### ListLaminatesResponse
-
+ 
 Represents the properties for all CCAs and their corresponding laminates.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | returnCode | [ReturnCode](#returncode) |  | Status code of response. |
-| ccaLaminateProps | [ListLaminatesResponse.CCALaminateProp](#listlaminatesresponse.ccalaminateprop) | repeated | List of CCAs and their corresponding laminate layers. |
+| ccaLaminateProps | [ListLaminatesResponse.CCALaminateProp](#listlaminatesresponseccalaminateprop) | repeated | List of CCAs and their corresponding laminate layers. |
 
 ### ListLaminatesResponse.CCALaminateProp
-
+ 
 Represents a CCA and its laminates.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | ccaName | [string](#string) |  | The CCA name. |
-| laminateProps | [ListLaminatesResponse.CCALaminateProp.LaminateProp](#listlaminatesresponse.ccalaminateprop.laminateprop) | repeated | List of laminate layers with associated properties for a specified CCA. |
+| laminateProps | [ListLaminatesResponse.CCALaminateProp.LaminateProp](#listlaminatesresponseccalaminateproplaminateprop) | repeated | List of laminate layers with associated properties for a specified CCA. |
 
 ### ListLaminatesResponse.CCALaminateProp.LaminateProp
-
+ 
 Represents a laminate layer and its properties.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3918,7 +4234,7 @@ Represents a laminate layer and its properties.
 | thickness | [double](#double) |  | Laminate thickness. |
 | thicknessUnit | [string](#string) |  | Laminate thickness unit. |
 | constructionStyle | [string](#string) |  | Construction style. |
-| glassConstructions | [ListLaminatesResponse.CCALaminateProp.LaminateProp.GlassConstruction](#listlaminatesresponse.ccalaminateprop.laminateprop.glassconstruction) | repeated | List of Glass Construction info for a laminate layer. |
+| glassConstructions | [ListLaminatesResponse.CCALaminateProp.LaminateProp.GlassConstruction](#listlaminatesresponseccalaminateproplaminatepropglassconstruction) | repeated | List of Glass Construction info for a laminate layer. |
 | fiberMaterial | [string](#string) |  | Fiber material if the construction style is glass. |
 | conductorMaterial | [string](#string) |  | Conductor material. |
 | conductorPercent | [string](#string) |  | Conductor percentage. |
@@ -3929,8 +4245,9 @@ Represents a laminate layer and its properties.
 | Ez | [double](#double) |  | Ez. |
 
 ### ListLaminatesResponse.CCALaminateProp.LaminateProp.GlassConstruction
-
+ 
 Represents the layers with a glass construction.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3940,10 +4257,11 @@ Represents the layers with a glass construction.
 | thicknessUnit | [string](#string) |  | Glass construction thickness unit. |
 
 ### UpdateConductorLayerRequest
-
+ 
 Represents the conductor layer properties requested to be updated.
 To update a thickness, a thickness unit must be provided.
 Any property left out or set to "" or 0.0 will not be updated.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3958,12 +4276,13 @@ Any property left out or set to "" or 0.0 will not be updated.
 | resinMaterial | [string](#string) |  | Resin material. |
 
 ### UpdateLaminateRequest
-
+ 
 Represents the laminate properties requested to be updated.
 To update the material, valid values must be provided for manufacturer, grade, and material.
 To update a thickness, a thickness unit must be provided.
 Glass construction should only be set when the construction style is not the "DEFAULT" value.
 Any property left out or set to "" or 0.0 will not be updated.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3976,14 +4295,15 @@ Any property left out or set to "" or 0.0 will not be updated.
 | thickness | [double](#double) |  | Laminate thickness. |
 | thicknessUnit | [string](#string) |  | Laminate thickness unit. |
 | constructionStyle | [string](#string) |  | Construction style. |
-| glassConstruction | [UpdateLaminateRequest.GlassConstruction](#updatelaminaterequest.glassconstruction) | repeated | List of Glass Construction info for a laminate layer. |
+| glassConstruction | [UpdateLaminateRequest.GlassConstruction](#updatelaminaterequestglassconstruction) | repeated | List of Glass Construction info for a laminate layer. |
 | fiberMaterial | [string](#string) |  | Fiber material. Only updated if glass construction is selected. |
 | conductorMaterial | [string](#string) |  | Conductor material. |
 | conductorPercent | [string](#string) |  | Conductor percentage. |
 
 ### UpdateLaminateRequest.GlassConstruction
-
+ 
 Represents the layers with a glass construction.
+ 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
@@ -3992,8 +4312,12 @@ Represents the layers with a glass construction.
 | thickness | [double](#double) |  | Glass construction thickness. |
 | thicknessUnit | [string](#string) |  | Glass construction thickness unit. |
 
-### SherlockStackupService
 
+
+### SherlockStackupService
+ 
+
+ 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | listLaminates | [.ListLaminatesRequest](#listlaminatesrequest) | [.ListLaminatesResponse](#listlaminatesresponse) | Returns a list of project's CCAs and their laminates. |
@@ -4012,7 +4336,7 @@ Represents the layers with a glass construction.
 | genStackup | [.GenStackupRequest](#genstackuprequest) | [.ReturnCode](#returncode) | Generate stackup layers. |
 
 ## Scalar Value Types
-
+ 
 | .proto Type | Notes | C++ | Java | Python | Go | C# | PHP | Ruby |
 | ----------- | ----- | --- | ---- | ------ | -- | -- | --- | ---- |
 | <div><h4 id="double" /></div><a name="double" /> double |  |  | double | double | float | float64 | double | float | Float |
@@ -4030,3 +4354,4 @@ Represents the layers with a glass construction.
 | <div><h4 id="bool" /></div><a name="bool" /> bool |  |  | bool | boolean | boolean | bool | bool | boolean | TrueClass/FalseClass |
 | <div><h4 id="string" /></div><a name="string" /> string |  | A string must always contain UTF-8 encoded or 7-bit ASCII text. | string | String | str/unicode | string | string | string | String (UTF-8) |
 | <div><h4 id="bytes" /></div><a name="bytes" /> bytes |  | May contain any arbitrary sequence of bytes. | string | ByteString | str | []byte | ByteString | string | String (ASCII-8BIT) |
+ 
