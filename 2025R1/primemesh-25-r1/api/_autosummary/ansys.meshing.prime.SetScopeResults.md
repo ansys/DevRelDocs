@@ -29,13 +29,15 @@ Results associated with the set scope operation.
 
 ### Methods
 
-| [`SetScopeResults.print_default`](ansys.meshing.prime.SetScopeResults.print_default.md#ansys.meshing.prime.SetScopeResults.print_default)()            | Print the default values of `SetScopeResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`SetScopeResults.print_default`](ansys.meshing.prime.SetScopeResults.print_default.md#ansys.meshing.prime.SetScopeResults.print_default)()            | Print the default values of `SetScopeResults` object.   |
 | [`SetScopeResults.set_default`](ansys.meshing.prime.SetScopeResults.set_default.md#ansys.meshing.prime.SetScopeResults.set_default)([error_code, ...]) | Set the default values of the `SetScopeResults` object. |
 
 ### Attributes
 
-| [`SetScopeResults.error_code`](ansys.meshing.prime.SetScopeResults.error_code.md#ansys.meshing.prime.SetScopeResults.error_code)       | Error code associated with the set scope.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| [`SetScopeResults.error_code`](ansys.meshing.prime.SetScopeResults.error_code.md#ansys.meshing.prime.SetScopeResults.error_code)       | Error code associated with the set scope.   |
 | [`SetScopeResults.warning_code`](ansys.meshing.prime.SetScopeResults.warning_code.md#ansys.meshing.prime.SetScopeResults.warning_code) | Warning code associated with the set scope. |
 <!-- vale on -->

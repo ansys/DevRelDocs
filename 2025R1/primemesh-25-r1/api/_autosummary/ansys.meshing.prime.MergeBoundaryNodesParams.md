@@ -32,14 +32,16 @@ Parameters used for the merge boundary nodes operation.
 
 ### Methods
 
-| [`MergeBoundaryNodesParams.print_default`](ansys.meshing.prime.MergeBoundaryNodesParams.print_default.md#ansys.meshing.prime.MergeBoundaryNodesParams.print_default)()   | Print the default values of `MergeBoundaryNodesParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`MergeBoundaryNodesParams.print_default`](ansys.meshing.prime.MergeBoundaryNodesParams.print_default.md#ansys.meshing.prime.MergeBoundaryNodesParams.print_default)()   | Print the default values of `MergeBoundaryNodesParams` object.   |
 | [`MergeBoundaryNodesParams.set_default`](ansys.meshing.prime.MergeBoundaryNodesParams.set_default.md#ansys.meshing.prime.MergeBoundaryNodesParams.set_default)([...])    | Set the default values of the `MergeBoundaryNodesParams` object. |
 
 ### Attributes
 
-| [`MergeBoundaryNodesParams.merge_node_type`](ansys.meshing.prime.MergeBoundaryNodesParams.merge_node_type.md#ansys.meshing.prime.MergeBoundaryNodesParams.merge_node_type)                      | Type of nodes to be merged.                                           |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`MergeBoundaryNodesParams.merge_node_type`](ansys.meshing.prime.MergeBoundaryNodesParams.merge_node_type.md#ansys.meshing.prime.MergeBoundaryNodesParams.merge_node_type)                      | Type of nodes to be merged.                                           |
 | [`MergeBoundaryNodesParams.tolerance`](ansys.meshing.prime.MergeBoundaryNodesParams.tolerance.md#ansys.meshing.prime.MergeBoundaryNodesParams.tolerance)                                        | Distance tolerance for merging boundary nodes.                        |
 | [`MergeBoundaryNodesParams.use_absolute_tolerance`](ansys.meshing.prime.MergeBoundaryNodesParams.use_absolute_tolerance.md#ansys.meshing.prime.MergeBoundaryNodesParams.use_absolute_tolerance) | Indicates whether the tolerance provided is an absolute value or not. |
 <!-- vale on -->

@@ -32,14 +32,16 @@ Results of surface quality summary.
 
 ### Methods
 
-| [`SurfaceQualitySummaryResults.print_default`](ansys.meshing.prime.SurfaceQualitySummaryResults.print_default.md#ansys.meshing.prime.SurfaceQualitySummaryResults.print_default)()   | Print the default values of `SurfaceQualitySummaryResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [`SurfaceQualitySummaryResults.print_default`](ansys.meshing.prime.SurfaceQualitySummaryResults.print_default.md#ansys.meshing.prime.SurfaceQualitySummaryResults.print_default)()   | Print the default values of `SurfaceQualitySummaryResults` object.   |
 | [`SurfaceQualitySummaryResults.set_default`](ansys.meshing.prime.SurfaceQualitySummaryResults.set_default.md#ansys.meshing.prime.SurfaceQualitySummaryResults.set_default)([...])    | Set the default values of the `SurfaceQualitySummaryResults` object. |
 
 ### Attributes
 
-| [`SurfaceQualitySummaryResults.error_code`](ansys.meshing.prime.SurfaceQualitySummaryResults.error_code.md#ansys.meshing.prime.SurfaceQualitySummaryResults.error_code)                | Error code associated with the surface quality summary.                           |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`SurfaceQualitySummaryResults.error_code`](ansys.meshing.prime.SurfaceQualitySummaryResults.error_code.md#ansys.meshing.prime.SurfaceQualitySummaryResults.error_code)                | Error code associated with the surface quality summary.                           |
 | [`SurfaceQualitySummaryResults.quality_results`](ansys.meshing.prime.SurfaceQualitySummaryResults.quality_results.md#ansys.meshing.prime.SurfaceQualitySummaryResults.quality_results) | Contains surface quality result per face quality measure specified in parameters. |
 | [`SurfaceQualitySummaryResults.summary`](ansys.meshing.prime.SurfaceQualitySummaryResults.summary.md#ansys.meshing.prime.SurfaceQualitySummaryResults.summary)                         | Surface quality summary text.                                                     |
 <!-- vale on -->

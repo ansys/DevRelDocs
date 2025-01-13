@@ -10,8 +10,9 @@ The type to identify strip of face elements as thin strips using shape formed by
 
 ### Methods
 
-| [`ThinStripType.conjugate`](ansys.meshing.prime.ThinStripType.conjugate.md#ansys.meshing.prime.ThinStripType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`ThinStripType.conjugate`](ansys.meshing.prime.ThinStripType.conjugate.md#ansys.meshing.prime.ThinStripType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`ThinStripType.bit_length`](ansys.meshing.prime.ThinStripType.bit_length.md#ansys.meshing.prime.ThinStripType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`ThinStripType.bit_count`](ansys.meshing.prime.ThinStripType.bit_count.md#ansys.meshing.prime.ThinStripType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`ThinStripType.to_bytes`](ansys.meshing.prime.ThinStripType.to_bytes.md#ansys.meshing.prime.ThinStripType.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ The type to identify strip of face elements as thin strips using shape formed by
 
 ### Attributes
 
-| [`ThinStripType.real`](ansys.meshing.prime.ThinStripType.real.md#ansys.meshing.prime.ThinStripType.real)                            | the real part of a complex number                    |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`ThinStripType.real`](ansys.meshing.prime.ThinStripType.real.md#ansys.meshing.prime.ThinStripType.real)                            | the real part of a complex number                    |
 | [`ThinStripType.imag`](ansys.meshing.prime.ThinStripType.imag.md#ansys.meshing.prime.ThinStripType.imag)                            | the imaginary part of a complex number               |
 | [`ThinStripType.numerator`](ansys.meshing.prime.ThinStripType.numerator.md#ansys.meshing.prime.ThinStripType.numerator)             | the numerator of a rational number in lowest terms   |
 | [`ThinStripType.denominator`](ansys.meshing.prime.ThinStripType.denominator.md#ansys.meshing.prime.ThinStripType.denominator)       | the denominator of a rational number in lowest terms |

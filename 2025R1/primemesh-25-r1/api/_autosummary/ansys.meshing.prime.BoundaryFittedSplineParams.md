@@ -56,14 +56,16 @@ Boundary fitted spline fitting parameters.
 
 ### Methods
 
-| [`BoundaryFittedSplineParams.print_default`](ansys.meshing.prime.BoundaryFittedSplineParams.print_default.md#ansys.meshing.prime.BoundaryFittedSplineParams.print_default)()   | Print the default values of `BoundaryFittedSplineParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [`BoundaryFittedSplineParams.print_default`](ansys.meshing.prime.BoundaryFittedSplineParams.print_default.md#ansys.meshing.prime.BoundaryFittedSplineParams.print_default)()   | Print the default values of `BoundaryFittedSplineParams` object.   |
 | [`BoundaryFittedSplineParams.set_default`](ansys.meshing.prime.BoundaryFittedSplineParams.set_default.md#ansys.meshing.prime.BoundaryFittedSplineParams.set_default)([...])    | Set the default values of the `BoundaryFittedSplineParams` object. |
 
 ### Attributes
 
-| [`BoundaryFittedSplineParams.control_point_selection_type`](ansys.meshing.prime.BoundaryFittedSplineParams.control_point_selection_type.md#ansys.meshing.prime.BoundaryFittedSplineParams.control_point_selection_type)   | Spline control points selection type.                                         |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| [`BoundaryFittedSplineParams.control_point_selection_type`](ansys.meshing.prime.BoundaryFittedSplineParams.control_point_selection_type.md#ansys.meshing.prime.BoundaryFittedSplineParams.control_point_selection_type)   | Spline control points selection type.                                         |
 | [`BoundaryFittedSplineParams.control_points_count_u`](ansys.meshing.prime.BoundaryFittedSplineParams.control_points_count_u.md#ansys.meshing.prime.BoundaryFittedSplineParams.control_points_count_u)                     | Spline control points count in U direction.                                   |
 | [`BoundaryFittedSplineParams.control_points_count_v`](ansys.meshing.prime.BoundaryFittedSplineParams.control_points_count_v.md#ansys.meshing.prime.BoundaryFittedSplineParams.control_points_count_v)                     | Spline control points count in V direction.                                   |
 | [`BoundaryFittedSplineParams.control_points_count_w`](ansys.meshing.prime.BoundaryFittedSplineParams.control_points_count_w.md#ansys.meshing.prime.BoundaryFittedSplineParams.control_points_count_w)                     | Spline control points count in W direction.                                   |

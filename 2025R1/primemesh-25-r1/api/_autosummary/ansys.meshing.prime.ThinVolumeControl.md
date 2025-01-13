@@ -25,16 +25,18 @@ ThinVolumeControl allows you to control generation of prisms in the thin space b
 
 ### Methods
 
-| [`ThinVolumeControl.set_source_scope`](ansys.meshing.prime.ThinVolumeControl.set_source_scope.md#ansys.meshing.prime.ThinVolumeControl.set_source_scope)(entities)                             | Sets the source surface scope of thin volume control.     |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [`ThinVolumeControl.set_source_scope`](ansys.meshing.prime.ThinVolumeControl.set_source_scope.md#ansys.meshing.prime.ThinVolumeControl.set_source_scope)(entities)                             | Sets the source surface scope of thin volume control.     |
 | [`ThinVolumeControl.set_target_scope`](ansys.meshing.prime.ThinVolumeControl.set_target_scope.md#ansys.meshing.prime.ThinVolumeControl.set_target_scope)(entities)                             | Sets the target surface scope of thin volume control.     |
 | [`ThinVolumeControl.set_thin_volume_mesh_params`](ansys.meshing.prime.ThinVolumeControl.set_thin_volume_mesh_params.md#ansys.meshing.prime.ThinVolumeControl.set_thin_volume_mesh_params)(...) | Sets thin volume mesh parameters for thin volume control. |
 | [`ThinVolumeControl.set_volume_scope`](ansys.meshing.prime.ThinVolumeControl.set_volume_scope.md#ansys.meshing.prime.ThinVolumeControl.set_volume_scope)(entities)                             | Sets the volume scope of thin volume control.             |
 
 ### Attributes
 
-| [`ThinVolumeControl.id`](ansys.meshing.prime.ThinVolumeControl.id.md#ansys.meshing.prime.ThinVolumeControl.id)       | Get the id of ThinVolumeControl.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| [`ThinVolumeControl.id`](ansys.meshing.prime.ThinVolumeControl.id.md#ansys.meshing.prime.ThinVolumeControl.id)       | Get the id of ThinVolumeControl.   |
 | [`ThinVolumeControl.name`](ansys.meshing.prime.ThinVolumeControl.name.md#ansys.meshing.prime.ThinVolumeControl.name) | Get the name of ThinVolumeControl. |
 
 <a id="examples-using-thinvolumecontrol"></a>

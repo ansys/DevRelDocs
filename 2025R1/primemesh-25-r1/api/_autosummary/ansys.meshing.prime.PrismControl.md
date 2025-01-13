@@ -25,8 +25,9 @@ PrismControl allows you to control generation of prisms. Controls include settin
 
 ### Methods
 
-| [`PrismControl.get_surface_scope`](ansys.meshing.prime.PrismControl.get_surface_scope.md#ansys.meshing.prime.PrismControl.get_surface_scope)()         | Gets the surface control scope.          |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| [`PrismControl.get_surface_scope`](ansys.meshing.prime.PrismControl.get_surface_scope.md#ansys.meshing.prime.PrismControl.get_surface_scope)()         | Gets the surface control scope.          |
 | [`PrismControl.get_volume_scope`](ansys.meshing.prime.PrismControl.get_volume_scope.md#ansys.meshing.prime.PrismControl.get_volume_scope)()            | Gets the volume control scope.           |
 | [`PrismControl.set_growth_params`](ansys.meshing.prime.PrismControl.set_growth_params.md#ansys.meshing.prime.PrismControl.set_growth_params)(...)      | Set growth parameters for prism control. |
 | [`PrismControl.set_surface_scope`](ansys.meshing.prime.PrismControl.set_surface_scope.md#ansys.meshing.prime.PrismControl.set_surface_scope)(entities) | Sets the surface control scope.          |
@@ -34,8 +35,9 @@ PrismControl allows you to control generation of prisms. Controls include settin
 
 ### Attributes
 
-| [`PrismControl.id`](ansys.meshing.prime.PrismControl.id.md#ansys.meshing.prime.PrismControl.id)       | Get the id of PrismControl.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------|-------------------------------|
+| [`PrismControl.id`](ansys.meshing.prime.PrismControl.id.md#ansys.meshing.prime.PrismControl.id)       | Get the id of PrismControl.   |
 | [`PrismControl.name`](ansys.meshing.prime.PrismControl.name.md#ansys.meshing.prime.PrismControl.name) | Get the name of PrismControl. |
 
 <a id="examples-using-prismcontrol"></a>

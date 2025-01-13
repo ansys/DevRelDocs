@@ -32,14 +32,16 @@ Parameters to use when subtracting zonelets.
 
 ### Methods
 
-| [`SubtractZoneletsParams.print_default`](ansys.meshing.prime.SubtractZoneletsParams.print_default.md#ansys.meshing.prime.SubtractZoneletsParams.print_default)()   | Print the default values of `SubtractZoneletsParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`SubtractZoneletsParams.print_default`](ansys.meshing.prime.SubtractZoneletsParams.print_default.md#ansys.meshing.prime.SubtractZoneletsParams.print_default)()   | Print the default values of `SubtractZoneletsParams` object.   |
 | [`SubtractZoneletsParams.set_default`](ansys.meshing.prime.SubtractZoneletsParams.set_default.md#ansys.meshing.prime.SubtractZoneletsParams.set_default)([...])    | Set the default values of the `SubtractZoneletsParams` object. |
 
 ### Attributes
 
-| [`SubtractZoneletsParams.extract_edges`](ansys.meshing.prime.SubtractZoneletsParams.extract_edges.md#ansys.meshing.prime.SubtractZoneletsParams.extract_edges)   | Extract edges of intersection during subtract.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [`SubtractZoneletsParams.extract_edges`](ansys.meshing.prime.SubtractZoneletsParams.extract_edges.md#ansys.meshing.prime.SubtractZoneletsParams.extract_edges)   | Extract edges of intersection during subtract.   |
 | [`SubtractZoneletsParams.retain_cutter`](ansys.meshing.prime.SubtractZoneletsParams.retain_cutter.md#ansys.meshing.prime.SubtractZoneletsParams.retain_cutter)   | Retain the zonelets used for removal.            |
 | [`SubtractZoneletsParams.trace_edges`](ansys.meshing.prime.SubtractZoneletsParams.trace_edges.md#ansys.meshing.prime.SubtractZoneletsParams.trace_edges)         | Trace edges of intersection on target.           |
 <!-- vale on -->

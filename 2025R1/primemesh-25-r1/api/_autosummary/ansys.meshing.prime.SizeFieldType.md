@@ -10,8 +10,9 @@ The type of sizing field to be used to fetch element size at given location.
 
 ### Methods
 
-| [`SizeFieldType.conjugate`](ansys.meshing.prime.SizeFieldType.conjugate.md#ansys.meshing.prime.SizeFieldType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`SizeFieldType.conjugate`](ansys.meshing.prime.SizeFieldType.conjugate.md#ansys.meshing.prime.SizeFieldType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`SizeFieldType.bit_length`](ansys.meshing.prime.SizeFieldType.bit_length.md#ansys.meshing.prime.SizeFieldType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`SizeFieldType.bit_count`](ansys.meshing.prime.SizeFieldType.bit_count.md#ansys.meshing.prime.SizeFieldType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`SizeFieldType.to_bytes`](ansys.meshing.prime.SizeFieldType.to_bytes.md#ansys.meshing.prime.SizeFieldType.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ The type of sizing field to be used to fetch element size at given location.
 
 ### Attributes
 
-| [`SizeFieldType.real`](ansys.meshing.prime.SizeFieldType.real.md#ansys.meshing.prime.SizeFieldType.real)                               | the real part of a complex number                                         |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| [`SizeFieldType.real`](ansys.meshing.prime.SizeFieldType.real.md#ansys.meshing.prime.SizeFieldType.real)                               | the real part of a complex number                                         |
 | [`SizeFieldType.imag`](ansys.meshing.prime.SizeFieldType.imag.md#ansys.meshing.prime.SizeFieldType.imag)                               | the imaginary part of a complex number                                    |
 | [`SizeFieldType.numerator`](ansys.meshing.prime.SizeFieldType.numerator.md#ansys.meshing.prime.SizeFieldType.numerator)                | the numerator of a rational number in lowest terms                        |
 | [`SizeFieldType.denominator`](ansys.meshing.prime.SizeFieldType.denominator.md#ansys.meshing.prime.SizeFieldType.denominator)          | the denominator of a rational number in lowest terms                      |

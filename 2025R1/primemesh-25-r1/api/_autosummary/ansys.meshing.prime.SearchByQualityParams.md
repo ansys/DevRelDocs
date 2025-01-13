@@ -29,13 +29,15 @@ Parameters to control search by quality results.
 
 ### Methods
 
-| [`SearchByQualityParams.print_default`](ansys.meshing.prime.SearchByQualityParams.print_default.md#ansys.meshing.prime.SearchByQualityParams.print_default)()   | Print the default values of `SearchByQualityParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`SearchByQualityParams.print_default`](ansys.meshing.prime.SearchByQualityParams.print_default.md#ansys.meshing.prime.SearchByQualityParams.print_default)()   | Print the default values of `SearchByQualityParams` object.   |
 | [`SearchByQualityParams.set_default`](ansys.meshing.prime.SearchByQualityParams.set_default.md#ansys.meshing.prime.SearchByQualityParams.set_default)([...])    | Set the default values of the `SearchByQualityParams` object. |
 
 ### Attributes
 
-| [`SearchByQualityParams.face_quality_measure`](ansys.meshing.prime.SearchByQualityParams.face_quality_measure.md#ansys.meshing.prime.SearchByQualityParams.face_quality_measure)   | Quality measure used for search face elements.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [`SearchByQualityParams.face_quality_measure`](ansys.meshing.prime.SearchByQualityParams.face_quality_measure.md#ansys.meshing.prime.SearchByQualityParams.face_quality_measure)   | Quality measure used for search face elements.   |
 | [`SearchByQualityParams.quality_limit`](ansys.meshing.prime.SearchByQualityParams.quality_limit.md#ansys.meshing.prime.SearchByQualityParams.quality_limit)                        | Quality limit used for search face elements.     |
 <!-- vale on -->

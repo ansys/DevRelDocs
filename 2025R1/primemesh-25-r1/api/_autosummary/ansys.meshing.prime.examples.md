@@ -1,7 +1,8 @@
 # ansys.meshing.prime.examples
 
-| [`download_block_model_fmd`](ansys.meshing.prime.examples.download_block_model_fmd.md#ansys.meshing.prime.examples.download_block_model_fmd)([destination, force])                                  | Download CAD file for the block model example.                      |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| [`download_block_model_fmd`](ansys.meshing.prime.examples.download_block_model_fmd.md#ansys.meshing.prime.examples.download_block_model_fmd)([destination, force])                                  | Download CAD file for the block model example.                      |
 | [`download_block_model_pmdat`](ansys.meshing.prime.examples.download_block_model_pmdat.md#ansys.meshing.prime.examples.download_block_model_pmdat)([destination, force])                            | Download PMDAT file for the block model example.                    |
 | [`download_block_model_scdoc`](ansys.meshing.prime.examples.download_block_model_scdoc.md#ansys.meshing.prime.examples.download_block_model_scdoc)([destination, force])                            | Download CAD file for the block model example.                      |
 | [`download_bracket_dsco`](ansys.meshing.prime.examples.download_bracket_dsco.md#ansys.meshing.prime.examples.download_bracket_dsco)([destination, force])                                           | Download the DSCO file for the bracket scaffold example.            |
@@ -44,6 +45,7 @@
 | [`download_wheel_ground_fmd`](ansys.meshing.prime.examples.download_wheel_ground_fmd.md#ansys.meshing.prime.examples.download_wheel_ground_fmd)([destination, force])                               | Download the FMD file for the wheel ground contact patch example.   |
 | [`download_wheel_ground_scdoc`](ansys.meshing.prime.examples.download_wheel_ground_scdoc.md#ansys.meshing.prime.examples.download_wheel_ground_scdoc)([destination, force])                         | Download the SCDOC file for the wheel ground contact patch example. |
 
-| [`DownloadManager`](ansys.meshing.prime.examples.DownloadManager.md#ansys.meshing.prime.examples.DownloadManager)(\*args, \*\*kwargs)   | Manages downloads of example files.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| [`DownloadManager`](ansys.meshing.prime.examples.DownloadManager.md#ansys.meshing.prime.examples.DownloadManager)(\*args, \*\*kwargs)   | Manages downloads of example files.   |
 <!-- vale on -->

@@ -29,13 +29,15 @@ Results associated with merge zonelets.
 
 ### Methods
 
-| [`MergeZoneletsResults.print_default`](ansys.meshing.prime.MergeZoneletsResults.print_default.md#ansys.meshing.prime.MergeZoneletsResults.print_default)()   | Print the default values of `MergeZoneletsResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`MergeZoneletsResults.print_default`](ansys.meshing.prime.MergeZoneletsResults.print_default.md#ansys.meshing.prime.MergeZoneletsResults.print_default)()   | Print the default values of `MergeZoneletsResults` object.   |
 | [`MergeZoneletsResults.set_default`](ansys.meshing.prime.MergeZoneletsResults.set_default.md#ansys.meshing.prime.MergeZoneletsResults.set_default)([...])    | Set the default values of the `MergeZoneletsResults` object. |
 
 ### Attributes
 
-| [`MergeZoneletsResults.error_code`](ansys.meshing.prime.MergeZoneletsResults.error_code.md#ansys.meshing.prime.MergeZoneletsResults.error_code)                | Error code associated with the failure of operation.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| [`MergeZoneletsResults.error_code`](ansys.meshing.prime.MergeZoneletsResults.error_code.md#ansys.meshing.prime.MergeZoneletsResults.error_code)                | Error code associated with the failure of operation.   |
 | [`MergeZoneletsResults.merged_zonelets`](ansys.meshing.prime.MergeZoneletsResults.merged_zonelets.md#ansys.meshing.prime.MergeZoneletsResults.merged_zonelets) | Ids of zonelets to which input zonelets are merged.    |
 <!-- vale on -->

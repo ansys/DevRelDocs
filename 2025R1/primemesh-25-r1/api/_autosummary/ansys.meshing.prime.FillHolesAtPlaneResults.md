@@ -38,14 +38,16 @@ Results associated with fill holes at given plane.
 
 ### Methods
 
-| [`FillHolesAtPlaneResults.print_default`](ansys.meshing.prime.FillHolesAtPlaneResults.print_default.md#ansys.meshing.prime.FillHolesAtPlaneResults.print_default)()   | Print the default values of `FillHolesAtPlaneResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| [`FillHolesAtPlaneResults.print_default`](ansys.meshing.prime.FillHolesAtPlaneResults.print_default.md#ansys.meshing.prime.FillHolesAtPlaneResults.print_default)()   | Print the default values of `FillHolesAtPlaneResults` object.   |
 | [`FillHolesAtPlaneResults.set_default`](ansys.meshing.prime.FillHolesAtPlaneResults.set_default.md#ansys.meshing.prime.FillHolesAtPlaneResults.set_default)([...])    | Set the default values of the `FillHolesAtPlaneResults` object. |
 
 ### Attributes
 
-| [`FillHolesAtPlaneResults.assigned_zone_name`](ansys.meshing.prime.FillHolesAtPlaneResults.assigned_zone_name.md#ansys.meshing.prime.FillHolesAtPlaneResults.assigned_zone_name)          | Name assigned to zone created.                       |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`FillHolesAtPlaneResults.assigned_zone_name`](ansys.meshing.prime.FillHolesAtPlaneResults.assigned_zone_name.md#ansys.meshing.prime.FillHolesAtPlaneResults.assigned_zone_name)          | Name assigned to zone created.                       |
 | [`FillHolesAtPlaneResults.created_face_zonelets`](ansys.meshing.prime.FillHolesAtPlaneResults.created_face_zonelets.md#ansys.meshing.prime.FillHolesAtPlaneResults.created_face_zonelets) | Ids of face zonelets created to fill the holes.      |
 | [`FillHolesAtPlaneResults.created_zone_id`](ansys.meshing.prime.FillHolesAtPlaneResults.created_zone_id.md#ansys.meshing.prime.FillHolesAtPlaneResults.created_zone_id)                   | Id assigned to zone created.                         |
 | [`FillHolesAtPlaneResults.error_code`](ansys.meshing.prime.FillHolesAtPlaneResults.error_code.md#ansys.meshing.prime.FillHolesAtPlaneResults.error_code)                                  | Error code associated with the failure of operation. |

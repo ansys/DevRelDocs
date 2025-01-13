@@ -29,14 +29,16 @@ Parameters to control part summary results.
 
 ### Methods
 
-| [`PartSummaryParams.print_default`](ansys.meshing.prime.PartSummaryParams.print_default.md#ansys.meshing.prime.PartSummaryParams.print_default)()          | Print the default values of `PartSummaryParams` object.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [`PartSummaryParams.print_default`](ansys.meshing.prime.PartSummaryParams.print_default.md#ansys.meshing.prime.PartSummaryParams.print_default)()          | Print the default values of `PartSummaryParams` object.   |
 | [`PartSummaryParams.set_default`](ansys.meshing.prime.PartSummaryParams.set_default.md#ansys.meshing.prime.PartSummaryParams.set_default)([print_id, ...]) | Set the default values of the `PartSummaryParams` object. |
 
 ### Attributes
 
-| [`PartSummaryParams.print_id`](ansys.meshing.prime.PartSummaryParams.print_id.md#ansys.meshing.prime.PartSummaryParams.print_id)       | Boolean to control print ids.              |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| [`PartSummaryParams.print_id`](ansys.meshing.prime.PartSummaryParams.print_id.md#ansys.meshing.prime.PartSummaryParams.print_id)       | Boolean to control print ids.              |
 | [`PartSummaryParams.print_mesh`](ansys.meshing.prime.PartSummaryParams.print_mesh.md#ansys.meshing.prime.PartSummaryParams.print_mesh) | Boolean to control print mesh information. |
 
 <a id="examples-using-partsummaryparams"></a>
