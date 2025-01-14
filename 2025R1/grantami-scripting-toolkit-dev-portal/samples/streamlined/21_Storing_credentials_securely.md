@@ -10,7 +10,7 @@ If the server running Granta MI is on the same domain as the machine running the
 
 The screenshot below shows what a typical Scheduled Task will look like when configured to run as a specific user. In this case, `python_user` is the user that the script will run as. Clicking **OK** will display a password prompt to store the password for that user.
 
-!["Create Task" options, with the task configured to run as "python_user", and "Run whether user is logged on or not" selected.](assets/21_create_task.png '"Create task" options')
+!["Create Task" options, with the task configured to run as "python_user", and "Run whether user is logged on or not" selected.](assets/21_create_task.png)
 
 #### Triggers
 
