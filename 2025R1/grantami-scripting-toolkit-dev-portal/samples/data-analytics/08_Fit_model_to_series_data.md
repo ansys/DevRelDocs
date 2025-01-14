@@ -98,7 +98,7 @@ Fetched attributes for 6 records at 296.1K
 The Ramberg-Osgood model expresses the total stress as a function of the strain, the Elastic Modulus and two model
 parameters, conventionally `K` and `n`:
 
-![Strain = Stress/Elastic Modulus + K\*(Stress/Elastic Modulus)\^n](assets/08_RambergOsgood.svg 'Ramberg-Osgood equation')
+![Strain = Stress/Elastic Modulus + K\*(Stress/Elastic Modulus)\^n](assets/08_RambergOsgood.svg)
 
 
 ```python

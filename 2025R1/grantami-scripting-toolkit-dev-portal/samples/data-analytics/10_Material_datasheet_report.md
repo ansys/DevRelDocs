@@ -139,7 +139,7 @@ concise code overall.
 
 A screenshot of the template is shown below:
 
-![The Word template header section, showing a company logo and tables with placeholder values.](assets/10_template-screenshot.png 'Word template')
+![The Word template header section, showing a company logo and tables with placeholder values.](assets/10_template-screenshot.png)
 
 ## 4. Add single-valued attributes to the report
 
@@ -218,7 +218,7 @@ Open the `report_header_only.docx` file to see the report template populated wit
 `DATASHEET_TITLE_ATTRIBUTE` attribute value. A screenshot of the report with the title added is
 shown below:
 
-![The header section of a Word document containing a populated title cell.](assets/10_report-screenshot-header-only.png 'Word report with header')
+![The header section of a Word document containing a populated title cell.](assets/10_report-screenshot-header-only.png)
 
 The report will not be saved to disk again until the report is complete. If you want to see the
 effects of individual operations on the report, use the ``report.save`` method to save the report
@@ -504,7 +504,7 @@ report.save("output/10_report.docx")
 
 A screenshot in Word is shown below (only the first page is shown):
 
-![The first page of a populated Word document showing a company logo, populated data tables, and a plot of thermal conductivity vs temperature.](assets/10_report-screenshot.png 'Word report')
+![The first page of a populated Word document showing a company logo, populated data tables, and a plot of thermal conductivity vs temperature.](assets/10_report-screenshot.png)
 
 ## Optional: Convert the file to PDF (not available in HTML documentation)
 
