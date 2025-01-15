@@ -7,8 +7,7 @@ using Sherlock's API features:
 
 To use Sherlock's APIs, you will need programming experience (gRPC supports
 over a dozen computer languages) and a familiarity with gRPC as well. If you
-are new to gRPC, [the official website](<https://grpc.io/docs/what-is->
-grpc/introduction/) provides a wealth of information to get you started: an
+are new to gRPC, [the official website](https://grpc.io/docs/what-is-grpc/introduction/) provides a wealth of information to get you started: an
 overview of gRPC, a quick-start option, tutorials, downloads, and complete
 instructions for each supported computer language.
 
@@ -29,10 +28,9 @@ hard drive when you installed the Ansys software (version 211 and later). You
 will find the files in the following location (the file path may vary if you
 installed your Ansys software in a nondefault location):
 
-Windows: `C:/Program Files/ANSYS Inc/v242/sherlock/grpc`
----
+Windows: `C:/Program Files/ANSYS Inc/v251/sherlock/grpc`
 
-Linux: `/ansys_inc/v242/sherlock/grpc`
+Linux: `/ansys_inc/v251/sherlock/grpc`
 
 The instructions from the gRPC website (see [the section called "Becoming Acquainted with gRPC"](index.md#sherlock_ug_becoming_acquainted_grpc "Becoming Acquainted with gRPC")) explains how to implement the `.proto`
 files. Currently, the `.proto` files included with Sherlock are:
@@ -60,27 +58,27 @@ the following:
 
   1. For Windows users, open your computer's command-line interface and enter the command below (you can copy and paste the text) and press Enter. This will change the active directory to the location of your Sherlock installation. If you installed your Ansys software in a non-default location, modify the command-line accordingly.
 
-     cd "C:\Program Files\ANSYS Inc\v242\sherlock"
+          cd "C:\Program Files\ANSYS Inc\251\sherlock"
 
-For Linux users, make sure you have updated all users' login startup files as
-described in Post-Installation Procedures for Sherlock in Ansys' _Linux
-Installation Guide_.
+  For Linux users, make sure you have updated all users' login startup files as described in **Post-Installation Procedures** for Sherlock in Ansys' **Linux Installation Guide**.
 
   2. Once you have changed directory (Windows), enter the command below. (In the examples shown, port 9090 is selected, but you may specify any of your computer's available communications ports.)
 
-Windows:
+      Windows:
 
+        ```console
         SherlockClient.exe -grpcPort=9090
+        ```
 
-Linux:
+      Linux:
 
+        ```console
         runSherlock -grpcPort=9090
+        ```
 
-**Tip**
+      **Tip**
 
-You can run API's in Sherlock without launching Sherlock's user interface. See
-the section below [the section called "Running API's without the Sherlock User Interface"](index.md#sherlock_ug_API_no_UI "Running API's without the
-Sherlock User Interface").
+      You can run API's in Sherlock without launching Sherlock's user interface. See the section below "Running API's without the Sherlock User Interface".
 
   3. If successful, Sherlock will launch and the Sherlock Client Console appears (Windows), confirming the gRPC server is running on port 9090 or whichever port you selected. For Linux users, the gRPC status appears in the terminal window.
 
@@ -102,7 +100,7 @@ option can be helpful if you wish, for example, to run a batch of analyses
 quickly.
 
 To suppress Sherlock's user interface, simply add **`-noGUI`** to the command
-line when launching Sherlock as described in [step 2 in the previous section](index.md#sherlock_ug_API_connect_step_2). For example:
+line when launching Sherlock as described in step 2 in the previous section. For example:
 
 Windows:
 
@@ -115,7 +113,7 @@ Linux:
 Although the console will not be displayed, Sherlock continues to write
 console logs to `AppData/Roaming/Sherlock/logs` (Windows) or the
 `.sherlock/logs` folder of the home directory (Linux). To exit Sherlock, use
-the [ExitRequest](ch01s04.md#sherlock_ug_ExitRequest "ExitRequest") API.
+the [ExitRequest](sherlock-reference.md#sherlockcommonserviceproto "ExitRequest") API.
 
 ## Pre-Generated Python Scripts
 
@@ -123,23 +121,22 @@ Starting with Sherlock 22.2, Python client-side scripts have been generated
 and included with the Sherlock installation. To begin using the scripts, do
 the following:
 
-  1. Verify the following software is installed on your computer:
+ 1. Verify the following software is installed on your computer:
 
-    1. **Python:** Ansys recommends Python version 3.6 or later. If you need to upgrade, download the latest version from [python.org/downloads](https://www.python.org/downloads/) and install according to the instructions on the website. 
+    **Python:** Ansys recommends Python version 3.6 or later. If you need to upgrade, download the latest version from [python.org/downloads](https://www.python.org/downloads/) and install according to the instructions on the website. 
 
-    2. **grpcio** and **grpcio-tools** (versions 1.39.0 or later) and **protobuf** (3.17.3 or later). Install them using the pip command in Python. In the Windows command prompt, enter the following:
+    **grpcio** and **grpcio-tools** (versions 1.39.0 or later) and **protobuf** (3.17.3 or later). Install them using the pip command in Python. In the Windows command prompt, enter the following:
 
-                pip install grpcio-tools
+    ```console
+    pip install grpcio-tools
+    ```
+    If you have them installed already, you can upgrade grpcio-tools and its dependencies using the following command in Python:
 
-If you have them installed already, you can upgrade grpcio-tools and its
-dependencies using the following command in Python:
-
-                pip install --upgrade --upgrade-strategy eager grpcio-tools
+        pip install --upgrade --upgrade-strategy eager grpcio-tools
 
   2. In Windows Environment Variables, add the file path to the Python scripts to the Path System variable. If your Ansys software is installed in the default location, the path to the scripts looks like this:
 
-`C:\Program Files\ANSYS Inc\v242\sherlock\grpc\python`
----
+      `C:\Program Files\ANSYS Inc\v251\sherlock\grpc\python`
 
 Each API documented in this chapter provides an example of its implementation
 in Python. [The API Index](index-to-sherlock-api.md "Index to the Sherlock APIs") gives an
