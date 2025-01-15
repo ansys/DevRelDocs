@@ -1,4 +1,4 @@
-# Database
+# Database classes
 
 <a id="compolyx.DB"></a>
 
@@ -6,7 +6,7 @@
 
 Class to represent the ComPoLyX database.
 
-Access:
+* **Access:**
 ```pycon
 >>> import compolyx
 >>> db = compolyx.DB()
@@ -31,7 +31,7 @@ Clear database.
 Function clears the eventually stored update results and deletes the generated data such as Production and Analysis Plies, Solid Models, etc.
 
 * **Parameters:**
-  - model: The ACP model to be cleared.
+  - **model**: The ACP model to be cleared.
 
 <a id="compolyx.DB.close"></a>
 
@@ -40,7 +40,7 @@ Function clears the eventually stored update results and deletes the generated d
 Close model.
 
 * **Parameters:**
-  - model: Model to close (optional). if no model is given, then all models are closed.
+  - **model**: Model to close (optional). If no model is given, then all models are closed.
 
 <a id="compolyx.DB.import_model"></a>
 
@@ -49,13 +49,19 @@ Close model.
 Create a model from file.
 
 * **Parameters:**
-  - name: Custom name of the model.
-  - path: Path to the data file.
-  - format: File format string. Valid options: `abaqus:inp`, `ansys:cdb`, `ansys:dat`, `nastran:bdf`, and `ansys:h5`.
-  - ignored_entities: Entities to ignore. Can be a subset of the following list: [`mesh`, `element_sets`, `materials`, `coordinate_systems`, `shell_sections`].
-  - convert_section_data: Whether to import and convert the shell section data into ACP composite definitions. Default is `False`.
-  - unit_system_type: Set the unit system of the model to this type. Ignored if a unit system was already defined in the data file.
-  - reference_surface_input_unit_system_type: Set the unit system of the reference surface if the unit system cannot be read from the input.
+  - **name**: Custom name of the model.
+  - **path**: Path to the data file.
+  - **format**: File format string. Options: 
+    - `abaqus:inp`
+    - `ansys:cdb`
+    - `ansys:dat`
+    - `nastran:bdf`
+    - `ansys:h5`
+  - **ignored_entities**: Entities to ignore. Can be a subset of the following list: 
+    - [`mesh`, `element_sets`, `materials`, `coordinate_systems`, `shell_sections`]
+  - **convert_section_data**: Whether to import and convert the shell section data into ACP composite definitions. Default is `False`.
+  - **unit_system_type**: Set the unit system of the model to this type. Ignored if a unit system was already defined in the data file.
+  - **reference_surface_input_unit_system_type**: Set the unit system of the reference surface if the unit system cannot be read from the input.
 
 <a id="compolyx.DB.material_data"></a>
 
@@ -75,9 +81,9 @@ Models.
 
 Open ACP file and append the model to models container.
 * **Parameters:**
-- path: Path to ACP file.
-- replace_mesh_kwargs: Optional keyword arguments to replace the mesh to load in db.import_model(…) upfront.
-- replace_workbench_inputs: Optional dictionary with Workbench application inputs to replace before executing the .acp file.
+  - **path**: Path to ACP file.
+  - **replace_mesh_kwargs**: Optional keyword arguments to replace the mesh to load in db.import_model(…) upfront.
+  - **replace_workbench_inputs**: Optional dictionary with Workbench application inputs to replace before executing the .acp file.
 
 <a id="compolyx.DB.open_h5"></a>
 
@@ -86,9 +92,9 @@ Open ACP file and append the model to models container.
 Load a model from an .acph5 database.
 
 * **Parameters:**
-  - path: The .acph5 file path.
-  - cache_data: Boolean on whether to load the update results.
-  - apply_shared_commands: Boolean to specify whether to load the Python commands from the ACP shared section of the .acph5 file.
+  - **path**: The .acph5 file path.
+  - **cache_data**: Boolean on whether to load the update results.
+  - **apply_shared_commands**: Boolean to specify whether to load the Python commands from the ACP shared section of the .acph5 file.
 
 <a id="compolyx.DB.refresh_acph5"></a>
 
@@ -97,18 +103,20 @@ Load a model from an .acph5 database.
 Refresh an .acph5 database (Workbench application mode only).
 
 * **Parameters:**
-  - path: File path to the .acph5 file.
-  - external_sources: Nested dict provided by the ACP Workbench application add-in containing all the external source’s information (the file path, whether the source was modified, its ID, etc.).
-      - The dict keys are: [‘model’, ‘materials’, ‘cad_geometries’, ‘imported_solid_models’, ‘pre_db’, ‘solutions’].
-        - Values for ‘model’ and ‘materials’ are dicts with the following fields [‘path’, ‘external_id’, ‘modified’].
-        - Values for ‘cad_geometries’, ‘imported_solid_models’ and ‘pre_db’ are list of dicts with fields [‘name’, ‘path’, ‘external_id’, ‘modified’].
-        - Values for ‘solutions’ are dicts with fields  [‘name’, ‘path’, ‘external_id’, ‘modified’, ‘renumbering_mapping_paths’] where
+  - **path**: File path to the .acph5 file.
+  - **external_sources**: Nested dict provided by the ACP Workbench application add-in containing all the external source’s information (the file path, whether the source was modified, its ID, etc.). The dict keys are: 
+    - [`model`, `materials`, `cad_geometries`, `imported_solid_models`, `pre_db`, `solutions`]
+        - Values for `model` and `materials` are dicts with the following fields:
+          - [`path`, `external_id`, `modified`]
+        - Values for `cad_geometries`, `imported_solid_models` and `pre_db` are list of dicts with fields: 
+          - [`name`, `path`, `external_id`, `modified`]
+        - Values for `solutions` are dicts with fields:
+          - [`name`, `path`, `external_id`, `modified`, `renumbering_mapping_paths`] where
       renumbering_mapping_paths is a list of file paths.
-  - input_parameters: A dict of pairs (name, value) of the Workbench application input parameters.
-  - initialize: Specifies whether the .acph5 database needs to be initialized (for example if the file does not
-    : yet exist).
-  - unit_system_type: Defines the unit system of the main/downstream ACP file.
-  - upgrade_from: Defines the path of a legacy (.acp) ACP database that has to be upgrade to the new format (load composite definitions and save as .acph5).
+  - **input_parameters**: A dict of pairs (`name`, `value`) of the Workbench application input parameters.
+  - **initialize**: Specifies whether the .acph5 database needs to be initialized (for example if the file does not yet exist).
+  - **unit_system_type**: Defines the unit system of the main/downstream ACP file.
+  - **upgrade_from**: Defines the path of a legacy (.acp) ACP database that has to be upgrade to the new format (load composite definitions and save as .acph5).
 
 <a id="compolyx.DB.reload"></a>
 
@@ -117,7 +125,7 @@ Refresh an .acph5 database (Workbench application mode only).
 Reloads the reference surface (mesh) of the model. For more details, see reload_mesh in the model.
 
 * **Parameters:**
-  -model: The model to be reloaded.
+  - **model**: The model to be reloaded.
 
 <a id="compolyx.DB.save"></a>
 
@@ -126,9 +134,9 @@ Reloads the reference surface (mesh) of the model. For more details, see reload_
 Save active model.
 
 * **Parameters:**
-  - path: File path.
-  - model: Active model.
-  - cache_data: Whether to store the update results.
+  - **path**: File path.
+  - **model**: Active model.
+  - **cache_data**: Whether to store the update results.
 
 <a id="compolyx.DB.set_unit_system"></a>
 
