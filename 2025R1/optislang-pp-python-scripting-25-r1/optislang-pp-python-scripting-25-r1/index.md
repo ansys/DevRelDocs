@@ -1,0 +1,3 @@
+# Introduction
+
+optiSLang postprocessing incorporates Python scripting for flexible generation and configuration of result data monitoring. This includes customizable default generation scripts for various postprocessing purposes as well as a Python console and customizable shortcut buttons for executing Python commands during the postprocessing. Examples for Python scripting can be found [here]( https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v251/en/opti_tut/opti_tut_examples.html ).
