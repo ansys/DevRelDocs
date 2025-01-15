@@ -1,6 +1,6 @@
-# Postprocessing Python Scripting
+# Postprocessing python scripting
 
-## Postprocessing Generation
+## Postprocessing generation
 
  When you open a postprocessing database file (`*.omdb`, `*.bin`), a suitable default generation script is deduced using the type of result data and is then called to generate and configure the postprocessing. 
 
@@ -55,7 +55,7 @@ control_container.add_control (
 
 This example call adds the anthill visual to the postprocessing, using the specified position and size relative to the size of the postprocessing main window and sets the visibility to *true*.
 
-## Python Console
+## Python console
 
 You can access the Python console by selecting **View** > **Dock Widgets** > **Python console**. It is used to execute Python commands that access and configure global attributes like design selection or styling, as well as attributes of individual postprocessing visuals like visibility and positioning. Python commands can be executed by either typing or pasting Python code into the text field and pressing **Enter** or selecting **Execute** or **Execute script file** from the multi-selection button. You can also create shortcuts in the monitoring toolbar for your custom Python scripts.
 
@@ -74,7 +74,7 @@ The following functionality can be customized using Python scripting:
 - Animate surrogate model approximations
 - Access to monitoring data (designs, parameters, surrogate models)
 
-## Custom Script Directories
+## Custom script directories
 
 You can define custom directories for your Python scripts. Scripts inside either your custom or the default scripting directories are displayed as shortcuts in the toolbar and as an entry in the menu of the script type. Currently, there are two different types of scripts:
 
@@ -102,7 +102,7 @@ custom-command-script-directory
 custom-execute-script-directory
 ```
 
-## Custom Python Script Configuration
+## Custom python script configuration
 
 The monitoring Python scripts are displayed in a drop-down list in the toolbar and in a sub-menu of the **File** menu by default. You can define a configuration file in JSON format to change its displayed name and to create a separate button in the toolbar for it. 
 
@@ -120,7 +120,7 @@ An example of how to configure a script named `my_custom_script.py`:
 }
 ```
 
-## Python Scripting for Text Import
+## Python scripting for text import
 
 Running the following Python code in the Python console adds a **Postprocessing** node to the **Scenery** pane with the *Settings file* and *Non interactive mode* settings configured.
 
