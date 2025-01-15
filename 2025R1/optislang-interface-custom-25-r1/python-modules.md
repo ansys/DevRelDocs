@@ -1,4 +1,4 @@
-# Python modules
+# Python Modules
 
 ## Modules
 
