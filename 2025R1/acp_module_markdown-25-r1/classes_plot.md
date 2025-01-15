@@ -19,7 +19,7 @@
 Copy a plot object.
 
 * **Parameters:**
-  - source: Plot object to be copied.
+  - **source**: Plot object to be copied.
 * **Returns:**
   Object of the plot duplicate.
 
@@ -47,14 +47,18 @@ Container for layup plots.
 Create an angle plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - scope_entire_model: If `True`, then the scope of this plot is the entire model. If not, then set to `False` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_on_section_cuts: Whether to show the results on the surface section cuts as well. Default is `True`.
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **scope_entire_model**: If `True`, then the scope of this plot is the entire model. If not, then set to `False` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_on_section_cuts**: Whether to show the results on the surface section cuts as well. Default is `True`.
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
 * **Returns:**
   The plot object.
 
@@ -72,8 +76,8 @@ Create an angle plot object.
 Create a draping plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
 * **Returns:**
   The plot object.
 
@@ -91,11 +95,14 @@ Create a draping plot object.
 Create a field definition plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - scope_entire_model: If `True`, then the scope of this plot is the entire model. If not, then set to `False` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, and Modeling Ply.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **scope_entire_model**: If `True`, then the scope of this plot is the entire model. If not, then set to `False` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
 * **Returns:**
   The plot object.
 
@@ -113,14 +120,15 @@ Create a field definition plot object.
 Create a layup mapping plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid option(s): Imported Solid Model.
-  - ply_wise: `True` or `False` (default). Decides whether to return the thickness of the individual plies or of the whole stack of plies present at an element.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - component: Specifies the active component.
-  - show_on_solids: Whether to show the values of the solid element.
-  - active: Whether the plot is active.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Option(s): 
+    - Imported Solid Model
+  - **ply_wise**: `True` or `False` (default). Decides whether to return the thickness of the individual plies or of the whole stack of plies present at an element.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **component**: Specifies the active component.
+  - **show_on_solids**: Whether to show the values of the solid element.
+  - **active**: Whether the plot is active.
 * **Returns:**
   The plot object.
 
@@ -138,16 +146,20 @@ Create a layup mapping plot object.
 Create a material plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `True`, then the scope of this plot is the entire model. If not, then set to `False` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
-  - component: Specifies the component.
-  - use_all_available_fields: `True` (default) or `False`. Whether to enable all available field variables in the evaluation.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `True`, then the scope of this plot is the entire model. If not, then set to `False` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
+  - **component**: Specifies the component.
+  - **use_all_available_fields**: `True` (default) or `False`. Whether to enable all available field variables in the evaluation.
 * **Returns:**
   The plot object.
 
@@ -165,14 +177,18 @@ Create a material plot object.
 Create a field plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - scope_entire_model: If `True`, then the scope of this plot is the entire model. If not, then set to `False` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - ply_wise: `True` or `False` (default). Decides whether to return the field values of the individual plies or of the whole stack of plies present at an element.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **scope_entire_model**: If `True`, then the scope of this plot is the entire model. If not, then set to `False` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point.
+  - **ply_wise**: `True` or `False` (default). Decides whether to return the field values of the individual plies or of the whole stack of plies present at an element.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
 * **Returns:**
   The plot object.
 
@@ -183,15 +199,19 @@ Create a field plot object.
 Create a thickness plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - ply_wise: `True` or `False` (default). Decides whether to return the thickness of the individual plies or of the whole stack of plies present at an element.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
-  - component: Specifies the component.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options:
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **ply_wise**: `True` or `False` (default). Decides whether to return the thickness of the individual plies or of the whole stack of plies present at an element.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
+  - **component**: Specifies the component.
 * **Returns:**
   The plot object.
 
@@ -209,21 +229,28 @@ Create a thickness plot object.
 Create a user-defined plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - user_data: Retrieve or provide the user data, which must obey the order of the `user_element_indices` or `user_element_labels`, respectively.
-  - user_text: Access to the user-defined text of the plot. Empty strings can be inserted when no labels are to be shown for certain elements.
-  - user_script: The body of the script to be executed on update if `user_script_enabled` = `True`.
-  - user_script_enabled: Boolean that controls if a custom script is run on update.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_user_text: `True` or `False` (default). Whether to show the text, which the user provided.
-  - text_threshold_type: Threshold can be set using the text_threshold property. Valid options: `show_all` (default), `show_only_values_above_threshold`, and `show_only_values_below_threshold`. 
-  - text_threshold: Threshold used for showing text if `text_threshold_type` is not `show_all`.
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **user_data**: Retrieve or provide the user data, which must obey the order of the `user_element_indices` or `user_element_labels`, respectively.
+  - **user_text**: Access to the user-defined text of the plot. Empty strings can be inserted when no labels are to be shown for certain elements.
+  - **user_script**: The body of the script to be executed on update if **user_script_enabled** = `True`.
+  - **user_script_enabled**: Boolean that controls if a custom script is run on update.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_user_text**: `True` or `False` (default). Whether to show the text, which the user provided.
+  - **text_threshold_type**: Threshold can be set using the **text_threshold** property. Options: 
+    - `show_all` (default)
+    - `show_only_values_above_threshold`
+    - `show_only_values_below_threshold` 
+  - **text_threshold**: Threshold used for showing text if **text_threshold_type** is not `show_all`.
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
 * **Returns:**
   The plot object.
 
@@ -251,14 +278,18 @@ Container for postprocessing plots.
 Create a deformation plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - component: `x`, `y`, `z`, `rotx`, `roty`, `rotz`, or `usum`.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - solution_set: Selection of the solution set.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **component**: `x`, `y`, `z`, `rotx`, `roty`, `rotz`, or `usum`.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **solution_set**: Selection of the solution set.
 * **Returns:**
   The plot object.
 
@@ -276,23 +307,27 @@ Create a deformation plot object.
 Create a failure criterion plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - component: `irf`, `mos`, or `rf`, which are Inverse Reserve Factor, Margin of Safety, and Reserve Factor.
-  - ply_wise: `True` or `False` (default). Decides whether to evaluate for individual plies or pick the most critical ply per element.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_critical_failure_mode: `True` (default) or `False`. Whether to show the text, which indicates the mode of failure.
-  - show_critical_layer: `True` or `False` (default). Whether to show the text, which indicates the number of the failing ply (only if `ply_wise` = `False`).
-  - show_critical_load_case: `True` or `False` (default). Whether to show the text, which indicates the load case for which failure is predicted (only for Envelope Solutions).
-  - text_threshold: Threshold value above/below which text for an element is hidden. This helps to declutter the text plot.
-  - text_threshold_auto: `True` (default) or `False`. If True, suggested text_thersold values are used.
-  - failure_criteria_definition: Object of the failure criterion definition to be used for this plot.
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
-  - solution_set: Selection of the solution set.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **component**: `irf`, `mos`, or `rf`, which are Inverse Reserve Factor, Margin of Safety, and Reserve Factor.
+  - **ply_wise**: `True` or `False` (default). Decides whether to evaluate for individual plies or pick the most critical ply per element.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_critical_failure_mode**: `True` (default) or `False`. Whether to show the text, which indicates the mode of failure.
+  - **show_critical_layer**: `True` or `False` (default). Whether to show the text, which indicates the number of the failing ply (only if **ply_wise** = `False`).
+  - **show_critical_load_case**: `True` or `False` (default). Whether to show the text, which indicates the load case for which failure is predicted (only for Envelope Solutions).
+  - **text_threshold**: Threshold value above/below which text for an element is hidden. This helps to declutter the text plot.
+  - **text_threshold_auto**: `True` (default) or `False`. If True, suggested text_thersold values are used.
+  - **failure_criteria_definition**: Object of the failure criterion definition to be used for this plot.
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
+  - **solution_set**: Selection of the solution set.
 * **Returns:**
   The plot object.
 
@@ -310,17 +345,21 @@ Create a failure criterion plot object.
 Create a material plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
-  - component: Specifies the component.
-  - use_all_available_fields: `True` (default) or `False`. Whether to enable all available field variables in the evaluation.
-  - solution_set: Selection of the solution set.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
+  - **component**: Specifies the component.
+  - **use_all_available_fields**: `True` (default) or `False`. Whether to enable all available field variables in the evaluation.
+  - **solution_set**: Selection of the solution set.
 * **Returns:**
   The plot object.
 
@@ -331,18 +370,28 @@ Create a material plot object.
 Create a progressive damage plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - component: `state` (damage status), `fc` (fiber compressive damage), `ft` (fiber tension damage), `mc` (matrix compressive damage), `mt` (matrix tension damage), or `s` (shear damage).
-  - spot: `bot`, `top`, or `mid` (only if `ply_wise` = `True`).
-  - ply_wise: `True` (default) or `False`. Decides whether to evaluate for individual plies or return the result of the finite element.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
-  - solution_set: Selection of the solution set.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **component**: Options:
+    - `state` (damage status)
+    - `fc` (fiber compressive damage)
+    - `ft` (fiber tension damage)
+    - `mc` (matrix compressive damage)
+    - `mt` (matrix tension damage)
+    - `s` (shear damage)
+  - **spot**: `bot`, `top`, or `mid` (only if **ply_wise** = `True`).
+  - **ply_wise**: `True` (default) or `False`. Decides whether to evaluate for individual plies or return the result of the finite element.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
+  - **solution_set**: Selection of the solution set.
 * **Returns:**
   The plot object.
 
@@ -360,18 +409,31 @@ Create a progressive damage plot object.
 Create a strain plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - component: `e1`, `e2`, `e3`, `e12`, `e23`, `e13`, `eI`, `eII`, or `eIII`.
-  - spot: `bot`, `top`, or `mid` (only if `ply_wise` = `True`).
-  - ply_wise: `True` (default) or `False`. Decides whether to evaluate for individual plies or return the result of the finite element.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
-  - solution_set: Selection of the solution set.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **component**: Options:
+    - `e1`
+    - `e2`
+    - `e3`
+    - `e12`
+    - `e23`
+    - `e13`
+    - `eI`
+    - `eII`
+    - `eIII`
+  - **spot**: `bot`, `top`, or `mid` (only if **ply_wise** = `True`).
+  - **ply_wise**: `True` (default) or `False`. Decides whether to evaluate for individual plies or return the result of the finite element.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
+  - **solution_set**: Selection of the solution set.
 * **Returns:**
   The plot object.
 
@@ -389,18 +451,31 @@ Create a strain plot object.
 Create a sress plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - component: `s1`, `s2`, `s3`, `s12`, `s23`, `s13`, `sI`, `sII`, or `sIII`.
-  - spot: `bot`, `top`, or `mid` (only if `ply_wise` = `True`).
-  - ply_wise: `True` (default) or `False`. Decides whether to evaluate for individual plies or return the result of the finite element.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
-  - solution_set: Selection of the solution set.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **component**: Options:
+    - `s1`
+    - `s2`
+    - `s3`
+    - `s12`
+    - `s23`
+    - `s13`
+    - `sI`
+    - `sII`
+    - `sIII`
+  - **spot**: `bot`, `top`, or `mid` (only if **ply_wise** = `True`).
+  - **ply_wise**: `True` (default) or `False`. Decides whether to evaluate for individual plies or return the result of the finite element.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
+  - **solution_set**: Selection of the solution set.
 * **Returns:**
   The plot object.
 
@@ -418,14 +493,18 @@ Create a sress plot object.
 Create a temperature plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - spot: `bot`, `top`, or `mid` (only if `ply_wise` = `True`).
-  - ply_wise: `True` (default) or `False`. Decides whether to evaluate for individual plies or return the result of the finite element.
-  - solution_set: Selection of the solution set.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **spot**: `bot`, `top`, or `mid` (only if **ply_wise** = `True`).
+  - **ply_wise**: `True` (default) or `False`. Decides whether to evaluate for individual plies or return the result of the finite element.
+  - **solution_set**: Selection of the solution set.
 * **Returns:**
   The plot object.
 
@@ -443,22 +522,29 @@ Create a temperature plot with Data Scope set to Element Set `All_Elements` with
 Create a user-defined plot object.
 
 * **Parameters:**
-  - name: Name of the plot.
-  - id: ID for the plot.
-  - active: Whether the plot is active.
-  - scope_entire_model: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the data_scope to specify a subscope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Valid options: Element Set, Oriented Selection Set, Modeling Ply, and Sampling Point.
-  - user_data: Retrieve or provide the user data, which must obey the order of the `user_element_indices` or `user_element_labels`, respectively.
-  - user_text: Access to the user-defined text of the plot. Empty strings can be inserted when no labels are to be shown for certain elements.
-  - user_script: The body of the script to be executed on update if `user_script_enabled` = `True`.
-  - user_script_enabled: Boolean that controls if a custom script is run on update.
-  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
-  - show_user_text: `True` or `False` (default). Whether to show the text, which the user provided.
-  - text_threshold_type: Threshold can be set using the `text_threshold` property. Valid options: `show_all` (default), `show_only_values_above_threshold`, and `show_only_values_below_threshold`. 
-  - text_threshold: Threshold used for showing text if text_threshold_type is not “show_all”
-  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if `show_ply_offsets` = `True`.
-  - solution_set: Selection of the solution set.
+  - **name**: Name of the plot.
+  - **id**: ID for the plot.
+  - **active**: Whether the plot is active.
+  - **scope_entire_model**: If `true`, then the scope of this plot is the entire model. If not, then set to `false` and use the **data_scope** to specify a subscope.
+  - **data_scope**: Object(s) defining the scope for which data is computed and returned. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Sampling Point
+  - **user_data**: Retrieve or provide the user data, which must use the order of the `user_element_indices` or `user_element_labels`, respectively.
+  - **user_text**: Access to the user-defined text of the plot. Empty strings can be inserted when no labels are to be shown for certain elements.
+  - **user_script**: The body of the script to be executed on update if **user_script_enabled** = `True`.
+  - **user_script_enabled**: Boolean that controls if a custom script is run on update.
+  - **show_on_solids**: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - **show_user_text**: `True` or `False` (default). Whether to show the text, which the user provided.
+  - **text_threshold_type**: Threshold can be set using the **text_threshold** property. Options: 
+    - `show_all` (default)
+    - `show_only_values_above_threshold`
+    - `show_only_values_below_threshold` 
+  - **text_threshold**: Threshold used for showing text if **text_threshold_type** is not `show_all`
+  - **show_ply_offsets**: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - **ply_offset_scale_factor**: Scale factor for the offsets of the visualized plies if **show_ply_offsets** = `True`.
+  - **solution_set**: Selection of the solution set.
 * **Returns:**
   The plot object.
 
@@ -500,7 +586,13 @@ Returns a dictionary containing display data for this plot owned by the active s
 Add one entity to the data scope of a plot.
 
 * **Parameters:**
-  - entity: Entity to be added. Valid options: Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point.
+  - **entity**: Entity to be added. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Production Ply
+    - Analysis Ply
+    - Sampling Point
 
 **Example:**
  Add the Element Set `My_ESet` to a my_plot:
@@ -576,8 +668,8 @@ The finite element position at which the results are given, such as centroid or 
 Get data of plot.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope.
-  - selected: Selected object(s) for ply-wise evaluations.
+  - **visible**: Object(s) defining visible scope.
+  - **selected**: Selected object(s) for ply-wise evaluations.
 * **Returns:**
   Resulting n-dimensional array with plot data for each selected object.
   The scope of the data is evaluated identically as for get_element_xx functions as the intersection of:
@@ -616,8 +708,8 @@ normal get_data(…) method.
 Get element indices (ACP internal element numbers starting from 0) of plot.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope.
-  - selected: Selected object(s) for ply-wise evaluations.
+  - **visible**: Object(s) defining visible scope.
+  - **selected**: Selected object(s) for ply-wise evaluations.
 * **Returns:**
   Resulting array with element indices from the intersection of:
   - data_scope of plot
@@ -647,8 +739,8 @@ Indices are returned independent of update status of plot, but only if results f
 Get element labels (element numbers as read from/written to mesh files)  of plot.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope.
-  - selected: Selected object(s) for ply-wise evaluations.
+  - **visible**: Object(s) defining visible scope.
+  - **selected**: Selected object(s) for ply-wise evaluations.
 * **Returns:**
   Resulting array with element labels from the intersection of:
   - data_scope of plot
@@ -714,7 +806,13 @@ Whether to plot ply-wise or element-wise.
 Remove one entity to the data scope of a plot.
 
 * **Parameters:**
-  - entity: Entity to be removed. Valid options: Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point.
+  - **entity**: Entity to be removed. Options: 
+    - Element Set
+    - Oriented Selection Set
+    - Modeling Ply
+    - Production Ply
+    - Analysis Ply
+    - Sampling Point
 
 **Example:**
  Remove the Element Set `My_ESet` from my_plot:
@@ -800,8 +898,8 @@ Bases: [`PlotData`](#compolyx.plot_data.PlotData)
 Get the offset between plies and reference surface.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope.
-  - selected: Selected object(s) for ply-wise evaluations.
+  - **visible**: Object(s) defining visible scope.
+  - **selected**: Selected object(s) for ply-wise evaluations.
 * **Returns:**
   Resulting n-dimensional array of arrays with the ply-offset vectors for each node within the object/ply-selection:
   [
@@ -1093,7 +1191,10 @@ Threshold above/below which user text is hidden.
 
 #### *property* text_threshold_type
 
-Threshold can be set using the text_threshold property. Valid options: `show_all` (default), `show_only_values_above_threshold`, and `show_only_values_below_threshold`.
+Threshold can be set using the text_threshold property. Options: 
+- `show_all` (default)
+- `show_only_values_above_threshold`
+- `show_only_values_below_threshold`
 
 <a id="compolyx.plot_data.UserDefinedData.user_data"></a>
 
@@ -1190,9 +1291,9 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 Get text data of failure plot.
 
 * **Parameters:**
-  - visible: Object(s) defining visible scope.
-  - selected: Selected object(s) for ply-wise evaluations.
-  - str_results: Whether to return failure modes as strings (default) or enums.
+  - **visible**: Object(s) defining visible scope.
+  - **selected**: Selected object(s) for ply-wise evaluations.
+  - **str_results**: Whether to return failure modes as strings (default) or enums.
 * **Returns:**
   Resulting n-dimensional array with a dict with data for each selected object/ply:
   [
@@ -1201,9 +1302,9 @@ Get text data of failure plot.
   …
   ]
   Possible keys:
-  - fm: Failure Mode (enum)
-  - li:  Layer index
-  - lc: Load case (for envelope solutions only)
+  - `fm`: Failure Mode (enum)
+  - `li`:  Layer index
+  - `lc`: Load case (for envelope solutions only)
 
   The scope of the data is evaluated identically as for get_element_xxx functions as the intersection of:
   - data_scope of plot

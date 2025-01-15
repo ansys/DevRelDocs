@@ -31,9 +31,21 @@ Serialize to Python string.
 ### *class* compolyx.MaxStressCriterion(s1=1, s2=1, s3=0, s12=1, s13=0, s23=0, wf_s1=1.0, wf_s2=1.0, wf_s3=1.0, wf_s12=1.0, wf_s13=1.0, wf_s23=1.0)
 
 Max stress failure criterion configuration.
-Properties are s1, s2, s3, s12, s13, s23, wf_s1, wf_s2, wf_s3, wf_s12, wf_s13, and wf_s23.
+* **Properties:**
+    - s1
+    - s2
+    - s3
+    - s12
+    - s13
+    - s23
+    - wf_s1
+    - wf_s2
+    - wf_s3
+    - wf_s12
+    - wf_s13
+    - wf_s23
 
-Example: MaxStressCriterion(s1=1, s2=1, s3=0, s12=1, s13=0, s23=0, wf_s1=1, wf_s2=1, wf_s3=1, wf_s12=1, wf_s13=1, wf_s23=1)
+* **Example:** MaxStressCriterion(s1=1, s2=1, s3=0, s12=1, s13=0, s23=0, wf_s1=1, wf_s2=1, wf_s3=1, wf_s12=1, wf_s13=1, wf_s23=1)
 
 <a id="compolyx.MaxStressCriterion.s1"></a>
 
