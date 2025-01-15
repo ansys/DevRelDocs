@@ -1,4 +1,4 @@
-# Python Modules
+# Python modules
 
 ## Modules
 
@@ -10,7 +10,7 @@ help(PyNOA)
 ```
 A list of available classes and functions is displayed in the Python console.
 
-### Data types 
+### Data types
 
 |Python Module | Description |
 | ------------ | ----------- |
@@ -95,7 +95,7 @@ The actor class is the base class for all of the following nodes and systems. Yo
 - [VariableActor](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v251/en/opti_ug/opti_ug_overview_types.html)
 - [VariantMonitoringActor](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v251/en/opti_ug/opti_ug_overview_monitoring.html)
 
-### Sequencing Systems
+### Sequencing systems
 
 For a detailed list of available methods see `help(SequencingSystem)`.
 - [ParametricSystemActor](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v251/en/opti_ug/opti_ug_parametric_system.html) - This actor class is the base of all algorithm actors (systems). Parameter, criteria, results, start designs, and designs are managed here. 
