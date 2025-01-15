@@ -83,10 +83,10 @@ Projection method: `parallel` or `perspective`.
 Create a snapshot of the scene.
 
 * **Parameters:**
-  - path: File path.
-  - width: Width in pixels of the snapshot.
-  - height: Height in pixels of the snapshot.
-  - draw_background: Boolean for whether to draw the background. If `False`, the background is white.
+  - **path**: File path.
+  - **width**: Width in pixels of the snapshot.
+  - **height**: Height in pixels of the snapshot.
+  - **draw_background**: Boolean for whether to draw the background. If `False`, the background is white.
 
 <a id="compolyx.Scene.scale_factor"></a>
 
@@ -147,10 +147,10 @@ Scene title.
 #### update_direction_display_data(entities)
 
 Function syncronizes the following direction plots with the added/removed entities given:
-- “orientations”
-- “ref_directions”
-- “fiber_directions”
-- “draped_fiber_directions”
+- `orientations`
+- `ref_directions`
+- `fiber_directions`
+- `draped_fiber_directions`
 
 <a id="compolyx.Scene.uptodate"></a>
 
@@ -174,7 +174,7 @@ Apply a view to the scene.
 
 ComPoLyX class to capture view properties.
 
-Access:
+* **Access:**
 ```pycon
 >>> import compolyx
 >>> db = compolyx.DB()

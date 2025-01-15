@@ -61,12 +61,23 @@ Whether this object is currently enabled. Mainly defined through the current app
 Exports the shell results of the selected entities to a .csv file.
 
 * **Parameters:**
-  - definitions: Selected definition. Can be either a CombinedFailure Criteria object or one of the following strings: `deformations`, `strains`, or `stresses`.
-  - entities: Defines the selection for the export. Valid options: `ElementSets`, `AnalysisPlies`, and `SolidModels`.
-  - file_path: File name.
-  - solution_set: Solution set for which data is requested.
-  - solids: Boolean whether to take the results of the solid elements. Default is `False` (results of shells).
-  - spots: Layer positions for which the results are exported. Valid options: `bot`, `mid`, `top`, `bot/top`, and `all`.
+  - **definitions**: Selected definition. Can be either a CombinedFailure Criteria object or one of the following strings: 
+    - `deformations`
+    - `strains`
+    - `stresses`
+  - **entities**: Defines the selection for the export. Options: 
+    - `ElementSets`
+    - `AnalysisPlies`
+    - `SolidModels`
+  - **file_path**: File name.
+  - **solution_set**: Solution set for which data is requested.
+  - **solids**: Boolean whether to take the results of the solid elements. Default is `False` (results of shells).
+  - **spots**: Layer positions for which the results are exported. Options:
+    - `bot`
+    - `mid`
+    - `top`
+    - `bot/top`
+    - `all`
 
 Export results of solid models: Select the element set which is selected in the extrusion settings.
 
@@ -86,7 +97,10 @@ ID of corresponding solution in external solution (ComponentID).
 
 #### *property* format
 
-File format string. Valid options: `abaqus:inp`, `ansys:cdb`, and `nastran:f06`.
+File format string. Options: 
+- `abaqus:inp`
+- `ansys:cdb`
+- `nastran:f06`
 
 <a id="compolyx.Solution.has_element_temperatures"></a>
 
@@ -110,7 +124,7 @@ Load result data from file.
 
 #### *property* load_factor
 
-Optional load factor within substep of non-linear solution where the nodal solution should be taken from. Only valid for `nastran:f06` format.  Becomes (False,0) if not defined.
+Optional load factor within substep of non-linear solution where the nodal solution should be taken from. Only supported for `nastran:f06` format.  Becomes (False,0) if not defined.
 
 <a id="compolyx.Solution.path"></a>
 
@@ -137,19 +151,33 @@ Container with postprocessing plots.
 Query results from the solution.
 
 * **Parameters:**
-  - definition: The postprocessing definition defines what results are evaluated. Can be given as a
+  - **definition**: The postprocessing definition defines what results are evaluated. Can be given as a
     CombinedFailureCriteria object or one of the following strings:
-    `strains`, `stresses`, `laminate_forces`, `deformations`, `temperatures`, or `progressive_damage`.
-  - options: Dict with the additional options used to fully configure the definition.
+      - `strains`
+      - `stresses`
+      - `laminate_forces`
+      - `deformations`
+      - `temperatures`
+      - `progressive_damage`
+  - **options**: Dict with the additional options used to fully configure the definition.
     - stresses: options={“eval_ins”:True} to enable the interlaminar normal stress evaluation for shells.
-  - position: Position from where data is queried. Valid options: `nodal`, `centroid`, `element_nodal`, `integration_point`, and `element_results`.
-  - selection: The selection set determines the selected nodes and elements.
-    Can be given as string (‘sel0’-‘sel5’ or ‘all’)
-    or ObjectSelection object such as model.selection or scene.active_set.
-  - entity: Entity for which results are evaluated. Currently supported for analysis ply and analysis ply vertex.
-  - entities: If a list of entities is given, the query will also compute and return a list of results, with one array for each entity.
-  - spot: Used to identify bot, mid, or top when querying layered shells.
-  - component: Components to query. Valid components for:
+  - **position**: Position from where data is queried. Options: 
+    - `nodal`
+    - `centroid`
+    - `element_nodal`
+    - `integration_point`
+    - `element_results`
+  - **selection**: The selection set determines the selected nodes and elements. Can be given as a string or an ObjectSelection object.
+    - String values:
+      - `sel0` - `sel5`
+      - `all`
+    - ObjectSelection objects:
+      - `model.selection`
+      - `scene.active_set`
+  - **entity**: Entity for which results are evaluated. Currently supported for analysis ply and analysis ply vertex.
+  - **entities**: If a list of entities is given, the query will also compute and return a list of results, with one array for each entity.
+  - **spot**: Used to identify bot, mid, or top when querying layered shells.
+  - **component**: Components to query. Components for:
     - DEFORMATION
       - x, y, z, usum, rotx, roty, rotz -> (nx1)
       - all -> (nx6), translations, rotations -> (nx3)
@@ -169,10 +197,10 @@ Query results from the solution.
       - status (damage status), ft, fc (fiber tensile/compressive) ->(nx1)
       - mt, mc (matrix tensile/compressive), s (shear) ->(nx1)
       - sed (energy dissipated per unit volume), sedv (energy per unit volume due to viscous damping) ->(nx1)
-  - rosette: If a rosette is given, then the results are evaluated with respect to this coordinate system (not recommended for nonlinear results).
-  - simulate: Whether the query is only simulated to test if it will return data.
+  - **rosette**: If a rosette is given, then the results are evaluated with respect to this coordinate system (not recommended for nonlinear results).
+  - **simulate**: Whether the query is only simulated to test if it will return data.
     If this flag is set the query(…) function will only return 0 or 1.
-  - solution_set: Identifier of the queried solutiom where -1 identifies the last available set.
+  - **solution_set**: Identifier of the queried solutiom where -1 identifies the last available set.
 * **Usage:**
   ```pycon
   >>> solution.query(definition='laminate_forces',position='centroid',selection='sel0',component='all',rosette=model.rosetttes['Rosette.1'],solution_set=-1)
@@ -184,7 +212,7 @@ Query results from the solution.
 
 #### *property* read_stresses_strains
 
-`True` if the stresses and strains are to be read from .rst file. Only valid for `ansys:rst` format.
+`True` if the stresses and strains are to be read from .rst file. Only supported for `ansys:rst` format.
 
 <a id="compolyx.Solution.recompute_iss_of_solids"></a>
 
@@ -208,7 +236,7 @@ Serialize to Python string.
 
 #### *property* set
 
-Result set to be read. Only valid for `ansys:rst` format.
+Result set to be read. Only supported for `ansys:rst` format.
 
 <a id="compolyx.Solution.solution_dict"></a>
 
@@ -220,7 +248,7 @@ The time or frequency dictionary used in the solution plots GUI.
 
 #### *property* subcase
 
-Optional subcase to read. Only valid for `nastran:f06` format. Becomes (False,0) if not defined.
+Optional subcase to read. Only supported for `nastran:f06` format. Becomes (False,0) if not defined.
 
 <a id="compolyx.Solution.time_or_frequency"></a>
 
@@ -255,8 +283,8 @@ Allows to visualize the postprocessing results of layered solid models on the La
 Add solution set to solution sets of envelope solution.
 
 * **Parameters:**
-  - solution: Solution object.
-  - sset: Solution set (default: `-1`).
+  - **solution**: Solution object.
+  - **sset**: Solution set (default: `-1`).
 
 <a id="compolyx.EnvelopeSolution.clear_solution_sets"></a>
 
@@ -277,5 +305,5 @@ Whether this object is currently enabled. Mainly defined through the current app
 Remove solution set from solution sets of envelope solution.
 
 * **Parameters:**
-  - solution: Solution object.
-  - sset: Solution set (default: ‘-1’).
+  - **solution**: Solution object.
+  - **sset**: Solution set (default: ‘-1’).
