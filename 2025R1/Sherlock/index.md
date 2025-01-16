@@ -18,7 +18,7 @@ Node, Objective-C, PHP, Python, Ruby, or Web.
 
 **Note** 
 Python client-side scripts have been generated and are included with your
-Sherlock installation. To use them, see the section *Pre-Generated Python Scripts* in [Getting Started](#getting-started.md).
+Sherlock installation. To use them, see the section *Pre-Generated Python Scripts* in [Getting started](./getting-started.md).
 
 **Note** 
 In some cases, after a Sherlock API gRPC request is sent, a response is
