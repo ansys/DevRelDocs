@@ -7,6 +7,7 @@
 Generate constant size control on a scope.
 
 * **Parameters:**
+
   **control_name**
   : Name of the control.
 

@@ -7,6 +7,7 @@
 Set the default values of the `GlobalSizingParams` object.
 
 * **Parameters:**
+
   **min: float, optional**
   : Minimum value of global sizing parameters.
 

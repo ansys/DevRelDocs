@@ -7,6 +7,7 @@
 Parameters to control the volume subtract operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `SubtractVolumesParams` object with default parameters.
 
@@ -34,16 +35,14 @@ Parameters to control the volume subtract operation.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`SubtractVolumesParams.print_default`](ansys.meshing.prime.SubtractVolumesParams.print_default.md#ansys.meshing.prime.SubtractVolumesParams.print_default)()   | Print the default values of `SubtractVolumesParams` object.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`SubtractVolumesParams.set_default`](ansys.meshing.prime.SubtractVolumesParams.set_default.md#ansys.meshing.prime.SubtractVolumesParams.set_default)([...])    | Set the default values of the `SubtractVolumesParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`SubtractVolumesParams.check_cutters`](ansys.meshing.prime.SubtractVolumesParams.check_cutters.md#ansys.meshing.prime.SubtractVolumesParams.check_cutters)                      | Option to manage intersecting cutter volumes.                                                           |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`SubtractVolumesParams.ignore_face_zonelets`](ansys.meshing.prime.SubtractVolumesParams.ignore_face_zonelets.md#ansys.meshing.prime.SubtractVolumesParams.ignore_face_zonelets) | Face zonelet ids that subtract volumes should not remove (for example, periodic or fluid cap zonelets). |
 | [`SubtractVolumesParams.keep_cutters`](ansys.meshing.prime.SubtractVolumesParams.keep_cutters.md#ansys.meshing.prime.SubtractVolumesParams.keep_cutters)                         | Option to retain cutter volumes.                                                                        |
 <!-- vale on -->

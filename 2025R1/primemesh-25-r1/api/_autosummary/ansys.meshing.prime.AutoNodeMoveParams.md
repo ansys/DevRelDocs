@@ -7,6 +7,7 @@
 Parameters used to improve volume mesh by auto node move.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `AutoNodeMoveParams` object with default parameters.
 
@@ -41,16 +42,14 @@ Parameters used to improve volume mesh by auto node move.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [`AutoNodeMoveParams.print_default`](ansys.meshing.prime.AutoNodeMoveParams.print_default.md#ansys.meshing.prime.AutoNodeMoveParams.print_default)()   | Print the default values of `AutoNodeMoveParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [`AutoNodeMoveParams.set_default`](ansys.meshing.prime.AutoNodeMoveParams.set_default.md#ansys.meshing.prime.AutoNodeMoveParams.set_default)([...])    | Set the default values of the `AutoNodeMoveParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [`AutoNodeMoveParams.dihedral_angle`](ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle.md#ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle)                                                                      | Dihedral angle used to mantain features of boundary face zonelets.                                                         |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [`AutoNodeMoveParams.n_attempts`](ansys.meshing.prime.AutoNodeMoveParams.n_attempts.md#ansys.meshing.prime.AutoNodeMoveParams.n_attempts)                                                                                  | Number of attempts to improve specified quality measure by node movement.                                                  |
 | [`AutoNodeMoveParams.n_iterations_per_node`](ansys.meshing.prime.AutoNodeMoveParams.n_iterations_per_node.md#ansys.meshing.prime.AutoNodeMoveParams.n_iterations_per_node)                                                 | Number of iterations per node to be moved.                                                                                 |
 | [`AutoNodeMoveParams.quality_measure`](ansys.meshing.prime.AutoNodeMoveParams.quality_measure.md#ansys.meshing.prime.AutoNodeMoveParams.quality_measure)                                                                   | Specify cell quality measure to be used for volume mesh improvement.                                                       |

@@ -7,6 +7,7 @@
 Set the default values of the `MergeVolumesParams` object.
 
 * **Parameters:**
+
   **merge_to_neighbor_volume: bool, optional**
   : Option to merge given volumes to their neighbor volume.
 

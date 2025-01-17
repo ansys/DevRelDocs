@@ -7,6 +7,7 @@
 Get the TopoData for the model.
 
 * **Returns:**
+
   [`TopoData`](ansys.meshing.prime.TopoData.md#ansys.meshing.prime.TopoData)
   : TopoData for the model.
 

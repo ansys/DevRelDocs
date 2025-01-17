@@ -7,6 +7,7 @@
 Set the default values of the `ExportMapdlCdbResults` object.
 
 * **Parameters:**
+
   **summary_log: str, optional**
   : Summary log for the export operation in json format.
 

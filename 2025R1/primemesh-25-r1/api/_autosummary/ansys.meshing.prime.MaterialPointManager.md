@@ -7,6 +7,7 @@
 Provide functions for material point creation, deletion and queries.
 
 * **Parameters:**
+
   **model**
   : Server model to create MaterialPointManager object.
 
@@ -23,15 +24,13 @@ Provide functions for material point creation, deletion and queries.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`MaterialPointManager.create_material_point`](ansys.meshing.prime.MaterialPointManager.create_material_point.md#ansys.meshing.prime.MaterialPointManager.create_material_point)(...)   | Creates a material point at the given coordinates.     |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`MaterialPointManager.delete_material_point`](ansys.meshing.prime.MaterialPointManager.delete_material_point.md#ansys.meshing.prime.MaterialPointManager.delete_material_point)(name)  | Deletes material point identified with the given name. |
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [`MaterialPointManager.id`](ansys.meshing.prime.MaterialPointManager.id.md#ansys.meshing.prime.MaterialPointManager.id)       | Get the id of MaterialPointManager.   |
+|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | [`MaterialPointManager.name`](ansys.meshing.prime.MaterialPointManager.name.md#ansys.meshing.prime.MaterialPointManager.name) | Get the name of MaterialPointManager. |
 <!-- vale on -->

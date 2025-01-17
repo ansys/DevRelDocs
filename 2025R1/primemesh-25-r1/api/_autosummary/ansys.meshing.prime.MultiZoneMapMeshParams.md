@@ -7,6 +7,7 @@
 Define controlling parameters for the map mesh using MultiZone.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `MultiZoneMapMeshParams` object with default parameters.
 
@@ -28,14 +29,12 @@ Define controlling parameters for the map mesh using MultiZone.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | [`MultiZoneMapMeshParams.print_default`](ansys.meshing.prime.MultiZoneMapMeshParams.print_default.md#ansys.meshing.prime.MultiZoneMapMeshParams.print_default)()   | Print the default values of `MultiZoneMapMeshParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | [`MultiZoneMapMeshParams.set_default`](ansys.meshing.prime.MultiZoneMapMeshParams.set_default.md#ansys.meshing.prime.MultiZoneMapMeshParams.set_default)([scope])  | Set the default values of the `MultiZoneMapMeshParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
 | [`MultiZoneMapMeshParams.scope`](ansys.meshing.prime.MultiZoneMapMeshParams.scope.md#ansys.meshing.prime.MultiZoneMapMeshParams.scope)   | Scope used for MultiZone map mesh control.   |
+|------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
 <!-- vale on -->

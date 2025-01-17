@@ -7,6 +7,7 @@
 Set the default values of the `BoundingBox` object.
 
 * **Parameters:**
+
   **xmin: float, optional**
   : Minimal X coordinate of the bounding box.
 

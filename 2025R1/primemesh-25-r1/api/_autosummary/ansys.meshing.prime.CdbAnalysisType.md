@@ -10,9 +10,8 @@ Provides the MAPDL CDB analysis type.
 
 ### Methods
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CdbAnalysisType.conjugate`](ansys.meshing.prime.CdbAnalysisType.conjugate.md#ansys.meshing.prime.CdbAnalysisType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CdbAnalysisType.bit_length`](ansys.meshing.prime.CdbAnalysisType.bit_length.md#ansys.meshing.prime.CdbAnalysisType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`CdbAnalysisType.bit_count`](ansys.meshing.prime.CdbAnalysisType.bit_count.md#ansys.meshing.prime.CdbAnalysisType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`CdbAnalysisType.to_bytes`](ansys.meshing.prime.CdbAnalysisType.to_bytes.md#ansys.meshing.prime.CdbAnalysisType.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ Provides the MAPDL CDB analysis type.
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`CdbAnalysisType.real`](ansys.meshing.prime.CdbAnalysisType.real.md#ansys.meshing.prime.CdbAnalysisType.real)                                              | the real part of a complex number                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`CdbAnalysisType.imag`](ansys.meshing.prime.CdbAnalysisType.imag.md#ansys.meshing.prime.CdbAnalysisType.imag)                                              | the imaginary part of a complex number                       |
 | [`CdbAnalysisType.numerator`](ansys.meshing.prime.CdbAnalysisType.numerator.md#ansys.meshing.prime.CdbAnalysisType.numerator)                               | the numerator of a rational number in lowest terms           |
 | [`CdbAnalysisType.denominator`](ansys.meshing.prime.CdbAnalysisType.denominator.md#ansys.meshing.prime.CdbAnalysisType.denominator)                         | the denominator of a rational number in lowest terms         |

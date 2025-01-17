@@ -7,6 +7,7 @@
 Set the default values of the `FuseParams` object.
 
 * **Parameters:**
+
   **use_absolute_tolerance: bool, optional**
   : Option to use absolute tolerance value. The default value is false. When use absolute tolerance is true, gap tolerance and side tolerance provided are absolute values.
 

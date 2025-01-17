@@ -7,6 +7,7 @@
 Set the default values of the `OverlapSearchResults` object.
 
 * **Parameters:**
+
   **n_pairs: int, optional**
   : Number of pairs.
 

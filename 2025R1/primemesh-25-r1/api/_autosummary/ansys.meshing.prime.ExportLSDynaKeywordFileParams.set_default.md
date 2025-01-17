@@ -7,6 +7,7 @@
 Set the default values of the `ExportLSDynaKeywordFileParams` object.
 
 * **Parameters:**
+
   **material_properties: str, optional**
   : Materials in LS-DYNA format to be added to the file.
 

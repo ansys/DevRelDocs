@@ -7,7 +7,6 @@
 Get the multizone controls.
 
 * **Returns:**
-  :
 
   `List`[[`MultiZoneControl`](ansys.meshing.prime.MultiZoneControl.md#ansys.meshing.prime.MultiZoneControl)]
   : Returns the list of multizone controls.

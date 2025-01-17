@@ -7,6 +7,7 @@
 Parameters to perform local surface remeshing.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `LocalSurferParams` object with default parameters.
 
@@ -50,16 +51,14 @@ Parameters to perform local surface remeshing.
 
 ### Methods
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [`LocalSurferParams.print_default`](ansys.meshing.prime.LocalSurferParams.print_default.md#ansys.meshing.prime.LocalSurferParams.print_default)()           | Print the default values of `LocalSurferParams` object.   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [`LocalSurferParams.set_default`](ansys.meshing.prime.LocalSurferParams.set_default.md#ansys.meshing.prime.LocalSurferParams.set_default)([min_angle, ...]) | Set the default values of the `LocalSurferParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [`LocalSurferParams.constant_size`](ansys.meshing.prime.LocalSurferParams.constant_size.md#ansys.meshing.prime.LocalSurferParams.constant_size)       | Constant size to be used in case of constant size field.                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [`LocalSurferParams.growth_rate`](ansys.meshing.prime.LocalSurferParams.growth_rate.md#ansys.meshing.prime.LocalSurferParams.growth_rate)             | Growth rate to be used to propagate sizes.                                    |
 | [`LocalSurferParams.max_angle`](ansys.meshing.prime.LocalSurferParams.max_angle.md#ansys.meshing.prime.LocalSurferParams.max_angle)                   | Maximum feature angle limit used to identify and preserve features.           |
 | [`LocalSurferParams.max_size`](ansys.meshing.prime.LocalSurferParams.max_size.md#ansys.meshing.prime.LocalSurferParams.max_size)                      | Maximum size to be used in sizing for the surfer.                             |

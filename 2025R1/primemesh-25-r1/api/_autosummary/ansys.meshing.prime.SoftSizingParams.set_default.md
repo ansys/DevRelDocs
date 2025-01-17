@@ -7,6 +7,7 @@
 Set the default values of the `SoftSizingParams` object.
 
 * **Parameters:**
+
   **max: float, optional**
   : Maximum size used for computing edge and face size using soft size control.
 

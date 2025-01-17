@@ -7,6 +7,7 @@
 Perform intersection between specified face zonelets of the part with the given intersect parameters.
 
 * **Parameters:**
+
   **part_id**
   : Id of the part.
 
@@ -18,12 +19,15 @@ Perform intersection between specified face zonelets of the part with the given 
 
   **params**
   : Parameters for intersection.
+
 * **Returns:**
-  :
+  
 
   [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
   : Returns the ConnectResults.
+
 * **Return type:**
+
   [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
 
 ### Examples

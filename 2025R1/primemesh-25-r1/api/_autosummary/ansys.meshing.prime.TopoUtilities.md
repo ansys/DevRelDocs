@@ -17,7 +17,6 @@ Performs various general topology utility algorithms. For example, fill hole.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | [`TopoUtilities.fill_hole`](ansys.meshing.prime.TopoUtilities.fill_hole.md#ansys.meshing.prime.TopoUtilities.fill_hole)(topo_edges, params)   | Fill holes bounded by given topoedges.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
 <!-- vale on -->

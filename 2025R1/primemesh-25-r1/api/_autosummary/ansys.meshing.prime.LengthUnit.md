@@ -10,9 +10,8 @@ Length units
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`LengthUnit.conjugate`](ansys.meshing.prime.LengthUnit.conjugate.md#ansys.meshing.prime.LengthUnit.conjugate)                                | Returns self, the complex conjugate of any int.                            |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`LengthUnit.bit_length`](ansys.meshing.prime.LengthUnit.bit_length.md#ansys.meshing.prime.LengthUnit.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`LengthUnit.bit_count`](ansys.meshing.prime.LengthUnit.bit_count.md#ansys.meshing.prime.LengthUnit.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
 | [`LengthUnit.to_bytes`](ansys.meshing.prime.LengthUnit.to_bytes.md#ansys.meshing.prime.LengthUnit.to_bytes)(/[, length, byteorder, ...])      | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ Length units
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`LengthUnit.real`](ansys.meshing.prime.LengthUnit.real.md#ansys.meshing.prime.LengthUnit.real)                      | the real part of a complex number                    |
+|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`LengthUnit.imag`](ansys.meshing.prime.LengthUnit.imag.md#ansys.meshing.prime.LengthUnit.imag)                      | the imaginary part of a complex number               |
 | [`LengthUnit.numerator`](ansys.meshing.prime.LengthUnit.numerator.md#ansys.meshing.prime.LengthUnit.numerator)       | the numerator of a rational number in lowest terms   |
 | [`LengthUnit.denominator`](ansys.meshing.prime.LengthUnit.denominator.md#ansys.meshing.prime.LengthUnit.denominator) | the denominator of a rational number in lowest terms |
@@ -36,14 +34,5 @@ Length units
 | [`LengthUnit.IN`](ansys.meshing.prime.LengthUnit.IN.md#ansys.meshing.prime.LengthUnit.IN)                            | Denotes length unit is inches.                       |
 | [`LengthUnit.FT`](ansys.meshing.prime.LengthUnit.FT.md#ansys.meshing.prime.LengthUnit.FT)                            | Denotes length unit is feet.                         |
 
-<a id="examples-using-lengthunit"></a>
 
-## Examples using LengthUnit
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to use topology-based connection to generate conformal surface mesh.">  <div class="sphx-glr-thumbnail-title">Mesh a mid-surfaced bracket for a structural analysis</div>
-</div>
-* [Mesh a mid-surfaced bracket for a structural analysis](../../examples/gallery_examples/gallery/01_bracket_scaffold.md#sphx-glr-examples-gallery-examples-gallery-01-bracket-scaffold-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

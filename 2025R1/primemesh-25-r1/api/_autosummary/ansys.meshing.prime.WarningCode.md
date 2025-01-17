@@ -10,9 +10,8 @@ Warning codes associated with the PyPrimeMesh operation.
 
 ### Methods
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`WarningCode.conjugate`](ansys.meshing.prime.WarningCode.conjugate.md#ansys.meshing.prime.WarningCode.conjugate)                           | Returns self, the complex conjugate of any int.                            |
+|---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`WarningCode.bit_length`](ansys.meshing.prime.WarningCode.bit_length.md#ansys.meshing.prime.WarningCode.bit_length)(/)                     | Number of bits necessary to represent self in binary.                      |
 | [`WarningCode.bit_count`](ansys.meshing.prime.WarningCode.bit_count.md#ansys.meshing.prime.WarningCode.bit_count)(/)                        | Number of ones in the binary representation of the absolute value of self. |
 | [`WarningCode.to_bytes`](ansys.meshing.prime.WarningCode.to_bytes.md#ansys.meshing.prime.WarningCode.to_bytes)(/[, length, byteorder, ...]) | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ Warning codes associated with the PyPrimeMesh operation.
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | [`WarningCode.real`](ansys.meshing.prime.WarningCode.real.md#ansys.meshing.prime.WarningCode.real)                                                                                                                                                 | the real part of a complex number                                                                             |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
 | [`WarningCode.imag`](ansys.meshing.prime.WarningCode.imag.md#ansys.meshing.prime.WarningCode.imag)                                                                                                                                                 | the imaginary part of a complex number                                                                        |
 | [`WarningCode.numerator`](ansys.meshing.prime.WarningCode.numerator.md#ansys.meshing.prime.WarningCode.numerator)                                                                                                                                  | the numerator of a rational number in lowest terms                                                            |
 | [`WarningCode.denominator`](ansys.meshing.prime.WarningCode.denominator.md#ansys.meshing.prime.WarningCode.denominator)                                                                                                                            | the denominator of a rational number in lowest terms                                                          |

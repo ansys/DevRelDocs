@@ -7,6 +7,7 @@
 Set the default values of the `DeleteFringesAndOverlapsParams` object.
 
 * **Parameters:**
+
   **fringe_element_count: int, optional**
   : Maximum count of free face elements identified as fringe to be deleted.
 

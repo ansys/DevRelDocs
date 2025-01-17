@@ -7,17 +7,20 @@
 Export an STL file.
 
 * **Parameters:**
+
   **file_name**
   : Path to the STL file on disk.
 
   **params**
   : Parameters for exporting the STL file.
+
 * **Returns:**
-  :
 
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
   : Results from exporting the STL file.
+
 * **Return type:**
+
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
 
 ### Notes

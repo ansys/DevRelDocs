@@ -7,6 +7,7 @@
 Parameters to control MAPDL CDB export settings.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `ExportMapdlCdbParams` object with default parameters.
 
@@ -108,16 +109,14 @@ Parameters to control MAPDL CDB export settings.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`ExportMapdlCdbParams.print_default`](ansys.meshing.prime.ExportMapdlCdbParams.print_default.md#ansys.meshing.prime.ExportMapdlCdbParams.print_default)()   | Print the default values of `ExportMapdlCdbParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`ExportMapdlCdbParams.set_default`](ansys.meshing.prime.ExportMapdlCdbParams.set_default.md#ansys.meshing.prime.ExportMapdlCdbParams.set_default)([...])    | Set the default values of the `ExportMapdlCdbParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [`ExportMapdlCdbParams.analysis_settings`](ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings.md#ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings)                                                                      | Boundary conditions can be included into analysis settings.                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [`ExportMapdlCdbParams.analysis_settings_file_name`](ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings_file_name.md#ansys.meshing.prime.ExportMapdlCdbParams.analysis_settings_file_name)                                        | File path to export mapdl analysis settings.                                           |
 | [`ExportMapdlCdbParams.analysis_type`](ansys.meshing.prime.ExportMapdlCdbParams.analysis_type.md#ansys.meshing.prime.ExportMapdlCdbParams.analysis_type)                                                                                  | Option to specify CDB analysis type.                                                   |
 | [`ExportMapdlCdbParams.boundary_conditions`](ansys.meshing.prime.ExportMapdlCdbParams.boundary_conditions.md#ansys.meshing.prime.ExportMapdlCdbParams.boundary_conditions)                                                                | Boundary conditions in CDB format to be added to the file.                             |
@@ -135,18 +134,5 @@ Parameters to control MAPDL CDB export settings.
 | [`ExportMapdlCdbParams.write_cells`](ansys.meshing.prime.ExportMapdlCdbParams.write_cells.md#ansys.meshing.prime.ExportMapdlCdbParams.write_cells)                                                                                        | Option to write out cells as part of the file.                                         |
 | [`ExportMapdlCdbParams.write_thickness_file`](ansys.meshing.prime.ExportMapdlCdbParams.write_thickness_file.md#ansys.meshing.prime.ExportMapdlCdbParams.write_thickness_file)                                                             | Option to write a thickness file for spotweld fatigue analysis.                        |
 
-<a id="examples-using-exportmapdlcdbparams"></a>
 
-## Examples using ExportMapdlCdbParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to use topology-based connection to generate conformal surface mesh.">  <div class="sphx-glr-thumbnail-title">Mesh a mid-surfaced bracket for a structural analysis</div>
-</div>
-* [Mesh a mid-surfaced bracket for a structural analysis](../../examples/gallery_examples/gallery/01_bracket_scaffold.md#sphx-glr-examples-gallery-examples-gallery-01-bracket-scaffold-py)
-
-<div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to mesh a set of solder balls with mainly hexahedral elements. The solder is initially modelled as cylindrical to allow meshing using stacker and then local match morph controls are applied to recover the spherical shapes.">  <div class="sphx-glr-thumbnail-title">Mesh a set of solder balls (beta)</div>
-</div>
-* [Mesh a set of solder balls (beta)](../../examples/gallery_examples/gallery/11_solder_ball.md#sphx-glr-examples-gallery-examples-gallery-11-solder-ball-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

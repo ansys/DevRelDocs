@@ -7,6 +7,7 @@
 Parameters used to get size control summary.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `PeriodicControlSummaryParams` object with default parameters.
 
@@ -23,8 +24,7 @@ Parameters used to get size control summary.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | [`PeriodicControlSummaryParams.print_default`](ansys.meshing.prime.PeriodicControlSummaryParams.print_default.md#ansys.meshing.prime.PeriodicControlSummaryParams.print_default)()   | Print the default values of `PeriodicControlSummaryParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | [`PeriodicControlSummaryParams.set_default`](ansys.meshing.prime.PeriodicControlSummaryParams.set_default.md#ansys.meshing.prime.PeriodicControlSummaryParams.set_default)()         | Set the default values of the `PeriodicControlSummaryParams` object. |
 <!-- vale on -->

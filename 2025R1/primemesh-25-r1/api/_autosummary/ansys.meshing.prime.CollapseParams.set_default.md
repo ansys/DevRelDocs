@@ -7,6 +7,7 @@
 Set the default values of the `CollapseParams` object.
 
 * **Parameters:**
+
   **feature_type: SurfaceFeatureType, optional**
   : Feature type to be preserved when performing collapse.
 

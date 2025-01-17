@@ -32,16 +32,14 @@ Results associated with the set name.
 
 ### Methods
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`SetNameResults.print_default`](ansys.meshing.prime.SetNameResults.print_default.md#ansys.meshing.prime.SetNameResults.print_default)()              | Print the default values of `SetNameResults` object.   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`SetNameResults.set_default`](ansys.meshing.prime.SetNameResults.set_default.md#ansys.meshing.prime.SetNameResults.set_default)([warning_code, ...]) | Set the default values of the `SetNameResults` object. |
 
 ### Attributes
 
-| Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [`SetNameResults.assigned_name`](ansys.meshing.prime.SetNameResults.assigned_name.md#ansys.meshing.prime.SetNameResults.assigned_name)   | Assigned name of given entity.                             |
+|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [`SetNameResults.error_code`](ansys.meshing.prime.SetNameResults.error_code.md#ansys.meshing.prime.SetNameResults.error_code)            | Error code associated with the failure of operation.       |
 | [`SetNameResults.warning_code`](ansys.meshing.prime.SetNameResults.warning_code.md#ansys.meshing.prime.SetNameResults.warning_code)      | Warning code associated with the set name of given entity. |
 <!-- vale on -->

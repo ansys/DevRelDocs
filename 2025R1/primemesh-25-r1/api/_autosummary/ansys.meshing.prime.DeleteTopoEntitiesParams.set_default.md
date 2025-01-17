@@ -7,6 +7,7 @@
 Set the default values of the `DeleteTopoEntitiesParams` object.
 
 * **Parameters:**
+
   **delete_geom_zonelets: bool, optional**
   : Option to delete geometry zonelets of topology.
 

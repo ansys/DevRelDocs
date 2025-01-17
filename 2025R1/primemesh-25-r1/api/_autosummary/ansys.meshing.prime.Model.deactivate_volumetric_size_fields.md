@@ -7,6 +7,7 @@
 Deactivate the size fields with the given size field ids.
 
 * **Parameters:**
+
   **size_field_ids**
   : List of sizefield ids.
 

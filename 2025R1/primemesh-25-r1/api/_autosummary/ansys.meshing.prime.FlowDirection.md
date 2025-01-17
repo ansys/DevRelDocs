@@ -10,9 +10,8 @@ Flow or wake direction for BOI creation.
 
 ### Methods
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`FlowDirection.conjugate`](ansys.meshing.prime.FlowDirection.conjugate.md#ansys.meshing.prime.FlowDirection.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`FlowDirection.bit_length`](ansys.meshing.prime.FlowDirection.bit_length.md#ansys.meshing.prime.FlowDirection.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`FlowDirection.bit_count`](ansys.meshing.prime.FlowDirection.bit_count.md#ansys.meshing.prime.FlowDirection.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`FlowDirection.to_bytes`](ansys.meshing.prime.FlowDirection.to_bytes.md#ansys.meshing.prime.FlowDirection.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ Flow or wake direction for BOI creation.
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [`FlowDirection.real`](ansys.meshing.prime.FlowDirection.real.md#ansys.meshing.prime.FlowDirection.real)                      | the real part of a complex number                           |
+|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [`FlowDirection.imag`](ansys.meshing.prime.FlowDirection.imag.md#ansys.meshing.prime.FlowDirection.imag)                      | the imaginary part of a complex number                      |
 | [`FlowDirection.numerator`](ansys.meshing.prime.FlowDirection.numerator.md#ansys.meshing.prime.FlowDirection.numerator)       | the numerator of a rational number in lowest terms          |
 | [`FlowDirection.denominator`](ansys.meshing.prime.FlowDirection.denominator.md#ansys.meshing.prime.FlowDirection.denominator) | the denominator of a rational number in lowest terms        |

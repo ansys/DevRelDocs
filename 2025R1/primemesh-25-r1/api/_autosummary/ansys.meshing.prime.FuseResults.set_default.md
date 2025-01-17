@@ -7,6 +7,7 @@
 Set the default values of the `FuseResults` object.
 
 * **Parameters:**
+
   **fused_pairs: int, optional**
   : Number of face region pairs that were fused.
 

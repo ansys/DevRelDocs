@@ -7,6 +7,7 @@
 Set the default values of the `CheckFaceDeviationResults` object.
 
 * **Parameters:**
+
   **n_deviated: int, optional**
   : Number of faces with deviation.
 

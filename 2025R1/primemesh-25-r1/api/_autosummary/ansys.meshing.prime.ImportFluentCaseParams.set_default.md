@@ -7,6 +7,7 @@
 Set the default values of the `ImportFluentCaseParams` object.
 
 * **Parameters:**
+
   **append: bool, optional**
   : Option to append imported case instead of resetting model to imported case.
 

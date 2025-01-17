@@ -7,6 +7,7 @@
 Set the default values of the `LeakPreventionParams` object.
 
 * **Parameters:**
+
   **material_points: List[str], optional**
   : Material points used for leak prevention control.
 

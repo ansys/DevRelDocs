@@ -7,6 +7,7 @@
 Set the default values of the `DeleteInteriorNodesParams` object.
 
 * **Parameters:**
+
   **merge_face_normals_angle: float, optional**
   : Merge faces when the normal angle between the faces is below the provided value.
 

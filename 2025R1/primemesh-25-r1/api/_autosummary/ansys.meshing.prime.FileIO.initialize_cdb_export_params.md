@@ -12,6 +12,7 @@ object based on the given major and minor version numbers.
 Other parameters remain unchanged.
 
 * **Parameters:**
+
   **params**
   : The CDB export parameters object to be modified.
 
@@ -20,12 +21,14 @@ Other parameters remain unchanged.
 
   **minor_version**
   : The minor version number.
+
 * **Returns:**
-  :
 
   [`ExportMapdlCdbParams`](ansys.meshing.prime.ExportMapdlCdbParams.md#ansys.meshing.prime.ExportMapdlCdbParams)
   : The modified CDB export parameters object.
+
 * **Return type:**
+
   [`ExportMapdlCdbParams`](ansys.meshing.prime.ExportMapdlCdbParams.md#ansys.meshing.prime.ExportMapdlCdbParams)
 
 ### Notes

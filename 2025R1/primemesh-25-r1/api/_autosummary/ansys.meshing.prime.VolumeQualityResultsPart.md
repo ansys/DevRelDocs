@@ -44,16 +44,14 @@ Result of volume quality of part.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`VolumeQualityResultsPart.print_default`](ansys.meshing.prime.VolumeQualityResultsPart.print_default.md#ansys.meshing.prime.VolumeQualityResultsPart.print_default)()   | Print the default values of `VolumeQualityResultsPart` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`VolumeQualityResultsPart.set_default`](ansys.meshing.prime.VolumeQualityResultsPart.set_default.md#ansys.meshing.prime.VolumeQualityResultsPart.set_default)([...])    | Set the default values of the `VolumeQualityResultsPart` object. |
 
 ### Attributes
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | [`VolumeQualityResultsPart.cell_quality_measure`](ansys.meshing.prime.VolumeQualityResultsPart.cell_quality_measure.md#ansys.meshing.prime.VolumeQualityResultsPart.cell_quality_measure)   | Type of the cell quality measure.             |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | [`VolumeQualityResultsPart.max_quality`](ansys.meshing.prime.VolumeQualityResultsPart.max_quality.md#ansys.meshing.prime.VolumeQualityResultsPart.max_quality)                              | Maximum value of quality measure.             |
 | [`VolumeQualityResultsPart.measure_name`](ansys.meshing.prime.VolumeQualityResultsPart.measure_name.md#ansys.meshing.prime.VolumeQualityResultsPart.measure_name)                           | Name of the cell quality measure.             |
 | [`VolumeQualityResultsPart.min_quality`](ansys.meshing.prime.VolumeQualityResultsPart.min_quality.md#ansys.meshing.prime.VolumeQualityResultsPart.min_quality)                              | Minimum value of quality measure.             |

@@ -7,6 +7,7 @@
 Set the default values of the `IntersectParams` object.
 
 * **Parameters:**
+
   **tolerance: float, optional**
   : Intersection tolerance.
 

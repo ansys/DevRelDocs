@@ -7,6 +7,7 @@
 Check topology for inconsistencies with the given parameters.
 
 * **Parameters:**
+
   **part_id**
   : Id of the Part.
 
@@ -15,8 +16,8 @@ Check topology for inconsistencies with the given parameters.
 
   **params**
   : Parameters of check topology.
+
 * **Returns:**
-  :
 
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
   : Returns the AutoQuadMesherResults structure.

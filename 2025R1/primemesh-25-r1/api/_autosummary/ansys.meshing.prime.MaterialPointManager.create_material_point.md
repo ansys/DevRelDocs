@@ -7,6 +7,7 @@
 Creates a material point at the given coordinates.
 
 * **Parameters:**
+
   **suggested_name**
   : Name suggested for the material point.
 
@@ -15,12 +16,14 @@ Creates a material point at the given coordinates.
 
   **params**
   : Parameters used to create material point.
+
 * **Returns:**
-  :
 
   [`CreateMaterialPointResults`](ansys.meshing.prime.CreateMaterialPointResults.md#ansys.meshing.prime.CreateMaterialPointResults)
   : Returns the result with material point name and id.
+
 * **Return type:**
+
   [`CreateMaterialPointResults`](ansys.meshing.prime.CreateMaterialPointResults.md#ansys.meshing.prime.CreateMaterialPointResults)
 
 ### Notes

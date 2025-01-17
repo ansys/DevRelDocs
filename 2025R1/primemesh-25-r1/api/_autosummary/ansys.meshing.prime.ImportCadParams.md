@@ -7,6 +7,7 @@
 Parameters to control CAD import settings.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `ImportCadParams` object with default parameters.
 
@@ -56,16 +57,14 @@ Parameters to control CAD import settings.
 
 ### Methods
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`ImportCadParams.print_default`](ansys.meshing.prime.ImportCadParams.print_default.md#ansys.meshing.prime.ImportCadParams.print_default)()        | Print the default values of `ImportCadParams` object.   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`ImportCadParams.set_default`](ansys.meshing.prime.ImportCadParams.set_default.md#ansys.meshing.prime.ImportCadParams.set_default)([append, ...]) | Set the default values of the `ImportCadParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`ImportCadParams.ansys_release`](ansys.meshing.prime.ImportCadParams.ansys_release.md#ansys.meshing.prime.ImportCadParams.ansys_release)                                  | Configures the Ansys release to be used for loading CAD data through non Native route.   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`ImportCadParams.append`](ansys.meshing.prime.ImportCadParams.append.md#ansys.meshing.prime.ImportCadParams.append)                                                       | Append imported CAD into existing model when true.                                       |
 | [`ImportCadParams.cad_reader_route`](ansys.meshing.prime.ImportCadParams.cad_reader_route.md#ansys.meshing.prime.ImportCadParams.cad_reader_route)                         | Specify the available CAD reader routes.                                                 |
 | [`ImportCadParams.cad_refaceting_params`](ansys.meshing.prime.ImportCadParams.cad_refaceting_params.md#ansys.meshing.prime.ImportCadParams.cad_refaceting_params)          | Specify refaceting parameters.                                                           |
@@ -77,18 +76,4 @@ Parameters to control CAD import settings.
 | [`ImportCadParams.stitch_tolerance`](ansys.meshing.prime.ImportCadParams.stitch_tolerance.md#ansys.meshing.prime.ImportCadParams.stitch_tolerance)                         | Stitch facets based on tolerance.                                                        |
 | [`ImportCadParams.validate_shared_topology`](ansys.meshing.prime.ImportCadParams.validate_shared_topology.md#ansys.meshing.prime.ImportCadParams.validate_shared_topology) | Specify whether to validate the shared topology information.                             |
 
-<a id="examples-using-importcadparams"></a>
-
-## Examples using ImportCadParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to use topology-based connection to generate conformal surface mesh.">  <div class="sphx-glr-thumbnail-title">Mesh a mid-surfaced bracket for a structural analysis</div>
-</div>
-* [Mesh a mid-surfaced bracket for a structural analysis](../../examples/gallery_examples/gallery/01_bracket_scaffold.md#sphx-glr-examples-gallery-examples-gallery-01-bracket-scaffold-py)
-
-<div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to mesh a set of solder balls with mainly hexahedral elements. The solder is initially modelled as cylindrical to allow meshing using stacker and then local match morph controls are applied to recover the spherical shapes.">  <div class="sphx-glr-thumbnail-title">Mesh a set of solder balls (beta)</div>
-</div>
-* [Mesh a set of solder balls (beta)](../../examples/gallery_examples/gallery/11_solder_ball.md#sphx-glr-examples-gallery-examples-gallery-11-solder-ball-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

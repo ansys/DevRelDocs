@@ -7,6 +7,7 @@
 Set the default values of the `ImportAbaqusResults` object.
 
 * **Parameters:**
+
   **summary_log: str, optional**
   : Summary log for the import operation in json format.
 

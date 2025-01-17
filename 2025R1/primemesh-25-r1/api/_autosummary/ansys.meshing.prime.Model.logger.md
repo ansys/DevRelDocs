@@ -11,6 +11,7 @@ redirect the logs to the given stream, control the verbosity
 of messages printed by PyPrimeMesh and more.
 
 * **Returns:**
+
   `PrimeLogger`
   : PyPrimeMesh’s logger instance.
 

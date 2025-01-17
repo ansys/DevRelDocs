@@ -7,6 +7,7 @@
 Parameters to read file.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `FileReadParams` object with default parameters.
 
@@ -26,14 +27,12 @@ Parameters to read file.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`FileReadParams.print_default`](ansys.meshing.prime.FileReadParams.print_default.md#ansys.meshing.prime.FileReadParams.print_default)()   | Print the default values of `FileReadParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`FileReadParams.set_default`](ansys.meshing.prime.FileReadParams.set_default.md#ansys.meshing.prime.FileReadParams.set_default)([append]) | Set the default values of the `FileReadParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [`FileReadParams.append`](ansys.meshing.prime.FileReadParams.append.md#ansys.meshing.prime.FileReadParams.append)   | Option to append imported mesh to existing mesh instead of resetting model to imported mesh.   |
+|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 <!-- vale on -->
