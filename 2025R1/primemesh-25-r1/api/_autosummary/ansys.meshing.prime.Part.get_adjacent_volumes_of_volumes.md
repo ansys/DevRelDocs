@@ -7,14 +7,17 @@
 Get the adjacent volumes for the provided volume ids.
 
 * **Parameters:**
+
   **volumes**
   : Ids of the volume.
+
 * **Returns:**
-  :
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Returns the list of adjacent volume ids.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

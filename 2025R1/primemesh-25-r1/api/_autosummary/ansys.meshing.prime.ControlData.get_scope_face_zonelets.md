@@ -7,17 +7,20 @@
 Get the face zonelet ids for the given scope.
 
 * **Parameters:**
+
   **scope**
   : Scope definition to evaluate entities.
 
   **params**
   : Parameters to scope zonelets.
+
 * **Returns:**
-  :
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Return the ids of face zonelets.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

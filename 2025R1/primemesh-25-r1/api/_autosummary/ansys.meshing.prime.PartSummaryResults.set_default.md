@@ -7,6 +7,7 @@
 Set the default values of the `PartSummaryResults` object.
 
 * **Parameters:**
+
   **message: str, optional**
   : Part summary text.
 

@@ -7,6 +7,7 @@
 Set the default values of the `SmoothDihedralFaceNodesResults` object.
 
 * **Parameters:**
+
   **n_nodes_smoothed: int, optional**
   : Number of dihedral face nodes smoothed.
 

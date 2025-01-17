@@ -7,11 +7,12 @@
 Create a prism control.
 
 * **Returns:**
-  :
 
   [`PrismControl`](ansys.meshing.prime.PrismControl.md#ansys.meshing.prime.PrismControl)
   : Prism control.
+
 * **Return type:**
+
   [`PrismControl`](ansys.meshing.prime.PrismControl.md#ansys.meshing.prime.PrismControl)
 
 ### Examples

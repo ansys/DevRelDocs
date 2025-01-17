@@ -7,6 +7,7 @@
 Set the default values of the `ScaffolderParams` object.
 
 * **Parameters:**
+
   **absolute_dist_tol: float, optional**
   : Defines the maximum gap to connect.
 

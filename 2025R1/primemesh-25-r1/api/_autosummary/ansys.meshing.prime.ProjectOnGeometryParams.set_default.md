@@ -7,6 +7,7 @@
 Set the default values of the `ProjectOnGeometryParams` object.
 
 * **Parameters:**
+
   **project_only_mid_nodes: bool, optional**
   : Option to project only the mid nodes.
 

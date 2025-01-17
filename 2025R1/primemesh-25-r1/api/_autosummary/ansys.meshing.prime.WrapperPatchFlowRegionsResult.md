@@ -43,16 +43,14 @@ Result structure associated with patch holes operation.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`WrapperPatchFlowRegionsResult.print_default`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.print_default.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult.print_default)()   | Print the default values of `WrapperPatchFlowRegionsResult` object.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`WrapperPatchFlowRegionsResult.set_default`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.set_default.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult.set_default)([...])    | Set the default values of the `WrapperPatchFlowRegionsResult` object. |
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`WrapperPatchFlowRegionsResult.error_code`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.error_code.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult.error_code)          | Error code associated with a patch holes operation.      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`WrapperPatchFlowRegionsResult.id`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.id.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult.id)                                  | Id of part created with hole patches.                    |
 | [`WrapperPatchFlowRegionsResult.name`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.name.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult.name)                            | Name of part created with hole patches.                  |
 | [`WrapperPatchFlowRegionsResult.warning_codes`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.warning_codes.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult.warning_codes) | Warning codes associated with the patch holes operation. |

@@ -7,13 +7,17 @@
 Set the default values of the `BCPair` object.
 
 * **Parameters:**
+
   **source_zonelet: int, optional**
-  : Id of source zonelet.
+    
+    Id of source zonelet.
 
   **target_zonelet: int, optional**
-  : Id of target zonelet.
+  
+   Id of target zonelet.
 
   **type: BCPairType, optional**
-  : Option to specify boundary condition pair type.
+  
+  Option to specify boundary condition pair type.
 
 <!-- !! processed by numpydoc !! -->

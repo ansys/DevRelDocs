@@ -7,6 +7,7 @@
 Set the default values of the `PartialDefeatureParams` object.
 
 * **Parameters:**
+
   **edge_sharp_corner_angle: float, optional**
   : Merge edges when the angle between the edges are below the provided value.
 

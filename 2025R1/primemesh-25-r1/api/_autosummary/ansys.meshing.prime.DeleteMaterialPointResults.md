@@ -7,6 +7,7 @@
 Results associated with delete material point operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `DeleteMaterialPointResults` object with default parameters.
 
@@ -26,14 +27,12 @@ Results associated with delete material point operation.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [`DeleteMaterialPointResults.print_default`](ansys.meshing.prime.DeleteMaterialPointResults.print_default.md#ansys.meshing.prime.DeleteMaterialPointResults.print_default)()   | Print the default values of `DeleteMaterialPointResults` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [`DeleteMaterialPointResults.set_default`](ansys.meshing.prime.DeleteMaterialPointResults.set_default.md#ansys.meshing.prime.DeleteMaterialPointResults.set_default)([...])    | Set the default values of the `DeleteMaterialPointResults` object. |
 
 ### Attributes
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`DeleteMaterialPointResults.error_code`](ansys.meshing.prime.DeleteMaterialPointResults.error_code.md#ansys.meshing.prime.DeleteMaterialPointResults.error_code)   | Error code associated with the failure of operation.   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 <!-- vale on -->

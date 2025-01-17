@@ -7,6 +7,7 @@
 Set the default values of the `FileReadParams` object.
 
 * **Parameters:**
+
   **append: bool, optional**
   : Option to append imported mesh to existing mesh instead of resetting model to imported mesh.
 

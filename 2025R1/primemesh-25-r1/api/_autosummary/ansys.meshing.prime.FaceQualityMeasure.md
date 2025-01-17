@@ -10,9 +10,8 @@ The type of face quality measures to check face quality metrics.
 
 ### Methods
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`FaceQualityMeasure.conjugate`](ansys.meshing.prime.FaceQualityMeasure.conjugate.md#ansys.meshing.prime.FaceQualityMeasure.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`FaceQualityMeasure.bit_length`](ansys.meshing.prime.FaceQualityMeasure.bit_length.md#ansys.meshing.prime.FaceQualityMeasure.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`FaceQualityMeasure.bit_count`](ansys.meshing.prime.FaceQualityMeasure.bit_count.md#ansys.meshing.prime.FaceQualityMeasure.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`FaceQualityMeasure.to_bytes`](ansys.meshing.prime.FaceQualityMeasure.to_bytes.md#ansys.meshing.prime.FaceQualityMeasure.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ The type of face quality measures to check face quality metrics.
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`FaceQualityMeasure.real`](ansys.meshing.prime.FaceQualityMeasure.real.md#ansys.meshing.prime.FaceQualityMeasure.real)                               | the real part of a complex number                                                                                                                                         |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`FaceQualityMeasure.imag`](ansys.meshing.prime.FaceQualityMeasure.imag.md#ansys.meshing.prime.FaceQualityMeasure.imag)                               | the imaginary part of a complex number                                                                                                                                    |
 | [`FaceQualityMeasure.numerator`](ansys.meshing.prime.FaceQualityMeasure.numerator.md#ansys.meshing.prime.FaceQualityMeasure.numerator)                | the numerator of a rational number in lowest terms                                                                                                                        |
 | [`FaceQualityMeasure.denominator`](ansys.meshing.prime.FaceQualityMeasure.denominator.md#ansys.meshing.prime.FaceQualityMeasure.denominator)          | the denominator of a rational number in lowest terms                                                                                                                      |
@@ -34,14 +32,5 @@ The type of face quality measures to check face quality metrics.
 | [`FaceQualityMeasure.WARP`](ansys.meshing.prime.FaceQualityMeasure.WARP.md#ansys.meshing.prime.FaceQualityMeasure.WARP)                               | Face quality metric to check warping factor.                                                                                                                              |
 | [`FaceQualityMeasure.ELEMENTQUALITY`](ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY.md#ansys.meshing.prime.FaceQualityMeasure.ELEMENTQUALITY) | The Element Quality metric ranges between 0 (worst) and 1 (best).                                                                                                         |
 
-<a id="examples-using-facequalitymeasure"></a>
 
-## Examples using FaceQualityMeasure
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to wrap a toy car for a flow analysis.">  <div class="sphx-glr-thumbnail-title">Wrap a toy car for a flow analysis</div>
-</div>
-* [Wrap a toy car for a flow analysis](../../examples/gallery_examples/gallery/04_lucid_toy_car.md#sphx-glr-examples-gallery-examples-gallery-04-lucid-toy-car-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

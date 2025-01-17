@@ -7,14 +7,17 @@
 Get volume ids of given face zonelet.
 
 * **Parameters:**
+
   **face_zonelet**
   : Id of face zonelet.
+
 * **Returns:**
-  :
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Return volume ids of given face zonelet.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

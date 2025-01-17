@@ -7,6 +7,7 @@
 Get the list of parts for the model.
 
 * **Returns:**
+
   `List`[[`Part`](ansys.meshing.prime.Part.md#ansys.meshing.prime.Part)]
   : List of parts for the model.
 

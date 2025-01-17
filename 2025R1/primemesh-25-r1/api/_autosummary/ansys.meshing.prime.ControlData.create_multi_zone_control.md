@@ -7,11 +7,12 @@
 Create multizone control with defaults.
 
 * **Returns:**
-  :
-
+  
   `multizone`
   : Returns the multizone control.
+
 * **Return type:**
+
   [`MultiZoneControl`](ansys.meshing.prime.MultiZoneControl.md#ansys.meshing.prime.MultiZoneControl)
 
 ### Examples

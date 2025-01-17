@@ -7,6 +7,7 @@
 Growth parameters for prism control.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `PrismControlGrowthParams` object with default parameters.
 
@@ -44,16 +45,14 @@ Growth parameters for prism control.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`PrismControlGrowthParams.print_default`](ansys.meshing.prime.PrismControlGrowthParams.print_default.md#ansys.meshing.prime.PrismControlGrowthParams.print_default)()   | Print the default values of `PrismControlGrowthParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`PrismControlGrowthParams.set_default`](ansys.meshing.prime.PrismControlGrowthParams.set_default.md#ansys.meshing.prime.PrismControlGrowthParams.set_default)([...])    | Set the default values of the `PrismControlGrowthParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [`PrismControlGrowthParams.first_aspect_ratio`](ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio.md#ansys.meshing.prime.PrismControlGrowthParams.first_aspect_ratio)   | Aspect ratio to be used to compute first layer height.                                       |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [`PrismControlGrowthParams.first_height`](ansys.meshing.prime.PrismControlGrowthParams.first_height.md#ansys.meshing.prime.PrismControlGrowthParams.first_height)                     | Height to be used for first layer and adjust following layer height based on other settings. |
 | [`PrismControlGrowthParams.growth_rate`](ansys.meshing.prime.PrismControlGrowthParams.growth_rate.md#ansys.meshing.prime.PrismControlGrowthParams.growth_rate)                        | Growth rate to be used to compute prism layer heights.                                       |
 | [`PrismControlGrowthParams.last_aspect_ratio`](ansys.meshing.prime.PrismControlGrowthParams.last_aspect_ratio.md#ansys.meshing.prime.PrismControlGrowthParams.last_aspect_ratio)      | Apsect ratio of the last layer.                                                              |
@@ -61,14 +60,4 @@ Growth parameters for prism control.
 | [`PrismControlGrowthParams.n_layers`](ansys.meshing.prime.PrismControlGrowthParams.n_layers.md#ansys.meshing.prime.PrismControlGrowthParams.n_layers)                                 | Number of prism layers to be generated.                                                      |
 | [`PrismControlGrowthParams.offset_type`](ansys.meshing.prime.PrismControlGrowthParams.offset_type.md#ansys.meshing.prime.PrismControlGrowthParams.offset_type)                        | Offset type controls the method that is used to compute prism layer heights.                 |
 
-<a id="examples-using-prismcontrolgrowthparams"></a>
-
-## Examples using PrismControlGrowthParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to generate a mesh for a generic F1 rear wing STL file model.">  <div class="sphx-glr-thumbnail-title">Mesh a generic F1 car rear wing for external aero simulation</div>
-</div>
-* [Mesh a generic F1 car rear wing for external aero simulation](../../examples/gallery_examples/gallery/08_lucid_generic_f1_rear_wing.md#sphx-glr-examples-gallery-examples-gallery-08-lucid-generic-f1-rear-wing-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

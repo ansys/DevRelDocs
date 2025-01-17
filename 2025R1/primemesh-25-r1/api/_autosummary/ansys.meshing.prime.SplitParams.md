@@ -7,6 +7,7 @@
 Parameters to split face elements at longest edge.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `SplitParams` object with default parameters.
 
@@ -26,14 +27,12 @@ Parameters to split face elements at longest edge.
 
 ### Methods
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [`SplitParams.print_default`](ansys.meshing.prime.SplitParams.print_default.md#ansys.meshing.prime.SplitParams.print_default)()        | Print the default values of `SplitParams` object.   |
+|----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [`SplitParams.set_default`](ansys.meshing.prime.SplitParams.set_default.md#ansys.meshing.prime.SplitParams.set_default)([split_ratio]) | Set the default values of the `SplitParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`SplitParams.split_ratio`](ansys.meshing.prime.SplitParams.split_ratio.md#ansys.meshing.prime.SplitParams.split_ratio)   | Minimum ratio of split edge length to original edge length.   |
+|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 <!-- vale on -->

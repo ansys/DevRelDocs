@@ -7,14 +7,17 @@
 Get the list of part ids in the scope.
 
 * **Parameters:**
+
   **model**
   : PyPrimeMesh model.
+
 * **Returns:**
-  :
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Returns the list of part ids.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

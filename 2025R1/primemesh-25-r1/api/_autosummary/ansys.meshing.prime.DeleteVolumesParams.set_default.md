@@ -7,6 +7,7 @@
 Set the default values of the `DeleteVolumesParams` object.
 
 * **Parameters:**
+
   **delete_small_volumes: bool, optional**
   : Option to delete only volumes smaller than provided volume limit.
 

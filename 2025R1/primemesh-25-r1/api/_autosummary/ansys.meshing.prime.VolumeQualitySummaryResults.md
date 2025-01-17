@@ -32,16 +32,14 @@ Results of volume quality summary.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | [`VolumeQualitySummaryResults.print_default`](ansys.meshing.prime.VolumeQualitySummaryResults.print_default.md#ansys.meshing.prime.VolumeQualitySummaryResults.print_default)()   | Print the default values of `VolumeQualitySummaryResults` object.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | [`VolumeQualitySummaryResults.set_default`](ansys.meshing.prime.VolumeQualitySummaryResults.set_default.md#ansys.meshing.prime.VolumeQualitySummaryResults.set_default)([...])    | Set the default values of the `VolumeQualitySummaryResults` object. |
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [`VolumeQualitySummaryResults.error_code`](ansys.meshing.prime.VolumeQualitySummaryResults.error_code.md#ansys.meshing.prime.VolumeQualitySummaryResults.error_code)                               | Error code associated with the volume quality summary.                                    |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [`VolumeQualitySummaryResults.message`](ansys.meshing.prime.VolumeQualitySummaryResults.message.md#ansys.meshing.prime.VolumeQualitySummaryResults.message)                                        | Volume quality summary text.                                                              |
 | [`VolumeQualitySummaryResults.quality_results_part`](ansys.meshing.prime.VolumeQualitySummaryResults.quality_results_part.md#ansys.meshing.prime.VolumeQualitySummaryResults.quality_results_part) | Contains volume quality result per cell quality measure by parts specified in parameters. |
 

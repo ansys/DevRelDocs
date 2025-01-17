@@ -7,6 +7,7 @@
 Set the default values of the `OptimizeQuadMeshParams` object.
 
 * **Parameters:**
+
   **suppress_topo_edge_and_mesh_cleanup: bool, optional**
   : Option to suppress topoedges and clean up mesh.
 

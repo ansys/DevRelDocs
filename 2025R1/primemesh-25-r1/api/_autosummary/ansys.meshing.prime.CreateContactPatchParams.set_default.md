@@ -7,6 +7,7 @@
 Set the default values of the `CreateContactPatchParams` object.
 
 * **Parameters:**
+
   **contact_patch_axis: ContactPatchAxis, optional**
   : Assigns the contact patch direction.
 

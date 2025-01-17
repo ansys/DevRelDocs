@@ -7,14 +7,17 @@
 Set the unique name for the part to a suggested name.
 
 * **Parameters:**
+
   **name**
   : Suggested name for the part.
+
 * **Returns:**
-  :
 
   [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
   : Newly suggested name for the part.
+
 * **Return type:**
+
   [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
 
 ### Examples

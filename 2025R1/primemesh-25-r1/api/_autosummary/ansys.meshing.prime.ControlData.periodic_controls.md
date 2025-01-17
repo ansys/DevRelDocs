@@ -7,6 +7,7 @@
 Get the periodic controls.
 
 * **Returns:**
+
   `List`[[`PeriodicControl`](ansys.meshing.prime.PeriodicControl.md#ansys.meshing.prime.PeriodicControl)]
   : List of periodic controls.
 

@@ -7,6 +7,7 @@
 Parameter to control feature edge extraction.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `ExtractFeatureParams` object with default parameters.
 
@@ -44,16 +45,14 @@ Parameter to control feature edge extraction.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`ExtractFeatureParams.print_default`](ansys.meshing.prime.ExtractFeatureParams.print_default.md#ansys.meshing.prime.ExtractFeatureParams.print_default)()         | Print the default values of `ExtractFeatureParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`ExtractFeatureParams.set_default`](ansys.meshing.prime.ExtractFeatureParams.set_default.md#ansys.meshing.prime.ExtractFeatureParams.set_default)([replace, ...]) | Set the default values of the `ExtractFeatureParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`ExtractFeatureParams.disconnect_with_faces`](ansys.meshing.prime.ExtractFeatureParams.disconnect_with_faces.md#ansys.meshing.prime.ExtractFeatureParams.disconnect_with_faces)   | Option to disconnect edges from faces.                                     |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`ExtractFeatureParams.feature_angle`](ansys.meshing.prime.ExtractFeatureParams.feature_angle.md#ansys.meshing.prime.ExtractFeatureParams.feature_angle)                           | Angle used to capture face features to be  extracted as edges.             |
 | [`ExtractFeatureParams.label_name`](ansys.meshing.prime.ExtractFeatureParams.label_name.md#ansys.meshing.prime.ExtractFeatureParams.label_name)                                    | Label name to be assigned to extracted features.                           |
 | [`ExtractFeatureParams.number_of_threads`](ansys.meshing.prime.ExtractFeatureParams.number_of_threads.md#ansys.meshing.prime.ExtractFeatureParams.number_of_threads)               | Number of threads used for multithreading.                                 |
@@ -61,14 +60,4 @@ Parameter to control feature edge extraction.
 | [`ExtractFeatureParams.separate_features`](ansys.meshing.prime.ExtractFeatureParams.separate_features.md#ansys.meshing.prime.ExtractFeatureParams.separate_features)               | Option to separate extracted features.                                     |
 | [`ExtractFeatureParams.separation_angle`](ansys.meshing.prime.ExtractFeatureParams.separation_angle.md#ansys.meshing.prime.ExtractFeatureParams.separation_angle)                  | Angle used to separate extracted features.                                 |
 
-<a id="examples-using-extractfeatureparams"></a>
-
-## Examples using ExtractFeatureParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to mesh a set of solder balls with mainly hexahedral elements. The solder is initially modelled as cylindrical to allow meshing using stacker and then local match morph controls are applied to recover the spherical shapes.">  <div class="sphx-glr-thumbnail-title">Mesh a set of solder balls (beta)</div>
-</div>
-* [Mesh a set of solder balls (beta)](../../examples/gallery_examples/gallery/11_solder_ball.md#sphx-glr-examples-gallery-examples-gallery-11-solder-ball-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

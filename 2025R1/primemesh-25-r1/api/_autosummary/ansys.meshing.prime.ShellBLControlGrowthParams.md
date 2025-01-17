@@ -43,16 +43,14 @@ Growth parameters for ShellBL control.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [`ShellBLControlGrowthParams.print_default`](ansys.meshing.prime.ShellBLControlGrowthParams.print_default.md#ansys.meshing.prime.ShellBLControlGrowthParams.print_default)()   | Print the default values of `ShellBLControlGrowthParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | [`ShellBLControlGrowthParams.set_default`](ansys.meshing.prime.ShellBLControlGrowthParams.set_default.md#ansys.meshing.prime.ShellBLControlGrowthParams.set_default)([...])    | Set the default values of the `ShellBLControlGrowthParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`ShellBLControlGrowthParams.first_height`](ansys.meshing.prime.ShellBLControlGrowthParams.first_height.md#ansys.meshing.prime.ShellBLControlGrowthParams.first_height)   | Height of first layer of ShellBL.                    |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`ShellBLControlGrowthParams.growth_rate`](ansys.meshing.prime.ShellBLControlGrowthParams.growth_rate.md#ansys.meshing.prime.ShellBLControlGrowthParams.growth_rate)      | Ratio of heights of current layer to previous layer. |
 | [`ShellBLControlGrowthParams.n_layers`](ansys.meshing.prime.ShellBLControlGrowthParams.n_layers.md#ansys.meshing.prime.ShellBLControlGrowthParams.n_layers)               | Number of layers to be generated.                    |
 | [`ShellBLControlGrowthParams.offset_type`](ansys.meshing.prime.ShellBLControlGrowthParams.offset_type.md#ansys.meshing.prime.ShellBLControlGrowthParams.offset_type)      | Offset type for ShellBL.                             |

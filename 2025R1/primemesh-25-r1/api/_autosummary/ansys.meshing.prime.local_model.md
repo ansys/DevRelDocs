@@ -4,8 +4,8 @@
 
 ### ansys.meshing.prime.local_model()
 
-Get local model
-:rtype: [`Model`](ansys.meshing.prime.Model.md#ansys.meshing.prime.Model)
+Gets the local model.
+
 
 #### NOTE
 USE IN DEVELOPMENT ONLY

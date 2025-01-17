@@ -7,6 +7,7 @@
 Set the default values of the `DetectHolesParams` object.
 
 * **Parameters:**
+
   **max_radius_circular_holes: float, optional**
   : Maximum radius of circular holes.
 

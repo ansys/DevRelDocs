@@ -7,6 +7,7 @@
 Set the default values of the `DetectAndTreatFeaturesParams` object.
 
 * **Parameters:**
+
   **detect_and_treat_holes: bool, optional**
   : Option to detect and treat holes.
 

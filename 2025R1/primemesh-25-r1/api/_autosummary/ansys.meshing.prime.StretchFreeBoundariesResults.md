@@ -7,6 +7,7 @@
 Results associated with stretch free boundaries operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `StretchFreeBoundariesResults` object with default parameters.
 
@@ -26,14 +27,12 @@ Results associated with stretch free boundaries operation.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | [`StretchFreeBoundariesResults.print_default`](ansys.meshing.prime.StretchFreeBoundariesResults.print_default.md#ansys.meshing.prime.StretchFreeBoundariesResults.print_default)()   | Print the default values of `StretchFreeBoundariesResults` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | [`StretchFreeBoundariesResults.set_default`](ansys.meshing.prime.StretchFreeBoundariesResults.set_default.md#ansys.meshing.prime.StretchFreeBoundariesResults.set_default)([...])    | Set the default values of the `StretchFreeBoundariesResults` object. |
 
 ### Attributes
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`StretchFreeBoundariesResults.error_code`](ansys.meshing.prime.StretchFreeBoundariesResults.error_code.md#ansys.meshing.prime.StretchFreeBoundariesResults.error_code)   | Error code associated with failure of operation.   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 <!-- vale on -->

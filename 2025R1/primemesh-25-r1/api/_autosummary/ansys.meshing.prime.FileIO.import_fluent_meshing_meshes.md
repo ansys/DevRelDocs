@@ -7,17 +7,20 @@
 Import Fluent Meshing’s mesh (MS and MSH.GZ) files from disk.
 
 * **Parameters:**
+
   **file_names**
   : List of full path for the mesh files to import.
 
   **import_fluent_meshing_mesh_params**
   : Parameters for importing the mesh files.
+
 * **Returns:**
-  :
 
   [`ImportFluentMeshingMeshResults`](ansys.meshing.prime.ImportFluentMeshingMeshResults.md#ansys.meshing.prime.ImportFluentMeshingMeshResults)
   : Results from importing the mesh files.
+
 * **Return type:**
+
   [`ImportFluentMeshingMeshResults`](ansys.meshing.prime.ImportFluentMeshingMeshResults.md#ansys.meshing.prime.ImportFluentMeshingMeshResults)
 
 ### Notes

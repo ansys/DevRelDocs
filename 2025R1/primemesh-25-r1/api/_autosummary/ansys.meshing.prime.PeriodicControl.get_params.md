@@ -7,11 +7,12 @@
 Get the parameters of the periodic control.
 
 * **Returns:**
-  :
 
   [`PeriodicControlParams`](ansys.meshing.prime.PeriodicControlParams.md#ansys.meshing.prime.PeriodicControlParams)
   : Return parameters of the periodic control.
+
 * **Return type:**
+
   [`PeriodicControlParams`](ansys.meshing.prime.PeriodicControlParams.md#ansys.meshing.prime.PeriodicControlParams)
 
 ### Examples

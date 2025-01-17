@@ -7,6 +7,7 @@
 Generate a curvature size control on a scope.
 
 * **Parameters:**
+
   **control_name**
   : Name of the control. The default is `"size_control"`.
 

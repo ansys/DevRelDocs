@@ -9,17 +9,20 @@ Gets the connectivity of face and edge zonelets of the given part ids.
 Connectivity result is used in graphics rendering.
 
 * **Parameters:**
+
   **part_ids**
   : Ids of the part.
 
   **params**
   : Parameters to get connectivity of face zonelets and edge zonelets.
+
 * **Returns:**
-  :
 
   [`FaceAndEdgeConnectivityResults`](ansys.meshing.prime.FaceAndEdgeConnectivityResults.md#ansys.meshing.prime.FaceAndEdgeConnectivityResults)
   : Returns the FaceAndEdgeConnectivityResults.
+
 * **Return type:**
+
   [`FaceAndEdgeConnectivityResults`](ansys.meshing.prime.FaceAndEdgeConnectivityResults.md#ansys.meshing.prime.FaceAndEdgeConnectivityResults)
 
 ### Examples

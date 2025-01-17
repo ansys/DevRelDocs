@@ -7,6 +7,7 @@
 Finds the edge zonelets formed by intersection of two face zonelets. Performs n to n intersection of face zonelets present in part face zonelets with those in intersecting part face zonelets depending on the input parameters. Order of input does not matter.
 
 * **Parameters:**
+
   **part_face_zonelets**
   : List of part zonelets to be intersected.
 

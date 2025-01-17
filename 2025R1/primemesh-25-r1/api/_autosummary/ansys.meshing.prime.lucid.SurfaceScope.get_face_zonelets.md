@@ -7,17 +7,20 @@
 Get the list of face zonelets for the given part in the scope.
 
 * **Parameters:**
+
   **model**
   : PyPrimeMesh model.
 
   **part_id**
   : Id of the part.
+
 * **Returns:**
-  :
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Returns the list of zonelets.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

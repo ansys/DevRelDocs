@@ -7,6 +7,7 @@
 Set the default values of the `ScopeDefinition` object.
 
 * **Parameters:**
+
   **entity_type: ScopeEntity, optional**
   : Entity type for which scope needs to be evaluated. The default is set to face zonelets.
 

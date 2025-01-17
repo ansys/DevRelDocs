@@ -7,6 +7,7 @@
 Optimize quad faces with given parameters.
 
 * **Parameters:**
+
   **part_id**
   : Id of the Part.
 
@@ -15,11 +16,11 @@ Optimize quad faces with given parameters.
 
   **params**
   : Parameters of optimize quad mesh.
-* **Returns:**
-  :
 
+* **Returns:**
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
   : Returns the AutoQuadMesherResults structure.
+  
 * **Return type:**
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
 

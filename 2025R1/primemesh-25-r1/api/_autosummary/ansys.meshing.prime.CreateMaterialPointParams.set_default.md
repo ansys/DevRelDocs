@@ -7,6 +7,7 @@
 Set the default values of the `CreateMaterialPointParams` object.
 
 * **Parameters:**
+
   **type: MaterialPointType, optional**
   : Defines the type of material point.
 

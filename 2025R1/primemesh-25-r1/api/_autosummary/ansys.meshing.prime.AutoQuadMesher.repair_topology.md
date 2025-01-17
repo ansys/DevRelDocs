@@ -7,6 +7,7 @@
 Repair topology with given parameters.
 
 * **Parameters:**
+
   **part_id**
   : Id of the Part.
 
@@ -15,11 +16,12 @@ Repair topology with given parameters.
 
   **params**
   : Parameters of repair topology.
-* **Returns:**
-  :
 
+* **Returns:**
+ 
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
   : Returns the AutoQuadMesherResults structure.
+  
 * **Return type:**
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
 

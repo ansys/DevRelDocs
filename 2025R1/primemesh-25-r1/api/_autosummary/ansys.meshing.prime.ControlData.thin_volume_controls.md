@@ -7,6 +7,7 @@
 Get the thin volume controls.
 
 * **Returns:**
+
   `List`[[`ThinVolumeControl`](ansys.meshing.prime.ThinVolumeControl.md#ansys.meshing.prime.ThinVolumeControl)]
   : List of thin volume controls.
 

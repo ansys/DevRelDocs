@@ -10,6 +10,7 @@ Performs volume meshing using various volume meshing algorithms.
 For example, with prisms.
 
 * **Parameters:**
+
   **model**
   : Server model to create AutoMesh object.
 
@@ -17,9 +18,8 @@ For example, with prisms.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | [`AutoMesh.mesh`](ansys.meshing.prime.AutoMesh.mesh.md#ansys.meshing.prime.AutoMesh.mesh)(part_id, automesh_params)   | Performs volume meshing on the part with the given meshing parameters.   |
+|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 
 <a id="examples-using-automesh"></a>
 

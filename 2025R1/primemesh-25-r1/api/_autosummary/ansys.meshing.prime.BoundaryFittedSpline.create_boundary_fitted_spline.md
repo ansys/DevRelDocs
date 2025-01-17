@@ -11,6 +11,7 @@ That is, each block must have six sided volume and must be connected to other bl
 The degree and number of control points of the spline can be set in the fitting parameter structure.
 
 * **Parameters:**
+
   **part_id**
   : Id of the part.
 
@@ -19,12 +20,14 @@ The degree and number of control points of the spline can be set in the fitting 
 
   **boundary_fitted_spline_params**
   : Structure containing spline fitting parameters.
+
 * **Returns:**
-  :
 
   [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
   : Returns the IGAResults.
+
 * **Return type:**
+
   [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
 
 ### Examples

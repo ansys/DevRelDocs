@@ -7,6 +7,7 @@
 Launch a server process for Ansys Prime Server.
 
 * **Parameters:**
+
   **prime_root**
   : Root directory for Ansys Prime Server.
 
@@ -21,15 +22,19 @@ Launch a server process for Ansys Prime Server.
     processes to spawn. The default is `None`, in which case
     the server is launched as the only process (normal mode). The
     process marked as `Node 0` hosts the gRPC server.
-* **Returns:**
-  :
 
+* **Returns:**
+  
   [`subprocess.Popen`](https://docs.python.org/3.11/library/subprocess.html#subprocess.Popen)
   : Instance of the subprocess that is launched.
+
 * **Raises:**
+
   [`FileNotFoundError`](https://docs.python.org/3.11/library/exceptions.html#FileNotFoundError)
   : When there is an error in the file paths used to launch the server.
+  
 * **Return type:**
+
   [`Popen`](https://docs.python.org/3.11/library/subprocess.html#subprocess.Popen)
 
 <!-- !! processed by numpydoc !! -->

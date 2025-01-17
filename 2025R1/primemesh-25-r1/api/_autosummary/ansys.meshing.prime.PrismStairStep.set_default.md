@@ -7,6 +7,7 @@
 Set the default values of the `PrismStairStep` object.
 
 * **Parameters:**
+
   **check_proximity: bool, optional**
   : Check whether to enable or disable stairstepping at prisms within proximity of boundary or prism cap.
 

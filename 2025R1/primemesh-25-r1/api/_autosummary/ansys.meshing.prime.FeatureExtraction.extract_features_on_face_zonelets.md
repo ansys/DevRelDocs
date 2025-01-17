@@ -7,6 +7,7 @@
 Extract edges by angle and face zonelet boundary using given extract feature parameters.
 
 * **Parameters:**
+
   **part_id**
   : Id of input part.
 
@@ -15,12 +16,14 @@ Extract edges by angle and face zonelet boundary using given extract feature par
 
   **params**
   : Parameters used to extract edges.
-* **Returns:**
-  :
 
+* **Returns:**
+  
   [`ExtractFeatureResults`](ansys.meshing.prime.ExtractFeatureResults.md#ansys.meshing.prime.ExtractFeatureResults)
   : Returns a ExtractFeatureResults.
+
 * **Return type:**
+
   [`ExtractFeatureResults`](ansys.meshing.prime.ExtractFeatureResults.md#ansys.meshing.prime.ExtractFeatureResults)
 
 ### Examples

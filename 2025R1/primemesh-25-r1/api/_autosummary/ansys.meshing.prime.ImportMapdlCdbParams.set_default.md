@@ -7,6 +7,7 @@
 Set the default values of the `ImportMapdlCdbParams` object.
 
 * **Parameters:**
+
   **drop_mid_nodes: bool, optional**
   : Option to import quadratic mesh elements as linear by skipping mid nodes.
 

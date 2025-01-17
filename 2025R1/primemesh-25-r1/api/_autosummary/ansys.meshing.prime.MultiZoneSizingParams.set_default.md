@@ -7,6 +7,7 @@
 Set the default values of the `MultiZoneSizingParams` object.
 
 * **Parameters:**
+
   **max_size: float, optional**
   : Defines global maximum mesh size.
 

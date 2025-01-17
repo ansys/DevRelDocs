@@ -10,9 +10,8 @@ CAD Reader routes.
 
 ### Methods
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CadReaderRoute.conjugate`](ansys.meshing.prime.CadReaderRoute.conjugate.md#ansys.meshing.prime.CadReaderRoute.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CadReaderRoute.bit_length`](ansys.meshing.prime.CadReaderRoute.bit_length.md#ansys.meshing.prime.CadReaderRoute.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`CadReaderRoute.bit_count`](ansys.meshing.prime.CadReaderRoute.bit_count.md#ansys.meshing.prime.CadReaderRoute.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`CadReaderRoute.to_bytes`](ansys.meshing.prime.CadReaderRoute.to_bytes.md#ansys.meshing.prime.CadReaderRoute.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ CAD Reader routes.
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`CadReaderRoute.real`](ansys.meshing.prime.CadReaderRoute.real.md#ansys.meshing.prime.CadReaderRoute.real)                                        | the real part of a complex number                    |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`CadReaderRoute.imag`](ansys.meshing.prime.CadReaderRoute.imag.md#ansys.meshing.prime.CadReaderRoute.imag)                                        | the imaginary part of a complex number               |
 | [`CadReaderRoute.numerator`](ansys.meshing.prime.CadReaderRoute.numerator.md#ansys.meshing.prime.CadReaderRoute.numerator)                         | the numerator of a rational number in lowest terms   |
 | [`CadReaderRoute.denominator`](ansys.meshing.prime.CadReaderRoute.denominator.md#ansys.meshing.prime.CadReaderRoute.denominator)                   | the denominator of a rational number in lowest terms |
