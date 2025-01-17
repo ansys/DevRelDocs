@@ -14,11 +14,7 @@
     href: classes_model.md
   - name: Solid model classes
     href: classes_solid_model.md
-  - name: Solution classes
-    href: classes_solution.md
   - name: Scene classes
     href: classes_scene.md
-  - name: Postprocessing definition classes
-    href: classes_postprocessing_definitions.md
   - name: Plot classes
     href: classes_plot.md
