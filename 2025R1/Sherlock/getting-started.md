@@ -32,7 +32,7 @@ Windows: `C:/Program Files/ANSYS Inc/v251/sherlock/grpc`
 
 Linux: `/ansys_inc/v251/sherlock/grpc`
 
-The instructions from the gRPC website (see [the section called "Becoming Acquainted with gRPC"](index.md#sherlock_ug_becoming_acquainted_grpc "Becoming Acquainted with gRPC")) explains how to implement the `.proto`
+The instructions from [the gRPC website](https://grpc.io/docs/what-is-grpc/introduction/) explain how to implement the `.proto`
 files. Currently, the `.proto` files included with Sherlock are:
 
 * SherlockAnalysisService.proto
@@ -56,31 +56,31 @@ files. Currently, the `.proto` files included with Sherlock are:
 To use Sherlock's API's, you must connect to the gRPC server. To connect, do
 the following:
 
-  1. For Windows users, open your computer's command-line interface and enter the command below (you can copy and paste the text) and press Enter. This will change the active directory to the location of your Sherlock installation. If you installed your Ansys software in a non-default location, modify the command-line accordingly.
+  For Windows users, open your computer's command-line interface and enter the command below (you can copy and paste the text) and press Enter. This will change the active directory to the location of your Sherlock installation. If you installed your Ansys software in a non-default location, modify the command-line accordingly.
 
           cd "C:\Program Files\ANSYS Inc\251\sherlock"
 
-  For Linux users, make sure you have updated all users' login startup files as described in **Post-Installation Procedures** for Sherlock in Ansys' **Linux Installation Guide**.
+  For Linux users, make sure you have updated all users' login startup files as described in [Post-Installation Procedures](https://ansyshelp.ansys.com/Views/Secured/corp/v251/en/installation/unix_post_mech.html#linux_postinst_sherlock_01) for Sherlock in Ansys' **Linux Installation Guide**.
 
-  2. Once you have changed directory (Windows), enter the command below. (In the examples shown, port 9090 is selected, but you may specify any of your computer's available communications ports.)
+ Once you have changed directory (Windows), enter the command below. (In the examples shown, port 9090 is selected, but you may specify any of your computer's available communications ports.)
 
-      Windows:
+Windows:
 
-        ```console
-        SherlockClient.exe -grpcPort=9090
-        ```
+```console
+SherlockClient.exe -grpcPort=9090
+```
 
-      Linux:
+Linux:
 
-        ```console
-        runSherlock -grpcPort=9090
-        ```
+```console
+runSherlock -grpcPort=9090
+```
 
-      **Tip**
+**Tip**
 
-      You can run API's in Sherlock without launching Sherlock's user interface. See the section below "Running API's without the Sherlock User Interface".
+You can run API's in Sherlock without launching Sherlock's user interface. See the section below "Running API's without the Sherlock User Interface".
 
-  3. If successful, Sherlock will launch and the Sherlock Client Console appears (Windows), confirming the gRPC server is running on port 9090 or whichever port you selected. For Linux users, the gRPC status appears in the terminal window.
+If successful, Sherlock will launch and the Sherlock Client Console appears (Windows), confirming the gRPC server is running on port 9090 or whichever port you selected. For Linux users, the gRPC status appears in the terminal window.
 
 ![](../graphics/gRPC/sherlock_ug_gRPC_3.png)
 
@@ -100,7 +100,7 @@ option can be helpful if you wish, for example, to run a batch of analyses
 quickly.
 
 To suppress Sherlock's user interface, simply add **`-noGUI`** to the command
-line when launching Sherlock as described in step 2 in the previous section. For example:
+line when launching Sherlock as described earlier in the previous section. For example:
 
 Windows:
 
@@ -138,9 +138,8 @@ the following:
 
       `C:\Program Files\ANSYS Inc\v251\sherlock\grpc\python`
 
-Each API documented in this chapter provides an example of its implementation
-in Python. [The API Index](index-to-sherlock-api.md "Index to the Sherlock APIs") gives an
-overview of all the functions available to you.
+[The API Index](index-to-sherlock-api.md "Index to the Sherlock APIs") gives an
+overview of all the functions available to you. For each API, you can find an example of its implementation in the section [Examples](Examples.md). 
 
 ## Installing and Setting Up BloomRPC (Optional)
 
