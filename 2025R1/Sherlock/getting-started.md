@@ -158,10 +158,8 @@ Configuring BloomRPC:
 
   2. Load the `.proto` files into BloomRPC by clicking on the ![](../graphics/gRPC/sherlock_ug_gRPC_1.png) icon in the Protos panel. This will open a file explorer interface. Navigate to your Sherlock installation and select all the Sherlock `.proto` files. (See the section above **Where to Find the Sherlock .proto Files**.)
 
-  3. When successfully loaded into BloomRPC, the files will appear in the Protos panel.
+  3. When successfully loaded into BloomRPC, the files will appear in the Protos panel (see A in image below).
+
+  4. Connect to the server by entering the server address. In the example below (B), **0.0.0.0:9090** is shown, but use whatever port number you chose in the section above, **Connecting to the Sherlock gRPC Server**.
 
 ![](../graphics/gRPC/sherlock_ug_gRPC_2.png)
-
-  4. Connect to the server by entering the server address. In this example, **0.0.0.0:9090** is shown, but use whatever port number you chose in the section above, **Connecting to the Sherlock gRPC Server**.
-
-![](../graphics/gRPC/sherlock_ug_gRPC_4.png)
