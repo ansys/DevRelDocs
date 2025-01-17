@@ -12,6 +12,7 @@ Type of offset method during ShellBL generation.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`ShellBLOffsetType.conjugate`](ansys.meshing.prime.ShellBLOffsetType.conjugate.md#ansys.meshing.prime.ShellBLOffsetType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`ShellBLOffsetType.bit_length`](ansys.meshing.prime.ShellBLOffsetType.bit_length.md#ansys.meshing.prime.ShellBLOffsetType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`ShellBLOffsetType.bit_count`](ansys.meshing.prime.ShellBLOffsetType.bit_count.md#ansys.meshing.prime.ShellBLOffsetType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Type of offset method during ShellBL generation.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`ShellBLOffsetType.real`](ansys.meshing.prime.ShellBLOffsetType.real.md#ansys.meshing.prime.ShellBLOffsetType.real)                               | the real part of a complex number                    |
 | [`ShellBLOffsetType.imag`](ansys.meshing.prime.ShellBLOffsetType.imag.md#ansys.meshing.prime.ShellBLOffsetType.imag)                               | the imaginary part of a complex number               |
 | [`ShellBLOffsetType.numerator`](ansys.meshing.prime.ShellBLOffsetType.numerator.md#ansys.meshing.prime.ShellBLOffsetType.numerator)                | the numerator of a rational number in lowest terms   |

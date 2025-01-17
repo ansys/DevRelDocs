@@ -28,6 +28,7 @@ Information of the spline.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Name | Description |
 | [`IGASpline.print_default`](ansys.meshing.prime.IGASpline.print_default.md#ansys.meshing.prime.IGASpline.print_default)()   | Print the default values of `IGASpline` object.   |
 | [`IGASpline.set_default`](ansys.meshing.prime.IGASpline.set_default.md#ansys.meshing.prime.IGASpline.set_default)([id])     | Set the default values of the `IGASpline` object. |
 
@@ -35,5 +36,6 @@ Information of the spline.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------|----------------------------|
+| Name | Description |
 | [`IGASpline.id`](ansys.meshing.prime.IGASpline.id.md#ansys.meshing.prime.IGASpline.id)   | Unique id of the spline.   |
 <!-- vale on -->

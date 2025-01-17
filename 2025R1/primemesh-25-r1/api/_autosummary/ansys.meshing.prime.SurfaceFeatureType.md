@@ -12,6 +12,7 @@ Type of face edges considered as features.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`SurfaceFeatureType.conjugate`](ansys.meshing.prime.SurfaceFeatureType.conjugate.md#ansys.meshing.prime.SurfaceFeatureType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`SurfaceFeatureType.bit_length`](ansys.meshing.prime.SurfaceFeatureType.bit_length.md#ansys.meshing.prime.SurfaceFeatureType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`SurfaceFeatureType.bit_count`](ansys.meshing.prime.SurfaceFeatureType.bit_count.md#ansys.meshing.prime.SurfaceFeatureType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Type of face edges considered as features.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| Name | Description |
 | [`SurfaceFeatureType.real`](ansys.meshing.prime.SurfaceFeatureType.real.md#ansys.meshing.prime.SurfaceFeatureType.real)                                                             | the real part of a complex number                                                                  |
 | [`SurfaceFeatureType.imag`](ansys.meshing.prime.SurfaceFeatureType.imag.md#ansys.meshing.prime.SurfaceFeatureType.imag)                                                             | the imaginary part of a complex number                                                             |
 | [`SurfaceFeatureType.numerator`](ansys.meshing.prime.SurfaceFeatureType.numerator.md#ansys.meshing.prime.SurfaceFeatureType.numerator)                                              | the numerator of a rational number in lowest terms                                                 |

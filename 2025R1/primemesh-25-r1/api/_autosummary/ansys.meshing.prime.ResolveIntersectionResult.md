@@ -28,6 +28,7 @@ Result structure associated with resolve intersections operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Name | Description |
 | [`ResolveIntersectionResult.print_default`](ansys.meshing.prime.ResolveIntersectionResult.print_default.md#ansys.meshing.prime.ResolveIntersectionResult.print_default)()   | Print the default values of `ResolveIntersectionResult` object.   |
 | [`ResolveIntersectionResult.set_default`](ansys.meshing.prime.ResolveIntersectionResult.set_default.md#ansys.meshing.prime.ResolveIntersectionResult.set_default)([...])    | Set the default values of the `ResolveIntersectionResult` object. |
 
@@ -35,5 +36,6 @@ Result structure associated with resolve intersections operation.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| Name | Description |
 | [`ResolveIntersectionResult.error_code`](ansys.meshing.prime.ResolveIntersectionResult.error_code.md#ansys.meshing.prime.ResolveIntersectionResult.error_code)   | Errror code associated with a resolve intersections operation.   |
 <!-- vale on -->

@@ -28,6 +28,7 @@ Parameters to merge parts.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`MergePartsParams.print_default`](ansys.meshing.prime.MergePartsParams.print_default.md#ansys.meshing.prime.MergePartsParams.print_default)()   | Print the default values of `MergePartsParams` object.   |
 | [`MergePartsParams.set_default`](ansys.meshing.prime.MergePartsParams.set_default.md#ansys.meshing.prime.MergePartsParams.set_default)([...])    | Set the default values of the `MergePartsParams` object. |
 
@@ -35,6 +36,7 @@ Parameters to merge parts.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| Name | Description |
 | [`MergePartsParams.merged_part_suggested_name`](ansys.meshing.prime.MergePartsParams.merged_part_suggested_name.md#ansys.meshing.prime.MergePartsParams.merged_part_suggested_name)   | Suggested name to be set on merged part.   |
 
 <a id="examples-using-mergepartsparams"></a>

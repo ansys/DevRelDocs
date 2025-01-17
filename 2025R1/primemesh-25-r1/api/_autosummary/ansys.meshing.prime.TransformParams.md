@@ -28,6 +28,7 @@ Parameters to transform given entities.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Name | Description |
 | [`TransformParams.print_default`](ansys.meshing.prime.TransformParams.print_default.md#ansys.meshing.prime.TransformParams.print_default)()   | Print the default values of `TransformParams` object.   |
 | [`TransformParams.set_default`](ansys.meshing.prime.TransformParams.set_default.md#ansys.meshing.prime.TransformParams.set_default)([...])    | Set the default values of the `TransformParams` object. |
 
@@ -35,5 +36,6 @@ Parameters to transform given entities.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| Name | Description |
 | [`TransformParams.transformation_matrix`](ansys.meshing.prime.TransformParams.transformation_matrix.md#ansys.meshing.prime.TransformParams.transformation_matrix)   | Transformation matrix(4x4) to be used to transform.   |
 <!-- vale on -->

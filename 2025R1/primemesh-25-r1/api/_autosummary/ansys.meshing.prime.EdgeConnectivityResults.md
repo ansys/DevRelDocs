@@ -55,6 +55,7 @@ Result of the edge connectivity information.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Name | Description |
 | [`EdgeConnectivityResults.print_default`](ansys.meshing.prime.EdgeConnectivityResults.print_default.md#ansys.meshing.prime.EdgeConnectivityResults.print_default)()   | Print the default values of `EdgeConnectivityResults` object.   |
 | [`EdgeConnectivityResults.set_default`](ansys.meshing.prime.EdgeConnectivityResults.set_default.md#ansys.meshing.prime.EdgeConnectivityResults.set_default)([...])    | Set the default values of the `EdgeConnectivityResults` object. |
 
@@ -62,6 +63,7 @@ Result of the edge connectivity information.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| Name | Description |
 | [`EdgeConnectivityResults.edge_list`](ansys.meshing.prime.EdgeConnectivityResults.edge_list.md#ansys.meshing.prime.EdgeConnectivityResults.edge_list)                                                                | Edge list describing connectivity of node coordinates.                      |
 | [`EdgeConnectivityResults.edge_zonelet_ids`](ansys.meshing.prime.EdgeConnectivityResults.edge_zonelet_ids.md#ansys.meshing.prime.EdgeConnectivityResults.edge_zonelet_ids)                                           | Edge zonelet ids for which connectivity data is available.                  |
 | [`EdgeConnectivityResults.error_code`](ansys.meshing.prime.EdgeConnectivityResults.error_code.md#ansys.meshing.prime.EdgeConnectivityResults.error_code)                                                             | Error code associated with the get edge connectivity operation.             |

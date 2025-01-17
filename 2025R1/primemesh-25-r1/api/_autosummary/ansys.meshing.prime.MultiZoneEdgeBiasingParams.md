@@ -45,6 +45,7 @@ Defines MultiZone edge biasing control parameters.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Name | Description |
 | [`MultiZoneEdgeBiasingParams.print_default`](ansys.meshing.prime.MultiZoneEdgeBiasingParams.print_default.md#ansys.meshing.prime.MultiZoneEdgeBiasingParams.print_default)()   | Print the default values of `MultiZoneEdgeBiasingParams` object.   |
 | [`MultiZoneEdgeBiasingParams.set_default`](ansys.meshing.prime.MultiZoneEdgeBiasingParams.set_default.md#ansys.meshing.prime.MultiZoneEdgeBiasingParams.set_default)([...])    | Set the default values of the `MultiZoneEdgeBiasingParams` object. |
 
@@ -52,6 +53,7 @@ Defines MultiZone edge biasing control parameters.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Name | Description |
 | [`MultiZoneEdgeBiasingParams.bias_factor`](ansys.meshing.prime.MultiZoneEdgeBiasingParams.bias_factor.md#ansys.meshing.prime.MultiZoneEdgeBiasingParams.bias_factor)   | Bias factor used for MultiZone edge biasing control.            |
 | [`MultiZoneEdgeBiasingParams.edge_scope`](ansys.meshing.prime.MultiZoneEdgeBiasingParams.edge_scope.md#ansys.meshing.prime.MultiZoneEdgeBiasingParams.edge_scope)      | Edge zonelets to control the expanse of edge biasing.           |
 | [`MultiZoneEdgeBiasingParams.face_scope`](ansys.meshing.prime.MultiZoneEdgeBiasingParams.face_scope.md#ansys.meshing.prime.MultiZoneEdgeBiasingParams.face_scope)      | Reference face zonelets to control mesh clustering orientation. |

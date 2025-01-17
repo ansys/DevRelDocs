@@ -19,6 +19,7 @@ For example, with prisms.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| Name | Description |
 | [`AutoMesh.mesh`](ansys.meshing.prime.AutoMesh.mesh.md#ansys.meshing.prime.AutoMesh.mesh)(part_id, automesh_params)   | Performs volume meshing on the part with the given meshing parameters.   |
 
 <a id="examples-using-automesh"></a>

@@ -31,6 +31,7 @@ Provides ids of a pair of overlapping face zonelets.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`OverlapPairs.print_default`](ansys.meshing.prime.OverlapPairs.print_default.md#ansys.meshing.prime.OverlapPairs.print_default)()               | Print the default values of `OverlapPairs` object.   |
 | [`OverlapPairs.set_default`](ansys.meshing.prime.OverlapPairs.set_default.md#ansys.meshing.prime.OverlapPairs.set_default)([zone_id0, zone_id1]) | Set the default values of the `OverlapPairs` object. |
 
@@ -38,6 +39,7 @@ Provides ids of a pair of overlapping face zonelets.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| Name | Description |
 | [`OverlapPairs.zone_id0`](ansys.meshing.prime.OverlapPairs.zone_id0.md#ansys.meshing.prime.OverlapPairs.zone_id0)   | Id of one overlapping face zonelet.   |
 | [`OverlapPairs.zone_id1`](ansys.meshing.prime.OverlapPairs.zone_id1.md#ansys.meshing.prime.OverlapPairs.zone_id1)   | Id of other overlapping face zonelet. |
 <!-- vale on -->

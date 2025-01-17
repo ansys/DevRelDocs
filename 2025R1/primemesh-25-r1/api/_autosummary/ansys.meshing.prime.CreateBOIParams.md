@@ -55,6 +55,7 @@ Parameters used for BOI surface creation in the given axis.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Name | Description |
 | [`CreateBOIParams.print_default`](ansys.meshing.prime.CreateBOIParams.print_default.md#ansys.meshing.prime.CreateBOIParams.print_default)()          | Print the default values of `CreateBOIParams` object.   |
 | [`CreateBOIParams.set_default`](ansys.meshing.prime.CreateBOIParams.set_default.md#ansys.meshing.prime.CreateBOIParams.set_default)([boi_type, ...]) | Set the default values of the `CreateBOIParams` object. |
 
@@ -62,6 +63,7 @@ Parameters used for BOI surface creation in the given axis.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| Name | Description |
 | [`CreateBOIParams.boi_type`](ansys.meshing.prime.CreateBOIParams.boi_type.md#ansys.meshing.prime.CreateBOIParams.boi_type)                                           | Type of BOI offsetting.                                                                            |
 | [`CreateBOIParams.flow_dir`](ansys.meshing.prime.CreateBOIParams.flow_dir.md#ansys.meshing.prime.CreateBOIParams.flow_dir)                                           | Assigns the offset direction of inflation.                                                         |
 | [`CreateBOIParams.number_of_threads`](ansys.meshing.prime.CreateBOIParams.number_of_threads.md#ansys.meshing.prime.CreateBOIParams.number_of_threads)                | Number of threads for multithreading.                                                              |

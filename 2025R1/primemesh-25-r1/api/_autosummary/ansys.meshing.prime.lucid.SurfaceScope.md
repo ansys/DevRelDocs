@@ -15,6 +15,7 @@ a scope for operation on surfaces.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| Name | Description |
 | [`SurfaceScope.get_face_zonelets`](ansys.meshing.prime.lucid.SurfaceScope.get_face_zonelets.md#ansys.meshing.prime.lucid.SurfaceScope.get_face_zonelets)(model, part_id)   | Get the list of face zonelets for the given part in the scope.   |
 | [`SurfaceScope.get_parts`](ansys.meshing.prime.lucid.SurfaceScope.get_parts.md#ansys.meshing.prime.lucid.SurfaceScope.get_parts)(model)                                    | Get the list of part ids in the scope.                           |
 | [`SurfaceScope.get_scope_definition`](ansys.meshing.prime.lucid.SurfaceScope.get_scope_definition.md#ansys.meshing.prime.lucid.SurfaceScope.get_scope_definition)(model)   | Get the scope definition of the scope.                           |

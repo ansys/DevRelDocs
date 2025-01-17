@@ -12,6 +12,7 @@ Part Creation Type decides whether to create a part per CAD Model, Assembly, Par
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`PartCreationType.conjugate`](ansys.meshing.prime.PartCreationType.conjugate.md#ansys.meshing.prime.PartCreationType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`PartCreationType.bit_length`](ansys.meshing.prime.PartCreationType.bit_length.md#ansys.meshing.prime.PartCreationType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`PartCreationType.bit_count`](ansys.meshing.prime.PartCreationType.bit_count.md#ansys.meshing.prime.PartCreationType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Part Creation Type decides whether to create a part per CAD Model, Assembly, Par
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`PartCreationType.real`](ansys.meshing.prime.PartCreationType.real.md#ansys.meshing.prime.PartCreationType.real)                      | the real part of a complex number                    |
 | [`PartCreationType.imag`](ansys.meshing.prime.PartCreationType.imag.md#ansys.meshing.prime.PartCreationType.imag)                      | the imaginary part of a complex number               |
 | [`PartCreationType.numerator`](ansys.meshing.prime.PartCreationType.numerator.md#ansys.meshing.prime.PartCreationType.numerator)       | the numerator of a rational number in lowest terms   |

@@ -28,6 +28,7 @@ Size field computed using meshed size control enables you to set the size based 
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Name | Description |
 | [`MeshedSizingParams.print_default`](ansys.meshing.prime.MeshedSizingParams.print_default.md#ansys.meshing.prime.MeshedSizingParams.print_default)()        | Print the default values of `MeshedSizingParams` object.   |
 | [`MeshedSizingParams.set_default`](ansys.meshing.prime.MeshedSizingParams.set_default.md#ansys.meshing.prime.MeshedSizingParams.set_default)([growth_rate]) | Set the default values of the `MeshedSizingParams` object. |
 
@@ -35,5 +36,6 @@ Size field computed using meshed size control enables you to set the size based 
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Name | Description |
 | [`MeshedSizingParams.growth_rate`](ansys.meshing.prime.MeshedSizingParams.growth_rate.md#ansys.meshing.prime.MeshedSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
 <!-- vale on -->

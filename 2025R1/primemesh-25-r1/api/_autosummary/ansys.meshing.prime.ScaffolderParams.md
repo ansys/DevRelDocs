@@ -59,6 +59,7 @@ Parameters to control scaffold operation.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`ScaffolderParams.print_default`](ansys.meshing.prime.ScaffolderParams.print_default.md#ansys.meshing.prime.ScaffolderParams.print_default)()   | Print the default values of `ScaffolderParams` object.   |
 | [`ScaffolderParams.set_default`](ansys.meshing.prime.ScaffolderParams.set_default.md#ansys.meshing.prime.ScaffolderParams.set_default)([...])    | Set the default values of the `ScaffolderParams` object. |
 
@@ -66,6 +67,7 @@ Parameters to control scaffold operation.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Name | Description |
 | [`ScaffolderParams.absolute_dist_tol`](ansys.meshing.prime.ScaffolderParams.absolute_dist_tol.md#ansys.meshing.prime.ScaffolderParams.absolute_dist_tol)                                                 | Defines the maximum gap to connect.                                   |
 | [`ScaffolderParams.constant_mesh_size`](ansys.meshing.prime.ScaffolderParams.constant_mesh_size.md#ansys.meshing.prime.ScaffolderParams.constant_mesh_size)                                              | Defines the constant edge mesh size to check connection.              |
 | [`ScaffolderParams.edge_merge_control`](ansys.meshing.prime.ScaffolderParams.edge_merge_control.md#ansys.meshing.prime.ScaffolderParams.edge_merge_control)                                              | Specifies type of edge pairs to be merged during scaffold operation.  |

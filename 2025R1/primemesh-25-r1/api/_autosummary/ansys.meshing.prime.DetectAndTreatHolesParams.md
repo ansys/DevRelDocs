@@ -100,6 +100,7 @@ Parameters for detect and treat holes operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Name | Description |
 | [`DetectAndTreatHolesParams.print_default`](ansys.meshing.prime.DetectAndTreatHolesParams.print_default.md#ansys.meshing.prime.DetectAndTreatHolesParams.print_default)()   | Print the default values of `DetectAndTreatHolesParams` object.   |
 | [`DetectAndTreatHolesParams.set_default`](ansys.meshing.prime.DetectAndTreatHolesParams.set_default.md#ansys.meshing.prime.DetectAndTreatHolesParams.set_default)([...])    | Set the default values of the `DetectAndTreatHolesParams` object. |
 
@@ -107,6 +108,7 @@ Parameters for detect and treat holes operation.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Name | Description |
 | [`DetectAndTreatHolesParams.detect_and_defeature_edges_near_holes`](ansys.meshing.prime.DetectAndTreatHolesParams.detect_and_defeature_edges_near_holes.md#ansys.meshing.prime.DetectAndTreatHolesParams.detect_and_defeature_edges_near_holes)   | Option to detect and defeature edges near all holes.                             |
 | [`DetectAndTreatHolesParams.detect_circular_holes`](ansys.meshing.prime.DetectAndTreatHolesParams.detect_circular_holes.md#ansys.meshing.prime.DetectAndTreatHolesParams.detect_circular_holes)                                                   | Option to detect circular holes.                                                 |
 | [`DetectAndTreatHolesParams.detect_circular_holes_params`](ansys.meshing.prime.DetectAndTreatHolesParams.detect_circular_holes_params.md#ansys.meshing.prime.DetectAndTreatHolesParams.detect_circular_holes_params)                              | Parameters for detect circular holes operation.                                  |

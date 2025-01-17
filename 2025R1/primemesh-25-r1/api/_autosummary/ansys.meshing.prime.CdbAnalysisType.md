@@ -12,6 +12,7 @@ Provides the MAPDL CDB analysis type.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`CdbAnalysisType.conjugate`](ansys.meshing.prime.CdbAnalysisType.conjugate.md#ansys.meshing.prime.CdbAnalysisType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`CdbAnalysisType.bit_length`](ansys.meshing.prime.CdbAnalysisType.bit_length.md#ansys.meshing.prime.CdbAnalysisType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`CdbAnalysisType.bit_count`](ansys.meshing.prime.CdbAnalysisType.bit_count.md#ansys.meshing.prime.CdbAnalysisType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Provides the MAPDL CDB analysis type.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Name | Description |
 | [`CdbAnalysisType.real`](ansys.meshing.prime.CdbAnalysisType.real.md#ansys.meshing.prime.CdbAnalysisType.real)                                              | the real part of a complex number                            |
 | [`CdbAnalysisType.imag`](ansys.meshing.prime.CdbAnalysisType.imag.md#ansys.meshing.prime.CdbAnalysisType.imag)                                              | the imaginary part of a complex number                       |
 | [`CdbAnalysisType.numerator`](ansys.meshing.prime.CdbAnalysisType.numerator.md#ansys.meshing.prime.CdbAnalysisType.numerator)                               | the numerator of a rational number in lowest terms           |

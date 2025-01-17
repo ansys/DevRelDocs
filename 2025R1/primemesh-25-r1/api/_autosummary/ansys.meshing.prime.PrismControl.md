@@ -27,6 +27,7 @@ PrismControl allows you to control generation of prisms. Controls include settin
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
+| Name | Description |
 | [`PrismControl.get_surface_scope`](ansys.meshing.prime.PrismControl.get_surface_scope.md#ansys.meshing.prime.PrismControl.get_surface_scope)()         | Gets the surface control scope.          |
 | [`PrismControl.get_volume_scope`](ansys.meshing.prime.PrismControl.get_volume_scope.md#ansys.meshing.prime.PrismControl.get_volume_scope)()            | Gets the volume control scope.           |
 | [`PrismControl.set_growth_params`](ansys.meshing.prime.PrismControl.set_growth_params.md#ansys.meshing.prime.PrismControl.set_growth_params)(...)      | Set growth parameters for prism control. |
@@ -37,6 +38,7 @@ PrismControl allows you to control generation of prisms. Controls include settin
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------|-------------------------------|
+| Name | Description |
 | [`PrismControl.id`](ansys.meshing.prime.PrismControl.id.md#ansys.meshing.prime.PrismControl.id)       | Get the id of PrismControl.   |
 | [`PrismControl.name`](ansys.meshing.prime.PrismControl.name.md#ansys.meshing.prime.PrismControl.name) | Get the name of PrismControl. |
 

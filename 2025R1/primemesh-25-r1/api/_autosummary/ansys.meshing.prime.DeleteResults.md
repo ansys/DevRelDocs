@@ -28,6 +28,7 @@ Results associated with the deletion of items.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| Name | Description |
 | [`DeleteResults.print_default`](ansys.meshing.prime.DeleteResults.print_default.md#ansys.meshing.prime.DeleteResults.print_default)()       | Print the default values of `DeleteResults` object.   |
 | [`DeleteResults.set_default`](ansys.meshing.prime.DeleteResults.set_default.md#ansys.meshing.prime.DeleteResults.set_default)([error_code]) | Set the default values of the `DeleteResults` object. |
 
@@ -35,5 +36,6 @@ Results associated with the deletion of items.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`DeleteResults.error_code`](ansys.meshing.prime.DeleteResults.error_code.md#ansys.meshing.prime.DeleteResults.error_code)   | Error code associated with the failure of operation.   |
 <!-- vale on -->

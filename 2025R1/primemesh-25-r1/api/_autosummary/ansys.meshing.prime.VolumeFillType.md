@@ -12,6 +12,7 @@ Types of volume fill options.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`VolumeFillType.conjugate`](ansys.meshing.prime.VolumeFillType.conjugate.md#ansys.meshing.prime.VolumeFillType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`VolumeFillType.bit_length`](ansys.meshing.prime.VolumeFillType.bit_length.md#ansys.meshing.prime.VolumeFillType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`VolumeFillType.bit_count`](ansys.meshing.prime.VolumeFillType.bit_count.md#ansys.meshing.prime.VolumeFillType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Types of volume fill options.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Name | Description |
 | [`VolumeFillType.real`](ansys.meshing.prime.VolumeFillType.real.md#ansys.meshing.prime.VolumeFillType.real)                      | the real part of a complex number                                                       |
 | [`VolumeFillType.imag`](ansys.meshing.prime.VolumeFillType.imag.md#ansys.meshing.prime.VolumeFillType.imag)                      | the imaginary part of a complex number                                                  |
 | [`VolumeFillType.numerator`](ansys.meshing.prime.VolumeFillType.numerator.md#ansys.meshing.prime.VolumeFillType.numerator)       | the numerator of a rational number in lowest terms                                      |

@@ -12,6 +12,7 @@ Sizing type decides the type of size control.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`SizingType.conjugate`](ansys.meshing.prime.SizingType.conjugate.md#ansys.meshing.prime.SizingType.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`SizingType.bit_length`](ansys.meshing.prime.SizingType.bit_length.md#ansys.meshing.prime.SizingType.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`SizingType.bit_count`](ansys.meshing.prime.SizingType.bit_count.md#ansys.meshing.prime.SizingType.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Sizing type decides the type of size control.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`SizingType.real`](ansys.meshing.prime.SizingType.real.md#ansys.meshing.prime.SizingType.real)                      | the real part of a complex number                    |
 | [`SizingType.imag`](ansys.meshing.prime.SizingType.imag.md#ansys.meshing.prime.SizingType.imag)                      | the imaginary part of a complex number               |
 | [`SizingType.numerator`](ansys.meshing.prime.SizingType.numerator.md#ansys.meshing.prime.SizingType.numerator)       | the numerator of a rational number in lowest terms   |

@@ -2,6 +2,7 @@
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| Name | Description |
 | [`disable_optimizing_numpy_arrays`](ansys.meshing.prime.disable_optimizing_numpy_arrays.md#ansys.meshing.prime.disable_optimizing_numpy_arrays)()       | Disable optimizing numpy arrays over the wire.                                            |
 | [`enable_log_output`](ansys.meshing.prime.enable_log_output.md#ansys.meshing.prime.enable_log_output)([stream])                                         | Enable logger output to given stream.                                                     |
 | [`enable_optimizing_numpy_arrays`](ansys.meshing.prime.enable_optimizing_numpy_arrays.md#ansys.meshing.prime.enable_optimizing_numpy_arrays)()          | Enable optimizing numpy arrays over the wire.                                             |
@@ -14,6 +15,7 @@
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
+| Name | Description |
 | [`AddLabelResults`](ansys.meshing.prime.AddLabelResults.md#ansys.meshing.prime.AddLabelResults)([model, error_code, json_data])                                        | Results associated with the add label operation.                                                                                           |
 | [`AddThicknessParams`](ansys.meshing.prime.AddThicknessParams.md#ansys.meshing.prime.AddThicknessParams)([model, thickness, ...])                                      | Parameters to add thickness for a given plane.                                                                                             |
 | [`AddThicknessResults`](ansys.meshing.prime.AddThicknessResults.md#ansys.meshing.prime.AddThicknessResults)([model, error_code, ...])                                  | Result structure associated with add thickness zonelets.                                                                                   |
@@ -351,6 +353,7 @@
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| Name | Description |
 | [`PrimeRuntimeError`](ansys.meshing.prime.PrimeRuntimeError.md#ansys.meshing.prime.PrimeRuntimeError)(message[, error_code, ...])   | Provides runtime errors for PyPrimeMesh.      |
 | [`PrimeRuntimeWarning`](ansys.meshing.prime.PrimeRuntimeWarning.md#ansys.meshing.prime.PrimeRuntimeWarning)(message)                | Provides the runtime warning for PyPrimeMesh. |
 <!-- vale on -->

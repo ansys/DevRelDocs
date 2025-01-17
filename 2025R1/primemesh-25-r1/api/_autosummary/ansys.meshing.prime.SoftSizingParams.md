@@ -35,6 +35,7 @@ else a uniform size will be maintained.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`SoftSizingParams.print_default`](ansys.meshing.prime.SoftSizingParams.print_default.md#ansys.meshing.prime.SoftSizingParams.print_default)()             | Print the default values of `SoftSizingParams` object.   |
 | [`SoftSizingParams.set_default`](ansys.meshing.prime.SoftSizingParams.set_default.md#ansys.meshing.prime.SoftSizingParams.set_default)([max, growth_rate]) | Set the default values of the `SoftSizingParams` object. |
 
@@ -42,6 +43,7 @@ else a uniform size will be maintained.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Name | Description |
 | [`SoftSizingParams.growth_rate`](ansys.meshing.prime.SoftSizingParams.growth_rate.md#ansys.meshing.prime.SoftSizingParams.growth_rate)   | Growth rate used for transitioning from one element size to neighbor element size.   |
 | [`SoftSizingParams.max`](ansys.meshing.prime.SoftSizingParams.max.md#ansys.meshing.prime.SoftSizingParams.max)                           | Maximum size used for computing edge and face size using soft size control.          |
 

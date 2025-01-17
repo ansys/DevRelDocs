@@ -45,6 +45,7 @@ Parameters for MultiZone meshing.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Name | Description |
 | [`MultiZoneSizingParams.print_default`](ansys.meshing.prime.MultiZoneSizingParams.print_default.md#ansys.meshing.prime.MultiZoneSizingParams.print_default)()   | Print the default values of `MultiZoneSizingParams` object.   |
 | [`MultiZoneSizingParams.set_default`](ansys.meshing.prime.MultiZoneSizingParams.set_default.md#ansys.meshing.prime.MultiZoneSizingParams.set_default)([...])    | Set the default values of the `MultiZoneSizingParams` object. |
 
@@ -52,6 +53,7 @@ Parameters for MultiZone meshing.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`MultiZoneSizingParams.growth_rate`](ansys.meshing.prime.MultiZoneSizingParams.growth_rate.md#ansys.meshing.prime.MultiZoneSizingParams.growth_rate)                                           | Defines growth rate.                                     |
 | [`MultiZoneSizingParams.max_size`](ansys.meshing.prime.MultiZoneSizingParams.max_size.md#ansys.meshing.prime.MultiZoneSizingParams.max_size)                                                    | Defines global maximum mesh size.                        |
 | [`MultiZoneSizingParams.min_size`](ansys.meshing.prime.MultiZoneSizingParams.min_size.md#ansys.meshing.prime.MultiZoneSizingParams.min_size)                                                    | Defines global minimum mesh size.                        |

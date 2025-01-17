@@ -18,6 +18,7 @@ VolumeSearch performs volume mesh quality check based on different cell quality 
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
+| Name | Description |
 | [`VolumeSearch.get_volume_quality_summary`](ansys.meshing.prime.VolumeSearch.get_volume_quality_summary.md#ansys.meshing.prime.VolumeSearch.get_volume_quality_summary)(params)   | Gets the volume quality summary.   |
 
 <a id="examples-using-volumesearch"></a>

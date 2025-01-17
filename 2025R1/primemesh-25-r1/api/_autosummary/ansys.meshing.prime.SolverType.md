@@ -12,6 +12,7 @@ Type of solver.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`SolverType.conjugate`](ansys.meshing.prime.SolverType.conjugate.md#ansys.meshing.prime.SolverType.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`SolverType.bit_length`](ansys.meshing.prime.SolverType.bit_length.md#ansys.meshing.prime.SolverType.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`SolverType.bit_count`](ansys.meshing.prime.SolverType.bit_count.md#ansys.meshing.prime.SolverType.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Type of solver.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`SolverType.real`](ansys.meshing.prime.SolverType.real.md#ansys.meshing.prime.SolverType.real)                      | the real part of a complex number                    |
 | [`SolverType.imag`](ansys.meshing.prime.SolverType.imag.md#ansys.meshing.prime.SolverType.imag)                      | the imaginary part of a complex number               |
 | [`SolverType.numerator`](ansys.meshing.prime.SolverType.numerator.md#ansys.meshing.prime.SolverType.numerator)       | the numerator of a rational number in lowest terms   |

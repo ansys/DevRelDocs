@@ -28,6 +28,7 @@ Parameters used for check face deviation operations.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| Name | Description |
 | [`CheckFaceDeviationParams.print_default`](ansys.meshing.prime.CheckFaceDeviationParams.print_default.md#ansys.meshing.prime.CheckFaceDeviationParams.print_default)()     | Print the default values of `CheckFaceDeviationParams` object.   |
 | [`CheckFaceDeviationParams.set_default`](ansys.meshing.prime.CheckFaceDeviationParams.set_default.md#ansys.meshing.prime.CheckFaceDeviationParams.set_default)([distance]) | Set the default values of the `CheckFaceDeviationParams` object. |
 
@@ -35,5 +36,6 @@ Parameters used for check face deviation operations.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Name | Description |
 | [`CheckFaceDeviationParams.distance`](ansys.meshing.prime.CheckFaceDeviationParams.distance.md#ansys.meshing.prime.CheckFaceDeviationParams.distance)   | Distance above which deviated entities are collected.   |
 <!-- vale on -->

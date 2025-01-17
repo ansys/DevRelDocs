@@ -16,5 +16,6 @@ Provides functionalities to initialize and manage transformation using transform
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| Name | Description |
 | [`Transform.transform_zonelets`](ansys.meshing.prime.Transform.transform_zonelets.md#ansys.meshing.prime.Transform.transform_zonelets)(part_id, ...)   | Transforms given zonelets using provided transform parameters.   |
 <!-- vale on -->

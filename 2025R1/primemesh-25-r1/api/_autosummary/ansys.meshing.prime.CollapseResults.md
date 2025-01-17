@@ -34,6 +34,7 @@ Results associated with collapse face elements.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Name | Description |
 | [`CollapseResults.print_default`](ansys.meshing.prime.CollapseResults.print_default.md#ansys.meshing.prime.CollapseResults.print_default)()            | Print the default values of `CollapseResults` object.   |
 | [`CollapseResults.set_default`](ansys.meshing.prime.CollapseResults.set_default.md#ansys.meshing.prime.CollapseResults.set_default)([error_code, ...]) | Set the default values of the `CollapseResults` object. |
 
@@ -41,6 +42,7 @@ Results associated with collapse face elements.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`CollapseResults.error_code`](ansys.meshing.prime.CollapseResults.error_code.md#ansys.meshing.prime.CollapseResults.error_code)    | Error code associated with the failure of operation.   |
 | [`CollapseResults.n_collapsed`](ansys.meshing.prime.CollapseResults.n_collapsed.md#ansys.meshing.prime.CollapseResults.n_collapsed) | Number of face elements collapsed.                     |
 | [`CollapseResults.n_splits`](ansys.meshing.prime.CollapseResults.n_splits.md#ansys.meshing.prime.CollapseResults.n_splits)          | Number of face elements split.                         |

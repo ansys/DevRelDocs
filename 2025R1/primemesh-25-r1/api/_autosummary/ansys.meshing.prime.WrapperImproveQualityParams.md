@@ -64,6 +64,7 @@ WrapperImproveQualityParams defines parameters to improve wrapper part.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| Name | Description |
 | [`WrapperImproveQualityParams.print_default`](ansys.meshing.prime.WrapperImproveQualityParams.print_default.md#ansys.meshing.prime.WrapperImproveQualityParams.print_default)()   | Print the default values of `WrapperImproveQualityParams` object.   |
 | [`WrapperImproveQualityParams.set_default`](ansys.meshing.prime.WrapperImproveQualityParams.set_default.md#ansys.meshing.prime.WrapperImproveQualityParams.set_default)([...])    | Set the default values of the `WrapperImproveQualityParams` object. |
 
@@ -71,6 +72,7 @@ WrapperImproveQualityParams defines parameters to improve wrapper part.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| Name | Description |
 | [`WrapperImproveQualityParams.aggressively`](ansys.meshing.prime.WrapperImproveQualityParams.aggressively.md#ansys.meshing.prime.WrapperImproveQualityParams.aggressively)                                                 | Control to improve surfaces aggressively or not.                            |
 | [`WrapperImproveQualityParams.geom_zonelets`](ansys.meshing.prime.WrapperImproveQualityParams.geom_zonelets.md#ansys.meshing.prime.WrapperImproveQualityParams.geom_zonelets)                                              | Associated underlying geometry zonelet ids.                                 |
 | [`WrapperImproveQualityParams.inflate_dihedral_face_nodes`](ansys.meshing.prime.WrapperImproveQualityParams.inflate_dihedral_face_nodes.md#ansys.meshing.prime.WrapperImproveQualityParams.inflate_dihedral_face_nodes)    | Control to resolve face dihedral angle by inflating opposite nodes or not.  |

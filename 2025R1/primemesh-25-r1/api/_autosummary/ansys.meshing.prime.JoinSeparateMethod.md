@@ -12,6 +12,7 @@ Join separation method to handle separated overlapped zonelets.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`JoinSeparateMethod.conjugate`](ansys.meshing.prime.JoinSeparateMethod.conjugate.md#ansys.meshing.prime.JoinSeparateMethod.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`JoinSeparateMethod.bit_length`](ansys.meshing.prime.JoinSeparateMethod.bit_length.md#ansys.meshing.prime.JoinSeparateMethod.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`JoinSeparateMethod.bit_count`](ansys.meshing.prime.JoinSeparateMethod.bit_count.md#ansys.meshing.prime.JoinSeparateMethod.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Join separation method to handle separated overlapped zonelets.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`JoinSeparateMethod.real`](ansys.meshing.prime.JoinSeparateMethod.real.md#ansys.meshing.prime.JoinSeparateMethod.real)                      | the real part of a complex number                    |
 | [`JoinSeparateMethod.imag`](ansys.meshing.prime.JoinSeparateMethod.imag.md#ansys.meshing.prime.JoinSeparateMethod.imag)                      | the imaginary part of a complex number               |
 | [`JoinSeparateMethod.numerator`](ansys.meshing.prime.JoinSeparateMethod.numerator.md#ansys.meshing.prime.JoinSeparateMethod.numerator)       | the numerator of a rational number in lowest terms   |

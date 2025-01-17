@@ -2,6 +2,7 @@
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| Name | Description |
 | [`download_block_model_fmd`](ansys.meshing.prime.examples.download_block_model_fmd.md#ansys.meshing.prime.examples.download_block_model_fmd)([destination, force])                                  | Download CAD file for the block model example.                      |
 | [`download_block_model_pmdat`](ansys.meshing.prime.examples.download_block_model_pmdat.md#ansys.meshing.prime.examples.download_block_model_pmdat)([destination, force])                            | Download PMDAT file for the block model example.                    |
 | [`download_block_model_scdoc`](ansys.meshing.prime.examples.download_block_model_scdoc.md#ansys.meshing.prime.examples.download_block_model_scdoc)([destination, force])                            | Download CAD file for the block model example.                      |
@@ -47,5 +48,6 @@
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| Name | Description |
 | [`DownloadManager`](ansys.meshing.prime.examples.DownloadManager.md#ansys.meshing.prime.examples.DownloadManager)(\*args, \*\*kwargs)   | Manages downloads of example files.   |
 <!-- vale on -->

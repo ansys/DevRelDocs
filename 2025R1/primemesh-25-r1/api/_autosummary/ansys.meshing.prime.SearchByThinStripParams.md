@@ -40,6 +40,7 @@ Parameters to search by thin strip of face elements.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Name | Description |
 | [`SearchByThinStripParams.print_default`](ansys.meshing.prime.SearchByThinStripParams.print_default.md#ansys.meshing.prime.SearchByThinStripParams.print_default)()   | Print the default values of `SearchByThinStripParams` object.   |
 | [`SearchByThinStripParams.set_default`](ansys.meshing.prime.SearchByThinStripParams.set_default.md#ansys.meshing.prime.SearchByThinStripParams.set_default)([...])    | Set the default values of the `SearchByThinStripParams` object. |
 
@@ -47,6 +48,7 @@ Parameters to search by thin strip of face elements.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Name | Description |
 | [`SearchByThinStripParams.face_quality_measure`](ansys.meshing.prime.SearchByThinStripParams.face_quality_measure.md#ansys.meshing.prime.SearchByThinStripParams.face_quality_measure)   | Quality measure used for search strip of face elements.                          |
 | [`SearchByThinStripParams.feature_angle`](ansys.meshing.prime.SearchByThinStripParams.feature_angle.md#ansys.meshing.prime.SearchByThinStripParams.feature_angle)                        | Angle used to identify angle based features.                                     |
 | [`SearchByThinStripParams.feature_type`](ansys.meshing.prime.SearchByThinStripParams.feature_type.md#ansys.meshing.prime.SearchByThinStripParams.feature_type)                           | Used to identify thin strip of face elements based on the provided feature type. |

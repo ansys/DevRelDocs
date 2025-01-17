@@ -31,6 +31,7 @@ Results structure associated with search invalid normals operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Name | Description |
 | [`SearchByInvalidNormalsResults.print_default`](ansys.meshing.prime.SearchByInvalidNormalsResults.print_default.md#ansys.meshing.prime.SearchByInvalidNormalsResults.print_default)()   | Print the default values of `SearchByInvalidNormalsResults` object.   |
 | [`SearchByInvalidNormalsResults.set_default`](ansys.meshing.prime.SearchByInvalidNormalsResults.set_default.md#ansys.meshing.prime.SearchByInvalidNormalsResults.set_default)([...])    | Set the default values of the `SearchByInvalidNormalsResults` object. |
 
@@ -38,6 +39,7 @@ Results structure associated with search invalid normals operation.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Name | Description |
 | [`SearchByInvalidNormalsResults.error_code`](ansys.meshing.prime.SearchByInvalidNormalsResults.error_code.md#ansys.meshing.prime.SearchByInvalidNormalsResults.error_code)   | Error code associated with search invalid normals operation.   |
 | [`SearchByInvalidNormalsResults.n_found`](ansys.meshing.prime.SearchByInvalidNormalsResults.n_found.md#ansys.meshing.prime.SearchByInvalidNormalsResults.n_found)            | Number of invalid normals identified.                          |
 <!-- vale on -->

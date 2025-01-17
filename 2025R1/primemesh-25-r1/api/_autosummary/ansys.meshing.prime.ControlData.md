@@ -28,6 +28,7 @@ and wrapper controls.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| Name | Description |
 | [`ControlData.create_multi_zone_control`](ansys.meshing.prime.ControlData.create_multi_zone_control.md#ansys.meshing.prime.ControlData.create_multi_zone_control)()                       | Create multizone control with defaults.                                     |
 | [`ControlData.create_periodic_control`](ansys.meshing.prime.ControlData.create_periodic_control.md#ansys.meshing.prime.ControlData.create_periodic_control)()                             | Create a periodic control.                                                  |
 | [`ControlData.create_prism_control`](ansys.meshing.prime.ControlData.create_prism_control.md#ansys.meshing.prime.ControlData.create_prism_control)()                                      | Create a prism control.                                                     |
@@ -55,6 +56,7 @@ and wrapper controls.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| Name | Description |
 | [`ControlData.id`](ansys.meshing.prime.ControlData.id.md#ansys.meshing.prime.ControlData.id)                                                       | Get the id of ControlData.    |
 | [`ControlData.name`](ansys.meshing.prime.ControlData.name.md#ansys.meshing.prime.ControlData.name)                                                 | Get the name of ControlData.  |
 | [`ControlData.periodic_controls`](ansys.meshing.prime.ControlData.periodic_controls.md#ansys.meshing.prime.ControlData.periodic_controls)          | Get the periodic controls.    |

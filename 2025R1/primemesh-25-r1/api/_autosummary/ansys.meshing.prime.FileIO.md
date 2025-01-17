@@ -16,6 +16,7 @@ Handles reading or writing files from the disk.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Name | Description |
 | [`FileIO.export_boundary_fitted_spline_kfile`](ansys.meshing.prime.FileIO.export_boundary_fitted_spline_kfile.md#ansys.meshing.prime.FileIO.export_boundary_fitted_spline_kfile)(...)   | Export the IGA LS-DYNA keyword file for a boundary fitted spline.     |
 | [`FileIO.export_fluent_case`](ansys.meshing.prime.FileIO.export_fluent_case.md#ansys.meshing.prime.FileIO.export_fluent_case)(file_name, ...)                                           | Export a Fluent case (CAS) file.                                      |
 | [`FileIO.export_fluent_meshing_mesh`](ansys.meshing.prime.FileIO.export_fluent_meshing_mesh.md#ansys.meshing.prime.FileIO.export_fluent_meshing_mesh)(file_name, ...)                   | Export a Fluent Meshing mesh (MSH) file.                              |

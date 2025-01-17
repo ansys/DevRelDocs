@@ -28,6 +28,7 @@ Different type of mesh can be generated using MultiZoneControl. For example, swe
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name | Description |
 | [`MultiZoneControl.set_edge_biasing_params`](ansys.meshing.prime.MultiZoneControl.set_edge_biasing_params.md#ansys.meshing.prime.MultiZoneControl.set_edge_biasing_params)(...)                   | Sets the parameters for edge biasing in terms of topoedges and topofaces during MultiZone mesh.                                                  |
 | [`MultiZoneControl.set_map_mesh_params`](ansys.meshing.prime.MultiZoneControl.set_map_mesh_params.md#ansys.meshing.prime.MultiZoneControl.set_map_mesh_params)(scope_info)                        | Set the parameters for map meshing in terms of topofaces during MultiZone mesh.                                                                  |
 | [`MultiZoneControl.set_multi_zone_sizing_params`](ansys.meshing.prime.MultiZoneControl.set_multi_zone_sizing_params.md#ansys.meshing.prime.MultiZoneControl.set_multi_zone_sizing_params)(params) | Sets the MultiZone parameters.                                                                                                                   |
@@ -39,6 +40,7 @@ Different type of mesh can be generated using MultiZoneControl. For example, swe
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| Name | Description |
 | [`MultiZoneControl.id`](ansys.meshing.prime.MultiZoneControl.id.md#ansys.meshing.prime.MultiZoneControl.id)       | Get the id of MultiZoneControl.   |
 | [`MultiZoneControl.name`](ansys.meshing.prime.MultiZoneControl.name.md#ansys.meshing.prime.MultiZoneControl.name) | Get the name of MultiZoneControl. |
 <!-- vale on -->

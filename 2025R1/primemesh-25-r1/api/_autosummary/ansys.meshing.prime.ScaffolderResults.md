@@ -31,6 +31,7 @@ Results structure associated to scaffold operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Name | Description |
 | [`ScaffolderResults.print_default`](ansys.meshing.prime.ScaffolderResults.print_default.md#ansys.meshing.prime.ScaffolderResults.print_default)()   | Print the default values of `ScaffolderResults` object.   |
 | [`ScaffolderResults.set_default`](ansys.meshing.prime.ScaffolderResults.set_default.md#ansys.meshing.prime.ScaffolderResults.set_default)([...])    | Set the default values of the `ScaffolderResults` object. |
 
@@ -38,6 +39,7 @@ Results structure associated to scaffold operation.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Name | Description |
 | [`ScaffolderResults.error_code`](ansys.meshing.prime.ScaffolderResults.error_code.md#ansys.meshing.prime.ScaffolderResults.error_code)                                        | Error code associated with scaffold operation.    |
 | [`ScaffolderResults.n_incomplete_topo_faces`](ansys.meshing.prime.ScaffolderResults.n_incomplete_topo_faces.md#ansys.meshing.prime.ScaffolderResults.n_incomplete_topo_faces) | Number of topofaces failed in scaffold operation. |
 

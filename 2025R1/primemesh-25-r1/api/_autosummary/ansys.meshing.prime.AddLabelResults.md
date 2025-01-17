@@ -28,6 +28,7 @@ Results associated with the add label operation.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Name | Description |
 | [`AddLabelResults.print_default`](ansys.meshing.prime.AddLabelResults.print_default.md#ansys.meshing.prime.AddLabelResults.print_default)()       | Print the default values of `AddLabelResults` object.   |
 | [`AddLabelResults.set_default`](ansys.meshing.prime.AddLabelResults.set_default.md#ansys.meshing.prime.AddLabelResults.set_default)([error_code]) | Set the default values of the `AddLabelResults` object. |
 
@@ -35,5 +36,6 @@ Results associated with the add label operation.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| Name | Description |
 | [`AddLabelResults.error_code`](ansys.meshing.prime.AddLabelResults.error_code.md#ansys.meshing.prime.AddLabelResults.error_code)   | Error code associated with the add label operation.   |
 <!-- vale on -->

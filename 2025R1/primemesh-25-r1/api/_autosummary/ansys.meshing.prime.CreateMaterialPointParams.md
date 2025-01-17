@@ -28,6 +28,7 @@ Defines parameters to create material point.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Name | Description |
 | [`CreateMaterialPointParams.print_default`](ansys.meshing.prime.CreateMaterialPointParams.print_default.md#ansys.meshing.prime.CreateMaterialPointParams.print_default)()   | Print the default values of `CreateMaterialPointParams` object.   |
 | [`CreateMaterialPointParams.set_default`](ansys.meshing.prime.CreateMaterialPointParams.set_default.md#ansys.meshing.prime.CreateMaterialPointParams.set_default)([type])   | Set the default values of the `CreateMaterialPointParams` object. |
 
@@ -35,5 +36,6 @@ Defines parameters to create material point.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
+| Name | Description |
 | [`CreateMaterialPointParams.type`](ansys.meshing.prime.CreateMaterialPointParams.type.md#ansys.meshing.prime.CreateMaterialPointParams.type)   | Defines the type of material point.   |
 <!-- vale on -->

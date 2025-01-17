@@ -28,6 +28,7 @@ Results associated with the merge nodes operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Name | Description |
 | [`MergeBoundaryNodesResults.print_default`](ansys.meshing.prime.MergeBoundaryNodesResults.print_default.md#ansys.meshing.prime.MergeBoundaryNodesResults.print_default)()   | Print the default values of `MergeBoundaryNodesResults` object.   |
 | [`MergeBoundaryNodesResults.set_default`](ansys.meshing.prime.MergeBoundaryNodesResults.set_default.md#ansys.meshing.prime.MergeBoundaryNodesResults.set_default)([...])    | Set the default values of the `MergeBoundaryNodesResults` object. |
 
@@ -35,5 +36,6 @@ Results associated with the merge nodes operation.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Name | Description |
 | [`MergeBoundaryNodesResults.error_code`](ansys.meshing.prime.MergeBoundaryNodesResults.error_code.md#ansys.meshing.prime.MergeBoundaryNodesResults.error_code)   | Error Code associated with failure of merge nodes operation.   |
 <!-- vale on -->

@@ -28,6 +28,7 @@ Results associated with delete material point operation.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Name | Description |
 | [`DeleteMaterialPointResults.print_default`](ansys.meshing.prime.DeleteMaterialPointResults.print_default.md#ansys.meshing.prime.DeleteMaterialPointResults.print_default)()   | Print the default values of `DeleteMaterialPointResults` object.   |
 | [`DeleteMaterialPointResults.set_default`](ansys.meshing.prime.DeleteMaterialPointResults.set_default.md#ansys.meshing.prime.DeleteMaterialPointResults.set_default)([...])    | Set the default values of the `DeleteMaterialPointResults` object. |
 
@@ -35,5 +36,6 @@ Results associated with delete material point operation.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`DeleteMaterialPointResults.error_code`](ansys.meshing.prime.DeleteMaterialPointResults.error_code.md#ansys.meshing.prime.DeleteMaterialPointResults.error_code)   | Error code associated with the failure of operation.   |
 <!-- vale on -->

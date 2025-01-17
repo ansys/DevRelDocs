@@ -12,6 +12,7 @@ Control point selection type.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`ControlPointSelection.conjugate`](ansys.meshing.prime.ControlPointSelection.conjugate.md#ansys.meshing.prime.ControlPointSelection.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`ControlPointSelection.bit_length`](ansys.meshing.prime.ControlPointSelection.bit_length.md#ansys.meshing.prime.ControlPointSelection.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`ControlPointSelection.bit_count`](ansys.meshing.prime.ControlPointSelection.bit_count.md#ansys.meshing.prime.ControlPointSelection.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Control point selection type.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`ControlPointSelection.real`](ansys.meshing.prime.ControlPointSelection.real.md#ansys.meshing.prime.ControlPointSelection.real)                                        | the real part of a complex number                    |
 | [`ControlPointSelection.imag`](ansys.meshing.prime.ControlPointSelection.imag.md#ansys.meshing.prime.ControlPointSelection.imag)                                        | the imaginary part of a complex number               |
 | [`ControlPointSelection.numerator`](ansys.meshing.prime.ControlPointSelection.numerator.md#ansys.meshing.prime.ControlPointSelection.numerator)                         | the numerator of a rational number in lowest terms   |

@@ -12,6 +12,7 @@ The type of face quality measures to check face quality metrics.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`FaceQualityMeasure.conjugate`](ansys.meshing.prime.FaceQualityMeasure.conjugate.md#ansys.meshing.prime.FaceQualityMeasure.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`FaceQualityMeasure.bit_length`](ansys.meshing.prime.FaceQualityMeasure.bit_length.md#ansys.meshing.prime.FaceQualityMeasure.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`FaceQualityMeasure.bit_count`](ansys.meshing.prime.FaceQualityMeasure.bit_count.md#ansys.meshing.prime.FaceQualityMeasure.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ The type of face quality measures to check face quality metrics.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name | Description |
 | [`FaceQualityMeasure.real`](ansys.meshing.prime.FaceQualityMeasure.real.md#ansys.meshing.prime.FaceQualityMeasure.real)                               | the real part of a complex number                                                                                                                                         |
 | [`FaceQualityMeasure.imag`](ansys.meshing.prime.FaceQualityMeasure.imag.md#ansys.meshing.prime.FaceQualityMeasure.imag)                               | the imaginary part of a complex number                                                                                                                                    |
 | [`FaceQualityMeasure.numerator`](ansys.meshing.prime.FaceQualityMeasure.numerator.md#ansys.meshing.prime.FaceQualityMeasure.numerator)                | the numerator of a rational number in lowest terms                                                                                                                        |

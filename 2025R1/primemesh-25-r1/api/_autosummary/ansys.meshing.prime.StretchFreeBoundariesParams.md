@@ -25,6 +25,7 @@ Parameters used for stretch free boundaries operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| Name | Description |
 | [`StretchFreeBoundariesParams.print_default`](ansys.meshing.prime.StretchFreeBoundariesParams.print_default.md#ansys.meshing.prime.StretchFreeBoundariesParams.print_default)()   | Print the default values of `StretchFreeBoundariesParams` object.   |
 | [`StretchFreeBoundariesParams.set_default`](ansys.meshing.prime.StretchFreeBoundariesParams.set_default.md#ansys.meshing.prime.StretchFreeBoundariesParams.set_default)()         | Set the default values of the `StretchFreeBoundariesParams` object. |
 <!-- vale on -->

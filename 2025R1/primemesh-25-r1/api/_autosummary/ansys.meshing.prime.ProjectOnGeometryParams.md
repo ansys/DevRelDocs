@@ -35,6 +35,7 @@ Parameters used to project topoface nodes on associated geometry.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Name | Description |
 | [`ProjectOnGeometryParams.print_default`](ansys.meshing.prime.ProjectOnGeometryParams.print_default.md#ansys.meshing.prime.ProjectOnGeometryParams.print_default)()   | Print the default values of `ProjectOnGeometryParams` object.   |
 | [`ProjectOnGeometryParams.set_default`](ansys.meshing.prime.ProjectOnGeometryParams.set_default.md#ansys.meshing.prime.ProjectOnGeometryParams.set_default)([...])    | Set the default values of the `ProjectOnGeometryParams` object. |
 
@@ -42,6 +43,7 @@ Parameters used to project topoface nodes on associated geometry.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`ProjectOnGeometryParams.project_on_facets_if_cadnot_found`](ansys.meshing.prime.ProjectOnGeometryParams.project_on_facets_if_cadnot_found.md#ansys.meshing.prime.ProjectOnGeometryParams.project_on_facets_if_cadnot_found)   | Option to project on facet if geometry is not found.   |
 | [`ProjectOnGeometryParams.project_only_mid_nodes`](ansys.meshing.prime.ProjectOnGeometryParams.project_only_mid_nodes.md#ansys.meshing.prime.ProjectOnGeometryParams.project_only_mid_nodes)                                    | Option to project only the mid nodes.                  |
 <!-- vale on -->

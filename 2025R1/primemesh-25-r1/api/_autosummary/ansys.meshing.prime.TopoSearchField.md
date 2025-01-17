@@ -12,6 +12,7 @@ Toposearch diagnostic field.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`TopoSearchField.conjugate`](ansys.meshing.prime.TopoSearchField.conjugate.md#ansys.meshing.prime.TopoSearchField.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`TopoSearchField.bit_length`](ansys.meshing.prime.TopoSearchField.bit_length.md#ansys.meshing.prime.TopoSearchField.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`TopoSearchField.bit_count`](ansys.meshing.prime.TopoSearchField.bit_count.md#ansys.meshing.prime.TopoSearchField.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Toposearch diagnostic field.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Name | Description |
 | [`TopoSearchField.real`](ansys.meshing.prime.TopoSearchField.real.md#ansys.meshing.prime.TopoSearchField.real)                                                                                                       | the real part of a complex number                             |
 | [`TopoSearchField.imag`](ansys.meshing.prime.TopoSearchField.imag.md#ansys.meshing.prime.TopoSearchField.imag)                                                                                                       | the imaginary part of a complex number                        |
 | [`TopoSearchField.numerator`](ansys.meshing.prime.TopoSearchField.numerator.md#ansys.meshing.prime.TopoSearchField.numerator)                                                                                        | the numerator of a rational number in lowest terms            |

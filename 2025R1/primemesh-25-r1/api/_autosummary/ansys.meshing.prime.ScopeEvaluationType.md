@@ -12,6 +12,7 @@ ScopeDefinition uses evaluation type to evaluate the scope.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`ScopeEvaluationType.conjugate`](ansys.meshing.prime.ScopeEvaluationType.conjugate.md#ansys.meshing.prime.ScopeEvaluationType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`ScopeEvaluationType.bit_length`](ansys.meshing.prime.ScopeEvaluationType.bit_length.md#ansys.meshing.prime.ScopeEvaluationType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`ScopeEvaluationType.bit_count`](ansys.meshing.prime.ScopeEvaluationType.bit_count.md#ansys.meshing.prime.ScopeEvaluationType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ ScopeDefinition uses evaluation type to evaluate the scope.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`ScopeEvaluationType.real`](ansys.meshing.prime.ScopeEvaluationType.real.md#ansys.meshing.prime.ScopeEvaluationType.real)                      | the real part of a complex number                    |
 | [`ScopeEvaluationType.imag`](ansys.meshing.prime.ScopeEvaluationType.imag.md#ansys.meshing.prime.ScopeEvaluationType.imag)                      | the imaginary part of a complex number               |
 | [`ScopeEvaluationType.numerator`](ansys.meshing.prime.ScopeEvaluationType.numerator.md#ansys.meshing.prime.ScopeEvaluationType.numerator)       | the numerator of a rational number in lowest terms   |

@@ -28,6 +28,7 @@ Results associated with the transformation.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`TransformResults.print_default`](ansys.meshing.prime.TransformResults.print_default.md#ansys.meshing.prime.TransformResults.print_default)()       | Print the default values of `TransformResults` object.   |
 | [`TransformResults.set_default`](ansys.meshing.prime.TransformResults.set_default.md#ansys.meshing.prime.TransformResults.set_default)([error_code]) | Set the default values of the `TransformResults` object. |
 
@@ -35,5 +36,6 @@ Results associated with the transformation.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`TransformResults.error_code`](ansys.meshing.prime.TransformResults.error_code.md#ansys.meshing.prime.TransformResults.error_code)   | Error code associated with the failure of operation.   |
 <!-- vale on -->

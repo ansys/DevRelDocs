@@ -31,6 +31,7 @@ Result structure associated with BOI creation of zonelets.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`CreateBOIResults.print_default`](ansys.meshing.prime.CreateBOIResults.print_default.md#ansys.meshing.prime.CreateBOIResults.print_default)()            | Print the default values of `CreateBOIResults` object.   |
 | [`CreateBOIResults.set_default`](ansys.meshing.prime.CreateBOIResults.set_default.md#ansys.meshing.prime.CreateBOIResults.set_default)([error_code, ...]) | Set the default values of the `CreateBOIResults` object. |
 
@@ -38,6 +39,7 @@ Result structure associated with BOI creation of zonelets.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| Name | Description |
 | [`CreateBOIResults.error_code`](ansys.meshing.prime.CreateBOIResults.error_code.md#ansys.meshing.prime.CreateBOIResults.error_code)   | Error code associated with failure of operation.   |
 | [`CreateBOIResults.part_id`](ansys.meshing.prime.CreateBOIResults.part_id.md#ansys.meshing.prime.CreateBOIResults.part_id)            | The BOI part id.                                   |
 <!-- vale on -->

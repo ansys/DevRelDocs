@@ -35,6 +35,7 @@ Results associated with triangulate operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Name | Description |
 | [`TriangulateResults.print_default`](ansys.meshing.prime.TriangulateResults.print_default.md#ansys.meshing.prime.TriangulateResults.print_default)()            | Print the default values of `TriangulateResults` object.   |
 | [`TriangulateResults.set_default`](ansys.meshing.prime.TriangulateResults.set_default.md#ansys.meshing.prime.TriangulateResults.set_default)([error_code, ...]) | Set the default values of the `TriangulateResults` object. |
 
@@ -42,6 +43,7 @@ Results associated with triangulate operation.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`TriangulateResults.error_code`](ansys.meshing.prime.TriangulateResults.error_code.md#ansys.meshing.prime.TriangulateResults.error_code)                               | Error code associated with failure of the operation.   |
 | [`TriangulateResults.n_faces_triangulated`](ansys.meshing.prime.TriangulateResults.n_faces_triangulated.md#ansys.meshing.prime.TriangulateResults.n_faces_triangulated) | Number of faces that were triangulated.                |
 <!-- vale on -->

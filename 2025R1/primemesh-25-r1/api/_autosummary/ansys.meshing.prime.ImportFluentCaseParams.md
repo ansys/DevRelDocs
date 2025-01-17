@@ -28,6 +28,7 @@ Parameters to import fluent case file.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Name | Description |
 | [`ImportFluentCaseParams.print_default`](ansys.meshing.prime.ImportFluentCaseParams.print_default.md#ansys.meshing.prime.ImportFluentCaseParams.print_default)()   | Print the default values of `ImportFluentCaseParams` object.   |
 | [`ImportFluentCaseParams.set_default`](ansys.meshing.prime.ImportFluentCaseParams.set_default.md#ansys.meshing.prime.ImportFluentCaseParams.set_default)([append]) | Set the default values of the `ImportFluentCaseParams` object. |
 
@@ -35,5 +36,6 @@ Parameters to import fluent case file.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Name | Description |
 | [`ImportFluentCaseParams.append`](ansys.meshing.prime.ImportFluentCaseParams.append.md#ansys.meshing.prime.ImportFluentCaseParams.append)   | Option to append imported case instead of resetting model to imported case.   |
 <!-- vale on -->

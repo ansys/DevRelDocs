@@ -12,6 +12,7 @@ Offset type for prism control.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`PrismControlOffsetType.conjugate`](ansys.meshing.prime.PrismControlOffsetType.conjugate.md#ansys.meshing.prime.PrismControlOffsetType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`PrismControlOffsetType.bit_length`](ansys.meshing.prime.PrismControlOffsetType.bit_length.md#ansys.meshing.prime.PrismControlOffsetType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`PrismControlOffsetType.bit_count`](ansys.meshing.prime.PrismControlOffsetType.bit_count.md#ansys.meshing.prime.PrismControlOffsetType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Offset type for prism control.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Name | Description |
 | [`PrismControlOffsetType.real`](ansys.meshing.prime.PrismControlOffsetType.real.md#ansys.meshing.prime.PrismControlOffsetType.real)                      | the real part of a complex number                                             |
 | [`PrismControlOffsetType.imag`](ansys.meshing.prime.PrismControlOffsetType.imag.md#ansys.meshing.prime.PrismControlOffsetType.imag)                      | the imaginary part of a complex number                                        |
 | [`PrismControlOffsetType.numerator`](ansys.meshing.prime.PrismControlOffsetType.numerator.md#ansys.meshing.prime.PrismControlOffsetType.numerator)       | the numerator of a rational number in lowest terms                            |

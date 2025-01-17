@@ -35,6 +35,7 @@ Results associated with the ShellBL mesh.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Name | Description |
 | [`CreateShellBLResults.print_default`](ansys.meshing.prime.CreateShellBLResults.print_default.md#ansys.meshing.prime.CreateShellBLResults.print_default)()   | Print the default values of `CreateShellBLResults` object.   |
 | [`CreateShellBLResults.set_default`](ansys.meshing.prime.CreateShellBLResults.set_default.md#ansys.meshing.prime.CreateShellBLResults.set_default)([...])    | Set the default values of the `CreateShellBLResults` object. |
 
@@ -42,6 +43,7 @@ Results associated with the ShellBL mesh.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`CreateShellBLResults.error_code`](ansys.meshing.prime.CreateShellBLResults.error_code.md#ansys.meshing.prime.CreateShellBLResults.error_code)          | Error code associated with the failure of operation.   |
 | [`CreateShellBLResults.warning_codes`](ansys.meshing.prime.CreateShellBLResults.warning_codes.md#ansys.meshing.prime.CreateShellBLResults.warning_codes) | Warning codes associated with the operation.           |
 <!-- vale on -->

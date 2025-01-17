@@ -19,6 +19,7 @@ Scaffolder is used for achieving connections in structures made of sheets and be
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| Name | Description |
 | [`Scaffolder.delete_shadowed_topo_faces`](ansys.meshing.prime.Scaffolder.delete_shadowed_topo_faces.md#ansys.meshing.prime.Scaffolder.delete_shadowed_topo_faces)(...)                | Delete fully shadowed topofaces.                   |
 | [`Scaffolder.merge_overlapping_topo_faces`](ansys.meshing.prime.Scaffolder.merge_overlapping_topo_faces.md#ansys.meshing.prime.Scaffolder.merge_overlapping_topo_faces)(...)          | Merge overlapping topofaces.                       |
 | [`Scaffolder.scaffold_topo_faces_and_beams`](ansys.meshing.prime.Scaffolder.scaffold_topo_faces_and_beams.md#ansys.meshing.prime.Scaffolder.scaffold_topo_faces_and_beams)(...)       | Scaffold faces and beams with provided parameters. |

@@ -38,6 +38,7 @@ Results of Abaqus import operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| Name | Description |
 | [`ImportAbaqusResults.print_default`](ansys.meshing.prime.ImportAbaqusResults.print_default.md#ansys.meshing.prime.ImportAbaqusResults.print_default)()   | Print the default values of `ImportAbaqusResults` object.   |
 | [`ImportAbaqusResults.set_default`](ansys.meshing.prime.ImportAbaqusResults.set_default.md#ansys.meshing.prime.ImportAbaqusResults.set_default)([...])    | Set the default values of the `ImportAbaqusResults` object. |
 
@@ -45,6 +46,7 @@ Results of Abaqus import operation.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`ImportAbaqusResults.error_code`](ansys.meshing.prime.ImportAbaqusResults.error_code.md#ansys.meshing.prime.ImportAbaqusResults.error_code)          | Error code associated with failure of operation.       |
 | [`ImportAbaqusResults.summary_log`](ansys.meshing.prime.ImportAbaqusResults.summary_log.md#ansys.meshing.prime.ImportAbaqusResults.summary_log)       | Summary log for the import operation in json format.   |
 | [`ImportAbaqusResults.warning_codes`](ansys.meshing.prime.ImportAbaqusResults.warning_codes.md#ansys.meshing.prime.ImportAbaqusResults.warning_codes) | Warning codes associated with Abaqus import operation. |

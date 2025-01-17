@@ -25,6 +25,7 @@ Parameters for importing Abaqus solver input files.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Name | Description |
 | [`ImportAbaqusParams.print_default`](ansys.meshing.prime.ImportAbaqusParams.print_default.md#ansys.meshing.prime.ImportAbaqusParams.print_default)()   | Print the default values of `ImportAbaqusParams` object.   |
 | [`ImportAbaqusParams.set_default`](ansys.meshing.prime.ImportAbaqusParams.set_default.md#ansys.meshing.prime.ImportAbaqusParams.set_default)()         | Set the default values of the `ImportAbaqusParams` object. |
 <!-- vale on -->

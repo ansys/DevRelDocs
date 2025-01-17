@@ -65,6 +65,7 @@ Parameters for defeature topology operations.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Name | Description |
 | [`DefeatureTopologyParams.print_default`](ansys.meshing.prime.DefeatureTopologyParams.print_default.md#ansys.meshing.prime.DefeatureTopologyParams.print_default)()   | Print the default values of `DefeatureTopologyParams` object.   |
 | [`DefeatureTopologyParams.set_default`](ansys.meshing.prime.DefeatureTopologyParams.set_default.md#ansys.meshing.prime.DefeatureTopologyParams.set_default)([...])    | Set the default values of the `DefeatureTopologyParams` object. |
 
@@ -72,6 +73,7 @@ Parameters for defeature topology operations.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| Name | Description |
 | [`DefeatureTopologyParams.aggressive_edge_merge`](ansys.meshing.prime.DefeatureTopologyParams.aggressive_edge_merge.md#ansys.meshing.prime.DefeatureTopologyParams.aggressive_edge_merge)                      | Indicate whether to allow aggressive edge merge while performing partial defeature.    |
 | [`DefeatureTopologyParams.allow_curved_topo_faces`](ansys.meshing.prime.DefeatureTopologyParams.allow_curved_topo_faces.md#ansys.meshing.prime.DefeatureTopologyParams.allow_curved_topo_faces)                | Option to allow curved topofaces.                                                      |
 | [`DefeatureTopologyParams.delete_interior_nodes`](ansys.meshing.prime.DefeatureTopologyParams.delete_interior_nodes.md#ansys.meshing.prime.DefeatureTopologyParams.delete_interior_nodes)                      | Option to delete interior nodes.                                                       |

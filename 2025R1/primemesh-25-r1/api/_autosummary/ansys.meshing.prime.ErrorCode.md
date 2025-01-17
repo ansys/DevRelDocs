@@ -12,6 +12,7 @@ Error codes associated with the failure of PyPrimeMesh operation.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`ErrorCode.conjugate`](ansys.meshing.prime.ErrorCode.conjugate.md#ansys.meshing.prime.ErrorCode.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`ErrorCode.bit_length`](ansys.meshing.prime.ErrorCode.bit_length.md#ansys.meshing.prime.ErrorCode.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`ErrorCode.bit_count`](ansys.meshing.prime.ErrorCode.bit_count.md#ansys.meshing.prime.ErrorCode.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Error codes associated with the failure of PyPrimeMesh operation.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| Name | Description |
 | [`ErrorCode.real`](ansys.meshing.prime.ErrorCode.real.md#ansys.meshing.prime.ErrorCode.real)                                                                                                                                                 | the real part of a complex number                                                    |
 | [`ErrorCode.imag`](ansys.meshing.prime.ErrorCode.imag.md#ansys.meshing.prime.ErrorCode.imag)                                                                                                                                                 | the imaginary part of a complex number                                               |
 | [`ErrorCode.numerator`](ansys.meshing.prime.ErrorCode.numerator.md#ansys.meshing.prime.ErrorCode.numerator)                                                                                                                                  | the numerator of a rational number in lowest terms                                   |

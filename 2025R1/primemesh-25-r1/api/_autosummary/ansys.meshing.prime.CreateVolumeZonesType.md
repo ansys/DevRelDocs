@@ -12,6 +12,7 @@ Indicate type to create volume zones for volumes.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`CreateVolumeZonesType.conjugate`](ansys.meshing.prime.CreateVolumeZonesType.conjugate.md#ansys.meshing.prime.CreateVolumeZonesType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`CreateVolumeZonesType.bit_length`](ansys.meshing.prime.CreateVolumeZonesType.bit_length.md#ansys.meshing.prime.CreateVolumeZonesType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`CreateVolumeZonesType.bit_count`](ansys.meshing.prime.CreateVolumeZonesType.bit_count.md#ansys.meshing.prime.CreateVolumeZonesType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Indicate type to create volume zones for volumes.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Name | Description |
 | [`CreateVolumeZonesType.real`](ansys.meshing.prime.CreateVolumeZonesType.real.md#ansys.meshing.prime.CreateVolumeZonesType.real)                            | the real part of a complex number                                     |
 | [`CreateVolumeZonesType.imag`](ansys.meshing.prime.CreateVolumeZonesType.imag.md#ansys.meshing.prime.CreateVolumeZonesType.imag)                            | the imaginary part of a complex number                                |
 | [`CreateVolumeZonesType.numerator`](ansys.meshing.prime.CreateVolumeZonesType.numerator.md#ansys.meshing.prime.CreateVolumeZonesType.numerator)             | the numerator of a rational number in lowest terms                    |

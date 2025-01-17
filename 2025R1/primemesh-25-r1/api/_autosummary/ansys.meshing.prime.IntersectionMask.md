@@ -12,6 +12,7 @@ Scaffold parameters use intersection mask to define nature of intersection compu
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`IntersectionMask.conjugate`](ansys.meshing.prime.IntersectionMask.conjugate.md#ansys.meshing.prime.IntersectionMask.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`IntersectionMask.bit_length`](ansys.meshing.prime.IntersectionMask.bit_length.md#ansys.meshing.prime.IntersectionMask.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`IntersectionMask.bit_count`](ansys.meshing.prime.IntersectionMask.bit_count.md#ansys.meshing.prime.IntersectionMask.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Scaffold parameters use intersection mask to define nature of intersection compu
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`IntersectionMask.real`](ansys.meshing.prime.IntersectionMask.real.md#ansys.meshing.prime.IntersectionMask.real)                                              | the real part of a complex number                    |
 | [`IntersectionMask.imag`](ansys.meshing.prime.IntersectionMask.imag.md#ansys.meshing.prime.IntersectionMask.imag)                                              | the imaginary part of a complex number               |
 | [`IntersectionMask.numerator`](ansys.meshing.prime.IntersectionMask.numerator.md#ansys.meshing.prime.IntersectionMask.numerator)                               | the numerator of a rational number in lowest terms   |

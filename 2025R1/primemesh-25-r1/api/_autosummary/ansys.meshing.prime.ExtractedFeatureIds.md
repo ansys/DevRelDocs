@@ -31,6 +31,7 @@ Contains ids of the features extracted.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| Name | Description |
 | [`ExtractedFeatureIds.print_default`](ansys.meshing.prime.ExtractedFeatureIds.print_default.md#ansys.meshing.prime.ExtractedFeatureIds.print_default)()         | Print the default values of `ExtractedFeatureIds` object.   |
 | [`ExtractedFeatureIds.set_default`](ansys.meshing.prime.ExtractedFeatureIds.set_default.md#ansys.meshing.prime.ExtractedFeatureIds.set_default)([part_id, ...]) | Set the default values of the `ExtractedFeatureIds` object. |
 
@@ -38,6 +39,7 @@ Contains ids of the features extracted.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`ExtractedFeatureIds.new_edge_zonelets`](ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets.md#ansys.meshing.prime.ExtractedFeatureIds.new_edge_zonelets)   | Ids of new edge zonelets extracted.                    |
 | [`ExtractedFeatureIds.part_id`](ansys.meshing.prime.ExtractedFeatureIds.part_id.md#ansys.meshing.prime.ExtractedFeatureIds.part_id)                                 | Id of the part from which edge zonelets are extracted. |
 <!-- vale on -->

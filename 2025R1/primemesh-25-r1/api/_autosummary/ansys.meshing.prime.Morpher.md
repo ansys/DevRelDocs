@@ -16,6 +16,7 @@ Morpher contain functionalities to change the geometry, adapting the mesh accord
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Name | Description |
 | [`Morpher.match_morph`](ansys.meshing.prime.Morpher.match_morph.md#ansys.meshing.prime.Morpher.match_morph)(part_id, match_pairs, ...)   | Match source and target zonelets defined by match pairs with prescribed boundary conditions for each pair.   |
 
 <a id="examples-using-morpher"></a>

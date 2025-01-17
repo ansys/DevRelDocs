@@ -12,6 +12,7 @@ Indicates source type to extract wrapper region.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`WrapRegion.conjugate`](ansys.meshing.prime.WrapRegion.conjugate.md#ansys.meshing.prime.WrapRegion.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`WrapRegion.bit_length`](ansys.meshing.prime.WrapRegion.bit_length.md#ansys.meshing.prime.WrapRegion.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`WrapRegion.bit_count`](ansys.meshing.prime.WrapRegion.bit_count.md#ansys.meshing.prime.WrapRegion.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Indicates source type to extract wrapper region.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Name | Description |
 | [`WrapRegion.real`](ansys.meshing.prime.WrapRegion.real.md#ansys.meshing.prime.WrapRegion.real)                                  | the real part of a complex number                             |
 | [`WrapRegion.imag`](ansys.meshing.prime.WrapRegion.imag.md#ansys.meshing.prime.WrapRegion.imag)                                  | the imaginary part of a complex number                        |
 | [`WrapRegion.numerator`](ansys.meshing.prime.WrapRegion.numerator.md#ansys.meshing.prime.WrapRegion.numerator)                   | the numerator of a rational number in lowest terms            |

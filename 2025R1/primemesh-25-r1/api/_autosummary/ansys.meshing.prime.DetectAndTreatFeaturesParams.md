@@ -45,6 +45,7 @@ Parameters for detect and treat features operations.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Name | Description |
 | [`DetectAndTreatFeaturesParams.print_default`](ansys.meshing.prime.DetectAndTreatFeaturesParams.print_default.md#ansys.meshing.prime.DetectAndTreatFeaturesParams.print_default)()   | Print the default values of `DetectAndTreatFeaturesParams` object.   |
 | [`DetectAndTreatFeaturesParams.set_default`](ansys.meshing.prime.DetectAndTreatFeaturesParams.set_default.md#ansys.meshing.prime.DetectAndTreatFeaturesParams.set_default)([...])    | Set the default values of the `DetectAndTreatFeaturesParams` object. |
 
@@ -52,6 +53,7 @@ Parameters for detect and treat features operations.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Name | Description |
 | [`DetectAndTreatFeaturesParams.detect_and_treat_circular_faces`](ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_circular_faces.md#ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_circular_faces)   | Option to detect and treat circular faces.                |
 | [`DetectAndTreatFeaturesParams.detect_and_treat_holes`](ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_holes.md#ansys.meshing.prime.DetectAndTreatFeaturesParams.detect_and_treat_holes)                              | Option to detect and treat holes.                         |
 | [`DetectAndTreatFeaturesParams.treat_circular_faces_params`](ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_circular_faces_params.md#ansys.meshing.prime.DetectAndTreatFeaturesParams.treat_circular_faces_params)               | Parameters for detect and treat circular faces operation. |

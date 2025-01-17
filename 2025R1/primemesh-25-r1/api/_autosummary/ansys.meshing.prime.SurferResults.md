@@ -31,6 +31,7 @@ Results associated with the surface mesh.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| Name | Description |
 | [`SurferResults.print_default`](ansys.meshing.prime.SurferResults.print_default.md#ansys.meshing.prime.SurferResults.print_default)()            | Print the default values of `SurferResults` object.   |
 | [`SurferResults.set_default`](ansys.meshing.prime.SurferResults.set_default.md#ansys.meshing.prime.SurferResults.set_default)([error_code, ...]) | Set the default values of the `SurferResults` object. |
 
@@ -38,6 +39,7 @@ Results associated with the surface mesh.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| Name | Description |
 | [`SurferResults.error_code`](ansys.meshing.prime.SurferResults.error_code.md#ansys.meshing.prime.SurferResults.error_code)                                                                            | Error code associated with the failure of operation.                                             |
 | [`SurferResults.topofaces_not_projected_on_geometry`](ansys.meshing.prime.SurferResults.topofaces_not_projected_on_geometry.md#ansys.meshing.prime.SurferResults.topofaces_not_projected_on_geometry) | Ids of topofaces projected to facets instead of CAD geometry, when projectOnGeometry is enabled. |
 

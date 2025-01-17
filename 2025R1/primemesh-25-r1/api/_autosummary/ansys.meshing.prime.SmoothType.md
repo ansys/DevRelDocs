@@ -12,6 +12,7 @@ Indicates the the type of operation to be performed during the smooth dihedral f
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`SmoothType.conjugate`](ansys.meshing.prime.SmoothType.conjugate.md#ansys.meshing.prime.SmoothType.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`SmoothType.bit_length`](ansys.meshing.prime.SmoothType.bit_length.md#ansys.meshing.prime.SmoothType.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`SmoothType.bit_count`](ansys.meshing.prime.SmoothType.bit_count.md#ansys.meshing.prime.SmoothType.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Indicates the the type of operation to be performed during the smooth dihedral f
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`SmoothType.real`](ansys.meshing.prime.SmoothType.real.md#ansys.meshing.prime.SmoothType.real)                      | the real part of a complex number                    |
 | [`SmoothType.imag`](ansys.meshing.prime.SmoothType.imag.md#ansys.meshing.prime.SmoothType.imag)                      | the imaginary part of a complex number               |
 | [`SmoothType.numerator`](ansys.meshing.prime.SmoothType.numerator.md#ansys.meshing.prime.SmoothType.numerator)       | the numerator of a rational number in lowest terms   |

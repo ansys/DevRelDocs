@@ -16,5 +16,6 @@ Performs various delete operation. For example, delete fringes and overlapping f
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Name | Description |
 | [`DeleteTool.delete_fringes_and_overlaps_on_zonelets`](ansys.meshing.prime.DeleteTool.delete_fringes_and_overlaps_on_zonelets.md#ansys.meshing.prime.DeleteTool.delete_fringes_and_overlaps_on_zonelets)(...)   | Delete fringes and overlapping faces on the given face zonelets.   |
 <!-- vale on -->

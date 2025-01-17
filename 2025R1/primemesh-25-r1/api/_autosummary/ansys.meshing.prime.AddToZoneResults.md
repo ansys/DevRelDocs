@@ -31,6 +31,7 @@ Results associated with the add to zone operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`AddToZoneResults.print_default`](ansys.meshing.prime.AddToZoneResults.print_default.md#ansys.meshing.prime.AddToZoneResults.print_default)()            | Print the default values of `AddToZoneResults` object.   |
 | [`AddToZoneResults.set_default`](ansys.meshing.prime.AddToZoneResults.set_default.md#ansys.meshing.prime.AddToZoneResults.set_default)([error_code, ...]) | Set the default values of the `AddToZoneResults` object. |
 
@@ -38,6 +39,7 @@ Results associated with the add to zone operation.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`AddToZoneResults.error_code`](ansys.meshing.prime.AddToZoneResults.error_code.md#ansys.meshing.prime.AddToZoneResults.error_code)          | Error code associated with the failure of operation.     |
 | [`AddToZoneResults.warning_codes`](ansys.meshing.prime.AddToZoneResults.warning_codes.md#ansys.meshing.prime.AddToZoneResults.warning_codes) | Warning codes associated with the add to zone operation. |
 <!-- vale on -->

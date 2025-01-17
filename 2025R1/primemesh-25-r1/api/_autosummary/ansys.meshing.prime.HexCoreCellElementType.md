@@ -12,6 +12,7 @@ Cell element type of hex-shaped cells.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`HexCoreCellElementType.conjugate`](ansys.meshing.prime.HexCoreCellElementType.conjugate.md#ansys.meshing.prime.HexCoreCellElementType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`HexCoreCellElementType.bit_length`](ansys.meshing.prime.HexCoreCellElementType.bit_length.md#ansys.meshing.prime.HexCoreCellElementType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`HexCoreCellElementType.bit_count`](ansys.meshing.prime.HexCoreCellElementType.bit_count.md#ansys.meshing.prime.HexCoreCellElementType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Cell element type of hex-shaped cells.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`HexCoreCellElementType.real`](ansys.meshing.prime.HexCoreCellElementType.real.md#ansys.meshing.prime.HexCoreCellElementType.real)                      | the real part of a complex number                    |
 | [`HexCoreCellElementType.imag`](ansys.meshing.prime.HexCoreCellElementType.imag.md#ansys.meshing.prime.HexCoreCellElementType.imag)                      | the imaginary part of a complex number               |
 | [`HexCoreCellElementType.numerator`](ansys.meshing.prime.HexCoreCellElementType.numerator.md#ansys.meshing.prime.HexCoreCellElementType.numerator)       | the numerator of a rational number in lowest terms   |

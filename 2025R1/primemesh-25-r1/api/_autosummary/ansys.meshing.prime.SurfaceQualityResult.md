@@ -43,6 +43,7 @@ Result of surface quality.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Name | Description |
 | [`SurfaceQualityResult.print_default`](ansys.meshing.prime.SurfaceQualityResult.print_default.md#ansys.meshing.prime.SurfaceQualityResult.print_default)()   | Print the default values of `SurfaceQualityResult` object.   |
 | [`SurfaceQualityResult.set_default`](ansys.meshing.prime.SurfaceQualityResult.set_default.md#ansys.meshing.prime.SurfaceQualityResult.set_default)([...])    | Set the default values of the `SurfaceQualityResult` object. |
 
@@ -50,6 +51,7 @@ Result of surface quality.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| Name | Description |
 | [`SurfaceQualityResult.face_quality_measure`](ansys.meshing.prime.SurfaceQualityResult.face_quality_measure.md#ansys.meshing.prime.SurfaceQualityResult.face_quality_measure)   | Type of the face quality measure.           |
 | [`SurfaceQualityResult.max_quality`](ansys.meshing.prime.SurfaceQualityResult.max_quality.md#ansys.meshing.prime.SurfaceQualityResult.max_quality)                              | Maximum value of quality measure.           |
 | [`SurfaceQualityResult.measure_name`](ansys.meshing.prime.SurfaceQualityResult.measure_name.md#ansys.meshing.prime.SurfaceQualityResult.measure_name)                           | Name of the face quality measure.           |

@@ -46,6 +46,7 @@ Results associated with the mesh stacker operations.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Name | Description |
 | [`MeshStackerResults.print_default`](ansys.meshing.prime.MeshStackerResults.print_default.md#ansys.meshing.prime.MeshStackerResults.print_default)()            | Print the default values of `MeshStackerResults` object.   |
 | [`MeshStackerResults.set_default`](ansys.meshing.prime.MeshStackerResults.set_default.md#ansys.meshing.prime.MeshStackerResults.set_default)([error_code, ...]) | Set the default values of the `MeshStackerResults` object. |
 
@@ -53,6 +54,7 @@ Results associated with the mesh stacker operations.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Name | Description |
 | [`MeshStackerResults.base_face_ids`](ansys.meshing.prime.MeshStackerResults.base_face_ids.md#ansys.meshing.prime.MeshStackerResults.base_face_ids)                                           | List of base face ids after base creation.                         |
 | [`MeshStackerResults.error_code`](ansys.meshing.prime.MeshStackerResults.error_code.md#ansys.meshing.prime.MeshStackerResults.error_code)                                                    | Error code associated with the operation.                          |
 | [`MeshStackerResults.error_codes_per_topo_volume`](ansys.meshing.prime.MeshStackerResults.error_codes_per_topo_volume.md#ansys.meshing.prime.MeshStackerResults.error_codes_per_topo_volume) | Error codes associated with the topovolume-by-topovolume stacking. |

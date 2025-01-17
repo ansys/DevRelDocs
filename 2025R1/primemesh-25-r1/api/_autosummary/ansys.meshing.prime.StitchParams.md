@@ -40,6 +40,7 @@ Parameters used for stitch operation.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`StitchParams.print_default`](ansys.meshing.prime.StitchParams.print_default.md#ansys.meshing.prime.StitchParams.print_default)()           | Print the default values of `StitchParams` object.   |
 | [`StitchParams.set_default`](ansys.meshing.prime.StitchParams.set_default.md#ansys.meshing.prime.StitchParams.set_default)([tolerance, ...]) | Set the default values of the `StitchParams` object. |
 
@@ -47,6 +48,7 @@ Parameters used for stitch operation.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Name | Description |
 | [`StitchParams.enable_multi_threading`](ansys.meshing.prime.StitchParams.enable_multi_threading.md#ansys.meshing.prime.StitchParams.enable_multi_threading)   | Option to run stitch in parallel using multithread.                       |
 | [`StitchParams.remesh`](ansys.meshing.prime.StitchParams.remesh.md#ansys.meshing.prime.StitchParams.remesh)                                                   | Remesh at stitch connection.                                              |
 | [`StitchParams.tolerance`](ansys.meshing.prime.StitchParams.tolerance.md#ansys.meshing.prime.StitchParams.tolerance)                                          | Distance tolerance for stitching boundaries.                              |

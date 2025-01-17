@@ -30,6 +30,7 @@ Parameters to delete mesh on topoentities.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`DeleteMeshParams.print_default`](ansys.meshing.prime.DeleteMeshParams.print_default.md#ansys.meshing.prime.DeleteMeshParams.print_default)()   | Print the default values of `DeleteMeshParams` object.   |
 | [`DeleteMeshParams.set_default`](ansys.meshing.prime.DeleteMeshParams.set_default.md#ansys.meshing.prime.DeleteMeshParams.set_default)([...])    | Set the default values of the `DeleteMeshParams` object. |
 
@@ -37,6 +38,7 @@ Parameters to delete mesh on topoentities.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| Name | Description |
 | [`DeleteMeshParams.delete_mesh_on_connected_topo_edges`](ansys.meshing.prime.DeleteMeshParams.delete_mesh_on_connected_topo_edges.md#ansys.meshing.prime.DeleteMeshParams.delete_mesh_on_connected_topo_edges)   | Option to delete mesh on topoedges connected only to provided topoentities.   |
 
 <a id="examples-using-deletemeshparams"></a>

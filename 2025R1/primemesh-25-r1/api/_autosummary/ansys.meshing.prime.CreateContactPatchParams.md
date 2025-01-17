@@ -40,6 +40,7 @@ Parameters used for contact patch creation in the given axis.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| Name | Description |
 | [`CreateContactPatchParams.print_default`](ansys.meshing.prime.CreateContactPatchParams.print_default.md#ansys.meshing.prime.CreateContactPatchParams.print_default)()   | Print the default values of `CreateContactPatchParams` object.   |
 | [`CreateContactPatchParams.set_default`](ansys.meshing.prime.CreateContactPatchParams.set_default.md#ansys.meshing.prime.CreateContactPatchParams.set_default)([...])    | Set the default values of the `CreateContactPatchParams` object. |
 
@@ -47,6 +48,7 @@ Parameters used for contact patch creation in the given axis.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Name | Description |
 | [`CreateContactPatchParams.contact_patch_axis`](ansys.meshing.prime.CreateContactPatchParams.contact_patch_axis.md#ansys.meshing.prime.CreateContactPatchParams.contact_patch_axis)             | Assigns the contact patch direction.                                  |
 | [`CreateContactPatchParams.grouping_tolerance`](ansys.meshing.prime.CreateContactPatchParams.grouping_tolerance.md#ansys.meshing.prime.CreateContactPatchParams.grouping_tolerance)             | Tolerance distance value to group regions for contact patch creation. |
 | [`CreateContactPatchParams.offset_distance`](ansys.meshing.prime.CreateContactPatchParams.offset_distance.md#ansys.meshing.prime.CreateContactPatchParams.offset_distance)                      | Source offset distance value.                                         |

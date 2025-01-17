@@ -46,6 +46,7 @@ Input parameters associated with the mesh stacker operations.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Name | Description |
 | [`MeshStackerParams.print_default`](ansys.meshing.prime.MeshStackerParams.print_default.md#ansys.meshing.prime.MeshStackerParams.print_default)()        | Print the default values of `MeshStackerParams` object.   |
 | [`MeshStackerParams.set_default`](ansys.meshing.prime.MeshStackerParams.set_default.md#ansys.meshing.prime.MeshStackerParams.set_default)([origin, ...]) | Set the default values of the `MeshStackerParams` object. |
 
@@ -53,6 +54,7 @@ Input parameters associated with the mesh stacker operations.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`MeshStackerParams.delete_base`](ansys.meshing.prime.MeshStackerParams.delete_base.md#ansys.meshing.prime.MeshStackerParams.delete_base)                                                    | Option to delete base face at the end of stacking.   |
 | [`MeshStackerParams.direction`](ansys.meshing.prime.MeshStackerParams.direction.md#ansys.meshing.prime.MeshStackerParams.direction)                                                          | Direction vector of stacker.                         |
 | [`MeshStackerParams.lateral_defeature_tolerance`](ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance.md#ansys.meshing.prime.MeshStackerParams.lateral_defeature_tolerance)    | Absolute lateral distance tolerance for stacker.     |

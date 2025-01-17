@@ -28,6 +28,7 @@ Results associated with the delete zone.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Name | Description |
 | [`DeleteZoneResults.print_default`](ansys.meshing.prime.DeleteZoneResults.print_default.md#ansys.meshing.prime.DeleteZoneResults.print_default)()       | Print the default values of `DeleteZoneResults` object.   |
 | [`DeleteZoneResults.set_default`](ansys.meshing.prime.DeleteZoneResults.set_default.md#ansys.meshing.prime.DeleteZoneResults.set_default)([error_code]) | Set the default values of the `DeleteZoneResults` object. |
 
@@ -35,5 +36,6 @@ Results associated with the delete zone.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Name | Description |
 | [`DeleteZoneResults.error_code`](ansys.meshing.prime.DeleteZoneResults.error_code.md#ansys.meshing.prime.DeleteZoneResults.error_code)   | Error code associated with the delete zone operation.   |
 <!-- vale on -->

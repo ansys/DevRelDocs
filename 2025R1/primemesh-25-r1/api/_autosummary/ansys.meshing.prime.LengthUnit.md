@@ -12,6 +12,7 @@ Length units
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`LengthUnit.conjugate`](ansys.meshing.prime.LengthUnit.conjugate.md#ansys.meshing.prime.LengthUnit.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`LengthUnit.bit_length`](ansys.meshing.prime.LengthUnit.bit_length.md#ansys.meshing.prime.LengthUnit.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`LengthUnit.bit_count`](ansys.meshing.prime.LengthUnit.bit_count.md#ansys.meshing.prime.LengthUnit.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Length units
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`LengthUnit.real`](ansys.meshing.prime.LengthUnit.real.md#ansys.meshing.prime.LengthUnit.real)                      | the real part of a complex number                    |
 | [`LengthUnit.imag`](ansys.meshing.prime.LengthUnit.imag.md#ansys.meshing.prime.LengthUnit.imag)                      | the imaginary part of a complex number               |
 | [`LengthUnit.numerator`](ansys.meshing.prime.LengthUnit.numerator.md#ansys.meshing.prime.LengthUnit.numerator)       | the numerator of a rational number in lowest terms   |

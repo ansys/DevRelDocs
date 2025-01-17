@@ -55,6 +55,7 @@ Result of the face connectivity information.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Name | Description |
 | [`FaceConnectivityResults.print_default`](ansys.meshing.prime.FaceConnectivityResults.print_default.md#ansys.meshing.prime.FaceConnectivityResults.print_default)()   | Print the default values of `FaceConnectivityResults` object.   |
 | [`FaceConnectivityResults.set_default`](ansys.meshing.prime.FaceConnectivityResults.set_default.md#ansys.meshing.prime.FaceConnectivityResults.set_default)([...])    | Set the default values of the `FaceConnectivityResults` object. |
 
@@ -62,6 +63,7 @@ Result of the face connectivity information.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| Name | Description |
 | [`FaceConnectivityResults.error_code`](ansys.meshing.prime.FaceConnectivityResults.error_code.md#ansys.meshing.prime.FaceConnectivityResults.error_code)                                                             | Error code associated with the get face connectivity operation.             |
 | [`FaceConnectivityResults.face_list`](ansys.meshing.prime.FaceConnectivityResults.face_list.md#ansys.meshing.prime.FaceConnectivityResults.face_list)                                                                | Face list describing connectivity of node coordinates.                      |
 | [`FaceConnectivityResults.face_zone_ids`](ansys.meshing.prime.FaceConnectivityResults.face_zone_ids.md#ansys.meshing.prime.FaceConnectivityResults.face_zone_ids)                                                    | Face zone id corresponding to each topoface or face zonelet.                |

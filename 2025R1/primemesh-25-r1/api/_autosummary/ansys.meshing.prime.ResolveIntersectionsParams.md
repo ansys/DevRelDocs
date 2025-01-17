@@ -28,6 +28,7 @@ ResolveIntersectionsParams define parameters for resolve intersections.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Name | Description |
 | [`ResolveIntersectionsParams.print_default`](ansys.meshing.prime.ResolveIntersectionsParams.print_default.md#ansys.meshing.prime.ResolveIntersectionsParams.print_default)()   | Print the default values of `ResolveIntersectionsParams` object.   |
 | [`ResolveIntersectionsParams.set_default`](ansys.meshing.prime.ResolveIntersectionsParams.set_default.md#ansys.meshing.prime.ResolveIntersectionsParams.set_default)([...])    | Set the default values of the `ResolveIntersectionsParams` object. |
 
@@ -35,5 +36,6 @@ ResolveIntersectionsParams define parameters for resolve intersections.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| Name | Description |
 | [`ResolveIntersectionsParams.number_of_threads`](ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads.md#ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads)   | Number of threads for resolve intersections multithreaded operation.   |
 <!-- vale on -->

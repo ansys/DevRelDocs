@@ -40,6 +40,7 @@ DeadRegion defines a dead region for patch flow regions operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| Name | Description |
 | [`DeadRegion.print_default`](ansys.meshing.prime.DeadRegion.print_default.md#ansys.meshing.prime.DeadRegion.print_default)()                  | Print the default values of `DeadRegion` object.   |
 | [`DeadRegion.set_default`](ansys.meshing.prime.DeadRegion.set_default.md#ansys.meshing.prime.DeadRegion.set_default)([face_zonelet_ids, ...]) | Set the default values of the `DeadRegion` object. |
 
@@ -47,6 +48,7 @@ DeadRegion defines a dead region for patch flow regions operation.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| Name | Description |
 | [`DeadRegion.dead_material_points`](ansys.meshing.prime.DeadRegion.dead_material_points.md#ansys.meshing.prime.DeadRegion.dead_material_points)   | Material points to identify dead region.   |
 | [`DeadRegion.face_zonelet_ids`](ansys.meshing.prime.DeadRegion.face_zonelet_ids.md#ansys.meshing.prime.DeadRegion.face_zonelet_ids)               | Face zonelets enclosing dead region.       |
 | [`DeadRegion.hole_size`](ansys.meshing.prime.DeadRegion.hole_size.md#ansys.meshing.prime.DeadRegion.hole_size)                                    | Maximum hole size used for patching.       |

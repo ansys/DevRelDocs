@@ -31,6 +31,7 @@ Results associated with delete volumes operation.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Name | Description |
 | [`DeleteVolumesResults.print_default`](ansys.meshing.prime.DeleteVolumesResults.print_default.md#ansys.meshing.prime.DeleteVolumesResults.print_default)()   | Print the default values of `DeleteVolumesResults` object.   |
 | [`DeleteVolumesResults.set_default`](ansys.meshing.prime.DeleteVolumesResults.set_default.md#ansys.meshing.prime.DeleteVolumesResults.set_default)([...])    | Set the default values of the `DeleteVolumesResults` object. |
 
@@ -38,6 +39,7 @@ Results associated with delete volumes operation.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Name | Description |
 | [`DeleteVolumesResults.deleted_volumes`](ansys.meshing.prime.DeleteVolumesResults.deleted_volumes.md#ansys.meshing.prime.DeleteVolumesResults.deleted_volumes)   | Ids of deleted volumes.                                   |
 | [`DeleteVolumesResults.error_code`](ansys.meshing.prime.DeleteVolumesResults.error_code.md#ansys.meshing.prime.DeleteVolumesResults.error_code)                  | Error code associated with the volume deletion operation. |
 <!-- vale on -->

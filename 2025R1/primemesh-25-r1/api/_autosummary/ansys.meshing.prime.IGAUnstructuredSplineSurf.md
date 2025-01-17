@@ -55,6 +55,7 @@ Information of unstructured spline surface.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| Name | Description |
 | [`IGAUnstructuredSplineSurf.print_default`](ansys.meshing.prime.IGAUnstructuredSplineSurf.print_default.md#ansys.meshing.prime.IGAUnstructuredSplineSurf.print_default)()    | Print the default values of `IGAUnstructuredSplineSurf` object.   |
 | [`IGAUnstructuredSplineSurf.set_default`](ansys.meshing.prime.IGAUnstructuredSplineSurf.set_default.md#ansys.meshing.prime.IGAUnstructuredSplineSurf.set_default)([id, ...]) | Set the default values of the `IGAUnstructuredSplineSurf` object. |
 
@@ -62,6 +63,7 @@ Information of unstructured spline surface.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| Name | Description |
 | [`IGAUnstructuredSplineSurf.average_mesh_size`](ansys.meshing.prime.IGAUnstructuredSplineSurf.average_mesh_size.md#ansys.meshing.prime.IGAUnstructuredSplineSurf.average_mesh_size)                                           | Reference length to compute deviation.                                    |
 | [`IGAUnstructuredSplineSurf.bad_spline_points_indices`](ansys.meshing.prime.IGAUnstructuredSplineSurf.bad_spline_points_indices.md#ansys.meshing.prime.IGAUnstructuredSplineSurf.bad_spline_points_indices)                   | Node indices in the spline points list which has negative jacobian value. |
 | [`IGAUnstructuredSplineSurf.control_points`](ansys.meshing.prime.IGAUnstructuredSplineSurf.control_points.md#ansys.meshing.prime.IGAUnstructuredSplineSurf.control_points)                                                    | Coordinates of the control points of the spline.                          |

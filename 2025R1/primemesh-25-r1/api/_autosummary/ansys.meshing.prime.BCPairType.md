@@ -12,6 +12,7 @@ Option to specify boundary condition pair type.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`BCPairType.conjugate`](ansys.meshing.prime.BCPairType.conjugate.md#ansys.meshing.prime.BCPairType.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`BCPairType.bit_length`](ansys.meshing.prime.BCPairType.bit_length.md#ansys.meshing.prime.BCPairType.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`BCPairType.bit_count`](ansys.meshing.prime.BCPairType.bit_count.md#ansys.meshing.prime.BCPairType.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Option to specify boundary condition pair type.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Name | Description |
 | [`BCPairType.real`](ansys.meshing.prime.BCPairType.real.md#ansys.meshing.prime.BCPairType.real)                      | the real part of a complex number                          |
 | [`BCPairType.imag`](ansys.meshing.prime.BCPairType.imag.md#ansys.meshing.prime.BCPairType.imag)                      | the imaginary part of a complex number                     |
 | [`BCPairType.numerator`](ansys.meshing.prime.BCPairType.numerator.md#ansys.meshing.prime.BCPairType.numerator)       | the numerator of a rational number in lowest terms         |

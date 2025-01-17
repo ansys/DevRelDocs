@@ -16,5 +16,6 @@ Performs various collapse operations. For example, split and collapse on face zo
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| Name | Description |
 | [`CollapseTool.split_and_collapse_on_zonelets`](ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets.md#ansys.meshing.prime.CollapseTool.split_and_collapse_on_zonelets)(...)   | Split and collapse elements on face zonelets with the specified register id.   |
 <!-- vale on -->

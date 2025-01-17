@@ -33,6 +33,7 @@ Parameters to copy zonelets.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Name | Description |
 | [`CopyZoneletsParams.print_default`](ansys.meshing.prime.CopyZoneletsParams.print_default.md#ansys.meshing.prime.CopyZoneletsParams.print_default)()   | Print the default values of `CopyZoneletsParams` object.   |
 | [`CopyZoneletsParams.set_default`](ansys.meshing.prime.CopyZoneletsParams.set_default.md#ansys.meshing.prime.CopyZoneletsParams.set_default)([...])    | Set the default values of the `CopyZoneletsParams` object. |
 
@@ -40,6 +41,7 @@ Parameters to copy zonelets.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| Name | Description |
 | [`CopyZoneletsParams.copy_labels`](ansys.meshing.prime.CopyZoneletsParams.copy_labels.md#ansys.meshing.prime.CopyZoneletsParams.copy_labels)   | Option to copy labels of input zonelets to the corresponding copied zonelets.   |
 | [`CopyZoneletsParams.copy_zones`](ansys.meshing.prime.CopyZoneletsParams.copy_zones.md#ansys.meshing.prime.CopyZoneletsParams.copy_zones)      | Option to copy zones of input zonelets to corresponding copied zonelets.        |
 <!-- vale on -->

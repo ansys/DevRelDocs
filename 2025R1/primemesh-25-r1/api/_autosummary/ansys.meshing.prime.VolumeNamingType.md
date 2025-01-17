@@ -12,6 +12,7 @@ Indicate source types used to name volume zones.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`VolumeNamingType.conjugate`](ansys.meshing.prime.VolumeNamingType.conjugate.md#ansys.meshing.prime.VolumeNamingType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`VolumeNamingType.bit_length`](ansys.meshing.prime.VolumeNamingType.bit_length.md#ansys.meshing.prime.VolumeNamingType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`VolumeNamingType.bit_count`](ansys.meshing.prime.VolumeNamingType.bit_count.md#ansys.meshing.prime.VolumeNamingType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Indicate source types used to name volume zones.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| Name | Description |
 | [`VolumeNamingType.real`](ansys.meshing.prime.VolumeNamingType.real.md#ansys.meshing.prime.VolumeNamingType.real)                            | the real part of a complex number                             |
 | [`VolumeNamingType.imag`](ansys.meshing.prime.VolumeNamingType.imag.md#ansys.meshing.prime.VolumeNamingType.imag)                            | the imaginary part of a complex number                        |
 | [`VolumeNamingType.numerator`](ansys.meshing.prime.VolumeNamingType.numerator.md#ansys.meshing.prime.VolumeNamingType.numerator)             | the numerator of a rational number in lowest terms            |

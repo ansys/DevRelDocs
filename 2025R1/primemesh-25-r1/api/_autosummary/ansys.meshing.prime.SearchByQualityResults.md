@@ -37,6 +37,7 @@ Results of search by quality.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Name | Description |
 | [`SearchByQualityResults.print_default`](ansys.meshing.prime.SearchByQualityResults.print_default.md#ansys.meshing.prime.SearchByQualityResults.print_default)()   | Print the default values of `SearchByQualityResults` object.   |
 | [`SearchByQualityResults.set_default`](ansys.meshing.prime.SearchByQualityResults.set_default.md#ansys.meshing.prime.SearchByQualityResults.set_default)([...])    | Set the default values of the `SearchByQualityResults` object. |
 
@@ -44,6 +45,7 @@ Results of search by quality.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| Name | Description |
 | [`SearchByQualityResults.error_code`](ansys.meshing.prime.SearchByQualityResults.error_code.md#ansys.meshing.prime.SearchByQualityResults.error_code)    | Error code associated with failure of operation.                 |
 | [`SearchByQualityResults.max_quality`](ansys.meshing.prime.SearchByQualityResults.max_quality.md#ansys.meshing.prime.SearchByQualityResults.max_quality) | Maximum quality found by search.                                 |
 | [`SearchByQualityResults.min_quality`](ansys.meshing.prime.SearchByQualityResults.min_quality.md#ansys.meshing.prime.SearchByQualityResults.min_quality) | Minimum quality found by search.                                 |

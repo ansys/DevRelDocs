@@ -42,6 +42,7 @@ Parameters to collapse face elements.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| Name | Description |
 | [`CollapseParams.print_default`](ansys.meshing.prime.CollapseParams.print_default.md#ansys.meshing.prime.CollapseParams.print_default)()              | Print the default values of `CollapseParams` object.   |
 | [`CollapseParams.set_default`](ansys.meshing.prime.CollapseParams.set_default.md#ansys.meshing.prime.CollapseParams.set_default)([feature_type, ...]) | Set the default values of the `CollapseParams` object. |
 
@@ -49,6 +50,7 @@ Parameters to collapse face elements.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name | Description |
 | [`CollapseParams.collapse_ratio`](ansys.meshing.prime.CollapseParams.collapse_ratio.md#ansys.meshing.prime.CollapseParams.collapse_ratio)                         | Maximum ratio of shortest face edge length to longest face edge length.                                                                         |
 | [`CollapseParams.feature_type`](ansys.meshing.prime.CollapseParams.feature_type.md#ansys.meshing.prime.CollapseParams.feature_type)                               | Feature type to be preserved when performing collapse.                                                                                          |
 | [`CollapseParams.keep_edge_connectivity`](ansys.meshing.prime.CollapseParams.keep_edge_connectivity.md#ansys.meshing.prime.CollapseParams.keep_edge_connectivity) | Option to keep edge connectivity.                                                                                                               |

@@ -37,6 +37,7 @@ Result structure associated to Wrap operation.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| Name | Description |
 | [`WrapResult.print_default`](ansys.meshing.prime.WrapResult.print_default.md#ansys.meshing.prime.WrapResult.print_default)()               | Print the default values of `WrapResult` object.   |
 | [`WrapResult.set_default`](ansys.meshing.prime.WrapResult.set_default.md#ansys.meshing.prime.WrapResult.set_default)([warning_codes, ...]) | Set the default values of the `WrapResult` object. |
 
@@ -44,6 +45,7 @@ Result structure associated to Wrap operation.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Name | Description |
 | [`WrapResult.error_code`](ansys.meshing.prime.WrapResult.error_code.md#ansys.meshing.prime.WrapResult.error_code)          | Error code associated with a wrap operation.      |
 | [`WrapResult.id`](ansys.meshing.prime.WrapResult.id.md#ansys.meshing.prime.WrapResult.id)                                  | Id of the wrapper part created.                   |
 | [`WrapResult.name`](ansys.meshing.prime.WrapResult.name.md#ansys.meshing.prime.WrapResult.name)                            | Name of wrapper part created.                     |

@@ -31,6 +31,7 @@ Parameters to get face and edge connectivity information.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Name | Description |
 | [`FaceAndEdgeConnectivityParams.print_default`](ansys.meshing.prime.FaceAndEdgeConnectivityParams.print_default.md#ansys.meshing.prime.FaceAndEdgeConnectivityParams.print_default)()   | Print the default values of `FaceAndEdgeConnectivityParams` object.   |
 | [`FaceAndEdgeConnectivityParams.set_default`](ansys.meshing.prime.FaceAndEdgeConnectivityParams.set_default.md#ansys.meshing.prime.FaceAndEdgeConnectivityParams.set_default)([...])    | Set the default values of the `FaceAndEdgeConnectivityParams` object. |
 
@@ -38,6 +39,7 @@ Parameters to get face and edge connectivity information.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| Name | Description |
 | [`FaceAndEdgeConnectivityParams.reorder_edge_zonelets_mid_nodes`](ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_edge_zonelets_mid_nodes.md#ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_edge_zonelets_mid_nodes)   | Option to reorder mid nodes for quadratic edges.   |
 | [`FaceAndEdgeConnectivityParams.reorder_face_zonelets_mid_nodes`](ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_face_zonelets_mid_nodes.md#ansys.meshing.prime.FaceAndEdgeConnectivityParams.reorder_face_zonelets_mid_nodes)   | Option to reorder mid nodes for quadratic faces.   |
 <!-- vale on -->

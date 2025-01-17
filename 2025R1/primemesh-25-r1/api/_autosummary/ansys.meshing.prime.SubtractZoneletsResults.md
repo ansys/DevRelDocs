@@ -31,6 +31,7 @@ Results structure associated with subtracting zonelets.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Name | Description |
 | [`SubtractZoneletsResults.print_default`](ansys.meshing.prime.SubtractZoneletsResults.print_default.md#ansys.meshing.prime.SubtractZoneletsResults.print_default)()   | Print the default values of `SubtractZoneletsResults` object.   |
 | [`SubtractZoneletsResults.set_default`](ansys.meshing.prime.SubtractZoneletsResults.set_default.md#ansys.meshing.prime.SubtractZoneletsResults.set_default)([...])    | Set the default values of the `SubtractZoneletsResults` object. |
 
@@ -38,6 +39,7 @@ Results structure associated with subtracting zonelets.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| Name | Description |
 | [`SubtractZoneletsResults.error_code`](ansys.meshing.prime.SubtractZoneletsResults.error_code.md#ansys.meshing.prime.SubtractZoneletsResults.error_code)                | Error Code associated with subtract operation.   |
 | [`SubtractZoneletsResults.processing_time`](ansys.meshing.prime.SubtractZoneletsResults.processing_time.md#ansys.meshing.prime.SubtractZoneletsResults.processing_time) | Processing time for subtract operation.          |
 <!-- vale on -->

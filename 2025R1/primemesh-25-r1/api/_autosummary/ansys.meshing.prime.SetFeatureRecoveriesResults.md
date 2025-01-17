@@ -31,6 +31,7 @@ Results associated with set feature recoveries.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| Name | Description |
 | [`SetFeatureRecoveriesResults.print_default`](ansys.meshing.prime.SetFeatureRecoveriesResults.print_default.md#ansys.meshing.prime.SetFeatureRecoveriesResults.print_default)()   | Print the default values of `SetFeatureRecoveriesResults` object.   |
 | [`SetFeatureRecoveriesResults.set_default`](ansys.meshing.prime.SetFeatureRecoveriesResults.set_default.md#ansys.meshing.prime.SetFeatureRecoveriesResults.set_default)([...])    | Set the default values of the `SetFeatureRecoveriesResults` object. |
 
@@ -38,6 +39,7 @@ Results associated with set feature recoveries.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`SetFeatureRecoveriesResults.error_code`](ansys.meshing.prime.SetFeatureRecoveriesResults.error_code.md#ansys.meshing.prime.SetFeatureRecoveriesResults.error_code)   | Error code associated with the set feature recoveries.   |
 | [`SetFeatureRecoveriesResults.ids`](ansys.meshing.prime.SetFeatureRecoveriesResults.ids.md#ansys.meshing.prime.SetFeatureRecoveriesResults.ids)                        | Ids of added feature recovery controls.                  |
 <!-- vale on -->

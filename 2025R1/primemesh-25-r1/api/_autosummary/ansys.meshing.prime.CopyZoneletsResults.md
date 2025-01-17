@@ -34,6 +34,7 @@ Result structure associated with copying zonelets.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| Name | Description |
 | [`CopyZoneletsResults.print_default`](ansys.meshing.prime.CopyZoneletsResults.print_default.md#ansys.meshing.prime.CopyZoneletsResults.print_default)()   | Print the default values of `CopyZoneletsResults` object.   |
 | [`CopyZoneletsResults.set_default`](ansys.meshing.prime.CopyZoneletsResults.set_default.md#ansys.meshing.prime.CopyZoneletsResults.set_default)([...])    | Set the default values of the `CopyZoneletsResults` object. |
 
@@ -41,6 +42,7 @@ Result structure associated with copying zonelets.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`CopyZoneletsResults.copied_face_zonelets`](ansys.meshing.prime.CopyZoneletsResults.copied_face_zonelets.md#ansys.meshing.prime.CopyZoneletsResults.copied_face_zonelets)   | Ids of the copied bounding faces of cell zonelets.   |
 | [`CopyZoneletsResults.copied_zonelets`](ansys.meshing.prime.CopyZoneletsResults.copied_zonelets.md#ansys.meshing.prime.CopyZoneletsResults.copied_zonelets)                  | Ids of the copied zonelets.                          |
 | [`CopyZoneletsResults.error_code`](ansys.meshing.prime.CopyZoneletsResults.error_code.md#ansys.meshing.prime.CopyZoneletsResults.error_code)                                 | Error code associated with failure of operation.     |

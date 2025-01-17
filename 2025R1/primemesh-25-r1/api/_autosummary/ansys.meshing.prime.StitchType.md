@@ -12,6 +12,7 @@ Stitch type depending on nature of surface boundary edges to be stitched.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`StitchType.conjugate`](ansys.meshing.prime.StitchType.conjugate.md#ansys.meshing.prime.StitchType.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`StitchType.bit_length`](ansys.meshing.prime.StitchType.bit_length.md#ansys.meshing.prime.StitchType.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`StitchType.bit_count`](ansys.meshing.prime.StitchType.bit_count.md#ansys.meshing.prime.StitchType.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Stitch type depending on nature of surface boundary edges to be stitched.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`StitchType.real`](ansys.meshing.prime.StitchType.real.md#ansys.meshing.prime.StitchType.real)                      | the real part of a complex number                    |
 | [`StitchType.imag`](ansys.meshing.prime.StitchType.imag.md#ansys.meshing.prime.StitchType.imag)                      | the imaginary part of a complex number               |
 | [`StitchType.numerator`](ansys.meshing.prime.StitchType.numerator.md#ansys.meshing.prime.StitchType.numerator)       | the numerator of a rational number in lowest terms   |

@@ -12,6 +12,7 @@ Edge connect type to define the type of connection between edges .
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`EdgeConnectType.conjugate`](ansys.meshing.prime.EdgeConnectType.conjugate.md#ansys.meshing.prime.EdgeConnectType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`EdgeConnectType.bit_length`](ansys.meshing.prime.EdgeConnectType.bit_length.md#ansys.meshing.prime.EdgeConnectType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`EdgeConnectType.bit_count`](ansys.meshing.prime.EdgeConnectType.bit_count.md#ansys.meshing.prime.EdgeConnectType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Edge connect type to define the type of connection between edges .
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| Name | Description |
 | [`EdgeConnectType.real`](ansys.meshing.prime.EdgeConnectType.real.md#ansys.meshing.prime.EdgeConnectType.real)                      | the real part of a complex number                                      |
 | [`EdgeConnectType.imag`](ansys.meshing.prime.EdgeConnectType.imag.md#ansys.meshing.prime.EdgeConnectType.imag)                      | the imaginary part of a complex number                                 |
 | [`EdgeConnectType.numerator`](ansys.meshing.prime.EdgeConnectType.numerator.md#ansys.meshing.prime.EdgeConnectType.numerator)       | the numerator of a rational number in lowest terms                     |

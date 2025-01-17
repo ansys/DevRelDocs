@@ -49,6 +49,7 @@ WrapParams defines parameters for wrapping.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| Name | Description |
 | [`WrapParams.print_default`](ansys.meshing.prime.WrapParams.print_default.md#ansys.meshing.prime.WrapParams.print_default)()               | Print the default values of `WrapParams` object.   |
 | [`WrapParams.set_default`](ansys.meshing.prime.WrapParams.set_default.md#ansys.meshing.prime.WrapParams.set_default)([sizing_method, ...]) | Set the default values of the `WrapParams` object. |
 
@@ -56,6 +57,7 @@ WrapParams defines parameters for wrapping.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`WrapParams.base_size`](ansys.meshing.prime.WrapParams.base_size.md#ansys.meshing.prime.WrapParams.base_size)                                        | Base size to define octree.                              |
 | [`WrapParams.imprint_iterations`](ansys.meshing.prime.WrapParams.imprint_iterations.md#ansys.meshing.prime.WrapParams.imprint_iterations)             | Used to define number of imprint iterations in wrapping. |
 | [`WrapParams.imprint_relative_range`](ansys.meshing.prime.WrapParams.imprint_relative_range.md#ansys.meshing.prime.WrapParams.imprint_relative_range) | Used to define relative range in imprinting in wrapping. |

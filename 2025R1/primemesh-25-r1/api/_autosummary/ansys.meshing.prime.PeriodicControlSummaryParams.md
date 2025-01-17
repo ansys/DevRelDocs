@@ -25,6 +25,7 @@ Parameters used to get size control summary.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| Name | Description |
 | [`PeriodicControlSummaryParams.print_default`](ansys.meshing.prime.PeriodicControlSummaryParams.print_default.md#ansys.meshing.prime.PeriodicControlSummaryParams.print_default)()   | Print the default values of `PeriodicControlSummaryParams` object.   |
 | [`PeriodicControlSummaryParams.set_default`](ansys.meshing.prime.PeriodicControlSummaryParams.set_default.md#ansys.meshing.prime.PeriodicControlSummaryParams.set_default)()         | Set the default values of the `PeriodicControlSummaryParams` object. |
 <!-- vale on -->

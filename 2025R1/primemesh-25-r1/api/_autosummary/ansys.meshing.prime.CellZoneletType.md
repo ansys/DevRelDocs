@@ -12,6 +12,7 @@ Types of cell zonelet.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`CellZoneletType.conjugate`](ansys.meshing.prime.CellZoneletType.conjugate.md#ansys.meshing.prime.CellZoneletType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`CellZoneletType.bit_length`](ansys.meshing.prime.CellZoneletType.bit_length.md#ansys.meshing.prime.CellZoneletType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`CellZoneletType.bit_count`](ansys.meshing.prime.CellZoneletType.bit_count.md#ansys.meshing.prime.CellZoneletType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Types of cell zonelet.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`CellZoneletType.real`](ansys.meshing.prime.CellZoneletType.real.md#ansys.meshing.prime.CellZoneletType.real)                      | the real part of a complex number                    |
 | [`CellZoneletType.imag`](ansys.meshing.prime.CellZoneletType.imag.md#ansys.meshing.prime.CellZoneletType.imag)                      | the imaginary part of a complex number               |
 | [`CellZoneletType.numerator`](ansys.meshing.prime.CellZoneletType.numerator.md#ansys.meshing.prime.CellZoneletType.numerator)       | the numerator of a rational number in lowest terms   |

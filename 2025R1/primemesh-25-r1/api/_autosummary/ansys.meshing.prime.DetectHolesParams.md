@@ -50,6 +50,7 @@ Parameters for detect holes operation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Name | Description |
 | [`DetectHolesParams.print_default`](ansys.meshing.prime.DetectHolesParams.print_default.md#ansys.meshing.prime.DetectHolesParams.print_default)()   | Print the default values of `DetectHolesParams` object.   |
 | [`DetectHolesParams.set_default`](ansys.meshing.prime.DetectHolesParams.set_default.md#ansys.meshing.prime.DetectHolesParams.set_default)([...])    | Set the default values of the `DetectHolesParams` object. |
 
@@ -57,6 +58,7 @@ Parameters for detect holes operation.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| Name | Description |
 | [`DetectHolesParams.allow_curved_topo_faces`](ansys.meshing.prime.DetectHolesParams.allow_curved_topo_faces.md#ansys.meshing.prime.DetectHolesParams.allow_curved_topo_faces)       | Option to allow holes in curved topoface.   |
 | [`DetectHolesParams.max_hole_length`](ansys.meshing.prime.DetectHolesParams.max_hole_length.md#ansys.meshing.prime.DetectHolesParams.max_hole_length)                               | Maximum length of holes.                    |
 | [`DetectHolesParams.max_radius_circular_holes`](ansys.meshing.prime.DetectHolesParams.max_radius_circular_holes.md#ansys.meshing.prime.DetectHolesParams.max_radius_circular_holes) | Maximum radius of circular holes.           |

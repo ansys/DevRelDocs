@@ -46,6 +46,7 @@ Parameter to control feature edge extraction.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| Name | Description |
 | [`ExtractFeatureParams.print_default`](ansys.meshing.prime.ExtractFeatureParams.print_default.md#ansys.meshing.prime.ExtractFeatureParams.print_default)()         | Print the default values of `ExtractFeatureParams` object.   |
 | [`ExtractFeatureParams.set_default`](ansys.meshing.prime.ExtractFeatureParams.set_default.md#ansys.meshing.prime.ExtractFeatureParams.set_default)([replace, ...]) | Set the default values of the `ExtractFeatureParams` object. |
 
@@ -53,6 +54,7 @@ Parameter to control feature edge extraction.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`ExtractFeatureParams.disconnect_with_faces`](ansys.meshing.prime.ExtractFeatureParams.disconnect_with_faces.md#ansys.meshing.prime.ExtractFeatureParams.disconnect_with_faces)   | Option to disconnect edges from faces.                                     |
 | [`ExtractFeatureParams.feature_angle`](ansys.meshing.prime.ExtractFeatureParams.feature_angle.md#ansys.meshing.prime.ExtractFeatureParams.feature_angle)                           | Angle used to capture face features to be  extracted as edges.             |
 | [`ExtractFeatureParams.label_name`](ansys.meshing.prime.ExtractFeatureParams.label_name.md#ansys.meshing.prime.ExtractFeatureParams.label_name)                                    | Label name to be assigned to extracted features.                           |

@@ -37,6 +37,7 @@ Match pair to specify sources, targets for match morphing. Included boundary con
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| Name | Description |
 | [`MatchPair.print_default`](ansys.meshing.prime.MatchPair.print_default.md#ansys.meshing.prime.MatchPair.print_default)()                 | Print the default values of `MatchPair` object.   |
 | [`MatchPair.set_default`](ansys.meshing.prime.MatchPair.set_default.md#ansys.meshing.prime.MatchPair.set_default)([source_surfaces, ...]) | Set the default values of the `MatchPair` object. |
 
@@ -44,6 +45,7 @@ Match pair to specify sources, targets for match morphing. Included boundary con
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| Name | Description |
 | [`MatchPair.bc_pairs`](ansys.meshing.prime.MatchPair.bc_pairs.md#ansys.meshing.prime.MatchPair.bc_pairs)                      | Array of boundary condition pairs.     |
 | [`MatchPair.source_surfaces`](ansys.meshing.prime.MatchPair.source_surfaces.md#ansys.meshing.prime.MatchPair.source_surfaces) | Ids of source surfaces.                |
 | [`MatchPair.target_surfaces`](ansys.meshing.prime.MatchPair.target_surfaces.md#ansys.meshing.prime.MatchPair.target_surfaces) | Ids of target surfaces.                |

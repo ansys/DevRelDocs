@@ -28,6 +28,7 @@ Results associated with match morph operation.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| Name | Description |
 | [`MatchMorphResults.print_default`](ansys.meshing.prime.MatchMorphResults.print_default.md#ansys.meshing.prime.MatchMorphResults.print_default)()       | Print the default values of `MatchMorphResults` object.   |
 | [`MatchMorphResults.set_default`](ansys.meshing.prime.MatchMorphResults.set_default.md#ansys.meshing.prime.MatchMorphResults.set_default)([error_code]) | Set the default values of the `MatchMorphResults` object. |
 
@@ -35,5 +36,6 @@ Results associated with match morph operation.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| Name | Description |
 | [`MatchMorphResults.error_code`](ansys.meshing.prime.MatchMorphResults.error_code.md#ansys.meshing.prime.MatchMorphResults.error_code)   | Errorcode associated with match morph operation.   |
 <!-- vale on -->

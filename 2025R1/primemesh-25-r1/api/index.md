@@ -4,6 +4,7 @@ This section gives an overview of all API classes, methods, and parameters prese
 
 | Name | Description |
 |--------------------------------|---------------------------------------------|
+| Name | Description |
 | `ansys.meshing.prime`          | PyPrimeMesh Client library                  |
 | `ansys.meshing.prime.examples` |                                             |
 | `ansys.meshing.prime.lucid`    | High level helper functions for PyPrimeMesh |

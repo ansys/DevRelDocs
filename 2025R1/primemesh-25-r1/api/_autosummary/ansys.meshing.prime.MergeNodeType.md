@@ -12,6 +12,7 @@ Type of nodes to be merged.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`MergeNodeType.conjugate`](ansys.meshing.prime.MergeNodeType.conjugate.md#ansys.meshing.prime.MergeNodeType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`MergeNodeType.bit_length`](ansys.meshing.prime.MergeNodeType.bit_length.md#ansys.meshing.prime.MergeNodeType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`MergeNodeType.bit_count`](ansys.meshing.prime.MergeNodeType.bit_count.md#ansys.meshing.prime.MergeNodeType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ Type of nodes to be merged.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`MergeNodeType.real`](ansys.meshing.prime.MergeNodeType.real.md#ansys.meshing.prime.MergeNodeType.real)                      | the real part of a complex number                    |
 | [`MergeNodeType.imag`](ansys.meshing.prime.MergeNodeType.imag.md#ansys.meshing.prime.MergeNodeType.imag)                      | the imaginary part of a complex number               |
 | [`MergeNodeType.numerator`](ansys.meshing.prime.MergeNodeType.numerator.md#ansys.meshing.prime.MergeNodeType.numerator)       | the numerator of a rational number in lowest terms   |

@@ -12,6 +12,7 @@ BOI type for BOI creation.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| Name | Description |
 | [`BOIType.conjugate`](ansys.meshing.prime.BOIType.conjugate.md#ansys.meshing.prime.BOIType.conjugate)                                   | Returns self, the complex conjugate of any int.                            |
 | [`BOIType.bit_length`](ansys.meshing.prime.BOIType.bit_length.md#ansys.meshing.prime.BOIType.bit_length)(/)                             | Number of bits necessary to represent self in binary.                      |
 | [`BOIType.bit_count`](ansys.meshing.prime.BOIType.bit_count.md#ansys.meshing.prime.BOIType.bit_count)(/)                                | Number of ones in the binary representation of the absolute value of self. |
@@ -24,6 +25,7 @@ BOI type for BOI creation.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| Name | Description |
 | [`BOIType.real`](ansys.meshing.prime.BOIType.real.md#ansys.meshing.prime.BOIType.real)                            | the real part of a complex number                    |
 | [`BOIType.imag`](ansys.meshing.prime.BOIType.imag.md#ansys.meshing.prime.BOIType.imag)                            | the imaginary part of a complex number               |
 | [`BOIType.numerator`](ansys.meshing.prime.BOIType.numerator.md#ansys.meshing.prime.BOIType.numerator)             | the numerator of a rational number in lowest terms   |

@@ -28,6 +28,7 @@ Parameters to control VTComposer operations.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| Name | Description |
 | [`VTComposerParams.print_default`](ansys.meshing.prime.VTComposerParams.print_default.md#ansys.meshing.prime.VTComposerParams.print_default)()             | Print the default values of `VTComposerParams` object.   |
 | [`VTComposerParams.set_default`](ansys.meshing.prime.VTComposerParams.set_default.md#ansys.meshing.prime.VTComposerParams.set_default)([thin_stripes_tol]) | Set the default values of the `VTComposerParams` object. |
 
@@ -35,5 +36,6 @@ Parameters to control VTComposer operations.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Name | Description |
 | [`VTComposerParams.thin_stripes_tol`](ansys.meshing.prime.VTComposerParams.thin_stripes_tol.md#ansys.meshing.prime.VTComposerParams.thin_stripes_tol)   | **This is a beta parameter**.   |
 <!-- vale on -->
