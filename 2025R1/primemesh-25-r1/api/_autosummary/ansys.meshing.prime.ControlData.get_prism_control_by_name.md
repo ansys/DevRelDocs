@@ -7,14 +7,17 @@
 Get a prism control by name.
 
 * **Parameters:**
+
   **name**
   : Name of the prism control.
+
 * **Returns:**
-  :
 
   [`PrismControl`](ansys.meshing.prime.PrismControl.md#ansys.meshing.prime.PrismControl)
   : Prism control.
+
 * **Return type:**
+
   [`PrismControl`](ansys.meshing.prime.PrismControl.md#ansys.meshing.prime.PrismControl)
 
 ### Examples

@@ -7,6 +7,7 @@
 Set the default values of the `FaceConnectivityResults` object.
 
 * **Parameters:**
+
   **error_code: ErrorCode, optional**
   : Error code associated with the get face connectivity operation.
 

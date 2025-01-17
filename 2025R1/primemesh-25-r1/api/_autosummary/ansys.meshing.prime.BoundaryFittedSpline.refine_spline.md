@@ -10,6 +10,7 @@ Now H and P refinement are supported.
 Refinement along one or more dimension can be suppressed using refinement parameters in the input.
 
 * **Parameters:**
+
   **part_id**
   : Id of the part.
 
@@ -18,11 +19,13 @@ Refinement along one or more dimension can be suppressed using refinement parame
 
   **refine_spline_params**
   : Structure containing parameters for spline refinement.
+
 * **Returns:**
-  :
+  
 
   [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
   : Returns the IGAResults Structure.
+  
 * **Return type:**
   [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
 

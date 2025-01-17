@@ -10,9 +10,8 @@ The type of cell quality measures to check cell quality metrics.
 
 ### Methods
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CellQualityMeasure.conjugate`](ansys.meshing.prime.CellQualityMeasure.conjugate.md#ansys.meshing.prime.CellQualityMeasure.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CellQualityMeasure.bit_length`](ansys.meshing.prime.CellQualityMeasure.bit_length.md#ansys.meshing.prime.CellQualityMeasure.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`CellQualityMeasure.bit_count`](ansys.meshing.prime.CellQualityMeasure.bit_count.md#ansys.meshing.prime.CellQualityMeasure.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`CellQualityMeasure.to_bytes`](ansys.meshing.prime.CellQualityMeasure.to_bytes.md#ansys.meshing.prime.CellQualityMeasure.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ The type of cell quality measures to check cell quality metrics.
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [`CellQualityMeasure.real`](ansys.meshing.prime.CellQualityMeasure.real.md#ansys.meshing.prime.CellQualityMeasure.real)                                                 | the real part of a complex number                                             |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | [`CellQualityMeasure.imag`](ansys.meshing.prime.CellQualityMeasure.imag.md#ansys.meshing.prime.CellQualityMeasure.imag)                                                 | the imaginary part of a complex number                                        |
 | [`CellQualityMeasure.numerator`](ansys.meshing.prime.CellQualityMeasure.numerator.md#ansys.meshing.prime.CellQualityMeasure.numerator)                                  | the numerator of a rational number in lowest terms                            |
 | [`CellQualityMeasure.denominator`](ansys.meshing.prime.CellQualityMeasure.denominator.md#ansys.meshing.prime.CellQualityMeasure.denominator)                            | the denominator of a rational number in lowest terms                          |

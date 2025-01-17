@@ -7,6 +7,7 @@
 Set the default values of the `FaceAndEdgeConnectivityParams` object.
 
 * **Parameters:**
+
   **reorder_face_zonelets_mid_nodes: bool, optional**
   : Option to reorder mid nodes for quadratic faces.
 

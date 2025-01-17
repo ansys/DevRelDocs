@@ -7,13 +7,15 @@
 Create a size control for a sizing type.
 
 * **Parameters:**
+
   **type**
   : Sizing type for creating the size control.
+
 * **Returns:**
-  :
 
   [`SizeControl`](ansys.meshing.prime.SizeControl.md#ansys.meshing.prime.SizeControl)
   : Size control.
+  
 * **Return type:**
   [`SizeControl`](ansys.meshing.prime.SizeControl.md#ansys.meshing.prime.SizeControl)
 

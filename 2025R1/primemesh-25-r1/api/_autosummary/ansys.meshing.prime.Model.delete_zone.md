@@ -7,14 +7,17 @@
 Deletes zone with the given id.
 
 * **Parameters:**
+
   **zone_id**
   : Id of the zone to be deleted.
+
 * **Returns:**
-  :
 
   [`DeleteZoneResults`](ansys.meshing.prime.DeleteZoneResults.md#ansys.meshing.prime.DeleteZoneResults)
   : Returns the DeleteZoneResults.
+
 * **Return type:**
+
   [`DeleteZoneResults`](ansys.meshing.prime.DeleteZoneResults.md#ansys.meshing.prime.DeleteZoneResults)
 
 ### Examples

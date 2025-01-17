@@ -1,8 +1,7 @@
 # ansys.meshing.prime
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [`disable_optimizing_numpy_arrays`](ansys.meshing.prime.disable_optimizing_numpy_arrays.md#ansys.meshing.prime.disable_optimizing_numpy_arrays)()       | Disable optimizing numpy arrays over the wire.                                            |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [`enable_log_output`](ansys.meshing.prime.enable_log_output.md#ansys.meshing.prime.enable_log_output)([stream])                                         | Enable logger output to given stream.                                                     |
 | [`enable_optimizing_numpy_arrays`](ansys.meshing.prime.enable_optimizing_numpy_arrays.md#ansys.meshing.prime.enable_optimizing_numpy_arrays)()          | Enable optimizing numpy arrays over the wire.                                             |
 | [`is_optimizing_numpy_arrays`](ansys.meshing.prime.is_optimizing_numpy_arrays.md#ansys.meshing.prime.is_optimizing_numpy_arrays)()                      | Determine if serialization of numpy arrays is enabled.                                    |
@@ -12,9 +11,8 @@
 | [`numpy_array_optimization_disabled`](ansys.meshing.prime.numpy_array_optimization_disabled.md#ansys.meshing.prime.numpy_array_optimization_disabled)() | Context helper to execute code with numpy optimization disabled.                          |
 | [`numpy_array_optimization_enabled`](ansys.meshing.prime.numpy_array_optimization_enabled.md#ansys.meshing.prime.numpy_array_optimization_enabled)()    | Context helper to execute code with numpy optimization enabled.                           |
 
-| Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | [`AddLabelResults`](ansys.meshing.prime.AddLabelResults.md#ansys.meshing.prime.AddLabelResults)([model, error_code, json_data])                                        | Results associated with the add label operation.                                                                                           |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | [`AddThicknessParams`](ansys.meshing.prime.AddThicknessParams.md#ansys.meshing.prime.AddThicknessParams)([model, thickness, ...])                                      | Parameters to add thickness for a given plane.                                                                                             |
 | [`AddThicknessResults`](ansys.meshing.prime.AddThicknessResults.md#ansys.meshing.prime.AddThicknessResults)([model, error_code, ...])                                  | Result structure associated with add thickness zonelets.                                                                                   |
 | [`AddToZoneResults`](ansys.meshing.prime.AddToZoneResults.md#ansys.meshing.prime.AddToZoneResults)([model, error_code, ...])                                           | Results associated with the add to zone operation.                                                                                         |
@@ -349,8 +347,7 @@
 | [`WriteSizeFieldParams`](ansys.meshing.prime.WriteSizeFieldParams.md#ansys.meshing.prime.WriteSizeFieldParams)([model, ...])                                           | Parameters used to write size field file.                                                                                                  |
 | [`ZoneType`](ansys.meshing.prime.ZoneType.md#ansys.meshing.prime.ZoneType)(value[, names, module, qualname, ...])                                                      | ZoneType decides the type of zone.                                                                                                         |
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | [`PrimeRuntimeError`](ansys.meshing.prime.PrimeRuntimeError.md#ansys.meshing.prime.PrimeRuntimeError)(message[, error_code, ...])   | Provides runtime errors for PyPrimeMesh.      |
+|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | [`PrimeRuntimeWarning`](ansys.meshing.prime.PrimeRuntimeWarning.md#ansys.meshing.prime.PrimeRuntimeWarning)(message)                | Provides the runtime warning for PyPrimeMesh. |
 <!-- vale on -->

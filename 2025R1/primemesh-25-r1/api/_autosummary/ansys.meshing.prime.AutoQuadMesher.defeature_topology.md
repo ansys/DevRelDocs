@@ -7,6 +7,7 @@
 Defeature topology with given parameters.
 
 * **Parameters:**
+
   **part_id**
   : Id of the Part.
 
@@ -15,12 +16,14 @@ Defeature topology with given parameters.
 
   **params**
   : Parameters of defeature topology.
-* **Returns:**
-  :
 
+* **Returns:**
+  
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
   : Returns the AutoQuadMesherResults structure.
+
 * **Return type:**
+
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
 
 ### Notes

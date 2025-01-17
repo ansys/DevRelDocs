@@ -7,9 +7,12 @@
 Set the periodic control parameters.
 
 * **Parameters:**
+
   **periodic_control_params**
   : Parameters to control periodic surface recovery.
+
 * **Return type:**
+
   [`SetParamsResults`](ansys.meshing.prime.SetParamsResults.md#ansys.meshing.prime.SetParamsResults)
 
 ### Examples

@@ -7,17 +7,20 @@
 Gets cell statistics of given cell zonelets using provided cell statistics parameters.
 
 * **Parameters:**
+
   **cell_zonelets**
   : Ids of cell zonelets for which statistics are calculated.
 
   **params**
   : Parameters to get cells statistics.
+
 * **Returns:**
-  :
 
   [`CellStatisticsResults`](ansys.meshing.prime.CellStatisticsResults.md#ansys.meshing.prime.CellStatisticsResults)
   : Returns the CellStatisticsResults.
+
 * **Return type:**
+
   [`CellStatisticsResults`](ansys.meshing.prime.CellStatisticsResults.md#ansys.meshing.prime.CellStatisticsResults)
 
 ### Examples

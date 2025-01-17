@@ -7,6 +7,7 @@
 Results of IGA operations.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `IGAResults` object with default parameters.
 
@@ -32,16 +33,14 @@ Results of IGA operations.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`IGAResults.print_default`](ansys.meshing.prime.IGAResults.print_default.md#ansys.meshing.prime.IGAResults.print_default)()            | Print the default values of `IGAResults` object.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`IGAResults.set_default`](ansys.meshing.prime.IGAResults.set_default.md#ansys.meshing.prime.IGAResults.set_default)([error_code, ...]) | Set the default values of the `IGAResults` object. |
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`IGAResults.error_code`](ansys.meshing.prime.IGAResults.error_code.md#ansys.meshing.prime.IGAResults.error_code)       | Error code if IGA operation is unsuccessful.           |
+|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`IGAResults.spline_ids`](ansys.meshing.prime.IGAResults.spline_ids.md#ansys.meshing.prime.IGAResults.spline_ids)       | Ids of the created spline.                             |
 | [`IGAResults.warning_code`](ansys.meshing.prime.IGAResults.warning_code.md#ansys.meshing.prime.IGAResults.warning_code) | Warning code if IGA operation is partially successful. |
 <!-- vale on -->

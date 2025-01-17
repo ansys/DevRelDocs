@@ -7,6 +7,7 @@
 Set the default values of the `ExportBoundaryFittedSplineParams` object.
 
 * **Parameters:**
+
   **id_offset: int, optional**
   : Offset value for IGA entity ids between parts.
 

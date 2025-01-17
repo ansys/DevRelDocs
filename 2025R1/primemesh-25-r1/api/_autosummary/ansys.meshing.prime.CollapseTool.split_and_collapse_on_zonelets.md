@@ -7,6 +7,7 @@
 Split and collapse elements on face zonelets with the specified register id.
 
 * **Parameters:**
+
   **part_id**
   : Id of a part.
 
@@ -21,8 +22,9 @@ Split and collapse elements on face zonelets with the specified register id.
 
   **collapse_params**
   : Parameters to collapse shortest edge of face elements.
+
 * **Returns:**
-  :
+  
 
   [`CollapseResults`](ansys.meshing.prime.CollapseResults.md#ansys.meshing.prime.CollapseResults)
   : Returns the CollapseResults.

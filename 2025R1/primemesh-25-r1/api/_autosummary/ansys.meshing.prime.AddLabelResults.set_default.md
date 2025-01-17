@@ -7,7 +7,8 @@
 Set the default values of the `AddLabelResults` object.
 
 * **Parameters:**
+
   **error_code: ErrorCode, optional**
-  : Error code associated with the add label operation.
+   : Error code associated with the add label operation.
 
 <!-- !! processed by numpydoc !! -->

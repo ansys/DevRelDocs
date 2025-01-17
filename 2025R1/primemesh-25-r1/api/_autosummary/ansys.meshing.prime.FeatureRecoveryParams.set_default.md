@@ -7,6 +7,7 @@
 Set the default values of the `FeatureRecoveryParams` object.
 
 * **Parameters:**
+
   **scope: ScopeDefinition, optional**
   : Scope used for feature recovery control.
 

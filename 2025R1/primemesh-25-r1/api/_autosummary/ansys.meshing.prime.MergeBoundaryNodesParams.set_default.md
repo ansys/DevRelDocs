@@ -7,6 +7,7 @@
 Set the default values of the `MergeBoundaryNodesParams` object.
 
 * **Parameters:**
+
   **tolerance: float, optional**
   : Distance tolerance for merging boundary nodes.
 

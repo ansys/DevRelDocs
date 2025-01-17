@@ -7,6 +7,7 @@
 Set the default values of the `ExtractedFeatureIds` object.
 
 * **Parameters:**
+
   **part_id: int, optional**
   : Id of the part from which edge zonelets are extracted.
 

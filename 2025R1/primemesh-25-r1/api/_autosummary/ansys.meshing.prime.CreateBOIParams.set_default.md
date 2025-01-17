@@ -7,6 +7,7 @@
 Set the default values of the `CreateBOIParams` object.
 
 * **Parameters:**
+
   **boi_type: BOIType, optional**
   : Type of BOI offsetting.
 

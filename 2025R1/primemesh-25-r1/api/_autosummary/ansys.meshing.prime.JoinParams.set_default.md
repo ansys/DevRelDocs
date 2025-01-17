@@ -7,6 +7,7 @@
 Set the default values of the `JoinParams` object.
 
 * **Parameters:**
+
   **tolerance: float, optional**
   : Overlap tolerance between overlapping zonelets.
 

@@ -73,16 +73,14 @@ Parameters for repair topology operations.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`RepairTopologyParams.print_default`](ansys.meshing.prime.RepairTopologyParams.print_default.md#ansys.meshing.prime.RepairTopologyParams.print_default)()   | Print the default values of `RepairTopologyParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`RepairTopologyParams.set_default`](ansys.meshing.prime.RepairTopologyParams.set_default.md#ansys.meshing.prime.RepairTopologyParams.set_default)([...])    | Set the default values of the `RepairTopologyParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [`RepairTopologyParams.connect_faces`](ansys.meshing.prime.RepairTopologyParams.connect_faces.md#ansys.meshing.prime.RepairTopologyParams.connect_faces)                                                                | Option to connect faces.                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [`RepairTopologyParams.connect_faces_params`](ansys.meshing.prime.RepairTopologyParams.connect_faces_params.md#ansys.meshing.prime.RepairTopologyParams.connect_faces_params)                                           | Parameters for connect faces operation.             |
 | [`RepairTopologyParams.edge_connect_type`](ansys.meshing.prime.RepairTopologyParams.edge_connect_type.md#ansys.meshing.prime.RepairTopologyParams.edge_connect_type)                                                    | Edge connection type.                               |
 | [`RepairTopologyParams.fillet_max_radius`](ansys.meshing.prime.RepairTopologyParams.fillet_max_radius.md#ansys.meshing.prime.RepairTopologyParams.fillet_max_radius)                                                    | Maximum radius of fillets to be detected.           |

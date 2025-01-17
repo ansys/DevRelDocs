@@ -7,6 +7,7 @@
 Set the parameters for sweep meshing in terms of topofaces during MultiZone mesh.
 
 * **Parameters:**
+
   **scope_info**
   : Information required for sweep meshing.
 

@@ -7,6 +7,7 @@
 Set the default values of the `RefineAtContactsResults` object.
 
 * **Parameters:**
+
   **n_refined: int, optional**
   : Number of face elements identified for refinement.
 

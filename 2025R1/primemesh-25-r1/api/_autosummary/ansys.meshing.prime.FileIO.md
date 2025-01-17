@@ -7,6 +7,7 @@
 Handles reading or writing files from the disk.
 
 * **Parameters:**
+
   **model**
   : Server model to create FileIO object.
 
@@ -14,9 +15,8 @@ Handles reading or writing files from the disk.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`FileIO.export_boundary_fitted_spline_kfile`](ansys.meshing.prime.FileIO.export_boundary_fitted_spline_kfile.md#ansys.meshing.prime.FileIO.export_boundary_fitted_spline_kfile)(...)   | Export the IGA LS-DYNA keyword file for a boundary fitted spline.     |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`FileIO.export_fluent_case`](ansys.meshing.prime.FileIO.export_fluent_case.md#ansys.meshing.prime.FileIO.export_fluent_case)(file_name, ...)                                           | Export a Fluent case (CAS) file.                                      |
 | [`FileIO.export_fluent_meshing_mesh`](ansys.meshing.prime.FileIO.export_fluent_meshing_mesh.md#ansys.meshing.prime.FileIO.export_fluent_meshing_mesh)(file_name, ...)                   | Export a Fluent Meshing mesh (MSH) file.                              |
 | [`FileIO.export_lsdyna_iga_keyword_file`](ansys.meshing.prime.FileIO.export_lsdyna_iga_keyword_file.md#ansys.meshing.prime.FileIO.export_lsdyna_iga_keyword_file)(...)                  | Exports IGA LS-DYNA Keyword file for solid, surface splines, or both. |
@@ -36,22 +36,5 @@ Handles reading or writing files from the disk.
 | [`FileIO.write_pmdat`](ansys.meshing.prime.FileIO.write_pmdat.md#ansys.meshing.prime.FileIO.write_pmdat)(file_name, file_write_params)                                                  | Write a PyPrimeMesh data (PMDAT) file.                                |
 | [`FileIO.write_size_field`](ansys.meshing.prime.FileIO.write_size_field.md#ansys.meshing.prime.FileIO.write_size_field)(file_name, params)                                              | Write a PyPrimeMesh size field (PSF) file to a file on disk.          |
 
-<a id="examples-using-fileio"></a>
 
-## Examples using FileIO
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to use topology-based connection to generate conformal surface mesh.">  <div class="sphx-glr-thumbnail-title">Mesh a mid-surfaced bracket for a structural analysis</div>
-</div>
-* [Mesh a mid-surfaced bracket for a structural analysis](../../examples/gallery_examples/gallery/01_bracket_scaffold.md#sphx-glr-examples-gallery-examples-gallery-01-bracket-scaffold-py)
-
-<div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to create a contact patch for use with wrapping to avoid meshing into a narrow contact region between two objects.">  <div class="sphx-glr-thumbnail-title">Create a contact patch for wrapping between a wheel and ground interface</div>
-</div>
-* [Create a contact patch for wrapping between a wheel and ground interface](../../examples/gallery_examples/gallery/10_wheel_ground_contact_patch.md#sphx-glr-examples-gallery-examples-gallery-10-wheel-ground-contact-patch-py)
-
-<div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to mesh a set of solder balls with mainly hexahedral elements. The solder is initially modelled as cylindrical to allow meshing using stacker and then local match morph controls are applied to recover the spherical shapes.">  <div class="sphx-glr-thumbnail-title">Mesh a set of solder balls (beta)</div>
-</div>
-* [Mesh a set of solder balls (beta)](../../examples/gallery_examples/gallery/11_solder_ball.md#sphx-glr-examples-gallery-examples-gallery-11-solder-ball-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

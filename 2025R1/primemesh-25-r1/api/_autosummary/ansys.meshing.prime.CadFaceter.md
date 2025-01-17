@@ -10,9 +10,8 @@ Types of CAD faceter.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CadFaceter.conjugate`](ansys.meshing.prime.CadFaceter.conjugate.md#ansys.meshing.prime.CadFaceter.conjugate)                                | Returns self, the complex conjugate of any int.                            |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CadFaceter.bit_length`](ansys.meshing.prime.CadFaceter.bit_length.md#ansys.meshing.prime.CadFaceter.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`CadFaceter.bit_count`](ansys.meshing.prime.CadFaceter.bit_count.md#ansys.meshing.prime.CadFaceter.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
 | [`CadFaceter.to_bytes`](ansys.meshing.prime.CadFaceter.to_bytes.md#ansys.meshing.prime.CadFaceter.to_bytes)(/[, length, byteorder, ...])      | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ Types of CAD faceter.
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`CadFaceter.real`](ansys.meshing.prime.CadFaceter.real.md#ansys.meshing.prime.CadFaceter.real)                      | the real part of a complex number                    |
+|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | [`CadFaceter.imag`](ansys.meshing.prime.CadFaceter.imag.md#ansys.meshing.prime.CadFaceter.imag)                      | the imaginary part of a complex number               |
 | [`CadFaceter.numerator`](ansys.meshing.prime.CadFaceter.numerator.md#ansys.meshing.prime.CadFaceter.numerator)       | the numerator of a rational number in lowest terms   |
 | [`CadFaceter.denominator`](ansys.meshing.prime.CadFaceter.denominator.md#ansys.meshing.prime.CadFaceter.denominator) | the denominator of a rational number in lowest terms |

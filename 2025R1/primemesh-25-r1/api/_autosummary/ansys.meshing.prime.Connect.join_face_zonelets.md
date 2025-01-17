@@ -7,6 +7,7 @@
 Joins a set of face zones with another set of face zones.
 
 * **Parameters:**
+
   **part_id**
   : Id of the part.
 
@@ -18,12 +19,15 @@ Joins a set of face zones with another set of face zones.
 
   **params**
   : Parameters for join.
+
 * **Returns:**
-  :
+  
 
   [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
   : Returns the ConnectResults.
+
 * **Return type:**
+
   [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
 
 ### Examples

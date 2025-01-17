@@ -7,6 +7,7 @@
 Parameters used for contact patch creation in the given axis.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `CreateContactPatchParams` object with default parameters.
 
@@ -38,29 +39,18 @@ Parameters used for contact patch creation in the given axis.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`CreateContactPatchParams.print_default`](ansys.meshing.prime.CreateContactPatchParams.print_default.md#ansys.meshing.prime.CreateContactPatchParams.print_default)()   | Print the default values of `CreateContactPatchParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`CreateContactPatchParams.set_default`](ansys.meshing.prime.CreateContactPatchParams.set_default.md#ansys.meshing.prime.CreateContactPatchParams.set_default)([...])    | Set the default values of the `CreateContactPatchParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`CreateContactPatchParams.contact_patch_axis`](ansys.meshing.prime.CreateContactPatchParams.contact_patch_axis.md#ansys.meshing.prime.CreateContactPatchParams.contact_patch_axis)             | Assigns the contact patch direction.                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`CreateContactPatchParams.grouping_tolerance`](ansys.meshing.prime.CreateContactPatchParams.grouping_tolerance.md#ansys.meshing.prime.CreateContactPatchParams.grouping_tolerance)             | Tolerance distance value to group regions for contact patch creation. |
 | [`CreateContactPatchParams.offset_distance`](ansys.meshing.prime.CreateContactPatchParams.offset_distance.md#ansys.meshing.prime.CreateContactPatchParams.offset_distance)                      | Source offset distance value.                                         |
 | [`CreateContactPatchParams.suggested_label_prefix`](ansys.meshing.prime.CreateContactPatchParams.suggested_label_prefix.md#ansys.meshing.prime.CreateContactPatchParams.suggested_label_prefix) | Suggested label name for created contact patch surfaces.              |
 | [`CreateContactPatchParams.suggested_part_name`](ansys.meshing.prime.CreateContactPatchParams.suggested_part_name.md#ansys.meshing.prime.CreateContactPatchParams.suggested_part_name)          | Suggested part name for created contact patch surfaces.               |
 
-<a id="examples-using-createcontactpatchparams"></a>
 
-## Examples using CreateContactPatchParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to create a contact patch for use with wrapping to avoid meshing into a narrow contact region between two objects.">  <div class="sphx-glr-thumbnail-title">Create a contact patch for wrapping between a wheel and ground interface</div>
-</div>
-* [Create a contact patch for wrapping between a wheel and ground interface](../../examples/gallery_examples/gallery/10_wheel_ground_contact_patch.md#sphx-glr-examples-gallery-examples-gallery-10-wheel-ground-contact-patch-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

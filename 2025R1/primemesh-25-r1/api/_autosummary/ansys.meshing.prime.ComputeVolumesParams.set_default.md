@@ -7,6 +7,7 @@
 Set the default values of the `ComputeVolumesParams` object.
 
 * **Parameters:**
+
   **volume_naming_type: VolumeNamingType, optional**
   : Indicates source type used to compute zone name for volumes.
 

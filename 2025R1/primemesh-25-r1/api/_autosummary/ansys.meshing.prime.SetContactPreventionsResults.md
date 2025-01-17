@@ -29,15 +29,13 @@ Results associated with set contact preventions.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | [`SetContactPreventionsResults.print_default`](ansys.meshing.prime.SetContactPreventionsResults.print_default.md#ansys.meshing.prime.SetContactPreventionsResults.print_default)()   | Print the default values of `SetContactPreventionsResults` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | [`SetContactPreventionsResults.set_default`](ansys.meshing.prime.SetContactPreventionsResults.set_default.md#ansys.meshing.prime.SetContactPreventionsResults.set_default)([...])    | Set the default values of the `SetContactPreventionsResults` object. |
 
 ### Attributes
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [`SetContactPreventionsResults.error_code`](ansys.meshing.prime.SetContactPreventionsResults.error_code.md#ansys.meshing.prime.SetContactPreventionsResults.error_code)   | Error code associated with the set contact preventions.   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | [`SetContactPreventionsResults.ids`](ansys.meshing.prime.SetContactPreventionsResults.ids.md#ansys.meshing.prime.SetContactPreventionsResults.ids)                        | Ids of added contact prevention controls.                 |
 <!-- vale on -->

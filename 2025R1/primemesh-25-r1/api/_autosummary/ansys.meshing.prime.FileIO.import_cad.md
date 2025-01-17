@@ -23,17 +23,20 @@ Refer **Reading and writing files** section in **User guide** for a
 comprehensive list of supported formats.
 
 * **Parameters:**
+
   **file_name**
   : Path to the CAD file on disk.
 
   **params**
   : Parameters for importing the CAD file.
+
 * **Returns:**
-  :
 
   [`ImportCadResults`](ansys.meshing.prime.ImportCadResults.md#ansys.meshing.prime.ImportCadResults)
   : Results from importing the CAD file.
+
 * **Return type:**
+
   [`ImportCadResults`](ansys.meshing.prime.ImportCadResults.md#ansys.meshing.prime.ImportCadResults)
 
 ### Examples
@@ -49,13 +52,3 @@ comprehensive list of supported formats.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="examples-using-fileio-import-cad"></a>
-
-## Examples using FileIO.import_cad
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to use topology-based connection to generate conformal surface mesh.">  <div class="sphx-glr-thumbnail-title">Mesh a mid-surfaced bracket for a structural analysis</div>
-</div>
-* [Mesh a mid-surfaced bracket for a structural analysis](../../examples/gallery_examples/gallery/01_bracket_scaffold.md#sphx-glr-examples-gallery-examples-gallery-01-bracket-scaffold-py)
-
-<!-- thumbnail-parent-div-close --></div>

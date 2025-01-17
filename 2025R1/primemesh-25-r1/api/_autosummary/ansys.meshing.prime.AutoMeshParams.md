@@ -7,6 +7,7 @@
 Parameters for volume meshing.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `AutoMeshParams` object with default parameters.
 
@@ -56,16 +57,14 @@ Parameters for volume meshing.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`AutoMeshParams.print_default`](ansys.meshing.prime.AutoMeshParams.print_default.md#ansys.meshing.prime.AutoMeshParams.print_default)()   | Print the default values of `AutoMeshParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
 | [`AutoMeshParams.set_default`](ansys.meshing.prime.AutoMeshParams.set_default.md#ansys.meshing.prime.AutoMeshParams.set_default)([...])    | Set the default values of the `AutoMeshParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [`AutoMeshParams.hexcore`](ansys.meshing.prime.AutoMeshParams.hexcore.md#ansys.meshing.prime.AutoMeshParams.hexcore)                                                 | Parameters to control hexahedral mesh generation.   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | [`AutoMeshParams.max_size`](ansys.meshing.prime.AutoMeshParams.max_size.md#ansys.meshing.prime.AutoMeshParams.max_size)                                              | Maximum cell size.                                  |
 | [`AutoMeshParams.multi_zone_control_ids`](ansys.meshing.prime.AutoMeshParams.multi_zone_control_ids.md#ansys.meshing.prime.AutoMeshParams.multi_zone_control_ids)    | Set MultiZone control ids.                          |
 | [`AutoMeshParams.periodic_control_ids`](ansys.meshing.prime.AutoMeshParams.periodic_control_ids.md#ansys.meshing.prime.AutoMeshParams.periodic_control_ids)          | Ids of the periodic controls.                       |

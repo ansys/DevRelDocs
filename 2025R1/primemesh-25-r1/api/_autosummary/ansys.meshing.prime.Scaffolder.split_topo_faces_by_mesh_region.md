@@ -7,14 +7,17 @@
 Split input topofaces by mesh region.
 
 * **Parameters:**
+
   **topo_faces**
   : Ids of topology faces.
+
 * **Returns:**
-  :
 
   [`ScaffolderSplitResults`](ansys.meshing.prime.ScaffolderSplitResults.md#ansys.meshing.prime.ScaffolderSplitResults)
   : Return results in ScaffolderSplitResults type.
+
 * **Return type:**
+
   [`ScaffolderSplitResults`](ansys.meshing.prime.ScaffolderSplitResults.md#ansys.meshing.prime.ScaffolderSplitResults)
 
 ### Examples

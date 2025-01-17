@@ -7,6 +7,7 @@
 Result structure associated with the check face deviation operations.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `CheckFaceDeviationResults` object with default parameters.
 
@@ -29,15 +30,13 @@ Result structure associated with the check face deviation operations.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [`CheckFaceDeviationResults.print_default`](ansys.meshing.prime.CheckFaceDeviationResults.print_default.md#ansys.meshing.prime.CheckFaceDeviationResults.print_default)()   | Print the default values of `CheckFaceDeviationResults` object.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
 | [`CheckFaceDeviationResults.set_default`](ansys.meshing.prime.CheckFaceDeviationResults.set_default.md#ansys.meshing.prime.CheckFaceDeviationResults.set_default)([...])    | Set the default values of the `CheckFaceDeviationResults` object. |
 
 ### Attributes
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | [`CheckFaceDeviationResults.maximum_deviation`](ansys.meshing.prime.CheckFaceDeviationResults.maximum_deviation.md#ansys.meshing.prime.CheckFaceDeviationResults.maximum_deviation)   | Maximum deviation found.        |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | [`CheckFaceDeviationResults.n_deviated`](ansys.meshing.prime.CheckFaceDeviationResults.n_deviated.md#ansys.meshing.prime.CheckFaceDeviationResults.n_deviated)                        | Number of faces with deviation. |
 <!-- vale on -->

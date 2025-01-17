@@ -7,6 +7,7 @@
 Set the default values of the `CadRefacetingParams` object.
 
 * **Parameters:**
+
   **cad_faceter: CadFaceter, optional**
   : Specify the available choices for faceter. The available option is Parasolid.
     Note: ACIS faceter is being deprecated from 2025R1.

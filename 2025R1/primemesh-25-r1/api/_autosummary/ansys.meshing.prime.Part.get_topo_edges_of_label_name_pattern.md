@@ -7,17 +7,20 @@
 Get topoedge ids of labels with name matching the given name pattern.
 
 * **Parameters:**
+
   **label_name_pattern**
   : Name pattern to be matched with label name.
 
   **name_pattern_params**
   : Name pattern parameters used to match label name pattern.
+
 * **Returns:**
-  :
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Return the ids of topoedges.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

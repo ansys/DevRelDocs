@@ -7,6 +7,7 @@
 Set the default values of the `PrismParams` object.
 
 * **Parameters:**
+
   **stair_step: PrismStairStep, optional**
   : Prism stairstep parameters.
 

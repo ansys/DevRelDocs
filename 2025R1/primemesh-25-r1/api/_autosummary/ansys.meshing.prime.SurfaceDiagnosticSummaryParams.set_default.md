@@ -7,6 +7,7 @@
 Set the default values of the `SurfaceDiagnosticSummaryParams` object.
 
 * **Parameters:**
+
   **scope: ScopeDefinition, optional**
   : Scope the face zonelets for surface diagnostics.
 

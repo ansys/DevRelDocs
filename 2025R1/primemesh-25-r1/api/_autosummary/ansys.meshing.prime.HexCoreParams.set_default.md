@@ -7,6 +7,7 @@
 Set the default values of the `HexCoreParams` object.
 
 * **Parameters:**
+
   **transition_size_field_type: SizeFieldType, optional**
   : Size field type to be used for transition volume (volume between hexcore and boundary).
 

@@ -7,6 +7,7 @@
 Set the default values of the `DetectNonCircularHolesParams` object.
 
 * **Parameters:**
+
   **allow_curved_topo_faces: bool, optional**
   : Option to allow holes in curved topoface.
 

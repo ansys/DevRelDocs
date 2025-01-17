@@ -7,6 +7,7 @@
 Set the default values of the `FixInvalidNormalNodeParams` object.
 
 * **Parameters:**
+
   **nugget_size: float, optional**
   : Relative size used to create nugget at invalid normal node. The size is relative to mesh size at the node.
 

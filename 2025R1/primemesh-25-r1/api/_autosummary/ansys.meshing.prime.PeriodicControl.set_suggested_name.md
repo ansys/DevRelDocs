@@ -7,14 +7,17 @@
 Sets the unique name for the periodic control based on the suggested name.
 
 * **Parameters:**
+
   **name**
   : Suggested name for the periodic control.
+
 * **Returns:**
-  :
 
   [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
   : Returns the name of the periodic control.
+
 * **Return type:**
+
   [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
 
 ### Examples

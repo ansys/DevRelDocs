@@ -7,6 +7,7 @@
 Set the default values of the `MeshedSizingParams` object.
 
 * **Parameters:**
+
   **growth_rate: float, optional**
   : Growth rate used for transitioning from one element size to neighbor element size.
 

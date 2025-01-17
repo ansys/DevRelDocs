@@ -7,6 +7,7 @@
 Set the default values of the `BoundaryFittedSplineParams` object.
 
 * **Parameters:**
+
   **degree_u: int, optional**
   : Degree of spline in u direction.
 

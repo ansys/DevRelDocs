@@ -7,6 +7,7 @@
 Parameters to delete fringes and overlapping faces.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `DeleteFringesAndOverlapsParams` object with default parameters.
 
@@ -35,16 +36,14 @@ Parameters to delete fringes and overlapping faces.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`DeleteFringesAndOverlapsParams.print_default`](ansys.meshing.prime.DeleteFringesAndOverlapsParams.print_default.md#ansys.meshing.prime.DeleteFringesAndOverlapsParams.print_default)()   | Print the default values of `DeleteFringesAndOverlapsParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`DeleteFringesAndOverlapsParams.set_default`](ansys.meshing.prime.DeleteFringesAndOverlapsParams.set_default.md#ansys.meshing.prime.DeleteFringesAndOverlapsParams.set_default)([...])    | Set the default values of the `DeleteFringesAndOverlapsParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | [`DeleteFringesAndOverlapsParams.delete_fringes`](ansys.meshing.prime.DeleteFringesAndOverlapsParams.delete_fringes.md#ansys.meshing.prime.DeleteFringesAndOverlapsParams.delete_fringes)                      | Option to delete fringes.                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | [`DeleteFringesAndOverlapsParams.delete_overlaps`](ansys.meshing.prime.DeleteFringesAndOverlapsParams.delete_overlaps.md#ansys.meshing.prime.DeleteFringesAndOverlapsParams.delete_overlaps)                   | Option to delete overlaps.                                                      |
 | [`DeleteFringesAndOverlapsParams.fringe_element_count`](ansys.meshing.prime.DeleteFringesAndOverlapsParams.fringe_element_count.md#ansys.meshing.prime.DeleteFringesAndOverlapsParams.fringe_element_count)    | Maximum count of free face elements identified as fringe to be deleted.         |
 | [`DeleteFringesAndOverlapsParams.overlap_element_count`](ansys.meshing.prime.DeleteFringesAndOverlapsParams.overlap_element_count.md#ansys.meshing.prime.DeleteFringesAndOverlapsParams.overlap_element_count) | Maximum count of overlapping face elements identified as overlap to be deleted. |

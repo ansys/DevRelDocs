@@ -24,6 +24,7 @@ If neither minimum size or maximum size is provided, global minimum and
 maximum settings are used to generate a variable size mesh based on curvature.
 
 * **Parameters:**
+
   **min_size**
   : Minimum edge length of the mesh. The default is `None`.
 
@@ -109,8 +110,8 @@ maximum settings are used to generate a variable size mesh based on curvature.
 
   **leak_prevention_params**
   : List of leak prevention parameters to use.  The default is `None`.
+
 * **Returns:**
-  :
 
   `Wrapped` `part`
   : Returns Part.
@@ -131,21 +132,3 @@ maximum settings are used to generate a variable size mesh based on curvature.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="examples-using-mesh-wrap"></a>
-
-## Examples using Mesh.wrap
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to mesh a pipe T-section for both structural thermal and fluid flow simulation.">  <div class="sphx-glr-thumbnail-title">Mesh a pipe T-section for structural thermal and fluid flow analysis</div>
-</div>
-* [Mesh a pipe T-section for structural thermal and fluid flow analysis](../../examples/gallery_examples/gallery/03_lucid_pipe_tee.md#sphx-glr-examples-gallery-examples-gallery-03-lucid-pipe-tee-py)
-
-<div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to wrap a toy car for a flow analysis.">  <div class="sphx-glr-thumbnail-title">Wrap a toy car for a flow analysis</div>
-</div>
-* [Wrap a toy car for a flow analysis](../../examples/gallery_examples/gallery/04_lucid_toy_car.md#sphx-glr-examples-gallery-examples-gallery-04-lucid-toy-car-py)
-
-<div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to create a contact patch for use with wrapping to avoid meshing into a narrow contact region between two objects.">  <div class="sphx-glr-thumbnail-title">Create a contact patch for wrapping between a wheel and ground interface</div>
-</div>
-* [Create a contact patch for wrapping between a wheel and ground interface](../../examples/gallery_examples/gallery/10_wheel_ground_contact_patch.md#sphx-glr-examples-gallery-examples-gallery-10-wheel-ground-contact-patch-py)
-
-<!-- thumbnail-parent-div-close --></div>

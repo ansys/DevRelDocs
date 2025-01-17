@@ -7,13 +7,15 @@
 Get a size control by name.
 
 * **Parameters:**
+
   **name**
   : Name of the size control.
+
 * **Returns:**
-  :
 
   [`SizeControl`](ansys.meshing.prime.SizeControl.md#ansys.meshing.prime.SizeControl)
   : Size control.
+  
 * **Return type:**
   [`SizeControl`](ansys.meshing.prime.SizeControl.md#ansys.meshing.prime.SizeControl)
 

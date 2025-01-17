@@ -7,6 +7,7 @@
 Set the default values of the `ScaffolderMergeResults` object.
 
 * **Parameters:**
+
   **n_merged: int, optional**
   : Number of merged topofaces.
 

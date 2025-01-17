@@ -10,9 +10,8 @@ Handle size transition of hex cells.
 
 ### Methods
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`HexCoreTransitionLayerType.conjugate`](ansys.meshing.prime.HexCoreTransitionLayerType.conjugate.md#ansys.meshing.prime.HexCoreTransitionLayerType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`HexCoreTransitionLayerType.bit_length`](ansys.meshing.prime.HexCoreTransitionLayerType.bit_length.md#ansys.meshing.prime.HexCoreTransitionLayerType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`HexCoreTransitionLayerType.bit_count`](ansys.meshing.prime.HexCoreTransitionLayerType.bit_count.md#ansys.meshing.prime.HexCoreTransitionLayerType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`HexCoreTransitionLayerType.to_bytes`](ansys.meshing.prime.HexCoreTransitionLayerType.to_bytes.md#ansys.meshing.prime.HexCoreTransitionLayerType.to_bytes)(/[, ...])                  | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ Handle size transition of hex cells.
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [`HexCoreTransitionLayerType.real`](ansys.meshing.prime.HexCoreTransitionLayerType.real.md#ansys.meshing.prime.HexCoreTransitionLayerType.real)                         | the real part of a complex number                                                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [`HexCoreTransitionLayerType.imag`](ansys.meshing.prime.HexCoreTransitionLayerType.imag.md#ansys.meshing.prime.HexCoreTransitionLayerType.imag)                         | the imaginary part of a complex number                                                      |
 | [`HexCoreTransitionLayerType.numerator`](ansys.meshing.prime.HexCoreTransitionLayerType.numerator.md#ansys.meshing.prime.HexCoreTransitionLayerType.numerator)          | the numerator of a rational number in lowest terms                                          |
 | [`HexCoreTransitionLayerType.denominator`](ansys.meshing.prime.HexCoreTransitionLayerType.denominator.md#ansys.meshing.prime.HexCoreTransitionLayerType.denominator)    | the denominator of a rational number in lowest terms                                        |

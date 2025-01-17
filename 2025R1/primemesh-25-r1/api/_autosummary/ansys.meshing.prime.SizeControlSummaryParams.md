@@ -23,8 +23,7 @@ Parameters used to get size control summary.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`SizeControlSummaryParams.print_default`](ansys.meshing.prime.SizeControlSummaryParams.print_default.md#ansys.meshing.prime.SizeControlSummaryParams.print_default)()   | Print the default values of `SizeControlSummaryParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [`SizeControlSummaryParams.set_default`](ansys.meshing.prime.SizeControlSummaryParams.set_default.md#ansys.meshing.prime.SizeControlSummaryParams.set_default)()         | Set the default values of the `SizeControlSummaryParams` object. |
 <!-- vale on -->

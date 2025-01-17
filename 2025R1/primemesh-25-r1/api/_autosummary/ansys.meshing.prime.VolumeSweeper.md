@@ -17,9 +17,8 @@ VolumeSweeper class provide functions to volume mesh a given set of topovolumes 
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
 | [`VolumeSweeper.create_base_face`](ansys.meshing.prime.VolumeSweeper.create_base_face.md#ansys.meshing.prime.VolumeSweeper.create_base_face)(part_id, ...)   | Create a face at the specified origin.          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
 | [`VolumeSweeper.stack_base_face`](ansys.meshing.prime.VolumeSweeper.stack_base_face.md#ansys.meshing.prime.VolumeSweeper.stack_base_face)(part_id, ...)      | Generate volume mesh by stacking a meshed face. |
 
 <a id="examples-using-volumesweeper"></a>

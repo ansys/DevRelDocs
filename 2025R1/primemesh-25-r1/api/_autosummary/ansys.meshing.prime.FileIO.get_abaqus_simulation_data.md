@@ -10,14 +10,17 @@ This method will return the JSON Simulation Document for a part if the part exis
 it returns an empty string.
 
 * **Parameters:**
+
   **partId**
   : Part Id.
+
 * **Returns:**
-  :
 
   [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
   : Returns the string containing a JSON document for simulation data.
+
 * **Return type:**
+
   [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
 
 ### Notes

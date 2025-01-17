@@ -7,6 +7,7 @@
 Get the size controls.
 
 * **Returns:**
+
   `List`[[`SizeControl`](ansys.meshing.prime.SizeControl.md#ansys.meshing.prime.SizeControl)]
   : List of size controls.
 

@@ -9,6 +9,7 @@ Periodic controls provide settings for the recovery of periodic surfaces.
 A periodic control is specified by the scope (source surfaces) and the transformation parameters: the center, axis and angle.
 
 * **Parameters:**
+
   **model**
   : Server model to create PeriodicControl object.
 
@@ -25,9 +26,8 @@ A periodic control is specified by the scope (source surfaces) and the transform
 
 ### Methods
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [`PeriodicControl.get_params`](ansys.meshing.prime.PeriodicControl.get_params.md#ansys.meshing.prime.PeriodicControl.get_params)()                             | Get the parameters of the periodic control.                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [`PeriodicControl.get_scope`](ansys.meshing.prime.PeriodicControl.get_scope.md#ansys.meshing.prime.PeriodicControl.get_scope)()                                | Gets the scope for the periodic control.                                                     |
 | [`PeriodicControl.get_summary`](ansys.meshing.prime.PeriodicControl.get_summary.md#ansys.meshing.prime.PeriodicControl.get_summary)(params)                    | Get the periodic control summary along with the evaluated scope for the provided parameters. |
 | [`PeriodicControl.set_params`](ansys.meshing.prime.PeriodicControl.set_params.md#ansys.meshing.prime.PeriodicControl.set_params)(...)                          | Set the periodic control parameters.                                                         |
@@ -36,8 +36,7 @@ A periodic control is specified by the scope (source surfaces) and the transform
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------|----------------------------------|
 | [`PeriodicControl.id`](ansys.meshing.prime.PeriodicControl.id.md#ansys.meshing.prime.PeriodicControl.id)       | Get the id of PeriodicControl.   |
+|----------------------------------------------------------------------------------------------------------------|----------------------------------|
 | [`PeriodicControl.name`](ansys.meshing.prime.PeriodicControl.name.md#ansys.meshing.prime.PeriodicControl.name) | Get the name of PeriodicControl. |
 <!-- vale on -->

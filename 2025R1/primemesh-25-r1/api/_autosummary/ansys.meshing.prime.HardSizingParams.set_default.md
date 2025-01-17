@@ -7,6 +7,7 @@
 Set the default values of the `HardSizingParams` object.
 
 * **Parameters:**
+
   **min: float, optional**
   : Minimum size used for computing edge and face size using hard size control.
 

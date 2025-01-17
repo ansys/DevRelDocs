@@ -7,6 +7,7 @@
 Set the default values of the `LocalSurferParams` object.
 
 * **Parameters:**
+
   **min_angle: float, optional**
   : Minimum feature angle limit used to identify and preserve features.
 

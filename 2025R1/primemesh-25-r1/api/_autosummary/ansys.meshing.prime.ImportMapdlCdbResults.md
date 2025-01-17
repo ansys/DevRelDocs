@@ -7,6 +7,7 @@
 Results associated with the MAPDL CDB import.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `ImportMapdlCdbResults` object with default parameters.
 
@@ -26,14 +27,12 @@ Results associated with the MAPDL CDB import.
 
 ### Methods
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`ImportMapdlCdbResults.print_default`](ansys.meshing.prime.ImportMapdlCdbResults.print_default.md#ansys.meshing.prime.ImportMapdlCdbResults.print_default)()       | Print the default values of `ImportMapdlCdbResults` object.   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`ImportMapdlCdbResults.set_default`](ansys.meshing.prime.ImportMapdlCdbResults.set_default.md#ansys.meshing.prime.ImportMapdlCdbResults.set_default)([error_code]) | Set the default values of the `ImportMapdlCdbResults` object. |
 
 ### Attributes
 
-| Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`ImportMapdlCdbResults.error_code`](ansys.meshing.prime.ImportMapdlCdbResults.error_code.md#ansys.meshing.prime.ImportMapdlCdbResults.error_code)   | Error code associated with failure of operation.   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 <!-- vale on -->

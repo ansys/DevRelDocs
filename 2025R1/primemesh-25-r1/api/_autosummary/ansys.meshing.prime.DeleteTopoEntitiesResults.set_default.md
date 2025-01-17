@@ -7,6 +7,7 @@
 Set the default values of the `DeleteTopoEntitiesResults` object.
 
 * **Parameters:**
+
   **error_code: ErrorCode, optional**
   : Error code associated with delete topoentities.
 

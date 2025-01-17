@@ -10,9 +10,8 @@ Types of maximum edge size limit for CAD faceting.
 
 ### Methods
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CadRefacetingMaxEdgeSizeLimit.conjugate`](ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.conjugate.md#ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`CadRefacetingMaxEdgeSizeLimit.bit_length`](ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.bit_length.md#ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`CadRefacetingMaxEdgeSizeLimit.bit_count`](ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.bit_count.md#ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`CadRefacetingMaxEdgeSizeLimit.to_bytes`](ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.to_bytes.md#ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.to_bytes)(/[, ...])                  | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ Types of maximum edge size limit for CAD faceting.
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [`CadRefacetingMaxEdgeSizeLimit.real`](ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.real.md#ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.real)                      | the real part of a complex number                          |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [`CadRefacetingMaxEdgeSizeLimit.imag`](ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.imag.md#ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.imag)                      | the imaginary part of a complex number                     |
 | [`CadRefacetingMaxEdgeSizeLimit.numerator`](ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.numerator.md#ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.numerator)       | the numerator of a rational number in lowest terms         |
 | [`CadRefacetingMaxEdgeSizeLimit.denominator`](ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.denominator.md#ansys.meshing.prime.CadRefacetingMaxEdgeSizeLimit.denominator) | the denominator of a rational number in lowest terms       |

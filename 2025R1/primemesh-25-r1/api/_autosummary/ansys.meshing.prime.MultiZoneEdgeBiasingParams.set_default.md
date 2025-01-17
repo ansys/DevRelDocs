@@ -7,6 +7,7 @@
 Set the default values of the `MultiZoneEdgeBiasingParams` object.
 
 * **Parameters:**
+
   **face_scope: ScopeDefinition, optional**
   : Reference face zonelets to control mesh clustering orientation.
 

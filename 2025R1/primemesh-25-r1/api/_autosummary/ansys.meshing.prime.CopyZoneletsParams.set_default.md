@@ -7,6 +7,7 @@
 Set the default values of the `CopyZoneletsParams` object.
 
 * **Parameters:**
+
   **copy_labels: bool, optional**
   : Option to copy labels of input zonelets to the corresponding copied zonelets.
 

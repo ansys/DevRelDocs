@@ -7,6 +7,7 @@
 Activate the sizefields identified by the given sizefield ids.
 
 * **Parameters:**
+
   **size_field_ids**
   : List of sizefield ids.
 

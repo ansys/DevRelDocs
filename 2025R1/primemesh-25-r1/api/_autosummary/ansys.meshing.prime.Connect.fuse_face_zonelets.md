@@ -7,6 +7,7 @@
 Perform fuse between overlapping face zonelets within a single part. Surfaces that are fused can then be colocated, merged or removed as directed.
 
 * **Parameters:**
+
   **part_id**
   : Id of the part.
 

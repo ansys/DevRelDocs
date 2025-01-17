@@ -7,14 +7,17 @@
 Get the periodic control summary along with the evaluated scope for the provided parameters.
 
 * **Parameters:**
+
   **params**
   : Periodic control summary parameters.
+
 * **Returns:**
-  :
 
   [`PeriodicControlSummaryResult`](ansys.meshing.prime.PeriodicControlSummaryResult.md#ansys.meshing.prime.PeriodicControlSummaryResult)
   : Return the PeriodicControlSummaryResult.
+
 * **Return type:**
+
   [`PeriodicControlSummaryResult`](ansys.meshing.prime.PeriodicControlSummaryResult.md#ansys.meshing.prime.PeriodicControlSummaryResult)
 
 ### Examples

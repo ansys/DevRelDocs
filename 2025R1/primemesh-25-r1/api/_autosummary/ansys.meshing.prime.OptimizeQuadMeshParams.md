@@ -7,6 +7,7 @@
 Parameters for optimize quad mesh operations.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `OptimizeQuadMeshParams` object with default parameters.
 
@@ -53,16 +54,14 @@ Parameters for optimize quad mesh operations.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | [`OptimizeQuadMeshParams.print_default`](ansys.meshing.prime.OptimizeQuadMeshParams.print_default.md#ansys.meshing.prime.OptimizeQuadMeshParams.print_default)()   | Print the default values of `OptimizeQuadMeshParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | [`OptimizeQuadMeshParams.set_default`](ansys.meshing.prime.OptimizeQuadMeshParams.set_default.md#ansys.meshing.prime.OptimizeQuadMeshParams.set_default)([...])    | Set the default values of the `OptimizeQuadMeshParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`OptimizeQuadMeshParams.delete_interior_nodes_params`](ansys.meshing.prime.OptimizeQuadMeshParams.delete_interior_nodes_params.md#ansys.meshing.prime.OptimizeQuadMeshParams.delete_interior_nodes_params)                      | Parameters to control delete interior nodes operation.   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`OptimizeQuadMeshParams.edge_mesh_constant_size`](ansys.meshing.prime.OptimizeQuadMeshParams.edge_mesh_constant_size.md#ansys.meshing.prime.OptimizeQuadMeshParams.edge_mesh_constant_size)                                     | Constant size used for edge meshing.                     |
 | [`OptimizeQuadMeshParams.generate_quads`](ansys.meshing.prime.OptimizeQuadMeshParams.generate_quads.md#ansys.meshing.prime.OptimizeQuadMeshParams.generate_quads)                                                                | Option to generate quadrilateral surface mesh.           |
 | [`OptimizeQuadMeshParams.project_on_geometry`](ansys.meshing.prime.OptimizeQuadMeshParams.project_on_geometry.md#ansys.meshing.prime.OptimizeQuadMeshParams.project_on_geometry)                                                 | Option to project on geometry when meshing.              |

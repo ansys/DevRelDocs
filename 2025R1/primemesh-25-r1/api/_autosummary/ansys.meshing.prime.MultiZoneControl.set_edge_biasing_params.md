@@ -7,6 +7,7 @@
 Sets the parameters for edge biasing in terms of topoedges and topofaces during MultiZone mesh.
 
 * **Parameters:**
+
   **scope_info**
   : Information for edge biasing in MultiZone meshing.
 

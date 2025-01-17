@@ -23,9 +23,8 @@ Wrapper Control to describe all parameters and controls used for wrapping..
 
 ### Methods
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | [`WrapperControl.get_geometry_scope`](ansys.meshing.prime.WrapperControl.get_geometry_scope.md#ansys.meshing.prime.WrapperControl.get_geometry_scope)()                                            | Gets geometry scope of wrapper control.                                                    |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
 | [`WrapperControl.get_live_material_points`](ansys.meshing.prime.WrapperControl.get_live_material_points.md#ansys.meshing.prime.WrapperControl.get_live_material_points)()                          | Gets list of material point names.                                                         |
 | [`WrapperControl.set_contact_preventions`](ansys.meshing.prime.WrapperControl.set_contact_preventions.md#ansys.meshing.prime.WrapperControl.set_contact_preventions)(params)                       | Set contact preventions to the wrapper control.                                            |
 | [`WrapperControl.set_feature_recoveries`](ansys.meshing.prime.WrapperControl.set_feature_recoveries.md#ansys.meshing.prime.WrapperControl.set_feature_recoveries)(params)                          | Set feature recoveries to the wrapper control.                                             |
@@ -38,8 +37,7 @@ Wrapper Control to describe all parameters and controls used for wrapping..
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | [`WrapperControl.id`](ansys.meshing.prime.WrapperControl.id.md#ansys.meshing.prime.WrapperControl.id)       | Get the id of WrapperControl.        |
+|-------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | [`WrapperControl.name`](ansys.meshing.prime.WrapperControl.name.md#ansys.meshing.prime.WrapperControl.name) | Get the name of the wrapper control. |
 <!-- vale on -->
