@@ -7,6 +7,7 @@
 Set the default values of the `ConnectResults` object.
 
 * **Parameters:**
+
   **error_code: ErrorCode, optional**
   : Error Code associated with failure of operation.
 

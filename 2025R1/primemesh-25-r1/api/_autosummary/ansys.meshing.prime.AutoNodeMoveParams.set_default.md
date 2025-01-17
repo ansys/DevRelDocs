@@ -7,6 +7,7 @@
 Set the default values of the `AutoNodeMoveParams` object.
 
 * **Parameters:**
+
   **quality_measure: CellQualityMeasure, optional**
   : Specify cell quality measure to be used for volume mesh improvement. The default value for cell quality measure is skewness.
 

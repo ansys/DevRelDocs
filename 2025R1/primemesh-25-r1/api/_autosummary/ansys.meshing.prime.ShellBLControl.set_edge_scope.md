@@ -7,14 +7,17 @@
 Sets the edge scope.
 
 * **Parameters:**
+
   **entities**
   : Scope definition entities.
-* **Returns:**
-  :
 
+* **Returns:**
+  
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
   : Returns SetScopeResults.
+
 * **Return type:**
+
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
 
 ### Notes

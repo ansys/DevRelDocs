@@ -7,6 +7,7 @@
 Parameters to control scaffold operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `ScaffolderParams` object with default parameters.
 
@@ -57,16 +58,14 @@ Parameters to control scaffold operation.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`ScaffolderParams.print_default`](ansys.meshing.prime.ScaffolderParams.print_default.md#ansys.meshing.prime.ScaffolderParams.print_default)()   | Print the default values of `ScaffolderParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`ScaffolderParams.set_default`](ansys.meshing.prime.ScaffolderParams.set_default.md#ansys.meshing.prime.ScaffolderParams.set_default)([...])    | Set the default values of the `ScaffolderParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`ScaffolderParams.absolute_dist_tol`](ansys.meshing.prime.ScaffolderParams.absolute_dist_tol.md#ansys.meshing.prime.ScaffolderParams.absolute_dist_tol)                                                 | Defines the maximum gap to connect.                                   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`ScaffolderParams.constant_mesh_size`](ansys.meshing.prime.ScaffolderParams.constant_mesh_size.md#ansys.meshing.prime.ScaffolderParams.constant_mesh_size)                                              | Defines the constant edge mesh size to check connection.              |
 | [`ScaffolderParams.edge_merge_control`](ansys.meshing.prime.ScaffolderParams.edge_merge_control.md#ansys.meshing.prime.ScaffolderParams.edge_merge_control)                                              | Specifies type of edge pairs to be merged during scaffold operation.  |
 | [`ScaffolderParams.intersection_control_mask`](ansys.meshing.prime.ScaffolderParams.intersection_control_mask.md#ansys.meshing.prime.ScaffolderParams.intersection_control_mask)                         | Specifies the nature of intersection to be computed.                  |
@@ -75,18 +74,4 @@ Parameters to control scaffold operation.
 | [`ScaffolderParams.size_field_type`](ansys.meshing.prime.ScaffolderParams.size_field_type.md#ansys.meshing.prime.ScaffolderParams.size_field_type)                                                       | Specifies the type of size field used for scaffolding.                |
 | [`ScaffolderParams.triangles_coplanar_angle_cos`](ansys.meshing.prime.ScaffolderParams.triangles_coplanar_angle_cos.md#ansys.meshing.prime.ScaffolderParams.triangles_coplanar_angle_cos)                | Lower bound for cos angle to consider coplanar faces for scaffolding. |
 
-<a id="examples-using-scaffolderparams"></a>
-
-## Examples using ScaffolderParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to use topology-based connection to generate conformal surface mesh.">  <div class="sphx-glr-thumbnail-title">Mesh a mid-surfaced bracket for a structural analysis</div>
-</div>
-* [Mesh a mid-surfaced bracket for a structural analysis](../../examples/gallery_examples/gallery/01_bracket_scaffold.md#sphx-glr-examples-gallery-examples-gallery-01-bracket-scaffold-py)
-
-<div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to mesh a set of solder balls with mainly hexahedral elements. The solder is initially modelled as cylindrical to allow meshing using stacker and then local match morph controls are applied to recover the spherical shapes.">  <div class="sphx-glr-thumbnail-title">Mesh a set of solder balls (beta)</div>
-</div>
-* [Mesh a set of solder balls (beta)](../../examples/gallery_examples/gallery/11_solder_ball.md#sphx-glr-examples-gallery-examples-gallery-11-solder-ball-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

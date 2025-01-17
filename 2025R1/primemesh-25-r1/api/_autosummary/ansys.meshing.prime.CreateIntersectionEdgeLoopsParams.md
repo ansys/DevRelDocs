@@ -7,6 +7,7 @@
 Parameters used to calculate edge loops created by intersection of two groups of face zonelets.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `CreateIntersectionEdgeLoopsParams` object with default parameters.
 
@@ -26,14 +27,12 @@ Parameters used to calculate edge loops created by intersection of two groups of
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [`CreateIntersectionEdgeLoopsParams.print_default`](ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.print_default.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.print_default)()   | Print the default values of `CreateIntersectionEdgeLoopsParams` object.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [`CreateIntersectionEdgeLoopsParams.set_default`](ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.set_default.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.set_default)([...])    | Set the default values of the `CreateIntersectionEdgeLoopsParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`CreateIntersectionEdgeLoopsParams.label_name`](ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsParams.label_name)   | Label name to be assigned to extracted features.   |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 <!-- vale on -->

@@ -7,6 +7,7 @@
 Set the default values of the `SplitParams` object.
 
 * **Parameters:**
+
   **split_ratio: float, optional**
   : Minimum ratio of split edge length to original edge length.
 

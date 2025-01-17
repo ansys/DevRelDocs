@@ -7,6 +7,7 @@
 Set the default values of the `DeadRegion` object.
 
 * **Parameters:**
+
   **face_zonelet_ids: Iterable[int], optional**
   : Face zonelets enclosing dead region.
 

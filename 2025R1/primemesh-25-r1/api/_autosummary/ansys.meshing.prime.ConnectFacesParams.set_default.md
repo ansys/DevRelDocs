@@ -7,6 +7,7 @@
 Set the default values of the `ConnectFacesParams` object.
 
 * **Parameters:**
+
   **constant_mesh_size: float, optional**
   : Constant size used for surface meshing.
 

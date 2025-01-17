@@ -7,6 +7,7 @@
 Parameters used to import fluent meshing mesh.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `ImportFluentMeshingMeshParams` object with default parameters.
 
@@ -29,15 +30,13 @@ Parameters used to import fluent meshing mesh.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`ImportFluentMeshingMeshParams.print_default`](ansys.meshing.prime.ImportFluentMeshingMeshParams.print_default.md#ansys.meshing.prime.ImportFluentMeshingMeshParams.print_default)()   | Print the default values of `ImportFluentMeshingMeshParams` object.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | [`ImportFluentMeshingMeshParams.set_default`](ansys.meshing.prime.ImportFluentMeshingMeshParams.set_default.md#ansys.meshing.prime.ImportFluentMeshingMeshParams.set_default)([...])    | Set the default values of the `ImportFluentMeshingMeshParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [`ImportFluentMeshingMeshParams.append`](ansys.meshing.prime.ImportFluentMeshingMeshParams.append.md#ansys.meshing.prime.ImportFluentMeshingMeshParams.append)                                                 | Option to append imported mesh to existing mesh instead of resetting model to imported mesh.   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [`ImportFluentMeshingMeshParams.enable_multi_threading`](ansys.meshing.prime.ImportFluentMeshingMeshParams.enable_multi_threading.md#ansys.meshing.prime.ImportFluentMeshingMeshParams.enable_multi_threading) | Option to import multiple files in parallel using multithreading.                              |
 <!-- vale on -->

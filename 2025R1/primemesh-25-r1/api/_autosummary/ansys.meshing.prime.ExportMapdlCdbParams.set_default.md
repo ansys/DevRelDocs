@@ -7,6 +7,7 @@
 Set the default values of the `ExportMapdlCdbParams` object.
 
 * **Parameters:**
+
   **config_settings: str, optional**
   : MAPDL configuration settings in CDB format to be added at the beginning of the file.
 

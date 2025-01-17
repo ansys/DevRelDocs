@@ -7,6 +7,7 @@
 Stitches a set of face zonelets with another set of face zonelets.
 
 * **Parameters:**
+
   **part_id**
   : Id of the part.
 
@@ -18,12 +19,14 @@ Stitches a set of face zonelets with another set of face zonelets.
 
   **params**
   : Parameters for stitch.
+
 * **Returns:**
-  :
 
   [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
   : Returns the ConnectResults.
+
 * **Return type:**
+
   [`ConnectResults`](ansys.meshing.prime.ConnectResults.md#ansys.meshing.prime.ConnectResults)
 
 ### Examples

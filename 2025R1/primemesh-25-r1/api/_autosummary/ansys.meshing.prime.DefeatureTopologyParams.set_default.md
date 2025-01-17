@@ -7,6 +7,7 @@
 Set the default values of the `DefeatureTopologyParams` object.
 
 * **Parameters:**
+
   **partial_defeature: bool, optional**
   : Option to partial defeature.
 

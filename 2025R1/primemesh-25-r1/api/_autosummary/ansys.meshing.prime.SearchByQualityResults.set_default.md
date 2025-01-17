@@ -7,6 +7,7 @@
 Set the default values of the `SearchByQualityResults` object.
 
 * **Parameters:**
+
   **n_found: int, optional**
   : Number of face elements found by search for given quality limit.
 

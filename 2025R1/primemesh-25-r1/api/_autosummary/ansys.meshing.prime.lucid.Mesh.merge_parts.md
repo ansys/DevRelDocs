@@ -7,6 +7,7 @@
 Merge multiple parts into a single part.
 
 * **Parameters:**
+
   **parts_expression**
   : Expression of the parts to merge. The default is `"*"`.
 

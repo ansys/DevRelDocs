@@ -7,17 +7,20 @@
 Import an MAPDL CDB file.
 
 * **Parameters:**
+
   **file_name**
   : Path to the CDB file on disk.
 
   **params**
   : Parameters for importing the CDB file.
+
 * **Returns:**
-  :
 
   [`ImportMapdlCdbResults`](ansys.meshing.prime.ImportMapdlCdbResults.md#ansys.meshing.prime.ImportMapdlCdbResults)
   : Results from importing the CDB file.
+
 * **Return type:**
+
   [`ImportMapdlCdbResults`](ansys.meshing.prime.ImportMapdlCdbResults.md#ansys.meshing.prime.ImportMapdlCdbResults)
 
 ### Notes

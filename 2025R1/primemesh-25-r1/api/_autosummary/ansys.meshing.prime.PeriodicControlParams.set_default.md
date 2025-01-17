@@ -7,6 +7,7 @@
 Set the default values of the `PeriodicControlParams` object.
 
 * **Parameters:**
+
   **center: Iterable[float], optional**
   : Center coordinates.
 

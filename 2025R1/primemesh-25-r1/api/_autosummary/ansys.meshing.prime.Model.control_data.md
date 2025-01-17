@@ -7,6 +7,7 @@
 Get the control data for the model.
 
 * **Returns:**
+
   [`ControlData`](ansys.meshing.prime.ControlData.md#ansys.meshing.prime.ControlData)
   : Control data for the model.
 

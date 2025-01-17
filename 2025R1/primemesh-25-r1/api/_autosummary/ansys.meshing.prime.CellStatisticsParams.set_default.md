@@ -7,6 +7,7 @@
 Set the default values of the `CellStatisticsParams` object.
 
 * **Parameters:**
+
   **get_volume: bool, optional**
   : Provides option to compute and get cumulative cell volume.
 

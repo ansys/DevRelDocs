@@ -7,6 +7,7 @@
 Delete topology in one or more parts.
 
 * **Parameters:**
+
   **part_expression**
   : Expression of the parts where the topology must be deleted.
     The default is `"*"`.

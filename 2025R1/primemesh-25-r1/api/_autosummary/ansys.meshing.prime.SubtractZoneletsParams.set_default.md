@@ -7,6 +7,7 @@
 Set the default values of the `SubtractZoneletsParams` object.
 
 * **Parameters:**
+
   **retain_cutter: bool, optional**
   : Retain the zonelets used for removal.
 

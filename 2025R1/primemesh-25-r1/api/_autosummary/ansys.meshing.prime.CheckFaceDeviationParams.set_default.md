@@ -7,6 +7,7 @@
 Set the default values of the `CheckFaceDeviationParams` object.
 
 * **Parameters:**
+
   **distance: float, optional**
   : Distance above which deviated entities are collected.
 

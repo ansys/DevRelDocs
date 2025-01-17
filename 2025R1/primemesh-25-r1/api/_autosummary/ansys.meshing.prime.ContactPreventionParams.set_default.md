@@ -7,6 +7,7 @@
 Set the default values of the `ContactPreventionParams` object.
 
 * **Parameters:**
+
   **source_scope: ScopeDefinition, optional**
   : Source scope used for contact prevention control.
 

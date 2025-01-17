@@ -7,12 +7,15 @@
 Sets the suggested name of size field with the given id.
 
 * **Parameters:**
+
   **size_field_id**
   : Size field id.
 
   **name**
   : Name of the size field.
+
 * **Return type:**
+
   [`SetNameResults`](ansys.meshing.prime.SetNameResults.md#ansys.meshing.prime.SetNameResults)
 
 ### Notes

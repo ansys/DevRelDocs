@@ -7,6 +7,7 @@
 Set the default values of the `PrismControlGrowthParams` object.
 
 * **Parameters:**
+
   **offset_type: PrismControlOffsetType, optional**
   : Offset type controls the method that is used to compute prism layer heights. The following options are supported.The aspect ratio option takes first aspect ratio, number of layers and growth rate. It ignores first height as input.The uniform option takes first height, number of layers and growth rate. It ignores first aspect ratio as input.Aspect ratio is ratio of prism base to height.
 

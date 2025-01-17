@@ -7,10 +7,13 @@
 Set the default values of the `BoiSizingParams` object.
 
 * **Parameters:**
+
   **max: float, optional**
-  : Maximum size used for computing edge and face size using boi size control.
+  
+   Maximum size used for computing edge and face size using boi size control.
 
   **growth_rate: float, optional**
-  : Growth rate used for transitioning from one element size to neighbor element size.
+  
+   Growth rate used for transitioning from one element size to neighbor element size.
 
 <!-- !! processed by numpydoc !! -->

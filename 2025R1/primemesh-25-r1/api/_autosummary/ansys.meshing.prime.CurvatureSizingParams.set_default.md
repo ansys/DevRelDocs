@@ -7,6 +7,7 @@
 Set the default values of the `CurvatureSizingParams` object.
 
 * **Parameters:**
+
   **min: float, optional**
   : Minimum size used for computing edge and face size using curavture size control.
 

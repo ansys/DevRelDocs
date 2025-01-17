@@ -7,6 +7,7 @@
 Set the default values of the `StitchParams` object.
 
 * **Parameters:**
+
   **tolerance: float, optional**
   : Distance tolerance for stitching boundaries.
 

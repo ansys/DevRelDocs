@@ -7,6 +7,7 @@
 Parameters to compute volumes.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `ComputeVolumesParams` object with default parameters.
 
@@ -35,16 +36,14 @@ Parameters to compute volumes.
 
 ### Methods
 
-| Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`ComputeVolumesParams.print_default`](ansys.meshing.prime.ComputeVolumesParams.print_default.md#ansys.meshing.prime.ComputeVolumesParams.print_default)()   | Print the default values of `ComputeVolumesParams` object.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`ComputeVolumesParams.set_default`](ansys.meshing.prime.ComputeVolumesParams.set_default.md#ansys.meshing.prime.ComputeVolumesParams.set_default)([...])    | Set the default values of the `ComputeVolumesParams` object. |
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | [`ComputeVolumesParams.create_zones_type`](ansys.meshing.prime.ComputeVolumesParams.create_zones_type.md#ansys.meshing.prime.ComputeVolumesParams.create_zones_type)                | Option to control volume zone creation for volumes.                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | [`ComputeVolumesParams.material_point_names`](ansys.meshing.prime.ComputeVolumesParams.material_point_names.md#ansys.meshing.prime.ComputeVolumesParams.material_point_names)       | Material point names provided to identify volumes.                       |
 | [`ComputeVolumesParams.priority_ordered_names`](ansys.meshing.prime.ComputeVolumesParams.priority_ordered_names.md#ansys.meshing.prime.ComputeVolumesParams.priority_ordered_names) | Zone names for volumes are identified based on the priority in the list. |
 | [`ComputeVolumesParams.volume_naming_type`](ansys.meshing.prime.ComputeVolumesParams.volume_naming_type.md#ansys.meshing.prime.ComputeVolumesParams.volume_naming_type)             | Indicates source type used to compute zone name for volumes.             |

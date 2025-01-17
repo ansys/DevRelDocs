@@ -7,6 +7,7 @@
 Results associated with the add label operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `AddLabelResults` object with default parameters.
 
@@ -26,14 +27,12 @@ Results associated with the add label operation.
 
 ### Methods
 
-| Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`AddLabelResults.print_default`](ansys.meshing.prime.AddLabelResults.print_default.md#ansys.meshing.prime.AddLabelResults.print_default)()       | Print the default values of `AddLabelResults` object.   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`AddLabelResults.set_default`](ansys.meshing.prime.AddLabelResults.set_default.md#ansys.meshing.prime.AddLabelResults.set_default)([error_code]) | Set the default values of the `AddLabelResults` object. |
 
 ### Attributes
 
-| Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | [`AddLabelResults.error_code`](ansys.meshing.prime.AddLabelResults.error_code.md#ansys.meshing.prime.AddLabelResults.error_code)   | Error code associated with the add label operation.   |
+|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 <!-- vale on -->

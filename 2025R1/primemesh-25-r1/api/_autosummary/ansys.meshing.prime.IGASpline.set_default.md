@@ -7,6 +7,7 @@
 Set the default values of the `IGASpline` object.
 
 * **Parameters:**
+
   **id: int, optional**
   : Unique id of the spline.
 

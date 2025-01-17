@@ -7,17 +7,20 @@
 Remove the given labels from the provided zonelets.
 
 * **Parameters:**
+
   **labels**
   : Labels to be removed from zonelets.
 
   **zonelets**
   : Ids of zonelets.
+
 * **Returns:**
-  :
 
   [`RemoveLabelResults`](ansys.meshing.prime.RemoveLabelResults.md#ansys.meshing.prime.RemoveLabelResults)
   : Returns the RemoveLabelResults.
+
 * **Return type:**
+
   [`RemoveLabelResults`](ansys.meshing.prime.RemoveLabelResults.md#ansys.meshing.prime.RemoveLabelResults)
 
 ### Examples

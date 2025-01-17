@@ -7,6 +7,7 @@
 Set the default values of the `ContactElementTypeParams` object.
 
 * **Parameters:**
+
   **tie_surf_to_surf: int, optional**
   : Element type for TIE with Surface-to-Surface contact where the contact surface is of type ELEMENT. Default value is 174. The choices are 174 and 175.
 

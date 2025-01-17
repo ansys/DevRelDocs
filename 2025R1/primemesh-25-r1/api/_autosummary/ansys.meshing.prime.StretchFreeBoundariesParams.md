@@ -7,6 +7,7 @@
 Parameters used for stretch free boundaries operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `StretchFreeBoundariesParams` object with default parameters.
 
@@ -23,8 +24,7 @@ Parameters used for stretch free boundaries operation.
 
 ### Methods
 
-| Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | [`StretchFreeBoundariesParams.print_default`](ansys.meshing.prime.StretchFreeBoundariesParams.print_default.md#ansys.meshing.prime.StretchFreeBoundariesParams.print_default)()   | Print the default values of `StretchFreeBoundariesParams` object.   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | [`StretchFreeBoundariesParams.set_default`](ansys.meshing.prime.StretchFreeBoundariesParams.set_default.md#ansys.meshing.prime.StretchFreeBoundariesParams.set_default)()         | Set the default values of the `StretchFreeBoundariesParams` object. |
 <!-- vale on -->

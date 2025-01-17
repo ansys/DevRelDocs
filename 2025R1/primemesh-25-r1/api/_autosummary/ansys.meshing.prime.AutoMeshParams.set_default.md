@@ -7,6 +7,7 @@
 Set the default values of the `AutoMeshParams` object.
 
 * **Parameters:**
+
   **size_field_type: SizeFieldType, optional**
   : Type of sizing to be used to generate volume mesh.
 

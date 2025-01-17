@@ -7,6 +7,7 @@
 Provides runtime errors for PyPrimeMesh.
 
 * **Parameters:**
+
   **message**
   : Error message to show.
 

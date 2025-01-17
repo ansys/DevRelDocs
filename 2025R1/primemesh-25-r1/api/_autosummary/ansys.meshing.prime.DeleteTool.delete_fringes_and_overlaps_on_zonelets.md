@@ -7,6 +7,7 @@
 Delete fringes and overlapping faces on the given face zonelets.
 
 * **Parameters:**
+
   **part_id**
   : Id of a part.
 
@@ -15,12 +16,14 @@ Delete fringes and overlapping faces on the given face zonelets.
 
   **params**
   : Parameters to delete the fringes and overlapping faces.
+
 * **Returns:**
-  :
 
   [`DeleteFringesAndOverlapsResults`](ansys.meshing.prime.DeleteFringesAndOverlapsResults.md#ansys.meshing.prime.DeleteFringesAndOverlapsResults)
   : Returns the DeleteFringesAndOverlapsResults.
+
 * **Return type:**
+
   [`DeleteFringesAndOverlapsResults`](ansys.meshing.prime.DeleteFringesAndOverlapsResults.md#ansys.meshing.prime.DeleteFringesAndOverlapsResults)
 
 ### Examples

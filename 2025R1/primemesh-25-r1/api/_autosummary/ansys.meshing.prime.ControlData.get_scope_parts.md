@@ -7,14 +7,17 @@
 Get the part ids for the given scope.
 
 * **Parameters:**
+
   **scope**
   : Scope definition to evaluate the part ids.
-* **Returns:**
-  :
 
+* **Returns:**
+  
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Return the ids of parts.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

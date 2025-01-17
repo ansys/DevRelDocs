@@ -7,11 +7,12 @@
 Get the meshed sizing parameters of size control.
 
 * **Returns:**
-  :
 
   [`MeshedSizingParams`](ansys.meshing.prime.MeshedSizingParams.md#ansys.meshing.prime.MeshedSizingParams)
   : Return the MeshedSizingParams.
+
 * **Return type:**
+
   [`MeshedSizingParams`](ansys.meshing.prime.MeshedSizingParams.md#ansys.meshing.prime.MeshedSizingParams)
 
 ### Examples

@@ -7,6 +7,7 @@
 Sets the number of threads for multithreaded operation.
 
 * **Parameters:**
+
   **num**
   : Number of threads.
 

@@ -7,6 +7,7 @@
 Get the volume controls.
 
 * **Returns:**
+
   `List`[[`VolumeControl`](ansys.meshing.prime.VolumeControl.md#ansys.meshing.prime.VolumeControl)]
   : List of volume controls.
 

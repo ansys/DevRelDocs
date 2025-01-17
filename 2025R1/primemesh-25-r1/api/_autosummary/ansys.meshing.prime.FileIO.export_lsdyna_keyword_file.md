@@ -7,17 +7,20 @@
 Export FEA LS-DYNA Keyword file for solid, surface mesh, or both.
 
 * **Parameters:**
+
   **file_name**
   : Name of the file.
 
   **params**
   : Parameters for FEA LS-DYNA Keyword file export.
+
 * **Returns:**
-  :
 
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
   : Returns FileWriteResults.
+
 * **Return type:**
+
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
 
 ### Notes

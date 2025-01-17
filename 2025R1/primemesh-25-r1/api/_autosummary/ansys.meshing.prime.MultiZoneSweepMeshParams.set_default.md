@@ -7,6 +7,7 @@
 Set the default values of the `MultiZoneSweepMeshParams` object.
 
 * **Parameters:**
+
   **source_and_target_scope: ScopeDefinition, optional**
   : Source and target faces used to determine the direction of sweep in MultiZone meshing.
 

@@ -7,13 +7,14 @@
 Read a PyPrimeMesh size field (PSF and PSF.GZ) file from disk.
 
 * **Parameters:**
+
   **file_name**
   : Path to the size field file on disk.
 
   **params**
   : Parameters for reading size field file.
+
 * **Returns:**
-  :
 
   [`SizeFieldFileReadResults`](ansys.meshing.prime.SizeFieldFileReadResults.md#ansys.meshing.prime.SizeFieldFileReadResults)
   : Results from reading the size field file.

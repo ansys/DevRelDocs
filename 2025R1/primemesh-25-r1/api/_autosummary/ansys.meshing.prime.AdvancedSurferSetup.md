@@ -10,9 +10,8 @@ Define advanced settings for remeshing operation.
 
 ### Methods
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`AdvancedSurferSetup.conjugate`](ansys.meshing.prime.AdvancedSurferSetup.conjugate.md#ansys.meshing.prime.AdvancedSurferSetup.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | [`AdvancedSurferSetup.bit_length`](ansys.meshing.prime.AdvancedSurferSetup.bit_length.md#ansys.meshing.prime.AdvancedSurferSetup.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`AdvancedSurferSetup.bit_count`](ansys.meshing.prime.AdvancedSurferSetup.bit_count.md#ansys.meshing.prime.AdvancedSurferSetup.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`AdvancedSurferSetup.to_bytes`](ansys.meshing.prime.AdvancedSurferSetup.to_bytes.md#ansys.meshing.prime.AdvancedSurferSetup.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -22,9 +21,8 @@ Define advanced settings for remeshing operation.
 
 ### Attributes
 
-| Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`AdvancedSurferSetup.real`](ansys.meshing.prime.AdvancedSurferSetup.real.md#ansys.meshing.prime.AdvancedSurferSetup.real)                      | the real part of a complex number                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`AdvancedSurferSetup.imag`](ansys.meshing.prime.AdvancedSurferSetup.imag.md#ansys.meshing.prime.AdvancedSurferSetup.imag)                      | the imaginary part of a complex number                   |
 | [`AdvancedSurferSetup.numerator`](ansys.meshing.prime.AdvancedSurferSetup.numerator.md#ansys.meshing.prime.AdvancedSurferSetup.numerator)       | the numerator of a rational number in lowest terms       |
 | [`AdvancedSurferSetup.denominator`](ansys.meshing.prime.AdvancedSurferSetup.denominator.md#ansys.meshing.prime.AdvancedSurferSetup.denominator) | the denominator of a rational number in lowest terms     |

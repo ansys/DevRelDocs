@@ -7,6 +7,7 @@
 Set the default values of the `SearchByFoldsParams` object.
 
 * **Parameters:**
+
   **critical_angle: float, optional**
   : Threshold angle for fold detection.
 

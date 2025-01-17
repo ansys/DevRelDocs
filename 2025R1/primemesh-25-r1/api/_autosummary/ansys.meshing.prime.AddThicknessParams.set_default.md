@@ -7,6 +7,7 @@
 Set the default values of the `AddThicknessParams` object.
 
 * **Parameters:**
+
   **thickness: float, optional**
   : To assign the offset distance of inflation.
 

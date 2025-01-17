@@ -7,6 +7,7 @@
 Set the default values of the `DetectAndTreatHolesParams` object.
 
 * **Parameters:**
+
   **detect_and_defeature_edges_near_holes: bool, optional**
   : Option to detect and defeature edges near all holes.
 

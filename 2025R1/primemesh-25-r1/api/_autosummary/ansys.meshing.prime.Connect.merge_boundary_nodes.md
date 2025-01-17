@@ -7,6 +7,7 @@
 Merges boundary nodes of source face zonelets with boundary nodes of target face zonelets according to the provided parameters.
 
 * **Parameters:**
+
   **part_id**
   : Id of the part where merging has to take place.
 
@@ -18,12 +19,15 @@ Merges boundary nodes of source face zonelets with boundary nodes of target face
 
   **params**
   : Parameters for merging boundary nodes.
+
 * **Returns:**
-  :
+
 
   [`MergeBoundaryNodesResults`](ansys.meshing.prime.MergeBoundaryNodesResults.md#ansys.meshing.prime.MergeBoundaryNodesResults)
   : Returns the MergeBoundaryNodesResults.
+
 * **Return type:**
+
   [`MergeBoundaryNodesResults`](ansys.meshing.prime.MergeBoundaryNodesResults.md#ansys.meshing.prime.MergeBoundaryNodesResults)
 
 ### Notes

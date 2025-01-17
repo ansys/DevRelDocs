@@ -7,6 +7,7 @@
 Set the default values of the `DetectAndTreatCircularFacesParams` object.
 
 * **Parameters:**
+
   **edge_mesh_constant_size: float, optional**
   : Constant size used for edge meshing.
 
