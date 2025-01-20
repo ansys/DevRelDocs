@@ -8,13 +8,13 @@ Results associated with the add label operation.
 
 * **Parameters:**
 
-  **model: Model**
+  * **model: Model**
   : Model to create a `AddLabelResults` object with default parameters.
 
-  **error_code: ErrorCode, optional**
+  * **error_code: ErrorCode, optional**
   : Error code associated with the add label operation.
 
-  **json_data: dict, optional**
+  * **json_data: dict, optional**
   : JSON dictionary to create a `AddLabelResults` object with provided parameters.
 
 ### Examples
