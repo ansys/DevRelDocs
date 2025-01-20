@@ -7,11 +7,12 @@
 Gets list of material point names.
 
 * **Returns:**
-  :
 
   `List`[[`str`](https://docs.python.org/3.11/library/stdtypes.html#str)]
   : Returns the list of material point names.
+
 * **Return type:**
+
   [`List`](https://docs.python.org/3.11/library/typing.html#typing.List)[[`str`](https://docs.python.org/3.11/library/stdtypes.html#str)]
 
 ### Examples

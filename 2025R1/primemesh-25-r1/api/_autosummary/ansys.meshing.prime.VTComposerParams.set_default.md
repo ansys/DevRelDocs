@@ -7,6 +7,7 @@
 Set the default values of the `VTComposerParams` object.
 
 * **Parameters:**
+
   **thin_stripes_tol: float, optional**
 
 <!-- !! processed by numpydoc !! -->

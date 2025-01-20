@@ -7,14 +7,17 @@
 Sets the volume scope of thin volume control.
 
 * **Parameters:**
+
   **entities**
   : Scope definition for volume entities.
+
 * **Returns:**
-  :
 
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
   : Returns SetScopeResults.
+
 * **Return type:**
+
   [`SetScopeResults`](ansys.meshing.prime.SetScopeResults.md#ansys.meshing.prime.SetScopeResults)
 
 ### Notes

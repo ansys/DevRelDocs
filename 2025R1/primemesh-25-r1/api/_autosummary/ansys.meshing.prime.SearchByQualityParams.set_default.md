@@ -7,6 +7,7 @@
 Set the default values of the `SearchByQualityParams` object.
 
 * **Parameters:**
+
   **quality_limit: float, optional**
   : Quality limit used for search face elements.
 

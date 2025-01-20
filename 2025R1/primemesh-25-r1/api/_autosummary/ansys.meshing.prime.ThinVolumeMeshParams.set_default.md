@@ -7,6 +7,7 @@
 Set the default values of the `ThinVolumeMeshParams` object.
 
 * **Parameters:**
+
   **n_layers: int, optional**
   : Number of thin volume layers to be generated.
 

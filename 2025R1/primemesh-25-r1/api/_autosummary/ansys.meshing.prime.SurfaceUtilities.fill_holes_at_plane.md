@@ -7,6 +7,7 @@
 Fill holes in given face zonelets at given plane.
 
 * **Parameters:**
+
   **part_id**
   : Id of part to associate face zonelets created to fill hole.
 
@@ -18,12 +19,14 @@ Fill holes in given face zonelets at given plane.
 
   **params**
   : Parameters to fill holes.
+
 * **Returns:**
-  :
 
   [`FillHolesAtPlaneResults`](ansys.meshing.prime.FillHolesAtPlaneResults.md#ansys.meshing.prime.FillHolesAtPlaneResults)
   : Returns the FillHolesAtPlaneResults.
+
 * **Return type:**
+
   [`FillHolesAtPlaneResults`](ansys.meshing.prime.FillHolesAtPlaneResults.md#ansys.meshing.prime.FillHolesAtPlaneResults)
 
 ### Examples

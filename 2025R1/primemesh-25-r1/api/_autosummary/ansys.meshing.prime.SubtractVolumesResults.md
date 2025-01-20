@@ -32,13 +32,15 @@ Results of the volume subtract operation.
 
 ### Methods
 
-| [`SubtractVolumesResults.print_default`](ansys.meshing.prime.SubtractVolumesResults.print_default.md#ansys.meshing.prime.SubtractVolumesResults.print_default)()   | Print the default values of `SubtractVolumesResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`SubtractVolumesResults.print_default`](ansys.meshing.prime.SubtractVolumesResults.print_default.md#ansys.meshing.prime.SubtractVolumesResults.print_default)()   | Print the default values of `SubtractVolumesResults` object.   |
 | [`SubtractVolumesResults.set_default`](ansys.meshing.prime.SubtractVolumesResults.set_default.md#ansys.meshing.prime.SubtractVolumesResults.set_default)([...])    | Set the default values of the `SubtractVolumesResults` object. |
 
 ### Attributes
 
-| [`SubtractVolumesResults.error_code`](ansys.meshing.prime.SubtractVolumesResults.error_code.md#ansys.meshing.prime.SubtractVolumesResults.error_code)          | Error code associated with the volume subtract operation.    |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`SubtractVolumesResults.error_code`](ansys.meshing.prime.SubtractVolumesResults.error_code.md#ansys.meshing.prime.SubtractVolumesResults.error_code)          | Error code associated with the volume subtract operation.    |
 | [`SubtractVolumesResults.warning_codes`](ansys.meshing.prime.SubtractVolumesResults.warning_codes.md#ansys.meshing.prime.SubtractVolumesResults.warning_codes) | Warning codes associated with the volume subtract operation. |
 <!-- vale on -->

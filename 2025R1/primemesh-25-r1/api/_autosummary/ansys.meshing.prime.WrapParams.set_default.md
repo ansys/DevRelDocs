@@ -7,6 +7,7 @@
 Set the default values of the `WrapParams` object.
 
 * **Parameters:**
+
   **sizing_method: SizeFieldType, optional**
   : Used to define sizing method for wrapping.
 

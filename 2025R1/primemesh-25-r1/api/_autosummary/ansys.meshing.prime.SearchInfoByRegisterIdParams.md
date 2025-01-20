@@ -7,6 +7,7 @@
 Parameters to retrieve information on registered faces.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `SearchInfoByRegisterIdParams` object with default parameters.
 
@@ -23,7 +24,8 @@ Parameters to retrieve information on registered faces.
 
 ### Methods
 
-| [`SearchInfoByRegisterIdParams.print_default`](ansys.meshing.prime.SearchInfoByRegisterIdParams.print_default.md#ansys.meshing.prime.SearchInfoByRegisterIdParams.print_default)()   | Print the default values of `SearchInfoByRegisterIdParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| [`SearchInfoByRegisterIdParams.print_default`](ansys.meshing.prime.SearchInfoByRegisterIdParams.print_default.md#ansys.meshing.prime.SearchInfoByRegisterIdParams.print_default)()   | Print the default values of `SearchInfoByRegisterIdParams` object.   |
 | [`SearchInfoByRegisterIdParams.set_default`](ansys.meshing.prime.SearchInfoByRegisterIdParams.set_default.md#ansys.meshing.prime.SearchInfoByRegisterIdParams.set_default)()         | Set the default values of the `SearchInfoByRegisterIdParams` object. |
 <!-- vale on -->

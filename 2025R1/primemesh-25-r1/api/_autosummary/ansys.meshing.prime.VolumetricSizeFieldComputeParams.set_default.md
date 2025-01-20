@@ -7,6 +7,7 @@
 Set the default values of the `VolumetricSizeFieldComputeParams` object.
 
 * **Parameters:**
+
   **enable_multi_threading: bool, optional**
   : Option to compute volumetric size field in parallel using multithreads.
 

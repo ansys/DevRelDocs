@@ -7,6 +7,7 @@
 Set the default values of the `SearchByIntersectionResults` object.
 
 * **Parameters:**
+
   **n_found: int, optional**
   : Number of face elements identified by intersection(face elements interfering with each other).
 
