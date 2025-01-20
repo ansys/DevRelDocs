@@ -7,6 +7,7 @@
 Set the default values of the `SurfaceMeshSizeScaling` object.
 
 * **Parameters:**
+
   **factor: float, optional**
   : Value by which size should be multiplied when the size falls within a certain range. Applicable only when size field type is set to Geometric in AutoMeshParams structure.
 

@@ -7,6 +7,7 @@
 Set the default values of the `SurfaceQualityResult` object.
 
 * **Parameters:**
+
   **face_quality_measure: FaceQualityMeasure, optional**
   : Type of the face quality measure.
 

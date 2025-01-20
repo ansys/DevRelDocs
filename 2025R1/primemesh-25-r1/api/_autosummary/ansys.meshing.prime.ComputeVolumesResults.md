@@ -42,14 +42,16 @@ Results associated with compute volumes.
 
 ### Methods
 
-| [`ComputeVolumesResults.print_default`](ansys.meshing.prime.ComputeVolumesResults.print_default.md#ansys.meshing.prime.ComputeVolumesResults.print_default)()   | Print the default values of `ComputeVolumesResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ComputeVolumesResults.print_default`](ansys.meshing.prime.ComputeVolumesResults.print_default.md#ansys.meshing.prime.ComputeVolumesResults.print_default)()   | Print the default values of `ComputeVolumesResults` object.   |
 | [`ComputeVolumesResults.set_default`](ansys.meshing.prime.ComputeVolumesResults.set_default.md#ansys.meshing.prime.ComputeVolumesResults.set_default)([...])    | Set the default values of the `ComputeVolumesResults` object. |
 
 ### Attributes
 
-| [`ComputeVolumesResults.error_code`](ansys.meshing.prime.ComputeVolumesResults.error_code.md#ansys.meshing.prime.ComputeVolumesResults.error_code)                                                    | Error code associated with the failure of operation.                              |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`ComputeVolumesResults.error_code`](ansys.meshing.prime.ComputeVolumesResults.error_code.md#ansys.meshing.prime.ComputeVolumesResults.error_code)                                                    | Error code associated with the failure of operation.                              |
 | [`ComputeVolumesResults.error_locations`](ansys.meshing.prime.ComputeVolumesResults.error_locations.md#ansys.meshing.prime.ComputeVolumesResults.error_locations)                                     | Coordinates of problematic locations in the surface mesh.                         |
 | [`ComputeVolumesResults.external_open_face_zonelets`](ansys.meshing.prime.ComputeVolumesResults.external_open_face_zonelets.md#ansys.meshing.prime.ComputeVolumesResults.external_open_face_zonelets) | Face zonelet ids that are in external space and not part of any computed volumes. |
 | [`ComputeVolumesResults.material_point_volumes`](ansys.meshing.prime.ComputeVolumesResults.material_point_volumes.md#ansys.meshing.prime.ComputeVolumesResults.material_point_volumes)                | Ids of computed volumes enclosing material points.                                |

@@ -7,6 +7,7 @@
 Parameters to control surface quality summary results.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `SurfaceQualitySummaryParams` object with default parameters.
 
@@ -32,25 +33,18 @@ Parameters to control surface quality summary results.
 
 ### Methods
 
-| [`SurfaceQualitySummaryParams.print_default`](ansys.meshing.prime.SurfaceQualitySummaryParams.print_default.md#ansys.meshing.prime.SurfaceQualitySummaryParams.print_default)()   | Print the default values of `SurfaceQualitySummaryParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| [`SurfaceQualitySummaryParams.print_default`](ansys.meshing.prime.SurfaceQualitySummaryParams.print_default.md#ansys.meshing.prime.SurfaceQualitySummaryParams.print_default)()   | Print the default values of `SurfaceQualitySummaryParams` object.   |
 | [`SurfaceQualitySummaryParams.set_default`](ansys.meshing.prime.SurfaceQualitySummaryParams.set_default.md#ansys.meshing.prime.SurfaceQualitySummaryParams.set_default)([...])    | Set the default values of the `SurfaceQualitySummaryParams` object. |
 
 ### Attributes
 
-| [`SurfaceQualitySummaryParams.face_quality_measures`](ansys.meshing.prime.SurfaceQualitySummaryParams.face_quality_measures.md#ansys.meshing.prime.SurfaceQualitySummaryParams.face_quality_measures)   | List of face quality measures for surface quality diagnostics.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`SurfaceQualitySummaryParams.face_quality_measures`](ansys.meshing.prime.SurfaceQualitySummaryParams.face_quality_measures.md#ansys.meshing.prime.SurfaceQualitySummaryParams.face_quality_measures)   | List of face quality measures for surface quality diagnostics.   |
 | [`SurfaceQualitySummaryParams.quality_limit`](ansys.meshing.prime.SurfaceQualitySummaryParams.quality_limit.md#ansys.meshing.prime.SurfaceQualitySummaryParams.quality_limit)                           | Quality limit per face quality measure.                          |
 | [`SurfaceQualitySummaryParams.scope`](ansys.meshing.prime.SurfaceQualitySummaryParams.scope.md#ansys.meshing.prime.SurfaceQualitySummaryParams.scope)                                                   | Scope the face zonelets for surface quality diagnostics.         |
 
-<a id="examples-using-surfacequalitysummaryparams"></a>
 
-## Examples using SurfaceQualitySummaryParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to wrap a toy car for a flow analysis.">  <div class="sphx-glr-thumbnail-title">Wrap a toy car for a flow analysis</div>
-</div>
-* [Wrap a toy car for a flow analysis](../../examples/gallery_examples/gallery/04_lucid_toy_car.md#sphx-glr-examples-gallery-examples-gallery-04-lucid-toy-car-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

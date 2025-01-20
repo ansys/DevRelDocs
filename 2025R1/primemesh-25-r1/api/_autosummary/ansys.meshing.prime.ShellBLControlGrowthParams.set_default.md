@@ -7,6 +7,7 @@
 Set the default values of the `ShellBLControlGrowthParams` object.
 
 * **Parameters:**
+
   **n_layers: int, optional**
   : Number of layers to be generated.
 

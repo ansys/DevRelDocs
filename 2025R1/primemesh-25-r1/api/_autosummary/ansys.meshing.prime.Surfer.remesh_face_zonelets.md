@@ -7,6 +7,7 @@
 Perform meshing on face zonelets with given parameters.
 
 * **Parameters:**
+
   **part_id**
   : ID of part.
 
@@ -18,12 +19,14 @@ Perform meshing on face zonelets with given parameters.
 
   **params**
   : Surfer parameters.
+
 * **Returns:**
-  :
 
   [`SurferResults`](ansys.meshing.prime.SurferResults.md#ansys.meshing.prime.SurferResults)
   : Results from meshing the face zonelets.
+
 * **Return type:**
+
   [`SurferResults`](ansys.meshing.prime.SurferResults.md#ansys.meshing.prime.SurferResults)
 
 ### Examples

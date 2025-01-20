@@ -7,6 +7,7 @@
 Provides the parameters used for triangulation operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `TriangulateParams` object with default parameters.
 
@@ -23,7 +24,8 @@ Provides the parameters used for triangulation operation.
 
 ### Methods
 
-| [`TriangulateParams.print_default`](ansys.meshing.prime.TriangulateParams.print_default.md#ansys.meshing.prime.TriangulateParams.print_default)()   | Print the default values of `TriangulateParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [`TriangulateParams.print_default`](ansys.meshing.prime.TriangulateParams.print_default.md#ansys.meshing.prime.TriangulateParams.print_default)()   | Print the default values of `TriangulateParams` object.   |
 | [`TriangulateParams.set_default`](ansys.meshing.prime.TriangulateParams.set_default.md#ansys.meshing.prime.TriangulateParams.set_default)()         | Set the default values of the `TriangulateParams` object. |
 <!-- vale on -->

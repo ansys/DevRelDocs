@@ -17,6 +17,7 @@ Get a thin volume control by name.
   : Thin volume control.
   
 * **Return type:**
+
   [`ThinVolumeControl`](ansys.meshing.prime.ThinVolumeControl.md#ansys.meshing.prime.ThinVolumeControl)
 
 ### Examples

@@ -21,8 +21,9 @@ The `Mesh` class provides these functionalities:
 
 ### Methods
 
-| [`Mesh.compute_volumes`](ansys.meshing.prime.lucid.Mesh.compute_volumes.md#ansys.meshing.prime.lucid.Mesh.compute_volumes)([part_expression, ...])                                | Compute volumes in the parts defined by the part expression.               |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`Mesh.compute_volumes`](ansys.meshing.prime.lucid.Mesh.compute_volumes.md#ansys.meshing.prime.lucid.Mesh.compute_volumes)([part_expression, ...])                                | Compute volumes in the parts defined by the part expression.               |
 | [`Mesh.connect_faces`](ansys.meshing.prime.lucid.Mesh.connect_faces.md#ansys.meshing.prime.lucid.Mesh.connect_faces)([part_expression, ...])                                      | Connect face zonelets with a label name pattern within a given tolerance.  |
 | [`Mesh.create_constant_size_control`](ansys.meshing.prime.lucid.Mesh.create_constant_size_control.md#ansys.meshing.prime.lucid.Mesh.create_constant_size_control)([...])          | Generate constant size control on a scope.                                 |
 | [`Mesh.create_curvature_size_control`](ansys.meshing.prime.lucid.Mesh.create_curvature_size_control.md#ansys.meshing.prime.lucid.Mesh.create_curvature_size_control)([...])       | Generate a curvature size control on a scope.                              |

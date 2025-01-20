@@ -7,14 +7,17 @@
 Get the adjacent topofaces for the provided topoface ids.
 
 * **Parameters:**
+
   **topo_faces**
   : Ids of the topoface.
+
 * **Returns:**
-  :
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Returns the list of adjacent topoface ids.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

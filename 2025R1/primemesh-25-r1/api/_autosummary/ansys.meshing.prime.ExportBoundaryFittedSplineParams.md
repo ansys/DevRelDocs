@@ -30,13 +30,15 @@ Parameters for exporting boundary fitted splines.
 
 ### Methods
 
-| [`ExportBoundaryFittedSplineParams.print_default`](ansys.meshing.prime.ExportBoundaryFittedSplineParams.print_default.md#ansys.meshing.prime.ExportBoundaryFittedSplineParams.print_default)()   | Print the default values of `ExportBoundaryFittedSplineParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [`ExportBoundaryFittedSplineParams.print_default`](ansys.meshing.prime.ExportBoundaryFittedSplineParams.print_default.md#ansys.meshing.prime.ExportBoundaryFittedSplineParams.print_default)()   | Print the default values of `ExportBoundaryFittedSplineParams` object.   |
 | [`ExportBoundaryFittedSplineParams.set_default`](ansys.meshing.prime.ExportBoundaryFittedSplineParams.set_default.md#ansys.meshing.prime.ExportBoundaryFittedSplineParams.set_default)([...])    | Set the default values of the `ExportBoundaryFittedSplineParams` object. |
 
 ### Attributes
 
-| [`ExportBoundaryFittedSplineParams.id_offset`](ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset.md#ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset)   | Offset value for IGA entity ids between parts.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [`ExportBoundaryFittedSplineParams.id_offset`](ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset.md#ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_offset)   | Offset value for IGA entity ids between parts.   |
 | [`ExportBoundaryFittedSplineParams.id_start`](ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_start.md#ansys.meshing.prime.ExportBoundaryFittedSplineParams.id_start)      | Start ids for IGA entities.                      |
 <!-- vale on -->

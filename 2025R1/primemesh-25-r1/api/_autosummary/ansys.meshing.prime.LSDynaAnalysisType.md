@@ -10,8 +10,9 @@ Provides the LS-DYNA analysis type.
 
 ### Methods
 
-| [`LSDynaAnalysisType.conjugate`](ansys.meshing.prime.LSDynaAnalysisType.conjugate.md#ansys.meshing.prime.LSDynaAnalysisType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`LSDynaAnalysisType.conjugate`](ansys.meshing.prime.LSDynaAnalysisType.conjugate.md#ansys.meshing.prime.LSDynaAnalysisType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`LSDynaAnalysisType.bit_length`](ansys.meshing.prime.LSDynaAnalysisType.bit_length.md#ansys.meshing.prime.LSDynaAnalysisType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`LSDynaAnalysisType.bit_count`](ansys.meshing.prime.LSDynaAnalysisType.bit_count.md#ansys.meshing.prime.LSDynaAnalysisType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`LSDynaAnalysisType.to_bytes`](ansys.meshing.prime.LSDynaAnalysisType.to_bytes.md#ansys.meshing.prime.LSDynaAnalysisType.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ Provides the LS-DYNA analysis type.
 
 ### Attributes
 
-| [`LSDynaAnalysisType.real`](ansys.meshing.prime.LSDynaAnalysisType.real.md#ansys.meshing.prime.LSDynaAnalysisType.real)                      | the real part of a complex number                    |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`LSDynaAnalysisType.real`](ansys.meshing.prime.LSDynaAnalysisType.real.md#ansys.meshing.prime.LSDynaAnalysisType.real)                      | the real part of a complex number                    |
 | [`LSDynaAnalysisType.imag`](ansys.meshing.prime.LSDynaAnalysisType.imag.md#ansys.meshing.prime.LSDynaAnalysisType.imag)                      | the imaginary part of a complex number               |
 | [`LSDynaAnalysisType.numerator`](ansys.meshing.prime.LSDynaAnalysisType.numerator.md#ansys.meshing.prime.LSDynaAnalysisType.numerator)       | the numerator of a rational number in lowest terms   |
 | [`LSDynaAnalysisType.denominator`](ansys.meshing.prime.LSDynaAnalysisType.denominator.md#ansys.meshing.prime.LSDynaAnalysisType.denominator) | the denominator of a rational number in lowest terms |

@@ -7,6 +7,7 @@
 Set the default values of the `ResolveIntersectionResult` object.
 
 * **Parameters:**
+
   **error_code: ErrorCode, optional**
   : Errror code associated with a resolve intersections operation.
 

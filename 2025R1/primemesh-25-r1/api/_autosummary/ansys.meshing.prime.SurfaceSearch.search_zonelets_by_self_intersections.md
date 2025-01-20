@@ -7,6 +7,7 @@
 Search face zonelets to identify face elements intersecting with each other.
 
 * **Parameters:**
+
   **part_id**
   : Id of part.
 
@@ -18,12 +19,14 @@ Search face zonelets to identify face elements intersecting with each other.
 
   **params**
   : Parameters used to identify face elements by self intersection.
+
 * **Returns:**
-  :
 
   [`SearchByIntersectionResults`](ansys.meshing.prime.SearchByIntersectionResults.md#ansys.meshing.prime.SearchByIntersectionResults)
   : Returns the SearchByIntersectionResults.
+
 * **Return type:**
+
   [`SearchByIntersectionResults`](ansys.meshing.prime.SearchByIntersectionResults.md#ansys.meshing.prime.SearchByIntersectionResults)
 
 ### Examples

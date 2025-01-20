@@ -7,6 +7,7 @@
 Sets geometry scope to given scope.
 
 * **Parameters:**
+
   **scope**
   : ScopeDefinition to scope entities for wrapping.
 

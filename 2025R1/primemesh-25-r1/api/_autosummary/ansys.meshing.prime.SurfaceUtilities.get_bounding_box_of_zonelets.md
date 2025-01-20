@@ -7,14 +7,17 @@
 Get bounding box of given zonelets.
 
 * **Parameters:**
+
   **zonelets**
   : Ids of zonelets.
+
 * **Returns:**
-  :
 
   [`BoundingBox`](ansys.meshing.prime.BoundingBox.md#ansys.meshing.prime.BoundingBox)
   : Returns bounding of box of given zonelets.
+
 * **Return type:**
+
   [`BoundingBox`](ansys.meshing.prime.BoundingBox.md#ansys.meshing.prime.BoundingBox)
 
 ### Examples

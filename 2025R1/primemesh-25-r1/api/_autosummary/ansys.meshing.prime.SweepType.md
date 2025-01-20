@@ -10,8 +10,9 @@ Provides the Sweep Mesh Decomposition type.
 
 ### Methods
 
-| [`SweepType.conjugate`](ansys.meshing.prime.SweepType.conjugate.md#ansys.meshing.prime.SweepType.conjugate)                                | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`SweepType.conjugate`](ansys.meshing.prime.SweepType.conjugate.md#ansys.meshing.prime.SweepType.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`SweepType.bit_length`](ansys.meshing.prime.SweepType.bit_length.md#ansys.meshing.prime.SweepType.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`SweepType.bit_count`](ansys.meshing.prime.SweepType.bit_count.md#ansys.meshing.prime.SweepType.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
 | [`SweepType.to_bytes`](ansys.meshing.prime.SweepType.to_bytes.md#ansys.meshing.prime.SweepType.to_bytes)(/[, length, byteorder, ...])      | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ Provides the Sweep Mesh Decomposition type.
 
 ### Attributes
 
-| [`SweepType.real`](ansys.meshing.prime.SweepType.real.md#ansys.meshing.prime.SweepType.real)                                        | the real part of a complex number                                                                   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| [`SweepType.real`](ansys.meshing.prime.SweepType.real.md#ansys.meshing.prime.SweepType.real)                                        | the real part of a complex number                                                                   |
 | [`SweepType.imag`](ansys.meshing.prime.SweepType.imag.md#ansys.meshing.prime.SweepType.imag)                                        | the imaginary part of a complex number                                                              |
 | [`SweepType.numerator`](ansys.meshing.prime.SweepType.numerator.md#ansys.meshing.prime.SweepType.numerator)                         | the numerator of a rational number in lowest terms                                                  |
 | [`SweepType.denominator`](ansys.meshing.prime.SweepType.denominator.md#ansys.meshing.prime.SweepType.denominator)                   | the denominator of a rational number in lowest terms                                                |

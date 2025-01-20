@@ -7,6 +7,7 @@
 Parameters used to generate ShellBL.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `ShellBLParams` object with default parameters.
 
@@ -23,7 +24,8 @@ Parameters used to generate ShellBL.
 
 ### Methods
 
-| [`ShellBLParams.print_default`](ansys.meshing.prime.ShellBLParams.print_default.md#ansys.meshing.prime.ShellBLParams.print_default)()   | Print the default values of `ShellBLParams` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`ShellBLParams.print_default`](ansys.meshing.prime.ShellBLParams.print_default.md#ansys.meshing.prime.ShellBLParams.print_default)()   | Print the default values of `ShellBLParams` object.   |
 | [`ShellBLParams.set_default`](ansys.meshing.prime.ShellBLParams.set_default.md#ansys.meshing.prime.ShellBLParams.set_default)()         | Set the default values of the `ShellBLParams` object. |
 <!-- vale on -->

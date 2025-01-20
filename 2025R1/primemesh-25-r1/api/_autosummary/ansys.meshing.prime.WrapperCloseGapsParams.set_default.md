@@ -7,6 +7,7 @@
 Set the default values of the `WrapperCloseGapsParams` object.
 
 * **Parameters:**
+
   **target: ScopeDefinition, optional**
   : Scope of target face zonelets to patch gaps between scope and target. If empty scope is provided, CloseGaps patch gaps within scope.
 

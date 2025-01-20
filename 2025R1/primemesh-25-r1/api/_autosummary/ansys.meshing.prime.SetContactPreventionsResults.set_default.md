@@ -7,6 +7,7 @@
 Set the default values of the `SetContactPreventionsResults` object.
 
 * **Parameters:**
+
   **error_code: ErrorCode, optional**
   : Error code associated with the set contact preventions.
 

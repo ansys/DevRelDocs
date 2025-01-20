@@ -7,6 +7,7 @@
 Set the default values of the `WrapperImproveQualityParams` object.
 
 * **Parameters:**
+
   **target_skewness: float, optional**
   : Target skewness.
 

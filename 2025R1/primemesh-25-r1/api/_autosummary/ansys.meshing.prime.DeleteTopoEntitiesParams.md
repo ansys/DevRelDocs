@@ -30,14 +30,16 @@ Parameters to control delete topoentities.
 
 ### Methods
 
-| [`DeleteTopoEntitiesParams.print_default`](ansys.meshing.prime.DeleteTopoEntitiesParams.print_default.md#ansys.meshing.prime.DeleteTopoEntitiesParams.print_default)()   | Print the default values of `DeleteTopoEntitiesParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`DeleteTopoEntitiesParams.print_default`](ansys.meshing.prime.DeleteTopoEntitiesParams.print_default.md#ansys.meshing.prime.DeleteTopoEntitiesParams.print_default)()   | Print the default values of `DeleteTopoEntitiesParams` object.   |
 | [`DeleteTopoEntitiesParams.set_default`](ansys.meshing.prime.DeleteTopoEntitiesParams.set_default.md#ansys.meshing.prime.DeleteTopoEntitiesParams.set_default)([...])    | Set the default values of the `DeleteTopoEntitiesParams` object. |
 
 ### Attributes
 
-| [`DeleteTopoEntitiesParams.delete_geom_zonelets`](ansys.meshing.prime.DeleteTopoEntitiesParams.delete_geom_zonelets.md#ansys.meshing.prime.DeleteTopoEntitiesParams.delete_geom_zonelets)   | Option to delete geometry zonelets of topology.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| [`DeleteTopoEntitiesParams.delete_geom_zonelets`](ansys.meshing.prime.DeleteTopoEntitiesParams.delete_geom_zonelets.md#ansys.meshing.prime.DeleteTopoEntitiesParams.delete_geom_zonelets)   | Option to delete geometry zonelets of topology.   |
 | [`DeleteTopoEntitiesParams.delete_mesh_zonelets`](ansys.meshing.prime.DeleteTopoEntitiesParams.delete_mesh_zonelets.md#ansys.meshing.prime.DeleteTopoEntitiesParams.delete_mesh_zonelets)   | Option to delete mesh zonelets of topology.       |
 
 

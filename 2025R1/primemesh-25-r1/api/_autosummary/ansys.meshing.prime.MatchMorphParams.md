@@ -24,8 +24,9 @@ MatchMorphParams describes the parameters required for match morphing.
 
 ### Methods
 
-| [`MatchMorphParams.print_default`](ansys.meshing.prime.MatchMorphParams.print_default.md#ansys.meshing.prime.MatchMorphParams.print_default)()   | Print the default values of `MatchMorphParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`MatchMorphParams.print_default`](ansys.meshing.prime.MatchMorphParams.print_default.md#ansys.meshing.prime.MatchMorphParams.print_default)()   | Print the default values of `MatchMorphParams` object.   |
 | [`MatchMorphParams.set_default`](ansys.meshing.prime.MatchMorphParams.set_default.md#ansys.meshing.prime.MatchMorphParams.set_default)()         | Set the default values of the `MatchMorphParams` object. |
 
 
