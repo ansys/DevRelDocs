@@ -9,6 +9,7 @@ Search face zonelets to identify folds.
 Search face zonelets to identify folds with provided folds parameters.
 
 * **Parameters:**
+
   **part_id**
   : Id of part.
 
@@ -20,12 +21,14 @@ Search face zonelets to identify folds with provided folds parameters.
 
   **params**
   : Parameters used to identify folds.
+
 * **Returns:**
-  :
 
   [`SearchByFoldsResults`](ansys.meshing.prime.SearchByFoldsResults.md#ansys.meshing.prime.SearchByFoldsResults)
   : Returns the SearchByFoldsResults.
+
 * **Return type:**
+
   [`SearchByFoldsResults`](ansys.meshing.prime.SearchByFoldsResults.md#ansys.meshing.prime.SearchByFoldsResults)
 
 ### Examples

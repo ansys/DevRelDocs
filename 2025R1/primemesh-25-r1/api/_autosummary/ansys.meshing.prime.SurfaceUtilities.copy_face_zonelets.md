@@ -7,6 +7,7 @@
 Copy face zonelets.
 
 * **Parameters:**
+
   **face_zonelets**
   : Ids of face zonelets to be copied.
 
@@ -15,12 +16,14 @@ Copy face zonelets.
 
   **params**
   : Parameters to copy face zonelets.
+
 * **Returns:**
-  :
 
   [`CopyZoneletsResults`](ansys.meshing.prime.CopyZoneletsResults.md#ansys.meshing.prime.CopyZoneletsResults)
   : Returns the CopyZoneletsResults.
+
 * **Return type:**
+
   [`CopyZoneletsResults`](ansys.meshing.prime.CopyZoneletsResults.md#ansys.meshing.prime.CopyZoneletsResults)
 
 ### Examples

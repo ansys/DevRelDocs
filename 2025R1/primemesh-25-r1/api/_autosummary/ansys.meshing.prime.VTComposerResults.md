@@ -7,6 +7,7 @@
 Result struct associated to VTComposer operations.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `VTComposerResults` object with default parameters.
 
@@ -26,12 +27,14 @@ Result struct associated to VTComposer operations.
 
 ### Methods
 
-| [`VTComposerResults.print_default`](ansys.meshing.prime.VTComposerResults.print_default.md#ansys.meshing.prime.VTComposerResults.print_default)()       | Print the default values of `VTComposerResults` object.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [`VTComposerResults.print_default`](ansys.meshing.prime.VTComposerResults.print_default.md#ansys.meshing.prime.VTComposerResults.print_default)()       | Print the default values of `VTComposerResults` object.   |
 | [`VTComposerResults.set_default`](ansys.meshing.prime.VTComposerResults.set_default.md#ansys.meshing.prime.VTComposerResults.set_default)([error_code]) | Set the default values of the `VTComposerResults` object. |
 
 ### Attributes
 
-| [`VTComposerResults.error_code`](ansys.meshing.prime.VTComposerResults.error_code.md#ansys.meshing.prime.VTComposerResults.error_code)   | **This is a beta parameter**.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| [`VTComposerResults.error_code`](ansys.meshing.prime.VTComposerResults.error_code.md#ansys.meshing.prime.VTComposerResults.error_code)   | **This is a beta parameter**.   |
 <!-- vale on -->

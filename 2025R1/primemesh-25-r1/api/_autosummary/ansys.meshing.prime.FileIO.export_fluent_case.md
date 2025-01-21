@@ -18,7 +18,9 @@ Export a Fluent case (CAS) file.
 
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
   : Results from exporting the case file.
+
 * **Return type:**
+
   [`FileWriteResults`](ansys.meshing.prime.FileWriteResults.md#ansys.meshing.prime.FileWriteResults)
 
 ### Examples

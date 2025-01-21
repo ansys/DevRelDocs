@@ -33,14 +33,16 @@ Parameters to merge parts.
 
 ### Methods
 
-| [`MergePartsResults.print_default`](ansys.meshing.prime.MergePartsResults.print_default.md#ansys.meshing.prime.MergePartsResults.print_default)()            | Print the default values of `MergePartsResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [`MergePartsResults.print_default`](ansys.meshing.prime.MergePartsResults.print_default.md#ansys.meshing.prime.MergePartsResults.print_default)()            | Print the default values of `MergePartsResults` object.   |
 | [`MergePartsResults.set_default`](ansys.meshing.prime.MergePartsResults.set_default.md#ansys.meshing.prime.MergePartsResults.set_default)([error_code, ...]) | Set the default values of the `MergePartsResults` object. |
 
 ### Attributes
 
-| [`MergePartsResults.error_code`](ansys.meshing.prime.MergePartsResults.error_code.md#ansys.meshing.prime.MergePartsResults.error_code)                                              | Error code associated with the failure of operation.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| [`MergePartsResults.error_code`](ansys.meshing.prime.MergePartsResults.error_code.md#ansys.meshing.prime.MergePartsResults.error_code)                                              | Error code associated with the failure of operation.   |
 | [`MergePartsResults.merged_part_assigned_name`](ansys.meshing.prime.MergePartsResults.merged_part_assigned_name.md#ansys.meshing.prime.MergePartsResults.merged_part_assigned_name) | Name assigned to merged part.                          |
 | [`MergePartsResults.merged_part_id`](ansys.meshing.prime.MergePartsResults.merged_part_id.md#ansys.meshing.prime.MergePartsResults.merged_part_id)                                  | Id assigned to merged part.                            |
 

@@ -18,10 +18,12 @@ Optimize quad faces with given parameters.
   : Parameters of optimize quad mesh.
 
 * **Returns:**
+
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
   : Returns the AutoQuadMesherResults structure.
   
 * **Return type:**
+
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
 
 ### Notes

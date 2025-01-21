@@ -10,17 +10,20 @@ This method performs wrapping with specified controls in the wrapper control
 and with given parameters.
 
 * **Parameters:**
+
   **wrapper_control_id**
   : ID of the wrapper control.
 
   **params**
   : Wrap parameters.
+
 * **Returns:**
-  :
 
   [`WrapResult`](ansys.meshing.prime.WrapResult.md#ansys.meshing.prime.WrapResult)
   : Wrap results.
+
 * **Return type:**
+
   [`WrapResult`](ansys.meshing.prime.WrapResult.md#ansys.meshing.prime.WrapResult)
 
 ### Examples

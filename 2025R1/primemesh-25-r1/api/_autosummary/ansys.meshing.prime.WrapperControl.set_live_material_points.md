@@ -7,6 +7,7 @@
 Set live material points to the wrapper control.
 
 * **Parameters:**
+
   **material_point_names**
   : List of live material points.
 

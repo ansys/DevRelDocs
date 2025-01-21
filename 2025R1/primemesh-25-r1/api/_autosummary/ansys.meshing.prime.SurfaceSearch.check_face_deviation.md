@@ -7,6 +7,7 @@
 Gets information regarding the number of faces with a deviation higher than the tolerance.
 
 * **Parameters:**
+
   **source_face_zonelets**
   : Scope of reference zonelets from which the deviation is checked.
 
@@ -15,12 +16,14 @@ Gets information regarding the number of faces with a deviation higher than the 
 
   **params**
   : Parameters for retrieving information while performing check face deviation operation.
+
 * **Returns:**
-  :
 
   [`CheckFaceDeviationResults`](ansys.meshing.prime.CheckFaceDeviationResults.md#ansys.meshing.prime.CheckFaceDeviationResults)
   : Returns the CheckFaceDeviationResults.
+
 * **Return type:**
+
   [`CheckFaceDeviationResults`](ansys.meshing.prime.CheckFaceDeviationResults.md#ansys.meshing.prime.CheckFaceDeviationResults)
 
 ### Examples

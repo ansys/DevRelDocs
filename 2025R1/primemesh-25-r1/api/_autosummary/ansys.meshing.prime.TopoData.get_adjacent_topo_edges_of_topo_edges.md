@@ -7,14 +7,17 @@
 Get the adjacent topoedges for the provided topoedge ids.
 
 * **Parameters:**
+
   **topo_edges**
   : Ids of the topoedge.
+
 * **Returns:**
-  :
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Returns the list of adjacent topoedge ids.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

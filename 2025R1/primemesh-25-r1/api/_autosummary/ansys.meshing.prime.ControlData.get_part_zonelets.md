@@ -17,6 +17,7 @@ Creates an array of part zonelet structure using the input ScopeDefinition.
   : Returns a list of PartZonelets.
   
 * **Return type:**
+
   [`List`](https://docs.python.org/3.11/library/typing.html#typing.List)[[`PartZonelets`](ansys.meshing.prime.PartZonelets.md#ansys.meshing.prime.PartZonelets)]
 
 ### Examples

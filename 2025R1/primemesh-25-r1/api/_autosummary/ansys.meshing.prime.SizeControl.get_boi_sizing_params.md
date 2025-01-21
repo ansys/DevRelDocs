@@ -7,11 +7,12 @@
 Get the body of influence sizing parameters of size control.
 
 * **Returns:**
-  :
 
   [`BoiSizingParams`](ansys.meshing.prime.BoiSizingParams.md#ansys.meshing.prime.BoiSizingParams)
   : Return the BoiSizingParams.
+
 * **Return type:**
+
   [`BoiSizingParams`](ansys.meshing.prime.BoiSizingParams.md#ansys.meshing.prime.BoiSizingParams)
 
 ### Examples

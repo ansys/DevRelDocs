@@ -7,14 +7,17 @@
 Get the mesh edge zonelets for the provided topoedge ids.
 
 * **Parameters:**
+
   **topo_edges**
   : Ids of the topoedges.
+
 * **Returns:**
-  :
 
   `Iterable`[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
   : Return the mesh edge zonelet ids.
+
 * **Return type:**
+
   [`Iterable`](https://docs.python.org/3.11/library/typing.html#typing.Iterable)[[`int`](https://docs.python.org/3.11/library/functions.html#int)]
 
 ### Examples

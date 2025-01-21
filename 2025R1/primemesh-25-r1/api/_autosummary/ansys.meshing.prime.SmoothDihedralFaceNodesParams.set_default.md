@@ -7,6 +7,7 @@
 Set the default values of the `SmoothDihedralFaceNodesParams` object.
 
 * **Parameters:**
+
   **min_dihedral_angle: float, optional**
   : Minimum angle to be used to identify dihedral faces.
 

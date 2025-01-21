@@ -7,6 +7,7 @@
 Set the default values of the `SurferParams` object.
 
 * **Parameters:**
+
   **max_angle: float, optional**
   : Maximum feature angle limit to be used to identify and preserve features.
 

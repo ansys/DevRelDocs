@@ -7,6 +7,7 @@
 Result structure associated with close gaps operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `WrapperCloseGapsResult` object with default parameters.
 
@@ -29,13 +30,15 @@ Result structure associated with close gaps operation.
 
 ### Methods
 
-| [`WrapperCloseGapsResult.print_default`](ansys.meshing.prime.WrapperCloseGapsResult.print_default.md#ansys.meshing.prime.WrapperCloseGapsResult.print_default)()   | Print the default values of `WrapperCloseGapsResult` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`WrapperCloseGapsResult.print_default`](ansys.meshing.prime.WrapperCloseGapsResult.print_default.md#ansys.meshing.prime.WrapperCloseGapsResult.print_default)()   | Print the default values of `WrapperCloseGapsResult` object.   |
 | [`WrapperCloseGapsResult.set_default`](ansys.meshing.prime.WrapperCloseGapsResult.set_default.md#ansys.meshing.prime.WrapperCloseGapsResult.set_default)([...])    | Set the default values of the `WrapperCloseGapsResult` object. |
 
 ### Attributes
 
-| [`WrapperCloseGapsResult.error_code`](ansys.meshing.prime.WrapperCloseGapsResult.error_code.md#ansys.meshing.prime.WrapperCloseGapsResult.error_code)   | Error code associated with a close gaps operation.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`WrapperCloseGapsResult.error_code`](ansys.meshing.prime.WrapperCloseGapsResult.error_code.md#ansys.meshing.prime.WrapperCloseGapsResult.error_code)   | Error code associated with a close gaps operation.   |
 | [`WrapperCloseGapsResult.part_id`](ansys.meshing.prime.WrapperCloseGapsResult.part_id.md#ansys.meshing.prime.WrapperCloseGapsResult.part_id)            | Id of part created with gap cover patches.           |
 <!-- vale on -->

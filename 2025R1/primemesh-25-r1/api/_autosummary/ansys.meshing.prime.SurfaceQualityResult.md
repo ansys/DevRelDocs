@@ -7,6 +7,7 @@
 Result of surface quality.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `SurfaceQualityResult` object with default parameters.
 
@@ -41,14 +42,16 @@ Result of surface quality.
 
 ### Methods
 
-| [`SurfaceQualityResult.print_default`](ansys.meshing.prime.SurfaceQualityResult.print_default.md#ansys.meshing.prime.SurfaceQualityResult.print_default)()   | Print the default values of `SurfaceQualityResult` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`SurfaceQualityResult.print_default`](ansys.meshing.prime.SurfaceQualityResult.print_default.md#ansys.meshing.prime.SurfaceQualityResult.print_default)()   | Print the default values of `SurfaceQualityResult` object.   |
 | [`SurfaceQualityResult.set_default`](ansys.meshing.prime.SurfaceQualityResult.set_default.md#ansys.meshing.prime.SurfaceQualityResult.set_default)([...])    | Set the default values of the `SurfaceQualityResult` object. |
 
 ### Attributes
 
-| [`SurfaceQualityResult.face_quality_measure`](ansys.meshing.prime.SurfaceQualityResult.face_quality_measure.md#ansys.meshing.prime.SurfaceQualityResult.face_quality_measure)   | Type of the face quality measure.           |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| [`SurfaceQualityResult.face_quality_measure`](ansys.meshing.prime.SurfaceQualityResult.face_quality_measure.md#ansys.meshing.prime.SurfaceQualityResult.face_quality_measure)   | Type of the face quality measure.           |
 | [`SurfaceQualityResult.max_quality`](ansys.meshing.prime.SurfaceQualityResult.max_quality.md#ansys.meshing.prime.SurfaceQualityResult.max_quality)                              | Maximum value of quality measure.           |
 | [`SurfaceQualityResult.measure_name`](ansys.meshing.prime.SurfaceQualityResult.measure_name.md#ansys.meshing.prime.SurfaceQualityResult.measure_name)                           | Name of the face quality measure.           |
 | [`SurfaceQualityResult.min_quality`](ansys.meshing.prime.SurfaceQualityResult.min_quality.md#ansys.meshing.prime.SurfaceQualityResult.min_quality)                              | Minimum value of quality measure.           |

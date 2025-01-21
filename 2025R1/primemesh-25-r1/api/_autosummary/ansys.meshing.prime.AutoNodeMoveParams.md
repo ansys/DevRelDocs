@@ -42,28 +42,20 @@ Parameters used to improve volume mesh by auto node move.
 
 ### Methods
 
-| [`AutoNodeMoveParams.print_default`](ansys.meshing.prime.AutoNodeMoveParams.print_default.md#ansys.meshing.prime.AutoNodeMoveParams.print_default)()   | Print the default values of `AutoNodeMoveParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`AutoNodeMoveParams.print_default`](ansys.meshing.prime.AutoNodeMoveParams.print_default.md#ansys.meshing.prime.AutoNodeMoveParams.print_default)()   | Print the default values of `AutoNodeMoveParams` object.   |
 | [`AutoNodeMoveParams.set_default`](ansys.meshing.prime.AutoNodeMoveParams.set_default.md#ansys.meshing.prime.AutoNodeMoveParams.set_default)([...])    | Set the default values of the `AutoNodeMoveParams` object. |
 
 ### Attributes
 
-| [`AutoNodeMoveParams.dihedral_angle`](ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle.md#ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle)                                                                      | Dihedral angle used to mantain features of boundary face zonelets.                                                         |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| [`AutoNodeMoveParams.dihedral_angle`](ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle.md#ansys.meshing.prime.AutoNodeMoveParams.dihedral_angle)                                                                      | Dihedral angle used to mantain features of boundary face zonelets.                                                         |
 | [`AutoNodeMoveParams.n_attempts`](ansys.meshing.prime.AutoNodeMoveParams.n_attempts.md#ansys.meshing.prime.AutoNodeMoveParams.n_attempts)                                                                                  | Number of attempts to improve specified quality measure by node movement.                                                  |
 | [`AutoNodeMoveParams.n_iterations_per_node`](ansys.meshing.prime.AutoNodeMoveParams.n_iterations_per_node.md#ansys.meshing.prime.AutoNodeMoveParams.n_iterations_per_node)                                                 | Number of iterations per node to be moved.                                                                                 |
 | [`AutoNodeMoveParams.quality_measure`](ansys.meshing.prime.AutoNodeMoveParams.quality_measure.md#ansys.meshing.prime.AutoNodeMoveParams.quality_measure)                                                                   | Specify cell quality measure to be used for volume mesh improvement.                                                       |
 | [`AutoNodeMoveParams.restrict_boundary_nodes_along_surface`](ansys.meshing.prime.AutoNodeMoveParams.restrict_boundary_nodes_along_surface.md#ansys.meshing.prime.AutoNodeMoveParams.restrict_boundary_nodes_along_surface) | Option to restrict the movement of the boundary node to the plane containing the boundary faces sharing the boundary node. |
 | [`AutoNodeMoveParams.target_quality`](ansys.meshing.prime.AutoNodeMoveParams.target_quality.md#ansys.meshing.prime.AutoNodeMoveParams.target_quality)                                                                      | Specify target quality used for the mesh improvement based on specified quality measure.                                   |
 
-<a id="examples-using-autonodemoveparams"></a>
-
-## Examples using AutoNodeMoveParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to wrap a toy car for a flow analysis.">  <div class="sphx-glr-thumbnail-title">Wrap a toy car for a flow analysis</div>
-</div>
-* [Wrap a toy car for a flow analysis](../../examples/gallery_examples/gallery/04_lucid_toy_car.md#sphx-glr-examples-gallery-examples-gallery-04-lucid-toy-car-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->
