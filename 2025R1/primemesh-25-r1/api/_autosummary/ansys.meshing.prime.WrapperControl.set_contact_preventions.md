@@ -7,14 +7,17 @@
 Set contact preventions to the wrapper control.
 
 * **Parameters:**
+
   **params**
   : List of contact prevention parameters.
+
 * **Returns:**
-  :
 
   [`SetContactPreventionsResults`](ansys.meshing.prime.SetContactPreventionsResults.md#ansys.meshing.prime.SetContactPreventionsResults)
   : Return the set contact prevention results.
+
 * **Return type:**
+
   [`SetContactPreventionsResults`](ansys.meshing.prime.SetContactPreventionsResults.md#ansys.meshing.prime.SetContactPreventionsResults)
 
 ### Examples

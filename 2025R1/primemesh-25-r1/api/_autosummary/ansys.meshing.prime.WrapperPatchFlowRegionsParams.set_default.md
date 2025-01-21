@@ -7,6 +7,7 @@
 Set the default values of the `WrapperPatchFlowRegionsParams` object.
 
 * **Parameters:**
+
   **base_size: float, optional**
   : Base size to define octree.
 

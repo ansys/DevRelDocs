@@ -7,6 +7,7 @@
 Set the default values of the `SizeControlSummaryResult` object.
 
 * **Parameters:**
+
   **message: str, optional**
   : Size control summary text.
 

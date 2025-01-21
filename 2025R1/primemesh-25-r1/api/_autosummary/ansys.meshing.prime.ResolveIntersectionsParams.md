@@ -7,6 +7,7 @@
 ResolveIntersectionsParams define parameters for resolve intersections.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `ResolveIntersectionsParams` object with default parameters.
 
@@ -26,12 +27,14 @@ ResolveIntersectionsParams define parameters for resolve intersections.
 
 ### Methods
 
-| [`ResolveIntersectionsParams.print_default`](ansys.meshing.prime.ResolveIntersectionsParams.print_default.md#ansys.meshing.prime.ResolveIntersectionsParams.print_default)()   | Print the default values of `ResolveIntersectionsParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [`ResolveIntersectionsParams.print_default`](ansys.meshing.prime.ResolveIntersectionsParams.print_default.md#ansys.meshing.prime.ResolveIntersectionsParams.print_default)()   | Print the default values of `ResolveIntersectionsParams` object.   |
 | [`ResolveIntersectionsParams.set_default`](ansys.meshing.prime.ResolveIntersectionsParams.set_default.md#ansys.meshing.prime.ResolveIntersectionsParams.set_default)([...])    | Set the default values of the `ResolveIntersectionsParams` object. |
 
 ### Attributes
 
-| [`ResolveIntersectionsParams.number_of_threads`](ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads.md#ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads)   | Number of threads for resolve intersections multithreaded operation.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`ResolveIntersectionsParams.number_of_threads`](ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads.md#ansys.meshing.prime.ResolveIntersectionsParams.number_of_threads)   | Number of threads for resolve intersections multithreaded operation.   |
 <!-- vale on -->

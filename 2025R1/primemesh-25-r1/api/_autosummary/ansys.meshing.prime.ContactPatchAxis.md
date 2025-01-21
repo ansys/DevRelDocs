@@ -10,8 +10,9 @@ Flow or wake direction for BOI creation.
 
 ### Methods
 
-| [`ContactPatchAxis.conjugate`](ansys.meshing.prime.ContactPatchAxis.conjugate.md#ansys.meshing.prime.ContactPatchAxis.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`ContactPatchAxis.conjugate`](ansys.meshing.prime.ContactPatchAxis.conjugate.md#ansys.meshing.prime.ContactPatchAxis.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`ContactPatchAxis.bit_length`](ansys.meshing.prime.ContactPatchAxis.bit_length.md#ansys.meshing.prime.ContactPatchAxis.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`ContactPatchAxis.bit_count`](ansys.meshing.prime.ContactPatchAxis.bit_count.md#ansys.meshing.prime.ContactPatchAxis.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`ContactPatchAxis.to_bytes`](ansys.meshing.prime.ContactPatchAxis.to_bytes.md#ansys.meshing.prime.ContactPatchAxis.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ Flow or wake direction for BOI creation.
 
 ### Attributes
 
-| [`ContactPatchAxis.real`](ansys.meshing.prime.ContactPatchAxis.real.md#ansys.meshing.prime.ContactPatchAxis.real)                      | the real part of a complex number                           |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`ContactPatchAxis.real`](ansys.meshing.prime.ContactPatchAxis.real.md#ansys.meshing.prime.ContactPatchAxis.real)                      | the real part of a complex number                           |
 | [`ContactPatchAxis.imag`](ansys.meshing.prime.ContactPatchAxis.imag.md#ansys.meshing.prime.ContactPatchAxis.imag)                      | the imaginary part of a complex number                      |
 | [`ContactPatchAxis.numerator`](ansys.meshing.prime.ContactPatchAxis.numerator.md#ansys.meshing.prime.ContactPatchAxis.numerator)       | the numerator of a rational number in lowest terms          |
 | [`ContactPatchAxis.denominator`](ansys.meshing.prime.ContactPatchAxis.denominator.md#ansys.meshing.prime.ContactPatchAxis.denominator) | the denominator of a rational number in lowest terms        |

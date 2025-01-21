@@ -7,6 +7,7 @@
 Results associated with the transformation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `TransformResults` object with default parameters.
 
@@ -26,12 +27,14 @@ Results associated with the transformation.
 
 ### Methods
 
-| [`TransformResults.print_default`](ansys.meshing.prime.TransformResults.print_default.md#ansys.meshing.prime.TransformResults.print_default)()       | Print the default values of `TransformResults` object.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`TransformResults.print_default`](ansys.meshing.prime.TransformResults.print_default.md#ansys.meshing.prime.TransformResults.print_default)()       | Print the default values of `TransformResults` object.   |
 | [`TransformResults.set_default`](ansys.meshing.prime.TransformResults.set_default.md#ansys.meshing.prime.TransformResults.set_default)([error_code]) | Set the default values of the `TransformResults` object. |
 
 ### Attributes
 
-| [`TransformResults.error_code`](ansys.meshing.prime.TransformResults.error_code.md#ansys.meshing.prime.TransformResults.error_code)   | Error code associated with the failure of operation.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
+| [`TransformResults.error_code`](ansys.meshing.prime.TransformResults.error_code.md#ansys.meshing.prime.TransformResults.error_code)   | Error code associated with the failure of operation.   |
 <!-- vale on -->

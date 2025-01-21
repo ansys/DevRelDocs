@@ -7,6 +7,7 @@
 Delete unwetted surfaces based on material point list.
 
 * **Parameters:**
+
   **face_zonelet_ids**
   : Ids of face zonelets.
 
@@ -15,12 +16,14 @@ Delete unwetted surfaces based on material point list.
 
   **params**
   : DeleteUnwettedParams to define material points.
+
 * **Returns:**
-  :
 
   [`DeleteUnwettedResult`](ansys.meshing.prime.DeleteUnwettedResult.md#ansys.meshing.prime.DeleteUnwettedResult)
   : Returns a DeleteUnwettedResult.
+
 * **Return type:**
+
   [`DeleteUnwettedResult`](ansys.meshing.prime.DeleteUnwettedResult.md#ansys.meshing.prime.DeleteUnwettedResult)
 
 ### Examples

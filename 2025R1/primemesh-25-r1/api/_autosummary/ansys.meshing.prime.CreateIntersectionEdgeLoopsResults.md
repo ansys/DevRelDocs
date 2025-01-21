@@ -33,14 +33,16 @@ Results for the edge loops created by intersection of two groups of face zonelet
 
 ### Methods
 
-| [`CreateIntersectionEdgeLoopsResults.print_default`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.print_default.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.print_default)()   | Print the default values of `CreateIntersectionEdgeLoopsResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`CreateIntersectionEdgeLoopsResults.print_default`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.print_default.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.print_default)()   | Print the default values of `CreateIntersectionEdgeLoopsResults` object.   |
 | [`CreateIntersectionEdgeLoopsResults.set_default`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.set_default.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.set_default)([...])    | Set the default values of the `CreateIntersectionEdgeLoopsResults` object. |
 
 ### Attributes
 
-| [`CreateIntersectionEdgeLoopsResults.error_code`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.error_code.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.error_code)                | Error code returned by edge extraction function.                  |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [`CreateIntersectionEdgeLoopsResults.error_code`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.error_code.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.error_code)                | Error code returned by edge extraction function.                  |
 | [`CreateIntersectionEdgeLoopsResults.extracted_ids`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.extracted_ids.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.extracted_ids)       | List of ExtractedFeatureIds that contains ids of extracted edges. |
 | [`CreateIntersectionEdgeLoopsResults.processing_time`](ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.processing_time.md#ansys.meshing.prime.CreateIntersectionEdgeLoopsResults.processing_time) | Time taken to extract edges formed by intersecting faces.         |
 <!-- vale on -->

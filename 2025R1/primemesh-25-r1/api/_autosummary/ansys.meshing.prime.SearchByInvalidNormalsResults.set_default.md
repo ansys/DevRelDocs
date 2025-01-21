@@ -7,6 +7,7 @@
 Set the default values of the `SearchByInvalidNormalsResults` object.
 
 * **Parameters:**
+
   **n_found: int, optional**
   : Number of invalid normals identified.
 

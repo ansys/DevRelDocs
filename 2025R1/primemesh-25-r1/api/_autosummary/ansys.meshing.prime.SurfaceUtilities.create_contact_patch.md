@@ -7,6 +7,7 @@
 Create a contact patch by offsetting the target zonelets.
 
 * **Parameters:**
+
   **source_zonelets**
   : IDS for the source face zonelets.
 
@@ -15,12 +16,14 @@ Create a contact patch by offsetting the target zonelets.
 
   **params**
   : Parameters for controlling the contact patch creation.
+
 * **Returns:**
-  :
 
   [`CreateContactPatchResults`](ansys.meshing.prime.CreateContactPatchResults.md#ansys.meshing.prime.CreateContactPatchResults)
   : Results from creating the contact patch.
+
 * **Return type:**
+
   [`CreateContactPatchResults`](ansys.meshing.prime.CreateContactPatchResults.md#ansys.meshing.prime.CreateContactPatchResults)
 
 ### Examples

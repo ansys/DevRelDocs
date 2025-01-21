@@ -7,14 +7,17 @@
 Set feature recoveries to the wrapper control.
 
 * **Parameters:**
+
   **params**
   : List of feature recovery parameters.
+
 * **Returns:**
-  :
 
   [`SetFeatureRecoveriesResults`](ansys.meshing.prime.SetFeatureRecoveriesResults.md#ansys.meshing.prime.SetFeatureRecoveriesResults)
   : Return the set feature recoveries results.
+
 * **Return type:**
+
   [`SetFeatureRecoveriesResults`](ansys.meshing.prime.SetFeatureRecoveriesResults.md#ansys.meshing.prime.SetFeatureRecoveriesResults)
 
 ### Examples

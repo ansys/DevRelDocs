@@ -7,6 +7,7 @@
 Set the default values of the `RepairTopologyParams` object.
 
 * **Parameters:**
+
   **connect_faces: bool, optional**
   : Option to connect faces.
 

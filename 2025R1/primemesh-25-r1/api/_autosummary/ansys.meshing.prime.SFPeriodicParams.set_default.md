@@ -7,6 +7,7 @@
 Set the default values of the `SFPeriodicParams` object.
 
 * **Parameters:**
+
   **axis: Iterable[float], optional**
   : Axis vector coordinates.
 

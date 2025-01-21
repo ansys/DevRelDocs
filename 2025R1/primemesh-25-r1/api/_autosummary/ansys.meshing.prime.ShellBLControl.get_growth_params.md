@@ -7,11 +7,12 @@
 Gets thin ShellBL parameters for ShellBL control.
 
 * **Returns:**
-  :
 
   [`ShellBLControlGrowthParams`](ansys.meshing.prime.ShellBLControlGrowthParams.md#ansys.meshing.prime.ShellBLControlGrowthParams)
   : Returns the ShellBLControlGrowthParams.
+
 * **Return type:**
+
   [`ShellBLControlGrowthParams`](ansys.meshing.prime.ShellBLControlGrowthParams.md#ansys.meshing.prime.ShellBLControlGrowthParams)
 
 ### Notes

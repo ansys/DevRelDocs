@@ -33,14 +33,16 @@ Result of edge zonelet extraction by angle.
 
 ### Methods
 
-| [`ExtractFeatureResults.print_default`](ansys.meshing.prime.ExtractFeatureResults.print_default.md#ansys.meshing.prime.ExtractFeatureResults.print_default)()   | Print the default values of `ExtractFeatureResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ExtractFeatureResults.print_default`](ansys.meshing.prime.ExtractFeatureResults.print_default.md#ansys.meshing.prime.ExtractFeatureResults.print_default)()   | Print the default values of `ExtractFeatureResults` object.   |
 | [`ExtractFeatureResults.set_default`](ansys.meshing.prime.ExtractFeatureResults.set_default.md#ansys.meshing.prime.ExtractFeatureResults.set_default)([...])    | Set the default values of the `ExtractFeatureResults` object. |
 
 ### Attributes
 
-| [`ExtractFeatureResults.error_code`](ansys.meshing.prime.ExtractFeatureResults.error_code.md#ansys.meshing.prime.ExtractFeatureResults.error_code)                      | Error code returned by edge extraction function.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`ExtractFeatureResults.error_code`](ansys.meshing.prime.ExtractFeatureResults.error_code.md#ansys.meshing.prime.ExtractFeatureResults.error_code)                      | Error code returned by edge extraction function.   |
 | [`ExtractFeatureResults.new_edge_zonelets`](ansys.meshing.prime.ExtractFeatureResults.new_edge_zonelets.md#ansys.meshing.prime.ExtractFeatureResults.new_edge_zonelets) | Ids of new edge zonelets extracted.                |
 | [`ExtractFeatureResults.processing_time`](ansys.meshing.prime.ExtractFeatureResults.processing_time.md#ansys.meshing.prime.ExtractFeatureResults.processing_time)       | Time taken for edge extraction.                    |
 

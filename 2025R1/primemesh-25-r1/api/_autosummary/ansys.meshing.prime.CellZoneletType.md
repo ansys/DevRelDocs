@@ -10,8 +10,9 @@ Types of cell zonelet.
 
 ### Methods
 
-| [`CellZoneletType.conjugate`](ansys.meshing.prime.CellZoneletType.conjugate.md#ansys.meshing.prime.CellZoneletType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`CellZoneletType.conjugate`](ansys.meshing.prime.CellZoneletType.conjugate.md#ansys.meshing.prime.CellZoneletType.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`CellZoneletType.bit_length`](ansys.meshing.prime.CellZoneletType.bit_length.md#ansys.meshing.prime.CellZoneletType.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`CellZoneletType.bit_count`](ansys.meshing.prime.CellZoneletType.bit_count.md#ansys.meshing.prime.CellZoneletType.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`CellZoneletType.to_bytes`](ansys.meshing.prime.CellZoneletType.to_bytes.md#ansys.meshing.prime.CellZoneletType.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ Types of cell zonelet.
 
 ### Attributes
 
-| [`CellZoneletType.real`](ansys.meshing.prime.CellZoneletType.real.md#ansys.meshing.prime.CellZoneletType.real)                      | the real part of a complex number                    |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`CellZoneletType.real`](ansys.meshing.prime.CellZoneletType.real.md#ansys.meshing.prime.CellZoneletType.real)                      | the real part of a complex number                    |
 | [`CellZoneletType.imag`](ansys.meshing.prime.CellZoneletType.imag.md#ansys.meshing.prime.CellZoneletType.imag)                      | the imaginary part of a complex number               |
 | [`CellZoneletType.numerator`](ansys.meshing.prime.CellZoneletType.numerator.md#ansys.meshing.prime.CellZoneletType.numerator)       | the numerator of a rational number in lowest terms   |
 | [`CellZoneletType.denominator`](ansys.meshing.prime.CellZoneletType.denominator.md#ansys.meshing.prime.CellZoneletType.denominator) | the denominator of a rational number in lowest terms |
@@ -30,14 +32,4 @@ Types of cell zonelet.
 | [`CellZoneletType.FLUID`](ansys.meshing.prime.CellZoneletType.FLUID.md#ansys.meshing.prime.CellZoneletType.FLUID)                   | Cell zonelet type is fluid.                          |
 | [`CellZoneletType.SOLID`](ansys.meshing.prime.CellZoneletType.SOLID.md#ansys.meshing.prime.CellZoneletType.SOLID)                   | Cell zonelet type is solid.                          |
 
-<a id="examples-using-cellzonelettype"></a>
-
-## Examples using CellZoneletType
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to generate a mesh for a generic F1 rear wing STL file model.">  <div class="sphx-glr-thumbnail-title">Mesh a generic F1 car rear wing for external aero simulation</div>
-</div>
-* [Mesh a generic F1 car rear wing for external aero simulation](../../examples/gallery_examples/gallery/08_lucid_generic_f1_rear_wing.md#sphx-glr-examples-gallery-examples-gallery-08-lucid-generic-f1-rear-wing-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

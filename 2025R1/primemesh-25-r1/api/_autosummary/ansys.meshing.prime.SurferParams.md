@@ -7,6 +7,7 @@
 Parameters used to generate surface mesh.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `SurferParams` object with default parameters.
 
@@ -62,14 +63,16 @@ Parameters used to generate surface mesh.
 
 ### Methods
 
-| [`SurferParams.print_default`](ansys.meshing.prime.SurferParams.print_default.md#ansys.meshing.prime.SurferParams.print_default)()           | Print the default values of `SurferParams` object.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`SurferParams.print_default`](ansys.meshing.prime.SurferParams.print_default.md#ansys.meshing.prime.SurferParams.print_default)()           | Print the default values of `SurferParams` object.   |
 | [`SurferParams.set_default`](ansys.meshing.prime.SurferParams.set_default.md#ansys.meshing.prime.SurferParams.set_default)([max_angle, ...]) | Set the default values of the `SurferParams` object. |
 
 ### Attributes
 
-| [`SurferParams.advanced_surfer_setup`](ansys.meshing.prime.SurferParams.advanced_surfer_setup.md#ansys.meshing.prime.SurferParams.advanced_surfer_setup)    | Option to define advanced settings for remeshing operation.                              |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`SurferParams.advanced_surfer_setup`](ansys.meshing.prime.SurferParams.advanced_surfer_setup.md#ansys.meshing.prime.SurferParams.advanced_surfer_setup)    | Option to define advanced settings for remeshing operation.                              |
 | [`SurferParams.avoid_corner_triangles`](ansys.meshing.prime.SurferParams.avoid_corner_triangles.md#ansys.meshing.prime.SurferParams.avoid_corner_triangles) | Option to avoid corner triangles(with all three boundary nodes) generated.               |
 | [`SurferParams.check_non_manifolds`](ansys.meshing.prime.SurferParams.check_non_manifolds.md#ansys.meshing.prime.SurferParams.check_non_manifolds)          | Option to avoid new non-manifolds(multi-connection) if generated in surface mesh.        |
 | [`SurferParams.constant_size`](ansys.meshing.prime.SurferParams.constant_size.md#ansys.meshing.prime.SurferParams.constant_size)                            | Size used in constant size surface meshing.                                              |
@@ -83,14 +86,5 @@ Parameters used to generate surface mesh.
 | [`SurferParams.size_field_type`](ansys.meshing.prime.SurferParams.size_field_type.md#ansys.meshing.prime.SurferParams.size_field_type)                      | Size field type used to generate surface mesh.                                           |
 | [`SurferParams.smooth_size_transition`](ansys.meshing.prime.SurferParams.smooth_size_transition.md#ansys.meshing.prime.SurferParams.smooth_size_transition) | Option to generate mesh with smooth size transition from neighbors of selected surfaces. |
 
-<a id="examples-using-surferparams"></a>
 
-## Examples using SurferParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to use topology-based connection to generate conformal surface mesh.">  <div class="sphx-glr-thumbnail-title">Mesh a mid-surfaced bracket for a structural analysis</div>
-</div>
-* [Mesh a mid-surfaced bracket for a structural analysis](../../examples/gallery_examples/gallery/01_bracket_scaffold.md#sphx-glr-examples-gallery-examples-gallery-01-bracket-scaffold-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

@@ -24,8 +24,9 @@ Morpher solve parameters.
 
 ### Methods
 
-| [`MorphSolveParams.print_default`](ansys.meshing.prime.MorphSolveParams.print_default.md#ansys.meshing.prime.MorphSolveParams.print_default)()   | Print the default values of `MorphSolveParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`MorphSolveParams.print_default`](ansys.meshing.prime.MorphSolveParams.print_default.md#ansys.meshing.prime.MorphSolveParams.print_default)()   | Print the default values of `MorphSolveParams` object.   |
 | [`MorphSolveParams.set_default`](ansys.meshing.prime.MorphSolveParams.set_default.md#ansys.meshing.prime.MorphSolveParams.set_default)()         | Set the default values of the `MorphSolveParams` object. |
 
 

@@ -7,6 +7,7 @@
 Set the default values of the `TetParams` object.
 
 * **Parameters:**
+
   **quadratic: bool, optional**
   : Option to generate quadratic tetrahedral mesh. It is not supported with parallel meshing. It is only supported with pure tetrahedral mesh.
 

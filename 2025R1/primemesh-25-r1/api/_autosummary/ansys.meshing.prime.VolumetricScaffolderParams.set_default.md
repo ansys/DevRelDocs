@@ -7,6 +7,7 @@
 Set the default values of the `VolumetricScaffolderParams` object.
 
 * **Parameters:**
+
   **absolute_dist_tol: float, optional**
   : Specify distance tolerance between overlapping faces.
 
