@@ -2,11 +2,11 @@
 
 <a id="solidmodel"></a>
 
-## `SolidModel`
+### `SolidModel` class
 
 <a id="compolyx.SolidModel"></a>
 
-### *class* compolyx.SolidModel(graph, obj, parent=None)
+#### *class* compolyx.SolidModel(graph, obj, parent=None)
 
 Solid model class.
 
@@ -235,11 +235,11 @@ Snap to geometry objects.
 
 <a id="extrusionguide"></a>
 
-## `ExtrusionGuide`
+### `ExtrusionGuide` class
 
 <a id="compolyx.ExtrusionGuide"></a>
 
-### *class* compolyx.ExtrusionGuide(obj, parent=None)
+#### *class* compolyx.ExtrusionGuide(obj, parent=None)
 
 Extrusion guide class.
 
@@ -293,11 +293,11 @@ Whether to use curvature correction algorithm to smooth mesh adapted to extrusio
 
 <a id="snaptogeometry"></a>
 
-## `SnapToGeometry`
+### `SnapToGeometry` class
 
 <a id="compolyx.SnapToGeometry"></a>
 
-### *class* compolyx.SnapToGeometry(obj, parent)
+#### *class* compolyx.SnapToGeometry(obj, parent)
 
 Snap-to geometry guide class.
 
@@ -333,11 +333,11 @@ Orientation. String options: [`top`, `bottom`, `undefined`].
 
 <a id="cutoffgeometry"></a>
 
-## `CutOffGeometry`
+### `CutOffGeometry` class
 
 <a id="compolyx.CutOffGeometry"></a>
 
-### *class* compolyx.CutOffGeometry(obj, parent=None)
+#### *class* compolyx.CutOffGeometry(obj, parent=None)
 
 Cut-off geometry guide class.
 
@@ -373,11 +373,11 @@ Relative merge tolerance.
 
 <a id="solidelementset"></a>
 
-## `SolidElementSet`
+### `SolidElementSet` class
 
 <a id="compolyx.SolidElementSet"></a>
 
-### *class* compolyx.SolidElementSet(graph, obj=None, parent=None)
+#### *class* compolyx.SolidElementSet(graph, obj=None, parent=None)
 
 Solid element set class.
 Element set of a solid model.
@@ -408,11 +408,11 @@ Number of entities.
 
 <a id="importedsolidmodel"></a>
 
-## `ImportedSolidModel`
+### `ImportedSolidModel` class
 
 <a id="compolyx.ImportedSolidModel"></a>
 
-### *class* compolyx.ImportedSolidModel(graph, obj, parent=None)
+#### *class* compolyx.ImportedSolidModel(graph, obj, parent=None)
 
 Imported solid model class.
 
@@ -564,11 +564,11 @@ Use imported_solid_model.mapping_statistics() to retrieve the results.
 
 <a id="layupmappingobject"></a>
 
-## `LayupMappingObject`
+### `LayupMappingObject` class
 
 <a id="compolyx.LayupMappingObject"></a>
 
-### *class* compolyx.LayupMappingObject(graph, obj, parent=None)
+#### *class* compolyx.LayupMappingObject(graph, obj, parent=None)
 
 Layup mapping class.
 

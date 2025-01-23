@@ -1,8 +1,10 @@
 # Database classes
 
+### `DB` class
+
 <a id="compolyx.DB"></a>
 
-### *class* compolyx.DB(\*args, \*\*kwargs)
+#### *class* compolyx.DB(\*args, \*\*kwargs)
 
 Class to represent the ComPoLyX database.
 
