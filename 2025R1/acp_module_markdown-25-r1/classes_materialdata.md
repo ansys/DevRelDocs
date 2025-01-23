@@ -888,7 +888,7 @@ updates the data of the 2D plot.
 
 <a id="sublaminate"></a>
 
-## `SubLaminate
+## `SubLaminate`
 
 <a id="compolyx.SubLaminate"></a>
 
