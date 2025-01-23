@@ -6,11 +6,11 @@
 
 <a id="plotdatadict-class"></a>
 
-### `PlotDataDict` Class
+### `PlotDataDict`class
 
 <a id="compolyx.plot_data.PlotDataDict"></a>
 
-### *class* compolyx.plot_data.PlotDataDict(name, label=None, obj=None, list=[], item_type=<class 'object'>, parent=None, key_attr='name')
+#### *class* compolyx.plot_data.PlotDataDict(name, label=None, obj=None, list=[], item_type=<class 'object'>, parent=None, key_attr='name')
 
 <a id="compolyx.plot_data.PlotDataDict.copy_plot"></a>
 
@@ -32,11 +32,11 @@ Copy a plot object.
 
 <a id="layupplotdict-class"></a>
 
-### `LayupPlotDict` Class
+### `LayupPlotDict` class
 
 <a id="compolyx.plot_data.LayupPlotDict"></a>
 
-### *class* compolyx.plot_data.LayupPlotDict(name, label=None, obj=None, list=[], item_type=<class 'object'>, parent=None, key_attr='name')
+#### *class* compolyx.plot_data.LayupPlotDict(name, label=None, obj=None, list=[], item_type=<class 'object'>, parent=None, key_attr='name')
 
 Container for layup plots.
 
@@ -263,11 +263,11 @@ Create a user-defined plot with Data Scope set to Element Set “All_Elements”
 
 <a id="postprocessingplotdict-class"></a>
 
-### `PostProcessingPlotDict` Class
+### `PostProcessingPlotDict` class
 
 <a id="compolyx.plot_data.PostProcessingPlotDict"></a>
 
-### *class* compolyx.plot_data.PostProcessingPlotDict(name, label=None, obj=None, list=[], item_type=<class 'object'>, parent=None, key_attr='name')
+#### *class* compolyx.plot_data.PostProcessingPlotDict(name, label=None, obj=None, list=[], item_type=<class 'object'>, parent=None, key_attr='name')
 
 Container for postprocessing plots.
 
@@ -561,11 +561,11 @@ Create a user-defined plot object.
 
 <a id="plotdata"></a>
 
-### `PlotData`
+### `PlotData` class
 
 <a id="compolyx.plot_data.PlotData"></a>
 
-### *class* compolyx.plot_data.PlotData(graph, obj, parent=None)
+#### *class* compolyx.plot_data.PlotData(graph, obj, parent=None)
 
 <a id="compolyx.plot_data.PlotData.active"></a>
 
@@ -883,11 +883,11 @@ Whether the plot is uptodate.
 
 <a id="contourdata"></a>
 
-### `ContourData`
+### `ContourData` class
 
 <a id="compolyx.plot_data.ContourData"></a>
 
-### *class* compolyx.plot_data.ContourData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.ContourData(graph, obj, parent=None, display_data=None)
 
 Bases: [`PlotData`](#compolyx.plot_data.PlotData)
 
@@ -945,11 +945,11 @@ Serialize to Python string.
 
 <a id="angledata"></a>
 
-### `AngleData`
+### `AngleData` class
 
 <a id="compolyx.plot_data.AngleData"></a>
 
-### *class* compolyx.plot_data.AngleData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.AngleData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
@@ -961,11 +961,11 @@ Not applicable to an angle plot.
 
 <a id="thicknessdata"></a>
 
-### `ThicknessData`
+### `ThicknessData` class
 
 <a id="compolyx.plot_data.ThicknessData"></a>
 
-### *class* compolyx.plot_data.ThicknessData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.ThicknessData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
@@ -977,11 +977,11 @@ Not applicable to a thickness plot.
 
 <a id="scalarfielddata"></a>
 
-### `ScalarFieldData`
+### `ScalarFieldData` class
 
 <a id="compolyx.plot_data.ScalarFieldData"></a>
 
-### *class* compolyx.plot_data.ScalarFieldData(graph, obj, parent=None)
+#### *class* compolyx.plot_data.ScalarFieldData(graph, obj, parent=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
@@ -1077,11 +1077,11 @@ Relative scale factor for the supporting points.
 
 <a id="drapingdata"></a>
 
-### `DrapingData`
+### `DrapingData` class
 
 <a id="compolyx.plot_data.DrapingData"></a>
 
-### *class* compolyx.plot_data.DrapingData(graph, obj, parent=None)
+#### *class* compolyx.plot_data.DrapingData(graph, obj, parent=None)
 
 Bases: [`PlotData`](#compolyx.plot_data.PlotData)
 
@@ -1111,11 +1111,11 @@ Whether to plot the flatwrap.
 
 <a id="fielddefinitiondata"></a>
 
-### `FieldDefinitionData`
+### `FieldDefinitionData` class
 
 <a id="compolyx.plot_data.FieldDefinitionData"></a>
 
-### *class* compolyx.plot_data.FieldDefinitionData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.FieldDefinitionData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
@@ -1139,11 +1139,11 @@ Not applicable to a field definition plot.
 
 <a id="layupmappingdata"></a>
 
-### `LayupMappingData`
+### `LayupMappingData` class
 
 <a id="compolyx.plot_data.LayupMappingData"></a>
 
-### *class* compolyx.plot_data.LayupMappingData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.LayupMappingData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
@@ -1155,11 +1155,11 @@ Not applicable to a layup mapping plot.
 
 <a id="userdefineddata"></a>
 
-### `UserDefinedData`
+### `UserDefinedData` class
 
 <a id="compolyx.plot_data.UserDefinedData"></a>
 
-### *class* compolyx.plot_data.UserDefinedData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.UserDefinedData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
@@ -1240,11 +1240,11 @@ Access to the user-defined text of the plot. Note that the get method returns th
 
 <a id="deformationcontourdata"></a>
 
-### `DeformationContourData`
+### `DeformationContourData` class
 
 <a id="compolyx.plot_data.DeformationContourData"></a>
 
-### *class* compolyx.plot_data.DeformationContourData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.DeformationContourData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
@@ -1260,11 +1260,11 @@ Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 <a id="stressdata"></a>
 
-### `StressData`
+### `StressData` class
 
 <a id="compolyx.plot_data.StressData"></a>
 
-### *class* compolyx.plot_data.StressData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.StressData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
@@ -1276,11 +1276,11 @@ Whether to evaluate normal stresses.
 
 <a id="failuredata"></a>
 
-### `FailureData`
+### `FailureData` class
 
 <a id="compolyx.plot_data.FailureData"></a>
 
-### *class* compolyx.plot_data.FailureData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.FailureData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
@@ -1371,21 +1371,21 @@ Whether the threshold for visualization of failure text is set automatically or 
 
 <a id="temperaturedata"></a>
 
-### `TemperatureData`
+### `TemperatureData` class
 
 <a id="compolyx.plot_data.TemperatureData"></a>
 
-### *class* compolyx.plot_data.TemperatureData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.TemperatureData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
 <a id="progressivedamagedata"></a>
 
-### `ProgressiveDamageData`
+### `ProgressiveDamageData` class
 
 <a id="compolyx.plot_data.ProgressiveDamageData"></a>
 
-### *class* compolyx.plot_data.ProgressiveDamageData(graph, obj, parent=None, display_data=None)
+#### *class* compolyx.plot_data.ProgressiveDamageData(graph, obj, parent=None, display_data=None)
 
 Bases: [`ContourData`](#compolyx.plot_data.ContourData)
 
