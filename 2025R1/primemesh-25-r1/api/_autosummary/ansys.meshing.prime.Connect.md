@@ -21,8 +21,9 @@ Connect operations support only computational mesh, which is mesh with reasonabl
 
 ### Methods
 
-| [`Connect.fuse_face_zonelets`](ansys.meshing.prime.Connect.fuse_face_zonelets.md#ansys.meshing.prime.Connect.fuse_face_zonelets)(part_id, ...)                | Perform fuse between overlapping face zonelets within a single part.                                                            |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| [`Connect.fuse_face_zonelets`](ansys.meshing.prime.Connect.fuse_face_zonelets.md#ansys.meshing.prime.Connect.fuse_face_zonelets)(part_id, ...)                | Perform fuse between overlapping face zonelets within a single part.                                                            |
 | [`Connect.intersect_face_zonelets`](ansys.meshing.prime.Connect.intersect_face_zonelets.md#ansys.meshing.prime.Connect.intersect_face_zonelets)(part_id, ...) | Perform intersection between specified face zonelets of the part with the given intersect parameters.                           |
 | [`Connect.join_face_zonelets`](ansys.meshing.prime.Connect.join_face_zonelets.md#ansys.meshing.prime.Connect.join_face_zonelets)(part_id, ...)                | Joins a set of face zones with another set of face zones.                                                                       |
 | [`Connect.merge_boundary_nodes`](ansys.meshing.prime.Connect.merge_boundary_nodes.md#ansys.meshing.prime.Connect.merge_boundary_nodes)(part_id, ...)          | Merges boundary nodes of source face zonelets with boundary nodes of target face zonelets according to the provided parameters. |

@@ -39,14 +39,16 @@ Results of surface diagnostic summary.
 
 ### Methods
 
-| [`SurfaceDiagnosticSummaryResults.print_default`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.print_default.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.print_default)()   | Print the default values of `SurfaceDiagnosticSummaryResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| [`SurfaceDiagnosticSummaryResults.print_default`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.print_default.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.print_default)()   | Print the default values of `SurfaceDiagnosticSummaryResults` object.   |
 | [`SurfaceDiagnosticSummaryResults.set_default`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.set_default.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.set_default)([...])    | Set the default values of the `SurfaceDiagnosticSummaryResults` object. |
 
 ### Attributes
 
-| [`SurfaceDiagnosticSummaryResults.error_code`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.error_code.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.error_code)                               | Error code associated with the surface diagnostic summary.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`SurfaceDiagnosticSummaryResults.error_code`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.error_code.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.error_code)                               | Error code associated with the surface diagnostic summary.   |
 | [`SurfaceDiagnosticSummaryResults.n_duplicate_faces`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_duplicate_faces.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_duplicate_faces)          | Number of duplicate faces identified.                        |
 | [`SurfaceDiagnosticSummaryResults.n_free_edges`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_free_edges.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_free_edges)                         | Number of free face edges identified.                        |
 | [`SurfaceDiagnosticSummaryResults.n_multi_edges`](ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_multi_edges.md#ansys.meshing.prime.SurfaceDiagnosticSummaryResults.n_multi_edges)                      | Number of multi face edges identified.                       |

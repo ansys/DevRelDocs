@@ -40,8 +40,9 @@ The mesh generated on topoentities will be projected on geometry representation.
 
 ### Methods
 
-| [`Part.add_labels_on_topo_entities`](ansys.meshing.prime.Part.add_labels_on_topo_entities.md#ansys.meshing.prime.Part.add_labels_on_topo_entities)(labels, ...)                                         | Add the given labels on the provided topoentities.                                  |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| [`Part.add_labels_on_topo_entities`](ansys.meshing.prime.Part.add_labels_on_topo_entities.md#ansys.meshing.prime.Part.add_labels_on_topo_entities)(labels, ...)                                         | Add the given labels on the provided topoentities.                                  |
 | [`Part.add_labels_on_zonelets`](ansys.meshing.prime.Part.add_labels_on_zonelets.md#ansys.meshing.prime.Part.add_labels_on_zonelets)(labels, zonelets)                                                   | Add the given labels on the provided zonelets.                                      |
 | [`Part.add_topo_entities_to_zone`](ansys.meshing.prime.Part.add_topo_entities_to_zone.md#ansys.meshing.prime.Part.add_topo_entities_to_zone)(zone_id, ...)                                              | Add topoentities to zone.                                                           |
 | [`Part.add_volumes_to_zone`](ansys.meshing.prime.Part.add_volumes_to_zone.md#ansys.meshing.prime.Part.add_volumes_to_zone)(zone_id, volumes)                                                            | Add volumes to zone.                                                                |
@@ -95,8 +96,9 @@ The mesh generated on topoentities will be projected on geometry representation.
 
 ### Attributes
 
-| [`Part.id`](ansys.meshing.prime.Part.id.md#ansys.meshing.prime.Part.id)                         | Get the id of Part.                                                                   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`Part.id`](ansys.meshing.prime.Part.id.md#ansys.meshing.prime.Part.id)                         | Get the id of Part.                                                                   |
 | [`Part.name`](ansys.meshing.prime.Part.name.md#ansys.meshing.prime.Part.name)                   | Get the name of Part.                                                                 |
 | [`Part.print_id`](ansys.meshing.prime.Part.print_id.md#ansys.meshing.prime.Part.print_id)       | Whether IDs of TopoEntities or zonelets are set to print along with the part summary. |
 | [`Part.print_mesh`](ansys.meshing.prime.Part.print_mesh.md#ansys.meshing.prime.Part.print_mesh) | Whether the mesh summary is set to print along with the part summary.                 |

@@ -15,8 +15,9 @@ Generate full quad mesh.
 
 ### Methods
 
-| [`AutoQuadMesher.check_topology`](ansys.meshing.prime.AutoQuadMesher.check_topology.md#ansys.meshing.prime.AutoQuadMesher.check_topology)(part_id, ...)                         | Check topology for inconsistencies with the given parameters.     |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------|
+| [`AutoQuadMesher.check_topology`](ansys.meshing.prime.AutoQuadMesher.check_topology.md#ansys.meshing.prime.AutoQuadMesher.check_topology)(part_id, ...)                         | Check topology for inconsistencies with the given parameters.     |
 | [`AutoQuadMesher.defeature_topology`](ansys.meshing.prime.AutoQuadMesher.defeature_topology.md#ansys.meshing.prime.AutoQuadMesher.defeature_topology)(part_id, ...)             | Defeature topology with given parameters.                         |
 | [`AutoQuadMesher.detect_and_treat_features`](ansys.meshing.prime.AutoQuadMesher.detect_and_treat_features.md#ansys.meshing.prime.AutoQuadMesher.detect_and_treat_features)(...) | Detect features in topology and treat them with given parameters. |
 | [`AutoQuadMesher.optimize_quad_mesh`](ansys.meshing.prime.AutoQuadMesher.optimize_quad_mesh.md#ansys.meshing.prime.AutoQuadMesher.optimize_quad_mesh)(part_id, ...)             | Optimize quad faces with given parameters.                        |

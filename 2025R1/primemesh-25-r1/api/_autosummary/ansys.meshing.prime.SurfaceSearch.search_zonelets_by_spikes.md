@@ -9,6 +9,7 @@ Search face zonelets to identify spikes.
 Search face zonelets to identify spikes with provided spike parameters
 
 * **Parameters:**
+
   **part_id**
   : Id of part.
 
@@ -20,12 +21,14 @@ Search face zonelets to identify spikes with provided spike parameters
 
   **params**
   : Parameters used to identify spikes.
+
 * **Returns:**
-  :
 
   [`SearchBySpikeResults`](ansys.meshing.prime.SearchBySpikeResults.md#ansys.meshing.prime.SearchBySpikeResults)
   : Returns the SearchBySpikeResults.
+
 * **Return type:**
+
   [`SearchBySpikeResults`](ansys.meshing.prime.SearchBySpikeResults.md#ansys.meshing.prime.SearchBySpikeResults)
 
 ### Examples

@@ -28,7 +28,9 @@ Split and collapse elements on face zonelets with the specified register id.
 
   [`CollapseResults`](ansys.meshing.prime.CollapseResults.md#ansys.meshing.prime.CollapseResults)
   : Returns the CollapseResults.
+
 * **Return type:**
+
   [`CollapseResults`](ansys.meshing.prime.CollapseResults.md#ansys.meshing.prime.CollapseResults)
 
 ### Examples

@@ -7,6 +7,7 @@
 Copy cell zonelets and face zonelets connected to the cell zonelets.
 
 * **Parameters:**
+
   **cell_zonelets**
   : Ids of cell zonelets to be copied.
 
@@ -15,12 +16,14 @@ Copy cell zonelets and face zonelets connected to the cell zonelets.
 
   **params**
   : Parameters to copy cell zonelets.
+
 * **Returns:**
-  :
 
   [`CopyZoneletsResults`](ansys.meshing.prime.CopyZoneletsResults.md#ansys.meshing.prime.CopyZoneletsResults)
   : Returns the CopyZoneletsResults.
+
 * **Return type:**
+
   [`CopyZoneletsResults`](ansys.meshing.prime.CopyZoneletsResults.md#ansys.meshing.prime.CopyZoneletsResults)
 
 ### Notes

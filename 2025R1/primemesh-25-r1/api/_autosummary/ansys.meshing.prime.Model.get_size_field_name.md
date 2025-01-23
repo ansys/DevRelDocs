@@ -7,13 +7,15 @@
 Gets the name of size field with the given id.
 
 * **Parameters:**
+
   **size_field_id**
   : Size field id.
+
 * **Returns:**
-  :
 
   [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
   : Returns the name of the size field.
+  
 * **Return type:**
   [`str`](https://docs.python.org/3.11/library/stdtypes.html#str)
 

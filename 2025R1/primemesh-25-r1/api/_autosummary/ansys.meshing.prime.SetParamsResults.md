@@ -7,6 +7,7 @@
 Results associated with the set parameters operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `SetParamsResults` object with default parameters.
 
@@ -29,13 +30,15 @@ Results associated with the set parameters operation.
 
 ### Methods
 
-| [`SetParamsResults.print_default`](ansys.meshing.prime.SetParamsResults.print_default.md#ansys.meshing.prime.SetParamsResults.print_default)()            | Print the default values of `SetParamsResults` object.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`SetParamsResults.print_default`](ansys.meshing.prime.SetParamsResults.print_default.md#ansys.meshing.prime.SetParamsResults.print_default)()            | Print the default values of `SetParamsResults` object.   |
 | [`SetParamsResults.set_default`](ansys.meshing.prime.SetParamsResults.set_default.md#ansys.meshing.prime.SetParamsResults.set_default)([error_code, ...]) | Set the default values of the `SetParamsResults` object. |
 
 ### Attributes
 
-| [`SetParamsResults.error_code`](ansys.meshing.prime.SetParamsResults.error_code.md#ansys.meshing.prime.SetParamsResults.error_code)       | Error code associated with the set parameters operation.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`SetParamsResults.error_code`](ansys.meshing.prime.SetParamsResults.error_code.md#ansys.meshing.prime.SetParamsResults.error_code)       | Error code associated with the set parameters operation.   |
 | [`SetParamsResults.warning_code`](ansys.meshing.prime.SetParamsResults.warning_code.md#ansys.meshing.prime.SetParamsResults.warning_code) | Warning code associated with the set parameters operation. |
 <!-- vale on -->

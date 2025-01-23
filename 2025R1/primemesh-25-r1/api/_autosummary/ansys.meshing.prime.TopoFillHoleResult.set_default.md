@@ -7,6 +7,7 @@
 Set the default values of the `TopoFillHoleResult` object.
 
 * **Parameters:**
+
   **new_topo_faces_created: Iterable[int], optional**
   : Ids of new topofaces created.
 

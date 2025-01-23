@@ -7,17 +7,20 @@
 Delete fully shadowed topofaces.
 
 * **Parameters:**
+
   **topo_faces**
   : Ids of input topofaces.
 
   **params**
   : Volumetric scaffolder parameters.
+
 * **Returns:**
-  :
 
   [`ScaffolderMergeResults`](ansys.meshing.prime.ScaffolderMergeResults.md#ansys.meshing.prime.ScaffolderMergeResults)
   : Return results in ScaffolderMergeResults.
+
 * **Return type:**
+
   [`ScaffolderMergeResults`](ansys.meshing.prime.ScaffolderMergeResults.md#ansys.meshing.prime.ScaffolderMergeResults)
 
 ### Examples

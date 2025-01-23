@@ -7,17 +7,20 @@
 Add thicknesss to input face zonelets.
 
 * **Parameters:**
+
   **zonelets**
   : List of input face zonelet IDs.
 
   **params**
   : Parameters for controlling the addition of thickness.
+
 * **Returns:**
-  :
 
   [`AddThicknessResults`](ansys.meshing.prime.AddThicknessResults.md#ansys.meshing.prime.AddThicknessResults)
   : Results for adding thickness.
+
 * **Return type:**
+
   [`AddThicknessResults`](ansys.meshing.prime.AddThicknessResults.md#ansys.meshing.prime.AddThicknessResults)
 
 ### Examples

@@ -7,6 +7,7 @@
 Set the default values of the `SetSizingResults` object.
 
 * **Parameters:**
+
   **warning_codes: List[WarningCode], optional**
   : Warning codes associated with the set sizing parameters.
 

@@ -10,8 +10,9 @@ Type to specify treatment of surfaces for fusing.
 
 ### Methods
 
-| [`FuseOption.conjugate`](ansys.meshing.prime.FuseOption.conjugate.md#ansys.meshing.prime.FuseOption.conjugate)                                | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`FuseOption.conjugate`](ansys.meshing.prime.FuseOption.conjugate.md#ansys.meshing.prime.FuseOption.conjugate)                                | Returns self, the complex conjugate of any int.                            |
 | [`FuseOption.bit_length`](ansys.meshing.prime.FuseOption.bit_length.md#ansys.meshing.prime.FuseOption.bit_length)(/)                          | Number of bits necessary to represent self in binary.                      |
 | [`FuseOption.bit_count`](ansys.meshing.prime.FuseOption.bit_count.md#ansys.meshing.prime.FuseOption.bit_count)(/)                             | Number of ones in the binary representation of the absolute value of self. |
 | [`FuseOption.to_bytes`](ansys.meshing.prime.FuseOption.to_bytes.md#ansys.meshing.prime.FuseOption.to_bytes)(/[, length, byteorder, ...])      | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ Type to specify treatment of surfaces for fusing.
 
 ### Attributes
 
-| [`FuseOption.real`](ansys.meshing.prime.FuseOption.real.md#ansys.meshing.prime.FuseOption.real)                         | the real part of a complex number                                                                                         |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| [`FuseOption.real`](ansys.meshing.prime.FuseOption.real.md#ansys.meshing.prime.FuseOption.real)                         | the real part of a complex number                                                                                         |
 | [`FuseOption.imag`](ansys.meshing.prime.FuseOption.imag.md#ansys.meshing.prime.FuseOption.imag)                         | the imaginary part of a complex number                                                                                    |
 | [`FuseOption.numerator`](ansys.meshing.prime.FuseOption.numerator.md#ansys.meshing.prime.FuseOption.numerator)          | the numerator of a rational number in lowest terms                                                                        |
 | [`FuseOption.denominator`](ansys.meshing.prime.FuseOption.denominator.md#ansys.meshing.prime.FuseOption.denominator)    | the denominator of a rational number in lowest terms                                                                      |

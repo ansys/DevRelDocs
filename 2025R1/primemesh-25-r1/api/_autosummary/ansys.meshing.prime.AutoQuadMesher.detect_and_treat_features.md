@@ -7,6 +7,7 @@
 Detect features in topology and treat them with given parameters.
 
 * **Parameters:**
+
   **part_id**
   : Id of the Part.
 
@@ -15,12 +16,14 @@ Detect features in topology and treat them with given parameters.
 
   **params**
   : Parameters of detect and treat features.
+
 * **Returns:**
   
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
   : Returns the AutoQuadMesherResults structure.
   
 * **Return type:**
+
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
 
 ### Notes

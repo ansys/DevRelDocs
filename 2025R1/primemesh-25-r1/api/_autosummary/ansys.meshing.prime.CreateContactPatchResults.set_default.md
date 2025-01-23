@@ -7,6 +7,7 @@
 Set the default values of the `CreateContactPatchResults` object.
 
 * **Parameters:**
+
   **error_code: ErrorCode, optional**
   : Error code associated with the contact patch creation operation.
 

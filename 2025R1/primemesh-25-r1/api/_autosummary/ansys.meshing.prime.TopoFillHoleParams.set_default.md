@@ -7,6 +7,7 @@
 Set the default values of the `TopoFillHoleParams` object.
 
 * **Parameters:**
+
   **edges_to_exclude: Iterable[int], optional**
   : TopoEdges to be excluded for cap creation.
 

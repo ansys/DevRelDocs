@@ -7,6 +7,7 @@
 Parameters to control conversion of quadrilateral mesh to spline.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `QuadToSplineParams` object with default parameters.
 
@@ -73,14 +74,16 @@ Parameters to control conversion of quadrilateral mesh to spline.
 
 ### Methods
 
-| [`QuadToSplineParams.print_default`](ansys.meshing.prime.QuadToSplineParams.print_default.md#ansys.meshing.prime.QuadToSplineParams.print_default)()   | Print the default values of `QuadToSplineParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`QuadToSplineParams.print_default`](ansys.meshing.prime.QuadToSplineParams.print_default.md#ansys.meshing.prime.QuadToSplineParams.print_default)()   | Print the default values of `QuadToSplineParams` object.   |
 | [`QuadToSplineParams.set_default`](ansys.meshing.prime.QuadToSplineParams.set_default.md#ansys.meshing.prime.QuadToSplineParams.set_default)([...])    | Set the default values of the `QuadToSplineParams` object. |
 
 ### Attributes
 
-| [`QuadToSplineParams.corner_angle`](ansys.meshing.prime.QuadToSplineParams.corner_angle.md#ansys.meshing.prime.QuadToSplineParams.corner_angle)                                                          | Corner angle of the feature.                  |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [`QuadToSplineParams.corner_angle`](ansys.meshing.prime.QuadToSplineParams.corner_angle.md#ansys.meshing.prime.QuadToSplineParams.corner_angle)                                                          | Corner angle of the feature.                  |
 | [`QuadToSplineParams.feature_angle`](ansys.meshing.prime.QuadToSplineParams.feature_angle.md#ansys.meshing.prime.QuadToSplineParams.feature_angle)                                                       | Angle to capture the feature.                 |
 | [`QuadToSplineParams.feature_capture_type`](ansys.meshing.prime.QuadToSplineParams.feature_capture_type.md#ansys.meshing.prime.QuadToSplineParams.feature_capture_type)                                  | Feature capture options.                      |
 | [`QuadToSplineParams.project_on_geometry`](ansys.meshing.prime.QuadToSplineParams.project_on_geometry.md#ansys.meshing.prime.QuadToSplineParams.project_on_geometry)                                     | Option to project on geometry.                |

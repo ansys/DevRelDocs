@@ -7,6 +7,7 @@
 Set the default values of the `VolumeControlParams` object.
 
 * **Parameters:**
+
   **cell_zonelet_type: CellZoneletType, optional**
   : Cell zonelet type is used to define the type of the associated volume.
 

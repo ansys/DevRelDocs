@@ -7,6 +7,7 @@
 Set the default values of the `SearchByThinStripParams` object.
 
 * **Parameters:**
+
   **strip_height_limit: float, optional**
   : Absolute height limit to ignore strips with height more than provided limit.
 

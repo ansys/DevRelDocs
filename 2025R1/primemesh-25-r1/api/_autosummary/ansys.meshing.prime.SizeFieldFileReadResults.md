@@ -30,13 +30,15 @@ Results of size field file read operation.
 
 ### Methods
 
-| [`SizeFieldFileReadResults.print_default`](ansys.meshing.prime.SizeFieldFileReadResults.print_default.md#ansys.meshing.prime.SizeFieldFileReadResults.print_default)()   | Print the default values of `SizeFieldFileReadResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`SizeFieldFileReadResults.print_default`](ansys.meshing.prime.SizeFieldFileReadResults.print_default.md#ansys.meshing.prime.SizeFieldFileReadResults.print_default)()   | Print the default values of `SizeFieldFileReadResults` object.   |
 | [`SizeFieldFileReadResults.set_default`](ansys.meshing.prime.SizeFieldFileReadResults.set_default.md#ansys.meshing.prime.SizeFieldFileReadResults.set_default)([...])    | Set the default values of the `SizeFieldFileReadResults` object. |
 
 ### Attributes
 
-| [`SizeFieldFileReadResults.error_code`](ansys.meshing.prime.SizeFieldFileReadResults.error_code.md#ansys.meshing.prime.SizeFieldFileReadResults.error_code)             | Error code if size field file read operation was unsuccessful.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`SizeFieldFileReadResults.error_code`](ansys.meshing.prime.SizeFieldFileReadResults.error_code.md#ansys.meshing.prime.SizeFieldFileReadResults.error_code)             | Error code if size field file read operation was unsuccessful.   |
 | [`SizeFieldFileReadResults.size_field_ids`](ansys.meshing.prime.SizeFieldFileReadResults.size_field_ids.md#ansys.meshing.prime.SizeFieldFileReadResults.size_field_ids) | Ids of size fields read by read size field operation.            |
 <!-- vale on -->

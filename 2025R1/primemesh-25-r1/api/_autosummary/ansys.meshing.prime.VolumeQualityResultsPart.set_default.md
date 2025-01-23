@@ -7,6 +7,7 @@
 Set the default values of the `VolumeQualityResultsPart` object.
 
 * **Parameters:**
+
   **cell_quality_measure: CellQualityMeasure, optional**
   : Type of the cell quality measure.
 

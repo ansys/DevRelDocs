@@ -7,11 +7,12 @@
 Get the hard sizing parameters of size control.
 
 * **Returns:**
-  :
 
   [`HardSizingParams`](ansys.meshing.prime.HardSizingParams.md#ansys.meshing.prime.HardSizingParams)
   : Return the HardSizingParams.
+
 * **Return type:**
+
   [`HardSizingParams`](ansys.meshing.prime.HardSizingParams.md#ansys.meshing.prime.HardSizingParams)
 
 ### Examples

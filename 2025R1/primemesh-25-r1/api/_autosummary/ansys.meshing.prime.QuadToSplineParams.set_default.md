@@ -7,6 +7,7 @@
 Set the default values of the `QuadToSplineParams` object.
 
 * **Parameters:**
+
   **feature_capture_type: SplineFeatureCaptureType, optional**
   : Feature capture options.
 

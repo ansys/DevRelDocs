@@ -7,6 +7,7 @@
 Set the default values of the `RefineSplineParams` object.
 
 * **Parameters:**
+
   **refine_flag_u: bool, optional**
   : Indicates whether refinement is applied in u direction.
 

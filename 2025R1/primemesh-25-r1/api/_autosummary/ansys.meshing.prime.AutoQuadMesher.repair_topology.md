@@ -23,6 +23,7 @@ Repair topology with given parameters.
   : Returns the AutoQuadMesherResults structure.
   
 * **Return type:**
+
   [`AutoQuadMesherResults`](ansys.meshing.prime.AutoQuadMesherResults.md#ansys.meshing.prime.AutoQuadMesherResults)
 
 ### Notes

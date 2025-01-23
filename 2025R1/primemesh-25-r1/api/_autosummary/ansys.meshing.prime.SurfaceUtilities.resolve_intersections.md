@@ -7,17 +7,20 @@
 Resolve facezonelets intersections.
 
 * **Parameters:**
+
   **face_zonelet_ids**
   : Ids of face zonelets.
 
   **params**
   : ResolveIntersectionsParams for resolve intersection.
+
 * **Returns:**
-  :
 
   [`ResolveIntersectionResult`](ansys.meshing.prime.ResolveIntersectionResult.md#ansys.meshing.prime.ResolveIntersectionResult)
   : Returns a ResolveIntersectionResult.
+
 * **Return type:**
+
   [`ResolveIntersectionResult`](ansys.meshing.prime.ResolveIntersectionResult.md#ansys.meshing.prime.ResolveIntersectionResult)
 
 ### Examples
