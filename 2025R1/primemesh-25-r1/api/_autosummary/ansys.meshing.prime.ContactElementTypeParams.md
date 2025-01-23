@@ -44,14 +44,16 @@ Parameters to control element type choices for contact surfaces in TIEs and CONT
 
 ### Methods
 
-| [`ContactElementTypeParams.print_default`](ansys.meshing.prime.ContactElementTypeParams.print_default.md#ansys.meshing.prime.ContactElementTypeParams.print_default)()   | Print the default values of `ContactElementTypeParams` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`ContactElementTypeParams.print_default`](ansys.meshing.prime.ContactElementTypeParams.print_default.md#ansys.meshing.prime.ContactElementTypeParams.print_default)()   | Print the default values of `ContactElementTypeParams` object.   |
 | [`ContactElementTypeParams.set_default`](ansys.meshing.prime.ContactElementTypeParams.set_default.md#ansys.meshing.prime.ContactElementTypeParams.set_default)([...])    | Set the default values of the `ContactElementTypeParams` object. |
 
 ### Attributes
 
-| [`ContactElementTypeParams.contact_pair_node_to_surf`](ansys.meshing.prime.ContactElementTypeParams.contact_pair_node_to_surf.md#ansys.meshing.prime.ContactElementTypeParams.contact_pair_node_to_surf)   | Element type for CONTACT PAIR with Node-to-Surface contact where the contact surface is of type ELEMENT.    |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| [`ContactElementTypeParams.contact_pair_node_to_surf`](ansys.meshing.prime.ContactElementTypeParams.contact_pair_node_to_surf.md#ansys.meshing.prime.ContactElementTypeParams.contact_pair_node_to_surf)   | Element type for CONTACT PAIR with Node-to-Surface contact where the contact surface is of type ELEMENT.    |
 | [`ContactElementTypeParams.contact_pair_surf_to_surf`](ansys.meshing.prime.ContactElementTypeParams.contact_pair_surf_to_surf.md#ansys.meshing.prime.ContactElementTypeParams.contact_pair_surf_to_surf)   | Element type for CONTACT PAIR with Surface-to-Surface contact where the contact surface is of type ELEMENT. |
 | [`ContactElementTypeParams.tie_node_to_surf`](ansys.meshing.prime.ContactElementTypeParams.tie_node_to_surf.md#ansys.meshing.prime.ContactElementTypeParams.tie_node_to_surf)                              | Element type for TIE with Node-to-Surface contact where the contact surface is of type ELEMENT.             |
 | [`ContactElementTypeParams.tie_surf_to_surf`](ansys.meshing.prime.ContactElementTypeParams.tie_surf_to_surf.md#ansys.meshing.prime.ContactElementTypeParams.tie_surf_to_surf)                              | Element type for TIE with Surface-to-Surface contact where the contact surface is of type ELEMENT.          |

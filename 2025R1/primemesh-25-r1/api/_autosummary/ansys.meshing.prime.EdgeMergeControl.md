@@ -10,8 +10,9 @@ Specifies type of edge pairs to be merged during scaffold operation.
 
 ### Methods
 
-| [`EdgeMergeControl.conjugate`](ansys.meshing.prime.EdgeMergeControl.conjugate.md#ansys.meshing.prime.EdgeMergeControl.conjugate)                         | Returns self, the complex conjugate of any int.                            |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`EdgeMergeControl.conjugate`](ansys.meshing.prime.EdgeMergeControl.conjugate.md#ansys.meshing.prime.EdgeMergeControl.conjugate)                         | Returns self, the complex conjugate of any int.                            |
 | [`EdgeMergeControl.bit_length`](ansys.meshing.prime.EdgeMergeControl.bit_length.md#ansys.meshing.prime.EdgeMergeControl.bit_length)(/)                   | Number of bits necessary to represent self in binary.                      |
 | [`EdgeMergeControl.bit_count`](ansys.meshing.prime.EdgeMergeControl.bit_count.md#ansys.meshing.prime.EdgeMergeControl.bit_count)(/)                      | Number of ones in the binary representation of the absolute value of self. |
 | [`EdgeMergeControl.to_bytes`](ansys.meshing.prime.EdgeMergeControl.to_bytes.md#ansys.meshing.prime.EdgeMergeControl.to_bytes)(/[, length, ...])          | Return an array of bytes representing an integer.                          |
@@ -21,8 +22,9 @@ Specifies type of edge pairs to be merged during scaffold operation.
 
 ### Attributes
 
-| [`EdgeMergeControl.real`](ansys.meshing.prime.EdgeMergeControl.real.md#ansys.meshing.prime.EdgeMergeControl.real)                      | the real part of a complex number                    |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
+| [`EdgeMergeControl.real`](ansys.meshing.prime.EdgeMergeControl.real.md#ansys.meshing.prime.EdgeMergeControl.real)                      | the real part of a complex number                    |
 | [`EdgeMergeControl.imag`](ansys.meshing.prime.EdgeMergeControl.imag.md#ansys.meshing.prime.EdgeMergeControl.imag)                      | the imaginary part of a complex number               |
 | [`EdgeMergeControl.numerator`](ansys.meshing.prime.EdgeMergeControl.numerator.md#ansys.meshing.prime.EdgeMergeControl.numerator)       | the numerator of a rational number in lowest terms   |
 | [`EdgeMergeControl.denominator`](ansys.meshing.prime.EdgeMergeControl.denominator.md#ansys.meshing.prime.EdgeMergeControl.denominator) | the denominator of a rational number in lowest terms |

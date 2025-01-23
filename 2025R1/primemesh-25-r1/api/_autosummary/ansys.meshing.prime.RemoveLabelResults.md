@@ -7,6 +7,7 @@
 Results associated with the remove label operation.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `RemoveLabelResults` object with default parameters.
 
@@ -26,12 +27,14 @@ Results associated with the remove label operation.
 
 ### Methods
 
-| [`RemoveLabelResults.print_default`](ansys.meshing.prime.RemoveLabelResults.print_default.md#ansys.meshing.prime.RemoveLabelResults.print_default)()       | Print the default values of `RemoveLabelResults` object.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [`RemoveLabelResults.print_default`](ansys.meshing.prime.RemoveLabelResults.print_default.md#ansys.meshing.prime.RemoveLabelResults.print_default)()       | Print the default values of `RemoveLabelResults` object.   |
 | [`RemoveLabelResults.set_default`](ansys.meshing.prime.RemoveLabelResults.set_default.md#ansys.meshing.prime.RemoveLabelResults.set_default)([error_code]) | Set the default values of the `RemoveLabelResults` object. |
 
 ### Attributes
 
-| [`RemoveLabelResults.error_code`](ansys.meshing.prime.RemoveLabelResults.error_code.md#ansys.meshing.prime.RemoveLabelResults.error_code)   | Error code associated with the remove label operation.   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`RemoveLabelResults.error_code`](ansys.meshing.prime.RemoveLabelResults.error_code.md#ansys.meshing.prime.RemoveLabelResults.error_code)   | Error code associated with the remove label operation.   |
 <!-- vale on -->

@@ -7,6 +7,7 @@
 Set the default values of the `RefineAtContactsParams` object.
 
 * **Parameters:**
+
   **contact_tolerance: float, optional**
   : Maximum tolerance used to identify face elements as contacts.
 

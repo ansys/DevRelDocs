@@ -10,17 +10,20 @@ Patch flow regions create patching surfaces for regions identified
 by dead regions from wrapper patch holes parameters.
 
 * **Parameters:**
+
   **live_material_point**
   : Name of live material point.
 
   **params**
   : Parameters to define patch flow regions operation.
+
 * **Returns:**
-  :
 
   [`WrapperPatchFlowRegionsResult`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult)
   : Returns the WrapperPatchFlowRegionsResult.
+
 * **Return type:**
+
   [`WrapperPatchFlowRegionsResult`](ansys.meshing.prime.WrapperPatchFlowRegionsResult.md#ansys.meshing.prime.WrapperPatchFlowRegionsResult)
 
 ### Notes

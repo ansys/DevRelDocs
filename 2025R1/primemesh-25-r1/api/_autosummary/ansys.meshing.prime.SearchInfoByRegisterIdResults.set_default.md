@@ -7,6 +7,7 @@
 Set the default values of the `SearchInfoByRegisterIdResults` object.
 
 * **Parameters:**
+
   **error_code: ErrorCode, optional**
   : Error code associated with the retreiving information based on register id.
 

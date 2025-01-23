@@ -7,6 +7,7 @@
 Set the default values of the `SetFeatureRecoveriesResults` object.
 
 * **Parameters:**
+
   **ids: Iterable[int], optional**
   : Ids of added feature recovery controls.
 

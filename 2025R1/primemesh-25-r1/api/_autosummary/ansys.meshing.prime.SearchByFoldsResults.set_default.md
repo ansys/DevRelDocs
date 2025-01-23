@@ -7,6 +7,7 @@
 Set the default values of the `SearchByFoldsResults` object.
 
 * **Parameters:**
+
   **n_found: int, optional**
   : Number of folds identified.
 

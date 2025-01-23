@@ -39,14 +39,16 @@ Results associated with projection of topofaces nodes on its geometry.
 
 ### Methods
 
-| [`ProjectOnGeometryResults.print_default`](ansys.meshing.prime.ProjectOnGeometryResults.print_default.md#ansys.meshing.prime.ProjectOnGeometryResults.print_default)()   | Print the default values of `ProjectOnGeometryResults` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`ProjectOnGeometryResults.print_default`](ansys.meshing.prime.ProjectOnGeometryResults.print_default.md#ansys.meshing.prime.ProjectOnGeometryResults.print_default)()   | Print the default values of `ProjectOnGeometryResults` object.   |
 | [`ProjectOnGeometryResults.set_default`](ansys.meshing.prime.ProjectOnGeometryResults.set_default.md#ansys.meshing.prime.ProjectOnGeometryResults.set_default)([...])    | Set the default values of the `ProjectOnGeometryResults` object. |
 
 ### Attributes
 
-| [`ProjectOnGeometryResults.error_code`](ansys.meshing.prime.ProjectOnGeometryResults.error_code.md#ansys.meshing.prime.ProjectOnGeometryResults.error_code)          | Error code associated with failure of operation.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`ProjectOnGeometryResults.error_code`](ansys.meshing.prime.ProjectOnGeometryResults.error_code.md#ansys.meshing.prime.ProjectOnGeometryResults.error_code)          | Error code associated with failure of operation.   |
 | [`ProjectOnGeometryResults.success`](ansys.meshing.prime.ProjectOnGeometryResults.success.md#ansys.meshing.prime.ProjectOnGeometryResults.success)                   | Defines the operation was successful or not.       |
 | [`ProjectOnGeometryResults.warning_codes`](ansys.meshing.prime.ProjectOnGeometryResults.warning_codes.md#ansys.meshing.prime.ProjectOnGeometryResults.warning_codes) | Warning code associated with operation.            |
 <!-- vale on -->

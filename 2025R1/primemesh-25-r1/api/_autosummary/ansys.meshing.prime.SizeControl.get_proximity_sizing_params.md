@@ -7,11 +7,12 @@
 Get the proximity sizing parameters of size control.
 
 * **Returns:**
-  :
 
   [`ProximitySizingParams`](ansys.meshing.prime.ProximitySizingParams.md#ansys.meshing.prime.ProximitySizingParams)
   : Return the ProximitySizingParams.
+
 * **Return type:**
+
   [`ProximitySizingParams`](ansys.meshing.prime.ProximitySizingParams.md#ansys.meshing.prime.ProximitySizingParams)
 
 ### Examples

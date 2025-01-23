@@ -7,6 +7,7 @@
 Result of volume quality of part.
 
 * **Parameters:**
+
   **model: Model**
   : Model to create a `VolumeQualityResultsPart` object with default parameters.
 
@@ -44,14 +45,16 @@ Result of volume quality of part.
 
 ### Methods
 
-| [`VolumeQualityResultsPart.print_default`](ansys.meshing.prime.VolumeQualityResultsPart.print_default.md#ansys.meshing.prime.VolumeQualityResultsPart.print_default)()   | Print the default values of `VolumeQualityResultsPart` object.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`VolumeQualityResultsPart.print_default`](ansys.meshing.prime.VolumeQualityResultsPart.print_default.md#ansys.meshing.prime.VolumeQualityResultsPart.print_default)()   | Print the default values of `VolumeQualityResultsPart` object.   |
 | [`VolumeQualityResultsPart.set_default`](ansys.meshing.prime.VolumeQualityResultsPart.set_default.md#ansys.meshing.prime.VolumeQualityResultsPart.set_default)([...])    | Set the default values of the `VolumeQualityResultsPart` object. |
 
 ### Attributes
 
-| [`VolumeQualityResultsPart.cell_quality_measure`](ansys.meshing.prime.VolumeQualityResultsPart.cell_quality_measure.md#ansys.meshing.prime.VolumeQualityResultsPart.cell_quality_measure)   | Type of the cell quality measure.             |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [`VolumeQualityResultsPart.cell_quality_measure`](ansys.meshing.prime.VolumeQualityResultsPart.cell_quality_measure.md#ansys.meshing.prime.VolumeQualityResultsPart.cell_quality_measure)   | Type of the cell quality measure.             |
 | [`VolumeQualityResultsPart.max_quality`](ansys.meshing.prime.VolumeQualityResultsPart.max_quality.md#ansys.meshing.prime.VolumeQualityResultsPart.max_quality)                              | Maximum value of quality measure.             |
 | [`VolumeQualityResultsPart.measure_name`](ansys.meshing.prime.VolumeQualityResultsPart.measure_name.md#ansys.meshing.prime.VolumeQualityResultsPart.measure_name)                           | Name of the cell quality measure.             |
 | [`VolumeQualityResultsPart.min_quality`](ansys.meshing.prime.VolumeQualityResultsPart.min_quality.md#ansys.meshing.prime.VolumeQualityResultsPart.min_quality)                              | Minimum value of quality measure.             |
@@ -59,14 +62,5 @@ Result of volume quality of part.
 | [`VolumeQualityResultsPart.part_id`](ansys.meshing.prime.VolumeQualityResultsPart.part_id.md#ansys.meshing.prime.VolumeQualityResultsPart.part_id)                                          | Id of the part for which quality is computed. |
 | [`VolumeQualityResultsPart.quality_limit`](ansys.meshing.prime.VolumeQualityResultsPart.quality_limit.md#ansys.meshing.prime.VolumeQualityResultsPart.quality_limit)                        | Target quality limit used to find failures.   |
 
-<a id="examples-using-volumequalityresultspart"></a>
 
-## Examples using VolumeQualityResultsPart
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to wrap a toy car for a flow analysis.">  <div class="sphx-glr-thumbnail-title">Wrap a toy car for a flow analysis</div>
-</div>
-* [Wrap a toy car for a flow analysis](../../examples/gallery_examples/gallery/04_lucid_toy_car.md#sphx-glr-examples-gallery-examples-gallery-04-lucid-toy-car-py)
-
-<!-- thumbnail-parent-div-close --></div>
 <!-- vale on -->

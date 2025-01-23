@@ -10,6 +10,7 @@ This method performs a label-controlled connection of wrapper part face zonelets
 face zonelets of source parts.
 
 * **Parameters:**
+
   **wrapper_part**
   : Wrapper part.
 

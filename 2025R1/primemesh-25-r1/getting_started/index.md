@@ -1,80 +1,113 @@
 # Getting started
 
-PyPrimeMesh is a Python client for Ansys Prime Server,
-which provides core Ansys meshing technology.
-
-To use PyPrimeMesh, you must have a local installation of Ansys 2023 R1 or later.
-The Ansys version that you have installed dictates the features available to you.
-
+Prime Mesh Python client library 2025 R1 is a modified version of the PyPrimeMesh. You can access the latest Prime Mesh Python client library from  the latest Ansys package.
 For more information on getting a licensed copy of Ansys, visit the [Ansys website](https://www.ansys.com/).
 
-#### NOTE
-The PyPrimeMesh client release has one-to-one compatibility with the Ansys Prime Server release.
-That is, the PyPrimeMesh client is only compatible with its corresponding Ansys Prime Server.
-
-This table provides compatibility information:
-
-| PyPrimeMesh client release                                                       | Ansys Prime Server release                                                                                                                             | Supported python versions                                                                                             |
-|----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| 0.2.x<br/><br/>0.3.x<br/><br/>0.4.x<br/><br/>0.5.x<br/><br/>0.6.x<br/><br/>0.7.x | 23.1.0 (2023 R1)<br/><br/>23.1.1 (2023 R1 SP1)<br/><br/>23.2.0 (2023 R2)<br/><br/>24.1.0 (2024 R1)<br/><br/>24.2.0 (2024 R2)<br/><br/>25.1.0 (2025 R1) | 3.7 to 3.11<br/><br/>3.7 to 3.11<br/><br/>3.8 to 3.11<br/><br/>3.8 to 3.11<br/><br/>3.8 to 3.11<br/><br/>3.10 to 3.12 |
-
-
-
-<a id="installation"></a>
 
 ## Installation
 
-The `ansys-meshing-prime` package currently supports Python 3.10
-to Python 3.12 on the Windows and Linux operating systems.
+Install the latest Prime Mesh Python client library from [Ansys Customer Site](https://support.ansys.com/Home/HomePage).
 
-You can install PyPrimeMesh with all dependencies directly from [PyPI](https://pypi.org/)  with this command:
 
-```default
-pip install ansys-meshing-prime[all]
+
+## Run a Python script in batch
+
+To run a PyPrimeMesh Python script directly on the server from a Linux or Windows console:
+ 
+Here is a Windows code example to run a Python script directly from the command line:
+ 
+```shell-session
+"%AWP_ROOT<version>%\meshing\Prime\runPrime.bat" my_script.py
 ```
 
-Alternatively, you can clone this repository and install the client using these commands:
+##  Run a Python script in batch on HPC job scheduler
 
-```default
-git clone https://github.com/ansys/pyprimemesh
-cd pyprimemesh
-pip install -e .[all]
+To run the PyPrimeMesh Python script with SLURM HPC job scheduler while launching the Ansys Prime Server,
+use the following argument:
+
+```shell-session
+import ansys.meshing.prime as prime
+client = prime.launch_prime(scheduler='slurm', n_procs = 4)
+model = client.model
+
 ```
 
-The preceding commands install all features that are important to development.
-To install a basic version of the client, use this command instead:
+You can run the PyPrimeMesh Python script with SLURM from the command line as follows:
 
-```default
-pip install -e .
+```shell-session
+"%AWP_ROOT<version>%\meshing\Prime\runPrime.bat" my_slurm_script.py
 ```
 
-<a id="dependencies"></a>
 
-## Dependencies
+## Accessing Prime Mesh Python client library through Visual Studio Code (VS Code)
 
-You must have Ansys 2023 R1 or later installed to have access to Ansys Prime
-Server. Optionally, CAD readers can be configured.
+You can access Prime Mesh Python client through VS code and work on it as follows:
+ 
 
-Ansys Prime Server requires one of the following licenses to run. The system
-checks out the first available license from the list in the following order:
+1. Install 2024R1 Service Pack 1 package or later.
 
-1. CFD PrepPost
-2. CFD PrepPost Pro
-3. Mechanical Enterprise PrepPost
-4. Mechanical Enterprise
-5. Mechanical Pro
-6. Mechanical Premium
-7. Ansys LS-DYNA
+2. Close all instances of VS Code. 
 
-<a id="launch-pyprimemesh"></a>
+3. Create a new folder in your machine for your work. 
 
-## Launch PyPrimeMesh
+4. Open VS Code. 
 
-To launch PyPrimeMesh, use this code:
+5. Click File > Open Folder and select the newly created folder from the location. 
+
+6. Install Microsoft Python Extension in VS Code if you have not installed it. 
+
+7. In the VS Code, click the Search bar and select Show and Run Commands > Python: Select 
+   Interpreter. 
+
+8. In Windows OS, click Enter Interpreter Path and click Find to select runPrime.bat as 
+   interpreter from the latest package installed location. 
+
+    ![windowspath](../images/windowspath.png)
+
+   Example: C:\Program Files\ANSYS Inc\v242\meshing\Prime\runPrime.bat 
+
+   In Linux OS, press Ctrl + Shift + P to view the search bar and type Python: Select 
+   Interpreter and select it.
+     
+    Example:/ANSYS_Inc/v242/meshing/Prime/runPrime.sh
+
+9. In VS Code, create a new folder with name .vscode. 
+ 
+10. Create a settings.json file with the following content: 
+    
+    In Windows OS,
+
+    ```python
+    {
+        "python.autoComplete.extraPaths": [
+            "C:\\Program Files\\ANSYS Inc\\v251\\meshing\\site"
+        ],
+        "python.analysis.extraPaths": [
+            "C:\\Program Files\\ANSYS Inc\\v251\\meshing\\site"
+        ],
+    }
+    ```
+
+    In Linux OS,
+
+    ```python
+    {
+        "python.autoComplete.extraPaths": [
+            "\ansys_inc\v251\meshing\site"
+        ],
+        "python.analysis.extraPaths": [
+            "\ansys_inc\v251\meshing\site"
+        ],
+    }
+    ```
+
+    **Note:** Environment variables do not work in the above file. Hence, provide full paths. 
+
+11. Run a simple test file to ensure that the installed build works. 
 
 ```python
-import ansys.meshing.prime as prime
-
-with prime.launch_prime() as prime_client:
-    model = prime_client.model
+    import ansys.meshing.prime as prime
+    with prime.launch_prime() as client:
+        model = client.model
+    print (prime.__version__)
 ```

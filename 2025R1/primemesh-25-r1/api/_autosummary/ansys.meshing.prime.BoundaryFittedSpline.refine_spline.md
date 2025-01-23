@@ -27,6 +27,7 @@ Refinement along one or more dimension can be suppressed using refinement parame
   : Returns the IGAResults Structure.
   
 * **Return type:**
+
   [`IGAResults`](ansys.meshing.prime.IGAResults.md#ansys.meshing.prime.IGAResults)
 
 ### Examples

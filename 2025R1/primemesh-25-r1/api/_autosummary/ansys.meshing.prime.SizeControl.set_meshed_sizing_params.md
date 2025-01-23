@@ -7,14 +7,17 @@
 Set the meshed sizing parameters to compute volumetric size field.
 
 * **Parameters:**
+
   **params**
   : Parameters that enables you to set the sizes based on existing sizes.
+
 * **Returns:**
-  :
 
   [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
   : Return the SetSizingResults.
+
 * **Return type:**
+
   [`SetSizingResults`](ansys.meshing.prime.SetSizingResults.md#ansys.meshing.prime.SetSizingResults)
 
 ### Examples
