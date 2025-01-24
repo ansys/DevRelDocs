@@ -2,7 +2,7 @@
 
 <a id="scene"></a>
 
-### `Scene` class
+## `Scene` class
 
 <a id="compolyx.Scene"></a>
 
@@ -166,7 +166,7 @@ Apply a view to the scene.
 
 <a id="view"></a>
 
-### `View` class
+## `View` class
 
 <a id="compolyx.View"></a>
 

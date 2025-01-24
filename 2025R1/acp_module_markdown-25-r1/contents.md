@@ -17,7 +17,7 @@ Table of contents:
   * [Advanced scripting](getting_started_acp.md#advanced-scripting)
 * [The Python object tree](python_object_tree.md)
 * [Classes](classes.md)
-  * [Database class](db_database.md)
+  * [Database classes](db_database.md)
   * [Material classes](classes_materialdata.md)
   * [Model classes](classes_model.md)
   * [Solid model classes](classes_solid_model.md)

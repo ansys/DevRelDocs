@@ -2,7 +2,7 @@
 
 <a id="model"></a>
 
-### `Model` class
+## `Model` class
 
 <a id="compolyx.Model"></a>
 
@@ -1825,7 +1825,7 @@ Sets dir1 orthogonal to dir2 as y- and z-axis.
 
 <a id="lookuptable"></a>
 
-### `LookUpTable` classes
+## `LookUpTable` classes
 
 <a id="lookuptablebase"></a>
 
@@ -2068,7 +2068,7 @@ Numpy array containing the column values.
 
 <a id="elementselectionrule-classes"></a>
 
-### `ElementSelectionRule` classes
+## `ElementSelectionRule` classes
 
 <a id="compolyx.ElementSelectionRule"></a>
 
@@ -2678,7 +2678,7 @@ Use offset correction on mesh.
 
 <a id="entityset-classes"></a>
 
-### `EntitySet` classes
+## `EntitySet` classes
 
 <a id="compolyx.EntitySet"></a>
 
@@ -2889,7 +2889,7 @@ Serialize to Python string.
 
 <a id="geometry-classes"></a>
 
-### `Geometry` classes
+## `Geometry` classes
 
 <a id="cadgeometry"></a>
 
@@ -3277,7 +3277,7 @@ Status of the CAD reference.
 
 <a id="orientedselectionset"></a>
 
-### `OrientedSelectionSet` class
+## `OrientedSelectionSet` class
 
 <a id="compolyx.OrientedSelectionSet"></a>
 
@@ -3505,7 +3505,7 @@ Write boundaries in .iges/.step format.
 
 <a id="modelinggroup"></a>
 
-### `ModelingGroup`
+## `ModelingGroup` class
 
 <a id="compolyx.ModelingGroup"></a>
 
@@ -3733,7 +3733,7 @@ Serialize to Python string.
 
 <a id="modelingply"></a>
 
-### `ModelingPly`
+## `ModelingPly` class
 
 <a id="compolyx.ModelingPly"></a>
 
@@ -4074,7 +4074,7 @@ Write boundaries in iges/step format.
 
 <a id="productionply"></a>
 
-### `ProductionPly` class
+## `ProductionPly` class
 
 <a id="compolyx.production_ply.ProductionPly"></a>
 
@@ -4204,7 +4204,7 @@ Write boundaries in .iges/.step format.
 
 <a id="analysisply"></a>
 
-### `AnalysisPly` class
+## `AnalysisPly` class
 
 <a id="compolyx.AnalysisPly"></a>
 
@@ -4319,7 +4319,7 @@ Write boundaries in .iges/.step format.
 
 <a id="interfacelayer"></a>
 
-### `InterfaceLayer` class
+## `InterfaceLayer` class
 
 <a id="compolyx.InterfaceLayer"></a>
 
@@ -4401,7 +4401,7 @@ Serialize to Python string.
 
 <a id="buttjointsequence"></a>
 
-### `ButtJointSequence` class
+## `ButtJointSequence` class
 
 <a id="compolyx.ButtJointSequence"></a>
 
@@ -4429,7 +4429,7 @@ Serialize to Python string.
 
 <a id="importedmodelinggroup"></a>
 
-### `ImportedModelingGroup` class
+## `ImportedModelingGroup` class
 
 <a id="compolyx.ImportedModelingGroup"></a>
 
@@ -4495,7 +4495,7 @@ Modeling plies of the modeling group.
 
 <a id="importedmodelingply"></a>
 
-### `ImportedModelingPly` class
+## `ImportedModelingPly` class
 
 <a id="compolyx.ImportedModelingPly"></a>
 
@@ -4615,7 +4615,7 @@ The type of the thickness field (`absolute` or `relative`).
 
 <a id="importedproductionply"></a>
 
-### `ImportedProductionPly` class
+## `ImportedProductionPly` class
 
 <a id="compolyx.ImportedProductionPly"></a>
 
@@ -4651,7 +4651,7 @@ Thickness of the production ply.
 
 <a id="importedanalysisply"></a>
 
-### `ImportedAnalysisPly` class
+## `ImportedAnalysisPly` class
 
 <a id="compolyx.ImportedAnalysisPly"></a>
 
@@ -4698,7 +4698,7 @@ Average ply thickness.
 
 <a id="fielddefinition"></a>
 
-### `FieldDefinition` class
+## `FieldDefinition` class
 
 <a id="compolyx.FieldDefinition"></a>
 
@@ -4759,7 +4759,7 @@ Serialize to Python string.
 
 <a id="samplingpoint"></a>
 
-### `SamplingPoint` class
+## `SamplingPoint` class
 
 <a id="compolyx.SamplingPoint"></a>
 
@@ -4941,7 +4941,7 @@ Flag to use default reference direction.
 
 <a id="sectioncut"></a>
 
-### `SectionCut` class
+## `SectionCut` class
 
 <a id="compolyx.SectionCut"></a>
 
@@ -5349,7 +5349,7 @@ Section cut line wireframe mesh.
 
 <a id="sensor"></a>
 
-### `Sensor` class
+## `Sensor` class
 
 <a id="compolyx.Sensor"></a>
 
@@ -5447,7 +5447,7 @@ Weight over all entities of the sensor.
 
 <a id="plybook"></a>
 
-### `PlyBook` class
+## `PlyBook` class
 
 <a id="compolyx.PlyBook"></a>
 
@@ -5507,7 +5507,7 @@ reST title page template.
 
 <a id="chapter"></a>
 
-### `Chapter` class
+## `Chapter` class
 
 <a id="compolyx.Chapter"></a>
 
@@ -5541,7 +5541,7 @@ Show the rosettes linked to a ply in snapshots.
 
 <a id="publishedparameter"></a>
 
-### `PublishedParameter` class
+## `PublishedParameter` class
 
 <a id="compolyx.PublishedParameter"></a>
 
@@ -5657,7 +5657,7 @@ The parameter value as it is represented in the Ansys Workbench application.
 
 <a id="script"></a>
 
-### `Script` class
+## `Script` class
 
 <a id="compolyx.Script"></a>
 
