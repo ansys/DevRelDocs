@@ -1,6 +1,6 @@
 # Database classes
 
-### `DB` class
+## `DB` class
 
 <a id="compolyx.DB"></a>
 
