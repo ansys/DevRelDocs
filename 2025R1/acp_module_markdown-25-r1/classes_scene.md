@@ -2,11 +2,11 @@
 
 <a id="scene"></a>
 
-## `Scene`
+### `Scene` class
 
 <a id="compolyx.Scene"></a>
 
-### *class* compolyx.Scene(graph, model=None, name='', id=None, title='', view=None, parent=None, active_set=None)
+#### *class* compolyx.Scene(graph, model=None, name='', id=None, title='', view=None, parent=None, active_set=None)
 
 Class to represent scene.
 
@@ -166,11 +166,11 @@ Apply a view to the scene.
 
 <a id="view"></a>
 
-## `View`
+### `View` class
 
 <a id="compolyx.View"></a>
 
-### *class* compolyx.View(name, position=(0.0, 0.0, 0.0), orientation=(0.0, 0.0, 0.0), rotation_point=(0.0, 0.0, 0.0), parallel_scale=1.0, projection='perspective', locked=False, parent=None)
+#### *class* compolyx.View(name, position=(0.0, 0.0, 0.0), orientation=(0.0, 0.0, 0.0), rotation_point=(0.0, 0.0, 0.0), parallel_scale=1.0, projection='perspective', locked=False, parent=None)
 
 ComPoLyX class to capture view properties.
 
