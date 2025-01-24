@@ -1,6 +1,6 @@
 # Classes
 
-* [Database class](db_database.md)
+* [Database classes](db_database.md)
 * [Material classes](classes_materialdata.md)
 * [Model classes](classes_model.md)
 * [Solid-model classes](classes_solid_model.md)
