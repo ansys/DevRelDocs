@@ -2,7 +2,7 @@
 
 <a id="materialdata"></a>
 
-### `MaterialData` class
+## `MaterialData` class
 
 <a id="compolyx.MaterialData"></a>
 
@@ -297,7 +297,7 @@ Unit system of material data, propagated from model.
 
 <a id="material"></a>
 
-### `Material` class
+## `Material` class
 
 <a id="compolyx.Material"></a>
 
@@ -415,7 +415,7 @@ Serialize to Python string.
 
 <a id="propertyset"></a>
 
-### `PropertySet` class
+## `PropertySet` class
 
 <a id="compolyx.PropertySet"></a>
 
@@ -544,7 +544,7 @@ Constant properties can be given as keyword arguments.
 
 <a id="fabric"></a>
 
-### `Fabric` class
+## `Fabric` class
 
 <a id="compolyx.Fabric"></a>
 
@@ -693,7 +693,7 @@ Note: The coupling effect is always neglected (which is anyway 0 for a single fa
 
 <a id="stackup"></a>
 
-### `Stackup` class
+## `Stackup` class
 
 <a id="compolyx.Stackup"></a>
 
@@ -888,7 +888,7 @@ updates the data of the 2D plot.
 
 <a id="sublaminate"></a>
 
-### `SubLaminate` class
+## `SubLaminate` class
 
 <a id="compolyx.SubLaminate"></a>
 
