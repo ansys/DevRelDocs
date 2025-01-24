@@ -2,11 +2,11 @@
 
 <a id="model"></a>
 
-## `Model`
+### `Model` class
 
 <a id="compolyx.Model"></a>
 
-### *class* compolyx.Model(name=None, path=None, format=None, ignored_entities=None, graph=None, parent=None, convert_section_data=False, unit_system_type=None, reference_surface_input_unit_system_type=None, cache_data=False)
+#### *class* compolyx.Model(name=None, path=None, format=None, ignored_entities=None, graph=None, parent=None, convert_section_data=False, unit_system_type=None, reference_surface_input_unit_system_type=None, cache_data=False)
 
 Class to represent a finite element model.
 
@@ -1634,11 +1634,11 @@ This function is part of the Workbench application’s integration and should no
 
 <a id="rosette"></a>
 
-## `Rosette`
+### `Rosette` class
 
 <a id="compolyx.Rosette"></a>
 
-### *class* compolyx.Rosette(graph, obj, parent=None)
+#### *class* compolyx.Rosette(graph, obj, parent=None)
 
 Rosette class.
 
@@ -1825,15 +1825,15 @@ Sets dir1 orthogonal to dir2 as y- and z-axis.
 
 <a id="lookuptable"></a>
 
-## LookUpTable
+### `LookUpTable` classes
 
 <a id="lookuptablebase"></a>
 
-### `LookUpTableBase`
+### `LookUpTableBase` class
 
 <a id="compolyx.LookUpTableBase"></a>
 
-### *class* compolyx.LookUpTableBase(obj, parent=None)
+#### *class* compolyx.LookUpTableBase(obj, parent=None)
 
 Bases: `NamedGraphFuncObject`
 
@@ -1938,11 +1938,11 @@ A tuple containing a list of column labels and a 2d array with floats for all ce
 
 <a id="lookuptable1d"></a>
 
-### `LookUpTable1D`
+### `LookUpTable1D` class
 
 <a id="compolyx.LookUpTable1D"></a>
 
-### *class* compolyx.LookUpTable1D(obj, parent=None)
+#### *class* compolyx.LookUpTable1D(obj, parent=None)
 
 Bases: [`LookUpTableBase`](#compolyx.LookUpTableBase)
 
@@ -1974,11 +1974,11 @@ A tuple containing a list of column labels and a 2d array with floats for all ce
 
 <a id="lookuptable3d"></a>
 
-### `LookUpTable3D`
+### `LookUpTable3D` class
 
 <a id="compolyx.LookUpTable3D"></a>
 
-### *class* compolyx.LookUpTable3D(obj, parent=None)
+#### *class* compolyx.LookUpTable3D(obj, parent=None)
 
 Bases: [`LookUpTableBase`](#compolyx.LookUpTableBase)
 
@@ -2034,11 +2034,11 @@ True if the search radius is estimated automatically.
 
 <a id="lookuptablecolumn"></a>
 
-### `LookUpTableColumn`
+### `LookUpTableColumn` class
 
 <a id="compolyx.LookUpTableColumn"></a>
 
-### *class* compolyx.LookUpTableColumn(name, parent)
+#### *class* compolyx.LookUpTableColumn(name, parent)
 
 An object to hold a column in a table.
 
@@ -2068,11 +2068,13 @@ Numpy array containing the column values.
 
 <a id="elementselectionrule-classes"></a>
 
-## `ElementSelectionRule` classes
+### `ElementSelectionRule` classes
 
 <a id="compolyx.ElementSelectionRule"></a>
 
-### *class* compolyx.ElementSelectionRule(graph, obj, parent=None)
+### `ElementSelectionRule` class
+
+#### *class* compolyx.ElementSelectionRule(graph, obj, parent=None)
 
 Base class for rules.
 This acts as an interface to the cpp object of the rules.
@@ -2112,11 +2114,11 @@ Relative type.
 
 <a id="parallelselectionrule"></a>
 
-### `ParallelSelectionRule`
+### `ParallelSelectionRule` class
 
 <a id="compolyx.ParallelSelectionRule"></a>
 
-### *class* compolyx.ParallelSelectionRule(graph, obj, parent=None)
+#### *class* compolyx.ParallelSelectionRule(graph, obj, parent=None)
 
 Bases: [`ElementSelectionRule`](#compolyx.ElementSelectionRule)
 
@@ -2178,11 +2180,11 @@ Use global coordinate system for origin and direction.
 
 <a id="cylindricalselectionrule"></a>
 
-### `CylindricalSelectionRule`
+### `CylindricalSelectionRule` class
 
 <a id="compolyx.CylindricalSelectionRule"></a>
 
-### *class* compolyx.CylindricalSelectionRule(graph, obj, parent=None)
+#### *class* compolyx.CylindricalSelectionRule(graph, obj, parent=None)
 
 Bases: [`ElementSelectionRule`](#compolyx.ElementSelectionRule)
 
@@ -2238,11 +2240,11 @@ Use global coordinate system for origin and direction.
 
 <a id="sphericalselectionrule"></a>
 
-### `SphericalSelectionRule`
+### `SphericalSelectionRule` class
 
 <a id="compolyx.SphericalSelectionRule"></a>
 
-### *class* compolyx.SphericalSelectionRule(graph, obj, parent=None)
+#### *class* compolyx.SphericalSelectionRule(graph, obj, parent=None)
 
 Bases: [`ElementSelectionRule`](#compolyx.ElementSelectionRule)
 
@@ -2292,11 +2294,11 @@ Use global coordinate system for origin and direction.
 
 <a id="tubeselectionrule"></a>
 
-### `TubeSelectionRule`
+### `TubeSelectionRule` class
 
 <a id="compolyx.TubeSelectionRule"></a>
 
-### *class* compolyx.TubeSelectionRule(graph, obj, parent=None)
+#### *class* compolyx.TubeSelectionRule(graph, obj, parent=None)
 
 Bases: [`ElementSelectionRule`](#compolyx.ElementSelectionRule)
 
@@ -2389,11 +2391,11 @@ Specifies the length of the extension at the tail of the the tube.
 
 <a id="cutoffselectionrule"></a>
 
-### `CutoffSelectionRule`
+### `CutoffSelectionRule` class
 
 <a id="compolyx.CutoffSelectionRule"></a>
 
-### *class* compolyx.CutoffSelectionRule(graph, obj, parent=None)
+#### *class* compolyx.CutoffSelectionRule(graph, obj, parent=None)
 
 Bases: [`ElementSelectionRule`](#compolyx.ElementSelectionRule)
 
@@ -2476,11 +2478,11 @@ Use ply tapering orientation.
 
 <a id="geometricalselectionrule"></a>
 
-### `GeometricalSelectionRule`
+### `GeometricalSelectionRule` class
 
 <a id="compolyx.GeometricalSelectionRule"></a>
 
-### *class* compolyx.GeometricalSelectionRule(graph, obj, parent=None)
+#### *class* compolyx.GeometricalSelectionRule(graph, obj, parent=None)
 
 Bases: [`ElementSelectionRule`](#compolyx.ElementSelectionRule)
 
@@ -2562,11 +2564,11 @@ Whether to use a projection normal for outlines.
 
 <a id="booleanselectionrule"></a>
 
-### `BooleanSelectionRule`
+### `BooleanSelectionRule` class
 
 <a id="compolyx.BooleanSelectionRule"></a>
 
-### *class* compolyx.BooleanSelectionRule(graph, obj, parent=None)
+#### *class* compolyx.BooleanSelectionRule(graph, obj, parent=None)
 
 Bases: [`ElementSelectionRule`](#compolyx.ElementSelectionRule)
 
@@ -2606,11 +2608,11 @@ Serialize to Python string.
 
 <a id="variableoffsetselectionrule"></a>
 
-### `VariableOffsetSelectionRule`
+### `VariableOffsetSelectionRule` class
 
 <a id="compolyx.VariableOffsetSelectionRule"></a>
 
-### *class* compolyx.VariableOffsetSelectionRule(graph, obj, parent=None)
+#### *class* compolyx.VariableOffsetSelectionRule(graph, obj, parent=None)
 
 Bases: [`ElementSelectionRule`](#compolyx.ElementSelectionRule)
 
@@ -2676,9 +2678,11 @@ Use offset correction on mesh.
 
 <a id="entityset-classes"></a>
 
-## `EntitySet` classes
+### `EntitySet` classes
 
 <a id="compolyx.EntitySet"></a>
+
+### `EntitySet` class
 
 ### *class* compolyx.EntitySet(graph, obj, parent=None)
 
@@ -2704,11 +2708,11 @@ Number of entities.
 
 <a id="elementset"></a>
 
-### `ElementSet`
+### `ElementSet` class
 
 <a id="compolyx.ElementSet"></a>
 
-### *class* compolyx.ElementSet(graph, obj=None, parent=None)
+#### *class* compolyx.ElementSet(graph, obj=None, parent=None)
 
 Bases: [`EntitySet`](#compolyx.EntitySet)
 
@@ -2807,7 +2811,7 @@ Write boundaries in .iges/.step format.
 
 <a id="compolyx.EdgeSet"></a>
 
-### *class* compolyx.EdgeSet(graph, obj=None, parent=None)
+#### *class* compolyx.EdgeSet(graph, obj=None, parent=None)
 
 Edge set class.
 
@@ -2885,15 +2889,15 @@ Serialize to Python string.
 
 <a id="geometry-classes"></a>
 
-## `Geometry` classes
+### `Geometry` classes
 
 <a id="cadgeometry"></a>
 
-### `CADGeometry`
+### `CADGeometry` class
 
 <a id="compolyx.CADGeometry"></a>
 
-### *class* compolyx.CADGeometry(graph, obj, visible_sub_shapes=None, parent=None)
+#### *class* compolyx.CADGeometry(graph, obj, visible_sub_shapes=None, parent=None)
 
 <a id="compolyx.CADGeometry.cad_compounds"></a>
 
@@ -3046,11 +3050,11 @@ Visualization mesh of this geometry.
 
 <a id="cadcompound"></a>
 
-### `CADCompound`
+### `CADCompound` class
 
 <a id="compolyx.CADCompound"></a>
 
-### *class* compolyx.CADCompound(graph, obj, parent=None)
+#### *class* compolyx.CADCompound(graph, obj, parent=None)
 
 ComPoLyX class to represent CAD compound.
 
@@ -3062,7 +3066,7 @@ Sub-faces of the CAD compound.
 
 <a id="cadsolid"></a>
 
-### `CADSolid`
+### `CADSolid` class
 
 <a id="compolyx.CADSolid"></a>
 
@@ -3078,7 +3082,7 @@ Sub-faces of the CAD solid.
 
 <a id="cadshell"></a>
 
-### `CADShell`
+### `CADShell` class
 
 <a id="compolyx.CADShell"></a>
 
@@ -3094,7 +3098,7 @@ Sub-faces of the CAD shell.
 
 <a id="cadface"></a>
 
-### `CADFace`
+### `CADFace` class
 
 <a id="compolyx.CADFace"></a>
 
@@ -3104,11 +3108,11 @@ ComPoLyX class to represent CAD face.
 
 <a id="virtualgeometry"></a>
 
-### `VirtualGeometry`
+### `VirtualGeometry` class
 
 <a id="compolyx.VirtualGeometry"></a>
 
-### *class* compolyx.VirtualGeometry(graph, obj, parent=None)
+#### *class* compolyx.VirtualGeometry(graph, obj, parent=None)
 
 ComPoLyX class to represent virtual geometry.
 
@@ -3221,11 +3225,11 @@ Sub-components of the virtual geometry.
 
 <a id="cadreference"></a>
 
-### `CADReference`
+### `CADReference` class
 
 <a id="compolyx.CADReference"></a>
 
-### *class* compolyx.CADReference(graph, obj, parent=None)
+#### *class* compolyx.CADReference(graph, obj, parent=None)
 
 ComPoLyX class to represent CAD reference.
 
@@ -3273,11 +3277,11 @@ Status of the CAD reference.
 
 <a id="orientedselectionset"></a>
 
-## `OrientedSelectionSet`
+### `OrientedSelectionSet` class
 
 <a id="compolyx.OrientedSelectionSet"></a>
 
-### *class* compolyx.OrientedSelectionSet(graph, obj, parent=None)
+#### *class* compolyx.OrientedSelectionSet(graph, obj, parent=None)
 
 Class to represent oriented selection set.
 
@@ -3501,11 +3505,11 @@ Write boundaries in .iges/.step format.
 
 <a id="modelinggroup"></a>
 
-## `ModelingGroup`
+### `ModelingGroup`
 
 <a id="compolyx.ModelingGroup"></a>
 
-### *class* compolyx.ModelingGroup(graph, obj, parent=None)
+#### *class* compolyx.ModelingGroup(graph, obj, parent=None)
 
 Class to manage modeling groups.
 
@@ -3733,7 +3737,7 @@ Serialize to Python string.
 
 <a id="compolyx.ModelingPly"></a>
 
-### *class* compolyx.ModelingPly(graph, obj, parent=None, element_vd=None)
+#### *class* compolyx.ModelingPly(graph, obj, parent=None, element_vd=None)
 
 Class to represent modeling ply.
 
@@ -4070,11 +4074,11 @@ Write boundaries in iges/step format.
 
 <a id="productionply"></a>
 
-### `ProductionPly`
+### `ProductionPly` class
 
 <a id="compolyx.production_ply.ProductionPly"></a>
 
-### *class* compolyx.production_ply.ProductionPly(graph, obj, parent=None, element_vd=None)
+#### *class* compolyx.production_ply.ProductionPly(graph, obj, parent=None, element_vd=None)
 
 Class to represent production ply.
 
@@ -4200,11 +4204,11 @@ Write boundaries in .iges/.step format.
 
 <a id="analysisply"></a>
 
-### `AnalysisPly`
+### `AnalysisPly` class
 
 <a id="compolyx.AnalysisPly"></a>
 
-### *class* compolyx.AnalysisPly(graph, obj, parent=None)
+#### *class* compolyx.AnalysisPly(graph, obj, parent=None)
 
 ComPoLyX class to represent analysis ply.
 
@@ -4315,11 +4319,11 @@ Write boundaries in .iges/.step format.
 
 <a id="interfacelayer"></a>
 
-### `InterfaceLayer`
+### `InterfaceLayer` class
 
 <a id="compolyx.InterfaceLayer"></a>
 
-### *class* compolyx.InterfaceLayer(graph, obj, parent=None)
+#### *class* compolyx.InterfaceLayer(graph, obj, parent=None)
 
 Class to represent interface layer.
 
@@ -4397,11 +4401,11 @@ Serialize to Python string.
 
 <a id="buttjointsequence"></a>
 
-### `ButtJointSequence`
+### `ButtJointSequence` class
 
 <a id="compolyx.ButtJointSequence"></a>
 
-### *class* compolyx.ButtJointSequence(graph, obj, parent=None)
+#### *class* compolyx.ButtJointSequence(graph, obj, parent=None)
 
 Class to represent the butt-joint sequence.
 
@@ -4425,11 +4429,11 @@ Serialize to Python string.
 
 <a id="importedmodelinggroup"></a>
 
-## `ImportedModelingGroup`
+### `ImportedModelingGroup` class
 
 <a id="compolyx.ImportedModelingGroup"></a>
 
-### *class* compolyx.ImportedModelingGroup(graph, obj, parent=None)
+#### *class* compolyx.ImportedModelingGroup(graph, obj, parent=None)
 
 <a id="compolyx.ImportedModelingGroup.copy_imported_modeling_ply"></a>
 
@@ -4491,11 +4495,11 @@ Modeling plies of the modeling group.
 
 <a id="importedmodelingply"></a>
 
-### `ImportedModelingPly`
+### `ImportedModelingPly` class
 
 <a id="compolyx.ImportedModelingPly"></a>
 
-### *class* compolyx.ImportedModelingPly(graph, obj, parent=None)
+#### *class* compolyx.ImportedModelingPly(graph, obj, parent=None)
 
 <a id="compolyx.ImportedModelingPly.active"></a>
 
@@ -4611,11 +4615,11 @@ The type of the thickness field (`absolute` or `relative`).
 
 <a id="importedproductionply"></a>
 
-### `ImportedProductionPly`
+### `ImportedProductionPly` class
 
 <a id="compolyx.ImportedProductionPly"></a>
 
-### *class* compolyx.ImportedProductionPly(graph, obj, parent=None)
+#### *class* compolyx.ImportedProductionPly(graph, obj, parent=None)
 
 <a id="compolyx.ImportedProductionPly.analysis_plies"></a>
 
@@ -4647,11 +4651,11 @@ Thickness of the production ply.
 
 <a id="importedanalysisply"></a>
 
-### `ImportedAnalysisPly`
+### `ImportedAnalysisPly` class
 
 <a id="compolyx.ImportedAnalysisPly"></a>
 
-### *class* compolyx.ImportedAnalysisPly(graph, obj, parent=None)
+#### *class* compolyx.ImportedAnalysisPly(graph, obj, parent=None)
 
 Class to represent an imported modeling ply.
 
@@ -4694,11 +4698,11 @@ Average ply thickness.
 
 <a id="fielddefinition"></a>
 
-## `FieldDefinition`
+### `FieldDefinition` class
 
 <a id="compolyx.FieldDefinition"></a>
 
-### *class* compolyx.FieldDefinition(graph, obj, parent=None)
+#### *class* compolyx.FieldDefinition(graph, obj, parent=None)
 
 Class to represent field definition.
 
@@ -4755,11 +4759,11 @@ Serialize to Python string.
 
 <a id="samplingpoint"></a>
 
-## `SamplingPoint`
+### `SamplingPoint` class
 
 <a id="compolyx.SamplingPoint"></a>
 
-### *class* compolyx.SamplingPoint(graph, obj, parent=None)
+#### *class* compolyx.SamplingPoint(graph, obj, parent=None)
 
 The sampling point enables picking through the laminate at a certain point to run detailed analyses.
 
@@ -4937,11 +4941,11 @@ Flag to use default reference direction.
 
 <a id="sectioncut"></a>
 
-## `SectionCut`
+### `SectionCut` class
 
 <a id="compolyx.SectionCut"></a>
 
-### *class* compolyx.SectionCut(graph, obj, parent=None, color_table=None)
+#### *class* compolyx.SectionCut(graph, obj, parent=None, color_table=None)
 
 Section cut class showing the layup in the cutting plane.
 
@@ -5345,11 +5349,11 @@ Section cut line wireframe mesh.
 
 <a id="sensor"></a>
 
-## `Sensor`
+### `Sensor` class
 
 <a id="compolyx.Sensor"></a>
 
-### *class* compolyx.Sensor(graph, obj, parent=None)
+#### *class* compolyx.Sensor(graph, obj, parent=None)
 
 Sensor object for meassuring areas, prices, weights, and centers of gravity.
 
@@ -5443,15 +5447,11 @@ Weight over all entities of the sensor.
 
 <a id="plybook"></a>
 
-## PlyBook
-
-<a id="id1"></a>
-
-### `PlyBook`
+### `PlyBook` class
 
 <a id="compolyx.PlyBook"></a>
 
-### *class* compolyx.PlyBook(name='PlyBook', parent=None, reST_ply='', reST_chapter='', reST_title_page='', scene=None)
+#### *class* compolyx.PlyBook(name='PlyBook', parent=None, reST_ply='', reST_chapter='', reST_title_page='', scene=None)
 
 Class to represent a ply book.
 
@@ -5507,7 +5507,7 @@ reST title page template.
 
 <a id="chapter"></a>
 
-### `Chapter`
+### `Chapter` class
 
 <a id="compolyx.Chapter"></a>
 
@@ -5541,11 +5541,11 @@ Show the rosettes linked to a ply in snapshots.
 
 <a id="publishedparameter"></a>
 
-## `PublishedParameter`
+### `PublishedParameter` class
 
 <a id="compolyx.PublishedParameter"></a>
 
-### *class* compolyx.PublishedParameter(name, parent, source_object=None, source_property='', user_script='', category='input', acp_type=None, description='', lower_limit=None, upper_limit=None, cyclic=False, float_list=[], string_list=[], unbound_value=None)
+#### *class* compolyx.PublishedParameter(name, parent, source_object=None, source_property='', user_script='', category='input', acp_type=None, description='', lower_limit=None, upper_limit=None, cyclic=False, float_list=[], string_list=[], unbound_value=None)
 
 Class to represent parameters which are linked to the Ansys Workbench application.
 
@@ -5657,11 +5657,11 @@ The parameter value as it is represented in the Ansys Workbench application.
 
 <a id="script"></a>
 
-## `Script`
+### `Script` class
 
 <a id="compolyx.Script"></a>
 
-### *class* compolyx.Script(name, \*, parent=None, source=None, active=True, uptodate=False, update_mode=ScriptUpdateMode.ON_TRIGGERS)
+#### *class* compolyx.Script(name, \*, parent=None, source=None, active=True, uptodate=False, update_mode=ScriptUpdateMode.ON_TRIGGERS)
 
 Class to represent user-defined scripts operating on the input parameters.
 

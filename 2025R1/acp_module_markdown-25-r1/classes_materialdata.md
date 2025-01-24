@@ -2,11 +2,11 @@
 
 <a id="materialdata"></a>
 
-## MaterialData
+### `MaterialData` class
 
 <a id="compolyx.MaterialData"></a>
 
-### *class* compolyx.MaterialData(graph, parent=None)
+#### *class* compolyx.MaterialData(graph, parent=None)
 
 MaterialData manages all composite material data.
 
@@ -106,7 +106,7 @@ Create a new fabric.
   - **draping_material_model**: Material model for draping. Options:
     -  `woven`
     - `unidirectional`
-  - `**draping_ud_coefficient**: Coefficient for the unidirectional draping material model.
+  - **draping_ud_coefficient**: Coefficient for the unidirectional draping material model.
 * **Returns:**
   The created fabric.
 * **Examples:**
@@ -297,11 +297,11 @@ Unit system of material data, propagated from model.
 
 <a id="material"></a>
 
-## `Material`
+### `Material` class
 
 <a id="compolyx.Material"></a>
 
-### *class* compolyx.Material(graph, obj, parent=None)
+#### *class* compolyx.Material(graph, obj, parent=None)
 
 ComPoLyX material class.
 
@@ -415,7 +415,7 @@ Serialize to Python string.
 
 <a id="propertyset"></a>
 
-### `PropertySet`
+### `PropertySet` class
 
 <a id="compolyx.PropertySet"></a>
 
@@ -544,11 +544,11 @@ Constant properties can be given as keyword arguments.
 
 <a id="fabric"></a>
 
-## `Fabric`
+### `Fabric` class
 
 <a id="compolyx.Fabric"></a>
 
-### *class* compolyx.Fabric(graph, obj, parent=None)
+#### *class* compolyx.Fabric(graph, obj, parent=None)
 
 Class to represent fabric.
 
@@ -693,11 +693,11 @@ Note: The coupling effect is always neglected (which is anyway 0 for a single fa
 
 <a id="stackup"></a>
 
-## `Stackup`
+### `Stackup` class
 
 <a id="compolyx.Stackup"></a>
 
-### *class* compolyx.Stackup(graph, obj, parent=None)
+#### *class* compolyx.Stackup(graph, obj, parent=None)
 
 Class to represent stackup.
 
@@ -888,11 +888,11 @@ updates the data of the 2D plot.
 
 <a id="sublaminate"></a>
 
-## `SubLaminate
+### `SubLaminate` class
 
 <a id="compolyx.SubLaminate"></a>
 
-### *class* compolyx.SubLaminate(graph, obj, parent=None)
+#### *class* compolyx.SubLaminate(graph, obj, parent=None)
 
 Class to represent sublaminate.
 
