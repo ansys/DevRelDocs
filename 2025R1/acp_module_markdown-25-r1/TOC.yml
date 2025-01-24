@@ -6,7 +6,7 @@
   href: python_object_tree.md
 - name: Classes
   items:
-  - name: Database class
+  - name: Database classes
     href: db_database.md
   - name: Material classes
     href: classes_materialdata.md
