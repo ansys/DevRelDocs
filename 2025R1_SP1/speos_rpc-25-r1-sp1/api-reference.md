@@ -1,11 +1,12 @@
-# Reference documentation
+# Protocol Documentation
 
-<a name="top"></a>
 
+
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_LTF_v1_LTF-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/LTF/v1/LTF.proto
+
+## LTF/v1/LTF.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -194,7 +195,7 @@
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-LTF-v1-PupilSurfaceType"></a>
@@ -224,9 +225,9 @@ asymmetric = cartesian coordinates
 | ASYMMETRIC | 1 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-LTF-v1-LightTransferFunctionService"></a>
@@ -236,19 +237,19 @@ asymmetric = cartesian coordinates
 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
-| Load | [Filename](#ansys-api-speos-LTF-v1-Filename) | [.google.protobuf.Empty](#google-protobuf-Empty) | Serialization for *.OPTDistortion files |
-| Save | [Filename](#ansys-api-speos-LTF-v1-Filename) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| Import | [SpectralLightTransferDataDistribution](#ansys-api-speos-LTF-v1-SpectralLightTransferDataDistribution) | [.google.protobuf.Empty](#google-protobuf-Empty) | Import/Export of LightTransferDataDistribution |
-| Export | [.google.protobuf.Empty](#google-protobuf-Empty) | [SpectralLightTransferDataDistribution](#ansys-api-speos-LTF-v1-SpectralLightTransferDataDistribution) |  |
+| Load | [Filename](#ansys-api-speos-LTF-v1-Filename) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | Serialization for *.OPTDistortion files |
+| Save | [Filename](#ansys-api-speos-LTF-v1-Filename) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| Import | [SpectralLightTransferDataDistribution](#ansys-api-speos-LTF-v1-SpectralLightTransferDataDistribution) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | Import/Export of LightTransferDataDistribution |
+| Export | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [SpectralLightTransferDataDistribution](#ansys-api-speos-LTF-v1-SpectralLightTransferDataDistribution) |  |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_bsdf_v1_anisotropic_bsdf-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/bsdf/v1/anisotropic_bsdf.proto
+
+## bsdf/v1/anisotropic_bsdf.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -278,7 +279,7 @@ asymmetric = cartesian coordinates
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| spectrum_incidence | [double](#double) |  | spectrum information radians in [0, pi/2] |
+| spectrum_incidence | [double](#double) |  | spectrum information<br><br>radians in [0, pi/2] |
 | spectrum_anisotropy | [double](#double) |  | radians in [0, 2*pi] |
 | spectrum | [AnisotropicBsdfData.Bsdf.WavelengthCoefficientPair](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-AnisotropicBsdfData-Bsdf-WavelengthCoefficientPair) | repeated |  |
 | anisotropic_samples | [AnisotropicBsdfData.Bsdf.AnisotropicSample](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-AnisotropicBsdfData-Bsdf-AnisotropicSample) | repeated |  |
@@ -313,7 +314,7 @@ asymmetric = cartesian coordinates
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | incidence_sample | [double](#double) |  | radians in [0, pi/2] |
-| theta_samples | [double](#double) | repeated | intensity diagram radians in [0, pi/2] for reflection // radians in [pi/2, pi] for transmission |
+| theta_samples | [double](#double) | repeated | intensity diagram<br><br>radians in [0, pi/2] for reflection // radians in [pi/2, pi] for transmission |
 | phi_samples | [double](#double) | repeated | radians in [0, 2*pi] |
 | bsdf_cos_theta | [double](#double) | repeated | 1/steradians |
 | integral | [double](#double) |  | reflection/transmission coefficient |
@@ -347,7 +348,7 @@ asymmetric = cartesian coordinates
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| x | [double](#double) |  | direction cosines: |
+| x | [double](#double) |  |  |
 | y | [double](#double) |  |  |
 | z | [double](#double) |  |  |
 
@@ -429,7 +430,7 @@ asymmetric = cartesian coordinates
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | cone_half_angle | [double](#double) |  | radians in [0, pi/2] |
-| cone_height | [double](#double) |  | value &gt;= 0 |
+| cone_height | [double](#double) |  | value >= 0 |
 
 
 
@@ -462,7 +463,7 @@ asymmetric = cartesian coordinates
 | ----- | ---- | ----- | ----------- |
 | incidence_angle | [double](#double) |  | radians in [0, pi/2] |
 | anisotropy_angle | [double](#double) |  | radians in [0, 2*pi] |
-| file_name | [string](#string) |  |  |
+| file_name | [string](#string) |  | .spectrum |
 
 
 
@@ -501,7 +502,7 @@ asymmetric = cartesian coordinates
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-ConoscopicMap-BsdfSide"></a>
@@ -516,9 +517,9 @@ asymmetric = cartesian coordinates
 | TRANSMISSION | 2 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-AnisotropicBsdfService"></a>
@@ -528,33 +529,33 @@ asymmetric = cartesian coordinates
 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
-| Load | [FileName](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) | serialization for native *.anisotropicbsdf files |
-| Save | [FileName](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| Import | [AnisotropicBsdfData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-AnisotropicBsdfData) | [.google.protobuf.Empty](#google-protobuf-Empty) | to and from AnisoptropicSpeosBsdf.AnisotropicBsdfData |
-| Export | [.google.protobuf.Empty](#google-protobuf-Empty) | [AnisotropicBsdfData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-AnisotropicBsdfData) |  |
-| ImportFile | [FileName](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) | to and from serialized AnisoptropicSpeosBsdf.AnisotropicBsdfData |
-| ExportFile | [FileName](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| GenerateSpecularInterpolationEnhancementData | [RefractiveIndices](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-RefractiveIndices) | [.google.protobuf.Empty](#google-protobuf-Empty) | interpolation enhancement for specular |
-| GetSpecularInterpolationEnhancementData | [.google.protobuf.Empty](#google-protobuf-Empty) | [SpecularInterpolationEnhancementData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-SpecularInterpolationEnhancementData) |  |
-| SetSpecularInterpolationEnhancementData | [SpecularInterpolationEnhancementData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-SpecularInterpolationEnhancementData) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| GenerateRetroReflectionInterpolationEnhancementData | [.google.protobuf.Empty](#google-protobuf-Empty) | [.google.protobuf.Empty](#google-protobuf-Empty) | interpolation enhancement for retro reflection |
-| GetRetroReflectionInterpolationEnhancementData | [.google.protobuf.Empty](#google-protobuf-Empty) | [InterpolationEnhancementData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-InterpolationEnhancementData) |  |
-| SetRetroReflectionInterpolationEnhancementData | [InterpolationEnhancementData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-InterpolationEnhancementData) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| EnableWhiteSpecular | [Wavelength](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-Wavelength) | [.google.protobuf.Empty](#google-protobuf-Empty) | white specular |
-| DisableWhiteSpecular | [.google.protobuf.Empty](#google-protobuf-Empty) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| ImportReflectionSpectrum | [SpectrumImport](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-SpectrumImport) | [.google.protobuf.Empty](#google-protobuf-Empty) | spectrum import |
-| ImportTransmissionSpectrum | [SpectrumImport](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-SpectrumImport) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| FreezeAbsorptionReflectionTransmissionCoefficients | [.google.protobuf.Empty](#google-protobuf-Empty) | [.google.protobuf.Empty](#google-protobuf-Empty) | constant absorption |
-| ExportToConoscopicMap | [ConoscopicMap](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-ConoscopicMap) | [.google.protobuf.Empty](#google-protobuf-Empty) | export to conoscopic map |
+| Load | [FileName](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | serialization for native *.anisotropicbsdf files |
+| Save | [FileName](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| Import | [AnisotropicBsdfData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-AnisotropicBsdfData) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | to and from AnisoptropicSpeosBsdf.AnisotropicBsdfData |
+| Export | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [AnisotropicBsdfData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-AnisotropicBsdfData) |  |
+| ImportFile | [FileName](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | to and from serialized AnisoptropicSpeosBsdf.AnisotropicBsdfData |
+| ExportFile | [FileName](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| GenerateSpecularInterpolationEnhancementData | [RefractiveIndices](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-RefractiveIndices) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | interpolation enhancement for specular |
+| GetSpecularInterpolationEnhancementData | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [SpecularInterpolationEnhancementData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-SpecularInterpolationEnhancementData) |  |
+| SetSpecularInterpolationEnhancementData | [SpecularInterpolationEnhancementData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-SpecularInterpolationEnhancementData) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| GenerateRetroReflectionInterpolationEnhancementData | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | interpolation enhancement for retro reflection |
+| GetRetroReflectionInterpolationEnhancementData | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [InterpolationEnhancementData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-InterpolationEnhancementData) |  |
+| SetRetroReflectionInterpolationEnhancementData | [InterpolationEnhancementData](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-InterpolationEnhancementData) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| EnableWhiteSpecular | [Wavelength](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-Wavelength) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | white specular |
+| DisableWhiteSpecular | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| ImportReflectionSpectrum | [SpectrumImport](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-SpectrumImport) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | spectrum import |
+| ImportTransmissionSpectrum | [SpectrumImport](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-SpectrumImport) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| FreezeAbsorptionReflectionTransmissionCoefficients | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | constant absorption |
+| ExportToConoscopicMap | [ConoscopicMap](#ansys-api-speos-bsdf-v1-AnisotropicSpeosBsdf-ConoscopicMap) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | export to conoscopic map |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_bsdf_v1_bsdf_creation-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/bsdf/v1/bsdf_creation.proto
+
+## bsdf/v1/bsdf_creation.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -639,11 +640,11 @@ asymmetric = cartesian coordinates
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-bsdf-v1-SpeosBsdfCreation-BsdfCreationService"></a>
@@ -653,18 +654,18 @@ asymmetric = cartesian coordinates
 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
-| BuildBsdf180 | [Bsdf180InputData](#ansys-api-speos-bsdf-v1-SpeosBsdfCreation-Bsdf180InputData) | [.google.protobuf.Empty](#google-protobuf-Empty) | create a bsdf180 file |
-| BuildSpectralBsdf | [SpectralBsdfInputData](#ansys-api-speos-bsdf-v1-SpeosBsdfCreation-SpectralBsdfInputData) | [.google.protobuf.Empty](#google-protobuf-Empty) | create spectral bsdf file |
-| BuildAnisotropicBsdf | [AnisotropicBsdfInputData](#ansys-api-speos-bsdf-v1-SpeosBsdfCreation-AnisotropicBsdfInputData) | [.google.protobuf.Empty](#google-protobuf-Empty) | build anisotropic bsdf file |
+| BuildBsdf180 | [Bsdf180InputData](#ansys-api-speos-bsdf-v1-SpeosBsdfCreation-Bsdf180InputData) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | create a bsdf180 file |
+| BuildSpectralBsdf | [SpectralBsdfInputData](#ansys-api-speos-bsdf-v1-SpeosBsdfCreation-SpectralBsdfInputData) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | create spectral bsdf file |
+| BuildAnisotropicBsdf | [AnisotropicBsdfInputData](#ansys-api-speos-bsdf-v1-SpeosBsdfCreation-AnisotropicBsdfInputData) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | build anisotropic bsdf file |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_bsdf_v1_spectral_bsdf-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/bsdf/v1/spectral_bsdf.proto
+
+## bsdf/v1/spectral_bsdf.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -813,13 +814,13 @@ asymmetric = cartesian coordinates
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | cone_half_angle | [double](#double) |  | radians in [0, pi/2] |
-| cone_height | [double](#double) |  | value &gt;= 0 |
+| cone_height | [double](#double) |  | value >= 0 |
 
 
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-ConoscopicMap-BsdfSide"></a>
@@ -834,9 +835,9 @@ asymmetric = cartesian coordinates
 | TRANSMISSION | 2 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-SpectralBsdfService"></a>
@@ -846,25 +847,25 @@ asymmetric = cartesian coordinates
 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
-| Load | [FileName](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) | serialization for native *.brdf files |
-| Save | [FileName](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| Import | [SpectralBsdfData](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-SpectralBsdfData) | [.google.protobuf.Empty](#google-protobuf-Empty) | to and from SpectralSpeosBsdf.SpectralBsdfData |
-| Export | [.google.protobuf.Empty](#google-protobuf-Empty) | [SpectralBsdfData](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-SpectralBsdfData) |  |
-| ImportFile | [FileName](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) | to and from serialized SpectralSpeosBsdf.SpectralBsdfData |
-| ExportFile | [FileName](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| GenerateSpecularInterpolationEnhancementData | [RefractiveIndices](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-RefractiveIndices) | [.google.protobuf.Empty](#google-protobuf-Empty) | interpolation enhancement for specular |
-| GetSpecularInterpolationEnhancementData | [.google.protobuf.Empty](#google-protobuf-Empty) | [SpecularInterpolationEnhancementData](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-SpecularInterpolationEnhancementData) |  |
-| SetSpecularInterpolationEnhancementData | [SpecularInterpolationEnhancementData](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-SpecularInterpolationEnhancementData) | [.google.protobuf.Empty](#google-protobuf-Empty) |  |
-| ExportToConoscopicMap | [ConoscopicMap](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-ConoscopicMap) | [.google.protobuf.Empty](#google-protobuf-Empty) | export to conoscopic map |
+| Load | [FileName](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | serialization for native *.brdf files |
+| Save | [FileName](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| Import | [SpectralBsdfData](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-SpectralBsdfData) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | to and from SpectralSpeosBsdf.SpectralBsdfData |
+| Export | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [SpectralBsdfData](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-SpectralBsdfData) |  |
+| ImportFile | [FileName](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | to and from serialized SpectralSpeosBsdf.SpectralBsdfData |
+| ExportFile | [FileName](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| GenerateSpecularInterpolationEnhancementData | [RefractiveIndices](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-RefractiveIndices) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | interpolation enhancement for specular |
+| GetSpecularInterpolationEnhancementData | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [SpecularInterpolationEnhancementData](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-SpecularInterpolationEnhancementData) |  |
+| SetSpecularInterpolationEnhancementData | [SpecularInterpolationEnhancementData](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-SpecularInterpolationEnhancementData) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) |  |
+| ExportToConoscopicMap | [ConoscopicMap](#ansys-api-speos-bsdf-v1-SpectralSpeosBsdf-ConoscopicMap) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | export to conoscopic map |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_common_v1_data-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/common/v1/data.proto
+
+## common/v1/data.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -879,7 +880,7 @@ raw buffer in bytes, to send any kind of data
 | values | [bytes](#bytes) |  | raw values |
 | magnitude_size | [uint64](#uint64) |  | number of values needed to describe the magnitude (ex : simple value=1 / vector=3 / color_rgb=3 ...) |
 | dimensions | [uint64](#uint64) | repeated | size of dimensions where the magnitudes are applied = total number of dimension representation of the data, each value representing its dimension size |
-| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value cf what we have received |
+| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value of what we have received |
 | unit | [Unit](#ansys-api-speos-common-v1-Unit) |  | units of the values |
 
 
@@ -898,7 +899,7 @@ arrays values of doubles
 | values | [double](#double) | repeated | raw values |
 | magnitude_size | [uint64](#uint64) |  | number of values needed to describe the magnitude (ex : simple value=1 / vector=3 / color_rgb=3 ...) |
 | dimensions | [uint64](#uint64) | repeated | size of dimensions where the magnitudes are applied = total number of dimension representation of the data, each value representing its dimension size |
-| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value cf what we have received |
+| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value of what we have received |
 | unit | [Unit](#ansys-api-speos-common-v1-Unit) |  | units of the values |
 
 
@@ -917,7 +918,7 @@ arrays values of floats
 | values | [float](#float) | repeated | raw values |
 | magnitude_size | [uint64](#uint64) |  | number of values needed to describe the magnitude (ex : simple value=1 / vector=3 / color_rgb=3 ...) |
 | dimensions | [uint64](#uint64) | repeated | size of dimensions where the magnitudes are applied = total number of dimension representation of the data, each value representing its dimension size |
-| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value cf what we have received |
+| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value of what we have received |
 | unit | [Unit](#ansys-api-speos-common-v1-Unit) |  | units of the values |
 
 
@@ -936,7 +937,7 @@ arrays values of integers
 | values | [int32](#int32) | repeated | raw values |
 | magnitude_size | [uint64](#uint64) |  | number of values needed to describe the magnitude (ex : simple value=1 / vector=3 / color_rgb=3 ...) |
 | dimensions | [uint64](#uint64) | repeated | size of dimensions where the magnitudes are applied = total number of dimension representation of the data, each value representing its dimension size |
-| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value cf what we have received |
+| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value of what we have received |
 | unit | [Unit](#ansys-api-speos-common-v1-Unit) |  | units of the values |
 
 
@@ -955,7 +956,7 @@ arrays values of integers
 | values | [int64](#int64) | repeated | raw values |
 | magnitude_size | [uint64](#uint64) |  | number of values needed to describe the magnitude (ex : simple value=1 / vector=3 / color_rgb=3 ...) |
 | dimensions | [uint64](#uint64) | repeated | size of dimensions where the magnitudes are applied = total number of dimension representation of the data, each value representing its dimension size |
-| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value cf what we have received |
+| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value of what we have received |
 | unit | [Unit](#ansys-api-speos-common-v1-Unit) |  | units of the values |
 
 
@@ -974,7 +975,7 @@ arrays values of integers
 | values | [uint32](#uint32) | repeated | raw values |
 | magnitude_size | [uint64](#uint64) |  | number of values needed to describe the magnitude (ex : simple value=1 / vector=3 / color_rgb=3 ...) |
 | dimensions | [uint64](#uint64) | repeated | size of dimensions where the magnitudes are applied = total number of dimension representation of the data, each value representing its dimension size |
-| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value cf what we have received |
+| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value of what we have received |
 | unit | [Unit](#ansys-api-speos-common-v1-Unit) |  | units of the values |
 
 
@@ -993,14 +994,14 @@ arrays values of integers
 | values | [uint64](#uint64) | repeated | raw values |
 | magnitude_size | [uint64](#uint64) |  | number of values needed to describe the magnitude (ex : simple value=1 / vector=3 / color_rgb=3 ...) |
 | dimensions | [uint64](#uint64) | repeated | size of dimensions where the magnitudes are applied = total number of dimension representation of the data, each value representing its dimension size |
-| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value cf what we have received |
+| magnitude | [Magnitude](#ansys-api-speos-common-v1-Magnitude) |  | magnitude of the value of what we have received |
 | unit | [Unit](#ansys-api-speos-common-v1-Unit) |  | units of the values |
 
 
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-common-v1-Magnitude"></a>
@@ -1012,7 +1013,7 @@ magnitudes in Speos data
 | ---- | ------ | ----------- |
 | irradiance | 0 | radiometric irradiance |
 | illuminance | 1 | photometric irradiance |
-| spectral_irradiance | 2 | spectral irradiance |
+| spectral_irradiance | 2 | spectral radiometric irradiance |
 | spectral_illuminance | 3 | spectral photometric irradiance |
 | radiance | 4 | radiometric radiance |
 | luminance | 5 | photometric radiance |
@@ -1067,7 +1068,7 @@ Units used in Speos data
 | color_XYZ | 70 | XYZ CIE |
 | color_xyY | 71 | xy CIE |
 | color_uvY | 72 | uvY 1960 UCS CIE |
-| color_uvY_prime | 73 | u&#39;v&#39;Y&#39; 1976 UCS CIE |
+| color_uvY_prime | 73 | u'v'Y' 1976 UCS CIE |
 | color_Luv | 74 | L*u*v CIELUV |
 | color_Lab | 75 | L*a*b CIELAB |
 | color_LCh | 76 | L*C*h CIELAB |
@@ -1082,18 +1083,18 @@ Units used in Speos data
 | steradians | 126 | sr |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_file_v1_file_transfer-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/file/v1/file_transfer.proto
+
+## file/v1/file_transfer.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -1188,7 +1189,7 @@ Used in File Transfer helpers
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | info | [FileSystemItemInformation](#ansys-api-speos-file-v1-FileSystemItemInformation) |  | Information about the FileSystemItem downloaded |
-| download_duration | [google.protobuf.Duration](#google-protobuf-Duration) |  |  |
+| download_duration | [google.protobuf.Duration](https://protobuf.dev/reference/protobuf/google.protobuf/#duration) |  |  |
 
 
 
@@ -1276,17 +1277,17 @@ Used in File Transfer helpers
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | info | [FileSystemItemInformation](#ansys-api-speos-file-v1-FileSystemItemInformation) |  | Information about the FileSystemItem created |
-| upload_duration | [google.protobuf.Duration](#google-protobuf-Duration) |  |  |
+| upload_duration | [google.protobuf.Duration](https://protobuf.dev/reference/protobuf/google.protobuf/#duration) |  |  |
 
 
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-file-v1-FileTransferService"></a>
@@ -1297,20 +1298,20 @@ Used in File Transfer helpers
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 | Reserve | [Reserve_Request](#ansys-api-speos-file-v1-Reserve_Request) | [Reserve_Response](#ansys-api-speos-file-v1-Reserve_Response) | Reserve a FileSystemItem |
-| Upload | [Chunk](#ansys-api-speos-file-v1-Chunk) stream | [Upload_Response](#ansys-api-speos-file-v1-Upload_Response) | Upload a file Mandatory Client&#39;s Metadata: key: &#34;file-name&#34; - value: file name key: &#34;file-size&#34; - value: size of the file in bytes |
-| Download | [Download_Request](#ansys-api-speos-file-v1-Download_Request) | [Chunk](#ansys-api-speos-file-v1-Chunk) stream | Download a FileSystemItem Server&#39;s&#39; Initial Metadata: key: &#34;file-name&#34; - value: file name key: &#34;file-size&#34; - value: size of the file in bytes |
+| Upload | [Chunk](#ansys-api-speos-file-v1-Chunk) stream | [Upload_Response](#ansys-api-speos-file-v1-Upload_Response) | Upload a file Mandatory Client's Metadata: key: "file-name" - value: file name key: "file-size" - value: size of the file in bytes |
+| Download | [Download_Request](#ansys-api-speos-file-v1-Download_Request) | [Chunk](#ansys-api-speos-file-v1-Chunk) stream | Download a FileSystemItem Server's' Initial Metadata: key: "file-name" - value: file name key: "file-size" - value: size of the file in bytes |
 | Delete | [Delete_Request](#ansys-api-speos-file-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-file-v1-Delete_Response) | Delete a FileSystemItem |
 | AddDependencies | [AddDependencies_Request](#ansys-api-speos-file-v1-AddDependencies_Request) | [AddDependencies_Response](#ansys-api-speos-file-v1-AddDependencies_Response) | Add dependencies to a FileSystemItem |
 | ListDependencies | [ListDependencies_Request](#ansys-api-speos-file-v1-ListDependencies_Request) | [ListDependencies_Response](#ansys-api-speos-file-v1-ListDependencies_Response) | List all dependencies of a FileSystemItem |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_intensity_v1_intensity-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/intensity/v1/intensity.proto
+
+## intensity/v1/intensity.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -1411,7 +1412,7 @@ Intensity with its basic characteristics
 | description | [string](#string) |  | Intensity descrition |
 | metadata | [IntensityTemplate.MetadataEntry](#ansys-api-speos-intensity-v1-IntensityTemplate-MetadataEntry) | repeated | User defined metadatas |
 | library | [IntensityTemplate.Library](#ansys-api-speos-intensity-v1-IntensityTemplate-Library) |  | From file |
-| lambertian | [IntensityTemplate.Lambertian](#ansys-api-speos-intensity-v1-IntensityTemplate-Lambertian) |  | Lambertian distribution |
+| lambertian | [IntensityTemplate.Lambertian](#ansys-api-speos-intensity-v1-IntensityTemplate-Lambertian) |  | Deprecated (use cos instead) - Lambertian distribution |
 | cos | [IntensityTemplate.Cos](#ansys-api-speos-intensity-v1-IntensityTemplate-Cos) |  | Lambert cosine law distribution |
 | symmetric_gaussian | [IntensityTemplate.SymmetricGaussian](#ansys-api-speos-intensity-v1-IntensityTemplate-SymmetricGaussian) |  | Deprecated (use gaussian instead) - Symmetric gaussian distribution |
 | asymmetric_gaussian | [IntensityTemplate.AsymmetricGaussian](#ansys-api-speos-intensity-v1-IntensityTemplate-AsymmetricGaussian) |  | Deprecated (use gaussian instead) - Asymmetric gaussian distribution |
@@ -1552,7 +1553,7 @@ Intensity with its basic characteristics
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| guids | [string](#string) | repeated | Guids of the Intensitys in IntensityTemplatesManager |
+| guids | [string](#string) | repeated | Guids of the Intensities in IntensityTemplatesManager |
 
 
 
@@ -1614,11 +1615,11 @@ Request to update a Intensity in IntensityTemplatesManager
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-intensity-v1-IntensityTemplateActions"></a>
@@ -1644,14 +1645,14 @@ Actions available on a IntensityTemplate
 | Delete | [Delete_Request](#ansys-api-speos-intensity-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-intensity-v1-Delete_Response) | Delete a Intensity |
 | List | [List_Request](#ansys-api-speos-intensity-v1-List_Request) | [List_Response](#ansys-api-speos-intensity-v1-List_Response) | List all Intensities in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_intensity_distributions_v1_base_map_template-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/intensity_distributions/v1/base_map_template.proto
+
+## intensity_distributions/v1/base_map_template.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -1708,7 +1709,7 @@ Actions available on a IntensityTemplate
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-intensity_distributions-v1-xmp-CIEStandard"></a>
@@ -1865,18 +1866,18 @@ Actions available on a IntensityTemplate
 | OptisValueTypeExposure | 35 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_intensity_distributions_v1_eulumdat-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/intensity_distributions/v1/eulumdat.proto
+
+## intensity_distributions/v1/eulumdat.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -2030,11 +2031,11 @@ Actions available on a IntensityTemplate
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-intensity_distributions-v1-eulumdat-EulumdatIntensityService"></a>
@@ -2049,14 +2050,14 @@ service to manage eulumdat file
 | Import | [EulumdatIntensityDistribution](#ansys-api-speos-intensity_distributions-v1-eulumdat-EulumdatIntensityDistribution) | [Import_Response](#ansys-api-speos-intensity_distributions-v1-eulumdat-Import_Response) | import EulumdatIntensityDistribution to CEulumdat |
 | Export | [Export_Request](#ansys-api-speos-intensity_distributions-v1-eulumdat-Export_Request) | [EulumdatIntensityDistribution](#ansys-api-speos-intensity_distributions-v1-eulumdat-EulumdatIntensityDistribution) | export CEulumdat to EulumdatIntensityDistribution |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_intensity_distributions_v1_extended_map_template-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/intensity_distributions/v1/extended_map_template.proto
+
+## intensity_distributions/v1/extended_map_template.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -2120,20 +2121,20 @@ service to manage eulumdat file
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_intensity_distributions_v1_ies-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/intensity_distributions/v1/ies.proto
+
+## intensity_distributions/v1/ies.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -2244,11 +2245,11 @@ service to manage eulumdat file
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-intensity_distributions-v1-ies-IesIntensityService"></a>
@@ -2263,14 +2264,14 @@ service to manage IES files
 | Import | [IesIntensityDistribution](#ansys-api-speos-intensity_distributions-v1-ies-IesIntensityDistribution) | [Import_Response](#ansys-api-speos-intensity_distributions-v1-ies-Import_Response) | import export of IesIntensityDistribution to CIES |
 | Export | [Export_Request](#ansys-api-speos-intensity_distributions-v1-ies-Export_Request) | [IesIntensityDistribution](#ansys-api-speos-intensity_distributions-v1-ies-IesIntensityDistribution) |  |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_intensity_distributions_v1_spectral_map_template-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/intensity_distributions/v1/spectral_map_template.proto
+
+## intensity_distributions/v1/spectral_map_template.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -2282,7 +2283,7 @@ service to manage IES files
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| layer | [ColorValues.Layers](#ansys-api-speos-intensity_distributions-v1-xmp-ColorValues-Layers) | repeated | map layer |
+| layer | [ColorValues.Layers](#ansys-api-speos-intensity_distributions-v1-xmp-ColorValues-Layers) | repeated | map layers |
 
 
 
@@ -2398,7 +2399,7 @@ service to manage IES files
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| layer | [SpectralValues.Layers](#ansys-api-speos-intensity_distributions-v1-xmp-SpectralValues-Layers) | repeated | map layer |
+| layer | [SpectralValues.Layers](#ansys-api-speos-intensity_distributions-v1-xmp-SpectralValues-Layers) | repeated | map layers |
 
 
 
@@ -2449,20 +2450,20 @@ service to manage IES files
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_intensity_distributions_v1_xmp-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/intensity_distributions/v1/xmp.proto
+
+## intensity_distributions/v1/xmp.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -2551,11 +2552,11 @@ xmp map definition
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-intensity_distributions-v1-xmp-XmpIntensityService"></a>
@@ -2570,14 +2571,14 @@ service to manage XMP files
 | Import | [XmpDistribution](#ansys-api-speos-intensity_distributions-v1-xmp-XmpDistribution) | [Import_Response](#ansys-api-speos-intensity_distributions-v1-xmp-Import_Response) | import XmpDistribution to COptisMap |
 | Export | [Export_Request](#ansys-api-speos-intensity_distributions-v1-xmp-Export_Request) | [XmpDistribution](#ansys-api-speos-intensity_distributions-v1-xmp-XmpDistribution) | export COPtisMap to XmpDistribution |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_job_v2_job-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/job/v2/job.proto
+
+## job/v2/job.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -2700,8 +2701,8 @@ Request to delete a Job in JobsManager
 | name | [string](#string) |  |  |
 | infos | [string](#string) |  |  |
 | progress | [double](#double) |  | value between 0.0 and 1.0 |
-| elapsed_time | [google.protobuf.Duration](#google-protobuf-Duration) |  |  |
-| remaining_time | [google.protobuf.Duration](#google-protobuf-Duration) |  |  |
+| elapsed_time | [google.protobuf.Duration](https://protobuf.dev/reference/protobuf/google.protobuf/#duration) |  |  |
+| remaining_time | [google.protobuf.Duration](https://protobuf.dev/reference/protobuf/google.protobuf/#duration) |  |  |
 | process_unit_models | [string](#string) | repeated | Depending on the Job::Type, list of the CPU or GPU models |
 | rays_number | [uint64](#uint64) |  | Number of rays emitted since the (re)start of the simulation |
 | rays_number_per_second | [uint64](#uint64) |  | Number of rays emitted in the last second |
@@ -2738,8 +2739,8 @@ Request to delete a Job in JobsManager
 | name | [string](#string) |  |  |
 | infos | [string](#string) |  |  |
 | progress | [double](#double) |  | value between 0.0 and 1.0 |
-| elapsed_time | [google.protobuf.Duration](#google-protobuf-Duration) |  |  |
-| remaining_time | [google.protobuf.Duration](#google-protobuf-Duration) |  |  |
+| elapsed_time | [google.protobuf.Duration](https://protobuf.dev/reference/protobuf/google.protobuf/#duration) |  |  |
+| remaining_time | [google.protobuf.Duration](https://protobuf.dev/reference/protobuf/google.protobuf/#duration) |  |  |
 | process_unit_models | [string](#string) | repeated | Depending on the Job::Type, list of the CPU or GPU models |
 | rays_number | [uint64](#uint64) |  | Number of rays emitted since the (re)start of the simulation |
 | rays_number_per_second | [uint64](#uint64) |  | Number of rays emitted in the last second |
@@ -2789,7 +2790,7 @@ Request to delete a Job in JobsManager
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| results | [Result](#ansys-api-speos-job-v2-Result) | repeated | list of the Job results |
+| results | [Result](#ansys-api-speos-job-v2-Result) | repeated | List of the Job results |
 
 
 
@@ -2838,8 +2839,8 @@ Request to delete a Job in JobsManager
 | description | [string](#string) |  | Job descrition |
 | metadata | [Job.MetadataEntry](#ansys-api-speos-job-v2-Job-MetadataEntry) | repeated | User defined metadatas |
 | scene_guid | [string](#string) |  | Guid of the Scene in ScenesManager |
-| simulation_path | [string](#string) |  | simulation path in the scene that will be used by the job |
-| job_type | [Job.Type](#ansys-api-speos-job-v2-Job-Type) |  | Type of the job : CPU, GPU, ... |
+| simulation_path | [string](#string) |  | Simulation path in the scene that will be used by the job |
+| job_type | [Job.Type](#ansys-api-speos-job-v2-Job-Type) |  | Type of the job : CPU, GPU |
 | direct_mc_simulation_properties | [Job.DirectMCSimulationProperties](#ansys-api-speos-job-v2-Job-DirectMCSimulationProperties) |  | Properties to be filled for simulation based on DirectMCSimulationTemplate |
 | inverse_mc_simulation_properties | [Job.InverseMCSimulationProperties](#ansys-api-speos-job-v2-Job-InverseMCSimulationProperties) |  | Properties to be filled for simulation based on InverseMCSimulationTemplate |
 | interactive_simulation_properties | [Job.InteractiveSimulationProperties](#ansys-api-speos-job-v2-Job-InteractiveSimulationProperties) |  | Properties to be filled for simulation based on Interactive |
@@ -2875,7 +2876,7 @@ If no stop condition is set, the simulation ends when you stop the process.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| rays_number_per_sources | [Job.InteractiveSimulationProperties.RaysNumberPerSource](#ansys-api-speos-job-v2-Job-InteractiveSimulationProperties-RaysNumberPerSource) | repeated | If a source present in Scene::SimulationInstance is not mentionned here, its rays_nb is defaulted to 100. |
+| rays_number_per_sources | [Job.InteractiveSimulationProperties.RaysNumberPerSource](#ansys-api-speos-job-v2-Job-InteractiveSimulationProperties-RaysNumberPerSource) | repeated | If a source present in Scene::SimulationInstance is not mentioned here, its rays_nb is defaulted to 100. |
 | light_expert | [bool](#bool) |  | To generate a light expert file. |
 | impact_report | [bool](#bool) |  | To integrate details like number of impacts, position and surface state to the HTML simulation report. |
 
@@ -2892,7 +2893,7 @@ If no stop condition is set, the simulation ends when you stop the process.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| source_path | [string](#string) |  | path to the source. Hint: same path that was given in Scene::SimulationInstance |
+| source_path | [string](#string) |  | Path to the source. Hint: same path that was given in Scene::SimulationInstance |
 | rays_nb | [uint32](#uint32) | optional | Number of rays sent by the source referenced via its source_path. Default 100 |
 
 
@@ -2909,7 +2910,7 @@ If no stop condition is set, the simulation ends when you stop the process.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| optimized_propagation_none | [Job.InverseMCSimulationProperties.OptimizedPropagationNone](#ansys-api-speos-job-v2-Job-InverseMCSimulationProperties-OptimizedPropagationNone) |  | No optimization. Don&#39;t forget to fill stop conditions if needed. |
+| optimized_propagation_none | [Job.InverseMCSimulationProperties.OptimizedPropagationNone](#ansys-api-speos-job-v2-Job-InverseMCSimulationProperties-OptimizedPropagationNone) |  | No optimization. Do not forget to fill stop conditions if needed. |
 | optimized_propagation_relative | [Job.InverseMCSimulationProperties.OptimizedPropagationRelative](#ansys-api-speos-job-v2-Job-InverseMCSimulationProperties-OptimizedPropagationRelative) |  |  |
 | optimized_propagation_absolute | [Job.InverseMCSimulationProperties.OptimizedPropagationAbsolute](#ansys-api-speos-job-v2-Job-InverseMCSimulationProperties-OptimizedPropagationAbsolute) |  |  |
 | stop_condition_duration | [int64](#int64) | optional | To stop the simulation after a certain duration |
@@ -2924,7 +2925,7 @@ If no stop condition is set, the simulation ends when you stop the process.
 
 ### Job.InverseMCSimulationProperties.OptimizedPropagationAbsolute
 The algorithm adapts the number of passes per pixel to send the optimal number of rays according to the signal each pixel needs.
-As a result, the SNR is adequate in areas where pixels need more rays thus giving a balanced image.
+As a result, the SNR is adequate in areas where pixels need more rays, thus giving a balanced image.
 The Optimized propagation algorithm is only compatible with the Radiance sensors.
 
 
@@ -2957,7 +2958,7 @@ No optimization : the same number of passes is used for each pixel of the image
 
 ### Job.InverseMCSimulationProperties.OptimizedPropagationRelative
 The algorithm adapts the number of passes per pixel to send the optimal number of rays according to the signal each pixel needs.
-As a result, the SNR is adequate in areas where pixels need more rays thus giving a balanced image.
+As a result, the SNR is adequate in areas where pixels need more rays, thus giving a balanced image.
 The Optimized propagation algorithm is only compatible with the Radiance sensors.
 
 
@@ -3050,8 +3051,8 @@ Request to read a Job in JobsManager
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| path | [string](#string) |  | result path on the server |
-| upload_response | [ansys.api.speos.file.v1.Upload_Response](#ansys-api-speos-file-v1-Upload_Response) |  | result uploaded to server&#39;s file system (via FileTransferService) -&gt; returns Upload_Response |
+| path | [string](#string) |  | Result path on the server |
+| upload_response | [ansys.api.speos.file.v1.Upload_Response](#ansys-api-speos-file-v1-Upload_Response) |  | Result uploaded to server's file system (via FileTransferService) -> returns Upload_Response |
 
 
 
@@ -3133,7 +3134,7 @@ Request to update a Job in JobsManager
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-job-v2-Job-State"></a>
@@ -3163,9 +3164,9 @@ Request to update a Job in JobsManager
 | GPU | 1 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-job-v2-JobActions"></a>
@@ -3198,14 +3199,14 @@ Service to handle a job
 | Delete | [Delete_Request](#ansys-api-speos-job-v2-Delete_Request) | [Delete_Response](#ansys-api-speos-job-v2-Delete_Response) | Delete a Job |
 | List | [List_Request](#ansys-api-speos-job-v2-List_Request) | [List_Response](#ansys-api-speos-job-v2-List_Response) | List all Jobs in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_lpf_v2_lpf_file_reader-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/lpf/v2/lpf_file_reader.proto
+
+## lpf/v2/lpf_file_reader.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -3520,7 +3521,7 @@ Service to handle a job
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-lpf-v2-RayPath-PhotonStatus"></a>
@@ -3556,9 +3557,9 @@ Service to handle a job
 | StatusSpecularReflected | -1 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-lpf-v2-LpfFileReader_Mono"></a>
@@ -3590,22 +3591,20 @@ service to read lpf file - server can handle several reading.
 | ComputeUniqueFaceId | [ComputeUniqueFaceId_Request_Multi](#ansys-api-speos-lpf-v2-ComputeUniqueFaceId_Request_Multi) | [ComputeUniqueFaceId_Response](#ansys-api-speos-lpf-v2-ComputeUniqueFaceId_Response) | Compute a unique face id from bodyContextId and faceId |
 | Delete | [Delete_Request_Multi](#ansys-api-speos-lpf-v2-Delete_Request_Multi) | [Delete_Response](#ansys-api-speos-lpf-v2-Delete_Response) | Delete a lpf file reader - returns nothing |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_part_v1_body-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/part/v1/body.proto
+
+## part/v1/body.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
 <a name="ansys-api-speos-body-v1-Body"></a>
 
 ### Body
-CRUD //
-////////
 Body definition made of faces
 
 
@@ -3613,7 +3612,7 @@ Body definition made of faces
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Body.MetadataEntry](#ansys-api-speos-body-v1-Body-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Body.MetadataEntry](#ansys-api-speos-body-v1-Body-MetadataEntry) | repeated | User defined metadata |
 | face_guids | [string](#string) | repeated | List of faces constituting the body |
 
 
@@ -3717,6 +3716,47 @@ Response to list all bodies
 
 
 
+<a name="ansys-api-speos-body-v1-ReadAll_Request"></a>
+
+### ReadAll_Request
+Request to read all bodies
+
+
+
+
+
+
+<a name="ansys-api-speos-body-v1-ReadAll_Response"></a>
+
+### ReadAll_Response
+Response to read all bodies
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| bodies | [ReadAll_Response.BodiesEntry](#ansys-api-speos-body-v1-ReadAll_Response-BodiesEntry) | repeated | Read bodies with their Guids |
+
+
+
+
+
+
+<a name="ansys-api-speos-body-v1-ReadAll_Response-BodiesEntry"></a>
+
+### ReadAll_Response.BodiesEntry
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| key | [string](#string) |  |  |
+| value | [Body](#ansys-api-speos-body-v1-Body) |  |  |
+
+
+
+
+
+
 <a name="ansys-api-speos-body-v1-Read_Request"></a>
 
 ### Read_Request
@@ -3772,11 +3812,11 @@ Response to update a body
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-body-v1-BodiesManager"></a>
@@ -3790,41 +3830,38 @@ Response to update a body
 | Read | [Read_Request](#ansys-api-speos-body-v1-Read_Request) | [Read_Response](#ansys-api-speos-body-v1-Read_Response) | Read a body |
 | Update | [Update_Request](#ansys-api-speos-body-v1-Update_Request) | [Update_Response](#ansys-api-speos-body-v1-Update_Response) | Update a body |
 | Delete | [Delete_Request](#ansys-api-speos-body-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-body-v1-Delete_Response) | Delete a body |
-| List | [List_Request](#ansys-api-speos-body-v1-List_Request) | [List_Response](#ansys-api-speos-body-v1-List_Response) | List all body in manager |
+| List | [List_Request](#ansys-api-speos-body-v1-List_Request) | [List_Response](#ansys-api-speos-body-v1-List_Response) | List all bodies in manager |
+| ReadAll | [ReadAll_Request](#ansys-api-speos-body-v1-ReadAll_Request) | [ReadAll_Response](#ansys-api-speos-body-v1-ReadAll_Response) | Read the whole database, use a field mask in message grpc request metadata (key = read_masks) to only get needed fields. i.e.: bodies.*.name -> would only return the names of the bodies in the message |
 
 
 <a name="ansys-api-speos-body-v1-BodyActions"></a>
 
 ### BodyActions
-ACTIONS //
-///////////
 Actions available on a body
 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_part_v1_face-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/part/v1/face.proto
+
+## part/v1/face.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
 <a name="ansys-api-speos-face-v1-Chunk"></a>
 
 ### Chunk
-ACTIONS //
-///////////
 Chunk of a Face
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| face_header | [Chunk.FaceHeader](#ansys-api-speos-face-v1-Chunk-FaceHeader) |  | Common face data - Field used only in first Chunk (to take advantage of vectors sizes) |
+| face_header | [Chunk.FaceHeader](#ansys-api-speos-face-v1-Chunk-FaceHeader) |  | Common face data - Field used only in first Chunk (to take advantage of vectors sizes) - If several faces are uploaded/downloaded, then this message determines the start of a new face streaming. |
 | vertices | [Chunk.Vertices](#ansys-api-speos-face-v1-Chunk-Vertices) |  | coordinates of all points (p1x p1y p1z p2x p2y p2z ...) |
 | facets | [Chunk.Facets](#ansys-api-speos-face-v1-Chunk-Facets) |  | indexes of points for all triangles (t1_1 t1_2 t1_3 t2_1 t2_2 t2_3 ...) |
 | normals | [Chunk.Normals](#ansys-api-speos-face-v1-Chunk-Normals) |  | normal vector for all points (n1x n1y n1z n2x n2y n2z ...) |
@@ -3847,7 +3884,7 @@ Chunk of a Face
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
 | metadata | [Chunk.FaceHeader.MetadataEntry](#ansys-api-speos-face-v1-Chunk-FaceHeader-MetadataEntry) | repeated |  |
-| sizes | [int32](#int32) | repeated | total sizes for vectors: (vertices_normals_size, facets_size, texture_coordinates_channels_size) - vertices and normals vectors have same size, that&#39;s why it is gathered in vertices_normals_size |
+| sizes | [int32](#int32) | repeated | total sizes for vectors: (vertices_normals_size, facets_size, texture_coordinates_channels_size) - vertices and normals vectors have same size, that's why it is gathered in vertices_normals_size |
 
 
 
@@ -3994,6 +4031,8 @@ Response to delete a face
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | guid | [string](#string) |  | Guid of a FacesManager element |
+| guids | [string](#string) | repeated | Guids of FacesManager elements to download. |
+| only_face_header | [bool](#bool) | optional | If this optional boolean is set to true, only the FaceHeader will be returned in answer stream. |
 
 
 
@@ -4010,7 +4049,7 @@ Face definition with meshing information
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Face.MetadataEntry](#ansys-api-speos-face-v1-Face-MetadataEntry) | repeated | user defined metadatas |
+| metadata | [Face.MetadataEntry](#ansys-api-speos-face-v1-Face-MetadataEntry) | repeated | user defined metadata |
 | vertices | [float](#float) | repeated | coordinates of all points (p1x p1y p1z p2x p2y p2z ...) |
 | facets | [uint32](#uint32) | repeated | indexes of points for all triangles (t1_1 t1_2 t1_3 t2_1 t2_2 t2_3 ...) |
 | normals | [float](#float) | repeated | normal vector for all points (n1x n1y n1z n2x n2y n2z ...) |
@@ -4107,6 +4146,36 @@ Response to read a face
 
 
 
+<a name="ansys-api-speos-face-v1-ReserveFace_Request"></a>
+
+### ReserveFace_Request
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| faces | [Face](#ansys-api-speos-face-v1-Face) | repeated | repeated face headers |
+
+
+
+
+
+
+<a name="ansys-api-speos-face-v1-ReserveFace_Response"></a>
+
+### ReserveFace_Response
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| guids | [string](#string) | repeated | guids of the created faces, in the order sent |
+
+
+
+
+
+
 <a name="ansys-api-speos-face-v1-Update_Request"></a>
 
 ### Update_Request
@@ -4142,11 +4211,11 @@ Response to update a face
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-face-v1-FaceActions"></a>
@@ -4156,6 +4225,7 @@ Actions available on a face
 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
+| ReserveFaces | [ReserveFace_Request](#ansys-api-speos-face-v1-ReserveFace_Request) stream | [ReserveFace_Response](#ansys-api-speos-face-v1-ReserveFace_Response) stream | allocate faces before uploading them. to have maximum benefit, only the name, description and metadata should be filled |
 | Upload | [Chunk](#ansys-api-speos-face-v1-Chunk) stream | [Upload_Response](#ansys-api-speos-face-v1-Upload_Response) | Update a face via streaming |
 | Download | [Download_Request](#ansys-api-speos-face-v1-Download_Request) | [Chunk](#ansys-api-speos-face-v1-Chunk) stream | Read a face via streaming |
 
@@ -4171,16 +4241,16 @@ Actions available on a face
 | Read | [Read_Request](#ansys-api-speos-face-v1-Read_Request) | [Read_Response](#ansys-api-speos-face-v1-Read_Response) | Read a face |
 | Update | [Update_Request](#ansys-api-speos-face-v1-Update_Request) | [Update_Response](#ansys-api-speos-face-v1-Update_Response) | Update a face |
 | Delete | [Delete_Request](#ansys-api-speos-face-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-face-v1-Delete_Response) | Delete a face |
-| List | [List_Request](#ansys-api-speos-face-v1-List_Request) | [List_Response](#ansys-api-speos-face-v1-List_Response) | List all face in manager |
+| List | [List_Request](#ansys-api-speos-face-v1-List_Request) | [List_Response](#ansys-api-speos-face-v1-List_Response) | List all faces in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_part_v1_part-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/part/v1/part.proto
+
+## part/v1/part.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -4274,7 +4344,7 @@ Part definition, a Part is related to a CAD part file (scdocx, prt, ...) made of
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Part.MetadataEntry](#ansys-api-speos-part-v1-Part-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Part.MetadataEntry](#ansys-api-speos-part-v1-Part-MetadataEntry) | repeated | User defined metadata |
 | body_guids | [string](#string) | repeated | List of bodies constituting the part |
 | parts | [Part.PartInstance](#ansys-api-speos-part-v1-Part-PartInstance) | repeated | List of sub parts |
 
@@ -4311,6 +4381,47 @@ Instance of Part in parent coordinates system
 | description | [string](#string) |  |  |
 | part_guid | [string](#string) |  | Guid of Part in PartsManager |
 | axis_system | [double](#double) | repeated | Part position relative to parent reference (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz) |
+
+
+
+
+
+
+<a name="ansys-api-speos-part-v1-ReadAll_Request"></a>
+
+### ReadAll_Request
+Request to read all parts
+
+
+
+
+
+
+<a name="ansys-api-speos-part-v1-ReadAll_Response"></a>
+
+### ReadAll_Response
+Response to read all parts
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| parts | [ReadAll_Response.PartsEntry](#ansys-api-speos-part-v1-ReadAll_Response-PartsEntry) | repeated | Read parts with their Guids |
+
+
+
+
+
+
+<a name="ansys-api-speos-part-v1-ReadAll_Response-PartsEntry"></a>
+
+### ReadAll_Response.PartsEntry
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| key | [string](#string) |  |  |
+| value | [Part](#ansys-api-speos-part-v1-Part) |  |  |
 
 
 
@@ -4372,11 +4483,11 @@ Response to update an element
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-part-v1-PartActions"></a>
@@ -4399,16 +4510,98 @@ Service to manage geometrical objects
 | Read | [Read_Request](#ansys-api-speos-part-v1-Read_Request) | [Read_Response](#ansys-api-speos-part-v1-Read_Response) | Read a part |
 | Update | [Update_Request](#ansys-api-speos-part-v1-Update_Request) | [Update_Response](#ansys-api-speos-part-v1-Update_Response) | Update a part |
 | Delete | [Delete_Request](#ansys-api-speos-part-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-part-v1-Delete_Response) | Delete a part |
-| List | [List_Request](#ansys-api-speos-part-v1-List_Request) | [List_Response](#ansys-api-speos-part-v1-List_Response) | List all part in manager |
+| List | [List_Request](#ansys-api-speos-part-v1-List_Request) | [List_Response](#ansys-api-speos-part-v1-List_Response) | List all parts in manager |
+| ReadAll | [ReadAll_Request](#ansys-api-speos-part-v1-ReadAll_Request) | [ReadAll_Response](#ansys-api-speos-part-v1-ReadAll_Response) | Read the whole database, use a field mask in message grpc request metadata (key = read_masks) to only get needed fields. i.e.: parts.*.name -> would only return the names of the bodies in the message |
 
- 
+ <!-- end services -->
+
+
+  <!-- Remove base directory -->
+<a name="ansys_api_speos_results_v1_map-proto"></a>
+
+
+## results/v1/map.proto <!-- Use the cleaned file name here -->
 
 
 
+<a name="ansys-api-speos-results-v1-MergeSpeos360ToStereoSpeos360_Request"></a>
+
+### MergeSpeos360ToStereoSpeos360_Request
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| map_left_to_merge_uri | [string](#string) |  | Absolute path to left Speos360 file to merge. |
+| map_right_to_merge_uri | [string](#string) |  | Absolute path to right Speos360 file to merge. |
+| map_merged_uri | [string](#string) |  | Absolute path to merged stereoscopic Speos360 file. |
+
+
+
+
+
+
+<a name="ansys-api-speos-results-v1-MergeSpeos360ToStereoSpeos360_Response"></a>
+
+### MergeSpeos360ToStereoSpeos360_Response
+
+
+
+
+
+
+
+<a name="ansys-api-speos-results-v1-MergeXMPsToXMPOrSpeos360_Request"></a>
+
+### MergeXMPsToXMPOrSpeos360_Request
+
+
+
+| Field | Type | Label | Description |
+| ----- | ---- | ----- | ----------- |
+| map_to_merge_uri | [string](#string) | repeated | List of absolute path to XMP files to merge. |
+| map_merged_uri | [string](#string) |  | Absolute path to merged XMP or Speos360 file. |
+| axis_system | [double](#double) | repeated | Optional axis system to force orientation in merged Speos360 file. |
+
+
+
+
+
+
+<a name="ansys-api-speos-results-v1-MergeXMPsToXMPOrSpeos360_Response"></a>
+
+### MergeXMPsToXMPOrSpeos360_Response
+
+
+
+
+
+
+ <!-- end messages -->
+
+ <!-- end enums -->
+
+ <!-- end HasExtensions -->
+
+
+<a name="ansys-api-speos-results-v1-MapActions"></a>
+
+### MapActions
+Actions available with XMP and Speos360 result file.
+
+| Method Name | Request Type | Response Type | Description |
+| ----------- | ------------ | ------------- | ------------|
+| MergeXMPsToXMPOrSpeos360 | [MergeXMPsToXMPOrSpeos360_Request](#ansys-api-speos-results-v1-MergeXMPsToXMPOrSpeos360_Request) | [MergeXMPsToXMPOrSpeos360_Response](#ansys-api-speos-results-v1-MergeXMPsToXMPOrSpeos360_Response) | Merge list of XMP files into a XMP or Speos360 file. [Unsupported] |
+| MergeSpeos360ToStereoSpeos360 | [MergeSpeos360ToStereoSpeos360_Request](#ansys-api-speos-results-v1-MergeSpeos360ToStereoSpeos360_Request) | [MergeSpeos360ToStereoSpeos360_Response](#ansys-api-speos-results-v1-MergeSpeos360ToStereoSpeos360_Response) | Merge left and right speos360 files into a stereoscopic Speos360 file. [Unsupported] |
+
+ <!-- end services -->
+
+
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_results_v1_ray_path-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/results/v1/ray_path.proto
+
+## results/v1/ray_path.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -4420,7 +4613,7 @@ Service to manage geometrical objects
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| impacts_coordinates | [float](#float) | repeated | Impacts coordinates of this RayPath. (i0x, i0y, i0z, i1x, i1y, i1z, ..., iNx, iNy, iNz) with N&#43;1 impacts |
+| impacts_coordinates | [float](#float) | repeated | Impacts coordinates of this RayPath. (i0x, i0y, i0z, i1x, i1y, i1z, ..., iNx, iNy, iNz) with N+1 impacts |
 | wavelengths | [double](#double) | repeated | Wavelength at each impact. |
 | body_context_ids | [uint32](#uint32) | repeated | ID of the body impacted at each impact. |
 | unique_face_ids | [uint32](#uint32) | repeated | ID of the face impacted at each impact. |
@@ -4432,7 +4625,7 @@ Service to manage geometrical objects
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-results-v1-RayPath-PhotonStatus"></a>
@@ -4468,18 +4661,18 @@ Service to manage geometrical objects
 | StatusSpecularReflected | -1 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_scene_v1_scene-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/scene/v1/scene.proto
+
+## scene/v1/scene.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -4547,7 +4740,7 @@ Request to delete a Scene in ScenesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | guid | [string](#string) |  | Guid of a ScenesManager element |
-| source_path | [string](#string) |  | path to the source in the Scene : &#34;&lt;source name&gt;&#34; for a specific source in the current scene, or &#34;&lt;scene name&gt;/&lt;source name&gt;&#34; for a specific source in a specific sub scene |
+| source_path | [string](#string) |  | path to the source in the Scene : "<source name>" for a specific source in the current scene, or "<scene name>/<source name>" for a specific source in a specific sub scene |
 | rays_nb | [uint32](#uint32) | optional | Number of rays sent by the source. Default 100 |
 | raw_data | [bool](#bool) | optional | Boolean to get the wavelengths in response stream |
 | display_data | [bool](#bool) | optional | Boolean to get the colors (RGB24 format) in response stream |
@@ -4674,7 +4867,7 @@ Optical scene definition made of parts, optical properties, sources, sensors and
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.MetadataEntry](#ansys-api-speos-scene-v1-Scene-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.MetadataEntry](#ansys-api-speos-scene-v1-Scene-MetadataEntry) | repeated | User defined metadata |
 | part_guid | [string](#string) |  | Guid from PartsManager of the geometrical part included inside the scene |
 | vops | [Scene.VOPInstance](#ansys-api-speos-scene-v1-Scene-VOPInstance) | repeated | The volume materials applied on geometries |
 | sops | [Scene.SOPInstance](#ansys-api-speos-scene-v1-Scene-SOPInstance) | repeated | The surface materials applied on geometries |
@@ -4692,11 +4885,11 @@ Optical scene definition made of parts, optical properties, sources, sensors and
 
 ### Scene.GeoPaths
 Geometry path of object that will include the specific property (can be sub-scene/part/body/face). 
-Empty or &#34;&#34; for all geometries, or in the format : &lt;sub-scene name&gt;/&lt;part name&gt;/&lt;body name&gt;/&lt;face name&gt; (no name by default for root scene and root part).
-&#34;part1&#34; -&gt; part1 of the root part in the root scene
-&#34;part1/body1/face1&#34; -&gt; face1 in body1 in part1 of the root part in the root scene
-&#34;subScene1&#34; -&gt; root part in the sub scene subScene1
-&#34;subScene1/part2&#34; -&gt; part2 of the sub scene subScene1
+Empty or "" for all geometries, or in the format : <sub-scene name>/<part name>/<body name>/<face name> (no name by default for root scene and root part).
+"part1" -> part1 of the root part in the root scene
+"part1/body1/face1" -> face1 in body1 in part1 of the root part in the root scene
+"subScene1" -> root part in the sub scene subScene1
+"subScene1/part2" -> part2 of the sub scene subScene1
 
 
 | Field | Type | Label | Description |
@@ -4734,8 +4927,8 @@ Instance of a SOP to apply on geometries of the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.SOPInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SOPInstance-MetadataEntry) | repeated | User defined metadatas |
-| sop_guid | [string](#string) |  | Guid of the element to instanciate |
+| metadata | [Scene.SOPInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SOPInstance-MetadataEntry) | repeated | User defined metadata |
+| sop_guid | [string](#string) |  | Guid of the element to instantiate |
 | geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v1-Scene-GeoPaths) |  | Geometries that will use this material |
 
 
@@ -4769,7 +4962,7 @@ Instance of a SOP to apply on geometries of the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.SceneInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SceneInstance-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.SceneInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SceneInstance-MetadataEntry) | repeated | User defined metadata |
 | scene_guid | [string](#string) |  | Guid of the element to instantiate |
 | axis_system | [double](#double) | repeated | Scene position relative to parent PartTemplate reference (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz) |
 
@@ -4804,7 +4997,7 @@ Instance of a sensor to add in the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.SensorInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SensorInstance-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.SensorInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SensorInstance-MetadataEntry) | repeated | User defined metadata |
 | sensor_guid | [string](#string) |  | Guid of the SensorTemplate in SensorTemplatesManager to instantiate |
 | result_file_name | [string](#string) |  | Result file name without extention. Result files of the sensor will be based on this name. |
 | camera_sensor_properties | [Scene.SensorInstance.CameraSensorProperties](#ansys-api-speos-scene-v1-Scene-SensorInstance-CameraSensorProperties) |  | To be filled if the sensor_guid corresponds to a SensorTemplate of type CameraSensorTemplate |
@@ -4825,7 +5018,7 @@ Instance of a sensor to add in the scene
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | axis_system | [double](#double) | repeated | Position of the sensor (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz) |
-| trajectory_file_uri | [string](#string) |  | Trajectory file, used to define the position and orientations of the Camera sensor in time. |
+| trajectory_file_uri | [string](#string) |  | Trajectory file, used to define the positions and orientations of the Camera sensor in time. |
 | layer_type_none | [Scene.SensorInstance.LayerTypeNone](#ansys-api-speos-scene-v1-Scene-SensorInstance-LayerTypeNone) |  | Layer type : None |
 | layer_type_source | [Scene.SensorInstance.LayerTypeSource](#ansys-api-speos-scene-v1-Scene-SensorInstance-LayerTypeSource) |  | Layer type : Source |
 
@@ -4882,7 +5075,7 @@ Includes one layer per surface selected in the result.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  | Name of the layer (will appear for example in Virtual Photometric Lab) |
+| name | [string](#string) |  | Name of the layer |
 | geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v1-Scene-GeoPaths) |  | Surface selected. |
 
 
@@ -4893,7 +5086,7 @@ Includes one layer per surface selected in the result.
 <a name="ansys-api-speos-scene-v1-Scene-SensorInstance-LayerTypeIncidenceAngle"></a>
 
 ### Scene.SensorInstance.LayerTypeIncidenceAngle
-Include one layer per range of incident angles.
+Includes one layer per range of incident angles.
 
 
 | Field | Type | Label | Description |
@@ -4908,7 +5101,7 @@ Include one layer per range of incident angles.
 <a name="ansys-api-speos-scene-v1-Scene-SensorInstance-LayerTypeNone"></a>
 
 ### Scene.SensorInstance.LayerTypeNone
-Includes the simulation&#39;s results in one layer.
+Includes the simulation's results in one layer.
 
 
 
@@ -4997,10 +5190,10 @@ Instance of a simulation to add in the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.SimulationInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SimulationInstance-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.SimulationInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SimulationInstance-MetadataEntry) | repeated | User defined metadata |
 | simulation_guid | [string](#string) |  | Guid of the element to instantiate |
-| sensor_paths | [string](#string) | repeated | Sensors that this simulation will include (empty or &#34;&#34; for all sensors, &#34;&lt;sensor name&gt;&#34; for a specific sensor in the current scene, or &#34;&lt;scene name&gt;/&lt;sensor name&gt;&#34; for a specific sensor in a specific sub scene) |
-| source_paths | [string](#string) | repeated | Sources that this simulation will include (empty or &#34;&#34; for all sources, &#34;&lt;source name&gt;&#34; for a specific source in the current scene, or &#34;&lt;scene name&gt;/&lt;source name&gt;&#34; for a specific source in a specific sub scene) |
+| sensor_paths | [string](#string) | repeated | Sensors that this simulation will include (empty or "" for all sensors, "<sensor name>" for a specific sensor in the current scene, or "<scene name>/<sensor name>" for a specific sensor in a specific sub scene) |
+| source_paths | [string](#string) | repeated | Sources that this simulation will include (empty or "" for all sources, "<source name>" for a specific source in the current scene, or "<scene name>/<source name>" for a specific source in a specific sub scene) |
 | geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v1-Scene-GeoPaths) |  | Geometries that this simulation will include (empty to select the root part and all the subscenes) |
 
 
@@ -5034,7 +5227,7 @@ Instance of a source to add in the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.SourceInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SourceInstance-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.SourceInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-SourceInstance-MetadataEntry) | repeated | User defined metadata |
 | source_guid | [string](#string) |  | Guid of the SourceTemplate in SourceTemplatesManager to instantiate |
 | luminaire_properties | [Scene.SourceInstance.LuminaireProperties](#ansys-api-speos-scene-v1-Scene-SourceInstance-LuminaireProperties) |  | To be filled if the source_guid corresponds to a SourceTemplate of type Luminaire |
 | surface_properties | [Scene.SourceInstance.SurfaceProperties](#ansys-api-speos-scene-v1-Scene-SourceInstance-SurfaceProperties) |  | To be filled if the source_guid corresponds to a SourceTemplate of type Surface |
@@ -5232,7 +5425,7 @@ Define the intensity distribution as normal to the selected emissive surface and
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| geo_path | [string](#string) |  | Geometry that will use this surface source (&#34;&lt;body name&gt;&#34; for a whole body, or &#34;&lt;body name&gt;/&lt;face name&gt;&#34; for a specific face) |
+| geo_path | [string](#string) |  | Geometry that will use this surface source ("<body name>" for a whole body, or "<body name>/<face name>" for a specific face) |
 | reverse_normal | [bool](#bool) | optional | optional - if not set or false : normal is not reversed. |
 
 
@@ -5265,8 +5458,8 @@ Instance of a VOP to apply on geometries of the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.VOPInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-VOPInstance-MetadataEntry) | repeated | User defined metadatas |
-| vop_guid | [string](#string) |  | Guid of the element to instanciate |
+| metadata | [Scene.VOPInstance.MetadataEntry](#ansys-api-speos-scene-v1-Scene-VOPInstance-MetadataEntry) | repeated | User defined metadata |
+| vop_guid | [string](#string) |  | Guid of the element to instantiate |
 | geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v1-Scene-GeoPaths) |  | Geometries that will use this material |
 
 
@@ -5315,7 +5508,7 @@ Request to update a Scene in ScenesManager
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-scene-v1-Scene-SensorInstance-EnumRayFileType"></a>
@@ -5356,9 +5549,9 @@ Ray file types available
 | Faces | 1 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-scene-v1-SceneActions"></a>
@@ -5386,14 +5579,14 @@ Manager for Scenes
 | Delete | [Delete_Request](#ansys-api-speos-scene-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-scene-v1-Delete_Response) | Delete a Scene |
 | List | [List_Request](#ansys-api-speos-scene-v1-List_Request) | [List_Response](#ansys-api-speos-scene-v1-List_Response) | List all Scenes in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_scene_v2_scene-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/scene/v2/scene.proto
+
+## scene/v2/scene.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -5461,7 +5654,7 @@ Request to delete a Scene in ScenesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | guid | [string](#string) |  | Guid of a ScenesManager element |
-| source_path | [string](#string) |  | path to the source in the Scene : &#34;&lt;source name&gt;&#34; for a specific source in the current scene, or &#34;&lt;scene name&gt;/&lt;source name&gt;&#34; for a specific source in a specific sub scene |
+| source_path | [string](#string) |  | path to the source in the Scene : "<source name>" for a specific source in the current scene, or "<scene name>/<source name>" for a specific source in a specific sub scene |
 | rays_nb | [uint32](#uint32) | optional | Number of rays sent by the source. Default 100 |
 | raw_data | [bool](#bool) | optional | Boolean to get the wavelengths in response stream |
 | display_data | [bool](#bool) | optional | Boolean to get the colors (RGB24 format) in response stream |
@@ -5588,12 +5781,12 @@ Optical scene definition made of parts, optical properties, sources, sensors and
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.MetadataEntry](#ansys-api-speos-scene-v2-Scene-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.MetadataEntry](#ansys-api-speos-scene-v2-Scene-MetadataEntry) | repeated | User defined metadata |
 | part_guid | [string](#string) |  | Guid from PartsManager of the geometrical part included inside the scene |
 | sources | [Scene.SourceInstance](#ansys-api-speos-scene-v2-Scene-SourceInstance) | repeated | The sources added in the scene |
 | sensors | [Scene.SensorInstance](#ansys-api-speos-scene-v2-Scene-SensorInstance) | repeated | The sensors added in the scene |
 | simulations | [Scene.SimulationInstance](#ansys-api-speos-scene-v2-Scene-SimulationInstance) | repeated | The simulations added in the scene |
-| materials | [Scene.MaterialInstance](#ansys-api-speos-scene-v2-Scene-MaterialInstance) | repeated | The materials (volume &#43; surface) applied on geometries |
+| materials | [Scene.MaterialInstance](#ansys-api-speos-scene-v2-Scene-MaterialInstance) | repeated | The materials (volume + surface) applied on geometries |
 | scenes | [Scene.SceneInstance](#ansys-api-speos-scene-v2-Scene-SceneInstance) | repeated | Sub scenes |
 
 
@@ -5609,7 +5802,7 @@ Optical scene definition made of parts, optical properties, sources, sensors and
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| geo_path | [string](#string) |  | Geometry that will be used (&#34;&lt;body name&gt;&#34; for a whole body, or &#34;&lt;body name&gt;/&lt;face name&gt;&#34; for a specific face) |
+| geo_path | [string](#string) |  | Geometry that will be used ("<body name>" for a whole body, or "<body name>/<face name>" for a specific face) |
 | reverse_normal | [bool](#bool) | optional | optional - if not set or false : normal is not reversed. |
 
 
@@ -5621,16 +5814,16 @@ Optical scene definition made of parts, optical properties, sources, sensors and
 
 ### Scene.GeoPaths
 Geometry path of object that will include the specific property (can be sub-scene/part/body/face). 
-geo_path in the format : &#34;&lt;sub-scene name&gt;/&lt;part name&gt;/&lt;body name&gt;/&lt;face name&gt;&#34; (no name by default for root scene and root part).
-&#34;body0&#34; -&gt; body0 of the root part in the root scene
-&#34;body0/face0&#34; -&gt; face0 in body0 of the root part in the root scene
-&#34;part1&#34; -&gt; part1 of the root part in the root scene
-&#34;part1/body1/face1&#34; -&gt; face1 in body1 in part1 of the root part in the root scene
-&#34;subScene1&#34; -&gt; root part in the sub scene subScene1
-&#34;subScene1/part2&#34; -&gt; part2 of the sub scene subScene1
+geo_path in the format : "<sub-scene name>/<part name>/<body name>/<face name>" (no name by default for root scene and root part).
+"body0" -> body0 of the root part in the root scene
+"body0/face0" -> face0 in body0 of the root part in the root scene
+"part1" -> part1 of the root part in the root scene
+"part1/body1/face1" -> face1 in body1 in part1 of the root part in the root scene
+"subScene1" -> root part in the sub scene subScene1
+"subScene1/part2" -> part2 of the sub scene subScene1
 Particularities:
-If the object GeoPaths is defined and geo_paths left empty, this means &#34;All geometry selected&#34;.
-If the object GeoPaths is NOT defined, this means &#34;No geometry selected&#34;.
+If the object GeoPaths is defined and geo_paths left empty, this means "All geometry selected".
+If the object GeoPaths is NOT defined, this means "No geometry selected".
 
 
 | Field | Type | Label | Description |
@@ -5652,9 +5845,9 @@ Instance of a Material to apply on geometries of the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.MaterialInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-MaterialInstance-MetadataEntry) | repeated | User defined metadatas |
-| vop_guid | [string](#string) | optional | optional - Guid of the volume optical property to instanciate |
-| sop_guids | [string](#string) | repeated | Guid(s) of the surface optical property(ies) to instanciate |
+| metadata | [Scene.MaterialInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-MaterialInstance-MetadataEntry) | repeated | User defined metadata |
+| vop_guid | [string](#string) | optional | optional - Guid of the volume optical property to instantiate |
+| sop_guids | [string](#string) | repeated | Guid(s) of the surface optical property(ies) to instantiate |
 | geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v2-Scene-GeoPaths) |  | Geometries that will use this material |
 
 
@@ -5704,7 +5897,7 @@ Instance of a Material to apply on geometries of the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.SceneInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SceneInstance-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.SceneInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SceneInstance-MetadataEntry) | repeated | User defined metadata |
 | scene_guid | [string](#string) |  | Guid of the element to instantiate |
 | axis_system | [double](#double) | repeated | Scene position relative to parent PartTemplate reference (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz) |
 
@@ -5739,7 +5932,7 @@ Instance of a sensor to add in the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.SensorInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SensorInstance-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.SensorInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SensorInstance-MetadataEntry) | repeated | User defined metadata |
 | sensor_guid | [string](#string) |  | Guid of the SensorTemplate in SensorTemplatesManager to instantiate |
 | result_file_name | [string](#string) |  | Result file name without extention. Result files of the sensor will be based on this name. |
 | camera_properties | [Scene.SensorInstance.CameraProperties](#ansys-api-speos-scene-v2-Scene-SensorInstance-CameraProperties) |  | To be filled if the sensor_guid corresponds to a SensorTemplate of type CameraSensorTemplate |
@@ -5760,7 +5953,7 @@ Instance of a sensor to add in the scene
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | axis_system | [double](#double) | repeated | Position of the sensor (Ox Oy Oz Xx Xy Xz Yx Yy Yz Zx Zy Zz) |
-| trajectory_file_uri | [string](#string) |  | Trajectory file, used to define the position and orientations of the Camera sensor in time. |
+| trajectory_file_uri | [string](#string) |  | Trajectory file, used to define the positions and orientations of the Camera sensor in time. |
 | layer_type_none | [Scene.SensorInstance.LayerTypeNone](#ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeNone) |  | Layer type : None |
 | layer_type_source | [Scene.SensorInstance.LayerTypeSource](#ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeSource) |  | Layer type : Source |
 
@@ -5817,7 +6010,7 @@ Includes one layer per surface selected in the result.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| name | [string](#string) |  | Name of the layer (will appear for example in Virtual Photometric Lab) |
+| name | [string](#string) |  | Name of the layer |
 | geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v2-Scene-GeoPaths) |  | Surface selected. |
 
 
@@ -5828,7 +6021,7 @@ Includes one layer per surface selected in the result.
 <a name="ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeIncidenceAngle"></a>
 
 ### Scene.SensorInstance.LayerTypeIncidenceAngle
-Include one layer per range of incident angles.
+Includes one layer per range of incident angles.
 
 
 | Field | Type | Label | Description |
@@ -5843,7 +6036,7 @@ Include one layer per range of incident angles.
 <a name="ansys-api-speos-scene-v2-Scene-SensorInstance-LayerTypeNone"></a>
 
 ### Scene.SensorInstance.LayerTypeNone
-Includes the simulation&#39;s results in one layer.
+Includes the simulation's results in one layer.
 
 
 
@@ -5932,11 +6125,11 @@ Instance of a simulation to add in the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.SimulationInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SimulationInstance-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.SimulationInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SimulationInstance-MetadataEntry) | repeated | User defined metadata |
 | simulation_guid | [string](#string) |  | Guid of the element to instantiate |
-| sensor_paths | [string](#string) | repeated | Sensors that this simulation will include (empty for no sensor, [&#34;&#34;] for all sensors, &#34;&lt;sensor name&gt;&#34; for a specific sensor in the current scene, or &#34;&lt;scene name&gt;/&lt;sensor name&gt;&#34; for a specific sensor in a specific sub scene) |
-| source_paths | [string](#string) | repeated | Sources that this simulation will include (empty for no source, [&#34;&#34;] for all sources, &#34;&lt;source name&gt;&#34; for a specific source in the current scene, or &#34;&lt;scene name&gt;/&lt;source name&gt;&#34; for a specific source in a specific sub scene) |
-| geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v2-Scene-GeoPaths) |  | Geometries that this simulation will include - Not yet functional (All geometry is included by default to each simulation) |
+| sensor_paths | [string](#string) | repeated | Sensors that this simulation will include (empty for no sensor, [""] for all sensors, "<sensor name>" for a specific sensor in the current scene, or "<scene name>/<sensor name>" for a specific sensor in a specific sub scene) |
+| source_paths | [string](#string) | repeated | Sources that this simulation will include (empty for no source, [""] for all sources, "<source name>" for a specific source in the current scene, or "<scene name>/<source name>" for a specific source in a specific sub scene) |
+| geometries | [Scene.GeoPaths](#ansys-api-speos-scene-v2-Scene-GeoPaths) |  | Geometries that this simulation will include - Not yet functional (All geometries are included by default in each simulation) |
 
 
 
@@ -5969,7 +6162,7 @@ Instance of a source to add in the scene
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  |  |
 | description | [string](#string) |  |  |
-| metadata | [Scene.SourceInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SourceInstance-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [Scene.SourceInstance.MetadataEntry](#ansys-api-speos-scene-v2-Scene-SourceInstance-MetadataEntry) | repeated | User defined metadata |
 | source_guid | [string](#string) |  | Guid of the SourceTemplate in SourceTemplatesManager to instantiate |
 | luminaire_properties | [Scene.SourceInstance.LuminaireProperties](#ansys-api-speos-scene-v2-Scene-SourceInstance-LuminaireProperties) |  | To be filled if the source_guid corresponds to a SourceTemplate of type Luminaire |
 | surface_properties | [Scene.SourceInstance.SurfaceProperties](#ansys-api-speos-scene-v2-Scene-SourceInstance-SurfaceProperties) |  | To be filled if the source_guid corresponds to a SourceTemplate of type Surface |
@@ -6183,7 +6376,7 @@ Request to update a Scene in ScenesManager
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-scene-v2-Scene-SensorInstance-EnumRayFileType"></a>
@@ -6224,9 +6417,9 @@ Ray file types available
 | Faces | 1 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-scene-v2-SceneActions"></a>
@@ -6254,14 +6447,14 @@ Manager for Scenes
 | Delete | [Delete_Request](#ansys-api-speos-scene-v2-Delete_Request) | [Delete_Response](#ansys-api-speos-scene-v2-Delete_Response) | Delete a Scene |
 | List | [List_Request](#ansys-api-speos-scene-v2-List_Request) | [List_Response](#ansys-api-speos-scene-v2-List_Response) | List all Scenes in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_sensor_v1_camera_sensor-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/sensor/v1/camera_sensor.proto
+
+## sensor/v1/camera_sensor.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -6277,13 +6470,13 @@ Manager for Scenes
 | sensor_mode_photometric | [SensorCameraModePhotometric](#ansys-api-speos-sensor-v1-SensorCameraModePhotometric) |  | Sensor mode : Photometric |
 | focal_length | [double](#double) |  | Distance between the center of the optical system and the focus. (mm) |
 | imager_distance | [double](#double) |  | Imager distance in mm, the imager is located at the focal point. The Imager distance has no impact on the result. |
-| f_number | [double](#double) |  | F-number represent the aperture of the front lens. F number has no impact on the result. |
+| f_number | [double](#double) |  | F-number represents the aperture of the front lens. F number has no impact on the result. |
 | distorsion_file_uri | [string](#string) |  | Will be deprecated soon due to typo error - better use distortion_file_uri |
-| distortion_file_uri | [string](#string) |  | Optical aberration that deforms and bend straight lines. The distortion is expressed in a .OPTDistortion file. |
+| distortion_file_uri | [string](#string) |  | Optical aberration that deforms and bends straight lines. The distortion is expressed in a .OPTDistortion file. |
 | horz_pixel | [uint32](#uint32) |  | Defines the horizontal pixels number corresponding to the camera resolution. |
 | vert_pixel | [uint32](#uint32) |  | Defines the vertical pixels number corresponding to the camera resolution. |
-| width | [double](#double) |  | Defines the sensor&#39;s width in mm. |
-| height | [double](#double) |  | Defines the sensor&#39;s height in mm. |
+| width | [double](#double) |  | Defines the sensor's width in mm. |
+| height | [double](#double) |  | Defines the sensor's height in mm. |
 
 
 
@@ -6293,7 +6486,7 @@ Manager for Scenes
 <a name="ansys-api-speos-sensor-v1-SensorCameraBalanceModeDisplay"></a>
 
 ### SensorCameraBalanceModeDisplay
-Spectral results are converted in a three channels result. Then a post-treatment is realized to take the distortion induced by the display devices into account. With this method, displayed results are similar to what the camera really gets.
+Spectral results are converted in a three-channel result. Then a post-treatment is realized to take the distortion induced by the display devices into account. With this method, displayed results are similar to what the camera really gets.
 
 
 | Field | Type | Label | Description |
@@ -6310,7 +6503,7 @@ Spectral results are converted in a three channels result. Then a post-treatment
 <a name="ansys-api-speos-sensor-v1-SensorCameraBalanceModeGreyworld"></a>
 
 ### SensorCameraBalanceModeGreyworld
-The grey world assumption states that the content of the image is grey on average. This method converts spectral results in a three channel results with the basic conversion. Then it computes and applies coefficients to the red, green and blue images to make sure their averages are equal.
+The grey world assumption states that the content of the image is grey on average. This method converts spectral results in a three-channel result with the basic conversion. Then it computes and applies coefficients to the red, green and blue images to make sure their averages are equal.
 
 
 
@@ -6320,7 +6513,7 @@ The grey world assumption states that the content of the image is grey on averag
 <a name="ansys-api-speos-sensor-v1-SensorCameraBalanceModeNone"></a>
 
 ### SensorCameraBalanceModeNone
-The spectral transmittance of the optical system and the spectral sensitivity for each channel are applied to the detected spectral image before the conversion in a three channel results. This method is referred to as the basic conversion.
+The spectral transmittance of the optical system and the spectral sensitivity for each channel are applied to the detected spectral image before the conversion in a three-channel result. This method is referred to as the basic conversion.
 
 
 
@@ -6411,7 +6604,7 @@ Allows to set every Camera Sensor parameters, including the photometric definiti
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-sensor-v1-EnumSensorCameraPNGBits"></a>
@@ -6427,18 +6620,18 @@ Allows to set every Camera Sensor parameters, including the photometric definiti
 | PNG_16 | 3 |  |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_sensor_v1_common-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/sensor/v1/common.proto
+
+## sensor/v1/common.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -6465,7 +6658,7 @@ Allows to set every Camera Sensor parameters, including the photometric definiti
 <a name="ansys-api-speos-sensor-v1-IlluminanceTypePlanar"></a>
 
 ### IlluminanceTypePlanar
-Integration made orthogonally with the sensor plan.
+Integration made orthogonally with the sensor plane.
 
 
 
@@ -6515,7 +6708,7 @@ Dimensions of the sensor
 <a name="ansys-api-speos-sensor-v1-SensorTypeColorimetric"></a>
 
 ### SensorTypeColorimetric
-Color results without any spectral data or layer separation (in lx or W//m2).
+Color results without any spectral data or layer separation.
 
 
 | Field | Type | Label | Description |
@@ -6530,7 +6723,7 @@ Color results without any spectral data or layer separation (in lx or W//m2).
 <a name="ansys-api-speos-sensor-v1-SensorTypePhotometric"></a>
 
 ### SensorTypePhotometric
-The sensor considers the visible spectrum and gets the results in lm/m2 or lx.
+The sensor considers the visible spectrum and gets the results.
 
 
 
@@ -6540,7 +6733,7 @@ The sensor considers the visible spectrum and gets the results in lm/m2 or lx.
 <a name="ansys-api-speos-sensor-v1-SensorTypeRadiometric"></a>
 
 ### SensorTypeRadiometric
-The sensor considers the entire spectrum and gets the results in W/m2.
+The sensor considers the entire spectrum and gets the results.
 
 
 
@@ -6550,7 +6743,7 @@ The sensor considers the entire spectrum and gets the results in W/m2.
 <a name="ansys-api-speos-sensor-v1-SensorTypeSpectral"></a>
 
 ### SensorTypeSpectral
-Color results and spectral data separated by wavelength (in lx or W/m2).
+Color results and spectral data separated by wavelength.
 
 
 | Field | Type | Label | Description |
@@ -6572,26 +6765,26 @@ Spectral excursion to use for simulation
 | ----- | ---- | ----- | ----------- |
 | w_start | [double](#double) |  | Defines the minimum wavelength. (nm) |
 | w_end | [double](#double) |  | Defines the maximum wavelength. (nm) |
-| w_sampling | [uint32](#uint32) |  | Defines the number of wavelength to be taken into account between the minimum and minimum wavelengths set. |
+| w_sampling | [uint32](#uint32) |  | Defines the number of wavelengths to be taken into account between the minimum and maximum wavelengths set. |
 
 
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_sensor_v1_irradiance_sensor-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/sensor/v1/irradiance_sensor.proto
+
+## sensor/v1/irradiance_sensor.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -6618,20 +6811,20 @@ Spectral excursion to use for simulation
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_sensor_v1_sensor-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/sensor/v1/sensor.proto
+
+## sensor/v1/sensor.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -6755,7 +6948,7 @@ Sensor template with its basic characteristics
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  | SensorTemplate name |
 | description | [string](#string) |  | SensorTemplate description |
-| metadata | [SensorTemplate.MetadataEntry](#ansys-api-speos-sensor-v1-SensorTemplate-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [SensorTemplate.MetadataEntry](#ansys-api-speos-sensor-v1-SensorTemplate-MetadataEntry) | repeated | User defined metadata |
 | camera_sensor_template | [CameraSensorTemplate](#ansys-api-speos-sensor-v1-CameraSensorTemplate) |  |  |
 | irradiance_sensor_template | [IrradianceSensorTemplate](#ansys-api-speos-sensor-v1-IrradianceSensorTemplate) |  |  |
 | radiance_sensor_template | [SensorTemplate.Radiance](#ansys-api-speos-sensor-v1-SensorTemplate-Radiance) |  |  |
@@ -6827,11 +7020,11 @@ Request to update a SensorTemplate in SensorTemplatesManager
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-sensor-v1-SensorTemplatesManager"></a>
@@ -6847,14 +7040,14 @@ Request to update a SensorTemplate in SensorTemplatesManager
 | Delete | [Delete_Request](#ansys-api-speos-sensor-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-sensor-v1-Delete_Response) | Delete a SensorTemplate |
 | List | [List_Request](#ansys-api-speos-sensor-v1-List_Request) | [List_Response](#ansys-api-speos-sensor-v1-List_Response) | List all SensorTemplates in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_simulation_v1_simulation_template-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/simulation/v1/simulation_template.proto
+
+## simulation/v1/simulation_template.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -6916,18 +7109,18 @@ Request to delete a SimulationTemplate in SimulationTemplatesManager
 <a name="ansys-api-speos-simulation-v1-templates-DirectMCSimulationTemplate"></a>
 
 ### DirectMCSimulationTemplate
-The Direct Simulation is commonly used to analyze standard optical systems.
+
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| geom_distance_tolerance | [double](#double) |  | Maximum distance in mm to consider two faces as tangent. |
-| max_impact | [int32](#int32) |  | Define a value to determine the maximum number of ray impacts during propagation. When a ray has interacted N times with the geometry, the propagation of the ray stops. |
-| weight | [Weight](#ansys-api-speos-simulation-v1-templates-Weight) |  | Activates Weight. Highly recommended to fill |
-| colorimetric_standard | [EnumColorimetricStandard](#ansys-api-speos-simulation-v1-templates-EnumColorimetricStandard) |  | Default Colorimetric Standard |
+| geom_distance_tolerance | [double](#double) |  | Maximum distance in mm to consider two faces as tangent |
+| max_impact | [int32](#int32) |  | To define a value to determine the maximum number of ray impacts during propagation. When a ray has interacted N times with the geometry, the propagation of the ray stops. |
+| weight | [Weight](#ansys-api-speos-simulation-v1-templates-Weight) |  | To activate Weight. The Weight represents the ray energy. In real life, a ray looses some energy (power) when it interacts with an object. |
+| colorimetric_standard | [EnumColorimetricStandard](#ansys-api-speos-simulation-v1-templates-EnumColorimetricStandard) |  | To define the Colorimetric Standard |
 | dispersion | [bool](#bool) |  | To activate the dispersion calculation. |
-| fast_transmission_gathering | [bool](#bool) |  | To accelerate the simulation by neglecting the light refraction that occurs when the light is being transmitted though a transparent surface. |
-| ambient_material_uri | [string](#string) |  | To define the environment in which the light will propagate (water, fog, smoke etc.). It is expressed in a .material file |
+| fast_transmission_gathering | [bool](#bool) |  | To accelerate the simulation by neglecting the light refraction that occurs when the light is being transmitted through a transparent surface. |
+| ambient_material_uri | [string](#string) |  | To select an ambient material *.material |
 
 
 
@@ -6937,22 +7130,22 @@ The Direct Simulation is commonly used to analyze standard optical systems.
 <a name="ansys-api-speos-simulation-v1-templates-InverseMCSimulationTemplate"></a>
 
 ### InverseMCSimulationTemplate
-The Inverse Simulation allows to reverse the light trajectory direction. 
-The propagation is done from the sensors to the sources. It is useful when needing to analyze optical systems where the sensors are small and the sources are diffuse.
+
 
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | geom_distance_tolerance | [double](#double) |  | Maximum distance in mm to consider two faces as tangent. |
-| max_impact | [int32](#int32) |  | Define a value to determine the maximum number of ray impacts during propagation. When a ray has interacted N times with the geometry, the propagation of the ray stops. |
-| weight | [Weight](#ansys-api-speos-simulation-v1-templates-Weight) |  | Activates Weight. Highly recommended to fill |
-| colorimetric_standard | [EnumColorimetricStandard](#ansys-api-speos-simulation-v1-templates-EnumColorimetricStandard) |  | Default Colorimetric Standard |
+| max_impact | [int32](#int32) |  | To define a value to determine the maximum number of ray impacts during propagation. When a ray has interacted N times with the geometry, the propagation of the ray stops. |
+| weight | [Weight](#ansys-api-speos-simulation-v1-templates-Weight) |  | To activate Weight. The Weight represents the ray energy. In real life, a ray looses some energy (power) when it interacts with an object. |
+| colorimetric_standard | [EnumColorimetricStandard](#ansys-api-speos-simulation-v1-templates-EnumColorimetricStandard) |  | To define the Colorimetric Standard |
 | dispersion | [bool](#bool) |  | To activate the dispersion calculation. |
 | splitting | [bool](#bool) |  | To split each propagated ray into several paths at their first impact after leaving the observer point. |
 | number_of_gathering_rays_per_source | [uint32](#uint32) |  | This number pilots the number of shadow rays to target at each source. |
-| maximum_gathering_error | [uint32](#uint32) |  | This value defines the level below which a source can be neglected. 0, the default value means that no approximation will be done. |
-| fast_transmission_gathering | [bool](#bool) |  | To accelerate the simulation by neglecting the light refraction that occurs when the light is being transmitted though a transparent surface. |
-| ambient_material_uri | [string](#string) |  | To define the environment in which the light will propagate (water, fog, smoke etc.). It is expressed in a .material file |
+| maximum_gathering_error | [uint32](#uint32) |  | Deprecated - Better use maximum_gathering_error_percentage. |
+| maximum_gathering_error_percentage | [double](#double) |  | This value defines the level below which a source can be neglected. 0, the default value means that no approximation will be done. |
+| fast_transmission_gathering | [bool](#bool) |  | To accelerate the simulation by neglecting the light refraction that occurs when the light is being transmitted through a transparent surface. |
+| ambient_material_uri | [string](#string) |  | To select an ambient material *.material |
 
 
 
@@ -7024,7 +7217,7 @@ Simulation template with its basic characteristics
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  | Simulation name |
 | description | [string](#string) |  | Simulation description |
-| metadata | [SimulationTemplate.MetadataEntry](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [SimulationTemplate.MetadataEntry](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-MetadataEntry) | repeated | User defined metadata |
 | direct_mc_simulation_template | [DirectMCSimulationTemplate](#ansys-api-speos-simulation-v1-templates-DirectMCSimulationTemplate) |  |  |
 | inverse_mc_simulation_template | [InverseMCSimulationTemplate](#ansys-api-speos-simulation-v1-templates-InverseMCSimulationTemplate) |  |  |
 | interactive_simulation_template | [SimulationTemplate.Interactive](#ansys-api-speos-simulation-v1-templates-SimulationTemplate-Interactive) |  |  |
@@ -7043,7 +7236,7 @@ Simulation template with its basic characteristics
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | geom_distance_tolerance | [double](#double) |  | Maximum distance in mm to consider two faces as tangent. |
-| max_impact | [int32](#int32) |  | Define a value to determine the maximum number of ray impacts during propagation. When a ray has interacted N times with the geometry, the propagation of the ray stops. |
+| max_impact | [int32](#int32) |  | Defines a value to determine the maximum number of ray impacts during propagation. When a ray has interacted N times with the geometry, the propagation of the ray stops. |
 | weight | [Weight](#ansys-api-speos-simulation-v1-templates-Weight) |  | Activates Weight. Highly recommended to fill |
 | colorimetric_standard | [EnumColorimetricStandard](#ansys-api-speos-simulation-v1-templates-EnumColorimetricStandard) |  | Default Colorimetric Standard |
 | ambient_material_uri | [string](#string) |  | To define the environment in which the light will propagate (water, fog, smoke etc.). It is expressed in a .material file |
@@ -7078,7 +7271,7 @@ Request to update a SimulationTemplate in SimulationTemplatesManager
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | guid | [string](#string) |  | Guid of the SimulationTemplate to be updated |
-| simulation_template | [SimulationTemplate](#ansys-api-speos-simulation-v1-templates-SimulationTemplate) |  | SimulationTemplate that will be use for the update |
+| simulation_template | [SimulationTemplate](#ansys-api-speos-simulation-v1-templates-SimulationTemplate) |  | SimulationTemplate that will be used for the update |
 
 
 
@@ -7098,12 +7291,7 @@ Request to update a SimulationTemplate in SimulationTemplatesManager
 <a name="ansys-api-speos-simulation-v1-templates-Weight"></a>
 
 ### Weight
-The Weight represents the ray energy. In real life, a ray looses some energy (power) when it interacts with an object.
-Activating weight means that the Weight message is present.
-When weight is not activated, rays&#39; energy stay constant and probability laws dictate if they continue or stop propagating.
-When weight is activated, the ray&#39;s energy evolves with interactions until they reach the sensors.
-It is highly recommended to fill this parameter excepted in interactive simulation.
-Not fill this parameter is useful to understand certain phenomena as absorption.
+
 
 
 | Field | Type | Label | Description |
@@ -7114,7 +7302,7 @@ Not fill this parameter is useful to understand certain phenomena as absorption.
 
 
 
- 
+ <!-- end messages -->
 
 
 <a name="ansys-api-speos-simulation-v1-templates-EnumColorimetricStandard"></a>
@@ -7128,9 +7316,9 @@ Default Colorimetric Standard
 | CIE_1964 | 1 | 10 degrees CIE Standard Colorimetric Observer Data. |
 
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-simulation-v1-templates-SimulationTemplatesManager"></a>
@@ -7146,14 +7334,14 @@ Default Colorimetric Standard
 | Delete | [Delete_Request](#ansys-api-speos-simulation-v1-templates-Delete_Request) | [Delete_Response](#ansys-api-speos-simulation-v1-templates-Delete_Response) | Delete a SimulationTemplate |
 | List | [List_Request](#ansys-api-speos-simulation-v1-templates-List_Request) | [List_Response](#ansys-api-speos-simulation-v1-templates-List_Response) | List all SimulationTemplates in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_sop_v1_sop-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/sop/v1/sop.proto
+
+## sop/v1/sop.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -7278,7 +7466,7 @@ Defines the behavior of light rays when they hit the surface of a body.
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  | SOPTemplate name |
 | description | [string](#string) |  | SOPTemplate description |
-| metadata | [SOPTemplate.MetadataEntry](#ansys-api-speos-sop-v1-SOPTemplate-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [SOPTemplate.MetadataEntry](#ansys-api-speos-sop-v1-SOPTemplate-MetadataEntry) | repeated | User defined metadata |
 | mirror | [SOPTemplate.Mirror](#ansys-api-speos-sop-v1-SOPTemplate-Mirror) |  | Perfect specular surface |
 | optical_polished | [SOPTemplate.OpticalPolished](#ansys-api-speos-sop-v1-SOPTemplate-OpticalPolished) |  | Transparent or perfectly polished material (glass, plastic) |
 | library | [SOPTemplate.Library](#ansys-api-speos-sop-v1-SOPTemplate-Library) |  | Based on surface optical properties file |
@@ -7386,11 +7574,11 @@ Request to update a SOPTemplate in SOPTemplatesManager
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-sop-v1-SOPTemplateActions"></a>
@@ -7415,14 +7603,14 @@ Manager for SOPTemplates (SOP: Surface Optical Properties)
 | Delete | [Delete_Request](#ansys-api-speos-sop-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-sop-v1-Delete_Response) | Delete a SOPTemplate |
 | List | [List_Request](#ansys-api-speos-sop-v1-List_Request) | [List_Response](#ansys-api-speos-sop-v1-List_Response) | List all SOPTemplates in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_source_v1_source-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/source/v1/source.proto
+
+## source/v1/source.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -7576,7 +7764,7 @@ Source template with its basic characteristics
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  | SourceTemplate name |
 | description | [string](#string) |  | SourceTemplate description |
-| metadata | [SourceTemplate.MetadataEntry](#ansys-api-speos-source-v1-SourceTemplate-MetadataEntry) | repeated | User defined metadatas |
+| metadata | [SourceTemplate.MetadataEntry](#ansys-api-speos-source-v1-SourceTemplate-MetadataEntry) | repeated | User defined metadata |
 | luminaire | [SourceTemplate.Luminaire](#ansys-api-speos-source-v1-SourceTemplate-Luminaire) |  |  |
 | surface | [SourceTemplate.Surface](#ansys-api-speos-source-v1-SourceTemplate-Surface) |  |  |
 | rayfile | [SourceTemplate.RayFile](#ansys-api-speos-source-v1-SourceTemplate-RayFile) |  |  |
@@ -7589,7 +7777,7 @@ Source template with its basic characteristics
 <a name="ansys-api-speos-source-v1-SourceTemplate-FromIntensityFile"></a>
 
 ### SourceTemplate.FromIntensityFile
-Flux messages
+Take flux from intensity file provided
 
 
 
@@ -7615,8 +7803,8 @@ Flux messages
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | flux_from_intensity_file | [SourceTemplate.FromIntensityFile](#ansys-api-speos-source-v1-SourceTemplate-FromIntensityFile) |  | Take flux from intensity file provided |
-| luminous_flux | [SourceTemplate.Luminous](#ansys-api-speos-source-v1-SourceTemplate-Luminous) |  | Luminous flux in lumens, must be positive |
-| radiant_flux | [SourceTemplate.Radiant](#ansys-api-speos-source-v1-SourceTemplate-Radiant) |  | Radiant flux in watts, must be positive |
+| luminous_flux | [SourceTemplate.Luminous](#ansys-api-speos-source-v1-SourceTemplate-Luminous) |  | Luminous flux in lumens, value >=0 |
+| radiant_flux | [SourceTemplate.Radiant](#ansys-api-speos-source-v1-SourceTemplate-Radiant) |  | Radiant flux in watts, value >=0 |
 | intensity_file_uri | [string](#string) |  | IES or EULUMDAT format file uri |
 | spectrum_guid | [string](#string) |  | Spectrum guid in spectrum manager |
 
@@ -7696,8 +7884,8 @@ Flux messages
 | ----- | ---- | ----- | ----------- |
 | ray_file_uri | [string](#string) |  | Rayfile format file uri (.ray or .tm25ray files expected) |
 | flux_from_ray_file | [SourceTemplate.FromRayFile](#ansys-api-speos-source-v1-SourceTemplate-FromRayFile) |  | Take flux from ray file provided |
-| luminous_flux | [SourceTemplate.Luminous](#ansys-api-speos-source-v1-SourceTemplate-Luminous) |  | Luminous flux in lumens, must be positive |
-| radiant_flux | [SourceTemplate.Radiant](#ansys-api-speos-source-v1-SourceTemplate-Radiant) |  | Radiant flux in watts, must be positive |
+| luminous_flux | [SourceTemplate.Luminous](#ansys-api-speos-source-v1-SourceTemplate-Luminous) |  | Luminous flux in lumens, value >=0 |
+| radiant_flux | [SourceTemplate.Radiant](#ansys-api-speos-source-v1-SourceTemplate-Radiant) |  | Radiant flux in watts, value >=0 |
 | spectrum_from_ray_file | [SourceTemplate.RayFile.SpectrumFromRayFile](#ansys-api-speos-source-v1-SourceTemplate-RayFile-SpectrumFromRayFile) |  | Take spectrum from ray file provided |
 | spectrum_guid | [string](#string) |  | Spectrum guid in spectrum manager |
 
@@ -7767,7 +7955,7 @@ Exitance messages
 <a name="ansys-api-speos-source-v1-SourceTemplate-Surface-SpectrumFromXMPFile"></a>
 
 ### SourceTemplate.Surface.SpectrumFromXMPFile
-Spectrum messages
+Take spectrum from xmp file provided
 
 
 
@@ -7799,11 +7987,11 @@ Request to update a SourceTemplate in SourceTemplatesManager
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-source-v1-SourceTemplateActions"></a>
@@ -7829,14 +8017,14 @@ Manager for SourceTemplates
 | Delete | [Delete_Request](#ansys-api-speos-source-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-source-v1-Delete_Response) | Delete a SourceTemplate |
 | List | [List_Request](#ansys-api-speos-source-v1-List_Request) | [List_Response](#ansys-api-speos-source-v1-List_Response) | List all SourceTemplates in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_spectrum_v1_spectrum-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/spectrum/v1/spectrum.proto
+
+## spectrum/v1/spectrum.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -7959,8 +8147,8 @@ Spectrum with its basic characteristics
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
 | name | [string](#string) |  | Spectrum name |
-| description | [string](#string) |  | Spectrum descrition |
-| metadata | [Spectrum.MetadataEntry](#ansys-api-speos-spectrum-v1-Spectrum-MetadataEntry) | repeated | User defined metadatas |
+| description | [string](#string) |  | Spectrum description |
+| metadata | [Spectrum.MetadataEntry](#ansys-api-speos-spectrum-v1-Spectrum-MetadataEntry) | repeated | User defined metadata |
 | monochromatic | [Spectrum.Monochromatic](#ansys-api-speos-spectrum-v1-Spectrum-Monochromatic) |  |  |
 | blackbody | [Spectrum.BlackBody](#ansys-api-speos-spectrum-v1-Spectrum-BlackBody) |  |  |
 | sampled | [Spectrum.Sampled](#ansys-api-speos-spectrum-v1-Spectrum-Sampled) |  |  |
@@ -8165,11 +8353,11 @@ Request to update a Spectrum in SpectrumsManager
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-spectrum-v1-SpectrumsManager"></a>
@@ -8185,14 +8373,14 @@ Request to update a Spectrum in SpectrumsManager
 | Delete | [Delete_Request](#ansys-api-speos-spectrum-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-spectrum-v1-Delete_Response) | Delete a Spectrum |
 | List | [List_Request](#ansys-api-speos-spectrum-v1-List_Request) | [List_Response](#ansys-api-speos-spectrum-v1-List_Response) | List all Spectrums in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_vop_v1_vop-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/vop/v1/vop.proto
+
+## vop/v1/vop.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited. ANSYS Confidential Information
 
 
@@ -8344,7 +8532,7 @@ Defines the behavior of light rays when they are propagated in a body.
 | name | [string](#string) |  | VOPTemplate name |
 | description | [string](#string) |  | VOPTemplate description |
 | metadata | [VOPTemplate.MetadataEntry](#ansys-api-speos-vop-v1-VOPTemplate-MetadataEntry) | repeated | User defined metadatas |
-| opaque | [VOPTemplate.Opaque](#ansys-api-speos-vop-v1-VOPTemplate-Opaque) |  | Non transparent material |
+| opaque | [VOPTemplate.Opaque](#ansys-api-speos-vop-v1-VOPTemplate-Opaque) |  | Non-transparent material |
 | optic | [VOPTemplate.Optic](#ansys-api-speos-vop-v1-VOPTemplate-Optic) |  | Transparent colorless material without bulk scattering |
 | library | [VOPTemplate.Library](#ansys-api-speos-vop-v1-VOPTemplate-Library) |  | Based on *.material file |
 | non_homogeneous | [VOPTemplate.NonHomogeneous](#ansys-api-speos-vop-v1-VOPTemplate-NonHomogeneous) |  | Material with non-homogeneous refractive index |
@@ -8393,7 +8581,7 @@ Material with non-homogeneous refractive index
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| gradedmaterial_file_uri | [string](#string) |  | .gradedmaterial file that describes the spectral variations of refractive index and absorption with the respect to position in space |
+| gradedmaterial_file_uri | [string](#string) |  | .gradedmaterial file that describes the spectral variations of refractive index and absorption with respect to position in space |
 
 
 
@@ -8403,7 +8591,7 @@ Material with non-homogeneous refractive index
 <a name="ansys-api-speos-vop-v1-VOPTemplate-Opaque"></a>
 
 ### VOPTemplate.Opaque
-Non transparent material
+Non-transparent material
 
 
 
@@ -8426,11 +8614,11 @@ Transparent colorless material without bulk scattering
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-vop-v1-VOPTemplateActions"></a>
@@ -8455,14 +8643,14 @@ Manager for VOPTemplates (VOP: Volume Optical Properties)
 | Delete | [Delete_Request](#ansys-api-speos-vop-v1-Delete_Request) | [Delete_Response](#ansys-api-speos-vop-v1-Delete_Response) | Delete a VOPTemplate |
 | List | [List_Request](#ansys-api-speos-vop-v1-List_Request) | [List_Response](#ansys-api-speos-vop-v1-List_Response) | List all VOPTemplates in manager |
 
- 
+ <!-- end services -->
 
 
-
+  <!-- Remove base directory -->
 <a name="ansys_api_speos_xmp_v1_xmp_file-proto"></a>
-<p align="right"><a href="#top">Top</a></p>
 
-## ansys/api/speos/xmp/v1/xmp_file.proto
+
+## xmp/v1/xmp_file.proto <!-- Use the cleaned file name here -->
 (c) 2025 ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 
 
@@ -8490,7 +8678,7 @@ Manager for VOPTemplates (VOP: Volume Optical Properties)
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| file_name | [string](#string) |  |  |
+| file_name | [string](#string) |  | .xmp |
 
 
 
@@ -8526,11 +8714,11 @@ Manager for VOPTemplates (VOP: Volume Optical Properties)
 
 
 
- 
+ <!-- end messages -->
 
- 
+ <!-- end enums -->
 
- 
+ <!-- end HasExtensions -->
 
 
 <a name="ansys-api-speos-xmp-v1-XmpFileService_Mono"></a>
@@ -8540,14 +8728,14 @@ service to manage xmp file
 
 | Method Name | Request Type | Response Type | Description |
 | ----------- | ------------ | ------------- | ------------|
-| CreateXMPFileInfo | [FileName](#ansys-api-speos-xmp-v1-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) | ! @brief Create Xmp file Info @param[in] FileName The Path to the Xmp file. |
-| BuildMapRelativeStandardError | [.google.protobuf.Empty](#google-protobuf-Empty) | [.google.protobuf.Empty](#google-protobuf-Empty) | ! @brief Build Relative Standard Error accessor Xmp file |
-| GetValueRelativeStandardError | [Coordinate2d](#ansys-api-speos-xmp-v1-Coordinate2d) | [Value](#ansys-api-speos-xmp-v1-Value) | ! @brief Get Value Relative Standard Error file |
-| GetNbPixelXRelativeStandardError | [.google.protobuf.Empty](#google-protobuf-Empty) | [Pixel](#ansys-api-speos-xmp-v1-Pixel) | ! @brief Get Nb pixel X Relative Standard Error file |
-| GetNbPixelYRelativeStandardError | [.google.protobuf.Empty](#google-protobuf-Empty) | [Pixel](#ansys-api-speos-xmp-v1-Pixel) | ! @brief Get Nb pixel Y Relative Standard Error file |
-| ExportXmpFileRelativeStandardError | [FileName](#ansys-api-speos-xmp-v1-FileName) | [.google.protobuf.Empty](#google-protobuf-Empty) | ! @brief Export Xmp File Relative Standard Error |
+| CreateXMPFileInfo | [FileName](#ansys-api-speos-xmp-v1-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | Create Xmp file Info @param[in] FileName The Path to the Xmp file. |
+| BuildMapRelativeStandardError | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | Build Relative Standard Error accessor Xmp file |
+| GetValueRelativeStandardError | [Coordinate2d](#ansys-api-speos-xmp-v1-Coordinate2d) | [Value](#ansys-api-speos-xmp-v1-Value) | Get Value Relative Standard Error file |
+| GetNbPixelXRelativeStandardError | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [Pixel](#ansys-api-speos-xmp-v1-Pixel) | Get Nb pixel X Relative Standard Error file |
+| GetNbPixelYRelativeStandardError | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | [Pixel](#ansys-api-speos-xmp-v1-Pixel) | Get Nb pixel Y Relative Standard Error file |
+| ExportXmpFileRelativeStandardError | [FileName](#ansys-api-speos-xmp-v1-FileName) | [.google.protobuf.Empty](https://protobuf.dev/reference/protobuf/google.protobuf/#empty) | Export Xmp File Relative Standard Error |
 
- 
+ <!-- end services -->
 
 
 
@@ -8570,4 +8758,3 @@ service to manage xmp file
 | <a name="bool" /> bool |  | bool | boolean | boolean | bool | bool | boolean | TrueClass/FalseClass |
 | <a name="string" /> string | A string must always contain UTF-8 encoded or 7-bit ASCII text. | string | String | str/unicode | string | string | string | String (UTF-8) |
 | <a name="bytes" /> bytes | May contain any arbitrary sequence of bytes. | string | ByteString | str | []byte | ByteString | string | String (ASCII-8BIT) |
-
