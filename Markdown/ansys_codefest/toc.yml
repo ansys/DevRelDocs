@@ -1,0 +1,57 @@
+
+- name: Introduction
+  href: index.md
+- name: Reference
+  items:
+    - name: Beam
+      href: ansys.codefest.mapdl.Beam.md
+    - name: BeamXn
+      href: ansys.codefest.mapdl.BeamXn.md
+    - name: Blueprint
+      href: ansys.codefest.mapdl.Blueprint.md
+    - name: BlueprintConstructionException
+      href: ansys.codefest.mapdl.BlueprintConstructionException.md
+    - name: BooleanVector
+      href: ansys.codefest.mapdl.BooleanVector.md
+    - name: Bridge
+      href: ansys.codefest.mapdl.Bridge.md
+    - name: BuildyMcBuildFace
+      href: ansys.codefest.mapdl.BuildyMcBuildFace.md
+    - name: Challenge
+      href: ansys.codefest.mapdl.Challenge.md
+    - name: ChallengeError
+      href: ansys.codefest.mapdl.ChallengeError.md
+    - name: CrossSection
+      href: ansys.codefest.mapdl.CrossSection.md
+    - name: Material
+      href: ansys.codefest.mapdl.Material.md
+    - name: NodalBoundaryCondition
+      href: ansys.codefest.mapdl.NodalBoundaryCondition.md
+    - name: Node
+      href: ansys.codefest.mapdl.Node.md
+    - name: PhysicalLimits
+      href: ansys.codefest.mapdl.PhysicalLimits.md
+    - name: Server
+      href: ansys.codefest.mapdl.Server.md
+    - name: Simulation
+      href: ansys.codefest.mapdl.Simulation.md
+    - name: Start
+      href: ansys.codefest.mapdl.Start.md
+    - name: StoryType
+      href: ansys.codefest.mapdl.StoryType.md
+    - name: Submission
+      href: ansys.codefest.mapdl.Submission.md
+    - name: TypeNode
+      href: ansys.codefest.mapdl.TypeNode.md
+    - name: Vector
+      href: ansys.codefest.mapdl.Vector.md
+    - name: calc_distance_between_vectors
+      href: ansys.codefest.mapdl.calc_distance_between_vectors.md
+    - name: degrees_to_radians
+      href: ansys.codefest.mapdl.degrees_to_radians.md
+    - name: rotate_coordinates
+      href: ansys.codefest.mapdl.rotate_coordinates.md
+    - name: save_pymapdl_script
+      href: ansys.codefest.mapdl.save_pymapdl_script.md
+    - name: save_simple_pymapdl_script
+      href: ansys.codefest.mapdl.save_simple_pymapdl_script.md
