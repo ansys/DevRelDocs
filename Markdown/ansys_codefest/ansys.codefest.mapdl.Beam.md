@@ -1,6 +1,17 @@
 
 # <kbd>class</kbd> `Beam`
-Continuous material linking two nodes. 
+Dataclass for continuous material linking two nodes. 
+
+
+
+**Args:**
+ 
+ - <b>`start`</b>:  starting node of beam 
+ - <b>`end`</b>:  ending node of beam 
+ - <b>`section`</b>:  cross-section of beam 
+ - <b>`material`</b>:  material of beam 
+ - <b>`number`</b>:  beam number 
+ - <b>`stress`</b>:  maximum stress experienced by beam. Initialises as 0. 
 
 ### <kbd>method</kbd> `Beam.__init__`
 
