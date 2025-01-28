@@ -1,6 +1,4 @@
-# Protocol Documentation
-
-
+# API reference
 
   <!-- Remove base directory -->
 <a name="ansys_api_speos_LTF_v1_LTF-proto"></a>
