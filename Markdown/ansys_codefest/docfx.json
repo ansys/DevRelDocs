@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Ansys CodeFest package documentation",
+      "summary": "Ansys CodeFest companion library documentation",
+      "version": "0.2.0",
+      "product": "None",
+      "programming language": "Python",
+      "product collection": "Structures",
+      "physics": "Mechanical"
+    }
+  }
+}
