@@ -2,7 +2,20 @@
 # <kbd>class</kbd> `CrossSection`
 Beam cross-section details. 
 
-There are 4 cross-sections available: RECT - BeamXn.RECTANGLE HREC - BeamXn.RECTANGLETUBE CSOLID - BeamXn.CIRCLE CTUBE - BeamXn.CYLINDER 
+There are 4 cross-sections available.; 
+
+
+    - RECT - BeamXn.RECTANGLE 
+    - HREC - BeamXn.RECTANGLETUBE 
+    - CSOLID - BeamXn.CIRCLE 
+    - CTUBE - BeamXn.CYLINDER 
+
+
+
+**Args:**
+ 
+ - <b>`shape`</b>:  Beam cross-section shape 
+ - <b>`dimensions`</b>:  Dimensions list to accompany the shape 
 
 ### <kbd>method</kbd> `CrossSection.__init__`
 
