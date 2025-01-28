@@ -4,13 +4,13 @@ Beam cross-section enum.
 
 In PyMAPDL the beam cross-sections correspond to the following sectypes. 
 
-* RECT = RECTANGLE = 1 
+ * RECT = RECTANGLE = 1 
 
-* HREC = RECTANGLETUBE = 4 
+ * HREC = RECTANGLETUBE = 4 
 
-* CSOLID = CIRCLE = 2 
+ * CSOLID = CIRCLE = 2 
 
-* CTUBE = CYLINDER = 3 
+ * CTUBE = CYLINDER = 3 
 
 Dimensions structure for each cross-section shown below: 
 

@@ -61,7 +61,7 @@ The file path to the story file.
 
 
 **Returns:**
- `           the location of the story file as a pathlib Path 
+  the location of the story file as a pathlib Path 
 
 ---
 
@@ -72,7 +72,7 @@ The suggestion file path.
 
 
 **Returns:**
- `           the location of the suggestion json file as a pathlib Path 
+  the location of the suggestion json file as a pathlib Path 
 
 
 
@@ -115,14 +115,14 @@ Create a Challenge instance from scratch.
 
 **Args:**
  
-         - <b>`path_to_level`</b>:  path to where the level file should go 
-         - <b>`path_to_suggestion`</b>:  path to where the suggestion file should go 
-         - <b>`story_type`</b>:  what sort of instructions should be added to the  challenge 
+ - <b>`path_to_level`</b>:  path to where the level file should go 
+ - <b>`path_to_suggestion`</b>:  path to where the suggestion file should go 
+ - <b>`story_type`</b>:  what sort of instructions should be added to the  challenge 
 
 
 
 **Returns:**
- `           The new challenge instance 
+ The new challenge instance 
 
 ---
 
@@ -141,13 +141,13 @@ Create a Challenge instance from a built-in an example.
 
 **Args:**
  
-         - <b>`number`</b>:  aka ID. This will be something like `'8'` or `'1a'` 
-         - <b>`story_type`</b>:  what sort of instructions should be added to the  challenge 
+ - <b>`number`</b>:  aka ID. This will be something like `'8'` or `'1a'` 
+ - <b>`story_type`</b>:  what sort of instructions should be added to the  challenge 
 
 
 
 **Returns:**
- `           The new challenge instance 
+ The new challenge instance 
 
 ---
 

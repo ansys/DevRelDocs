@@ -2,6 +2,13 @@
 # <kbd>class</kbd> `Blueprint`
 The Plan/Blueprint for a simulation. Contains nodes, beams and BCs. 
 
+
+
+**Args:**
+ 
+ - <b>`nodes`</b>:  list of nodes created for the blueprint 
+ - <b>`beams`</b>:  list of beams created for the blueprint 
+
 ### <kbd>method</kbd> `Blueprint.__init__`
 
 ```python

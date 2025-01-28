@@ -25,6 +25,12 @@ Ansys Codefest Companion Library
 - Requires-Dist - ipython>=8.10.0
 - Requires-Dist - ansys-mapdl-core>0.68.0
 - Requires-Dist - jupyter>=1.0.0
+- Requires-Dist - pytest >=2.7.3 ; extra == "test"
+- Requires-Dist - pytest-cov ; extra == "test"
+- Requires-Dist - pre-commit ; extra == "test"
+- Requires-Dist - pytest-rerunfailures ; extra == "test"
+- Requires-Dist - pytest-cov ; extra == "test"
+- Provides-Extra - test
 
 # Ansys CodeFest Companion Library
 
