@@ -1,6 +1,20 @@
 
 # <kbd>class</kbd> `Simulation`
-Simulation class. Consumes 1 blueprint instance in order to perform = 
+Simulation class. Consumes 1 blueprint instance in order to perform. 
+
+Most args are left as defaults and calculated during the building phase. 
+
+
+
+**Args:**
+ 
+ - <b>`blueprint`</b>:  a blueprint object 
+ - <b>`nodes`</b>:  list of nodes to be simulated 
+ - <b>`beams`</b>:  list of beams to be simulated 
+ - <b>`mapdl`</b>:  base mapdl object (or existing session object) 
+ - <b>`mapdl_version`</b>:  version number if specific one is needed 
+ - <b>`mapdl_loc`</b>:  location on your harddrive of the mapdl executable if needed 
+ - <b>`server`</b>:  server url if connection to remote server needed. 
 
 ### <kbd>method</kbd> `Simulation.__init__`
 
