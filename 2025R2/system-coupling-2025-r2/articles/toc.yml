@@ -502,6 +502,6 @@
     - name: fortran::syscvolumemeshf
       href: fortran-reference/structfortran_1_1syscvolumemeshf.md
 - name: Python API reference
-  homepage: python-reference/python-apis-notes.md
+  href: python-reference/python-apis-notes.md
 - name: Changelog
   href: changelog.md
