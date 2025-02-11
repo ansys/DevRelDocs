@@ -4,10 +4,10 @@
 
 ### New Features
 
-- · added case set group name parameter to TDSF\_CoSolver constructors
-- · added Message member to CompareSuite; just returns Log member
-- · twin lump ids are now automatically sequenced if lump.TwinId == 0
-- · added auto start of OpenTD servers on \_SAVEAS for all versions of OpenTD
+- added case set group name parameter to TDSF\_CoSolver constructors
+- added Message member to CompareSuite; just returns Log member
+- twin lump ids are now automatically sequenced if lump.TwinId == 0
+- added auto start of OpenTD servers on \_SAVEAS for all versions of OpenTD
 
 ## Version 2024 R1
 
