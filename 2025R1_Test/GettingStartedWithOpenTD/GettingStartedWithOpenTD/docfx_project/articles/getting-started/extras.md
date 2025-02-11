@@ -1,6 +1,8 @@
 
 # Extras
 
+The Extras section covers advanced topics and additional functionalities in OpenTD, including connection management, server control, command execution, implicit casting, and versioning considerations.
+
 ## Control how OpenTD Connects to Thermal Desktop
 
 In this guide, we mostly call ThermalDesktop.Connect() with default options, which means it starts a new instance of TD with the latest version of AutoCAD available, then creates a new, blank drawing. To change this behavior, set the ThermalDesktop.*ConnectConfig* member before calling Connect(), as shown in the following program, which hides the AutoCAD window while it’s running:

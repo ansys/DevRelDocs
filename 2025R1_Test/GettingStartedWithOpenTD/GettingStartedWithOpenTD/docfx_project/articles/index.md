@@ -1,4 +1,4 @@
-# Introduction and prerequisites
+# Introduction
 
 OpenTD is an Application Programming Interface (API) for Thermal Desktop (TD) that allows you to automate many of the tasks currently performed interactively using TD's Graphical User Interface (GUI). OpenTD gives you the tools to programmatically create, query, edit and delete models, interact with end users, run and control solutions, and manipulate results. You can use any .NET language to interact with OpenTD (C#, VB.NET, F#, etc.) or any system that can load .NET assemblies such as MATLAB or Python.
 
