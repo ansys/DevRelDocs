@@ -1,6 +1,6 @@
 # Communicating with SINDA/FLUINT
 
-OpenTD can be used to communicate with and control running SINDA/FLUINT (S/F) solutions using the classes in the OpenTDv232.*CoSolver* namespace:
+OpenTD can be used to communicate with and control running SINDA/FLUINT (S/F) solutions using the classes in the OpenTDv242.*CoSolver* namespace:
 
 - *SF_Launcher* is used to load and run a S/F model directly from an input file, such as an *inp* file created by the TD Case Set Manager. Once launched, the solution proceeds normally with no interaction from the SF_Launcher object.
 - *SF_CoSolver* is like an SF_Launcher in that it launches a S/F model from an input file, but once launched it attempts to connect to and control it.

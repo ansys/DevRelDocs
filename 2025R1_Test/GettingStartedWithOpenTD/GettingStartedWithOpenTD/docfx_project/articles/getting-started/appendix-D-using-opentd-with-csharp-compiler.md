@@ -5,10 +5,10 @@ Normally C\# is compiled before running, but you can open an interactive C\# Rea
 
 Once open, you can use it to interactively execute C\# code, including OpenTD. For example:
 
-```c#
-\> \#r "OpenTDv232" // loads the dll as a reference
+```csharp
+\> \#r "OpenTDv242" // loads the dll as a reference
 
-\> using OpenTDv232;
+\> using OpenTDv242;
 
 \> var td = new ThermalDesktop();
 

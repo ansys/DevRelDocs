@@ -2,8 +2,8 @@
 
 While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C\#. The following .m script is a MATLAB port of the program in Section 5.1 “Create and Run a Case”. This can be used as a sort of "Rosetta Stone" to help you translate other C\# examples to MATLAB.
 
-```
-%% Using OpenTD 2023 R2 with MATLAB
+```MATLAB
+%% Using OpenTDv242 with MATLAB
 
 % CRTech
 
@@ -37,9 +37,9 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 
 % MATLAB does not support implicit constructors.
 
-% To get started with OpenTD, read "Getting Started with OpenTD 63.pdf",
+% To get started with OpenTD, read "Getting Started with OpenTDv242.pdf",
 
-% which can be found in your TD 2023 R2 installation directory under "Manual".
+% which can be found in your TD v241 installation directory under "Manual".
 
 % The Getting Started guide explains the fundamental concepts of OpenTD,
 
@@ -49,7 +49,7 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 
 %% The "Create and Run a Case" example ported to MATLAB
 
-% See "Getting Started with OpenTD 63.pdf" in your TD 2023 R2 installation
+% See "Getting Started with OpenTDv242.pdf" in your TD v241 installation
 
 % directory under "Manual" for an explanation of this script.
 
@@ -63,9 +63,9 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 
 % set -- in the script below vs. in the original C\#.
 
-openTD = NET.addAssembly('OpenTDv232');
+openTD = NET.addAssembly('OpenTDv242');
 
-import OpenTDv232.\*;
+import OpenTDv242.\*;
 
 td = ThermalDesktop;
 
@@ -73,7 +73,7 @@ td.Connect();
 
 % \*\*\* Create a simple model of a heated bar \*\*\*
 
-barNodes = NET.createArray('OpenTDv232.Node', 10);
+barNodes = NET.createArray('OpenTDv242.Node', 10);
 
 for i = 1:10
 
@@ -113,7 +113,7 @@ roomAir = td.CreateNode();
 
 roomAir.Submodel = SubmodelNameData('room');
 
-roomAir.NodeType = OpenTDv232.('RcNodeData+NodeTypes').BOUNDARY;
+roomAir.NodeType = OpenTDv242.('RcNodeData+NodeTypes').BOUNDARY;
 
 roomAir.Origin = Point3d(0.055, 1.1, 0);
 
@@ -123,7 +123,7 @@ roomAir.Update();
 
 barConnections = NET.createGeneric(...
 
-'System.Collections.Generic.List', {'OpenTDv232.Connection'},10);
+'System.Collections.Generic.List', {'OpenTDv242.Connection'},10);
 
 for i = 1:10
 
@@ -145,7 +145,7 @@ qTorch = td.CreateSymbol('qTorch', '80');
 
 heatLoadConnections = NET.createGeneric(...
 
-'System.Collections.Generic.List', {'OpenTDv232.Connection'},1)
+'System.Collections.Generic.List', {'OpenTDv242.Connection'},1);
 
 heatLoadConnections.Add(Connection(barNodes(1).Handle));
 

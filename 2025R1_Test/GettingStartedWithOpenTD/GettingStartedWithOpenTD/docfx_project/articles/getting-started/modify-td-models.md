@@ -35,9 +35,9 @@ using System.Collections.Generic;
 
 using System.Linq;
 
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -247,11 +247,11 @@ using System;
 
 using System.Linq;
 
-using OpenTDv232;
+using OpenTDv242;
 
-using OpenTDv232.RadCAD.FEM;
+using OpenTDv242.RadCAD.FEM;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -271,7 +271,7 @@ namespace OpenTDv232GettingStarted
 
             var meshImporter = td.CreateFEMeshImporter("a mesh importer", false);
 
-            var feMesh = new OpenTDv232.RadCAD.FEModel.FEMesh();
+            var feMesh = new OpenTDv242.RadCAD.FEModel.FEMesh();
 
             int uDiv = 3;
 
@@ -309,7 +309,7 @@ namespace OpenTDv232GettingStarted
 
                     Math.Cos(y / yLen \*yPeriods \*2.0 \*Math.PI);
 
-                    var node = new OpenTDv232.RadCAD.FEModel.Node();
+                    var node = new OpenTDv242.RadCAD.FEModel.Node();
 
                     node.x = x;
 
@@ -331,7 +331,7 @@ namespace OpenTDv232GettingStarted
 
 {
 
-                        var face = new OpenTDv232.RadCAD.FEModel.SurfaceElement();
+                        var face = new OpenTDv242.RadCAD.FEModel.SurfaceElement();
 
                         face.id = ++elemId;
 

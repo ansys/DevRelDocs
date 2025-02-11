@@ -1,9 +1,9 @@
 # Appendix B: Using OpenTD with Python
 
-While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C\#. The following .py script is a MATLAB port of the program in Section 5.1 “Create and Run a Case”. This can be used as a sort of "Rosetta Stone" to help you translate other C\# examples to Python. It uses the pythonnet module, found at: <http://pythonnet.github.io/>
+While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C\#. The following .py script is a MATLAB port of the program in Section 5.1 “Create and Run a Case”. This can be used as a sort of "Rosetta Stone" to help you translate other C\# examples to Python. It uses the pythonnet module, found at: [http://pythonnet.github.io/](http://pythonnet.github.io/).
 
 ```python
-\#\#\#\# Using OpenTD 2023 R2 with Python \#\#\#\#
+\#\#\#\# Using OpenTDv242 with Python \#\#\#\#
 
 \# CRTech
 
@@ -39,9 +39,9 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 
 \# http://pythonnet.github.io/
 
-\# To get started with OpenTD, read "Getting Started with OpenTD 63.pdf",
+\# To get started with OpenTD, read "Getting Started with OpenTDv242.pdf",
 
-\# which can be found in your TD 2023 R2 installation directory under "Manual".
+\# which can be found in your TD v241 installation directory under "Manual".
 
 \# The Getting Started guide explains the fundamental concepts of OpenTD,
 
@@ -51,7 +51,7 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 
 \#\#\#\# The "Create and Run a Case" example ported to Python \#\#\#\#
 
-\# See "Getting Started with OpenTD 63.pdf" in your TD 2023 R2 installation
+\# See "Getting Started with OpenTDv242.pdf" in your TD v241 installation
 
 \# directory under "Manual" for an explanation of this script.
 
@@ -69,13 +69,13 @@ import clr
 
 \# Need to add explicit GAC path to sys.path so clr.AddReference
 
-\# can find OpenTDv232.dll. Note the use of forward slashes in the path:
+\# can find OpenTDv242.dll. Note the use of forward slashes in the path:
 
-sys.path.append("C:/Windows/Microsoft.NET/assembly/GAC_MSIL/OpenTDv232/ReplaceMe")
+sys.path.append("C:/Windows/Microsoft.NET/assembly/GAC_MSIL/OpenTDv242/ReplaceMe")
 
-clr.AddReference("OpenTDv232")
+clr.AddReference("OpenTDv242")
 
-from OpenTDv232 import \*
+from OpenTDv242 import \*
 
 \# We'll want to use .NET System types and generic Lists:
 
@@ -89,9 +89,9 @@ from System.Collections.Generic import List
 
 \# refer to them explicitly. (See setting InitialTemp, below.)
 
-from OpenTDv232 import Dimension
+from OpenTDv242 import Dimension
 
-from OpenTDv232.Dimension import \*
+from OpenTDv242.Dimension import \*
 
 td = ThermalDesktop()
 
