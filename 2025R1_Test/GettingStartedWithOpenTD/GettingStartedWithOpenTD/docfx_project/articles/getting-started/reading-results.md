@@ -1528,11 +1528,11 @@ new CompareAssertion(baseline, differentT, false),
 }
 ```
 
-## Work with Datasets in TD using OpenTDv242.PostProcessing
+## Work with datasets in TD using OpenTDv242.PostProcessing
 
 To work with solution results within Thermal Desktop, use the OpenTDv242.PostProcessing namespace, specifically the ThermalDesktop.*DatasetManager*. This gives you the same functionality as the “Postprocessing Datasets” dialog in the GUI.
 
-### Create Contour Plots
+### Create contour plots
 
 The following program will create and run a simple model, use the OpenTDv242.Results namespace to find when the max mCp-weighted temperature of a component occurs, then use the DatasetManager to create a temperature contour at that time with TD. It will also display an XY plot of the mCp-weighted temperature, to confirm that the correct time was selected. This barely scratches the surface of what you can do with the DatasetManager!
 
