@@ -8,38 +8,40 @@ Let’s create a simple OpenTD program. Start by creating a C\# console applicat
 
 ![A screenshot of a computer screen Description automatically generated with low confidence](media/d47e44c0a654c0607631af3cacc32f6a.png)
 
-Next, add a reference to the OpenTDv232.dll assembly, which you can find in the GAC. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenTDv232.) If there are multiple directories, use the one with the highest Assembly Version, which you will see in the directory name, for example “…_23.2.0.0__...”.
+Next, add a reference to the OpenTDv242.dll assembly, which you can find in the GAC. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenTDv242.) If there are multiple directories, use the one with the highest Assembly Version, which you will see in the directory name, for example “…_24.2.0.0__...”.
 
 Add the following code, then compile and run the program:
 
-```c#
-using OpenTDv232;
+```csharp
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
-    class HelloWorld
+ class HelloWorld
 
-    {
+ {
 
-        public static void Main(string[] args)
+     public static void Main(string[] args)
 
-        {
+     {
 
             var td = new ThermalDesktop();
 
             td.Connect();
 
+ 
+
             var n = td.CreateNode();
 
-            n.Comment = "Hello World!";
+         n.Comment = "Hello World!";
 
             n.Update();
 
-        }
+     }
 
-    }
+ }
 
 }
 ```
@@ -61,9 +63,9 @@ Next, we updated the *Comment* member of n. This only updated the comment for th
 This program demonstrates how to create two nodes and connect them with a conductor. To try it, create a .NET Framework C\# console application that references OpenTD, add the following code, then compile and run it.
 
 ```c#
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -133,9 +135,9 @@ using System;
 
 using System.Collections.Generic;
 
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -255,9 +257,9 @@ You can use OpenTD to create Finite Difference (FD) surfaces and solids, and oth
  Here is a program that demonstrates creating FD entities and positioning them using BaseTrans and LocalTrans:
 
 ```c#
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -430,9 +432,9 @@ Creating a finite element mesh using the *FEMeshImporter* class is demonstrated 
 ```c#
 using System;
 
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -474,7 +476,7 @@ namespace OpenTDv232GettingStarted
 
             // the SetMesh command.
 
-            var feMesh = new OpenTDv232.RadCAD.FEModel.FEMesh();
+            var feMesh = new OpenTDv242.RadCAD.FEModel.FEMesh();
 
             int uDiv = 10;
 
@@ -514,7 +516,7 @@ namespace OpenTDv232GettingStarted
 
                     // lightweight node description:
 
-                    var node = new OpenTDv232.RadCAD.FEModel.Node();
+                    var node = new OpenTDv242.RadCAD.FEModel.Node();
 
                     node.x = x;
 
@@ -538,7 +540,7 @@ namespace OpenTDv232GettingStarted
 
                         // lightweight surface description:
 
-                        var face = new OpenTDv232.RadCAD.FEModel.SurfaceElement();
+                        var face = new OpenTDv242.RadCAD.FEModel.SurfaceElement();
 
                         face.id = ++elemId;
 
@@ -606,9 +608,9 @@ The following program demonstrates these concepts:
 ```c#
 using System.Collections.Generic;
 
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -730,9 +732,9 @@ using System.Collections.Generic;
 
 using System.Linq; // for the Select method, below
 
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -878,9 +880,9 @@ The following program demonstrates how to create or open a thermophysical proper
 ```c#
 using System.Collections.Generic;
 
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -1050,9 +1052,9 @@ If you have a RadCAD license, you can create optical properties with OpenTD. The
 ```c#
 using System.Collections.Generic;
 
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -1138,11 +1140,11 @@ With a FloCAD license, you can use OpenTD to work with FloCAD entities, using me
 ```c#
 using System.Collections.Generic;
 
-using OpenTDv232;
+using OpenTDv242;
 
-using OpenTDv232.FloCAD;
+using OpenTDv242.FloCAD;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 

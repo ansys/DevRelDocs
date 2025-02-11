@@ -7,15 +7,15 @@
 
     The following examples will show how to use both methods.
 
-## Work directly with results using OpenTDv232.Results
+## Work directly with results using OpenTDv242.Results
 
-        The classes for working directly with save files, CSR’s or other solution results are found within the *OpenTDv232.Results* namespace, packaged within the OpenTDv232.Results.dll assembly. The following section describes how to set up a .NET project to access this assembly.
+        The classes for working directly with save files, CSR’s or other solution results are found within the *OpenTDv242.Results* namespace, packaged within the OpenTDv242.Results.dll assembly. The following section describes how to set up a .NET project to access this assembly.
 
-### Before using OpenTDv232.Results
+### Before using OpenTDv242.Results
 
-            To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv232.Results.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\OpenTDv232.Results.) You will also probably need to add a reference to OpenTDv232.dll, as usual. (See Section 2.1.)
+            To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.Results.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. (See Section 2.1.)
 
-            Since OpenTDv232.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration Manager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look something like this:
+            Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration Manager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look something like this:
 
             ![](media/19913b5a9a51f4926a07426227c010fa.png)
 
@@ -23,9 +23,9 @@
 
             OpenTD offers powerful tools for manipulating solution results, but it is a lot to learn all at once. This section shows how to simply get some data out of a save file or CSR.
 
-            First, reference the OpenTDv232.Results dll as discussed above. Next, add a using statement for convenience:
+            First, reference the OpenTDv242.Results dll as discussed above. Next, add a using statement for convenience:
 
-using OpenTDv232.Results.Dataset;
+using OpenTDv242.Results.Dataset;
 
 Now you can connect to a save file:
 
@@ -144,18 +144,18 @@ Compared to previous methods for extracting and plotting SINDA/FLUINT data, Open
 
 In this program, we will make use of the “torchNom.sav” and “torchCold.sav” files created in Section 5.1, so please run that program and locate the two save files.
 
-Once Visual Studio is set up with a 64-bit solution and project (Section 7.1.1 above), and you have added references to OpenTDv232.dll and OpenTDv232.Results.dll, you will be ready to try the following program.
+Once Visual Studio is set up with a 64-bit solution and project (Section 7.1.1 above), and you have added references to OpenTDv242.dll and OpenTDv242.Results.dll, you will be ready to try the following program.
 
 ```c#
 using System;
 
-using OpenTDv232;
+using OpenTDv242;
 
-using OpenTDv232.Results.Dataset;
+using OpenTDv242.Results.Dataset;
 
-using OpenTDv232.Results.Plot;
+using OpenTDv242.Results.Plot;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -356,7 +356,7 @@ If it runs correctly, you should see several *SimplePlot*-generated dialogs like
 
     The previous example provided an overview of using OpenTD to read and plot SINDA/FLUINT results. In the following example we will discuss ItemIdentifiers and DataItemIdentifiers, which allow you to specify groups of items, whether by submodel, domain, or arbitrary list.
 
-    Once again, we are using the OpenTDv232.Results dll, so create a 64-bit project as discussed in Section 7.1.
+    Once again, we are using the OpenTDv242.Results dll, so create a 64-bit project as discussed in Section 7.1.
 
 ```c#
 using System;
@@ -365,13 +365,13 @@ using System.IO;
 
 using System.Collections.Generic;
 
-using OpenTDv232;
+using OpenTDv242;
 
-using OpenTDv232.Results.Dataset;
+using OpenTDv242.Results.Dataset;
 
-using OpenTDv232.Results.Plot;
+using OpenTDv242.Results.Plot;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -739,11 +739,11 @@ using System.Collections.Generic;
 
 using System.IO;
 
-using OpenTDv232.Results.Dataset;
+using OpenTDv242.Results.Dataset;
 
-using OpenTDv232.Results.Dataset.Topology;
+using OpenTDv242.Results.Dataset.Topology;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -825,13 +825,13 @@ using System.Collections.Generic;
 
 using System.IO;
 
-using OpenTDv232.Results.Dataset;
+using OpenTDv242.Results.Dataset;
 
-using OpenTDv232.Results.Dataset.Topology;
+using OpenTDv242.Results.Dataset.Topology;
 
-using OpenTDv232.Results.Plot;
+using OpenTDv242.Results.Plot;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -934,20 +934,20 @@ For this program, we only looked at heat rates between submodels, using IBrowser
 
     TextTransientFile, for reading the TD-specific Text Transient Dataset file, as defined in the TD manual.
 
-    All of them implement the OpenTDv232.Dataset.IDataset interface, so they can be used interchangeably. The following program demonstrates treating a csv file as a Dataset using OpenTDv232.Results:
+    All of them implement the OpenTDv242.Dataset.IDataset interface, so they can be used interchangeably. The following program demonstrates treating a csv file as a Dataset using OpenTDv242.Results:
 
 ```c#
 using System;
 
 using System.IO;
 
-using OpenTDv232;
+using OpenTDv242;
 
-using OpenTDv232.Results.Dataset;
+using OpenTDv242.Results.Dataset;
 
-using OpenTDv232.Results.Plot;
+using OpenTDv242.Results.Plot;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -1109,13 +1109,13 @@ using System;
 
 using System.IO;
 
-using OpenTDv232;
+using OpenTDv242;
 
-using OpenTDv232.Results.Dataset;
+using OpenTDv242.Results.Dataset;
 
-using OpenTDv232.Results.Plot;
+using OpenTDv242.Results.Plot;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -1343,9 +1343,9 @@ using System;
 
 using System.IO;
 
-using OpenTDv232.Results.Dataset;
+using OpenTDv242.Results.Dataset;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -1528,28 +1528,28 @@ new CompareAssertion(baseline, differentT, false),
 }
 ```
 
-## Work with Datasets in TD using OpenTDv232.PostProcessing
+## Work with Datasets in TD using OpenTDv242.PostProcessing
 
-To work with solution results within Thermal Desktop, use the OpenTDv232.PostProcessing namespace, specifically the ThermalDesktop.*DatasetManager*. This gives you the same functionality as the “Postprocessing Datasets” dialog in the GUI.
+To work with solution results within Thermal Desktop, use the OpenTDv242.PostProcessing namespace, specifically the ThermalDesktop.*DatasetManager*. This gives you the same functionality as the “Postprocessing Datasets” dialog in the GUI.
 
 ### Create Contour Plots
 
-The following program will create and run a simple model, use the OpenTDv232.Results namespace to find when the max mCp-weighted temperature of a component occurs, then use the DatasetManager to create a temperature contour at that time with TD. It will also display an XY plot of the mCp-weighted temperature, to confirm that the correct time was selected. This barely scratches the surface of what you can do with the DatasetManager!
+The following program will create and run a simple model, use the OpenTDv242.Results namespace to find when the max mCp-weighted temperature of a component occurs, then use the DatasetManager to create a temperature contour at that time with TD. It will also display an XY plot of the mCp-weighted temperature, to confirm that the correct time was selected. This barely scratches the surface of what you can do with the DatasetManager!
 
 ```c#
 using System.IO;
 
 using System.Linq;
 
-using OpenTDv232;
+using OpenTDv242;
 
-using OpenTDv232.Dimension;
+using OpenTDv242.Dimension;
 
-using OpenTDv232.Results.Dataset;
+using OpenTDv242.Results.Dataset;
 
-using OpenTDv232.Results.Plot;
+using OpenTDv242.Results.Plot;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -1679,7 +1679,7 @@ var savPath = Path.Combine(workingDir, "myCase.sav");
 
             savPath,
 
-            OpenTDv232.PostProcessing.Dataset.DataSourceTypes.SF);
+            OpenTDv242.PostProcessing.Dataset.DataSourceTypes.SF);
 
             tdDataset.CurrentTimeIndex = maxTindex;
 

@@ -11,9 +11,9 @@ using System.Collections.Generic;
 
 using System.IO;
 
-using OpenTDv232;
+using OpenTDv242;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
@@ -181,11 +181,11 @@ Solution files, including “torchNom.sav” and “torchCold.sav”, will be wr
 Orbits are created using the ThermalDesktop.*CreateOrbit* method. Once created, they are applied to case sets by adding a new item to the *CaseSet.RadiationTasks* list. This can also be used to add other types of radiation tasks, such as RADK calculations, as shown in the following program:
 
 ```c#
-using OpenTDv232;
+using OpenTDv242;
 
-using OpenTDv232.RadCAD;
+using OpenTDv242.RadCAD;
 
-namespace OpenTDv232GettingStarted
+namespace OpenTDv242GettingStarted
 
 {
 
