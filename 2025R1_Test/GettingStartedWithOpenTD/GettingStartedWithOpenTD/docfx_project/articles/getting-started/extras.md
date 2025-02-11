@@ -2,7 +2,7 @@
 
 The Extras section covers advanced topics and additional functionalities in OpenTD, including connection management, server control, command execution, implicit casting, and versioning considerations.
 
-## Control how OpenTD Connects to Thermal Desktop
+## Control how OpenTD connects to Thermal Desktop
 
 In this guide, we mostly call ThermalDesktop.Connect() with default options, which means it starts a new instance of TD with the latest version of AutoCAD available, then creates a new, blank drawing. To change this behavior, set the ThermalDesktop.*ConnectConfig* member before calling Connect(), as shown in the following program, which hides the AutoCAD window while it’s running:
 
@@ -58,7 +58,7 @@ var td = new ThermalDesktop(@”path\\to\\dwg”);
 
 A complete list of ConnectConfig members (along with all OpenTD types) can be found in the “OpenTD Class Reference” document. (See Section 10.)
 
-## Control OpenTD Servers from AutoCAD
+## Control OpenTD servers from AutoCAD
 
 A client program communicates with TD via an OpenTD server launched within the acad.exe process, identified with a string called a *Pipe Endpoint Name*. When you load a dwg containing TD entities, an OpenTD server is started using the dwg pathname to generate the pipe endpoint name. That’s how the Connect() method finds the correct acad process when DwgPathname is set (see Section 9.1). An OpenTD server is also automatically started when you start a new instance of TD via OpenTD.
 
@@ -75,7 +75,7 @@ There are commands you can use at the AutoCAD command line to query and start Op
 
 To connect a client program to a server based on endpoint name, set ThermalDesktop.ConnectConfig.PipeEndpointName before calling Connect() – see Section 9.1.
 
-## Execute AutoCAD Commands
+## Execute AutoCAD commands
 
 When an OpenTD method is not available to perform a task, you might be able to use the ThermalDesktop.*SendCommand* method to send an AutoCAD command to TD. SendCommand has the following signature:
 
@@ -135,7 +135,7 @@ namespace OpenTDv242GettingStarted
 }
 ```
 
-## Execute TD COM Commands
+## Execute TD COM commands
 
 Before OpenTD, there was a Windows Component Object Model (COM) interface to TD. It could be used to perform a subset of OpenTD functions. To use it, commands were entered as text strings and parsed by the TD COM server.
 
@@ -247,7 +247,7 @@ Changes what thermophysical property an alias refers to. The names cannot includ
 - **update**  
 Updates all entity values based on symbol expressions.
 
-## The Magic of Implicit Casting
+## The magic of implicit casting
 
 In Section 2.2, we created a conductor with the following code:
 
@@ -269,7 +269,7 @@ var c = td.CreateConductor(new Connection(n1, 1), new Connection(n2, 1));
 
 OpenTD uses implicit casting in many places. For example, to cast StandardDataSubtypes to DataSubtypes. (See Section 7.1.5.) Some languages do not support .NET implicit casting. If you’re using one of those languages to interface with OpenTD, you can always explicitly cast to the required type. (See Sections 12 and 13.)
 
-## A Note on OpenTD Versioning
+## A note on OpenTD versioning
 
 OpenTDv242 is included with TD as the OpenTDv242.dll, OpenTDv242.CoSolver.dll, and OpenTDv242.Results.dll assemblies installed in the Global Assembly Cache (GAC). All OpenTDv242 types are contained within the “OpenTDv242” namespace. Any changes we make to this interface will be additive. That is, we will not remove classes or methods. Therefore, you can write software referencing OpenTDv242 knowing that it will not be broken by updates or new releases of TD.
 

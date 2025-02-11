@@ -318,7 +318,7 @@ Listener Log writes messages at any level, so it writes this message to file Ope
 
 Listener ErrorLog writes messages at Error-level only, so it does not write this message.
 
-## Miscellaneous End-User Interaction Techniques
+## Miscellaneous end-user interaction techniques
 
 - ThermalDesktop.*ProgressBar* can be used to show a progress bar and message in the TD window during long calculations.
 - ThermalDesktop.*Print* prints a message to the AutoCAD console.

@@ -585,7 +585,7 @@ namespace OpenTDv242GettingStarted
 
 If you create a mesh using the FEMeshImporter class (the preferred approach), it is important to note that the *FEMesh* definition provided during creation is only used at that time. After creation, the client-side FEMesh object is not connected to the TD model and if you want to edit the mesh, you will have to get the editable objects to modify. This is discussed in Section 3.2.
 
-## Work with Cconnections, handles, markers, and domains
+## Work with cconnections, handles, markers, and domains
 
 To connect objects in TD, you will use a Connection. A Connection contains a handle and a marker. As discussed in Section 2.2 a handle is a string that TD uses to uniquely identify each object in a drawing. You have probably seen them listed in the Model Browser:
 

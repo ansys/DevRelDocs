@@ -24,7 +24,7 @@ To delete any item with an AutoCAD handle, use the *ThermalDesktop.DeleteEntity*
 
 The following examples demonstrate querying, modifying and deleting entities in a model.
 
-## Query and Edit a Model
+## Query and edit a model
 
 Here is a program that demonstrates how to query a model and make simple edits. For the purposes of this program, we will first create a model and then query it, but the model could have been created by any means, including the GUI. The query techniques are the same.
 
@@ -238,7 +238,7 @@ namespace OpenTDv242GettingStarted
 }
 ```
 
-## Query and Edit Finite Elements
+## Query and edit finite elements
 
 As mentioned previously in Section 2.5, if you want to edit a mesh created by an FEMeshImporter, you will first have to get the objects representing the actual nodes and elements. Editing the FEMeshImporter directly only offers limited functionality. This is demonstrated in the following program:
 
