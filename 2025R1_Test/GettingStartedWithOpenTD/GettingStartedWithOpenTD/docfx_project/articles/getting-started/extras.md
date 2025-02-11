@@ -1,4 +1,3 @@
-
 # Extras
 
 The Extras section covers advanced topics and additional functionalities in OpenTD, including connection management, server control, command execution, implicit casting, and versioning considerations.
