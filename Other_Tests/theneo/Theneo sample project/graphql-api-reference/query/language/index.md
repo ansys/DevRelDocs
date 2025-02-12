@@ -1,0 +1,1 @@
+The "language" section allows users to retrieve information about a specific language based on its code. By making a query with the language code as a parameter, users can access details such as the language's name, native form, and writing direction (rtl). This section helps developers access and display language-specific information within their applications.

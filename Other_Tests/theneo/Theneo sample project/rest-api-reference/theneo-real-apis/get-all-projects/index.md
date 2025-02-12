@@ -1,0 +1,1 @@
+This section allows users to retrieve all projects associated with a specific criteria, such as company ID or publication status. By accessing this endpoint, users can obtain a list of projects along with relevant information such as project name, key, creator, and accessors. This information can be valuable for managing and monitoring projects within the platform.

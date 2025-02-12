@@ -1,0 +1,504 @@
+{
+  "endpoints": {
+    "method": "PATCH",
+    "path": "v2/schedule/{schedule}"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "description",
+        "description": "",
+        "isRequired": false,
+        "value": "minim elit aliquip labore ex",
+        "valueType": "string",
+        "items": [],
+        "options": null
+      },
+      {
+        "name": "name",
+        "description": "",
+        "isRequired": false,
+        "value": "est in pariatur culpa voluptat",
+        "valueType": "string",
+        "items": [],
+        "options": null
+      },
+      {
+        "name": "timetable",
+        "description": "",
+        "isRequired": false,
+        "valueType": "object",
+        "items": [
+          {
+            "name": "per-hour",
+            "description": "",
+            "isRequired": false,
+            "value": 69194103,
+            "valueType": "number",
+            "items": [],
+            "options": null
+          },
+          {
+            "name": "hours-of-day",
+            "description": "",
+            "isRequired": false,
+            "valueType": "array",
+            "items": [
+              {
+                "name": "0",
+                "description": "",
+                "isRequired": false,
+                "value": -82007295,
+                "valueType": "number",
+                "items": [],
+                "options": null
+              },
+              {
+                "name": "1",
+                "description": "",
+                "isRequired": false,
+                "value": 40382654,
+                "valueType": "number",
+                "items": [],
+                "options": null
+              }
+            ],
+            "options": null
+          },
+          {
+            "name": "days-of-week",
+            "description": "",
+            "isRequired": false,
+            "valueType": "array",
+            "items": [
+              {
+                "name": "0",
+                "description": "",
+                "isRequired": false,
+                "value": "MON",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              },
+              {
+                "name": "1",
+                "description": "",
+                "isRequired": false,
+                "value": "SUN",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              }
+            ],
+            "options": null
+          },
+          {
+            "name": "days-of-month",
+            "description": "",
+            "isRequired": false,
+            "valueType": "array",
+            "items": [
+              {
+                "name": "0",
+                "description": "",
+                "isRequired": false,
+                "value": 5924822,
+                "valueType": "number",
+                "items": [],
+                "options": null
+              },
+              {
+                "name": "1",
+                "description": "",
+                "isRequired": false,
+                "value": 32300623,
+                "valueType": "number",
+                "items": [],
+                "options": null
+              }
+            ],
+            "options": null
+          },
+          {
+            "name": "months",
+            "description": "",
+            "isRequired": false,
+            "valueType": "array",
+            "items": [
+              {
+                "name": "0",
+                "description": "",
+                "isRequired": false,
+                "value": "SEP",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              },
+              {
+                "name": "1",
+                "description": "",
+                "isRequired": false,
+                "value": "JAN",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              }
+            ],
+            "options": null
+          }
+        ],
+        "options": null
+      },
+      {
+        "name": "attribution-actor",
+        "description": "",
+        "isRequired": false,
+        "value": "current",
+        "valueType": "string",
+        "items": [],
+        "options": null
+      },
+      {
+        "name": "parameters",
+        "description": "",
+        "isRequired": false,
+        "valueType": "object",
+        "items": [
+          {
+            "name": "sed_03",
+            "description": "",
+            "isRequired": false,
+            "value": 56598475,
+            "valueType": "number",
+            "items": [],
+            "options": null
+          },
+          {
+            "name": "quis8",
+            "description": "",
+            "isRequired": false,
+            "value": -26595895,
+            "valueType": "number",
+            "items": [],
+            "options": null
+          }
+        ],
+        "options": null
+      }
+    ],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": " Bearer <access_token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Accept",
+        "isRequired": false,
+        "value": " application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "schedule",
+        "isRequired": true,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f0e571424aa3420131a8"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "id",
+          "description": "",
+          "isRequired": false,
+          "value": "8fef0365-1c0e-4697-a10b-88ab357edb05",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        },
+        {
+          "name": "name",
+          "description": "",
+          "isRequired": false,
+          "value": "quis adipisicing dolore qui esse",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        },
+        {
+          "name": "timetable",
+          "description": "",
+          "isRequired": false,
+          "valueType": "object",
+          "items": [
+            {
+              "name": "per-hour",
+              "description": "",
+              "isRequired": false,
+              "value": -52148461,
+              "valueType": "number",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "hours-of-day",
+              "description": "",
+              "isRequired": false,
+              "valueType": "array",
+              "items": [
+                {
+                  "name": "0",
+                  "description": "",
+                  "isRequired": false,
+                  "value": -45111686,
+                  "valueType": "number",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "1",
+                  "description": "",
+                  "isRequired": false,
+                  "value": 54523490,
+                  "valueType": "number",
+                  "items": [],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "days-of-week",
+              "description": "",
+              "isRequired": false,
+              "valueType": "array",
+              "items": [
+                {
+                  "name": "0",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "SUN",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "1",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "TUE",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "days-of-month",
+              "description": "",
+              "isRequired": false,
+              "valueType": "array",
+              "items": [
+                {
+                  "name": "0",
+                  "description": "",
+                  "isRequired": false,
+                  "value": 81605159,
+                  "valueType": "number",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "1",
+                  "description": "",
+                  "isRequired": false,
+                  "value": 379477,
+                  "valueType": "number",
+                  "items": [],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "months",
+              "description": "",
+              "isRequired": false,
+              "valueType": "array",
+              "items": [
+                {
+                  "name": "0",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "AUG",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "1",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "FEB",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                }
+              ],
+              "options": null
+            }
+          ],
+          "options": null
+        },
+        {
+          "name": "description",
+          "description": "",
+          "isRequired": false,
+          "value": "eu",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        },
+        {
+          "name": "project-slug",
+          "description": "",
+          "isRequired": false,
+          "value": "gh/CircleCI-Public/api-preview-docs",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        },
+        {
+          "name": "actor",
+          "description": "",
+          "isRequired": false,
+          "valueType": "object",
+          "items": [
+            {
+              "name": "id",
+              "description": "",
+              "isRequired": false,
+              "value": "3dca2e65-c7c0-2d9a-08eb-61415de85c81",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "login",
+              "description": "",
+              "isRequired": false,
+              "value": "eiusmod ut dolor",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "name",
+              "description": "",
+              "isRequired": false,
+              "value": "velit ullamco non ut in",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            }
+          ],
+          "options": null
+        },
+        {
+          "name": "created-at",
+          "description": "",
+          "isRequired": false,
+          "value": "1943-08-20T13:22:28.089Z",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        },
+        {
+          "name": "updated-at",
+          "description": "",
+          "isRequired": false,
+          "value": "1948-05-01T16:16:04.025Z",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        },
+        {
+          "name": "parameters",
+          "description": "",
+          "isRequired": false,
+          "valueType": "object",
+          "items": [
+            {
+              "name": "aliqua_8",
+              "description": "",
+              "isRequired": false,
+              "value": 47202404,
+              "valueType": "number",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "Ut9",
+              "description": "",
+              "isRequired": false,
+              "value": 305791,
+              "valueType": "number",
+              "items": [],
+              "options": null
+            }
+          ],
+          "options": null
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [
+        {
+          "name": "message",
+          "description": "",
+          "isRequired": false,
+          "value": "eu",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        }
+      ],
+      "statusCode": "500",
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

@@ -1,0 +1,576 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": "customers"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "given_name",
+        "description": "The first name of the customer.",
+        "isRequired": true,
+        "value": "Theneo",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "minLength": 1,
+          "maxLength": 100,
+          "defaultValue": "10",
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "last_name",
+        "description": "The last name of the customer.",
+        "isRequired": true,
+        "value": "APIDoc",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "email_address",
+        "description": "The email address of the customer.",
+        "isRequired": true,
+        "value": "hello@etheneo.io",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "address",
+        "description": "The full address of the customer.",
+        "isRequired": false,
+        "valueType": "object",
+        "items": [
+          {
+            "name": "maling_address",
+            "description": "",
+            "isRequired": false,
+            "valueType": "object",
+            "items": [
+              {
+                "name": "address_line_1",
+                "description": "The first line of the customer's address.",
+                "isRequired": false,
+                "value": "500 Yale Avenue",
+                "valueType": "string",
+                "items": [],
+                "options": {
+                  "xml": {
+                    "prefix": null
+                  }
+                }
+              },
+              {
+                "name": "address_line_2",
+                "description": "The second line of the customer's address.",
+                "isRequired": false,
+                "value": "WeWork",
+                "valueType": "string",
+                "items": [],
+                "options": {
+                  "xml": {
+                    "prefix": null
+                  }
+                }
+              }
+            ],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          },
+          {
+            "name": "locality",
+            "description": "The city or locality where the customer is located.",
+            "isRequired": false,
+            "value": "Seattle",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          },
+          {
+            "name": "administrative_district_level_1",
+            "description": "The administrative district level 1 where the customer is located.",
+            "isRequired": false,
+            "value": "WA",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          },
+          {
+            "name": "postal_code",
+            "description": "The postal code or zip code of the customer's address.",
+            "isRequired": false,
+            "value": "98109",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          },
+          {
+            "name": "country",
+            "description": "The country where the customer is located.",
+            "isRequired": false,
+            "value": "US",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          }
+        ],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "phone_number",
+        "description": "The phone number of the customer.",
+        "isRequired": false,
+        "value": "1-212-123-4567",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "isDeprecated": false,
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "reference_id",
+        "description": "The reference ID associated with the customer.",
+        "isRequired": false,
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "enumValue": [
+            {
+              "value": "USER_ACCOUNT"
+            },
+            {
+              "value": "ORDER_ID"
+            },
+            {
+              "value": "INVOICE_ID"
+            },
+            {
+              "value": "TRANSACTION_ID"
+            },
+            {
+              "value": "PRODUCT_ID"
+            },
+            {
+              "value": "DOCUMENT_ID"
+            },
+            {
+              "value": "CUSTOMER_ID"
+            }
+          ],
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "note",
+        "description": "Any additional notes or comments related to the customer.",
+        "isRequired": false,
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "enumValue": [
+            {
+              "value": "FOLLOW_UP_REQUIRED"
+            },
+            {
+              "value": "CUSTOMER_FEEDBACK"
+            },
+            {
+              "value": "ESCALATED_ISSUE"
+            },
+            {
+              "value": "PAYMENT_PENDING"
+            }
+          ],
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "header": [
+      {
+        "name": "Authorization",
+        "description": "The token or credentials required to authorize the request.",
+        "isRequired": false,
+        "value": "Bearer <access_token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "description": "The type of content included in the request or response.",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f39271424aa342013854"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "customer",
+          "description": "The customer parameter contains details and information related to the newly created customer profile.",
+          "isRequired": false,
+          "valueType": "object",
+          "items": [
+            {
+              "name": "id",
+              "description": "The unique identifier for the customer.",
+              "isRequired": false,
+              "value": "JDKYHBWT1D4F8MFH63DBMEN8Y4",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "created_at",
+              "description": "The date and time when the customer was created.",
+              "isRequired": false,
+              "value": "2016-03-23T20:21:54.859Z",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "updated_at",
+              "description": "The date and time when the customer information was last updated.",
+              "isRequired": false,
+              "value": "2016-03-23T20:21:54.859Z",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "given_name",
+              "description": "The first name of the customer.",
+              "isRequired": false,
+              "value": "Theneo",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "family_name",
+              "description": "The last name of the customer.",
+              "isRequired": false,
+              "value": "APIDoc",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "email_address",
+              "description": "The email address of the customer.",
+              "isRequired": false,
+              "value": "hello@etheneo.io",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "address",
+              "description": "The full address of the customer.",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "maling_address",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "address_line_1",
+                      "description": "The first line of the customer's address.",
+                      "isRequired": false,
+                      "value": "500 Yale Avenue",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "address_line_2",
+                      "description": "The second line of the customer's address.",
+                      "isRequired": false,
+                      "value": "WeWork",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                },
+                {
+                  "name": "locality",
+                  "description": "The city or locality where the customer is located.",
+                  "isRequired": false,
+                  "value": "Seattle",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "administrative_district_level_1",
+                  "description": "The administrative district level 1 where the customer is located.",
+                  "isRequired": false,
+                  "value": "WA",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "postal_code",
+                  "description": "The postal code or zip code of the customer's address.",
+                  "isRequired": false,
+                  "value": "98109",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "country",
+                  "description": "The country where the customer is located.",
+                  "isRequired": false,
+                  "value": "US",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "phone_number",
+              "description": "The phone_number parameter refers to the contact number of the customer.",
+              "isRequired": false,
+              "value": "1-212-123-4567",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "reference_id",
+              "description": "The reference_id parameter is an identifier used to link or associate the customer with external systems or databases.",
+              "isRequired": false,
+              "value": "YOUR_REFERENCE_ID",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "note",
+              "description": "The note parameter allows users to add additional comments or notes regarding the customer during the creation process.",
+              "isRequired": false,
+              "value": "Amazing API Docs",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "preferences",
+              "description": "The preferences parameter allows the user to customize their settings or choices within the customer profile.",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "email_unsubscribed",
+                  "description": "The email_unsubscribed parameter indicates whether the customer has opted out of receiving email communication.",
+                  "isRequired": false,
+                  "value": false,
+                  "valueType": "boolean",
+                  "items": [],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "creation_source",
+              "description": "The creation_source parameter specifies the method or channel through which the customer profile was created.",
+              "isRequired": false,
+              "value": "THIRD_PARTY",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "version",
+              "description": "The version parameter indicates the API version being used for the customer creation process.",
+              "isRequired": false,
+              "value": null,
+              "valueType": "string",
+              "items": [],
+              "options": null
+            }
+          ],
+          "options": null
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [
+        {
+          "name": "errors",
+          "description": "The errors parameter provides information on any errors encountered during the customer creation process.",
+          "isRequired": false,
+          "valueType": "array",
+          "items": [
+            {
+              "name": "0",
+              "description": "The 0 parameter is a placeholder for future expansion or additional parameters related to customer creation.",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "code",
+                  "description": "The code parameter represents a unique identifier or code associated with the customer.",
+                  "isRequired": false,
+                  "value": "INVALID_EMAIL_ADDRESS",
+                  "valueType": "string",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                },
+                {
+                  "name": "category",
+                  "description": "The category parameter classifies the customer based on a specific grouping or classification criteria.",
+                  "isRequired": false,
+                  "value": "INVALID_REQUEST_ERROR",
+                  "valueType": "string",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                }
+              ],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            }
+          ],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        }
+      ],
+      "statusCode": "400",
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [
+        {
+          "name": "errors",
+          "description": "The errors parameter provides information on any errors encountered during the customer creation process.",
+          "isRequired": false,
+          "valueType": "array",
+          "items": [
+            {
+              "name": "0",
+              "description": "The 0 parameter is a placeholder for future expansion or additional parameters related to customer creation.",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "code",
+                  "description": "The code parameter represents a unique identifier or code associated with the customer.",
+                  "isRequired": false,
+                  "value": "INVALID_PHONE_ADDRESS",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "category",
+                  "description": "The category parameter classifies the customer based on a specific grouping or classification criteria.",
+                  "isRequired": false,
+                  "value": "INVALID_REQUEST_ERROR",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                }
+              ],
+              "options": null
+            }
+          ],
+          "options": null
+        }
+      ],
+      "statusCode": "400",
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

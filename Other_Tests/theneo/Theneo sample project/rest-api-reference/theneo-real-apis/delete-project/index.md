@@ -1,0 +1,1 @@
+This section allows users to delete a project from the system, removing all associated data and configurations. By utilizing this API functionality, users can efficiently manage their project list and ensure accurate data organization within the platform.

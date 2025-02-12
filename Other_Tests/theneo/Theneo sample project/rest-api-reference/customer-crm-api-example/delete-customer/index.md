@@ -1,0 +1,1 @@
+Deletes a customer from the system permanently, and this action cannot be reversed. Additionally, it promptly cancels any active subscriptions associated with the customer.

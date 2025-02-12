@@ -1,0 +1,1 @@
+Update customer allows users to modify and update customer information within the system. Users can easily adjust customer details such as name, email, phone number, and more. This section provides a seamless way to keep customer data accurate and up-to-date.

@@ -1,0 +1,181 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": "projects/{id}/share"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "users",
+        "description": "",
+        "isRequired": false,
+        "valueType": "array",
+        "items": [
+          {
+            "name": "0",
+            "description": "",
+            "isRequired": false,
+            "valueType": "object",
+            "items": [
+              {
+                "name": "user_id",
+                "description": "",
+                "isRequired": false,
+                "value": "in in pariatur aliqua proident",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              },
+              {
+                "name": "email",
+                "description": "",
+                "isRequired": false,
+                "value": "reprehenderit quis tempor esse est",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              },
+              {
+                "name": "role",
+                "description": "",
+                "isRequired": false,
+                "value": "in magna",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              }
+            ],
+            "options": null
+          },
+          {
+            "name": "1",
+            "description": "",
+            "isRequired": false,
+            "valueType": "object",
+            "items": [
+              {
+                "name": "user_id",
+                "description": "",
+                "isRequired": false,
+                "value": "ut",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              },
+              {
+                "name": "email",
+                "description": "",
+                "isRequired": false,
+                "value": "deserunt",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              },
+              {
+                "name": "role",
+                "description": "",
+                "isRequired": false,
+                "value": "fu",
+                "valueType": "string",
+                "items": [],
+                "options": null
+              }
+            ],
+            "options": null
+          }
+        ],
+        "options": null
+      },
+      {
+        "name": "is_public",
+        "description": "",
+        "isRequired": false,
+        "value": true,
+        "valueType": "boolean",
+        "items": [],
+        "options": null
+      },
+      {
+        "name": "do_notify",
+        "description": "",
+        "isRequired": false,
+        "value": true,
+        "valueType": "boolean",
+        "items": [],
+        "options": null
+      }
+    ],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": " <Bearer Token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Accept",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "id",
+        "isRequired": true,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f12f71424aa3420133ef"
+  },
+  "responses": [
+    {
+      "body": [],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [],
+      "statusCode": "400",
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

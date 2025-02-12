@@ -1,0 +1,34 @@
+{
+  "endpoints": {
+    "method": "",
+    "path": ""
+  },
+  "request": null,
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "accounting/wsdl/account"
+    },
+    {
+      "method": "POST",
+      "path": "accounting/wsdl/entity"
+    },
+    {
+      "method": "POST",
+      "path": "accounting/wsdl/invoice"
+    },
+    {
+      "method": "DELETE",
+      "path": "accounting/wsdl/entity"
+    },
+    {
+      "method": "GET",
+      "path": "accounting/wsdl/invoice"
+    },
+    {
+      "method": "GET",
+      "path": "accounting/wsdl/accounts"
+    }
+  ]
+}

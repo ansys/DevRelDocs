@@ -1,0 +1,1 @@
+This section allows users to add a new project to their account. By providing specific parameters such as project name, key, and logo, users can create a new project with customized settings. The response provides details on the successful creation of the project or any errors encountered during the process.

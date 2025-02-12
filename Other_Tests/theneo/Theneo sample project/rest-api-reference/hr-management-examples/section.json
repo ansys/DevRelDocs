@@ -1,0 +1,34 @@
+{
+  "endpoints": {
+    "method": "",
+    "path": ""
+  },
+  "request": null,
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "GET",
+      "path": "v2/repos/{owner}/{repo}/branches"
+    },
+    {
+      "method": "GET",
+      "path": "v2/repos/{owner}/{repo}/branches/{branch}"
+    },
+    {
+      "method": "POST",
+      "path": "v2/repos/OWNER/REPO/branches/BRANCH/rename"
+    },
+    {
+      "method": "GET",
+      "path": "v2/schedule/{schedule}"
+    },
+    {
+      "method": "PATCH",
+      "path": "v2/schedule/{schedule}"
+    },
+    {
+      "method": "DELETE",
+      "path": "v2schedule/{schedule}"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+The `Upload` scalar type represents a file upload.

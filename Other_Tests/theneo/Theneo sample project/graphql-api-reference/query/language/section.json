@@ -1,0 +1,102 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": ""
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "code",
+        "description": "",
+        "isRequired": false,
+        "value": null,
+        "valueType": "string",
+        "items": [],
+        "options": null
+      }
+    ],
+    "header": [],
+    "path": [],
+    "contentType": "application/json",
+    "graphqlQuery": "query language($code: String) {\n  language(code: $code) { \n    code\n    name\n    native\n    rtl \n  } \n}",
+    "codeExamples": [],
+    "_id": "66f40201a589ebcd5113c97f"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "language",
+          "description": "",
+          "isRequired": false,
+          "valueType": "object",
+          "items": [
+            {
+              "name": "code",
+              "description": "",
+              "isRequired": false,
+              "value": null,
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "name",
+              "description": "",
+              "isRequired": false,
+              "value": null,
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "native",
+              "description": "",
+              "isRequired": false,
+              "value": null,
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "rtl",
+              "description": "",
+              "isRequired": false,
+              "value": null,
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            }
+          ],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

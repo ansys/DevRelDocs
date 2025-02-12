@@ -1,0 +1,251 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": "projects"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "name",
+        "description": "",
+        "isRequired": false,
+        "value": "in non",
+        "valueType": "string",
+        "items": [],
+        "options": null
+      },
+      {
+        "name": "key",
+        "description": "",
+        "isRequired": false,
+        "value": "occaecat",
+        "valueType": "string",
+        "items": [],
+        "options": null
+      },
+      {
+        "name": "is_dark_mode_enabled",
+        "description": "",
+        "isRequired": false,
+        "value": true,
+        "valueType": "boolean",
+        "items": [],
+        "options": null
+      },
+      {
+        "name": "project_logo",
+        "description": "",
+        "isRequired": false,
+        "value": "pariatur laboris deserunt esse",
+        "valueType": "string",
+        "items": [],
+        "options": null
+      }
+    ],
+    "header": [
+      {
+        "name": "Content-Type",
+        "isRequired": false,
+        "value": " application/json",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Accept",
+        "isRequired": false,
+        "value": " application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": " <Bearer Token>",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f0fd71424aa3420132b9"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "is_published",
+          "description": "",
+          "isRequired": false,
+          "value": false,
+          "valueType": "boolean",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "name",
+          "description": "",
+          "isRequired": false,
+          "value": "string",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "key",
+          "description": "",
+          "isRequired": false,
+          "value": "string-second",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "company_id",
+          "description": "",
+          "isRequired": false,
+          "value": "60b77a44ccd9e497ab4ac770",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "created_by",
+          "description": "",
+          "isRequired": false,
+          "value": "60b77a6bccd9e497ab4ac772",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "accessors",
+          "description": "",
+          "isRequired": false,
+          "valueType": "array",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "_createdAt",
+          "description": "",
+          "isRequired": false,
+          "value": "2021-06-02T12:45:31.551Z",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "_updatedAt",
+          "description": "",
+          "isRequired": false,
+          "value": "2021-06-02T12:45:31.551Z",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "id",
+          "description": "",
+          "isRequired": false,
+          "value": "60b77d6b30b6d899d3a80795",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [
+        {
+          "name": "code",
+          "description": "",
+          "isRequired": false,
+          "value": 400,
+          "valueType": "number",
+          "items": [],
+          "options": null
+        },
+        {
+          "name": "message",
+          "description": "",
+          "isRequired": false,
+          "value": "Key isn't valid",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        },
+        {
+          "name": "stack",
+          "description": "",
+          "isRequired": false,
+          "value": "Error: Key isn't valid",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        }
+      ],
+      "statusCode": "400",
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}
