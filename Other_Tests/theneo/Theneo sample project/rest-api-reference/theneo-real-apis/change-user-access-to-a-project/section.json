@@ -1,0 +1,212 @@
+{
+  "endpoints": {
+    "method": "PATCH",
+    "path": "projects/{id}/change-access"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "changed_access",
+        "description": "",
+        "isRequired": false,
+        "valueType": "array",
+        "items": [
+          {
+            "name": "0",
+            "description": "",
+            "isRequired": false,
+            "valueType": "object",
+            "items": [
+              {
+                "name": "user_id",
+                "description": "",
+                "isRequired": false,
+                "value": "id nisi sunt",
+                "valueType": "string",
+                "items": [],
+                "options": {
+                  "xml": {
+                    "prefix": null
+                  }
+                }
+              },
+              {
+                "name": "type",
+                "description": "",
+                "isRequired": false,
+                "value": "culpa eiusmod et in",
+                "valueType": "string",
+                "items": [],
+                "options": {
+                  "xml": {
+                    "prefix": null
+                  }
+                }
+              }
+            ],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          },
+          {
+            "name": "1",
+            "description": "",
+            "isRequired": false,
+            "valueType": "object",
+            "items": [
+              {
+                "name": "user_id",
+                "description": "",
+                "isRequired": false,
+                "value": "in nostrud qui pariatur laboris",
+                "valueType": "string",
+                "items": [],
+                "options": {
+                  "xml": {
+                    "prefix": null
+                  }
+                }
+              },
+              {
+                "name": "type",
+                "description": "",
+                "isRequired": false,
+                "value": "veniam commodo laborum proident",
+                "valueType": "string",
+                "items": [],
+                "options": {
+                  "xml": {
+                    "prefix": null
+                  }
+                }
+              }
+            ],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          }
+        ],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "remove_user_ids",
+        "description": "",
+        "isRequired": false,
+        "valueType": "array",
+        "items": [
+          {
+            "name": "0",
+            "description": "",
+            "isRequired": false,
+            "value": "laboris culpa Excepteur in",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          },
+          {
+            "name": "1",
+            "description": "",
+            "isRequired": false,
+            "value": "aliqu",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          }
+        ],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": "<Bearer Token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Accept",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "id",
+        "isRequired": false,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f13771424aa342013424"
+  },
+  "responses": [
+    {
+      "body": [],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [],
+      "statusCode": "400",
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

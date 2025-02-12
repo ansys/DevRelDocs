@@ -1,0 +1,484 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": "accounting/wsdl/entity"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "_declaration",
+        "valueType": "string",
+        "items": [
+          {
+            "name": "version",
+            "description": "",
+            "isRequired": false,
+            "value": "1.0",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "name": "version",
+                "prefix": null,
+                "attribute": true
+              }
+            }
+          },
+          {
+            "name": "encoding",
+            "description": "",
+            "isRequired": false,
+            "value": "UTF-8",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "name": "encoding",
+                "prefix": null,
+                "attribute": true
+              }
+            }
+          }
+        ],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Envelope",
+        "description": "",
+        "isRequired": false,
+        "valueType": "object",
+        "items": [
+          {
+            "name": "Body",
+            "description": "",
+            "isRequired": false,
+            "valueType": "object",
+            "items": [
+              {
+                "name": "createEntity",
+                "description": "",
+                "isRequired": false,
+                "valueType": "object",
+                "items": [
+                  {
+                    "name": "entity",
+                    "description": "",
+                    "isRequired": false,
+                    "valueType": "object",
+                    "items": [
+                      {
+                        "name": "customer",
+                        "description": "",
+                        "isRequired": false,
+                        "valueType": "object",
+                        "items": [
+                          {
+                            "name": "default_account_code",
+                            "description": "",
+                            "isRequired": false,
+                            "value": "1001001",
+                            "valueType": "string",
+                            "items": [],
+                            "options": {
+                              "xml": {
+                                "name": "default_account_code",
+                                "prefix": null,
+                                "attribute": true
+                              }
+                            }
+                          },
+                          {
+                            "name": "default_vat_rate",
+                            "description": "",
+                            "isRequired": false,
+                            "value": "0.20",
+                            "valueType": "string",
+                            "items": [],
+                            "options": {
+                              "xml": {
+                                "name": "default_vat_rate",
+                                "prefix": null,
+                                "attribute": true
+                              }
+                            }
+                          },
+                          {
+                            "name": "default_credit_terms",
+                            "description": "",
+                            "isRequired": false,
+                            "value": "30",
+                            "valueType": "string",
+                            "items": [],
+                            "options": {
+                              "xml": {
+                                "name": "default_credit_terms",
+                                "prefix": null,
+                                "attribute": true
+                              }
+                            }
+                          }
+                        ],
+                        "options": {
+                          "xml": {
+                            "name": "customer",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "supplier",
+                        "description": "",
+                        "isRequired": false,
+                        "valueType": "object",
+                        "items": [
+                          {
+                            "name": "default_account_code",
+                            "description": "",
+                            "isRequired": false,
+                            "value": "2001001",
+                            "valueType": "string",
+                            "items": [],
+                            "options": {
+                              "xml": {
+                                "name": "default_account_code",
+                                "prefix": null,
+                                "attribute": true
+                              }
+                            }
+                          },
+                          {
+                            "name": "default_vat_rate",
+                            "description": "",
+                            "isRequired": false,
+                            "value": "0.20",
+                            "valueType": "string",
+                            "items": [],
+                            "options": {
+                              "xml": {
+                                "name": "default_vat_rate",
+                                "prefix": null,
+                                "attribute": true
+                              }
+                            }
+                          },
+                          {
+                            "name": "default_credit_terms",
+                            "description": "",
+                            "isRequired": false,
+                            "value": "30",
+                            "valueType": "string",
+                            "items": [],
+                            "options": {
+                              "xml": {
+                                "name": "default_credit_terms",
+                                "prefix": null,
+                                "attribute": true
+                              }
+                            }
+                          }
+                        ],
+                        "options": {
+                          "xml": {
+                            "name": "supplier",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "company_name",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "A new company",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "company_name",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "contact_name",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "Mr Contact Person",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "contact_name",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "address1",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "address1",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "address1",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "town",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "town",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "town",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "county",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "county",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "county",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "postcode",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "postcode",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "postcode",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "email",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "email@address.com",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "email",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "phone1",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "01234 567890",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "phone1",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "country",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "GB",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "country",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      },
+                      {
+                        "name": "building",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "12",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "building",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      },
+                      {
+                        "name": "address2",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "address2",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "address2",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      },
+                      {
+                        "name": "phone2",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "phone2",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "phone2",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      },
+                      {
+                        "name": "fax",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "fax",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "fax",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      },
+                      {
+                        "name": "website",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "website",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "website",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      },
+                      {
+                        "name": "external_id",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "1234",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "external_id",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      }
+                    ],
+                    "options": {
+                      "xml": {
+                        "name": "entity",
+                        "prefix": null
+                      }
+                    }
+                  }
+                ],
+                "options": {
+                  "xml": {
+                    "name": "createEntity",
+                    "prefix": null
+                  }
+                }
+              }
+            ],
+            "options": {
+              "xml": {
+                "name": "Body",
+                "prefix": null
+              }
+            }
+          }
+        ],
+        "options": {
+          "xml": {
+            "name": "Envelope",
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": "apiKey=\"yourApiKey\"",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "isRequired": false,
+        "value": "text/xml",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [],
+    "contentType": "application/xml",
+    "graphqlQuery": null,
+    "codeExamples": [],
+    "_id": "66f40262a589ebcd5113cc03"
+  },
+  "responses": [
+    {
+      "body": [],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

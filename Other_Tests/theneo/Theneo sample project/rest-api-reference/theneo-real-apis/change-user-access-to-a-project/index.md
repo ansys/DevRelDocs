@@ -1,0 +1,1 @@
+This section allows users to modify the access permissions for a specific user within a project. By changing the user's access level or removing them entirely, users can effectively manage project collaboration and security settings. This feature provides flexibility and control over project access rights.

@@ -1,0 +1,288 @@
+{
+  "endpoints": {
+    "method": "GET",
+    "path": "customers"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "email",
+        "description": "Represents the email address associated with a customer.",
+        "isRequired": false,
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "created",
+        "description": "Specifies a date and time for filtering customer records based on the creation datetime.",
+        "isRequired": false,
+        "valueType": "object",
+        "items": [
+          {
+            "name": "created.gt",
+            "description": "",
+            "isRequired": false,
+            "value": null,
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          },
+          {
+            "name": "created.gte",
+            "description": "",
+            "isRequired": false,
+            "value": null,
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          },
+          {
+            "name": "created.lt",
+            "description": "",
+            "isRequired": false,
+            "value": null,
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          },
+          {
+            "name": "created.lte",
+            "description": "",
+            "isRequired": false,
+            "value": null,
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "prefix": null
+              }
+            }
+          }
+        ],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "header": [
+      {
+        "name": "Authorization",
+        "description": "Contains the authentication credentials required to access the API.",
+        "isRequired": false,
+        "value": "Bearer <access_token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "description": "Specifies the format of the data in the request or response.",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "670e56d3937f9c3c061802c0"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "object",
+          "description": "Indicates the type of object being returned in the response.",
+          "isRequired": false,
+          "value": "list",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "url",
+          "description": "Represents the URL associated with a customer.",
+          "isRequired": false,
+          "value": "/customers",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "has_more",
+          "description": "Flag that indicates whether there are more customer records available.",
+          "isRequired": false,
+          "value": false,
+          "valueType": "boolean",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "data",
+          "description": "Contains the data related to the customer records being returned in the response.",
+          "isRequired": false,
+          "valueType": "array",
+          "items": [
+            {
+              "name": "0",
+              "description": "Placeholder parameter with no specific defined value.",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "id",
+                  "description": "Unique identifier assigned to a customer record.",
+                  "isRequired": false,
+                  "value": "cus_NffrFeUfNV2Hib",
+                  "valueType": "string",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                },
+                {
+                  "name": "object",
+                  "description": "Indicates the type of object being returned in the response.",
+                  "isRequired": false,
+                  "value": "customer",
+                  "valueType": "string",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                },
+                {
+                  "name": "address",
+                  "description": "Represents the address information associated with a customer.",
+                  "isRequired": false,
+                  "value": null,
+                  "valueType": "string",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                },
+                {
+                  "name": "created",
+                  "description": "Specifies a date and time for filtering customer records based on the creation datetime.",
+                  "isRequired": false,
+                  "value": 1680893993,
+                  "valueType": "number",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                },
+                {
+                  "name": "email",
+                  "description": "Represents the email address associated with a customer.",
+                  "isRequired": false,
+                  "value": "hello@theneo.io",
+                  "valueType": "string",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                },
+                {
+                  "name": "name",
+                  "description": "Represents the name of a customer.",
+                  "isRequired": false,
+                  "value": "Theneo",
+                  "valueType": "string",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                },
+                {
+                  "name": "phone",
+                  "description": "Represents the phone number associated with a customer.",
+                  "isRequired": false,
+                  "value": null,
+                  "valueType": "string",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                }
+              ],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            }
+          ],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

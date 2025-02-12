@@ -1,0 +1,259 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": "subscriptions/{subscription_id}/cancel"
+  },
+  "request": {
+    "query": [],
+    "body": [],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": "Bearer <access_token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "subscription_id",
+        "isRequired": false,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f0a471424aa342012e0f"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "subscription",
+          "description": "",
+          "isRequired": false,
+          "valueType": "object",
+          "items": [
+            {
+              "name": "id",
+              "description": "",
+              "isRequired": false,
+              "value": "910afd30-464a-4e00-a8d8-2296eEXAMPLE",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "location_id",
+              "description": "",
+              "isRequired": false,
+              "value": "S8GWD5R9QB376",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "plan_id",
+              "description": "",
+              "isRequired": false,
+              "value": "6JHXF3B2CW3YKHDV4XEM674H",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "customer_id",
+              "description": "",
+              "isRequired": false,
+              "value": "CHFGVKYY8RSV93M5KCYTG4PN0G",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "card_id",
+              "description": "",
+              "isRequired": false,
+              "value": "ccof:qy5x8hHGYsgLrp4Q4GB",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "start_date",
+              "description": "",
+              "isRequired": false,
+              "value": "2021-10-20",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "canceled_date",
+              "description": "",
+              "isRequired": false,
+              "value": "2021-10-20",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "paid_until_date",
+              "description": "",
+              "isRequired": false,
+              "value": "2021-11-20",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "status",
+              "description": "",
+              "isRequired": false,
+              "value": "ACTIVE",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "created_at",
+              "description": "",
+              "isRequired": false,
+              "value": "2021-10-20T21:53:10Z",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "version",
+              "description": "",
+              "isRequired": false,
+              "value": 1594311617331,
+              "valueType": "number",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "timezone",
+              "description": "",
+              "isRequired": false,
+              "value": "America/Los_Angeles",
+              "valueType": "string",
+              "items": [],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            },
+            {
+              "name": "source",
+              "description": "",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "name",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "My App",
+                  "valueType": "string",
+                  "items": [],
+                  "options": {
+                    "xml": {
+                      "prefix": null
+                    }
+                  }
+                }
+              ],
+              "options": {
+                "xml": {
+                  "prefix": null
+                }
+              }
+            }
+          ],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

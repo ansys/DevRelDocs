@@ -1,0 +1,38 @@
+{
+  "endpoints": {
+    "method": "",
+    "path": ""
+  },
+  "request": null,
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "v1/charges"
+    },
+    {
+      "method": "PUT",
+      "path": "charges/id"
+    },
+    {
+      "method": "GET",
+      "path": "charges/id"
+    },
+    {
+      "method": "POST",
+      "path": "subscriptions"
+    },
+    {
+      "method": "PUT",
+      "path": "subscriptions/{subscription_id}"
+    },
+    {
+      "method": "POST",
+      "path": "subscriptions/search"
+    },
+    {
+      "method": "POST",
+      "path": "subscriptions/{subscription_id}/cancel"
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "endpoints": {
+    "method": "GET",
+    "path": "projects/{id}/accessible-users"
+  },
+  "request": {
+    "query": [],
+    "body": [],
+    "header": [
+      {
+        "name": "Accept",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": "<Bearer Token>",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "id",
+        "isRequired": false,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f12771424aa34201336f"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "0",
+          "description": "",
+          "isRequired": false,
+          "valueType": "object",
+          "items": [
+            {
+              "name": "_id",
+              "description": "",
+              "isRequired": false,
+              "value": "60f080d52ec42b53c7deb53e",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "created_by",
+              "description": "",
+              "isRequired": false,
+              "valueType": "array",
+              "items": [
+                {
+                  "name": "0",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "_id",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "60c334dcc155cf76a2638cea",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "is_email_verified",
+                      "description": "",
+                      "isRequired": false,
+                      "value": false,
+                      "valueType": "boolean",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "can_login",
+                      "description": "",
+                      "isRequired": false,
+                      "value": true,
+                      "valueType": "boolean",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "first_name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "John",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "last_name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "Doe",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "mobile",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "9126422522",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "email",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "johndoe@mail.com",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "password",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "$2a$08$6PWMLlHFM1sUkstrsGMzj.fXuYTnPC8lSxuDeKnXAMryDdxHbCVwG",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "company_id",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "60b7941e43b37c78a317c1d8",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "createdAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-06-11T10:03:08.594Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "updatedAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-07-27T13:48:33.968Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "_createdAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-06-11T10:03:08.595Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "_updatedAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-07-27T13:48:33.968Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "__v",
+                      "description": "",
+                      "isRequired": false,
+                      "valueType": "number",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "notification_read",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-07-27T13:48:33.000Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "user",
+              "description": "",
+              "isRequired": false,
+              "valueType": "array",
+              "items": [
+                {
+                  "name": "0",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "_id",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "60b703bafc8d8e458332e14a",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "is_email_verified",
+                      "description": "",
+                      "isRequired": false,
+                      "value": false,
+                      "valueType": "boolean",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "can_login",
+                      "description": "",
+                      "isRequired": false,
+                      "value": true,
+                      "valueType": "boolean",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "grouped_under",
+                      "description": "",
+                      "isRequired": false,
+                      "valueType": "array",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "first_name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "Arpan",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "last_name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "Datta",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "mobile",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "9876543210",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "email",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "arpan@theneo.com",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "password",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "$2a$08$uFkchY8Vr6S.8BlF6tobvuBdS3S4wvVmYx2yYC1UrD7/G7BGSUJom",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "company_id",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "60b703bafc8d8e458332e148",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "createdAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-06-02T04:06:18.381Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "updatedAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-06-02T04:06:18.381Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "_createdAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-06-02T04:06:18.381Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "_updatedAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-06-02T04:06:18.381Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "__v",
+                      "description": "",
+                      "isRequired": false,
+                      "valueType": "number",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                },
+                {
+                  "name": "1",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "_id",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "60c34086c155cf76a2638cfe",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "is_email_verified",
+                      "description": "",
+                      "isRequired": false,
+                      "value": false,
+                      "valueType": "boolean",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "can_login",
+                      "description": "",
+                      "isRequired": false,
+                      "value": true,
+                      "valueType": "boolean",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "first_name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "Ana",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "last_name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "Theneo",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "mobile",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "9876543231",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "email",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "developer@codebuddy.co",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "password",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "$2a$08$fKsN.7op63xr9cKOwnyRk.KRfgKEQ4y4lkpH0vn0UWGbD/EJbFnZi",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "company_id",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "60c34086c155cf76a2638cfc",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "createdAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-06-11T10:52:54.448Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "updatedAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-07-23T07:33:33.830Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "_createdAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-06-11T10:52:54.448Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "_updatedAt",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-07-23T07:33:33.831Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "__v",
+                      "description": "",
+                      "isRequired": false,
+                      "valueType": "number",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "notification_read",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "2021-07-23T07:33:33.000Z",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                }
+              ],
+              "options": null
+            }
+          ],
+          "options": null
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [],
+      "statusCode": "400",
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

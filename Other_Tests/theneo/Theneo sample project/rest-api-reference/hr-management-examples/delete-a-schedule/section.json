@@ -1,0 +1,89 @@
+{
+  "endpoints": {
+    "method": "DELETE",
+    "path": "v2schedule/{schedule}"
+  },
+  "request": {
+    "query": [],
+    "body": [],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": " Bearer <access_token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Accept",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "schedule",
+        "isRequired": true,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f0ef71424aa342013292"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "message",
+          "description": "",
+          "isRequired": false,
+          "value": "enim aliqua est",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [
+        {
+          "name": "message",
+          "description": "",
+          "isRequired": false,
+          "value": "eu",
+          "valueType": "string",
+          "items": [],
+          "options": null
+        }
+      ],
+      "statusCode": "500",
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

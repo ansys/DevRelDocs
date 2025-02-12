@@ -1,0 +1,584 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": "subscriptions/search"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "query",
+        "description": "",
+        "isRequired": false,
+        "valueType": "object",
+        "items": [
+          {
+            "name": "filter",
+            "description": "",
+            "isRequired": false,
+            "valueType": "object",
+            "items": [
+              {
+                "name": "location_ids",
+                "description": "",
+                "isRequired": false,
+                "valueType": "array",
+                "items": [
+                  {
+                    "name": "0",
+                    "description": "",
+                    "isRequired": false,
+                    "value": "S8GWD5R9QB376",
+                    "valueType": "string",
+                    "items": [],
+                    "options": null
+                  }
+                ],
+                "options": null
+              },
+              {
+                "name": "customer_ids",
+                "description": "",
+                "isRequired": false,
+                "valueType": "array",
+                "items": [
+                  {
+                    "name": "0",
+                    "description": "",
+                    "isRequired": false,
+                    "value": "CHFGVKYY8RSV93M5KCYTG4PN0G",
+                    "valueType": "string",
+                    "items": [],
+                    "options": null
+                  }
+                ],
+                "options": null
+              },
+              {
+                "name": "source_names",
+                "description": "",
+                "isRequired": false,
+                "valueType": "array",
+                "items": [
+                  {
+                    "name": "0",
+                    "description": "",
+                    "isRequired": false,
+                    "value": "My App",
+                    "valueType": "string",
+                    "items": [],
+                    "options": null
+                  }
+                ],
+                "options": null
+              }
+            ],
+            "options": null
+          }
+        ],
+        "options": null
+      }
+    ],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": "Bearer <access_token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f0a371424aa342012d73"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "subscriptions",
+          "description": "",
+          "isRequired": false,
+          "valueType": "array",
+          "items": [
+            {
+              "name": "0",
+              "description": "",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "de86fc96-8664-474b-af1a-abbe59cacf0e",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "location_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "S8GWD5R9QB376",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "plan_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "L3TJVDHVBEQEGQDEZL2JJM7R",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "customer_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "CHFGVKYY8RSV93M5KCYTG4PN0G",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "start_date",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-10-20",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "canceled_date",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-10-20",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "charged_through_date",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-11-20",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "status",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "CANCELED",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "created_at",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-10-20T21:53:10Z",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "card_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "ccof:mueUsvgajChmjEbp4GB",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "paid_until_date",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-11-20",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "timezone",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "UTC",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "source",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "My Application",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "1",
+              "description": "",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "56214fb2-cc85-47a1-93bc-44f3766bb56f",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "location_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "S8GWD5R9QB376",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "plan_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "6JHXF3B2CW3YKHDV4XEM674H",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "customer_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "CHFGVKYY8RSV93M5KCYTG4PN0G",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "start_date",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-10-20",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "status",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "PENDING",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "tax_percentage",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "5",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "price_override_money",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "amount",
+                      "description": "",
+                      "isRequired": false,
+                      "value": 100,
+                      "valueType": "number",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "currency",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "USD",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                },
+                {
+                  "name": "version",
+                  "description": "",
+                  "isRequired": false,
+                  "value": 1594155459464,
+                  "valueType": "number",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "created_at",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-10-20T21:53:10Z",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "timezone",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "America/Los_Angeles",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "source",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "My Application",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "2",
+              "description": "",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "8151fc89-da15-4eb9-a685-1a70883cebfc",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "location_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "S8GWD5R9QB376",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "plan_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "6JHXF3B2CW3YKHDV4XEM674H",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "customer_id",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "CHFGVKYY8RSV93M5KCYTG4PN0G",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "start_date",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-10-20",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "charged_through_date",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-11-20",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "status",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "ACTIVE",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "invoice_ids",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "array",
+                  "items": [
+                    {
+                      "name": "0",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "grebK0Q_l8H4fqoMMVvt-Q",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "1",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "rcX_i3sNmHTGKhI4W2mceA",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                },
+                {
+                  "name": "price_override_money",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "amount",
+                      "description": "",
+                      "isRequired": false,
+                      "value": 1000,
+                      "valueType": "number",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "currency",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "USD",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                },
+                {
+                  "name": "created_at",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-10-20T21:53:10Z",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "paid_until_date",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "2021-11-20",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "timezone",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "America/Los_Angeles",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "source",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "My Application",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                }
+              ],
+              "options": null
+            }
+          ],
+          "options": null
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

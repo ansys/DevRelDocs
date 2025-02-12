@@ -1,0 +1,17 @@
+{
+  "endpoints": {
+    "method": "",
+    "path": ""
+  },
+  "request": null,
+  "dataExample": [
+    {
+      "contentType": "json",
+      "body": [],
+      "raw": "scalar ID",
+      "title": "ID",
+      "_id": "66f40241a589ebcd5113cb13"
+    }
+  ],
+  "endpointSummary": []
+}

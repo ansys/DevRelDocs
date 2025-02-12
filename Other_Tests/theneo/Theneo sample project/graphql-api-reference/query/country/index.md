@@ -1,0 +1,1 @@
+The country section allows users to retrieve detailed information about a specific country based on its unique country code. Users can access data such as the country's name, native name, phone code, currency, languages spoken, and even its flag emoji. This section provides comprehensive insights into individual countries for various analysis and reference purposes.

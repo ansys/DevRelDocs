@@ -1,0 +1,106 @@
+{
+  "endpoints": {
+    "method": "DELETE",
+    "path": "customers/{customer_id}"
+  },
+  "request": {
+    "query": [],
+    "body": [],
+    "header": [
+      {
+        "name": "Authorization",
+        "description": "This header parameter is used to authenticate the request and must contain a valid API key.",
+        "isRequired": false,
+        "value": " Bearer <access_token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "description": "This header parameter specifies the media type of the request body, with the value typically set to \"application/json\".",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "customer_id",
+        "description": "This path parameter specifies the unique identifier of the customer to be deleted.",
+        "isRequired": false,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f09371424aa342012c3d"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "id",
+          "description": "This response parameter specifies the unique identifier of the customer that was deleted.",
+          "isRequired": false,
+          "value": "cus_NffrFeUfNV2Hib",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "object",
+          "description": "This response parameter represents the JSON object returned upon successful deletion of the customer.",
+          "isRequired": false,
+          "value": "customer",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "deleted",
+          "description": "This response parameter indicates whether the customer was successfully deleted (true) or not (false).",
+          "isRequired": false,
+          "value": true,
+          "valueType": "boolean",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

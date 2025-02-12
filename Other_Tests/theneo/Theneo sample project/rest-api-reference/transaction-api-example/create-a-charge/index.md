@@ -1,0 +1,1 @@
+Create a charge allows users to initiate a payment transaction and charge a customer's payment source. With this API section, users can easily process payments, handle card details securely, and ensure a seamless checkout experience for their customers.

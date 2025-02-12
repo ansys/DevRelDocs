@@ -1,0 +1,69 @@
+{
+  "endpoints": {
+    "method": "DELETE",
+    "path": "projects/{id}"
+  },
+  "request": {
+    "query": [],
+    "body": [],
+    "header": [
+      {
+        "name": "Accept",
+        "isRequired": false,
+        "value": "application/json",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": " <Bearer Token>",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "id",
+        "isRequired": false,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f11a71424aa342013358"
+  },
+  "responses": [
+    {
+      "body": [],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [],
+      "statusCode": "400",
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}
