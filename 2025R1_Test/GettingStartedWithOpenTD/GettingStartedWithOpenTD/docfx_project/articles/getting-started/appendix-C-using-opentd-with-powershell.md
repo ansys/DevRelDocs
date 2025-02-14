@@ -11,8 +11,6 @@ Here’s a simple Powershell script that loads OpenTD, creates a ThermalDesktop 
 
 ```powershell
 Add-Type -Path "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenTDv242\\v4.0_23.2.0.0__65e6d95ed5c2e178\\OpenTDv242.dll"
-
 \$td = New-Object -TypeName 'OpenTDv232.ThermalDesktop'
-
 \$td.Connect()
 ```

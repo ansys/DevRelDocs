@@ -20,110 +20,65 @@ The following program demonstrates these concepts:
 
 ```c#
 using System.Collections.Generic;
-
 using OpenTDv242;
 
 namespace OpenTDv242GettingStarted
-
 {
-
     class WorkWithConnections
-
     {
-
         public static void Main(string[] args)
-
         {
-
             var td = new ThermalDesktop();
-
             td.Connect();
 
             // create a rectangle:
-
             var brick = td.CreateSolidBrick();
 
             // create a heatload with default connection:
-
             // equiv. to td.CreateHeatLoad(new Connection(brick.Handle, 1));
-
             var heatLoad = td.CreateHeatLoad(brick);
-
             heatLoad.AppliedType = RcHeatLoadData.AppliedTypeBoundaryConds.SURFACE;
-
             heatLoad.Update();
 
             // with marker = 1 = 0b000001, heatload applied to XMIN
-
             // let's apply it to XMIN and YMIN:
-
             heatLoad.ApplyConnections[0].Marker = 0b000101;
-
             heatLoad.Name = "q applied to brick";
-
             heatLoad.Update();
 
             // create a rectangle:
-
             var rect = td.CreateRectangle();
-
             rect.BaseTrans.SetToRotX(90);
-
             rect.BaseTrans.SetOrigin(new Point3d(0, 0, 2));
-
             rect.XMax = 2;
-
             rect.YMax = 3;
-
             rect.BreakdownU.Num = 10;
-
             rect.BreakdownV.Num = 15;
-
             rect.Update();
 
             // create a domain that includes some of the rect nodes:
-
-            var domainConnections = new List\< Connection\> ();
+            var domainConnections = new List<Connection>();
 
             foreach (Node n in td.GetNodes())
-
             {
-
                 if (rect.AttachedNodeHandles.Contains(n.Handle))
-
                 {
-
-                    if (n.Origin.Z \< 4 && n.Origin.X \< 1)
-
-domainConnections.Add(new Connection(n));
-
+                    if (n.Origin.Z < 4 && n.Origin.X < 1)
+                        domainConnections.Add(new Connection(n));
                 }
-
             }
 
-            td.GetDomainManager().CreateDomain
-
-            ("HEATED", DomainType.NODESET, domainConnections);
+            td.GetDomainManager().CreateDomain("HEATED", DomainType.NODESET, domainConnections);
 
             // apply a heat load to the domain:
-
-            var rectHeatLoad = td.CreateHeatLoad(
-
-            new Connection("HEATED", -999));
-
+            var rectHeatLoad = td.CreateHeatLoad(new Connection("HEATED", -999));
             rectHeatLoad.Name = "q applied to rectangle domain";
-
             rectHeatLoad.Update();
 
             td.SetVisualStyle(VisualStyles.THERMAL);
-
             td.RestoreIsoView(IsoViews.SW);
-
             td.ZoomExtents();
-
         }
-
     }
-
 }
 ```

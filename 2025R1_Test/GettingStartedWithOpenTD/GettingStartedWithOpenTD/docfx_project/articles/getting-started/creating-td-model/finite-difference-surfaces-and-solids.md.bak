@@ -21,13 +21,6 @@ namespace OpenTDv242GettingStarted
         {
             var td = new ThermalDesktop();
             td.Connect();
-
-            // create a rectangle and position it using BaseTrans,
-
-            // which is equivalent to moving and rotating it using
-
-            // AutoCAD commands
-
             var rect = td.CreateRectangle();
             rect.TopStartSubmodel = "plate";
             rect.TopStartId = 1;
@@ -38,13 +31,6 @@ namespace OpenTDv242GettingStarted
             rect.BaseTrans.SetToRotX(30);
             rect.BaseTrans.SetOrigin(new Point3d(0, 0, 1));
             rect.Update();
-
-            // create an FD solid brick and position it using LocalTrans,
-
-            // which is equivalent to moving and rotating it using
-
-            // the TD Trans/Rot tab
-
             var fdBrick = td.CreateSolidBrick();
             fdBrick.StartSubmodel = "brick";
             fdBrick.StartId = 1;
@@ -60,9 +46,6 @@ namespace OpenTDv242GettingStarted
             fdBrick.LocalTrans.Axis1 = 2; // rotate about z
             fdBrick.LocalTrans.Rot1 = 30; // rotate 30 deg about z
             fdBrick.Update();
-
-            // control view
-
             td.SetVisualStyle(VisualStyles.THERMAL_PP);
             td.RestoreIsoView(IsoViews.NE);
         }

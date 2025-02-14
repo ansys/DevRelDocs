@@ -14,15 +14,10 @@ LocalTrans is an instance of the *Transformation* class. To use it to perform th
 
 ```c#
 a.LocalTrans.Ty = 2;
-
 a.LocalTrans.Axis1 = 1; // Y
-
 a.LocalTrans.Rot1 = -30;
-
 a.LocalTrans.Axis2 = 0; // X
-
 a.LocalTrans.Rot2 = 45;
-
 a.Update();
 ```
 
@@ -45,11 +40,8 @@ To perform sequential rotations, use matrix multiplication. For example, to perf
 
 ```c#
 var A = new Matrix3d().SetToRotZ(10);
-
 var B = new Matrix3d().SetToRotX(50);
-
 a.BaseTrans = A \* B;
-
 a.Update();
 ```
 
@@ -59,14 +51,9 @@ Translations can also be included using matrix multiplication. For example, to p
 
 ```c#
 var A = new Matrix3d().SetToRotZ(10);
-
 var T = new Matrix3d();
-
 T.SetOrigin(new Point3d(2, 0, 0));
-
 var B = new Matrix3d().SetToRotX(50);
-
-a.BaseTrans = A \* T \* B;
-
+a.BaseTrans = A * T * B;
 a.Update();
 ```
