@@ -1,6 +1,6 @@
 # Appendix A: Using OpenTD with MATLAB
 
-While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C\#. The following .m script is a MATLAB port of the program in Section 5.1 “Create and Run a Case”. This can be used as a sort of "Rosetta Stone" to help you translate other C\# examples to MATLAB.
+While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C\#. The following .m script is a MATLAB port of the program in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section. This can be used as a sort of "Rosetta Stone" to help you translate other C\# examples to MATLAB.
 
 ```MATLAB
 %% Using OpenTDv242 with MATLAB

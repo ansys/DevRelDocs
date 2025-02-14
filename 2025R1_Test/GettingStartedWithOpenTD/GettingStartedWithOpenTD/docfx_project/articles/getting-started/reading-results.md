@@ -13,7 +13,7 @@
 
 ### Before using OpenTDv242.Results
 
-            To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.Results.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. (See Section 2.1.)
+            To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.Results.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. (See the [Hello World](create-td-models.md#hello-world-start-td-and-create-a-node))
 
             Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration Manager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look something like this:
 
@@ -65,7 +65,7 @@ var disparateData = myData.GetData(
 “WALL.T10”, “FLOW.PL100”, “VALVE_POS”, “ROOM.T1”).GetValues(Units.SI);
 ```
 
-In this case, GetData will assume that “VALVE_POS” is a dimensionless register and return the raw values from the save/CSR. This behavior can be modified, as discussed in Section 7.1.4.
+In this case, GetData will assume that “VALVE_POS” is a dimensionless register and return the raw values from the save/CSR. This behavior can be modified, as discussed in the [Work with groups in results data](#work-with-groups-in-results-data) section.
 
 You can construct an array of strings to pass to GetData. For example, to get temperatures for nodes “MAIN.1” through “MAIN.100”, inclusive:
 
@@ -79,9 +79,9 @@ someNames[i] = "MAIN.T" + (i + 1);
 var someTs = myData.GetData(someNames).GetValues(Units.SI);
 ```
 
-Please note that there are special classes that help to construct lists of entities representing SINDA/FLUINT and TD groups such as submodels and domains. These are introduced in Section 7.1.3 and discussed in detail in Section 7.1.4.
+Please note that there are special classes that help to construct lists of entities representing SINDA/FLUINT and TD groups such as submodels and domains. These are introduced in the [Advanced results manipulation and XY plots](#advanced-results-manipulation-and-xy-plots) section and discussed in detail in the [Work with groups in results data](#work-with-groups-in-results-data) section.
 
-In the examples above, we have extracted ‘T’, ‘PL’, and ‘FR’ data. Please examine the values of the StandardDataSubtypes enum to see all strings recognized by GetData. It also recognizes names that require fluid constituent letters, such as ‘GTW’. StandardDataSubtypes are discussed in Sections 7.1.4 and 7.1.5.
+In the examples above, we have extracted ‘T’, ‘PL’, and ‘FR’ data. Please examine the values of the StandardDataSubtypes enum to see all strings recognized by GetData. It also recognizes names that require fluid constituent letters, such as ‘GTW’. StandardDataSubtypes are discussed in Sections [Work with groups in results data](#work-with-groups-in-results-data) and [A note on DataSubtypes](#a-note-on-datasubtypes).
 
 To get TIMEN from a dataset, use:
 
@@ -142,9 +142,9 @@ Compared to previous methods for extracting and plotting SINDA/FLUINT data, Open
   - NaN’s are displayed as a discontinuity in the series. Series with discontinuities (or steady-state series with only one record) are automatically displayed with markers and lines.
   - All the above can be customized.
 
-In this program, we will make use of the “torchNom.sav” and “torchCold.sav” files created in Section 5.1, so please run that program and locate the two save files.
+In this program, we will make use of the “torchNom.sav” and “torchCold.sav” files created in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section, so please run that program and locate the two save files.
 
-Once Visual Studio is set up with a 64-bit solution and project (Section 7.1.1 above), and you have added references to OpenTDv242.dll and OpenTDv242.Results.dll, you will be ready to try the following program.
+Once Visual Studio is set up with a 64-bit solution and project ( Section [Before using OpenTDv242.Results](#before-using-opentdv242results)), and you have added references to OpenTDv242.dll and OpenTDv242.Results.dll, you will be ready to try the following program.
 
 ```c#
 using System;
@@ -356,7 +356,7 @@ If it runs correctly, you should see several *SimplePlot*-generated dialogs like
 
     The previous example provided an overview of using OpenTD to read and plot SINDA/FLUINT results. In the following example we will discuss ItemIdentifiers and DataItemIdentifiers, which allow you to specify groups of items, whether by submodel, domain, or arbitrary list.
 
-    Once again, we are using the OpenTDv242.Results dll, so create a 64-bit project as discussed in Section 7.1.
+    Once again, we are using the OpenTDv242.Results dll, so create a 64-bit project as discussed in [Work directly with results using OpenTDv242.Results](#work-directly-with-results-using-opentdv242results).
 
 ```c#
 using System;
@@ -696,7 +696,8 @@ var allBar_TandQ = data.GetData(allBar_TandQ_Names);
 
     As shown in the preceding sections, the DataSubtype class is used to describe types of data found in solution results such as “node temperature T” or “lump pressure PL”. There are several methods that require a DataSubtype as a parameter. When using those methods, you can create your own DataSubtype, but it is usually easier to allow OpenTD to do it for you by making use of the StandardDataSubtypes enum and/or the FullStandardDataSubtype struct.
 
-    Through the magic of implicit casting (see Section 9.4) any method that accepts a DataSubtype will accept either a StandardDataSubtypes or FullStandardDataSubtype instead. For example, one of the GetData overloads has the following signature:
+    Through the magic of implicit casting (See the [Execute TD COM commands section](extras.md#execute-td-com-commands)) any method that accepts a DataSubtype will accept either a StandardDataSubtypes or FullStandardDataSubtype instead. For example, one of the GetData overloads has the following signature:
+
 
 ```c#
 DataArrayCollection GetData(
@@ -724,13 +725,13 @@ Implicit casting to a DataSubtype also works for FullStandardDataSubtypes, which
 
 ### Get Model Topology from Solution Results
 
-    As demonstrated in Section 3, you can query a dwg file to determine the topology of a model. For example, you can use ThermalDesktop.*GetConductors()* to get all of the conductors, then for each you can use the *From* and *To* members and GetNode to find the attached nodes.
+    As demonstrated in [Modifying TD models](modify-td-models.md), you can query a dwg file to determine the topology of a model. For example, you can use ThermalDesktop.*GetConductors()* to get all of the conductors, then for each you can use the *From* and *To* members and GetNode to find the attached nodes.
 
     That approach is suitable when you are working with the dwg file, but if you are just using solution results it is often more convenient to read topology data directly without involving TD. Also, model topology can change during the run due to BUILD statements or other techniques, so reverse-engineering the actual topology at a given record from the dwg file is error-prone.
 
     Fortunately, OpenTD allows you to read the actual as-solved model topology at each record using *PCS files* automatically created by SINDA/FLUINT. You may have seen these files before in your solution directory, often named “MyCase.savPCS” or similar.
 
-    The following program will read model topology from a PCS file and print out all the conductors and the nodes they connect. It uses “torchNom.sav” and “torchNom.savPCS”, created in Section 5.1, so please run that program and locate the two files.
+    The following program will read model topology from a PCS file and print out all the conductors and the nodes they connect. It uses “torchNom.sav” and “torchNom.savPCS”, created in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section, so please run that program and locate the two files.
 
 ```c#
 using System;
@@ -814,9 +815,9 @@ You may notice that each of the conductors is listed twice, once from node A to 
 
     Model topology along with solution results can be used to determine heat rates between groups of entities. This is done using an *IBrowser*.
 
-    The following program uses the solution results from Section 5.1. Make sure to run that program first before trying this one. As you may recall, that program creates a model of a bar heated on one end, convecting to a room along its length. We will be using results from a transient case, starting with a cold bar.
+    The following program uses the solution results from section [Create and run a case](working-with-case-sets.md#create-and-run-a-case) . Make sure to run that program first before trying this one. As you may recall, that program creates a model of a bar heated on one end, convecting to a room along its length. We will be using results from a transient case, starting with a cold bar.
 
-    We will create two IBrowsers, one early in the solution and one at the final record, using them to find the total heat rate from the bar to the room at the two times. We will also use a SumDataArray (Section 7.1.3) to plot the constant total external heat into the bar over the whole solution. We expect the heat rate from the bar to the room to approach the external heat rate as the system approaches steady-state.
+    We will create two IBrowsers, one early in the solution and one at the final record, using them to find the total heat rate from the bar to the room at the two times. We will also use a SumDataArray (section [Advanced results manipulation and XY plots](#advanced-results-manipulation-and-xy-plots)) to plot the constant total external heat into the bar over the whole solution. We expect the heat rate from the bar to the room to approach the external heat rate as the system approaches steady-state.
 
 ```c#
 using System;

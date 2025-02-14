@@ -6,4 +6,4 @@ OpenTD can be used to communicate with and control running SINDA/FLUINT (S/F) so
 - *SF_CoSolver* is like an SF_Launcher in that it launches a S/F model from an input file, but once launched it attempts to connect to and control it.
 - *TDSF_CoSolver* launches a S/F model from within the TD Case Set Manager, then attempts to connect to and control it.
 
-There is a demo of CoSolver usage available in the OpenTD 2023 R2 demos package. (See Section 10.)
+There is a demo of CoSolver usage available in the OpenTD 2023 R2 demos package. (See [Further reading section](further-reading.md))

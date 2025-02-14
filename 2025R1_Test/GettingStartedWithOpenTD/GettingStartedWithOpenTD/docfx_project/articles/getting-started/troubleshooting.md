@@ -14,7 +14,7 @@ You have tried to run a case using CaseSet.Run but it does not work, even though
 
 ## Unhandled Exception: System.BadImageFormatException: Could not load file or assembly 'OpenTDv242.Results […]’ or one of its dependencies. An attempt was made to load a program with an incorrect format.
 
-When you try to run a program that references OpenTDv242.Results.dll, you might get this exception. We had to compile OpenTDv242.Results.dll for x64 platforms, not “Any CPU” like many .NET assemblies. This means that if you reference it, your program also needs to compile for x64 platforms. See Section 7.1 above for more information on how to set up your program correctly.
+When you try to run a program that references OpenTDv242.Results.dll, you might get this exception. We had to compile OpenTDv242.Results.dll for x64 platforms, not “Any CPU” like many .NET assemblies. This means that if you reference it, your program also needs to compile for x64 platforms. See the [Work directly with results using OpenTDv242.Results](reading-results.md#work-directly-with-results-using-opentdv242results) section for more information on how to set up your program correctly.
 
 ## My problem is not listed here
 

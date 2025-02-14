@@ -1,6 +1,6 @@
 # Modifying TD models
 
-So far, you have seen how to create new entities in TD, but OpenTD can also be used to query existing models and modify their contents. For most entity types, there is a ThermalDesktop method to get all items of that type in the model, and a method to get a specific item. For example, *GetNodes()* returns a list of all Nodes, and *GetNode(string handle)* returns a specific node if you know its AutoCAD handle. (See Section 2.7.) It is often convenient to use the *LINQ Single* or *Where* methods to search a returned list of entities to find the items that meet some criteria. For example, to find all the arithmetic nodes on layer “sheet”, you could do something like this:
+So far, you have seen how to create new entities in TD, but OpenTD can also be used to query existing models and modify their contents. For most entity types, there is a ThermalDesktop method to get all items of that type in the model, and a method to get a specific item. For example, *GetNodes()* returns a list of all Nodes, and *GetNode(string handle)* returns a specific node if you know its AutoCAD handle. (See the [Work with connections, handles, markers, and domains section](create-td-model/connections-handles-markers-domains.md)) It is often convenient to use the *LINQ Single* or *Where* methods to search a returned list of entities to find the items that meet some criteria. For example, to find all the arithmetic nodes on layer “sheet”, you could do something like this:
 
 ```c#
 var arithmeticNodes = td.GetNodes().Where
@@ -240,7 +240,7 @@ namespace OpenTDv242GettingStarted
 
 ## Query and edit finite elements
 
-As mentioned previously in Section 2.5, if you want to edit a mesh created by an FEMeshImporter, you will first have to get the objects representing the actual nodes and elements. Editing the FEMeshImporter directly only offers limited functionality. This is demonstrated in the following program:
+As mentioned previously in the [Additional information on positioning entities using BaseTrans and LocalTrans](create-td-model/basetrans-and-localtrans.md) section, if you want to edit a mesh created by an FEMeshImporter, you will first have to get the objects representing the actual nodes and elements. Editing the FEMeshImporter directly only offers limited functionality. This is demonstrated in the following program:
 
 ```c#
 using System;

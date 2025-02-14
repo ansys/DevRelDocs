@@ -7,6 +7,3 @@ Regardless of how you interact with OpenTD, you will need to have at least an in
 OpenTD was installed beginning with TD 6.1, which was released in early 2019. (Preliminary versions of OpenTD were called "TD API". )
 
 We will now introduce OpenTD concepts and syntax in a series of example programs. The latter programs build on concepts introduced in the earlier ones, so we recommend you try them in order.
-
-**I would remove this part as developers can copy code snippets on this website and also because the indicated site is not public**
-Copying code examples from pdf files is problematic, so we’ve made the examples available at [https://www.crtech.com/forum/topic/opentdv242-getting-started-code-examples](https://www.crtech.com/forum/topic/opentdv242-getting-started-code-examples).
