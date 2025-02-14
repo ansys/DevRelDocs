@@ -174,7 +174,7 @@ namespace OpenTDv242GettingStarted
 }
 ```
 
-Solution files, including “torchNom.sav” and “torchCold.sav”, will be written to the working directory, which we created and then set with ThermalDesktop*.ConnectConfig.StartDirectory*. (See Section 9.1 for more information about controlling how OpenTD connects to TD.) Otherwise, the working directory would have probably been the directory containing your exe. You can also use the ThermalDesktop.*SaveAs* method before running to save the dwg and set the working directory.
+Solution files, including “torchNom.sav” and “torchCold.sav”, will be written to the working directory, which we created and then set with ThermalDesktop*.ConnectConfig.StartDirectory*. (See the [Control how OpenTD connects to Thermal Desktop](extras.md#control-how-opentd-connects-to-thermal-desktop) section for more information about controlling how OpenTD connects to TD.) Otherwise, the working directory would have probably been the directory containing your exe. You can also use the ThermalDesktop.*SaveAs* method before running to save the dwg and set the working directory.
 
 ## Create an orbit and apply it to a case set
 

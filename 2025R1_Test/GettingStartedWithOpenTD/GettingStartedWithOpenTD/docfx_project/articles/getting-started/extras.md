@@ -52,15 +52,15 @@ Here are some useful members of ConnectConfig:
 var td = new ThermalDesktop(@”path\\to\\dwg”);
 ```
 
-- **PipeEndpointName**: Use this after issuing one of the TD commands for starting servers (see Section 9.2) to connect to an already-running instance of TD.
+- **PipeEndpointName**: Use this after issuing one of the TD commands for starting servers (See the [Control OpenTD servers from AutoCAD](#control-opentd-servers-from-autocad) section) to connect to an already-running instance of TD.
 
 - **Type**: This determines whether Connect() will try to attach to an already-running instance of TD or start a new one. The default is AUTO, which means it will try both – first it will try to attach, but if that fails, it will start a new instance.
 
-A complete list of ConnectConfig members (along with all OpenTD types) can be found in the “OpenTD Class Reference” document. (See Section 10.)
+A complete list of ConnectConfig members (along with all OpenTD types) can be found in the “OpenTD Class Reference” document. (See the [Further reading](further-reading.md) section)
 
 ## Control OpenTD servers from AutoCAD
 
-A client program communicates with TD via an OpenTD server launched within the acad.exe process, identified with a string called a *Pipe Endpoint Name*. When you load a dwg containing TD entities, an OpenTD server is started using the dwg pathname to generate the pipe endpoint name. That’s how the Connect() method finds the correct acad process when DwgPathname is set (see Section 9.1). An OpenTD server is also automatically started when you start a new instance of TD via OpenTD.
+A client program communicates with TD via an OpenTD server launched within the acad.exe process, identified with a string called a *Pipe Endpoint Name*. When you load a dwg containing TD entities, an OpenTD server is started using the dwg pathname to generate the pipe endpoint name. That’s how the Connect() method finds the correct acad process when DwgPathname is set (See the [Control how OpenTD connects to Thermal Desktop](#control-how-opentd-connects-to-thermal-desktop) section). An OpenTD server is also automatically started when you start a new instance of TD via OpenTD.
 
 There are commands you can use at the AutoCAD command line to query and start OpenTD servers:
 
@@ -73,7 +73,7 @@ There are commands you can use at the AutoCAD command line to query and start Op
 - **RCOPENTDV242LISTSERVERS**: This command will list the pipe endpoint names of the active OpenTDv242 servers.
 
 
-To connect a client program to a server based on endpoint name, set ThermalDesktop.ConnectConfig.PipeEndpointName before calling Connect() – see Section 9.1.
+To connect a client program to a server based on endpoint name, set ThermalDesktop.ConnectConfig.PipeEndpointName before calling Connect() – (See the [Control how OpenTD connects to Thermal Desktop](#control-how-opentd-connects-to-thermal-desktop) section).
 
 ## Execute AutoCAD commands
 
@@ -249,7 +249,7 @@ Updates all entity values based on symbol expressions.
 
 ## The magic of implicit casting
 
-In Section 2.2, we created a conductor with the following code:
+In the [Create nodes and a conductor](create-td-model/nodes-and-conductor.md) section, we created a conductor with the following code:
 
 ```c#
 var c = td.CreateConductor(n1, n2);
@@ -267,7 +267,7 @@ We took advantage of the fact that OpenTD will implicitly cast a *DbObject* (lik
 var c = td.CreateConductor(new Connection(n1, 1), new Connection(n2, 1));
 ```
 
-OpenTD uses implicit casting in many places. For example, to cast StandardDataSubtypes to DataSubtypes. (See Section 7.1.5.) Some languages do not support .NET implicit casting. If you’re using one of those languages to interface with OpenTD, you can always explicitly cast to the required type. (See Sections 12 and 13.)
+OpenTD uses implicit casting in many places. For example, to cast StandardDataSubtypes to DataSubtypes. (See the [A note on DataSubtypes](reading-results.md#a-note-on-datasubtypes) section) Some languages do not support .NET implicit casting. If you’re using one of those languages to interface with OpenTD, you can always explicitly cast to the required type. (See [Appendix A: Using OpenTD with MATLAB](appendix-A-using-opentd-with-MATLAB.md) and [Appendix B: Using OpenTD with Python](appendix-B-using-opentd-with-python.md))
 
 ## A note on OpenTD versioning
 

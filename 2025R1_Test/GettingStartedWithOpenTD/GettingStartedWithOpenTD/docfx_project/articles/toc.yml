@@ -7,7 +7,30 @@
   - name: Using TD models
     items:
     - name: Creating TD models
-      href: getting-started/create-td-models.md
+      href: getting-started/creating-td-model/overview.md
+      items:
+      - name: Hello World
+        href: getting-started/creating-td-model/hello-world.md
+      - name: Create nodes and a conductor
+        href: getting-started/creating-td-model/node-and-conductor.md
+      - name: Use a loop to create many layers-nodes-conductors
+        href: getting-started/creating-td-model/loop-to-create-nodes.md
+      - name: Create and position finite-difference surfaces and solids
+        href: getting-started/creating-td-model/finite-difference-surfaces-and-solids.md
+      - name: Additional information on using BaseTrans and LocalTrans
+        href: getting-started/creating-td-model/basetrans-and-localtrans.md
+      - name: Create finite elements
+        href: getting-started/creating-td-model/finite-elements.md
+      - name: Work with connections
+        href: getting-started/creating-td-model/connections-handles-markers-domains.md
+      - name: Work with units
+        href: getting-started/creating-td-model/units-symbols-expressions.md
+      - name: Create thermophysical properties
+        href: getting-started/creating-td-model/bivariate-arrays.md 
+      - name: Create optical properties
+        href: getting-started/creating-td-model/optical-properties.md
+      - name: Create fluids entities
+        href: getting-started/creating-td-model/fluids-entities.md
     - name: Modifying TD models
       href: getting-started/modify-td-models.md
     - name: Interacting with end users

@@ -24,7 +24,7 @@ There are several techniques you can use to control how the model is displayed i
 
 - Use ThermalDesktop.*ResetGraphics* to redraw everything in the main window.
 
-- Display contour plots using the ThermalDesktop.*DatasetManager*. See Section 7.2.1.
+- Display contour plots using the ThermalDesktop.*DatasetManager*. See the [Reading result](reading-results.md#create-contour-plots) section.
 
 ## Capture graphics area
 
