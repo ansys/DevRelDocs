@@ -10,35 +10,19 @@ Add the following code, then compile and run the program:
 
 ```csharp
 using OpenTDv242;
-
 namespace OpenTDv242GettingStarted
-
 {
-
- class HelloWorld
-
- {
-
-     public static void Main(string[] args)
-
-     {
-
+    class HelloWorld
+    {
+        public static void Main(string[] args)
+        {
             var td = new ThermalDesktop();
-
             td.Connect();
-
- 
-
             var n = td.CreateNode();
-
-         n.Comment = "Hello World!";
-
+            n.Comment = "Hello World!";
             n.Update();
-
-     }
-
- }
-
+        }
+    }
 }
 ```
 

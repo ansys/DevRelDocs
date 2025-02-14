@@ -7,26 +7,15 @@ Once open, you can use it to interactively execute C\# code, including OpenTD. F
 
 ```csharp
 \> \#r "OpenTDv242" // loads the dll as a reference
-
 \> using OpenTDv242;
-
 \> var td = new ThermalDesktop();
-
 \> td.Connect();
-
 \> var n = td.CreateNode(new Point3d(1, 1, 3));
-
 \> td.ZoomExtents();
-
 \> n.Comment = "Hello World!";
-
 \> n.Update();
-
 \> var nTest = td.GetNodes().First();
-
 \> Console.WriteLine(nTest);
-
 RcNode.MAIN.1::236 "Hello World!"
-
 \> td.Quit();
 ```

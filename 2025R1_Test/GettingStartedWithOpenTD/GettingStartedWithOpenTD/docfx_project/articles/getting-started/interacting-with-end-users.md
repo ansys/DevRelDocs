@@ -48,119 +48,63 @@ The following program demonstrates working with selection sets. It also uses the
 
 ```c#
 using System;
-
 using System.Linq;
-
 using OpenTDv242;
 
 namespace OpenTDv242GettingStarted
-
 {
-
     class Selections
-
     {
-
         public static void Main(string[] args)
-
         {
-
             var td = new ThermalDesktop();
-
             td.Connect();
-
             // Create some randomly-placed nodes and lumps:
-
             var rand = new Random();
-
             const int numberOfItems = 200;
-
-            for (int i = 0; i \< numberOfItems / 2; ++i)
-
-{
-
+            for (int i = 0; i < numberOfItems / 2; ++i)
+            {
                 td.CreateNode(new Point3d(
-
                 rand.NextDouble(), rand.NextDouble(), rand.NextDouble()));
-
                 var lump = td.CreateLump();
-
                 lump.Origin = new Point3d(
-
                 rand.NextDouble(), rand.NextDouble(), rand.NextDouble());
-
                 lump.Update();
-
             }
-
             td.SetView(IsoViews.SE);
-
             Console.WriteLine("Using SetSelection to select entities for which" +
-
-            " X \< 0.5, Y \< 0.5, and Z \> 0.5");
-
+            " X < 0.5, Y < 0.5, and Z > 0.5");
             var NodeHandles = from node in td.GetNodes()
-
-                              where node.Origin.X \< 0.5
-
-                              && node.Origin.Y \< 0.5
-
-                              && node.Origin.Z \> 0.5
-        
-select node.Handle;
-
+                              where node.Origin.X < 0.5
+                              && node.Origin.Y < 0.5
+                              && node.Origin.Z > 0.5
+                              select node.Handle;
             var LumpHandles = from lump in td.GetLumps()
-
-                              where lump.Origin.X \< 0.5
-
-                              && lump.Origin.Y \< 0.5
-
-                              && lump.Origin.Z \> 0.5
-        
-select lump.Handle;
-
+                              where lump.Origin.X < 0.5
+                              && lump.Origin.Y < 0.5
+                              && lump.Origin.Z > 0.5
+                              select lump.Handle;
             var Region1Handles = NodeHandles.Concat(LumpHandles);
-
             td.SetSelection(Region1Handles);
-
-            Console.WriteLine(\$"Selected {NodeHandles.Count()} nodes" +
-            
-\$" and {LumpHandles.Count()} lumps. You may" +
-            
-\$" have to move your mouse into the AutoCAD window" +
-            
-\$" to see the selection.");
-
+            Console.WriteLine($"Selected {NodeHandles.Count()} nodes" +
+            $" and {LumpHandles.Count()} lumps. You may" +
+            $" have to move your mouse into the AutoCAD window" +
+            $" to see the selection.");
             Console.WriteLine("Press [ENTER] to continue...");
-
             Console.ReadLine();
-
             Console.WriteLine("Now asking user to select entites.");
-
             td.ClearSelection();
-
             var selectedEntities = td.GetSelection();
-
             var selectedNodeHandles = from entity in selectedEntities
-
                                       where entity.RawType == "RcNode"
-
                                       select entity.Connection.Handle;
-
             var selectedLumpHandles = from entity in selectedEntities
-
                                       where entity.RawType == "RcLump"
-
                                       select entity.Connection.Handle;
-
-            Console.WriteLine(\$"User selected {selectedNodeHandles.Count()}" +
-            
-\$" nodes and {LumpHandles.Count()} lumps.");
-
+            Console.WriteLine($"User selected {selectedNodeHandles.Count()}" +
+            $" nodes and {LumpHandles.Count()} lumps.");
         }
-
     }
-
 }
 ```
 

@@ -1,6 +1,6 @@
 # Reading results
 
-OpenTD offers two ways to work with solution results:
+    OpenTD offers two ways to work with solution results:
 
 2.  You can work directly with save files, CSR’s and other data files. You can create XY plots and tables, or you can simply get the data into memory for further manipulation.
 3.  You can create and modify contour plots and other post-processing output within a TD instance.
@@ -9,18 +9,21 @@ OpenTD offers two ways to work with solution results:
 
 ## Work directly with results using OpenTDv242.Results
 
-The classes for working directly with save files, CSR’s or other solution results are found within the *OpenTDv242.Results* namespace, packaged within the OpenTDv242.Results.dll assembly. The following section describes how to set up a .NET project to access this assembly.
+        The classes for working directly with save files, CSR’s or other solution results are found within the *OpenTDv242.Results* namespace, packaged within the OpenTDv242.Results.dll assembly. The following section describes how to set up a .NET project to access this assembly.
 
 ### Before using OpenTDv242.Results
 
-To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.esults.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. (See the Hello World](create-td-models.md#hello-world-start-td-and-create-a-node))
-Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration anager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look omething like this:
-![](media/19913b5a9a51f4926a07426227c010fa.png)
+            To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.Results.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. (See the [Hello World](create-td-models.md#hello-world-start-td-and-create-a-node))
+
+            Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration Manager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look something like this:
+
+            ![](media/19913b5a9a51f4926a07426227c010fa.png)
 
 ### The basics
 
-OpenTD offers powerful tools for manipulating solution results, but it is a lot to learn all at once. This section shows how to imply get some data out of a save file or CSR.
-First, reference the OpenTDv242.Results dll as discussed above. Next, add a using statement for convenience:
+            OpenTD offers powerful tools for manipulating solution results, but it is a lot to learn all at once. This section shows how to simply get some data out of a save file or CSR.
+
+            First, reference the OpenTDv242.Results dll as discussed above. Next, add a using statement for convenience:
 
 using OpenTDv242.Results.Dataset;
 
@@ -254,9 +257,9 @@ If it runs correctly, you should see several *SimplePlot*-generated dialogs like
 
 ### Work with Groups in Results Data
 
-The previous example provided an overview of using OpenTD to read and plot SINDA/FLUINT results. In the following example we will discuss ItemIdentifiers and DataItemIdentifiers, which allow you to specify groups of items, whether by submodel, domain, or arbitrary list.
+    The previous example provided an overview of using OpenTD to read and plot SINDA/FLUINT results. In the following example we will discuss ItemIdentifiers and DataItemIdentifiers, which allow you to specify groups of items, whether by submodel, domain, or arbitrary list.
 
-Once again, we are using the OpenTDv242.Results dll, so create a 64-bit project as discussed in [Work directly with results using OpenTDv242.Results](#work-directly-with-results-using-opentdv242results).
+    Once again, we are using the OpenTDv242.Results dll, so create a 64-bit project as discussed in [Work directly with results using OpenTDv242.Results](#work-directly-with-results-using-opentdv242results).
 
 ```c#
 using System;
@@ -271,318 +274,65 @@ namespace OpenTDv242GettingStarted
     {
         public static void Main(string[] args)
         {
-
-            // Let's open one of the torch save files from the
-
-            // "Create and Run a Case" example.
-
-            // You may need to change the workingDir string to the
-
-            // dir containing torchNom.sav.
-
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
             var data = new SaveFile(Path.Combine(workingDir, "torchNom.sav"));
-
-\#region ItemIdentifiers
-
-// Use ItemIdentifiers to identify SINDA/FLUINT entities
-
-// like WALL.100, WATER.45, or MY_REGISTER.
-
-// You can create a collection of ItemIdentifiers from a submodel in a
-
-// Dataset:
-
-var allbarNodeNames
-
-= new ItemIdentifierCollection(DataTypes.NODE, "BAR", data);
+            var allbarNodeNames = new ItemIdentifierCollection(DataTypes.NODE, "BAR", data);
             Console.WriteLine("\\nItemIdentifierCollection: BAR submodel:");
             foreach (var item in allbarNodeNames)
-
-                Console.WriteLine("{0} =\> Submodel = '{1}', Id = {2}",
-
-                item, item.Submodel, item.Id);
-
-            // You can create a collection of ItemIdentifiers representing the
-
-            // nodes in a domain, but you need to supply a ThermalDesktop instance
-
-            // to define the domain: (this example is commented out to avoid loading
-
-            // a TD instance.)
-
-            // var allSomeDomainNodes
-
-            // = new ItemIdentifierCollection("SOME_DOMAIN", aTdInstance);
-
-            // You can create arbitrary collections of ItemIdentifiers by supplying
-
-            // a list of SINDA names:
-
-            var arbitraryItems = new ItemIdentifierCollection(
-
-            "MAIN.1",
-
-            "FLOW.10",
-
-            "MY_REGISTER");
-
+                Console.WriteLine("{0} =\> Submodel = '{1}', Id = {2}", item, item.Submodel, item.Id);
+            var arbitraryItems = new ItemIdentifierCollection("MAIN.1", "FLOW.10", "MY_REGISTER");
             Console.WriteLine("\\nItemIdentifiers: arbitrary list:");
-
             foreach (var item in arbitraryItems)
-
-                Console.WriteLine("{0} =\> Sub = '{1}', Id = {2}, RegName = '{3}'",
-
-                item, item.Submodel, item.Id, item.RegisterName);
-
-\#endregion
-
-\#region DataSubtypes
-
-// Use DataSubtypes to identify types of SINDA/FLUINT data,
-
-// like T, TL, GTW, etc.
-
-// You can create a new DataSubtype with the StandardDataSubtypes enum:
-
-var SubtypeT = new DataSubtype(StandardDataSubtypes.T);
-
-            // For multispecies data, you can provide a StandardDataSubtypes
-
-            // and a FluidConstituents enum...
-
-            var SubtypeGTW = new DataSubtype(
-
-            StandardDataSubtypes.GT, FluidConstituents.W);
-
-            // ...or you can provide a FullStandardDataSubtypes struct,
-
-            // which just contains a StandardDataSubtypes/FluidConstituents pair:
-
-            var SubtypeGTW_alternate
-
-            = new DataSubtype(new FullStandardDataSubtype(
-
-            StandardDataSubtypes.GT, FluidConstituents.W));
-
-            // You can also create your own DataSubtype, maybe for custom data
-
-            // you're reading out of a text file:
-
-            var SubtypeBoundaryLayerThickness = new DataSubtype(
-
-            dimension: UnitsData.UnitsType.MODEL_LENGTH,
-
-            isDimensionalOnlyIfPositive: false,
-
-            description: "Boundary Layer Thickness for Phase B",
-
-            baseSindaDesignator: null,
-
-            dataType: DataTypes.PATH);
-
-            // Through the magic of implicit casts, you can use a
-
-            // StandardDataSubtypes or FullStandardDataSubtype anywhere
-
-            // a DataSubtype is expected:
-
-            var listOfDataSubtypes = new List\< DataSubtype\> () {
-
-                StandardDataSubtypes.T,
-
-new FullStandardDataSubtype(
-
-StandardDataSubtypes.GT, FluidConstituents.W) };
-
+                Console.WriteLine("{0} =\> Sub = '{1}', Id = {2}, RegName = '{3}'", item, item.Submodel, item.Id, item.RegisterName);
+            var SubtypeT = new DataSubtype(StandardDataSubtypes.T);
+            var SubtypeGTW = new DataSubtype(StandardDataSubtypes.GT, FluidConstituents.W);
+            var SubtypeGTW_alternate = new DataSubtype(new FullStandardDataSubtype(StandardDataSubtypes.GT, FluidConstituents.W));
+            var SubtypeBoundaryLayerThickness = new DataSubtype(dimension: UnitsData.UnitsType.MODEL_LENGTH, isDimensionalOnlyIfPositive: false, description: "Boundary Layer Thickness for Phase B", baseSindaDesignator: null, dataType: DataTypes.PATH);
+            var listOfDataSubtypes = new List<DataSubtype>() { StandardDataSubtypes.T, new FullStandardDataSubtype(StandardDataSubtypes.GT, FluidConstituents.W) };
             Console.WriteLine("\\nDataSubtypes: implicit casts to DataSubtype:");
-
             foreach (var item in listOfDataSubtypes)
-
                 Console.WriteLine(item);
-
-\#endregion
-
-\#region Get data with DataSubtypes and ItemIdentifiers
-
-// Datasets can return data for multiple items if provided an
-
-// ItemIdentifierCollection and a DataSubtype:
-
-var allBarNodeTs = data.GetData(allbarNodeNames, StandardDataSubtypes.T);
-
-            Console.WriteLine("\\nGet data with DataSubtypes and ItemIdentifiers:\\n" +
-
-            "DataArrayCollection.Name: {0}\\n.Count: {1}\\n.DataItemCount: {2}",
-
-            allBarNodeTs.Name, allBarNodeTs.Count, allBarNodeTs.DataItemCount);
-
-\#endregion
-
-\#region DataItemIdentifiers
-
-// Use DataItemIdentifiers to identify SINDA/FLUINT entities like
-
-// WALL.T100, WATER.TL45, or "MY_REGISTER temperature".
-
-// They combine ItemIdentifiers and DataSubtypes.
-
-// You can create DataItemIdentifiers from ItemIdentifiers and a single
-
-//DataSubtype:
-
-var allBar_T_Names
-
-= new DataItemIdentifierCollection(
-
-allbarNodeNames, StandardDataSubtypes.T);
-
+            var allBarNodeTs = data.GetData(allbarNodeNames, StandardDataSubtypes.T);
+            Console.WriteLine("\\nGet data with DataSubtypes and ItemIdentifiers:\\n" + "DataArrayCollection.Name: {0}\\n.Count: {1}\\n.DataItemCount: {2}", allBarNodeTs.Name, allBarNodeTs.Count, allBarNodeTs.DataItemCount);
+            var allBar_T_Names = new DataItemIdentifierCollection(allbarNodeNames, StandardDataSubtypes.T);
             Console.WriteLine("\\nDataItemIdentifiers: all BAR T names:");
-
             foreach (var item in allBar_T_Names)
-
                 Console.WriteLine(item);
-
-            // Or you can create a DataItemIdentifierCollection
-
-            // by parsing a list of SINDA/FLUINT names:
-
-            var parsedDataItems = new DataItemIdentifierCollection(
-
-            "MAIN.T100",
-
-            "FLOW.FR40",
-
-            "FLOW.GTW11",
-
-            "A_REGISTER");
-
+            var parsedDataItems = new DataItemIdentifierCollection("MAIN.T100", "FLOW.FR40", "FLOW.GTW11", "A_REGISTER");
             Console.WriteLine("\\nDataItemIdentifiers: parsed SINDA/FLUINT names:");
-
             foreach (var item in parsedDataItems)
-
                 Console.WriteLine(item);
-
-            // One issue with parsing SINDA/FLUINT names: it will assume any
-
-            // registers are dimensionless, so if you'd like to assign a
-
-            // dimension to a register, you should explicitly create the
-
-            // DataItemIdentifier for it:
-
-            var A_REGISTER_flowrate
-
-            = new DataItemIdentifier(
-
-            new ItemIdentifier("A_REGISTER"), StandardDataSubtypes.FR);
-
-            // If the register stores data in a unit system other than that
-
-            // of the Dataset, you can specify that too:
-
-            var A_REGISTER_flowrate_Eng
-
-            = new DataItemIdentifier(
-
-            new ItemIdentifier("A_REGISTER"), StandardDataSubtypes.FR,
-
-            Units.Eng);
-
-            // You can combine ItemIdentifiers and a list of DataSubtypes,
-
-            // creating all combinations of DataItemIdentifiers:
-
-            var TandQ = new List\< DataSubtype\> ()
-        
-{
-
-                StandardDataSubtypes.T,
-
-StandardDataSubtypes.Q
-
-};
-
-            var allBar_TandQ_Names
-
-            = new DataItemIdentifierCollection(allbarNodeNames, TandQ);
-
-            Console.WriteLine("\\nDataItemIdentifiers: " +
-
-            "combine ItemIdentifiers and DataSubtypes:");
-
+            var A_REGISTER_flowrate = new DataItemIdentifier(new ItemIdentifier("A_REGISTER"), StandardDataSubtypes.FR);
+            var A_REGISTER_flowrate_Eng = new DataItemIdentifier(new ItemIdentifier("A_REGISTER"), StandardDataSubtypes.FR, Units.Eng);
+            var TandQ = new List<DataSubtype>() { StandardDataSubtypes.T, StandardDataSubtypes.Q };
+            var allBar_TandQ_Names = new DataItemIdentifierCollection(allbarNodeNames, TandQ);
+            Console.WriteLine("\\nDataItemIdentifiers: " + "combine ItemIdentifiers and DataSubtypes:");
             foreach (var item in allBar_TandQ_Names)
-
                 Console.WriteLine(item);
-
-\#endregion
-
-\#region Get data with DataItemIdentifiers
-
-// Datasets can return data for multiple items if provided a
-
-// DataItemIdentifierCollection:
-
-var allBar_TandQ = data.GetData(allBar_TandQ_Names);
-
-            // And you can plot all the series in a DataArrayCollection
-
-            // with a single SimplePlot.AddSeries method:
-
+            var allBar_TandQ = data.GetData(allBar_TandQ_Names);
             {
-
                 var plot = new SimplePlot();
-
-                plot.Name
-
-                = "Get data with DataItemIdentifiers: plot DataArrayCollection";
-
+                plot.Name = "Get data with DataItemIdentifiers: plot DataArrayCollection";
                 plot.AddSeries(allBar_TandQ);
-
                 plot.Show();
-
             }
-
-            // Since the DataArrays in allBar_TandQ know their SourceDataset,
-
-            // AddSeries uses it to get time for the x data of each series.
-
-            // Skip some steps and let GetData parse a list of SINDA/FLUINT names.
-
-            // One issue with this: it will assume any registers are dimensionless,
-
-            // so if you'd like to assign a dimension to a register, you should
-
-            // explicitly create the DataItemIdentifier for it.
-
             var someData = data.GetData("BAR.T1", "BAR.Q1", "BAR.T3");
-
             {
-
                 var plot = new SimplePlot();
-
                 plot.Name = "Get data with DataItemIdentifiers: parsed names";
-
                 plot.AddSeries(someData);
-
                 plot.Show();
-
             }
-
-\#endregion
-
-}
-
+        }
     }
-
 }
 ```
 
 ### A Note on DataSubtypes
 
-As shown in the preceding sections, the DataSubtype class is used to describe types of data found in solution results such as “node temperature T” or “lump pressure PL”. There are several methods that require a DataSubtype as a parameter. When using those methods, you can create your own DataSubtype, but it is usually easier to allow OpenTD to do it for you by making use of the StandardDataSubtypes enum and/or the FullStandardDataSubtype struct.
+    As shown in the preceding sections, the DataSubtype class is used to describe types of data found in solution results such as “node temperature T” or “lump pressure PL”. There are several methods that require a DataSubtype as a parameter. When using those methods, you can create your own DataSubtype, but it is usually easier to allow OpenTD to do it for you by making use of the StandardDataSubtypes enum and/or the FullStandardDataSubtype struct.
 
-Through the magic of implicit casting (See the [Execute TD COM commands section](extras.md#execute-td-com-commands)) any method that accepts a DataSubtype will accept either a StandardDataSubtypes or FullStandardDataSubtype instead. For example, one of the GetData overloads has the following signature:
+    Through the magic of implicit casting (See the [Execute TD COM commands section](extras.md#execute-td-com-commands)) any method that accepts a DataSubtype will accept either a StandardDataSubtypes or FullStandardDataSubtype instead. For example, one of the GetData overloads has the following signature:
 
 
 ```c#
@@ -608,13 +358,13 @@ Implicit casting to a DataSubtype also works for FullStandardDataSubtypes, which
 
 ### Get Model Topology from Solution Results
 
-As demonstrated in [Modifying TD models](modify-td-models.md), you can query a dwg file to determine the topology of a model. For example, you can use ThermalDesktop.*GetConductors()* to get all of the conductors, then for each you can use the *From* and *To* members and GetNode to find the attached nodes.
+    As demonstrated in [Modifying TD models](modify-td-models.md), you can query a dwg file to determine the topology of a model. For example, you can use ThermalDesktop.*GetConductors()* to get all of the conductors, then for each you can use the *From* and *To* members and GetNode to find the attached nodes.
 
-That approach is suitable when you are working with the dwg file, but if you are just using solution results it is often more convenient to read topology data directly without involving TD. Also, model topology can change during the run due to BUILD statements or other techniques, so reverse-engineering the actual topology at a given record from the dwg file is error-prone.
+    That approach is suitable when you are working with the dwg file, but if you are just using solution results it is often more convenient to read topology data directly without involving TD. Also, model topology can change during the run due to BUILD statements or other techniques, so reverse-engineering the actual topology at a given record from the dwg file is error-prone.
 
-Fortunately, OpenTD allows you to read the actual as-solved model topology at each record using *PCS files* automatically created by SINDA/FLUINT. You may have seen these files before in your solution directory, often named “MyCase.savPCS” or similar.
+    Fortunately, OpenTD allows you to read the actual as-solved model topology at each record using *PCS files* automatically created by SINDA/FLUINT. You may have seen these files before in your solution directory, often named “MyCase.savPCS” or similar.
 
-The following program will read model topology from a PCS file and print out all the conductors and the nodes they connect. It uses “torchNom.sav” and “torchNom.savPCS”, created in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section, so please run that program and locate the two files.
+    The following program will read model topology from a PCS file and print out all the conductors and the nodes they connect. It uses “torchNom.sav” and “torchNom.savPCS”, created in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section, so please run that program and locate the two files.
 
 ```c#
 using System;
@@ -629,33 +379,11 @@ namespace OpenTDv242GettingStarted
     {
         public static void Main(string[] args)
         {
-
-            // Let's open one of the torch save files from the
-
-            // "Create and Run a Case" example.
-
-            // You may need to change the workingDir string to the
-
-            // dir containing torchNom.sav.
-
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
             var data = new SaveFile(Path.Combine(workingDir, "torchNom.sav"));
-
-            // Now we'll read the PCS file, which contains topology and other
-
-            // extra information. Topology can change with each record, so we
-
-            // have to specify which record. We'll just use the first one:
-
             List<long> recordNums = data.GetRecordNumbers();
             string pcsPath = Path.Combine(workingDir, "torchNom.savPCS");
-
-            IDatasetTopology topology
-
-            = DatasetTopology.Load(data, recordNums[0], pcsPath);
-
-            // Find all conductors and their attached nodes:
-
+            IDatasetTopology topology = DatasetTopology.Load(data, recordNums[0], pcsPath);
             foreach (IConductorInfo cond in topology.Conductors)
             {
                 Console.WriteLine("{0} Conductor {1}:", cond.IsRad ? "Radiation" : "Linear", cond.SindaName);
@@ -671,11 +399,11 @@ You may notice that each of the conductors is listed twice, once from node A to 
 
 ### Calculate Heat Rates between Groups
 
-Model topology along with solution results can be used to determine heat rates between groups of entities. This is done using an *IBrowser*.
+    Model topology along with solution results can be used to determine heat rates between groups of entities. This is done using an *IBrowser*.
 
-The following program uses the solution results from section [Create and run a case](working-with-case-sets.md#create-and-run-a-case) . Make sure to run that program first before trying this one. As you may recall, that program creates a model of a bar heated on one end, convecting to a room along its length. We will be using results from a transient case, starting with a cold bar.
+    The following program uses the solution results from section [Create and run a case](working-with-case-sets.md#create-and-run-a-case) . Make sure to run that program first before trying this one. As you may recall, that program creates a model of a bar heated on one end, convecting to a room along its length. We will be using results from a transient case, starting with a cold bar.
 
-We will create two IBrowsers, one early in the solution and one at the final record, using them to find the total heat rate from the bar to the room at the two times. We will also use a SumDataArray (section [Advanced results manipulation and XY plots](#advanced-results-manipulation-and-xy-plots)) to plot the constant total external heat into the bar over the whole solution. We expect the heat rate from the bar to the room to approach the external heat rate as the system approaches steady-state.
+    We will create two IBrowsers, one early in the solution and one at the final record, using them to find the total heat rate from the bar to the room at the two times. We will also use a SumDataArray (section [Advanced results manipulation and XY plots](#advanced-results-manipulation-and-xy-plots)) to plot the constant total external heat into the bar over the whole solution. We expect the heat rate from the bar to the room to approach the external heat rate as the system approaches steady-state.
 
 ```c#
 using System;
@@ -691,13 +419,6 @@ namespace OpenTDv242GettingStarted
     {
         public static void Main(string[] args)
         {
-
-            // Open torchCold.sav and torchCold.savPCS, getting topology at
-
-            // early record: (using torchCold because we set SaveAll = 1 to
-
-            // make sure all data req'd for Browser available)
-
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
             var data = new SaveFile(Path.Combine(workingDir, "torchCold.sav"));
             List<long> recordNums = data.GetRecordNumbers();
@@ -705,64 +426,20 @@ namespace OpenTDv242GettingStarted
             string pcsPath = Path.Combine(workingDir, "torchCold.savPCS");
             int earlyIndex = 1;
             IDatasetTopology topologyEarly = DatasetTopology.Load(data, recordNums[earlyIndex], pcsPath);
-            IDatasetTopology topologyEarly
-
-            = DatasetTopology.Load(data, recordNums[earlyIndex], pcsPath);
-
-            // Create Browser at early record and find heat rate from
-
-            // submodel BAR to ROOM:
-
-            IBrowser browserEarly
-
-            = Browser.Create(data, topologyEarly, recordNums[earlyIndex]);
-
-            HeatratesBetween heatratesEarly
-
-            = browserEarly.GetHeatBetweenSubmodels("BAR", "ROOM");
-
-            Console.WriteLine("At time {0} s, heat rate from BAR to ROOM: {1} W",
-
-            timesSec[earlyIndex], heatratesEarly.TotalHeatrate);
-
-            // Find heat rate between submodels at final record:
-
-            // (Using early-record topology because we know it
-
-            // doesn't change in this model.)
-
+            IBrowser browserEarly = Browser.Create(data, topologyEarly, recordNums[earlyIndex]);
+            HeatratesBetween heatratesEarly = browserEarly.GetHeatBetweenSubmodels("BAR", "ROOM");
+            Console.WriteLine("At time {0} s, heat rate from BAR to ROOM: {1} W", timesSec[earlyIndex], heatratesEarly.TotalHeatrate);
             int finalIndex = recordNums.Count - 1;
-
-            IBrowser browserFinal
-
-            = Browser.Create(data, topologyEarly, recordNums[finalIndex]);
-
-            HeatratesBetween heatratesFinal
-
-            = browserFinal.GetHeatBetweenSubmodels("BAR", "ROOM");
-
-            Console.WriteLine("At time {0} s, heat rate from BAR to ROOM: {1} W",
-
-            timesSec[finalIndex], heatratesFinal.TotalHeatrate);
-
-            // Plot total external heat into bar:
-
+            IBrowser browserFinal = Browser.Create(data, topologyEarly, recordNums[finalIndex]);
+            HeatratesBetween heatratesFinal = browserFinal.GetHeatBetweenSubmodels("BAR", "ROOM");
+            Console.WriteLine("At time {0} s, heat rate from BAR to ROOM: {1} W", timesSec[finalIndex], heatratesFinal.TotalHeatrate);
             var barNodes = new ItemIdentifierCollection(DataTypes.NODE, "BAR", data);
-
-            DataArrayCollection barQs
-
-            = data.GetData(barNodes, StandardDataSubtypes.Q);
-
+            DataArrayCollection barQs = data.GetData(barNodes, StandardDataSubtypes.Q);
             var barQSum = new SumDataArray(barQs);
-
             var plot = new SimplePlot();
-
             plot.AddSeries(barQSum);
-
             plot.Show();
-
         }
-
     }
 }
 ```
@@ -771,13 +448,13 @@ For this program, we only looked at heat rates between submodels, using IBrowser
 
 ### Read Text Files
 
-In addition to SaveFile and CSR data sources, there are other types of Dataset classes available:
+    In addition to SaveFile and CSR data sources, there are other types of Dataset classes available:
 
-SpreadsheetDataFile, for reading columns of comma-delimited data
+    SpreadsheetDataFile, for reading columns of comma-delimited data
 
-TextTransientFile, for reading the TD-specific Text Transient Dataset file, as defined in the TD manual.
+    TextTransientFile, for reading the TD-specific Text Transient Dataset file, as defined in the TD manual.
 
-All of them implement the OpenTDv242.Dataset.IDataset interface, so they can be used interchangeably. The following program demonstrates treating a csv file as a Dataset using OpenTDv242.Results:
+    All of them implement the OpenTDv242.Dataset.IDataset interface, so they can be used interchangeably. The following program demonstrates treating a csv file as a Dataset using OpenTDv242.Results:
 
 ```c#
 using System;
@@ -923,71 +600,12 @@ namespace OpenTDv242GettingStarted
 
             // File specification:
             // ...
-            // 1. Optional arbitrary number of comment lines beginning with \#
-
-            // 2. Optional \#TIME_UNITS line
-
-            // \* Must be only one space between TIME_UNITS and value
-
-            // \* First character of value is compared against first
-
-            // character of Time enum values SEC, MIN or HR
-
-            // 3. Optional arbitrary number of comment lines beginning with \#
-
-            // 4. Optional Label = line
-
-            // \* Label= does not need to appear at start of line
-
-            // \* Value is 2048 characters max
-
-            // 5. Integer specifying number of items n
-
-            // \* 2048 characters max
-
-            // 6. n lines containing item names
-
-            // \* Throw away spaces, \\n, and \\r
-
-            // \* If no ‘.’, prepend ‘MAIN.’ to name
-
-            // \* 2048 characters max
-
-            // 7. Single line containing first time
-
-            // \* 2048 characters max
-
-            // 8. n lines containing data for that time
-
-            // \* 2048 characters max
-
-            // We'll use a custom DataSubtype to describe the motor angle data
-
-            // stored in the text transient file. The description "motor crank
-
-            // angle" will be overwritten by the "Label =" line in the example
-
-            // text file.
 
             var motorAngle = new DataSubtype(UnitsData.UnitsType.ANGLE,
                 false, "motor crank angle", null,
                 DataTypes.NODE);
 
-            // If we didn't provide a DataSubtype to the TextTransientFile
-
-            // constructor, it would assume T (node temperature). If we didn't
-
-            // provide units, it would assume the data was in the current
-
-            // Units.WorkingUnits. (With the exception of time units, which can be
-
-            // overwritten by a \#TIME_UNITS statement in the file.
-
             var data = new TextTransientFile(pathname, motorAngle, Units.SI);
-
-            // You can use the Dataset methods to extract data from
-
-            // TextTransientFiles
 
             Console.WriteLine("Thermal submodels:");
             foreach (string submodel in data.GetThermalSubmodels())
@@ -997,21 +615,7 @@ namespace OpenTDv242GettingStarted
             foreach (long id in data.GetNodeIds("MOTOR"))
                 Console.WriteLine(" " + id);
 
-            // In addition to the Dataset methods TextTransientFiles also implement
-
-            // the ISimpleDataset interface, which includes the GetAllData() method.
-
-            // This returns a DataArrayCollection all of the data in the
-
-            // SimpleDataset. It defaults to returning time as the first array, but
-
-            // we'll override that behavior here with the includeXDataAsFirstArray
-
-            // parameter.
-
             var allData = data.GetAllData(includeXDataAsFirstArray: false);
-
-            // Find and plot max motor angle in radians
 
             var maxMotorAngle = new MaxDataArray(allData);
 
@@ -1027,7 +631,7 @@ namespace OpenTDv242GettingStarted
 
 ### Compare Datasets
 
-The *Comparer* class can be used to determine if two Datasets are the same. By default, it compares the following:
+    The *Comparer* class can be used to determine if two Datasets are the same. By default, it compares the following:
 
 - Number of records
 
@@ -1063,11 +667,11 @@ The *Comparer* class can be used to determine if two Datasets are the same. By d
 
 - Any of the hundreds of StandardDataSubtypes or FullStandardDataSubtypes (by adding them to the *DataToCompare* member) for the relevant common entities.
 
-All floating point data is compared in SI units with a default tolerance of 1%. The tolerance can be adjusted by changing the *PercentTol* member. Any items that exceed tolerance will be saved in the *Exceedances* member and can be plotted using the *PlotExceedances* method.
+    All floating point data is compared in SI units with a default tolerance of 1%. The tolerance can be adjusted by changing the *PercentTol* member. Any items that exceed tolerance will be saved in the *Exceedances* member and can be plotted using the *PlotExceedances* method.
 
-*CompareAssertions* can be used to store a Comparer along with an assertion about whether the two Datasets should be identical.
+    *CompareAssertions* can be used to store a Comparer along with an assertion about whether the two Datasets should be identical.
 
-*CompareSuites* can hold a collection of CompareAssertions, run all comparisons, and report on the success or failure of all assertions. The following program demonstrates the use of a simple CompareSuite:
+    *CompareSuites* can hold a collection of CompareAssertions, run all comparisons, and report on the success or failure of all assertions. The following program demonstrates the use of a simple CompareSuite:
 
 ```c#
 using System;
@@ -1080,23 +684,13 @@ namespace OpenTDv242GettingStarted
     {
         public static void Main(string[] args)
         {
-
-            // you may wish to change the location of the working dir:
-
             string workingDir = @"c:\\temp\\CompareDatasets";
             if (Directory.Exists(workingDir))
                 Directory.Delete(workingDir, true);
             Directory.CreateDirectory(workingDir);
 
-\#region Create Files
-
-// for clarity, we'll just create a few csv files and read them
-
-// in as SpreadsheetFiles, but of course Comparers can be used
-
-// with any kind of Dataset, including sav files and CSR's
-
-// file 1: (baseline)
+            string pathBaseline = Path.Combine(workingDir, "baseline.csv");
+            string dataBaseline = "TIMEN,WALL.T100\\n" + "min,F\\n" + "0,70\\n" + "1,75\\n" + "2,77";
             File.WriteAllText(pathBaseline, dataBaseline);
 
             string pathCopy = Path.Combine(workingDir, "baselineCopy.csv");
@@ -1106,113 +700,45 @@ namespace OpenTDv242GettingStarted
             string dataExtraNode = "TIMEN,WALL.T100,MAIN.T4\\n" + "min,F,F\\n" + "0,70,32\\n" + "1,75,32\\n" + "2,77,32";
             File.WriteAllText(pathExtraNode, dataExtraNode);
 
-            // file 4: (same as baseline, but different time units)
-
-            string pathDifferentUnits = Path.Combine(
-
-            workingDir, "differentUnits.csv");
-
-            string dataDifferentUnits
-
-            = "TIMEN,WALL.T100\\n"
-
-\+"s,F\\n"
-        
-\+"0,70\\n"
-        
-\+"60,75\\n"
-        
-\+"120,77";
-
+            string pathDifferentUnits = Path.Combine(workingDir, "differentUnits.csv");
+            string dataDifferentUnits = "TIMEN,WALL.T100\\n" + "s,F\\n" + "0,70\\n" + "60,75\\n" + "120,77";
             File.WriteAllText(pathDifferentUnits, dataDifferentUnits);
 
-            // file 5: (different temperatures)
-
             string pathDifferentT = Path.Combine(workingDir, "differentT.csv");
-
-            string dataDifferentT
-
-            = "TIMEN,WALL.T100\\n"
-
-\+"min,F\\n"
-        
-\+"0,50\\n"
-        
-\+"1,52\\n"
-        
-\+"2,53";
+            string dataDifferentT = "TIMEN,WALL.T100\\n" + "min,F\\n" + "0,50\\n" + "1,52\\n" + "2,53";
             File.WriteAllText(pathDifferentT, dataDifferentT);
 
-\#endregion
-
-// Read all of the files as Datasets:
-
-var baseline = new SpreadsheetDataFile(pathBaseline);
-
+            var baseline = new SpreadsheetDataFile(pathBaseline);
             var copy = new SpreadsheetDataFile(pathCopy);
-
             var extraNode = new SpreadsheetDataFile(pathExtraNode);
-
             var differentUnits = new SpreadsheetDataFile(pathDifferentUnits);
-
             var differentT = new SpreadsheetDataFile(pathDifferentT);
 
-            // Create a CompareSuite with our assertions: (we'll get one
-
-            // wrong on purpose)
-
             var suite = new CompareSuite()
+            {
+                new CompareAssertion(baseline, copy, assertDatasetsSame: true),
+                new CompareAssertion(baseline, extraNode, true),
+                new CompareAssertion(baseline, differentUnits, true),
+                new CompareAssertion(baseline, differentT, false),
+            };
 
-{
-
-new CompareAssertion(baseline, copy, assertDatasetsSame: true),
-
-new CompareAssertion(baseline, extraNode, true), // wrong
-
-new CompareAssertion(baseline, differentUnits, true),
-
-new CompareAssertion(baseline, differentT, false),
-
-};
-
-            Tuple\< int, int\> SuccessAndTotal = suite.Run();
-
-            Console.WriteLine("{0} out of {1} assertions were true.",
-
-            SuccessAndTotal.Item1, SuccessAndTotal.Item2);
-
+            Tuple<int, int> SuccessAndTotal = suite.Run();
+            Console.WriteLine("{0} out of {1} assertions were true.", SuccessAndTotal.Item1, SuccessAndTotal.Item2);
             Console.WriteLine();
-
             Console.WriteLine("Full log output:");
-
             Console.WriteLine();
-
             Console.Write(suite.Log);
 
-            // Let's use an exceedance plot to see how different baseline
-
-            // and differentT are:
-
             var compareToDifferentT = new Comparer(baseline, differentT);
-
             compareToDifferentT.Run();
-
             compareToDifferentT.PlotExceedances();
 
             Console.WriteLine();
-
-            Console.WriteLine("Running baseline to differentT comparison again" +
-
-            " and plotting exceedance plot:");
-
+            Console.WriteLine("Running baseline to differentT comparison again and plotting exceedance plot:");
             Console.WriteLine();
-
             Console.WriteLine(compareToDifferentT.Message);
-
         }
-
     }
-
 }
 ```
 
@@ -1237,9 +763,6 @@ namespace OpenTDv242GettingStarted
     {
         public static void Main(string[] args)
         {
-
-            // you may wish to change the location of the working dir:
-
             string workingDir = @"c:\\temp\\CreateContourPlots";
             if (Directory.Exists(workingDir))
                 Directory.Delete(workingDir, true);
@@ -1274,47 +797,17 @@ namespace OpenTDv242GettingStarted
             caseset.SaveCap = 1;
             caseset.Update();
             caseset.Run();
-
-            // TD will automatically create a contour plot. Let's hide it:
-
             td.ResetGraphics();
             #endregion
-
-// Let's find the record for which the disk's mCp-weighted average temp
-
-// is highest:
-
-var savPath = Path.Combine(workingDir, "myCase.sav");
+            var savPath = Path.Combine(workingDir, "myCase.sav");
             var data = new SaveFile(savPath);
-
-            var nodes = new ItemIdentifierCollection(
-
-            DataTypes.NODE, "MYDISK", data);
-
-            var CapAvgTemp = new WeightedAverageDataArray(
-
-            StandardDataSubtypes.T, StandardDataSubtypes.C, nodes, data);
-
-            int maxTindex
-
-            = CapAvgTemp.GetValues().IndexOf(CapAvgTemp.GetValues().Max());
-
-            // XY plot the mCp-weighted average temp:
-
+            var nodes = new ItemIdentifierCollection(DataTypes.NODE, "MYDISK", data);
+            var CapAvgTemp = new WeightedAverageDataArray(StandardDataSubtypes.T, StandardDataSubtypes.C, nodes, data);
+            int maxTindex = CapAvgTemp.GetValues().IndexOf(CapAvgTemp.GetValues().Max());
             var plot = new SimplePlot();
             plot.AddSeries(CapAvgTemp);
             plot.Show();
-
-            // create a T contour plot at the max mCp-weighted average record:
-
-            var tdDataset = td.DatasetManager.CreateDataset(
-
-            "myCase Dataset",
-
-            savPath,
-
-            OpenTDv242.PostProcessing.Dataset.DataSourceTypes.SF);
-
+            var tdDataset = td.DatasetManager.CreateDataset("myCase Dataset", savPath, OpenTDv242.PostProcessing.Dataset.DataSourceTypes.SF);
             tdDataset.CurrentTimeIndex = maxTindex;
             tdDataset.ShowContourPlot();
             td.ZoomExtents();

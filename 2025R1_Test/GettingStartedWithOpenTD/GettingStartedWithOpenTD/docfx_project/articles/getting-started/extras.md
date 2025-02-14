@@ -8,33 +8,19 @@ In this guide, we mostly call ThermalDesktop.Connect() with default options, whi
 
 ```c#
 using OpenTDv242;
-
 namespace OpenTDv242GettingStarted
-
 {
-
     class ControlHowOpenTDConnects
-
     {
-
         public static void Main(string[] args)
-
         {
-
             var td = new ThermalDesktop();
-
             td.ConnectConfig.AcadVisible = false;
-
             td.Connect();
-
             // useful code goes here...
-
             td.Quit();
-
         }
-
     }
-
 }
 ```
 
@@ -89,49 +75,27 @@ The following program demonstrates using SendCommand:
 
 ```c#
 using OpenTDv242;
-
 namespace OpenTDv242GettingStarted
-
 {
-
     class ExecuteAutocadCommands
-
     {
-
         public static void Main(string[] args)
-
         {
-
             var td = new ThermalDesktop();
-
             td.Connect();
-
             // draw an AutoCAD rectangle:
-
             td.SendCommand("rectang 3,3 4,5 ");
-
             // draw AutoCAD text: (Using a dash in front
-
             // of the command to make it command-line only.
-
             // This works for some AutoCAD commands.)
-
             td.SendCommand("-text 3,2.6 0.25 0 A Door\\n");
-
             // zoom extents using OpenTD method:
-
             td.ZoomExtents();
-
             // zoom view to scale factor 1.5: (using
-
             // abbreviated command names)
-
             td.SendCommand("z s 1.5 ");
-
         }
-
     }
-
 }
 ```
 
@@ -249,7 +213,7 @@ Updates all entity values based on symbol expressions.
 
 ## The magic of implicit casting
 
-In the [Create nodes and a conductor](create-td-model/nodes-and-conductor.md) section, we created a conductor with the following code:
+In the [Create nodes and a conductor](creating-td-model/nodes-and-conductor.md) section, we created a conductor with the following code:
 
 ```c#
 var c = td.CreateConductor(n1, n2);
