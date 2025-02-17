@@ -258,323 +258,204 @@ The previous example provided an overview of using OpenTD to read and plot SINDA
 
 Once again, we are using the OpenTDv242.Results dll, so create a 64-bit project as discussed in [Work directly with results using OpenTDv242.Results](#work-directly-with-results-using-opentdv242results).
 
-```c#
+```C#
 using System;
 using System.IO;
 using System.Collections.Generic;
 using OpenTDv242;
 using OpenTDv242.Results.Dataset;
 using OpenTDv242.Results.Plot;
+
 namespace OpenTDv242GettingStarted
 {
     class WorkingWithGroups
     {
         public static void Main(string[] args)
         {
-
             // Let's open one of the torch save files from the
-
             // "Create and Run a Case" example.
-
             // You may need to change the workingDir string to the
-
             // dir containing torchNom.sav.
-
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
             var data = new SaveFile(Path.Combine(workingDir, "torchNom.sav"));
 
-\#region ItemIdentifiers
+            #region ItemIdentifiers
+            // Use ItemIdentifiers to identify SINDA/FLUINT entities
+            // like WALL.100, WATER.45, or MY_REGISTER.
 
-// Use ItemIdentifiers to identify SINDA/FLUINT entities
-
-// like WALL.100, WATER.45, or MY_REGISTER.
-
-// You can create a collection of ItemIdentifiers from a submodel in a
-
-// Dataset:
-
-var allbarNodeNames
-
-= new ItemIdentifierCollection(DataTypes.NODE, "BAR", data);
+            // You can create a collection of ItemIdentifiers from a submodel in a
+            // Dataset:
+            var allbarNodeNames = new ItemIdentifierCollection(DataTypes.NODE, "BAR", data);
             Console.WriteLine("\\nItemIdentifierCollection: BAR submodel:");
             foreach (var item in allbarNodeNames)
-
-                Console.WriteLine("{0} =\> Submodel = '{1}', Id = {2}",
-
-                item, item.Submodel, item.Id);
+            {
+                Console.WriteLine("{0} => Submodel = '{1}', Id = {2}",
+                    item, item.Submodel, item.Id);
+            }
 
             // You can create a collection of ItemIdentifiers representing the
-
             // nodes in a domain, but you need to supply a ThermalDesktop instance
-
             // to define the domain: (this example is commented out to avoid loading
-
             // a TD instance.)
-
             // var allSomeDomainNodes
-
             // = new ItemIdentifierCollection("SOME_DOMAIN", aTdInstance);
 
             // You can create arbitrary collections of ItemIdentifiers by supplying
-
             // a list of SINDA names:
-
             var arbitraryItems = new ItemIdentifierCollection(
-
-            "MAIN.1",
-
-            "FLOW.10",
-
-            "MY_REGISTER");
+                "MAIN.1",
+                "FLOW.10",
+                "MY_REGISTER");
 
             Console.WriteLine("\\nItemIdentifiers: arbitrary list:");
-
             foreach (var item in arbitraryItems)
+            {
+                Console.WriteLine("{0} => Sub = '{1}', Id = {2}, RegName = '{3}'",
+                    item, item.Submodel, item.Id, item.RegisterName);
+            }
+            #endregion
 
-                Console.WriteLine("{0} =\> Sub = '{1}', Id = {2}, RegName = '{3}'",
+            #region DataSubtypes
+            // Use DataSubtypes to identify types of SINDA/FLUINT data,
+            // like T, TL, GTW, etc.
 
-                item, item.Submodel, item.Id, item.RegisterName);
-
-\#endregion
-
-\#region DataSubtypes
-
-// Use DataSubtypes to identify types of SINDA/FLUINT data,
-
-// like T, TL, GTW, etc.
-
-// You can create a new DataSubtype with the StandardDataSubtypes enum:
-
-var SubtypeT = new DataSubtype(StandardDataSubtypes.T);
+            // You can create a new DataSubtype with the StandardDataSubtypes enum:
+            var SubtypeT = new DataSubtype(StandardDataSubtypes.T);
 
             // For multispecies data, you can provide a StandardDataSubtypes
-
             // and a FluidConstituents enum...
-
             var SubtypeGTW = new DataSubtype(
-
-            StandardDataSubtypes.GT, FluidConstituents.W);
+                StandardDataSubtypes.GT, FluidConstituents.W);
 
             // ...or you can provide a FullStandardDataSubtypes struct,
-
             // which just contains a StandardDataSubtypes/FluidConstituents pair:
-
-            var SubtypeGTW_alternate
-
-            = new DataSubtype(new FullStandardDataSubtype(
-
-            StandardDataSubtypes.GT, FluidConstituents.W));
+            var SubtypeGTW_alternate = new DataSubtype(new FullStandardDataSubtype(
+                StandardDataSubtypes.GT, FluidConstituents.W));
 
             // You can also create your own DataSubtype, maybe for custom data
-
             // you're reading out of a text file:
-
             var SubtypeBoundaryLayerThickness = new DataSubtype(
-
-            dimension: UnitsData.UnitsType.MODEL_LENGTH,
-
-            isDimensionalOnlyIfPositive: false,
-
-            description: "Boundary Layer Thickness for Phase B",
-
-            baseSindaDesignator: null,
-
-            dataType: DataTypes.PATH);
+                dimension: UnitsData.UnitsType.MODEL_LENGTH,
+                isDimensionalOnlyIfPositive: false,
+                description: "Boundary Layer Thickness for Phase B",
+                baseSindaDesignator: null,
+                dataType: DataTypes.PATH);
 
             // Through the magic of implicit casts, you can use a
-
             // StandardDataSubtypes or FullStandardDataSubtype anywhere
-
             // a DataSubtype is expected:
-
-            var listOfDataSubtypes = new List\< DataSubtype\> () {
-
+            var listOfDataSubtypes = new List<DataSubtype>() {
                 StandardDataSubtypes.T,
-
-new FullStandardDataSubtype(
-
-StandardDataSubtypes.GT, FluidConstituents.W) };
+                new FullStandardDataSubtype(StandardDataSubtypes.GT, FluidConstituents.W)
+            };
 
             Console.WriteLine("\\nDataSubtypes: implicit casts to DataSubtype:");
-
             foreach (var item in listOfDataSubtypes)
-
+            {
                 Console.WriteLine(item);
+            }
+            #endregion
 
-\#endregion
-
-\#region Get data with DataSubtypes and ItemIdentifiers
-
-// Datasets can return data for multiple items if provided an
-
-// ItemIdentifierCollection and a DataSubtype:
-
-var allBarNodeTs = data.GetData(allbarNodeNames, StandardDataSubtypes.T);
+            #region Get data with DataSubtypes and ItemIdentifiers
+            // Datasets can return data for multiple items if provided an
+            // ItemIdentifierCollection and a DataSubtype:
+            var allBarNodeTs = data.GetData(allbarNodeNames, StandardDataSubtypes.T);
 
             Console.WriteLine("\\nGet data with DataSubtypes and ItemIdentifiers:\\n" +
+                "DataArrayCollection.Name: {0}\\n.Count: {1}\\n.DataItemCount: {2}",
+                allBarNodeTs.Name, allBarNodeTs.Count, allBarNodeTs.DataItemCount);
+            #endregion
 
-            "DataArrayCollection.Name: {0}\\n.Count: {1}\\n.DataItemCount: {2}",
-
-            allBarNodeTs.Name, allBarNodeTs.Count, allBarNodeTs.DataItemCount);
-
-\#endregion
-
-\#region DataItemIdentifiers
-
-// Use DataItemIdentifiers to identify SINDA/FLUINT entities like
-
-// WALL.T100, WATER.TL45, or "MY_REGISTER temperature".
-
-// They combine ItemIdentifiers and DataSubtypes.
-
-// You can create DataItemIdentifiers from ItemIdentifiers and a single
-
-//DataSubtype:
-
-var allBar_T_Names
-
-= new DataItemIdentifierCollection(
-
-allbarNodeNames, StandardDataSubtypes.T);
+            #region DataItemIdentifiers
+            // Use DataItemIdentifiers to identify SINDA/FLUINT entities like
+            // WALL.T100, WATER.TL45, or "MY_REGISTER temperature".
+            // They combine ItemIdentifiers and DataSubtypes.
+            // You can create DataItemIdentifiers from ItemIdentifiers and a single
+            // DataSubtype:
+            var allBar_T_Names = new DataItemIdentifierCollection(
+                allbarNodeNames, StandardDataSubtypes.T);
 
             Console.WriteLine("\\nDataItemIdentifiers: all BAR T names:");
-
             foreach (var item in allBar_T_Names)
-
+            {
                 Console.WriteLine(item);
+            }
 
             // Or you can create a DataItemIdentifierCollection
-
             // by parsing a list of SINDA/FLUINT names:
-
             var parsedDataItems = new DataItemIdentifierCollection(
-
-            "MAIN.T100",
-
-            "FLOW.FR40",
-
-            "FLOW.GTW11",
-
-            "A_REGISTER");
+                "MAIN.T100",
+                "FLOW.FR40",
+                "FLOW.GTW11",
+                "A_REGISTER");
 
             Console.WriteLine("\\nDataItemIdentifiers: parsed SINDA/FLUINT names:");
-
             foreach (var item in parsedDataItems)
-
+            {
                 Console.WriteLine(item);
+            }
 
             // One issue with parsing SINDA/FLUINT names: it will assume any
-
             // registers are dimensionless, so if you'd like to assign a
-
             // dimension to a register, you should explicitly create the
-
             // DataItemIdentifier for it:
-
-            var A_REGISTER_flowrate
-
-            = new DataItemIdentifier(
-
-            new ItemIdentifier("A_REGISTER"), StandardDataSubtypes.FR);
+            var A_REGISTER_flowrate = new DataItemIdentifier(
+                new ItemIdentifier("A_REGISTER"), StandardDataSubtypes.FR);
 
             // If the register stores data in a unit system other than that
-
             // of the Dataset, you can specify that too:
-
-            var A_REGISTER_flowrate_Eng
-
-            = new DataItemIdentifier(
-
-            new ItemIdentifier("A_REGISTER"), StandardDataSubtypes.FR,
-
-            Units.Eng);
+            var A_REGISTER_flowrate_Eng = new DataItemIdentifier(
+                new ItemIdentifier("A_REGISTER"), StandardDataSubtypes.FR,
+                Units.Eng);
 
             // You can combine ItemIdentifiers and a list of DataSubtypes,
-
             // creating all combinations of DataItemIdentifiers:
-
-            var TandQ = new List\< DataSubtype\> ()
-        
-{
-
+            var TandQ = new List<DataSubtype>() {
                 StandardDataSubtypes.T,
+                StandardDataSubtypes.Q
+            };
 
-StandardDataSubtypes.Q
+            var allBar_TandQ_Names = new DataItemIdentifierCollection(allbarNodeNames, TandQ);
 
-};
-
-            var allBar_TandQ_Names
-
-            = new DataItemIdentifierCollection(allbarNodeNames, TandQ);
-
-            Console.WriteLine("\\nDataItemIdentifiers: " +
-
-            "combine ItemIdentifiers and DataSubtypes:");
-
+            Console.WriteLine("\\nDataItemIdentifiers: combine ItemIdentifiers and DataSubtypes:");
             foreach (var item in allBar_TandQ_Names)
-
+            {
                 Console.WriteLine(item);
+            }
+            #endregion
 
-\#endregion
-
-\#region Get data with DataItemIdentifiers
-
-// Datasets can return data for multiple items if provided a
-
-// DataItemIdentifierCollection:
-
-var allBar_TandQ = data.GetData(allBar_TandQ_Names);
+            #region Get data with DataItemIdentifiers
+            // Datasets can return data for multiple items if provided a
+            // DataItemIdentifierCollection:
+            var allBar_TandQ = data.GetData(allBar_TandQ_Names);
 
             // And you can plot all the series in a DataArrayCollection
-
             // with a single SimplePlot.AddSeries method:
-
             {
-
                 var plot = new SimplePlot();
-
-                plot.Name
-
-                = "Get data with DataItemIdentifiers: plot DataArrayCollection";
-
+                plot.Name = "Get data with DataItemIdentifiers: plot DataArrayCollection";
                 plot.AddSeries(allBar_TandQ);
-
                 plot.Show();
-
             }
 
             // Since the DataArrays in allBar_TandQ know their SourceDataset,
-
             // AddSeries uses it to get time for the x data of each series.
-
             // Skip some steps and let GetData parse a list of SINDA/FLUINT names.
 
             // One issue with this: it will assume any registers are dimensionless,
-
             // so if you'd like to assign a dimension to a register, you should
-
             // explicitly create the DataItemIdentifier for it.
-
             var someData = data.GetData("BAR.T1", "BAR.Q1", "BAR.T3");
 
             {
-
                 var plot = new SimplePlot();
-
                 plot.Name = "Get data with DataItemIdentifiers: parsed names";
-
                 plot.AddSeries(someData);
-
                 plot.Show();
-
             }
-
-\#endregion
-
-}
-
+            #endregion
+        }
     }
-
 }
 ```
 

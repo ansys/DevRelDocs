@@ -33,9 +33,7 @@ namespace OpenTDv242GettingStarted
             var barNodes = new List\< Node\> ();
 
             for (int i = 0; i \< 10; ++i)
-
-{
-
+            {
                 var n = td.CreateNode();
                 n.Submodel = "bar";
                 n.Id = i + 1;
@@ -154,6 +152,7 @@ namespace OpenTDv242GettingStarted
         }
     }
 }
+```
 
 ## Run in batch mode
 

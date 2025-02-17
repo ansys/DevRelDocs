@@ -16,11 +16,8 @@ namespace OpenTDv242GettingStarted
             td.Connect();
 
             // Let's make sure we're working with an empty optical database.
-
             // Note: relative pathnames in OpenTD are relative to the current
-
             // working directory, which usually starts at the location of your
-
             // exe file.
 
             string dbPath = "TemporaryOpticalPropDatabase.rco";

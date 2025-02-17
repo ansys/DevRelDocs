@@ -135,172 +135,88 @@ As mentioned previously in the [Additional information on positioning entities u
 
 ```c#
 using System;
-
 using System.Linq;
-
 using OpenTDv242;
-
 using OpenTDv242.RadCAD.FEM;
-
 namespace OpenTDv242GettingStarted
-
 {
-
     class QueryAndEditFiniteElements
-
     {
-
         public static void Main(string[] args)
-
         {
-
             var td = new ThermalDesktop();
-
             td.Connect();
-
             // First we'll create a mesh using an FEMeshImporter:
-
             var meshImporter = td.CreateFEMeshImporter("a mesh importer", false);
-
             var feMesh = new OpenTDv242.RadCAD.FEModel.FEMesh();
-
             int uDiv = 3;
-
             int vDiv = 3;
-
             double height = 0.5;
-
             double xPeriods = 2.0;
-
             double yPeriods = 1.0;
-
             double xLen = 5.0;
-
             double yLen = 3.0;
-
             int id = 0;
-
             int elemId = 0;
-
             for (int j = 0; j \< vDiv + 1; ++j)
-
 {
-
                 double y = j \*yLen / vDiv;
-
                 for (int i = 0; i \< uDiv + 1; ++i)
-
 {
-
                     double x = i \*xLen / uDiv;
-
                     double z = height \*
-
                     Math.Cos(x / xLen \*xPeriods \*2.0 \*Math.PI) \*
-
                     Math.Cos(y / yLen \*yPeriods \*2.0 \*Math.PI);
-
                     var node = new OpenTDv242.RadCAD.FEModel.Node();
-
                     node.x = x;
-
                     node.y = y;
-
                     node.z = z;
-
                     node.Nx = 0.0;
-
                     node.Ny = 0.0;
-
                     node.Nz = 1.0;
-
                     node.id = ++id;
-
                     feMesh.nodes.Add(node);
-
                     if (i \< uDiv && j \< vDiv)
-
 {
-
                         var face = new OpenTDv242.RadCAD.FEModel.SurfaceElement();
-
                         face.id = ++elemId;
-
                         face.order = 1;
-
                         face.numNodes = 4;
-
                         int baseIndex = j \*(uDiv + 1) + i + 1;
-
                         face.nodeIds.Add(baseIndex);
-
                         face.nodeIds.Add(baseIndex + 1);
-
                         face.nodeIds.Add(baseIndex + 1 + uDiv + 1);
-
                         face.nodeIds.Add(baseIndex + uDiv + 1);
-
                         feMesh.surfaceElements.Add(face);
-
                     }
-
                 }
-
             }
-
             meshImporter.SetMesh(feMesh);
-
             // As mentioned previously, the FEMesh we passed to SetMesh
-
             // is a lightweight description of the mesh, suitable for
-
             // initial creation only. To work with the elements
-
             // it created, we need to get them from TD:
-
             var quads = td.GetLinearQuads();
-
             // Let's edit all of the elements and their nodes:
-
             string submodel = "new_submodel";
-
             var allNodes = td.GetNodes();
-
             foreach (LinearQuad q in quads)
-
             {
-
                 q.CondSubmodel = submodel;
-
                 q.TopThickness = 0.01;
-
                 q.Update();
-
                 var quadNodes
-
                 = allNodes.Where(n =\> q.AttachedNodeHandles.Contains(n.Handle));
-
                 foreach (Node n in quadNodes)
-
                 {
-
                     n.Submodel = submodel;
-
                     n.Update();
-
                 }
-
             }
-
             td.SetVisualStyle(VisualStyles.THERMAL_PP);
-
             td.RestoreIsoView(IsoViews.SE);
-
             td.ZoomExtents();
-
         }
-
     }
-
 }
 ```
