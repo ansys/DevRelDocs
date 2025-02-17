@@ -23,9 +23,7 @@ namespace OpenTDv242GettingStarted
             td.Connect();
 
             // create a rectangle and position it using BaseTrans,
-
             // which is equivalent to moving and rotating it using
-
             // AutoCAD commands
 
             var rect = td.CreateRectangle();
@@ -40,9 +38,7 @@ namespace OpenTDv242GettingStarted
             rect.Update();
 
             // create an FD solid brick and position it using LocalTrans,
-
             // which is equivalent to moving and rotating it using
-
             // the TD Trans/Rot tab
 
             var fdBrick = td.CreateSolidBrick();

@@ -132,71 +132,38 @@ This is a recent configuration file installed with TD[^3]:
 
 ```lua
 \<?xml version="1.0" encoding="utf-8"?\>
-
 \<CRLogging\>
-
 \<!-- Use this file to configure where OpenTD will send logging messages.
-
 To make OpenTD use it, copy it to %localappdata%\\ThermalDesktop
-
 and restart OpenTD. --\>
-
 \<Loggers\>
-
 \<!-- Loggers dispatch messages to their listeners. Logger names correspond to names used
-
 within OpenTD to categorize messages. Use the RootLogger (below) to configure all loggers
-
 not listed in this Logger section. Loggers only dispatch messages at and above a
-
 specified level. --\>
-
 \<!-- Levels: Error, Warning, Information, Verbose --\>
-
 \<Logger name="OpenTDv61" level="Information" listeners="Log, ErrorLog"/\>
-
 \<Logger name="OpenTDv62" level="Information" listeners="Log, ErrorLog"/\>
-
 \<Logger name="OpenTDv232" level="Information" listeners="Log, ErrorLog"/\>
-
 \<Logger name="OpenTDv232Demos" level="Verbose" listeners="OpenTDv232Demos"/\>
-
 \<Logger name="OpenTDMixedInterface" level="Information" listeners="Log, ErrorLog"/\>
-
 \</Loggers\>
-
 \<!-- The root logger configures all loggers not listed by name in the Loggers section. --\>
-
 \<!-- Levels: Error, Warning, Information, Verbose --\>
-
 \<RootLogger name="Root" level="Information" listeners="Log, ErrorLog"/\>
-
 \<Listeners\>
-
 \<!-- Listeners listen for messages from loggers and direct them to a destination,
-
 typically a file. They only listen for messages at and above a specified level. --\>
-
 \<!-- Levels: Error, Warning, Information, Verbose --\>
-
 \<!-- Note regarding filenames: the directories above the filename must already exist when
-
 OpenTD starts, otherwise, the listener will not be used. --\>
-
 \<Listener name="Log" type="File" level="Verbose"
-
 filename="%localappdata%\\ThermalDesktop\\log\\OpenTD.Client.log"/\>
-
 \<Listener name="ErrorLog" type="File" level="Error"
-
 filename="%localappdata%\\ThermalDesktop\\log\\OpenTD.Client.Error.log"/\>
-
 \<Listener name="OpenTDv232Demos" type="File" level="Verbose"
-
 filename="%localappdata%\\ThermalDesktop\\log\\OpenTDv232Demos.log"/\>
-
 \</Listeners\>
-
 \</CRLogging\>
 ```
 
@@ -246,7 +213,6 @@ A logger in a client program is defined with the name “SatelliteBuilder.BusBui
 
 ```c#
 private static readonly Logger log3 =
-
 LoggerFactory.GetLogger(“SatelliteBuilder.BusBuilder”);
 ```
 

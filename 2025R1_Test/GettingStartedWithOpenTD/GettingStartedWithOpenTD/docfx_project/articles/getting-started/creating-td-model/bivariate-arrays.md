@@ -16,11 +16,8 @@ namespace OpenTDv242GettingStarted
             td.Connect();
 
             // Let's make sure we're working with an empty database.
-
             // Note: relative pathnames in OpenTD are relative to the current
-
             // working directory, which usually starts at the location of your
-
             // exe file.
 
             string dbPath = "TemporaryThermoPropDatabase.tdp";
@@ -28,23 +25,14 @@ namespace OpenTDv242GettingStarted
             td.OpenThermoPropDB(dbPath);
 
             // We'll create a thermophysical property representing Al 6061-T6,
-
             // with data taken from the Spacecraft Thermal Control Handbook.
-
             // The handbook uses the following units:
-
             // density: kg/cm3
-
             // k: W/(cm.degC)
-
             // Cp: W-hr/(kg.degC)
-
             // We'll set WorkingUnits to SI with cm before setting density and k.
-
             // For Cp, we'll need to set energy units to W-hr.
-
             // Since we're working with inconsistent units, we'll save and restore
-
             // whatever working unit system was in use before now.
 
             Units.SaveWorkingUnits();
@@ -60,37 +48,23 @@ namespace OpenTDv242GettingStarted
             Units.RestoreWorkingUnits();
 
             // To rename a thermophysical property, you need to use Rename,
-
             // since thermophysical properties are stored in TD using names as
-
             // identifiers, unlike other entities that use AutoCAD handles.
 
             Al6061.Rename("Aluminum 6061-T6");
 
             // What if you've got a material with anisotropic,
-
             // temperature- and pressure-dependent conductivity?
-
             // For example, here's the conductivity of "Material A":
-
             // conductivity in x and y directions:
-
             // 100 K: 21 W/(m.K)
-
             // 200 K: 25 W/(m.K)
-
             // 300 K: 27 W/(m.K)
-
             // conductivity in z-dir: (W/(m.K))
-
             // 150 K 250 K 350 K
-
             // 50 kPa 3 5 8
-
             // 100 kPa 6 9 10
-
             // Here's how to create a material with temperature-
-
             // and pressure-dependent conductivity.
             Units.WorkingUnits.SetToSI();
             var materialA = td.CreateThermoProps("Material A");
