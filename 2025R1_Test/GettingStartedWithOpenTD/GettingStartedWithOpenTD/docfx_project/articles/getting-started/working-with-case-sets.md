@@ -17,21 +17,18 @@ namespace OpenTDv242GettingStarted
     {
         public static void Main(string[] args)
         {
-
             // you may wish to change the location of the working dir:
-
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
             if (Directory.Exists(workingDir))
                 Directory.Delete(workingDir, true);
             Directory.CreateDirectory(workingDir);
+
             var td = new ThermalDesktop();
             td.ConnectConfig.StartDirectory = workingDir;
             td.Connect();
 
             // \*\*\* Create a simple model of a heated bar \*\*\*
-
             var barNodes = new List\< Node\> ();
-
             for (int i = 0; i \< 10; ++i)
             {
                 var n = td.CreateNode();
@@ -57,6 +54,7 @@ namespace OpenTDv242GettingStarted
             roomAir.Origin = new Point3d(0.055, 1.1, 0);
             roomAir.InitialTemp = 300;
             roomAir.Update();
+
             var barConnections = new List<Connection>();
             foreach (Node n in barNodes)
                 barConnections.Add(new Connection(n));
@@ -64,19 +62,20 @@ namespace OpenTDv242GettingStarted
             convection.Value = 1;
             convection.Submodel = "room";
             convection.Update();
+
             var qTorch = td.CreateSymbol("qTorch", "80");
             qTorch.OutputAsRegister = true;
             qTorch.Update();
+
             var torch = td.CreateHeatLoad(new Connection(barNodes[0]));
             torch.ValueExp.Value = qTorch.Name;
             torch.Submodel = "torch";
             torch.Update();
-            td.ZoomExtents();
 
+            td.ZoomExtents();
             // \*\*\* End simple model creation \*\*\*
 
             // Create a transient case and run it:
-
             var nominal = td.CreateCaseSet("transient with nominal torch", "", "torchNom");
             nominal.SteadyState = 0;
             nominal.Transient = 1;
@@ -85,11 +84,8 @@ namespace OpenTDv242GettingStarted
             nominal.Run();
 
             // Create a cold case by overriding a symbol, and run it:
-
             var cold = td.CreateCaseSet
-
             ("transient with cold torch", "", "torchCold");
-
             cold.SteadyState = 0;
             cold.Transient = 1;
             cold.SindaControl.timend = 1200;
@@ -132,14 +128,12 @@ namespace OpenTDv242GettingStarted
 
             // add orbit to a new case set
             var beta30Case = td.CreateCaseSet("beta30 case");
-
             // first add a RADK task:
             beta30Case.RadiationTasks.Add(new RadiationTaskData()
             {
                 TypeCalc = RadiationTaskData.calcType.RADK,
                 AnalGroup = "BASE",
             });
-
             // now add the orbital heat rates task:
             beta30Case.RadiationTasks.Add(new RadiationTaskData()
             {
@@ -147,7 +141,6 @@ namespace OpenTDv242GettingStarted
                 OrbitName = "beta30",
                 AnalGroup = "BASE",
             });
-
             beta30Case.Update();
         }
     }

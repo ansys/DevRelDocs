@@ -19,13 +19,11 @@ namespace OpenTDv242GettingStarted
             // Note: relative pathnames in OpenTD are relative to the current
             // working directory, which usually starts at the location of your
             // exe file.
-
             string dbPath = "TemporaryOpticalPropDatabase.rco";
             System.IO.File.Delete(dbPath);
             td.OpenOpticalPropDB(dbPath);
 
             // create simple optical property
-
             var black = td.CreateOpticalProps("black");
             black.Comment = "ideal black surface";
             black.Alph = 1;
@@ -33,14 +31,12 @@ namespace OpenTDv242GettingStarted
             black.Update();
 
             // create wavelength-dependent optical property
-
             var catalac = td.CreateOpticalProps("Cat-A-Lac Black");
             catalac.Comment = "Cat-A-Lac Black from TwoPlates.dwg";
             catalac.UseWaveLengthDepProps = 1;
             catalac.UseVarWaveLengthEmiss = 1;
 
             // wavelength always in micrometers, regardless of WorkingUnits:
-
             catalac.emissVarWaveLengthum = new List\< double\> {
 
                 0.100, 8.000, 10.000, 13.000, 19.000, 20.000,

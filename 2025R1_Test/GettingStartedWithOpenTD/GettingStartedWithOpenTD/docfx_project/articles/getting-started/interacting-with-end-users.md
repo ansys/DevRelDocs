@@ -59,6 +59,7 @@ namespace OpenTDv242GettingStarted
         {
             var td = new ThermalDesktop();
             td.Connect();
+
             // Create some randomly-placed nodes and lumps:
             var rand = new Random();
             const int numberOfItems = 200;
@@ -72,6 +73,7 @@ namespace OpenTDv242GettingStarted
                 lump.Update();
             }
             td.SetView(IsoViews.SE);
+
             Console.WriteLine("Using SetSelection to select entities for which" +
             " X < 0.5, Y < 0.5, and Z > 0.5");
             var NodeHandles = from node in td.GetNodes()
@@ -92,6 +94,7 @@ namespace OpenTDv242GettingStarted
             $" to see the selection.");
             Console.WriteLine("Press [ENTER] to continue...");
             Console.ReadLine();
+
             Console.WriteLine("Now asking user to select entites.");
             td.ClearSelection();
             var selectedEntities = td.GetSelection();

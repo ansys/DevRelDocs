@@ -58,7 +58,6 @@ namespace OpenTDv242GettingStarted
 
             // create a domain that includes some of the rect nodes:
             var domainConnections = new List<Connection>();
-
             foreach (Node n in td.GetNodes())
             {
                 if (rect.AttachedNodeHandles.Contains(n.Handle))
@@ -67,7 +66,6 @@ namespace OpenTDv242GettingStarted
                         domainConnections.Add(new Connection(n));
                 }
             }
-
             td.GetDomainManager().CreateDomain("HEATED", DomainType.NODESET, domainConnections);
 
             // apply a heat load to the domain:

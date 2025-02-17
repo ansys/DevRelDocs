@@ -19,7 +19,6 @@ namespace OpenTDv242GettingStarted
             // Note: relative pathnames in OpenTD are relative to the current
             // working directory, which usually starts at the location of your
             // exe file.
-
             string dbPath = "TemporaryThermoPropDatabase.tdp";
             System.IO.File.Delete(dbPath);
             td.OpenThermoPropDB(dbPath);
@@ -34,7 +33,6 @@ namespace OpenTDv242GettingStarted
             // For Cp, we'll need to set energy units to W-hr.
             // Since we're working with inconsistent units, we'll save and restore
             // whatever working unit system was in use before now.
-
             Units.SaveWorkingUnits();
             Units.WorkingUnits.SetToSI();
             Units.WorkingUnits.modelLength = UnitsData.ModelLength.CM;
@@ -50,20 +48,22 @@ namespace OpenTDv242GettingStarted
             // To rename a thermophysical property, you need to use Rename,
             // since thermophysical properties are stored in TD using names as
             // identifiers, unlike other entities that use AutoCAD handles.
-
             Al6061.Rename("Aluminum 6061-T6");
 
             // What if you've got a material with anisotropic,
             // temperature- and pressure-dependent conductivity?
             // For example, here's the conductivity of "Material A":
+
             // conductivity in x and y directions:
             // 100 K: 21 W/(m.K)
             // 200 K: 25 W/(m.K)
             // 300 K: 27 W/(m.K)
+
             // conductivity in z-dir: (W/(m.K))
             // 150 K 250 K 350 K
             // 50 kPa 3 5 8
             // 100 kPa 6 9 10
+
             // Here's how to create a material with temperature-
             // and pressure-dependent conductivity.
             Units.WorkingUnits.SetToSI();
@@ -81,7 +81,11 @@ namespace OpenTDv242GettingStarted
             materialA.VarCondTempPresZ = 1;
             materialA.bivarTemperatureZ = new List<double> { 150, 250, 350 };
             materialA.bivarPressureZ = new List<double> { 50, 100 };
-            materialA.bivarConductivityZ = new List<double> { 3, 5, 8, 6, 9, 10, };
+            materialA.bivarConductivityZ = new List<double> 
+            { 
+                3, 5, 8,
+                6, 9, 10, 
+            };
             materialA.Update();
         }
     }

@@ -83,14 +83,18 @@ namespace OpenTDv242GettingStarted
         {
             var td = new ThermalDesktop();
             td.Connect();
+
             // draw an AutoCAD rectangle:
             td.SendCommand("rectang 3,3 4,5 ");
+
             // draw AutoCAD text: (Using a dash in front
             // of the command to make it command-line only.
             // This works for some AutoCAD commands.)
             td.SendCommand("-text 3,2.6 0.25 0 A Door\\n");
+
             // zoom extents using OpenTD method:
             td.ZoomExtents();
+
             // zoom view to scale factor 1.5: (using
             // abbreviated command names)
             td.SendCommand("z s 1.5 ");
