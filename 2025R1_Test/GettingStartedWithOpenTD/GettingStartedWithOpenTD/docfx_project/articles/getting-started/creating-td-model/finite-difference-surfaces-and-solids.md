@@ -25,7 +25,6 @@ namespace OpenTDv242GettingStarted
             // create a rectangle and position it using BaseTrans,
             // which is equivalent to moving and rotating it using
             // AutoCAD commands
-
             var rect = td.CreateRectangle();
             rect.TopStartSubmodel = "plate";
             rect.TopStartId = 1;
@@ -40,7 +39,6 @@ namespace OpenTDv242GettingStarted
             // create an FD solid brick and position it using LocalTrans,
             // which is equivalent to moving and rotating it using
             // the TD Trans/Rot tab
-
             var fdBrick = td.CreateSolidBrick();
             fdBrick.StartSubmodel = "brick";
             fdBrick.StartId = 1;
@@ -58,7 +56,6 @@ namespace OpenTDv242GettingStarted
             fdBrick.Update();
 
             // control view
-
             td.SetVisualStyle(VisualStyles.THERMAL_PP);
             td.RestoreIsoView(IsoViews.NE);
         }

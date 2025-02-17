@@ -15,6 +15,7 @@ namespace OpenTDv242GettingStarted
         {
             var td = new ThermalDesktop();
             td.Connect();
+
             // create a fluid submodel
             var primary = td.CreateFluidSubmodel("PRIMARY");
             primary.ClearFluidLists();
@@ -22,6 +23,7 @@ namespace OpenTDv242GettingStarted
             primary.FluidLetters.Add(0); // 0 = A, 1 = B, etc.
             primary.FluidFilenames.Add(""); // will be set to "Water", b/c ID 6070
             primary.Update();
+
             // create some lumps
             var lumps = new List<Lump>();
             for (int i = 0; i < 10; ++i)
@@ -33,6 +35,7 @@ namespace OpenTDv242GettingStarted
                 lump.Update();
                 lumps.Add(lump);
             }
+
             // make end lumps into plenums
             lumps[0].LumpType = RcLumpData.LumpTypes.PLENUM;
             lumps[0].InitialPres = 2e5;
@@ -40,6 +43,7 @@ namespace OpenTDv242GettingStarted
             lumps[lumps.Count - 1].LumpType = RcLumpData.LumpTypes.PLENUM;
             lumps[lumps.Count - 1].InitialPres = 1e5;
             lumps[lumps.Count - 1].Update();
+
             // connect the lumps with stubes
             for (int i = 0; i < lumps.Count - 1; ++i)
             {
@@ -47,6 +51,7 @@ namespace OpenTDv242GettingStarted
                 stube.FlowArea = 0.003;
                 stube.Update();
             }
+
             // control view
             td.SetVisualStyle(VisualStyles.THERMAL_PP);
             td.RestoreIsoView(IsoViews.SW);

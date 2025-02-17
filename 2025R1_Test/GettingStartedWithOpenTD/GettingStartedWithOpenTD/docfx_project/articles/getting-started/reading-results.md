@@ -169,6 +169,7 @@ namespace OpenTDv242GettingStarted
             // DataArray.GetValues returns data in current WorkingUnits
             Units.WorkingUnits.SetToSI();
             Console.WriteLine("BAR.T1 at first time in K: " + someTemps[0].GetValues()[0].ToString());
+
             Units.WorkingUnits.temp = UnitsData.Temp.F;
             Console.WriteLine("BAR.T1 at first time in deg F: " + someTemps[0].GetValues()[0].ToString());
 
@@ -176,7 +177,6 @@ namespace OpenTDv242GettingStarted
             var plotSomeTemps = new SimplePlot();
             plotSomeTemps.AddSeries(someTemps);
             plotSomeTemps.Show();
-
             // Note that AddSeries accepted a DataArrayCollection. Since
             // each DataArray has a reference to its Dataset, AddSeries is
             // able to go and get the time array for X data.
@@ -186,7 +186,6 @@ namespace OpenTDv242GettingStarted
             var TandQPlot = new SimplePlot();
             TandQPlot.AddSeries(TandQ);
             TandQPlot.Show();
-
             // Note that since we only saved Q data to the sav
             // file for the final record, it is shown as a point.
 
@@ -224,7 +223,6 @@ namespace OpenTDv242GettingStarted
             maxPlot.AddSeries(maxT);
             maxPlot.AutoHideLegend = false;
             maxPlot.Show();
-
             // We set AutoHideLegend to false because SimplePlot will
             // normally hide the legend if there's only one series,
             // and use the series name as the title. Since we customized
@@ -240,7 +238,6 @@ namespace OpenTDv242GettingStarted
             var slicePlot = new SimplePlot();
             slicePlot.AddSeries(bar2TCold400);
             slicePlot.Show();
-
             // Note that if there isn't a record at 400 s, DatasetSlice
             // will choose the next record.
         }
@@ -510,33 +507,22 @@ namespace OpenTDv242GettingStarted
     {
         public static void Main(string[] args)
         {
-
             // Let's open one of the torch save files from the
-
             // "Create and Run a Case" example.
-
             // You may need to change the workingDir string to the
-
             // dir containing torchNom.sav.
-
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
             var data = new SaveFile(Path.Combine(workingDir, "torchNom.sav"));
 
             // Now we'll read the PCS file, which contains topology and other
-
             // extra information. Topology can change with each record, so we
-
             // have to specify which record. We'll just use the first one:
-
             List<long> recordNums = data.GetRecordNumbers();
             string pcsPath = Path.Combine(workingDir, "torchNom.savPCS");
-
             IDatasetTopology topology
-
             = DatasetTopology.Load(data, recordNums[0], pcsPath);
 
             // Find all conductors and their attached nodes:
-
             foreach (IConductorInfo cond in topology.Conductors)
             {
                 Console.WriteLine("{0} Conductor {1}:", cond.IsRad ? "Radiation" : "Linear", cond.SindaName);
@@ -572,13 +558,9 @@ namespace OpenTDv242GettingStarted
     {
         public static void Main(string[] args)
         {
-
             // Open torchCold.sav and torchCold.savPCS, getting topology at
-
             // early record: (using torchCold because we set SaveAll = 1 to
-
             // make sure all data req'd for Browser available)
-
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
             var data = new SaveFile(Path.Combine(workingDir, "torchCold.sav"));
             List<long> recordNums = data.GetRecordNumbers();
@@ -587,63 +569,37 @@ namespace OpenTDv242GettingStarted
             int earlyIndex = 1;
             IDatasetTopology topologyEarly = DatasetTopology.Load(data, recordNums[earlyIndex], pcsPath);
             IDatasetTopology topologyEarly
-
             = DatasetTopology.Load(data, recordNums[earlyIndex], pcsPath);
 
             // Create Browser at early record and find heat rate from
-
             // submodel BAR to ROOM:
-
             IBrowser browserEarly
-
             = Browser.Create(data, topologyEarly, recordNums[earlyIndex]);
-
             HeatratesBetween heatratesEarly
-
             = browserEarly.GetHeatBetweenSubmodels("BAR", "ROOM");
-
             Console.WriteLine("At time {0} s, heat rate from BAR to ROOM: {1} W",
-
             timesSec[earlyIndex], heatratesEarly.TotalHeatrate);
 
             // Find heat rate between submodels at final record:
-
             // (Using early-record topology because we know it
-
             // doesn't change in this model.)
-
             int finalIndex = recordNums.Count - 1;
-
             IBrowser browserFinal
-
             = Browser.Create(data, topologyEarly, recordNums[finalIndex]);
-
             HeatratesBetween heatratesFinal
-
             = browserFinal.GetHeatBetweenSubmodels("BAR", "ROOM");
-
             Console.WriteLine("At time {0} s, heat rate from BAR to ROOM: {1} W",
-
             timesSec[finalIndex], heatratesFinal.TotalHeatrate);
 
             // Plot total external heat into bar:
-
             var barNodes = new ItemIdentifierCollection(DataTypes.NODE, "BAR", data);
-
             DataArrayCollection barQs
-
             = data.GetData(barNodes, StandardDataSubtypes.Q);
-
             var barQSum = new SumDataArray(barQs);
-
             var plot = new SimplePlot();
-
             plot.AddSeries(barQSum);
-
             plot.Show();
-
         }
-
     }
 }
 ```
@@ -722,12 +678,12 @@ namespace OpenTDv242GettingStarted
             Console.WriteLine("Thermal submodels:");
             foreach (string submodel in data.GetThermalSubmodels())
                 Console.WriteLine(" " + submodel);
-
             Console.WriteLine("Paths in submodel COOLANT:");
             foreach (long id in data.GetPathIds("COOLANT"))
                 Console.WriteLine(" " + id);
 
             // Let's get heating and cooling data:
+
             // Most registers are assumed dimensionless, so we'll have to tell
             // the dataset that INCIDENT_HEAT is a flux. First, let's create a
             // custom DataSubtype representing heat flux:
@@ -805,95 +761,58 @@ namespace OpenTDv242GettingStarted
             // File specification:
             // ...
             // 1. Optional arbitrary number of comment lines beginning with \#
-
             // 2. Optional \#TIME_UNITS line
-
             // \* Must be only one space between TIME_UNITS and value
-
             // \* First character of value is compared against first
-
             // character of Time enum values SEC, MIN or HR
-
             // 3. Optional arbitrary number of comment lines beginning with \#
-
             // 4. Optional Label = line
-
             // \* Label= does not need to appear at start of line
-
             // \* Value is 2048 characters max
-
             // 5. Integer specifying number of items n
-
             // \* 2048 characters max
-
             // 6. n lines containing item names
-
             // \* Throw away spaces, \\n, and \\r
-
             // \* If no ‘.’, prepend ‘MAIN.’ to name
-
             // \* 2048 characters max
-
             // 7. Single line containing first time
-
             // \* 2048 characters max
-
             // 8. n lines containing data for that time
-
             // \* 2048 characters max
 
             // We'll use a custom DataSubtype to describe the motor angle data
-
             // stored in the text transient file. The description "motor crank
-
             // angle" will be overwritten by the "Label =" line in the example
-
             // text file.
-
             var motorAngle = new DataSubtype(UnitsData.UnitsType.ANGLE,
                 false, "motor crank angle", null,
                 DataTypes.NODE);
 
             // If we didn't provide a DataSubtype to the TextTransientFile
-
             // constructor, it would assume T (node temperature). If we didn't
-
             // provide units, it would assume the data was in the current
-
             // Units.WorkingUnits. (With the exception of time units, which can be
-
             // overwritten by a \#TIME_UNITS statement in the file.
-
             var data = new TextTransientFile(pathname, motorAngle, Units.SI);
 
             // You can use the Dataset methods to extract data from
-
             // TextTransientFiles
-
             Console.WriteLine("Thermal submodels:");
             foreach (string submodel in data.GetThermalSubmodels())
                 Console.WriteLine(" " + submodel);
-
             Console.WriteLine("Nodes in submodel MOTOR:");
             foreach (long id in data.GetNodeIds("MOTOR"))
                 Console.WriteLine(" " + id);
 
             // In addition to the Dataset methods TextTransientFiles also implement
-
             // the ISimpleDataset interface, which includes the GetAllData() method.
-
             // This returns a DataArrayCollection all of the data in the
-
             // SimpleDataset. It defaults to returning time as the first array, but
-
             // we'll override that behavior here with the includeXDataAsFirstArray
-
             // parameter.
-
             var allData = data.GetAllData(includeXDataAsFirstArray: false);
 
             // Find and plot max motor angle in radians
-
             var maxMotorAngle = new MaxDataArray(allData);
 
             var plot = new SimplePlot();
@@ -911,37 +830,23 @@ namespace OpenTDv242GettingStarted
 The *Comparer* class can be used to determine if two Datasets are the same. By default, it compares the following:
 
 - Number of records
-
 - Max and min times
-
 - Thermal submodel names
-
 - Node names
-
 - Fluid submodel names
-
 - Lump names
-
 - Path names
-
 - All T data for node names that are common between datasets
-
 - All TL data for common lumps
-
 - All PL data for common lumps
-
 - All FR data for common paths
 
-    Any of the above can be excluded, and the following can be added to the comparison:
+Any of the above can be excluded, and the following can be added to the comparison:
 
 - Conductor names
-
 - Tie names
-
 - FTie names
-
 - IFace names
-
 - Any of the hundreds of StandardDataSubtypes or FullStandardDataSubtypes (by adding them to the *DataToCompare* member) for the relevant common entities.
 
 All floating point data is compared in SI units with a default tolerance of 1%. The tolerance can be adjusted by changing the *PercentTol* member. Any items that exceed tolerance will be saved in the *Exceedances* member and can be plotted using the *PlotExceedances* method.
@@ -950,150 +855,112 @@ All floating point data is compared in SI units with a default tolerance of 1%. 
 
 *CompareSuites* can hold a collection of CompareAssertions, run all comparisons, and report on the success or failure of all assertions. The following program demonstrates the use of a simple CompareSuite:
 
-```c#
+```csharp
 using System;
 using System.IO;
 using OpenTDv242.Results.Dataset;
-
 namespace OpenTDv242GettingStarted
 {
     class CompareDatasets
     {
         public static void Main(string[] args)
         {
-
             // you may wish to change the location of the working dir:
-
-            string workingDir = @"c:\\temp\\CompareDatasets";
+            string workingDir = @"c:\temp\CompareDatasets";
             if (Directory.Exists(workingDir))
                 Directory.Delete(workingDir, true);
             Directory.CreateDirectory(workingDir);
-
-\#region Create Files
-
-// for clarity, we'll just create a few csv files and read them
-
-// in as SpreadsheetFiles, but of course Comparers can be used
-
-// with any kind of Dataset, including sav files and CSR's
-
-// file 1: (baseline)
+   
+            #region Create Files
+   
+            // for clarity, we'll just create a few csv files and read them
+            // in as SpreadsheetFiles, but of course Comparers can be used
+            // with any kind of Dataset, including sav files and CSR's
+   
+            // file 1: (baseline)
+            string pathBaseline = Path.Combine(workingDir, "baseline.csv");
+            string dataBaseline
+                = "TIMEN,WALL.T100\n"
+                + "min,F\n"
+                + "0,70\n"
+                + "1,75\n"
+                + "2,77";
             File.WriteAllText(pathBaseline, dataBaseline);
-
+   
+            // file 2: (identical to baseline)
             string pathCopy = Path.Combine(workingDir, "baselineCopy.csv");
             File.Copy(pathBaseline, pathCopy);
-
+   
+            // file 3: (add extra node)
             string pathExtraNode = Path.Combine(workingDir, "extraNode.csv");
-            string dataExtraNode = "TIMEN,WALL.T100,MAIN.T4\\n" + "min,F,F\\n" + "0,70,32\\n" + "1,75,32\\n" + "2,77,32";
+            string dataExtraNode
+                = "TIMEN,WALL.T100,MAIN.T4\n"
+                + "min,F,F\n"
+                + "0,70,32\n"
+                + "1,75,32\n"
+                + "2,77,32";
             File.WriteAllText(pathExtraNode, dataExtraNode);
-
+   
             // file 4: (same as baseline, but different time units)
-
             string pathDifferentUnits = Path.Combine(
-
-            workingDir, "differentUnits.csv");
-
+                workingDir, "differentUnits.csv");
             string dataDifferentUnits
-
-            = "TIMEN,WALL.T100\\n"
-
-\+"s,F\\n"
-        
-\+"0,70\\n"
-        
-\+"60,75\\n"
-        
-\+"120,77";
-
-            File.WriteAllText(pathDifferentUnits, dataDifferentUnits);
-
+                = "TIMEN,WALL.T100\n"
+                + "s,F\n"
+                + "0,70\n"
+                + "60,75\n"
+                + "120,77";
+               File.WriteAllText(pathDifferentUnits, dataDifferentUnits);
+   
             // file 5: (different temperatures)
-
             string pathDifferentT = Path.Combine(workingDir, "differentT.csv");
-
             string dataDifferentT
-
-            = "TIMEN,WALL.T100\\n"
-
-\+"min,F\\n"
-        
-\+"0,50\\n"
-        
-\+"1,52\\n"
-        
-\+"2,53";
+                = "TIMEN,WALL.T100\n"
+                + "min,F\n"
+                + "0,50\n"
+                + "1,52\n"
+                + "2,53";
             File.WriteAllText(pathDifferentT, dataDifferentT);
-
-\#endregion
-
-// Read all of the files as Datasets:
-
-var baseline = new SpreadsheetDataFile(pathBaseline);
-
+    
+            #endregion
+   
+            // Read all of the files as Datasets:
+            var baseline = new SpreadsheetDataFile(pathBaseline);
             var copy = new SpreadsheetDataFile(pathCopy);
-
             var extraNode = new SpreadsheetDataFile(pathExtraNode);
-
             var differentUnits = new SpreadsheetDataFile(pathDifferentUnits);
-
             var differentT = new SpreadsheetDataFile(pathDifferentT);
-
+   
             // Create a CompareSuite with our assertions: (we'll get one
-
             // wrong on purpose)
-
             var suite = new CompareSuite()
-
-{
-
-new CompareAssertion(baseline, copy, assertDatasetsSame: true),
-
-new CompareAssertion(baseline, extraNode, true), // wrong
-
-new CompareAssertion(baseline, differentUnits, true),
-
-new CompareAssertion(baseline, differentT, false),
-
-};
-
-            Tuple\< int, int\> SuccessAndTotal = suite.Run();
-
+            {
+                new CompareAssertion(baseline, copy, assertDatasetsSame: true),
+                new CompareAssertion(baseline, extraNode, true), // wrong
+                new CompareAssertion(baseline, differentUnits, true),
+                new CompareAssertion(baseline, differentT, false),
+            };
+   
+            Tuple&lt;int, int> SuccessAndTotal = suite.Run();
             Console.WriteLine("{0} out of {1} assertions were true.",
-
-            SuccessAndTotal.Item1, SuccessAndTotal.Item2);
-
+                SuccessAndTotal.Item1, SuccessAndTotal.Item2);
             Console.WriteLine();
-
             Console.WriteLine("Full log output:");
-
             Console.WriteLine();
-
             Console.Write(suite.Log);
-
+   
             // Let's use an exceedance plot to see how different baseline
-
             // and differentT are:
-
             var compareToDifferentT = new Comparer(baseline, differentT);
-
             compareToDifferentT.Run();
-
             compareToDifferentT.PlotExceedances();
-
             Console.WriteLine();
-
             Console.WriteLine("Running baseline to differentT comparison again" +
-
-            " and plotting exceedance plot:");
-
+                " and plotting exceedance plot:");
             Console.WriteLine();
-
             Console.WriteLine(compareToDifferentT.Message);
-
         }
-
     }
-
 }
 ```
 
@@ -1125,17 +992,22 @@ namespace OpenTDv242GettingStarted
             if (Directory.Exists(workingDir))
                 Directory.Delete(workingDir, true);
             Directory.CreateDirectory(workingDir);
+
             var td = new ThermalDesktop();
             td.ConnectConfig.StartDirectory = workingDir;
             td.Connect();
+
             #region Create and run model
+
             td.CreateThermoProps("dummy");
+
             var disk = td.CreateDisk();
             disk.BreakdownU.Num = 10;
             disk.BreakdownV.Num = 10;
             disk.TopMaterial = "dummy";
             disk.TopStartSubmodel = "MYDISK";
             disk.Update();
+
             var hotNode = td.GetNode(disk.AttachedNodeHandles[50]);
             var coldNode = td.GetNode(disk.AttachedNodeHandles[75]);
             hotNode.NodeType = RcNodeData.NodeTypes.BOUNDARY;
@@ -1144,10 +1016,12 @@ namespace OpenTDv242GettingStarted
             hotNode.TimeArray = new DimensionalList<Time> { 0, 10, 20, 30, 40, 50 };
             hotNode.ValueArray = new DimensionalList<Temp> { 500, 480, 460, 480, 490, 480 };
             hotNode.Update();
+
             coldNode.NodeType = RcNodeData.NodeTypes.BOUNDARY;
             coldNode.UserOverride = true;
             coldNode.InitialTemp = 250;
             coldNode.Update();
+
             var caseset = td.CreateCaseSet("myCase", groupName: "", sindaFilenames: "myCase");
             caseset.SindaControl.timend = 60;
             caseset.SteadyState = 0;
@@ -1157,47 +1031,34 @@ namespace OpenTDv242GettingStarted
             caseset.Run();
 
             // TD will automatically create a contour plot. Let's hide it:
-
             td.ResetGraphics();
+
             #endregion
 
-// Let's find the record for which the disk's mCp-weighted average temp
-
-// is highest:
-
-var savPath = Path.Combine(workingDir, "myCase.sav");
+            // Let's find the record for which the disk's mCp-weighted average temp
+            // is highest:
+            var savPath = Path.Combine(workingDir, "myCase.sav");
             var data = new SaveFile(savPath);
-
             var nodes = new ItemIdentifierCollection(
-
-            DataTypes.NODE, "MYDISK", data);
-
+                DataTypes.NODE, "MYDISK", data);
             var CapAvgTemp = new WeightedAverageDataArray(
-
-            StandardDataSubtypes.T, StandardDataSubtypes.C, nodes, data);
-
+                StandardDataSubtypes.T, StandardDataSubtypes.C, nodes, data);
             int maxTindex
-
-            = CapAvgTemp.GetValues().IndexOf(CapAvgTemp.GetValues().Max());
+                = CapAvgTemp.GetValues().IndexOf(CapAvgTemp.GetValues().Max());
 
             // XY plot the mCp-weighted average temp:
-
             var plot = new SimplePlot();
             plot.AddSeries(CapAvgTemp);
             plot.Show();
 
             // create a T contour plot at the max mCp-weighted average record:
-
             var tdDataset = td.DatasetManager.CreateDataset(
-
-            "myCase Dataset",
-
-            savPath,
-
-            OpenTDv242.PostProcessing.Dataset.DataSourceTypes.SF);
-
+                "myCase Dataset",
+                savPath,
+                OpenTDv242.PostProcessing.Dataset.DataSourceTypes.SF);
             tdDataset.CurrentTimeIndex = maxTindex;
             tdDataset.ShowContourPlot();
+
             td.ZoomExtents();
         }
     }

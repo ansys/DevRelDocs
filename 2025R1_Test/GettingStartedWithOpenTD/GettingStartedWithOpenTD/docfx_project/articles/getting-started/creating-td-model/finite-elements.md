@@ -19,9 +19,9 @@ namespace OpenTDv242GettingStarted
 
             // In TD and OpenTD, you can create a FEM with nodes and elements
             // directly, but the preferred approach is to use an FE Mesh Importer.
+
             // We'll demonstrate how to use a mesh importer. We'll start
             // by creating an empty one:
-
             bool useUCS = false;
             var meshImporter = td.CreateFEMeshImporter("a mesh importer", useUCS);
 
@@ -32,7 +32,6 @@ namespace OpenTDv242GettingStarted
             // The FEMesh object is a lightweight description of the mesh, with
             // lightweight nodes and elements that are only used as input to
             // the SetMesh command.
-
             var feMesh = new OpenTDv242.RadCAD.FEModel.FEMesh();
             int uDiv = 10;
             int vDiv = 10;
@@ -50,9 +49,7 @@ namespace OpenTDv242GettingStarted
                 {
                     double x = i * xLen / uDiv;
                     double z = height * Math.Cos(x / xLen * xPeriods * 2.0 * Math.PI) * Math.Cos(y / yLen * yPeriods * 2.0 * Math.PI);
-
                     // lightweight node description:
-
                     var node = new OpenTDv242.RadCAD.FEModel.Node();
                     node.x = x;
                     node.y = y;
@@ -64,9 +61,7 @@ namespace OpenTDv242GettingStarted
                     feMesh.nodes.Add(node);
                     if (i < uDiv && j < vDiv)
                     {
-
                         // lightweight surface description:
-
                         var face = new OpenTDv242.RadCAD.FEModel.SurfaceElement();
                         face.id = ++elemId;
                         face.order = 1;
