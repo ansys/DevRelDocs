@@ -91,12 +91,3 @@ Parameters used to generate surface mesh.
 
 <a id="examples-using-surferparams"></a>
 
-## Examples using SurferParams
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to use topology-based connection to generate conformal surface mesh.">  <div class="sphx-glr-thumbnail-title">Mesh a mid-surfaced bracket for a structural analysis</div>
-</div>
-* [Mesh a mid-surfaced bracket for a structural analysis](../../examples/gallery_examples/gallery/01_bracket_scaffold.md#sphx-glr-examples-gallery-examples-gallery-01-bracket-scaffold-py)
-
-<!-- thumbnail-parent-div-close --></div>
-<!-- vale on -->

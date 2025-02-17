@@ -34,12 +34,3 @@ Indicates source type to extract wrapper region.
 
 <a id="examples-using-wrapregion"></a>
 
-## Examples using WrapRegion
-
-<div class="sphx-glr-thumbnails">
-<!-- thumbnail-parent-div-open --><div class="sphx-glr-thumbcontainer" tooltip="Summary: This example demonstrates how to mesh a pipe T-section for both structural thermal and fluid flow simulation.">  <div class="sphx-glr-thumbnail-title">Mesh a pipe T-section for structural thermal and fluid flow analysis</div>
-</div>
-* [Mesh a pipe T-section for structural thermal and fluid flow analysis](../../examples/gallery_examples/gallery/03_lucid_pipe_tee.md#sphx-glr-examples-gallery-examples-gallery-03-lucid-pipe-tee-py)
-
-<!-- thumbnail-parent-div-close --></div>
-<!-- vale on -->
