@@ -159,10 +159,10 @@ namespace OpenTDv242GettingStarted
             int id = 0;
             int elemId = 0;
             for (int j = 0; j \< vDiv + 1; ++j)
-{
+            {
                 double y = j \*yLen / vDiv;
                 for (int i = 0; i \< uDiv + 1; ++i)
-{
+                {
                     double x = i \*xLen / uDiv;
                     double z = height \*
                     Math.Cos(x / xLen \*xPeriods \*2.0 \*Math.PI) \*
@@ -177,7 +177,7 @@ namespace OpenTDv242GettingStarted
                     node.id = ++id;
                     feMesh.nodes.Add(node);
                     if (i \< uDiv && j \< vDiv)
-{
+                    {
                         var face = new OpenTDv242.RadCAD.FEModel.SurfaceElement();
                         face.id = ++elemId;
                         face.order = 1;
@@ -192,11 +192,13 @@ namespace OpenTDv242GettingStarted
                 }
             }
             meshImporter.SetMesh(feMesh);
+
             // As mentioned previously, the FEMesh we passed to SetMesh
             // is a lightweight description of the mesh, suitable for
             // initial creation only. To work with the elements
             // it created, we need to get them from TD:
             var quads = td.GetLinearQuads();
+
             // Let's edit all of the elements and their nodes:
             string submodel = "new_submodel";
             var allNodes = td.GetNodes();
@@ -213,6 +215,7 @@ namespace OpenTDv242GettingStarted
                     n.Update();
                 }
             }
+
             td.SetVisualStyle(VisualStyles.THERMAL_PP);
             td.RestoreIsoView(IsoViews.SE);
             td.ZoomExtents();

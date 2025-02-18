@@ -1,9 +1,9 @@
 {
     "build": {
         "globalMetadata": {
-            "title": "Thermal OpenTD 2025 R1",
+            "title": "Thermal OpenTD 2024 R2",
             "summary": "",
-            "version": "2025 R1",
+            "version": "2024 R2",
             "product": "Thermal Desktop",
             "programming language": "C#",
             "product collection": "Fluids",

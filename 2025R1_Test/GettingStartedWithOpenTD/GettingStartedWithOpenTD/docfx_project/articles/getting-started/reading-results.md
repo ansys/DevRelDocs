@@ -645,7 +645,6 @@ namespace OpenTDv242GettingStarted
                 + "3,NaN,70,102,0.52\n"
                 + "4,78.5,70,103,0.5";
             File.WriteAllText(pathname, spreadsheetData);
-
             // The file is comma-delimited. By default, it can be comma- or
             // tab-delimited. Other delimiters can be chosen by adjusting the
             // Delimiters array. Space cannot be used, because it can be used as part

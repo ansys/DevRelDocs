@@ -121,7 +121,6 @@ Loggers are created using the *LoggerFactory* class, usually as a static member 
 
 ```c#
 private static readonly Logger log =
-
 LoggerFactory.GetLogger(typeof(ThermalDesktop).ToString());
 ```
 
