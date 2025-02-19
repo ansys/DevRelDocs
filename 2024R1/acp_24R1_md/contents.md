@@ -5,10 +5,10 @@ The ACP scripting interface provides programmable control of the ACP application
 * [Getting started](getting_started_acp.md)
   * [Basic scripting](getting_started_acp.md#basic-scripting)
   * [Advanced scripting](getting_started_acp.md#advanced-scripting)
-* [Extending the Python Environment](extending_python_environment.md)  
+* [Extending the Python environment](extending_python_environment.md)  
 * [The Python object tree](python_object_tree.md)
 * Classes:
-  * [Database](db_database.md)
+  * [Database class](db_database.md)
   * [Material classes](classes_materialdata.md)
   * [Model classes](classes_model.md)
   * [Solid-model classes](classes_solid_model.md)
