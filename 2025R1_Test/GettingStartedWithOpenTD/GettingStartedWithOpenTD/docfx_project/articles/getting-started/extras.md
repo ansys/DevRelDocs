@@ -51,13 +51,9 @@ A client program communicates with TD via an OpenTD server launched within the a
 There are commands you can use at the AutoCAD command line to query and start OpenTD servers:
 
 - **RCOPENTDV242**: This command will ask you for a pipe endpoint name and start a server with that name.
-
 - **RCOPENTDV242RANDOM**: This command will start a server with a random name.
-
 - **RCOPENTDV242DWG**: This command will start a server with a name based on the dwg pathname. It is included for completeness, but there should never be a reason to call it, since it is called automatically by TD.
-
 - **RCOPENTDV242LISTSERVERS**: This command will list the pipe endpoint names of the active OpenTDv242 servers.
-
 
 To connect a client program to a server based on endpoint name, set ThermalDesktop.ConnectConfig.PipeEndpointName before calling Connect() – (See the [Control how OpenTD connects to Thermal Desktop](#control-how-opentd-connects-to-thermal-desktop) section).
 
@@ -126,7 +122,7 @@ The following commands are supported:
 - **case [optional parameters]**
 Calculates radiation and Cond/Cap data for the current case set. New applications should use OpenTD CaseSetManager and/or CaseSet instead. Examples:
   - SendLegacyComCommand("case") // Calculates all radiation and cond/cap data.
-  - SendLegacyComCommand("case rad0 rad3 cc") // Calculates 1st and 4th radation tasks and cond/cap data.
+  - SendLegacyComCommand("case rad0 rad3 cc") // Calculates 1st and 4th radiation tasks and cond/cap data.
 
 - **caseset parameters**
 Provides access to the Case Set Manager. New applications should use OpenTD CaseSetManager and/or CaseSet instead.
@@ -239,6 +235,6 @@ OpenTD uses implicit casting in many places. For example, to cast StandardDataSu
 
 ## A note on OpenTD versioning
 
-OpenTDv242 is included with TD as the OpenTDv242.dll, OpenTDv242.CoSolver.dll, and OpenTDv242.Results.dll assemblies installed in the Global Assembly Cache (GAC). All OpenTDv242 types are contained within the “OpenTDv242” namespace. Any changes we make to this interface will be additive. That is, we will not remove classes or methods. Therefore, you can write software referencing OpenTDv242 knowing that it will not be broken by updates or new releases of TD.
+OpenTDv242 is included with TD as the OpenTDv242.dll, OpenTDv242.CoSolver.dll, and OpenTDv242.Results.dll assemblies installed in the Global Assembly Cache (GAC). All OpenTDv242 types are contained within the "OpenTDv242" namespace. Any changes we make to this interface will be additive. That is, we will not remove classes or methods. Therefore, you can write software referencing OpenTDv242 knowing that it will not be broken by updates or new releases of TD.
 
 Each subsequent release of OpenTD will be contained in its own family of dll’s (OpenTDv64.dll, OpenTDv64.Results.dll, etc.) and use its own namespace. When we develop each subsequent release, we will start with a complete copy of the previous release, then make changes only as required. Most commands should remain unchanged from release to release, and you should be able to take advantage of new features in new versions of OpenTD with a minimum of changes to your old programs.
