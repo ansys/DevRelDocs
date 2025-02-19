@@ -18,4 +18,4 @@ When you try to run a program that references OpenTDv242.Results.dll, you might 
 
 ## My problem is not listed here
 
-Please contact us at [crtech.support@ansys.com](crtech.support@ansys.com). Please include “OpenTD” and a descriptive title for your problem in the subject line, with a detailed description in the main body. We will be happy to help get OpenTD working for you.
+Please contact us at [crtech.support@ansys.com](mailto:crtech.support@ansys.com). Please include “OpenTD” and a descriptive title for your problem in the subject line, with a detailed description in the main body. We will be happy to help get OpenTD working for you.
