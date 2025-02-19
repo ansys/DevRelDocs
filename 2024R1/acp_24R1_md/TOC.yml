@@ -8,7 +8,7 @@
   href: python_object_tree.md
 - name: Classes
   items:
-  - name: Database
+  - name: Database class
     href: db_database.md
   - name: Material classes
     href: classes_materialdata.md
