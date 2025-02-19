@@ -7,3 +7,13 @@ Regardless of how you interact with OpenTD, you will need to have at least an in
 OpenTD was installed beginning with TD 6.1, which was released in early 2019. (Preliminary versions of OpenTD were called "TD API". )
 
 We will now introduce OpenTD concepts and syntax in a series of example programs. The latter programs build on concepts introduced in the earlier ones, so we recommend you try them in order.
+
+## Authors
+
+OpenTD was developped and is maintained by a dedicated team of engineers:
+
+- Matthew D. Garrett
+- Timothy D. Panczak
+- Mark J. Schmidt
+- Dave Wilkins
+- Michael A. Madden

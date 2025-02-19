@@ -13,9 +13,9 @@ The classes for working directly with save files, CSR’s or other solution resu
 
 ### Before using OpenTDv242.Results
 
-To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.esults.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. (See the Hello World](create-td-models.md#hello-world-start-td-and-create-a-node))
+To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.esults.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. [See the Hello World](creating-td-model/hello-world.md)
 Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration anager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look omething like this:
-![](media/19913b5a9a51f4926a07426227c010fa.png)
+![Configuration Manager dialog](media/19913b5a9a51f4926a07426227c010fa.png)
 
 ### The basics
 
