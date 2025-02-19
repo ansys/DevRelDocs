@@ -2,6 +2,8 @@
   href: contents.md
 - name: Getting started
   href: getting_started_acp.md
+- name: Extending the Python Environment
+  href: extending_python_environment.md
 - name: The Python object tree
   href: python_object_tree.md
 - name: Classes
