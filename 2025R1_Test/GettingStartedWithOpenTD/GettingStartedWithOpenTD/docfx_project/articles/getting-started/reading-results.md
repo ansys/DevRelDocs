@@ -2,8 +2,8 @@
 
 OpenTD offers two ways to work with solution results:
 
-2.  You can work directly with save files, CSR’s and other data files. You can create XY plots and tables, or you can simply get the data into memory for further manipulation.
-3.  You can create and modify contour plots and other post-processing output within a TD instance.
+1. You can work directly with save files, CSR’s and other data files. You can create XY plots and tables, or you can simply get the data into memory for further manipulation.
+2. You can create and modify contour plots and other post-processing output within a TD instance.
 
     The following examples will show how to use both methods.
 
@@ -14,7 +14,7 @@ The classes for working directly with save files, CSR’s or other solution resu
 ### Before using OpenTDv242.Results
 
 To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.esults.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. [See the Hello World](creating-td-model/hello-world.md)
-Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration anager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look omething like this:
+Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration manager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look something like this:
 ![Configuration Manager dialog](media/19913b5a9a51f4926a07426227c010fa.png)
 
 ### The basics
@@ -90,7 +90,7 @@ The previous section showed how to easily get data out of save files or CSR’s.
 
 Compared to previous methods for extracting and plotting SINDA/FLUINT data, OpenTD offers several improvements:
 
-- The *IDataset* interface and abstract *Dataset* class provide a common syntax for extracting data from save files, CSR’s, and other sources. There are several implementations of Dataset that you can use:
+- The *IDataset* interface and abstract *Dataset* class provide a common syntax for extracting data from save files, CSR’s, and other sources. You can use several implementations of Dataset:
 
   - *SaveFile*
   - *CSR*
@@ -145,7 +145,7 @@ using OpenTDv242;
 using OpenTDv242.Results.Dataset;
 using OpenTDv242.Results.Plot;
 
-namespace OpenTDv242GettingStarted
+Namespace OpenTDv242GettingStarted
 {
     class ExploreAndPlotResults
     {
@@ -461,7 +461,6 @@ namespace OpenTDv242GettingStarted
 As shown in the preceding sections, the DataSubtype class is used to describe types of data found in solution results such as “node temperature T” or “lump pressure PL”. There are several methods that require a DataSubtype as a parameter. When using those methods, you can create your own DataSubtype, but it is usually easier to allow OpenTD to do it for you by making use of the StandardDataSubtypes enum and/or the FullStandardDataSubtype struct.
 
 Through the magic of implicit casting (See the [Execute TD COM commands section](extras.md#execute-td-com-commands)) any method that accepts a DataSubtype will accept either a StandardDataSubtypes or FullStandardDataSubtype instead. For example, one of the GetData overloads has the following signature:
-
 
 ```c#
 DataArrayCollection GetData(

@@ -4,7 +4,7 @@
       "src": [
         {
           "files": [
-            "src/**/*.csproj"
+            "src/**.csproj"
           ]
         }
       ],
@@ -17,13 +17,13 @@
     "content": [
       {
         "files": [
-          "api/**/*.yml",
+          "api/**.yml",
           "api/index.md"
         ]
       },
       {
-        "files": [ 
-          "articles/**/*.md",
+        "files": [
+          "articles/**.md",
           "articles/**/toc.yml",
           "toc.yml",
           "*.md"
@@ -31,18 +31,20 @@
       }
     ],
     "resource": [
-          {
-            "files": [
-              "**/*.png",
-              "**/*.jpg",
-              "**/*.gif"
-            ]
-          }
-        ],
+      {
+        "files": [
+          "images/**",
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg"
+        ]
+      }
+    ],
     "overwrite": [
       {
         "files": [
-          "apidoc/**/*.md"
+          "apidoc/**.md"
         ],
         "exclude": [
           "obj/**",

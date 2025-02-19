@@ -6,10 +6,9 @@ You can use OpenTD to create Finite Difference (FD) surfaces and solids, and oth
 
 **LocalTrans**: This *Transformation* represents the position and orientation of the entity relative to its local coordinate system. Modifying this member is equivalent to editing the “Trans/Rot” tab in the GUI:
 
-![](../media/4e8146a507a20e79c517c1fe15f18d47.png)
+![Trans/Rot tab in the GUI](../media/4e8146a507a20e79c517c1fe15f18d47.png)
 
  Here is a program that demonstrates creating FD entities and positioning them using BaseTrans and LocalTrans:
-
 
 ```c#
 using OpenTDv242;
