@@ -30,7 +30,7 @@
     - name: Create fluid entities
       href: getting-started/creating-td-model/fluid-entities.md
   - name: Modifying TD models
-    href: getting-started/modify-td-models.md
+    href: getting-started/modifying-td-models.md
   - name: Interacting with end users
     href: getting-started/interacting-with-end-users.md
   - name: Working with case sets

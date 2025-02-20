@@ -485,7 +485,7 @@ Implicit casting to a DataSubtype also works for FullStandardDataSubtypes, which
 
 ### Get Model Topology from Solution Results
 
-As demonstrated in [Modifying TD models](modify-td-models.md), you can query a dwg file to determine the topology of a model. For example, you can use ThermalDesktop.*GetConductors()* to get all of the conductors, then for each you can use the *From* and *To* members and GetNode to find the attached nodes.
+As demonstrated in [Modifying TD models](modifying-td-models.md), you can query a dwg file to determine the topology of a model. For example, you can use ThermalDesktop.*GetConductors()* to get all of the conductors, then for each you can use the *From* and *To* members and GetNode to find the attached nodes.
 
 That approach is suitable when you are working with the dwg file, but if you are just using solution results it is often more convenient to read topology data directly without involving TD. Also, model topology can change during the run due to BUILD statements or other techniques, so reverse-engineering the actual topology at a given record from the dwg file is error-prone.
 

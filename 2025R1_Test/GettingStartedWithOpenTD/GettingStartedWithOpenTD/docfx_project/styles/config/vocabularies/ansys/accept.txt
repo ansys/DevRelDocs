@@ -6,8 +6,8 @@ APIs
 [Nn]amespace
 dll
 enum
-submodel
-submodels
+[Ss]ubmodel
+[Ss]ubmodels
 dialogs
 dwg
 Postprocessing
