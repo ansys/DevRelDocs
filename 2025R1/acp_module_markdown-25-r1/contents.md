@@ -15,6 +15,7 @@ Table of contents:
 * [Getting started](getting_started_acp.md)
   * [Basic scripting](getting_started_acp.md#basic-scripting)
   * [Advanced scripting](getting_started_acp.md#advanced-scripting)
+* [Extending the Python environment](extending_python_environment.md)
 * [The Python object tree](python_object_tree.md)
 * [Classes](classes.md)
   * [Database classes](db_database.md)
