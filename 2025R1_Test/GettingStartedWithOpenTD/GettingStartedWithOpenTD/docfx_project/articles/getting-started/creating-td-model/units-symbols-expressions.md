@@ -2,11 +2,9 @@
 
 OpenTD offers full support for units, symbols, and expressions. The most important concept to understand is that – except for a few exceptions discussed below – all dimensional values in OpenTD are expressed in the units defined in a thread static variable called *Units.WorkingUnits*, which is completely independent of the drawing units set in any connected TD instance.
 
-You can use expressions in OpenTD anywhere you can use them in the GUI. Look for members named "SomethingExp" to set the expression corresponding to the member "Something". Just like in the GUI, expressions have their own unit system, independent of the dwg units and the WorkingUnits. This is the main exception to the rule that all dimensional values in OpenTD are expressed in Units.WorkingUnits.[^1] Any other exceptions will be class members with fixed units in their names.
+You can use expressions in OpenTD anywhere you can use them in the GUI. Look for members named "SomethingExp" to set the expression corresponding to the member "Something". Just like in the GUI, expressions have their own unit system, independent of the dwg units and the WorkingUnits. This is the main exception to the rule that all dimensional values in OpenTD are expressed in Units.WorkingUnits. The other exceptions are rare properties that must be entered in a specific unit, for example km for *PlanetParameters.radiusKm*. In all cases these will be indicated by the unit name in the name of the property. Any other exceptions will be class members with fixed units in their names.
 
 The following program shows how to use WorkingUnits, symbols, and expressions:
-
-[^1]: The other exceptions are rare properties that must be entered in a specific unit, for example km for *PlanetParameters.radiusKm*. In all cases these will be indicated by the unit name in the name of the property.
 
 ```c#
 using System;

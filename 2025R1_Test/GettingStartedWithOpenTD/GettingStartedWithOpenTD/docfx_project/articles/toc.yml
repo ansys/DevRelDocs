@@ -27,7 +27,7 @@
       href: getting-started/creating-td-model/bivariate-arrays.md 
     - name: Create optical properties
       href: getting-started/creating-td-model/optical-properties.md
-    - name: Create fluids entities
+    - name: Create fluid entities
       href: getting-started/creating-td-model/fluid-entities.md
   - name: Modifying TD models
     href: getting-started/modify-td-models.md
