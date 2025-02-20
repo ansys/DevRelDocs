@@ -2,11 +2,13 @@
   href: contents.md
 - name: Getting started
   href: getting_started_acp.md
+- name: Extending the Python environment
+  href: extending_python_environment.md
 - name: The Python object tree
   href: python_object_tree.md
 - name: Classes
   items:
-  - name: Database
+  - name: Database class
     href: db_database.md
   - name: Material classes
     href: classes_materialdata.md
