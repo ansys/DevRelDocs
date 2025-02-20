@@ -8,9 +8,9 @@ var arithmeticNodes = td.GetNodes().Where
 && x.Layer == “sheet”);
 ```
 
-The variable “arithmeticNodes” would now be an *IEnumerable\<Node\>* containing all of the arithmetic nodes on layer “sheet”.[^2]
+The variable “arithmeticNodes” would now be an *IEnumerable\<Node\>* containing all of the arithmetic nodes on layer “sheet”.
 
-[^2]: You can use foreach to iterate over the elements of an IEnumerable, just like a List. Or you can convert the IEnumerable to a List using the ToList() method.
+**Note**: You can use foreach to iterate over the elements of an IEnumerable, just like a List. Or you can convert the IEnumerable to a List using the ToList() method.
 
 Another useful LINQ technique is to use the *Select* method to extract a related list from an input list. For example, the following line creates an IEnumerable\<string\> containing the handles of all of the nodes returned by GetNodes():
 

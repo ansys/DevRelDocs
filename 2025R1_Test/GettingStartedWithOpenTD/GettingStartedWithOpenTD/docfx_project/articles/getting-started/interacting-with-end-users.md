@@ -128,9 +128,7 @@ The LoggerFactory.*GetLogger* method accepts a string representing the name of t
 
 After calling GetLogger, your log is ready to use. Interestingly, you don’t define a log file location within your program. Instead, this is controlled at runtime using the configuration file located at %localappdata%\\ThermalDesktop\\OpenTDLogConfig.xml. This makes logging more flexible. During debugging on an end-user’s computer, you can adjust this configuration file to concentrate on the problem areas in your program.
 
-This is a recent configuration file installed with TD.
-
-**Note**: Subject to change. You may find this file in the TD installation directory. If you’d like to use it, copy it to the %localappdata%\\ThermalDesktop directory.
+This is a recent configuration file installed with TD:
 
 ```lua
 \<?xml version="1.0" encoding="utf-8"?\>
@@ -168,6 +166,7 @@ filename="%localappdata%\\ThermalDesktop\\log\\OpenTDv232Demos.log"/\>
 \</Listeners\>
 \</CRLogging\>
 ```
+**Note**: Subject to change. You may find this file in the TD installation directory. If you’d like to use it, copy it to the `%localappdata%\\ThermalDesktop` directory.
 
 Two types of objects are defined in the configuration file: loggers and listeners. Loggers emit messages, while listeners route them to destinations. In each case, they only act on messages that are at or above the level they are defined at.
 
