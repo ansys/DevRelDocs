@@ -1,3 +1,5 @@
+
+
 # Release notes for 2025 R1
 
 <a id="added"></a>
@@ -6,7 +8,7 @@
 
 <a id="new-methods"></a>
 
-### New methods
+### New Methods
 
 * `RockyApiApplication`
   * `GetVersion` - This method return the current application version `app.GetVersion()`.
@@ -20,10 +22,6 @@
   * [`IsPeriodicEnabled`](RAVolumetricInlet.md#generated.RAVolumetricInlet.IsPeriodicEnabled)
   * [`SetPeriod`](RAVolumetricInlet.md#generated.RAVolumetricInlet.SetPeriod)
   * [`GetPeriod`](RAVolumetricInlet.md#generated.RAVolumetricInlet.GetPeriod)
-  * [`GetPeriodicStop`](RAVolumetricInlet.md#generated.RAVolumetricInlet.GetPeriodicStop)
-  * [`SetPeriodicStop`](RAVolumetricInlet.md#generated.RAVolumetricInlet.SetPeriodicStop)
-  * [`GetInjectionTime`](RAVolumetricInlet.md#generated.RAVolumetricInlet.GetInjectionTime)
-  * [`SetInjectionTime`](RAVolumetricInlet.md#generated.RAVolumetricInlet.SetInjectionTime)
 * [`RAStudy`](RAStudy.md)
   * [`GetProgress`](RAStudy.md#generated.RAStudy.GetProgress)
 * [`RAParticles`](RAParticles.md)
@@ -102,7 +100,7 @@
 
 <a id="new-classes"></a>
 
-### New classes
+### New Classes
 
 * [`RAFilterProcess`](RAFilterProcess.md) - This class allows filtering properties by a cut or range of values. Replaces `RAPropertyProcess`.
 * [`RAResidenceTime`]() - This class allows manipulating Residence Time Calculators in a project.
