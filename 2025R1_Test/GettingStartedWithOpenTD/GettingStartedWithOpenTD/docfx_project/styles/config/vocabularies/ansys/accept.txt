@@ -31,6 +31,16 @@ SF_Launcher
 pythonnet
 Exceedances
 IDataset
+inp
+kz
+kPa
+FEM's
+ctor
+FEMesh
+submatrix
+interprocess
+IEnumerable
+arithmeticNodes
 
 
 
