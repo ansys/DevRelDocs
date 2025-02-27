@@ -28,8 +28,9 @@ This list must be manipulated via the `RAParticleInputPropertiesList` returned b
 
 **Methods:**
 
-| [`DisableForcePacking`](#generated.RAParticleInlet.DisableForcePacking)()                           | Set the value of "Force Packing" to False.                                                               |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| [`DisableForcePacking`](#generated.RAParticleInlet.DisableForcePacking)()                           | Set the value of "Force Packing" to False.                                                               |
 | [`DisablePeriodic`](#generated.RAParticleInlet.DisablePeriodic)()                                   | Set the value of "Periodic" to False.                                                                    |
 | [`DisablePeriodicDischarge`](#generated.RAParticleInlet.DisablePeriodicDischarge)()                 | Deprecated: Use [`DisablePeriodic()`](#generated.RAParticleInlet.DisablePeriodic) instead.               |
 | [`DisableStopAllAtStopTime`](#generated.RAParticleInlet.DisableStopAllAtStopTime)()                 | Set the value of "Stop All At Stop Time" to False.                                                       |

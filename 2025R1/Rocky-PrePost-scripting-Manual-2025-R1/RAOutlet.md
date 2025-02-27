@@ -20,8 +20,9 @@ input_1 = study.GetElement('Outlet <1>')
 
 **Methods:**
 
-| [`DisablePrescribedPressure`](#generated.RAOutlet.DisablePrescribedPressure)()            | Set the value of "Prescribed Pressure" to False.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`DisablePrescribedPressure`](#generated.RAOutlet.DisablePrescribedPressure)()            | Set the value of "Prescribed Pressure" to False.   |
 | [`EnablePrescribedPressure`](#generated.RAOutlet.EnablePrescribedPressure)()              | Set the value of "Prescribed Pressure" to True.    |
 | [`GetAvailableExitPoints`](#generated.RAOutlet.GetAvailableExitPoints)()                  | Get all available Exit Points.                     |
 | [`GetEnabledForParticles`](#generated.RAOutlet.GetEnabledForParticles)()                  | Get the value of "Enabled For Particles".          |

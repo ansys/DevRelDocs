@@ -22,8 +22,9 @@ input_properties_1.SetMass(100, 't')
 
 **Methods:**
 
-| [`GetAvailableParticles`](#generated.RAVolumetricInletProperties.GetAvailableParticles)()                                    | Get all available Particles.                                                    |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`GetAvailableParticles`](#generated.RAVolumetricInletProperties.GetAvailableParticles)()                                    | Get all available Particles.                                                    |
 | [`GetMass`](#generated.RAVolumetricInletProperties.GetMass)([unit])                                                          | Get the value of "Mass".                                                        |
 | [`GetModuleProperties`](#generated.RAVolumetricInletProperties.GetModuleProperties)()                                        | Get the names of the module properties.                                         |
 | [`GetModuleProperty`](#generated.RAVolumetricInletProperties.GetModuleProperty)(property_name[, unit])                       | Get the value of a module property.                                             |

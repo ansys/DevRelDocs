@@ -24,8 +24,9 @@ variable.SetValue(100)
 
 **Methods:**
 
-| [`GetValue`](#generated.RAParametricVar.GetValue)()      | Get the variable's current value.   |
+| Name | Description |
 |----------------------------------------------------------|-------------------------------------|
+| [`GetValue`](#generated.RAParametricVar.GetValue)()      | Get the variable's current value.   |
 | [`SetValue`](#generated.RAParametricVar.SetValue)(value) | Set the variable's current value.   |
 
 <a id="generated.RAParametricVar.GetValue"></a>

@@ -23,8 +23,9 @@ time_series_translation = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`ImportTimeSeriesMotion`](#generated.RATimeSeriesTranslation.ImportTimeSeriesMotion)(file_path)   | Generate the Time Series Motion Frame described on the contents of the file.   |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| [`ImportTimeSeriesMotion`](#generated.RATimeSeriesTranslation.ImportTimeSeriesMotion)(file_path)   | Generate the Time Series Motion Frame described on the contents of the file.   |
 
 <a id="generated.RATimeSeriesTranslation.ImportTimeSeriesMotion"></a>
 

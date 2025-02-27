@@ -35,8 +35,9 @@ The items in the motion list are of type [`RAMotion`](RAMotion.md#generated.RAMo
 
 **Methods:**
 
-| [`Clear`](#generated.RAMotionList.Clear)()       | Remove all items from the list.   |
+| Name | Description |
 |--------------------------------------------------|-----------------------------------|
+| [`Clear`](#generated.RAMotionList.Clear)()       | Remove all items from the list.   |
 | [`New`](#generated.RAMotionList.New)()           | Add a new item.                   |
 | [`Remove`](#generated.RAMotionList.Remove)(item) | Remove an item from the list.     |
 

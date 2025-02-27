@@ -34,8 +34,9 @@ various common actions related to simulations:
 
 **Methods:**
 
-| [`CanResumeSimulation`](#generated.RAStudy.CanResumeSimulation)()                                        | Whether the simulation can be resumed.                                                                                                                                          |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`CanResumeSimulation`](#generated.RAStudy.CanResumeSimulation)()                                        | Whether the simulation can be resumed.                                                                                                                                          |
 | [`CreateContinuousInjection`](#generated.RAStudy.CreateContinuousInjection)(entry_point, particle)       | Create a particle input with the given entry_point and particle.                                                                                                                |
 | [`CreateFeedConveyor`](#generated.RAStudy.CreateFeedConveyor)()                                          | Creates a new feed conveyor and add it to the project.                                                                                                                          |
 | [`CreateInlet`](#generated.RAStudy.CreateInlet)()                                                        | Create a new inlet and add it to the project.                                                                                                                                   |
@@ -103,8 +104,9 @@ various common actions related to simulations:
 
 **Attributes:**
 
-| [`customer_name`](#generated.RAStudy.customer_name)   | Get the study customer name.   |
+| Name | Description |
 |-------------------------------------------------------|--------------------------------|
+| [`customer_name`](#generated.RAStudy.customer_name)   | Get the study customer name.   |
 | [`description`](#generated.RAStudy.description)       | Get the study description.     |
 
 <a id="generated.RAStudy.CanResumeSimulation"></a>

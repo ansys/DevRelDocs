@@ -23,8 +23,9 @@ free_body_rotation = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetFreeMotionDirection`](#generated.RAFreeBodyRotation.GetFreeMotionDirection)()                       | Get "Free Motion Direction" as a string.                       |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`GetFreeMotionDirection`](#generated.RAFreeBodyRotation.GetFreeMotionDirection)()                       | Get "Free Motion Direction" as a string.                       |
 | [`GetValidFreeMotionDirectionValues`](#generated.RAFreeBodyRotation.GetValidFreeMotionDirectionValues)() | Get a list of all possible values for "Free Motion Direction". |
 | [`SetFreeMotionDirection`](#generated.RAFreeBodyRotation.SetFreeMotionDirection)(value)                  | Set the value of "Free Motion Direction".                      |
 
