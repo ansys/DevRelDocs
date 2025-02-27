@@ -11,8 +11,9 @@ generally aren't instantiated by the user). -->
 
 **Methods:**
 
-| [`GetAvailableGridFunctions`](#generated.RAJointsDataMeshColoring.GetAvailableGridFunctions)()                | Get a list of all possible values for "GridFunctions".       |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`GetAvailableGridFunctions`](#generated.RAJointsDataMeshColoring.GetAvailableGridFunctions)()                | Get a list of all possible values for "GridFunctions".       |
 | [`GetAvailableGridFunctionsNames`](#generated.RAJointsDataMeshColoring.GetAvailableGridFunctionsNames)()      | Get a list of all possible values for "GridFunctions" names. |
 | [`GetJointsColor`](#generated.RAJointsDataMeshColoring.GetJointsColor)()                                      | Get the value of "Node Color".                               |
 | [`GetJointsConnectivityColor`](#generated.RAJointsDataMeshColoring.GetJointsConnectivityColor)()              | Get the value of "Joints Connectivity Color".                |

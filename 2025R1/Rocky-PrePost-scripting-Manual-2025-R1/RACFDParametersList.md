@@ -26,8 +26,9 @@ The items in the parameters list are of type [`RACFDPerParticleParameters`](RACF
 
 **Methods:**
 
-| [`Clear`](#generated.RACFDParametersList.Clear)()                               | Overriden: Raises an error when called.             |
+| Name | Description |
 |---------------------------------------------------------------------------------|-----------------------------------------------------|
+| [`Clear`](#generated.RACFDParametersList.Clear)()                               | Overriden: Raises an error when called.             |
 | [`GetParametersFor`](#generated.RACFDParametersList.GetParametersFor)(particle) | Get the set of CFD parameters for a given Particle. |
 | [`New`](#generated.RACFDParametersList.New)()                                   | Overriden: Raises an error when called.             |
 | [`Remove`](#generated.RACFDParametersList.Remove)(item)                         | Overriden: Raises an error when called.             |

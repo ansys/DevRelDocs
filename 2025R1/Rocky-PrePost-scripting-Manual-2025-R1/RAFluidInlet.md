@@ -25,8 +25,9 @@ directly, such as the input’s name and the particle entry point.
 
 **Methods:**
 
-| [`GetAvailableEntryPoints`](#generated.RAFluidInlet.GetAvailableEntryPoints)()                 | Get all available Entry Points.                             |
+| Name | Description |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`GetAvailableEntryPoints`](#generated.RAFluidInlet.GetAvailableEntryPoints)()                 | Get all available Entry Points.                             |
 | [`GetBoundaryCondition`](#generated.RAFluidInlet.GetBoundaryCondition)()                       | Get "Boundary Condition" as a string.                       |
 | [`GetEntryPoint`](#generated.RAFluidInlet.GetEntryPoint)()                                     | Get the "Entry Point".                                      |
 | [`GetMassFlowRate`](#generated.RAFluidInlet.GetMassFlowRate)([unit])                           | Get the value of "Mass Flow Rate".                          |

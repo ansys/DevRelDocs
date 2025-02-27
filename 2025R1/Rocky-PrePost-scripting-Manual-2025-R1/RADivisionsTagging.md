@@ -23,8 +23,9 @@ divisions_tagging = particles_calculations.CreateDivisionsTagging(selection_proc
 
 **Methods:**
 
-| [`GetDivisionsI`](#generated.RADivisionsTagging.GetDivisionsI)()             | Get the value of "Divisions I".                               |
+| Name | Description |
 |------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`GetDivisionsI`](#generated.RADivisionsTagging.GetDivisionsI)()             | Get the value of "Divisions I".                               |
 | [`GetDivisionsJ`](#generated.RADivisionsTagging.GetDivisionsJ)()             | Get the value of "Divisions J".                               |
 | [`GetDivisionsK`](#generated.RADivisionsTagging.GetDivisionsK)()             | Get the value of "Divisions K".                               |
 | [`GetGridFunctionName`](#generated.RADivisionsTagging.GetGridFunctionName)() | Get the tagging grid function name.                           |

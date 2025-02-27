@@ -19,8 +19,9 @@ module = module_collection.GetModule('Module Name')
 
 **Methods:**
 
-| [`DisableModule`](#generated.RAModule.DisableModule)()                                                    | Disable the module.                                                                       |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| [`DisableModule`](#generated.RAModule.DisableModule)()                                                    | Disable the module.                                                                       |
 | [`EnableModule`](#generated.RAModule.EnableModule)()                                                      | Enable the module.                                                                        |
 | [`GetModuleProperties`](#generated.RAModule.GetModuleProperties)()                                        | Get the names of the module properties.                                                   |
 | [`GetModuleProperty`](#generated.RAModule.GetModuleProperty)(property_name[, unit])                       | Get the value of a module property.                                                       |

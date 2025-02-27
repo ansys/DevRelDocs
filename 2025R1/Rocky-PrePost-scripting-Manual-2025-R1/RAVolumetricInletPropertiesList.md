@@ -41,8 +41,9 @@ The [`RAVolumetricInletPropertiesList`](#generated.RAVolumetricInletPropertiesLi
 
 **Methods:**
 
-| [`Clear`](#generated.RAVolumetricInletPropertiesList.Clear)()       | Remove all items from the list.   |
+| Name | Description |
 |---------------------------------------------------------------------|-----------------------------------|
+| [`Clear`](#generated.RAVolumetricInletPropertiesList.Clear)()       | Remove all items from the list.   |
 | [`New`](#generated.RAVolumetricInletPropertiesList.New)()           | Add a new item.                   |
 | [`Remove`](#generated.RAVolumetricInletPropertiesList.Remove)(item) | Remove an item from the list.     |
 

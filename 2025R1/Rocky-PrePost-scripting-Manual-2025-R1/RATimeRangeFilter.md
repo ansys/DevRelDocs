@@ -13,8 +13,9 @@ Rocky PrePost Scripting wrapper to manipulate Time Range Filter.
 
 **Methods:**
 
-| [`GetDomainRange`](#generated.RATimeRangeFilter.GetDomainRange)()                       | Get the value of "Domain Range".                      |
+| Name | Description |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`GetDomainRange`](#generated.RATimeRangeFilter.GetDomainRange)()                       | Get the value of "Domain Range".                      |
 | [`GetFinal`](#generated.RATimeRangeFilter.GetFinal)([unit])                             | Get the value of "Final".                             |
 | [`GetInitial`](#generated.RATimeRangeFilter.GetInitial)([unit])                         | Get the value of "Initial".                           |
 | [`GetValidDomainRangeValues`](#generated.RATimeRangeFilter.GetValidDomainRangeValues)() | Get a list of all possible values for "Domain Range". |

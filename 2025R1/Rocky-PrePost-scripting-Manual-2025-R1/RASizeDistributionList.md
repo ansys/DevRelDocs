@@ -45,8 +45,9 @@ The [`RASizeDistributionList`](#generated.RASizeDistributionList) is a list of [
 
 **Methods:**
 
-| [`Clear`](#generated.RASizeDistributionList.Clear)()                                   | Remove all items from the list.                    |
+| Name | Description |
 |----------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`Clear`](#generated.RASizeDistributionList.Clear)()                                   | Remove all items from the list.                    |
 | [`GetCgmScaleFactor`](#generated.RASizeDistributionList.GetCgmScaleFactor)()           | Get the value of "Cgm Scale Factor".               |
 | [`GetSizeType`](#generated.RASizeDistributionList.GetSizeType)()                       | Get "Size Type" as a string.                       |
 | [`GetValidSizeTypeValues`](#generated.RASizeDistributionList.GetValidSizeTypeValues)() | Get a list of all possible values for "Size Type". |

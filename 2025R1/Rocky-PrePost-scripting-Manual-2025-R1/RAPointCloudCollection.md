@@ -31,8 +31,9 @@ Items in this list are of type [`RAPointCloud`](RAPointCloud.md#generated.RAPoin
 
 **Methods:**
 
-| [`Clear`](#generated.RAPointCloudCollection.Clear)()       | Remove all items from the list.   |
+| Name | Description |
 |------------------------------------------------------------|-----------------------------------|
+| [`Clear`](#generated.RAPointCloudCollection.Clear)()       | Remove all items from the list.   |
 | [`New`](#generated.RAPointCloudCollection.New)()           | Add a new item.                   |
 | [`Remove`](#generated.RAPointCloudCollection.Remove)(item) | Remove an item from the list.     |
 

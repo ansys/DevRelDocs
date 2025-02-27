@@ -23,8 +23,9 @@ vibration = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetAmplitudeVariation`](#generated.RAVibration.GetAmplitudeVariation)([unit])        | Get the value of "Amplitude Variation".   |
+| Name | Description |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
+| [`GetAmplitudeVariation`](#generated.RAVibration.GetAmplitudeVariation)([unit])        | Get the value of "Amplitude Variation".   |
 | [`GetDirection`](#generated.RAVibration.GetDirection)()                                | Get the value of "Direction".             |
 | [`GetFrequencyVariation`](#generated.RAVibration.GetFrequencyVariation)([unit])        | Get the value of "Frequency Variation".   |
 | [`GetInitialAmplitude`](#generated.RAVibration.GetInitialAmplitude)([unit])            | Get the value of "Initial Amplitude".     |

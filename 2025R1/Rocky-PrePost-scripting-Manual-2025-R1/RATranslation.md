@@ -23,8 +23,9 @@ translation = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetAcceleration`](#generated.RATranslation.GetAcceleration)([unit])           | Get the value of "Acceleration".               |
+| Name | Description |
 |---------------------------------------------------------------------------------|------------------------------------------------|
+| [`GetAcceleration`](#generated.RATranslation.GetAcceleration)([unit])           | Get the value of "Acceleration".               |
 | [`GetFinalVelocity`](#generated.RATranslation.GetFinalVelocity)([unit])         | Get the value of "Final Velocity".             |
 | [`GetInput`](#generated.RATranslation.GetInput)()                               | Get "Input" as a string.                       |
 | [`GetValidInputValues`](#generated.RATranslation.GetValidInputValues)()         | Get a list of all possible values for "Input". |

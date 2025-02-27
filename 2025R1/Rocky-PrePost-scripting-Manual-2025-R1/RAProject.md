@@ -29,8 +29,9 @@ project.SaveProjectForRestart('my_restart_project.rocky', timestep_or_index=10)
 
 **Methods:**
 
-| [`CloseProject`](#generated.RAProject.CloseProject)([check_save_state])                | Close the current project.                                                       |
+| Name | Description |
 |----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| [`CloseProject`](#generated.RAProject.CloseProject)([check_save_state])                | Close the current project.                                                       |
 | [`CreateStudy`](#generated.RAProject.CreateStudy)([study_name])                        | Creates a new study and returns its wrapper                                      |
 | [`GetInputVariables`](#generated.RAProject.GetInputVariables)()                        | Get the PrePost Scripting wrapper for the project's Input Variables.             |
 | [`GetModelElement`](#generated.RAProject.GetModelElement)(model_element_id)            | Get the model element associated with the given ID                               |
