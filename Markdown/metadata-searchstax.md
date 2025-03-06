@@ -5,7 +5,6 @@
 Version can be as follows:
  "2025 R1", "2025 R1 SP01", "4.1" and "1.0.0.0"
 
-I mention below renaming **Product** to **title** but I guess it would be an issue for Doxygen and MD documentation. **document title** could be a good name.
 
 ## MD Documentation
 
