@@ -1,3 +1,5 @@
+# Metadata and SearchStax
+
 Actually, this isn't an issue. We will continue using "Physics" as the product collection, as we have been doing so far.
 
 I've noted that the "Product collection" metadata is defined, but there's currently no way to associate a documentation package with a Product collection via the Drupal Admin UI during the migration process. The only content type where the Product collection can be configured is the "Book" type. However, upon review, I couldn’t find any books assigned with this metadata, suggesting it hasn't been utilized. This needs verification.
