@@ -1,18 +1,5 @@
 # Metadata and SearchStax
 
-Actually, this isn't an issue. We will continue using "Physics" as the product collection, as we have been doing so far.
-
-I've noted that the "Product collection" metadata is defined, but there's currently no way to associate a documentation package with a Product collection via the Drupal Admin UI during the migration process. The only content type where the Product collection can be configured is the "Book" type. However, upon review, I couldn’t find any books assigned with this metadata, suggesting it hasn't been utilized. This needs verification.
-
-If it turns out we are not using this metadata, my suggestion would be to remove the existing "Product collection" metadata and rename the current "Physics" metadata to "Product families" (consistent with the taxonomy used by PyAnsys). This adjustment would ensure every documentation package includes "Version," "Product," and "Product families."
-
-Another issue is that what is called Product in many doc package is the title of the doc package which is a metadata I'm not sure we would be interested to provide as a filter to Search Stax. My idea here is to avoid providing this metadata to SearchSatx. We would only have two metadata available to SearchStax for Q1:
-Version and Product families.
-
-Another concern is that the term **Product/Product Name** in many documentation packages refers to the title of the documentation package itself, which might not be relevant as a filter for SearchStax. My suggestion is to refrain from including this metadata for SearchStax. We would only have two metadata available to SearchStax for Q1: Version and Product families.
-
-Regarding your email, I noticed that the bullet point about the REST APIs does not mention the "Version" metadata. Was this an oversight?
-
 ## Common remarks
 
 Version can be as follows:
