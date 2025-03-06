@@ -10,7 +10,7 @@ Version can be as follows:
 
 ### Current behavior
 
-| Config file: docfx.json | Admin UI: Migration Process | Admin UI: File Edited |
+| Config file: docfx.json | Admin UI: Migration process | Admin UI: File edited |
 |-------------------------|-----------------------------|-----------------------|
 | `title:` read. Example: "System Coupling Participant Library 2025 R1"  | Not visible | **Product:** set. Example: "System Coupling Participant Library 2025 R1"  |
 | `version:` Not read | Not visible | Not visible |
@@ -18,7 +18,7 @@ Version can be as follows:
 
 ### Expected for Q1
 
-| Config file: docfx.json | Admin UI: Migration Process | Admin UI: File Edited |  Action |  Available to SearchStax
+| Config file: docfx.json | Admin UI: Migration process | Admin UI: File edited |  Action |  Available to SearchStax
 |-------------------------|-----------------------------|-----------------------|------| ------|
 | `title:` read. Example: "System Coupling Participant Library" | Not visible | **Product:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **documentation title**.  | No
 | `version:` read. Example: "2025 R1" | Not visible | Not visible | Manage as metadata | Yes
@@ -26,7 +26,7 @@ Version can be as follows:
 
 ### To be planned
 
-| Config file: docfx.json               | Admin UI: Migration Process     | Admin UI: File Edited | Available to SearchStax
+| Config file: docfx.json               | Admin UI: Migration process     | Admin UI: File edited | Available to SearchStax
 |------------------------|------------------------------------------------|----------------------| --------|
 | `product:` read.  Example: "System Coupling"      | Not visible |  Not visible | Yes
 | `status:` read.   Example: "Published"   | Not visible |  Not visible | No
@@ -39,7 +39,7 @@ Version can be as follows:
 
 ### Current behavior
 
-| Config file | Admin UI: Migration Process | Admin UI: File Edited |
+| Config file | Admin UI: Migration process | Admin UI: File edited |
 |-------------|-----------------------------|-----------------------|
 | No file | **Product Name:** to be set. Example: "System Coupling Participant Library 2025 R1" | **Product:** set. Example: "System Coupling Participant Library 2025 R1"|
 | No file | **Physics:** to be set. Example: "Multiphysics" | **Physics:** set. Example: "Multiphysics" |
@@ -47,7 +47,7 @@ Version can be as follows:
 
 ### Expected for Q1
 
-| Config file | Admin UI: Migration Process | Admin UI: File Edited | Action | Available to SearchStax
+| Config file | Admin UI: Migration process | Admin UI: File edited | Action | Available to SearchStax
 |-------------|-----------------------------|-----------------------|--------|--------|
 | No file | **Product Name:** to be set. Example: "System Coupling Participant Library" | **Product:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **documentation title**.  | No
 | No file | **Version:** to be set. Example: "2025 R1" | **Version:** set. Example: "2025 R1" | Manage as metadata| Yes
@@ -55,11 +55,9 @@ Version can be as follows:
 | No file | **Access Control:** to be set. Example: "Public" | **Published:** flagged or not |No change | No
 
 
-**Required for Next Steps:**
-
 ### To be planned
 
-| Config file              | Admin UI: Migration Process     | Admin UI: File Edited | Available to SearchStax
+| Config file              | Admin UI: Migration process     | Admin UI: File edited | Available to SearchStax
 |------------------------|------------------------------|----------------------|------|
 | No file | **status:** to be set.  Example: "Published"      | Not visible |  No
 | No file | **product:** to be set.  Example: "System Coupling"      | Not visible |  Yes
@@ -73,7 +71,7 @@ Remove **API category** that we are not using or at least do not provide to Sear
 
 ### Current behavior
 
-| Config file: JSON/YAML | Admin UI: Migration Process | Admin UI: File Edited | 
+| Config file: JSON/YAML | Admin UI: Migration process | Admin UI: File edited | 
 |------------------------|-----------------------------|-----------------------|
 | `title:` | Not visible | Not visible |
 | `version:` | Not visible |Not visible |
@@ -83,7 +81,7 @@ Remove **API category** that we are not using or at least do not provide to Sear
 
 ### Expected for Q1
 
-| Config file: JSON/YAML | Admin UI: Migration Process | Admin UI: File Edited | Action | Available to SearchStax
+| Config file: JSON/YAML | Admin UI: Migration process | Admin UI: File edited | Action | Available to SearchStax
 |------------------------|-----------------------------|-----------------------|--------|----------|
 | `title:` | Not visible | Not visible | Manage as metadata | No
 | `version:` | Not visible | Not visible | Manage as metadata and provided to SearchStax| Yes
@@ -93,7 +91,7 @@ Remove **API category** that we are not using or at least do not provide to Sear
 
 ### To be planned
 
-| Config file              | Admin UI: Migration Process     | Admin UI: File Edited | Available to SearchStax
+| Config file              | Admin UI: Migration process     | Admin UI: File edited | Available to SearchStax
 |------------------------|------------------------------|----------------------|----------|
 | No file | **product:** to be set.  Example: "System Coupling"      | Not visible |  Yes
 | No file | **programming language:** to be set. Example: "C, C++, Fortran, Python"  | Not visible |  Yes
