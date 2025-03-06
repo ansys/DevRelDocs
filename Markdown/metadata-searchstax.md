@@ -22,7 +22,7 @@ Version can be as follows:
 |-------------------------|-----------------------------|-----------------------|------| ------|------|
 | `title:` read. Example: "System Coupling Participant Library" | Not visible | **Product:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Documentation title**. | **Documentation title** | No
 | `version:` read. Example: "2025 R1" | Not visible | Not visible | Manage as metadata | **Version** | Yes
-| `physics:` read. Example: "Multiphysics" | Not visible | **Physics:** set. Example: "Multiphysics"| Manage as metadata |**Product families** | Yes
+| `physics:` read. Example: "Multiphysics" | Not visible | **Physics:** set. Example: "Multiphysics"| Manage as metadata and rename to **Product families** |**Product families** | Yes
 
 ### To be planned
 
@@ -84,7 +84,7 @@ Remove **API category** that we are not using or at least do not provide to Sear
 | Config file: JSON/YAML | Admin UI: Migration process | Admin UI: File edited | Action |  Metadata name| Available to SearchStax
 |------------------------|-----------------------------|-----------------------|--------|----------|----------|
 | `title:` | Not visible | Not visible | Manage as metadata | | No
-| `version:` | Not visible | Not visible | Manage as metadata and provided to SearchStax| **Version** | Yes
+| `version:` | Not visible | Not visible | Manage as metadata | **Version** | Yes
 | Not defined | **Physics:** to be set. Example: "Multiphysics"  | **Physics:** set. Example: "Multiphysics"| Manage as metadata and rename to **Product families** | **Product families**| Yes
 | Not defined  | **Access Control:** to be set. Example: "Public" | **Published:** flagged or not | No change | No
 | Not defined  | **Status:** to be set. Example: "Published" | **Published:** flagged or not | No change | No
@@ -92,7 +92,7 @@ Remove **API category** that we are not using or at least do not provide to Sear
 ### To be planned
 
 | Config file              | Admin UI: Migration process     | Admin UI: File edited | Metadata name | Available to SearchStax
-|------------------------|------------------------------|----------------------|----------|
+|------------------------|------------------------------|----------------------|----------|----------|
 | No file | **product:** to be set.  Example: "System Coupling"      | Not visible | **Product**| Yes
 | No file | **programming language:** to be set. Example: "C, C++, Fortran, Python"  | Not visible |  **Programming languages**| Yes
 | No file | **description:** to be set.  Example: "Ansys System Coupling integrates multiple individual analyses, enabling you to leverage different physics solvers and/or static external data sources in a single simulation. Verify if this description is used in the HTML metadata description tag." | Not visible | | ?
