@@ -1,2 +1,83 @@
-- name: optiSLang Python API
+- name: Introduction
   href: index.md
+- name: Data types
+  items:
+  - name: Custom types
+    href: modules/custom_types.md
+  - name: ID
+    href: modules/id.md
+  - name: Py Algorithm Info
+    href: modules/py_algorithm_info.md
+  - name: Py File Access
+    href: modules/py_file_access.md
+  - name: Py OMDB
+    href: modules/py_omdb.md
+  - name: Py OS Criterion
+    href: modules/py_os_criterion.md
+  - name: Py OS Design
+    href: modules/py_os_design.md
+  - name: Py OS Parameter
+    href: modules/py_os_parameter.md
+  - name: Py Project
+    href: modules/py_project.md
+  - name: Py Random Variables
+    href: modules/py_random_variables.md
+  - name: Py Transform
+    href: modules/py_transform.md
+  - name: Py Variant
+    href: modules/pyvariant.md
+  - name: StdCPP Python Export
+    href: modules/stdcpp_python_export.md
+- name: Algorithm
+  items: 
+  - name: AMOP
+    href: modules/amop.md
+  - name: Dynardo Py Algorithms
+    href: modules/dynardo_py_algorithms.md
+  - name: OS DOE Py Export
+    href: modules/os_doe_py_export.md
+  - name: PyARSM
+    href: modules/PyARSM.md
+  - name: Py DOE Settings
+    href: modules/py_doe_settings.md
+  - name: PyMemetic
+    href: modules/PyMemetic.md
+  - name: Py MOP FMU Export
+    href: modules/py_mop_fmu_export.md
+  - name: PyNLPQLP
+    href: modules/PyNLPQLP.md
+  - name: PyNOA
+    href: modules/PyNOA.md
+  - name: PyNOA2
+    href: modules/PyNOA2.md
+  - name: PyOptimizerBase
+    href: modules/PyOptimizerBase.md
+  - name: PyOptimizerGradientBase
+    href: modules/PyOptimizerGradientBase.md
+  - name: Py Reliability Adaptive
+    href: modules/py_reliability_adaptive.md
+  - name: Py Reliability Monte Carlo
+    href: modules/py_reliability_montecarlo.md
+  - name: PySimplex
+    href: modules/PySimplex.md
+  - name: Reliability
+    href: modules/reliability.md
+- name: Postprocessing
+  items:
+  - name: Py Monitoring GUI
+    href: modules/py_monitoring_gui.md
+  - name: Py Monitoring Kernel
+    href: modules/py_monitoring_kernel.md
+  - name: Py OSL3 Bin File
+    href: modules/py_osl3binfile.md
+- name: Kernel
+  items:
+  - name: optiSLang actors
+    href: modules/_optiSLang_Actors.md
+  - name: optiSLang kernel
+    href: modules/_optiSLang_Kernel.md
+
+
+
+
+
