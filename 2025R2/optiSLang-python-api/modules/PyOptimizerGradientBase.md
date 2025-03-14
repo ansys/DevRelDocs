@@ -1,9 +1,16 @@
+<a id="module-PyOptimizerGradientBase"></a>
 
 
-### *class* PyOptimizerGradientBase.SettingsBase
+# PyOptimizerGradientBase
 
+<a id="PyOptimizerGradientBase.SettingsBase"></a>
 
-#### SetMaxNumFunctionCalls(arg2: int)
+## *class* PyOptimizerGradientBase.SettingsBase
 
+<a id="PyOptimizerGradientBase.SettingsBase.SetMaxNumFunctionCalls"></a>
 
-#### \_\_init_\_()
+### SetMaxNumFunctionCalls(arg2: int)
+
+<a id="PyOptimizerGradientBase.SettingsBase.__init__"></a>
+
+### \_\_init_\_()

@@ -1,24 +1,36 @@
+<a id="module-py_doe_settings"></a>
 
 
-### *class* py_doe_settings.DOESettings
+# py_doe_settings
 
+<a id="py_doe_settings.DOESettings"></a>
 
-#### \_\_init_\_()
+## *class* py_doe_settings.DOESettings
 
+<a id="py_doe_settings.DOESettings.__init__"></a>
 
-#### *property* num_dimensions
+### \_\_init_\_()
 
+<a id="py_doe_settings.DOESettings.num_dimensions"></a>
 
-#### *property* num_discretization
+### *property* num_dimensions
 
+<a id="py_doe_settings.DOESettings.num_discretization"></a>
 
-#### *property* num_points
+### *property* num_discretization
 
+<a id="py_doe_settings.DOESettings.num_points"></a>
 
-#### *property* sampling_method
+### *property* num_points
 
+<a id="py_doe_settings.DOESettings.sampling_method"></a>
 
-#### *property* seed
+### *property* sampling_method
 
+<a id="py_doe_settings.DOESettings.seed"></a>
 
-#### set_default()
+### *property* seed
+
+<a id="py_doe_settings.DOESettings.set_default"></a>
+
+### set_default(arg2: [DOETYPES](dynardo_py_algorithms.md#dynardo_py_algorithms.DOETYPES))

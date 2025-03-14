@@ -1,57 +1,75 @@
+<a id="module-pyvariant"></a>
 
 
-### *class* pyvariant.InterpolationType
+# pyvariant
+
+<a id="pyvariant.InterpolationType"></a>
+
+## *class* pyvariant.InterpolationType
 
 **Enumeration**
 
+<a id="pyvariant.InterpolationType.Linear"></a>
 
-#### Linear *= pyvariant.InterpolationType.Linear*
+### Linear *= pyvariant.InterpolationType.Linear*
 
+<a id="pyvariant.InterpolationType.Quadratic"></a>
 
-#### Quadratic *= pyvariant.InterpolationType.Quadratic*
+### Quadratic *= pyvariant.InterpolationType.Quadratic*
 
+<a id="pyvariant.InterpolationType.Spline"></a>
 
-#### Spline *= pyvariant.InterpolationType.Spline*
+### Spline *= pyvariant.InterpolationType.Spline*
 
+<a id="pyvariant.VariantD"></a>
 
-### *class* pyvariant.VariantD
+## *class* pyvariant.VariantD
 
+<a id="pyvariant.VariantD.__add__"></a>
 
-#### \_\_add_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
+### \_\_add_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
 
+<a id="pyvariant.VariantD.__complex__"></a>
 
-#### \_\_complex_\_() → object
+### \_\_complex_\_() → object
 
+<a id="pyvariant.VariantD.__eq__"></a>
 
-#### \_\_eq_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
+### \_\_eq_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
 
+<a id="pyvariant.VariantD.__ge__"></a>
 
-#### \_\_ge_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
+### \_\_ge_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
 
+<a id="pyvariant.VariantD.__getinitargs__"></a>
 
-#### \_\_getinitargs_\_() → tuple
+### \_\_getinitargs_\_() → tuple
 
+<a id="pyvariant.VariantD.__getstate__"></a>
 
-#### \_\_getstate_\_() → tuple
+### \_\_getstate_\_() → tuple
 
+<a id="pyvariant.VariantD.__getstate_manages_dict__"></a>
 
-#### \_\_getstate_manages_dict_\_ *= True*
+### \_\_getstate_manages_dict_\_ *= True*
 
+<a id="pyvariant.VariantD.__gt__"></a>
 
-#### \_\_gt_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
+### \_\_gt_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
 
+<a id="pyvariant.VariantD.__init__"></a>
 
-#### \_\_init_\_()
+### \_\_init_\_()
 
-#### \_\_init_\_(arg2: float, arg3: float)
+### \_\_init_\_(arg2: float, arg3: float)
 
-#### \_\_init_\_(scalar_value: object) → object
+### \_\_init_\_(scalar_value: object) → object
 
-#### \_\_init_\_(row: list) → object
+### \_\_init_\_(row: list) → object
 
-#### \_\_init_\_(channels: list, abscissa: list) → object
+### \_\_init_\_(channels: list, abscissa: list) → object
 
-#### \_\_init_\_(channels: list, abscissa: list, transpose: bool) → object
+### \_\_init_\_(channels: list, abscissa: list, transpose: bool) → object
 
 [2] Create a scalar variant using Python’s builtin types. Accepts bool, integer, float and complex.
 
@@ -61,37 +79,47 @@
 
 [5] Create a signal or xydata by passing channels and abscissa as nested lists resp. list. The matrix containing the channels can be transposed on demand.
 
+<a id="pyvariant.VariantD.__le__"></a>
 
-#### \_\_le_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
+### \_\_le_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
 
+<a id="pyvariant.VariantD.__lt__"></a>
 
-#### \_\_lt_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
+### \_\_lt_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
 
+<a id="pyvariant.VariantD.__mul__"></a>
 
-#### \_\_mul_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
+### \_\_mul_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
 
+<a id="pyvariant.VariantD.__repr__"></a>
 
-#### \_\_repr_\_() → object
+### \_\_repr_\_() → object
 
+<a id="pyvariant.VariantD.__safe_for_unpickling__"></a>
 
-#### \_\_safe_for_unpickling_\_ *= True*
+### \_\_safe_for_unpickling_\_ *= True*
 
+<a id="pyvariant.VariantD.__setstate__"></a>
 
-#### \_\_setstate_\_(arg2: tuple)
+### \_\_setstate_\_(arg2: tuple)
 
+<a id="pyvariant.VariantD.__str__"></a>
 
-#### \_\_str_\_() → object
+### \_\_str_\_() → object
 
+<a id="pyvariant.VariantD.__sub__"></a>
 
-#### \_\_sub_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
+### \_\_sub_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
 
+<a id="pyvariant.VariantD.__truediv__"></a>
 
-#### \_\_truediv_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
+### \_\_truediv_\_(arg2: [VariantD](#pyvariant.VariantD)) → object
 
+<a id="pyvariant.VariantD.get_value"></a>
 
-#### get_value(row: int) → complex
+### get_value(row: int) → complex
 
-#### get_value(row: int, col: int) → complex
+### get_value(row: int, col: int) → complex
 
 [0] Return the complex value from index (row).
 
@@ -114,8 +142,9 @@ print('Value from index ({}, {}) is {}.'.format(row, col, variant.get_value(row,
 # Value from index (0, 1) is 0.2.
 ```
 
+<a id="pyvariant.VariantD.size1"></a>
 
-#### size1() → int
+### size1() → int
 
 Return the length of dimension 1.
 If VariantD is a scalar, size1 is equal to ‘1’.
@@ -131,8 +160,9 @@ print('size1 of variant is {}.'.format(variant.size1()))
 # size1 of variant is 1.
 ```
 
+<a id="pyvariant.VariantD.size2"></a>
 
-#### size2() → int
+### size2() → int
 
 Return the length of dimension 2.
 If VariantD is a scalar or vector, size2 is equal to ‘1’.
@@ -147,8 +177,9 @@ print('size2 of variant is {}.'.format(variant.size2()))
 # size2 of variant is 3.
 ```
 
+<a id="pyvariant.extract_abscissae"></a>
 
-### pyvariant.extract_abscissae(item: [VariantD](#pyvariant.VariantD)) → [VariantD](#pyvariant.VariantD)
+## pyvariant.extract_abscissae(item: [VariantD](#pyvariant.VariantD)) → [VariantD](#pyvariant.VariantD)
 
 Extract the abscissae from ‘item’ and returns a VariantD vector.
 If ‘item’ is a matrix, the first matrix row will be extracted.
@@ -165,8 +196,9 @@ print(extract_abscissae(variant))
 # (2,0)
 ```
 
+<a id="pyvariant.extract_channel"></a>
 
-### pyvariant.extract_channel(item: [VariantD](#pyvariant.VariantD), axis_nr: int) → [VariantD](#pyvariant.VariantD)
+## pyvariant.extract_channel(item: [VariantD](#pyvariant.VariantD), axis_nr: int) → [VariantD](#pyvariant.VariantD)
 
 Extract a channel ‘axis_nr’ from ‘item’ and returns a VariantD vector.
 If ‘item’ is a matrix, extract_channel returns the row number ‘axis_nr’.
@@ -183,8 +215,9 @@ print(extract_channel(variant, 1))
 # (0.3,0)
 ```
 
+<a id="pyvariant.get_boolean"></a>
 
-### pyvariant.get_boolean(item: [VariantD](#pyvariant.VariantD)) → bool
+## pyvariant.get_boolean(item: [VariantD](#pyvariant.VariantD)) → bool
 
 Return the value if ‘item’ is a boolean.
 
@@ -195,8 +228,9 @@ print(get_boolean(variant))
 # True
 ```
 
+<a id="pyvariant.get_scalar"></a>
 
-### pyvariant.get_scalar(item: [VariantD](#pyvariant.VariantD)) → complex
+## pyvariant.get_scalar(item: [VariantD](#pyvariant.VariantD)) → complex
 
 Return the complex value if ‘item’ is a scalar.
 
@@ -207,13 +241,15 @@ print(get_scalar(variant))
 # (1.0+0j)
 ```
 
+<a id="pyvariant.interpolate"></a>
 
-### pyvariant.interpolate(signal: VariantD) → [VariantD](#pyvariant.VariantD)
+## pyvariant.interpolate(signal: VariantD) → [VariantD](#pyvariant.VariantD)
 
 Perform interpolation on input signal. Optionally pass a value for x-increment and interpolation type.
 
+<a id="pyvariant.is_boolean"></a>
 
-### pyvariant.is_boolean(item: [VariantD](#pyvariant.VariantD)) → bool
+## pyvariant.is_boolean(item: [VariantD](#pyvariant.VariantD)) → bool
 
 Return ‘True’ if ‘item’ is a bool value and ‘False’ otherwise.
 
@@ -225,8 +261,9 @@ print(is_boolean(variant_a), is_boolean(variant_b))
 # False True
 ```
 
+<a id="pyvariant.is_matrix"></a>
 
-### pyvariant.is_matrix(item: [VariantD](#pyvariant.VariantD)) → bool
+## pyvariant.is_matrix(item: [VariantD](#pyvariant.VariantD)) → bool
 
 Return ‘True’ if ‘item’ is a matrix and ‘False’ otherwise.
 
@@ -238,8 +275,9 @@ print(is_matrix(variant_a), is_matrix(variant_b))
 # False True
 ```
 
+<a id="pyvariant.is_scalar"></a>
 
-### pyvariant.is_scalar(item: [VariantD](#pyvariant.VariantD)) → bool
+## pyvariant.is_scalar(item: [VariantD](#pyvariant.VariantD)) → bool
 
 Return ‘True’ if ‘item’ is a scalar value and ‘False’ otherwise.
 
@@ -251,8 +289,9 @@ print(is_scalar(variant_a), is_scalar(variant_b))
 # True False
 ```
 
+<a id="pyvariant.is_signal"></a>
 
-### pyvariant.is_signal(item: [VariantD](#pyvariant.VariantD)) → bool
+## pyvariant.is_signal(item: [VariantD](#pyvariant.VariantD)) → bool
 
 Return ‘True’ if ‘item’ is a signal and ‘False’ otherwise.
 
@@ -266,8 +305,9 @@ print(is_signal(variant_a), is_signal(variant_b))
 # False True
 ```
 
+<a id="pyvariant.is_uninitialized"></a>
 
-### pyvariant.is_uninitialized(item: [VariantD](#pyvariant.VariantD)) → bool
+## pyvariant.is_uninitialized(item: [VariantD](#pyvariant.VariantD)) → bool
 
 Return ‘True’ if ‘item’ is a uninitialized and ‘False’ otherwise.
 
@@ -279,8 +319,9 @@ print(is_uninitialized(variant_a), is_uninitialized(variant_b))
 # False True
 ```
 
+<a id="pyvariant.is_vector"></a>
 
-### pyvariant.is_vector(item: [VariantD](#pyvariant.VariantD)) → bool
+## pyvariant.is_vector(item: [VariantD](#pyvariant.VariantD)) → bool
 
 Return ‘True’ if ‘item’ is a vector and ‘False’ otherwise.
 
@@ -292,8 +333,9 @@ print(is_vector(variant_a), is_vector(variant_b))
 # False True
 ```
 
+<a id="pyvariant.is_xy_data"></a>
 
-### pyvariant.is_xy_data(item: [VariantD](#pyvariant.VariantD)) → bool
+## pyvariant.is_xy_data(item: [VariantD](#pyvariant.VariantD)) → bool
 
 Return ‘True’ if ‘item’ is a xy-data and ‘False’ otherwise.
 
@@ -306,8 +348,9 @@ print(is_xy_data(variant_a), is_xy_data(variant_b))
 # False True
 ```
 
+<a id="pyvariant.list_2_variant_vector"></a>
 
-### pyvariant.list_2_variant_vector(values: list) → [VariantD](#pyvariant.VariantD)
+## pyvariant.list_2_variant_vector(values: list) → [VariantD](#pyvariant.VariantD)
 
 Convert a python list of values into VariantD vector type.
 
@@ -321,8 +364,9 @@ print(list_2_variant_vector(values))
 # (3.0,0)
 ```
 
+<a id="pyvariant.list_2_variant_xy_data"></a>
 
-### pyvariant.list_2_variant_xy_data(y_axis: list, x_axis: list) → [VariantD](#pyvariant.VariantD)
+## pyvariant.list_2_variant_xy_data(y_axis: list, x_axis: list) → [VariantD](#pyvariant.VariantD)
 
 Convert a python list of x-values and a list of y-values into VariantD xy-data type.
 
@@ -337,8 +381,9 @@ print(list_2_variant_xy_data(y_axis, x_axis))
 # (3,0) - (0.3,0)
 ```
 
+<a id="pyvariant.list_list_2_variant_matrix"></a>
 
-### pyvariant.list_list_2_variant_matrix(values: list) → [VariantD](#pyvariant.VariantD)
+## pyvariant.list_list_2_variant_matrix(values: list) → [VariantD](#pyvariant.VariantD)
 
 Convert a python list of lists of values into VariantD matrix type.
 
@@ -352,8 +397,9 @@ print(list_list_2_variant_matrix(values))
 # (5,0) (6,0)
 ```
 
+<a id="pyvariant.list_list_2_variant_signal"></a>
 
-### pyvariant.list_list_2_variant_signal(y_axes: list, x_axis: list) → [VariantD](#pyvariant.VariantD)
+## pyvariant.list_list_2_variant_signal(y_axes: list, x_axis: list) → [VariantD](#pyvariant.VariantD)
 
 Convert a python list of x-values and a list of lists of y-values into VariantD signal type.
 
@@ -368,8 +414,9 @@ print(list_list_2_variant_signal(y_axes, x_axis))
 # (3,0) - (0.3,0) (1.1,0)
 ```
 
+<a id="pyvariant.size1"></a>
 
-### pyvariant.size1(item: [VariantD](#pyvariant.VariantD)) → int
+## pyvariant.size1(item: [VariantD](#pyvariant.VariantD)) → int
 
 Return the length of dimension 1.
 If ‘item’ is a scalar, size1 is equal to ‘1’.
@@ -385,8 +432,9 @@ print('size1 of variant is {}.'.format(variant.size1()))
 # size1 of variant is 1.
 ```
 
+<a id="pyvariant.size2"></a>
 
-### pyvariant.size2(item: [VariantD](#pyvariant.VariantD)) → int
+## pyvariant.size2(item: [VariantD](#pyvariant.VariantD)) → int
 
 Return the length of dimension 2.
 If ‘item’ is a scalar or vector, size2 is equal to ‘1’.
