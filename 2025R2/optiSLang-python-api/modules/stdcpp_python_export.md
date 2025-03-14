@@ -1,6 +1,3 @@
-<a id="module-stdcpp_python_export"></a>
-
-
 # stdcpp_python_export
 
 <a id="stdcpp_python_export.BasePathMode"></a>

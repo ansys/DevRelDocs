@@ -1,6 +1,3 @@
-<a id="module-PyOptimizerBase"></a>
-
-
 # PyOptimizerBase
 
 <a id="PyOptimizerBase.OptimizerBase"></a>

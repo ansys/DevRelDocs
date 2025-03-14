@@ -1,6 +1,3 @@
-<a id="module-py_file_access"></a>
-
-
 # py_file_access
 
 <a id="py_file_access.FileProvider"></a>

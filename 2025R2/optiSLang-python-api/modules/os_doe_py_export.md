@@ -1,6 +1,3 @@
-<a id="module-os_doe_py_export"></a>
-
-
 # os_doe_py_export
 
 <a id="os_doe_py_export.DOE"></a>

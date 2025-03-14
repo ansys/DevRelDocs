@@ -1,6 +1,3 @@
-<a id="module-reliability"></a>
-
-
 # reliability
 
 <a id="reliability.LineSearchMethod"></a>

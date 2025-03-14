@@ -1,6 +1,3 @@
-<a id="module-id"></a>
-
-
 # id
 
 <a id="id.HID"></a>

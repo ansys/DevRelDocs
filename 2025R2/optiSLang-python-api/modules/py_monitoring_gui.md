@@ -1,6 +1,3 @@
-<a id="module-py_monitoring_gui"></a>
-
-
 # py_monitoring_gui
 
 <a id="py_monitoring_gui.ApproximatingCOPMatrixIndicesType"></a>

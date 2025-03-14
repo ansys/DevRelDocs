@@ -1,6 +1,3 @@
-<a id="module-custom_types"></a>
-
-
 # custom_types
 
 <a id="custom_types.HidSpecificInputData"></a>

@@ -1,6 +1,3 @@
-<a id="module-PyOptimizerGradientBase"></a>
-
-
 # PyOptimizerGradientBase
 
 <a id="PyOptimizerGradientBase.SettingsBase"></a>

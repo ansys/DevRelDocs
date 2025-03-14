@@ -1,6 +1,3 @@
-<a id="module-dynardo_py_algorithms"></a>
-
-
 # dynardo_py_algorithms
 
 <a id="dynardo_py_algorithms.DOETYPES"></a>

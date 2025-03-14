@@ -1,4 +1,3 @@
-
 # py_omdb
 
 Load and inspect optiSLang OMDB files with Python:

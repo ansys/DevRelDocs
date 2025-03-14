@@ -1,6 +1,3 @@
-<a id="module-py_reliability_montecarlo"></a>
-
-
 # py_reliability_montecarlo
 
 <a id="py_reliability_montecarlo.ReliabilityMonteCarlo"></a>

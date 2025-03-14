@@ -1,6 +1,3 @@
-<a id="module-py_transform"></a>
-
-
 # py_transform
 
 <a id="py_transform.DesignToVector"></a>

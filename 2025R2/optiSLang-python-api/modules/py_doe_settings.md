@@ -1,6 +1,3 @@
-<a id="module-py_doe_settings"></a>
-
-
 # py_doe_settings
 
 <a id="py_doe_settings.DOESettings"></a>

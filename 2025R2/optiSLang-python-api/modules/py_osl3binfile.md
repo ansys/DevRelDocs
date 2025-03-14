@@ -1,6 +1,3 @@
-<a id="module-py_osl3binfile"></a>
-
-
 # py_osl3binfile
 
 <a id="py_osl3binfile.CalcRanParameters"></a>

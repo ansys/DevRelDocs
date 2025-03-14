@@ -1,6 +1,3 @@
-<a id="module-py_random_variables"></a>
-
-
 # py_random_variables
 
 <a id="py_random_variables.FitRV"></a>
