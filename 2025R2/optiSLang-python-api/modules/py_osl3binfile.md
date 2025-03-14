@@ -1,53 +1,74 @@
+<a id="module-py_osl3binfile"></a>
 
 
-### py_osl3binfile.CalcRanParameters(arg1: [RandomVariableType](dynardo_py_algorithms.md#dynardo_py_algorithms.RandomVariableType), arg2: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec), arg3: float, arg4: float, arg5: float, arg6: float)
+# py_osl3binfile
 
+<a id="py_osl3binfile.CalcRanParameters"></a>
 
-### *class* py_osl3binfile.OSL3Binfile
+## py_osl3binfile.CalcRanParameters(arg1: [RandomVariableType](dynardo_py_algorithms.md#dynardo_py_algorithms.RandomVariableType), arg2: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec), arg3: float, arg4: float, arg5: float, arg6: float)
 
+<a id="py_osl3binfile.OSL3Binfile"></a>
 
-#### AddRecalculatedBestDesignData(arg2: [Path](stdcpp_python_export.md#stdcpp_python_export.Path), arg3: [PyParameterManager](py_os_parameter.md#py_os_parameter.PyParameterManager), arg4: [PyOSDesignContainer](py_os_design.md#py_os_design.PyOSDesignContainer), arg5: [uintVec](stdcpp_python_export.md#stdcpp_python_export.uintVec), arg6: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec), arg7: [Path](stdcpp_python_export.md#stdcpp_python_export.Path))
+## *class* py_osl3binfile.OSL3Binfile
 
+<a id="py_osl3binfile.OSL3Binfile.AddRecalculatedBestDesignData"></a>
 
-#### ConvertBinFile(, arg2: Path [, arg3: bool]]) → object
+### AddRecalculatedBestDesignData(arg2: [Path](stdcpp_python_export.md#stdcpp_python_export.Path), arg3: [PyParameterManager](py_os_parameter.md#py_os_parameter.PyParameterManager), arg4: [PyOSDesignContainer](py_os_design.md#py_os_design.PyOSDesignContainer), arg5: [uintVec](stdcpp_python_export.md#stdcpp_python_export.uintVec), arg6: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec), arg7: [Path](stdcpp_python_export.md#stdcpp_python_export.Path))
 
+<a id="py_osl3binfile.OSL3Binfile.ConvertBinFile"></a>
 
-#### WriteArsmBinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: object, arg5: Path)
+### ConvertBinFile(, arg2: Path [, arg3: bool]]) → object
 
+<a id="py_osl3binfile.OSL3Binfile.WriteArsmBinfile"></a>
 
-#### WriteDOEBinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: Path)
+### WriteArsmBinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: object, arg5: Path)
 
+<a id="py_osl3binfile.OSL3Binfile.WriteDOEBinfile"></a>
 
-#### WriteNLPQLBinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: Path)
+### WriteDOEBinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: Path)
 
+<a id="py_osl3binfile.OSL3Binfile.WriteNLPQLBinfile"></a>
 
-#### WriteNOABinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: object, arg5: Path)
+### WriteNLPQLBinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: Path)
 
+<a id="py_osl3binfile.OSL3Binfile.WriteNOABinfile"></a>
 
-#### WriteRobustnessBinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: PyOSDesignPoint, arg5: Path)
+### WriteNOABinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: object, arg5: Path)
 
+<a id="py_osl3binfile.OSL3Binfile.WriteRobustnessBinfile"></a>
 
-#### \_\_init_\_()
+### WriteRobustnessBinfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: PyOSDesignPoint, arg5: Path)
 
-#### \_\_init_\_(arg2: [Path](stdcpp_python_export.md#stdcpp_python_export.Path))
+<a id="py_osl3binfile.OSL3Binfile.__init__"></a>
 
+### \_\_init_\_()
 
-#### convert_binfile(, arg2: Path [, arg3: bool]]) → object
+### \_\_init_\_(arg2: [Path](stdcpp_python_export.md#stdcpp_python_export.Path))
 
+<a id="py_osl3binfile.OSL3Binfile.convert_binfile"></a>
 
-#### write_arsm_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: object, arg5: Path)
+### convert_binfile(, arg2: Path [, arg3: bool]]) → object
 
+<a id="py_osl3binfile.OSL3Binfile.write_arsm_binfile"></a>
 
-#### write_doe_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: Path)
+### write_arsm_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: object, arg5: Path)
 
+<a id="py_osl3binfile.OSL3Binfile.write_doe_binfile"></a>
 
-#### write_nlpqlp_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: Path)
+### write_doe_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: Path)
 
+<a id="py_osl3binfile.OSL3Binfile.write_nlpqlp_binfile"></a>
 
-#### write_noa_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: object, arg5: Path)
+### write_nlpqlp_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: Path)
 
+<a id="py_osl3binfile.OSL3Binfile.write_noa_binfile"></a>
 
-#### write_robustness_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: PyOSDesignPoint, arg5: Path)
+### write_noa_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: object, arg5: Path)
 
+<a id="py_osl3binfile.OSL3Binfile.write_robustness_binfile"></a>
 
-### py_osl3binfile.calc_ran_parameters(arg1: [RandomVariableType](dynardo_py_algorithms.md#dynardo_py_algorithms.RandomVariableType), arg2: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec), arg3: float, arg4: float, arg5: float, arg6: float)
+### write_robustness_binfile(arg2: PyParameterManager, arg3: PyOSDesignContainer, arg4: PyOSDesignPoint, arg5: Path)
+
+<a id="py_osl3binfile.calc_ran_parameters"></a>
+
+## py_osl3binfile.calc_ran_parameters(arg1: [RandomVariableType](dynardo_py_algorithms.md#dynardo_py_algorithms.RandomVariableType), arg2: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec), arg3: float, arg4: float, arg5: float, arg6: float)
