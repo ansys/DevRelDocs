@@ -1,71 +1,96 @@
+<a id="module-py_random_variables"></a>
 
 
-### *class* py_random_variables.FitRV
+# py_random_variables
 
+<a id="py_random_variables.FitRV"></a>
 
-#### \_\_init_\_()
+## *class* py_random_variables.FitRV
 
-#### \_\_init_\_(arg2: [matrix_type](dynardo_py_algorithms.md#dynardo_py_algorithms.matrix_type))
+<a id="py_random_variables.FitRV.__init__"></a>
 
-#### \_\_init_\_(arg2: [vector_type](dynardo_py_algorithms.md#dynardo_py_algorithms.vector_type))
+### \_\_init_\_()
 
-#### \_\_init_\_(arg2: [vector_type](dynardo_py_algorithms.md#dynardo_py_algorithms.vector_type), arg3: str)
+### \_\_init_\_(arg2: [matrix_type](dynardo_py_algorithms.md#dynardo_py_algorithms.matrix_type))
 
+### \_\_init_\_(arg2: [vector_type](dynardo_py_algorithms.md#dynardo_py_algorithms.vector_type))
 
-#### get_cdf(arg2: float) → float
+### \_\_init_\_(arg2: [vector_type](dynardo_py_algorithms.md#dynardo_py_algorithms.vector_type), arg3: str)
 
+<a id="py_random_variables.FitRV.get_cdf"></a>
 
-#### get_cdf_inv(arg2: float) → float
+### get_cdf(arg2: float) → float
 
+<a id="py_random_variables.FitRV.get_cdf_inv"></a>
 
-#### get_mean() → float
+### get_cdf_inv(arg2: float) → float
 
+<a id="py_random_variables.FitRV.get_mean"></a>
 
-#### get_moments(arg2: int) → float
+### get_mean() → float
 
+<a id="py_random_variables.FitRV.get_moments"></a>
 
-#### get_name() → str
+### get_moments(arg2: int) → float
 
+<a id="py_random_variables.FitRV.get_name"></a>
 
-#### get_num_moments() → int
+### get_name() → str
 
+<a id="py_random_variables.FitRV.get_num_moments"></a>
 
-#### get_num_parameters() → int
+### get_num_moments() → int
 
+<a id="py_random_variables.FitRV.get_num_parameters"></a>
 
-#### get_parameter(arg2: int) → float
+### get_num_parameters() → int
 
+<a id="py_random_variables.FitRV.get_parameter"></a>
 
-#### get_pdf(arg2: float) → float
+### get_parameter(arg2: int) → float
 
+<a id="py_random_variables.FitRV.get_pdf"></a>
 
-#### get_stddev() → float
+### get_pdf(arg2: float) → float
 
+<a id="py_random_variables.FitRV.get_stddev"></a>
 
-#### is_valid() → bool
+### get_stddev() → float
 
+<a id="py_random_variables.FitRV.is_valid"></a>
 
-#### set_moments(arg2: [vector_type](dynardo_py_algorithms.md#dynardo_py_algorithms.vector_type))
+### is_valid() → bool
 
+<a id="py_random_variables.FitRV.set_moments"></a>
 
-#### set_parameters(arg2: [vector_type](dynardo_py_algorithms.md#dynardo_py_algorithms.vector_type))
+### set_moments(arg2: [vector_type](dynardo_py_algorithms.md#dynardo_py_algorithms.vector_type))
 
+<a id="py_random_variables.FitRV.set_parameters"></a>
 
-### *class* py_random_variables.RVSet
+### set_parameters(arg2: [vector_type](dynardo_py_algorithms.md#dynardo_py_algorithms.vector_type))
 
+<a id="py_random_variables.RVSet"></a>
 
-#### \_\_init_\_(parameter: PyParameterManager manager, design: PyOSDesignPoint point to extract from) → object
+## *class* py_random_variables.RVSet
+
+<a id="py_random_variables.RVSet.__init__"></a>
+
+### \_\_init_\_(parameter: PyParameterManager manager, design: PyOSDesignPoint point to extract from) → object
 
 Extract mixed and stochastic parameters from a design point and convert them into an RVSet.
 
+<a id="py_random_variables.RVSet_Independent"></a>
 
-### *class* py_random_variables.RVSet_Independent
+## *class* py_random_variables.RVSet_Independent
 
+<a id="py_random_variables.RVSet_Independent.__init__"></a>
 
-#### \_\_init_\_()
+### \_\_init_\_()
 
+<a id="py_random_variables.RVSet_Nataf"></a>
 
-### *class* py_random_variables.RVSet_Nataf
+## *class* py_random_variables.RVSet_Nataf
 
+<a id="py_random_variables.RVSet_Nataf.__init__"></a>
 
-#### \_\_init_\_()
+### \_\_init_\_()
