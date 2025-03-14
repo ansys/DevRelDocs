@@ -1,4 +1,3 @@
-
 # py_os_criterion
 
 This module provides classes to handle design criteria.

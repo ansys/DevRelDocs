@@ -1,6 +1,3 @@
-<a id="module-py_monitoring_kernel"></a>
-
-
 # py_monitoring_kernel
 
 <a id="py_monitoring_kernel.Color"></a>

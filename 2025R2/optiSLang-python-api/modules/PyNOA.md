@@ -1,6 +1,3 @@
-<a id="module-PyNOA"></a>
-
-
 # PyNOA
 
 <a id="PyNOA.AdaptionMethods"></a>

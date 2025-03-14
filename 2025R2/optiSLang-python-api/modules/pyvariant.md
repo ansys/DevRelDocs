@@ -1,6 +1,3 @@
-<a id="module-pyvariant"></a>
-
-
 # pyvariant
 
 <a id="pyvariant.InterpolationType"></a>

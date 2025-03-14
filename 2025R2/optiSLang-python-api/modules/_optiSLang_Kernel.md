@@ -1,6 +1,3 @@
-<a id="module-_optiSLang_Kernel"></a>
-
-
 # \_optiSLang_Kernel
 
 <a id="optiSLang_Kernel.Actor"></a>

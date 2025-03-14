@@ -1,6 +1,3 @@
-<a id="module-PyNOA2"></a>
-
-
 # PyNOA2
 
 <a id="PyNOA2.CMA"></a>

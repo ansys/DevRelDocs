@@ -1,6 +1,3 @@
-<a id="module-PyNLPQLP"></a>
-
-
 # PyNLPQLP
 
 <a id="PyNLPQLP.DiffType"></a>

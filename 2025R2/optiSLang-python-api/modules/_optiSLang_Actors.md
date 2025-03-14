@@ -1,6 +1,3 @@
-<a id="module-_optiSLang_Actors"></a>
-
-
 # \_optiSLang_Actors
 
 <a id="optiSLang_Actors.AMOPActor"></a>

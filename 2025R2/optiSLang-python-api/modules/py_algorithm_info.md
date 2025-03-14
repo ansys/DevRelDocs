@@ -1,6 +1,3 @@
-<a id="module-py_algorithm_info"></a>
-
-
 # py_algorithm_info
 
 <a id="py_algorithm_info.AlgorithmInfo"></a>

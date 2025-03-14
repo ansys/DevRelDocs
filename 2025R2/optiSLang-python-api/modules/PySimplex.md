@@ -1,6 +1,3 @@
-<a id="module-PySimplex"></a>
-
-
 # PySimplex
 
 <a id="PySimplex.OptimizerSettingsSimplex"></a>

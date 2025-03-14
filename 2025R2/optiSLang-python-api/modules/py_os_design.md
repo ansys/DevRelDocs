@@ -1,4 +1,3 @@
-
 # py_os_design
 
 Functionality to handle individual designs and DOEs. These can either emerge from Actor calculation results or be manually constructed.:

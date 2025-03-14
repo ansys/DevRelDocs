@@ -1,6 +1,3 @@
-<a id="module-py_os_parameter"></a>
-
-
 # py_os_parameter
 
 <a id="py_os_parameter.DProp"></a>

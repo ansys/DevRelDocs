@@ -1,4 +1,3 @@
-
 # py_project
 
 This module provides access to project settings.

@@ -1,6 +1,3 @@
-<a id="module-amop"></a>
-
-
 # amop
 
 <a id="amop.AMop"></a>

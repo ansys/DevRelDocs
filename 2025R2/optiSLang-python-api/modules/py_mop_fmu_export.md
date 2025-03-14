@@ -1,6 +1,3 @@
-<a id="module-py_mop_fmu_export"></a>
-
-
 # py_mop_fmu_export
 
 <a id="py_mop_fmu_export.activation_option"></a>

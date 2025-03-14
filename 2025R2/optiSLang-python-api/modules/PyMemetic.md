@@ -1,6 +1,3 @@
-<a id="module-PyMemetic"></a>
-
-
 # PyMemetic
 
 <a id="PyMemetic.Memetic"></a>

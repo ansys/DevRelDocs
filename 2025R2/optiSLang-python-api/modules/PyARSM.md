@@ -1,6 +1,3 @@
-<a id="module-PyARSM"></a>
-
-
 # PyARSM
 
 <a id="PyARSM.Arsm"></a>
