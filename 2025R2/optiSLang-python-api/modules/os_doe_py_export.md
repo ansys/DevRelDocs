@@ -1,84 +1,114 @@
+<a id="module-os_doe_py_export"></a>
 
 
-### *class* os_doe_py_export.DOE
+# os_doe_py_export
 
+<a id="os_doe_py_export.DOE"></a>
 
-#### \_\_init_\_(arg2: int, arg3: int)
+## *class* os_doe_py_export.DOE
 
+<a id="os_doe_py_export.DOE.__init__"></a>
 
-#### append(arg2: [DOE](#os_doe_py_export.DOE))
+### \_\_init_\_(arg2: int, arg3: int)
 
+<a id="os_doe_py_export.DOE.append"></a>
 
-#### build(arg2: [DOETYPES](dynardo_py_algorithms.md#dynardo_py_algorithms.DOETYPES), arg3: int, arg4: bool)
+### append(arg2: [DOE](#os_doe_py_export.DOE))
 
+<a id="os_doe_py_export.DOE.build"></a>
 
-#### get_center() → [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec)
+### build(arg2: [DOETYPES](dynardo_py_algorithms.md#dynardo_py_algorithms.DOETYPES), arg3: int, arg4: bool)
 
+<a id="os_doe_py_export.DOE.get_center"></a>
 
-#### get_designs() → [doubleVecVec](stdcpp_python_export.md#stdcpp_python_export.doubleVecVec)
+### get_center() → [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec)
 
+<a id="os_doe_py_export.DOE.get_designs"></a>
 
-#### get_lower_bounds() → [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec)
+### get_designs() → [doubleVecVec](stdcpp_python_export.md#stdcpp_python_export.doubleVecVec)
 
+<a id="os_doe_py_export.DOE.get_lower_bounds"></a>
 
-#### get_matrix() → [matrix_type](dynardo_py_algorithms.md#dynardo_py_algorithms.matrix_type)
+### get_lower_bounds() → [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec)
 
+<a id="os_doe_py_export.DOE.get_matrix"></a>
 
-#### get_upper_bounds() → [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec)
+### get_matrix() → [matrix_type](dynardo_py_algorithms.md#dynardo_py_algorithms.matrix_type)
 
+<a id="os_doe_py_export.DOE.get_upper_bounds"></a>
 
-#### move(arg2: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec))
+### get_upper_bounds() → [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec)
 
+<a id="os_doe_py_export.DOE.move"></a>
 
-#### scale(arg2: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec))
+### move(arg2: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec))
 
+<a id="os_doe_py_export.DOE.scale"></a>
 
-#### sort()
+### scale(arg2: [doubleVec](stdcpp_python_export.md#stdcpp_python_export.doubleVec))
 
+<a id="os_doe_py_export.DOE.sort"></a>
 
-#### unique()
+### sort()
 
+<a id="os_doe_py_export.DOE.unique"></a>
 
-### *class* os_doe_py_export.OSDOE
+### unique()
 
+<a id="os_doe_py_export.OSDOE"></a>
 
-#### \_\_init_\_()
+## *class* os_doe_py_export.OSDOE
 
-#### \_\_init_\_(arg2: int)
+<a id="os_doe_py_export.OSDOE.__init__"></a>
 
+### \_\_init_\_()
 
-#### build_robustness(Parameters: PyParameterManager to be used, Reference: PyOSDesignPoint/Nominal design point, DOE: DOETYPES method, Number: int of discretization)
+### \_\_init_\_(arg2: int)
+
+<a id="os_doe_py_export.OSDOE.build_robustness"></a>
+
+### build_robustness(Parameters: PyParameterManager to be used, Reference: PyOSDesignPoint/Nominal design point, DOE: DOETYPES method, Number: int of discretization)
 
 Builds designs on unit hypercube at the design point given and transforms them to desired domain space.
 
+<a id="os_doe_py_export.OSDOE.build_sensitivity"></a>
 
-#### build_sensitivity(Parameters: PyParameterManager to be used, DOE: DOETYPES method, Number: int of discretization)
+### build_sensitivity(Parameters: PyParameterManager to be used, DOE: DOETYPES method, Number: int of discretization)
 
 Builds designs on unit hypercube and transforms them to the desired domain space.
 
+<a id="os_doe_py_export.OSDOE.get_design"></a>
 
-#### get_design(arg2: int) → [PyOSDesignPoint](py_os_design.md#py_os_design.PyOSDesignPoint)
+### get_design(arg2: int) → [PyOSDesignPoint](py_os_design.md#py_os_design.PyOSDesignPoint)
 
+<a id="os_doe_py_export.OSDOE.get_designs"></a>
 
-#### get_designs() → [PyOSDesignPointContainer](py_os_design.md#py_os_design.PyOSDesignPointContainer)
+### get_designs() → [PyOSDesignPointContainer](py_os_design.md#py_os_design.PyOSDesignPointContainer)
 
+<a id="os_doe_py_export.OSDOE.get_lower_bounds"></a>
 
-#### get_lower_bounds() → [PyOSDesignPoint](py_os_design.md#py_os_design.PyOSDesignPoint)
+### get_lower_bounds() → [PyOSDesignPoint](py_os_design.md#py_os_design.PyOSDesignPoint)
 
+<a id="os_doe_py_export.OSDOE.get_num_designs"></a>
 
-#### get_num_designs() → int
+### get_num_designs() → int
 
+<a id="os_doe_py_export.OSDOE.get_upper_bounds"></a>
 
-#### get_upper_bounds() → [PyOSDesignPoint](py_os_design.md#py_os_design.PyOSDesignPoint)
+### get_upper_bounds() → [PyOSDesignPoint](py_os_design.md#py_os_design.PyOSDesignPoint)
 
+<a id="os_doe_py_export.OSDOE.set_seed"></a>
 
-#### set_seed(arg2: int) → int
+### set_seed(arg2: int) → int
 
+<a id="os_doe_py_export.OSDOE.size"></a>
 
-#### size() → int
+### size() → int
 
+<a id="os_doe_py_export.OSDOE.sort"></a>
 
-#### sort() → [PyOSDesignPointContainer](py_os_design.md#py_os_design.PyOSDesignPointContainer)
+### sort() → [PyOSDesignPointContainer](py_os_design.md#py_os_design.PyOSDesignPointContainer)
 
+<a id="os_doe_py_export.OSDOE.unique"></a>
 
-#### unique() → [PyOSDesignPointContainer](py_os_design.md#py_os_design.PyOSDesignPointContainer)
+### unique() → [PyOSDesignPointContainer](py_os_design.md#py_os_design.PyOSDesignPointContainer)
