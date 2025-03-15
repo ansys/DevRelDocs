@@ -1,13 +1,9 @@
 {
-    "build": {
-        "globalMetadata": {
-            "title": "optiSLang Python API 2025 R2 dev (701)",
-            "summary": "optiSLang Python API",
-            "version": "2025 R2 dev (701)",
-            "product": "optiSLang",
-            "programming language": "Python",
-            "product collection": "Connect",
-            "physics": "Connect"
-        }
+  "build": {
+    "globalMetadata": {
+      "title": "optiSLang Python API",
+      "summary": "optiSLang Python API",
+      "version": "2025 R2 dev (701)"
     }
+  }
 }

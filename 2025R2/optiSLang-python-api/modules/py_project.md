@@ -70,9 +70,7 @@ This class cannot be instantiated from Python
 
 Assign a placeholder in this project.
 
-<a id="parameters"></a>
-
-# Parameters
+Parameters
 
 actor_uuid
 : Unique id to the actor
@@ -83,9 +81,7 @@ property_id
 placeholder_id
 : Placeholder ID.
 
-<a id="raises"></a>
-
-# Raises
+Raises
 
 RuntimeError
 : Raised when placeholder does not exist, or
@@ -98,9 +94,7 @@ RuntimeError
 
 Create placeholder from actor property with new id if id already exist
 
-<a id="id1"></a>
-
-# Parameters
+Parameters
 
 actor_uuid
 : Unique id to the actor.
@@ -111,16 +105,12 @@ property_id
 create_as_expression
 : Decide if the placeholder is created as value or as macro expression. False by default.
 
-<a id="returns"></a>
-
-# Returns
+Returns
 
 str
 : Actual ID of the generated placeholder.
 
-<a id="id2"></a>
-
-# Raises
+Raises
 
 RuntimeError
 : Raised when property id is not accessible at actor.
@@ -149,16 +139,12 @@ Get the maximum number of threads used by this project.
 
 Get placeholder by id from this project as dict.
 
-<a id="id3"></a>
-
-# Parameters
+Parameters
 
 placeholder_id
 : Placeholder ID.
 
-<a id="id4"></a>
-
-# Returns
+Returns
 
 dict
 name : str
@@ -183,9 +169,7 @@ type
 expression
 : Placeholder macro expression.
 
-<a id="id5"></a>
-
-# Raises
+Raises
 
 RuntimeError
 : Raised when the placeholder does not exist.
@@ -196,9 +180,7 @@ RuntimeError
 
 Get placeholder ids from this project.
 
-<a id="id6"></a>
-
-# Returns
+Returns
 
 list
 : List of placeholder ids.
@@ -263,9 +245,7 @@ The reference files directory path.
 
 Remove a placeholder from this project.
 
-<a id="id7"></a>
-
-# Parameters
+Parameters
 
 placeholder_id
 : Placeholder ID.
@@ -276,9 +256,7 @@ placeholder_id
 
 Rename a placeholder in this project.
 
-<a id="id8"></a>
-
-# Parameters
+Parameters
 
 placeholder_id
 : Placeholder ID.
@@ -286,9 +264,7 @@ placeholder_id
 new_placeholder_id
 : New placeholder ID.
 
-<a id="id9"></a>
-
-# Raises
+Raises
 
 RuntimeError
 : Raised when placeholder does not exist.
@@ -311,12 +287,10 @@ Get the maximum number of threads used by this project.
 
 Create a new placeholder or overwrite an existing one.
 
-<a id="id10"></a>
+Parameters:
+name : str, optional
 
-# Parameters
-
-name
-: Placeholder ID. In case of creating a new placeholder, the ID may be adapted to maintain ID uniqueness. None by default.
+> Placeholder ID. In case of creating a new placeholder, the ID may be adapted to maintain ID uniqueness. None by default.
 
 user_level
 : User level. py_placeholder.PLACEHOLDER_USERLEVEL_FLOW_ENGINEER by default.
@@ -339,16 +313,12 @@ expression
 overwrite
 : In case overwrite is True and placeholder is found by name, specified attributes will be overwritten. A new placeholder is created otherwise. False by default.
 
-<a id="id11"></a>
-
-# Returns
+Returns
 
 str
 : Actual ID of the generated/modified placeholder.
 
-<a id="id12"></a>
-
-# Raises
+Raises
 
 RuntimeError
 : Raised when the placeholder cannot be created/modified.
@@ -365,9 +335,7 @@ Project settings.
 
 Remove a placeholder assignment in this project.
 
-<a id="id13"></a>
-
-# Parameters
+Parameters
 
 actor_uuid
 : Unique id to the actor
