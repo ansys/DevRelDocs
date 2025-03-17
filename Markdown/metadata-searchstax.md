@@ -22,7 +22,7 @@ Version can be as follows:
 |-------------------------|-----------------------------|-----------------------|------| ------|------|
 | `title:` read. Example: "System Coupling Participant Library" | Not visible | **Product:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Documentation title**. | **Documentation title** | No
 | `version:` read. Example: "2025 R1" | Not visible | Not visible | Manage as metadata | **Version** | Yes
-| `physics:` read. Example: "Multiphysics" | Not visible | **Physics:** set. Example: "Multiphysics"| Manage as metadata and rename to **Product families** |**Product families** | Yes
+| `physics:` read. Example: "Multiphysics" | Not visible | **Physics:** set. Example: "Multiphysics"| Manage as metadata and rename to **Product collection** |**Product collection** | Yes
 
 ### To be planned
 
@@ -51,7 +51,7 @@ Version can be as follows:
 |-------------|-----------------------------|-----------------------|--------|--------|--------|
 | No file | **Product Name:** to be set. Example: "System Coupling Participant Library" | **Product:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Documentation title**.  | **Documentation title**| No
 | No file | **Version:** to be set. Example: "2025 R1" | **Version:** set. Example: "2025 R1" | Manage as metadata| **Version** |Yes
-| No file | **Physics:** to be set. Example: "Multiphysics" | **Physics:** set. Example: "Multiphysics" | Manage as metadata and rename to **Product families** | **Product families** | Yes
+| No file | **Physics:** to be set. Example: "Multiphysics" | **Physics:** set. Example: "Multiphysics" | Manage as metadata and rename to **Product collection** | **Product collection** | Yes
 | No file | **Access Control:** to be set. Example: "Public" | **Published:** flagged or not |No change | | No
 
 
@@ -85,7 +85,7 @@ Remove **API category** that we are not using or at least do not provide to Sear
 |------------------------|-----------------------------|-----------------------|--------|----------|----------|
 | `title:` | Not visible | Not visible | Manage as metadata | | No
 | `version:` | Not visible | Not visible | Manage as metadata | **Version** | Yes
-| Not defined | **Physics:** to be set. Example: "Multiphysics"  | **Physics:** set. Example: "Multiphysics"| Manage as metadata and rename to **Product families** | **Product families**| Yes
+| Not defined | **Physics:** to be set. Example: "Multiphysics"  | **Physics:** set. Example: "Multiphysics"| Manage as metadata and rename to **Product collection** | **Product collection**| Yes
 | Not defined  | **Access Control:** to be set. Example: "Public" | **Published:** flagged or not | No change | No
 | Not defined  | **Status:** to be set. Example: "Published" | **Published:** flagged or not | No change | No
 
