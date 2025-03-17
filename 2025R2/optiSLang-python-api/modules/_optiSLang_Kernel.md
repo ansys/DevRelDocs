@@ -553,9 +553,7 @@ add_actor(param_system)
 
 [0] Connect slots.
 
-<a id="parameters"></a>
-
-# Parameters
+Parameters
 
 from_actor
 : The sending actor.
@@ -572,18 +570,14 @@ to_slot
 skip_rename_slot
 : Whether to skip automatic slot renaming for untyped slots. False by default.
 
-<a id="returns"></a>
-
-# Returns
+Returns
 
 bool
 : True if connection succeeded c.
 
 [1] Connect slots.
 
-<a id="id1"></a>
-
-# Parameters
+Parameters
 
 from_actor
 : The sending actor.
@@ -600,18 +594,14 @@ to_slot
 skip_rename_slot
 : Whether to skip automatic slot renaming for untyped slots. False by default.
 
-<a id="id2"></a>
-
-# Returns
+Returns
 
 bool
 : True if connection succeeded c.
 
 [2] Connect slots.
 
-<a id="id3"></a>
-
-# Parameters
+Parameters
 
 from_actor
 : The sending actor.
@@ -628,18 +618,14 @@ to_slot
 skip_rename_slot
 : Whether to skip automatic slot renaming for untyped slots. False by default.
 
-<a id="id4"></a>
-
-# Returns
+Returns
 
 bool
 : True if connection succeeded c.
 
 [3] Connect slots.
 
-<a id="id5"></a>
-
-# Parameters
+Parameters
 
 from_actor
 : The sending actor.
@@ -656,9 +642,7 @@ to_slot
 skip_rename_slot
 : Whether to skip automatic slot renaming for untyped slots. False by default.
 
-<a id="id6"></a>
-
-# Returns
+Returns
 
 bool
 : True if connection succeeded c.
