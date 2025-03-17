@@ -1,0 +1,26 @@
+- name: Ansys Mechanical and MAPDL
+  href: structure-prod.md#Ansys-Mechanical-and-MAPDL
+  items: 
+  - name: Ansys Mechanical and MAPDL training material
+    href: structure-prod.md#Ansys-Mechanical-and-MAPDL-training-material
+  - name: Non-Ansys Mechanical and MAPDL Training Material
+    href: structure-prod.md#Non-Ansys-Mechanical-and-MAPDL-training-material
+- name: LS-DYNA
+  href: structure-prod.md#LS-DYNA
+- name: Sherlock
+  href: structure-prod.md#Sherlock
+  items:
+  - name: Ansys Sherlock training material
+    href: structure-prod.md#Ansys-Sherlock-training-material
+- name: Forming
+  href: structure-prod.md#Forming
+- name: Motion
+  href: structure-prod.md#Motion
+- name: PolyUMod
+  href: structure-prod.md#PolyUMod
+- name: MCalibration
+  href: structure-prod.md#MCalibration
+- name: Autodyn
+  href: structure-prod.md#Autodyn
+- name: nCode DesignLife
+  href: structure-prod.md#nCodeDesignLife
