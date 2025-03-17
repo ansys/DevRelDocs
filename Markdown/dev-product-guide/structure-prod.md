@@ -1,4 +1,6 @@
-# Ansys Developer guide to structures products
+# Introduction
+
+This guide provides a comprehensive list of all Ansys products within the Structure product collection.
 
 ## Ansys Mechanical and MAPDL
 

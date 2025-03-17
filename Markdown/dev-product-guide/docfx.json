@@ -1,0 +1,10 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "Ansys Developer guide to structures products",
+            "summary": "",
+            "version": "2025 R2",
+            "product collection": "Structures"
+        }
+    }
+}
