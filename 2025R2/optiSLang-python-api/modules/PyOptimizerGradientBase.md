@@ -6,8 +6,8 @@
 
 <a id="PyOptimizerGradientBase.SettingsBase.SetMaxNumFunctionCalls"></a>
 
-### SetMaxNumFunctionCalls(arg2: int)
+#### SetMaxNumFunctionCalls(arg2: int)
 
 <a id="PyOptimizerGradientBase.SettingsBase.__init__"></a>
 
-### \_\_init_\_()
+#### \_\_init_\_()

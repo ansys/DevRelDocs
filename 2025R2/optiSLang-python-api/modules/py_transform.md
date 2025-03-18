@@ -20,19 +20,19 @@
 
 <a id="py_transform.TransformationFlags.AllProps"></a>
 
-### AllProps *= py_transform.TransformationFlags.AllProps*
+#### AllProps *= py_transform.TransformationFlags.AllProps*
 
 <a id="py_transform.TransformationFlags.DetProps"></a>
 
-### DetProps *= py_transform.TransformationFlags.DetProps*
+#### DetProps *= py_transform.TransformationFlags.DetProps*
 
 <a id="py_transform.TransformationFlags.NoTransformation"></a>
 
-### NoTransformation *= py_transform.TransformationFlags.NoTransformation*
+#### NoTransformation *= py_transform.TransformationFlags.NoTransformation*
 
 <a id="py_transform.TransformationFlags.RanProps"></a>
 
-### RanProps *= py_transform.TransformationFlags.RanProps*
+#### RanProps *= py_transform.TransformationFlags.RanProps*
 
 <a id="py_transform.VectorToDesign"></a>
 
