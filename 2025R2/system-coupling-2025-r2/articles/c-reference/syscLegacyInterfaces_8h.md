@@ -1,6 +1,6 @@
 # File syscLegacyInterfaces.h
 
-![][C++]
+![][C]
 
 **Location**: `syscLegacyInterfaces.h`
 
@@ -63,7 +63,7 @@ click 1 "syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h"
 
 **Definition**: `syscLegacyInterfaces.h` (line 30)
 
-```cpp
+```
 typedef SyscError(* SyscInputScalarVariableAccess) (const char *regionName, const char *variableName, SyscInputScalarData *varData)
 ```
 
@@ -82,7 +82,7 @@ typedef SyscError(* SyscInputScalarVariableAccess) (const char *regionName, cons
 
 **Definition**: `syscLegacyInterfaces.h` (line 40)
 
-```cpp
+```
 typedef SyscError(* SyscInputVectorVariableAccess) (const char *regionName, const char *variableName, SyscInputVectorData *varData)
 ```
 
@@ -101,7 +101,7 @@ typedef SyscError(* SyscInputVectorVariableAccess) (const char *regionName, cons
 
 **Definition**: `syscLegacyInterfaces.h` (line 51)
 
-```cpp
+```
 typedef SyscError(* SyscOutputScalarVariableAccess) (const char *regionName, const char *variableName, SyscOutputScalarData *varData)
 ```
 
@@ -120,7 +120,7 @@ typedef SyscError(* SyscOutputScalarVariableAccess) (const char *regionName, con
 
 **Definition**: `syscLegacyInterfaces.h` (line 62)
 
-```cpp
+```
 typedef SyscError(* SyscOutputVectorVariableAccess) (const char *regionName, const char *variableName, SyscOutputVectorData *varData)
 ```
 
@@ -139,7 +139,7 @@ typedef SyscError(* SyscOutputVectorVariableAccess) (const char *regionName, con
 
 ![][public]
 
-```cpp
+```
 SyscError syscCompleteCouplingSetup()
 ```
 
@@ -156,7 +156,7 @@ SyscError syscCompleteCouplingSetup()
 
 ![][public]
 
-```cpp
+```
 SyscError syscCompleteCouplingSetupTransient()
 ```
 
@@ -173,7 +173,7 @@ SyscError syscCompleteCouplingSetupTransient()
 
 ![][public]
 
-```cpp
+```
 SyscError syscRegisterInputScalarVariableAccess(SyscInputScalarVariableAccess dataAccess)
 ```
 
@@ -194,7 +194,7 @@ SyscError syscRegisterInputScalarVariableAccess(SyscInputScalarVariableAccess da
 
 ![][public]
 
-```cpp
+```
 SyscError syscRegisterInputVectorVariableAccess(SyscInputVectorVariableAccess dataAccess)
 ```
 
@@ -215,7 +215,7 @@ SyscError syscRegisterInputVectorVariableAccess(SyscInputVectorVariableAccess da
 
 ![][public]
 
-```cpp
+```
 SyscError syscRegisterOutputScalarVariableAccess(SyscOutputScalarVariableAccess dataAccess)
 ```
 
@@ -236,7 +236,7 @@ SyscError syscRegisterOutputScalarVariableAccess(SyscOutputScalarVariableAccess 
 
 ![][public]
 
-```cpp
+```
 SyscError syscRegisterOutputVectorVariableAccess(SyscOutputVectorVariableAccess dataAccess)
 ```
 
@@ -257,7 +257,7 @@ SyscError syscRegisterOutputVectorVariableAccess(SyscOutputVectorVariableAccess 
 
 ![][public]
 
-```cpp
+```
 SyscVolumeMesh syscGetVolumeMesh()
 ```
 
@@ -271,7 +271,7 @@ SyscVolumeMesh syscGetVolumeMesh()
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -353,4 +353,4 @@ SyscVolumeMesh syscGetVolumeMesh();
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

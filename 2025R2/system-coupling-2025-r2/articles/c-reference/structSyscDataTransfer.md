@@ -1,6 +1,6 @@
 # Structure SyscDataTransfer
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscDataTransfer.h` (line 29)
@@ -24,7 +24,7 @@ Data transfer specifies the source and target variables for mapping.
 
 **Definition**: `syscDataTransfer.h` (line 30)
 
-```cpp
+```
 SyscVariable SyscDataTransfer::sourceVariable
 ```
 
@@ -43,7 +43,7 @@ SyscVariable SyscDataTransfer::sourceVariable
 
 **Definition**: `syscDataTransfer.h` (line 31)
 
-```cpp
+```
 SyscVariable SyscDataTransfer::targetVariable
 ```
 
@@ -62,7 +62,7 @@ SyscVariable SyscDataTransfer::targetVariable
 
 **Definition**: `syscDataTransfer.h` (line 31)
 
-```cpp
+```
 enum SyscInterfaceSide SyscDataTransfer::targetSide
 ```
 
@@ -75,4 +75,4 @@ enum SyscInterfaceSide SyscDataTransfer::targetSide
 **Type**: enum [SyscInterfaceSide](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacf32f1d9c1566f28bee2b348b2dcd9f5)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

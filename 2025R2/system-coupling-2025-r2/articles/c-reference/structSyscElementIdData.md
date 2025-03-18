@@ -1,6 +1,6 @@
 # Structure SyscElementIdData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscMeshDefinition.h` (line 224)
@@ -22,7 +22,7 @@ Element ids struct.
 
 **Definition**: `syscMeshDefinition.h` (line 225)
 
-```cpp
+```
 SyscOutputIntegerData SyscElementIdData::elementIds
 ```
 
@@ -35,4 +35,4 @@ element ids.
 **Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

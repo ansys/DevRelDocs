@@ -1,6 +1,6 @@
 # Structure SyscSolutionControl
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscCommonTypes.h` (line 131)
@@ -23,7 +23,7 @@ Provide a structure containing solution control.
 
 **Definition**: `syscCommonTypes.h` (line 132)
 
-```cpp
+```
 int SyscSolutionControl::minimumIterations
 ```
 
@@ -42,7 +42,7 @@ Min iterations (per time step, if transient).
 
 **Definition**: `syscCommonTypes.h` (line 133)
 
-```cpp
+```
 int SyscSolutionControl::maximumIterations
 ```
 
@@ -55,4 +55,4 @@ Max iterations (per time step, if transient).
 **Type**: int
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

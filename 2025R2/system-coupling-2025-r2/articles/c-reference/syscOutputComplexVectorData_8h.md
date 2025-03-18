@@ -1,6 +1,6 @@
 # File syscOutputComplexVectorData.h
 
-![][C++]
+![][C]
 
 **Location**: `syscOutputComplexVectorData.h`
 
@@ -45,7 +45,7 @@ click 1 "syscOutputComplexVectorData_8h.md#syscOutputComplexVectorData_8h"
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputComplexVectorData()
 ```
 
@@ -62,7 +62,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputCompactComplexCompactVectorDataDouble(const double *const data, size_t dataSize)
 ```
 
@@ -87,7 +87,7 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputCompactComplexCompactVectorDataFloat(const float *const data, size_t dataSize)
 ```
 
@@ -112,7 +112,7 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputSplitComplexCompactVectorDataDouble(const double *const dataReal, const double *const dataImag, size_t dataSize)
 ```
 
@@ -139,7 +139,7 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputSplitComplexCompactVectorDataFloat(const float *const dataReal, const float *const dataImag, size_t dataSize)
 ```
 
@@ -166,7 +166,7 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputCompactComplexSplitVectorDataDouble(const double *const data1, const double *const data2, const double *const data3, size_t dataSize)
 ```
 
@@ -195,7 +195,7 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputCompactComplexSplitVectorDataFloat(const float *const data1, const float *const data2, const float *const data3, size_t dataSize)
 ```
 
@@ -224,7 +224,7 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputSplitComplexSplitVectorDataDouble(const double *const data1Real, const double *const data1Imag, const double *const data2Real, const double *const data2Imag, const double *const data3Real, const double *const data3Imag, size_t dataSize)
 ```
 
@@ -259,7 +259,7 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputSplitComplexSplitVectorDataFloat(const float *const data1Real, const float *const data1Imag, const float *const data2Real, const float *const data2Imag, const float *const data3Real, const float *const data3Imag, size_t dataSize)
 ```
 
@@ -294,7 +294,7 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputCompactComplexCompactVectorDataDoubleDim(const double *const data, size_t dataSize, enum SyscDimension dimension)
 ```
 
@@ -321,7 +321,7 @@ Create a complex output vector data access struct based on dimension.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexVectorData syscGetOutputCompactComplexCompactVectorDataFloatDim(const float *const data, size_t dataSize, enum SyscDimension dimension)
 ```
 
@@ -345,7 +345,7 @@ Create a complex output vector data access struct based on dimension.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -441,4 +441,4 @@ SyscOutputComplexVectorData syscGetOutputCompactComplexCompactVectorDataFloatDim
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

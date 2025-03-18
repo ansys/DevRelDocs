@@ -80,6 +80,8 @@ double SYSTEM_COUPLING_PARTICIPANT_DLL reduceMax(double value);
 
 std::uint64_t SYSTEM_COUPLING_PARTICIPANT_DLL reduceSum(std::uint64_t value);
 
+bool SYSTEM_COUPLING_PARTICIPANT_DLL reduceAnd(bool value);
+
 }  // namespace sysc
 ```
 

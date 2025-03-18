@@ -1,6 +1,6 @@
 # File syscPointCloud.h
 
-![][C++]
+![][C]
 
 **Location**: `syscPointCloud.h`
 
@@ -53,7 +53,7 @@ click 1 "syscPointCloud_8h.md#syscPointCloud_8h"
 
 ![][public]
 
-```cpp
+```
 SyscPointCloud syscGetPointCloudEmpty()
 ```
 
@@ -70,7 +70,7 @@ Returns a struct representing empty point cloud. All member will be assigned def
 
 ![][public]
 
-```cpp
+```
 SyscPointCloud syscGetPointCloud(SyscOutputIntegerData nodeIds, SyscOutputVectorData nodeCoords)
 ```
 
@@ -92,7 +92,7 @@ Create a point cloud access struct.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -137,4 +137,4 @@ SyscPointCloud syscGetPointCloud(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

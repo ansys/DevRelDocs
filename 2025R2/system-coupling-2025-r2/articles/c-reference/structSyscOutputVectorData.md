@@ -1,6 +1,6 @@
 # Structure SyscOutputVectorData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscOutputVectorData.h` (line 42)
@@ -25,7 +25,7 @@ To create and/or initialize [SyscOutputVectorData](structSyscOutputVectorData.md
 
 
 
-```cpp
+```
 SyscOutputVectorData isd = syscGetOutputVectorDataSplitDouble(
     x, y, z, size);
 ```
@@ -48,7 +48,7 @@ SyscOutputVectorData isd = syscGetOutputVectorDataSplitDouble(
 
 **Definition**: `syscOutputVectorData.h` (line 168)
 
-```cpp
+```
 enum SyscPrimitiveType SyscOutputVectorData::primitiveType
 ```
 
@@ -67,7 +67,7 @@ Primitive type.
 
 **Definition**: `syscOutputVectorData.h` (line 44)
 
-```cpp
+```
 const void* SyscOutputVectorData::data0
 ```
 
@@ -86,7 +86,7 @@ Pointer to the first array.
 
 **Definition**: `syscOutputVectorData.h` (line 45)
 
-```cpp
+```
 const void* SyscOutputVectorData::data1
 ```
 
@@ -105,7 +105,7 @@ Pointer to the second array.
 
 **Definition**: `syscOutputVectorData.h` (line 46)
 
-```cpp
+```
 const void* SyscOutputVectorData::data2
 ```
 
@@ -124,7 +124,7 @@ Pointer to the third array.
 
 **Definition**: `syscOutputVectorData.h` (line 47)
 
-```cpp
+```
 size_t SyscOutputVectorData::size
 ```
 
@@ -143,7 +143,7 @@ Array size.
 
 **Definition**: `syscOutputVectorData.h` (line 47)
 
-```cpp
+```
 enum SyscDimension SyscOutputVectorData::dimension
 ```
 
@@ -156,4 +156,4 @@ Array dimension.
 **Type**: enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

@@ -272,6 +272,12 @@ public:
     OpaqueDataAccess opaqueDataAccess,
     TargetDataCreationWithPointer* targetDataCreation);
 
+  void registerDoesTargetDataExist(TargetDataExistenceChecker* doesTargetDataExist);
+
+  void registerDoesTargetDataExist(
+    OpaqueDataAccess opaqueDataAccess,
+    TargetDataExistenceCheckerWithPointer* doesTargetDataExist);
+
   bool writeSetupFile(const SetupFileInfo& setupFileInfo) const;
 
   void writeResults(const ResultsInfo& resultsInfo) const;

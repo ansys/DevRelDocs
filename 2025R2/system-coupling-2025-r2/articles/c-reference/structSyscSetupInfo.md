@@ -1,6 +1,6 @@
 # Structure SyscSetupInfo
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscCommonTypes.h` (line 191)
@@ -13,7 +13,7 @@ To create and/or initialize the [SyscSetupInfo](structSyscSetupInfo.md#structSys
 
 
 
-```cpp
+```
 SyscSetupInfo setupInfo = syscGetSetupInfoA(SyscSteady); 
 ```
 
@@ -34,7 +34,7 @@ SyscSetupInfo setupInfo = syscGetSetupInfoA(SyscSteady);
 
 **Definition**: `syscCommonTypes.h` (line 139)
 
-```cpp
+```
 enum SyscAnalysisType SyscSetupInfo::analysisType
 ```
 
@@ -53,7 +53,7 @@ Analysis type.
 
 **Definition**: `syscCommonTypes.h` (line 193)
 
-```cpp
+```
 int SyscSetupInfo::restartsSupported
 ```
 
@@ -72,7 +72,7 @@ Flag indicating whether restarts are supported.
 
 **Definition**: `syscCommonTypes.h` (line 193)
 
-```cpp
+```
 enum SyscDimension SyscSetupInfo::dimension
 ```
 
@@ -91,7 +91,7 @@ Participant dimension.
 
 **Definition**: `syscCommonTypes.h` (line 193)
 
-```cpp
+```
 enum SyscTimeIntegration SyscSetupInfo::timeIntegration
 ```
 
@@ -110,7 +110,7 @@ Time integration method
 
 **Definition**: `syscCommonTypes.h` (line 193)
 
-```cpp
+```
 enum SyscParticipantType SyscSetupInfo::participantType
 ```
 
@@ -123,4 +123,4 @@ Participant type
 **Type**: enum SyscParticipantType
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

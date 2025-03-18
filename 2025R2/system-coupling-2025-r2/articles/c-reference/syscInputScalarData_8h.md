@@ -1,6 +1,6 @@
 # File syscInputScalarData.h
 
-![][C++]
+![][C]
 
 **Location**: `syscInputScalarData.h`
 
@@ -45,7 +45,7 @@ click 1 "syscInputScalarData_8h.md#syscInputScalarData_8h"
 
 ![][public]
 
-```cpp
+```
 SyscInputScalarData syscGetInputScalarData()
 ```
 
@@ -62,7 +62,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
-```cpp
+```
 SyscInputScalarData syscGetInputScalarDataDouble(double *const data, size_t dataSize)
 ```
 
@@ -87,7 +87,7 @@ Create an input scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputScalarData syscGetInputScalarDataFloat(float *const data, size_t dataSize)
 ```
 
@@ -109,7 +109,7 @@ Create an input scalar data access struct.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -151,4 +151,4 @@ SyscInputScalarData syscGetInputScalarDataFloat(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

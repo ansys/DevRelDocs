@@ -1,6 +1,6 @@
 # Structure SyscFaceData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscMeshDefinition.h` (line 239)
@@ -26,7 +26,7 @@ Face data struct.
 
 **Definition**: `syscMeshDefinition.h` (line 240)
 
-```cpp
+```
 SyscElementIdData SyscFaceData::faceIds
 ```
 
@@ -45,7 +45,7 @@ face ids.
 
 **Definition**: `syscMeshDefinition.h` (line 241)
 
-```cpp
+```
 SyscElementTypeData SyscFaceData::faceTypes
 ```
 
@@ -64,7 +64,7 @@ face types.
 
 **Definition**: `syscMeshDefinition.h` (line 242)
 
-```cpp
+```
 SyscElementNodeCountData SyscFaceData::faceNodeCounts
 ```
 
@@ -83,7 +83,7 @@ face node counts.
 
 **Definition**: `syscMeshDefinition.h` (line 243)
 
-```cpp
+```
 SyscElementNodeConnectivityData SyscFaceData::faceNodeConnectivity
 ```
 
@@ -102,7 +102,7 @@ face-to-node connectivity.
 
 **Definition**: `syscMeshDefinition.h` (line 244)
 
-```cpp
+```
 SyscFaceCellConnectivityData SyscFaceData::faceCellConnectivity
 ```
 
@@ -115,4 +115,4 @@ face-to-cell connectivity.
 **Type**: [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

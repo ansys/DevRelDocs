@@ -1,6 +1,6 @@
 # Structure SyscVolumeMesh
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscVolumeMesh.h` (line 42)
@@ -13,7 +13,7 @@ To create and/or initialize [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscV
 
 
 
-```cpp
+```
 SyscVolumeMesh mesh = syscGetFaceBasedVolumeMesh(
     nodeCoords, elemNodeCounts, elemNodeIds);
 ```
@@ -36,7 +36,7 @@ SyscVolumeMesh mesh = syscGetFaceBasedVolumeMesh(
 
 **Definition**: `syscVolumeMesh.h` (line 44)
 
-```cpp
+```
 SyscNodeData SyscVolumeMesh::nodes
 ```
 
@@ -55,7 +55,7 @@ Mesh nodes.
 
 **Definition**: `syscVolumeMesh.h` (line 47)
 
-```cpp
+```
 SyscFaceData SyscVolumeMesh::faces
 ```
 
@@ -74,7 +74,7 @@ Mesh faces.
 
 **Definition**: `syscVolumeMesh.h` (line 50)
 
-```cpp
+```
 SyscCellData SyscVolumeMesh::cells
 ```
 
@@ -93,7 +93,7 @@ Mesh cells.
 
 **Definition**: `syscVolumeMesh.h` (line 53)
 
-```cpp
+```
 int64_t SyscVolumeMesh::connectivityStamp
 ```
 
@@ -112,7 +112,7 @@ Mesh connectivity stamp. Update whenever re-meshing happens.
 
 **Definition**: `syscVolumeMesh.h` (line 57)
 
-```cpp
+```
 int64_t SyscVolumeMesh::coordinatesStamp
 ```
 
@@ -131,7 +131,7 @@ Nodal coordinates stamp. Update whenever nodal coordinates get updated.
 
 **Definition**: `syscVolumeMesh.h` (line 60)
 
-```cpp
+```
 int64_t SyscVolumeMesh::partitioningStamp
 ```
 
@@ -144,4 +144,4 @@ Partitioning stamp. Update whenever the mesh is re-partitioned.
 **Type**: int64_t
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

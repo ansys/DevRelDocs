@@ -1,6 +1,6 @@
 # Structure SyscElementNodeCountData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscMeshDefinition.h` (line 126)
@@ -13,7 +13,7 @@ To create and/or initialize [SyscElementNodeCountData](structSyscElementNodeCoun
 
 
 
-```cpp
+```
 SyscElementNodeCountData elemNodeCountData =
 syscGetElementNodeCountData(elemNodeCounts);
 ```
@@ -31,7 +31,7 @@ syscGetElementNodeCountData(elemNodeCounts);
 
 **Definition**: `syscMeshDefinition.h` (line 127)
 
-```cpp
+```
 SyscOutputIntegerData SyscElementNodeCountData::elementNodeCounts
 ```
 
@@ -44,4 +44,4 @@ Element node counts array.
 **Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

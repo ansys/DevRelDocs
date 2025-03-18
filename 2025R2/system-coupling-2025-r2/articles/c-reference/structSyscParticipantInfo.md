@@ -1,6 +1,6 @@
 # Structure SyscParticipantInfo
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscCommonTypes.h` (line 353)
@@ -38,7 +38,7 @@ Provide a structure to provide connection info to System Coupling.
 
 **Definition**: `syscCommonTypes.h` (line 354)
 
-```cpp
+```
 char SyscParticipantInfo::scHost[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -57,7 +57,7 @@ char SyscParticipantInfo::scHost[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 
 **Definition**: `syscCommonTypes.h` (line 355)
 
-```cpp
+```
 unsigned short SyscParticipantInfo::scPort
 ```
 
@@ -76,7 +76,7 @@ unsigned short SyscParticipantInfo::scPort
 
 **Definition**: `syscCommonTypes.h` (line 356)
 
-```cpp
+```
 char SyscParticipantInfo::participantName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -95,7 +95,7 @@ char SyscParticipantInfo::participantName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH
 
 **Definition**: `syscCommonTypes.h` (line 357)
 
-```cpp
+```
 char SyscParticipantInfo::buildInformation[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -114,7 +114,7 @@ char SyscParticipantInfo::buildInformation[SYSC_STRING_LENGTH][SYSC_STRING_LENGT
 
 **Definition**: `syscCommonTypes.h` (line 358)
 
-```cpp
+```
 char SyscParticipantInfo::transcriptFilename[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -127,4 +127,4 @@ char SyscParticipantInfo::transcriptFilename[SYSC_STRING_LENGTH][SYSC_STRING_LEN
 **Type**: char
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

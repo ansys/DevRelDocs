@@ -16,6 +16,7 @@
 - [Testing and debugging tools](testing-debugging-tools.md)
 - [Migration guide](migration-guide.md)
 - [Compiling, linking, and executing applications that use the participant library](compiling-linking-executing.md)
+- [Known Issues and Limitations](kil.md)
 - [Tutorial: Heat transfer in square channel air flow](channel-flow-tutorial.md)
 - [Tutorial: Oscillating plate damping](plate-damping-tutorial.md)
 - [Tutorial: Pipe papping](pipe-mapping-tutorial.md)

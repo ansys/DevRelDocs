@@ -27,6 +27,7 @@
 
 * [InputComplexScalarData.hpp](InputComplexScalarData_8hpp.md#InputComplexScalarData_8hpp)
 * [InputComplexVectorData.hpp](InputComplexVectorData_8hpp.md#InputComplexVectorData_8hpp)
+* [InputIntegerData.hpp](InputIntegerData_8hpp.md#InputIntegerData_8hpp)
 * [InputScalarData.hpp](InputScalarData_8hpp.md#InputScalarData_8hpp)
 * [InputVectorData.hpp](InputVectorData_8hpp.md#InputVectorData_8hpp)
 

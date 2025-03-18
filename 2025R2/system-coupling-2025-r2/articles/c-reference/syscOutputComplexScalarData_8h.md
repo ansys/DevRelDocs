@@ -1,6 +1,6 @@
 # File syscOutputComplexScalarData.h
 
-![][C++]
+![][C]
 
 **Location**: `syscOutputComplexScalarData.h`
 
@@ -45,7 +45,7 @@ click 1 "syscOutputComplexScalarData_8h.md#syscOutputComplexScalarData_8h"
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexScalarData syscGetOutputComplexScalarData()
 ```
 
@@ -62,7 +62,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexScalarData syscGetOutputComplexScalarDataSplitDouble(const double *const dataReal, const double *const dataImag, size_t dataSize)
 ```
 
@@ -89,7 +89,7 @@ Create a complex output scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexScalarData syscGetOutputComplexScalarDataSplitFloat(const float *const dataReal, const float *const dataImag, size_t dataSize)
 ```
 
@@ -116,7 +116,7 @@ Create a complex output scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexScalarData syscGetOutputComplexScalarDataCompactDouble(const double *const data, size_t dataSize)
 ```
 
@@ -141,7 +141,7 @@ Create a complex output scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputComplexScalarData syscGetOutputComplexScalarDataCompactFloat(const float *const data, size_t dataSize)
 ```
 
@@ -163,7 +163,7 @@ Create a complex output scalar data access struct.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -214,4 +214,4 @@ SyscOutputComplexScalarData syscGetOutputComplexScalarDataCompactFloat(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

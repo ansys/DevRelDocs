@@ -1,6 +1,6 @@
 # File syscInputVectorData.h
 
-![][C++]
+![][C]
 
 **Location**: `syscInputVectorData.h`
 
@@ -45,7 +45,7 @@ click 1 "syscInputVectorData_8h.md#syscInputVectorData_8h"
 
 ![][public]
 
-```cpp
+```
 SyscInputVectorData syscGetInputVectorData()
 ```
 
@@ -62,7 +62,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
-```cpp
+```
 SyscInputVectorData syscGetInputVectorDataCompactDouble(double *const data, size_t dataSize)
 ```
 
@@ -87,7 +87,7 @@ Create an 3D input vector data access struct with compact storage.
 
 ![][public]
 
-```cpp
+```
 SyscInputVectorData syscGetInputVectorDataCompactFloat(float *const data, size_t dataSize)
 ```
 
@@ -112,7 +112,7 @@ Create an 3D input vector data access struct with compact storage.
 
 ![][public]
 
-```cpp
+```
 SyscInputVectorData syscGetInputVectorDataSplitDouble(double *const data0, double *const data1, double *const data2, size_t dataSize)
 ```
 
@@ -141,7 +141,7 @@ Create an 3D input vector data access struct with split storage.
 
 ![][public]
 
-```cpp
+```
 SyscInputVectorData syscGetInputVectorDataSplitFloat(float *const data0, float *const data1, float *const data2, size_t dataSize)
 ```
 
@@ -170,7 +170,7 @@ Create an 3D input vector data access struct with split storage.
 
 ![][public]
 
-```cpp
+```
 SyscInputVectorData syscGetInputVectorDataCompactDoubleDim(double *const data, size_t dataSize, enum SyscDimension dimension)
 ```
 
@@ -197,7 +197,7 @@ Create an input vector data access struct with compact storage based on dimensio
 
 ![][public]
 
-```cpp
+```
 SyscInputVectorData syscGetInputVectorDataCompactFloatDim(float *const data, size_t dataSize, enum SyscDimension dimension)
 ```
 
@@ -224,7 +224,7 @@ Create an input vector data access struct with compact storage based on dimensio
 
 ![][public]
 
-```cpp
+```
 SyscInputVectorData syscGetInput2DVectorDataSplitDouble(double *const data0, double *const data1, size_t dataSize)
 ```
 
@@ -251,7 +251,7 @@ Create an 2D input vector data access struct with split storage.
 
 ![][public]
 
-```cpp
+```
 SyscInputVectorData syscGetInput2DVectorDataSplitFloat(float *const data0, float *const data1, size_t dataSize)
 ```
 
@@ -275,7 +275,7 @@ Create an 2D input vector data access struct with split storage.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -350,4 +350,4 @@ SyscInputVectorData syscGetInput2DVectorDataSplitFloat(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

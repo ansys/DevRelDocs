@@ -42,14 +42,14 @@ _Figure 1: Structural solver geometry_
 Since the purpose of this example is to demonstrate the use of Participant
 Library APIs for a transient analysis, a simple damping force solver will be
 used to couple with Mechanical via System Coupling. This solver receives nodal
-displacements $\vec{X}$ from Mechanical and calculates the damping force
-$\vec{F}$ using the following formula:
+displacements \f$\vec{X}\f$ from Mechanical and calculates the damping force
+\f$\vec{F}\f$ using the following formula:
 
-$$
+\f$\f$
 \vec{F} = - c \frac{d\vec{X}}{dt}
-$$
+\f$\f$
 
-where $c$ is the damping coefficient and $\frac{d\vec{X}}{dt}$ is the rate of change
+where \f$c\f$ is the damping coefficient and \f$\frac{d\vec{X}}{dt}\f$ is the rate of change
 of nodal positions with respect to time (nodal velocities).
 The damping solver will then provide the calculated
 forces to Mechanical via System Coupling, and these damping forces will cause the
@@ -128,7 +128,7 @@ In the following examples, replace
 #### C++
 
 ```bash
-g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o OscillatingPlateDamping OscillatingPlateDamping.cpp -lSysC.SystemCouplingParticipant -lmpi_wrapper
+g++ -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o OscillatingPlateDamping OscillatingPlateDamping.cpp -lSysC.SystemCouplingParticipant -lmpi_wrapper
 ```
 
 #### C

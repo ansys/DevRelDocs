@@ -25,6 +25,7 @@
 * [sysc::DataTransfer](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer)
 * [sysc::InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData)
 * [sysc::InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData)
+* [sysc::InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData)
 * [sysc::InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData)
 * [sysc::InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData)
 * [sysc::ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData)
@@ -44,6 +45,7 @@
 * [sysc::OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData)
 * [sysc::Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter)
 * [sysc::PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud)
+* [sysc::InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud)
 * [sysc::Region](classsysc_1_1Region.md#classsysc_1_1Region)
 * [sysc::SurfaceMesh](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh)
 * [sysc::HostAndPort](structsysc_1_1HostAndPort.md#structsysc_1_1HostAndPort)
@@ -1554,12 +1556,50 @@ This function may be called only during user friendly mapping workflow after Map
 
 **Return type**: [TargetDataLocation](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga3733298ae4c96b207d4f4caf77dfad7d)([OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80), bool)
 
+<a id="group__SystemCouplingParticipantAPIs_1ga5a236a23cab8fd793659e3ff0ded7aff"></a>
+### Typedef TargetDataExistenceChecker
+
+![][public]
+
+**Definition**: `FunctionTypes.hpp` (line 267)
+
+```cpp
+using sysc::TargetDataExistenceChecker = typedef bool()
+```
+
+Provide an alias for function prototype that checks if target data exists.
+
+this function may be called only during user friendly mapping workflow after map() command and before writetargetdata(), and is expected to return a boolean value indicating if target data exists. True value indicates that target data exists.
+
+
+
+**Return type**: bool()
+
+<a id="group__SystemCouplingParticipantAPIs_1gaf91c64729b5c36e4ed316a3f0fe533ff"></a>
+### Typedef TargetDataExistenceCheckerWithPointer
+
+![][public]
+
+**Definition**: `FunctionTypes.hpp` (line 277)
+
+```cpp
+using sysc::TargetDataExistenceCheckerWithPointer = typedef bool(OpaqueDataAccess)
+```
+
+Provide an alias for function prototype that checks if target data exists.
+
+this function may be called only during user friendly mapping workflow after map() command and before writetargetdata(), and is expected to return a boolean value indicating if target data exists. True value indicates that target data exists.
+
+
+
+**Return type**: bool([OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80))
+
 <a id="group__SystemCouplingParticipantAPIs_1ga67496d998ace1dd2796a5a96f6356483"></a>
 ### Typedef ZoneCountAccess
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 263)
+**Definition**: `FunctionTypes.hpp` (line 282)
 
 ```cpp
 using sysc::ZoneCountAccess = typedef std::uint16_t(OpaqueDataAccess, const RegionName&)
@@ -1578,7 +1618,7 @@ Function prototype to get the number of zones for a given region.
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 270)
+**Definition**: `FunctionTypes.hpp` (line 289)
 
 ```cpp
 using sysc::SurfaceMeshMultiZoneAccess = typedef SurfaceMesh( OpaqueDataAccess, const RegionName&, std::uint16_t zoneIndex)
@@ -1598,7 +1638,7 @@ Certain restrictions apply:
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 279)
+**Definition**: `FunctionTypes.hpp` (line 298)
 
 ```cpp
 using sysc::VolumeMeshMultiZoneAccess = typedef VolumeMesh( OpaqueDataAccess, const RegionName&, std::uint16_t zoneIndex)
@@ -1617,7 +1657,7 @@ This function is provided for consistency only. Only one volume zone per region 
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 287)
+**Definition**: `FunctionTypes.hpp` (line 306)
 
 ```cpp
 using sysc::PointCloudMultiZoneAccess = typedef PointCloud( OpaqueDataAccess, const RegionName&, std::uint16_t zoneIndex)
@@ -1636,7 +1676,7 @@ This function is provided for consistency only. Only one point cloud zone per re
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 294)
+**Definition**: `FunctionTypes.hpp` (line 313)
 
 ```cpp
 using sysc::InputScalarDataMultiZoneAccess = typedef InputScalarData( OpaqueDataAccess, const RegionName&, const VariableName&, std::uint16_t zoneIndex)
@@ -1655,7 +1695,7 @@ Function prototype to get the input scalar data, given region name and zone inde
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 302)
+**Definition**: `FunctionTypes.hpp` (line 321)
 
 ```cpp
 using sysc::OutputScalarDataMultiZoneAccess = typedef OutputScalarData( OpaqueDataAccess, const RegionName&, const VariableName&, std::uint16_t zoneIndex)
@@ -1674,7 +1714,7 @@ Function prototype to get the output scalar data, given region name and zone ind
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 310)
+**Definition**: `FunctionTypes.hpp` (line 329)
 
 ```cpp
 using sysc::InputVectorDataMultiZoneAccess = typedef InputVectorData( OpaqueDataAccess, const RegionName&, const VariableName&, std::uint16_t zoneIndex)
@@ -1693,7 +1733,7 @@ Function prototype to get the input vector data, given region name and zone inde
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 318)
+**Definition**: `FunctionTypes.hpp` (line 337)
 
 ```cpp
 using sysc::OutputVectorDataMultiZoneAccess = typedef OutputVectorData( OpaqueDataAccess, const RegionName&, const VariableName&, std::uint16_t zoneIndex)
@@ -1712,7 +1752,7 @@ Function prototype to get the input vector data, given region name and zone inde
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 327)
+**Definition**: `FunctionTypes.hpp` (line 346)
 
 ```cpp
 using sysc::InputScalarVariableAccess = typedef InputScalarData(const std::string&, const std::string&)
@@ -1731,7 +1771,7 @@ This alias will be deprecated - use InputScalarDataAccess instead.
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 330)
+**Definition**: `FunctionTypes.hpp` (line 349)
 
 ```cpp
 using sysc::InputVectorVariableAccess = typedef InputVectorData(const std::string&, const std::string&)
@@ -1750,7 +1790,7 @@ This alias will be deprecated - use InputVectorDataAccess instead.
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 333)
+**Definition**: `FunctionTypes.hpp` (line 352)
 
 ```cpp
 using sysc::OutputScalarVariableAccess = typedef OutputScalarData(const std::string&, const std::string&)
@@ -1769,7 +1809,7 @@ This alias will be deprecated - use OutputScalarDataAccess instead.
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 336)
+**Definition**: `FunctionTypes.hpp` (line 355)
 
 ```cpp
 using sysc::OutputVectorVariableAccess = typedef OutputVectorData(const std::string&, const std::string&)
@@ -1794,9 +1834,9 @@ This alias will be deprecated - use OutputVectorDataAccess instead.
 void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(OutputScalarData source, InputScalarData target)
 ```
 
-Function to re-arrange a distributed parallel array.
+Function to re-arrange distributed parallel scalar data.
 
-This function can be used in the context of distributed parallel applications, interconnected by SCP library. It performs an efficient parallel re-distribution of data, from the order implied in the source array to the order implied in the target array.
+This function can be used in the context of distributed parallel applications, interconnected by SCP library. It performs an efficient parallel re-distribution of data, from the order implied in the source data to the order implied in the target data.
 
 
 
@@ -1808,7 +1848,7 @@ Constraints:
 
 
 
-global size of source and target arrays should match. An exception will be thrown otherwise.
+global size of source and target datas must match. An exception will be thrown otherwise.
 
 
 
@@ -1822,6 +1862,240 @@ Connection must be initialized (i.e. [sysc::SystemCoupling](classsysc_1_1SystemC
 
 * [OutputScalarData](classsysc_1_1OutputScalarData.md#classsysc_1_1OutputScalarData) **source**
 * [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) **target**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1a536f7a434c2e5b36d033cdce99072b8a"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(OutputScalarData source)
+```
+
+Same function as <code>rearrange(OutputScalarData source, InputScalarData target)</code>, but assumes empty target locally.
+
+
+
+
+
+**Parameters**:
+
+* [OutputScalarData](classsysc_1_1OutputScalarData.md#classsysc_1_1OutputScalarData) **source**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1ae9dbe384c0799aa4c0ee244c4fb3d3b2"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(InputScalarData target)
+```
+
+Same function as <code>rearrange(OutputScalarData source, InputScalarData target)</code>, but assumes empty source locally.
+
+
+
+
+
+**Parameters**:
+
+* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) **target**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1a31beddf1436d2416b97f69fb1f09313a"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(OutputVectorData source, InputVectorData target)
+```
+
+Similar function as <code>rearrange(OutputScalarData source, InputScalarData target)</code>, but it operates on vector data.
+
+
+
+
+
+**Parameters**:
+
+* [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData) **source**
+* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) **target**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1a0c6152254e60d336cb0a64270f7ffbe0"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(OutputVectorData source)
+```
+
+Same function as <code>rearrange(OutputVectorData source, InputVectorData target)</code>, but assumes empty target locally.
+
+
+
+
+
+**Parameters**:
+
+* [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData) **source**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1a9e13aa8466737e21a74730f8c570f1db"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(InputVectorData target)
+```
+
+Same function as <code>rearrange(OutputVectorData source, InputVectorData target)</code>, but assumes empty source locally.
+
+
+
+
+
+**Parameters**:
+
+* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) **target**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1a3e73aa9be927d6eb71c55d3c240a1ba8"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(OutputIntegerData source, InputIntegerData target)
+```
+
+Similar function as <code>rearrange(OutputScalarData source, InputScalarData target)</code>, but it operates on integer data.
+
+
+
+
+
+**Parameters**:
+
+* [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData) **source**
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData) **target**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1a31154f2279492de6bdd155c638ab153a"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(OutputIntegerData source)
+```
+
+Same function as <code>rearrange(OutputIntegerData source, InputIntegerData target)</code>, but assumes empty target locally.
+
+
+
+
+
+**Parameters**:
+
+* [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData) **source**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1a389f8dbbc03c72e04648df49bb759f86"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(InputIntegerData target)
+```
+
+Same function as <code>rearrange(OutputIntegerData source, InputIntegerData target)</code>, but assumes empty source locally.
+
+
+
+
+
+**Parameters**:
+
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData) **target**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1a16a75516f9b72b42ba82ba9b390a938d"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(PointCloud source, InputPointCloud target)
+```
+
+Function to re-arrange distributed parallel point cloud data.
+
+This function is analogous to <code>rearrange(OutputScalarData source, InputScalarData target)</code>, and has the same constraints, but it operates on point cloud data.
+
+
+
+**Parameters**:
+
+* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) **source**
+* [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud) **target**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1abe9be964c7ac120a06b43fb0e730d0a4"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(PointCloud source)
+```
+
+Same function as <code>rearrange(PointCloud source, InputPointCloud target)</code>, but assumes empty target locally.
+
+
+
+
+
+**Parameters**:
+
+* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) **source**
+
+**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="Datashipper_8hpp_1a36112ccd3813e1b463ced1fc13f7c6cc"></a>
+### Function rearrange
+
+![][public]
+
+```cpp
+void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(InputPointCloud target)
+```
+
+Same function as <code>rearrange(PointCloud source, InputPointCloud target)</code>, but assumes empty source locally.
+
+
+
+
+
+**Parameters**:
+
+* [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud) **target**
 
 **Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
 
@@ -1976,6 +2250,27 @@ Perform a reduction to get sum of value across all processes, connected by the S
 * std::uint64_t **value**
 
 **Return type**: std::uint64_t SYSTEM_COUPLING_PARTICIPANT_DLL
+
+<a id="SyscComm_8hpp_1a7dfc4e837c274f4101120cb95b0d6117"></a>
+### Function reduceAnd
+
+![][public]
+
+```cpp
+bool SYSTEM_COUPLING_PARTICIPANT_DLL sysc::reduceAnd(bool value)
+```
+
+Perform a reduction to get logical AND of value across all processes, connected by the SCP library.
+
+
+
+
+
+**Parameters**:
+
+* bool **value**
+
+**Return type**: bool SYSTEM_COUPLING_PARTICIPANT_DLL
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

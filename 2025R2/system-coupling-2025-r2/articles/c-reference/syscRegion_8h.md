@@ -1,6 +1,6 @@
 # File syscRegion.h
 
-![][C++]
+![][C]
 
 **Location**: `syscRegion.h`
 
@@ -47,7 +47,7 @@ click 1 "syscRegion_8h.md#syscRegion_8h"
 
 **Definition**: `syscRegion.h` (line 47)
 
-```cpp
+```
 typedef struct SyscRegion SyscRegion
 ```
 
@@ -65,7 +65,7 @@ To create and/or initialize the [SyscRegion](structSyscRegion.md#structSyscRegio
 
 
 
-```cpp
+```
 SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 ```
 
@@ -80,7 +80,7 @@ SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 
 ![][public]
 
-```cpp
+```
 SyscRegion syscGetRegion(const char *name)
 ```
 
@@ -117,7 +117,7 @@ Region mesh type will default to mesh.
 
 ![][public]
 
-```cpp
+```
 SyscRegion syscGetRegionT(const char *name, enum SyscTopology topology)
 ```
 
@@ -150,7 +150,7 @@ Region mesh type will default to mesh.
 
 ![][public]
 
-```cpp
+```
 SyscRegion syscGetRegionDT(const char *name, const char *displayName, enum SyscTopology topology)
 ```
 
@@ -179,7 +179,7 @@ Region mesh type will default to mesh.
 
 ![][public]
 
-```cpp
+```
 SyscRegion syscGetRegionTM(const char *name, enum SyscTopology topology, enum SyscRegionDiscretizationType regionDiscretizationType)
 ```
 
@@ -208,7 +208,7 @@ Display names will be same as name.
 
 ![][public]
 
-```cpp
+```
 SyscRegion syscGetRegionDTM(const char *name, const char *displayName, enum SyscTopology topology, enum SyscRegionDiscretizationType regionDiscretizationType)
 ```
 
@@ -237,7 +237,7 @@ Create region to be used in a coupled analysis.
 
 ![][public]
 
-```cpp
+```
 SyscError syscAddInputVariable(const SyscRegion region, const SyscVariable variable)
 ```
 
@@ -293,7 +293,7 @@ If the region discretization type is point cloud, then the location of the varia
 
 ![][public]
 
-```cpp
+```
 SyscError syscAddOutputVariable(const SyscRegion region, const SyscVariable variable)
 ```
 
@@ -349,7 +349,7 @@ If the region discretization type is point cloud, then the location of the varia
 
 ![][public]
 
-```cpp
+```
 size_t syscGetNumInputVariables(const SyscRegion region)
 ```
 
@@ -377,7 +377,7 @@ Number of input variables for the region.
 
 ![][public]
 
-```cpp
+```
 SyscVariable syscGetInputVariable(const SyscRegion region, size_t index)
 ```
 
@@ -407,7 +407,7 @@ Variable at specified index.
 
 ![][public]
 
-```cpp
+```
 size_t syscGetNumOutputVariables(const SyscRegion region)
 ```
 
@@ -435,7 +435,7 @@ Number of output variables for the region.
 
 ![][public]
 
-```cpp
+```
 SyscVariable syscGetOutputVariable(const SyscRegion region, size_t index)
 ```
 
@@ -462,7 +462,7 @@ Variable at specified index.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -529,4 +529,4 @@ SyscVariable syscGetOutputVariable(const SyscRegion region, size_t index);
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)
