@@ -10,7 +10,7 @@ If any of the solver requests fails (success_info=false for a specific design) t
 
 <a id="py_reliability_montecarlo.ReliabilityMonteCarlo.__init__"></a>
 
-### \_\_init_\_()
+#### \_\_init_\_()
 
 <a id="py_reliability_montecarlo.SettingsMonteCarlo"></a>
 
@@ -20,30 +20,30 @@ Reliability algorithm settings for Monte Carlo.
 
 <a id="py_reliability_montecarlo.SettingsMonteCarlo.__init__"></a>
 
-### \_\_init_\_()
+#### \_\_init_\_()
 
-### \_\_init_\_(arg2: [RVSet](py_random_variables.md#py_random_variables.RVSet), arg3: int)
+#### \_\_init_\_(arg2: [RVSet](py_random_variables.md#py_random_variables.RVSet), arg3: int)
 
 <a id="py_reliability_montecarlo.SettingsMonteCarlo.accuracy"></a>
 
-### *property* accuracy
+#### *property* accuracy
 
 <a id="py_reliability_montecarlo.SettingsMonteCarlo.automatic_sample_size"></a>
 
-### *property* automatic_sample_size
+#### *property* automatic_sample_size
 
 <a id="py_reliability_montecarlo.SettingsMonteCarlo.min_num_samples"></a>
 
-### *property* min_num_samples
+#### *property* min_num_samples
 
 <a id="py_reliability_montecarlo.SettingsMonteCarlo.num_designs_per_sample"></a>
 
-### *property* num_designs_per_sample
+#### *property* num_designs_per_sample
 
 <a id="py_reliability_montecarlo.SettingsMonteCarlo.num_total_samples"></a>
 
-### *property* num_total_samples
+#### *property* num_total_samples
 
 <a id="py_reliability_montecarlo.SettingsMonteCarlo.scaling_factor"></a>
 
-### *property* scaling_factor
+#### *property* scaling_factor
