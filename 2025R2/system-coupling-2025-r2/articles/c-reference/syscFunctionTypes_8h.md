@@ -1,6 +1,6 @@
 # File syscFunctionTypes.h
 
-![][C++]
+![][C]
 
 **Location**: `syscFunctionTypes.h`
 
@@ -87,7 +87,7 @@ click 1 "syscFunctionTypes_8h.md#syscFunctionTypes_8h"
 
 **Definition**: `syscFunctionTypes.h` (line 39)
 
-```cpp
+```
 typedef SyscInputScalarData(* SyscInputScalarDataAccess) (const char *regionName, const char *variableName)
 ```
 
@@ -106,7 +106,7 @@ Provide function prototype for access to input scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 46)
 
-```cpp
+```
 typedef SyscInputScalarData(* SyscInputScalarDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
 
@@ -125,7 +125,7 @@ Provide function prototype for access to input scalar data with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 54)
 
-```cpp
+```
 typedef SyscInputScalarData(* SyscInputScalarDataMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName, uint16_t zoneIndex)
 ```
 
@@ -144,7 +144,7 @@ Provide function prototype for access to multi-zone input scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 63)
 
-```cpp
+```
 typedef SyscInputVectorData(* SyscInputVectorDataAccess) (const char *regionName, const char *variableName)
 ```
 
@@ -163,7 +163,7 @@ Provide function prototype for access to input vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 70)
 
-```cpp
+```
 typedef SyscInputVectorData(* SyscInputVectorDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
 
@@ -182,7 +182,7 @@ Provide function prototype for access to input vector data with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 78)
 
-```cpp
+```
 typedef SyscInputVectorData(* SyscInputVectorDataMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName, uint16_t zoneIndex)
 ```
 
@@ -201,7 +201,7 @@ Provide function prototype for access to multi-zone input vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 87)
 
-```cpp
+```
 typedef SyscOutputScalarData(* SyscOutputScalarDataAccess) (const char *regionName, const char *variableName)
 ```
 
@@ -220,7 +220,7 @@ Provide function prototype for access to output scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 94)
 
-```cpp
+```
 typedef SyscOutputScalarData(* SyscOutputScalarDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
 
@@ -239,7 +239,7 @@ Provide function prototype for access to output scalar data with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 102)
 
-```cpp
+```
 typedef SyscOutputScalarData(* SyscOutputScalarDataMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName, uint16_t zoneIndex)
 ```
 
@@ -258,7 +258,7 @@ Provide function prototype for access to multi-zone output scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 111)
 
-```cpp
+```
 typedef SyscOutputVectorData(* SyscOutputVectorDataAccess) (const char *regionName, const char *variableName)
 ```
 
@@ -277,7 +277,7 @@ Provide function prototype for access to output vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 118)
 
-```cpp
+```
 typedef SyscOutputVectorData(* SyscOutputVectorDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
 
@@ -296,7 +296,7 @@ Provide function prototype for access to output vector data with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 126)
 
-```cpp
+```
 typedef SyscOutputVectorData(* SyscOutputVectorDataMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName, uint16_t zoneIndex)
 ```
 
@@ -315,7 +315,7 @@ Provide function prototype for access to multi-zone output vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 135)
 
-```cpp
+```
 typedef SyscInputComplexScalarData(* SyscInputComplexScalarDataAccess) (const char *regionName, const char *variableName)
 ```
 
@@ -334,7 +334,7 @@ Provide function prototype for access to input complex scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 142)
 
-```cpp
+```
 typedef SyscInputComplexScalarData(* SyscInputComplexScalarDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
 
@@ -353,7 +353,7 @@ Provide function prototype for access to input complex scalar data with opaque p
 
 **Definition**: `syscFunctionTypes.h` (line 150)
 
-```cpp
+```
 typedef SyscInputComplexVectorData(* SyscInputComplexVectorDataAccess) (const char *regionName, const char *variableName)
 ```
 
@@ -372,7 +372,7 @@ Provide function prototype for access to input complex vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 157)
 
-```cpp
+```
 typedef SyscInputComplexVectorData(* SyscInputComplexVectorDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
 
@@ -391,7 +391,7 @@ Provide function prototype for access to input complex vector data with opaque p
 
 **Definition**: `syscFunctionTypes.h` (line 165)
 
-```cpp
+```
 typedef SyscOutputComplexScalarData(* SyscOutputComplexScalarDataAccess) (const char *regionName, const char *variableName)
 ```
 
@@ -410,7 +410,7 @@ Provide function prototype for access to output complex scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 172)
 
-```cpp
+```
 typedef SyscOutputComplexScalarData(* SyscOutputComplexScalarDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
 
@@ -429,7 +429,7 @@ Provide function prototype for access to output complex scalar data with opaque 
 
 **Definition**: `syscFunctionTypes.h` (line 180)
 
-```cpp
+```
 typedef SyscOutputComplexVectorData(* SyscOutputComplexVectorDataAccess) (const char *regionName, const char *variableName)
 ```
 
@@ -448,7 +448,7 @@ Provide function prototype for access to output complex vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 187)
 
-```cpp
+```
 typedef SyscOutputComplexVectorData(* SyscOutputComplexVectorDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
 
@@ -467,7 +467,7 @@ Provide function prototype for access to output complex vector data with opaque 
 
 **Definition**: `syscFunctionTypes.h` (line 195)
 
-```cpp
+```
 typedef SyscSurfaceMesh(* SyscSurfMeshAccess) (const char *regionName)
 ```
 
@@ -486,7 +486,7 @@ Provide function prototype for access to surface mesh.
 
 **Definition**: `syscFunctionTypes.h` (line 201)
 
-```cpp
+```
 typedef SyscSurfaceMesh(* SyscSurfaceMeshAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName)
 ```
 
@@ -505,7 +505,7 @@ Provide function prototype for access to surface mesh with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 206)
 
-```cpp
+```
 typedef SyscSurfaceMesh(* SyscSurfaceMeshMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, uint16_t zoneIndex)
 ```
 
@@ -524,7 +524,7 @@ Provide function prototype for access to multi-zone surface mesh.
 
 **Definition**: `syscFunctionTypes.h` (line 214)
 
-```cpp
+```
 typedef SyscVolumeMesh(* SyscVolumeMeshAccess) (const char *regionName)
 ```
 
@@ -543,7 +543,7 @@ Provide function prototype for access to volume mesh.
 
 **Definition**: `syscFunctionTypes.h` (line 220)
 
-```cpp
+```
 typedef SyscVolumeMesh(* SyscVolumeMeshAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName)
 ```
 
@@ -562,7 +562,7 @@ Provide function prototype for access to volume mesh with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 225)
 
-```cpp
+```
 typedef SyscVolumeMesh(* SyscVolumeMeshMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, uint16_t zoneIndex)
 ```
 
@@ -581,7 +581,7 @@ Provide function prototype for access to multi-zone volume mesh.
 
 **Definition**: `syscFunctionTypes.h` (line 233)
 
-```cpp
+```
 typedef SyscPointCloud(* SyscPointCloudAccess) (const char *regionName)
 ```
 
@@ -600,7 +600,7 @@ Provide function prototype for access to point cloud.
 
 **Definition**: `syscFunctionTypes.h` (line 239)
 
-```cpp
+```
 typedef SyscPointCloud(* SyscPointCloudAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName)
 ```
 
@@ -619,7 +619,7 @@ Provide function prototype for access to point cloud with an opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 244)
 
-```cpp
+```
 typedef SyscPointCloud(* SyscPointCloudMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, uint16_t zoneIndex)
 ```
 
@@ -638,7 +638,7 @@ Provide function prototype for access to multi-zone point cloud.
 
 **Definition**: `syscFunctionTypes.h` (line 252)
 
-```cpp
+```
 typedef uint16_t(* SyscZoneCountAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName)
 ```
 
@@ -657,7 +657,7 @@ Provide function prototype for access to zone count.
 
 **Definition**: `syscFunctionTypes.h` (line 263)
 
-```cpp
+```
 typedef const char*(* SyscRestartPointCreation) ()
 ```
 
@@ -671,7 +671,7 @@ This function may be called only during outputs update, and is expected to retur
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -872,4 +872,4 @@ typedef const char* (*SyscRestartPointCreation)();
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

@@ -11,6 +11,7 @@
 ## Classes
 
 * [sysc::PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud)
+* [sysc::InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud)
 
 ## Namespaces
 
@@ -20,21 +21,27 @@
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
+* SystemCouplingParticipant/InputIntegerData.hpp
+* SystemCouplingParticipant/InputVectorData.hpp
 * SystemCouplingParticipant/OutputIntegerData.hpp
 * SystemCouplingParticipant/OutputVectorData.hpp
 * <cstddef>
 
 ```mermaid
 graph LR
+4["SystemCouplingParticipant/InputIntegerData.hpp"]
+
+5["SystemCouplingParticipant/InputVectorData.hpp"]
+
 3["SystemCouplingParticipant/CommonTypes.hpp"]
 
-4["SystemCouplingParticipant/OutputIntegerData.hpp"]
+6["SystemCouplingParticipant/OutputIntegerData.hpp"]
 
-5["SystemCouplingParticipant/OutputVectorData.hpp"]
+7["SystemCouplingParticipant/OutputVectorData.hpp"]
 
 2["SystemCouplingParticipant/LibraryType.hpp"]
 
-6["cstddef"]
+8["cstddef"]
 
 1["PointCloud.hpp"]
 click 1 "PointCloud_8hpp.md#PointCloud_8hpp"
@@ -43,6 +50,8 @@ click 1 "PointCloud_8hpp.md#PointCloud_8hpp"
 1 --> 4
 1 --> 5
 1 --> 6
+1 --> 7
+1 --> 8
 
 ```
 
@@ -58,6 +67,8 @@ click 1 "PointCloud_8hpp.md#PointCloud_8hpp"
 #include "SystemCouplingParticipant/LibraryType.hpp"
 
 #include "SystemCouplingParticipant/CommonTypes.hpp"
+#include "SystemCouplingParticipant/InputIntegerData.hpp"
+#include "SystemCouplingParticipant/InputVectorData.hpp"
 #include "SystemCouplingParticipant/OutputIntegerData.hpp"
 #include "SystemCouplingParticipant/OutputVectorData.hpp"
 
@@ -98,6 +109,28 @@ public:
 private:
   OutputIntegerData m_nodeIds;
   OutputVectorData m_nodeCoords;
+};
+
+struct InputPointCloud {
+public:
+  InputPointCloud(
+    InputIntegerData nodeIds,
+    InputVectorData nodeCoords) :
+      nodeIds(nodeIds),
+      nodeCoords(nodeCoords) {}
+
+  InputPointCloud() = default;
+
+  InputPointCloud(const InputPointCloud&) = default;
+
+  InputPointCloud(InputPointCloud&&) = default;
+
+  InputPointCloud& operator=(const InputPointCloud&) = default;
+
+  InputPointCloud& operator=(InputPointCloud&&) = default;
+
+  InputIntegerData nodeIds;
+  InputVectorData nodeCoords;
 };
 
 }  // namespace sysc

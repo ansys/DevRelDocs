@@ -1,6 +1,6 @@
 # Structure SyscError
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscCommonTypes.h` (line 137)
@@ -23,7 +23,7 @@ Provide a struct for detecting errors from the interface calls.
 
 **Definition**: `syscCommonTypes.h` (line 138)
 
-```cpp
+```
 int SyscError::retcode
 ```
 
@@ -42,7 +42,7 @@ Error code. Set to 0 if no error.
 
 **Definition**: `syscCommonTypes.h` (line 139)
 
-```cpp
+```
 char SyscError::message[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -55,4 +55,4 @@ Error message. Blank string if no error.
 **Type**: char
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

@@ -390,8 +390,8 @@ sysc.IntegerAttribute ia2("intAttribute2", -12, true);
 
 sc.addRealAttribute(ra1);
 sc.addRealAttribute(ra2);
-sc.addRealAttribute(ia1);
-sc.addRealAttribute(ia2);
+sc.addIntegerAttribute(ia1);
+sc.addIntegerAttribute(ia2);
 ```
 
 ### Step 3: Complete setup

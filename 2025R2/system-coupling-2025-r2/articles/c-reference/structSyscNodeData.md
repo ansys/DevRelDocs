@@ -1,6 +1,6 @@
 # Structure SyscNodeData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscMeshDefinition.h` (line 41)
@@ -13,7 +13,7 @@ To create and/or initialize [SyscNodeData](structSyscNodeData.md#structSyscNodeD
 
 
 
-```cpp
+```
 SyscNodeData nodeData = syscGetNodeDataC(nodeCoords);
 ```
 
@@ -31,7 +31,7 @@ SyscNodeData nodeData = syscGetNodeDataC(nodeCoords);
 
 **Definition**: `syscMeshDefinition.h` (line 42)
 
-```cpp
+```
 SyscOutputIntegerData SyscNodeData::nodeIds
 ```
 
@@ -50,7 +50,7 @@ Node ids array access.
 
 **Definition**: `syscMeshDefinition.h` (line 43)
 
-```cpp
+```
 SyscOutputVectorData SyscNodeData::nodeCoords
 ```
 
@@ -63,4 +63,4 @@ Node coordinates array access.
 **Type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

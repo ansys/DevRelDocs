@@ -1,6 +1,6 @@
 # File syscOutputIntegerData.h
 
-![][C++]
+![][C]
 
 **Location**: `syscOutputIntegerData.h`
 
@@ -45,7 +45,7 @@ click 1 "syscOutputIntegerData_8h.md#syscOutputIntegerData_8h"
 
 ![][public]
 
-```cpp
+```
 SyscOutputIntegerData syscGetOutputIntegerData()
 ```
 
@@ -62,7 +62,7 @@ Primitive type will default to 64-bit signed integer. Data size will be set to z
 
 ![][public]
 
-```cpp
+```
 SyscOutputIntegerData syscGetOutputIntegerDataInt32(const int32_t *const data, size_t dataSize)
 ```
 
@@ -87,7 +87,7 @@ Create an output integer data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputIntegerData syscGetOutputIntegerDataInt64(const int64_t *const data, size_t dataSize)
 ```
 
@@ -112,7 +112,7 @@ Create an output integer data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputIntegerData syscGetOutputIntegerDataUInt16(const uint16_t *const data, size_t dataSize)
 ```
 
@@ -137,7 +137,7 @@ Create an output integer data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputIntegerData syscGetOutputIntegerDataUInt64(const uint64_t *const data, size_t dataSize)
 ```
 
@@ -159,7 +159,7 @@ Create an output integer data access struct.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -207,4 +207,4 @@ SyscOutputIntegerData syscGetOutputIntegerDataUInt64(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

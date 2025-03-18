@@ -1,6 +1,6 @@
 # File syscParameter.h
 
-![][C++]
+![][C]
 
 **Location**: `syscParameter.h`
 
@@ -43,7 +43,7 @@ click 1 "syscParameter_8h.md#syscParameter_8h"
 
 **Definition**: `syscParameter.h` (line 29)
 
-```cpp
+```
 typedef struct SyscParameter SyscParameter
 ```
 
@@ -62,7 +62,7 @@ Provide a struct for a System Coupling parameter.
 
 ![][public]
 
-```cpp
+```
 SyscParameter syscGetParameter(const char *name)
 ```
 
@@ -87,7 +87,7 @@ Display name will default to the same as name.
 
 ![][public]
 
-```cpp
+```
 SyscParameter syscGetParameterD(const char *name, const char *displayName)
 ```
 
@@ -109,7 +109,7 @@ Create parameter to be used in a coupled analysis.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -144,4 +144,4 @@ typedef struct SyscParameter {
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

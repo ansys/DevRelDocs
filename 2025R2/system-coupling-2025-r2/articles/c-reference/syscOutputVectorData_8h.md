@@ -1,6 +1,6 @@
 # File syscOutputVectorData.h
 
-![][C++]
+![][C]
 
 **Location**: `syscOutputVectorData.h`
 
@@ -45,7 +45,7 @@ click 1 "syscOutputVectorData_8h.md#syscOutputVectorData_8h"
 
 ![][public]
 
-```cpp
+```
 SyscOutputVectorData syscGetOutputVectorData()
 ```
 
@@ -62,7 +62,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
-```cpp
+```
 SyscOutputVectorData syscGetOutputVectorDataCompactDouble(const double *const data, size_t dataSize)
 ```
 
@@ -87,7 +87,7 @@ Create an 3D output vector data access struct with compact storage.
 
 ![][public]
 
-```cpp
+```
 SyscOutputVectorData syscGetOutputVectorDataCompactFloat(const float *const data, size_t dataSize)
 ```
 
@@ -112,7 +112,7 @@ Create an 3D output vector data access struct with compact storage.
 
 ![][public]
 
-```cpp
+```
 SyscOutputVectorData syscGetOutputVectorDataSplitDouble(const double *const data0, const double *const data1, const double *const data2, size_t dataSize)
 ```
 
@@ -141,7 +141,7 @@ Create an 3D output vector data access struct with split storage.
 
 ![][public]
 
-```cpp
+```
 SyscOutputVectorData syscGetOutputVectorDataSplitFloat(const float *const data0, const float *const data1, const float *const data2, size_t dataSize)
 ```
 
@@ -170,7 +170,7 @@ Create an 3D output vector data access struct with split storage.
 
 ![][public]
 
-```cpp
+```
 SyscOutputVectorData syscGetOutputVectorDataCompactDoubleDim(const double *const data, size_t dataSize, enum SyscDimension dimension)
 ```
 
@@ -197,7 +197,7 @@ Create an output vector data access struct with compact storage based on dimensi
 
 ![][public]
 
-```cpp
+```
 SyscOutputVectorData syscGetOutputVectorDataCompactFloatDim(const float *const data, size_t dataSize, enum SyscDimension dimension)
 ```
 
@@ -224,7 +224,7 @@ Create an output vector data access struct with compact storage based on dimensi
 
 ![][public]
 
-```cpp
+```
 SyscOutputVectorData syscGetOutput2DVectorDataSplitDouble(const double *const data0, const double *const data1, size_t dataSize)
 ```
 
@@ -251,7 +251,7 @@ Create a 2D output vector data access struct with split storage.
 
 ![][public]
 
-```cpp
+```
 SyscOutputVectorData syscGetOutput2DVectorDataSplitFloat(const float *const data0, const float *const data1, size_t dataSize)
 ```
 
@@ -275,7 +275,7 @@ Create an output vector data access struct with split storage.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -350,4 +350,4 @@ SyscOutputVectorData syscGetOutput2DVectorDataSplitFloat(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

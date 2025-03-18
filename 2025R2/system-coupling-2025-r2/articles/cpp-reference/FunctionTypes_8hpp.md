@@ -185,6 +185,9 @@ using TargetDataCreation = TargetDataLocation(bool);
 
 using TargetDataCreationWithPointer = TargetDataLocation(OpaqueDataAccess, bool);
 
+using TargetDataExistenceChecker = bool();
+
+using TargetDataExistenceCheckerWithPointer = bool(OpaqueDataAccess);
 /* Advanced callbacks. */
 
 using ZoneCountAccess = std::uint16_t(OpaqueDataAccess, const RegionName&);

@@ -3,6 +3,14 @@
 Migration guide is provided to help migrate the APIs implementation
 between the releases.
 
+## Migration from pre-2025 R2 releases
+
+The participant library was updated to use ABI=1 in version 2025 R2 when compiling using the C++ APIs on linux using the G++ compiler.
+The previously required compiler flag, `-D_GLIBCXX_USE_CXX11_ABI=0`, is no longer
+needed. Either update the build command to use `-D_GLIBCXX_USE_CXX11_ABI=1` (the default value) or remove
+the flag entirely. If the executable can not be compiled with ABI=1, then we
+recommend using the C APIs.
+
 ## Migrating from pre-2023 R1 releases
 
 ### Removed deprecated callback functions (C++ only)

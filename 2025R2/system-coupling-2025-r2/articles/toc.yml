@@ -133,6 +133,8 @@
       href: cpp-reference/classsysc_1_1InputComplexScalarData.md
     - name: sysc::InputComplexVectorData
       href: cpp-reference/classsysc_1_1InputComplexVectorData.md
+    - name: sysc::InputIntegerData
+      href: cpp-reference/classsysc_1_1InputIntegerData.md
     - name: sysc::InputScalarData
       href: cpp-reference/classsysc_1_1InputScalarData.md
     - name: sysc::InputVectorData
@@ -193,6 +195,8 @@
       href: cpp-reference/structsysc_1_1FaceData.md
     - name: sysc::HostAndPort
       href: cpp-reference/structsysc_1_1HostAndPort.md
+    - name: sysc::InputPointCloud
+      href: cpp-reference/structsysc_1_1InputPointCloud.md
     - name: sysc::MeshValidityStatus
       href: cpp-reference/structsysc_1_1MeshValidityStatus.md
     - name: sysc::NodeData

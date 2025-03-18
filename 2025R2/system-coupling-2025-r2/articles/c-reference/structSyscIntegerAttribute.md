@@ -1,6 +1,6 @@
 # Structure SyscIntegerAttribute
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscAttribute.h` (line 70)
@@ -24,7 +24,7 @@ Provide a struct for an integer-valued attribute.
 
 **Definition**: `syscAttribute.h` (line 71)
 
-```cpp
+```
 char SyscIntegerAttribute::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -43,7 +43,7 @@ Unique name for this attribute.
 
 **Definition**: `syscAttribute.h` (line 72)
 
-```cpp
+```
 long long int SyscIntegerAttribute::value
 ```
 
@@ -62,7 +62,7 @@ Attribute value.
 
 **Definition**: `syscAttribute.h` (line 73)
 
-```cpp
+```
 int SyscIntegerAttribute::modifiable
 ```
 
@@ -75,4 +75,4 @@ Attribute is modifiable.
 **Type**: int
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

@@ -1,6 +1,6 @@
 # Structure SyscRegion
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscRegion.h` (line 42)
@@ -19,7 +19,7 @@ To create and/or initialize the [SyscRegion](structSyscRegion.md#structSyscRegio
 
 
 
-```cpp
+```
 SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 ```
 
@@ -39,7 +39,7 @@ SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 
 **Definition**: `syscRegion.h` (line 43)
 
-```cpp
+```
 char SyscRegion::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -58,7 +58,7 @@ Unique region name.
 
 **Definition**: `syscRegion.h` (line 43)
 
-```cpp
+```
 enum SyscTopology SyscRegion::topology
 ```
 
@@ -77,7 +77,7 @@ Region topology.
 
 **Definition**: `syscRegion.h` (line 43)
 
-```cpp
+```
 enum SyscRegionDiscretizationType SyscRegion::regionDiscretizationType
 ```
 
@@ -96,7 +96,7 @@ Reigon mesh type.
 
 **Definition**: `syscRegion.h` (line 46)
 
-```cpp
+```
 char SyscRegion::displayName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -109,4 +109,4 @@ User-friendly region name.
 **Type**: char
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

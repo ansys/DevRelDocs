@@ -35,7 +35,7 @@ elements. The meshes with default settings are shown in _Figure 1_.
 _Figure 1: Default pipe meshes_
 
 On each side, we initialize the nodal
-solution data with a simple linear profile $f(x,y,z) = 1x + 2y + 3z + 4$. On the **quad** region, we initialize
+solution data with a simple linear profile \f$f(x,y,z) = 1x + 2y + 3z + 4\f$. On the **quad** region, we initialize
 **linear1** variable, and on the **tri** region, we initialize the **linear2** variable.
 
 We then use the mapping capabilities within the Participant Library to transfer
@@ -180,7 +180,7 @@ In the following examples, replace:
 #### C++ parallel version using Intel MPI
 
 ```bash
-g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin  -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o PipeMapping src_cpp/PipeMeshGenerator.cpp src_cpp/PipeMapping.cpp -lSysC.SystemCouplingParticipant -lmpi -lmpi_wrapper
+g++ -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin  -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o PipeMapping src_cpp/PipeMeshGenerator.cpp src_cpp/PipeMapping.cpp -lSysC.SystemCouplingParticipant -lmpi -lmpi_wrapper
 ```
 
 #### C parallel version using Intel MPI

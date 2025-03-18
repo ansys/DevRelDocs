@@ -1,6 +1,6 @@
 # Structure SyscPointCloud
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscPointCloud.h` (line 41)
@@ -13,7 +13,7 @@ To create and/or initialize [SyscPointCloud](structSyscPointCloud.md#structSyscP
 
 
 
-```cpp
+```
 SyscPointCloud pointCloud = syscGetPointCloud(nodeIds, nodeCoords);
 ```
 
@@ -34,7 +34,7 @@ SyscPointCloud pointCloud = syscGetPointCloud(nodeIds, nodeCoords);
 
 **Definition**: `syscPointCloud.h` (line 42)
 
-```cpp
+```
 SyscOutputIntegerData SyscPointCloud::nodeIds
 ```
 
@@ -53,7 +53,7 @@ Access to node ids array.
 
 **Definition**: `syscPointCloud.h` (line 43)
 
-```cpp
+```
 SyscOutputVectorData SyscPointCloud::nodeCoords
 ```
 
@@ -72,7 +72,7 @@ Access to node coordinates array(s).
 
 **Definition**: `syscPointCloud.h` (line 46)
 
-```cpp
+```
 int64_t SyscPointCloud::connectivityStamp
 ```
 
@@ -91,7 +91,7 @@ Mesh connectivity stamp. Update whenever re-meshing happens.
 
 **Definition**: `syscPointCloud.h` (line 50)
 
-```cpp
+```
 int64_t SyscPointCloud::coordinatesStamp
 ```
 
@@ -110,7 +110,7 @@ Nodal coordinates stamp. Update whenever nodal coordinates get updated.
 
 **Definition**: `syscPointCloud.h` (line 53)
 
-```cpp
+```
 int64_t SyscPointCloud::partitioningStamp
 ```
 
@@ -123,4 +123,4 @@ Partitioning stamp. Update whenever the mesh is re-partitioned.
 **Type**: int64_t
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

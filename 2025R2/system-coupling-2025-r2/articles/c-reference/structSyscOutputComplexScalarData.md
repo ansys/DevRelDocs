@@ -1,6 +1,6 @@
 # Structure SyscOutputComplexScalarData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscOutputComplexScalarData.h` (line 29)
@@ -25,7 +25,7 @@ Output complex scalar data provides read-only access to an array of complex scal
 
 **Definition**: `syscOutputComplexScalarData.h` (line 96)
 
-```cpp
+```
 enum SyscPrimitiveType SyscOutputComplexScalarData::primitiveType
 ```
 
@@ -44,7 +44,7 @@ Primitive type.
 
 **Definition**: `syscOutputComplexScalarData.h` (line 31)
 
-```cpp
+```
 const void* SyscOutputComplexScalarData::data1
 ```
 
@@ -63,7 +63,7 @@ First data pointer.
 
 **Definition**: `syscOutputComplexScalarData.h` (line 32)
 
-```cpp
+```
 const void* SyscOutputComplexScalarData::data2
 ```
 
@@ -82,7 +82,7 @@ Second data pointer.
 
 **Definition**: `syscOutputComplexScalarData.h` (line 33)
 
-```cpp
+```
 size_t SyscOutputComplexScalarData::size
 ```
 
@@ -95,4 +95,4 @@ Data size.
 **Type**: size_t
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

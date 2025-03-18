@@ -1,6 +1,6 @@
 # Structure SyscCellData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscMeshDefinition.h` (line 288)
@@ -24,7 +24,7 @@ Cell data struct.
 
 **Definition**: `syscMeshDefinition.h` (line 289)
 
-```cpp
+```
 SyscElementIdData SyscCellData::cellIds
 ```
 
@@ -43,7 +43,7 @@ cell ids.
 
 **Definition**: `syscMeshDefinition.h` (line 290)
 
-```cpp
+```
 SyscElementTypeData SyscCellData::cellTypes
 ```
 
@@ -62,7 +62,7 @@ cell types.
 
 **Definition**: `syscMeshDefinition.h` (line 291)
 
-```cpp
+```
 SyscElementNodeConnectivityData SyscCellData::cellNodeConnectivity
 ```
 
@@ -75,4 +75,4 @@ cell-to-node connectivity.
 **Type**: [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

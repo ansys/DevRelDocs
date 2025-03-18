@@ -1,6 +1,6 @@
 # Structure SyscVariable
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscVariable.h` (line 37)
@@ -13,7 +13,7 @@ To create and/or initialize the [SyscVariable](structSyscVariable.md#structSyscV
 
 
 
-```cpp
+```
 SyscVariable var = syscGetVariableTE(
   "Temperature", SyscScalar, 0, SyscNode);
 ```
@@ -37,7 +37,7 @@ SyscVariable var = syscGetVariableTE(
 
 **Definition**: `syscVariable.h` (line 38)
 
-```cpp
+```
 char SyscVariable::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -56,7 +56,7 @@ Unique name for this variable.
 
 **Definition**: `syscVariable.h` (line 38)
 
-```cpp
+```
 enum SyscQuantityType SyscVariable::quantityType
 ```
 
@@ -75,7 +75,7 @@ Quantity type (e.g. temperature).
 
 **Definition**: `syscVariable.h` (line 38)
 
-```cpp
+```
 enum SyscLocation SyscVariable::location
 ```
 
@@ -94,7 +94,7 @@ Location (e.g element or node).
 
 **Definition**: `syscVariable.h` (line 41)
 
-```cpp
+```
 char SyscVariable::displayName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -113,7 +113,7 @@ User-friendly name.
 
 **Definition**: `syscVariable.h` (line 41)
 
-```cpp
+```
 enum SyscTensorType SyscVariable::tensorType
 ```
 
@@ -132,7 +132,7 @@ Tensor type (e.g. scalar, vector).
 
 **Definition**: `syscVariable.h` (line 43)
 
-```cpp
+```
 int SyscVariable::isExtensive
 ```
 
@@ -151,7 +151,7 @@ Flag indicating whether it's an extensive property.
 
 **Definition**: `syscVariable.h` (line 43)
 
-```cpp
+```
 enum SyscDataType SyscVariable::dataType
 ```
 
@@ -164,4 +164,4 @@ Variable data type.
 **Type**: enum SyscDataType
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

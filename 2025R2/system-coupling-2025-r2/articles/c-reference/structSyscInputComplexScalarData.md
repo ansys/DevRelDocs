@@ -1,6 +1,6 @@
 # Structure SyscInputComplexScalarData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscInputComplexScalarData.h` (line 29)
@@ -25,7 +25,7 @@ Input complex scalar data provides read-and-write access to complex scalar data.
 
 **Definition**: `syscInputComplexScalarData.h` (line 96)
 
-```cpp
+```
 enum SyscPrimitiveType SyscInputComplexScalarData::primitiveType
 ```
 
@@ -44,7 +44,7 @@ Primitive type.
 
 **Definition**: `syscInputComplexScalarData.h` (line 31)
 
-```cpp
+```
 void* SyscInputComplexScalarData::data1
 ```
 
@@ -63,7 +63,7 @@ First data pointer.
 
 **Definition**: `syscInputComplexScalarData.h` (line 32)
 
-```cpp
+```
 void* SyscInputComplexScalarData::data2
 ```
 
@@ -82,7 +82,7 @@ Second data pointer.
 
 **Definition**: `syscInputComplexScalarData.h` (line 33)
 
-```cpp
+```
 size_t SyscInputComplexScalarData::size
 ```
 
@@ -95,4 +95,4 @@ Data size.
 **Type**: size_t
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

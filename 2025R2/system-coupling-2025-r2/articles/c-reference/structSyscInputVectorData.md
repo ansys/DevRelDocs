@@ -1,6 +1,6 @@
 # Structure SyscInputVectorData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscInputVectorData.h` (line 42)
@@ -25,7 +25,7 @@ To create and/or initialize [SyscInputVectorData](structSyscInputVectorData.md#s
 
 
 
-```cpp
+```
 SyscInputVectorData ivd = syscGetInputVectorDataSplitDouble(x, y, z, size);
 ```
 
@@ -47,7 +47,7 @@ SyscInputVectorData ivd = syscGetInputVectorDataSplitDouble(x, y, z, size);
 
 **Definition**: `syscInputVectorData.h` (line 177)
 
-```cpp
+```
 enum SyscPrimitiveType SyscInputVectorData::primitiveType
 ```
 
@@ -66,7 +66,7 @@ Primitive type.
 
 **Definition**: `syscInputVectorData.h` (line 44)
 
-```cpp
+```
 void* SyscInputVectorData::data0
 ```
 
@@ -85,7 +85,7 @@ Pointer to the first array.
 
 **Definition**: `syscInputVectorData.h` (line 45)
 
-```cpp
+```
 void* SyscInputVectorData::data1
 ```
 
@@ -104,7 +104,7 @@ Pointer to the second array.
 
 **Definition**: `syscInputVectorData.h` (line 46)
 
-```cpp
+```
 void* SyscInputVectorData::data2
 ```
 
@@ -123,7 +123,7 @@ Pointer to the third array.
 
 **Definition**: `syscInputVectorData.h` (line 47)
 
-```cpp
+```
 size_t SyscInputVectorData::size
 ```
 
@@ -142,7 +142,7 @@ Array size.
 
 **Definition**: `syscInputVectorData.h` (line 47)
 
-```cpp
+```
 enum SyscDimension SyscInputVectorData::dimension
 ```
 
@@ -155,4 +155,4 @@ Array Dimension
 **Type**: enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

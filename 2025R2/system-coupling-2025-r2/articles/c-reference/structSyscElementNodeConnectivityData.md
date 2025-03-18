@@ -1,6 +1,6 @@
 # Structure SyscElementNodeConnectivityData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscMeshDefinition.h` (line 166)
@@ -13,7 +13,7 @@ To create and/or initialize [SyscElementNodeConnectivityData](structSyscElementN
 
 
 
-```cpp
+```
 SyscElementNodeConnectivityData elemNodeConn =
 syscGetElementNodeConnectivityData(elemNodeIds);
 ```
@@ -31,7 +31,7 @@ syscGetElementNodeConnectivityData(elemNodeIds);
 
 **Definition**: `syscMeshDefinition.h` (line 168)
 
-```cpp
+```
 SyscOutputIntegerData SyscElementNodeConnectivityData::elementNodeIds
 ```
 
@@ -44,4 +44,4 @@ Element-to-node connectivity array.
 **Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

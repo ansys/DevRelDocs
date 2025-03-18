@@ -1,6 +1,6 @@
 # File syscCommonTypes.h
 
-![][C++]
+![][C]
 
 **Location**: `syscCommonTypes.h`
 
@@ -48,7 +48,7 @@ click 1 "syscCommonTypes_8h.md#syscCommonTypes_8h"
 
 ![][public]
 
-```cpp
+```
 #define SYSC_STRING_LENGTH 256
 ```
 
@@ -67,7 +67,7 @@ Define maximum string length.
 
 **Definition**: `syscCommonTypes.h` (line 26)
 
-```cpp
+```
 enum SyscLocation {
   SyscNode = 0,
   SyscElement = 1
@@ -101,7 +101,7 @@ Data on elements.
 
 **Definition**: `syscCommonTypes.h` (line 32)
 
-```cpp
+```
 enum SyscTensorType {
   SyscScalar = 0,
   SyscVector = 1
@@ -135,7 +135,7 @@ Vector
 
 **Definition**: `syscCommonTypes.h` (line 38)
 
-```cpp
+```
 enum SyscTopology {
   SyscSurface = 2,
   SyscVolume = 3
@@ -169,7 +169,7 @@ Volume topology.
 
 **Definition**: `syscCommonTypes.h` (line 44)
 
-```cpp
+```
 enum SyscRegionDiscretizationType {
   SyscMeshRegion = 0,
   SyscPointCloudRegion = 1
@@ -203,7 +203,7 @@ Point cloud region discretization.
 
 **Definition**: `syscCommonTypes.h` (line 50)
 
-```cpp
+```
 enum SyscInterfaceSide {
   SyscInterfaceSide_One = 1,
   SyscInterfaceSide_Two = 2
@@ -237,7 +237,7 @@ Provide enum for coupling interface side.
 
 **Definition**: `syscCommonTypes.h` (line 56)
 
-```cpp
+```
 enum SyscDimension {
   SyscD2 = 2,
   SyscD3 = 3
@@ -271,7 +271,7 @@ Provide enum for system coupling dimension.
 
 **Definition**: `syscCommonTypes.h` (line 62)
 
-```cpp
+```
 enum SyscTimeIntegration {
   SyscImplicit = 0,
   SyscExplicit = 1
@@ -305,7 +305,7 @@ Provide an enum for time integration.
 
 **Definition**: `syscCommonTypes.h` (line 91)
 
-```cpp
+```
 enum SyscQuantityType {
   SyscUnspecified = 0,
   SyscForce = 1,
@@ -395,7 +395,7 @@ Quantity type provides information about the physical meaning of the variable. T
 
 **Definition**: `syscCommonTypes.h` (line 103)
 
-```cpp
+```
 enum SyscDataType {
   SyscDataType_Real = 0,
   SyscDataType_Complex = 1
@@ -429,7 +429,7 @@ enum SyscDataType {
 
 **Definition**: `syscCommonTypes.h` (line 109)
 
-```cpp
+```
 enum SyscConvergenceStatus {
   SyscDiverging = -1,
   SyscNotYetConverged = 0,
@@ -487,7 +487,7 @@ Provide enum for participant's solver convergence status.
 
 **Definition**: `syscCommonTypes.h` (line 118)
 
-```cpp
+```
 enum SyscAnalysisType {
   SyscSteady = 0,
   SyscTransient = 1
@@ -521,7 +521,7 @@ Transient (unsteady) analysis type.
 
 **Definition**: `syscCommonTypes.h` (line 147)
 
-```cpp
+```
 enum SyscPrimitiveType {
   SyscFloat = 0,
   SyscDouble = 1,
@@ -587,7 +587,7 @@ Unsigned 64-bit integer.
 
 **Definition**: `syscCommonTypes.h` (line 156)
 
-```cpp
+```
 enum SyscParticipantType {
   SyscDEFAULT = 0,
   SyscCFX = 1,
@@ -735,7 +735,7 @@ enum SyscParticipantType {
 
 **Definition**: `syscCommonTypes.h` (line 134)
 
-```cpp
+```
 typedef struct SyscSolutionControl SyscSolutionControl
 ```
 
@@ -754,7 +754,7 @@ Provide a structure containing solution control.
 
 **Definition**: `syscCommonTypes.h` (line 175)
 
-```cpp
+```
 typedef void* SyscOpaqueDataAccess
 ```
 
@@ -773,7 +773,7 @@ Declare an opaque pointer type.
 
 **Definition**: `syscCommonTypes.h` (line 197)
 
-```cpp
+```
 typedef struct SyscSetupInfo SyscSetupInfo
 ```
 
@@ -785,7 +785,7 @@ To create and/or initialize the [SyscSetupInfo](structSyscSetupInfo.md#structSys
 
 
 
-```cpp
+```
 SyscSetupInfo setupInfo = syscGetSetupInfoA(SyscSteady); 
 ```
 
@@ -800,7 +800,7 @@ SyscSetupInfo setupInfo = syscGetSetupInfoA(SyscSteady);
 
 **Definition**: `syscCommonTypes.h` (line 297)
 
-```cpp
+```
 typedef struct SyscSetupFileInfo SyscSetupFileInfo
 ```
 
@@ -812,7 +812,7 @@ To create and/or initialize the [SyscSetupFileInfo](structSyscSetupFileInfo.md#s
 
 
 
-```cpp
+```
 SyscSetupFileInfo setupFileInfo = syscGetSetupFileInfo("setup.scp");
 ```
 
@@ -827,7 +827,7 @@ SyscSetupFileInfo setupFileInfo = syscGetSetupFileInfo("setup.scp");
 
 **Definition**: `syscCommonTypes.h` (line 316)
 
-```cpp
+```
 typedef struct SyscResultsInfo SyscResultsInfo
 ```
 
@@ -846,7 +846,7 @@ Provide a structure for writing results files.
 
 **Definition**: `syscCommonTypes.h` (line 359)
 
-```cpp
+```
 typedef struct SyscParticipantInfo SyscParticipantInfo
 ```
 
@@ -865,7 +865,7 @@ typedef struct SyscParticipantInfo SyscParticipantInfo
 
 ![][public]
 
-```cpp
+```
 SyscDimensionality syscGetDimensionality()
 ```
 
@@ -882,7 +882,7 @@ Get dimensionality.
 
 ![][public]
 
-```cpp
+```
 SyscError syscGetSyscError(int retcode, const char *message)
 ```
 
@@ -904,7 +904,7 @@ Provide a function to return [SyscError](structSyscError.md#structSyscError) str
 
 ![][public]
 
-```cpp
+```
 SyscSetupInfo syscGetSetupInfo()
 ```
 
@@ -921,7 +921,7 @@ Analysis type will be set to steady. Restarts supported flag will be set to fals
 
 ![][public]
 
-```cpp
+```
 SyscSetupInfo syscGetSetupInfoA(enum SyscAnalysisType analysisType)
 ```
 
@@ -946,7 +946,7 @@ Restarts supported flag will be set to false.
 
 ![][public]
 
-```cpp
+```
 SyscSetupInfo syscGetSetupInfoAR(enum SyscAnalysisType analysisType, int restartsSupported)
 ```
 
@@ -971,7 +971,7 @@ Create a setup info struct.
 
 ![][public]
 
-```cpp
+```
 SyscSetupInfo syscGetSetupInfoARD(enum SyscAnalysisType analysisType, int restartsSupported, enum SyscDimension dimension)
 ```
 
@@ -998,7 +998,7 @@ Create a setup info struct.
 
 ![][public]
 
-```cpp
+```
 SyscSetupInfo syscGetSetupInfoARDT(enum SyscAnalysisType analysisType, int restartsSupported, enum SyscDimension dimension, enum SyscTimeIntegration timeIntegration)
 ```
 
@@ -1027,7 +1027,7 @@ Create a setup info struct.
 
 ![][public]
 
-```cpp
+```
 SyscSetupInfo syscGetSetupInfoARDTP(enum SyscAnalysisType analysisType, int restartsSupported, enum SyscDimension dimension, enum SyscTimeIntegration timeIntegration, enum SyscParticipantType participantType)
 ```
 
@@ -1058,7 +1058,7 @@ Create a setup info struct.
 
 ![][public]
 
-```cpp
+```
 SyscSetupFileInfo syscGetSetupFileInfo(const char *setupFileName)
 ```
 
@@ -1083,7 +1083,7 @@ Restarts supported flag will be set to false.
 
 ![][public]
 
-```cpp
+```
 SyscResultsInfo syscGetResultsInfo(const char *baseFileName)
 ```
 
@@ -1106,7 +1106,7 @@ Provide a function to create SetupFileInfo struct.
 
 ![][public]
 
-```cpp
+```
 SyscParticipantInfo syscGetParticipantInfo(const char *scHost, unsigned short scPort, const char *participantName)
 ```
 
@@ -1141,7 +1141,7 @@ Provide a function to get & construct a [SyscParticipantInfo](structSyscParticip
 
 ![][public]
 
-```cpp
+```
 SyscParticipantInfo syscGetParticipantInfoB(const char *scHost, unsigned short scPort, const char *participantName, const char *buildInformation)
 ```
 
@@ -1165,7 +1165,7 @@ SyscParticipantInfo syscGetParticipantInfoB(const char *scHost, unsigned short s
 
 ![][public]
 
-```cpp
+```
 SyscParticipantInfo syscGetParticipantInfoBT(const char *scHost, unsigned short scPort, const char *participantName, const char *buildInformation, const char *transcriptFileName)
 ```
 
@@ -1187,7 +1187,7 @@ SyscParticipantInfo syscGetParticipantInfoBT(const char *scHost, unsigned short 
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -1420,4 +1420,4 @@ SyscParticipantInfo syscGetParticipantInfoBT(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

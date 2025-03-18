@@ -1,6 +1,6 @@
 # File syscVolumeMesh.h
 
-![][C++]
+![][C]
 
 **Location**: `syscVolumeMesh.h`
 
@@ -53,7 +53,7 @@ click 1 "syscVolumeMesh_8h.md#syscVolumeMesh_8h"
 
 ![][public]
 
-```cpp
+```
 SyscVolumeMesh syscGetVolumeMeshEmpty()
 ```
 
@@ -70,7 +70,7 @@ Returns a struct representing empty volume mesh. All member will be assigned def
 
 ![][public]
 
-```cpp
+```
 SyscVolumeMesh syscGetVolumeMeshNFC(SyscNodeData nodes, SyscFaceData faces, SyscCellData cells)
 ```
 
@@ -97,7 +97,7 @@ Create a volume mesh access struct.
 
 ![][public]
 
-```cpp
+```
 SyscVolumeMesh syscGetVolumeMeshElementBased(SyscNodeData nodes, SyscElementTypeData cellTypes, SyscElementNodeConnectivityData cellNodeConnectivity)
 ```
 
@@ -124,7 +124,7 @@ Create an element-based volume mesh access struct.
 
 ![][public]
 
-```cpp
+```
 SyscVolumeMesh syscGetVolumeMeshFaceBased(SyscNodeData nodes, SyscElementNodeCountData faceNodeCounts, SyscElementNodeConnectivityData faceNodeConnectivity, SyscFaceCellConnectivityData faceCellConnectivity, SyscCellIdData cellIds)
 ```
 
@@ -152,7 +152,7 @@ Create a face-based volume mesh access struct.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -213,4 +213,4 @@ SyscVolumeMesh syscGetVolumeMeshFaceBased(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

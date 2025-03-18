@@ -1,6 +1,6 @@
 # File syscInputComplexScalarData.h
 
-![][C++]
+![][C]
 
 **Location**: `syscInputComplexScalarData.h`
 
@@ -45,7 +45,7 @@ click 1 "syscInputComplexScalarData_8h.md#syscInputComplexScalarData_8h"
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexScalarData syscGetInputComplexScalarData()
 ```
 
@@ -62,7 +62,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexScalarData syscGetInputComplexScalarDataSplitDouble(double *const dataReal, double *const dataImag, size_t dataSize)
 ```
 
@@ -89,7 +89,7 @@ Create a complex input scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexScalarData syscGetInputComplexScalarDataSplitFloat(float *const dataReal, float *const dataImag, size_t dataSize)
 ```
 
@@ -116,7 +116,7 @@ Create a complex input scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexScalarData syscGetInputComplexScalarDataCompactDouble(double *const data, size_t dataSize)
 ```
 
@@ -141,7 +141,7 @@ Create a complex input scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexScalarData syscGetInputComplexScalarDataCompactFloat(float *const data, size_t dataSize)
 ```
 
@@ -163,7 +163,7 @@ Create a complex input scalar data access struct.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -214,4 +214,4 @@ SyscInputComplexScalarData syscGetInputComplexScalarDataCompactFloat(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

@@ -1,6 +1,6 @@
 # File syscOutputScalarData.h
 
-![][C++]
+![][C]
 
 **Location**: `syscOutputScalarData.h`
 
@@ -45,7 +45,7 @@ click 1 "syscOutputScalarData_8h.md#syscOutputScalarData_8h"
 
 ![][public]
 
-```cpp
+```
 SyscOutputScalarData syscGetOutputScalarData()
 ```
 
@@ -62,7 +62,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
-```cpp
+```
 SyscOutputScalarData syscGetOutputScalarDataDouble(const double *const data, size_t dataSize)
 ```
 
@@ -87,7 +87,7 @@ Create an output scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputScalarData syscGetOutputScalarDataFloat(const float *const data, size_t dataSize)
 ```
 
@@ -112,7 +112,7 @@ Create an output scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputScalarData syscGetOutputScalarDataInt32(const int32_t *const data, size_t dataSize)
 ```
 
@@ -137,7 +137,7 @@ Create an output scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputScalarData syscGetOutputScalarDataInt64(const int64_t *const data, size_t dataSize)
 ```
 
@@ -162,7 +162,7 @@ Create an output scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputScalarData syscGetOutputScalarDataUInt16(const uint16_t *const data, size_t dataSize)
 ```
 
@@ -187,7 +187,7 @@ Create an output scalar data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscOutputScalarData syscGetOutputScalarDataUInt64(const uint64_t *const data, size_t dataSize)
 ```
 
@@ -209,7 +209,7 @@ Create an output scalar data access struct.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -265,4 +265,4 @@ SyscOutputScalarData syscGetOutputScalarDataUInt64(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)
