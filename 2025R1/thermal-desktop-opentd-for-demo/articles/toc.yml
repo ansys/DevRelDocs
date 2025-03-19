@@ -4,8 +4,6 @@
   items:
   - name: Prerequisites
     href: getting-started/prerequisites.md
-  - name: Test demo
-    href: getting-started/test-demo.md
   - name: Creating TD models
     href: getting-started/creating-td-model/overview.md
     items:
