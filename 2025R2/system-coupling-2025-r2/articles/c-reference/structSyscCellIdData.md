@@ -1,6 +1,6 @@
 # Structure SyscCellIdData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscMeshDefinition.h` (line 209)
@@ -22,7 +22,7 @@ Cell ids struct.
 
 **Definition**: `syscMeshDefinition.h` (line 210)
 
-```cpp
+```
 SyscOutputIntegerData SyscCellIdData::cellIds
 ```
 
@@ -35,4 +35,4 @@ cell ids.
 **Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

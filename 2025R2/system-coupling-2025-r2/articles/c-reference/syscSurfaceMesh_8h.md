@@ -1,6 +1,6 @@
 # File syscSurfaceMesh.h
 
-![][C++]
+![][C]
 
 **Location**: `syscSurfaceMesh.h`
 
@@ -49,7 +49,7 @@ click 1 "syscSurfaceMesh_8h.md#syscSurfaceMesh_8h"
 
 ![][public]
 
-```cpp
+```
 SyscSurfaceMesh syscGetSurfaceMesh()
 ```
 
@@ -66,7 +66,7 @@ Returns a struct representing empty surface mesh. All member will be assigned de
 
 ![][public]
 
-```cpp
+```
 SyscSurfaceMesh syscGetSurfaceMeshNF(SyscNodeData nodes, SyscFaceData faces)
 ```
 
@@ -91,7 +91,7 @@ Create a surface mesh access struct.
 
 ![][public]
 
-```cpp
+```
 SyscSurfaceMesh syscGetSurfaceMeshNTCI(SyscNodeData nodes, SyscElementTypeData elemTypes, SyscElementNodeCountData elemNodeCounts, SyscElementNodeConnectivityData elemNodeConnectivity)
 ```
 
@@ -127,7 +127,7 @@ Both element types and element node counts are provided.
 
 ![][public]
 
-```cpp
+```
 SyscSurfaceMesh syscGetSurfaceMeshNCI(SyscNodeData nodes, SyscElementNodeCountData elemNodeCounts, SyscElementNodeConnectivityData elemNodeConnectivity)
 ```
 
@@ -161,7 +161,7 @@ Element node counts are provided, element types are deduced from element node co
 
 ![][public]
 
-```cpp
+```
 SyscSurfaceMesh syscGetSurfaceMeshNCIF(SyscNodeData nodes, SyscElementNodeCountData elemNodeCounts, SyscElementNodeConnectivityData elemNodeConnectivity, SyscFaceCellConnectivityData faceCellConnectivty)
 ```
 
@@ -197,7 +197,7 @@ Element node counts are provided, element types are deduced from element node co
 
 ![][public]
 
-```cpp
+```
 SyscSurfaceMesh syscGetSurfaceMeshNTI(SyscNodeData nodes, SyscElementTypeData elemTypes, SyscElementNodeConnectivityData elemNodeConnectivity)
 ```
 
@@ -231,7 +231,7 @@ Element types are provided, element node counts are deduced from element types.
 
 ![][public]
 
-```cpp
+```
 SyscSurfaceMesh syscGetSurfaceMeshA(SyscOutputScalarData nodeIds, SyscOutputVectorData nodeCoords, SyscOutputScalarData elemNodeCounts, SyscOutputScalarData elemNodeIds)
 ```
 
@@ -267,7 +267,7 @@ Note: this function is deprecated. Use syscGetSurfaceMeshNCI instead.
 
 ![][public]
 
-```cpp
+```
 SyscSurfaceMesh syscGetSurfaceMeshB(SyscOutputVectorData nodeCoords, SyscOutputScalarData elemNodeCounts, SyscOutputScalarData elemNodeIds)
 ```
 
@@ -298,7 +298,7 @@ Note: this function is deprecated. Use syscGetSurfaceMeshNCI instead.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -380,4 +380,4 @@ SyscSurfaceMesh syscGetSurfaceMeshB(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

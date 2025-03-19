@@ -1,6 +1,6 @@
 # Structure SyscFaceCellConnectivityData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscMeshDefinition.h` (line 191)
@@ -23,7 +23,7 @@ Describes face-to-cell connectivity.
 
 **Definition**: `syscMeshDefinition.h` (line 192)
 
-```cpp
+```
 SyscOutputIntegerData SyscFaceCellConnectivityData::cell0Ids
 ```
 
@@ -42,7 +42,7 @@ cell ids on side 0.
 
 **Definition**: `syscMeshDefinition.h` (line 193)
 
-```cpp
+```
 SyscOutputIntegerData SyscFaceCellConnectivityData::cell1Ids
 ```
 
@@ -55,4 +55,4 @@ cell ids on side 1.
 **Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

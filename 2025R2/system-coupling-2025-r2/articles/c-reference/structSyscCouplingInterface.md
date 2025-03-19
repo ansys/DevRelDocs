@@ -1,6 +1,6 @@
 # Structure SyscCouplingInterface
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscCouplingInterface.h` (line 45)
@@ -25,7 +25,7 @@ To create and/or initialize the [SyscCouplingInterface](structSyscCouplingInterf
 
 
 
-```cpp
+```
 SyscCouplingInterface reg = syscGetCouplingInterface("FSI"); 
 ```
 
@@ -42,7 +42,7 @@ SyscCouplingInterface reg = syscGetCouplingInterface("FSI");
 
 **Definition**: `syscCouplingInterface.h` (line 46)
 
-```cpp
+```
 char SyscCouplingInterface::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -55,4 +55,4 @@ Unique name for the interface.
 **Type**: char
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

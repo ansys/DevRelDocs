@@ -1,6 +1,6 @@
 # Structure SyscParameter
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscParameter.h` (line 26)
@@ -23,7 +23,7 @@ Provide a struct for a System Coupling parameter.
 
 **Definition**: `syscParameter.h` (line 27)
 
-```cpp
+```
 char SyscParameter::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -42,7 +42,7 @@ Unique name for this variable.
 
 **Definition**: `syscParameter.h` (line 28)
 
-```cpp
+```
 char SyscParameter::displayName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -55,4 +55,4 @@ User-friendly name.
 **Type**: char
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

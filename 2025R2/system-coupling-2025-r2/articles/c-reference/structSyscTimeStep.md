@@ -1,6 +1,6 @@
 # Structure SyscTimeStep
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscCommonTypes.h` (line 124)
@@ -24,7 +24,7 @@ Provide a struct for time step.
 
 **Definition**: `syscCommonTypes.h` (line 125)
 
-```cpp
+```
 int SyscTimeStep::timeStepNumber
 ```
 
@@ -43,7 +43,7 @@ Time step number.
 
 **Definition**: `syscCommonTypes.h` (line 126)
 
-```cpp
+```
 double SyscTimeStep::startTime
 ```
 
@@ -62,7 +62,7 @@ Time step start time.
 
 **Definition**: `syscCommonTypes.h` (line 127)
 
-```cpp
+```
 double SyscTimeStep::timeStepSize
 ```
 
@@ -75,4 +75,4 @@ Time step size (delta t).
 **Type**: double
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

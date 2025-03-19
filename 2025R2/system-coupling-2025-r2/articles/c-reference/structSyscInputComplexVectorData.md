@@ -1,6 +1,6 @@
 # Structure SyscInputComplexVectorData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscInputComplexVectorData.h` (line 29)
@@ -30,7 +30,7 @@ Input complex vector data provides read-and-write access to complex vector data.
 
 **Definition**: `syscInputComplexVectorData.h` (line 242)
 
-```cpp
+```
 enum SyscPrimitiveType SyscInputComplexVectorData::primitiveType
 ```
 
@@ -49,7 +49,7 @@ Primitive type.
 
 **Definition**: `syscInputComplexVectorData.h` (line 31)
 
-```cpp
+```
 void* SyscInputComplexVectorData::data1
 ```
 
@@ -68,7 +68,7 @@ First data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 32)
 
-```cpp
+```
 void* SyscInputComplexVectorData::data2
 ```
 
@@ -87,7 +87,7 @@ Second data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 33)
 
-```cpp
+```
 void* SyscInputComplexVectorData::data3
 ```
 
@@ -106,7 +106,7 @@ Third data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 34)
 
-```cpp
+```
 void* SyscInputComplexVectorData::data4
 ```
 
@@ -125,7 +125,7 @@ Fourth data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 35)
 
-```cpp
+```
 void* SyscInputComplexVectorData::data5
 ```
 
@@ -144,7 +144,7 @@ Fifth data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 36)
 
-```cpp
+```
 void* SyscInputComplexVectorData::data6
 ```
 
@@ -163,7 +163,7 @@ Sixth data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 37)
 
-```cpp
+```
 size_t SyscInputComplexVectorData::size
 ```
 
@@ -182,7 +182,7 @@ Data size.
 
 **Definition**: `syscInputComplexVectorData.h` (line 37)
 
-```cpp
+```
 enum SyscDimension SyscInputComplexVectorData::dimension
 ```
 
@@ -195,4 +195,4 @@ Array Dimension.
 **Type**: enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

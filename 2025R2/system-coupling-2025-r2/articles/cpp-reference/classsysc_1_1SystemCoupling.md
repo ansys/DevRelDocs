@@ -61,6 +61,8 @@ There should only be one instance of this System Coupling class.
 * [initializeAnalysis](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab47a6eaf83eae538e17290a5c2582b8e)
 * [operator=](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af9e2480d475df72014f4b565f97d8c70)
 * [operator=](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a11c5ccef62c2719e4d0af87796311914)
+* [registerDoesTargetDataExist](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a756e4452ee89f8eddf521a57d33d20e4)
+* [registerDoesTargetDataExist](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a96819f69d3044bc1f1a6f70c06da90cb)
 * [registerInputComplexScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ae65892603ab7d6f24d3a1cbc80af7edb)
 * [registerInputComplexScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a878ad16bd59726553ee0a3de9d2bca06)
 * [registerInputComplexVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a58064b5079b01898a6951e366ea86331)
@@ -1711,6 +1713,54 @@ Provide a function to register a target data creation callback.
 
 * [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
 * [TargetDataCreationWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga62d0a9b9a904f4345ff12f30b052e278) * **targetDataCreation**
+
+**Return type**: void
+
+<a id="classsysc_1_1SystemCoupling_1a756e4452ee89f8eddf521a57d33d20e4"></a>
+### Function registerDoesTargetDataExist
+
+![][public]
+
+```cpp
+void sysc::SystemCoupling::registerDoesTargetDataExist(TargetDataExistenceChecker *doesTargetDataExist)
+```
+
+Provide a function to register a does target data exist callback.
+
+**Parameters**:
+
+* **doesTargetDataExist**: a pointer to the function that conforms to DoesTargetDataExist function prototype. See DoesTargetDataExist for details.
+
+
+
+**Parameters**:
+
+* [TargetDataExistenceChecker](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga5a236a23cab8fd793659e3ff0ded7aff) * **doesTargetDataExist**
+
+**Return type**: void
+
+<a id="classsysc_1_1SystemCoupling_1a96819f69d3044bc1f1a6f70c06da90cb"></a>
+### Function registerDoesTargetDataExist
+
+![][public]
+
+```cpp
+void sysc::SystemCoupling::registerDoesTargetDataExist(OpaqueDataAccess opaqueDataAccess, TargetDataExistenceCheckerWithPointer *doesTargetDataExist)
+```
+
+Provide a function to register a does target data exist callback.
+
+**Parameters**:
+
+* **opaqueDataAccess**: a pointer that is passed into the callback function.
+* **doesTargetDataExist**: a pointer to the function that conforms to DoesTargetDataExistWithPointer function prototype.
+
+
+
+**Parameters**:
+
+* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
+* [TargetDataExistenceCheckerWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf91c64729b5c36e4ed316a3f0fe533ff) * **doesTargetDataExist**
 
 **Return type**: void
 

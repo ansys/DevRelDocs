@@ -1,25 +1,50 @@
 # Participant steps in a coupled analysis
 
-During a coupled analysis, a specific sequence of steps should be traversed.
+During a coupled analysis, a specific sequence of steps must be traversed by the participant.
+
 This process is depicted in Figure 1 for a steady analysis, Figure 2 for a transient
 analysis with iterations (implicit time integration), and Figure 3 for transient analysis
 without iterations (explicit time integration). Each step is described in more detail below.
 
+It is important that these steps are traversed in this exact sequence as shown below.
+
+## Flowchart diagrams for participant steps in a coupled analysis
+
+### Participant steps in a steady coupled analysis
+
+This sequence of steps is required for the participant which is doing a steady analysis.
+Note that the coupled analysis type may or may not be steady. The important part is that
+if this participant is steady, it must traverse this sequence of steps.
+
 ![Figure 1: Sequence of participant steps for a steady analysis](../images/ParticipantStepsInCoupledAnalysisFigure1.png)  
 *Figure 1: Sequence of participant steps for a steady analysis*
+
+### Participant steps in a transient coupled analysis with iterations
+
+This sequence of steps is required for the participant which is doing a transient (unsteady)
+analysis and performs implicit time integration. As shown on the diagram, this participant
+must be able to redo the same coupling time step multiple times. In other words,
+this participant must be able to iterate until all convergence criteria are met
+(when all convergence criteria are met, the participant will not be asked to
+perform another coupling iteration). The inputs provided to this participant
+will correspond to the time value at the end of the current coupling time step. Likewise,
+this participant should produce outputs that correspond to the time
+value at the end of the current coupling time step.
 
 ![Figure 2: Sequence of participant steps for a transient analysis with iterations](../images/ParticipantStepsInCoupledAnalysisFigure2.png)  
 *Figure 2: Sequence of participant steps for a transient analysis with iterations*
 
+### Participant steps in a transient coupled analysis without iterations
+
+This sequence of steps is required for the participant which is doing a transient (unsteady)
+analysis and performs explicit time integration. The explicit participants do not iterate
+within the coupling time step. The inputs provided to this participants will correspond
+to the time value at the beginning of the current coupling time step, and after solving,
+the participant should produce outputs that correspond to the time value at the
+end of the current coupling time step.
+
 ![Figure 3: Sequence of participant steps for a transient analysis without iterations](../images/ParticipantStepsInCoupledAnalysisFigure3.png)  
 *Figure 3: Sequence of participant steps for a transient analysis without iterations*
-
-As described in the introduction, co-simulation and mapping workflows can be
-combined. To perform mapping while doing the coupled analysis, an additional step,
-*mapping setup*, is required prior to *heavyweight data access and initialization* step.
-See details of the mapping setup step in
-[Steps to perform mapping](participant-steps-for-mapping.md).
-Mapping will be performed during inputs update step, inside the coupled analysis loop.
 
 ## Connect to System Coupling
 

@@ -1,6 +1,6 @@
 # File syscPartLib.h
 
-![][C++]
+![][C]
 
 **Location**: `syscPartLib.h`
 
@@ -24,7 +24,7 @@ click 1 "syscPartLib_8h.md#syscPartLib_8h"
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -38,4 +38,4 @@ syscSystemCoupling.h instead. */
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

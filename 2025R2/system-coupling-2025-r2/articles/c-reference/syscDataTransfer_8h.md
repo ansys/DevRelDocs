@@ -1,6 +1,6 @@
 # File syscDataTransfer.h
 
-![][C++]
+![][C]
 
 **Location**: `syscDataTransfer.h`
 
@@ -47,7 +47,7 @@ click 1 "syscDataTransfer_8h.md#syscDataTransfer_8h"
 
 **Definition**: `syscDataTransfer.h` (line 33)
 
-```cpp
+```
 typedef struct SyscDataTransfer SyscDataTransfer
 ```
 
@@ -66,7 +66,7 @@ Data transfer specifies the source and target variables for mapping.
 
 ![][public]
 
-```cpp
+```
 SyscDataTransfer syscGetDataTransfer(SyscVariable sideOneVariable, SyscVariable sideTwoVariable, enum SyscInterfaceSide targetSide)
 ```
 
@@ -93,7 +93,7 @@ Create a data transfer using side{One|Two}Variable.
 
 ![][public]
 
-```cpp
+```
 SyscDataTransfer syscGetDataTransferST(SyscVariable sourceVariable, SyscVariable targetVariable, enum SyscInterfaceSide targetSide)
 ```
 
@@ -117,7 +117,7 @@ Create a data transfer using {source|target}Variable.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -157,4 +157,4 @@ SyscDataTransfer syscGetDataTransferST(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

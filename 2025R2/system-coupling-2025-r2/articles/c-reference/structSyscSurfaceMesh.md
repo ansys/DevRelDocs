@@ -1,6 +1,6 @@
 # Structure SyscSurfaceMesh
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscSurfaceMesh.h` (line 31)
@@ -28,7 +28,7 @@ Provides read-only access to the surface mesh for a given region.
 
 **Definition**: `syscSurfaceMesh.h` (line 33)
 
-```cpp
+```
 SyscNodeData SyscSurfaceMesh::nodes
 ```
 
@@ -47,7 +47,7 @@ Mesh nodes.
 
 **Definition**: `syscSurfaceMesh.h` (line 36)
 
-```cpp
+```
 SyscFaceData SyscSurfaceMesh::faces
 ```
 
@@ -66,7 +66,7 @@ Mesh faces.
 
 **Definition**: `syscSurfaceMesh.h` (line 39)
 
-```cpp
+```
 char SyscSurfaceMesh::side0[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -85,7 +85,7 @@ Side 0.
 
 **Definition**: `syscSurfaceMesh.h` (line 42)
 
-```cpp
+```
 char SyscSurfaceMesh::side1[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -104,7 +104,7 @@ Side 1.
 
 **Definition**: `syscSurfaceMesh.h` (line 45)
 
-```cpp
+```
 int64_t SyscSurfaceMesh::connectivityStamp
 ```
 
@@ -123,7 +123,7 @@ Mesh connectivity stamp. Update whenever re-meshing happens.
 
 **Definition**: `syscSurfaceMesh.h` (line 49)
 
-```cpp
+```
 int64_t SyscSurfaceMesh::coordinatesStamp
 ```
 
@@ -142,7 +142,7 @@ Nodal coordinates stamp. Update whenever nodal coordinates get updated.
 
 **Definition**: `syscSurfaceMesh.h` (line 52)
 
-```cpp
+```
 int64_t SyscSurfaceMesh::partitioningStamp
 ```
 
@@ -155,4 +155,4 @@ Partitioning stamp. Update whenever the mesh is re-partitioned.
 **Type**: int64_t
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

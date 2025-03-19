@@ -1,6 +1,6 @@
 # Structure SyscElementTypeData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscMeshDefinition.h` (line 88)
@@ -13,7 +13,7 @@ To create and/or initialize [SyscElementTypeData](structSyscElementTypeData.md#s
 
 
 
-```cpp
+```
 SyscElementTypeData elemTypeData = syscGetElementTypeData(elemTypes);
 ```
 
@@ -30,7 +30,7 @@ SyscElementTypeData elemTypeData = syscGetElementTypeData(elemTypes);
 
 **Definition**: `syscMeshDefinition.h` (line 89)
 
-```cpp
+```
 SyscOutputIntegerData SyscElementTypeData::elementTypes
 ```
 
@@ -43,4 +43,4 @@ Element types array access.
 **Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

@@ -1,6 +1,6 @@
 # Structure SyscOutputScalarData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscOutputScalarData.h` (line 37)
@@ -19,7 +19,7 @@ To create and/or initialize [SyscOutputScalarData](structSyscOutputScalarData.md
 
 
 
-```cpp
+```
 SyscOutputScalarData osd = syscGetOutputScalarDataDouble(array, arraySize);
 ```
 
@@ -38,7 +38,7 @@ SyscOutputScalarData osd = syscGetOutputScalarDataDouble(array, arraySize);
 
 **Definition**: `syscOutputScalarData.h` (line 115)
 
-```cpp
+```
 enum SyscPrimitiveType SyscOutputScalarData::primitiveType
 ```
 
@@ -57,7 +57,7 @@ Primitive type.
 
 **Definition**: `syscOutputScalarData.h` (line 39)
 
-```cpp
+```
 const void* SyscOutputScalarData::data
 ```
 
@@ -76,7 +76,7 @@ Pointer to the data array.
 
 **Definition**: `syscOutputScalarData.h` (line 40)
 
-```cpp
+```
 size_t SyscOutputScalarData::size
 ```
 
@@ -89,4 +89,4 @@ Array size.
 **Type**: size_t
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)
