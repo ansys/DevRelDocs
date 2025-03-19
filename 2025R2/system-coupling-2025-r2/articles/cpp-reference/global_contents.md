@@ -210,6 +210,36 @@
   * [getData5](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a4e3ab20a71b75947621dee1abc490e30) Function
   * [getData6](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a6f9fd6dc505471a6826f6638c28a893e) Function
   * [getDimension](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a29dcda46e3ccf38788b6415ac16e8a1d) Function
+* [sysc::InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData) Class
+  * [m\_dataType](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a5d0ed3f158f7e14f47f5d9b7c1bd53d5) Variable
+  * [m\_data](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1afa1d6713b265b457a013f9e7c73ac6d7) Variable
+  * [m\_size](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1aeaf16d21cbab591e42717ecf1f9b8ff8) Variable
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a197118b58aae0a61e10db7c99daf8d3c) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a2190dea65690927f4353cdb890747921) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a499f4796323d0ef016854b3a2c5c44a3) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1af0fe70c940080d3d2e87cfdae14372e1) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a5e662f8b291be3db1757fd0b66c437d5) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1aedd1b20bd8278de88a20dbaa32901fde) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1afa9b5ddc4c3205decc140ceb2fc40041) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a1ae9b165a1aaa28b5d972c0e4dc82045) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a6f6c46e793a72b74015449828d6eb0e4) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1ac30ff24c59c9733c4dabf4484e279817) Function
+  * [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a3fd5fbce5aaafb0ab45216cbe89f2923) Function
+  * [operator=](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a95fd23b25a5554fc8b40767dd38f4bea) Function
+  * [operator=](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a75e6ecca2a20cb3c2da3b5abfa93f1de) Function
+  * [size](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1ac76f3e89875fbb2f344fbaee9cda407e) Function
+  * [empty](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1aa1cac22d87bc3ae31320d794bc255f8d) Function
+  * [getDataType](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1adb4d5c60740aa878670c1c35aabe31e4) Function
+  * [getData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a315827bc95be67c62d535f68f35a1c37) Function
+* [sysc::InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud) Structure
+  * [nodeIds](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1ab59e7177cf2fe369b073649397d57f03) Variable
+  * [nodeCoords](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1a40b5c94bf58f18dd94e6ed15d98d2986) Variable
+  * [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1ae67c4139bb8d196e0f9de29baf756d55) Function
+  * [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1a6139af17846427589329324751f4273d) Function
+  * [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1abc9f138d29d16d7511152cfaf504f0bc) Function
+  * [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1a486bb0909187757199609c7478d5e6b1) Function
+  * [operator=](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1aecd2053fec8df60f4fe63d879b83786d) Function
+  * [operator=](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1abe24d57a3019f736a4500eb10d996a06) Function
 * [sysc::InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) Class
   * [m\_dataType](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1aa5f494154b74b3fad2d8b9b35294e887) Variable
   * [m\_data](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a842acad8ad4a864a4af2158498d52fae) Variable
@@ -659,6 +689,8 @@
   * [registerRestartPointCreation](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aaae2fc4f2cee448f97e69fae2510c1ce) Function
   * [registerTargetDataCreation](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a16f160af31ea38f0a502ff1f746b957b) Function
   * [registerTargetDataCreation](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a753caed2214ab353ae9a377e55c3c2d8) Function
+  * [registerDoesTargetDataExist](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a756e4452ee89f8eddf521a57d33d20e4) Function
+  * [registerDoesTargetDataExist](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a96819f69d3044bc1f1a6f70c06da90cb) Function
   * [writeSetupFile](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a3d0f96215b1b4609d46e0772c3e3578b) Function
   * [writeResults](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ac9b3de74b577b71eccf44c901ba0d225) Function
   * [getNumRegions](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af1cac0616352ad6998eefad0593c8ffb) Function
@@ -883,6 +915,8 @@
   * [RestartPointCreation](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga871467e0179633e71b13d4a1904ad732) Typedef
   * [TargetDataCreation](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23c842f309f11150deb4dda666115091) Typedef
   * [TargetDataCreationWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga62d0a9b9a904f4345ff12f30b052e278) Typedef
+  * [TargetDataExistenceChecker](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga5a236a23cab8fd793659e3ff0ded7aff) Typedef
+  * [TargetDataExistenceCheckerWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf91c64729b5c36e4ed316a3f0fe533ff) Typedef
   * [ZoneCountAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga67496d998ace1dd2796a5a96f6356483) Typedef
   * [SurfaceMeshMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga78db51b86b998102a74753c41118d0de) Typedef
   * [VolumeMeshMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf8cf8d3d04cd46c0841bd0d1fdb54158) Typedef
@@ -896,6 +930,17 @@
   * [OutputScalarVariableAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga81e8c19ed24a2ea0433af309188710a6) Typedef
   * [OutputVectorVariableAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga4684b116da21b415e4e63ae927ba12ae) Typedef
   * [rearrange](namespacesysc.md#Datashipper_8hpp_1aec7b7f49f20e797297505a85e0dc410a) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a536f7a434c2e5b36d033cdce99072b8a) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1ae9dbe384c0799aa4c0ee244c4fb3d3b2) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a31beddf1436d2416b97f69fb1f09313a) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a0c6152254e60d336cb0a64270f7ffbe0) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a9e13aa8466737e21a74730f8c570f1db) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a3e73aa9be927d6eb71c55d3c240a1ba8) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a31154f2279492de6bdd155c638ab153a) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a389f8dbbc03c72e04648df49bb759f86) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a16a75516f9b72b42ba82ba9b390a938d) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1abe9be964c7ac120a06b43fb0e730d0a4) Function
+  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a36112ccd3813e1b463ced1fc13f7c6cc) Function
   * [throwNonFatalError](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga75cd680a61b7057bc3683398c645c1e8) Function
   * [createRootServer](namespacesysc.md#SyscComm_8hpp_1a0302b93f4ce01f1d4521b4e0d45b4a1e) Function
   * [isRootServerCreated](namespacesysc.md#SyscComm_8hpp_1a406b211aa7cab59559ff1ea93d28e86f) Function
@@ -903,6 +948,7 @@
   * [getNumRanks](namespacesysc.md#SyscComm_8hpp_1aea59cac7fe2167170146839811bc8d29) Function
   * [reduceMax](namespacesysc.md#SyscComm_8hpp_1ae23b912a93ea9234dd8ba913c9dcd943) Function
   * [reduceSum](namespacesysc.md#SyscComm_8hpp_1a3634907b260bd70e565d315659ad90c1) Function
+  * [reduceAnd](namespacesysc.md#SyscComm_8hpp_1a7dfc4e837c274f4101120cb95b0d6117) Function
 * [Attribute.hpp](Attribute_8hpp.md#Attribute_8hpp) File
 * [CommonSettings.hpp](CommonSettings_8hpp.md#CommonSettings_8hpp) File
 * [CommonTypes.hpp](CommonTypes_8hpp.md#CommonTypes_8hpp) File
@@ -913,6 +959,7 @@
 * [FunctionTypes.hpp](FunctionTypes_8hpp.md#FunctionTypes_8hpp) File
 * [InputComplexScalarData.hpp](InputComplexScalarData_8hpp.md#InputComplexScalarData_8hpp) File
 * [InputComplexVectorData.hpp](InputComplexVectorData_8hpp.md#InputComplexVectorData_8hpp) File
+* [InputIntegerData.hpp](InputIntegerData_8hpp.md#InputIntegerData_8hpp) File
 * [InputScalarData.hpp](InputScalarData_8hpp.md#InputScalarData_8hpp) File
 * [InputVectorData.hpp](InputVectorData_8hpp.md#InputVectorData_8hpp) File
 * [LibraryType.hpp](LibraryType_8hpp.md#LibraryType_8hpp) File
@@ -1051,6 +1098,8 @@
   * [RestartPointCreation](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga871467e0179633e71b13d4a1904ad732) Typedef
   * [TargetDataCreation](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23c842f309f11150deb4dda666115091) Typedef
   * [TargetDataCreationWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga62d0a9b9a904f4345ff12f30b052e278) Typedef
+  * [TargetDataExistenceChecker](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga5a236a23cab8fd793659e3ff0ded7aff) Typedef
+  * [TargetDataExistenceCheckerWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf91c64729b5c36e4ed316a3f0fe533ff) Typedef
   * [ZoneCountAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga67496d998ace1dd2796a5a96f6356483) Typedef
   * [SurfaceMeshMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga78db51b86b998102a74753c41118d0de) Typedef
   * [VolumeMeshMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf8cf8d3d04cd46c0841bd0d1fdb54158) Typedef

@@ -1,6 +1,6 @@
 # File syscAttribute.h
 
-![][C++]
+![][C]
 
 **Location**: `syscAttribute.h`
 
@@ -46,7 +46,7 @@ click 1 "syscAttribute_8h.md#syscAttribute_8h"
 
 ![][public]
 
-```cpp
+```
 SyscRealAttribute syscGetRealAttribute(const char *name, double value, SyscDimensionality dimensionality)
 ```
 
@@ -73,7 +73,7 @@ Create a real-valued attribute.
 
 ![][public]
 
-```cpp
+```
 SyscRealAttribute syscGetRealAttributeVDM(const char *name, double value, SyscDimensionality dimensionality, int modifiable)
 ```
 
@@ -102,7 +102,7 @@ Create a real-valued attribute.
 
 ![][public]
 
-```cpp
+```
 SyscIntegerAttribute syscGetIntegerAttribute(const char *name, long long int value)
 ```
 
@@ -127,7 +127,7 @@ Create an integer-valued attribute.
 
 ![][public]
 
-```cpp
+```
 SyscIntegerAttribute syscGetIntegerAttributeVM(const char *name, long long int value, int modifiable)
 ```
 
@@ -151,7 +151,7 @@ Create an integer-valued attribute.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -208,4 +208,4 @@ SyscIntegerAttribute syscGetIntegerAttributeVM(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

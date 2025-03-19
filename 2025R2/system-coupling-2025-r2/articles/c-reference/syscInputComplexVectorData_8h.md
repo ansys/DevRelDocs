@@ -1,6 +1,6 @@
 # File syscInputComplexVectorData.h
 
-![][C++]
+![][C]
 
 **Location**: `syscInputComplexVectorData.h`
 
@@ -45,7 +45,7 @@ click 1 "syscInputComplexVectorData_8h.md#syscInputComplexVectorData_8h"
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputComplexVectorData()
 ```
 
@@ -62,7 +62,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataDouble(double *const data, size_t dataSize)
 ```
 
@@ -87,7 +87,7 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataFloat(float *const data, size_t dataSize)
 ```
 
@@ -112,7 +112,7 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputSplitComplexCompactVectorDataDouble(double *const dataReal, double *const dataImag, size_t dataSize)
 ```
 
@@ -139,7 +139,7 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputSplitComplexCompactVectorDataFloat(float *const dataReal, float *const dataImag, size_t dataSize)
 ```
 
@@ -166,7 +166,7 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputCompactComplexSplitVectorDataDouble(double *const data1, double *const data2, double *const data3, size_t dataSize)
 ```
 
@@ -195,7 +195,7 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputCompactComplexSplitVectorDataFloat(float *const data1, float *const data2, float *const data3, size_t dataSize)
 ```
 
@@ -224,7 +224,7 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputSplitComplexSplitVectorDataDouble(double *const data1Real, double *const data1Imag, double *const data2Real, double *const data2Imag, double *const data3Real, double *const data3Imag, size_t dataSize)
 ```
 
@@ -259,7 +259,7 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputSplitComplexSplitVectorDataFloat(float *const data1Real, float *const data1Imag, float *const data2Real, float *const data2Imag, float *const data3Real, float *const data3Imag, size_t dataSize)
 ```
 
@@ -294,7 +294,7 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataDoubleDim(double *const data, size_t dataSize, enum SyscDimension dimension)
 ```
 
@@ -321,7 +321,7 @@ Create a complex input vector data access struct based on dimension.
 
 ![][public]
 
-```cpp
+```
 SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataFloatDim(float *const data, size_t dataSize, enum SyscDimension dimension)
 ```
 
@@ -345,7 +345,7 @@ Create a complex input vector data access struct based on dimension.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -441,4 +441,4 @@ SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataFloatDim(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

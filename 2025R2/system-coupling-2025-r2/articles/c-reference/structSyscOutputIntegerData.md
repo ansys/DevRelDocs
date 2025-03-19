@@ -1,6 +1,6 @@
 # Structure SyscOutputIntegerData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscOutputIntegerData.h` (line 37)
@@ -19,7 +19,7 @@ To create and/or initialize [SyscOutputIntegerData](structSyscOutputIntegerData.
 
 
 
-```cpp
+```
  SyscOutputIntegerData oid = syscGetOutputIntegerDataDouble(array,
 arraySize); 
 ```
@@ -39,7 +39,7 @@ arraySize);
 
 **Definition**: `syscOutputIntegerData.h` (line 98)
 
-```cpp
+```
 enum SyscPrimitiveType SyscOutputIntegerData::primitiveType
 ```
 
@@ -58,7 +58,7 @@ Primitive type.
 
 **Definition**: `syscOutputIntegerData.h` (line 39)
 
-```cpp
+```
 const void* SyscOutputIntegerData::data
 ```
 
@@ -77,7 +77,7 @@ Pointer to the data array.
 
 **Definition**: `syscOutputIntegerData.h` (line 40)
 
-```cpp
+```
 size_t SyscOutputIntegerData::size
 ```
 
@@ -90,4 +90,4 @@ Array size.
 **Type**: size_t
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

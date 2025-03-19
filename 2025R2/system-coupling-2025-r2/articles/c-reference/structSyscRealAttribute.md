@@ -1,6 +1,6 @@
 # Structure SyscRealAttribute
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscAttribute.h` (line 24)
@@ -25,7 +25,7 @@ Provide a struct for a real-valued attribute.
 
 **Definition**: `syscAttribute.h` (line 25)
 
-```cpp
+```
 char SyscRealAttribute::name[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -44,7 +44,7 @@ Unique name for this attribute.
 
 **Definition**: `syscAttribute.h` (line 26)
 
-```cpp
+```
 double SyscRealAttribute::value
 ```
 
@@ -63,7 +63,7 @@ Attribute value.
 
 **Definition**: `syscAttribute.h` (line 27)
 
-```cpp
+```
 SyscDimensionality SyscRealAttribute::dimensionality
 ```
 
@@ -82,7 +82,7 @@ Array dimensionality.
 
 **Definition**: `syscAttribute.h` (line 28)
 
-```cpp
+```
 int SyscRealAttribute::modifiable
 ```
 
@@ -95,4 +95,4 @@ Attribute is modifiable.
 **Type**: int
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

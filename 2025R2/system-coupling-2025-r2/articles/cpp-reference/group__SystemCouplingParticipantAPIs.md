@@ -1488,12 +1488,50 @@ This function may be called only during user friendly mapping workflow after Map
 
 **Return type**: TargetDataLocation(OpaqueDataAccess, bool)
 
+<a id="group__SystemCouplingParticipantAPIs_1ga5a236a23cab8fd793659e3ff0ded7aff"></a>
+### Typedef TargetDataExistenceChecker
+
+![][public]
+
+**Definition**: `FunctionTypes.hpp` (line 267)
+
+```cpp
+using sysc::TargetDataExistenceChecker = typedef bool()
+```
+
+Provide an alias for function prototype that checks if target data exists.
+
+this function may be called only during user friendly mapping workflow after map() command and before writetargetdata(), and is expected to return a boolean value indicating if target data exists. True value indicates that target data exists.
+
+
+
+**Return type**: bool()
+
+<a id="group__SystemCouplingParticipantAPIs_1gaf91c64729b5c36e4ed316a3f0fe533ff"></a>
+### Typedef TargetDataExistenceCheckerWithPointer
+
+![][public]
+
+**Definition**: `FunctionTypes.hpp` (line 277)
+
+```cpp
+using sysc::TargetDataExistenceCheckerWithPointer = typedef bool(OpaqueDataAccess)
+```
+
+Provide an alias for function prototype that checks if target data exists.
+
+this function may be called only during user friendly mapping workflow after map() command and before writetargetdata(), and is expected to return a boolean value indicating if target data exists. True value indicates that target data exists.
+
+
+
+**Return type**: bool(OpaqueDataAccess)
+
 <a id="group__SystemCouplingParticipantAPIs_1ga67496d998ace1dd2796a5a96f6356483"></a>
 ### Typedef ZoneCountAccess
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 263)
+**Definition**: `FunctionTypes.hpp` (line 282)
 
 ```cpp
 using sysc::ZoneCountAccess = typedef std::uint16_t(OpaqueDataAccess, const RegionName&)
@@ -1512,7 +1550,7 @@ Function prototype to get the number of zones for a given region.
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 270)
+**Definition**: `FunctionTypes.hpp` (line 289)
 
 ```cpp
 using sysc::SurfaceMeshMultiZoneAccess = typedef SurfaceMesh( OpaqueDataAccess, const RegionName&, std::uint16_t zoneIndex)
@@ -1532,7 +1570,7 @@ Certain restrictions apply:
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 279)
+**Definition**: `FunctionTypes.hpp` (line 298)
 
 ```cpp
 using sysc::VolumeMeshMultiZoneAccess = typedef VolumeMesh( OpaqueDataAccess, const RegionName&, std::uint16_t zoneIndex)
@@ -1551,7 +1589,7 @@ This function is provided for consistency only. Only one volume zone per region 
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 287)
+**Definition**: `FunctionTypes.hpp` (line 306)
 
 ```cpp
 using sysc::PointCloudMultiZoneAccess = typedef PointCloud( OpaqueDataAccess, const RegionName&, std::uint16_t zoneIndex)
@@ -1570,7 +1608,7 @@ This function is provided for consistency only. Only one point cloud zone per re
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 294)
+**Definition**: `FunctionTypes.hpp` (line 313)
 
 ```cpp
 using sysc::InputScalarDataMultiZoneAccess = typedef InputScalarData( OpaqueDataAccess, const RegionName&, const VariableName&, std::uint16_t zoneIndex)
@@ -1589,7 +1627,7 @@ Function prototype to get the input scalar data, given region name and zone inde
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 302)
+**Definition**: `FunctionTypes.hpp` (line 321)
 
 ```cpp
 using sysc::OutputScalarDataMultiZoneAccess = typedef OutputScalarData( OpaqueDataAccess, const RegionName&, const VariableName&, std::uint16_t zoneIndex)
@@ -1608,7 +1646,7 @@ Function prototype to get the output scalar data, given region name and zone ind
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 310)
+**Definition**: `FunctionTypes.hpp` (line 329)
 
 ```cpp
 using sysc::InputVectorDataMultiZoneAccess = typedef InputVectorData( OpaqueDataAccess, const RegionName&, const VariableName&, std::uint16_t zoneIndex)
@@ -1627,7 +1665,7 @@ Function prototype to get the input vector data, given region name and zone inde
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 318)
+**Definition**: `FunctionTypes.hpp` (line 337)
 
 ```cpp
 using sysc::OutputVectorDataMultiZoneAccess = typedef OutputVectorData( OpaqueDataAccess, const RegionName&, const VariableName&, std::uint16_t zoneIndex)
@@ -1646,7 +1684,7 @@ Function prototype to get the input vector data, given region name and zone inde
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 327)
+**Definition**: `FunctionTypes.hpp` (line 346)
 
 ```cpp
 using sysc::InputScalarVariableAccess = typedef InputScalarData(const std::string&, const std::string&)
@@ -1665,7 +1703,7 @@ This alias will be deprecated - use InputScalarDataAccess instead.
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 330)
+**Definition**: `FunctionTypes.hpp` (line 349)
 
 ```cpp
 using sysc::InputVectorVariableAccess = typedef InputVectorData(const std::string&, const std::string&)
@@ -1684,7 +1722,7 @@ This alias will be deprecated - use InputVectorDataAccess instead.
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 333)
+**Definition**: `FunctionTypes.hpp` (line 352)
 
 ```cpp
 using sysc::OutputScalarVariableAccess = typedef OutputScalarData(const std::string&, const std::string&)
@@ -1703,7 +1741,7 @@ This alias will be deprecated - use OutputScalarDataAccess instead.
 
 ![][public]
 
-**Definition**: `FunctionTypes.hpp` (line 336)
+**Definition**: `FunctionTypes.hpp` (line 355)
 
 ```cpp
 using sysc::OutputVectorVariableAccess = typedef OutputVectorData(const std::string&, const std::string&)

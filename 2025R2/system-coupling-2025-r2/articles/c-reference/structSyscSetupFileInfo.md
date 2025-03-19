@@ -1,6 +1,6 @@
 # Structure SyscSetupFileInfo
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscCommonTypes.h` (line 294)
@@ -13,7 +13,7 @@ To create and/or initialize the [SyscSetupFileInfo](structSyscSetupFileInfo.md#s
 
 
 
-```cpp
+```
 SyscSetupFileInfo setupFileInfo = syscGetSetupFileInfo("setup.scp");
 ```
 
@@ -31,7 +31,7 @@ SyscSetupFileInfo setupFileInfo = syscGetSetupFileInfo("setup.scp");
 
 **Definition**: `syscCommonTypes.h` (line 295)
 
-```cpp
+```
 char SyscSetupFileInfo::setupFileName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -50,7 +50,7 @@ File name.
 
 **Definition**: `syscCommonTypes.h` (line 296)
 
-```cpp
+```
 int SyscSetupFileInfo::restartsSupported
 ```
 
@@ -63,4 +63,4 @@ Do not use.
 **Type**: int
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

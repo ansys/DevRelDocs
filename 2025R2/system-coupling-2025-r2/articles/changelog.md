@@ -1,5 +1,15 @@
 # Changelog
 
+## Release notes for 2025 R1
+
+There are no API-breaking changes when updating from version 24.2 to version 25.1.
+
+### Attributes
+
+Attributes can now be added to participant as well as to variables.
+
+Attributes can now be marked as "modifiable", which determines whether the attribute value can be updated during the coupled analysis setup.
+
 ## Release notes for 2024 R2
 
 ### New APIs for create system coupling SetupInfo

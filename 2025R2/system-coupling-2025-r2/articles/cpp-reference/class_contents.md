@@ -4,6 +4,7 @@
 * [sysc::DataTransfer](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer): Provide a class for a data transfer.
 * [sysc::InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData): Provide a class for input complex scalar data.
 * [sysc::InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData): Provide a class for input complex vector data.
+* [sysc::InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData): Provide a class for input integer data.
 * [sysc::InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData): Provide a class for input scalar data.
 * [sysc::InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData): Provide a class for input vector data.
 * [sysc::IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute): Provide a class for an integer-valued attribute.

@@ -3,7 +3,7 @@
 ![][C++]
 ![][public]
 
-**Definition**: `PointCloud.hpp` (line 25)
+**Definition**: `PointCloud.hpp` (line 27)
 
 Provide a point cloud access class.
 
@@ -34,7 +34,7 @@ Provides read-only access to the point cloud for a given region.
 
 ![][public]
 
-**Definition**: `PointCloud.hpp` (line 29)
+**Definition**: `PointCloud.hpp` (line 31)
 
 ```cpp
 std::int64_t sysc::PointCloud::connectivityStamp {0}
@@ -53,7 +53,7 @@ Connectivity stamp. Update whenever point cloud properties, other than coordinat
 
 ![][public]
 
-**Definition**: `PointCloud.hpp` (line 33)
+**Definition**: `PointCloud.hpp` (line 35)
 
 ```cpp
 std::int64_t sysc::PointCloud::coordinatesStamp {0}
@@ -72,7 +72,7 @@ Nodal coordinates stamp. Update whenever coordinates get updated.
 
 ![][public]
 
-**Definition**: `PointCloud.hpp` (line 37)
+**Definition**: `PointCloud.hpp` (line 39)
 
 ```cpp
 std::int64_t sysc::PointCloud::partitioningStamp {0}
@@ -93,7 +93,7 @@ Partitioning stamp. Update whenever the point cloud is re-partitioned.
 
 ![][private]
 
-**Definition**: `PointCloud.hpp` (line 81)
+**Definition**: `PointCloud.hpp` (line 83)
 
 ```cpp
 OutputIntegerData sysc::PointCloud::m_nodeIds
@@ -112,7 +112,7 @@ OutputIntegerData sysc::PointCloud::m_nodeIds
 
 ![][private]
 
-**Definition**: `PointCloud.hpp` (line 82)
+**Definition**: `PointCloud.hpp` (line 84)
 
 ```cpp
 OutputVectorData sysc::PointCloud::m_nodeCoords

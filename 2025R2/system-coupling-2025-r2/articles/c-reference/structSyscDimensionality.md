@@ -1,6 +1,6 @@
 # Structure SyscDimensionality
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscCommonTypes.h` (line 68)
@@ -29,7 +29,7 @@ Provide a structure for dimensionality.
 
 **Definition**: `syscCommonTypes.h` (line 69)
 
-```cpp
+```
 double SyscDimensionality::length
 ```
 
@@ -48,7 +48,7 @@ Exponent of the length dimension.
 
 **Definition**: `syscCommonTypes.h` (line 70)
 
-```cpp
+```
 double SyscDimensionality::time
 ```
 
@@ -67,7 +67,7 @@ Exponent of the time dimension.
 
 **Definition**: `syscCommonTypes.h` (line 71)
 
-```cpp
+```
 double SyscDimensionality::mass
 ```
 
@@ -86,7 +86,7 @@ Exponent of the mass dimension.
 
 **Definition**: `syscCommonTypes.h` (line 72)
 
-```cpp
+```
 double SyscDimensionality::temperature
 ```
 
@@ -105,7 +105,7 @@ Exponent of the temperature dimension.
 
 **Definition**: `syscCommonTypes.h` (line 73)
 
-```cpp
+```
 double SyscDimensionality::amountOfSubstance
 ```
 
@@ -124,7 +124,7 @@ Exponent of the substance amount dimension.
 
 **Definition**: `syscCommonTypes.h` (line 74)
 
-```cpp
+```
 double SyscDimensionality::current
 ```
 
@@ -143,7 +143,7 @@ Exponent of the current dimension.
 
 **Definition**: `syscCommonTypes.h` (line 75)
 
-```cpp
+```
 double SyscDimensionality::luminousIntensity
 ```
 
@@ -162,7 +162,7 @@ Exponent of the luminosity dimension.
 
 **Definition**: `syscCommonTypes.h` (line 76)
 
-```cpp
+```
 double SyscDimensionality::angle
 ```
 
@@ -175,4 +175,4 @@ Exponent of the angle dimension.
 **Type**: double
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

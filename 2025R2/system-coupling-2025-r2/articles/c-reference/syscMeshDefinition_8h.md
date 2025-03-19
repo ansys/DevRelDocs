@@ -1,6 +1,6 @@
 # File syscMeshDefinition.h
 
-![][C++]
+![][C]
 
 **Location**: `syscMeshDefinition.h`
 
@@ -61,7 +61,7 @@ click 1 "syscMeshDefinition_8h.md#syscMeshDefinition_8h"
 
 ![][public]
 
-```cpp
+```
 SyscNodeData syscGetNodeData()
 ```
 
@@ -78,7 +78,7 @@ Returns an empty mesh node data access struct. All member will be assigned defau
 
 ![][public]
 
-```cpp
+```
 SyscNodeData syscGetNodeDataIC(SyscOutputIntegerData nodeIds, SyscOutputVectorData nodeCoords)
 ```
 
@@ -100,7 +100,7 @@ Create a mesh node data access struct, given node ids and node coords in same or
 
 ![][public]
 
-```cpp
+```
 SyscNodeData syscGetNodeDataC(SyscOutputVectorData nodeCoords)
 ```
 
@@ -121,7 +121,7 @@ Creates a mesh node data access struct, given node coordinates in ascending node
 
 ![][public]
 
-```cpp
+```
 SyscElementTypeData syscGetElementTypeDataEmpty()
 ```
 
@@ -138,7 +138,7 @@ Returns an empty mesh element type data access struct. All member will be assign
 
 ![][public]
 
-```cpp
+```
 SyscElementTypeData syscGetElementTypeData(SyscOutputIntegerData elemTypes)
 ```
 
@@ -159,7 +159,7 @@ Create an mesh element type data access struct, given element types.
 
 ![][public]
 
-```cpp
+```
 SyscElementNodeCountData syscGetElementNodeCountDataEmpty()
 ```
 
@@ -176,7 +176,7 @@ Returns an empty mesh element node count data access struct. All member will be 
 
 ![][public]
 
-```cpp
+```
 SyscElementNodeCountData syscGetElementNodeCountData(SyscOutputIntegerData elemNodeCount)
 ```
 
@@ -197,7 +197,7 @@ Create an mesh element node count data access struct, given element node counts.
 
 ![][public]
 
-```cpp
+```
 SyscElementNodeConnectivityData syscGetElementNodeConnectivityDataEmpty()
 ```
 
@@ -214,7 +214,7 @@ Returns an empty element-to-node connectivity data access struct. All member wil
 
 ![][public]
 
-```cpp
+```
 SyscElementNodeConnectivityData syscGetElementNodeConnectivityData(SyscOutputIntegerData elemNodeIds)
 ```
 
@@ -235,7 +235,7 @@ Create an element-to-node connectivity data access struct, given element node id
 
 ![][public]
 
-```cpp
+```
 SyscFaceCellConnectivityData syscGetFaceCellConnectivityDataEmpty()
 ```
 
@@ -252,7 +252,7 @@ Create empty face-to-cell connectivity.
 
 ![][public]
 
-```cpp
+```
 SyscFaceCellConnectivityData syscGetFaceCellConnectivityData(SyscOutputIntegerData cell0Ids, SyscOutputIntegerData cell1Ids)
 ```
 
@@ -274,7 +274,7 @@ Create face-to-cell connectivity given cell0 and cell1 arrays.
 
 ![][public]
 
-```cpp
+```
 SyscCellIdData syscGetCellIdDataEmpty()
 ```
 
@@ -291,7 +291,7 @@ Create empty cell id data.
 
 ![][public]
 
-```cpp
+```
 SyscCellIdData syscGetCellIdData(SyscOutputIntegerData cellIds)
 ```
 
@@ -312,7 +312,7 @@ Create cell id data given cell ids array.
 
 ![][public]
 
-```cpp
+```
 SyscElementIdData syscGetElementIdDataEmpty()
 ```
 
@@ -329,7 +329,7 @@ Create empty element id data.
 
 ![][public]
 
-```cpp
+```
 SyscElementIdData syscGetElementIdData(SyscOutputIntegerData elementIds)
 ```
 
@@ -350,7 +350,7 @@ Create cell id data given cell ids array.
 
 ![][public]
 
-```cpp
+```
 SyscFaceData syscGetFaceDataEmpty()
 ```
 
@@ -367,7 +367,7 @@ Create empty face data.
 
 ![][public]
 
-```cpp
+```
 SyscFaceData syscGetFaceDataITCNF(SyscElementIdData faceIds, SyscElementTypeData faceTypes, SyscElementNodeCountData faceNodeCounts, SyscElementNodeConnectivityData faceNodeConnectivity, SyscFaceCellConnectivityData faceCellConnectivity)
 ```
 
@@ -392,7 +392,7 @@ Create face data given face ids, types, node counts, node-to-face connectivity, 
 
 ![][public]
 
-```cpp
+```
 SyscFaceData syscGetFaceDataICNF(SyscElementIdData faceIds, SyscElementNodeCountData faceNodeCounts, SyscElementNodeConnectivityData faceNodeConnectivity, SyscFaceCellConnectivityData faceCellConnectivity)
 ```
 
@@ -416,7 +416,7 @@ Create face data given face ids, types, node-to-face connectivity, face-to-cell 
 
 ![][public]
 
-```cpp
+```
 SyscFaceData syscGetFaceDataITN(SyscElementIdData faceIds, SyscElementTypeData faceTypes, SyscElementNodeConnectivityData faceNodeConnectivity)
 ```
 
@@ -439,7 +439,7 @@ Create face data given face ids, types, node-to-face connectivity, face-to-cell 
 
 ![][public]
 
-```cpp
+```
 SyscFaceData syscGetFaceDataCN(SyscElementNodeCountData faceNodeCounts, SyscElementNodeConnectivityData faceNodeConnectivity)
 ```
 
@@ -461,7 +461,7 @@ Create face data given face node counts, node-to-face connectivity.
 
 ![][public]
 
-```cpp
+```
 SyscCellData syscGetCellDataEmpty()
 ```
 
@@ -478,7 +478,7 @@ Create empty cell data.
 
 ![][public]
 
-```cpp
+```
 SyscCellData syscGetCellDataITN(SyscElementIdData cellIds, SyscElementTypeData cellTypes, SyscElementNodeConnectivityData cellNodeConnectivity)
 ```
 
@@ -501,7 +501,7 @@ Create cell data given cell ids, types, cell-to-node connectivity.
 
 ![][public]
 
-```cpp
+```
 SyscCellData syscGetCellDataI(SyscElementIdData cellIds)
 ```
 
@@ -522,7 +522,7 @@ Create cell data given cell ids.
 
 ![][public]
 
-```cpp
+```
 SyscCellData syscGetCellDataTN(SyscElementTypeData cellTypes, SyscElementNodeConnectivityData cellNodeConnectivity)
 ```
 
@@ -541,7 +541,7 @@ Create cell data given cell types, cell-to-node connectivity.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -702,4 +702,4 @@ SyscCellData syscGetCellDataTN(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

@@ -1,6 +1,6 @@
 # File syscVariable.h
 
-![][C++]
+![][C]
 
 **Location**: `syscVariable.h`
 
@@ -47,7 +47,7 @@ click 1 "syscVariable_8h.md#syscVariable_8h"
 
 **Definition**: `syscVariable.h` (line 45)
 
-```cpp
+```
 typedef struct SyscVariable SyscVariable
 ```
 
@@ -59,7 +59,7 @@ To create and/or initialize the [SyscVariable](structSyscVariable.md#structSyscV
 
 
 
-```cpp
+```
 SyscVariable var = syscGetVariableTE(
   "Temperature", SyscScalar, 0, SyscNode);
 ```
@@ -75,7 +75,7 @@ SyscVariable var = syscGetVariableTE(
 
 ![][public]
 
-```cpp
+```
 SyscVariable syscGetVariable(const char *name)
 ```
 
@@ -124,7 +124,7 @@ Quantity type will default to unspecified.
 
 ![][public]
 
-```cpp
+```
 SyscVariable syscGetVariableDTELQD(const char *name, const char *displayName, enum SyscTensorType tensorType, int isExtensive, enum SyscLocation location, enum SyscQuantityType quantityType, enum SyscDataType dataType)
 ```
 
@@ -159,7 +159,7 @@ Create variable to be used in a coupled analysis.
 
 ![][public]
 
-```cpp
+```
 SyscVariable syscGetVariableTE(const char *name, enum SyscTensorType tensorType, int isExtensive, enum SyscLocation location)
 ```
 
@@ -196,7 +196,7 @@ Quantity type will default to unspecified.
 
 ![][public]
 
-```cpp
+```
 SyscVariable syscGetVariableTEQ(const char *name, const char *displayName, enum SyscTensorType tensorType, int isExtensive, enum SyscLocation location, enum SyscQuantityType quantityType)
 ```
 
@@ -229,7 +229,7 @@ Create variable to be used in a coupled analysis.
 
 ![][public]
 
-```cpp
+```
 SyscVariable syscGetVariableQ(const char *name, const char *displayName, enum SyscLocation location, enum SyscQuantityType quantityType)
 ```
 
@@ -248,7 +248,7 @@ The variable tensor type and is extensive properties will be inferred from the q
 
 
 
-```cpp
+```
 Quantity Type                     Tensor Type      Is Extensive
 ----------------------------------------------------------------
 Force                             Vector           True
@@ -281,7 +281,7 @@ If any other quantity type is specified, tensor type will be set to scalar and i
 
 ![][public]
 
-```cpp
+```
 SyscError syscVariableAddRealAttribute(SyscVariable variable, SyscRealAttribute attribute)
 ```
 
@@ -303,7 +303,7 @@ Add real-valued attribute to the variable.
 
 ![][public]
 
-```cpp
+```
 SyscError syscVariableAddIntegerAttribute(SyscVariable variable, SyscIntegerAttribute attribute)
 ```
 
@@ -325,7 +325,7 @@ Add integer-valued attribute to the variable.
 
 ![][public]
 
-```cpp
+```
 size_t syscVariableGetNumRealAttributes(SyscVariable variable)
 ```
 
@@ -346,7 +346,7 @@ Get number of real-valued attributes.
 
 ![][public]
 
-```cpp
+```
 size_t syscVariableGetNumIntegerAttributes(SyscVariable variable)
 ```
 
@@ -367,7 +367,7 @@ Get number of integer-valued attributes.
 
 ![][public]
 
-```cpp
+```
 SyscRealAttribute syscVariableGetRealAttribute(SyscVariable variable, size_t index)
 ```
 
@@ -389,7 +389,7 @@ Return the real-valued attribute at the given index.
 
 ![][public]
 
-```cpp
+```
 SyscIntegerAttribute syscVariableGetIntegerAttribute(SyscVariable variable, size_t index)
 ```
 
@@ -408,7 +408,7 @@ Return the integer-valued attribute at the given index.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -494,4 +494,4 @@ SyscIntegerAttribute syscVariableGetIntegerAttribute(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

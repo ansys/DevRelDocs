@@ -1,6 +1,6 @@
 # Structure SyscResultsInfo
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscCommonTypes.h` (line 314)
@@ -22,7 +22,7 @@ Provide a structure for writing results files.
 
 **Definition**: `syscCommonTypes.h` (line 315)
 
-```cpp
+```
 char SyscResultsInfo::baseFileName[SYSC_STRING_LENGTH][SYSC_STRING_LENGTH]
 ```
 
@@ -35,4 +35,4 @@ Base results file name.
 **Type**: char
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

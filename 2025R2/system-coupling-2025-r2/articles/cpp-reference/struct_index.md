@@ -12,6 +12,7 @@
 * [sysc::FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData): Describes face-to-cell connectivity.
 * [sysc::FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData): Face data access struct, provides read-only access to the mesh faces.
 * [sysc::HostAndPort](structsysc_1_1HostAndPort.md#structsysc_1_1HostAndPort): Provide a structure for host and port for remote connections.
+* [sysc::InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud): Provide a point cloud access class.
 * [sysc::MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus): Provide a struct that contains information about mesh validity.
 * [sysc::NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData): Node data access struct, provides read-only access to the mesh nodes.
 * [sysc::ParticipantInfo](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo): provide a structure for the participant information needed to connect to a System Coupling object

@@ -1,6 +1,6 @@
 # File syscCouplingInterface.h
 
-![][C++]
+![][C]
 
 **Location**: `syscCouplingInterface.h`
 
@@ -51,7 +51,7 @@ click 1 "syscCouplingInterface_8h.md#syscCouplingInterface_8h"
 
 **Definition**: `syscCouplingInterface.h` (line 47)
 
-```cpp
+```
 typedef struct SyscCouplingInterface SyscCouplingInterface
 ```
 
@@ -75,7 +75,7 @@ To create and/or initialize the [SyscCouplingInterface](structSyscCouplingInterf
 
 
 
-```cpp
+```
 SyscCouplingInterface reg = syscGetCouplingInterface("FSI"); 
 ```
 
@@ -90,7 +90,7 @@ SyscCouplingInterface reg = syscGetCouplingInterface("FSI");
 
 ![][public]
 
-```cpp
+```
 SyscCouplingInterface syscGetCouplingInterface(const char *name)
 ```
 
@@ -113,7 +113,7 @@ Create a coupling interface.
 
 ![][public]
 
-```cpp
+```
 SyscError syscAddSideOneRegion(const SyscCouplingInterface couplingInterface, const SyscRegion region)
 ```
 
@@ -163,7 +163,7 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 ![][public]
 
-```cpp
+```
 SyscError syscAddSideTwoRegion(const SyscCouplingInterface couplingInterface, const SyscRegion region)
 ```
 
@@ -213,7 +213,7 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 ![][public]
 
-```cpp
+```
 SyscError syscAddDataTransfer(SyscCouplingInterface couplingInterface, SyscDataTransfer dataTransfer)
 ```
 
@@ -235,7 +235,7 @@ Add the data transfer to the coupling interface.
 
 ![][public]
 
-```cpp
+```
 size_t syscCouplingInterfaceGetNumDataTransfers(SyscCouplingInterface couplingInterface)
 ```
 
@@ -256,7 +256,7 @@ Get number of data transfer for a given coupling interface.
 
 ![][public]
 
-```cpp
+```
 size_t syscCouplingInterfaceGetNumSideOneRegions(SyscCouplingInterface couplingInterface)
 ```
 
@@ -277,7 +277,7 @@ Get number of side one regions for a given coupling interface.
 
 ![][public]
 
-```cpp
+```
 size_t syscCouplingInterfaceGetNumSideTwoRegions(SyscCouplingInterface couplingInterface)
 ```
 
@@ -298,7 +298,7 @@ Get number of side two regions for a given coupling interface.
 
 ![][public]
 
-```cpp
+```
 SyscDataTransfer syscCouplingInterfaceGetDataTransfer(SyscCouplingInterface couplingInterface, size_t index)
 ```
 
@@ -320,7 +320,7 @@ Get the data transfer at specified index for a given coupling interface.
 
 ![][public]
 
-```cpp
+```
 SyscRegion syscCouplingInterfaceGetSideOneRegion(SyscCouplingInterface couplingInterface, size_t index)
 ```
 
@@ -342,7 +342,7 @@ Get the side one region at specified index for a given coupling interface.
 
 ![][public]
 
-```cpp
+```
 SyscRegion syscCouplingInterfaceGetSideTwoRegion(SyscCouplingInterface couplingInterface, size_t index)
 ```
 
@@ -361,7 +361,7 @@ Get the side two region at specified index for a given coupling interface.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -425,4 +425,4 @@ SyscRegion syscCouplingInterfaceGetSideTwoRegion(
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

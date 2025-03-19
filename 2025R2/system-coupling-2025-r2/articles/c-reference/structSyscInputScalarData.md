@@ -1,6 +1,6 @@
 # Structure SyscInputScalarData
 
-![][C++]
+![][C]
 ![][public]
 
 **Definition**: `syscInputScalarData.h` (line 40)
@@ -19,7 +19,7 @@ To create and/or initialize [SyscInputScalarData](structSyscInputScalarData.md#s
 
 
 
-```cpp
+```
 SyscInputScalarData isd = syscGetInputScalarDataDouble(array, arraySize);
 ```
 
@@ -38,7 +38,7 @@ SyscInputScalarData isd = syscGetInputScalarDataDouble(array, arraySize);
 
 **Definition**: `syscInputScalarData.h` (line 77)
 
-```cpp
+```
 enum SyscPrimitiveType SyscInputScalarData::primitiveType
 ```
 
@@ -57,7 +57,7 @@ Primitive type.
 
 **Definition**: `syscInputScalarData.h` (line 42)
 
-```cpp
+```
 void* SyscInputScalarData::data
 ```
 
@@ -76,7 +76,7 @@ Pointer to the data array.
 
 **Definition**: `syscInputScalarData.h` (line 43)
 
-```cpp
+```
 size_t SyscInputScalarData::size
 ```
 
@@ -89,4 +89,4 @@ Array size.
 **Type**: size_t
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)

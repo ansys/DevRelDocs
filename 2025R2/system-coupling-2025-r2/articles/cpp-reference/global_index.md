@@ -130,6 +130,7 @@
 * [empty](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a0ab7174f1af2542375c83f264746966d) Function
 * [empty](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1ad7c8bad4fe00dc8e31160925a811eb5a) Function
 * [empty](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a3d23dad57825da22f06f1572f919b879) Function
+* [empty](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1aa1cac22d87bc3ae31320d794bc255f8d) Function
 * [empty](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1ac7440118cc57a71e6d25aeb9184d3693) Function
 * [empty](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a4ce74ce70cf4f3b150392bc2e622f23e) Function
 * [empty](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1ade274ee7bd0e02ea712cfac8c9c3df1e) Function
@@ -183,6 +184,7 @@
 * [getCellNodeConnectivity](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a3bb98664fc0827d3ea1317ca034f493c) Function
 * [getCellTypes](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a159cf62afda4022acfbd2f5cbccfca7c) Function
 * [getCurrentTimeStep](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6ab306d83db2610887c8fb18c554eba6) Function
+* [getData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a315827bc95be67c62d535f68f35a1c37) Function
 * [getData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a70fafa6880145e0618cd828e1c7eb574) Function
 * [getData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData_1a5260a1044cbf48fc08861592f27ef830) Function
 * [getData](classsysc_1_1OutputScalarData.md#classsysc_1_1OutputScalarData_1a7bbe6a6c38666b79590fd852b223c1ac) Function
@@ -211,6 +213,7 @@
 * [getDataTransfer](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a712f091ef0bb543a6539c32fd6762fa8) Function
 * [getDataType](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a19522f922326595ae0eeafbb3807136b) Function
 * [getDataType](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a05fbe8f5573c5eac873f63ffda747134) Function
+* [getDataType](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1adb4d5c60740aa878670c1c35aabe31e4) Function
 * [getDataType](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a6468902b8f2e27053c09c25ed05562de) Function
 * [getDataType](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a36c2f1ad1395f88faf59a1b6da0db099) Function
 * [getDataType](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1aa9fde7656420e140ec4b575dc27e3ed1) Function
@@ -373,6 +376,22 @@
 * [InputComplexVectorData.hpp](InputComplexVectorData_8hpp.md#InputComplexVectorData_8hpp) File
 * [InputComplexVectorDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0cc318418bce4c3aa356f91798e962e7) Typedef
 * [InputComplexVectorDataAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf213c1ae6a1bff131c598f99ad9320b4) Typedef
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a197118b58aae0a61e10db7c99daf8d3c) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a2190dea65690927f4353cdb890747921) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a499f4796323d0ef016854b3a2c5c44a3) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1af0fe70c940080d3d2e87cfdae14372e1) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a5e662f8b291be3db1757fd0b66c437d5) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1aedd1b20bd8278de88a20dbaa32901fde) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1afa9b5ddc4c3205decc140ceb2fc40041) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a1ae9b165a1aaa28b5d972c0e4dc82045) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a6f6c46e793a72b74015449828d6eb0e4) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1ac30ff24c59c9733c4dabf4484e279817) Function
+* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a3fd5fbce5aaafb0ab45216cbe89f2923) Function
+* [InputIntegerData.hpp](InputIntegerData_8hpp.md#InputIntegerData_8hpp) File
+* [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1ae67c4139bb8d196e0f9de29baf756d55) Function
+* [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1a6139af17846427589329324751f4273d) Function
+* [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1abc9f138d29d16d7511152cfaf504f0bc) Function
+* [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1a486bb0909187757199609c7478d5e6b1) Function
 * [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1afb2631211cf5550a612983438f71479b) Function
 * [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1aaa8a75a57967d0e25b33fe88d77553a5) Function
 * [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a90bffff1edbccc52b9807af3881c11ac) Function
@@ -440,6 +459,7 @@
 ## M
 
 * [m\_cells](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a190c941c8bc341447d5c3c3fe1485b97) Variable
+* [m\_data](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1afa1d6713b265b457a013f9e7c73ac6d7) Variable
 * [m\_data](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a842acad8ad4a864a4af2158498d52fae) Variable
 * [m\_data](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData_1a09cec7a96f71f3c09778dbd39d38a5c1) Variable
 * [m\_data](classsysc_1_1OutputScalarData.md#classsysc_1_1OutputScalarData_1a4334fce9994c8ed8815e768a14836d10) Variable
@@ -468,6 +488,7 @@
 * [m\_dataTransfers](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a72a7d21e64692ba517f920301d7bc6ff) Variable
 * [m\_dataType](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1af0025f6a082772a145e8dc3518f421e4) Variable
 * [m\_dataType](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a71915040696a9b62ae36adbdffd15159) Variable
+* [m\_dataType](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a5d0ed3f158f7e14f47f5d9b7c1bd53d5) Variable
 * [m\_dataType](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1aa5f494154b74b3fad2d8b9b35294e887) Variable
 * [m\_dataType](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a1ba66e8dc4bcd722ecafb2d666cbf400) Variable
 * [m\_dataType](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a726ea48a7544291ef53d65c6561b14de) Variable
@@ -526,6 +547,7 @@
 * [m\_sideTwoRegionsNameToIndex](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a53fce6f5fa4c32b40c28fe0053740327) Variable
 * [m\_size](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1aa528e45207016d04e24ede1521684342) Variable
 * [m\_size](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a5a9e0bdbc9ed3b070c72fb7b219d1c64) Variable
+* [m\_size](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1aeaf16d21cbab591e42717ecf1f9b8ff8) Variable
 * [m\_size](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a26eff37dacc07de408859505661bfcc3) Variable
 * [m\_size](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a21afc6c3bcbb03d3074a1454b7d2d164) Variable
 * [m\_size](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a5786039737c03fb8873ceb8cb5a04cad) Variable
@@ -558,12 +580,14 @@
 ## N
 
 * [Node](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ggaced2664a481a6250f46140266dd38c2aa9551eb028b9c9b5ac93773a676d2c843) Enumerator
+* [nodeCoords](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1a40b5c94bf58f18dd94e6ed15d98d2986) Variable
 * [nodeCoords](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1abdcd98cafd25df6b765a63447f8f31a4) Variable
 * [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a7ed7002dbee2dc944811525ea916815c) Function
 * [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a31950cfc2da55dd8da96b7f33f90fef0) Function
 * [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a69294cbb76cbfb7736b77c3b15518407) Function
 * [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1ae5b86f2e6b88d7354620bc6013e7301c) Function
 * [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1acc9254f0f146c5bffc87b4f23aa74507) Function
+* [nodeIds](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1ab59e7177cf2fe369b073649397d57f03) Variable
 * [nodeIds](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a2b8d2f98597580854d5698d9a600f367) Variable
 * [NonFatalError](classsysc_1_1NonFatalError.md#classsysc_1_1NonFatalError_1a11fc4107b05f61a8e8bfeb6e70fe3b0f) Function
 * [NonFatalError.hpp](NonFatalError_8hpp.md#NonFatalError_8hpp) File
@@ -595,6 +619,10 @@
 * [operator=](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1ac229c985802f1d806d13460ce35b4ae6) Function
 * [operator=](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1ac1c37978bc9252b340862c4600d77b5e) Function
 * [operator=](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a4dade0f1e2dd51bc4bae1abba988b53c) Function
+* [operator=](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a95fd23b25a5554fc8b40767dd38f4bea) Function
+* [operator=](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1a75e6ecca2a20cb3c2da3b5abfa93f1de) Function
+* [operator=](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1aecd2053fec8df60f4fe63d879b83786d) Function
+* [operator=](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud_1abe24d57a3019f736a4500eb10d996a06) Function
 * [operator=](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a2fe5667de3d73e4c317d3ef1bc3c8893) Function
 * [operator=](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a62d7585f5fdad7c94ff4fefb8f38989e) Function
 * [operator=](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a212a413871c450f03411b1db5c9e1961) Function
@@ -771,6 +799,18 @@
 * [RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1ad46b89c811a79901af549e50173ca5f8) Function
 * [RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1a5fc9075ddc9f02df2fba129abdddfe85) Function
 * [rearrange](namespacesysc.md#Datashipper_8hpp_1aec7b7f49f20e797297505a85e0dc410a) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1a536f7a434c2e5b36d033cdce99072b8a) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1ae9dbe384c0799aa4c0ee244c4fb3d3b2) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1a31beddf1436d2416b97f69fb1f09313a) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1a0c6152254e60d336cb0a64270f7ffbe0) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1a9e13aa8466737e21a74730f8c570f1db) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1a3e73aa9be927d6eb71c55d3c240a1ba8) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1a31154f2279492de6bdd155c638ab153a) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1a389f8dbbc03c72e04648df49bb759f86) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1a16a75516f9b72b42ba82ba9b390a938d) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1abe9be964c7ac120a06b43fb0e730d0a4) Function
+* [rearrange](namespacesysc.md#Datashipper_8hpp_1a36112ccd3813e1b463ced1fc13f7c6cc) Function
+* [reduceAnd](namespacesysc.md#SyscComm_8hpp_1a7dfc4e837c274f4101120cb95b0d6117) Function
 * [reduceMax](namespacesysc.md#SyscComm_8hpp_1ae23b912a93ea9234dd8ba913c9dcd943) Function
 * [reduceSum](namespacesysc.md#SyscComm_8hpp_1a3634907b260bd70e565d315659ad90c1) Function
 * [Region](classsysc_1_1Region.md#classsysc_1_1Region_1a9a3643efd6eb393f07a5e0db931dc71d) Function
@@ -781,6 +821,8 @@
 * [Region.hpp](Region_8hpp.md#Region_8hpp) File
 * [RegionDiscretizationType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga59080d26b5838a6c678ee5f0d6ff63a4) Enumeration type
 * [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) Typedef
+* [registerDoesTargetDataExist](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a756e4452ee89f8eddf521a57d33d20e4) Function
+* [registerDoesTargetDataExist](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a96819f69d3044bc1f1a6f70c06da90cb) Function
 * [registerInputComplexScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ae65892603ab7d6f24d3a1cbc80af7edb) Function
 * [registerInputComplexScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a878ad16bd59726553ee0a3de9d2bca06) Function
 * [registerInputComplexVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a58064b5079b01898a6951e366ea86331) Function
@@ -846,6 +888,7 @@
 * [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1ac9105498d41a595248b3a1d9f54086da) Function
 * [size](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a9034067801b82ce51fb707e45517d08b) Function
 * [size](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a64d76b7df1fe0ce877cf9297cc584210) Function
+* [size](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData_1ac76f3e89875fbb2f344fbaee9cda407e) Function
 * [size](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1ab30285336db3ff38293904e8dbe6583d) Function
 * [size](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a421e44762b642930822a119ae59751eb) Function
 * [size](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a961c32a17e1d33ceb346c15768b5290a) Function
@@ -886,6 +929,8 @@
 * [sysc::HostAndPort](structsysc_1_1HostAndPort.md#structsysc_1_1HostAndPort) Structure
 * [sysc::InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData) Class
 * [sysc::InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData) Class
+* [sysc::InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData) Class
+* [sysc::InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud) Structure
 * [sysc::InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) Class
 * [sysc::InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) Class
 * [sysc::IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute) Class
@@ -928,6 +973,8 @@
 
 * [TargetDataCreation](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23c842f309f11150deb4dda666115091) Typedef
 * [TargetDataCreationWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga62d0a9b9a904f4345ff12f30b052e278) Typedef
+* [TargetDataExistenceChecker](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga5a236a23cab8fd793659e3ff0ded7aff) Typedef
+* [TargetDataExistenceCheckerWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf91c64729b5c36e4ed316a3f0fe533ff) Typedef
 * [TargetDataLocation](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga3733298ae4c96b207d4f4caf77dfad7d) Typedef
 * [temperature](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1af8eb2b8fa9136d9804ecb5dcd7fe6d48) Variable
 * [Temperature](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ggab4cbdd3230a1cb38956f5b93f941f89ba832a4fab2f6f7c48b8ff7346039ecdbe) Enumerator

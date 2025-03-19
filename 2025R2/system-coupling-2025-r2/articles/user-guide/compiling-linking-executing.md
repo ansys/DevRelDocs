@@ -165,11 +165,13 @@ The following compiler and MPI versions were used:
 #### C++
 
 ```bash
-g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolver ChannelFlowMockSolver.cpp -lSysC.SystemCouplingParticipant -lmpi_wrapper 
+g++ -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolver ChannelFlowMockSolver.cpp -lSysC.SystemCouplingParticipant -lmpi_wrapper 
 ```
 
-Note that it is important to add the `-D_GLIBCXX_USE_CXX11_ABI=0` compiler flag. If this flag
-cannot be used, then it is recommended that you use the C APIs.
+Note that the participant library was updated to use ABI=1 in version 2025 R2.
+The previously required compiler flag, `-D_GLIBCXX_USE_CXX11_ABI=0`, is no longer
+needed. Either update the build command to use `-D_GLIBCXX_USE_CXX11_ABI=1` (the default value) or remove
+the flag entirely. If the executable can not be compiled with ABI=1, then we recommend using the C APIs.
 
 #### C
 
@@ -194,7 +196,7 @@ ifort -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCoup
 #### C++ parallel version using Intel MPI
 
 ```bash
-g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin  -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolverMPI ChannelFlowMockSolverMPI.cpp -lSysC.SystemCouplingParticipant -lmpi -lmpi_wrapper
+g++ -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<IntelMPIPath>/intel64/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin  -L<IntelMPIPath>/intel64/lib/release -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolverMPI ChannelFlowMockSolverMPI.cpp -lSysC.SystemCouplingParticipant -lmpi -lmpi_wrapper
 ```
 
 #### C parallel version using Intel MPI
@@ -220,7 +222,7 @@ ifort -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCoup
 #### C++ parallel version using Fluent MPI Wrapper
 
 ```bash
-g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolverMPI ChannelFlowMockSolverMPI.cpp -lSysC.SystemCouplingParticipant -lmpi_wrapper
+g++ -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/include -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin -L<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub -o ChannelFlowMockSolverMPI ChannelFlowMockSolverMPI.cpp -lSysC.SystemCouplingParticipant -lmpi_wrapper
 ```
 
 #### Fortran parallel version using Fluent MPI Wrapper
@@ -273,7 +275,7 @@ Now, execute the program in standalone mode locally using two processes:
 #### Proxy C++
 
 ```bash
-g++ -D_GLIBCXX_USE_CXX11_ABI=0 -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include  -o ProxyTester <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/ProxyTester.cpp <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/DynamicLibrary.cpp <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/ParticipantLibrary.cpp -ldl
+g++ -std=c++11 -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include  -o ProxyTester <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/ProxyTester.cpp <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/DynamicLibrary.cpp <ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/SystemCouplingParticipant/Proxy/ParticipantLibrary.cpp -ldl
 ```
 
 #### Proxy Fortran

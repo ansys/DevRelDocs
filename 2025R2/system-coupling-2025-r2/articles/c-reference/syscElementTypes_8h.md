@@ -1,6 +1,6 @@
 # File syscElementTypes.h
 
-![][C++]
+![][C]
 
 **Location**: `syscElementTypes.h`
 
@@ -39,7 +39,7 @@ click 1 "syscElementTypes_8h.md#syscElementTypes_8h"
 
 **Definition**: `syscElementTypes.h` (line 238)
 
-```cpp
+```
 enum SyscElementTypes {
   SyscTri3 = 5,
   SyscTri6 = 6,
@@ -164,7 +164,7 @@ Arbitrary polyhedron.
 
 ## Source
 
-```cpp
+```
 /*
 * Copyright ANSYS, Inc. Unauthorized use, distribution, or duplication is prohibited.
 */
@@ -203,4 +203,4 @@ enum SyscElementTypes {
 ```
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+[C]: https://img.shields.io/badge/language-C-blue (C)
