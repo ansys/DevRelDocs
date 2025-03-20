@@ -58,4 +58,4 @@
     - name: Appendix D - Using OpenTD Interactively with the C# Interactive Compiler
       href: getting-started/appendix-D-using-opentd-with-csharp-compiler.md
 - name: Changelog
-  href: getting-started/changelog.md
+  href: changelog.md
