@@ -1,9 +1,3 @@
----
-category: result
-plugin: mapdl
-license: None
----
-
 # result:cyclic expanded element nodal forces
 
 ## Description

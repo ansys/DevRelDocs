@@ -1,9 +1,3 @@
----
-category: min_max
-plugin: core
-license: any_dpf_supported_increments
----
-
 # min_max:incremental over field
 
 ## Description

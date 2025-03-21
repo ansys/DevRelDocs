@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: None
----
-
 # result:write motion dfmf file
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: compression
-plugin: core
-license: None
----
-
 # compression:apply zfp
 
 ## Description

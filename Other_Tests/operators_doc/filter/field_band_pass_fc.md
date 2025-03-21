@@ -1,9 +1,3 @@
----
-category: filter
-plugin: core
-license: any_dpf_supported_increments
----
-
 # filter:band pass (fields container)
 
 ## Description

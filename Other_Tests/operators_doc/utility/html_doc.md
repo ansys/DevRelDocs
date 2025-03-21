@@ -1,9 +1,3 @@
----
-category: utility
-plugin: core
-license: None
----
-
 # utility:html doc
 
 ## Description

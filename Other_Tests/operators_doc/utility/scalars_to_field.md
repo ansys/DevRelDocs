@@ -1,9 +1,3 @@
----
-category: utility
-plugin: core
-license: None
----
-
 # utility:convert to field
 
 ## Description

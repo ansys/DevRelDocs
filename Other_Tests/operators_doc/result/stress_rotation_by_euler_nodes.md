@@ -1,9 +1,3 @@
----
-category: result
-plugin: mapdl
-license: None
----
-
 # result:stress solution to global cs
 
 ## Description

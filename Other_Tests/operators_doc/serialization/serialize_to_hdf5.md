@@ -1,9 +1,3 @@
----
-category: serialization
-plugin: core
-license: None
----
-
 # serialization:serialize to hdf5
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: utility
-plugin: core
-license: None
----
-
 # utility:assemble scalars to matrix fc
 
 ## Description

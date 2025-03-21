@@ -1,9 +1,3 @@
----
-category: invariant
-plugin: core
-license: None
----
-
 # invariant:principal invariants (field)
 
 ## Description

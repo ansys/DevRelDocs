@@ -1,9 +1,3 @@
----
-category: utility
-plugin: core
-license: None
----
-
 # utility:voigt to standard strains (fields container)
 
 ## Description

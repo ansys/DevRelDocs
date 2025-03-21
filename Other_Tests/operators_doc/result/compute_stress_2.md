@@ -1,9 +1,3 @@
----
-category: result
-plugin: live post
-license: None
----
-
 # result:compute stress 2
 
 ## Description

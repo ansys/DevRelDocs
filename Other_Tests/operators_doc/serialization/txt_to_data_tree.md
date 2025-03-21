@@ -1,9 +1,3 @@
----
-category: serialization
-plugin: core
-license: None
----
-
 # serialization:txt to data tree
 
 ## Description

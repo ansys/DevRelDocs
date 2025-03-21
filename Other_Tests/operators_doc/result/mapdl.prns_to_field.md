@@ -1,9 +1,3 @@
----
-category: result
-plugin: mapdl
-license: None
----
-
 # result:prns to field
 
 ## Description

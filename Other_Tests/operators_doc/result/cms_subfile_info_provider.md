@@ -1,9 +1,3 @@
----
-category: result
-plugin: mapdl
-license: None
----
-
 # result:cms subfile info provider
 
 ## Description

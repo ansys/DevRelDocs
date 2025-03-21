@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: None
----
-
 # result:num surface status changes
 
 ## Description

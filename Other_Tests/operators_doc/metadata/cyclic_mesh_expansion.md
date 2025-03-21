@@ -1,9 +1,3 @@
----
-category: metadata
-plugin: core
-license: None
----
-
 # metadata:cyclic mesh expansion
 
 ## Description

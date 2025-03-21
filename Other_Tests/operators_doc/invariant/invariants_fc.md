@@ -1,9 +1,3 @@
----
-category: invariant
-plugin: core
-license: None
----
-
 # invariant:scalar invariants (fields container)
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: None
----
-
 # result:beam axial stress (LSDyna)
 
 ## Description

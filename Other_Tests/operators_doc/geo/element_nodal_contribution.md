@@ -1,9 +1,3 @@
----
-category: geo
-plugin: core
-license: any_dpf_supported_increments
----
-
 # geo:element nodal contribution
 
 ## Description

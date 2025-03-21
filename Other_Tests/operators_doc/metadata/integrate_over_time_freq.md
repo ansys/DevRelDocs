@@ -1,9 +1,3 @@
----
-category: metadata
-plugin: core
-license: any_dpf_supported_increments
----
-
 # metadata:integrate over time freq
 
 ## Description

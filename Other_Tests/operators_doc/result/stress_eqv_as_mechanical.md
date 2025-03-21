@@ -1,9 +1,3 @@
----
-category: result
-plugin: mechanical_results
-license: None
----
-
 # result:von mises stresses as mechanical
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: averaging
-plugin: core
-license: any_dpf_supported_increments
----
-
 # averaging:nodal fraction (fields container)
 
 ## Description

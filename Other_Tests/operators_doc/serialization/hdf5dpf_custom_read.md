@@ -1,9 +1,3 @@
----
-category: serialization
-plugin: core
-license: None
----
-
 # serialization:hdf5dpf custom read
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: geo
-plugin: core
-license: any_dpf_supported_increments
----
-
 # geo:normals provider nl (nodes, faces, or elements)
 
 ## Description

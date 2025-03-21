@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: None
----
-
 # result:material property of element
 
 ## Description

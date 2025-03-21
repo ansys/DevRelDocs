@@ -1,9 +1,3 @@
----
-category: invariant
-plugin: mapdl
-license: None
----
-
 # invariant:convertnum bcs to nod
 
 ## Description

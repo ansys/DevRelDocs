@@ -1,9 +1,3 @@
----
-category: metadata
-plugin: mapdl
-license: None
----
-
 # metadata:cyclic support provider
 
 ## Description

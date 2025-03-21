@@ -1,9 +1,3 @@
----
-category: utility
-plugin: core
-license: None
----
-
 # utility:make producer consumer for each iterator
 
 ## Description

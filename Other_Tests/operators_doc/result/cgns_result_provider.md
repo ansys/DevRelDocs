@@ -1,9 +1,3 @@
----
-category: result
-plugin: cgns
-license: None
----
-
 # result:cgns result provider
 
 ## Description

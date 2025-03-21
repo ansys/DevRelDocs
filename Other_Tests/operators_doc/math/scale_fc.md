@@ -1,9 +1,3 @@
----
-category: math
-plugin: core
-license: None
----
-
 # math:scale (fields container)
 
 ## Description

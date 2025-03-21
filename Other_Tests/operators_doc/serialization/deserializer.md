@@ -1,9 +1,3 @@
----
-category: serialization
-plugin: core
-license: None
----
-
 # serialization:deserializer
 
 ## Description

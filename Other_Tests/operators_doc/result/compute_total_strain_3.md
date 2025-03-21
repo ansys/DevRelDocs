@@ -1,9 +1,3 @@
----
-category: result
-plugin: live post
-license: None
----
-
 # result:compute total strain 3
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: None
----
-
 # result:elastic strain max_shear
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: server
-plugin: grpc
-license: None
----
-
 # server:grpc shutdown server
 
 ## Description
