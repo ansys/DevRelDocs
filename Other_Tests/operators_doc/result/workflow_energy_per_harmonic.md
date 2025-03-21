@@ -1,9 +1,3 @@
----
-category: result
-plugin: mapdl
-license: any_dpf_supported_increments
----
-
 # result:workflow energy per harmonic
 
 ## Description

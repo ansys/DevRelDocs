@@ -1,9 +1,3 @@
----
-category: min_max
-plugin: core
-license: None
----
-
 # min_max:over field
 
 ## Description

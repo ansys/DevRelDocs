@@ -1,9 +1,3 @@
----
-category: invariant
-plugin: mapdl
-license: None
----
-
 # invariant:eigen vectors (on fields container)
 
 ## Description

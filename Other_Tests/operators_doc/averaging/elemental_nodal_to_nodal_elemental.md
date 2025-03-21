@@ -1,9 +1,3 @@
----
-category: averaging
-plugin: core
-license: None
----
-
 # averaging:elemental nodal to nodal elemental (field)
 
 ## Description

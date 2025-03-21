@@ -1,9 +1,3 @@
----
-category: math
-plugin: core
-license: None
----
-
 # math:^2 (fields container)
 
 ## Description

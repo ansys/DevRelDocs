@@ -1,9 +1,3 @@
----
-category: mapping
-plugin: core
-license: None
----
-
 # mapping:scoping on coordinates
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: geo
-plugin: core
-license: any_dpf_supported_increments
----
-
 # geo:rotate in cylindrical coordinates (fields container)
 
 ## Description

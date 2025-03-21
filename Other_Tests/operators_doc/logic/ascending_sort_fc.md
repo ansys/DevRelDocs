@@ -1,9 +1,3 @@
----
-category: logic
-plugin: core
-license: any_dpf_supported_increments
----
-
 # logic:ascending sort (fields container)
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: math
-plugin: core
-license: None
----
-
 # math:derivate (complex fields)
 
 ## Description

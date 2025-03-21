@@ -1,9 +1,3 @@
----
-category: serialization
-plugin: core
-license: any_dpf_supported_increments
----
-
 # serialization:import symbolic workflow
 
 ## Description

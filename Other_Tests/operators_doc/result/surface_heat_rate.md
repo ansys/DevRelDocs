@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: None
----
-
 # result:surface heat rate
 
 ## Description

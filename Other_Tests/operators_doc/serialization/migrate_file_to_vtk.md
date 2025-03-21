@@ -1,9 +1,3 @@
----
-category: serialization
-plugin: vtk
-license: None
----
-
 # serialization:migrate to vtk
 
 ## Description

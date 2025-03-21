@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: None
----
-
 # result:global energy ratio without eroded energy (LSDyna)
 
 ## Description

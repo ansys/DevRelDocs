@@ -1,9 +1,3 @@
----
-category: filter
-plugin: core
-license: any_dpf_supported_increments
----
-
 # filter:high pass (field)
 
 ## Description

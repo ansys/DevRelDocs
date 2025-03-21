@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: None
----
-
 # result:part eroded kinetic energy (LSDyna)
 
 ## Description

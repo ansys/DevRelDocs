@@ -1,9 +1,3 @@
----
-category: averaging
-plugin: core
-license: None
----
-
 # averaging:nodal extend to mid nodes (field)
 
 ## Description

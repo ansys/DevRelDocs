@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: any_dpf_supported_increments
----
-
 # result:members in bending not certified
 
 ## Description

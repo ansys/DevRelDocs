@@ -1,9 +1,3 @@
----
-category: mesh
-plugin: mesh
-license: None
----
-
 # mesh:decimate mesh
 
 ## Description

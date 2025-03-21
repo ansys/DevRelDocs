@@ -1,9 +1,3 @@
----
-category: mesh
-plugin: core
-license: None
----
-
 # mesh:wireframe
 
 ## Description

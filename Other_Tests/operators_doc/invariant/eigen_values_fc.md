@@ -1,9 +1,3 @@
----
-category: invariant
-plugin: core
-license: None
----
-
 # invariant:eigen values (fields container)
 
 ## Description

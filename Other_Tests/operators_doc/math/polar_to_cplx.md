@@ -1,9 +1,3 @@
----
-category: math
-plugin: core
-license: None
----
-
 # math:polar to complex fields
 
 ## Description

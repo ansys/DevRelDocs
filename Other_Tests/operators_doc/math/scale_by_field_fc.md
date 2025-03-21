@@ -1,9 +1,3 @@
----
-category: math
-plugin: core
-license: None
----
-
 # math:dot (by scalar field) (fields container)
 
 ## Description

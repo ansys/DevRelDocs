@@ -1,9 +1,3 @@
----
-category: math
-plugin: core
-license: None
----
-
 # math:cross product (fields container)
 
 ## Description

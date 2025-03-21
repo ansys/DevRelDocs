@@ -1,9 +1,3 @@
----
-category: mesh
-plugin: core
-license: None
----
-
 # mesh:combine levelset
 
 ## Description

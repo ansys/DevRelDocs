@@ -1,9 +1,3 @@
----
-category: result
-plugin: mapdl
-license: None
----
-
 # result:remove rigid body motion (fields container)
 
 ## Description

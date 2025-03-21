@@ -1,9 +1,3 @@
----
-category: serialization
-plugin: vtk
-license: None
----
-
 # serialization:vtk to fields
 
 ## Description

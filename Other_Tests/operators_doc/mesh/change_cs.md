@@ -1,9 +1,3 @@
----
-category: mesh
-plugin: core
-license: any_dpf_supported_increments
----
-
 # mesh:change cs (meshes)
 
 ## Description

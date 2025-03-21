@@ -1,9 +1,3 @@
----
-category: invariant
-plugin: core
-license: any_dpf_supported_increments
----
-
 # invariant:segalman von mises eqv (fields container)
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: logic
-plugin: core
-license: None
----
-
 # logic:same fields container?
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: utility
-plugin: core
-license: None
----
-
 # utility:merge fc to fc field matrices
 
 ## Description

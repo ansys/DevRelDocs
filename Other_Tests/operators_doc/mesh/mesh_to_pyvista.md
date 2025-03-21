@@ -1,9 +1,3 @@
----
-category: mesh
-plugin: vtk
-license: None
----
-
 # mesh:mesh to pyvista
 
 ## Description

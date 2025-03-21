@@ -1,9 +1,3 @@
----
-category: math
-plugin: core
-license: any_dpf_supported_increments
----
-
 # math:modal superposition
 
 ## Description

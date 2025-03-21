@@ -1,9 +1,3 @@
----
-category: math
-plugin: core
-license: None
----
-
 # math:relative error
 
 ## Description

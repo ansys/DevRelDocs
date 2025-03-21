@@ -1,9 +1,3 @@
----
-category: mapping
-plugin: core
-license: None
----
-
 # mapping:prep sampling fft
 
 ## Description

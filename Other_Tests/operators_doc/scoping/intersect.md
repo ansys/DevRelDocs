@@ -1,9 +1,3 @@
----
-category: scoping
-plugin: core
-license: None
----
-
 # scoping:intersect scopings
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: scoping
-plugin: core
-license: None
----
-
 # scoping:split on property type
 
 ## Description

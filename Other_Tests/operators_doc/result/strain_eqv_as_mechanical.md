@@ -1,9 +1,3 @@
----
-category: result
-plugin: mechanical_results
-license: None
----
-
 # result:von mises strains as mechanical
 
 ## Description

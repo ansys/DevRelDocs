@@ -1,9 +1,3 @@
----
-category: serialization
-plugin: csv
-license: any_dpf_supported_increments
----
-
 # serialization:csv to field
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: result
-plugin: core
-license: None
----
-
 # result:global sliding interface energy (LSDyna)
 
 ## Description

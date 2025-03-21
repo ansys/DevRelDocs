@@ -1,9 +1,3 @@
----
-category: math
-plugin: core
-license: None
----
-
 # math:modulus (fields container)
 
 ## Description

@@ -1,9 +1,3 @@
----
-category: filter
-plugin: core
-license: None
----
-
 # filter:filtering max over time workflow
 
 ## Description

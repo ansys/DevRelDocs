@@ -1,9 +1,3 @@
----
-category: serialization
-plugin: csv
-license: None
----
-
 # serialization:mechanical csv to field
 
 ## Description

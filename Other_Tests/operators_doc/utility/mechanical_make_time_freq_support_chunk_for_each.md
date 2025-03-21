@@ -1,9 +1,3 @@
----
-category: utility
-plugin: core
-license: None
----
-
 # utility:mechanical: make time freq support chunk
 
 ## Description
