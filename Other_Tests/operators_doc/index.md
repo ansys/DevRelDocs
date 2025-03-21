@@ -1,4 +1,4 @@
 # Introduction
 
 
-DPF operators specifications
+DPF operator specifications
