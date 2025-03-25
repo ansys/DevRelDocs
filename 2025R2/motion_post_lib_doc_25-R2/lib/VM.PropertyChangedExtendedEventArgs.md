@@ -1,0 +1,55 @@
+# Class PropertyChangedExtendedEventArgs
+
+Namespace: [VM](VM.md)  
+Assembly: VM.dll  
+
+```python
+public class PropertyChangedExtendedEventArgs : PropertyChangedEventArgs
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ??
+[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ??
+[PropertyChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs) ??
+[PropertyChangedExtendedEventArgs](VM.PropertyChangedExtendedEventArgs.md)
+
+## Constructors
+
+### PropertyChangedExtendedEventArgs\(string, object, object\)
+
+```python
+public PropertyChangedExtendedEventArgs(string propertyName, object oldValue, object newValue)
+```
+
+#### Parameters
+
+`propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+`oldValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+`newValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+## Properties
+
+### NewValue
+
+```python
+public virtual object NewValue { get; }
+```
+
+#### Property Value
+
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+### OldValue
+
+```python
+public virtual object OldValue { get; }
+```
+
+#### Property Value
+
+ [object](https://learn.microsoft.com/dotnet/api/system.object)
+
+
