@@ -1,3 +1,5 @@
+# Miscellaneous
+
 This page covers all Ansys products that do not neatly fit into a single product collection. Ansys System Coupling, for example, facilitates coupling of multiple solvers in a single solution and could reasonably be placed in Structures, Electronics or Fluids, as a consequence.
 
 ## Workbench 
