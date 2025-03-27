@@ -1,3 +1,5 @@
+# Materials
+
 Ansys' material products largely revolve around Granta MI as its central product. You can read more about its developer tools at this dedicated page: 
 
 [Granta MI for Developers](https://developer.ansys.com/docs/granta-mi).

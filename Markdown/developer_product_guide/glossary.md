@@ -1,3 +1,5 @@
+# Glossary
+
 ## Common Terms 
 
 API - Application Program Interface. Technically this meaning encompasses any programmtic interface between an App and something else, however, in software API is usually used to refer predominantly to text-based web APIs like REST APIs or gRPC APIs.

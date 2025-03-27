@@ -1,3 +1,5 @@
+# Optics
+
 ## Lumerical 
 
 Lumerical Automation API allows you to interact with Lumerical’s solvers and perform complex tasks such as simulation automation, data analysis, optimization, and inverse design. You can automate in the interface from the Script File Editor using Lumerical script, Python API, or MATLAB commands. You can also automate from a Python IDE (such as Jupyter Notebook, PyCharm, or Visual Studio Code) with the Python API, or the MATLAB environment with the MATLAB interop.

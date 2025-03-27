@@ -1,7 +1,6 @@
-
 - name: Ansys Developer product guide
   href: index.md
-  name: Glossary
+- name: Glossary
   items: 
     - name: Glossary
       href: glossary.md

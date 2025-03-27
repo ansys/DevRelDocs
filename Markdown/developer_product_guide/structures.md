@@ -1,3 +1,5 @@
+# Structures
+
 ## Ansys Mechanical and MAPDL 
 
 Ansys' Mechanical product can be separated into two: Mechanical and Mechanical APDL (MAPDL). MAPDL can further be separated into two constituent parts: the user interface which allows one to call and run APDL code, and APDL itself. APDL stands for "Ansys Parametric Design Language".
