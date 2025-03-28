@@ -1,0 +1,30 @@
+{
+  "endpoints": {
+    "method": "",
+    "path": ""
+  },
+  "request": null,
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "customers"
+    },
+    {
+      "method": "PUT",
+      "path": "customers/{customer_id}"
+    },
+    {
+      "method": "GET",
+      "path": "customers/{customer_id}"
+    },
+    {
+      "method": "GET",
+      "path": "customers"
+    },
+    {
+      "method": "DELETE",
+      "path": "customers/{customer_id}"
+    }
+  ]
+}

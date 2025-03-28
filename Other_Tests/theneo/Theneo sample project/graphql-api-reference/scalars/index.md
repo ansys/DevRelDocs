@@ -1,0 +1,1 @@
+Scalars: Scalars in GraphQL represent primitive data types, such as String, Int, Boolean, Float, etc. They are used to define the types of individual fields in the GraphQL schema.

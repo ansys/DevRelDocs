@@ -1,0 +1,1 @@
+This section allows users to update a schedule with specific parameters and details, such as description, timetable settings, and attribution information. By sending a request to this endpoint, users can modify existing schedules to reflect any changes or updates needed within their project or application.

@@ -32,8 +32,9 @@ Items in this list are of type [`RASolidMaterial`](RASolidMaterial.md#generated.
 
 **Methods:**
 
-| [`Clear`](#generated.RAMaterialCollection.Clear)()                                                         | Remove all items from the list.                                                                                   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| [`Clear`](#generated.RAMaterialCollection.Clear)()                                                         | Remove all items from the list.                                                                                   |
 | [`GetBulkSolidFraction`](#generated.RAMaterialCollection.GetBulkSolidFraction)()                           | Get the value of "Bulk Solid Fraction".                                                                           |
 | [`GetDefaultMaterials`](#generated.RAMaterialCollection.GetDefaultMaterials)()                             | Deprecated: Use [`GetDefaultSolidMaterials()`](#generated.RAMaterialCollection.GetDefaultSolidMaterials) instead. |
 | [`GetDefaultSolidMaterials`](#generated.RAMaterialCollection.GetDefaultSolidMaterials)()                   | Get a list with the default solid materials, in order of Particle, Belt and Boundary.                             |

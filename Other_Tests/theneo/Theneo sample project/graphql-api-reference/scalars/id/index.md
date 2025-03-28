@@ -1,0 +1,1 @@
+A unique identifier, often used to refetch an object or as a key for caching.

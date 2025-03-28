@@ -22,8 +22,9 @@ distribution_1.SetCumulativePercentage(100)
 
 **Methods:**
 
-| [`GetCumulativePercentage`](#generated.RASizeDistribution.GetCumulativePercentage)()      | Get the value of "Cumulative Percentage".   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------|---------------------------------------------|
+| [`GetCumulativePercentage`](#generated.RASizeDistribution.GetCumulativePercentage)()      | Get the value of "Cumulative Percentage".   |
 | [`GetScaleFactor`](#generated.RASizeDistribution.GetScaleFactor)([unit])                  | Get the value of "Scale Factor".            |
 | [`GetSize`](#generated.RASizeDistribution.GetSize)([unit])                                | Get the value of "Size".                    |
 | [`SetCumulativePercentage`](#generated.RASizeDistribution.SetCumulativePercentage)(value) | Set the value of "Cumulative Percentage".   |

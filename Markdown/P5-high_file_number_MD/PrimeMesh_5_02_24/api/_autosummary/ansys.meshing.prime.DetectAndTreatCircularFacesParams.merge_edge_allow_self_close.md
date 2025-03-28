@@ -1,8 +1,0 @@
-# ansys.meshing.prime.DetectAndTreatCircularFacesParams.merge_edge_allow_self_close
-
-#### *property* DetectAndTreatCircularFacesParams.merge_edge_allow_self_close *: [bool](https://docs.python.org/3.11/library/functions.html#bool)*
-
-Option for merging self-closing edge loops.
-This parameter is a Beta. Parameter behavior and name may change in future.
-
-<!-- !! processed by numpydoc !! -->

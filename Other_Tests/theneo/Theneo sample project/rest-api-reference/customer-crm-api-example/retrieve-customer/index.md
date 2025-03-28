@@ -1,0 +1,1 @@
+This section allows users to retrieve detailed information about a specific customer within the system. Users can access essential details such as the customer's name, email address, phone number, address, and creation source. By utilizing this functionality, users can efficiently manage customer data and preferences.

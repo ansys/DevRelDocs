@@ -41,8 +41,9 @@ The [`RAParticleAssemblyPartList`](#generated.RAParticleAssemblyPartList) is a l
 
 **Methods:**
 
-| [`Clear`](#generated.RAParticleAssemblyPartList.Clear)()       | Remove all items from the list.   |
+| Name | Description |
 |----------------------------------------------------------------|-----------------------------------|
+| [`Clear`](#generated.RAParticleAssemblyPartList.Clear)()       | Remove all items from the list.   |
 | [`New`](#generated.RAParticleAssemblyPartList.New)()           | Add a new item.                   |
 | [`Remove`](#generated.RAParticleAssemblyPartList.Remove)(item) | Remove an item from the list.     |
 

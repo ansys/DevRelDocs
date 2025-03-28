@@ -1,0 +1,1 @@
+A signed double-precision floating-point value.

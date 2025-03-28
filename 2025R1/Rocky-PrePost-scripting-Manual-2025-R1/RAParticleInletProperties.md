@@ -22,8 +22,9 @@ input_properties_1.SetMassFlowRate(100, 't/h')
 
 **Methods:**
 
-| [`GetAvailableParticles`](#generated.RAParticleInletProperties.GetAvailableParticles)()                                    | Get all available Particles.                                                                         |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`GetAvailableParticles`](#generated.RAParticleInletProperties.GetAvailableParticles)()                                    | Get all available Particles.                                                                         |
 | [`GetMassFlowRate`](#generated.RAParticleInletProperties.GetMassFlowRate)([unit])                                          | Get the value of "Mass Flow Rate".                                                                   |
 | [`GetModuleProperties`](#generated.RAParticleInletProperties.GetModuleProperties)()                                        | Get the names of the module properties.                                                              |
 | [`GetModuleProperty`](#generated.RAParticleInletProperties.GetModuleProperty)(property_name[, unit])                       | Get the value of a module property.                                                                  |

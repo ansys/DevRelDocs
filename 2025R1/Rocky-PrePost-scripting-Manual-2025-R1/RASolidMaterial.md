@@ -21,8 +21,9 @@ material_3 = material_collection[2]
 
 **Methods:**
 
-| [`GetBulkDensity`](#generated.RASolidMaterial.GetBulkDensity)([unit])                                            | Get the value of "Bulk Density".                                                |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`GetBulkDensity`](#generated.RASolidMaterial.GetBulkDensity)([unit])                                            | Get the value of "Bulk Density".                                                |
 | [`GetCurrentDensity`](#generated.RASolidMaterial.GetCurrentDensity)([unit])                                      | Get the value of "Current Density".                                             |
 | [`GetDensity`](#generated.RASolidMaterial.GetDensity)([unit])                                                    | Get the value of "Density".                                                     |
 | [`GetModuleProperties`](#generated.RASolidMaterial.GetModuleProperties)()                                        | Get the names of the module properties.                                         |

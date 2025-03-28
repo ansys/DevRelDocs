@@ -1,4 +1,0 @@
-# PHXPlugInLauncher
-
-
-constructor()

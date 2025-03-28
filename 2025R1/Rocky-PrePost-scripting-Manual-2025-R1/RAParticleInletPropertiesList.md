@@ -41,8 +41,9 @@ The [`RAParticleInletPropertiesList`](#generated.RAParticleInletPropertiesList) 
 
 **Methods:**
 
-| [`Clear`](#generated.RAParticleInletPropertiesList.Clear)()       | Remove all items from the list.   |
+| Name | Description |
 |-------------------------------------------------------------------|-----------------------------------|
+| [`Clear`](#generated.RAParticleInletPropertiesList.Clear)()       | Remove all items from the list.   |
 | [`New`](#generated.RAParticleInletPropertiesList.New)()           | Add a new item.                   |
 | [`Remove`](#generated.RAParticleInletPropertiesList.Remove)(item) | Remove an item from the list.     |
 

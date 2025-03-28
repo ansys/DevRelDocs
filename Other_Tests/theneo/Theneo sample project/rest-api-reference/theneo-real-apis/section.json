@@ -1,0 +1,42 @@
+{
+  "endpoints": {
+    "method": "",
+    "path": ""
+  },
+  "request": null,
+  "dataExample": [],
+  "endpointSummary": [
+    {
+      "method": "POST",
+      "path": "projects"
+    },
+    {
+      "method": "GET",
+      "path": "projects?name=exercitation&company_id=exercitation&is_published=false&is_public=true"
+    },
+    {
+      "method": "GET",
+      "path": "projects/{id}"
+    },
+    {
+      "method": "DELETE",
+      "path": "projects/{id}"
+    },
+    {
+      "method": "GET",
+      "path": "projects/{id}/accessible-users"
+    },
+    {
+      "method": "POST",
+      "path": "projects/{id}/share"
+    },
+    {
+      "method": "PATCH",
+      "path": "projects/{id}/change-access"
+    },
+    {
+      "method": "POST",
+      "path": "projects/{id}/import"
+    }
+  ]
+}
