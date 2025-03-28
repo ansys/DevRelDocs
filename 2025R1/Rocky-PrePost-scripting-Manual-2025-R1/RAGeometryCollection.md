@@ -34,8 +34,9 @@ To create the different kind of geometries (conveyors, inlets and custom geometr
 
 **Methods:**
 
-| [`GetBoundingBox`](#generated.RAGeometryCollection.GetBoundingBox)(time_step[, force_load])   | Get the bounding box containing all geometries in this collection, at the given time.                   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`GetBoundingBox`](#generated.RAGeometryCollection.GetBoundingBox)(time_step[, force_load])   | Get the bounding box containing all geometries in this collection, at the given time.                   |
 | [`GetGeometry`](#generated.RAGeometryCollection.GetGeometry)(geometry_name)                   | Get a geometry from its name.                                                                           |
 | [`GetGeometryNames`](#generated.RAGeometryCollection.GetGeometryNames)()                      | Get the names of the geometries in this collection.                                                     |
 | [`IterInletGeometries`](#generated.RAGeometryCollection.IterInletGeometries)()                | Iterate over the inlet geometries.                                                                      |

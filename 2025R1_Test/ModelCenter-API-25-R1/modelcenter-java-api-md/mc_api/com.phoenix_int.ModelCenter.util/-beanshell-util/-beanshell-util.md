@@ -1,4 +1,0 @@
-# BeanshellUtil
-
-
-constructor()

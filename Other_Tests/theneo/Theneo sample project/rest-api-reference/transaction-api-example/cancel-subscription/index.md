@@ -1,0 +1,1 @@
+Schedules a `CANCEL` action to cancel an active subscription by setting the `canceled_date` field to the end of the active billing period and changing the subscription status from ACTIVE to CANCELED after this date.

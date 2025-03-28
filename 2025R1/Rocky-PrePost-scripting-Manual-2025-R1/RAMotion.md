@@ -52,8 +52,9 @@ Refer to the specific PrePost Scripting wrappers for documentation on the indivi
 
 **Methods:**
 
-| [`GetStartTime`](#generated.RAMotion.GetStartTime)([unit])        | Get the value of "Start Time".                                |
+| Name | Description |
 |-------------------------------------------------------------------|---------------------------------------------------------------|
+| [`GetStartTime`](#generated.RAMotion.GetStartTime)([unit])        | Get the value of "Start Time".                                |
 | [`GetStopTime`](#generated.RAMotion.GetStopTime)([unit])          | Get the value of "Stop Time".                                 |
 | [`GetType`](#generated.RAMotion.GetType)()                        | Get the concrete type of motion.                              |
 | [`GetTypeObject`](#generated.RAMotion.GetTypeObject)()            | Get the API object that wraps the specific motion type.       |

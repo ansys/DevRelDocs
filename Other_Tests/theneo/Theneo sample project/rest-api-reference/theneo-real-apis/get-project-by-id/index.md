@@ -1,0 +1,1 @@
+The "Get project by id" section allows users to retrieve detailed information about a specific project within the system. By providing the project's unique identifier, users can access essential details such as project name, key, company ID, and creation information. This functionality enables users to efficiently access and review project-specific data for their workflow needs.

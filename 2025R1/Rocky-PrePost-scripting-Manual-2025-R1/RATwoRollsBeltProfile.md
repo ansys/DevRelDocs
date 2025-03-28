@@ -13,8 +13,9 @@ Rocky API for a Two Rolls Belt Profile model.
 
 **Methods:**
 
-| [`GetAvailableMaterials`](#generated.RATwoRollsBeltProfile.GetAvailableMaterials)()            | Get all available Materials.            |
+| Name | Description |
 |------------------------------------------------------------------------------------------------|-----------------------------------------|
+| [`GetAvailableMaterials`](#generated.RATwoRollsBeltProfile.GetAvailableMaterials)()            | Get all available Materials.            |
 | [`GetLowerCornerRadius`](#generated.RATwoRollsBeltProfile.GetLowerCornerRadius)([unit])        | Get the value of "Lower Corner Radius". |
 | [`GetMaterial`](#generated.RATwoRollsBeltProfile.GetMaterial)()                                | Get the "Material".                     |
 | [`GetTroughingAngle`](#generated.RATwoRollsBeltProfile.GetTroughingAngle)([unit])              | Get the value of "Troughing Angle".     |

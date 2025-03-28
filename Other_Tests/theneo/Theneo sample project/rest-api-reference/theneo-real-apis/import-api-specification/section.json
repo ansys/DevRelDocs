@@ -1,0 +1,211 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": "projects/{id}/import"
+  },
+  "request": {
+    "query": [],
+    "body": [],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": "<Bearer Token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Accept",
+        "isRequired": false,
+        "value": " application/json",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "isRequired": false,
+        "value": "multipart/form-data'",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "id",
+        "isRequired": false,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f14071424aa342013452"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "is_published",
+          "description": "",
+          "isRequired": false,
+          "value": false,
+          "valueType": "boolean",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "name",
+          "description": "",
+          "isRequired": false,
+          "value": "string",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "key",
+          "description": "",
+          "isRequired": false,
+          "value": "string-second",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "company_id",
+          "description": "",
+          "isRequired": false,
+          "value": "60b77a44ccd9e497ab4ac770",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "created_by",
+          "description": "",
+          "isRequired": false,
+          "value": "60b77a6bccd9e497ab4ac772",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "accessors",
+          "description": "",
+          "isRequired": false,
+          "valueType": "array",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "_createdAt",
+          "description": "",
+          "isRequired": false,
+          "value": "2021-06-02T12:45:31.551Z",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "_updatedAt",
+          "description": "",
+          "isRequired": false,
+          "value": "2021-06-02T12:54:21.893Z",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "json_data",
+          "description": "",
+          "isRequired": false,
+          "value": "{\n  \"openapi\": \"3.0.0\",\n  \"info\": {\n    \"title\": \"\",\n    \"version\": \"\"\n  },\n  \"servers\": [\n    {\n      \"url\": \"http://api.search.yahoo.com/NewsSearchService/V1/\"\n    }\n  ],\n  \"paths\": {\n    \"/newsSearch\": {\n      \"parameters\": [],\n      \"get\": {\n        \"parameters\": [\n          {\n            \"in\": \"query\",\n            \"name\": \"appid\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"in\": \"query\",\n            \"name\": \"query\",\n            \"required\": true,\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"in\": \"query\",\n            \"name\": \"type\",\n            \"required\": false,\n            \"schema\": {\n              \"default\": \"all\",\n              \"enum\": [\n                \"all\",\n                \"any\",\n                \"phrase\"\n              ],\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"in\": \"query\",\n            \"name\": \"results\",\n            \"required\": false,\n            \"schema\": {\n              \"default\": 10,\n              \"format\": \"int32\",\n              \"type\": \"integer\"\n            }\n          },\n          {\n            \"in\": \"query\",\n            \"name\": \"start\",\n            \"required\": false,\n            \"schema\": {\n              \"default\": 1,\n              \"format\": \"int32\",\n              \"type\": \"integer\"\n            }\n          },\n          {\n            \"in\": \"query\",\n            \"name\": \"sort\",\n            \"required\": false,\n            \"schema\": {\n              \"default\": \"rank\",\n              \"enum\": [\n                \"rank\",\n                \"date\"\n              ],\n              \"type\": \"string\"\n            }\n          },\n          {\n            \"in\": \"query\",\n            \"name\": \"language\",\n            \"required\": false,\n            \"schema\": {\n              \"type\": \"string\"\n            }\n          }\n        ],\n        \"responses\": {\n          \"200\": {\n            \"description\": \"Successful Response\"\n          }\n        },\n        \"operationId\": \"search\"\n      }\n    }\n  }\n}",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        },
+        {
+          "name": "id",
+          "description": "",
+          "isRequired": false,
+          "value": "60b77d6b30b6d899d3a80795",
+          "valueType": "string",
+          "items": [],
+          "options": {
+            "xml": {
+              "prefix": null
+            }
+          }
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    },
+    {
+      "body": [],
+      "statusCode": "400",
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

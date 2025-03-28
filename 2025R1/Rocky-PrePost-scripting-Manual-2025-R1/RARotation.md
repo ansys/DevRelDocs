@@ -23,8 +23,9 @@ rotation = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetAngularAcceleration`](#generated.RARotation.GetAngularAcceleration)([unit])               | Get the value of "Angular Acceleration".      |
+| Name | Description |
 |------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [`GetAngularAcceleration`](#generated.RARotation.GetAngularAcceleration)([unit])               | Get the value of "Angular Acceleration".      |
 | [`GetInitialAngularVelocity`](#generated.RARotation.GetInitialAngularVelocity)([unit])         | Get the value of "Initial Angular Velocity".  |
 | [`SetAngularAcceleration`](#generated.RARotation.SetAngularAcceleration)(values[, unit])       | Set the values of "Angular Acceleration".     |
 | [`SetInitialAngularVelocity`](#generated.RARotation.SetInitialAngularVelocity)(values[, unit]) | Set the values of "Initial Angular Velocity". |

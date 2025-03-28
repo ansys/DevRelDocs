@@ -30,8 +30,9 @@ for motion_frame in motion_frame.IterMotionFrames():
 
 **Methods:**
 
-| [`GetMotionFrame`](#generated.RAMotionFrameSource.GetMotionFrame)(frame_name)   | Get a specific motion frame given its name.                  |
+| Name | Description |
 |---------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`GetMotionFrame`](#generated.RAMotionFrameSource.GetMotionFrame)(frame_name)   | Get a specific motion frame given its name.                  |
 | [`GetParentMotionFrame`](#generated.RAMotionFrameSource.GetParentMotionFrame)() | Gets the parent motion frame.                                |
 | [`IterMotionFrames`](#generated.RAMotionFrameSource.IterMotionFrames)()         | Iterates over all the motion frames available (recursively). |
 | [`NewConeCrusherFrame`](#generated.RAMotionFrameSource.NewConeCrusherFrame)()   | Creates a new cone crusher frame.                            |

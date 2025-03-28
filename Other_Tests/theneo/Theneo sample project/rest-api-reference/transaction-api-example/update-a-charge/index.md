@@ -1,0 +1,1 @@
+This section allows users to update a charge by setting the values of the parameters passed. By leveraging this functionality, users can modify the details of an existing charge, such as updating the amount, description, or metadata associated with the charge.

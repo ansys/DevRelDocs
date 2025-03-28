@@ -1,0 +1,17 @@
+{
+  "endpoints": {
+    "method": "",
+    "path": ""
+  },
+  "request": null,
+  "dataExample": [
+    {
+      "contentType": "json",
+      "body": [],
+      "raw": "enum CacheControlScope {\n  \"\"\"\"\"\"\n  PUBLIC\n  \"\"\"\"\"\"\n  PRIVATE\n}",
+      "title": "CacheControlScope",
+      "_id": "66f40249a589ebcd5113cb69"
+    }
+  ],
+  "endpointSummary": []
+}

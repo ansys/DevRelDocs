@@ -49,8 +49,9 @@ frame_2.SetInitialOrientation(...)
 
 **Methods:**
 
-| [`GetInitialOrientation`](#generated.RAConeCrusherFrame.GetInitialOrientation)([unit])         | Get the value of "Initial Orientation".                      |
+| Name | Description |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`GetInitialOrientation`](#generated.RAConeCrusherFrame.GetInitialOrientation)([unit])         | Get the value of "Initial Orientation".                      |
 | [`GetMotionFrame`](#generated.RAConeCrusherFrame.GetMotionFrame)(frame_name)                   | Get a specific motion frame given its name.                  |
 | [`GetParentMotionFrame`](#generated.RAConeCrusherFrame.GetParentMotionFrame)()                 | Gets the parent motion frame.                                |
 | [`GetPivotPoint`](#generated.RAConeCrusherFrame.GetPivotPoint)([unit])                         | Get the value of "Pivot Point".                              |

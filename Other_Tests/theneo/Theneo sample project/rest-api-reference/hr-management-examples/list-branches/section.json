@@ -1,0 +1,180 @@
+{
+  "endpoints": {
+    "method": "GET",
+    "path": "v2/repos/{owner}/{repo}/branches"
+  },
+  "request": {
+    "query": [],
+    "body": [],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": " Bearer <access_token>",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [
+      {
+        "name": "owner",
+        "isRequired": false,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "repo",
+        "isRequired": false,
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "contentType": "application/json",
+    "graphqlQuery": "",
+    "codeExamples": [],
+    "_id": "66f3f0c771424aa342013000"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "0",
+          "description": "",
+          "isRequired": false,
+          "valueType": "object",
+          "items": [
+            {
+              "name": "name",
+              "description": "",
+              "isRequired": false,
+              "value": "master",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "commit",
+              "description": "",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "sha",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "c5b97d5ae6c19d5c5df71a34c7fbeeda2479ccbc",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "url",
+                  "description": "",
+                  "isRequired": false,
+                  "value": "https://api.github.com/repos/octocat/Hello-World/commits/c5b97d5ae6c19d5c5df71a34c7fbeeda2479ccbc",
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "protected",
+              "description": "",
+              "isRequired": false,
+              "value": true,
+              "valueType": "boolean",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "protection",
+              "description": "",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "required_status_checks",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "enforcement_level",
+                      "description": "",
+                      "isRequired": false,
+                      "value": "non_admins",
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "contexts",
+                      "description": "",
+                      "isRequired": false,
+                      "valueType": "array",
+                      "items": [
+                        {
+                          "name": "0",
+                          "description": "",
+                          "isRequired": false,
+                          "value": "ci-test",
+                          "valueType": "string",
+                          "items": [],
+                          "options": null
+                        },
+                        {
+                          "name": "1",
+                          "description": "",
+                          "isRequired": false,
+                          "value": "linter",
+                          "valueType": "string",
+                          "items": [],
+                          "options": null
+                        }
+                      ],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                }
+              ],
+              "options": null
+            },
+            {
+              "name": "protection_url",
+              "description": "",
+              "isRequired": false,
+              "value": "https://api.github.com/repos/octocat/hello-world/branches/master/protection",
+              "valueType": "string",
+              "items": [],
+              "options": null
+            }
+          ],
+          "options": null
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

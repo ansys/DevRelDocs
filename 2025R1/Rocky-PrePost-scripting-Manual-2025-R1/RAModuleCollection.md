@@ -20,8 +20,9 @@ module_collection = study.GetModuleCollection()
 
 **Methods:**
 
-| [`GetEnabledModules`](#generated.RAModuleCollection.GetEnabledModules)()   | Get the names of the enabled modules in project.   |
+| Name | Description |
 |----------------------------------------------------------------------------|----------------------------------------------------|
+| [`GetEnabledModules`](#generated.RAModuleCollection.GetEnabledModules)()   | Get the names of the enabled modules in project.   |
 | [`GetModule`](#generated.RAModuleCollection.GetModule)(module_name)        | Get a module given its name.                       |
 | [`GetModuleNames`](#generated.RAModuleCollection.GetModuleNames)()         | Get the names of the modules in project.           |
 

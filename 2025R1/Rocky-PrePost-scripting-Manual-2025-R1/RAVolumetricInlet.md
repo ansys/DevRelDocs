@@ -28,8 +28,9 @@ This list must be manipulated via the `RAParticleInputPropertiesList` returned b
 
 **Methods:**
 
-| [`DisablePeriodic`](#generated.RAVolumetricInlet.DisablePeriodic)()                          | Set the value of "Periodic" to False.         |
+| Name | Description |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------|
+| [`DisablePeriodic`](#generated.RAVolumetricInlet.DisablePeriodic)()                          | Set the value of "Periodic" to False.         |
 | [`EnablePeriodic`](#generated.RAVolumetricInlet.EnablePeriodic)()                            | Set the value of "Periodic" to True.          |
 | [`GetAvailableGeometries`](#generated.RAVolumetricInlet.GetAvailableGeometries)()            | Get all available Geometries.                 |
 | [`GetBoxCenter`](#generated.RAVolumetricInlet.GetBoxCenter)([unit])                          | Get the value of "Box Center".                |

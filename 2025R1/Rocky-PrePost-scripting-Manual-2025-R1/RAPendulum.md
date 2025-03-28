@@ -23,8 +23,9 @@ pendulum = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetAmplitudeVariation`](#generated.RAPendulum.GetAmplitudeVariation)([unit])        | Get the value of "Amplitude Variation".   |
+| Name | Description |
 |---------------------------------------------------------------------------------------|-------------------------------------------|
+| [`GetAmplitudeVariation`](#generated.RAPendulum.GetAmplitudeVariation)([unit])        | Get the value of "Amplitude Variation".   |
 | [`GetDirection`](#generated.RAPendulum.GetDirection)()                                | Get the value of "Direction".             |
 | [`GetFrequencyVariation`](#generated.RAPendulum.GetFrequencyVariation)([unit])        | Get the value of "Frequency Variation".   |
 | [`GetInitialAmplitude`](#generated.RAPendulum.GetInitialAmplitude)([unit])            | Get the value of "Initial Amplitude".     |

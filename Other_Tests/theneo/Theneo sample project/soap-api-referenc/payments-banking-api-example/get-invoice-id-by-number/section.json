@@ -1,0 +1,177 @@
+{
+  "endpoints": {
+    "method": "GET",
+    "path": "accounting/wsdl/invoice"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "_declaration",
+        "valueType": "string",
+        "items": [
+          {
+            "name": "version",
+            "description": "",
+            "isRequired": false,
+            "value": "1.0",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "name": "version",
+                "prefix": null,
+                "attribute": true
+              }
+            }
+          },
+          {
+            "name": "encoding",
+            "description": "",
+            "isRequired": false,
+            "value": "UTF-8",
+            "valueType": "string",
+            "items": [],
+            "options": {
+              "xml": {
+                "name": "encoding",
+                "prefix": null,
+                "attribute": true
+              }
+            }
+          }
+        ],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Envelope",
+        "description": "",
+        "isRequired": false,
+        "valueType": "object",
+        "items": [
+          {
+            "name": "Body",
+            "description": "",
+            "isRequired": false,
+            "valueType": "object",
+            "items": [
+              {
+                "name": "getInvoiceIdFromInvoiceNumber",
+                "description": "",
+                "isRequired": false,
+                "valueType": "object",
+                "items": [
+                  {
+                    "name": "type",
+                    "description": "",
+                    "isRequired": false,
+                    "value": "sales",
+                    "valueType": "string",
+                    "items": [],
+                    "options": {
+                      "xml": {
+                        "name": "type",
+                        "prefix": null
+                      }
+                    }
+                  },
+                  {
+                    "name": "invoicePrefix",
+                    "description": "",
+                    "isRequired": false,
+                    "value": "INV",
+                    "valueType": "string",
+                    "items": [],
+                    "options": {
+                      "xml": {
+                        "name": "invoicePrefix",
+                        "prefix": null
+                      }
+                    }
+                  },
+                  {
+                    "name": "invoiceNumber",
+                    "description": "",
+                    "isRequired": false,
+                    "value": "1",
+                    "valueType": "string",
+                    "items": [],
+                    "options": {
+                      "xml": {
+                        "name": "invoiceNumber",
+                        "prefix": null
+                      }
+                    }
+                  }
+                ],
+                "options": {
+                  "xml": {
+                    "name": "getInvoiceIdFromInvoiceNumber",
+                    "prefix": null
+                  }
+                }
+              }
+            ],
+            "options": {
+              "xml": {
+                "name": "Body",
+                "prefix": null
+              }
+            }
+          }
+        ],
+        "options": {
+          "xml": {
+            "name": "Envelope",
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": "apiKey=\"yourApiKey\"",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "isRequired": false,
+        "value": "text/xml",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [],
+    "contentType": "application/xml",
+    "graphqlQuery": null,
+    "codeExamples": [],
+    "_id": "66f40269a589ebcd5113cc77"
+  },
+  "responses": [
+    {
+      "body": [],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

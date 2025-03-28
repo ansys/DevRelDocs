@@ -1,0 +1,228 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": ""
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "code",
+        "description": "",
+        "isRequired": false,
+        "value": null,
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "header": [],
+    "path": [],
+    "contentType": "application/json",
+    "graphqlQuery": "query continent($code: String) {\n  continent(code: $code) { \n    code\n    name\n    countries {\n      \n    } \n  } \n}",
+    "codeExamples": [],
+    "_id": "66f401f5a589ebcd5113c8f6"
+  },
+  "responses": [
+    {
+      "body": [
+        {
+          "name": "continent",
+          "description": "",
+          "isRequired": false,
+          "valueType": "object",
+          "items": [
+            {
+              "name": "code",
+              "description": "",
+              "isRequired": false,
+              "value": null,
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "name",
+              "description": "",
+              "isRequired": false,
+              "value": null,
+              "valueType": "string",
+              "items": [],
+              "options": null
+            },
+            {
+              "name": "countries",
+              "description": "",
+              "isRequired": false,
+              "valueType": "object",
+              "items": [
+                {
+                  "name": "code",
+                  "description": "",
+                  "isRequired": false,
+                  "value": null,
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "name",
+                  "description": "",
+                  "isRequired": false,
+                  "value": null,
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "native",
+                  "description": "",
+                  "isRequired": false,
+                  "value": null,
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "phone",
+                  "description": "",
+                  "isRequired": false,
+                  "value": null,
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "continent",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "currency",
+                  "description": "",
+                  "isRequired": false,
+                  "value": null,
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "languages",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "code",
+                      "description": "",
+                      "isRequired": false,
+                      "value": null,
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": null,
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "native",
+                      "description": "",
+                      "isRequired": false,
+                      "value": null,
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "rtl",
+                      "description": "",
+                      "isRequired": false,
+                      "value": null,
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                },
+                {
+                  "name": "emoji",
+                  "description": "",
+                  "isRequired": false,
+                  "value": null,
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "emojiU",
+                  "description": "",
+                  "isRequired": false,
+                  "value": null,
+                  "valueType": "string",
+                  "items": [],
+                  "options": null
+                },
+                {
+                  "name": "states",
+                  "description": "",
+                  "isRequired": false,
+                  "valueType": "object",
+                  "items": [
+                    {
+                      "name": "code",
+                      "description": "",
+                      "isRequired": false,
+                      "value": null,
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "name",
+                      "description": "",
+                      "isRequired": false,
+                      "value": null,
+                      "valueType": "string",
+                      "items": [],
+                      "options": null
+                    },
+                    {
+                      "name": "country",
+                      "description": "",
+                      "isRequired": false,
+                      "valueType": "object",
+                      "items": [],
+                      "options": null
+                    }
+                  ],
+                  "options": null
+                }
+              ],
+              "options": null
+            }
+          ],
+          "options": null
+        }
+      ],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

@@ -20,8 +20,9 @@ eulerian_solution = study.GetSphEulerianSolution()
 
 **Methods:**
 
-| [`DisableEulerianSolution`](#generated.RASPHEulerianSolution.DisableEulerianSolution)()            | Set the value of "Eulerian Solution" to False.                     |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [`DisableEulerianSolution`](#generated.RASPHEulerianSolution.DisableEulerianSolution)()            | Set the value of "Eulerian Solution" to False.                     |
 | [`EnableEulerianSolution`](#generated.RASPHEulerianSolution.EnableEulerianSolution)()              | Set the value of "Eulerian Solution" to True.                      |
 | [`GetEulerianSolutionEnabled`](#generated.RASPHEulerianSolution.GetEulerianSolutionEnabled)()      | Delegates the method to the project sph settings.                  |
 | [`GetMeshColoring`](#generated.RASPHEulerianSolution.GetMeshColoring)(window)                      | Get the RAMeshColoring related to the current object and a window. |

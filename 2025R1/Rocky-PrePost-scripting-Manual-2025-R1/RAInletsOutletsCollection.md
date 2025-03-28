@@ -33,8 +33,9 @@ Items in this list are of type [`RAParticleInlet`](RAParticleInlet.md#generated.
 
 **Methods:**
 
-| [`AddContinuousInjection`](#generated.RAInletsOutletsCollection.AddContinuousInjection)()   | Add a new ContinuousInjection.              |
+| Name | Description |
 |---------------------------------------------------------------------------------------------|---------------------------------------------|
+| [`AddContinuousInjection`](#generated.RAInletsOutletsCollection.AddContinuousInjection)()   | Add a new ContinuousInjection.              |
 | [`AddCustomInput`](#generated.RAInletsOutletsCollection.AddCustomInput)()                   | Add a new CustomInput.                      |
 | [`AddFluidInlet`](#generated.RAInletsOutletsCollection.AddFluidInlet)()                     | Add a new SPHInlet.                         |
 | [`AddOutlet`](#generated.RAInletsOutletsCollection.AddOutlet)()                             | Add a new Outlet.                           |

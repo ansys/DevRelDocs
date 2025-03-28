@@ -13,8 +13,9 @@ Rocky API for a Three Rolls Belt Profile model.
 
 **Methods:**
 
-| [`DisableUse0371RatioForRollLengths`](#generated.RAThreeRollsBeltProfile.DisableUse0371RatioForRollLengths)()     | Set the value of "Use 0371 Ratio For Roll Lengths" to False.   |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`DisableUse0371RatioForRollLengths`](#generated.RAThreeRollsBeltProfile.DisableUse0371RatioForRollLengths)()     | Set the value of "Use 0371 Ratio For Roll Lengths" to False.   |
 | [`EnableUse0371RatioForRollLengths`](#generated.RAThreeRollsBeltProfile.EnableUse0371RatioForRollLengths)()       | Set the value of "Use 0371 Ratio For Roll Lengths" to True.    |
 | [`GetAvailableMaterials`](#generated.RAThreeRollsBeltProfile.GetAvailableMaterials)()                             | Get all available Materials.                                   |
 | [`GetCenterRollLength`](#generated.RAThreeRollsBeltProfile.GetCenterRollLength)([unit])                           | Get the value of "Center Roll Length".                         |

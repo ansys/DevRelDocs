@@ -1,0 +1,324 @@
+{
+  "endpoints": {
+    "method": "POST",
+    "path": "accounting/wsdl/invoice"
+  },
+  "request": {
+    "query": [],
+    "body": [
+      {
+        "name": "Envelope",
+        "description": "",
+        "isRequired": false,
+        "valueType": "object",
+        "items": [
+          {
+            "name": "Body",
+            "description": "",
+            "isRequired": false,
+            "valueType": "object",
+            "items": [
+              {
+                "name": "createInvoice",
+                "description": "",
+                "isRequired": false,
+                "valueType": "object",
+                "items": [
+                  {
+                    "name": "invoice",
+                    "description": "",
+                    "isRequired": false,
+                    "valueType": "object",
+                    "items": [
+                      {
+                        "name": "type",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "purchases",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "type",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "entityId",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "20",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "entityId",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "dateCreated",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "2008-09-17",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "dateCreated",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "description",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "My invoice",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "description",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "items",
+                        "description": "",
+                        "isRequired": false,
+                        "valueType": "object",
+                        "items": [
+                          {
+                            "name": "item",
+                            "description": "",
+                            "isRequired": false,
+                            "valueType": "object",
+                            "items": [
+                              {
+                                "name": "unitPrice",
+                                "description": "",
+                                "isRequired": false,
+                                "value": "1.44",
+                                "valueType": "string",
+                                "items": [],
+                                "options": {
+                                  "xml": {
+                                    "name": "unitPrice",
+                                    "prefix": null
+                                  }
+                                }
+                              },
+                              {
+                                "name": "type",
+                                "description": "",
+                                "isRequired": false,
+                                "value": "1001001",
+                                "valueType": "string",
+                                "items": [],
+                                "options": {
+                                  "xml": {
+                                    "name": "type",
+                                    "prefix": null
+                                  }
+                                }
+                              },
+                              {
+                                "name": "description",
+                                "description": "",
+                                "isRequired": false,
+                                "value": "Entry ticket",
+                                "valueType": "string",
+                                "items": [],
+                                "options": {
+                                  "xml": {
+                                    "name": "description",
+                                    "prefix": null
+                                  }
+                                }
+                              },
+                              {
+                                "name": "quantity",
+                                "description": "",
+                                "isRequired": false,
+                                "value": "2",
+                                "valueType": "string",
+                                "items": [],
+                                "options": {
+                                  "xml": {
+                                    "name": "quantity",
+                                    "prefix": null,
+                                    "attribute": true
+                                  }
+                                }
+                              },
+                              {
+                                "name": "vatRate",
+                                "description": "",
+                                "isRequired": false,
+                                "value": "0.175",
+                                "valueType": "string",
+                                "items": [],
+                                "options": {
+                                  "xml": {
+                                    "name": "vatRate",
+                                    "prefix": null,
+                                    "attribute": true
+                                  }
+                                }
+                              },
+                              {
+                                "name": "project",
+                                "description": "",
+                                "isRequired": false,
+                                "value": "2",
+                                "valueType": "string",
+                                "items": [],
+                                "options": {
+                                  "xml": {
+                                    "name": "project",
+                                    "prefix": null,
+                                    "attribute": true
+                                  }
+                                }
+                              }
+                            ],
+                            "options": {
+                              "xml": {
+                                "name": "item",
+                                "prefix": null
+                              }
+                            }
+                          }
+                        ],
+                        "options": {
+                          "xml": {
+                            "name": "items",
+                            "prefix": null
+                          }
+                        }
+                      },
+                      {
+                        "name": "project",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "3",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "project",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      },
+                      {
+                        "name": "dateDue",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "2008-10-17",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "dateDue",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      },
+                      {
+                        "name": "reference",
+                        "description": "",
+                        "isRequired": false,
+                        "value": "abcd",
+                        "valueType": "string",
+                        "items": [],
+                        "options": {
+                          "xml": {
+                            "name": "reference",
+                            "prefix": null,
+                            "attribute": true
+                          }
+                        }
+                      }
+                    ],
+                    "options": {
+                      "xml": {
+                        "name": "invoice",
+                        "prefix": null
+                      }
+                    }
+                  }
+                ],
+                "options": {
+                  "xml": {
+                    "name": "createInvoice",
+                    "prefix": null
+                  }
+                }
+              }
+            ],
+            "options": {
+              "xml": {
+                "name": "Body",
+                "prefix": null
+              }
+            }
+          }
+        ],
+        "options": {
+          "xml": {
+            "name": "Envelope",
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "header": [
+      {
+        "name": "Authorization",
+        "isRequired": false,
+        "value": "apiKey=\"yourApiKey\"",
+        "valueType": "String",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      },
+      {
+        "name": "Content-Type",
+        "isRequired": false,
+        "value": "text/xml",
+        "valueType": "string",
+        "items": [],
+        "options": {
+          "xml": {
+            "prefix": null
+          }
+        }
+      }
+    ],
+    "path": [],
+    "contentType": "application/xml",
+    "graphqlQuery": null,
+    "codeExamples": [],
+    "_id": "66f40260a589ebcd5113cbcc"
+  },
+  "responses": [
+    {
+      "body": [],
+      "statusCode": 200,
+      "description": "",
+      "contentType": "application/json"
+    }
+  ],
+  "dataExample": [],
+  "endpointSummary": []
+}

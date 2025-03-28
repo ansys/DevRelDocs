@@ -1,0 +1,1 @@
+This section allows users to share a project with other users by specifying their user IDs, email addresses, and roles. Users can choose to make the project public and opt to receive notifications when others interact with the shared project.
