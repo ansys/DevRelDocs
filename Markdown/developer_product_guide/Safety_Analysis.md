@@ -12,4 +12,3 @@ Ansys medini utilizes multiple query and expression languages (OCL, AQL), and su
 ## Digital Safety Manager 
 
 There are no developer tools available at this time.
-

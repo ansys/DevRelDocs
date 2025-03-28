@@ -6,25 +6,25 @@ Lumerical Automation API allows you to interact with Lumerical’s solvers and p
 
 * [Lumerical Developer Docs](https://developer.ansys.com/docs/lumerical)
 
-### Ansys Lumerical Training 
+### Ansys Lumerical training
 
 * [Ansys Lumerical Scripting (AIC)](https://innovationspace.ansys.com/courses/learning-track/ansys-lumerical-scripting/)
 * [Scripting Basics Using Ansys Lumerical (AIC)](https://innovationspace.ansys.com/courses/index.php/courses/lumerical-scripting-first-scripting/lessons/scripting-basics-using-ansys-lumerical-scripting-lesson-1/)
 * [Getting Started with lumopt - Python API](https://optics.ansys.com/hc/en-us/articles/360050995394-Getting-Started-with-lumopt-Python-API)
 
-### Non-Ansys Lumerical Training 
+### Non-Ansys Lumerical training
 
 * [Lumerical Tips and Tricks #1 – Automation of Lumerical Tools with Python (Leap)](https://www.leapaust.com.au/blog/fea/lumerical-tips-and-tricks-1-automation-of-lumerical-tools-with-python/)
 * [Scripted Workflow: Ansys Lumerical Scripts
  (SimuTech)](https://www.youtube.com/watch?v=mXCZhfp9ImE)
 
-## Speos 
+## Speos
 
 [Speos Developer Docs](https://developer.ansys.com/docs/speos)
 
 * Speos Client APIs are available for Windows in: IronPython
-* Speos for NX library is available for Windows in: Python 
-* Speos Labs automation APIs are available for Windows in: VB Script, C++ 
+* Speos for NX library is available for Windows in: Python
+* Speos Labs automation APIs are available for Windows in: VB Script, C++
 * Speos Core methods are available for Windows in: COM
 * Speos now has a PyAnsys library PySpeos
 
@@ -49,8 +49,7 @@ ZOS-API is a COM-enabled .NET library available for Windows, with templates and 
 * MATLAB
 * Mathematica
 
-### Ansys Zemax Training Material 
+### Ansys Zemax training material 
 
 * [Getting Started with ZOS-API](https://support.zemax.com/hc/en-us/articles/23511411341331-Getting-Started-with-ZOS-API)
 * [Programming for All: How to Enhance Simulation with OpticStudio and ZOS-API](https://www.ansys.com/en-gb/blog/programming-for-all)
-

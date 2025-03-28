@@ -1,8 +1,8 @@
 # Electronics and Semiconductors
 
-Unlike other Ansys products many Ansys electronics & semiconductor products are exposed through Ansys Electronics Desktop (AEDT). Products accessible through AEDT are marked with `*` below. Products that can be accessed through AEDT and as standalone applications are marked with `+`.
+Unlike other Ansys products, Ansys exposes many of its electronics and semiconductor products through Ansys Electronics Desktop (AEDT). The list below marks products accessible through AEDT with `*`. Products available both through AEDT and as standalone applications are marked with `+`.
 
-## Electronics Desktop 
+## Electronics Desktop
 
 The AEDT platform includes ACT Python scripting (including journaling) as well as the PyAEDT and PyEDB (Ansys Electronics Database) PyAnsys libraries. There has also been Visual Basic Scripting available alongside IronPython and CPython historically.
 
@@ -24,14 +24,14 @@ There is also the Magnet Segmentation Toolkit which operates alongside PyAEDT to
 
 * [Magnet Segmentation Toolkit (PyAnsys)](https://magnet.segmentation.toolkit.docs.pyansys.com/version/stable/index.html)
 
-### AEDT Training Material 
+### AEDT training material
 
 * [Ansys Electronics Desktop Automation with PyAEDT Getting Started (ALH)](https://www.ansys.com/training-center/course-catalog/electronics/ansys-electronics-desktop-automation-with-pyeadt-getting-started)
 * [Introduction to PyAEDT](https://developer.ansys.com/blog/introduction-pyaedt)
 * [PyAnsys Training: Overview of PyAEDT](https://www.youtube.com/watch?v=yFUboNyJeGk)
 * [PyAnsys Training: PyAEDT Examples and Use Cases](https://www.youtube.com/watch?v=MnACOZ1Axd4)
 
-### Non-Ansys AEDT Training Material 
+### Non-Ansys AEDT training material
 
 * [PyAEDT: Introduction to the Ansys Electronics Desktop API (Ozen)](https://blog.ozeninc.com/resources/pyansys-introduction-to-the-electronics-desktop-api)
 
@@ -44,88 +44,90 @@ There is also the Magnet Segmentation Toolkit which operates alongside PyAEDT to
 * [ConceptEV REST API](https://conceptev.ansys.com/api/docs)
 * [PyConceptEV (PyAnsys)](https://conceptev.docs.pyansys.com/)
 
-## NuHertz Filter Solutions+ 
+## NuHertz Filter Solutions+
 
 See Electronics Desktop.
 
-## Perceive EM 
+## Perceive EM
 
 Ansys Perceive EM simulation software is a real-time, dynamic electromagnetic wave simulation solver API that supports many applications, including large-scale radar and wireless systems, with seamless digital twin integration. The Perceive EM API comes with C++ and Python bindings.
 
-## EMC Plus 
+## EMC Plus
 
 There are no developer tools available at this time.
 
-## PowerArtist 
+## PowerArtist
 
 There are no developer tools available at this time.
 
-## Redhawk-SC 
+## Redhawk-SC
 
-RedHawkSC and TotemSC have a pythonic library known as PySeascape that is available as part of PyAnsys which provides a remotable interface to these two products.
+RedHawkSC and TotemSC have a pythonic library known as PySeascape that's available as part of PyAnsys which provides a remotable interface to these two products.
 
 [PySeascape (PyAnsys)](https://seascape.docs.pyansys.com/version/stable/)
 
-## Totem 
+## Totem
 
 See [Redhawk-SC](#Redhawk-SC) and PySeascape.
 
-## VeloceRF 
+## VeloceRF
 
 There are no developer tools available at this time.
 
-## Pathfinder 
+## Pathfinder
 
 There are no developer tools available at this time.
 
-## Clock FX 
+## Clock FX
 
 There are no developer tools available at this time.
 
-## RaptorH 
+## RaptorH
 
 There are no developer tools available at this time.
 
-## RaptorX 
+## RaptorX
 
 There are no developer tools available at this time.
 
-## Exalto 
+## Exalto
 
 There are no developer tools available at this time.
 
-## Q3D Extractor* 
+## Q3D Extractor*
 
 See Electronics Desktop.
 
-## Icepak* 
+## Icepak*
 
 See Electronics Desktop.
 
-## HFSS*/HFSS-IC* 
+## HFSS*/HFSS-IC*
 
-IC stands for "Integrated Circuit".
+IC stands for "Integrated Circuit."
 
 See Electronics Desktop.
 
-## RaptorQu 
+## RaptorQu
 
-## SIwave+ 
+There are no developer tools available at this time.
+
+## SIwave+
 
 See Electronics Desktop. Otherwise contains IronPython scripting.
 
-## Maxwell* 
+## Maxwell*
 
 See Electronics Desktop.
 
-## ParagonX 
+## ParagonX
 
-Has a GUI mode and a batch mode that uses Python scripting. The Python scripting is done in an internal (CPython) interpreter that comes with multiple pre-installed libraries for interfacing with the product.
+Has a GUI mode and a batch mode that uses Python scripting. Script with Python in an internal (CPython) interpreter that comes with multiple pre-installed libraries for interfacing with the product.
 
-## PEmag+ 
+## PEmag+
 
 See Electronics Desktop.
 
-## PExprt+ 
+## PExprt+
 
 See Electronics Desktop.

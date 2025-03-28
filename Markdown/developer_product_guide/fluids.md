@@ -2,7 +2,7 @@
 
 [Ansys Common Fluids Format SDK for developers documentation.](https://developer.ansys.com/docs/cff)
 
-## Fluent 
+## Fluent
 
 Ansys Fluent  comes with a GUI and a "TUI" (Text User Interface). This is written in a [dialect of Lisp called Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language)).
 
@@ -16,7 +16,7 @@ Fluent has an OSS Python interface in the form of PyFluent and is part of PyAnsy
 
 The TUI is accessible within PyFluent, but with caveats. You can read them here: [PyFluent TUI commands](https://fluent.docs.pyansys.com/version/stable/user_guide/legacy/tui.html).
 
-### Ansys Fluent Training Material 
+### Ansys Fluent training material
 
 There are not many developer-exclusive trainings available for Fluent, however, because Ansys Fluent includes the TUI, most Fluent courses include some TUI material.
 
@@ -29,12 +29,12 @@ There are not many developer-exclusive trainings available for Fluent, however, 
 * [PyAnsys Training: Overview of PyFluent](https://www.youtube.com/watch?v=BY2FJ5qATCM)
 * [A Guide to Streamlining CFD Simulations and Reporting](https://developer.ansys.com/blog/guide-streamlining-cfd-simulations-and-reporting)
 
-### Non-Ansys Fluent Training Material 
+### Non-Ansys Fluent training material
 
 * [Automation of Fluent Using PyFluent (CADFEM)](https://www.cadfem.net/gb/en/shop/professional-development/training-elearning/fluid-dynamics/automation-of-fluent-using-pyfluent-18993.html)
 * [Extending the Functionality of Ansys Fluent using UDF (CADFEM)](https://www.cadfem.net/gb/en/shop/professional-development/training-elearning/fluid-dynamics/extending-the-functionality-of-ansys-fluent-using-udf-16309.html)
 
-## EnSight 
+## EnSight
 
 EnSight includes a command-language journaling feature within the application. It also includes an embedded Python interpreter.
 
@@ -42,83 +42,82 @@ EnSight includes a command-language journaling feature within the application. I
 * [PyEnsight Docs (PyAnsys)](https://ensight.docs.pyansys.com/version/stable/)
 * [VS Code PyEnSight extension](https://marketplace.visualstudio.com/items?itemName=AnsysDevelopers.pyensight)
 
-### Ansys EnSight Training Material 
+### Ansys EnSight training material
 
 * [EnSight Python Scripting (ALH)](https://www.ansys.com/training-center/course-catalog/fluids/ensight-python-scripting)
 * [EnSight: Python Macros and UserDefinedTools](https://www.youtube.com/watch?v=SJkViorO3Gw)
 
-### Non Ansys EnSight Training Material 
+### Non Ansys EnSight training material
 
 * [Ansys EnSight - Automate Post Processing with Python (DRD Technology)](https://www.youtube.com/watch?v=gFMxSvXJQis)
 * [How To Write a Python Script for EnSight (CEI)](https://ceisoftware.zendesk.com/hc/en-us/articles/203896296-How-to-write-a-python-script-for-EnSight)
 
-## BladeModeler 
+## BladeModeler
 
 There are no developer tools available at this time.
 
-## CFX 
+## CFX
 
-Ansys CFX has a command language (CCL), an expression language (CEL). CCL can be controlled with embedded Perl and user-generated models can be applied using User Fortran.
+Ansys CFX has a command language (CCL), an expression language (CEL). CCL is controlled with embedded Perl and user-generated models applied using User Fortran.
 
-### Ansys CFX Training Material 
+### Ansys CFX training material
 
 * [Ansys CFX Customization](https://www.ansys.com/training-center/course-catalog/fluids/ansys-cfx-customization)
 
-### Non-Ansys CFX Training Material 
+### Non-Ansys CFX training material
 
 * [CFX Expression Language - Part 1: Accessing CFD Simulation Information in CFX (and FLUENT) (PADT)](https://www.padtinc.com/2013/04/04/cfx-expressions-part-1/?utm_source=rss&utm_medium=rss&utm_campaign=cfx-expressions-part-1)
 
-## Chemkin 
+## Chemkin
 
 There are no developer tools available at this time.
 
-## FENSAP-ICE 
+## FENSAP-ICE
 
 There are no developer tools available at this time.
 
-## Forte 
+## Forte
 
 There are no developer tools available at this time.
 
-## Model Fuel Library 
+## Model Fuel Library
 
 There are no developer tools available at this time.
 
-## Polyflow 
+## Polyflow
 
 There are no developer tools available at this time.
 
-## Rocky 
+## Rocky
 
 Ansys Rocky has three main interfaces: PrePost scripting (Python), Solver SDK (C++ and Cuda), and PyRocky (OSS, Python).
 
 * [Rocky for developers documentation](https://developer.ansys.com/docs/rocky)
 * [PyRocky Docs (PyAnsys)](https://rocky.docs.pyansys.com/version/stable/)
 
-### Ansys Rocky Training Material 
+### Ansys Rocky training material
 
 * [Ansys Rocky Tutorial - Static Angle of Repose test (AIC)](https://innovationspace.ansys.com/product/ansys-rocky-tutorial-static-angle-of-repose-test/)
 * [5 FAQs About Automating with Ansys Rocky PrePost Scripting Tool (AIC)](https://innovationspace.ansys.com/knowledge/forums/topic/5-faqs-about-automating-with-ansys-rocky-prepost-scripting-tool/)
 
-## Turbogrid 
+## Turbogrid
 
 * [PyTurbogrid Docs (PyAnsys)](https://turbogrid.docs.pyansys.com/version/stable/)
 
-### Ansys Turbogrid Training Material
+### Ansys Turbogrid training material
 
 * [Ansys 2024 R1: Ansys CFX and Turbo Tools What's New](https://www.ansys.com/en-gb/webinars/ansys-2024-r1-ansys-cfx-and-turbo-tools-whats-new)
 
-## Vista TF 
+## Vista TF
 
 There are no developer tools available at this time.
 
-## Thermal Desktop 
+## Thermal Desktop
 
 Thermal Desktop has a .NET API known as "OpenTD".
 
 [Application Programming Interface (API) for Thermal Desktop](https://www.crtech.com/opentd-thermal-desktop-api)
 
-### Ansys Thermal Desktop Training Material 
+### Ansys Thermal Desktop training material
 
 * [Introducing OpenTD: an API for Thermal Desktop (CRTech - pre-Ansys acquisition)](https://www.youtube.com/watch?v=oW4I8tk_rZY)
-
