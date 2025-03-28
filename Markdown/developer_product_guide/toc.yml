@@ -1,0 +1,40 @@
+- name: Ansys Developer product guide
+  href: index.md
+- name: Glossary
+  items: 
+    - name: Glossary
+      href: glossary.md
+- name: Product Collections
+  items:
+    - name: 3D Design
+      href: 3d_design.md
+    - name: Acoustics Analysis
+      href: Acoustics_Analysis.md
+    - name: Ansys Additive Solutions
+      href: Ansys_Additive_Solutions.md
+    - name: Autonomous Vehicle Simulation
+      href: Autonomous_Vehicle_Simulation.md
+    - name: Cloud
+      href: Cloud.md
+    - name: Connect
+      href: Connect.md
+    - name: Digital Mission Engineering (DME)
+      href: Digital_Mission_Engineering_DME.md
+    - name: Digital Twin
+      href: Digital_Twin.md
+    - name: Electronics and Semiconductors
+      href: electronics_and_semiconductors.md
+    - name: Embedded Software
+      href: Embedded_Software.md
+    - name: Fluids
+      href: fluids.md
+    - name: Materials
+      href: materials.md
+    - name: Miscellaneous
+      href: misc.md
+    - name: Optics
+      href: optics.md
+    - name: Safety Analysis
+      href: Safety_Analysis.md
+    - name: Structures
+      href: structures.md
