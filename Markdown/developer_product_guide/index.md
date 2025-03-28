@@ -4,7 +4,7 @@
 
 These pages contain a comprehensive list of all Ansys products available now, as well as developer tools available for them and also any training material for those tools. This is the place to go to learn a piece of Ansys software or otherwise want to know the capabilities of tools you already have.
 
-## Sites/Tools common to all products 
+## Sites and tools common to all products 
 
 * The Developer Portal (you are here)
 * [Ansys Store](https://catalog.ansys.com/)
