@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_Force_PropertyTire"></a> Class PropertyTire
+# Class PropertyTire
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -173,7 +173,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Tire_Force_PropertyTire__ctor"></a> PropertyTire\(\)
+### PropertyTire\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.PropertyTire" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.Proper
 public PropertyTire()
 ```
 
-### <a id="VM_Managed_DAFUL_Tire_Force_PropertyTire__ctor_System_String_System_String_"></a> PropertyTire\(string, string\)
+### PropertyTire\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.PropertyTire" data-throw-if-not-resolved="false"></xref> class.
 
@@ -201,7 +201,7 @@ The build info.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Tire_Force_PropertyTire_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -215,7 +215,7 @@ public override sealed ArgumentTypes ArgumentType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Tire_Force_PropertyTire_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -228,4 +228,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

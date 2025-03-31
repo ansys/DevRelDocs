@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Property_PropertyBase"></a> Class PropertyBase
+# Class PropertyBase
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -181,7 +181,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Property_PropertyBase__ctor_System_String_"></a> PropertyBase\(string\)
+### PropertyBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.PropertyBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -195,7 +195,7 @@ public PropertyBase(string strName)
 
 Name of the property base.
 
-### <a id="VM_Managed_DAFUL_FE_Property_PropertyBase__ctor"></a> PropertyBase\(\)
+### PropertyBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.PropertyBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ public PropertyBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Property_PropertyBase_Material"></a> Material
+### Material
 
 Gets or sets the material.
 
@@ -217,7 +217,7 @@ virtual IMaterial Material { get; set; }
 
  IMaterial
 
-### <a id="VM_Managed_DAFUL_FE_Property_PropertyBase_Type"></a> Type
+### Type
 
 Gets the type of property.
 
@@ -229,7 +229,7 @@ public abstract PropertyBase.PropertyType Type { get; }
 
  [PropertyBase](VM.Managed.DAFUL.FE.Property.PropertyBase.md).[PropertyType](VM.Managed.DAFUL.FE.Property.PropertyBase.PropertyType.md)
 
-### <a id="VM_Managed_DAFUL_FE_Property_PropertyBase__Material"></a> \_Material
+### \_Material
 
 Gets or sets the material.
 
@@ -243,7 +243,7 @@ public LinkerFE<IMaterial> _Material { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Property_PropertyBase_LinkAddedToDocumentCore_VM_Models_Pre_IOwned_System_Boolean_"></a> LinkAddedToDocumentCore\(IOwned, bool\)
+### LinkAddedToDocumentCore\(IOwned, bool\)
 
 ```csharp
 protected override void LinkAddedToDocumentCore(IOwned owner, bool bBackup)
@@ -255,7 +255,7 @@ protected override void LinkAddedToDocumentCore(IOwned owner, bool bBackup)
 
 `bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_Property_PropertyBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -272,4 +272,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_HelicalAngleType"></a> Enum BasicInvolute.HelicalAngleType
+# Enum BasicInvolute.HelicalAngleType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,6 +20,7 @@ The left
 `Right = 0` 
 
 The right
+
 
 
 

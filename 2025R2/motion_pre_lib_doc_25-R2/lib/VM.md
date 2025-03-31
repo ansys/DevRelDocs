@@ -1,4 +1,4 @@
-# <a id="VM"></a> Namespace VM
+# Namespace VM
 
 ### Namespaces
 
@@ -156,7 +156,7 @@ This enumerator represent the selection mode of the picker
 
  [AngleTypes](VM.AngleTypes.md)
 
-Specifies Angle Type.
+<p>Specifies Angle Type.</p>
 
  [Coordinate](VM.Coordinate.md)
 
@@ -180,7 +180,7 @@ Specifies type for rotation axes.
 
  [RotationTypes](VM.RotationTypes.md)
 
-Specifies Rotation Type.
+<p>Specifies Rotation Type.</p>
 
  [SelectAreaTypes](VM.SelectAreaTypes.md)
 
@@ -191,4 +191,5 @@ This enumerator represent the sort direction
  [UnitType](VM.UnitType.md)
 
 Specifies Unit Type.
+
 

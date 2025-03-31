@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Water_WaveResult"></a> Struct Water.WaveResult
+# Struct Water.WaveResult
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,7 +11,7 @@ public struct Water.WaveResult
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveResult_Height"></a> Height
+### Height
 
 Height
 
@@ -23,7 +23,7 @@ public double[] Height
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveResult_Time"></a> Time
+### Time
 
 Time
 
@@ -35,7 +35,7 @@ public double Time
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveResult_Velocity"></a> Velocity
+### Velocity
 
 Velocity
 
@@ -46,4 +46,5 @@ public double[] Velocity
 #### Field Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+
 

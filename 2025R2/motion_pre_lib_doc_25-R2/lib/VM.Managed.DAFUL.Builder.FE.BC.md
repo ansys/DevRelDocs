@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_BC"></a> Class BC
+# Class BC
 
 Namespace: [VM.Managed.DAFUL.Builder.FE](VM.Managed.DAFUL.Builder.FE.md)  
 Assembly: VMBldFE.dll  
@@ -53,7 +53,7 @@ BuilderBase<BoundaryCondition\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_FE_BC__ctor"></a> BC\(\)
+### BC\(\)
 
 ```csharp
 public BC()
@@ -61,7 +61,7 @@ public BC()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_FE_BC_ActionBCComponent"></a> ActionBCComponent
+### ActionBCComponent
 
 ```csharp
 public IGeometricalComponent ActionBCComponent { get; }
@@ -73,7 +73,7 @@ public IGeometricalComponent ActionBCComponent { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_FE_BC_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,4 +88,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

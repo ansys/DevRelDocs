@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_ImportInfo"></a> Class ImportInfo
+# Class ImportInfo
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -22,7 +22,7 @@ public class ImportInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo__ctor"></a> ImportInfo\(\)
+### ImportInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ImportInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public ImportInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_ElementInfo_System_UInt32_"></a> ElementInfo\[uint\]
+### ElementInfo\[uint\]
 
 Gets the element information from index.
 
@@ -44,7 +44,7 @@ public ElementInfo ElementInfo[uint nID] { get; }
 
  [ElementInfo](VM.Managed.DAFUL.FE.ElementInfo.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_Marker_System_UInt32_"></a> Marker\[uint\]
+### Marker\[uint\]
 
 Gets the marker.
 
@@ -56,7 +56,7 @@ public double[] Marker[uint nID] { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_Material_System_UInt32_"></a> Material\[uint\]
+### Material\[uint\]
 
 Gets the material.
 
@@ -68,7 +68,7 @@ public IMaterial Material[uint nID] { get; }
 
  IMaterial
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_NodeID_System_UInt32_"></a> NodeID\[uint\]
+### NodeID\[uint\]
 
 Gets the node ID.
 
@@ -80,7 +80,7 @@ public uint NodeID[uint nIndex] { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_NodeIndex_System_UInt32_"></a> NodeIndex\[uint\]
+### NodeIndex\[uint\]
 
 Gets the node index.
 
@@ -92,7 +92,7 @@ public uint NodeIndex[uint nID] { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_PropertyBeam_System_UInt32_"></a> PropertyBeam\[uint\]
+### PropertyBeam\[uint\]
 
 Gets the property beam/beamL from index.
 
@@ -104,7 +104,7 @@ public IFEObject PropertyBeam[uint nID] { get; }
 
  [IFEObject](VM.Managed.DAFUL.FE.IFEObject.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_PropertyShell_System_UInt32_"></a> PropertyShell\[uint\]
+### PropertyShell\[uint\]
 
 Gets the property shell from index.
 
@@ -116,7 +116,7 @@ public IFEObject PropertyShell[uint nID] { get; }
 
  [IFEObject](VM.Managed.DAFUL.FE.IFEObject.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_PropertySolid_System_UInt32_"></a> PropertySolid\[uint\]
+### PropertySolid\[uint\]
 
 Gets the property solid from index.
 
@@ -128,7 +128,7 @@ public IFEObject PropertySolid[uint nID] { get; }
 
  [IFEObject](VM.Managed.DAFUL.FE.IFEObject.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_RBE_System_UInt32_"></a> RBE\[uint\]
+### RBE\[uint\]
 
 Gets the rbe from index.
 
@@ -140,7 +140,7 @@ public IFEObject RBE[uint nID] { get; }
 
  [IFEObject](VM.Managed.DAFUL.FE.IFEObject.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_Set_System_UInt32_"></a> Set\[uint\]
+### Set\[uint\]
 
 Gets the SetPatch or SetEdge from index.
 
@@ -154,7 +154,7 @@ public IFEObject Set[uint nID] { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_Add_VM_Managed_DAFUL_FE_IFEObject_"></a> Add\(IFEObject\)
+### Add\(IFEObject\)
 
 Add.
 
@@ -168,7 +168,7 @@ public void Add(IFEObject obj)
 
 The FE object.
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_AddElementInfo_System_UInt32_VM_Managed_DAFUL_FE_ElementType_System_UInt32_"></a> AddElementInfo\(uint, ElementType, uint\)
+### AddElementInfo\(uint, ElementType, uint\)
 
 Add element inromation.
 
@@ -190,7 +190,7 @@ The element type.
 
 The index.
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_AddMarker_System_UInt32_System_Double___"></a> AddMarker\(uint, double\[\]\)
+### AddMarker\(uint, double\[\]\)
 
 Add marker.
 
@@ -208,7 +208,7 @@ The index.
 
 The marker.
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_AddMaterial_VM_Managed_Material_IMaterial_"></a> AddMaterial\(IMaterial\)
+### AddMaterial\(IMaterial\)
 
 Add material.
 
@@ -222,7 +222,7 @@ public void AddMaterial(IMaterial mat)
 
 The material.
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_AddNodeID_System_UInt32_System_UInt32_"></a> AddNodeID\(uint, uint\)
+### AddNodeID\(uint, uint\)
 
 Add node ID.
 
@@ -240,7 +240,7 @@ The ID.
 
 The index.
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_ElementInfo_System_UInt32_"></a> get\_ElementInfo\(uint\)
+### get\_ElementInfo\(uint\)
 
 ```csharp
 public ElementInfo get_ElementInfo(uint nID)
@@ -254,7 +254,7 @@ public ElementInfo get_ElementInfo(uint nID)
 
  [ElementInfo](VM.Managed.DAFUL.FE.ElementInfo.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_Marker_System_UInt32_"></a> get\_Marker\(uint\)
+### get\_Marker\(uint\)
 
 ```csharp
 public double[] get_Marker(uint nID)
@@ -268,7 +268,7 @@ public double[] get_Marker(uint nID)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_Material_System_UInt32_"></a> get\_Material\(uint\)
+### get\_Material\(uint\)
 
 ```csharp
 public IMaterial get_Material(uint nID)
@@ -282,7 +282,7 @@ public IMaterial get_Material(uint nID)
 
  IMaterial
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_NodeID_System_UInt32_"></a> get\_NodeID\(uint\)
+### get\_NodeID\(uint\)
 
 ```csharp
 public uint get_NodeID(uint nIndex)
@@ -296,7 +296,7 @@ public uint get_NodeID(uint nIndex)
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_NodeIndex_System_UInt32_"></a> get\_NodeIndex\(uint\)
+### get\_NodeIndex\(uint\)
 
 ```csharp
 public uint get_NodeIndex(uint nID)
@@ -310,7 +310,7 @@ public uint get_NodeIndex(uint nID)
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_PropertyBeam_System_UInt32_"></a> get\_PropertyBeam\(uint\)
+### get\_PropertyBeam\(uint\)
 
 ```csharp
 public IFEObject get_PropertyBeam(uint nID)
@@ -324,7 +324,7 @@ public IFEObject get_PropertyBeam(uint nID)
 
  [IFEObject](VM.Managed.DAFUL.FE.IFEObject.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_PropertyShell_System_UInt32_"></a> get\_PropertyShell\(uint\)
+### get\_PropertyShell\(uint\)
 
 ```csharp
 public IFEObject get_PropertyShell(uint nID)
@@ -338,7 +338,7 @@ public IFEObject get_PropertyShell(uint nID)
 
  [IFEObject](VM.Managed.DAFUL.FE.IFEObject.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_PropertySolid_System_UInt32_"></a> get\_PropertySolid\(uint\)
+### get\_PropertySolid\(uint\)
 
 ```csharp
 public IFEObject get_PropertySolid(uint nID)
@@ -352,7 +352,7 @@ public IFEObject get_PropertySolid(uint nID)
 
  [IFEObject](VM.Managed.DAFUL.FE.IFEObject.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_RBE_System_UInt32_"></a> get\_RBE\(uint\)
+### get\_RBE\(uint\)
 
 ```csharp
 public IFEObject get_RBE(uint nID)
@@ -366,7 +366,7 @@ public IFEObject get_RBE(uint nID)
 
  [IFEObject](VM.Managed.DAFUL.FE.IFEObject.md)
 
-### <a id="VM_Managed_DAFUL_FE_ImportInfo_get_Set_System_UInt32_"></a> get\_Set\(uint\)
+### get\_Set\(uint\)
 
 ```csharp
 public IFEObject get_Set(uint nID)
@@ -379,4 +379,5 @@ public IFEObject get_Set(uint nID)
 #### Returns
 
  [IFEObject](VM.Managed.DAFUL.FE.IFEObject.md)
+
 

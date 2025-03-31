@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_NeoHookean"></a> Class NeoHookean
+# Class NeoHookean
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -190,7 +190,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Material_NeoHookean__ctor"></a> NeoHookean\(\)
+### NeoHookean\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.NeoHookean" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.NeoHookean" da
 public NeoHookean()
 ```
 
-### <a id="VM_Managed_Material_NeoHookean__ctor_System_String_"></a> NeoHookean\(string\)
+### NeoHookean\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.NeoHookean" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ Name of the neo-hookean material.
 
 ## Properties
 
-### <a id="VM_Managed_Material_NeoHookean_C10"></a> C10
+### C10
 
 Gets or sets the C10.
 
@@ -226,7 +226,7 @@ public ExpressionValueVariable C10 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_NeoHookean_D"></a> D
+### D
 
 Gets or sets the D.
 
@@ -240,7 +240,7 @@ public ExpressionValueVariable D { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Material_NeoHookean_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -254,7 +254,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_Material_NeoHookean_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -268,7 +268,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_Material_NeoHookean_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -281,4 +281,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

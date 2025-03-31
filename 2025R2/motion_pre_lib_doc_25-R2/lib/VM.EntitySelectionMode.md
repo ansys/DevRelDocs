@@ -1,4 +1,4 @@
-# <a id="VM_EntitySelectionMode"></a> Enum EntitySelectionMode
+# Enum EntitySelectionMode
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -20,6 +20,7 @@ Normal selection mode
 `Pick = 1` 
 
 Pick mode
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Function"></a> Class Function
+# Class Function
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -175,7 +175,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Function__ctor"></a> Function\(\)
+### Function\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Function" data-th
 public Function()
 ```
 
-### <a id="VM_Managed_DAFUL_Function__ctor_VM_ExpressionTypes_"></a> Function\(ExpressionTypes\)
+### Function\(ExpressionTypes\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ public Function(ExpressionTypes expressionTypes)
 
 The function expression type.
 
-### <a id="VM_Managed_DAFUL_Function__ctor_System_String_"></a> Function\(string\)
+### Function\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref> class.
 
@@ -213,7 +213,7 @@ public Function(string strName)
 
 Name of the function.
 
-### <a id="VM_Managed_DAFUL_Function__ctor_System_String_VM_ExpressionTypes_"></a> Function\(string, ExpressionTypes\)
+### Function\(string, ExpressionTypes\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref> class.
 
@@ -233,7 +233,7 @@ The function expression type.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Function_ArgumentList"></a> ArgumentList
+### ArgumentList
 
 Gets or sets the argument list.
 
@@ -245,7 +245,7 @@ public ArgumentListGeneral ArgumentList { get; set; }
 
  [ArgumentListGeneral](VM.Managed.DAFUL.ArgumentListGeneral.md)
 
-### <a id="VM_Managed_DAFUL_Function_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -257,7 +257,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Function_Expression"></a> Expression
+### Expression
 
 Gets or sets the expression.
 
@@ -269,7 +269,7 @@ public string Expression { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Function_FunctionExpressionType"></a> FunctionExpressionType
+### FunctionExpressionType
 
 ```csharp
 public ExpressionTypes FunctionExpressionType { get; set; }
@@ -279,7 +279,7 @@ public ExpressionTypes FunctionExpressionType { get; set; }
 
  ExpressionTypes
 
-### <a id="VM_Managed_DAFUL_Function_IsInterface"></a> IsInterface
+### IsInterface
 
 Gets or sets a value indicating whether this instance is interface.
 
@@ -291,7 +291,7 @@ public bool IsInterface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Function_IsPerformanceIndex"></a> IsPerformanceIndex
+### IsPerformanceIndex
 
 Gets or sets a value indicating whether this instance is the peformance index.
 
@@ -303,7 +303,7 @@ public bool IsPerformanceIndex { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Function_PredefinedKeywords"></a> PredefinedKeywords
+### PredefinedKeywords
 
 ```csharp
 public static IEnumerable<string> PredefinedKeywords { get; }
@@ -313,7 +313,7 @@ public static IEnumerable<string> PredefinedKeywords { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Function_PythonInterpreterPath"></a> PythonInterpreterPath
+### PythonInterpreterPath
 
 The path to the python interpreter(python.exe)
 
@@ -325,7 +325,7 @@ public static string PythonInterpreterPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Function_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -337,7 +337,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Function_SolverModulePath"></a> SolverModulePath
+### SolverModulePath
 
 The path to the console solver directory
 
@@ -351,7 +351,7 @@ public static string SolverModulePath { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Function_ContainsReservedArgument"></a> ContainsReservedArgument\(\)
+### ContainsReservedArgument\(\)
 
 Determines whether [contains] [the reserved arg].
 
@@ -365,7 +365,7 @@ public bool ContainsReservedArgument()
 
 <code>true</code> if [contains] [the reserved arg]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Function_CreateSimplePythonFunction_System_String_"></a> CreateSimplePythonFunction\(string\)
+### CreateSimplePythonFunction\(string\)
 
 ```csharp
 public static Function CreateSimplePythonFunction(string strName)
@@ -379,7 +379,7 @@ public static Function CreateSimplePythonFunction(string strName)
 
  [Function](VM.Managed.DAFUL.Function.md)
 
-### <a id="VM_Managed_DAFUL_Function_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -393,7 +393,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Function_LinkAddedToDocumentCore_VM_Models_Pre_IOwned_System_Boolean_"></a> LinkAddedToDocumentCore\(IOwned, bool\)
+### LinkAddedToDocumentCore\(IOwned, bool\)
 
 ```csharp
 protected override void LinkAddedToDocumentCore(IOwned owner, bool bBackup)
@@ -405,7 +405,7 @@ protected override void LinkAddedToDocumentCore(IOwned owner, bool bBackup)
 
 `bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Function_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -423,7 +423,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Function_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -437,7 +437,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Function_RefineExpression_VM_ExpressionParser_"></a> RefineExpression\(ExpressionParser\)
+### RefineExpression\(ExpressionParser\)
 
 ```csharp
 public void RefineExpression(ExpressionParser parser = null)
@@ -447,7 +447,7 @@ public void RefineExpression(ExpressionParser parser = null)
 
 `parser` ExpressionParser
 
-### <a id="VM_Managed_DAFUL_Function_VerifyExpression_System_String_System_String_"></a> VerifyExpression\(string, string\)
+### VerifyExpression\(string, string\)
 
 ```csharp
 public bool VerifyExpression(string strPathPythonExe = null, string strPathSolverDir = null)
@@ -463,7 +463,7 @@ public bool VerifyExpression(string strPathPythonExe = null, string strPathSolve
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Function_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -476,4 +476,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

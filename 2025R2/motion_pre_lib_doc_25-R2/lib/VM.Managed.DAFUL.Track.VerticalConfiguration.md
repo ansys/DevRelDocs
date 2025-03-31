@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_VerticalConfiguration"></a> Class VerticalConfiguration
+# Class VerticalConfiguration
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -193,7 +193,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_VerticalConfiguration__ctor"></a> VerticalConfiguration\(\)
+### VerticalConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.VerticalConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ public VerticalConfiguration()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_VerticalConfiguration_ConfigurationName"></a> ConfigurationName
+### ConfigurationName
 
 Gets the configuration name
 
@@ -214,4 +214,5 @@ public override string ConfigurationName { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

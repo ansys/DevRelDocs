@@ -1,4 +1,4 @@
-# <a id="VM_Collections_ObservableConcurrentDictionary_2"></a> Class ObservableConcurrentDictionary<TKey, TValue\>
+# Class ObservableConcurrentDictionary<TKey, TValue\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -26,7 +26,7 @@ public class ObservableConcurrentDictionary<TKey, TValue>
 
 ## Constructors
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2__ctor"></a> ObservableConcurrentDictionary\(\)
+### ObservableConcurrentDictionary\(\)
 
 ```csharp
 public ObservableConcurrentDictionary()
@@ -34,7 +34,7 @@ public ObservableConcurrentDictionary()
 
 ## Properties
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_Count"></a> Count
+### Count
 
 ```csharp
 public int Count { get; }
@@ -44,7 +44,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_IsReadOnly"></a> IsReadOnly
+### IsReadOnly
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -54,7 +54,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_Keys"></a> Keys
+### Keys
 
 ```csharp
 public ICollection<TKey> Keys { get; }
@@ -64,7 +64,7 @@ public ICollection<TKey> Keys { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TKey\>
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_Values"></a> Values
+### Values
 
 ```csharp
 public ICollection<TValue> Values { get; }
@@ -74,7 +74,7 @@ public ICollection<TValue> Values { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TValue\>
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_Item__0_"></a> this\[TKey\]
+### this\[TKey\]
 
 ```csharp
 public TValue this[TKey key] { get; set; }
@@ -86,7 +86,7 @@ public TValue this[TKey key] { get; set; }
 
 ## Methods
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2___OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_"></a> <\>OnPropertyChanged\(PropertyChangedEventArgs\)
+### <\>OnPropertyChanged\(PropertyChangedEventArgs\)
 
 ```csharp
 protected void <>OnPropertyChanged(PropertyChangedEventArgs eventArgs)
@@ -96,7 +96,7 @@ protected void <>OnPropertyChanged(PropertyChangedEventArgs eventArgs)
 
 `eventArgs` [PropertyChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_Add__0__1_"></a> Add\(TKey, TValue\)
+### Add\(TKey, TValue\)
 
 ```csharp
 public void Add(TKey key, TValue value)
@@ -108,13 +108,13 @@ public void Add(TKey key, TValue value)
 
 `value` TValue
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_Clear"></a> Clear\(\)
+### Clear\(\)
 
 ```csharp
 public void Clear()
 ```
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_Contains_System_Collections_Generic_KeyValuePair__0__1__"></a> Contains\(KeyValuePair<TKey, TValue\>\)
+### Contains\(KeyValuePair<TKey, TValue\>\)
 
 ```csharp
 public bool Contains(KeyValuePair<TKey, TValue> item)
@@ -128,7 +128,7 @@ public bool Contains(KeyValuePair<TKey, TValue> item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_ContainsKey__0_"></a> ContainsKey\(TKey\)
+### ContainsKey\(TKey\)
 
 ```csharp
 public bool ContainsKey(TKey key)
@@ -142,7 +142,7 @@ public bool ContainsKey(TKey key)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_"></a> CopyTo\(KeyValuePair<TKey, TValue\>\[\], int\)
+### CopyTo\(KeyValuePair<TKey, TValue\>\[\], int\)
 
 ```csharp
 public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
@@ -154,7 +154,7 @@ public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
 
 `arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 ```csharp
 public IEnumerator GetEnumerator()
@@ -164,7 +164,7 @@ public IEnumerator GetEnumerator()
 
  [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_Remove__0_"></a> Remove\(TKey\)
+### Remove\(TKey\)
 
 ```csharp
 public bool Remove(TKey key)
@@ -178,7 +178,7 @@ public bool Remove(TKey key)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_TryGetValue__0__1__"></a> TryGetValue\(TKey, out TValue\)
+### TryGetValue\(TKey, out TValue\)
 
 ```csharp
 public bool TryGetValue(TKey key, out TValue value)
@@ -194,7 +194,7 @@ public bool TryGetValue(TKey key, out TValue value)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_CollectionChanged"></a> CollectionChanged
+### CollectionChanged
 
 ```csharp
 public event NotifyCollectionChangedEventHandler CollectionChanged
@@ -204,7 +204,7 @@ public event NotifyCollectionChangedEventHandler CollectionChanged
 
  [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
 
-### <a id="VM_Collections_ObservableConcurrentDictionary_2_PropertyChanged"></a> PropertyChanged
+### PropertyChanged
 
 ```csharp
 public event PropertyChangedEventHandler PropertyChanged
@@ -213,4 +213,5 @@ public event PropertyChangedEventHandler PropertyChanged
 #### Event Type
 
  [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
+
 

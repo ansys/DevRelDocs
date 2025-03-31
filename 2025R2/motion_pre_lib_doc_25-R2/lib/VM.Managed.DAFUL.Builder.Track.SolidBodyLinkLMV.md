@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyLinkLMV"></a> Class SolidBodyLinkLMV
+# Class SolidBodyLinkLMV
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -61,7 +61,7 @@ BuilderBase<SolidBodyLink\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyLinkLMV__ctor"></a> SolidBodyLinkLMV\(\)
+### SolidBodyLinkLMV\(\)
 
 ```csharp
 public SolidBodyLinkLMV()
@@ -69,7 +69,7 @@ public SolidBodyLinkLMV()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyLinkLMV_GetCurrentSolidBuilder"></a> GetCurrentSolidBuilder\(\)
+### GetCurrentSolidBuilder\(\)
 
 ```csharp
 protected override Builder GetCurrentSolidBuilder()
@@ -78,4 +78,5 @@ protected override Builder GetCurrentSolidBuilder()
 #### Returns
 
  Builder
+
 

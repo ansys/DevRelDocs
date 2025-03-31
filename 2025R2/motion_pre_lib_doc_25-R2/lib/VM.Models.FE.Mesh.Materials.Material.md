@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Materials_Material"></a> Class Material
+# Class Material
 
 Namespace: [VM.Models.FE.Mesh.Materials](VM.Models.FE.Mesh.Materials.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -37,7 +37,7 @@ public abstract class Material : Entity, IEntity
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Materials_Material__ctor"></a> Material\(\)
+### Material\(\)
 
 ```csharp
 protected Material()
@@ -45,7 +45,7 @@ protected Material()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Materials_Material_Density"></a> Density
+### Density
 
 ```csharp
 [Column]
@@ -58,7 +58,7 @@ public double Density { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_FE_Mesh_Materials_Material_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -72,7 +72,7 @@ public override bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_FE_Mesh_Materials_Material_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 ```csharp
 public override int GetHashCode()
@@ -81,4 +81,5 @@ public override int GetHashCode()
 #### Returns
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

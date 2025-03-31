@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_PathInformation"></a> Class PathInformation
+# Class PathInformation
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PathInformation__ctor"></a> PathInformation\(\)
+### PathInformation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PathInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public PathInformation()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PathInformation_ComponentStiffnessList"></a> ComponentStiffnessList
+### ComponentStiffnessList
 
 Gets or sets the component stiffness list.
 
@@ -118,7 +118,7 @@ public ComponentStiffness[] ComponentStiffnessList { get; set; }
 
  [ComponentStiffness](VM.Managed.DAFUL.CPlacingConnector.ComponentStiffness.md)\[\]
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PathInformation_ModifiedTime"></a> ModifiedTime
+### ModifiedTime
 
 Gets or sets the last written time of a segment.
 
@@ -130,7 +130,7 @@ public string ModifiedTime { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PathInformation_RelativePath"></a> RelativePath
+### RelativePath
 
 Gets or sets relative path.
 
@@ -144,7 +144,7 @@ public string RelativePath { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PathInformation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -157,4 +157,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

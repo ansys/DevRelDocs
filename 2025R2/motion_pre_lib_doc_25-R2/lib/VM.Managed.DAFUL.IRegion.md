@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IRegion"></a> Interface IRegion
+# Interface IRegion
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IRegion
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IRegion_Type"></a> Type
+### Type
 
 Gets the type.
 
@@ -28,4 +28,5 @@ RegionType Type { get; }
 #### Property Value
 
  [RegionType](VM.Managed.DAFUL.RegionType.md)
+
 

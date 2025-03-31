@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ModifyModelingParameter"></a> Class ModifyModelingParameter
+# Class ModifyModelingParameter
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -83,7 +83,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ModifyModelingParameter__ctor_VM_Managed_Document_"></a> ModifyModelingParameter\(Document\)
+### ModifyModelingParameter\(Document\)
 
 ```csharp
 public ModifyModelingParameter(Document doc)
@@ -95,7 +95,7 @@ public ModifyModelingParameter(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ModifyModelingParameter_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -109,7 +109,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ModifyModelingParameter_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -117,7 +117,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ModifyModelingParameter_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
+### OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -135,7 +135,7 @@ The sender.
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ModifyModelingParameter_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -152,4 +152,5 @@ The updater.
 `doc` Document
 
 The doc.
+
 

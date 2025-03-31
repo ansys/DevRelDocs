@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateGearInMeshFree"></a> Class UpdateGearInMeshFree
+# Class UpdateGearInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -87,7 +87,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateGearInMeshFree__ctor_System_String_System_String_System_String_System_String_System_String_"></a> UpdateGearInMeshFree\(string, string, string, string, string\)
+### UpdateGearInMeshFree\(string, string, string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateGearInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ Type of the string parent.
 
 The string rbe or bearing.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateGearInMeshFree__ctor_VM_Managed_Document3D_System_String_System_String_System_String_System_String_System_String_"></a> UpdateGearInMeshFree\(Document3D, string, string, string, string, string\)
+### UpdateGearInMeshFree\(Document3D, string, string, string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateGearInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -151,7 +151,7 @@ Type of the string parent.
 
 The string rbe or bearing.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateGearInMeshFree__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateGearInMeshFree\(JournalParameter\)
+### UpdateGearInMeshFree\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateGearInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -164,4 +164,5 @@ public UpdateGearInMeshFree(JournalParameter jp)
 `jp` JournalParameter
 
 The jp.
+
 

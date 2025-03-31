@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_Ortho"></a> Class Ortho
+# Class Ortho
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Material_Ortho__ctor"></a> Ortho\(\)
+### Ortho\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Ortho" data-throw-if-not-resolved="false"></xref> class.
 
@@ -191,7 +191,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.Ortho" data-th
 public Ortho()
 ```
 
-### <a id="VM_Managed_Material_Ortho__ctor_System_String_"></a> Ortho\(string\)
+### Ortho\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Ortho" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ Name of the orthotropic material.
 
 ## Properties
 
-### <a id="VM_Managed_Material_Ortho_DampingRatio"></a> DampingRatio
+### DampingRatio
 
 Gets or sets the damping ratio.
 
@@ -219,7 +219,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ortho_DisableHScaleFactor"></a> DisableHScaleFactor
+### DisableHScaleFactor
 
 Gets or sets a value indicating whether [disable H scale factor].
 Use SetDisableHScaleFactor() when this instance sets for undo/redo
@@ -232,7 +232,7 @@ public bool DisableHScaleFactor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Material_Ortho_PoissonRatioXY"></a> PoissonRatioXY
+### PoissonRatioXY
 
 Gets or sets the poisson ratio xy.
 
@@ -244,7 +244,7 @@ public ExpressionValueVariable PoissonRatioXY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ortho_PoissonRatioXZ"></a> PoissonRatioXZ
+### PoissonRatioXZ
 
 Gets or sets the poisson ratio xz.
 
@@ -256,7 +256,7 @@ public ExpressionValueVariable PoissonRatioXZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ortho_PoissonRatioYZ"></a> PoissonRatioYZ
+### PoissonRatioYZ
 
 Gets or sets the poisson ratio yz.
 
@@ -268,7 +268,7 @@ public ExpressionValueVariable PoissonRatioYZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ortho_ShearModulusXY"></a> ShearModulusXY
+### ShearModulusXY
 
 Gets or sets the shear modulus xy.
 
@@ -280,7 +280,7 @@ public ExpressionValueVariable ShearModulusXY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ortho_ShearModulusXZ"></a> ShearModulusXZ
+### ShearModulusXZ
 
 Gets or sets the shear modulus xz.
 
@@ -292,7 +292,7 @@ public ExpressionValueVariable ShearModulusXZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ortho_ShearModulusYZ"></a> ShearModulusYZ
+### ShearModulusYZ
 
 Gets or sets the shear modulus yz.
 
@@ -304,7 +304,7 @@ public ExpressionValueVariable ShearModulusYZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ortho_YoungsModulusX"></a> YoungsModulusX
+### YoungsModulusX
 
 Gets or sets the youngs modulus x.
 
@@ -316,7 +316,7 @@ public ExpressionValueVariable YoungsModulusX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ortho_YoungsModulusY"></a> YoungsModulusY
+### YoungsModulusY
 
 Gets or sets the youngs modulus y.
 
@@ -328,7 +328,7 @@ public ExpressionValueVariable YoungsModulusY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ortho_YoungsModulusZ"></a> YoungsModulusZ
+### YoungsModulusZ
 
 Gets or sets the youngs modulus z.
 
@@ -342,7 +342,7 @@ public ExpressionValueVariable YoungsModulusZ { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Material_Ortho_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -356,7 +356,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_Material_Ortho_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -374,7 +374,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_Material_Ortho_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -388,7 +388,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_Material_Ortho_SetDisableHScaleFactor_System_Boolean_"></a> SetDisableHScaleFactor\(bool\)
+### SetDisableHScaleFactor\(bool\)
 
 Set [disable Hscale] factor.
 
@@ -402,7 +402,7 @@ public void SetDisableHScaleFactor(bool bFactor)
 
 The [disable Hscale] factor.
 
-### <a id="VM_Managed_Material_Ortho_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -415,4 +415,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

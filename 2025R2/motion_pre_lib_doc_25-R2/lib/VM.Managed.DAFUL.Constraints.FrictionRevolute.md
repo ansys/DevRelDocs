@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute"></a> Class FrictionRevolute
+# Class FrictionRevolute
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -115,7 +115,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute__ctor"></a> FrictionRevolute\(\)
+### FrictionRevolute\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.FrictionRevolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ public FrictionRevolute()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute_BendingReactionArm"></a> BendingReactionArm
+### BendingReactionArm
 
 Gets or sets the bending reaction arm.
 
@@ -137,7 +137,7 @@ public ExpressionValueVariable BendingReactionArm { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute_FrictionArm"></a> FrictionArm
+### FrictionArm
 
 Gets or sets the friction arm.
 
@@ -149,7 +149,7 @@ public ExpressionValueVariable FrictionArm { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute_PinRadius"></a> PinRadius
+### PinRadius
 
 Gets or sets the pin radius.
 
@@ -161,7 +161,7 @@ public ExpressionValueVariable PinRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute_PreTorque"></a> PreTorque
+### PreTorque
 
 Gets or sets the pre torque.
 
@@ -175,7 +175,7 @@ public ExpressionValueVariable PreTorque { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -189,7 +189,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
+### ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -203,7 +203,7 @@ public override void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -217,7 +217,7 @@ public override void WriteTemplate(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute_WriteTemplate_System_Xml_XmlWriter_System_String_"></a> WriteTemplate\(XmlWriter, string\)
+### WriteTemplate\(XmlWriter, string\)
 
 ```csharp
 protected virtual void WriteTemplate(XmlWriter writer, string frictionName)
@@ -228,4 +228,5 @@ protected virtual void WriteTemplate(XmlWriter writer, string frictionName)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 `frictionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

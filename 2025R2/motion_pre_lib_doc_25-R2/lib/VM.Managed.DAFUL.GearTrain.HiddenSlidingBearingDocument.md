@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument"></a> Class HiddenSlidingBearingDocument
+# Class HiddenSlidingBearingDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -595,7 +595,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument__ctor_System_UIntPtr_"></a> HiddenSlidingBearingDocument\(UIntPtr\)
+### HiddenSlidingBearingDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenSlidingBearingDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -611,7 +611,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initialize categories.
 
@@ -623,7 +623,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_SlidingBearing"></a> SlidingBearing
+### SlidingBearing
 
 Gets or sets the sliding bearing.
 
@@ -635,7 +635,7 @@ public SlidingBearing SlidingBearing { get; set; }
 
  [SlidingBearing](VM.Managed.DAFUL.GearTrain.SlidingBearing.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_TargetDesign"></a> TargetDesign
+### TargetDesign
 
 Gets the target design.
 
@@ -649,7 +649,7 @@ public override IOpenDesigner TargetDesign { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -669,7 +669,7 @@ The fullname of type.
 
 The category.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -683,7 +683,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the string category.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_RenameEntityImpl_System_String_VM_Managed_ObjectBase_"></a> RenameEntityImpl\(string, ObjectBase\)
+### RenameEntityImpl\(string, ObjectBase\)
 
 Rename entity [Implementation].
 
@@ -700,4 +700,5 @@ The old name.
 `namedObj` ObjectBase
 
 The new object.
+
 

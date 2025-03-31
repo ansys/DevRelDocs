@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderBlock"></a> Class BuilderBlock
+# Class BuilderBlock
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderBlock__ctor"></a> BuilderBlock\(\)
+### BuilderBlock\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBlock" data-throw-if-not-resolved="false"></xref> class
 
@@ -211,7 +211,7 @@ public BuilderBlock()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderBlock_TransformationMatrix"></a> TransformationMatrix
+### TransformationMatrix
 
 Gets the transformation matrix.
 
@@ -223,7 +223,7 @@ public override sealed TMatrix TransformationMatrix { get; }
 
  TMatrix
 
-### <a id="VM_Managed_CAD_BuilderBlock__Depth"></a> \_Depth
+### \_Depth
 
 Gets the depth of block.
 
@@ -235,7 +235,7 @@ public abstract double _Depth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderBlock__Height"></a> \_Height
+### \_Height
 
 Gets the height of block.
 
@@ -247,7 +247,7 @@ public abstract double _Height { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderBlock__Transform"></a> \_Transform
+### \_Transform
 
 Gets the transform info. of block.
 
@@ -259,7 +259,7 @@ public abstract TMatrix _Transform { get; }
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### <a id="VM_Managed_CAD_BuilderBlock__Width"></a> \_Width
+### \_Width
 
 Gets the width of block.
 
@@ -273,7 +273,7 @@ public abstract double _Width { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderBlock_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -281,7 +281,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_BuilderBlock_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -291,7 +291,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderBlock_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -300,4 +300,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
+
 

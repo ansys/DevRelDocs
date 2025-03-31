@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects"></a> Class ShowHideDeselectedObjects
+# Class ShowHideDeselectedObjects
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects__ctor_System_Boolean_System_Boolean_System_Collections_Generic_List_VM_Managed_ObjectBase__"></a> ShowHideDeselectedObjects\(bool, bool, List<ObjectBase\>\)
+### ShowHideDeselectedObjects\(bool, bool, List<ObjectBase\>\)
 
 ```csharp
 public ShowHideDeselectedObjects(bool bVisible, bool bGround, List<ObjectBase> lstSel)
@@ -91,7 +91,7 @@ public ShowHideDeselectedObjects(bool bVisible, bool bGround, List<ObjectBase> l
 
 `lstSel` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects__ctor_VM_Managed_Document3D_System_Boolean_System_Boolean_System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__"></a> ShowHideDeselectedObjects\(Document3D, bool, bool, IEnumerable<ObjectBase\>\)
+### ShowHideDeselectedObjects\(Document3D, bool, bool, IEnumerable<ObjectBase\>\)
 
 ```csharp
 public ShowHideDeselectedObjects(Document3D doc3D, bool bVisible, bool bGround, IEnumerable<ObjectBase> lstSel)
@@ -107,7 +107,7 @@ public ShowHideDeselectedObjects(Document3D doc3D, bool bVisible, bool bGround, 
 
 `lstSel` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowHideDeselectedObjects\(JournalParameter\)
+### ShowHideDeselectedObjects\(JournalParameter\)
 
 ```csharp
 public ShowHideDeselectedObjects(JournalParameter jp)
@@ -119,7 +119,7 @@ public ShowHideDeselectedObjects(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects_ExecutableOnHold"></a> ExecutableOnHold
+### ExecutableOnHold
 
 ```csharp
 protected override bool ExecutableOnHold { get; }
@@ -129,7 +129,7 @@ protected override bool ExecutableOnHold { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -143,7 +143,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -151,7 +151,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_ShowHideDeselectedObjects_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -160,4 +160,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

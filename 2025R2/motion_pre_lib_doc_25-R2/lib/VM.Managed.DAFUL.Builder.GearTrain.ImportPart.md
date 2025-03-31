@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart"></a> Class ImportPart
+# Class ImportPart
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -63,7 +63,7 @@ BuilderBase<AssembledBody\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart__ctor"></a> ImportPart\(\)
+### ImportPart\(\)
 
 ```csharp
 public ImportPart()
@@ -71,7 +71,7 @@ public ImportPart()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_AssemblyFileName"></a> AssemblyFileName
+### AssemblyFileName
 
 ```csharp
 protected override string AssemblyFileName { get; }
@@ -81,7 +81,7 @@ protected override string AssemblyFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_DocumentName"></a> DocumentName
+### DocumentName
 
 ```csharp
 protected override string DocumentName { get; }
@@ -91,7 +91,7 @@ protected override string DocumentName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_ExtensionName"></a> ExtensionName
+### ExtensionName
 
 ```csharp
 protected override string ExtensionName { get; }
@@ -101,7 +101,7 @@ protected override string ExtensionName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_FileName"></a> FileName
+### FileName
 
 ```csharp
 public string[] FileName { get; set; }
@@ -111,7 +111,7 @@ public string[] FileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_Healing"></a> Healing
+### Healing
 
 ```csharp
 public bool Healing { get; set; }
@@ -121,7 +121,7 @@ public bool Healing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -131,7 +131,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_PropertyFilePath"></a> PropertyFilePath
+### PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -141,7 +141,7 @@ public string PropertyFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_ResultType"></a> ResultType
+### ResultType
 
 ```csharp
 public string ResultType { get; set; }
@@ -151,7 +151,7 @@ public string ResultType { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_UnitType"></a> UnitType
+### UnitType
 
 ```csharp
 public Document3D.CadImportUnitType UnitType { get; set; }
@@ -163,7 +163,7 @@ public Document3D.CadImportUnitType UnitType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_CreateAssembleCore_VM_Managed_Document_"></a> CreateAssembleCore\(Document\)
+### CreateAssembleCore\(Document\)
 
 ```csharp
 protected override void CreateAssembleCore(Document meshDoc)
@@ -173,7 +173,7 @@ protected override void CreateAssembleCore(Document meshDoc)
 
 `meshDoc` Document
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_ImportCAD_VM_Managed_DAFUL_PartDocument_"></a> ImportCAD\(PartDocument\)
+### ImportCAD\(PartDocument\)
 
 ```csharp
 public void ImportCAD(PartDocument docToAdd)
@@ -183,7 +183,7 @@ public void ImportCAD(PartDocument docToAdd)
 
 `docToAdd` PartDocument
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -198,4 +198,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

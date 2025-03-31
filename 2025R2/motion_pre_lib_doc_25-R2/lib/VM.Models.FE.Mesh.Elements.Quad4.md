@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Quad4"></a> Class Quad4
+# Class Quad4
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -51,7 +51,7 @@ public class Quad4 : Element4Nodes, IEntity
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Elements_Quad4__ctor"></a> Quad4\(\)
+### Quad4\(\)
 
 ```csharp
 public Quad4()
@@ -59,7 +59,7 @@ public Quad4()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Elements_Quad4_ElementType"></a> ElementType
+### ElementType
 
 ```csharp
 public override ElementTypes ElementType { get; }
@@ -68,4 +68,5 @@ public override ElementTypes ElementType { get; }
 #### Property Value
 
  [ElementTypes](VM.Models.FE.Mesh.ElementTypes.md)
+
 

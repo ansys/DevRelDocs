@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_GeometryBase"></a> Class GeometryBase
+# Class GeometryBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -306,7 +306,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GeometryBase__ctor"></a> GeometryBase\(\)
+### GeometryBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GeometryBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -314,7 +314,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Geo
 public GeometryBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GeometryBase__ctor_VM_Managed_CAD_Builder_"></a> GeometryBase\(Builder\)
+### GeometryBase\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GeometryBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -330,7 +330,7 @@ The builder.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_m_strNameWhenDelete"></a> m\_strNameWhenDelete
+### m\_strNameWhenDelete
 
 The M_STR name when delete
 
@@ -344,7 +344,7 @@ protected string m_strNameWhenDelete
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_GetNameWhenDelete"></a> GetNameWhenDelete\(\)
+### GetNameWhenDelete\(\)
 
 Gets the name when delete.
 
@@ -356,7 +356,7 @@ protected virtual string GetNameWhenDelete()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Links the request destroy.
 
@@ -373,4 +373,5 @@ The ob notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

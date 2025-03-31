@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_TorqueTest"></a> Class TorqueTest
+# Class TorqueTest
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Force_TorqueTest__ctor"></a> TorqueTest\(\)
+### TorqueTest\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.TorqueTest" data-throw-if-not-resolved="false"></xref> class.
 
@@ -112,7 +112,7 @@ public TorqueTest()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Force_TorqueTest_NegativeWindUp"></a> NegativeWindUp
+### NegativeWindUp
 
 Gets or sets the negative direction wind up torque.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable NegativeWindUp { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_TorqueTest_PositiveWindUp"></a> PositiveWindUp
+### PositiveWindUp
 
 Gets or sets the positive direction wind up torque.
 
@@ -135,4 +135,5 @@ public ExpressionValueVariable PositiveWindUp { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

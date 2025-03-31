@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Link_4"></a> Class Link<T, TUpdate, TDestroy, TOwnerDestroy\>
+# Class Link<T, TUpdate, TDestroy, TOwnerDestroy\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -38,13 +38,13 @@ public class Link<T, TUpdate, TDestroy, TOwnerDestroy> : ITypedLink<T>, ILink, I
 
 ## Constructors
 
-### <a id="VM_Managed_Link_4__ctor"></a> Link\(\)
+### Link\(\)
 
 ```csharp
 protected Link()
 ```
 
-### <a id="VM_Managed_Link_4__ctor_VM_Models_Pre_ILinkContainer_"></a> Link\(ILinkContainer\)
+### Link\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.Link%604" data-throw-if-not-resolved="false"></xref> class.
 
@@ -58,7 +58,7 @@ public Link(ILinkContainer objParent)
 
 The linked object's container object.
 
-### <a id="VM_Managed_Link_4__ctor_VM_Models_Pre_ILinkContainer__0_"></a> Link\(ILinkContainer, T\)
+### Link\(ILinkContainer, T\)
 
 Initializes a new instance of the <xref href="VM.Managed.Link%604" data-throw-if-not-resolved="false"></xref> class.
 
@@ -76,7 +76,7 @@ The linked object's container object.
 
 The linked object.
 
-### <a id="VM_Managed_Link_4__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> Link\(SerializationInfo, StreamingContext\)
+### Link\(SerializationInfo, StreamingContext\)
 
 ```csharp
 protected Link(SerializationInfo info, StreamingContext context)
@@ -90,7 +90,7 @@ protected Link(SerializationInfo info, StreamingContext context)
 
 ## Fields
 
-### <a id="VM_Managed_Link_4_m_obj"></a> m\_obj
+### m\_obj
 
 ```csharp
 protected ObjectEventCore m_obj
@@ -100,7 +100,7 @@ protected ObjectEventCore m_obj
 
  [ObjectEventCore](VM.Managed.ObjectEventCore.md)
 
-### <a id="VM_Managed_Link_4_m_objLinkOwner"></a> m\_objLinkOwner
+### m\_objLinkOwner
 
 ```csharp
 protected ILinkContainer m_objLinkOwner
@@ -112,7 +112,7 @@ protected ILinkContainer m_objLinkOwner
 
 ## Properties
 
-### <a id="VM_Managed_Link_4_FullName"></a> FullName
+### FullName
 
 Gets the linked object's full name.
 
@@ -124,7 +124,7 @@ public string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Link_4_IsReference"></a> IsReference
+### IsReference
 
 Gets a value indicating whether linked object is the reference.
 
@@ -136,7 +136,7 @@ public bool IsReference { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Link_4_LinkedObj"></a> LinkedObj
+### LinkedObj
 
 Gets the object container that has a relation with this.
 
@@ -148,7 +148,7 @@ override sealed ILinkContainer LinkedObj { get; }
 
  ILinkContainer
 
-### <a id="VM_Managed_Link_4_Name"></a> Name
+### Name
 
 Gets the linked object's name.
 
@@ -160,7 +160,7 @@ public string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Link_4_Object"></a> Object
+### Object
 
 Gets or sets the linked object.
 
@@ -172,7 +172,7 @@ public virtual T Object { get; set; }
 
  T
 
-### <a id="VM_Managed_Link_4_Prototype"></a> Prototype
+### Prototype
 
 Gets the linked object's prototype.
 
@@ -186,7 +186,7 @@ public T Prototype { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Link_4_ClearBeforeDeserialize"></a> ClearBeforeDeserialize\(\)
+### ClearBeforeDeserialize\(\)
 
 Disconnect the link relation before deserialize.
 
@@ -194,7 +194,7 @@ Disconnect the link relation before deserialize.
 virtual void ClearBeforeDeserialize()
 ```
 
-### <a id="VM_Managed_Link_4_ClearBeforeSwap"></a> ClearBeforeSwap\(\)
+### ClearBeforeSwap\(\)
 
 Disconnect the link relation before undo/redo.
 
@@ -202,7 +202,7 @@ Disconnect the link relation before undo/redo.
 virtual void ClearBeforeSwap()
 ```
 
-### <a id="VM_Managed_Link_4_DestroyObject_System_Object_VM_Managed_LinkEventArgs_"></a> DestroyObject\(object, LinkEventArgs\)
+### DestroyObject\(object, LinkEventArgs\)
 
 Destroy this link
 
@@ -214,13 +214,13 @@ virtual void DestroyObject(object objNotifier, LinkEventArgs arg)
 
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-The linked object.
+<p>The linked object.</p>
 
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
-The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+<p>The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.</p>
 
-### <a id="VM_Managed_Link_4_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 protected virtual void Dispose(bool A_0)
@@ -230,7 +230,7 @@ protected virtual void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Link_4_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 destroy a instance of the <xref href="VM.Managed.Link%604" data-throw-if-not-resolved="false"></xref> class.
 
@@ -238,7 +238,7 @@ destroy a instance of the <xref href="VM.Managed.Link%604" data-throw-if-not-res
 public override sealed void Dispose()
 ```
 
-### <a id="VM_Managed_Link_4_GetChilds_System_Collections_Generic_HashSet_VM_Models_Pre_ILinkContainer__"></a> GetChilds\(HashSet<ILinkContainer\>\)
+### GetChilds\(HashSet<ILinkContainer\>\)
 
 ```csharp
 virtual void GetChilds(HashSet<ILinkContainer> A_0)
@@ -248,7 +248,7 @@ virtual void GetChilds(HashSet<ILinkContainer> A_0)
 
 `A_0` [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<ILinkContainer\>
 
-### <a id="VM_Managed_Link_4_GetFirstDesignEntities"></a> GetFirstDesignEntities\(\)
+### GetFirstDesignEntities\(\)
 
 Get first design entities.
 
@@ -260,7 +260,7 @@ virtual IEnumerable<IObject> GetFirstDesignEntities()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
 
-### <a id="VM_Managed_Link_4_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectData\(SerializationInfo, StreamingContext\)
+### GetObjectData\(SerializationInfo, StreamingContext\)
 
 ```csharp
 virtual void GetObjectData(SerializationInfo info, StreamingContext __unnamed001)
@@ -272,7 +272,7 @@ virtual void GetObjectData(SerializationInfo info, StreamingContext __unnamed001
 
 `__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### <a id="VM_Managed_Link_4_RegisterEvent_System_Boolean_"></a> RegisterEvent\(bool\)
+### RegisterEvent\(bool\)
 
 ```csharp
 protected virtual void RegisterEvent(bool bBackup)
@@ -282,7 +282,7 @@ protected virtual void RegisterEvent(bool bBackup)
 
 `bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Link_4_Reserve_VM_Managed_LinkEventArgs_"></a> Reserve\(LinkEventArgs\)
+### Reserve\(LinkEventArgs\)
 
 Reserve link.
 
@@ -302,7 +302,7 @@ The event argument.
 
 true if succeess to reserve, otherwise false.
 
-### <a id="VM_Managed_Link_4_SetModified"></a> SetModified\(\)
+### SetModified\(\)
 
 set modified link for undo/redo
 
@@ -310,7 +310,7 @@ set modified link for undo/redo
 virtual void SetModified()
 ```
 
-### <a id="VM_Managed_Link_4_UnregisterEvent_System_Boolean_"></a> UnregisterEvent\(bool\)
+### UnregisterEvent\(bool\)
 
 ```csharp
 protected virtual void UnregisterEvent(bool bBackup)
@@ -322,7 +322,7 @@ protected virtual void UnregisterEvent(bool bBackup)
 
 ## Operators
 
-### <a id="VM_Managed_Link_4_op_Implicit_VM_Managed_Link__0__1__2__3___VM_Managed_Linker__0_"></a> implicit operator Linker<T\>\(Link<T, TUpdate, TDestroy, TOwnerDestroy\>\)
+### implicit operator Linker<T\>\(Link<T, TUpdate, TDestroy, TOwnerDestroy\>\)
 
 ```csharp
 public static implicit operator Linker<T>(Link<T, TUpdate, TDestroy, TOwnerDestroy> lnk)
@@ -335,4 +335,5 @@ public static implicit operator Linker<T>(Link<T, TUpdate, TDestroy, TOwnerDestr
 #### Returns
 
  [Linker](VM.Managed.Linker\-1.md)<T\>
+
 

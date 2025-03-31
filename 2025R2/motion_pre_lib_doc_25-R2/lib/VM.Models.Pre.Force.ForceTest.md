@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_ForceTest"></a> Class ForceTest
+# Class ForceTest
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Force_ForceTest__ctor"></a> ForceTest\(\)
+### ForceTest\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.ForceTest" data-throw-if-not-resolved="false"></xref> class.
 
@@ -112,7 +112,7 @@ public ForceTest()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Force_ForceTest_Jounce"></a> Jounce
+### Jounce
 
 Gets the positive direction jounce force.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable Jounce { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_ForceTest_Rebound"></a> Rebound
+### Rebound
 
 Gets the negative direction rebound force.
 
@@ -135,4 +135,5 @@ public ExpressionValueVariable Rebound { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

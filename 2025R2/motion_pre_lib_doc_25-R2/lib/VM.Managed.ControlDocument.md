@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ControlDocument"></a> Class ControlDocument
+# Class ControlDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -255,7 +255,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_ControlDocument__ctor"></a> ControlDocument\(\)
+### ControlDocument\(\)
 
 ```csharp
 public ControlDocument()
@@ -263,7 +263,7 @@ public ControlDocument()
 
 ## Properties
 
-### <a id="VM_Managed_ControlDocument_CanClose"></a> CanClose
+### CanClose
 
 Gets a value indicating that whether document can close.
 
@@ -275,7 +275,7 @@ public override bool CanClose { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ControlDocument_IsPropertySupport"></a> IsPropertySupport
+### IsPropertySupport
 
 ```csharp
 public virtual bool IsPropertySupport { get; }
@@ -285,7 +285,7 @@ public virtual bool IsPropertySupport { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ControlDocument_IsReload"></a> IsReload
+### IsReload
 
 ```csharp
 public virtual bool IsReload { get; }
@@ -295,7 +295,7 @@ public virtual bool IsReload { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ControlDocument_Modified"></a> Modified
+### Modified
 
 Gets or sets the document's modify state.
 
@@ -309,7 +309,7 @@ public override bool Modified { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_ControlDocument_Add_VM_Managed_ObjectBase_"></a> Add\(ObjectBase\)
+### Add\(ObjectBase\)
 
 Add object to document.
 
@@ -321,7 +321,7 @@ public override sealed void Add(ObjectBase A_0)
 
 `A_0` [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_ControlDocument_CreateView_System_UIntPtr_"></a> CreateView\(UIntPtr\)
+### CreateView\(UIntPtr\)
 
 Create view.
 
@@ -339,7 +339,7 @@ The view handle.
 
  [View](VM.Managed.View.md)
 
-### <a id="VM_Managed_ControlDocument_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Find DAFUL object from the container by name.
 
@@ -357,7 +357,7 @@ public override IObjectBase FindLocal(string A_0)
 
 The DAFUL object.
 
-### <a id="VM_Managed_ControlDocument_IsEnabledImpl_VM_Managed_ObjectBase_"></a> IsEnabledImpl\(ObjectBase\)
+### IsEnabledImpl\(ObjectBase\)
 
 Determines whether is enabled [the specified object] [implementation].
 
@@ -375,7 +375,7 @@ public override bool IsEnabledImpl(ObjectBase A_0)
 
 <code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_ControlDocument_IsTypeSupported_System_Type_"></a> IsTypeSupported\(Type\)
+### IsTypeSupported\(Type\)
 
 Determines whether is [supported type] [the specified type].
 
@@ -387,7 +387,7 @@ public override void IsTypeSupported(Type A_0)
 
 `A_0` [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### <a id="VM_Managed_ControlDocument_Load_System_String_"></a> Load\(string\)
+### Load\(string\)
 
 ```csharp
 public virtual void Load(string strPath)
@@ -397,7 +397,7 @@ public virtual void Load(string strPath)
 
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_ControlDocument_OnPostMakeDocument_VM_Managed_DocCreateInfo_"></a> OnPostMakeDocument\(DocCreateInfo\)
+### OnPostMakeDocument\(DocCreateInfo\)
 
 Called when [post make document] [implementation].
 
@@ -409,7 +409,7 @@ protected override void OnPostMakeDocument(DocCreateInfo info)
 
 `info` [DocCreateInfo](VM.Managed.DocCreateInfo.md)
 
-### <a id="VM_Managed_ControlDocument_Save_System_String_"></a> Save\(string\)
+### Save\(string\)
 
 Save document.
 
@@ -423,7 +423,7 @@ public override void Save(string strPath)
 
 The path to save.
 
-### <a id="VM_Managed_ControlDocument_SetEnableImpl_VM_Managed_ObjectBase_System_Boolean_"></a> SetEnableImpl\(ObjectBase, bool\)
+### SetEnableImpl\(ObjectBase, bool\)
 
 Sets the enable [implementation].
 
@@ -437,7 +437,7 @@ public override void SetEnableImpl(ObjectBase A_0, bool A_1)
 
 `A_1` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ControlDocument_SetUnit_VM_Unit_"></a> SetUnit\(Unit\)
+### SetUnit\(Unit\)
 
 Sets the document unit.
 
@@ -449,7 +449,7 @@ protected override void SetUnit(Unit A_0)
 
 `A_0` Unit
 
-### <a id="VM_Managed_ControlDocument_TriggerPostMakeDocument_VM_Managed_ControlDocCreateInfo_"></a> TriggerPostMakeDocument\(ControlDocCreateInfo\)
+### TriggerPostMakeDocument\(ControlDocCreateInfo\)
 
 ```csharp
 public void TriggerPostMakeDocument(ControlDocCreateInfo info)
@@ -459,7 +459,7 @@ public void TriggerPostMakeDocument(ControlDocCreateInfo info)
 
 `info` [ControlDocCreateInfo](VM.Managed.ControlDocCreateInfo.md)
 
-### <a id="VM_Managed_ControlDocument_UpdateEnable_VM_Managed_ObjectBase_System_Boolean_"></a> UpdateEnable\(ObjectBase, bool\)
+### UpdateEnable\(ObjectBase, bool\)
 
 Update object to enable or disable.
 
@@ -472,4 +472,5 @@ public override void UpdateEnable(ObjectBase A_0, bool A_1)
 `A_0` [ObjectBase](VM.Managed.ObjectBase.md)
 
 `A_1` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

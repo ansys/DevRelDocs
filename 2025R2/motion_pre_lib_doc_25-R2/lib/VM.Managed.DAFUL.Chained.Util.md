@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_Util"></a> Class Util
+# Class Util
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -22,7 +22,7 @@ public class Util
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_Util__ctor"></a> Util\(\)
+### Util\(\)
 
 ```csharp
 public Util()
@@ -30,7 +30,7 @@ public Util()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_Util_AddAttributeOfMeshFree_System_Xml_XmlDocument_VM_Managed_DAFUL_SolidBody_"></a> AddAttributeOfMeshFree\(XmlDocument, SolidBody\)
+### AddAttributeOfMeshFree\(XmlDocument, SolidBody\)
 
 Add attribute of meshfree
 
@@ -48,7 +48,7 @@ The xml information.
 
 The Solid body.
 
-### <a id="VM_Managed_DAFUL_Chained_Util_UpdateNavForFaceset_VM_Managed_DAFUL_SetFace_VM_Managed_Document_"></a> UpdateNavForFaceset\(SetFace, Document\)
+### UpdateNavForFaceset\(SetFace, Document\)
 
 Update Navigator for faceset
 
@@ -65,4 +65,5 @@ The faceset.
 `doc` Document
 
 The document.
+
 

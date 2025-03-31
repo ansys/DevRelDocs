@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Translational"></a> Class Translational
+# Class Translational
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  
@@ -36,7 +36,7 @@ Named<Translational\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Constraints_Translational__ctor"></a> Translational\(\)
+### Translational\(\)
 
 ```csharp
 public Translational()
@@ -44,7 +44,7 @@ public Translational()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Constraints_Translational_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,7 +78,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Symmetric_Constraints_Translational_UpdateProperty_VM_Managed_DAFUL_Constraints_PropertyTranslational_VM_Managed_DAFUL_Constraints_PropertyTranslational_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateProperty\(PropertyTranslational, PropertyTranslational, SymmetricType, Plane, Document\)
+### UpdateProperty\(PropertyTranslational, PropertyTranslational, SymmetricType, Plane, Document\)
 
 ```csharp
 public static void UpdateProperty(PropertyTranslational toolProperty, PropertyTranslational targetProperty, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -95,4 +95,5 @@ public static void UpdateProperty(PropertyTranslational toolProperty, PropertyTr
 `sym_plane` Plane
 
 `doc` Document
+
 

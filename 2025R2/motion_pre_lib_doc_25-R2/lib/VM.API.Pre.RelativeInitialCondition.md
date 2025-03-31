@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_RelativeInitialCondition"></a> Class RelativeInitialCondition
+# Class RelativeInitialCondition
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -27,7 +27,7 @@ public class RelativeInitialCondition : Relative
 
 ## Constructors
 
-### <a id="VM_API_Pre_RelativeInitialCondition__ctor"></a> RelativeInitialCondition\(\)
+### RelativeInitialCondition\(\)
 
 Default constructor
 
@@ -35,7 +35,7 @@ Default constructor
 public RelativeInitialCondition()
 ```
 
-### <a id="VM_API_Pre_RelativeInitialCondition__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> RelativeInitialCondition\(ExpressionValueVariable, ExpressionValueVariable\)
+### RelativeInitialCondition\(ExpressionValueVariable, ExpressionValueVariable\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.RelativeInitialCondition" data-throw-if-not-resolved="false"></xref> class.
 
@@ -55,7 +55,7 @@ The init angular vel of the relative.
 
 ## Properties
 
-### <a id="VM_API_Pre_RelativeInitialCondition_InitAngle"></a> InitAngle
+### InitAngle
 
 The value for the initial angle. The default value is 0.
 
@@ -67,7 +67,7 @@ public ExpressionValueVariable InitAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_RelativeInitialCondition_InitAngularVel"></a> InitAngularVel
+### InitAngularVel
 
 The value for the init angular vel. The default value is 0.
 
@@ -78,4 +78,5 @@ public ExpressionValueVariable InitAngularVel { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

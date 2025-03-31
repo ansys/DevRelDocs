@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree"></a> Class AddBearingToRBEInMeshFree
+# Class AddBearingToRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -56,7 +56,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree__ctor"></a> AddBearingToRBEInMeshFree\(\)
+### AddBearingToRBEInMeshFree\(\)
 
 ```csharp
 public AddBearingToRBEInMeshFree()
@@ -64,7 +64,7 @@ public AddBearingToRBEInMeshFree()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree_GetRacewayBuilder_VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_"></a> GetRacewayBuilder\(GeometryBase\)
+### GetRacewayBuilder\(GeometryBase\)
 
 ```csharp
 protected override RacewayBuilderForRBEInFE GetRacewayBuilder(GeometryBase bearing_geom)
@@ -78,7 +78,7 @@ protected override RacewayBuilderForRBEInFE GetRacewayBuilder(GeometryBase beari
 
  RacewayBuilderForRBEInFE
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree_GetRacewayGeometry_VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_"></a> GetRacewayGeometry\(RacewayBuilderForRBEInFE\)
+### GetRacewayGeometry\(RacewayBuilderForRBEInFE\)
 
 ```csharp
 protected override GeometryBase GetRacewayGeometry(RacewayBuilderForRBEInFE bearingBuilder)
@@ -92,7 +92,7 @@ protected override GeometryBase GetRacewayGeometry(RacewayBuilderForRBEInFE bear
 
  GeometryBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree_GetTmpRacewayGeometry_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_Managed_DirectionBase_VM_Managed_OMatrix_System_Boolean_"></a> GetTmpRacewayGeometry\(RacewayGeometryInfo, HiddenDocumentMeshBase, DirectionBase, OMatrix, bool\)
+### GetTmpRacewayGeometry\(RacewayGeometryInfo, HiddenDocumentMeshBase, DirectionBase, OMatrix, bool\)
 
 ```csharp
 protected override GeometryBase GetTmpRacewayGeometry(RacewayGeometryInfo rgInfo, HiddenDocumentMeshBase hiddenDoc, DirectionBase zAxis, OMatrix matO, bool bAddDoc)
@@ -114,7 +114,7 @@ protected override GeometryBase GetTmpRacewayGeometry(RacewayGeometryInfo rgInfo
 
  GeometryBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshFree_RBEName_VM_Managed_DAFUL_IConnectable_"></a> RBEName\(IConnectable\)
+### RBEName\(IConnectable\)
 
 ```csharp
 protected override string RBEName(IConnectable con)
@@ -127,4 +127,5 @@ protected override string RBEName(IConnectable con)
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

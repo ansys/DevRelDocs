@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_IBuilder"></a> Interface IBuilder
+# Interface IBuilder
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -15,7 +15,7 @@ public interface IBuilder
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_IBuilder_BuildObject"></a> BuildObject
+### BuildObject
 
 ```csharp
 ObjectBase BuildObject { get; }
@@ -27,7 +27,7 @@ ObjectBase BuildObject { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_IBuilder_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 void Build(Document docToAdd)
@@ -37,7 +37,7 @@ void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### <a id="VM_Managed_DAFUL_Builder_IBuilder_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
+### Build\(Document, List<string\>\)
 
 ```csharp
 void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -49,7 +49,7 @@ void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Builder_IBuilder_Success"></a> Success\(\)
+### Success\(\)
 
 ```csharp
 bool Success()
@@ -59,7 +59,7 @@ bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_IBuilder_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 bool Validate(IList<string> lstErrorMessage)
@@ -72,4 +72,5 @@ bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

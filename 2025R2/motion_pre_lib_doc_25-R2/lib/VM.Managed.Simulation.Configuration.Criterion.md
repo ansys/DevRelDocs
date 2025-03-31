@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Configuration_Criterion"></a> Enum Configuration.Criterion
+# Enum Configuration.Criterion
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -20,6 +20,7 @@ Strain
 `Stress = 0` 
 
 Stress
+
 
 
 

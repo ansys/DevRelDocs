@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DFException"></a> Class DFException
+# Class DFException
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +27,7 @@ public class DFException : Exception
 
 ## Constructors
 
-### <a id="VM_Managed_DFException__ctor_System_String_"></a> DFException\(string\)
+### DFException\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DFException" data-throw-if-not-resolved="false"></xref> class.
 
@@ -41,7 +41,7 @@ public DFException(string strMessage)
 
 The exception message.
 
-### <a id="VM_Managed_DFException__ctor_System_String_System_Exception_"></a> DFException\(string, Exception\)
+### DFException\(string, Exception\)
 
 Initializes a new instance of the <xref href="VM.Managed.DFException" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,11 +59,12 @@ The exception message.
 
 The inner exception.
 
-### <a id="VM_Managed_DFException__ctor"></a> DFException\(\)
+### DFException\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DFException" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 protected DFException()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_HiddenDocInfo"></a> Class HiddenDocInfo
+# Class HiddenDocInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -65,9 +65,10 @@ public class HiddenDocInfo : AssemblyDocInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_HiddenDocInfo__ctor"></a> HiddenDocInfo\(\)
+### HiddenDocInfo\(\)
 
 ```csharp
 public HiddenDocInfo()
 ```
+
 

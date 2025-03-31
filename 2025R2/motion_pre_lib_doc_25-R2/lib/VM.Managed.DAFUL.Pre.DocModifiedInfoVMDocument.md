@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument"></a> Class DocModifiedInfoVMDocument
+# Class DocModifiedInfoVMDocument
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -30,7 +30,7 @@ public class DocModifiedInfoVMDocument : DocModifiedInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument__ctor_VM_Managed_Document_"></a> DocModifiedInfoVMDocument\(Document\)
+### DocModifiedInfoVMDocument\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.DocModifiedInfoVMDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ The document.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument_DependentDocuments"></a> DependentDocuments
+### DependentDocuments
 
 Gets or sets the dependent documents.
 
@@ -58,7 +58,7 @@ public List<Document> DependentDocuments { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Document\>
 
-### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument_Document"></a> Document
+### Document
 
 Gets or sets the document.
 
@@ -70,7 +70,7 @@ public Document Document { get; set; }
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument_FilePath"></a> FilePath
+### FilePath
 
 Gets the file path.
 
@@ -84,7 +84,7 @@ public override string FilePath { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument_Cleanup"></a> Cleanup\(\)
+### Cleanup\(\)
 
 Cleanups this instance.
 
@@ -92,7 +92,7 @@ Cleanups this instance.
 public override void Cleanup()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument_OnDependentAdded_System_Object_VM_Managed_DependentDocEventArgs_"></a> OnDependentAdded\(object, DependentDocEventArgs\)
+### OnDependentAdded\(object, DependentDocEventArgs\)
 
 Called when [dependent added].
 
@@ -110,7 +110,7 @@ The object.
 
 The <xref href="VM.Managed.DependentDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoVMDocument_OnDependentRemoved_System_Object_VM_Managed_DependentDocEventArgs_"></a> OnDependentRemoved\(object, DependentDocEventArgs\)
+### OnDependentRemoved\(object, DependentDocEventArgs\)
 
 Called when [dependent removed].
 
@@ -127,4 +127,5 @@ The object.
 `args` DependentDocEventArgs
 
 The <xref href="VM.Managed.DependentDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

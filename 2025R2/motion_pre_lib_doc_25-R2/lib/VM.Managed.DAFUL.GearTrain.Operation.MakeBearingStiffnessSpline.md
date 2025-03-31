@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline"></a> Class MakeBearingStiffnessSpline
+# Class MakeBearingStiffnessSpline
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -84,7 +84,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline__ctor_System_Collections_Generic_List_System_Double____System_Collections_Generic_List_System_Double____System_Collections_Generic_List_System_Double____System_String_System_String_System_String_"></a> MakeBearingStiffnessSpline\(List<double\[\]\>, List<double\[\]\>, List<double\[\]\>, string, string, string\)
+### MakeBearingStiffnessSpline\(List<double\[\]\>, List<double\[\]\>, List<double\[\]\>, string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MakeBearingStiffnessSpline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -118,7 +118,7 @@ The maximum axial stiffness value.
 
 The maximum tilt stiffness value.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline__ctor_VM_Managed_Operation_JournalParameter_"></a> MakeBearingStiffnessSpline\(JournalParameter\)
+### MakeBearingStiffnessSpline\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MakeBearingStiffnessSpline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -134,7 +134,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -148,7 +148,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -156,7 +156,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -169,4 +169,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IUCControl"></a> Interface IUCControl
+# Interface IUCControl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IUCControl
 
 ## Methods
 
-### <a id="VM_Managed_IUCControl_OnMFCKeyDown_System_Windows_Forms_KeyEventArgs_"></a> OnMFCKeyDown\(KeyEventArgs\)
+### OnMFCKeyDown\(KeyEventArgs\)
 
 Key Down Event at MFC.
 
@@ -30,4 +30,5 @@ void OnMFCKeyDown(KeyEventArgs e)
 `e` [KeyEventArgs](https://learn.microsoft.com/dotnet/api/system.windows.forms.keyeventargs)
 
 The key event.
+
 

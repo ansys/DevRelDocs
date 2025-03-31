@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ChainedSegment"></a> Class ChainedSegment
+# Class ChainedSegment
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment__ctor"></a> ChainedSegment\(\)
+### ChainedSegment\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedSegment" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public ChainedSegment()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Connectors"></a> Connectors
+### Connectors
 
 Gets or sets the list of connector
 
@@ -118,7 +118,7 @@ public IList<ObjectBase> Connectors { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Contacts"></a> Contacts
+### Contacts
 
 Gets or sets the list of contact.
 
@@ -130,7 +130,7 @@ public IList<ObjectBase> Contacts { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_GeometryReference"></a> GeometryReference
+### GeometryReference
 
 Gets or sets the geometry reference.
 
@@ -142,7 +142,7 @@ public ObjectBase GeometryReference { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_SegmentHeight1"></a> SegmentHeight1
+### SegmentHeight1
 
 Gets or sets the segment height1.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable SegmentHeight1 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_SegmentHeight2"></a> SegmentHeight2
+### SegmentHeight2
 
 Gets or sets the segment height2.
 
@@ -166,7 +166,7 @@ public ExpressionValueVariable SegmentHeight2 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_SegmentLength"></a> SegmentLength
+### SegmentLength
 
 Gets or sets the segment length.
 
@@ -178,7 +178,7 @@ public ExpressionValueVariable SegmentLength { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Transforms"></a> Transforms
+### Transforms
 
 Gets or sets the list of transform
 
@@ -192,7 +192,7 @@ public IList<ObjectBase> Transforms { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Add_Connector_VM_Managed_ObjectBase_"></a> Add\_Connector\(ObjectBase\)
+### Add\_Connector\(ObjectBase\)
 
 Add the connector
 
@@ -206,7 +206,7 @@ public void Add_Connector(ObjectBase obj)
 
 The connector
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Add_Connectors_VM_Managed_ObjectBase___"></a> Add\_Connectors\(ObjectBase\[\]\)
+### Add\_Connectors\(ObjectBase\[\]\)
 
 Add the connector`s link list.
 
@@ -220,7 +220,7 @@ public void Add_Connectors(ObjectBase[] obj)
 
 The array of connector.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Add_Contact_VM_Managed_ObjectBase_"></a> Add\_Contact\(ObjectBase\)
+### Add\_Contact\(ObjectBase\)
 
 Add the object for contact.
 
@@ -234,7 +234,7 @@ public void Add_Contact(ObjectBase obj)
 
 The Faceset or PatchSet.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Add_Contacts_VM_Managed_ObjectBase___"></a> Add\_Contacts\(ObjectBase\[\]\)
+### Add\_Contacts\(ObjectBase\[\]\)
 
 Add the contact`s link list.
 
@@ -248,7 +248,7 @@ public void Add_Contacts(ObjectBase[] obj)
 
 The array of contact.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Add_Transform_VM_Managed_ObjectBase_"></a> Add\_Transform\(ObjectBase\)
+### Add\_Transform\(ObjectBase\)
 
 Add the Transform.
 
@@ -262,7 +262,7 @@ public void Add_Transform(ObjectBase obj)
 
 The DesignFrame.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Add_Transforms_VM_Managed_ObjectBase___"></a> Add\_Transforms\(ObjectBase\[\]\)
+### Add\_Transforms\(ObjectBase\[\]\)
 
 Add the Transform`s array.
 
@@ -276,7 +276,7 @@ public void Add_Transforms(ObjectBase[] obj)
 
 The array of DesignFrame.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Initialize_Connectors"></a> Initialize\_Connectors\(\)
+### Initialize\_Connectors\(\)
 
 Initializes the list of connector.
 
@@ -284,7 +284,7 @@ Initializes the list of connector.
 public void Initialize_Connectors()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Initialize_Contacts"></a> Initialize\_Contacts\(\)
+### Initialize\_Contacts\(\)
 
 Initializes the list of contact.
 
@@ -292,7 +292,7 @@ Initializes the list of contact.
 public void Initialize_Contacts()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_Initialize_Transforms"></a> Initialize\_Transforms\(\)
+### Initialize\_Transforms\(\)
 
 Initializes the list of Transform.
 
@@ -300,7 +300,7 @@ Initializes the list of Transform.
 public void Initialize_Transforms()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -318,7 +318,7 @@ The linked object.
 
 The destroy event information.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedSegment_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -331,4 +331,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

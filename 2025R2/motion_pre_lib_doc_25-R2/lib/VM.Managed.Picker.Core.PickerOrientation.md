@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerOrientation"></a> Class PickerOrientation
+# Class PickerOrientation
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -50,7 +50,7 @@ public class PickerOrientation : PickerBase
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_PickerOrientation__ctor"></a> PickerOrientation\(\)
+### PickerOrientation\(\)
 
 ```csharp
 public PickerOrientation()
@@ -58,7 +58,7 @@ public PickerOrientation()
 
 ## Properties
 
-### <a id="VM_Managed_Picker_Core_PickerOrientation_Result"></a> Result
+### Result
 
 Gets or sets the object of picking result.
 
@@ -72,7 +72,7 @@ public override object Result { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_PickerOrientation_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
+### Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -92,7 +92,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerOrientation_GetChangeNoneParametricXml_System_String_"></a> GetChangeNoneParametricXml\(string\)
+### GetChangeNoneParametricXml\(string\)
 
 Change to the result of parametric to the result of none parametric.
 
@@ -112,7 +112,7 @@ Result of parametric.
 
 The result xml of none parametric.
 
-### <a id="VM_Managed_Picker_Core_PickerOrientation_GetPickerInfo"></a> GetPickerInfo\(\)
+### GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -124,7 +124,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Picker_Core_PickerOrientation_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
+### GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -144,7 +144,7 @@ Picking destination key.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerOrientation_GetValidResultXml_System_String_"></a> GetValidResultXml\(string\)
+### GetValidResultXml\(string\)
 
 Get valid result xml according to picker type of core.
 
@@ -164,7 +164,7 @@ Invalid result xml.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerOrientation_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
+### SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -187,4 +187,5 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

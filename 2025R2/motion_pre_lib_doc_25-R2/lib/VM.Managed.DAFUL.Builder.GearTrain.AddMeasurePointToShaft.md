@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddMeasurePointToShaft"></a> Class AddMeasurePointToShaft
+# Class AddMeasurePointToShaft
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -62,7 +62,7 @@ BuilderBase<PseudoMeasurePoint\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddMeasurePointToShaft__ctor"></a> AddMeasurePointToShaft\(\)
+### AddMeasurePointToShaft\(\)
 
 ```csharp
 public AddMeasurePointToShaft()
@@ -70,7 +70,7 @@ public AddMeasurePointToShaft()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddMeasurePointToShaft_CheckContainsEntity_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_"></a> CheckContainsEntity\(HiddenShaftSetDocument\)
+### CheckContainsEntity\(HiddenShaftSetDocument\)
 
 ```csharp
 protected override bool CheckContainsEntity(HiddenShaftSetDocument hiddenDoc)
@@ -84,7 +84,7 @@ protected override bool CheckContainsEntity(HiddenShaftSetDocument hiddenDoc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddMeasurePointToShaft_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -99,4 +99,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

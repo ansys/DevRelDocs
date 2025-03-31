@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_NCombinationContact"></a> Class NCombinationContact
+# Class NCombinationContact
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -58,7 +58,7 @@ BuilderBase<NCombinationContact\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_NCombinationContact__ctor"></a> NCombinationContact\(\)
+### NCombinationContact\(\)
 
 ```csharp
 public NCombinationContact()
@@ -66,7 +66,7 @@ public NCombinationContact()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_NCombinationContact_ObjectList"></a> ObjectList
+### ObjectList
 
 ```csharp
 public string[] ObjectList { get; set; }
@@ -78,7 +78,7 @@ public string[] ObjectList { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_NCombinationContact_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -93,4 +93,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

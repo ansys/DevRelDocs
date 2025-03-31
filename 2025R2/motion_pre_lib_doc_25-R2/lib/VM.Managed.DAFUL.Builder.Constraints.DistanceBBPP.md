@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_DistanceBBPP"></a> Class DistanceBBPP
+# Class DistanceBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -61,9 +61,10 @@ BuilderBase<Distance\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Constraints_DistanceBBPP__ctor"></a> DistanceBBPP\(\)
+### DistanceBBPP\(\)
 
 ```csharp
 public DistanceBBPP()
 ```
+
 

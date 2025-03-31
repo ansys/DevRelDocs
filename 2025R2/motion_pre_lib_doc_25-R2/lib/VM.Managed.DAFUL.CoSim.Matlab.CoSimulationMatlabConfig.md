@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_Matlab_CoSimulationMatlabConfig"></a> Class CoSimulationMatlabConfig
+# Class CoSimulationMatlabConfig
 
 Namespace: [VM.Managed.DAFUL.CoSim.Matlab](VM.Managed.DAFUL.CoSim.Matlab.md)  
 Assembly: VMDCoSimMatlab.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CoSim_Matlab_CoSimulationMatlabConfig__ctor"></a> CoSimulationMatlabConfig\(\)
+### CoSimulationMatlabConfig\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.Matlab.CoSimulationMatlabConfig" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public CoSimulationMatlabConfig()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CoSim_Matlab_CoSimulationMatlabConfig_FileNameOfSimulink"></a> FileNameOfSimulink
+### FileNameOfSimulink
 
 Gets or sets the name of the simulink file.
 
@@ -127,7 +127,7 @@ public string FileNameOfSimulink { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CoSim_Matlab_CoSimulationMatlabConfig_GetExtraInformation"></a> GetExtraInformation\(\)
+### GetExtraInformation\(\)
 
 Gets the extra information.
 
@@ -140,4 +140,5 @@ public override string GetExtraInformation()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The extra information
+
 

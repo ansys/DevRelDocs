@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow"></a> Class CalculatePowerFlow
+# Class CalculatePowerFlow
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class CalculatePowerFlow
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow__ctor"></a> CalculatePowerFlow\(\)
+### CalculatePowerFlow\(\)
 
 ```csharp
 public CalculatePowerFlow()
@@ -30,7 +30,7 @@ public CalculatePowerFlow()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow_CalculateInputPower_VM_Managed_DAFUL_GearTrain_PowerFlow_SimulationType_System_Double___System_Double_System_String_"></a> CalculateInputPower\(SimulationType, double\[\], double, string\)
+### CalculateInputPower\(SimulationType, double\[\], double, string\)
 
 Calculates the input power.
 
@@ -60,7 +60,7 @@ The string power path.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow_CalculateOutputSpeed_System_Double___System_Double_"></a> CalculateOutputSpeed\(double\[\], double\)
+### CalculateOutputSpeed\(double\[\], double\)
 
 Calculates the output speed.
 
@@ -82,7 +82,7 @@ The d reduction ratio.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow_CalculateRPM_VM_Managed_DAFUL_GearTrain_PowerFlow_SimulationType_System_Double_System_Double_System_Double_System_Double_System_String_System_Double_System_Double_System_Double____System_Double____"></a> CalculateRPM\(SimulationType, double, double, double, double, string, double, double, ref double\[\], ref double\[\]\)
+### CalculateRPM\(SimulationType, double, double, double, double, string, double, double, ref double\[\], ref double\[\]\)
 
 Calculates the RPM.
 
@@ -136,7 +136,7 @@ The ar time.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow_CalculateReductionRatio_VM_Managed_DAFUL_GearTrain_IHasPowerLoad_VM_Managed_DAFUL_GearTrain_IHasPowerLoad_VM_Managed_DAFUL_GearTrain_GearPair___System_Double__System_Boolean__"></a> CalculateReductionRatio\(IHasPowerLoad, IHasPowerLoad, GearPair\[\], ref double, ref bool\)
+### CalculateReductionRatio\(IHasPowerLoad, IHasPowerLoad, GearPair\[\], ref double, ref bool\)
 
 Calculates the reduction ratio.
 
@@ -170,7 +170,7 @@ ContainsPlanetary
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow_CalculateTorque_System_Double_System_Double_System_Double_System_Double___System_Double___System_Double___System_Double_System_Double_"></a> CalculateTorque\(double, double, double, double\[\], double\[\], double\[\], double, double\)
+### CalculateTorque\(double, double, double, double\[\], double\[\], double\[\], double, double\)
 
 Calculates the torque.
 
@@ -216,7 +216,7 @@ The Max Torque.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow_CalculateTorqueForUserInput_System_String_System_Double_"></a> CalculateTorqueForUserInput\(string, double\)
+### CalculateTorqueForUserInput\(string, double\)
 
 Calculates the torque for user input.
 
@@ -238,7 +238,7 @@ The d sign.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow_IsNumeric_System_String___"></a> IsNumeric\(string\[\]\)
+### IsNumeric\(string\[\]\)
 
 Determines whether the specified number string is numeric.
 
@@ -256,7 +256,7 @@ The number string.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow_IsNumeric_System_String_"></a> IsNumeric\(string\)
+### IsNumeric\(string\)
 
 Determines whether the specified number string is numeric.
 
@@ -278,7 +278,7 @@ The number string.
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CalculatePowerFlow_LoadPointDataFile_System_String_"></a> LoadPointDataFile\(string\)
+### LoadPointDataFile\(string\)
 
 Loads the point data file.
 
@@ -295,4 +295,5 @@ The string file path.
 #### Returns
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
+
 

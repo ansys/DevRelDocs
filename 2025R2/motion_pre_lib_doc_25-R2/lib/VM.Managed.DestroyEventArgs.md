@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DestroyEventArgs"></a> Class DestroyEventArgs
+# Class DestroyEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -37,7 +37,7 @@ public sealed class DestroyEventArgs : LinkEventArgs
 
 ## Constructors
 
-### <a id="VM_Managed_DestroyEventArgs__ctor_VM_Managed_LinkEventArgs_System_Object_System_Object_"></a> DestroyEventArgs\(LinkEventArgs, object, object\)
+### DestroyEventArgs\(LinkEventArgs, object, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.DestroyEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ The previous event.
 
 The extra data.
 
-### <a id="VM_Managed_DestroyEventArgs__ctor_VM_Managed_LinkEventArgs_System_Object_"></a> DestroyEventArgs\(LinkEventArgs, object\)
+### DestroyEventArgs\(LinkEventArgs, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.DestroyEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -77,7 +77,7 @@ The inner argument.
 
 The previous event.
 
-### <a id="VM_Managed_DestroyEventArgs__ctor_VM_Managed_Document_System_Object_"></a> DestroyEventArgs\(Document, object\)
+### DestroyEventArgs\(Document, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.DestroyEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -97,7 +97,7 @@ The extra data.
 
 ## Properties
 
-### <a id="VM_Managed_DestroyEventArgs_Type"></a> Type
+### Type
 
 Gets the type of destroy method.
 
@@ -108,4 +108,5 @@ public DestroyType Type { get; }
 #### Property Value
 
  [DestroyType](VM.Managed.DestroyType.md)
+
 

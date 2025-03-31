@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPowerLoadToRBE"></a> Class AddPowerLoadToRBE
+# Class AddPowerLoadToRBE
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -58,7 +58,7 @@ BuilderBase<PseudoPowerLoadOnRBE\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPowerLoadToRBE__ctor"></a> AddPowerLoadToRBE\(\)
+### AddPowerLoadToRBE\(\)
 
 ```csharp
 public AddPowerLoadToRBE()
@@ -66,7 +66,7 @@ public AddPowerLoadToRBE()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPowerLoadToRBE_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -81,4 +81,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

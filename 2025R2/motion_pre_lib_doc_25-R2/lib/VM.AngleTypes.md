@@ -1,9 +1,9 @@
-# <a id="VM_AngleTypes"></a> Enum AngleTypes
+# Enum AngleTypes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-Specifies Angle Type.
+<p>Specifies Angle Type.</p>
 
 ```csharp
 public enum AngleTypes
@@ -13,13 +13,14 @@ public enum AngleTypes
 
 `Degree = 0` 
 
-Degree
+<p>Degree</p>
 
 
 
 `Radian = 1` 
 
-Radian
+<p>Radian</p>
+
 
 
 

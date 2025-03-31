@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Weld"></a> Class Weld
+# Class Weld
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -213,7 +213,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld__ctor"></a> Weld\(\)
+### Weld\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Weld" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Weld" da
 public Weld()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld__ctor_System_String_"></a> Weld\(string\)
+### Weld\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Weld" data-throw-if-not-resolved="false"></xref> class.
 
@@ -237,7 +237,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_ActionBody"></a> ActionBody
+### ActionBody
 
 Gets or sets the action body.
 
@@ -249,7 +249,7 @@ public ObjectBase ActionBody { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -261,7 +261,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -273,7 +273,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_PointSetComponent"></a> PointSetComponent
+### PointSetComponent
 
 Gets or sets the point set component.
 
@@ -287,7 +287,7 @@ public SetPoint PointSetComponent { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -301,7 +301,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -321,7 +321,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -349,7 +349,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -367,7 +367,7 @@ The ob unnamed.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_GetWeldPoint_VM_Managed_CAD_Body_VM_Managed_CAD_Body_VM_Managed_Range_VM_Managed_VectorBase____VM_Managed_VectorBase____"></a> GetWeldPoint\(Body, Body, Range, ref VectorBase\[\], ref VectorBase\[\]\)
+### GetWeldPoint\(Body, Body, Range, ref VectorBase\[\], ref VectorBase\[\]\)
 
 Gets the weld point.
 
@@ -401,7 +401,7 @@ The vec lower.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_GetWeldPoint_VM_Managed_Range_VM_Managed_VectorBase____VM_Managed_VectorBase____"></a> GetWeldPoint\(Range, ref VectorBase\[\], ref VectorBase\[\]\)
+### GetWeldPoint\(Range, ref VectorBase\[\], ref VectorBase\[\]\)
 
 Gets the weld point.
 
@@ -427,7 +427,7 @@ The vec lower.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Weld for update the linked object.
 
@@ -445,7 +445,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -459,7 +459,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -467,7 +467,7 @@ Redraw.
 public void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_ReadFile_VM_Managed_Document3D_System_String_System_Collections_Generic_List_VM_Managed_PointBase__System_Collections_Generic_List_VM_Managed_DirectionBase__System_Collections_Generic_List_VM_Managed_Variable__"></a> ReadFile\(Document3D, string, List<PointBase\>, List<DirectionBase\>, List<Variable\>\)
+### ReadFile\(Document3D, string, List<PointBase\>, List<DirectionBase\>, List<Variable\>\)
 
 Reads the file.
 
@@ -497,7 +497,7 @@ The directions.
 
 The ranges.
 
-### <a id="VM_Managed_DAFUL_MeshFree_Weld_WriteFile_System_String_System_String___"></a> WriteFile\(string, string\[\]\)
+### WriteFile\(string, string\[\]\)
 
 Writes the file.
 
@@ -514,4 +514,5 @@ The STR file path.
 `arLines` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The ar lines.
+
 

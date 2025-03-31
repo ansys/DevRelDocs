@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PathType"></a> Enum PathType
+# Enum PathType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -20,6 +20,7 @@ Closed
 `Open = 1` 
 
 Open
+
 
 
 

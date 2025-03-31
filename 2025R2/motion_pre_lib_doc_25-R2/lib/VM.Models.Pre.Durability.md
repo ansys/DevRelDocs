@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability"></a> Namespace VM.Models.Pre.Durability
+# Namespace VM.Models.Pre.Durability
 
 ### Classes
 
@@ -59,4 +59,5 @@ Summary
  [DurabilityData.DurabilityType](VM.Models.Pre.Durability.DurabilityData.DurabilityType.md)
 
  [DurabilityData.FatigueStressType](VM.Models.Pre.Durability.DurabilityData.FatigueStressType.md)
+
 

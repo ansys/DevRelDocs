@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent"></a> Class ObjectBaseMeshColorEvent
+# Class ObjectBaseMeshColorEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -42,7 +42,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent__ctor_System_Object_System_Drawing_Color_"></a> ObjectBaseMeshColorEvent\(object, Color\)
+### ObjectBaseMeshColorEvent\(object, Color\)
 
 ```csharp
 public ObjectBaseMeshColorEvent(object obOriginal, Color color)
@@ -54,7 +54,7 @@ public ObjectBaseMeshColorEvent(object obOriginal, Color color)
 
 `color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent__ctor_System_Object_"></a> ObjectBaseMeshColorEvent\(object\)
+### ObjectBaseMeshColorEvent\(object\)
 
 ```csharp
 public ObjectBaseMeshColorEvent(object obOriginal)
@@ -66,7 +66,7 @@ public ObjectBaseMeshColorEvent(object obOriginal)
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent_m_Color"></a> m\_Color
+### m\_Color
 
 ```csharp
 protected Color m_Color
@@ -76,7 +76,7 @@ protected Color m_Color
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent_m_keyObj"></a> m\_keyObj
+### m\_keyObj
 
 ```csharp
 protected UIntPtr m_keyObj
@@ -88,7 +88,7 @@ protected UIntPtr m_keyObj
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 public override void Clear(bool bReserveReferenceCount)
@@ -98,7 +98,7 @@ public override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent_GetColor"></a> GetColor\(\)
+### GetColor\(\)
 
 ```csharp
 protected abstract Color GetColor()
@@ -108,7 +108,7 @@ protected abstract Color GetColor()
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 ```csharp
 public override void Redo(HistoryEventArgs args)
@@ -118,7 +118,7 @@ public override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent_ReplaceColor_System_Drawing_Color_"></a> ReplaceColor\(Color\)
+### ReplaceColor\(Color\)
 
 ```csharp
 protected abstract void ReplaceColor(Color color)
@@ -128,7 +128,7 @@ protected abstract void ReplaceColor(Color color)
 
 `color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseMeshColorEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 ```csharp
 public override void Undo(HistoryEventArgs args)
@@ -137,4 +137,5 @@ public override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

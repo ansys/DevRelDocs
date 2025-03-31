@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_PartAssembly"></a> Class PartAssembly
+# Class PartAssembly
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -90,13 +90,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Operation_PartAssembly__ctor"></a> PartAssembly\(\)
+### PartAssembly\(\)
 
 ```csharp
 public PartAssembly()
 ```
 
-### <a id="VM_Managed_Operation_PartAssembly__ctor_System_String_"></a> PartAssembly\(string\)
+### PartAssembly\(string\)
 
 ```csharp
 public PartAssembly(string strXml)
@@ -108,9 +108,10 @@ public PartAssembly(string strXml)
 
 ## Methods
 
-### <a id="VM_Managed_Operation_PartAssembly_Execute"></a> Execute\(\)
+### Execute\(\)
 
 ```csharp
 public override void Execute()
 ```
+
 

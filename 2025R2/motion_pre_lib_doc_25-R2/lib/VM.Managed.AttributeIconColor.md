@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeIconColor"></a> Class AttributeIconColor
+# Class AttributeIconColor
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_AttributeIconColor__ctor_System_Drawing_Color_"></a> AttributeIconColor\(Color\)
+### AttributeIconColor\(Color\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeIconColor" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public AttributeIconColor(Color color)
 
 The color.
 
-### <a id="VM_Managed_AttributeIconColor__ctor"></a> AttributeIconColor\(\)
+### AttributeIconColor\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeIconColor" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ public AttributeIconColor()
 
 ## Properties
 
-### <a id="VM_Managed_AttributeIconColor_A"></a> A
+### A
 
 Gets or sets the alpha of color.
 
@@ -136,7 +136,7 @@ public int A { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_AttributeIconColor_B"></a> B
+### B
 
 Gets or sets the blue of color.
 
@@ -148,7 +148,7 @@ public int B { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_AttributeIconColor_Color"></a> Color
+### Color
 
 ```csharp
 public Color Color { get; }
@@ -158,7 +158,7 @@ public Color Color { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_AttributeIconColor_G"></a> G
+### G
 
 Gets or sets the green of color.
 
@@ -170,7 +170,7 @@ public int G { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_AttributeIconColor_R"></a> R
+### R
 
 Gets or sets the red of color.
 
@@ -181,4 +181,5 @@ public int R { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

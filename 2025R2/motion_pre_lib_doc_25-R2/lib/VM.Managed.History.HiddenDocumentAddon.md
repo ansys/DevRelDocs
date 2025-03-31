@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_HiddenDocumentAddon"></a> Class HiddenDocumentAddon
+# Class HiddenDocumentAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -50,7 +50,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### <a id="VM_Managed_History_HiddenDocumentAddon__ctor"></a> HiddenDocumentAddon\(\)
+### HiddenDocumentAddon\(\)
 
 ```csharp
 public HiddenDocumentAddon()
@@ -58,7 +58,7 @@ public HiddenDocumentAddon()
 
 ## Methods
 
-### <a id="VM_Managed_History_HiddenDocumentAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
+### Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void Process(object o, HistoryEventArgs args)
@@ -69,4 +69,5 @@ protected override void Process(object o, HistoryEventArgs args)
 `o` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` HistoryEventArgs
+
 

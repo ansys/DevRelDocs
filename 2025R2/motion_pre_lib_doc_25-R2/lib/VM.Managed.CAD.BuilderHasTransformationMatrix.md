@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderHasTransformationMatrix"></a> Class BuilderHasTransformationMatrix
+# Class BuilderHasTransformationMatrix
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -196,7 +196,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderHasTransformationMatrix__ctor"></a> BuilderHasTransformationMatrix\(\)
+### BuilderHasTransformationMatrix\(\)
 
 ```csharp
 public BuilderHasTransformationMatrix()
@@ -204,7 +204,7 @@ public BuilderHasTransformationMatrix()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderHasTransformationMatrix_TransformationMatrix"></a> TransformationMatrix
+### TransformationMatrix
 
 Gets the transformation matrix.
 
@@ -218,7 +218,7 @@ public abstract TMatrix TransformationMatrix { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderHasTransformationMatrix_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -227,4 +227,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
+
 

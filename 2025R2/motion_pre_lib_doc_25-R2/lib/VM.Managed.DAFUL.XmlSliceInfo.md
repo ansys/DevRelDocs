@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_XmlSliceInfo"></a> Class XmlSliceInfo
+# Class XmlSliceInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -22,7 +22,7 @@ public class XmlSliceInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_XmlSliceInfo__ctor"></a> XmlSliceInfo\(\)
+### XmlSliceInfo\(\)
 
 ```csharp
 public XmlSliceInfo()
@@ -30,7 +30,7 @@ public XmlSliceInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_XmlSliceInfo_MaxAngle"></a> MaxAngle
+### MaxAngle
 
 Gets and sets the maximum angle.
 
@@ -42,7 +42,7 @@ public double MaxAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_XmlSliceInfo_MaxLength"></a> MaxLength
+### MaxLength
 
 Gets and sets the maximum length.
 
@@ -54,7 +54,7 @@ public double MaxLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_XmlSliceInfo_MaxTolerance"></a> MaxTolerance
+### MaxTolerance
 
 Gets and sets the maximum tolerance.
 
@@ -66,7 +66,7 @@ public double MaxTolerance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_XmlSliceInfo_StrMaxAngle"></a> StrMaxAngle
+### StrMaxAngle
 
 Gets and sets the maximum angle.
 
@@ -78,7 +78,7 @@ public string StrMaxAngle { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_XmlSliceInfo_StrMaxLength"></a> StrMaxLength
+### StrMaxLength
 
 Gets and sets the maximum length.
 
@@ -90,7 +90,7 @@ public string StrMaxLength { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_XmlSliceInfo_StrMaxTolerance"></a> StrMaxTolerance
+### StrMaxTolerance
 
 Gets and sets the maximum tolerance.
 
@@ -101,4 +101,5 @@ public string StrMaxTolerance { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

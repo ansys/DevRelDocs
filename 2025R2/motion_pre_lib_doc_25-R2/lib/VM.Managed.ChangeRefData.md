@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ChangeRefData"></a> Class ChangeRefData
+# Class ChangeRefData
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class ChangeRefData
 
 ## Constructors
 
-### <a id="VM_Managed_ChangeRefData__ctor"></a> ChangeRefData\(\)
+### ChangeRefData\(\)
 
 ```csharp
 public ChangeRefData()
@@ -30,7 +30,7 @@ public ChangeRefData()
 
 ## Properties
 
-### <a id="VM_Managed_ChangeRefData_NewLink"></a> NewLink
+### NewLink
 
 Gets or sets the new event core.
 
@@ -42,7 +42,7 @@ public ObjectEventCore NewLink { get; set; }
 
  [ObjectEventCore](VM.Managed.ObjectEventCore.md)
 
-### <a id="VM_Managed_ChangeRefData_OldLink"></a> OldLink
+### OldLink
 
 Gets or sets the old event core.
 
@@ -53,4 +53,5 @@ public ObjectEventCore OldLink { get; set; }
 #### Property Value
 
  [ObjectEventCore](VM.Managed.ObjectEventCore.md)
+
 

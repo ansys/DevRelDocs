@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Sets_NodeSet"></a> Class NodeSet
+# Class NodeSet
 
 Namespace: [VM.Models.FE.Mesh.Sets](VM.Models.FE.Mesh.Sets.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -41,9 +41,10 @@ public class NodeSet : Set, IEntity, ISet
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Sets_NodeSet__ctor"></a> NodeSet\(\)
+### NodeSet\(\)
 
 ```csharp
 public NodeSet()
 ```
+
 

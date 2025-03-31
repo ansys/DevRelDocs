@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_TopologyColorInfo"></a> Class TopologyColorInfo
+# Class TopologyColorInfo
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class TopologyColorInfo
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_TopologyColorInfo__ctor"></a> TopologyColorInfo\(\)
+### TopologyColorInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.TopologyColorInfo" data-throw-if-not-resolved="false"></xref> class
 
@@ -32,7 +32,7 @@ public TopologyColorInfo()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_TopologyColorInfo_ColorInfo"></a> ColorInfo
+### ColorInfo
 
 Gets the color information.
 
@@ -46,7 +46,7 @@ public Dictionary<int, Color> ColorInfo { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_TopologyColorInfo_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -63,7 +63,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_CAD_TopologyColorInfo_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -77,7 +77,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_CAD_TopologyColorInfo_SetColor_VM_Managed_CAD_Builder_System_Int32___System_Drawing_Color_"></a> SetColor\(Builder, int\[\], Color\)
+### SetColor\(Builder, int\[\], Color\)
 
 Sets the color information.
 
@@ -99,7 +99,7 @@ The topology indexes.
 
 The color.
 
-### <a id="VM_Managed_CAD_TopologyColorInfo_UnsetColor_VM_Managed_CAD_Builder_System_Int32___"></a> UnsetColor\(Builder, int\[\]\)
+### UnsetColor\(Builder, int\[\]\)
 
 Unsets the color information.
 
@@ -117,7 +117,7 @@ The owner builder.
 
 The topology indexes.
 
-### <a id="VM_Managed_CAD_TopologyColorInfo_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -130,4 +130,5 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

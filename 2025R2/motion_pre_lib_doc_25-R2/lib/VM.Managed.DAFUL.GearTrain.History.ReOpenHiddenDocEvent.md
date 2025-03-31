@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_History_ReOpenHiddenDocEvent"></a> Class ReOpenHiddenDocEvent
+# Class ReOpenHiddenDocEvent
 
 Namespace: [VM.Managed.DAFUL.GearTrain.History](VM.Managed.DAFUL.GearTrain.History.md)  
 Assembly: VMDGearTrain.dll  
@@ -37,7 +37,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_History_ReOpenHiddenDocEvent__ctor_System_Object_"></a> ReOpenHiddenDocEvent\(object\)
+### ReOpenHiddenDocEvent\(object\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.History.ReOpenHiddenDocEvent" data-throw-if-not-resolved="false"></xref> class.
 
@@ -53,7 +53,7 @@ The original object.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_History_ReOpenHiddenDocEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
+### AfterRedo\(HistoryEventArgs\)
 
 Called after redo by HistoryManager.
 
@@ -67,7 +67,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 The event argument for call this method.
 
-### <a id="VM_Managed_DAFUL_GearTrain_History_ReOpenHiddenDocEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
+### AfterUndo\(HistoryEventArgs\)
 
 Called after undo by HistoryManager.
 
@@ -81,7 +81,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 The event argument for call this method.
 
-### <a id="VM_Managed_DAFUL_GearTrain_History_ReOpenHiddenDocEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 Clear this event.
 
@@ -95,7 +95,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 The event argument for clear.
 
-### <a id="VM_Managed_DAFUL_GearTrain_History_ReOpenHiddenDocEvent_ReOpenHiddenDocument_System_Object_"></a> ReOpenHiddenDocument\(object\)
+### ReOpenHiddenDocument\(object\)
 
 Re-open hidden document.
 
@@ -109,7 +109,7 @@ public static void ReOpenHiddenDocument(object obj)
 
 The object.
 
-### <a id="VM_Managed_DAFUL_GearTrain_History_ReOpenHiddenDocEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 Redo this event.
 
@@ -123,7 +123,7 @@ protected override void Redo(HistoryEventArgs args)
 
 The event argument for redo.
 
-### <a id="VM_Managed_DAFUL_GearTrain_History_ReOpenHiddenDocEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 Undo this event.
 
@@ -136,4 +136,5 @@ protected override void Undo(HistoryEventArgs args)
 `args` HistoryEventArgs
 
 The event argument for undo.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_enCleanlinessISOType"></a> Enum BearingStrength.enCleanlinessISOType
+# Enum BearingStrength.enCleanlinessISOType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -32,6 +32,7 @@ ISO 4406 cleanliness code -/17/14
 `ISO4406_19_16 = 3` 
 
 ISO 4406 cleanliness code -/19/16
+
 
 
 

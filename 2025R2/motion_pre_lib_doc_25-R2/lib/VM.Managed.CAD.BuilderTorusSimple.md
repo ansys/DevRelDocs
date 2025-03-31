@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderTorusSimple"></a> Class BuilderTorusSimple
+# Class BuilderTorusSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_PointBase_VM_Managed_DirectionBase_"></a> BuilderTorusSimple\(Variable, Variable, PointBase, DirectionBase\)
+### BuilderTorusSimple\(Variable, Variable, PointBase, DirectionBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTorusSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -227,7 +227,7 @@ The center position of sphere.
 
 The up direction of torus.
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple__ctor_System_Double_System_Double_VM_Managed_PointBase_VM_Managed_DirectionBase_"></a> BuilderTorusSimple\(double, double, PointBase, DirectionBase\)
+### BuilderTorusSimple\(double, double, PointBase, DirectionBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTorusSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -253,7 +253,7 @@ The center position of torus.
 
 The up direction of torus.
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_"></a> BuilderTorusSimple\(Variable, Variable\)
+### BuilderTorusSimple\(Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTorusSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -271,7 +271,7 @@ The major radius of torus(variable).
 
 The minor radius of torus(variable).
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple__ctor_System_Double_System_Double_"></a> BuilderTorusSimple\(double, double\)
+### BuilderTorusSimple\(double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTorusSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -289,7 +289,7 @@ The major radius of torus.
 
 The minor radius of torus.
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple__ctor"></a> BuilderTorusSimple\(\)
+### BuilderTorusSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTorusSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -299,7 +299,7 @@ public BuilderTorusSimple()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple_CenterPosition"></a> CenterPosition
+### CenterPosition
 
 Gets or sets the center position of torus.
 
@@ -311,7 +311,7 @@ public PointBase CenterPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -323,7 +323,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple_RadiusMajor"></a> RadiusMajor
+### RadiusMajor
 
 ```csharp
 public Variable RadiusMajor { get; set; }
@@ -333,7 +333,7 @@ public Variable RadiusMajor { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple_RadiusMinor"></a> RadiusMinor
+### RadiusMinor
 
 ```csharp
 public Variable RadiusMinor { get; set; }
@@ -343,7 +343,7 @@ public Variable RadiusMinor { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple_UpDirection"></a> UpDirection
+### UpDirection
 
 Gets or sets the up direction of torus.
 
@@ -355,7 +355,7 @@ public DirectionBase UpDirection { get; set; }
 
  [DirectionBase](VM.Managed.DirectionBase.md)
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple__CenterPosition"></a> \_CenterPosition
+### \_CenterPosition
 
 Gets the center position of torus.
 
@@ -367,7 +367,7 @@ public override VectorBase _CenterPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple__RadiusMajor"></a> \_RadiusMajor
+### \_RadiusMajor
 
 Gets the major radius of torus.
 
@@ -379,7 +379,7 @@ public override double _RadiusMajor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple__RadiusMinor"></a> \_RadiusMinor
+### \_RadiusMinor
 
 Gets the minor radius of torus.
 
@@ -391,7 +391,7 @@ public override double _RadiusMinor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple__UpDirection"></a> \_UpDirection
+### \_UpDirection
 
 Gets the up direction of torus.
 
@@ -405,7 +405,7 @@ public override VectorBase _UpDirection { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
+### ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -413,7 +413,7 @@ Change data for circular reference.
 public override void ChangeDataForCircularReference()
 ```
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
+### CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -427,7 +427,7 @@ public override void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -441,7 +441,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_BuilderTorusSimple_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -454,4 +454,5 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
+
 

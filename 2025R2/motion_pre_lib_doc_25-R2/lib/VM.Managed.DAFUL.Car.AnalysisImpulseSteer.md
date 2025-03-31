@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer"></a> Class AnalysisImpulseSteer
+# Class AnalysisImpulseSteer
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -55,7 +55,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer__ctor"></a> AnalysisImpulseSteer\(\)
+### AnalysisImpulseSteer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisImpulseSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -63,7 +63,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisImpul
 public AnalysisImpulseSteer()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisImpulseSteer\(ILinkContainer\)
+### AnalysisImpulseSteer\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisImpulseSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -79,7 +79,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer_CycleLen"></a> CycleLen
+### CycleLen
 
 Gets or sets the length of the cycle.
 
@@ -91,7 +91,7 @@ public double CycleLen { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer_MaximumSteer"></a> MaximumSteer
+### MaximumSteer
 
 Gets or sets the maximum steer value.
 
@@ -103,7 +103,7 @@ public double MaximumSteer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer_TireRadiusPosition"></a> TireRadiusPosition
+### TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -117,7 +117,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -130,4 +130,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

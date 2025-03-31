@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IDocumentExtensions"></a> Class IDocumentExtensions
+# Class IDocumentExtensions
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,7 +20,7 @@ public static class IDocumentExtensions
 
 ## Methods
 
-### <a id="VM_Models_Pre_IDocumentExtensions_IsExistNameInDocument_VM_Models_Pre_IDocument_System_String_"></a> IsExistNameInDocument\(IDocument, string\)
+### IsExistNameInDocument\(IDocument, string\)
 
 ```csharp
 public static bool IsExistNameInDocument(this IDocument document, string name)
@@ -35,4 +35,5 @@ public static bool IsExistNameInDocument(this IDocument document, string name)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_HardeningTypes"></a> Enum HardeningTypes
+# Enum HardeningTypes
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -18,4 +18,5 @@ public enum HardeningTypes
 `Beta = 0` 
 
 `PragerLinearHardening = 1` 
+
 

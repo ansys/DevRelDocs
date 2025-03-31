@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertySPTSP"></a> Class PropertySPTSP
+# Class PropertySPTSP
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertySPTSP__ctor"></a> PropertySPTSP\(\)
+### PropertySPTSP\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertySPTSP" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertySPTSP()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_PropertySPTSP_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -192,4 +192,5 @@ public override ArgumentTypes ArgumentType { get; }
 #### Property Value
 
  ArgumentTypes
+
 

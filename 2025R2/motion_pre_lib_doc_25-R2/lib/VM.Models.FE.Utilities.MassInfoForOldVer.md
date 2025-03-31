@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities_MassInfoForOldVer"></a> Struct MassInfoForOldVer
+# Struct MassInfoForOldVer
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct MassInfoForOldVer
 
 ## Properties
 
-### <a id="VM_Models_FE_Utilities_MassInfoForOldVer_IXX"></a> IXX
+### IXX
 
 ```csharp
 public double IXX { readonly get; set; }
@@ -19,7 +19,7 @@ public double IXX { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MassInfoForOldVer_IYY"></a> IYY
+### IYY
 
 ```csharp
 public double IYY { readonly get; set; }
@@ -29,7 +29,7 @@ public double IYY { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MassInfoForOldVer_IZZ"></a> IZZ
+### IZZ
 
 ```csharp
 public double IZZ { readonly get; set; }
@@ -39,7 +39,7 @@ public double IZZ { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MassInfoForOldVer_NodeMass"></a> NodeMass
+### NodeMass
 
 ```csharp
 public double NodeMass { readonly get; set; }
@@ -51,7 +51,7 @@ public double NodeMass { readonly get; set; }
 
 ## Methods
 
-### <a id="VM_Models_FE_Utilities_MassInfoForOldVer_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 ```csharp
 public override readonly bool Equals(object obj)
@@ -65,7 +65,7 @@ public override readonly bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_FE_Utilities_MassInfoForOldVer_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 ```csharp
 public override readonly int GetHashCode()
@@ -77,7 +77,7 @@ public override readonly int GetHashCode()
 
 ## Operators
 
-### <a id="VM_Models_FE_Utilities_MassInfoForOldVer_op_Equality_VM_Models_FE_Utilities_MassInfoForOldVer_VM_Models_FE_Utilities_MassInfoForOldVer_"></a> operator ==\(MassInfoForOldVer, MassInfoForOldVer\)
+### operator ==\(MassInfoForOldVer, MassInfoForOldVer\)
 
 ```csharp
 public static bool operator ==(MassInfoForOldVer left, MassInfoForOldVer right)
@@ -93,7 +93,7 @@ public static bool operator ==(MassInfoForOldVer left, MassInfoForOldVer right)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_FE_Utilities_MassInfoForOldVer_op_Inequality_VM_Models_FE_Utilities_MassInfoForOldVer_VM_Models_FE_Utilities_MassInfoForOldVer_"></a> operator \!=\(MassInfoForOldVer, MassInfoForOldVer\)
+### operator \!=\(MassInfoForOldVer, MassInfoForOldVer\)
 
 ```csharp
 public static bool operator !=(MassInfoForOldVer left, MassInfoForOldVer right)
@@ -108,4 +108,5 @@ public static bool operator !=(MassInfoForOldVer left, MassInfoForOldVer right)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

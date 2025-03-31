@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Operation_ShowDOESimulationDlg"></a> Class ShowDOESimulationDlg
+# Class ShowDOESimulationDlg
 
 Namespace: [VM.Managed.DAFUL.DOE.Operation](VM.Managed.DAFUL.DOE.Operation.md)  
 Assembly: VMOPDOE.dll  
@@ -105,7 +105,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowDOESimulationDlg__ctor_VM_Managed_Document_"></a> ShowDOESimulationDlg\(Document\)
+### ShowDOESimulationDlg\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.DOE.Operation.ShowDOESimulationDlg" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ public ShowDOESimulationDlg(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowDOESimulationDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowDOESimulationDlg\(JournalParameter\)
+### ShowDOESimulationDlg\(JournalParameter\)
 
 ```csharp
 public ShowDOESimulationDlg(JournalParameter jp)
@@ -129,7 +129,7 @@ public ShowDOESimulationDlg(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowDOESimulationDlg_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -143,7 +143,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowDOESimulationDlg_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -151,7 +151,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowDOESimulationDlg_ExportFileForSolvingImpl_VM_Managed_DAFUL_DocumentAnalysis_System_String_VM_Managed_DAFUL_Dialog_DOE_FrmDOESimulation_Result_System_Boolean_"></a> ExportFileForSolvingImpl\(DocumentAnalysis, string, Result, bool\)
+### ExportFileForSolvingImpl\(DocumentAnalysis, string, Result, bool\)
 
 ```csharp
 protected void ExportFileForSolvingImpl(DocumentAnalysis doc, string strPath, FrmDOESimulation.Result simResult, bool bGraphic)
@@ -167,13 +167,13 @@ protected void ExportFileForSolvingImpl(DocumentAnalysis doc, string strPath, Fr
 
 `bGraphic` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowDOESimulationDlg_ShowDialog"></a> ShowDialog\(\)
+### ShowDialog\(\)
 
 ```csharp
 protected override void ShowDialog()
 ```
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowDOESimulationDlg_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -191,7 +191,7 @@ The UI updater.
 
 The document.
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowDOESimulationDlg_WriteExtraJournal_System_Xml_XmlWriter_"></a> WriteExtraJournal\(XmlWriter\)
+### WriteExtraJournal\(XmlWriter\)
 
 ```csharp
 public override void WriteExtraJournal(XmlWriter writer)
@@ -200,4 +200,5 @@ public override void WriteExtraJournal(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

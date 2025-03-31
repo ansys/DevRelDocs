@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_TransmissionError"></a> Class TransmissionError
+# Class TransmissionError
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_TransmissionError__ctor"></a> TransmissionError\(\)
+### TransmissionError\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.TransmissionError" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public TransmissionError()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_TransmissionError_Spline"></a> Spline
+### Spline
 
 Gets or sets the spline.
 
@@ -190,4 +190,5 @@ public SplineValue Spline { get; set; }
 #### Property Value
 
  SplineValue
+
 

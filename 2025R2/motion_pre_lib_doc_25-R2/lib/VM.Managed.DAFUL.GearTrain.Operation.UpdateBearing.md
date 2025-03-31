@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearing"></a> Class UpdateBearing
+# Class UpdateBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -84,7 +84,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearing__ctor"></a> UpdateBearing\(\)
+### UpdateBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -92,7 +92,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public UpdateBearing()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearing__ctor_VM_Managed_Document3D_"></a> UpdateBearing\(Document3D\)
+### UpdateBearing\(Document3D\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public UpdateBearing(Document3D document3D)
 
 The document.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearing__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateBearing\(JournalParameter\)
+### UpdateBearing\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearing_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -136,7 +136,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearing_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -144,7 +144,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearing_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -157,4 +157,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

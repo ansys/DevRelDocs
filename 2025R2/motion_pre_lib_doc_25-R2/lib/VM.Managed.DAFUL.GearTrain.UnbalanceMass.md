@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMass"></a> Class UnbalanceMass
+# Class UnbalanceMass
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -181,7 +181,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMass__ctor"></a> UnbalanceMass\(\)
+### UnbalanceMass\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.UnbalanceMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -189,7 +189,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Unbalan
 public UnbalanceMass()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMass__ctor_System_String_"></a> UnbalanceMass\(string\)
+### UnbalanceMass\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.UnbalanceMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMass_CenterPositionOfDummyBody"></a> CenterPositionOfDummyBody
+### CenterPositionOfDummyBody
 
 Gets the center position of dummy body.
 
@@ -217,7 +217,7 @@ public VectorBase CenterPositionOfDummyBody { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMass_Mass"></a> Mass
+### Mass
 
 Gets or sets the mass.
 
@@ -229,7 +229,7 @@ public ExpressionValueVariable Mass { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMass_MomentArm"></a> MomentArm
+### MomentArm
 
 Gets or sets the moment arm.
 
@@ -243,7 +243,7 @@ public ExpressionValueVariable MomentArm { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMass_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -256,4 +256,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

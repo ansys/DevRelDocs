@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Bearing_Force_BearingAnalytic_1"></a> Class BearingAnalytic<TProperty\>
+# Class BearingAnalytic<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -260,7 +260,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingAnalytic_1__ctor"></a> BearingAnalytic\(\)
+### BearingAnalytic\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingAnalytic%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -268,7 +268,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.Bea
 public BearingAnalytic()
 ```
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingAnalytic_1__ctor_System_String_"></a> BearingAnalytic\(string\)
+### BearingAnalytic\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingAnalytic%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -284,7 +284,7 @@ Name of the force.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingAnalytic_1_CanWriteToOutFileImpl"></a> CanWriteToOutFileImpl
+### CanWriteToOutFileImpl
 
 ```csharp
 protected override bool CanWriteToOutFileImpl { get; }
@@ -294,7 +294,7 @@ protected override bool CanWriteToOutFileImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingAnalytic_1_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -308,7 +308,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingAnalytic_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -321,4 +321,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

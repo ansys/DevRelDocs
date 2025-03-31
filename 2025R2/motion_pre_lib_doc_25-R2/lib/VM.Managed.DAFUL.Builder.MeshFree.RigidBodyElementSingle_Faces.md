@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementSingle_Faces"></a> Class RigidBodyElementSingle\_Faces
+# Class RigidBodyElementSingle\_Faces
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<RigidBodyElementSingle\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementSingle_Faces__ctor"></a> RigidBodyElementSingle\_Faces\(\)
+### RigidBodyElementSingle\_Faces\(\)
 
 ```csharp
 public RigidBodyElementSingle_Faces()
@@ -61,7 +61,7 @@ public RigidBodyElementSingle_Faces()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementSingle_Faces_BaseGeometry"></a> BaseGeometry
+### BaseGeometry
 
 ```csharp
 public string[] BaseGeometry { get; set; }
@@ -73,7 +73,7 @@ public string[] BaseGeometry { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementSingle_Faces_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -89,7 +89,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementSingle_Faces_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -102,4 +102,5 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

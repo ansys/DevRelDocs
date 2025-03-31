@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_Util_CreateAssembledBody"></a> Class CreateAssembledBody
+# Class CreateAssembledBody
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class CreateAssembledBody
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateAssembledBody__ctor"></a> CreateAssembledBody\(\)
+### CreateAssembledBody\(\)
 
 ```csharp
 public CreateAssembledBody()
@@ -30,7 +30,7 @@ public CreateAssembledBody()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateAssembledBody_Create_VM_Managed_Document3D_System_String_VM_Managed_TransformBase_System_String_"></a> Create\(Document3D, string, TransformBase, string\)
+### Create\(Document3D, string, TransformBase, string\)
 
 Create the assembled body.
 
@@ -62,7 +62,7 @@ The assembled body prefix name.
 
 The new assembled body.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateAssembledBody_Create_VM_Managed_Document3D_VM_Managed_DAFUL_PartDocument_VM_Managed_TransformBase_System_String_"></a> Create\(Document3D, PartDocument, TransformBase, string\)
+### Create\(Document3D, PartDocument, TransformBase, string\)
 
 Create the assembled body.
 
@@ -94,7 +94,7 @@ The assembled body prefix name.
 
 The new assembled body.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateAssembledBody_ImportAssembledBody_VM_Managed_DAFUL_SubSystemDocument_VM_Managed_DAFUL_PartDocument_System_String_"></a> ImportAssembledBody\(SubSystemDocument, PartDocument, string\)
+### ImportAssembledBody\(SubSystemDocument, PartDocument, string\)
 
 Import assembled body
 
@@ -122,7 +122,7 @@ The name
 
 nodal body
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateAssembledBody_ImportAssembledBody_VM_Managed_DAFUL_SubSystemDocument_VM_Managed_DAFUL_PartDocument_VM_Managed_TransformBase_System_String_"></a> ImportAssembledBody\(SubSystemDocument, PartDocument, TransformBase, string\)
+### ImportAssembledBody\(SubSystemDocument, PartDocument, TransformBase, string\)
 
 Import assembled body
 
@@ -153,4 +153,5 @@ The name
  AssembledBody
 
 nodal body
+
 

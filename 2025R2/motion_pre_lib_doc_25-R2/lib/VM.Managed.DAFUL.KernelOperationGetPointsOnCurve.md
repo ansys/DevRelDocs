@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve"></a> Class KernelOperationGetPointsOnCurve
+# Class KernelOperationGetPointsOnCurve
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -22,7 +22,7 @@ public class KernelOperationGetPointsOnCurve
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve__ctor"></a> KernelOperationGetPointsOnCurve\(\)
+### KernelOperationGetPointsOnCurve\(\)
 
 ```csharp
 public KernelOperationGetPointsOnCurve()
@@ -30,7 +30,7 @@ public KernelOperationGetPointsOnCurve()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_BallSpacingMethod"></a> BallSpacingMethod
+### BallSpacingMethod
 
 Gets and sets the ball placing method.
 
@@ -42,7 +42,7 @@ public string BallSpacingMethod { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_Count"></a> Count
+### Count
 
 Gets and sets the count.
 
@@ -54,7 +54,7 @@ public int Count { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_Distance"></a> Distance
+### Distance
 
 Gets and sets the distance.
 
@@ -66,7 +66,7 @@ public double Distance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_IsClosed"></a> IsClosed
+### IsClosed
 
 Gets or sets a value indicating whether this points is closed.
 
@@ -78,7 +78,7 @@ public bool IsClosed { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_Points"></a> Points
+### Points
 
 Gets and sets the points.
 
@@ -90,7 +90,7 @@ public List<Vector> Points { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve_ShiftOfStartPosition"></a> ShiftOfStartPosition
+### ShiftOfStartPosition
 
 Gets and sets the shift of start position.
 
@@ -101,4 +101,5 @@ public double ShiftOfStartPosition { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

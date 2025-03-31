@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AddToDocEventArgs"></a> Class AddToDocEventArgs
+# Class AddToDocEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public sealed class AddToDocEventArgs : EventArgs
 
 ## Constructors
 
-### <a id="VM_Managed_AddToDocEventArgs__ctor_VM_Managed_Document_System_Boolean_System_Boolean_"></a> AddToDocEventArgs\(Document, bool, bool\)
+### AddToDocEventArgs\(Document, bool, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -47,7 +47,7 @@ The loading flag.
 
 ## Properties
 
-### <a id="VM_Managed_AddToDocEventArgs_Document"></a> Document
+### Document
 
 Gets the document.
 
@@ -59,7 +59,7 @@ public Document Document { get; }
 
  [Document](VM.Managed.Document.md)
 
-### <a id="VM_Managed_AddToDocEventArgs_IsBackup"></a> IsBackup
+### IsBackup
 
 Gets the backup flag.
 
@@ -71,7 +71,7 @@ public bool IsBackup { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_AddToDocEventArgs_IsLoading"></a> IsLoading
+### IsLoading
 
 Gets the loading flag.
 
@@ -82,4 +82,5 @@ public bool IsLoading { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

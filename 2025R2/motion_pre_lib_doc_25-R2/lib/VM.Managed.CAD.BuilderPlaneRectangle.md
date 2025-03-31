@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderPlaneRectangle"></a> Class BuilderPlaneRectangle
+# Class BuilderPlaneRectangle
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -202,7 +202,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle__ctor_VM_Managed_PlaneBase_VM_Managed_Variable_VM_Managed_Variable_"></a> BuilderPlaneRectangle\(PlaneBase, Variable, Variable\)
+### BuilderPlaneRectangle\(PlaneBase, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneRectangle" data-throw-if-not-resolved="false"></xref> class
 
@@ -224,7 +224,7 @@ The width that expressed variable.
 
 The height that expressed variable.
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle__ctor_VM_Managed_PlaneBase_System_Double_System_Double_"></a> BuilderPlaneRectangle\(PlaneBase, double, double\)
+### BuilderPlaneRectangle\(PlaneBase, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneRectangle" data-throw-if-not-resolved="false"></xref> class
 
@@ -246,7 +246,7 @@ The width.
 
 The height.
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle__ctor_VM_Managed_Variable_VM_Managed_Variable_"></a> BuilderPlaneRectangle\(Variable, Variable\)
+### BuilderPlaneRectangle\(Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneRectangle" data-throw-if-not-resolved="false"></xref> class
 
@@ -264,7 +264,7 @@ The width that expressed variable.
 
 The height that expressed variable.
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle__ctor_System_Double_System_Double_"></a> BuilderPlaneRectangle\(double, double\)
+### BuilderPlaneRectangle\(double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneRectangle" data-throw-if-not-resolved="false"></xref> class
 
@@ -282,7 +282,7 @@ The width.
 
 The height.
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle__ctor"></a> BuilderPlaneRectangle\(\)
+### BuilderPlaneRectangle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneRectangle" data-throw-if-not-resolved="false"></xref> class
 
@@ -292,7 +292,7 @@ public BuilderPlaneRectangle()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle_Height"></a> Height
+### Height
 
 Gets or sets the height.
 
@@ -304,7 +304,7 @@ public Variable Height { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle_Width"></a> Width
+### Width
 
 Gets or sets the width.
 
@@ -318,7 +318,7 @@ public Variable Width { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -326,7 +326,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -336,7 +336,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase A_0)
@@ -346,7 +346,7 @@ protected override void FillParameter(BuilderParamBase A_0)
 
 `A_0` BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderPlaneRectangle_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -359,4 +359,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

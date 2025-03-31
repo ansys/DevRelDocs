@@ -1,4 +1,4 @@
-# <a id="VM_Managed_VerifiedResult"></a> Class VerifiedResult
+# Class VerifiedResult
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class VerifiedResult
 
 ## Constructors
 
-### <a id="VM_Managed_VerifiedResult__ctor"></a> VerifiedResult\(\)
+### VerifiedResult\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.VerifiedResult" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public VerifiedResult()
 
 ## Properties
 
-### <a id="VM_Managed_VerifiedResult_Level"></a> Level
+### Level
 
 Gets the level.
 
@@ -44,7 +44,7 @@ public int Level { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_VerifiedResult_TypeOfResult"></a> TypeOfResult
+### TypeOfResult
 
 Gets the type of result.
 
@@ -58,7 +58,7 @@ public VerifiedResult.ResultType TypeOfResult { get; }
 
 ## Methods
 
-### <a id="VM_Managed_VerifiedResult_Add_VM_Managed_ErrorReport_"></a> Add\(ErrorReport\)
+### Add\(ErrorReport\)
 
 Add.
 
@@ -72,7 +72,7 @@ public void Add(ErrorReport er)
 
 The error report.
 
-### <a id="VM_Managed_VerifiedResult_GetAllErrors"></a> GetAllErrors\(\)
+### GetAllErrors\(\)
 
 Gets all errors.
 
@@ -85,4 +85,5 @@ public string[] GetAllErrors()
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The error list.
+
 

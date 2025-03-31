@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_EntityType"></a> Class EntityType
+# Class EntityType
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,7 +20,7 @@ public class EntityType
 
 ## Constructors
 
-### <a id="VM_Models_Pre_EntityType__ctor_System_String_System_String_VM_Models_Pre_MainTypes_VM_Models_Pre_SubTypes_System_String_System_String_"></a> EntityType\(string, string, MainTypes, SubTypes, string, string\)
+### EntityType\(string, string, MainTypes, SubTypes, string, string\)
 
 ```csharp
 [JsonConstructor]
@@ -43,7 +43,7 @@ public EntityType(string typeName, string displayName, MainTypes mainType, SubTy
 
 ## Properties
 
-### <a id="VM_Models_Pre_EntityType_DisplayName"></a> DisplayName
+### DisplayName
 
 ```csharp
 public string DisplayName { get; }
@@ -53,7 +53,7 @@ public string DisplayName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_EntityType_MainType"></a> MainType
+### MainType
 
 ```csharp
 [JsonConverter(typeof(StringEnumConverter))]
@@ -64,7 +64,7 @@ public MainTypes MainType { get; }
 
  [MainTypes](VM.Models.Pre.MainTypes.md)
 
-### <a id="VM_Models_Pre_EntityType_MainTypeAbbreviation"></a> MainTypeAbbreviation
+### MainTypeAbbreviation
 
 ```csharp
 public string MainTypeAbbreviation { get; }
@@ -74,7 +74,7 @@ public string MainTypeAbbreviation { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_EntityType_SubType"></a> SubType
+### SubType
 
 ```csharp
 [JsonConverter(typeof(StringEnumConverter))]
@@ -85,7 +85,7 @@ public SubTypes SubType { get; }
 
  [SubTypes](VM.Models.Pre.SubTypes.md)
 
-### <a id="VM_Models_Pre_EntityType_SubTypeAbbreviation"></a> SubTypeAbbreviation
+### SubTypeAbbreviation
 
 ```csharp
 public string SubTypeAbbreviation { get; }
@@ -95,7 +95,7 @@ public string SubTypeAbbreviation { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_EntityType_TypeName"></a> TypeName
+### TypeName
 
 ```csharp
 public string TypeName { get; }
@@ -107,7 +107,7 @@ public string TypeName { get; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_EntityType_TryGetEntityType_System_String_VM_Models_Pre_EntityType__"></a> TryGetEntityType\(string, out EntityType\)
+### TryGetEntityType\(string, out EntityType\)
 
 ```csharp
 public static bool TryGetEntityType(string typeName, out EntityType entityType)
@@ -122,4 +122,5 @@ public static bool TryGetEntityType(string typeName, out EntityType entityType)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

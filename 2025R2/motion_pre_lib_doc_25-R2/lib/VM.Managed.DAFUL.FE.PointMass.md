@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_PointMass"></a> Class PointMass
+# Class PointMass
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -188,7 +188,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_PointMass__ctor_System_String_VM_Managed_DAFUL_FE_FRBE_"></a> PointMass\(string, FRBE\)
+### PointMass\(string, FRBE\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.PointMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -206,7 +206,7 @@ Name of the point mass.
 
 FRBE of the point mass.
 
-### <a id="VM_Managed_DAFUL_FE_PointMass__ctor_System_String_System_UInt32_"></a> PointMass\(string, uint\)
+### PointMass\(string, uint\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.PointMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -224,7 +224,7 @@ Name of the point mass.
 
 Node Index of the point mass.
 
-### <a id="VM_Managed_DAFUL_FE_PointMass__ctor_System_String_"></a> PointMass\(string\)
+### PointMass\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.PointMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -238,7 +238,7 @@ public PointMass(string strName)
 
 Name of the point mass.
 
-### <a id="VM_Managed_DAFUL_FE_PointMass__ctor"></a> PointMass\(\)
+### PointMass\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.PointMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -248,7 +248,7 @@ public PointMass()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_PointMass_FRBE"></a> FRBE
+### FRBE
 
 Gets or Sets the FRBE.
 
@@ -260,7 +260,7 @@ public FRBE FRBE { get; set; }
 
  [FRBE](VM.Managed.DAFUL.FE.FRBE.md)
 
-### <a id="VM_Managed_DAFUL_FE_PointMass_Mass"></a> Mass
+### Mass
 
 Gets or sets the mass.
 
@@ -272,7 +272,7 @@ public ExpressionValueVariable Mass { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FE_PointMass_MomentOfInertia"></a> MomentOfInertia
+### MomentOfInertia
 
 Gets or sets the list of moment of inertia.
 
@@ -284,7 +284,7 @@ public ExpressionValueVariable[] MomentOfInertia { get; set; }
 
  ExpressionValueVariable\[\]
 
-### <a id="VM_Managed_DAFUL_FE_PointMass_NodeIndex"></a> NodeIndex
+### NodeIndex
 
 Gets or Sets the node.
 
@@ -298,7 +298,7 @@ public uint NodeIndex { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_PointMass_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -312,7 +312,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_FE_PointMass_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -340,7 +340,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_PointMass_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -353,4 +353,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

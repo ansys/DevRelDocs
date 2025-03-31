@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerTransform"></a> Class PickerTransform
+# Class PickerTransform
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -50,7 +50,7 @@ public class PickerTransform : PickerBase
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_PickerTransform__ctor"></a> PickerTransform\(\)
+### PickerTransform\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerTransform" data-throw-if-not-resolved="false"></xref> class
 
@@ -60,7 +60,7 @@ public PickerTransform()
 
 ## Properties
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_Result"></a> Result
+### Result
 
 Gets or sets the object of picking result.
 
@@ -74,7 +74,7 @@ public override object Result { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
+### Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -94,7 +94,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_FilteringReference_System_UIntPtr_System_UIntPtr_"></a> FilteringReference\(UIntPtr, UIntPtr\)
+### FilteringReference\(UIntPtr, UIntPtr\)
 
 Filtering to not proper object about special target into owner.
 
@@ -118,7 +118,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_GetChangeNoneParametricXml_System_String_"></a> GetChangeNoneParametricXml\(string\)
+### GetChangeNoneParametricXml\(string\)
 
 Change to the result of parametric to the result of none parametric.
 
@@ -138,7 +138,7 @@ Result of parametric.
 
 The result xml of none parametric.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_GetPickerInfo"></a> GetPickerInfo\(\)
+### GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -150,7 +150,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
+### GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -170,7 +170,7 @@ Picking destination key.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_GetVaildAcisXml_System_String_"></a> GetVaildAcisXml\(string\)
+### GetVaildAcisXml\(string\)
 
 Get valid result xml of transform data for acis datas.
 
@@ -190,7 +190,7 @@ Invalid result xml.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_GetVaildOnNodeXml_System_String_VM_Managed_VectorBase_"></a> GetVaildOnNodeXml\(string, VectorBase\)
+### GetVaildOnNodeXml\(string, VectorBase\)
 
 Get valid result xml of transform data for node of mesh.
 OnNode filter picking - PointAndOrientation type
@@ -215,7 +215,7 @@ The position of node.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_GetVaildPointAndOrientationXml_System_String_System_String_"></a> GetVaildPointAndOrientationXml\(string, string\)
+### GetVaildPointAndOrientationXml\(string, string\)
 
 Get valid result xml of transform data for point and orientation.
 
@@ -239,7 +239,7 @@ The result of sub picker of orientation.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_GetValidLinkXml_System_String_"></a> GetValidLinkXml\(string\)
+### GetValidLinkXml\(string\)
 
 Get valid result xml of link.
 If result have value of delta, the Link is changed LinkDelta.
@@ -261,7 +261,7 @@ Invalid result xml of link.
 
 The result xml of link.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_GetValidResultXml_System_String_"></a> GetValidResultXml\(string\)
+### GetValidResultXml\(string\)
 
 Get valid result xml according to picker type of core.
 
@@ -281,7 +281,7 @@ Invalid result xml.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_GetValidThreePointsXml_System_String_"></a> GetValidThreePointsXml\(string\)
+### GetValidThreePointsXml\(string\)
 
 Get valid result xml of transform data for three points.
 
@@ -301,7 +301,7 @@ Invalid result xml.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_Highlight_System_Boolean_"></a> Highlight\(bool\)
+### Highlight\(bool\)
 
 Picking highlight to filtered target.
 
@@ -315,7 +315,7 @@ public override void Highlight(bool bHighlight)
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_ResultDeserialize_System_String_"></a> ResultDeserialize\(string\)
+### ResultDeserialize\(string\)
 
 ```csharp
 public object ResultDeserialize(string strXml)
@@ -329,7 +329,7 @@ public object ResultDeserialize(string strXml)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_Picker_Core_PickerTransform_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
+### SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -352,4 +352,5 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

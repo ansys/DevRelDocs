@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DiskFullException"></a> Class DiskFullException
+# Class DiskFullException
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class DiskFullException : Exception
 
 ## Constructors
 
-### <a id="VM_Managed_DiskFullException__ctor_System_Exception_"></a> DiskFullException\(Exception\)
+### DiskFullException\(Exception\)
 
 Initializes a new instance of the <xref href="VM.Managed.DiskFullException" data-throw-if-not-resolved="false"></xref> class
 
@@ -37,7 +37,7 @@ public DiskFullException(Exception e)
 
 ## Properties
 
-### <a id="VM_Managed_DiskFullException_Message"></a> Message
+### Message
 
 Gets the exception information.
 
@@ -51,7 +51,7 @@ public override string Message { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DiskFullException_IsDiskFull_System_Exception_"></a> IsDiskFull\(Exception\)
+### IsDiskFull\(Exception\)
 
 ```csharp
 public static bool IsDiskFull(Exception e)
@@ -64,4 +64,5 @@ public static bool IsDiskFull(Exception e)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

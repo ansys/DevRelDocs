@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_LinkOwnerDestroyAttribute"></a> Class LinkOwnerDestroyAttribute
+# Class LinkOwnerDestroyAttribute
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  
@@ -69,13 +69,13 @@ ILinkOwnerDestroyOwner
 
 ## Constructors
 
-### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute__ctor"></a> LinkOwnerDestroyAttribute\(\)
+### LinkOwnerDestroyAttribute\(\)
 
 ```csharp
 public LinkOwnerDestroyAttribute()
 ```
 
-### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute__ctor_System_Type_"></a> LinkOwnerDestroyAttribute\(Type\)
+### LinkOwnerDestroyAttribute\(Type\)
 
 ```csharp
 public LinkOwnerDestroyAttribute(Type behaviorType)
@@ -85,7 +85,7 @@ public LinkOwnerDestroyAttribute(Type behaviorType)
 
 `behaviorType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute__ctor_VM_Models_Pre_LinkBehaviorType_System_String___"></a> LinkOwnerDestroyAttribute\(LinkBehaviorType, params string\[\]\)
+### LinkOwnerDestroyAttribute\(LinkBehaviorType, params string\[\]\)
 
 ```csharp
 public LinkOwnerDestroyAttribute(LinkBehaviorType linkBehaviorType, params string[] behaviorNames)
@@ -99,7 +99,7 @@ public LinkOwnerDestroyAttribute(LinkBehaviorType linkBehaviorType, params strin
 
 ## Fields
 
-### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute___a__instance"></a> \_\_a$\_instance
+### \_\_a$\_instance
 
 ```csharp
 public static readonly LinkOwnerDestroyAttribute __a$_instance
@@ -111,7 +111,7 @@ public static readonly LinkOwnerDestroyAttribute __a$_instance
 
 ## Methods
 
-### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute_AfterSetter_System_Object_System_String_System_Object___System_Attribute___"></a> AfterSetter\(object, string, object\[\], Attribute\[\]\)
+### AfterSetter\(object, string, object\[\], Attribute\[\]\)
 
 ```csharp
 [Advice(Kind.After, Targets = Target.AnyAccess|Target.Setter)]
@@ -128,7 +128,7 @@ public override void AfterSetter(object owner, string propertyName, object[] val
 
 `triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
 
-### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute_BeforeSetter_System_String_"></a> BeforeSetter\(string\)
+### BeforeSetter\(string\)
 
 ```csharp
 [Advice(Kind.Before, Targets = Target.AnyAccess|Target.Setter)]
@@ -139,7 +139,7 @@ public override void BeforeSetter(string propertyName)
 
 `propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_LinkOwnerDestroyAttribute_InitializeProperty_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__"></a> InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
+### InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
 
 ```csharp
 protected override void InitializeProperty(object owner, IEnumerable<PropertyInfo> propertyInfos)
@@ -150,4 +150,5 @@ protected override void InitializeProperty(object owner, IEnumerable<PropertyInf
 `owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
+
 

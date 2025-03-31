@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer"></a> Class AnalysisSweptSineSteer
+# Class AnalysisSweptSineSteer
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -51,7 +51,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer__ctor"></a> AnalysisSweptSineSteer\(\)
+### AnalysisSweptSineSteer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSweptSineSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSwept
 public AnalysisSweptSineSteer()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisSweptSineSteer\(ILinkContainer\)
+### AnalysisSweptSineSteer\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSweptSineSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_FrequencyRateValue"></a> FrequencyRateValue
+### FrequencyRateValue
 
 Gets or sets the frequency rate.
 
@@ -87,7 +87,7 @@ public double FrequencyRateValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_InitFrequency"></a> InitFrequency
+### InitFrequency
 
 Gets or sets the initial frequency.
 
@@ -99,7 +99,7 @@ public double InitFrequency { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_InitialSteer"></a> InitialSteer
+### InitialSteer
 
 Gets or sets the initial steer value.
 
@@ -111,7 +111,7 @@ public double InitialSteer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_MaxiFrequency"></a> MaxiFrequency
+### MaxiFrequency
 
 Gets or sets the maximum frequency.
 
@@ -123,7 +123,7 @@ public double MaxiFrequency { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_MaximumSteer"></a> MaximumSteer
+### MaximumSteer
 
 Gets or sets the maximum steer value.
 
@@ -135,7 +135,7 @@ public double MaximumSteer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_TireRadiusPosition"></a> TireRadiusPosition
+### TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -149,7 +149,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -162,4 +162,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

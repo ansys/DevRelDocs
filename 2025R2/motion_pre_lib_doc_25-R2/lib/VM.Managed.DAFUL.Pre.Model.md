@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_Model"></a> Class Model
+# Class Model
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -36,7 +36,7 @@ public class Model : FileGroup<Model.ModelItemGroup, GroupItem>, IFileGroup
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_Model__ctor"></a> Model\(\)
+### Model\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Model" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ public Model()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_Model_DefaultDirectory"></a> DefaultDirectory
+### DefaultDirectory
 
 Gets the default directory.
 
@@ -58,7 +58,7 @@ public static string DefaultDirectory { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_Model_Toolkit"></a> Toolkit
+### Toolkit
 
 Gets or sets the toolkit.
 
@@ -72,7 +72,7 @@ public string Toolkit { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_Model_AddGroupItem_VM_Managed_DAFUL_Pre_GroupItem_"></a> AddGroupItem\(GroupItem\)
+### AddGroupItem\(GroupItem\)
 
 Adds the group item.
 
@@ -92,7 +92,7 @@ The item.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_AddInsertedFile_System_String_"></a> AddInsertedFile\(string\)
+### AddInsertedFile\(string\)
 
 Adds the inserted file.
 
@@ -106,7 +106,7 @@ public static void AddInsertedFile(string strFileName)
 
 Name of the STR file.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_ClearInsertedFiles"></a> ClearInsertedFiles\(\)
+### ClearInsertedFiles\(\)
 
 Clears the inserted files.
 
@@ -114,7 +114,7 @@ Clears the inserted files.
 public static void ClearInsertedFiles()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Model_FindGroup_VM_Managed_DAFUL_Pre_GroupItem_System_Collections_Generic_List_VM_Managed_DAFUL_Pre_Model_ModelItemGroup__"></a> FindGroup\(GroupItem, List<ModelItemGroup\>\)
+### FindGroup\(GroupItem, List<ModelItemGroup\>\)
 
 Finds the group.
 
@@ -136,7 +136,7 @@ The groups.
 
  [Model](VM.Managed.DAFUL.Pre.Model.md).[ModelItemGroup](VM.Managed.DAFUL.Pre.Model.ModelItemGroup.md)
 
-### <a id="VM_Managed_DAFUL_Pre_Model_GetALLFilterList"></a> GetALLFilterList\(\)
+### GetALLFilterList\(\)
 
 Gets the all the filter list.
 
@@ -150,7 +150,7 @@ public List<string> GetALLFilterList()
 
 The filters.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_GetDefaultLocation_System_Boolean_System_Boolean_"></a> GetDefaultLocation\(bool, bool\)
+### GetDefaultLocation\(bool, bool\)
 
 Gets the recent directory.
 
@@ -174,7 +174,7 @@ if set to <code>true</code> [new].
 
 <code>The name of recent directory</code> if success; otherwise, <code>null</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_GetFilterName_System_String_"></a> GetFilterName\(string\)
+### GetFilterName\(string\)
 
 Gets the name of the filter.
 
@@ -194,7 +194,7 @@ The filter.
 
 The filter name.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_GetFullPath_System_String_"></a> GetFullPath\(string\)
+### GetFullPath\(string\)
 
 Gets the full path through relative path.
 
@@ -214,7 +214,7 @@ The reference directory.
 
 The full path.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_GetGroupItemList"></a> GetGroupItemList\(\)
+### GetGroupItemList\(\)
 
 Gets the group item list.
 
@@ -228,7 +228,7 @@ public List<GroupItem> GetGroupItemList()
 
 The group items.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_GetGroupItemList_System_String_"></a> GetGroupItemList\(string\)
+### GetGroupItemList\(string\)
 
 Gets the group item list.
 
@@ -248,7 +248,7 @@ The filter.
 
 The group items.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_GetInsertedFile"></a> GetInsertedFile\(\)
+### GetInsertedFile\(\)
 
 Gets the inserted file.
 
@@ -260,7 +260,7 @@ public static List<string> GetInsertedFile()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Pre_Model_IsExistingItem_VM_Managed_DAFUL_Pre_GroupItem_"></a> IsExistingItem\(GroupItem\)
+### IsExistingItem\(GroupItem\)
 
 Determines whether is existing item.
 
@@ -280,7 +280,7 @@ The group item.
 
 <code>true</code> if is existing item; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_IsExistingItem_System_String_System_String_"></a> IsExistingItem\(string, string\)
+### IsExistingItem\(string, string\)
 
 Determines whether is existing item.
 
@@ -304,7 +304,7 @@ The absolute path.
 
 <code>true</code> if is existing item; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_IsExistingItemFromDirectory_System_String_System_String_"></a> IsExistingItemFromDirectory\(string, string\)
+### IsExistingItemFromDirectory\(string, string\)
 
 Determines whether [is existing item from directory] [the specified STR ref dir].
 
@@ -328,7 +328,7 @@ The STR absolute directory.
 
 <code>true</code> if [is existing item from directory] [the specified STR ref dir]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_IsExistingName_System_String_"></a> IsExistingName\(string\)
+### IsExistingName\(string\)
 
 Determines whether is existing name.
 
@@ -348,7 +348,7 @@ Name of the item.
 
 <code>true</code> if is existing name; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Model_SetDefaultLocation_System_String_System_Boolean_System_Boolean_"></a> SetDefaultLocation\(string, bool, bool\)
+### SetDefaultLocation\(string, bool, bool\)
 
 Sets the recent directory in registry.
 
@@ -375,4 +375,5 @@ if set to <code>true</code> [new].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

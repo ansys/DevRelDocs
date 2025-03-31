@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1"></a> Class GearSetBase<T\>
+# Class GearSetBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -63,7 +63,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1__ctor"></a> GearSetBase\(\)
+### GearSetBase\(\)
 
 ```csharp
 protected GearSetBase()
@@ -71,7 +71,7 @@ protected GearSetBase()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_m_bUseAdvanced"></a> m\_bUseAdvanced
+### m\_bUseAdvanced
 
 ```csharp
 protected bool m_bUseAdvanced
@@ -81,7 +81,7 @@ protected bool m_bUseAdvanced
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_m_bUseKissSoftInterface"></a> m\_bUseKissSoftInterface
+### m\_bUseKissSoftInterface
 
 ```csharp
 protected bool m_bUseKissSoftInterface
@@ -93,7 +93,7 @@ protected bool m_bUseKissSoftInterface
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_CenterDistance"></a> CenterDistance
+### CenterDistance
 
 ```csharp
 protected virtual string[] CenterDistance { get; }
@@ -103,7 +103,7 @@ protected virtual string[] CenterDistance { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_Color"></a> Color
+### Color
 
 ```csharp
 public string Color { get; set; }
@@ -113,7 +113,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_FaceWidth"></a> FaceWidth
+### FaceWidth
 
 ```csharp
 protected virtual string[] FaceWidth { get; }
@@ -123,7 +123,7 @@ protected virtual string[] FaceWidth { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_GetName"></a> GetName
+### GetName
 
 ```csharp
 protected virtual string GetName { get; }
@@ -133,7 +133,7 @@ protected virtual string GetName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -143,7 +143,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_NumberOfGear"></a> NumberOfGear
+### NumberOfGear
 
 ```csharp
 protected virtual int NumberOfGear { get; }
@@ -153,7 +153,7 @@ protected virtual int NumberOfGear { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_NumberOfTeeth"></a> NumberOfTeeth
+### NumberOfTeeth
 
 ```csharp
 protected virtual string[] NumberOfTeeth { get; }
@@ -163,7 +163,7 @@ protected virtual string[] NumberOfTeeth { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_ProfileShift"></a> ProfileShift
+### ProfileShift
 
 ```csharp
 protected virtual string[] ProfileShift { get; }
@@ -175,7 +175,7 @@ protected virtual string[] ProfileShift { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
+### OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -185,7 +185,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -201,7 +201,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetBase_1_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -214,4 +214,5 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

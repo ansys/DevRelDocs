@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IHiddenFormView"></a> Interface IHiddenFormView
+# Interface IHiddenFormView
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IHiddenFormView
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_ClearUserControl"></a> ClearUserControl\(\)
+### ClearUserControl\(\)
 
 Clears the user control.
 
@@ -25,7 +25,7 @@ Clears the user control.
 void ClearUserControl()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_Fit"></a> Fit\(\)
+### Fit\(\)
 
 Fits this instance.
 
@@ -33,7 +33,7 @@ Fits this instance.
 void Fit()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_GetActiveDesignType"></a> GetActiveDesignType\(\)
+### GetActiveDesignType\(\)
 
 Updates the active user control.
 
@@ -47,7 +47,7 @@ string GetActiveDesignType()
 
 Design Type
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_OnButtonDown_System_Windows_Forms_MouseEventArgs_"></a> OnButtonDown\(MouseEventArgs\)
+### OnButtonDown\(MouseEventArgs\)
 
 Called when [button down].
 
@@ -61,7 +61,7 @@ void OnButtonDown(MouseEventArgs arg)
 
 The <xref href="System.Windows.Forms.MouseEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_OnButtonUp_System_Windows_Forms_MouseEventArgs_"></a> OnButtonUp\(MouseEventArgs\)
+### OnButtonUp\(MouseEventArgs\)
 
 Called when [button up].
 
@@ -75,7 +75,7 @@ void OnButtonUp(MouseEventArgs arg)
 
 The <xref href="System.Windows.Forms.MouseEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_SelectTabInUserControl_System_Int32_"></a> SelectTabInUserControl\(int\)
+### SelectTabInUserControl\(int\)
 
 Selects the tab in user control.
 
@@ -89,7 +89,7 @@ void SelectTabInUserControl(int nIdx)
 
 Index of the n.
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_SetActiveUserControl_System_String_System_Object_"></a> SetActiveUserControl\(string, object\)
+### SetActiveUserControl\(string, object\)
 
 Sets the active user control.
 
@@ -107,7 +107,7 @@ Type of the string.
 
 The object.
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_ShowTabInDesigner_System_Int32_System_Boolean_"></a> ShowTabInDesigner\(int, bool\)
+### ShowTabInDesigner\(int, bool\)
 
 Shows the tab in designer.
 
@@ -125,7 +125,7 @@ Index of the n.
 
 if set to <code>true</code> [b show].
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_UpdateUserControl_System_Object_"></a> UpdateUserControl\(object\)
+### UpdateUserControl\(object\)
 
 Updates the user control.
 
@@ -139,11 +139,12 @@ void UpdateUserControl(object obj)
 
 The object.
 
-### <a id="VM_Managed_DAFUL_Pre_IHiddenFormView_UpdateView"></a> UpdateView\(\)
+### UpdateView\(\)
 
 Updates the view.
 
 ```csharp
 void UpdateView()
 ```
+
 

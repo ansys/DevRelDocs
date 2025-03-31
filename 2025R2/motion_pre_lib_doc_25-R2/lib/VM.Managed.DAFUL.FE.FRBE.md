@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_FRBE"></a> Class FRBE
+# Class FRBE
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -187,7 +187,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_FRBE__ctor_System_String_VM_Managed_DAFUL_FE_EigenvalueInfo_RBEType_"></a> FRBE\(string, RBEType\)
+### FRBE\(string, RBEType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Name of the FRBE.
 
 Behavior type of the FRBE.
 
-### <a id="VM_Managed_DAFUL_FE_FRBE__ctor_System_String_"></a> FRBE\(string\)
+### FRBE\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -219,7 +219,7 @@ public FRBE(string strName)
 
 Name of the FRBE.
 
-### <a id="VM_Managed_DAFUL_FE_FRBE__ctor"></a> FRBE\(\)
+### FRBE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ public FRBE()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_BeamProperty"></a> BeamProperty
+### BeamProperty
 
 Gets or sets the beam property info.
 
@@ -241,7 +241,7 @@ public BeamPropertyInfo BeamProperty { get; set; }
 
  [BeamPropertyInfo](VM.Managed.DAFUL.FE.BeamPropertyInfo.md)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_BehaviorType"></a> BehaviorType
+### BehaviorType
 
 Gets or sets the behavior type.
 
@@ -253,7 +253,7 @@ public EigenvalueInfo.RBEType BehaviorType { get; set; }
 
  [EigenvalueInfo](VM.Managed.DAFUL.FE.EigenvalueInfo.md).[RBEType](VM.Managed.DAFUL.FE.EigenvalueInfo.RBEType.md)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_Color"></a> Color
+### Color
 
 Gets or sets the color.
 
@@ -265,7 +265,7 @@ public virtual Color Color { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_EigenvalueAnalysisInfo"></a> EigenvalueAnalysisInfo
+### EigenvalueAnalysisInfo
 
 Gets or sets the eigenvalue analysis info.
 
@@ -277,7 +277,7 @@ public EigenvalueInfo EigenvalueAnalysisInfo { get; set; }
 
  [EigenvalueInfo](VM.Managed.DAFUL.FE.EigenvalueInfo.md)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_IsHide"></a> IsHide
+### IsHide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -289,7 +289,7 @@ bool IsHide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_IsHideWhenImporting"></a> IsHideWhenImporting
+### IsHideWhenImporting
 
 Gets or sets a value indicating whether this instance is hide when importing.
 
@@ -301,7 +301,7 @@ public bool IsHideWhenImporting { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets a value indicating whether object is visible.
 
@@ -313,7 +313,7 @@ bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -325,7 +325,7 @@ Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_Node_System_UInt32_"></a> Node\[uint\]
+### Node\[uint\]
 
 Gets or sets node from index.
 
@@ -337,7 +337,7 @@ public Node Node[uint nIndex] { get; set; }
 
  [Node](VM.Managed.DAFUL.FE.Node.md)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_NumNode"></a> NumNode
+### NumNode
 
 Gets number of node.
 
@@ -349,7 +349,7 @@ public uint NumNode { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_Item_System_UInt32_"></a> this\[uint\]
+### this\[uint\]
 
 ```csharp
 public Node this[uint A_0] { get; }
@@ -361,7 +361,7 @@ public Node this[uint A_0] { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -375,7 +375,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -403,7 +403,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -420,7 +420,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -434,7 +434,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -448,7 +448,7 @@ public override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -456,7 +456,7 @@ Redraw.
 public virtual void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_ReDrawForHistory"></a> ReDrawForHistory\(\)
+### ReDrawForHistory\(\)
 
 Redraw for undo/redo
 
@@ -464,7 +464,7 @@ Redraw for undo/redo
 void ReDrawForHistory()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -478,7 +478,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -492,7 +492,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 The XmlWriter stream to which the object is serialized.
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_get_Node_System_UInt32_"></a> get\_Node\(uint\)
+### get\_Node\(uint\)
 
 ```csharp
 public Node get_Node(uint nIndex)
@@ -506,7 +506,7 @@ public Node get_Node(uint nIndex)
 
  [Node](VM.Managed.DAFUL.FE.Node.md)
 
-### <a id="VM_Managed_DAFUL_FE_FRBE_set_Node_System_UInt32_VM_Managed_DAFUL_FE_Node_"></a> set\_Node\(uint, Node\)
+### set\_Node\(uint, Node\)
 
 ```csharp
 public void set_Node(uint nIndex, Node node)
@@ -517,4 +517,5 @@ public void set_Node(uint nIndex, Node node)
 `nIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 `node` [Node](VM.Managed.DAFUL.FE.Node.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CADOperation_ProfilePointOfCurvesetOp"></a> Class CADOperation.ProfilePointOfCurvesetOp
+# Class CADOperation.ProfilePointOfCurvesetOp
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CADOperation_ProfilePointOfCurvesetOp__ctor"></a> ProfilePointOfCurvesetOp\(\)
+### ProfilePointOfCurvesetOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CADOperation.ProfilePointOfCurvesetOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CADOperation.Prof
 public ProfilePointOfCurvesetOp()
 ```
 
-### <a id="VM_Managed_DAFUL_CADOperation_ProfilePointOfCurvesetOp__ctor_VM_Managed_DAFUL_IContactableRigid2D_"></a> ProfilePointOfCurvesetOp\(IContactableRigid2D\)
+### ProfilePointOfCurvesetOp\(IContactableRigid2D\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CADOperation.ProfilePointOfCurvesetOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ The curveset.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CADOperation_ProfilePointOfCurvesetOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -113,7 +113,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CADOperation_ProfilePointOfCurvesetOp_Name"></a> Name
+### Name
 
 Gets the Name.
 
@@ -127,7 +127,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CADOperation_ProfilePointOfCurvesetOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -135,7 +135,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_CADOperation_ProfilePointOfCurvesetOp_GetProfileResult_System_Boolean__System_Collections_Generic_List_VM_Managed_VectorBase___"></a> GetProfileResult\(ref bool, ref List<VectorBase\>\)
+### GetProfileResult\(ref bool, ref List<VectorBase\>\)
 
 Get profile result
 
@@ -158,4 +158,5 @@ The list of points
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 The number of profiles
+
 

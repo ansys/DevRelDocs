@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PickedOrientation"></a> Class PickedOrientation
+# Class PickedOrientation
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -25,13 +25,13 @@ public class PickedOrientation : PickedResult
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_PickedOrientation__ctor"></a> PickedOrientation\(\)
+### PickedOrientation\(\)
 
 ```csharp
 public PickedOrientation()
 ```
 
-### <a id="VM_Managed_DAFUL_Builder_PickedOrientation__ctor_VM_Managed_OrientationBase_"></a> PickedOrientation\(OrientationBase\)
+### PickedOrientation\(OrientationBase\)
 
 ```csharp
 public PickedOrientation(OrientationBase orientationBase)
@@ -43,7 +43,7 @@ public PickedOrientation(OrientationBase orientationBase)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_PickedOrientation_Orientation"></a> Orientation
+### Orientation
 
 ```csharp
 public OrientationBase Orientation { get; set; }
@@ -53,7 +53,7 @@ public OrientationBase Orientation { get; set; }
 
  OrientationBase
 
-### <a id="VM_Managed_DAFUL_Builder_PickedOrientation_Type"></a> Type
+### Type
 
 ```csharp
 public override PickedResult.PickedType Type { get; }
@@ -62,4 +62,5 @@ public override PickedResult.PickedType Type { get; }
 #### Property Value
 
  [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md).[PickedType](VM.Managed.DAFUL.Builder.PickedResult.PickedType.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_DriverFunction_MotionType"></a> Enum DriverFunction.MotionType
+# Enum DriverFunction.MotionType
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -26,6 +26,7 @@ Use displacement as motion.
 `Velocity = 1` 
 
 Use velocity as motion.
+
 
 
 

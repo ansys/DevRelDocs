@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IMarkerParent"></a> Interface IMarkerParent
+# Interface IMarkerParent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IMarkerParent
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IMarkerParent_ParentType"></a> ParentType
+### ParentType
 
 Gets the type of the parent.
 
@@ -29,7 +29,7 @@ MarkerParentType ParentType { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### <a id="VM_Managed_DAFUL_IMarkerParent_ReferenceFrameType"></a> ReferenceFrameType
+### ReferenceFrameType
 
 Gets the type of the reference frame.
 
@@ -40,4 +40,5 @@ MarkerReferenceFrameType ReferenceFrameType { get; }
 #### Property Value
 
  [MarkerReferenceFrameType](VM.Managed.DAFUL.MarkerReferenceFrameType.md)
+
 

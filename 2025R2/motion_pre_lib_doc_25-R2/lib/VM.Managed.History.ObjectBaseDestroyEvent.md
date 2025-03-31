@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ObjectBaseDestroyEvent"></a> Class ObjectBaseDestroyEvent
+# Class ObjectBaseDestroyEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -74,7 +74,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_ObjectBaseDestroyEvent__ctor_System_Object_"></a> ObjectBaseDestroyEvent\(object\)
+### ObjectBaseDestroyEvent\(object\)
 
 ```csharp
 public ObjectBaseDestroyEvent(object obOriginal)
@@ -86,7 +86,7 @@ public ObjectBaseDestroyEvent(object obOriginal)
 
 ## Methods
 
-### <a id="VM_Managed_History_ObjectBaseDestroyEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
+### AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -96,7 +96,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseDestroyEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
+### AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -106,7 +106,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseDestroyEvent_MergeImpl_VM_Managed_History_SerializableObjectBaseModifiedEventBase_"></a> MergeImpl\(SerializableObjectBaseModifiedEventBase\)
+### MergeImpl\(SerializableObjectBaseModifiedEventBase\)
 
 ```csharp
 protected override SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(SerializableObjectBaseModifiedEventBase evtNext)
@@ -120,7 +120,7 @@ protected override SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(Ser
 
  [SerializableObjectBaseModifiedEventBase](VM.Managed.History.SerializableObjectBaseModifiedEventBase.md).[MergeTo](VM.Managed.History.SerializableObjectBaseModifiedEventBase.MergeTo.md)
 
-### <a id="VM_Managed_History_ObjectBaseDestroyEvent_SameKey_System_UIntPtr_"></a> SameKey\(UIntPtr\)
+### SameKey\(UIntPtr\)
 
 ```csharp
 public bool SameKey(UIntPtr key)
@@ -133,4 +133,5 @@ public bool SameKey(UIntPtr key)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IContactableRigid"></a> Interface IContactableRigid
+# Interface IContactableRigid
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -25,7 +25,7 @@ IHasBody
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IContactableRigid_Connectable"></a> Connectable
+### Connectable
 
 Gets the connectable.
 
@@ -36,4 +36,5 @@ IConnectable Connectable { get; }
 #### Property Value
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
+
 

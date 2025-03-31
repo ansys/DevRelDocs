@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockTwoPoint"></a> Class SolidBodyBlockTwoPoint
+# Class SolidBodyBlockTwoPoint
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class SolidBodyBlockTwoPoint : SolidBodyBlock<BuilderBlockTwoPoint>, IBui
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockTwoPoint__ctor"></a> SolidBodyBlockTwoPoint\(\)
+### SolidBodyBlockTwoPoint\(\)
 
 ```csharp
 public SolidBodyBlockTwoPoint()
@@ -73,7 +73,7 @@ public SolidBodyBlockTwoPoint()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockTwoPoint_FirstPoint"></a> FirstPoint
+### FirstPoint
 
 ```csharp
 public PointBase FirstPoint { get; set; }
@@ -83,7 +83,7 @@ public PointBase FirstPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockTwoPoint_SecondPoint"></a> SecondPoint
+### SecondPoint
 
 ```csharp
 public PointBase SecondPoint { get; set; }
@@ -95,7 +95,7 @@ public PointBase SecondPoint { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockTwoPoint_MakeSymmetricSolidBuilder"></a> MakeSymmetricSolidBuilder\(\)
+### MakeSymmetricSolidBuilder\(\)
 
 ```csharp
 protected override Builder MakeSymmetricSolidBuilder()
@@ -105,7 +105,7 @@ protected override Builder MakeSymmetricSolidBuilder()
 
  Builder
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockTwoPoint_SetSolidBuilderProperty_VM_Managed_CAD_BuilderBlockTwoPoint_"></a> SetSolidBuilderProperty\(BuilderBlockTwoPoint\)
+### SetSolidBuilderProperty\(BuilderBlockTwoPoint\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderBlockTwoPoint solidBuilder)
@@ -114,4 +114,5 @@ protected override void SetSolidBuilderProperty(BuilderBlockTwoPoint solidBuilde
 #### Parameters
 
 `solidBuilder` BuilderBlockTwoPoint
+
 

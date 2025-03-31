@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_SheetThickenDirection"></a> Enum SheetThickenDirection
+# Enum SheetThickenDirection
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -26,6 +26,7 @@ Extend sheet geometry to down direction
 `Up = 1` 
 
 Extend sheet geometry to up direction
+
 
 
 

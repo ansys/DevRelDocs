@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ImprintUtil"></a> Class ImprintUtil
+# Class ImprintUtil
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  
@@ -22,7 +22,7 @@ public class ImprintUtil
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil__ctor"></a> ImprintUtil\(\)
+### ImprintUtil\(\)
 
 ```csharp
 public ImprintUtil()
@@ -30,7 +30,7 @@ public ImprintUtil()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_CreateFacesetByIndex_VM_Managed_Document3D_VM_Managed_DAFUL_SolidBody_System_Collections_Generic_List_System_Int32__System_String_"></a> CreateFacesetByIndex\(Document3D, SolidBody, List<int\>, string\)
+### CreateFacesetByIndex\(Document3D, SolidBody, List<int\>, string\)
 
 Create faceset by index
 
@@ -62,7 +62,7 @@ The pre-fix name
 
 faceset
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_CreateFacesetByIndex_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Collections_Generic_List_System_Int32__System_String_"></a> CreateFacesetByIndex\(Document3D, Body, List<int\>, string\)
+### CreateFacesetByIndex\(Document3D, Body, List<int\>, string\)
 
 Create faceset by index
 
@@ -94,7 +94,7 @@ The pre-fix name
 
 faceset
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_CreatePartFacesetByIndex_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Collections_Generic_List_System_Int32__System_String_"></a> CreatePartFacesetByIndex\(Document3D, Body, List<int\>, string\)
+### CreatePartFacesetByIndex\(Document3D, Body, List<int\>, string\)
 
 Create faceset by index in part
 
@@ -126,7 +126,7 @@ The pre-fix name
 
 faceset
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPoints_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Collections_Generic_List_System_Collections_Generic_List_VM_Managed_VectorBase___System_Collections_Generic_List_System_Collections_Generic_List_VM_Managed_VectorBase____"></a> FindNearestPoints\(Document3D, Body, List<List<VectorBase\>\>, ref List<List<VectorBase\>\>\)
+### FindNearestPoints\(Document3D, Body, List<List<VectorBase\>\>, ref List<List<VectorBase\>\>\)
 
 Find nearest points
 
@@ -156,7 +156,7 @@ The result
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPoints_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase___VM_Managed_VectorBase____"></a> FindNearestPoints\(Document3D, Body, VectorBase\[\], ref VectorBase\[\]\)
+### FindNearestPoints\(Document3D, Body, VectorBase\[\], ref VectorBase\[\]\)
 
 Find nearest points
 
@@ -186,7 +186,7 @@ The result
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsWithDirection_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Collections_Generic_List_System_Collections_Generic_List_VM_Managed_VectorBase___VM_Managed_VectorBase_System_Collections_Generic_List_System_Collections_Generic_List_VM_Managed_VectorBase____"></a> FindNearestPointsWithDirection\(Document3D, Body, List<List<VectorBase\>\>, VectorBase, ref List<List<VectorBase\>\>\)
+### FindNearestPointsWithDirection\(Document3D, Body, List<List<VectorBase\>\>, VectorBase, ref List<List<VectorBase\>\>\)
 
 Find nearest points
 
@@ -220,7 +220,7 @@ The result
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsWithDirection_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase___VM_Managed_VectorBase_VM_Managed_VectorBase____"></a> FindNearestPointsWithDirection\(Document3D, Body, VectorBase\[\], VectorBase, ref VectorBase\[\]\)
+### FindNearestPointsWithDirection\(Document3D, Body, VectorBase\[\], VectorBase, ref VectorBase\[\]\)
 
 Find nearest points
 
@@ -254,7 +254,7 @@ The result
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestTopologyIndex_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase_System_Collections_Generic_List_System_Int32___VM_Managed_VectorBase__"></a> FindNearestTopologyIndex\(Document3D, Body, VectorBase, ref List<int\>, ref VectorBase\)
+### FindNearestTopologyIndex\(Document3D, Body, VectorBase, ref List<int\>, ref VectorBase\)
 
 Find nearest topology index
 
@@ -288,7 +288,7 @@ The result vector
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestTopologyIndex_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Double_System_Double_System_Double_System_Collections_Generic_List_System_Int32___System_Double__System_Double__System_Double__"></a> FindNearestTopologyIndex\(Document3D, Body, double, double, double, ref List<int\>, ref double, ref double, ref double\)
+### FindNearestTopologyIndex\(Document3D, Body, double, double, double, ref List<int\>, ref double, ref double, ref double\)
 
 Find nearest topology index
 
@@ -338,7 +338,7 @@ The z of result position
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestTopologyIndexAdding4Point_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase_VM_Managed_TransformBase_System_Double_System_Boolean_System_Collections_Generic_List_System_Int32___VM_Managed_VectorBase__"></a> FindNearestTopologyIndexAdding4Point\(Document3D, Body, VectorBase, TransformBase, double, bool, ref List<int\>, ref VectorBase\)
+### FindNearestTopologyIndexAdding4Point\(Document3D, Body, VectorBase, TransformBase, double, bool, ref List<int\>, ref VectorBase\)
 
 Find nearest topology index adding 4 point
 
@@ -384,7 +384,7 @@ The result
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRange_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_TMatrix_System_Double_System_Collections_Generic_List_System_Int32___"></a> GetFacesWithCylinderRange\(Document3D, Body, TMatrix, double, ref List<int\>\)
+### GetFacesWithCylinderRange\(Document3D, Body, TMatrix, double, ref List<int\>\)
 
 Gets faces with cylinder range
 
@@ -418,7 +418,7 @@ The index list
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetGearFacesWithCylinderRange_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_TMatrix_System_Double_System_Collections_Generic_List_System_Int32___"></a> GetGearFacesWithCylinderRange\(Document3D, Body, TMatrix, double, ref List<int\>\)
+### GetGearFacesWithCylinderRange\(Document3D, Body, TMatrix, double, ref List<int\>\)
 
 Gets touched faces with cylinder range
 
@@ -452,7 +452,7 @@ The index list
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintCore_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Collections_Generic_List_System_Int32__VM_Managed_TransformBase_System_Double_System_Double_"></a> ImprintCore\(Document3D, Body, List<int\>, TransformBase, double, double\)
+### ImprintCore\(Document3D, Body, List<int\>, TransformBase, double, double\)
 
 ImprintCore
 
@@ -486,7 +486,7 @@ The height
 
 The width
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintCore_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Collections_Generic_List_System_Int32__VM_Managed_TransformBase_System_Double_"></a> ImprintCore\(Document3D, Body, List<int\>, TransformBase, double\)
+### ImprintCore\(Document3D, Body, List<int\>, TransformBase, double\)
 
 ImprintCore
 
@@ -516,7 +516,7 @@ The transform
 
 The radius
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCircle_VM_Managed_Document3D_VM_Managed_DAFUL_SolidBody_System_Double_VM_Managed_VectorBase_VM_Managed_DirectionBase_System_Double_"></a> ImprintWithCircle\(Document3D, SolidBody, double, VectorBase, DirectionBase, double\)
+### ImprintWithCircle\(Document3D, SolidBody, double, VectorBase, DirectionBase, double\)
 
 Imprint with circle
 
@@ -554,7 +554,7 @@ The radius
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCircle_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Double_VM_Managed_VectorBase_VM_Managed_DirectionBase_System_Double_"></a> ImprintWithCircle\(Document3D, Body, double, VectorBase, DirectionBase, double\)
+### ImprintWithCircle\(Document3D, Body, double, VectorBase, DirectionBase, double\)
 
 Imprint with circle
 
@@ -592,7 +592,7 @@ The radius
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinder_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_"></a> ImprintWithCylinder\(Document3D, Body, VectorBase, VectorBase, double\)
+### ImprintWithCylinder\(Document3D, Body, VectorBase, VectorBase, double\)
 
 Imprint with cylinder
 
@@ -626,7 +626,7 @@ The radius
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderUsingKernelOperation_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_"></a> ImprintWithCylinderUsingKernelOperation\(Document3D, Body, VectorBase, VectorBase, double\)
+### ImprintWithCylinderUsingKernelOperation\(Document3D, Body, VectorBase, VectorBase, double\)
 
 Imprint with cylinder
 
@@ -660,7 +660,7 @@ The radius
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithRectangle_VM_Managed_Document3D_VM_Managed_DAFUL_SolidBody_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> ImprintWithRectangle\(Document3D, SolidBody, double, double, double, double, double, double\)
+### ImprintWithRectangle\(Document3D, SolidBody, double, double, double, double, double, double\)
 
 Imprint with rectangle
 
@@ -706,7 +706,7 @@ The width
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithRectangle_VM_Managed_Document3D_VM_Managed_CAD_Body_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> ImprintWithRectangle\(Document3D, Body, double, double, double, double, double, double\)
+### ImprintWithRectangle\(Document3D, Body, double, double, double, double, double, double\)
 
 Imprint with rectangle
 
@@ -751,4 +751,5 @@ The width
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

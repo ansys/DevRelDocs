@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamPlane"></a> Class BuilderParamPlane
+# Class BuilderParamPlane
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -41,9 +41,10 @@ public abstract class BuilderParamPlane : BuilderParamTransform
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamPlane__ctor"></a> BuilderParamPlane\(\)
+### BuilderParamPlane\(\)
 
 ```csharp
 protected BuilderParamPlane()
 ```
+
 

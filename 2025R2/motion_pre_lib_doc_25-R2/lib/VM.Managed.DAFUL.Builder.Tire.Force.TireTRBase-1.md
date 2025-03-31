@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1"></a> Class TireTRBase<T\>
+# Class TireTRBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.Tire.Force](VM.Managed.DAFUL.Builder.Tire.Force.md)  
 Assembly: VMBldTire.dll  
@@ -57,7 +57,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1__ctor"></a> TireTRBase\(\)
+### TireTRBase\(\)
 
 ```csharp
 protected TireTRBase()
@@ -65,7 +65,7 @@ protected TireTRBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_ActionConnectable"></a> ActionConnectable
+### ActionConnectable
 
 ```csharp
 public IConnectable ActionConnectable { get; }
@@ -75,7 +75,7 @@ public IConnectable ActionConnectable { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_BaseConnectable"></a> BaseConnectable
+### BaseConnectable
 
 ```csharp
 public IConnectable BaseConnectable { get; }
@@ -85,7 +85,7 @@ public IConnectable BaseConnectable { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_CMOffset"></a> CMOffset
+### CMOffset
 
 ```csharp
 public Variable CMOffset { get; set; }
@@ -95,7 +95,7 @@ public Variable CMOffset { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_IxxIyy"></a> IxxIyy
+### IxxIyy
 
 ```csharp
 public Variable IxxIyy { get; set; }
@@ -105,7 +105,7 @@ public Variable IxxIyy { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_Izz"></a> Izz
+### Izz
 
 ```csharp
 public Variable Izz { get; set; }
@@ -115,7 +115,7 @@ public Variable Izz { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_Mass"></a> Mass
+### Mass
 
 ```csharp
 public Variable Mass { get; set; }
@@ -125,7 +125,7 @@ public Variable Mass { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_PropertyFilePath"></a> PropertyFilePath
+### PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -135,7 +135,7 @@ public string PropertyFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_Side"></a> Side
+### Side
 
 ```csharp
 public WheelBodyBase.SideType Side { get; set; }
@@ -145,7 +145,7 @@ public WheelBodyBase.SideType Side { get; set; }
 
  WheelBodyBase.SideType
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_Transform"></a> Transform
+### Transform
 
 ```csharp
 public TransformBase Transform { get; }
@@ -155,7 +155,7 @@ public TransformBase Transform { get; }
 
  TransformBase
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_TreadColor"></a> TreadColor
+### TreadColor
 
 ```csharp
 public string TreadColor { get; set; }
@@ -165,7 +165,7 @@ public string TreadColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_WheelCenterOffset"></a> WheelCenterOffset
+### WheelCenterOffset
 
 ```csharp
 public Variable WheelCenterOffset { get; set; }
@@ -177,7 +177,7 @@ public Variable WheelCenterOffset { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_GetOrientation"></a> GetOrientation\(\)
+### GetOrientation\(\)
 
 ```csharp
 protected virtual OMatrix GetOrientation()
@@ -187,7 +187,7 @@ protected virtual OMatrix GetOrientation()
 
  OMatrix
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_MakeWheelBody_VM_Managed_Document_"></a> MakeWheelBody\(Document\)
+### MakeWheelBody\(Document\)
 
 ```csharp
 protected virtual WheelBodyBase MakeWheelBody(Document doc)
@@ -201,7 +201,7 @@ protected virtual WheelBodyBase MakeWheelBody(Document doc)
 
  WheelBodyBase
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -217,7 +217,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1_SetDataWheelBody_VM_Managed_DAFUL_Tire_WheelBodyBase_VM_Managed_Document_"></a> SetDataWheelBody\(WheelBodyBase, Document\)
+### SetDataWheelBody\(WheelBodyBase, Document\)
 
 ```csharp
 protected virtual void SetDataWheelBody(WheelBodyBase wheel, Document doc)
@@ -228,4 +228,5 @@ protected virtual void SetDataWheelBody(WheelBodyBase wheel, Document doc)
 `wheel` WheelBodyBase
 
 `doc` Document
+
 

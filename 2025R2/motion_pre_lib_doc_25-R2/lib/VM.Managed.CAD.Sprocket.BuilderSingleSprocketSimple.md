@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple"></a> Class BuilderSingleSprocketSimple
+# Class BuilderSingleSprocketSimple
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -212,7 +212,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple__ctor"></a> BuilderSingleSprocketSimple\(\)
+### BuilderSingleSprocketSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.BuilderSingleSprocketSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -222,7 +222,7 @@ public BuilderSingleSprocketSimple()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_AddendumCircleDiameter"></a> AddendumCircleDiameter
+### AddendumCircleDiameter
 
 Gets and sets addendum circle diameter.
 
@@ -234,7 +234,7 @@ public ExpressionValueVariable AddendumCircleDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_AngleBetweenTeeth"></a> AngleBetweenTeeth
+### AngleBetweenTeeth
 
 Gets and sets angle between teeth.
 
@@ -246,7 +246,7 @@ public ExpressionValueVariable AngleBetweenTeeth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_BushingRadius"></a> BushingRadius
+### BushingRadius
 
 Gets and sets bushing radius.
 
@@ -258,7 +258,7 @@ public ExpressionValueVariable BushingRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_ClearanceofToothRoot"></a> ClearanceofToothRoot
+### ClearanceofToothRoot
 
 Gets and sets clearance of tooth root.
 
@@ -270,7 +270,7 @@ public ExpressionValueVariable ClearanceofToothRoot { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_DedendumCircleDiameter"></a> DedendumCircleDiameter
+### DedendumCircleDiameter
 
 Gets and sets dedendum circle diameter
 
@@ -282,7 +282,7 @@ public ExpressionValueVariable DedendumCircleDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_NoOfTeeth"></a> NoOfTeeth
+### NoOfTeeth
 
 Gets and sets Number of teeth
 
@@ -294,7 +294,7 @@ public int NoOfTeeth { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_PitchCircleDiameter"></a> PitchCircleDiameter
+### PitchCircleDiameter
 
 Gets and sets pitch circle diameter.
 
@@ -306,7 +306,7 @@ public ExpressionValueVariable PitchCircleDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_ProfileCreationType"></a> ProfileCreationType
+### ProfileCreationType
 
 Gets and sets profile type.
 
@@ -318,7 +318,7 @@ public ToothProfileType ProfileCreationType { get; set; }
 
  [ToothProfileType](VM.Managed.CAD.Sprocket.ToothProfileType.md)
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_Spline"></a> Spline
+### Spline
 
 Gets and sets tooth profile
 
@@ -330,7 +330,7 @@ public Spline Spline { get; set; }
 
  Spline
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_ToothRoundRadius"></a> ToothRoundRadius
+### ToothRoundRadius
 
 Gets and sets rounding radius at tooth tip.
 
@@ -342,7 +342,7 @@ public ExpressionValueVariable ToothRoundRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_TypeOfBuilder"></a> TypeOfBuilder
+### TypeOfBuilder
 
 ```csharp
 public override string TypeOfBuilder { get; set; }
@@ -354,7 +354,7 @@ public override string TypeOfBuilder { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -362,7 +362,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -372,7 +372,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -382,7 +382,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -396,7 +396,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -414,7 +414,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_Set_Radius_Shift_System_Double_"></a> Set\_Radius\_Shift\(double\)
+### Set\_Radius\_Shift\(double\)
 
 Sets Y-axis shift value
 
@@ -427,4 +427,5 @@ public void Set_Radius_Shift(double dShift)
 `dShift` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The radius shift
+
 

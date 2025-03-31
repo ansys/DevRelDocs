@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_PropertyConvectionBase"></a> Class PropertyConvectionBase
+# Class PropertyConvectionBase
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -168,7 +168,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyConvectionBase__ctor"></a> PropertyConvectionBase\(\)
+### PropertyConvectionBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.PropertyConvectionBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ public PropertyConvectionBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyConvectionBase_Matrix"></a> Matrix
+### Matrix
 
 Gets or sets the type of matrix.
 
@@ -192,7 +192,7 @@ public PropertyConvectionBase.ConvectionMatrix Matrix { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyConvectionBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -205,4 +205,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

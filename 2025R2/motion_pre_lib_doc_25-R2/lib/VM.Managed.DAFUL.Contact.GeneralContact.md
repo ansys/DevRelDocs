@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_GeneralContact"></a> Class GeneralContact
+# Class GeneralContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -229,7 +229,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact__ctor"></a> GeneralContact\(\)
+### GeneralContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.GeneralContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -237,7 +237,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.GeneralCo
 public GeneralContact()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact__ctor_System_String_"></a> GeneralContact\(string\)
+### GeneralContact\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.GeneralContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -253,7 +253,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_ActionGeom"></a> ActionGeom
+### ActionGeom
 
 Gets or sets the action flex 3D contact geometry.
 
@@ -265,7 +265,7 @@ public ContactGeom3D ActionGeom { get; set; }
 
  [ContactGeom3D](VM.Managed.DAFUL.Contact.ContactGeom3D.md)
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -277,7 +277,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_BaseGeom"></a> BaseGeom
+### BaseGeom
 
 Gets or sets the base rigid 3D contact geometry.
 
@@ -289,7 +289,7 @@ public ContactGeom3D BaseGeom { get; set; }
 
  [ContactGeom3D](VM.Managed.DAFUL.Contact.ContactGeom3D.md)
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_CanSwitchImpl"></a> CanSwitchImpl
+### CanSwitchImpl
 
 ```csharp
 protected virtual bool CanSwitchImpl { get; }
@@ -299,7 +299,7 @@ protected virtual bool CanSwitchImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -311,7 +311,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -325,7 +325,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -339,7 +339,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -359,7 +359,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -387,7 +387,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -401,9 +401,9 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_InitializeEvent_VM_Managed_Document3D_"></a> InitializeEvent\(Document3D\)
+### InitializeEvent\(Document3D\)
 
-Initializes event. It has been used to convert an RTR3D Contact to General Contact object.
+<p>Initializes event. It has been used to convert an RTR3D Contact to General Contact object.</p>
 
 ```csharp
 public static void InitializeEvent(Document3D doc)
@@ -413,7 +413,7 @@ public static void InitializeEvent(Document3D doc)
 
 `doc` Document3D
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -427,7 +427,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_UpdateIcon"></a> UpdateIcon\(\)
+### UpdateIcon\(\)
 
 Updates the icon [Not Implemented].
 
@@ -435,7 +435,7 @@ Updates the icon [Not Implemented].
 protected override void UpdateIcon()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_GeneralContact_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -448,4 +448,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_HandledView"></a> Class HandledView
+# Class HandledView
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -46,7 +46,7 @@ public abstract class HandledView : View
 
 ## Constructors
 
-### <a id="VM_Managed_HandledView__ctor_System_UIntPtr_VM_Managed_Document_"></a> HandledView\(UIntPtr, Document\)
+### HandledView\(UIntPtr, Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.HandledView" data-throw-if-not-resolved="false"></xref> class
 
@@ -66,7 +66,7 @@ The document.
 
 ## Properties
 
-### <a id="VM_Managed_HandledView_Handle"></a> Handle
+### Handle
 
 Gets the view handle.
 
@@ -80,7 +80,7 @@ public UIntPtr Handle { get; }
 
 ## Methods
 
-### <a id="VM_Managed_HandledView_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -91,9 +91,10 @@ protected override void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_HandledView_Finalize"></a> \~HandledView\(\)
+### \~HandledView\(\)
 
 ```csharp
 protected ~HandledView()
 ```
+
 

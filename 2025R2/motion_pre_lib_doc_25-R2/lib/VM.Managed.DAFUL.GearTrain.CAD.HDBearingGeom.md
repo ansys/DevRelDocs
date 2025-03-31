@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingGeom"></a> Class HDBearingGeom
+# Class HDBearingGeom
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -296,7 +296,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingGeom__ctor"></a> HDBearingGeom\(\)
+### HDBearingGeom\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDBearingGeom" data-throw-if-not-resolved="false"></xref> class.
 
@@ -304,7 +304,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDB
 public HDBearingGeom()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingGeom__ctor_VM_Managed_CAD_Builder_"></a> HDBearingGeom\(Builder\)
+### HDBearingGeom\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDBearingGeom" data-throw-if-not-resolved="false"></xref> class.
 
@@ -320,7 +320,7 @@ The builder.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingGeom_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -337,4 +337,5 @@ Length of the d.
 `dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 Height of the d.
+
 

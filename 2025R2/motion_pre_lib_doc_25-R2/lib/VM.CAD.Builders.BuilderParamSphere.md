@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamSphere"></a> Class BuilderParamSphere
+# Class BuilderParamSphere
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -32,7 +32,7 @@ public class BuilderParamSphere : BuilderParamColorGeom
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamSphere__ctor"></a> BuilderParamSphere\(\)
+### BuilderParamSphere\(\)
 
 ```csharp
 public BuilderParamSphere()
@@ -40,7 +40,7 @@ public BuilderParamSphere()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamSphere_CenterPosition"></a> CenterPosition
+### CenterPosition
 
 ```csharp
 public Vector CenterPosition { get; set; }
@@ -50,7 +50,7 @@ public Vector CenterPosition { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_BuilderParamSphere_Radius"></a> Radius
+### Radius
 
 ```csharp
 public double Radius { get; set; }
@@ -59,4 +59,5 @@ public double Radius { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

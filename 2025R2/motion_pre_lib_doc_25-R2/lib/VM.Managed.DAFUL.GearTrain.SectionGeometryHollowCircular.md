@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular"></a> Class SectionGeometryHollowCircular
+# Class SectionGeometryHollowCircular
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -117,7 +117,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular__ctor"></a> SectionGeometryHollowCircular\(\)
+### SectionGeometryHollowCircular\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SectionGeometryHollowCircular" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ public SectionGeometryHollowCircular()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_InnerRadius"></a> InnerRadius
+### InnerRadius
 
 Gets or sets the inner radius.
 
@@ -139,7 +139,7 @@ public ExpressionValueVariable InnerRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_OuterRadius"></a> OuterRadius
+### OuterRadius
 
 Gets or sets the outer radius.
 
@@ -151,7 +151,7 @@ public ExpressionValueVariable OuterRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_TypeOfGeometry"></a> TypeOfGeometry
+### TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -165,7 +165,7 @@ public override SectionGeometryBase.GeometryType TypeOfGeometry { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_GetBuilder_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> GetBuilder\(BuilderColor, VectorBase\)
+### GetBuilder\(BuilderColor, VectorBase\)
 
 Gets the builder.
 
@@ -187,7 +187,7 @@ The offset direction.
 
  Builder
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_GetGeomInfo"></a> GetGeomInfo\(\)
+### GetGeomInfo\(\)
 
 Gets the geom information.
 
@@ -199,7 +199,7 @@ public override double[] GetGeomInfo()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -217,7 +217,7 @@ Length of the d.
 
 Height of the d.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_GetSectionBuilder_System_Double_System_Collections_Generic_List_VM_Managed_Vector__"></a> GetSectionBuilder\(double, List<Vector\>\)
+### GetSectionBuilder\(double, List<Vector\>\)
 
 Gets the section builder.
 
@@ -239,7 +239,7 @@ The LST gear section.
 
  Builder\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_InitChild"></a> InitChild\(\)
+### InitChild\(\)
 
 Initializes the child.
 
@@ -247,7 +247,7 @@ Initializes the child.
 public override void InitChild()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_InnerCreateParameter"></a> InnerCreateParameter\(\)
+### InnerCreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase InnerCreateParameter()
@@ -257,7 +257,7 @@ protected override BuilderParamBase InnerCreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_InnerFillParameter_VM_CAD_Builders_BuilderParamBase_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
+### InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
 
 ```csharp
 protected override void InnerFillParameter(BuilderParamBase parameter, BuilderColor color, VectorBase vecOffsetDirection)
@@ -271,7 +271,7 @@ protected override void InnerFillParameter(BuilderParamBase parameter, BuilderCo
 
 `vecOffsetDirection` VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowCircular_SplitSectionInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Int32_"></a> SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
+### SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
 
 Splits the section information.
 
@@ -296,4 +296,5 @@ The n number.
 #### Returns
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)\[\]
+
 

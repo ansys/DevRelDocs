@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_DocumentAPIImpl"></a> Class DocumentAPIImpl
+# Class DocumentAPIImpl
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class DocumentAPIImpl
 
 ## Methods
 
-### <a id="VM_API_Pre_DocumentAPIImpl_CreateNewPartDocumentImpl__1_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_System_String_System_String_"></a> CreateNewPartDocumentImpl<T\>\(string, string, Unit, double, LengthUnitType, string, string\)
+### CreateNewPartDocumentImpl<T\>\(string, string, Unit, double, LengthUnitType, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -79,7 +79,7 @@ The document type
 
 Will be thrown if 'newPartFilePath' argument is null.
 
-### <a id="VM_API_Pre_DocumentAPIImpl_CreateNewSubsystemDocumentCore__1_System_String_VM_Managed_DocCreateInfo_System_String_System_String_"></a> CreateNewSubsystemDocumentCore<T\>\(string, DocCreateInfo, string, string\)
+### CreateNewSubsystemDocumentCore<T\>\(string, DocCreateInfo, string, string\)
 
 Create <xref href="VM.Managed.Document" data-throw-if-not-resolved="false"></xref>.
 
@@ -124,7 +124,7 @@ The document type
 
 Will be thrown if 'newSubsystemFilePath' argument is null.
 
-### <a id="VM_API_Pre_DocumentAPIImpl_CreateNewSubsystemDocumentImpl__1_System_String_System_String_VM_Vector_VM_Unit_System_Double_System_Boolean_VM_Plane_System_Boolean_VM_API_Pre_LengthUnitType_System_String_System_String_"></a> CreateNewSubsystemDocumentImpl<T\>\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType, string, string\)
+### CreateNewSubsystemDocumentImpl<T\>\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -197,7 +197,7 @@ The document type
 
 Will be thrown if 'newSubsystemFilePath' argument is null.
 
-### <a id="VM_API_Pre_DocumentAPIImpl_CreateNewSubsystemFromTemplateDocumentImpl__1_System_String_System_String_System_String_System_String_"></a> CreateNewSubsystemFromTemplateDocumentImpl<T\>\(string, string, string, string\)
+### CreateNewSubsystemFromTemplateDocumentImpl<T\>\(string, string, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -246,4 +246,5 @@ Will be thrown if 'newSubsystemFromTemplateFilePath' argument is null.
  [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
 
 Will be thrown if 'existedSubsystemTemplateFilePath' does not exist.
+
 

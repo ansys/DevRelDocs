@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TransmissionValidator"></a> Class TransmissionValidator
+# Class TransmissionValidator
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -58,9 +58,10 @@ AbstractValidator<Transmission\>.RuleLevelCascadeMode
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TransmissionValidator__ctor"></a> TransmissionValidator\(\)
+### TransmissionValidator\(\)
 
 ```csharp
 public TransmissionValidator()
 ```
+
 

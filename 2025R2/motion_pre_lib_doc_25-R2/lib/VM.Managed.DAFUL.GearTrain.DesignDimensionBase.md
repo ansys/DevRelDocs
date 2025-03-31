@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase"></a> Class DesignDimensionBase
+# Class DesignDimensionBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -187,7 +187,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase__ctor"></a> DesignDimensionBase\(\)
+### DesignDimensionBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignDimensionBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -195,7 +195,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignD
 public DesignDimensionBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase__ctor_System_String_"></a> DesignDimensionBase\(string\)
+### DesignDimensionBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignDimensionBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Name of the design subentity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase_Color"></a> Color
+### Color
 
 Gets or sets the color.
 
@@ -223,7 +223,7 @@ public Color Color { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase_EndPoint"></a> EndPoint
+### EndPoint
 
 Gets or sets the end point.
 
@@ -235,7 +235,7 @@ public Vector EndPoint { get; set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase_Gap"></a> Gap
+### Gap
 
 Gets or sets the gap.
 
@@ -247,7 +247,7 @@ public double Gap { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -259,7 +259,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase_IsExternable"></a> IsExternable
+### IsExternable
 
 Gets a value indicating whether this instance is externable.
 
@@ -271,7 +271,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase_StartPoint"></a> StartPoint
+### StartPoint
 
 Gets or sets the start point.
 
@@ -285,7 +285,7 @@ public Vector StartPoint { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -299,7 +299,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase_FindTargetObject_VM_Managed_DAFUL_GearTrain_CAD_Section_"></a> FindTargetObject\(Section\)
+### FindTargetObject\(Section\)
 
 Finds the target object.
 
@@ -317,11 +317,12 @@ The sec body.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw
 
 ```csharp
 public void ReDraw()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OperationDelegate"></a> Class OperationDelegate
+# Class OperationDelegate
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -81,7 +81,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_Operation_OperationDelegate__ctor_VM_Managed_Operation_OperationDelegate_OpCore1_System_Object_VM_Managed_View_"></a> OperationDelegate\(OpCore1, object, View\)
+### OperationDelegate\(OpCore1, object, View\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -103,7 +103,7 @@ The operation parameter.
 
 The operation parameter that is to represent the view.
 
-### <a id="VM_Managed_Operation_OperationDelegate__ctor_VM_Managed_Operation_OperationDelegate_OpCore1_System_Object_VM_Managed_Document_"></a> OperationDelegate\(OpCore1, object, Document\)
+### OperationDelegate\(OpCore1, object, Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The operation parameter.
 
 The operation parameter that is to represent the document.
 
-### <a id="VM_Managed_Operation_OperationDelegate__ctor_VM_Managed_Operation_OperationDelegate_OpCore1_System_Object_"></a> OperationDelegate\(OpCore1, object\)
+### OperationDelegate\(OpCore1, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ The operation.
 
 The operation parameter.
 
-### <a id="VM_Managed_Operation_OperationDelegate__ctor_VM_Managed_Operation_OperationDelegate_OpCore_VM_Managed_View_"></a> OperationDelegate\(OpCore, View\)
+### OperationDelegate\(OpCore, View\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -161,7 +161,7 @@ The operation.
 
 The operation parameter that is to represent the view.
 
-### <a id="VM_Managed_Operation_OperationDelegate__ctor_VM_Managed_Operation_OperationDelegate_OpCore_VM_Managed_Document_"></a> OperationDelegate\(OpCore, Document\)
+### OperationDelegate\(OpCore, Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ The operation.
 
 The operation parameter that is to represent the document.
 
-### <a id="VM_Managed_Operation_OperationDelegate__ctor_VM_Managed_Operation_OperationDelegate_OpCore_System_Boolean_"></a> OperationDelegate\(OpCore, bool\)
+### OperationDelegate\(OpCore, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -197,7 +197,7 @@ The operation.
 
 The history merge flag.
 
-### <a id="VM_Managed_Operation_OperationDelegate__ctor_VM_Managed_Operation_OperationDelegate_OpCore_"></a> OperationDelegate\(OpCore\)
+### OperationDelegate\(OpCore\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -213,7 +213,7 @@ The operation.
 
 ## Properties
 
-### <a id="VM_Managed_Operation_OperationDelegate_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -225,7 +225,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Operation_OperationDelegate_UseMacro"></a> UseMacro
+### UseMacro
 
 ```csharp
 public override bool UseMacro { get; }
@@ -237,11 +237,12 @@ public override bool UseMacro { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Operation_OperationDelegate_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

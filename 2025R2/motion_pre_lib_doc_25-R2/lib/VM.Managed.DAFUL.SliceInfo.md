@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SliceInfo"></a> Class SliceInfo
+# Class SliceInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_SliceInfo__ctor"></a> SliceInfo\(\)
+### SliceInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SliceInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SliceInfo" data-t
 public SliceInfo()
 ```
 
-### <a id="VM_Managed_DAFUL_SliceInfo__ctor_System_String_"></a> SliceInfo\(string\)
+### SliceInfo\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SliceInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -118,7 +118,7 @@ public SliceInfo(string name)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_SliceInfo_MaxAngle"></a> MaxAngle
+### MaxAngle
 
 Gets and sets the maximum angle.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable MaxAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_SliceInfo_MaxLength"></a> MaxLength
+### MaxLength
 
 Gets and sets the maximum length.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable MaxLength { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_SliceInfo_MaxTolerance"></a> MaxTolerance
+### MaxTolerance
 
 Gets and sets the maximum tolerance.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable MaxTolerance { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_SliceInfo_Name"></a> Name
+### Name
 
 Gets and sets the name.
 
@@ -165,4 +165,5 @@ public string Name { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

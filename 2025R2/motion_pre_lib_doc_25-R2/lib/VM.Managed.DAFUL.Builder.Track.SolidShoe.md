@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_SolidShoe"></a> Class SolidShoe
+# Class SolidShoe
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -52,7 +52,7 @@ BuilderBase<BodyShoe\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidShoe__ctor"></a> SolidShoe\(\)
+### SolidShoe\(\)
 
 ```csharp
 protected SolidShoe()
@@ -60,7 +60,7 @@ protected SolidShoe()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidShoe_AddToDoc"></a> AddToDoc
+### AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -70,7 +70,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidShoe_Color"></a> Color
+### Color
 
 ```csharp
 public string Color { get; set; }
@@ -80,7 +80,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidShoe_LDForShoeSombination"></a> LDForShoeSombination
+### LDForShoeSombination
 
 ```csharp
 protected double LDForShoeSombination { get; set; }
@@ -92,7 +92,7 @@ protected double LDForShoeSombination { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidShoe_GetCurrentBuilder"></a> GetCurrentBuilder\(\)
+### GetCurrentBuilder\(\)
 
 ```csharp
 protected virtual Builder GetCurrentBuilder()
@@ -102,7 +102,7 @@ protected virtual Builder GetCurrentBuilder()
 
  Builder
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidShoe_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
+### OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -112,7 +112,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidShoe_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override sealed bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -127,4 +127,5 @@ protected override sealed bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

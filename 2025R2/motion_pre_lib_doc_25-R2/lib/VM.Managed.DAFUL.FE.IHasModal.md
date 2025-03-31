@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_IHasModal"></a> Interface IHasModal
+# Interface IHasModal
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -17,7 +17,7 @@ public interface IHasModal
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_IHasModal_GetModalPath"></a> GetModalPath\(\)
+### GetModalPath\(\)
 
 Gets the modal information.
 
@@ -29,7 +29,7 @@ string GetModalPath()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_IHasModal_GetModes"></a> GetModes\(\)
+### GetModes\(\)
 
 Gets the Modes.
 
@@ -43,7 +43,7 @@ ObjectBase[] GetModes()
 
 The modes.
 
-### <a id="VM_Managed_DAFUL_FE_IHasModal_SetModalPath_System_String_System_String_"></a> SetModalPath\(string, string\)
+### SetModalPath\(string, string\)
 
 Sets the modal information.
 
@@ -61,7 +61,7 @@ The modal absolute path
 
 The document directory
 
-### <a id="VM_Managed_DAFUL_FE_IHasModal_SetModalPath_System_String_"></a> SetModalPath\(string\)
+### SetModalPath\(string\)
 
 Sets the modal information.
 
@@ -74,4 +74,5 @@ void SetModalPath(string strPath)
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The modal absolute path
+
 

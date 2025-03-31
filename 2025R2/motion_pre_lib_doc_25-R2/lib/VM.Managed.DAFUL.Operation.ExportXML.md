@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ExportXML"></a> Class ExportXML
+# Class ExportXML
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -100,7 +100,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_ExportXML__ctor_VM_Managed_Document_"></a> ExportXML\(Document\)
+### ExportXML\(Document\)
 
 ```csharp
 public ExportXML(Document doc)
@@ -110,7 +110,7 @@ public ExportXML(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Operation_ExportXML__ctor_VM_Managed_Document_System_String_"></a> ExportXML\(Document, string\)
+### ExportXML\(Document, string\)
 
 ```csharp
 public ExportXML(Document doc, string strScenarioTypeName)
@@ -122,7 +122,7 @@ public ExportXML(Document doc, string strScenarioTypeName)
 
 `strScenarioTypeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_ExportXML__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportXML\(JournalParameter\)
+### ExportXML\(JournalParameter\)
 
 ```csharp
 public ExportXML(JournalParameter jp)
@@ -134,7 +134,7 @@ public ExportXML(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_ExportXML_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -148,7 +148,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_ExportXML_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -156,9 +156,10 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_ExportXML_ExportXMLImpl"></a> ExportXMLImpl\(\)
+### ExportXMLImpl\(\)
 
 ```csharp
 protected virtual void ExportXMLImpl()
 ```
+
 

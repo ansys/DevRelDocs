@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationTwoDirections"></a> Class OrientationTwoDirections
+# Class OrientationTwoDirections
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -131,7 +131,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_OrientationTwoDirections__ctor_VM_Managed_DirectionBase_VM_Managed_DirectionBase_"></a> OrientationTwoDirections\(DirectionBase, DirectionBase\)
+### OrientationTwoDirections\(DirectionBase, DirectionBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationTwoDirections" data-throw-if-not-resolved="false"></xref> class.
 
@@ -149,7 +149,7 @@ z-direction.
 
 x-direction.
 
-### <a id="VM_Managed_OrientationTwoDirections__ctor"></a> OrientationTwoDirections\(\)
+### OrientationTwoDirections\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationTwoDirections" data-throw-if-not-resolved="false"></xref> class.
 
@@ -159,7 +159,7 @@ public OrientationTwoDirections()
 
 ## Properties
 
-### <a id="VM_Managed_OrientationTwoDirections_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -171,7 +171,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_OrientationTwoDirections_Value"></a> Value
+### Value
 
 Gets the information of orientation(OMatrix type).
 
@@ -183,7 +183,7 @@ public override OMatrix Value { get; set; }
 
  [OMatrix](VM.Managed.OMatrix.md)
 
-### <a id="VM_Managed_OrientationTwoDirections_XDirection"></a> XDirection
+### XDirection
 
 Gets or sets x-direction.
 
@@ -195,7 +195,7 @@ public DirectionBase XDirection { get; set; }
 
  [DirectionBase](VM.Managed.DirectionBase.md)
 
-### <a id="VM_Managed_OrientationTwoDirections_ZDirection"></a> ZDirection
+### ZDirection
 
 Gets or sets z-direction.
 
@@ -209,7 +209,7 @@ public DirectionBase ZDirection { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_OrientationTwoDirections_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -224,7 +224,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_OrientationTwoDirections_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -242,7 +242,7 @@ The linked object.
 
 The update event information.
 
-### <a id="VM_Managed_OrientationTwoDirections_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -256,7 +256,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_OrientationTwoDirections_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -269,4 +269,5 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

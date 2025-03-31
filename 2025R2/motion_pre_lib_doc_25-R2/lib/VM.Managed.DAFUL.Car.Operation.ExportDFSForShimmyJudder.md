@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForShimmyJudder"></a> Class ExportDFSForShimmyJudder
+# Class ExportDFSForShimmyJudder
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -113,7 +113,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForShimmyJudder__ctor_VM_Managed_Document_"></a> ExportDFSForShimmyJudder\(Document\)
+### ExportDFSForShimmyJudder\(Document\)
 
 ```csharp
 public ExportDFSForShimmyJudder(Document doc)
@@ -123,7 +123,7 @@ public ExportDFSForShimmyJudder(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForShimmyJudder__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFSForShimmyJudder\(JournalParameter\)
+### ExportDFSForShimmyJudder\(JournalParameter\)
 
 ```csharp
 public ExportDFSForShimmyJudder(JournalParameter jp)
@@ -135,7 +135,7 @@ public ExportDFSForShimmyJudder(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForShimmyJudder_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -149,9 +149,10 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForShimmyJudder_ExportDFSImpl"></a> ExportDFSImpl\(\)
+### ExportDFSImpl\(\)
 
 ```csharp
 protected override void ExportDFSImpl()
 ```
+
 

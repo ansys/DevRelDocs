@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale"></a> Class Scale
+# Class Scale
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force.MoterEM](VM.Managed.DAFUL.GearTrain.Force.MoterEM.md)  
 Assembly: VMDGearTrain.dll  
@@ -94,7 +94,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale__ctor"></a> Scale\(\)
+### Scale\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.MoterEM.Scale" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ public Scale()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_RadialFactor"></a> RadialFactor
+### RadialFactor
 
 Gets or sets the Radial factor.
 
@@ -116,7 +116,7 @@ public ExpressionValueVariable RadialFactor { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_RadialFactorFileName"></a> RadialFactorFileName
+### RadialFactorFileName
 
 Gets or sets the radial factor file name.
 
@@ -128,7 +128,7 @@ public string RadialFactorFileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_RadialFactorSpline"></a> RadialFactorSpline
+### RadialFactorSpline
 
 Gets or sets the Radial factor spline.
 
@@ -140,7 +140,7 @@ public SplineValue RadialFactorSpline { get; set; }
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_ScaleType"></a> ScaleType
+### ScaleType
 
 Gets or sets the scale type.
 
@@ -152,7 +152,7 @@ public Scale.ScaleTypes ScaleType { get; set; }
 
  [Scale](VM.Managed.DAFUL.GearTrain.Force.MoterEM.Scale.md).[ScaleTypes](VM.Managed.DAFUL.GearTrain.Force.MoterEM.Scale.ScaleTypes.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_TangentialFactor"></a> TangentialFactor
+### TangentialFactor
 
 Gets or sets the Tangential factor.
 
@@ -164,7 +164,7 @@ public ExpressionValueVariable TangentialFactor { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_TangentialFactorFileName"></a> TangentialFactorFileName
+### TangentialFactorFileName
 
 Gets or sets the tangential factor file name.
 
@@ -176,7 +176,7 @@ public string TangentialFactorFileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_TangentialFactorSpline"></a> TangentialFactorSpline
+### TangentialFactorSpline
 
 Gets or sets the Tangential factor spline.
 
@@ -190,7 +190,7 @@ public SplineValue TangentialFactorSpline { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_MoterEM_Scale_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -203,4 +203,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

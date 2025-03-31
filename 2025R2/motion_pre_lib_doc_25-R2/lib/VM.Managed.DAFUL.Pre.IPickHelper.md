@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IPickHelper"></a> Interface IPickHelper
+# Interface IPickHelper
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -22,7 +22,7 @@ public interface IPickHelper
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ActiveDirectionPick"></a> ActiveDirectionPick\(\)
+### ActiveDirectionPick\(\)
 
 Actives the direction pick.
 
@@ -30,7 +30,7 @@ Actives the direction pick.
 void ActiveDirectionPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ActiveHolePick"></a> ActiveHolePick\(\)
+### ActiveHolePick\(\)
 
 Actives the hole pick.
 
@@ -38,7 +38,7 @@ Actives the hole pick.
 void ActiveHolePick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ActiveOrientationPick"></a> ActiveOrientationPick\(\)
+### ActiveOrientationPick\(\)
 
 Actives the orientation pick.
 
@@ -46,7 +46,7 @@ Actives the orientation pick.
 void ActiveOrientationPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ActivePointPick"></a> ActivePointPick\(\)
+### ActivePointPick\(\)
 
 Actives the point pick.
 
@@ -54,7 +54,7 @@ Actives the point pick.
 void ActivePointPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ActiveTransformPick"></a> ActiveTransformPick\(\)
+### ActiveTransformPick\(\)
 
 Actives the transform pick.
 
@@ -62,7 +62,7 @@ Actives the transform pick.
 void ActiveTransformPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ApplyEdge"></a> ApplyEdge\(\)
+### ApplyEdge\(\)
 
 Applies the edge.
 
@@ -76,7 +76,7 @@ bool ApplyEdge()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ApplyEntityVM"></a> ApplyEntityVM\(\)
+### ApplyEntityVM\(\)
 
 Applies the entity VM.
 
@@ -90,7 +90,7 @@ bool ApplyEntityVM()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ApplyFace"></a> ApplyFace\(\)
+### ApplyFace\(\)
 
 Applies the face.
 
@@ -104,7 +104,7 @@ bool ApplyFace()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ApplyFaceset"></a> ApplyFaceset\(\)
+### ApplyFaceset\(\)
 
 Applies the faceset.
 
@@ -118,7 +118,7 @@ bool ApplyFaceset()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ApplyHole"></a> ApplyHole\(\)
+### ApplyHole\(\)
 
 Applies the hole.
 
@@ -132,7 +132,7 @@ bool ApplyHole()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ApplyMesh"></a> ApplyMesh\(\)
+### ApplyMesh\(\)
 
 Applies the mesh.
 
@@ -146,7 +146,7 @@ bool ApplyMesh()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ApplyNode"></a> ApplyNode\(\)
+### ApplyNode\(\)
 
 Applies the node.
 
@@ -160,7 +160,7 @@ bool ApplyNode()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ApplyPatchset"></a> ApplyPatchset\(\)
+### ApplyPatchset\(\)
 
 Applies the patchset.
 
@@ -174,7 +174,7 @@ bool ApplyPatchset()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_RestorePreviousActiveCategory"></a> RestorePreviousActiveCategory\(\)
+### RestorePreviousActiveCategory\(\)
 
 Restores the previous active category.
 
@@ -182,7 +182,7 @@ Restores the previous active category.
 void RestorePreviousActiveCategory()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SelectUnderCursorFromHiddenFormView"></a> SelectUnderCursorFromHiddenFormView\(\)
+### SelectUnderCursorFromHiddenFormView\(\)
 
 Select operation.
 
@@ -190,7 +190,7 @@ Select operation.
 void SelectUnderCursorFromHiddenFormView()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetAdjacentUseFaceNormal_System_Boolean_"></a> SetAdjacentUseFaceNormal\(bool\)
+### SetAdjacentUseFaceNormal\(bool\)
 
 Set to Adjacent option.
 
@@ -204,7 +204,7 @@ void SetAdjacentUseFaceNormal(bool bUseFaceNormal)
 
 true then use face normal angle, else use edge tangential angle.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetAdjacentValue_System_Double_"></a> SetAdjacentValue\(double\)
+### SetAdjacentValue\(double\)
 
 Set to Adjacent value.
 
@@ -218,7 +218,7 @@ void SetAdjacentValue(double dValue)
 
 the angle value.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetDirection_System_String_"></a> SetDirection\(string\)
+### SetDirection\(string\)
 
 Sets the direction.
 
@@ -232,7 +232,7 @@ void SetDirection(string strDirectionXml)
 
 The direction XML.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetDirection_System_String_System_String_System_String_System_String_System_String_System_String_System_Boolean_System_Boolean_"></a> SetDirection\(string, string, string, string, string, string, bool, bool\)
+### SetDirection\(string, string, string, string, string, string, bool, bool\)
 
 Sets the direction.
 
@@ -274,7 +274,7 @@ if set to <code>true</code> [is reverse].
 
 if set to <code>true</code> [is parameterizable].
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetMultiSelectShape_Circle_System_Boolean_"></a> SetMultiSelectShape\_Circle\(bool\)
+### SetMultiSelectShape\_Circle\(bool\)
 
 Set to circle by radius dragging shape for multi selection.
 
@@ -288,7 +288,7 @@ void SetMultiSelectShape_Circle(bool bAlreadyOperation)
 
 the operation flag.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetMultiSelectShape_Circle2_System_Boolean_"></a> SetMultiSelectShape\_Circle2\(bool\)
+### SetMultiSelectShape\_Circle2\(bool\)
 
 Set to circle by diameter dragging shape for multi selection.
 
@@ -302,7 +302,7 @@ void SetMultiSelectShape_Circle2(bool bAlreadyOperation)
 
 the operation flag.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetMultiSelectShape_None_System_Boolean_"></a> SetMultiSelectShape\_None\(bool\)
+### SetMultiSelectShape\_None\(bool\)
 
 Set to none dragging shape for multi selection.
 
@@ -316,7 +316,7 @@ void SetMultiSelectShape_None(bool bAlreadyOperation)
 
 the operation flag.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetMultiSelectShape_Polyline_System_Boolean_"></a> SetMultiSelectShape\_Polyline\(bool\)
+### SetMultiSelectShape\_Polyline\(bool\)
 
 Set to polyline dragging shape for multi selection.
 
@@ -330,7 +330,7 @@ void SetMultiSelectShape_Polyline(bool bAlreadyOperation)
 
 the operation flag.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetMultiSelectShape_Rectangle_System_Boolean_"></a> SetMultiSelectShape\_Rectangle\(bool\)
+### SetMultiSelectShape\_Rectangle\(bool\)
 
 Set to rectangle dragging shape for multi selection.
 
@@ -344,7 +344,7 @@ void SetMultiSelectShape_Rectangle(bool bAlreadyOperation)
 
 the operation flag.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetMultiSelectType_Addition"></a> SetMultiSelectType\_Addition\(\)
+### SetMultiSelectType\_Addition\(\)
 
 Set to additional selection for multi selection.
 
@@ -352,7 +352,7 @@ Set to additional selection for multi selection.
 void SetMultiSelectType_Addition()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetMultiSelectType_Once"></a> SetMultiSelectType\_Once\(\)
+### SetMultiSelectType\_Once\(\)
 
 Set to select once for multi selection.
 
@@ -360,7 +360,7 @@ Set to select once for multi selection.
 void SetMultiSelectType_Once()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetMultiSelectType_Subtraction"></a> SetMultiSelectType\_Subtraction\(\)
+### SetMultiSelectType\_Subtraction\(\)
 
 Set to subtractional selection for multi selection.
 
@@ -368,7 +368,7 @@ Set to subtractional selection for multi selection.
 void SetMultiSelectType_Subtraction()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetPoint_System_String_"></a> SetPoint\(string\)
+### SetPoint\(string\)
 
 Sets the point.
 
@@ -382,7 +382,7 @@ void SetPoint(string strPointXml)
 
 The point XML.
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_SetPoint_System_String_System_String_System_String_System_String_System_String_System_String_System_Boolean_"></a> SetPoint\(string, string, string, string, string, string, bool\)
+### SetPoint\(string, string, string, string, string, string, bool\)
 
 Sets the point.
 
@@ -420,7 +420,7 @@ The point XML.
 
 if set to <code>true</code> [is parameterizable].
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ShowPickListUnderCursorFromHiddenFormView"></a> ShowPickListUnderCursorFromHiddenFormView\(\)
+### ShowPickListUnderCursorFromHiddenFormView\(\)
 
 Show Select List operation.
 
@@ -428,7 +428,7 @@ Show Select List operation.
 void ShowPickListUnderCursorFromHiddenFormView()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_ShowSelectListUnderCursorFromHiddenFormView"></a> ShowSelectListUnderCursorFromHiddenFormView\(\)
+### ShowSelectListUnderCursorFromHiddenFormView\(\)
 
 Show Select List operation.
 
@@ -436,7 +436,7 @@ Show Select List operation.
 void ShowSelectListUnderCursorFromHiddenFormView()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartDirectionPick"></a> StartDirectionPick\(\)
+### StartDirectionPick\(\)
 
 Starts the direction pick.
 
@@ -444,7 +444,7 @@ Starts the direction pick.
 void StartDirectionPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartEdgePick"></a> StartEdgePick\(\)
+### StartEdgePick\(\)
 
 Starts the edge pick.
 
@@ -452,7 +452,7 @@ Starts the edge pick.
 void StartEdgePick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartEntityVMPick"></a> StartEntityVMPick\(\)
+### StartEntityVMPick\(\)
 
 Starts the entity VM pick.
 
@@ -460,7 +460,7 @@ Starts the entity VM pick.
 void StartEntityVMPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartFacePick"></a> StartFacePick\(\)
+### StartFacePick\(\)
 
 Starts the face pick.
 
@@ -468,7 +468,7 @@ Starts the face pick.
 void StartFacePick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartFacesetPick"></a> StartFacesetPick\(\)
+### StartFacesetPick\(\)
 
 Starts the faceset pick.
 
@@ -476,7 +476,7 @@ Starts the faceset pick.
 void StartFacesetPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartHolePick"></a> StartHolePick\(\)
+### StartHolePick\(\)
 
 Starts the hole pick.
 
@@ -484,7 +484,7 @@ Starts the hole pick.
 void StartHolePick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartMassMeasurePick"></a> StartMassMeasurePick\(\)
+### StartMassMeasurePick\(\)
 
 Starts the mass measure pick.
 
@@ -492,7 +492,7 @@ Starts the mass measure pick.
 void StartMassMeasurePick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartMeshPick"></a> StartMeshPick\(\)
+### StartMeshPick\(\)
 
 Starts the mesh pick.
 
@@ -500,7 +500,7 @@ Starts the mesh pick.
 void StartMeshPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartMultiEntityVMPick"></a> StartMultiEntityVMPick\(\)
+### StartMultiEntityVMPick\(\)
 
 Starts the multi chained system pick.
 
@@ -508,7 +508,7 @@ Starts the multi chained system pick.
 void StartMultiEntityVMPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartMultiFacePick"></a> StartMultiFacePick\(\)
+### StartMultiFacePick\(\)
 
 Starts the multi face pick.
 
@@ -516,7 +516,7 @@ Starts the multi face pick.
 void StartMultiFacePick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartMultiNodePick"></a> StartMultiNodePick\(\)
+### StartMultiNodePick\(\)
 
 Starts the multi node pick.
 
@@ -524,7 +524,7 @@ Starts the multi node pick.
 void StartMultiNodePick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartMultiPatchPick"></a> StartMultiPatchPick\(\)
+### StartMultiPatchPick\(\)
 
 Starts the multi patch pick.
 
@@ -532,7 +532,7 @@ Starts the multi patch pick.
 void StartMultiPatchPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartNodePick"></a> StartNodePick\(\)
+### StartNodePick\(\)
 
 Starts the node pick.
 
@@ -540,7 +540,7 @@ Starts the node pick.
 void StartNodePick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartOrientationPick"></a> StartOrientationPick\(\)
+### StartOrientationPick\(\)
 
 Starts the orientation pick.
 
@@ -548,7 +548,7 @@ Starts the orientation pick.
 void StartOrientationPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartPatchsetPick"></a> StartPatchsetPick\(\)
+### StartPatchsetPick\(\)
 
 Starts the patchset pick.
 
@@ -556,7 +556,7 @@ Starts the patchset pick.
 void StartPatchsetPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartPickerUI"></a> StartPickerUI\(\)
+### StartPickerUI\(\)
 
 Starts the picker UI.
 
@@ -564,7 +564,7 @@ Starts the picker UI.
 void StartPickerUI()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartPointPick"></a> StartPointPick\(\)
+### StartPointPick\(\)
 
 Starts the point pick.
 
@@ -572,7 +572,7 @@ Starts the point pick.
 void StartPointPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StartTransformPick"></a> StartTransformPick\(\)
+### StartTransformPick\(\)
 
 Starts the transform pick.
 
@@ -580,7 +580,7 @@ Starts the transform pick.
 void StartTransformPick()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StopPickerUI"></a> StopPickerUI\(\)
+### StopPickerUI\(\)
 
 Stops the picker UI.
 
@@ -588,11 +588,12 @@ Stops the picker UI.
 void StopPickerUI()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPickHelper_StorePreviousActiveCategory"></a> StorePreviousActiveCategory\(\)
+### StorePreviousActiveCategory\(\)
 
 Stores the previous active category.
 
 ```csharp
 void StorePreviousActiveCategory()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingType"></a> Enum MotorDesigner.HousingType
+# Enum MotorDesigner.HousingType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,6 +20,7 @@ Integrated
 `Separated = 1` 
 
 Separated
+
 
 
 

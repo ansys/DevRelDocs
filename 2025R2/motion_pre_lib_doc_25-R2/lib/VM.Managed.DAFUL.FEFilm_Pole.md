@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FEFilm_Pole"></a> Class FEFilm\_Pole
+# Class FEFilm\_Pole
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  
@@ -95,7 +95,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole__ctor"></a> FEFilm\_Pole\(\)
+### FEFilm\_Pole\(\)
 
 ```csharp
 public FEFilm_Pole()
@@ -103,7 +103,7 @@ public FEFilm_Pole()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_ChamferOfLength"></a> ChamferOfLength
+### ChamferOfLength
 
 ```csharp
 public ExpressionValueVariable ChamferOfLength { get; set; }
@@ -113,7 +113,7 @@ public ExpressionValueVariable ChamferOfLength { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_ChamferOfLength_Bottom"></a> ChamferOfLength\_Bottom
+### ChamferOfLength\_Bottom
 
 ```csharp
 public ExpressionValueVariable ChamferOfLength_Bottom { get; set; }
@@ -123,7 +123,7 @@ public ExpressionValueVariable ChamferOfLength_Bottom { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_ChamferOfWidth"></a> ChamferOfWidth
+### ChamferOfWidth
 
 ```csharp
 public ExpressionValueVariable ChamferOfWidth { get; set; }
@@ -133,7 +133,7 @@ public ExpressionValueVariable ChamferOfWidth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_ChamferOfWidth_Bottom"></a> ChamferOfWidth\_Bottom
+### ChamferOfWidth\_Bottom
 
 ```csharp
 public ExpressionValueVariable ChamferOfWidth_Bottom { get; set; }
@@ -143,7 +143,7 @@ public ExpressionValueVariable ChamferOfWidth_Bottom { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_EndOffset"></a> EndOffset
+### EndOffset
 
 ```csharp
 public ExpressionValueVariable EndOffset { get; set; }
@@ -153,7 +153,7 @@ public ExpressionValueVariable EndOffset { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_IntervalPole"></a> IntervalPole
+### IntervalPole
 
 ```csharp
 public ExpressionValueVariable IntervalPole { get; set; }
@@ -163,7 +163,7 @@ public ExpressionValueVariable IntervalPole { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_LengthPole"></a> LengthPole
+### LengthPole
 
 ```csharp
 public ExpressionValueVariable LengthPole { get; set; }
@@ -173,7 +173,7 @@ public ExpressionValueVariable LengthPole { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_MaxWidthElementPole"></a> MaxWidthElementPole
+### MaxWidthElementPole
 
 ```csharp
 public ExpressionValueVariable MaxWidthElementPole { get; set; }
@@ -183,7 +183,7 @@ public ExpressionValueVariable MaxWidthElementPole { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfElements"></a> NoOfElements
+### NoOfElements
 
 ```csharp
 public int NoOfElements { get; set; }
@@ -193,7 +193,7 @@ public int NoOfElements { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfElementsPerPole"></a> NoOfElementsPerPole
+### NoOfElementsPerPole
 
 ```csharp
 public int NoOfElementsPerPole { get; set; }
@@ -203,7 +203,7 @@ public int NoOfElementsPerPole { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfElementsPerPole_Bottom"></a> NoOfElementsPerPole\_Bottom
+### NoOfElementsPerPole\_Bottom
 
 ```csharp
 public int NoOfElementsPerPole_Bottom { get; set; }
@@ -213,7 +213,7 @@ public int NoOfElementsPerPole_Bottom { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfNodes"></a> NoOfNodes
+### NoOfNodes
 
 ```csharp
 public int NoOfNodes { get; set; }
@@ -223,7 +223,7 @@ public int NoOfNodes { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfNodesPerPole"></a> NoOfNodesPerPole
+### NoOfNodesPerPole
 
 ```csharp
 public int NoOfNodesPerPole { get; set; }
@@ -233,7 +233,7 @@ public int NoOfNodesPerPole { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_NoOfNodesPerPole_Bottom"></a> NoOfNodesPerPole\_Bottom
+### NoOfNodesPerPole\_Bottom
 
 ```csharp
 public int NoOfNodesPerPole_Bottom { get; set; }
@@ -243,7 +243,7 @@ public int NoOfNodesPerPole_Bottom { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_StartOffset"></a> StartOffset
+### StartOffset
 
 ```csharp
 public ExpressionValueVariable StartOffset { get; set; }
@@ -253,7 +253,7 @@ public ExpressionValueVariable StartOffset { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_TabLocation"></a> TabLocation
+### TabLocation
 
 ```csharp
 public TabLocationType TabLocation { get; set; }
@@ -263,7 +263,7 @@ public TabLocationType TabLocation { get; set; }
 
  TabLocationType
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_ThicknessPole"></a> ThicknessPole
+### ThicknessPole
 
 ```csharp
 public ExpressionValueVariable ThicknessPole { get; set; }
@@ -273,7 +273,7 @@ public ExpressionValueVariable ThicknessPole { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_ThicknessPole_Bottom"></a> ThicknessPole\_Bottom
+### ThicknessPole\_Bottom
 
 ```csharp
 public ExpressionValueVariable ThicknessPole_Bottom { get; set; }
@@ -283,7 +283,7 @@ public ExpressionValueVariable ThicknessPole_Bottom { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_WidthPole"></a> WidthPole
+### WidthPole
 
 ```csharp
 public ExpressionValueVariable WidthPole { get; set; }
@@ -293,7 +293,7 @@ public ExpressionValueVariable WidthPole { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_WidthPole_Bottom"></a> WidthPole\_Bottom
+### WidthPole\_Bottom
 
 ```csharp
 public ExpressionValueVariable WidthPole_Bottom { get; set; }
@@ -305,9 +305,9 @@ public ExpressionValueVariable WidthPole_Bottom { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -317,9 +317,9 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
 
-### <a id="VM_Managed_DAFUL_FEFilm_Pole_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -332,4 +332,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

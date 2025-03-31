@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_Matrix"></a> Class Matrix
+# Class Matrix
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -251,7 +251,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_Matrix__ctor"></a> Matrix\(\)
+### Matrix\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Matrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -259,7 +259,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Matrix" dat
 public Matrix()
 ```
 
-### <a id="VM_Managed_DAFUL_Force_Matrix__ctor_System_String_"></a> Matrix\(string\)
+### Matrix\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Matrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -275,9 +275,9 @@ Name of the matrix force.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_Matrix_Generable"></a> Generable
+### Generable
 
-Gets a value indicating whether this instance is generable.
+<p> Gets a value indicating whether this instance is generable.</p>
 
 ```csharp
 public override bool Generable { get; }
@@ -287,7 +287,7 @@ public override bool Generable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Force_Matrix_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -301,7 +301,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_Matrix_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -315,7 +315,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Force_Matrix_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -333,11 +333,12 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Force_Matrix_UpdateRefLengthAndRefAngle"></a> UpdateRefLengthAndRefAngle\(\)
+### UpdateRefLengthAndRefAngle\(\)
 
 Updates the ref length and ref angle.
 
 ```csharp
 public void UpdateRefLengthAndRefAngle()
 ```
+
 

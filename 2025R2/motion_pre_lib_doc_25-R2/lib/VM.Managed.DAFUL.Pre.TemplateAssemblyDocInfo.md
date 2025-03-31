@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_TemplateAssemblyDocInfo"></a> Class TemplateAssemblyDocInfo
+# Class TemplateAssemblyDocInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -65,9 +65,10 @@ public class TemplateAssemblyDocInfo : AssemblyDocInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_TemplateAssemblyDocInfo__ctor"></a> TemplateAssemblyDocInfo\(\)
+### TemplateAssemblyDocInfo\(\)
 
 ```csharp
 public TemplateAssemblyDocInfo()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IArgument"></a> Interface IArgument
+# Interface IArgument
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IArgument
 
 ## Properties
 
-### <a id="VM_Models_Pre_IArgument_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -29,7 +29,7 @@ ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Models_Pre_IArgument_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -40,4 +40,5 @@ string ReferenceType { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

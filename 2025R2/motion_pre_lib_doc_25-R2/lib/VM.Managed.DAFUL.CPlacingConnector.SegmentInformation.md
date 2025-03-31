@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentInformation"></a> Class SegmentInformation
+# Class SegmentInformation
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentInformation__ctor"></a> SegmentInformation\(\)
+### SegmentInformation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.SegmentInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public SegmentInformation()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_Calculated"></a> Calculated
+### Calculated
 
 Gets or sets the calculated state.
 
@@ -118,7 +118,7 @@ public bool Calculated { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_ComponentStiffnessList"></a> ComponentStiffnessList
+### ComponentStiffnessList
 
 Gets or sets the component stiffness list.
 
@@ -130,7 +130,7 @@ public ComponentStiffness[] ComponentStiffnessList { get; set; }
 
  [ComponentStiffness](VM.Managed.DAFUL.CPlacingConnector.ComponentStiffness.md)\[\]
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_ModifiedTime"></a> ModifiedTime
+### ModifiedTime
 
 Gets or sets the last written time of a segment.
 
@@ -142,7 +142,7 @@ public string ModifiedTime { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_RelativePath"></a> RelativePath
+### RelativePath
 
 Gets or sets relative path.
 
@@ -154,7 +154,7 @@ public string RelativePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_StiffnessList"></a> StiffnessList
+### StiffnessList
 
 Gets or sets the stiffness list.
 
@@ -168,7 +168,7 @@ public SegmentStiffness[] StiffnessList { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -181,4 +181,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

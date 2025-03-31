@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PickedObject"></a> Class PickedObject
+# Class PickedObject
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -25,13 +25,13 @@ public class PickedObject : PickedResult
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_PickedObject__ctor"></a> PickedObject\(\)
+### PickedObject\(\)
 
 ```csharp
 public PickedObject()
 ```
 
-### <a id="VM_Managed_DAFUL_Builder_PickedObject__ctor_VM_Managed_ObjectBase_"></a> PickedObject\(ObjectBase\)
+### PickedObject\(ObjectBase\)
 
 ```csharp
 public PickedObject(ObjectBase objectBase)
@@ -43,7 +43,7 @@ public PickedObject(ObjectBase objectBase)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_PickedObject_Object"></a> Object
+### Object
 
 ```csharp
 public ObjectBase Object { get; set; }
@@ -53,7 +53,7 @@ public ObjectBase Object { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_PickedObject_Type"></a> Type
+### Type
 
 ```csharp
 public override PickedResult.PickedType Type { get; }
@@ -62,4 +62,5 @@ public override PickedResult.PickedType Type { get; }
 #### Property Value
 
  [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md).[PickedType](VM.Managed.DAFUL.Builder.PickedResult.PickedType.md)
+
 

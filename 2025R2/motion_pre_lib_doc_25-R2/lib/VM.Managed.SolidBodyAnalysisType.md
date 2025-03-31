@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SolidBodyAnalysisType"></a> Enum SolidBodyAnalysisType
+# Enum SolidBodyAnalysisType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -21,6 +21,7 @@ MeshFree(Flexible) Type.
 `Solid = 0` 
 
 Solid(Rigid) Type.
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities_MaterialISO"></a> Struct MaterialISO
+# Struct MaterialISO
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct MaterialISO
 
 ## Properties
 
-### <a id="VM_Models_FE_Utilities_MaterialISO_Density"></a> Density
+### Density
 
 ```csharp
 public double Density { readonly get; set; }
@@ -19,7 +19,7 @@ public double Density { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MaterialISO_E"></a> E
+### E
 
 ```csharp
 public double E { readonly get; set; }
@@ -29,7 +29,7 @@ public double E { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MaterialISO_G"></a> G
+### G
 
 ```csharp
 public double G { readonly get; set; }
@@ -39,7 +39,7 @@ public double G { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MaterialISO_ID"></a> ID
+### ID
 
 ```csharp
 public uint ID { readonly get; set; }
@@ -49,7 +49,7 @@ public uint ID { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Models_FE_Utilities_MaterialISO_Nu"></a> Nu
+### Nu
 
 ```csharp
 public double Nu { readonly get; set; }
@@ -59,7 +59,7 @@ public double Nu { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MaterialISO_TA"></a> TA
+### TA
 
 ```csharp
 public double TA { readonly get; set; }
@@ -69,7 +69,7 @@ public double TA { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MaterialISO_TC"></a> TC
+### TC
 
 ```csharp
 public double TC { readonly get; set; }
@@ -79,7 +79,7 @@ public double TC { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MaterialISO_TK"></a> TK
+### TK
 
 ```csharp
 public double TK { readonly get; set; }
@@ -89,7 +89,7 @@ public double TK { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_MaterialISO_Tref"></a> Tref
+### Tref
 
 ```csharp
 public double Tref { readonly get; set; }
@@ -98,4 +98,5 @@ public double Tref { readonly get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

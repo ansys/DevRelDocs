@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_Contact"></a> Namespace VM.Managed.DAFUL.Builder.FE.Contact
+# Namespace VM.Managed.DAFUL.Builder.FE.Contact
 
 ### Classes
 
@@ -9,4 +9,5 @@
  [NTSF](VM.Managed.DAFUL.Builder.FE.Contact.NTSF.md)
 
  [Tie](VM.Managed.DAFUL.Builder.FE.Contact.Tie.md)
+
 

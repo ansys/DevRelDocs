@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_AttributeFatigueMaterial"></a> Class AttributeFatigueMaterial
+# Class AttributeFatigueMaterial
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Material_AttributeFatigueMaterial__ctor"></a> AttributeFatigueMaterial\(\)
+### AttributeFatigueMaterial\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.AttributeFatigueMaterial" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeFatigueMaterial()
 
 ## Properties
 
-### <a id="VM_Managed_Material_AttributeFatigueMaterial_Name"></a> Name
+### Name
 
 Gets or sets the name
 
@@ -120,4 +120,5 @@ public string Name { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

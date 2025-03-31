@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Sets_Set"></a> Class Set
+# Class Set
 
 Namespace: [VM.Models.FE.Mesh.Sets](VM.Models.FE.Mesh.Sets.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -44,7 +44,7 @@ public abstract class Set : HasMultipleNodes, IEntity, ISet
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Sets_Set__ctor"></a> Set\(\)
+### Set\(\)
 
 ```csharp
 protected Set()
@@ -52,7 +52,7 @@ protected Set()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Sets_Set_ItemCount"></a> ItemCount
+### ItemCount
 
 ```csharp
 public virtual int ItemCount { get; }
@@ -61,4 +61,5 @@ public virtual int ItemCount { get; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

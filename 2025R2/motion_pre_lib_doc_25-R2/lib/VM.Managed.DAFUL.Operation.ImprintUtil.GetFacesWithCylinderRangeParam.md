@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRangeParam"></a> Class ImprintUtil.GetFacesWithCylinderRangeParam
+# Class ImprintUtil.GetFacesWithCylinderRangeParam
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  
@@ -22,7 +22,7 @@ public class ImprintUtil.GetFacesWithCylinderRangeParam
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRangeParam__ctor"></a> GetFacesWithCylinderRangeParam\(\)
+### GetFacesWithCylinderRangeParam\(\)
 
 ```csharp
 public GetFacesWithCylinderRangeParam()
@@ -30,7 +30,7 @@ public GetFacesWithCylinderRangeParam()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRangeParam_Body"></a> Body
+### Body
 
 Gets and sets the body.
 
@@ -42,7 +42,7 @@ public KeyInfo Body { get; set; }
 
  KeyInfo
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRangeParam_Radius"></a> Radius
+### Radius
 
 Gets and sets the radius.
 
@@ -54,7 +54,7 @@ public double Radius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_GetFacesWithCylinderRangeParam_Transform"></a> Transform
+### Transform
 
 Gets and sets the transform.
 
@@ -65,4 +65,5 @@ public TMatrix Transform { get; set; }
 #### Property Value
 
  TMatrix
+
 

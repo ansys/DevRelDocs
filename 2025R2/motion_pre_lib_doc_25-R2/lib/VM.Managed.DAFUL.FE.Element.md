@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Element"></a> Struct Element
+# Struct Element
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +11,7 @@ public struct Element
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Element__ctor_VM_Managed_DAFUL_FE_Mesh_System_UInt32_System_UInt32_VM_Managed_ObjectEventCore_"></a> Element\(Mesh, uint, uint, ObjectEventCore\)
+### Element\(Mesh, uint, uint, ObjectEventCore\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Element" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ The event core.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_FE_Element_NodeIndex"></a> NodeIndex
+### NodeIndex
 
 The node index array.
 
@@ -51,7 +51,7 @@ public uint[] NodeIndex
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Element_Type"></a> Type
+### Type
 
 The element type.
 
@@ -65,7 +65,7 @@ public ElementType Type
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Element_Property"></a> Property
+### Property
 
 Gets or sets the property.
 
@@ -76,4 +76,5 @@ public PropertyBase Property { get; set; }
 #### Property Value
 
  [PropertyBase](VM.Managed.DAFUL.FE.Property.PropertyBase.md)
+
 

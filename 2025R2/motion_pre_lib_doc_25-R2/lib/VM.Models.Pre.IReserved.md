@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IReserved"></a> Interface IReserved
+# Interface IReserved
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,11 +17,12 @@ public interface IReserved
 
 ## Methods
 
-### <a id="VM_Models_Pre_IReserved_InitializeReservedObject"></a> InitializeReservedObject\(\)
+### InitializeReservedObject\(\)
 
 Initialize the reserved object.
 
 ```csharp
 void InitializeReservedObject()
 ```
+
 

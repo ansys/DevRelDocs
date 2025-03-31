@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_PropertyMatrix"></a> Class PropertyMatrix
+# Class PropertyMatrix
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_PropertyMatrix__ctor"></a> PropertyMatrix\(\)
+### PropertyMatrix\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyMatrix()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_PropertyMatrix_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -191,7 +191,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Force_PropertyMatrix_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -203,7 +203,7 @@ public MatrixForceFunction Function { get; set; }
 
  [MatrixForceFunction](VM.Managed.DAFUL.Force.MatrixForceFunction.md)
 
-### <a id="VM_Managed_DAFUL_Force_PropertyMatrix_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -217,7 +217,7 @@ public override string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_PropertyMatrix_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -231,11 +231,12 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Force_PropertyMatrix_UpdateRefLengthAndRefAngle"></a> UpdateRefLengthAndRefAngle\(\)
+### UpdateRefLengthAndRefAngle\(\)
 
 Updates the ref length and ref angle.
 
 ```csharp
 public void UpdateRefLengthAndRefAngle()
 ```
+
 

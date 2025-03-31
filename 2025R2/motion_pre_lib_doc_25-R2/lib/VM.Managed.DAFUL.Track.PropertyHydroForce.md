@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_PropertyHydroForce"></a> Class PropertyHydroForce
+# Class PropertyHydroForce
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_PropertyHydroForce__ctor"></a> PropertyHydroForce\(\)
+### PropertyHydroForce\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.PropertyHydroForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyHydroForce()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_PropertyHydroForce_HullReferenceMarker"></a> HullReferenceMarker
+### HullReferenceMarker
 
 Gets or sets the hull reference marker.
 
@@ -187,7 +187,7 @@ public IMarker HullReferenceMarker { get; set; }
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_Track_PropertyHydroForce_IsUseHullReferenceMarker"></a> IsUseHullReferenceMarker
+### IsUseHullReferenceMarker
 
 Gets or sets a value indicating whether this instance use hull reference marker.
 
@@ -199,7 +199,7 @@ public bool IsUseHullReferenceMarker { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Track_PropertyHydroForce_ScaleOfHydrodynamicForce"></a> ScaleOfHydrodynamicForce
+### ScaleOfHydrodynamicForce
 
 Gets or sets the scale of hydrodynamic force
 
@@ -211,7 +211,7 @@ public double ScaleOfHydrodynamicForce { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_PropertyHydroForce__HullReferenceMarker"></a> \_HullReferenceMarker
+### \_HullReferenceMarker
 
 Gets or sets the hull reference marker.
 
@@ -225,7 +225,7 @@ public Linker<IMarker> _HullReferenceMarker { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_PropertyHydroForce_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 OnDeserialization
 
@@ -236,4 +236,5 @@ protected override void OnDeserialization(object sender)
 #### Parameters
 
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
 

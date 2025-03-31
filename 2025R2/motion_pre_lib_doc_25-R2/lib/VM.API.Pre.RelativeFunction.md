@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_RelativeFunction"></a> Class RelativeFunction
+# Class RelativeFunction
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -27,7 +27,7 @@ public class RelativeFunction : Relative
 
 ## Constructors
 
-### <a id="VM_API_Pre_RelativeFunction__ctor_VM_API_Pre_Obj_"></a> RelativeFunction\(Obj\)
+### RelativeFunction\(Obj\)
 
 Default constructor
 
@@ -41,7 +41,7 @@ public RelativeFunction(Obj function)
 
 The function of the relative.
 
-### <a id="VM_API_Pre_RelativeFunction__ctor_VM_API_Pre_Obj_VM_Managed_DAFUL_Constraints_DriverFunction_MotionType_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> RelativeFunction\(Obj, MotionType, ExpressionValueVariable, ExpressionValueVariable\)
+### RelativeFunction\(Obj, MotionType, ExpressionValueVariable, ExpressionValueVariable\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.RelativeFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -69,7 +69,7 @@ The init angular vel of the relative.
 
 ## Properties
 
-### <a id="VM_API_Pre_RelativeFunction_Function"></a> Function
+### Function
 
 The value for function.
 
@@ -81,7 +81,7 @@ public Obj Function { get; set; }
 
  [Obj](VM.API.Pre.Obj.md)
 
-### <a id="VM_API_Pre_RelativeFunction_InitAngle"></a> InitAngle
+### InitAngle
 
 The value for the initial angle. The default value is 0.
 
@@ -93,7 +93,7 @@ public ExpressionValueVariable InitAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_RelativeFunction_InitAngularVel"></a> InitAngularVel
+### InitAngularVel
 
 The value for the init angular vel. The default value is 0.
 
@@ -105,7 +105,7 @@ public ExpressionValueVariable InitAngularVel { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_RelativeFunction_MotionType"></a> MotionType
+### MotionType
 
 The value for the motion type. The default value is <xref href="VM.Managed.DAFUL.Constraints.DriverFunction.MotionType.Displacement" data-throw-if-not-resolved="false"></xref>.
 
@@ -116,4 +116,5 @@ public DriverFunction.MotionType MotionType { get; set; }
 #### Property Value
 
  DriverFunction.MotionType
+
 

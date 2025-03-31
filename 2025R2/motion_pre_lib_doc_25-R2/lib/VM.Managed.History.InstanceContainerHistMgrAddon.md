@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_InstanceContainerHistMgrAddon"></a> Class InstanceContainerHistMgrAddon
+# Class InstanceContainerHistMgrAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -38,7 +38,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### <a id="VM_Managed_History_InstanceContainerHistMgrAddon__ctor"></a> InstanceContainerHistMgrAddon\(\)
+### InstanceContainerHistMgrAddon\(\)
 
 ```csharp
 public InstanceContainerHistMgrAddon()
@@ -46,7 +46,7 @@ public InstanceContainerHistMgrAddon()
 
 ## Methods
 
-### <a id="VM_Managed_History_InstanceContainerHistMgrAddon_AfterRecord_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterRecord\(object, HistoryEventArgs\)
+### AfterRecord\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRecord(object o, HistoryEventArgs args)
@@ -58,7 +58,7 @@ protected override void AfterRecord(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_InstanceContainerHistMgrAddon_BeforeRecord_System_Object_VM_Managed_History_HistoryEventArgs_"></a> BeforeRecord\(object, HistoryEventArgs\)
+### BeforeRecord\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void BeforeRecord(object o, HistoryEventArgs args)
@@ -70,7 +70,7 @@ protected override void BeforeRecord(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_InstanceContainerHistMgrAddon_OpenInstanceContainer_System_String_"></a> OpenInstanceContainer\(string\)
+### OpenInstanceContainer\(string\)
 
 ```csharp
 public static void OpenInstanceContainer(string strPath)
@@ -79,4 +79,5 @@ public static void OpenInstanceContainer(string strPath)
 #### Parameters
 
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

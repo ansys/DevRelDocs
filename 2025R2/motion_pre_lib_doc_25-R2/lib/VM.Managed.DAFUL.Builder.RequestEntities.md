@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_RequestEntities"></a> Class RequestEntities
+# Class RequestEntities
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -24,7 +24,7 @@ public class RequestEntities : IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_RequestEntities__ctor"></a> RequestEntities\(\)
+### RequestEntities\(\)
 
 ```csharp
 public RequestEntities()
@@ -32,7 +32,7 @@ public RequestEntities()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_RequestEntities_ActionBodies"></a> ActionBodies
+### ActionBodies
 
 ```csharp
 public string[] ActionBodies { get; set; }
@@ -42,7 +42,7 @@ public string[] ActionBodies { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_RequestEntities_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -51,4 +51,5 @@ public string Name { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

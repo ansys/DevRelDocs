@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentForGetChainedSegment"></a> Class OpenDocumentForGetChainedSegment
+# Class OpenDocumentForGetChainedSegment
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentForGetChainedSegment__ctor_System_String_"></a> OpenDocumentForGetChainedSegment\(string\)
+### OpenDocumentForGetChainedSegment\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.OpenDocumentForGetChainedSegment" data-throw-if-not-resolved="false"></xref> class.
 
@@ -91,7 +91,7 @@ public OpenDocumentForGetChainedSegment(string strFullPath)
 
 The string full path.
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentForGetChainedSegment__ctor_VM_Managed_Operation_JournalParameter_"></a> OpenDocumentForGetChainedSegment\(JournalParameter\)
+### OpenDocumentForGetChainedSegment\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.OpenDocumentForGetChainedSegment" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentForGetChainedSegment_ChainedSegmentDocument"></a> ChainedSegmentDocument
+### ChainedSegmentDocument
 
 Gets the chained segment document.
 
@@ -119,7 +119,7 @@ public object ChainedSegmentDocument { get; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentForGetChainedSegment_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -133,7 +133,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentForGetChainedSegment_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -141,7 +141,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentForGetChainedSegment_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -154,4 +154,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

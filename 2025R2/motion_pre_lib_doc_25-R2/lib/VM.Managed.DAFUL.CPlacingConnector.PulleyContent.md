@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent"></a> Class PulleyContent
+# Class PulleyContent
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent__ctor"></a> PulleyContent\(\)
+### PulleyContent\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.SegmentStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public PulleyContent()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent_AxialRadius"></a> AxialRadius
+### AxialRadius
 
 Gets or sets the axial radius.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable AxialRadius { get; set; }
 
 The axial radius is null.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent_InnerRadius"></a> InnerRadius
+### InnerRadius
 
 Gets or sets the inner radius.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable InnerRadius { get; set; }
 
 The inner radius is null.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent_Offset"></a> Offset
+### Offset
 
 Gets or sets the offset.
 
@@ -160,7 +160,7 @@ public ExpressionValueVariable Offset { get; set; }
 
 The offset is null.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent_OuterRadius"></a> OuterRadius
+### OuterRadius
 
 Gets or sets the outer radius.
 
@@ -178,7 +178,7 @@ public ExpressionValueVariable OuterRadius { get; set; }
 
 The outer radius is null.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent_SheaveAngle"></a> SheaveAngle
+### SheaveAngle
 
 Gets or sets the sheave angle.
 
@@ -198,7 +198,7 @@ The sheave angle is null.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent_GetSplineValue_VM_Managed_TMatrix_"></a> GetSplineValue\(TMatrix\)
+### GetSplineValue\(TMatrix\)
 
 Gets the shape value for spline creation
 
@@ -216,7 +216,7 @@ The transform matrix.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineValue.TwoPoint\>
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent_GetStartAndEndPoint_VM_Managed_TMatrix_"></a> GetStartAndEndPoint\(TMatrix\)
+### GetStartAndEndPoint\(TMatrix\)
 
 ```csharp
 public (VectorBase vecStartPoint, VectorBase vecEndPoint) GetStartAndEndPoint(TMatrix matT)
@@ -230,7 +230,7 @@ public (VectorBase vecStartPoint, VectorBase vecEndPoint) GetStartAndEndPoint(TM
 
  \(VectorBase [vecStartPoint](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.managed.vectorbase,vm.managed.vectorbase\-.vecstartpoint), VectorBase [vecEndPoint](https://learn.microsoft.com/dotnet/api/system.valuetuple\-vm.managed.vectorbase,vm.managed.vectorbase\-.vecendpoint)\)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyContent_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -243,4 +243,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

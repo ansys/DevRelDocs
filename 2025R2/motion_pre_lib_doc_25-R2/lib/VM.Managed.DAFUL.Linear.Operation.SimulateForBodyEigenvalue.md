@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForBodyEigenvalue"></a> Class SimulateForBodyEigenvalue
+# Class SimulateForBodyEigenvalue
 
 Namespace: [VM.Managed.DAFUL.Linear.Operation](VM.Managed.DAFUL.Linear.Operation.md)  
 Assembly: VMOpLinear.dll  
@@ -108,7 +108,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForBodyEigenvalue__ctor_VM_Managed_Document_"></a> SimulateForBodyEigenvalue\(Document\)
+### SimulateForBodyEigenvalue\(Document\)
 
 ```csharp
 public SimulateForBodyEigenvalue(Document doc)
@@ -118,7 +118,7 @@ public SimulateForBodyEigenvalue(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForBodyEigenvalue__ctor_VM_Managed_ObjectBase_"></a> SimulateForBodyEigenvalue\(ObjectBase\)
+### SimulateForBodyEigenvalue\(ObjectBase\)
 
 ```csharp
 public SimulateForBodyEigenvalue(ObjectBase objSingle)
@@ -128,7 +128,7 @@ public SimulateForBodyEigenvalue(ObjectBase objSingle)
 
 `objSingle` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForBodyEigenvalue__ctor_VM_Managed_Operation_JournalParameter_"></a> SimulateForBodyEigenvalue\(JournalParameter\)
+### SimulateForBodyEigenvalue\(JournalParameter\)
 
 ```csharp
 public SimulateForBodyEigenvalue(JournalParameter jp)
@@ -138,7 +138,7 @@ public SimulateForBodyEigenvalue(JournalParameter jp)
 
 `jp` JournalParameter
 
-### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForBodyEigenvalue__ctor_VM_Managed_Document_VM_Managed_ObjectBase_"></a> SimulateForBodyEigenvalue\(Document, ObjectBase\)
+### SimulateForBodyEigenvalue\(Document, ObjectBase\)
 
 ```csharp
 public SimulateForBodyEigenvalue(Document document, ObjectBase objSingle)
@@ -152,7 +152,7 @@ public SimulateForBodyEigenvalue(Document document, ObjectBase objSingle)
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForBodyEigenvalue_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
+### SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -161,4 +161,5 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 #### Parameters
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_PropertyConvection"></a> Class PropertyConvection
+# Class PropertyConvection
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMDThermal.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyConvection__ctor"></a> PropertyConvection\(\)
+### PropertyConvection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.PropertyConvection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertyConvection()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyConvection_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -194,4 +194,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IThermalContactBase"></a> Interface IThermalContactBase
+# Interface IThermalContactBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IThermalContactBase
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_IThermalContactBase_ChangeContactImpl_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> ChangeContactImpl\(ObjectBase, ObjectBase\)
+### ChangeContactImpl\(ObjectBase, ObjectBase\)
 
 Change contact
 
@@ -34,4 +34,5 @@ The old object
 `newObject` ObjectBase
 
 The new object
+
 

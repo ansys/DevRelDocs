@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_KernelExeption"></a> Class KernelExeption
+# Class KernelExeption
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class KernelExeption : Exception
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_KernelExeption__ctor_System_Exception_"></a> KernelExeption\(Exception\)
+### KernelExeption\(Exception\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.KernelExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,4 +36,5 @@ public KernelExeption(Exception innerException)
 `innerException` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
 The inner exception.
+
 

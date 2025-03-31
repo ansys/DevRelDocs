@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_PropertyLeafSpring"></a> Class PropertyLeafSpring
+# Class PropertyLeafSpring
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring__ctor"></a> PropertyLeafSpring\(\)
+### PropertyLeafSpring\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.PropertyLeafSpring" data-throw-if-not-resolved="false"></xref> class.
 
@@ -173,7 +173,7 @@ Initializes a new instance of the <xref href="VM.Models.Pre.Force.PropertyLeafSp
 public PropertyLeafSpring()
 ```
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring__ctor_System_String_System_String_"></a> PropertyLeafSpring\(string, string\)
+### PropertyLeafSpring\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.PropertyLeafSpring" data-throw-if-not-resolved="false"></xref> class.
 
@@ -193,7 +193,7 @@ The build info.
 
 ## Properties
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_Axle"></a> Axle
+### Axle
 
 Gets the axle.
 
@@ -205,7 +205,7 @@ public Axle Axle { get; set; }
 
  [Axle](VM.Models.Pre.Force.Axle.md)
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_Clips"></a> Clips
+### Clips
 
 Gets the clips.
 
@@ -217,7 +217,7 @@ public Clip[] Clips { get; set; }
 
  [Clip](VM.Models.Pre.Force.Clip.md)\[\]
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_FrontEye"></a> FrontEye
+### FrontEye
 
 Gets the front eye.
 
@@ -229,7 +229,7 @@ public Eye FrontEye { get; set; }
 
  [Eye](VM.Models.Pre.Force.Eye.md)
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_Leaves"></a> Leaves
+### Leaves
 
 Gets the leaves.
 
@@ -241,7 +241,7 @@ public Leaf[] Leaves { get; set; }
 
  [Leaf](VM.Models.Pre.Force.Leaf.md)\[\]
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_MainLeaf"></a> MainLeaf
+### MainLeaf
 
 Gets or sets the main leaf.
 
@@ -253,7 +253,7 @@ public Leaf MainLeaf { get; }
 
  [Leaf](VM.Models.Pre.Force.Leaf.md)
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_MainLeafIndex"></a> MainLeafIndex
+### MainLeafIndex
 
 Gets or sets the main leaf index.
 
@@ -265,7 +265,7 @@ public uint MainLeafIndex { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_RearEye"></a> RearEye
+### RearEye
 
 Gets the rear eye.
 
@@ -277,7 +277,7 @@ public Eye RearEye { get; set; }
 
  [Eye](VM.Models.Pre.Force.Eye.md)
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_Shackle"></a> Shackle
+### Shackle
 
 Gets the shackle.
 
@@ -291,7 +291,7 @@ public Shackle Shackle { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds the specified string name.
 
@@ -311,7 +311,7 @@ Name of the string.
 
 An object that matches a specified name.
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -331,7 +331,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_GetClipInfos"></a> GetClipInfos\(\)
+### GetClipInfos\(\)
 
 Gets the clip info list.
 
@@ -345,7 +345,7 @@ public List<ClipInfo> GetClipInfos()
 
 The leaf clip list.
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_GetLeafInfos"></a> GetLeafInfos\(\)
+### GetLeafInfos\(\)
 
 Gets the leaf info list.
 
@@ -359,7 +359,7 @@ public List<LeafInfo> GetLeafInfos()
 
 The leaf info list.
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -379,7 +379,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -393,7 +393,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_RaisePropertyChanged_System_String_"></a> RaisePropertyChanged\(string\)
+### RaisePropertyChanged\(string\)
 
 ```csharp
 public override void RaisePropertyChanged(string propertyName)
@@ -403,7 +403,7 @@ public override void RaisePropertyChanged(string propertyName)
 
 `propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_SetContainer_VM_Models_Pre_IOwned_System_Boolean_"></a> SetContainer\(IOwned, bool\)
+### SetContainer\(IOwned, bool\)
 
 ```csharp
 public override void SetContainer(IOwned owner, bool bBackup)
@@ -415,11 +415,12 @@ public override void SetContainer(IOwned owner, bool bBackup)
 
 `bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Force_PropertyLeafSpring_UpdateComponent"></a> UpdateComponent\(\)
+### UpdateComponent\(\)
 
 Update component
 
 ```csharp
 public void UpdateComponent()
 ```
+
 

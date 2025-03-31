@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_MotorDesigner"></a> Class MotorDesigner
+# Class MotorDesigner
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -53,7 +53,7 @@ BuilderBase<MotorDesigner\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_MotorDesigner__ctor"></a> MotorDesigner\(\)
+### MotorDesigner\(\)
 
 ```csharp
 public MotorDesigner()
@@ -61,7 +61,7 @@ public MotorDesigner()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_MotorDesigner_Axis"></a> Axis
+### Axis
 
 ```csharp
 public DirectionBase Axis { get; }
@@ -71,7 +71,7 @@ public DirectionBase Axis { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_MotorDesigner_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -81,7 +81,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_MotorDesigner_Position"></a> Position
+### Position
 
 ```csharp
 public PointBase Position { get; }
@@ -93,7 +93,7 @@ public PointBase Position { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_MotorDesigner_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -108,4 +108,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

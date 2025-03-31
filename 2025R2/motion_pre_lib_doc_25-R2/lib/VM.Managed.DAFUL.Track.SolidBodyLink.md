@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_SolidBodyLink"></a> Class SolidBodyLink
+# Class SolidBodyLink
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -310,7 +310,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_SolidBodyLink__ctor"></a> SolidBodyLink\(\)
+### SolidBodyLink\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -318,7 +318,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SolidBodyLi
 public SolidBodyLink()
 ```
 
-### <a id="VM_Managed_DAFUL_Track_SolidBodyLink__ctor_System_String_"></a> SolidBodyLink\(string\)
+### SolidBodyLink\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -332,7 +332,7 @@ public SolidBodyLink(string strName)
 
 Name of the solid link body.
 
-### <a id="VM_Managed_DAFUL_Track_SolidBodyLink__ctor_System_String_VM_Managed_CAD_Builder_"></a> SolidBodyLink\(string, Builder\)
+### SolidBodyLink\(string, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -352,7 +352,7 @@ The builder.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_SolidBodyLink_ReGenerateBodyInformation_System_Xml_XmlDocument_"></a> ReGenerateBodyInformation\(XmlDocument\)
+### ReGenerateBodyInformation\(XmlDocument\)
 
 Sets body information
 
@@ -371,4 +371,5 @@ The data xml of roller
  [SolidBodyLink](VM.Managed.DAFUL.Track.SolidBodyLink.md)
 
 The body of link
+
 

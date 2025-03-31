@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness"></a> Class BearingStiffness
+# Class BearingStiffness
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness__ctor"></a> BearingStiffness\(\)
+### BearingStiffness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.Bea
 public BearingStiffness()
 ```
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> BearingStiffness\(double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double\)
+### BearingStiffness\(double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ The stiffness value of rx-my.
 
 The stiffness value of ry-my.
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> BearingStiffness\(Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable\)
+### BearingStiffness\(Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -326,7 +326,7 @@ The stiffness value of ry-my.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DXFX"></a> DXFX
+### DXFX
 
 Gets or sets the stiffness value of dx-fx.
 
@@ -338,7 +338,7 @@ public ExpressionValueVariable DXFX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DXFY"></a> DXFY
+### DXFY
 
 Gets or sets the stiffness value of dx-fy.
 
@@ -350,7 +350,7 @@ public ExpressionValueVariable DXFY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DXFZ"></a> DXFZ
+### DXFZ
 
 Gets or sets the stiffness value of dx-fz.
 
@@ -362,7 +362,7 @@ public ExpressionValueVariable DXFZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DXMX"></a> DXMX
+### DXMX
 
 Gets or sets the stiffness value of dx-mx.
 
@@ -374,7 +374,7 @@ public ExpressionValueVariable DXMX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DXMY"></a> DXMY
+### DXMY
 
 Gets or sets the stiffness value of dx-my.
 
@@ -386,7 +386,7 @@ public ExpressionValueVariable DXMY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYFX"></a> DYFX
+### DYFX
 
 Gets or sets the stiffness value of dy-fx.
 
@@ -398,7 +398,7 @@ public ExpressionValueVariable DYFX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYFY"></a> DYFY
+### DYFY
 
 Gets or sets the stiffness value of dy-fy.
 
@@ -410,7 +410,7 @@ public ExpressionValueVariable DYFY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYFZ"></a> DYFZ
+### DYFZ
 
 Gets or sets the stiffness value of dy-fz.
 
@@ -422,7 +422,7 @@ public ExpressionValueVariable DYFZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYMX"></a> DYMX
+### DYMX
 
 Gets or sets the stiffness value of dy-mx.
 
@@ -434,7 +434,7 @@ public ExpressionValueVariable DYMX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DYMY"></a> DYMY
+### DYMY
 
 Gets or sets the stiffness value of dy-my.
 
@@ -446,7 +446,7 @@ public ExpressionValueVariable DYMY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZFX"></a> DZFX
+### DZFX
 
 Gets or sets the stiffness value of dz-fx.
 
@@ -458,7 +458,7 @@ public ExpressionValueVariable DZFX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZFY"></a> DZFY
+### DZFY
 
 Gets or sets the stiffness value of dz-fy.
 
@@ -470,7 +470,7 @@ public ExpressionValueVariable DZFY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZFZ"></a> DZFZ
+### DZFZ
 
 Gets or sets the stiffness value of dz-fz.
 
@@ -482,7 +482,7 @@ public ExpressionValueVariable DZFZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZMX"></a> DZMX
+### DZMX
 
 Gets or sets the stiffness value of dz-mx.
 
@@ -494,7 +494,7 @@ public ExpressionValueVariable DZMX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_DZMY"></a> DZMY
+### DZMY
 
 Gets or sets the stiffness value of dz-my.
 
@@ -506,7 +506,7 @@ public ExpressionValueVariable DZMY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXFX"></a> RXFX
+### RXFX
 
 Gets or sets the stiffness value of rx-fx.
 
@@ -518,7 +518,7 @@ public ExpressionValueVariable RXFX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXFY"></a> RXFY
+### RXFY
 
 Gets or sets the stiffness value of rx-fy.
 
@@ -530,7 +530,7 @@ public ExpressionValueVariable RXFY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXFZ"></a> RXFZ
+### RXFZ
 
 Gets or sets the stiffness value of rx-fz.
 
@@ -542,7 +542,7 @@ public ExpressionValueVariable RXFZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXMX"></a> RXMX
+### RXMX
 
 Gets or sets the stiffness value of rx-mx.
 
@@ -554,7 +554,7 @@ public ExpressionValueVariable RXMX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RXMY"></a> RXMY
+### RXMY
 
 Gets or sets the stiffness value of rx-my.
 
@@ -566,7 +566,7 @@ public ExpressionValueVariable RXMY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYFX"></a> RYFX
+### RYFX
 
 Gets or sets the stiffness value of ry-fx.
 
@@ -578,7 +578,7 @@ public ExpressionValueVariable RYFX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYFY"></a> RYFY
+### RYFY
 
 Gets or sets the stiffness value of ry-fy.
 
@@ -590,7 +590,7 @@ public ExpressionValueVariable RYFY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYFZ"></a> RYFZ
+### RYFZ
 
 Gets or sets the stiffness value of ry-fz.
 
@@ -602,7 +602,7 @@ public ExpressionValueVariable RYFZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYMX"></a> RYMX
+### RYMX
 
 Gets or sets the stiffness value of ry-mx.
 
@@ -614,7 +614,7 @@ public ExpressionValueVariable RYMX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_RYMY"></a> RYMY
+### RYMY
 
 Gets or sets the stiffness value of ry-my.
 
@@ -626,7 +626,7 @@ public ExpressionValueVariable RYMY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_Torque"></a> Torque
+### Torque
 
 Gets or sets the torque value.
 
@@ -640,11 +640,12 @@ public ExpressionValueVariable Torque { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_BearingStiffness_SetDefaultValue"></a> SetDefaultValue\(\)
+### SetDefaultValue\(\)
 
 Set default value
 
 ```csharp
 public void SetDefaultValue()
 ```
+
 

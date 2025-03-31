@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HDBGeometrySegment"></a> Class HDBGeometrySegment
+# Class HDBGeometrySegment
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class HDBGeometrySegment
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometrySegment__ctor_VM_Managed_DAFUL_GearTrain_enHDBGeometrySegmentType_System_Double_System_Double_System_Double_"></a> HDBGeometrySegment\(enHDBGeometrySegmentType, double, double, double\)
+### HDBGeometrySegment\(enHDBGeometrySegmentType, double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HDBGeometrySegment" data-throw-if-not-resolved="false"></xref> class.
 
@@ -50,7 +50,7 @@ value3
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometrySegment_Type"></a> Type
+### Type
 
 Type
 
@@ -62,7 +62,7 @@ public enHDBGeometrySegmentType Type { get; set; }
 
  [enHDBGeometrySegmentType](VM.Managed.DAFUL.GearTrain.enHDBGeometrySegmentType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometrySegment_Value1"></a> Value1
+### Value1
 
 Value1
 
@@ -74,7 +74,7 @@ public double Value1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometrySegment_Value2"></a> Value2
+### Value2
 
 Value2
 
@@ -86,7 +86,7 @@ public double Value2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometrySegment_Value3"></a> Value3
+### Value3
 
 Value3
 
@@ -97,4 +97,5 @@ public double Value3 { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

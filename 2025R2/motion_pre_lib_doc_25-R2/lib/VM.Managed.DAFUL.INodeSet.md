@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_INodeSet"></a> Interface INodeSet
+# Interface INodeSet
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -21,7 +21,7 @@ public interface INodeSet : IGeometricalComponent
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_INodeSet_GetPointCount"></a> GetPointCount\(\)
+### GetPointCount\(\)
 
 Gets the count of node point.
 
@@ -35,7 +35,7 @@ uint GetPointCount()
 
 The count of node point.
 
-### <a id="VM_Managed_DAFUL_INodeSet_GetPointPosition_System_UInt32_VM_Managed_IReferencable_"></a> GetPointPosition\(uint, IReferencable\)
+### GetPointPosition\(uint, IReferencable\)
 
 Gets the node point position.
 
@@ -58,4 +58,5 @@ The reference.
  VectorBase
 
 The node point position.
+
 

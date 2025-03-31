@@ -1,9 +1,9 @@
-# <a id="VM_Models_Pre_Connections_PropertyGeneral_ConnectorType"></a> Enum PropertyGeneral.ConnectorType
+# Enum PropertyGeneral.ConnectorType
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
 
-Specifies type for a connector.
+<p>Specifies type for a connector.</p>
 
 ```csharp
 public enum PropertyGeneral.ConnectorType
@@ -13,37 +13,37 @@ public enum PropertyGeneral.ConnectorType
 
 `Ball = 1` 
 
-Ball.
+<p>Ball.</p>
 
 
 
 `Bush = 16` 
 
-Bush.
+<p>Bush.</p>
 
 
 
 `Convel = 6` 
 
-Convel.
+<p>Convel.</p>
 
 
 
 `Cylindrical = 2` 
 
-Cylindrical.
+<p>Cylindrical.</p>
 
 
 
 `Distance = 7` 
 
-Distance.
+<p>Distance.</p>
 
 
 
 `Fixed = 0` 
 
-Fixed.
+<p>Fixed.</p>
 
 
 
@@ -55,67 +55,68 @@ Inline.
 
 `Inplane = 9` 
 
-Inplane.
+<p>Inplane.</p>
 
 
 
 `Matrix = 17` 
 
-Matrix.
+<p>Matrix.</p>
 
 
 
 `Orientation = 10` 
 
-Orientation.
+<p>Orientation.</p>
 
 
 
 `Parallel = 11` 
 
-Parallel.
+<p>Parallel.</p>
 
 
 
 `Perpendicular = 12` 
 
-Perpendicular.
+<p>Perpendicular.</p>
 
 
 
 `Planar = 3` 
 
-Planar.
+<p>Planar.</p>
 
 
 
 `Revolute = 4` 
 
-Revolute.
+<p>Revolute.</p>
 
 
 
 `Screw = 13` 
 
-Screw.
+<p>Screw.</p>
 
 
 
 `SixMotion = 15` 
 
-SixMotion.
+<p>SixMotion.</p>
 
 
 
 `Translational = 5` 
 
-Translational.
+<p>Translational.</p>
 
 
 
 `Universal = 14` 
 
-Universal.
+<p>Universal.</p>
+
 
 
 

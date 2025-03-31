@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IHasVerifyLevel"></a> Interface IHasVerifyLevel
+# Interface IHasVerifyLevel
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IHasVerifyLevel
 
 ## Properties
 
-### <a id="VM_Models_Pre_IHasVerifyLevel_VerifyLevel"></a> VerifyLevel
+### VerifyLevel
 
 ```csharp
 int VerifyLevel { get; set; }
@@ -24,4 +24,5 @@ int VerifyLevel { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

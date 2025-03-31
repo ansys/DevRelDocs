@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeSubEntity_1"></a> Class AttributeSubEntity<TSubEntity\>
+# Class AttributeSubEntity<TSubEntity\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -105,7 +105,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_AttributeSubEntity_1__ctor"></a> AttributeSubEntity\(\)
+### AttributeSubEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeSubEntity%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ Initializes a new instance of the <xref href="VM.Managed.AttributeSubEntity%601"
 public AttributeSubEntity()
 ```
 
-### <a id="VM_Managed_AttributeSubEntity_1__ctor__0_"></a> AttributeSubEntity\(TSubEntity\)
+### AttributeSubEntity\(TSubEntity\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeSubEntity%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -129,7 +129,7 @@ The subentity.
 
 ## Fields
 
-### <a id="VM_Managed_AttributeSubEntity_1_m_childSubEntity"></a> m\_childSubEntity
+### m\_childSubEntity
 
 The m_child sub entity
 
@@ -143,7 +143,7 @@ protected Child<TSubEntity, LinkContainer.Update> m_childSubEntity
 
 ## Properties
 
-### <a id="VM_Managed_AttributeSubEntity_1_SubEntityValue"></a> SubEntityValue
+### SubEntityValue
 
 Gets or sets the value.
 
@@ -154,4 +154,5 @@ public TSubEntity SubEntityValue { get; set; }
 #### Property Value
 
  TSubEntity
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_CrossSectionType"></a> Enum CrossSectionType
+# Enum CrossSectionType
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  
@@ -28,4 +28,5 @@ public enum CrossSectionType
 `THIN_TUBE = 2` 
 
 `T_BEAM = 8` 
+
 

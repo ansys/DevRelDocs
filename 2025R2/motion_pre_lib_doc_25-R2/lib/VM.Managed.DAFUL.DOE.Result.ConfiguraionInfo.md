@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo"></a> Class ConfiguraionInfo
+# Class ConfiguraionInfo
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -20,7 +20,7 @@ public class ConfiguraionInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo__ctor"></a> ConfiguraionInfo\(\)
+### ConfiguraionInfo\(\)
 
 ```csharp
 public ConfiguraionInfo()
@@ -28,7 +28,7 @@ public ConfiguraionInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_DOEType"></a> DOEType
+### DOEType
 
 ```csharp
 public DOEType DOEType { get; set; }
@@ -38,7 +38,7 @@ public DOEType DOEType { get; set; }
 
  [DOEType](VM.Managed.DAFUL.DOE.Result.DOEType.md)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_DesignParameters"></a> DesignParameters
+### DesignParameters
 
 ```csharp
 public List<DesignParameter> DesignParameters { get; set; }
@@ -48,7 +48,7 @@ public List<DesignParameter> DesignParameters { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DesignParameter](VM.Managed.DAFUL.DOE.Result.DesignParameter.md)\>
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_IsAppendDateAndTime"></a> IsAppendDateAndTime
+### IsAppendDateAndTime
 
 ```csharp
 public bool IsAppendDateAndTime { get; set; }
@@ -58,7 +58,7 @@ public bool IsAppendDateAndTime { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_IsCreateGraphicFile"></a> IsCreateGraphicFile
+### IsCreateGraphicFile
 
 ```csharp
 public bool IsCreateGraphicFile { get; set; }
@@ -68,7 +68,7 @@ public bool IsCreateGraphicFile { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_Level"></a> Level
+### Level
 
 ```csharp
 public uint Level { get; set; }
@@ -78,7 +78,7 @@ public uint Level { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_PerformanceIndexs"></a> PerformanceIndexs
+### PerformanceIndexs
 
 ```csharp
 public List<PerformanceIndex> PerformanceIndexs { get; set; }
@@ -88,7 +88,7 @@ public List<PerformanceIndex> PerformanceIndexs { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PerformanceIndex](VM.Managed.DAFUL.DOE.Result.PerformanceIndex.md)\>
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_ResultPath"></a> ResultPath
+### ResultPath
 
 ```csharp
 public string ResultPath { get; set; }
@@ -98,7 +98,7 @@ public string ResultPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_Run"></a> Run
+### Run
 
 ```csharp
 public double Run { get; set; }
@@ -108,7 +108,7 @@ public double Run { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_RunIndexs"></a> RunIndexs
+### RunIndexs
 
 ```csharp
 public int[] RunIndexs { get; set; }
@@ -118,7 +118,7 @@ public int[] RunIndexs { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
 
-### <a id="VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_SimulationFile"></a> SimulationFile
+### SimulationFile
 
 ```csharp
 public string SimulationFile { get; set; }
@@ -127,4 +127,5 @@ public string SimulationFile { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

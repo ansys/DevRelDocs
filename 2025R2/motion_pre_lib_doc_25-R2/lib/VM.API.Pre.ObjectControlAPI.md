@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_ObjectControlAPI"></a> Class ObjectControlAPI
+# Class ObjectControlAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class ObjectControlAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_ObjectControlAPI_RotateObjectsDegree_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_Vector_VM_Vector_System_Double_"></a> RotateObjectsDegree\(IEnumerable<Obj\>, Vector, Vector, double\)
+### RotateObjectsDegree\(IEnumerable<Obj\>, Vector, Vector, double\)
 
 Rotate given <xref href="VM.API.Pre.Obj?text=objects" data-throw-if-not-resolved="false"></xref> by using rotation axis and angle(degree).
 
@@ -60,7 +60,7 @@ Will be thrown when the collection of objects is null.
 
 Will be thrown if the magnitude of 'direction' is 0.
 
-### <a id="VM_API_Pre_ObjectControlAPI_TransformObjects_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_TMatrix_"></a> TransformObjects\(IEnumerable<Obj\>, TMatrix\)
+### TransformObjects\(IEnumerable<Obj\>, TMatrix\)
 
 Transform given <xref href="VM.API.Pre.Obj?text=objects" data-throw-if-not-resolved="false"></xref> by using <xref href="VM.TMatrix?text=transformation+matrix" data-throw-if-not-resolved="false"></xref>.
 
@@ -84,4 +84,5 @@ The <xref href="VM.TMatrix?text=transformation+matrix" data-throw-if-not-resolve
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown when the collection of objects is null.
+
 

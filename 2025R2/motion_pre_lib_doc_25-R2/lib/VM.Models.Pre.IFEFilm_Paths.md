@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IFEFilm_Paths"></a> Interface IFEFilm\_Paths
+# Interface IFEFilm\_Paths
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -21,7 +21,7 @@ IHasID
 
 ## Properties
 
-### <a id="VM_Models_Pre_IFEFilm_Paths_Radius"></a> Radius
+### Radius
 
 ```csharp
 ExpressionValueVariable Radius { get; set; }
@@ -31,7 +31,7 @@ ExpressionValueVariable Radius { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### <a id="VM_Models_Pre_IFEFilm_Paths_WindingDirection"></a> WindingDirection
+### WindingDirection
 
 ```csharp
 WindingDirection WindingDirection { get; set; }
@@ -40,4 +40,5 @@ WindingDirection WindingDirection { get; set; }
 #### Property Value
 
  [WindingDirection](VM.Models.Pre.WindingDirection.md)
+
 

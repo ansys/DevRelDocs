@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Display"></a> Class Display
+# Class Display
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class Display
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_Display__ctor"></a> Display\(\)
+### Display\(\)
 
 ```csharp
 public Display()
@@ -30,7 +30,7 @@ public Display()
 
 ## Properties
 
-### <a id="VM_CAD_Kernel_Display_default"></a> default
+### default
 
 ```csharp
 public string @default { get; set; }
@@ -40,7 +40,7 @@ public string @default { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Kernel_Display_description"></a> description
+### description
 
 ```csharp
 public string description { get; set; }
@@ -50,7 +50,7 @@ public string description { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Kernel_Display_items"></a> items
+### items
 
 ```csharp
 public string items { get; set; }
@@ -60,7 +60,7 @@ public string items { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Kernel_Display_name"></a> name
+### name
 
 ```csharp
 public string name { get; set; }
@@ -70,7 +70,7 @@ public string name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Kernel_Display_type"></a> type
+### type
 
 ```csharp
 public string type { get; set; }
@@ -79,4 +79,5 @@ public string type { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

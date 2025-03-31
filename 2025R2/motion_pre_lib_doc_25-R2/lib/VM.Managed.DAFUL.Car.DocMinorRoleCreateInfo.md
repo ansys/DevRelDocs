@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_DocMinorRoleCreateInfo"></a> Class DocMinorRoleCreateInfo
+# Class DocMinorRoleCreateInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -33,7 +33,7 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_DocMinorRoleCreateInfo__ctor"></a> DocMinorRoleCreateInfo\(\)
+### DocMinorRoleCreateInfo\(\)
 
 ```csharp
 public DocMinorRoleCreateInfo()
@@ -41,7 +41,7 @@ public DocMinorRoleCreateInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_DocMinorRoleCreateInfo_MinorRole"></a> MinorRole
+### MinorRole
 
 Gets or sets the minor role.
 
@@ -52,4 +52,5 @@ public int MinorRole { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

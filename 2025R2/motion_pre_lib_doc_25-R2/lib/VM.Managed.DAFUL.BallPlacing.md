@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BallPlacing"></a> Class BallPlacing
+# Class BallPlacing
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_BallPlacing__ctor"></a> BallPlacing\(\)
+### BallPlacing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BallPlacing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ public BallPlacing()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_BallPlacing_BallSpacingMethod"></a> BallSpacingMethod
+### BallSpacingMethod
 
 Gets or sets the ball placing method.
 
@@ -227,7 +227,7 @@ public BallSpacingMethod BallSpacingMethod { get; set; }
 
  [BallSpacingMethod](VM.Managed.DAFUL.BallSpacingMethod.md)
 
-### <a id="VM_Managed_DAFUL_BallPlacing_BallToBall"></a> BallToBall
+### BallToBall
 
 Gets or sets the ball geometries.
 
@@ -239,7 +239,7 @@ public MultipleContactInfo[] BallToBall { get; set; }
 
  MultipleContactInfo\[\]
 
-### <a id="VM_Managed_DAFUL_BallPlacing_Balls"></a> Balls
+### Balls
 
 Gets or sets the balls.
 
@@ -251,7 +251,7 @@ public SolidBody[] Balls { get; set; }
 
  SolidBody\[\]
 
-### <a id="VM_Managed_DAFUL_BallPlacing_Distance"></a> Distance
+### Distance
 
 Gets or sets the distance.
 
@@ -263,7 +263,7 @@ public ExpressionValueVariable Distance { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_BallPlacing_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -275,7 +275,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_BallPlacing_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -287,7 +287,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_BallPlacing_InitColor"></a> InitColor
+### InitColor
 
 Gets or sets the init color.
 
@@ -299,7 +299,7 @@ public Color InitColor { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_BallPlacing_InitColorArgb"></a> InitColorArgb
+### InitColorArgb
 
 Gets or sets the init color.
 
@@ -311,7 +311,7 @@ public int InitColorArgb { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_BallPlacing_InitRadius"></a> InitRadius
+### InitRadius
 
 Gets or sets the init radius.
 
@@ -323,7 +323,7 @@ public ExpressionValueVariable InitRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_BallPlacing_NumberOfBall"></a> NumberOfBall
+### NumberOfBall
 
 Gets or sets the number of ball.
 
@@ -335,7 +335,7 @@ public ExpressionValueVariable NumberOfBall { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_BallPlacing_Path"></a> Path
+### Path
 
 Gets or sets the path.
 
@@ -347,7 +347,7 @@ public List<Vector> Path { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_BallPlacing_PathType"></a> PathType
+### PathType
 
 Gets or sets the path type.
 
@@ -359,7 +359,7 @@ public PathType PathType { get; set; }
 
  [PathType](VM.Managed.DAFUL.PathType.md)
 
-### <a id="VM_Managed_DAFUL_BallPlacing_ShiftOfStartPosition"></a> ShiftOfStartPosition
+### ShiftOfStartPosition
 
 Gets or sets the shift of start position.
 
@@ -371,7 +371,7 @@ public ExpressionValueVariable ShiftOfStartPosition { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_BallPlacing_SynchronizeWithGeometry"></a> SynchronizeWithGeometry
+### SynchronizeWithGeometry
 
 Gets or sets the synchronize with geometry.
 
@@ -385,7 +385,7 @@ public bool SynchronizeWithGeometry { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_BallPlacing_CreateBalls_VM_Managed_Document3D_"></a> CreateBalls\(Document3D\)
+### CreateBalls\(Document3D\)
 
 Create Balls
 
@@ -399,7 +399,7 @@ public void CreateBalls(Document3D document3D)
 
 The document.
 
-### <a id="VM_Managed_DAFUL_BallPlacing_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -419,7 +419,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_BallPlacing_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -433,7 +433,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_BallPlacing_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -450,4 +450,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

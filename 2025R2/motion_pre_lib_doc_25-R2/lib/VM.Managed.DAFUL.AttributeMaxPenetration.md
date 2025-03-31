@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeMaxPenetration"></a> Class AttributeMaxPenetration
+# Class AttributeMaxPenetration
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_AttributeMaxPenetration__ctor"></a> AttributeMaxPenetration\(\)
+### AttributeMaxPenetration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeMaxPenetration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeMaxPenet
 public AttributeMaxPenetration()
 ```
 
-### <a id="VM_Managed_DAFUL_AttributeMaxPenetration__ctor_VM_Managed_Variable_"></a> AttributeMaxPenetration\(Variable\)
+### AttributeMaxPenetration\(Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeMaxPenetration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ The value.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_AttributeMaxPenetration_Value"></a> Value
+### Value
 
 Gets or sets the value.
 
@@ -134,4 +134,5 @@ public ExpressionValueVariable Value { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

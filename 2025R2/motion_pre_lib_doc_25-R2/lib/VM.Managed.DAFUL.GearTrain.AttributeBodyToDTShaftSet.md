@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTShaftSet"></a> Class AttributeBodyToDTShaftSet
+# Class AttributeBodyToDTShaftSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -106,7 +106,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTShaftSet__ctor"></a> AttributeBodyToDTShaftSet\(\)
+### AttributeBodyToDTShaftSet\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeBodyToDTShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -116,7 +116,7 @@ public AttributeBodyToDTShaftSet()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTShaftSet_AttachedAxis"></a> AttachedAxis
+### AttachedAxis
 
 Gets or sets the attached axis.
 
@@ -128,7 +128,7 @@ public Vector AttachedAxis { get; set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTShaftSet_PowerLoadOffset"></a> PowerLoadOffset
+### PowerLoadOffset
 
 Gets or sets the power load offset.
 
@@ -140,7 +140,7 @@ public ExpressionValueVariable PowerLoadOffset { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTShaftSet_PowerLoadType"></a> PowerLoadType
+### PowerLoadType
 
 Gets or sets the power load type.
 
@@ -152,7 +152,7 @@ public PowerLoad.PowerLoadType PowerLoadType { get; set; }
 
  [PowerLoad](VM.Managed.DAFUL.GearTrain.PowerLoad.md).[PowerLoadType](VM.Managed.DAFUL.GearTrain.PowerLoad.PowerLoadType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTShaftSet_PowerLoadWidth"></a> PowerLoadWidth
+### PowerLoadWidth
 
 Gets or sets the power load width.
 
@@ -164,7 +164,7 @@ public ExpressionValueVariable PowerLoadWidth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTShaftSet_UsePowerLoad"></a> UsePowerLoad
+### UsePowerLoad
 
 Gets or sets the power load use flag.
 
@@ -175,4 +175,5 @@ public bool UsePowerLoad { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

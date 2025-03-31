@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ConnectorMarkerTransformBase"></a> Class ConnectorMarkerTransformBase
+# Class ConnectorMarkerTransformBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ConnectorMarkerTransformBase__ctor"></a> ConnectorMarkerTransformBase\(\)
+### ConnectorMarkerTransformBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ConnectorMarkerTransformBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.ConnectorMarkerTr
 public ConnectorMarkerTransformBase()
 ```
 
-### <a id="VM_Managed_DAFUL_ConnectorMarkerTransformBase__ctor_VM_Models_Pre_IOwned_"></a> ConnectorMarkerTransformBase\(IOwned\)
+### ConnectorMarkerTransformBase\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ConnectorMarkerTransformBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The owner.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_ConnectorMarkerTransformBase_CalcMarkerTransform_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> CalcMarkerTransform\(ObjectBase, ObjectBase\)
+### CalcMarkerTransform\(ObjectBase, ObjectBase\)
 
 Calculate the transformation matrix for marker.
 
@@ -145,4 +145,5 @@ The support object(Body) to calculate transformation matirx.
 #### Returns
 
  TMatrix
+
 

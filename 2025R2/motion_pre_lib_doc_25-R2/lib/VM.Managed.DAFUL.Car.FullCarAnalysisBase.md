@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase"></a> Class FullCarAnalysisBase
+# Class FullCarAnalysisBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -42,7 +42,7 @@ public abstract class FullCarAnalysisBase : AnalysisBase
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase__ctor"></a> FullCarAnalysisBase\(\)
+### FullCarAnalysisBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FullCarAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -50,7 +50,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FullCarAnalys
 public FullCarAnalysisBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase__ctor_VM_Models_Pre_ILinkContainer_"></a> FullCarAnalysisBase\(ILinkContainer\)
+### FullCarAnalysisBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FullCarAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -66,7 +66,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase_GearPositionType"></a> GearPositionType
+### GearPositionType
 
 Gets or sets the gear position.
 
@@ -78,7 +78,7 @@ public GearPositionType GearPositionType { get; set; }
 
  [GearPositionType](VM.Managed.DAFUL.Car.Analysis.Full.GearPositionType.md)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase_IsQuasiStaticStraightLineSetup"></a> IsQuasiStaticStraightLineSetup
+### IsQuasiStaticStraightLineSetup
 
 Gets or sets a value indicating whether [quasi static straight line setup].
 
@@ -90,7 +90,7 @@ public bool IsQuasiStaticStraightLineSetup { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase_RoadFile"></a> RoadFile
+### RoadFile
 
 Gets or sets the road data file.
 
@@ -102,7 +102,7 @@ public string RoadFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisBase_TireRadiusPosition"></a> TireRadiusPosition
+### TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -113,4 +113,5 @@ public abstract int TireRadiusPosition { get; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

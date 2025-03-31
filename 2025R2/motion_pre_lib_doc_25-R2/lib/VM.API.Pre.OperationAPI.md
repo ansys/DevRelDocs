@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_OperationAPI"></a> Class OperationAPI
+# Class OperationAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class OperationAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_OperationAPI_ChangeEnableState_VM_API_Pre_Obj_System_Boolean_"></a> ChangeEnableState\(Obj, bool\)
+### ChangeEnableState\(Obj, bool\)
 
 ```csharp
 [NotNullObj(new string[] { "enableObj" })]
@@ -35,7 +35,7 @@ public static void ChangeEnableState(this Obj enableObj, bool isEnable = true)
 
 `isEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_OperationAPI_ChangeEnableState_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Boolean_"></a> ChangeEnableState\(IEnumerable<Obj\>, bool\)
+### ChangeEnableState\(IEnumerable<Obj\>, bool\)
 
 ```csharp
 [NotNull(new string[] { "enableObjs" })]
@@ -48,7 +48,7 @@ public static void ChangeEnableState(this IEnumerable<Obj> enableObjs, bool isEn
 
 `isEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_OperationAPI_ChangeInterface_VM_API_Pre_Obj_System_Boolean_"></a> ChangeInterface\(Obj, bool\)
+### ChangeInterface\(Obj, bool\)
 
 ```csharp
 [NotNullObj(new string[] { "interfaceObj" })]
@@ -61,7 +61,7 @@ public static void ChangeInterface(this Obj interfaceObj, bool isInterface = fal
 
 `isInterface` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_OperationAPI_ChangeVisibleState_VM_API_Pre_Obj_System_Boolean_"></a> ChangeVisibleState\(Obj, bool\)
+### ChangeVisibleState\(Obj, bool\)
 
 ```csharp
 [NotNullObj(new string[] { "visibleObj" })]
@@ -74,7 +74,7 @@ public static void ChangeVisibleState(this Obj visibleObj, bool isVisible = true
 
 `isVisible` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_OperationAPI_ChangeVisibleState_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Boolean_"></a> ChangeVisibleState\(IEnumerable<Obj\>, bool\)
+### ChangeVisibleState\(IEnumerable<Obj\>, bool\)
 
 ```csharp
 [NotNull(new string[] { "visibleObjs" })]
@@ -87,7 +87,7 @@ public static void ChangeVisibleState(this IEnumerable<Obj> visibleObjs, bool is
 
 `isVisible` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_OperationAPI_Delete_VM_API_Pre_Obj_"></a> Delete\(Obj\)
+### Delete\(Obj\)
 
 Delete the entity.
 
@@ -112,7 +112,7 @@ Will be thrown if 'entity' arguments are empty.
 
 Will be thrown if document of 'entity' arguments are empty.
 
-### <a id="VM_API_Pre_OperationAPI_Duplicate_VM_API_Pre_Obj_"></a> Duplicate\(Obj\)
+### Duplicate\(Obj\)
 
 ```csharp
 [NotNullObj(new string[] { "entity" })]
@@ -123,7 +123,7 @@ public static void Duplicate(this Obj entity)
 
 `entity` [Obj](VM.API.Pre.Obj.md)
 
-### <a id="VM_API_Pre_OperationAPI_Duplicate_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__"></a> Duplicate\(IEnumerable<Obj\>\)
+### Duplicate\(IEnumerable<Obj\>\)
 
 ```csharp
 [NotNull(new string[] { "entities" })]
@@ -134,7 +134,7 @@ public static void Duplicate(this IEnumerable<Obj> entities)
 
 `entities` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
 
-### <a id="VM_API_Pre_OperationAPI_Flip_VM_API_Pre_Obj_"></a> Flip\(Obj\)
+### Flip\(Obj\)
 
 ```csharp
 [NotNullObj(new string[] { "entity" })]
@@ -145,7 +145,7 @@ public static void Flip(this Obj entity)
 
 `entity` [Obj](VM.API.Pre.Obj.md)
 
-### <a id="VM_API_Pre_OperationAPI_Flip_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__"></a> Flip\(IEnumerable<Obj\>\)
+### Flip\(IEnumerable<Obj\>\)
 
 ```csharp
 [NotNull(new string[] { "entities" })]
@@ -156,7 +156,7 @@ public static void Flip(this IEnumerable<Obj> entities)
 
 `entities` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
 
-### <a id="VM_API_Pre_OperationAPI_SetTransparency_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_"></a> SetTransparency\(Obj, ExpressionValueVariable\)
+### SetTransparency\(Obj, ExpressionValueVariable\)
 
 ```csharp
 [NotNullObj(new string[] { "body" })]
@@ -169,7 +169,7 @@ public static void SetTransparency(this Obj body, ExpressionValueVariable transp
 
 `transparency` ExpressionValueVariable
 
-### <a id="VM_API_Pre_OperationAPI_UpdateCADName_VM_API_Pre_Obj_System_String_"></a> UpdateCADName\(Obj, string\)
+### UpdateCADName\(Obj, string\)
 
 ```csharp
 [NotNull(new string[] { "cadBody" })]
@@ -183,7 +183,7 @@ public static void UpdateCADName(this Obj cadBody, string strName)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_API_Pre_OperationAPI_UpdateName_VM_API_Pre_Obj_System_String_"></a> UpdateName\(Obj, string\)
+### UpdateName\(Obj, string\)
 
 ```csharp
 [NotNull(new string[] { "nameObj" })]
@@ -197,7 +197,7 @@ public static void UpdateName(this Obj nameObj, string strName)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_API_Pre_OperationAPI_UpdateSymmetric_VM_API_Pre_Obj_System_Boolean_"></a> UpdateSymmetric\(Obj, bool\)
+### UpdateSymmetric\(Obj, bool\)
 
 ```csharp
 [NotNullObj(new string[] { "symMgr" })]
@@ -209,4 +209,5 @@ public static void UpdateSymmetric(this Obj symMgr, bool symmetric = true)
 `symMgr` [Obj](VM.API.Pre.Obj.md)
 
 `symmetric` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

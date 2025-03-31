@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DesignPoint"></a> Class DesignPoint
+# Class DesignPoint
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -192,7 +192,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DesignPoint__ctor"></a> DesignPoint\(\)
+### DesignPoint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DesignPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,7 +200,7 @@ Initializes a new instance of the <xref href="VM.Managed.DesignPoint" data-throw
 public DesignPoint()
 ```
 
-### <a id="VM_Managed_DesignPoint__ctor_System_String_"></a> DesignPoint\(string\)
+### DesignPoint\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DesignPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -216,7 +216,7 @@ Name of the design point.
 
 ## Properties
 
-### <a id="VM_Managed_DesignPoint_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -228,7 +228,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DesignPoint_IsDesignParam"></a> IsDesignParam
+### IsDesignParam
 
 Gets or sets a value indicating whether this instance is the peformance index.
 
@@ -240,7 +240,7 @@ public bool IsDesignParam { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DesignPoint_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets the visible state.
 
@@ -252,7 +252,7 @@ public virtual bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DesignPoint_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -264,7 +264,7 @@ public Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DesignPoint_Orientation"></a> Orientation
+### Orientation
 
 Gets the orientation.
 
@@ -276,7 +276,7 @@ public OMatrix Orientation { get; }
 
  OMatrix
 
-### <a id="VM_Managed_DesignPoint_Point"></a> Point
+### Point
 
 Gets or sets the point.
 
@@ -288,7 +288,7 @@ public PointBase Point { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DesignPoint_Position"></a> Position
+### Position
 
 Gets the position.
 
@@ -300,7 +300,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DesignPoint_TransformationMatrix"></a> TransformationMatrix
+### TransformationMatrix
 
 Gets or sets the transformation matrix.
 
@@ -312,9 +312,9 @@ public TMatrix TransformationMatrix { get; set; }
 
  TMatrix
 
-### <a id="VM_Managed_DesignPoint_Value"></a> Value
+### Value
 
-Gets the value.
+<p>Gets the value.</p>
 
 ```csharp
 public Vector Value { get; }
@@ -324,7 +324,7 @@ public Vector Value { get; }
 
  Vector
 
-### <a id="VM_Managed_DesignPoint_X"></a> X
+### X
 
 Gets the X coordinate of position.
 
@@ -336,7 +336,7 @@ public double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DesignPoint_Y"></a> Y
+### Y
 
 Gets the Y coordinate of position.
 
@@ -348,7 +348,7 @@ public double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DesignPoint_Z"></a> Z
+### Z
 
 Gets the Z coordinate of position.
 
@@ -362,7 +362,7 @@ public double Z { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DesignPoint_BindInterfaceImpl_VM_Managed_TMatrix_VM_Managed_TMatrix_VM_Managed_IInterface_"></a> BindInterfaceImpl\(TMatrix, TMatrix, IInterface\)
+### BindInterfaceImpl\(TMatrix, TMatrix, IInterface\)
 
 Binds the interface [implementation].
 
@@ -384,7 +384,7 @@ The matrix after transformation.
 
 The interface.
 
-### <a id="VM_Managed_DesignPoint_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -398,7 +398,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DesignPoint_GetDestroyEventExtraData"></a> GetDestroyEventExtraData\(\)
+### GetDestroyEventExtraData\(\)
 
 ```csharp
 protected override object GetDestroyEventExtraData()
@@ -408,7 +408,7 @@ protected override object GetDestroyEventExtraData()
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_DesignPoint_GetDirection_VM_Coordinate_"></a> GetDirection\(Coordinate\)
+### GetDirection\(Coordinate\)
 
 Gets the direction.
 
@@ -428,7 +428,7 @@ Type of the direction.
 
 The direction
 
-### <a id="VM_Managed_DesignPoint_GetFullName"></a> GetFullName\(\)
+### GetFullName\(\)
 
 Gets the full name.
 
@@ -442,7 +442,7 @@ public string GetFullName()
 
 The full name.
 
-### <a id="VM_Managed_DesignPoint_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -456,7 +456,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DesignPoint_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -474,7 +474,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DesignPoint_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -488,7 +488,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DesignPoint_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -501,4 +501,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

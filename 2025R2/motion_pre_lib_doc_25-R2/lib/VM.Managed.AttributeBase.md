@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeBase"></a> Class AttributeBase
+# Class AttributeBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -119,7 +119,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_AttributeBase__ctor"></a> AttributeBase\(\)
+### AttributeBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -129,7 +129,7 @@ public AttributeBase()
 
 ## Methods
 
-### <a id="VM_Managed_AttributeBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -147,11 +147,12 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_AttributeBase_OnDeserializationAttribute"></a> OnDeserializationAttribute\(\)
+### OnDeserializationAttribute\(\)
 
 Called when [deserialization attribute].
 
 ```csharp
 public virtual void OnDeserializationAttribute()
 ```
+
 

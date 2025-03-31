@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_Point2D"></a> Class Point2D
+# Class Point2D
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -20,7 +20,7 @@ public class Point2D
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Force_Point2D__ctor_System_Double_System_Double_"></a> Point2D\(double, double\)
+### Point2D\(double, double\)
 
 ```csharp
 public Point2D(double dx, double dz)
@@ -34,7 +34,7 @@ public Point2D(double dx, double dz)
 
 ## Properties
 
-### <a id="VM_Models_Pre_Force_Point2D_X"></a> X
+### X
 
 ```csharp
 public double X { get; }
@@ -44,7 +44,7 @@ public double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Force_Point2D_Z"></a> Z
+### Z
 
 ```csharp
 public double Z { get; }
@@ -53,4 +53,5 @@ public double Z { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ReferencePartMarker"></a> Class ReferencePartMarker
+# Class ReferencePartMarker
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -207,7 +207,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ReferencePartMarker__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferencePartMarker\(SerializationInfo, StreamingContext\)
+### ReferencePartMarker\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferencePartMarker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -225,7 +225,7 @@ The info.
 
 The context.
 
-### <a id="VM_Managed_DAFUL_ReferencePartMarker__ctor_VM_Managed_ObjectBase_"></a> ReferencePartMarker\(ObjectBase\)
+### ReferencePartMarker\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferencePartMarker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ The reference's object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_ReferencePartMarker_FullName"></a> FullName
+### FullName
 
 Gets the full name.
 
@@ -253,7 +253,7 @@ public override string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_ReferencePartMarker_ParentConnectable"></a> ParentConnectable
+### ParentConnectable
 
 Get the parent connectable
 
@@ -265,7 +265,7 @@ protected override IConnectable ParentConnectable { get; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### <a id="VM_Managed_DAFUL_ReferencePartMarker_PredefinedName"></a> PredefinedName
+### PredefinedName
 
 Get the predefined name
 
@@ -279,7 +279,7 @@ public static string PredefinedName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_ReferencePartMarker_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -307,7 +307,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_ReferencePartMarker_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -325,7 +325,7 @@ The ob notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_ReferencePartMarker_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -342,4 +342,5 @@ The ob notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

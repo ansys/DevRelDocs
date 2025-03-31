@@ -108,7 +108,7 @@ A list of <xref href="VM.ViewModels.Post.INumericParameter" data-throw-if-not-re
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 

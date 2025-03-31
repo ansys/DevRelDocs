@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_RollConfiguration"></a> Class RollConfiguration
+# Class RollConfiguration
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -193,7 +193,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_RollConfiguration__ctor"></a> RollConfiguration\(\)
+### RollConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.RollConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ public RollConfiguration()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_RollConfiguration_ConfigurationName"></a> ConfigurationName
+### ConfigurationName
 
 Gets the configuration name
 
@@ -214,4 +214,5 @@ public override string ConfigurationName { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

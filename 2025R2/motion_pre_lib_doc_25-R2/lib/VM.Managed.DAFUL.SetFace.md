@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SetFace"></a> Class SetFace
+# Class SetFace
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -202,7 +202,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_SetFace__ctor"></a> SetFace\(\)
+### SetFace\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetFace" data-throw-if-not-resolved="false"></xref> class.
 
@@ -210,7 +210,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetFace" data-thr
 public SetFace()
 ```
 
-### <a id="VM_Managed_DAFUL_SetFace__ctor_System_String_"></a> SetFace\(string\)
+### SetFace\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetFace" data-throw-if-not-resolved="false"></xref> class.
 
@@ -226,7 +226,7 @@ Name of the face set.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_SetFace_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets the analysis type.
 
@@ -238,7 +238,7 @@ public virtual BodyAnalysisType AnalysisType { get; }
 
  [BodyAnalysisType](VM.Managed.DAFUL.BodyAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_SetFace_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -250,7 +250,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_SetFace_AttribType"></a> AttribType
+### AttribType
 
 Gets the attribute type of face set.
 
@@ -262,7 +262,7 @@ public AttributeFacesetTypeBase.FacesetType AttribType { get; }
 
  [AttributeFacesetTypeBase](VM.Managed.DAFUL.AttributeFacesetTypeBase.md).[FacesetType](VM.Managed.DAFUL.AttributeFacesetTypeBase.FacesetType.md)
 
-### <a id="VM_Managed_DAFUL_SetFace_AutomaticSelectionGeometryType"></a> AutomaticSelectionGeometryType
+### AutomaticSelectionGeometryType
 
 Gets or sets a value indicating whether geometry type determined automatically.
 
@@ -274,7 +274,7 @@ public bool AutomaticSelectionGeometryType { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SetFace_Body"></a> Body
+### Body
 
 Gets the body.
 
@@ -286,7 +286,7 @@ public IBody Body { get; }
 
  IBody
 
-### <a id="VM_Managed_DAFUL_SetFace_Center"></a> Center
+### Center
 
 Gets the center position of the object.
 
@@ -298,7 +298,7 @@ public TMatrix Center { get; }
 
  TMatrix
 
-### <a id="VM_Managed_DAFUL_SetFace_Connectable"></a> Connectable
+### Connectable
 
 Gets the connectable.
 
@@ -310,7 +310,7 @@ public virtual IConnectable Connectable { get; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### <a id="VM_Managed_DAFUL_SetFace_ConnectableBody"></a> ConnectableBody
+### ConnectableBody
 
 Gets the connectable body.
 
@@ -322,7 +322,7 @@ public ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_SetFace_ConnectableFullName"></a> ConnectableFullName
+### ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -334,7 +334,7 @@ public string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SetFace_ConnectableName"></a> ConnectableName
+### ConnectableName
 
 Gets the name of the connectable.
 
@@ -346,7 +346,7 @@ public string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SetFace_ConnectablePosition"></a> ConnectablePosition
+### ConnectablePosition
 
 Sets the connectable position.
 
@@ -358,7 +358,7 @@ public Vector ConnectablePosition { set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_SetFace_ConnectablePostfixName"></a> ConnectablePostfixName
+### ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -370,7 +370,7 @@ public string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SetFace_FaceList"></a> FaceList
+### FaceList
 
 Gets the face link list.
 
@@ -382,7 +382,7 @@ public IList<Face> FaceList { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<Face\>
 
-### <a id="VM_Managed_DAFUL_SetFace_GeometryFullName"></a> GeometryFullName
+### GeometryFullName
 
 Gets the geometry full name
 
@@ -394,7 +394,7 @@ public string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SetFace_GeometryNameForMultiContact"></a> GeometryNameForMultiContact
+### GeometryNameForMultiContact
 
 Gets the name for multiple contact
 
@@ -406,7 +406,7 @@ public string GeometryNameForMultiContact { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SetFace_GeometryType"></a> GeometryType
+### GeometryType
 
 Gets or sets a geometry type.
 
@@ -418,7 +418,7 @@ public GeometryType GeometryType { get; set; }
 
  [GeometryType](VM.Managed.DAFUL.GeometryType.md)
 
-### <a id="VM_Managed_DAFUL_SetFace_HalfThickness"></a> HalfThickness
+### HalfThickness
 
 Gets or sets the half thickness.
 
@@ -430,7 +430,7 @@ public ExpressionValueVariable HalfThickness { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_SetFace_IsActionGeometry"></a> IsActionGeometry
+### IsActionGeometry
 
 Gets or sets a value indicating whether this instance is action geometry.
 
@@ -442,7 +442,7 @@ public bool IsActionGeometry { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SetFace_IsBaseGeometry"></a> IsBaseGeometry
+### IsBaseGeometry
 
 Gets or sets a value indicating whether this instance is base geometry.
 
@@ -454,7 +454,7 @@ public bool IsBaseGeometry { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SetFace_IsFacetingForGeometryRepresentation"></a> IsFacetingForGeometryRepresentation
+### IsFacetingForGeometryRepresentation
 
 Gets or sets a value indicating whether this instance is faceting for geometry representation.
 
@@ -466,7 +466,7 @@ public bool IsFacetingForGeometryRepresentation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SetFace_IsRepresentedAsBSurface"></a> IsRepresentedAsBSurface
+### IsRepresentedAsBSurface
 
 Gets or sets a value indicating whether this instance is represented as B-surface.
 
@@ -478,7 +478,7 @@ public bool IsRepresentedAsBSurface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SetFace_IsSphereTreatedAsSurface"></a> IsSphereTreatedAsSurface
+### IsSphereTreatedAsSurface
 
 Gets a value indicating whether the geometry type is sphere and it will be ignored.
 
@@ -490,7 +490,7 @@ public bool IsSphereTreatedAsSurface { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SetFace_MaxPenetration"></a> MaxPenetration
+### MaxPenetration
 
 Gets the maximum penetration.
 
@@ -502,7 +502,7 @@ public ExpressionValueVariable MaxPenetration { get; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_SetFace_ParentBody"></a> ParentBody
+### ParentBody
 
 Gets or sets the parent body.
 
@@ -514,7 +514,7 @@ public ObjectBase ParentBody { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_SetFace_ParentType"></a> ParentType
+### ParentType
 
 Gets the type of the marker's parent.
 
@@ -526,7 +526,7 @@ public MarkerParentType ParentType { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### <a id="VM_Managed_DAFUL_SetFace_ReferenceFrameType"></a> ReferenceFrameType
+### ReferenceFrameType
 
 Gets the type of the marker's reference frame.
 
@@ -538,7 +538,7 @@ public MarkerReferenceFrameType ReferenceFrameType { get; }
 
  [MarkerReferenceFrameType](VM.Managed.DAFUL.MarkerReferenceFrameType.md)
 
-### <a id="VM_Managed_DAFUL_SetFace_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -550,7 +550,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SetFace_SphereRadius"></a> SphereRadius
+### SphereRadius
 
 Gets or sets the radius of sphere.
 
@@ -562,7 +562,7 @@ public ExpressionValueVariable SphereRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_SetFace_SurfaceSmoothingType"></a> SurfaceSmoothingType
+### SurfaceSmoothingType
 
 Gets or sets the type of the surface smoothing.
 
@@ -574,7 +574,7 @@ public SurfaceSmoothing SurfaceSmoothingType { get; set; }
 
  [SurfaceSmoothing](VM.Managed.DAFUL.SurfaceSmoothing.md)
 
-### <a id="VM_Managed_DAFUL_SetFace_TopologyList"></a> TopologyList
+### TopologyList
 
 Gets or sets the topology list.
 
@@ -588,7 +588,7 @@ public TopologyList<Face> TopologyList { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_SetFace_AddFace_VM_Managed_CAD_Face_"></a> AddFace\(Face\)
+### AddFace\(Face\)
 
 Adds the face to topology list.
 
@@ -602,7 +602,7 @@ public virtual void AddFace(Face face)
 
 The face.
 
-### <a id="VM_Managed_DAFUL_SetFace_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -622,7 +622,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SetFace_GetBodyModifiedTimeAttribute"></a> GetBodyModifiedTimeAttribute\(\)
+### GetBodyModifiedTimeAttribute\(\)
 
 ```csharp
 public AttributeBodyModifiedTime GetBodyModifiedTimeAttribute()
@@ -632,9 +632,9 @@ public AttributeBodyModifiedTime GetBodyModifiedTimeAttribute()
 
  AttributeBodyModifiedTime
 
-### <a id="VM_Managed_DAFUL_SetFace_GetCADBody"></a> GetCADBody\(\)
+### GetCADBody\(\)
 
-Gets the cad body from parent body.
+<p>Gets the cad body from parent body.</p>
 
 ```csharp
 public Body GetCADBody()
@@ -644,7 +644,7 @@ public Body GetCADBody()
 
  Body
 
-### <a id="VM_Managed_DAFUL_SetFace_GetCount"></a> GetCount\(\)
+### GetCount\(\)
 
 Gets the face's count.
 
@@ -658,7 +658,7 @@ public int GetCount()
 
 The face's count.
 
-### <a id="VM_Managed_DAFUL_SetFace_GetDefaultMaxPenetration_System_Double__VM_Managed_IReferencable_"></a> GetDefaultMaxPenetration\(ref double, IReferencable\)
+### GetDefaultMaxPenetration\(ref double, IReferencable\)
 
 Gets the default maximum penetration.
 
@@ -682,7 +682,7 @@ The reference.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SetFace_GetElementKey_System_Int32_"></a> GetElementKey\(int\)
+### GetElementKey\(int\)
 
 Gets the element(face) key.
 
@@ -702,7 +702,7 @@ The Index.
 
 The element(face) key.
 
-### <a id="VM_Managed_DAFUL_SetFace_GetElementType"></a> GetElementType\(\)
+### GetElementType\(\)
 
 Gets the type of the element(face).
 
@@ -716,7 +716,7 @@ public Type GetElementType()
 
 The type of the element(face).
 
-### <a id="VM_Managed_DAFUL_SetFace_GetFacetModifiedTimeAttribute"></a> GetFacetModifiedTimeAttribute\(\)
+### GetFacetModifiedTimeAttribute\(\)
 
 ```csharp
 public AttributeFacetModifiedTime GetFacetModifiedTimeAttribute()
@@ -726,7 +726,7 @@ public AttributeFacetModifiedTime GetFacetModifiedTimeAttribute()
 
  [AttributeFacetModifiedTime](VM.Managed.DAFUL.AttributeFacetModifiedTime.md)
 
-### <a id="VM_Managed_DAFUL_SetFace_GetFacetOption"></a> GetFacetOption\(\)
+### GetFacetOption\(\)
 
 Gets the facet option.
 
@@ -740,7 +740,7 @@ public FacetOption GetFacetOption()
 
 The facet option
 
-### <a id="VM_Managed_DAFUL_SetFace_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator .
 
@@ -764,7 +764,7 @@ The XmlElement information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SetFace_GetMinimumDistance_VM_Managed_IFaceInformation_VM_Managed_TMatrix_VM_Managed_TMatrix_System_Double_"></a> GetMinimumDistance\(IFaceInformation, TMatrix, TMatrix, double\)
+### GetMinimumDistance\(IFaceInformation, TMatrix, TMatrix, double\)
 
 Gets minimum distance
 
@@ -794,7 +794,7 @@ The length factor.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_SetFace_GetMinimumDistanceAndDirection_VM_Managed_IFaceInformation_VM_Managed_TMatrix_VM_Managed_TMatrix_VM_Managed_VectorBase____System_Double_"></a> GetMinimumDistanceAndDirection\(IFaceInformation, TMatrix, TMatrix, ref VectorBase\[\], double\)
+### GetMinimumDistanceAndDirection\(IFaceInformation, TMatrix, TMatrix, ref VectorBase\[\], double\)
 
 Gets minimum distance and direction
 
@@ -828,7 +828,7 @@ The length factor.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_SetFace_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -856,7 +856,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SetFace_GetPointAndConnectivity_VM_Models_Pre_FacetOption_VM_Managed_VectorBase____System_Int32____System_Int32____VM_Managed_Reference_System_Double_"></a> GetPointAndConnectivity\(FacetOption, ref VectorBase\[\], ref int\[\], ref int\[\], Reference, double\)
+### GetPointAndConnectivity\(FacetOption, ref VectorBase\[\], ref int\[\], ref int\[\], Reference, double\)
 
 Gets point and connectivity
 
@@ -890,7 +890,7 @@ The reference entity
 
 The length factor.
 
-### <a id="VM_Managed_DAFUL_SetFace_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the point direction. (using facet information)
 
@@ -918,7 +918,7 @@ The reference.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SetFace_GetPointDirectionOnGeometry_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase, IReferencable\)
+### GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the point direction. (using geometry information)
 
@@ -946,7 +946,7 @@ The reference.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SetFace_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
+### GetTargetListForUpdate\(\)
 
 Gets the target list for update.
 
@@ -958,7 +958,7 @@ public override List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
 
-### <a id="VM_Managed_DAFUL_SetFace_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -972,7 +972,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_SetFace_IsContactableWithNormalVector_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> IsContactableWithNormalVector\(VectorBase, VectorBase\)
+### IsContactableWithNormalVector\(VectorBase, VectorBase\)
 
 wherther it is contactable or not
 
@@ -994,7 +994,7 @@ tool direction
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SetFace_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -1012,7 +1012,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_SetFace_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -1030,7 +1030,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_SetFace_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -1044,7 +1044,7 @@ protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_SetFace_PostAddToDocument"></a> PostAddToDocument\(\)
+### PostAddToDocument\(\)
 
 Call when post [add to document].
 
@@ -1052,7 +1052,7 @@ Call when post [add to document].
 public override void PostAddToDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_SetFace_PostRemoveFromDocument_VM_Managed_Document_"></a> PostRemoveFromDocument\(Document\)
+### PostRemoveFromDocument\(Document\)
 
 Call when post [remove from document].
 <param name="document">The document</param>
@@ -1065,7 +1065,7 @@ public override void PostRemoveFromDocument(Document document)
 
 `document` Document
 
-### <a id="VM_Managed_DAFUL_SetFace_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -1079,7 +1079,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_SetFace_RemoveAllFace"></a> RemoveAllFace\(\)
+### RemoveAllFace\(\)
 
 Removes all face from topology list.
 
@@ -1087,7 +1087,7 @@ Removes all face from topology list.
 public void RemoveAllFace()
 ```
 
-### <a id="VM_Managed_DAFUL_SetFace_RemoveFace_VM_Managed_CAD_Face_"></a> RemoveFace\(Face\)
+### RemoveFace\(Face\)
 
 Removes the face from topology list.
 
@@ -1101,7 +1101,7 @@ public void RemoveFace(Face face)
 
 The face.
 
-### <a id="VM_Managed_DAFUL_SetFace_ResetInvalidEntity"></a> ResetInvalidEntity\(\)
+### ResetInvalidEntity\(\)
 
 Reset invalid entity.
 
@@ -1109,7 +1109,7 @@ Reset invalid entity.
 public override void ResetInvalidEntity()
 ```
 
-### <a id="VM_Managed_DAFUL_SetFace_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -1122,4 +1122,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

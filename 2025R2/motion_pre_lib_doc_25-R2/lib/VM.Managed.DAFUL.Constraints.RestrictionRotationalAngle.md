@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_RestrictionRotationalAngle"></a> Class RestrictionRotationalAngle
+# Class RestrictionRotationalAngle
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -84,7 +84,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionRotationalAngle__ctor"></a> RestrictionRotationalAngle\(\)
+### RestrictionRotationalAngle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.RestrictionRotationalAngle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -94,7 +94,7 @@ public RestrictionRotationalAngle()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionRotationalAngle_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -107,4 +107,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IInitialize"></a> Interface IInitialize
+# Interface IInitialize
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IInitialize
 
 ## Methods
 
-### <a id="VM_Models_Pre_IInitialize_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 ```csharp
 void Initialize(Unit.ConvertFactor factor)
@@ -24,4 +24,5 @@ void Initialize(Unit.ConvertFactor factor)
 #### Parameters
 
 `factor` Unit.ConvertFactor
+
 

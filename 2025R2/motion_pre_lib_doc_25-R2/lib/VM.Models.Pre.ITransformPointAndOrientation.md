@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ITransformPointAndOrientation"></a> Interface ITransformPointAndOrientation
+# Interface ITransformPointAndOrientation
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -24,7 +24,7 @@ IHasID,
 
 ## Properties
 
-### <a id="VM_Models_Pre_ITransformPointAndOrientation_OrientationTerm"></a> OrientationTerm
+### OrientationTerm
 
 ```csharp
 IOrientationBase OrientationTerm { get; set; }
@@ -34,7 +34,7 @@ IOrientationBase OrientationTerm { get; set; }
 
  [IOrientationBase](VM.Models.Pre.IOrientationBase.md)
 
-### <a id="VM_Models_Pre_ITransformPointAndOrientation_PointTerm"></a> PointTerm
+### PointTerm
 
 ```csharp
 IPointBase PointTerm { get; set; }
@@ -43,4 +43,5 @@ IPointBase PointTerm { get; set; }
 #### Property Value
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
+
 

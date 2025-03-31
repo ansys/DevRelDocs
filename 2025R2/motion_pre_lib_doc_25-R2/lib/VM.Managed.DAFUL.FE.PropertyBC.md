@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_PropertyBC"></a> Class PropertyBC
+# Class PropertyBC
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -167,7 +167,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC__ctor"></a> PropertyBC\(\)
+### PropertyBC\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.PropertyBC" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ public PropertyBC()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_ConstrainedType"></a> ConstrainedType
+### ConstrainedType
 
 Gets or sets the boundary condition constrained type.
 
@@ -189,7 +189,7 @@ public PropertyBC.BCConstrainedType ConstrainedType { get; set; }
 
  [PropertyBC](VM.Managed.DAFUL.FE.PropertyBC.md).[BCConstrainedType](VM.Managed.DAFUL.FE.PropertyBC.BCConstrainedType.md)
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_IsConstrainedRX"></a> IsConstrainedRX
+### IsConstrainedRX
 
 Gets or sets a value indicating whether this instance is constrained rotational X coordinate.
 
@@ -201,7 +201,7 @@ public bool IsConstrainedRX { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_IsConstrainedRY"></a> IsConstrainedRY
+### IsConstrainedRY
 
 Gets or sets a value indicating whether this instance is constrained rotational Y coordinate.
 
@@ -213,7 +213,7 @@ public bool IsConstrainedRY { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_IsConstrainedRZ"></a> IsConstrainedRZ
+### IsConstrainedRZ
 
 Gets or sets a value indicating whether this instance is constrained rotational Z coordinate.
 
@@ -225,7 +225,7 @@ public bool IsConstrainedRZ { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_IsConstrainedTX"></a> IsConstrainedTX
+### IsConstrainedTX
 
 Gets or sets a value indicating whether this instance is constrained translational X coordinate.
 
@@ -237,7 +237,7 @@ public bool IsConstrainedTX { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_IsConstrainedTY"></a> IsConstrainedTY
+### IsConstrainedTY
 
 Gets or sets a value indicating whether this instance is constrained translational Y coordinate.
 
@@ -249,7 +249,7 @@ public bool IsConstrainedTY { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_IsConstrainedTZ"></a> IsConstrainedTZ
+### IsConstrainedTZ
 
 Gets or sets a value indicating whether this instance is constrained translational Z coordinate.
 
@@ -263,7 +263,7 @@ public bool IsConstrainedTZ { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -277,7 +277,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_SetInLine"></a> SetInLine\(\)
+### SetInLine\(\)
 
 Sets the on plane among the BCConstrained Types.
 
@@ -285,7 +285,7 @@ Sets the on plane among the BCConstrained Types.
 public void SetInLine()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_SetOnPlane"></a> SetOnPlane\(\)
+### SetOnPlane\(\)
 
 Sets the on plane among the BCConstrained Types.
 
@@ -293,11 +293,12 @@ Sets the on plane among the BCConstrained Types.
 public void SetOnPlane()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_PropertyBC_SetRigid"></a> SetRigid\(\)
+### SetRigid\(\)
 
 Sets the on plane among the BCConstrained Types.
 
 ```csharp
 public void SetRigid()
 ```
+
 

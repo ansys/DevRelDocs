@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities_NBody"></a> Struct NBody
+# Struct NBody
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct NBody
 
 ## Properties
 
-### <a id="VM_Models_FE_Utilities_NBody_ID"></a> ID
+### ID
 
 ```csharp
 public uint ID { readonly get; set; }
@@ -19,7 +19,7 @@ public uint ID { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Models_FE_Utilities_NBody_Position"></a> Position
+### Position
 
 ```csharp
 public Vector Position { readonly get; set; }
@@ -28,4 +28,5 @@ public Vector Position { readonly get; set; }
 #### Property Value
 
  Vector
+
 

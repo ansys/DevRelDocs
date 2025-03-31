@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_CADImportResultType"></a> Enum CADImportResultType
+# Enum CADImportResultType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -20,6 +20,7 @@ Combine
 `Default = 0` 
 
 Default
+
 
 
 

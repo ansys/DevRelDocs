@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamCopy"></a> Class BuilderParamCopy
+# Class BuilderParamCopy
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -30,7 +30,7 @@ public class BuilderParamCopy : BuilderParamBase
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamCopy__ctor"></a> BuilderParamCopy\(\)
+### BuilderParamCopy\(\)
 
 ```csharp
 public BuilderParamCopy()
@@ -38,7 +38,7 @@ public BuilderParamCopy()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamCopy_KernelKey"></a> KernelKey
+### KernelKey
 
 ```csharp
 public KeyInfo KernelKey { get; set; }
@@ -47,4 +47,5 @@ public KeyInfo KernelKey { get; set; }
 #### Property Value
 
  [KeyInfo](VM.CAD.Builders.KeyInfo.md)
+
 

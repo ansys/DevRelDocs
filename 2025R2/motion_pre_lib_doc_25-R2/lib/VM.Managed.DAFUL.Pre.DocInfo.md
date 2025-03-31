@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_DocInfo"></a> Class DocInfo
+# Class DocInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -28,7 +28,7 @@ public class DocInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo__ctor"></a> DocInfo\(\)
+### DocInfo\(\)
 
 ```csharp
 public DocInfo()
@@ -36,7 +36,7 @@ public DocInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_ActiveModel"></a> ActiveModel
+### ActiveModel
 
 Gets or sets the active model.
 
@@ -48,7 +48,7 @@ public Model ActiveModel { get; set; }
 
  [Model](VM.Managed.DAFUL.Pre.Model.md)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_ActiveWork"></a> ActiveWork
+### ActiveWork
 
 Gets or sets the active work.
 
@@ -60,7 +60,7 @@ public Work ActiveWork { get; set; }
 
  [Work](VM.Managed.DAFUL.Pre.Work.md)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Description"></a> Description
+### Description
 
 Gets or sets the description.
 
@@ -72,7 +72,7 @@ public string Description { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Designer"></a> Designer
+### Designer
 
 Gets or sets the designer.
 
@@ -84,7 +84,7 @@ public string Designer { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_DocCreateInfo"></a> DocCreateInfo
+### DocCreateInfo
 
 Gets or sets the doc create info.
 
@@ -96,7 +96,7 @@ public DocCreateInfo DocCreateInfo { get; set; }
 
  DocCreateInfo
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_DocumentType"></a> DocumentType
+### DocumentType
 
 Gets the type of the document.
 
@@ -108,7 +108,7 @@ public Type DocumentType { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Extension"></a> Extension
+### Extension
 
 Gets or sets the extension.
 
@@ -120,7 +120,7 @@ public string Extension { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Filter"></a> Filter
+### Filter
 
 Gets or sets the filter.
 
@@ -132,7 +132,7 @@ public string Filter { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Group"></a> Group
+### Group
 
 Gets or sets the group.
 
@@ -144,7 +144,7 @@ public string Group { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Handle"></a> Handle
+### Handle
 
 Gets or sets the handle.
 
@@ -156,7 +156,7 @@ public UIntPtr Handle { get; set; }
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Helper"></a> Helper
+### Helper
 
 Gets or sets the helper.
 
@@ -168,7 +168,7 @@ public IDocInfoHelper Helper { set; }
 
  [IDocInfoHelper](VM.Managed.DAFUL.Pre.IDocInfoHelper.md)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Hidden"></a> Hidden
+### Hidden
 
 Gets or sets the hidden state.
 
@@ -180,7 +180,7 @@ public string Hidden { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Icon"></a> Icon
+### Icon
 
 Gets or sets the icon.
 
@@ -192,7 +192,7 @@ public Icon Icon { get; }
 
  [Icon](https://learn.microsoft.com/dotnet/api/system.drawing.icon)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_IconFile"></a> IconFile
+### IconFile
 
 Gets or sets the icon file.
 
@@ -204,7 +204,7 @@ public string IconFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_IsFailedLicense"></a> IsFailedLicense
+### IsFailedLicense
 
 Gets a value indicating whether this instance's license is failed.
 
@@ -216,7 +216,7 @@ public bool IsFailedLicense { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Mode"></a> Mode
+### Mode
 
 Gets or sets the mode.
 
@@ -228,7 +228,7 @@ public string Mode { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Modules"></a> Modules
+### Modules
 
 Gets or sets the module files.
 
@@ -240,7 +240,7 @@ public string[] Modules { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -252,7 +252,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Navigator"></a> Navigator
+### Navigator
 
 Gets or sets the navigator.
 
@@ -264,7 +264,7 @@ public string Navigator { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_NewDocumentName"></a> NewDocumentName
+### NewDocumentName
 
 Gets the new name of the document.
 
@@ -276,7 +276,7 @@ public string NewDocumentName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_NewFormType"></a> NewFormType
+### NewFormType
 
 Gets or sets the new type of the form.
 
@@ -288,7 +288,7 @@ public string NewFormType { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Toolkit"></a> Toolkit
+### Toolkit
 
 Gets or sets the toolkit.
 
@@ -300,7 +300,7 @@ public string Toolkit { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_Type"></a> Type
+### Type
 
 Gets or sets the type.
 
@@ -312,7 +312,7 @@ public string Type { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_TypeID"></a> TypeID
+### TypeID
 
 Gets or sets the type ID.
 
@@ -324,7 +324,7 @@ public string TypeID { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_TypeName"></a> TypeName
+### TypeName
 
 Gets or sets the name of the type.
 
@@ -336,7 +336,7 @@ public string TypeName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_DocInfo_UntitledDocCount"></a> UntitledDocCount
+### UntitledDocCount
 
 Gets or sets the untitled doc count.
 
@@ -347,4 +347,5 @@ public uint UntitledDocCount { get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 

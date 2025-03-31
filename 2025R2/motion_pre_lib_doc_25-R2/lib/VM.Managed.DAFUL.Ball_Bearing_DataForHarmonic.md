@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic"></a> Class Ball\_Bearing\_DataForHarmonic
+# Class Ball\_Bearing\_DataForHarmonic
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDHarmonicDrive.dll  
@@ -20,7 +20,7 @@ public class Ball_Bearing_DataForHarmonic
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic__ctor"></a> Ball\_Bearing\_DataForHarmonic\(\)
+### Ball\_Bearing\_DataForHarmonic\(\)
 
 ```csharp
 public Ball_Bearing_DataForHarmonic()
@@ -28,7 +28,7 @@ public Ball_Bearing_DataForHarmonic()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_A"></a> A
+### A
 
 ```csharp
 public double A
@@ -38,7 +38,7 @@ public double A
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_B"></a> B
+### B
 
 ```csharp
 public double B
@@ -48,7 +48,7 @@ public double B
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_D"></a> D
+### D
 
 ```csharp
 public double D
@@ -58,7 +58,7 @@ public double D
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_DV_ball_no"></a> DV\_ball\_no
+### DV\_ball\_no
 
 ```csharp
 public int DV_ball_no
@@ -68,7 +68,7 @@ public int DV_ball_no
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_DV_ball_r"></a> DV\_ball\_r
+### DV\_ball\_r
 
 ```csharp
 public double DV_ball_r
@@ -78,7 +78,7 @@ public double DV_ball_r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_E_or"></a> E\_or
+### E\_or
 
 ```csharp
 public double E_or
@@ -88,7 +88,7 @@ public double E_or
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ep_i"></a> Ep\_i
+### Ep\_i
 
 ```csharp
 public double Ep_i
@@ -98,7 +98,7 @@ public double Ep_i
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ep_o"></a> Ep\_o
+### Ep\_o
 
 ```csharp
 public double Ep_o
@@ -108,7 +108,7 @@ public double Ep_o
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Fa"></a> Fa
+### Fa
 
 ```csharp
 public double Fa
@@ -118,7 +118,7 @@ public double Fa
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Fr"></a> Fr
+### Fr
 
 ```csharp
 public double Fr
@@ -128,7 +128,7 @@ public double Fr
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Frho_i"></a> Frho\_i
+### Frho\_i
 
 ```csharp
 public double Frho_i
@@ -138,7 +138,7 @@ public double Frho_i
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Frho_o"></a> Frho\_o
+### Frho\_o
 
 ```csharp
 public double Frho_o
@@ -148,7 +148,7 @@ public double Frho_o
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ki"></a> Ki
+### Ki
 
 ```csharp
 public double Ki
@@ -158,7 +158,7 @@ public double Ki
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Kn"></a> Kn
+### Kn
 
 ```csharp
 public double Kn
@@ -168,7 +168,7 @@ public double Kn
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ko"></a> Ko
+### Ko
 
 ```csharp
 public double Ko
@@ -178,7 +178,7 @@ public double Ko
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_L"></a> L
+### L
 
 ```csharp
 public double L
@@ -188,7 +188,7 @@ public double L
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_in_groove_r"></a> PARAM\_HD\_BRG\_in\_groove\_r
+### PARAM\_HD\_BRG\_in\_groove\_r
 
 ```csharp
 public double PARAM_HD_BRG_in_groove_r
@@ -198,7 +198,7 @@ public double PARAM_HD_BRG_in_groove_r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_in_raceway_r"></a> PARAM\_HD\_BRG\_in\_raceway\_r
+### PARAM\_HD\_BRG\_in\_raceway\_r
 
 ```csharp
 public double PARAM_HD_BRG_in_raceway_r
@@ -208,7 +208,7 @@ public double PARAM_HD_BRG_in_raceway_r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_out_groove_r"></a> PARAM\_HD\_BRG\_out\_groove\_r
+### PARAM\_HD\_BRG\_out\_groove\_r
 
 ```csharp
 public double PARAM_HD_BRG_out_groove_r
@@ -218,7 +218,7 @@ public double PARAM_HD_BRG_out_groove_r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_out_raceway_r"></a> PARAM\_HD\_BRG\_out\_raceway\_r
+### PARAM\_HD\_BRG\_out\_raceway\_r
 
 ```csharp
 public double PARAM_HD_BRG_out_raceway_r
@@ -228,7 +228,7 @@ public double PARAM_HD_BRG_out_raceway_r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_raceway_in_mat_E"></a> PARAM\_HD\_BRG\_raceway\_in\_mat\_E
+### PARAM\_HD\_BRG\_raceway\_in\_mat\_E
 
 ```csharp
 public double PARAM_HD_BRG_raceway_in_mat_E
@@ -238,7 +238,7 @@ public double PARAM_HD_BRG_raceway_in_mat_E
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_BRG_raceway_in_mat_v"></a> PARAM\_HD\_BRG\_raceway\_in\_mat\_v
+### PARAM\_HD\_BRG\_raceway\_in\_mat\_v
 
 ```csharp
 public double PARAM_HD_BRG_raceway_in_mat_v
@@ -248,7 +248,7 @@ public double PARAM_HD_BRG_raceway_in_mat_v
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_ball_mat_E"></a> PARAM\_HD\_ball\_mat\_E
+### PARAM\_HD\_ball\_mat\_E
 
 ```csharp
 public double PARAM_HD_ball_mat_E
@@ -258,7 +258,7 @@ public double PARAM_HD_ball_mat_E
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_PARAM_HD_ball_mat_v"></a> PARAM\_HD\_ball\_mat\_v
+### PARAM\_HD\_ball\_mat\_v
 
 ```csharp
 public double PARAM_HD_ball_mat_v
@@ -268,7 +268,7 @@ public double PARAM_HD_ball_mat_v
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Ri"></a> Ri
+### Ri
 
 ```csharp
 public double Ri
@@ -278,7 +278,7 @@ public double Ri
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Srho_i"></a> Srho\_i
+### Srho\_i
 
 ```csharp
 public double Srho_i
@@ -288,7 +288,7 @@ public double Srho_i
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Srho_o"></a> Srho\_o
+### Srho\_o
 
 ```csharp
 public double Srho_o
@@ -298,7 +298,7 @@ public double Srho_o
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_alpha"></a> alpha
+### alpha
 
 ```csharp
 public double alpha
@@ -308,7 +308,7 @@ public double alpha
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_alpha_zero"></a> alpha\_zero
+### alpha\_zero
 
 ```csharp
 public double alpha_zero
@@ -318,7 +318,7 @@ public double alpha_zero
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_angle_inc"></a> angle\_inc
+### angle\_inc
 
 ```csharp
 public double angle_inc
@@ -328,7 +328,7 @@ public double angle_inc
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_astar"></a> astar
+### astar
 
 ```csharp
 public double astar
@@ -338,7 +338,7 @@ public double astar
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_bstar"></a> bstar
+### bstar
 
 ```csharp
 public double bstar
@@ -348,7 +348,7 @@ public double bstar
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_clearance"></a> clearance
+### clearance
 
 ```csharp
 public double clearance
@@ -358,7 +358,7 @@ public double clearance
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_d_i"></a> d\_i
+### d\_i
 
 ```csharp
 public double d_i
@@ -368,7 +368,7 @@ public double d_i
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_d_o"></a> d\_o
+### d\_o
 
 ```csharp
 public double d_o
@@ -378,7 +378,7 @@ public double d_o
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_delta_a"></a> delta\_a
+### delta\_a
 
 ```csharp
 public double delta_a
@@ -388,7 +388,7 @@ public double delta_a
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_delta_r"></a> delta\_r
+### delta\_r
 
 ```csharp
 public double delta_r
@@ -398,7 +398,7 @@ public double delta_r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_deltastar_i"></a> deltastar\_i
+### deltastar\_i
 
 ```csharp
 public double deltastar_i
@@ -408,7 +408,7 @@ public double deltastar_i
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_deltastar_o"></a> deltastar\_o
+### deltastar\_o
 
 ```csharp
 public double deltastar_o
@@ -418,7 +418,7 @@ public double deltastar_o
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_dm"></a> dm
+### dm
 
 ```csharp
 public double dm
@@ -428,7 +428,7 @@ public double dm
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_fi"></a> fi
+### fi
 
 ```csharp
 public double fi
@@ -438,7 +438,7 @@ public double fi
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_fo"></a> fo
+### fo
 
 ```csharp
 public double fo
@@ -448,7 +448,7 @@ public double fo
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_init_angle"></a> init\_angle
+### init\_angle
 
 ```csharp
 public double init_angle
@@ -458,7 +458,7 @@ public double init_angle
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_pd"></a> pd
+### pd
 
 ```csharp
 public double pd
@@ -468,7 +468,7 @@ public double pd
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_theta"></a> theta
+### theta
 
 ```csharp
 public double theta
@@ -478,7 +478,7 @@ public double theta
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_v_or"></a> v\_or
+### v\_or
 
 ```csharp
 public double v_or
@@ -490,9 +490,10 @@ public double v_or
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic_Recover_Aux_SPEC"></a> Recover\_Aux\_SPEC\(\)
+### Recover\_Aux\_SPEC\(\)
 
 ```csharp
 public void Recover_Aux_SPEC()
 ```
+
 

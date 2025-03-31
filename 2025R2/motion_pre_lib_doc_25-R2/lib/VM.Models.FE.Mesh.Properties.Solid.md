@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Properties_Solid"></a> Class Solid
+# Class Solid
 
 Namespace: [VM.Models.FE.Mesh.Properties](VM.Models.FE.Mesh.Properties.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -40,7 +40,7 @@ public class Solid : Entity, IEntity
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Properties_Solid__ctor"></a> Solid\(\)
+### Solid\(\)
 
 ```csharp
 public Solid()
@@ -48,7 +48,7 @@ public Solid()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Properties_Solid_MarkerId"></a> MarkerId
+### MarkerId
 
 ```csharp
 [Column]
@@ -59,7 +59,7 @@ public int MarkerId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_FE_Mesh_Properties_Solid_MaterialId"></a> MaterialId
+### MaterialId
 
 ```csharp
 [Column]
@@ -72,7 +72,7 @@ public int MaterialId { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_FE_Mesh_Properties_Solid_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -85,4 +85,5 @@ public override bool Equals(object obj)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

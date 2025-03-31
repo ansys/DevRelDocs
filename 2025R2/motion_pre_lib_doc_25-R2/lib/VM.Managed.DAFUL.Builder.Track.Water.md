@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_Water"></a> Class Water
+# Class Water
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -53,7 +53,7 @@ BuilderBase<Water\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Track_Water__ctor"></a> Water\(\)
+### Water\(\)
 
 ```csharp
 public Water()
@@ -61,7 +61,7 @@ public Water()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Track_Water_BodyConnectable"></a> BodyConnectable
+### BodyConnectable
 
 ```csharp
 public IConnectable BodyConnectable { get; }
@@ -71,7 +71,7 @@ public IConnectable BodyConnectable { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_Builder_Track_Water_DepthOfDeepWater"></a> DepthOfDeepWater
+### DepthOfDeepWater
 
 ```csharp
 public Variable DepthOfDeepWater { get; set; }
@@ -81,7 +81,7 @@ public Variable DepthOfDeepWater { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Track_Water_DirectionX"></a> DirectionX
+### DirectionX
 
 ```csharp
 public DirectionBase DirectionX { get; }
@@ -91,7 +91,7 @@ public DirectionBase DirectionX { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_Track_Water_DirectionZ"></a> DirectionZ
+### DirectionZ
 
 ```csharp
 public DirectionBase DirectionZ { get; }
@@ -101,7 +101,7 @@ public DirectionBase DirectionZ { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_Track_Water_LengthInXAxis"></a> LengthInXAxis
+### LengthInXAxis
 
 ```csharp
 public Variable LengthInXAxis { get; set; }
@@ -111,7 +111,7 @@ public Variable LengthInXAxis { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Track_Water_Position"></a> Position
+### Position
 
 ```csharp
 public PointBase Position { get; }
@@ -121,7 +121,7 @@ public PointBase Position { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_Track_Water_WidthInYAxis"></a> WidthInYAxis
+### WidthInYAxis
 
 ```csharp
 public Variable WidthInYAxis { get; set; }
@@ -133,7 +133,7 @@ public Variable WidthInYAxis { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Track_Water_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -148,4 +148,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

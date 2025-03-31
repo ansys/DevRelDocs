@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupFile"></a> Class BuilderBeamGroupFile
+# Class BuilderBeamGroupFile
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -69,7 +69,7 @@ BuilderBase<BeamGroup\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupFile__ctor"></a> BuilderBeamGroupFile\(\)
+### BuilderBeamGroupFile\(\)
 
 ```csharp
 public BuilderBeamGroupFile()
@@ -77,7 +77,7 @@ public BuilderBeamGroupFile()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupFile_AddToDoc"></a> AddToDoc
+### AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -87,7 +87,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupFile_PropertyFilePath"></a> PropertyFilePath
+### PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -99,7 +99,7 @@ public string PropertyFilePath { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupFile_SetInputResultData"></a> SetInputResultData\(\)
+### SetInputResultData\(\)
 
 ```csharp
 protected override bool SetInputResultData()
@@ -108,4 +108,5 @@ protected override bool SetInputResultData()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

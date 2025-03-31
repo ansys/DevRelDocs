@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsWithDirectionParam"></a> Class ImprintUtil.FindNearestPointsWithDirectionParam
+# Class ImprintUtil.FindNearestPointsWithDirectionParam
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  
@@ -28,7 +28,7 @@ public class ImprintUtil.FindNearestPointsWithDirectionParam : ImprintUtil.FindN
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsWithDirectionParam__ctor"></a> FindNearestPointsWithDirectionParam\(\)
+### FindNearestPointsWithDirectionParam\(\)
 
 ```csharp
 public FindNearestPointsWithDirectionParam()
@@ -36,7 +36,7 @@ public FindNearestPointsWithDirectionParam()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsWithDirectionParam_Direction"></a> Direction
+### Direction
 
 Gets and sets the direction.
 
@@ -47,4 +47,5 @@ public Vector Direction { get; set; }
 #### Property Value
 
  Vector
+
 

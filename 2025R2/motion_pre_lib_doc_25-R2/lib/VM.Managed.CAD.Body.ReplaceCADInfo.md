@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Body_ReplaceCADInfo"></a> Class Body.ReplaceCADInfo
+# Class Body.ReplaceCADInfo
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class Body.ReplaceCADInfo
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Body_ReplaceCADInfo__ctor_System_String_System_String_System_Drawing_Color_"></a> ReplaceCADInfo\(string, string, Color\)
+### ReplaceCADInfo\(string, string, Color\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Body.ReplaceCADInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ The CAD color.
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Body_ReplaceCADInfo_CADFilePath"></a> CADFilePath
+### CADFilePath
 
 Gets or sets the CAD file path.
 
@@ -58,7 +58,7 @@ public string CADFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CAD_Body_ReplaceCADInfo_Color"></a> Color
+### Color
 
 Gets or sets the CAD color.
 
@@ -70,7 +70,7 @@ public Color Color { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_CAD_Body_ReplaceCADInfo_NameAttribute"></a> NameAttribute
+### NameAttribute
 
 Gets or sets the name attribute.
 
@@ -81,4 +81,5 @@ public string NameAttribute { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

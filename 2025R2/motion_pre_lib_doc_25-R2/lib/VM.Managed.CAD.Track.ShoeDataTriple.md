@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeDataTriple"></a> Class ShoeDataTriple
+# Class ShoeDataTriple
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -128,7 +128,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple__ctor"></a> ShoeDataTriple\(\)
+### ShoeDataTriple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataTriple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -136,7 +136,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataTripl
 public ShoeDataTriple()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple__ctor_VM_Models_Pre_IOwned_"></a> ShoeDataTriple\(IOwned\)
+### ShoeDataTriple\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataTriple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -152,7 +152,7 @@ The owner object.
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_SecondGH"></a> SecondGH
+### SecondGH
 
 Gets and sets height of second grouser .
 
@@ -164,7 +164,7 @@ public ExpressionValueVariable SecondGH { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_SecondGLW"></a> SecondGLW
+### SecondGLW
 
 Gets and sets lower width of second grouser.
 
@@ -176,7 +176,7 @@ public ExpressionValueVariable SecondGLW { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_SecondGUW"></a> SecondGUW
+### SecondGUW
 
 Gets and sets upper width of second grouser
 
@@ -188,7 +188,7 @@ public ExpressionValueVariable SecondGUW { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_ShoeDistance2"></a> ShoeDistance2
+### ShoeDistance2
 
 Gets and sets longitudinal distance from reference position to second grouser center.
 
@@ -200,7 +200,7 @@ public ExpressionValueVariable ShoeDistance2 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_ShoeDistance3"></a> ShoeDistance3
+### ShoeDistance3
 
 Gets and sets longitudinal distance from reference position to third grouser center.
 
@@ -212,7 +212,7 @@ public ExpressionValueVariable ShoeDistance3 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_TailHeight"></a> TailHeight
+### TailHeight
 
 Gets and sets height for tail.
 
@@ -224,7 +224,7 @@ public ExpressionValueVariable TailHeight { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_ThirdGH"></a> ThirdGH
+### ThirdGH
 
 Gets and sets height of third grouser .
 
@@ -236,7 +236,7 @@ public ExpressionValueVariable ThirdGH { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_ThirdGLW"></a> ThirdGLW
+### ThirdGLW
 
 Gets and sets lower width of third grouser.
 
@@ -248,7 +248,7 @@ public ExpressionValueVariable ThirdGLW { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_ThirdGUW"></a> ThirdGUW
+### ThirdGUW
 
 Gets and sets upper width of third grouser
 
@@ -262,7 +262,7 @@ public ExpressionValueVariable ThirdGUW { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_GetPoints_XYPlane"></a> GetPoints\_XYPlane\(\)
+### GetPoints\_XYPlane\(\)
 
 Gets the profile data of shoe.
 
@@ -276,11 +276,12 @@ public override List<VectorBase> GetPoints_XYPlane()
 
 The Points
 
-### <a id="VM_Managed_CAD_Track_ShoeDataTriple_Validation"></a> Validation\(\)
+### Validation\(\)
 
 Checks the validation .
 
 ```csharp
 public override void Validation()
 ```
+
 

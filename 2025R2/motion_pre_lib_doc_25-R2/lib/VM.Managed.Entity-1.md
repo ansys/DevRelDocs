@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Entity_1"></a> Class Entity<TProperty\>
+# Class Entity<TProperty\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -202,7 +202,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Entity_1__ctor"></a> Entity\(\)
+### Entity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Entity%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -210,7 +210,7 @@ Initializes a new instance of the <xref href="VM.Managed.Entity%601" data-throw-
 protected Entity()
 ```
 
-### <a id="VM_Managed_Entity_1__ctor_System_String_"></a> Entity\(string\)
+### Entity\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Entity%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -226,7 +226,7 @@ Name of the entity.
 
 ## Properties
 
-### <a id="VM_Managed_Entity_1_Property"></a> Property
+### Property
 
 Gets or sets the property.
 
@@ -240,7 +240,7 @@ public TProperty Property { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Entity_1_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -260,7 +260,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_Entity_1_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -278,7 +278,7 @@ The ob unnamed.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Entity_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -291,4 +291,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

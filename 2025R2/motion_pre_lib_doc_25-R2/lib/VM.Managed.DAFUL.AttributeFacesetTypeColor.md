@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeFacesetTypeColor"></a> Class AttributeFacesetTypeColor
+# Class AttributeFacesetTypeColor
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_AttributeFacesetTypeColor__ctor"></a> AttributeFacesetTypeColor\(\)
+### AttributeFacesetTypeColor\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeFacesetTypeBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ public AttributeFacesetTypeColor()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_AttributeFacesetTypeColor_ColorList"></a> ColorList
+### ColorList
 
 Gets or sets the list of argb color value.
 
@@ -122,4 +122,5 @@ public List<int> ColorList { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+
 

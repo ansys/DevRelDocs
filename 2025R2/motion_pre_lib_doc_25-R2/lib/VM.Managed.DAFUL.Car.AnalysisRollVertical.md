@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical"></a> Class AnalysisRollVertical
+# Class AnalysisRollVertical
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -43,7 +43,7 @@ public class AnalysisRollVertical : SuspensionAnalysisBase
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical__ctor"></a> AnalysisRollVertical\(\)
+### AnalysisRollVertical\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRollVertical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRollV
 public AnalysisRollVertical()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisRollVertical\(ILinkContainer\)
+### AnalysisRollVertical\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRollVertical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_RollAngleLowerValue"></a> RollAngleLowerValue
+### RollAngleLowerValue
 
 Gets or sets the roll angle lower.
 
@@ -79,7 +79,7 @@ public double RollAngleLowerValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_RollAngleUpperValue"></a> RollAngleUpperValue
+### RollAngleUpperValue
 
 Gets or sets the roll angle upper.
 
@@ -91,7 +91,7 @@ public double RollAngleUpperValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_SteeringFunctionArgument"></a> SteeringFunctionArgument
+### SteeringFunctionArgument
 
 Gets the steering function argument.
 
@@ -103,7 +103,7 @@ public override string SteeringFunctionArgument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_SteeringPosition"></a> SteeringPosition
+### SteeringPosition
 
 Gets or sets the steering input.
 
@@ -115,7 +115,7 @@ public double SteeringPosition { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_TotalVerticalForceValue"></a> TotalVerticalForceValue
+### TotalVerticalForceValue
 
 Gets or sets the total vertical force.
 
@@ -129,7 +129,7 @@ public double TotalVerticalForceValue { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_GetDataForLoadCase_System_Int32_System_Collections_Generic_Dictionary_VM_Managed_DAFUL_Car_SuspensionLoadCase_Column_System_Double____VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_"></a> GetDataForLoadCase\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
+### GetDataForLoadCase\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
 
 Gets the data for load case.
 
@@ -151,7 +151,7 @@ The column information.
 
 The mode.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -165,7 +165,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 The parameter array.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_GetXmlData_System_Xml_XmlWriter_"></a> GetXmlData\(XmlWriter\)
+### GetXmlData\(XmlWriter\)
 
 Gets the XML data.
 
@@ -179,7 +179,7 @@ public override void GetXmlData(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_SetDataForLoadCase_VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_"></a> SetDataForLoadCase\(SuspensionMode\)
+### SetDataForLoadCase\(SuspensionMode\)
 
 Sets the data for load case.
 
@@ -193,7 +193,7 @@ public override void SetDataForLoadCase(SuspensionLoadCase.SuspensionMode mode)
 
 The mode.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical_SetXmlData_System_Xml_XmlReader_"></a> SetXmlData\(XmlReader\)
+### SetXmlData\(XmlReader\)
 
 Sets the XML data.
 
@@ -206,4 +206,5 @@ public override void SetXmlData(XmlReader reader)
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
 The reader.
+
 

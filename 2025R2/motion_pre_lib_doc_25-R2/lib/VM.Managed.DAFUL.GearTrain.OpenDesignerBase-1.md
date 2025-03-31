@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1"></a> Class OpenDesignerBase<TProperty\>
+# Class OpenDesignerBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -210,7 +210,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1__ctor"></a> OpenDesignerBase\(\)
+### OpenDesignerBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.OpenDesignerBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -218,7 +218,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.OpenDes
 public OpenDesignerBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1__ctor_System_String_"></a> OpenDesignerBase\(string\)
+### OpenDesignerBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.OpenDesignerBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -234,7 +234,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_Extension"></a> Extension
+### Extension
 
 Gets the extension.
 
@@ -246,7 +246,7 @@ protected virtual string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -258,7 +258,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_Referencable"></a> Referencable
+### Referencable
 
 Gets a value indicating whether this <xref href="VM.Managed.DAFUL.Connector%601" data-throw-if-not-resolved="false"></xref> is referencable.
 
@@ -270,7 +270,7 @@ public bool Referencable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_TargetBody"></a> TargetBody
+### TargetBody
 
 Gets the target body.
 
@@ -282,7 +282,7 @@ public virtual ObjectBase[] TargetBody { get; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_TypeFileName"></a> TypeFileName
+### TypeFileName
 
 Gets the name of the type file.
 
@@ -294,7 +294,7 @@ public virtual string TypeFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_TypeOfParent"></a> TypeOfParent
+### TypeOfParent
 
 Gets the type of parent.
 
@@ -310,7 +310,7 @@ public virtual ParentType TypeOfParent { get; }
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_Visible"></a> Visible
+### Visible
 
 Gets a value indicating whether this <xref href="VM.Managed.DAFUL.Connector%601" data-throw-if-not-resolved="false"></xref> is visible.
 
@@ -324,7 +324,7 @@ public bool Visible { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_CheckLicense"></a> CheckLicense\(\)
+### CheckLicense\(\)
 
 Check license.
 
@@ -332,7 +332,7 @@ Check license.
 protected void CheckLicense()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_FindBody_VM_Managed_ObjectBase_"></a> FindBody\(ObjectBase\)
+### FindBody\(ObjectBase\)
 
 Finds the body.
 
@@ -350,7 +350,7 @@ The object.
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_GetFilePath"></a> GetFilePath\(\)
+### GetFilePath\(\)
 
 Gets the file path.
 
@@ -362,7 +362,7 @@ protected virtual string GetFilePath()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_Instantiate_VM_Managed_Reference_VM_CAD_Kernel_Render_Canvas_"></a> Instantiate\(Reference, Canvas\)
+### Instantiate\(Reference, Canvas\)
 
 Instantiates the specified reference.
 
@@ -380,7 +380,7 @@ The reference.
 
 The canvas.
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -398,7 +398,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_MakeReference_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReference\(LinkedList<Reference\>\)
+### MakeReference\(LinkedList<Reference\>\)
 
 ```csharp
 public void MakeReference(LinkedList<Reference> lstRef)
@@ -408,7 +408,7 @@ public void MakeReference(LinkedList<Reference> lstRef)
 
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -422,7 +422,7 @@ protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_PostOpenDocument_VM_Managed_Document_"></a> PostOpenDocument\(Document\)
+### PostOpenDocument\(Document\)
 
 Post open document.
 
@@ -436,7 +436,7 @@ protected virtual void PostOpenDocument(Document doc)
 
 The hidden document.
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_ResetViewOptions"></a> ResetViewOptions\(\)
+### ResetViewOptions\(\)
 
 Reset view option.
 
@@ -444,7 +444,7 @@ Reset view option.
 protected void ResetViewOptions()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_SetCustomFilterEvent_System_Object_"></a> SetCustomFilterEvent\(object\)
+### SetCustomFilterEvent\(object\)
 
 Sets the custom filter event.
 
@@ -458,7 +458,7 @@ public void SetCustomFilterEvent(object picker)
 
 The picker.
 
-### <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
+### SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -473,4 +473,5 @@ public virtual Document SetDataToDesignDoc(bool bRecord)
 #### Returns
 
  Document
+
 

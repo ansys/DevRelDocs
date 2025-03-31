@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_LinkBaseAttribute"></a> Class LinkBaseAttribute
+# Class LinkBaseAttribute
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  
@@ -26,7 +26,7 @@ public abstract class LinkBaseAttribute : Attribute
 
 ## Constructors
 
-### <a id="VM_Models_Pre_LinkBaseAttribute__ctor"></a> LinkBaseAttribute\(\)
+### LinkBaseAttribute\(\)
 
 ```csharp
 protected LinkBaseAttribute()
@@ -34,7 +34,7 @@ protected LinkBaseAttribute()
 
 ## Properties
 
-### <a id="VM_Models_Pre_LinkBaseAttribute_CacheItems"></a> CacheItems
+### CacheItems
 
 ```csharp
 public IEnumerable CacheItems { get; }
@@ -44,7 +44,7 @@ public IEnumerable CacheItems { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-### <a id="VM_Models_Pre_LinkBaseAttribute_IsCacheEmpty"></a> IsCacheEmpty
+### IsCacheEmpty
 
 ```csharp
 public bool IsCacheEmpty { get; }
@@ -56,7 +56,7 @@ public bool IsCacheEmpty { get; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_LinkBaseAttribute_AddCache_System_String_System_IDisposable_"></a> AddCache\(string, IDisposable\)
+### AddCache\(string, IDisposable\)
 
 ```csharp
 protected void AddCache(string propertyName, IDisposable subscriber)
@@ -68,19 +68,19 @@ protected void AddCache(string propertyName, IDisposable subscriber)
 
 `subscriber` [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
-### <a id="VM_Models_Pre_LinkBaseAttribute_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
 
-### <a id="VM_Models_Pre_LinkBaseAttribute_DisposeManagedResources"></a> DisposeManagedResources\(\)
+### DisposeManagedResources\(\)
 
 ```csharp
 protected virtual void DisposeManagedResources()
 ```
 
-### <a id="VM_Models_Pre_LinkBaseAttribute_Initialize_System_Object_"></a> Initialize\(object\)
+### Initialize\(object\)
 
 ```csharp
 public void Initialize(object owner)
@@ -90,7 +90,7 @@ public void Initialize(object owner)
 
 `owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Models_Pre_LinkBaseAttribute_InitializeProperty_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__"></a> InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
+### InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
 
 ```csharp
 protected abstract void InitializeProperty(object owner, IEnumerable<PropertyInfo> propertyInfos)
@@ -102,7 +102,7 @@ protected abstract void InitializeProperty(object owner, IEnumerable<PropertyInf
 
 `propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
 
-### <a id="VM_Models_Pre_LinkBaseAttribute_Unsubscribe_System_String_"></a> Unsubscribe\(string\)
+### Unsubscribe\(string\)
 
 ```csharp
 protected void Unsubscribe(string propertyName)
@@ -111,4 +111,5 @@ protected void Unsubscribe(string propertyName)
 #### Parameters
 
 `propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

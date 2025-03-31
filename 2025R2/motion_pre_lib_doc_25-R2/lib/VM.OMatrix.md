@@ -1,4 +1,4 @@
-# <a id="VM_OMatrix"></a> Struct OMatrix
+# Struct OMatrix
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -13,7 +13,7 @@ public struct OMatrix : IOMatrix
 
 ## Constructors
 
-### <a id="VM_OMatrix__ctor_VM_OMatrix_"></a> OMatrix\(OMatrix\)
+### OMatrix\(OMatrix\)
 
 Copy construct orientation matrix
 
@@ -27,7 +27,7 @@ public OMatrix(OMatrix mat)
 
 The matrix to copy
 
-### <a id="VM_OMatrix__ctor_VM_Plane_VM_Vector_VM_Vector_"></a> OMatrix\(Plane, Vector, Vector\)
+### OMatrix\(Plane, Vector, Vector\)
 
 Construct orientation matrix with two principal axis
 
@@ -49,7 +49,7 @@ The master axis
 
 The slave axis
 
-### <a id="VM_OMatrix__ctor_System_Double___"></a> OMatrix\(double\[\]\)
+### OMatrix\(double\[\]\)
 
 Construct orientation matrix with array of double
 
@@ -65,7 +65,7 @@ The array contains orientation matrix
 
 ## Properties
 
-### <a id="VM_OMatrix_Array"></a> Array
+### Array
 
 Get/Set the array of matrix value
 
@@ -77,7 +77,7 @@ public double[] Array { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_OMatrix_Identity"></a> Identity
+### Identity
 
 Gets the Identity Orientation Matrix.
 
@@ -89,7 +89,7 @@ public static OMatrix Identity { get; }
 
  [OMatrix](VM.OMatrix.md)
 
-### <a id="VM_OMatrix_XVector"></a> XVector
+### XVector
 
 Get/Set X vector of matrix
 
@@ -101,7 +101,7 @@ public Vector XVector { get; set; }
 
  [Vector](VM.Vector.md)
 
-### <a id="VM_OMatrix_YVector"></a> YVector
+### YVector
 
 Get/Set Y vector of matrix
 
@@ -113,7 +113,7 @@ public Vector YVector { get; set; }
 
  [Vector](VM.Vector.md)
 
-### <a id="VM_OMatrix_ZVector"></a> ZVector
+### ZVector
 
 Get/Set Z vector of matrix
 
@@ -125,7 +125,7 @@ public Vector ZVector { get; set; }
 
  [Vector](VM.Vector.md)
 
-### <a id="VM_OMatrix_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 Get/Set the specific vector of matrix
 
@@ -137,7 +137,7 @@ public Vector this[int nIndex] { get; set; }
 
  [Vector](VM.Vector.md)
 
-### <a id="VM_OMatrix_Item_VM_Coordinate_"></a> this\[Coordinate\]
+### this\[Coordinate\]
 
 Get/Set the specific vector of matrix
 
@@ -149,7 +149,7 @@ public Vector this[Coordinate enIndex] { get; set; }
 
  [Vector](VM.Vector.md)
 
-### <a id="VM_OMatrix_Item_System_Int32_System_Int32_"></a> this\[int, int\]
+### this\[int, int\]
 
 Get/Set the specific value of matrix element
 
@@ -161,7 +161,7 @@ public double this[int nRow, int nCol] { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_OMatrix_Item_VM_Coordinate_VM_Coordinate_"></a> this\[Coordinate, Coordinate\]
+### this\[Coordinate, Coordinate\]
 
 Get/Set the specific value of matrix element
 
@@ -175,7 +175,7 @@ public double this[Coordinate enRow, Coordinate enCol] { get; set; }
 
 ## Methods
 
-### <a id="VM_OMatrix_CopyTo_System_Double___System_Int32_"></a> CopyTo\(double\[\], int\)
+### CopyTo\(double\[\], int\)
 
 Copy matrix values to the array
 
@@ -193,7 +193,7 @@ The array values copied to
 
 The start index of array
 
-### <a id="VM_OMatrix_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -213,7 +213,7 @@ The object to compare.
 
 true if the objects are equal, otherwise false.
 
-### <a id="VM_OMatrix_GetDirectionVector_VM_Coordinate_"></a> GetDirectionVector\(Coordinate\)
+### GetDirectionVector\(Coordinate\)
 
 Get the direction vector for axis.
 
@@ -233,7 +233,7 @@ The type of axis.
 
 The direction vector.
 
-### <a id="VM_OMatrix_GetDirectionVector_System_Int32_"></a> GetDirectionVector\(int\)
+### GetDirectionVector\(int\)
 
 Get the direction vector for axis.
 
@@ -253,7 +253,7 @@ The type of axis.
 
 The direction vector.
 
-### <a id="VM_OMatrix_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Returns the hash code for this vector
 
@@ -267,7 +267,7 @@ public override int GetHashCode()
 
 A 32-bit signed integer hash code.
 
-### <a id="VM_OMatrix_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initialize the Orientation Matrix
 
@@ -275,7 +275,7 @@ Initialize the Orientation Matrix
 public void Initialize()
 ```
 
-### <a id="VM_OMatrix_Normalize"></a> Normalize\(\)
+### Normalize\(\)
 
 Normalize the Orientation Matrix
 
@@ -289,7 +289,7 @@ public void Normalize()
 
 The normalize operation failed .
 
-### <a id="VM_OMatrix_RotateAxisDeg_VM_Coordinate_System_Double_"></a> RotateAxisDeg\(Coordinate, double\)
+### RotateAxisDeg\(Coordinate, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -313,7 +313,7 @@ The degree.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_RotateAxisDeg_System_Int32_System_Double_"></a> RotateAxisDeg\(int, double\)
+### RotateAxisDeg\(int, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -331,7 +331,7 @@ The rotation coordinate.
 
 The degree.
 
-### <a id="VM_OMatrix_RotateAxisDeg_VM_Vector_System_Double_"></a> RotateAxisDeg\(Vector, double\)
+### RotateAxisDeg\(Vector, double\)
 
 To rotate counterclockwise for axis.
 
@@ -355,7 +355,7 @@ The degree.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_RotateAxisRad_VM_Coordinate_System_Double_"></a> RotateAxisRad\(Coordinate, double\)
+### RotateAxisRad\(Coordinate, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -379,7 +379,7 @@ The radian.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_RotateAxisRad_System_Int32_System_Double_"></a> RotateAxisRad\(int, double\)
+### RotateAxisRad\(int, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -397,7 +397,7 @@ The rotation coordinate.
 
 The radian.
 
-### <a id="VM_OMatrix_RotateAxisRad_VM_Vector_System_Double_"></a> RotateAxisRad\(Vector, double\)
+### RotateAxisRad\(Vector, double\)
 
 To rotate counterclockwise for axis.
 
@@ -421,7 +421,7 @@ The radian.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_RotateXDeg_System_Double_"></a> RotateXDeg\(double\)
+### RotateXDeg\(double\)
 
 To rotate counterclockwise for x-axis.
 
@@ -441,7 +441,7 @@ The degree.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_RotateXRad_System_Double_"></a> RotateXRad\(double\)
+### RotateXRad\(double\)
 
 To rotate counterclockwise for x-axis.
 
@@ -461,7 +461,7 @@ The radian.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_RotateYDeg_System_Double_"></a> RotateYDeg\(double\)
+### RotateYDeg\(double\)
 
 To rotate counterclockwise for y-axis.
 
@@ -481,7 +481,7 @@ The degree.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_RotateYRad_System_Double_"></a> RotateYRad\(double\)
+### RotateYRad\(double\)
 
 To rotate counterclockwise for y-axis.
 
@@ -501,7 +501,7 @@ The radian.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_RotateZDeg_System_Double_"></a> RotateZDeg\(double\)
+### RotateZDeg\(double\)
 
 To rotate counterclockwise for z-axis.
 
@@ -521,7 +521,7 @@ The degree.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_RotateZRad_System_Double_"></a> RotateZRad\(double\)
+### RotateZRad\(double\)
 
 To rotate counterclockwise for z-axis.
 
@@ -541,7 +541,7 @@ The radian.
 
 The rotate operation failed .
 
-### <a id="VM_OMatrix_SetOrientation_VM_Plane_VM_Vector_VM_Vector_"></a> SetOrientation\(Plane, Vector, Vector\)
+### SetOrientation\(Plane, Vector, Vector\)
 
 Set data of orientation.
 
@@ -569,7 +569,7 @@ The vector for slave.
 
 The set data of orientation operation failed .
 
-### <a id="VM_OMatrix_SetOrientation_VM_OMatrix_"></a> SetOrientation\(OMatrix\)
+### SetOrientation\(OMatrix\)
 
 Set data of orientation.
 
@@ -583,7 +583,7 @@ public void SetOrientation(OMatrix mat)
 
 The matrix of orientation.
 
-### <a id="VM_OMatrix_SetOrientation_System_Double___"></a> SetOrientation\(double\[\]\)
+### SetOrientation\(double\[\]\)
 
 Set data of orientation.
 
@@ -597,7 +597,7 @@ public void SetOrientation(double[] arr)
 
 The data of orientation.
 
-### <a id="VM_OMatrix_SetOrientationEADeg_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationEADeg\(RotationAxes, double, double, double\)
+### SetOrientationEADeg\(RotationAxes, double, double, double\)
 
 Set data of orientation for euler angle. Unit is degree.
 
@@ -629,7 +629,7 @@ The gamma of euler angle.
 
 The set data of orientation operation failed .
 
-### <a id="VM_OMatrix_SetOrientationEARad_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationEARad\(RotationAxes, double, double, double\)
+### SetOrientationEARad\(RotationAxes, double, double, double\)
 
 Set data of orientation for euler angle. Unit is radian.
 
@@ -661,7 +661,7 @@ The gamma of euler angle.
 
 The set data of orientation operation failed .
 
-### <a id="VM_OMatrix_SetOrientationFixedAngleDeg_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationFixedAngleDeg\(RotationAxes, double, double, double\)
+### SetOrientationFixedAngleDeg\(RotationAxes, double, double, double\)
 
 Set data of orientation for fixed angle. Unit is degree.
 
@@ -693,7 +693,7 @@ The gamma of fixed angle.
 
 The set data of orientation operation failed .
 
-### <a id="VM_OMatrix_SetOrientationFixedAngleRad_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationFixedAngleRad\(RotationAxes, double, double, double\)
+### SetOrientationFixedAngleRad\(RotationAxes, double, double, double\)
 
 Set data of orientation for fixed angle. Unit is radian.
 
@@ -725,7 +725,7 @@ The gamma of fixed angle.
 
 The set data of orientation operation failed .
 
-### <a id="VM_OMatrix_ToString"></a> ToString\(\)
+### ToString\(\)
 
 ```csharp
 public override string ToString()
@@ -735,7 +735,7 @@ public override string ToString()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_OMatrix_TransposeOrientation"></a> TransposeOrientation\(\)
+### TransposeOrientation\(\)
 
 Transposed rows and columns of the matrix.
 
@@ -751,7 +751,7 @@ The transpose operation failed .
 
 ## Operators
 
-### <a id="VM_OMatrix_op_Equality_VM_OMatrix_VM_OMatrix_"></a> operator ==\(OMatrix, OMatrix\)
+### operator ==\(OMatrix, OMatrix\)
 
 Compare two orientation matrices are same or not
 
@@ -781,7 +781,7 @@ true if two matrices are same, otherwise false.
 
 The equality operation failed .
 
-### <a id="VM_OMatrix_op_Inequality_VM_OMatrix_VM_OMatrix_"></a> operator \!=\(OMatrix, OMatrix\)
+### operator \!=\(OMatrix, OMatrix\)
 
 Compare two orientation matrices are same or not
 
@@ -811,7 +811,7 @@ true if two matrices are not same, otherwise false.
 
 The inequality operation failed .
 
-### <a id="VM_OMatrix_op_Multiply_VM_OMatrix_VM_OMatrix_"></a> operator \*\(OMatrix, OMatrix\)
+### operator \*\(OMatrix, OMatrix\)
 
 Cross product two orientation matrices.
 
@@ -841,7 +841,7 @@ The cross product matrix.
 
 The multiply operation failed .
 
-### <a id="VM_OMatrix_op_Multiply_VM_Vector_VM_OMatrix_"></a> operator \*\(Vector, OMatrix\)
+### operator \*\(Vector, OMatrix\)
 
 Multiply vector to the matrix.
 
@@ -870,4 +870,5 @@ The Multiplied vector.
  [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
 
 The multiply operation failed .
+
 

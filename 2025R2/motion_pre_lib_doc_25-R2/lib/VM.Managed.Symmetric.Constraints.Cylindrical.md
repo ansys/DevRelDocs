@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Cylindrical"></a> Class Cylindrical
+# Class Cylindrical
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  
@@ -36,7 +36,7 @@ Named<Cylindrical\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Constraints_Cylindrical__ctor"></a> Cylindrical\(\)
+### Cylindrical\(\)
 
 ```csharp
 public Cylindrical()
@@ -44,7 +44,7 @@ public Cylindrical()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Constraints_Cylindrical_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,7 +78,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Symmetric_Constraints_Cylindrical_UpdateProperty_VM_Managed_DAFUL_Constraints_PropertyCylindrical_VM_Managed_DAFUL_Constraints_PropertyCylindrical_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateProperty\(PropertyCylindrical, PropertyCylindrical, SymmetricType, Plane, Document\)
+### UpdateProperty\(PropertyCylindrical, PropertyCylindrical, SymmetricType, Plane, Document\)
 
 ```csharp
 public static void UpdateProperty(PropertyCylindrical toolProperty, PropertyCylindrical targetProperty, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -95,4 +95,5 @@ public static void UpdateProperty(PropertyCylindrical toolProperty, PropertyCyli
 `sym_plane` Plane
 
 `doc` Document
+
 

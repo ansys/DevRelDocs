@@ -1,4 +1,4 @@
-# <a id="VM_Models_StepType"></a> Enum StepType
+# Enum StepType
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -14,4 +14,5 @@ public enum StepType
 `Process = 1` 
 
 `Unknown = 0` 
+
 

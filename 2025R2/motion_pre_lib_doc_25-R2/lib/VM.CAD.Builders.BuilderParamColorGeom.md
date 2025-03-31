@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamColorGeom"></a> Class BuilderParamColorGeom
+# Class BuilderParamColorGeom
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -41,7 +41,7 @@ public abstract class BuilderParamColorGeom : BuilderParamBase
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamColorGeom__ctor"></a> BuilderParamColorGeom\(\)
+### BuilderParamColorGeom\(\)
 
 ```csharp
 protected BuilderParamColorGeom()
@@ -49,7 +49,7 @@ protected BuilderParamColorGeom()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamColorGeom_Color"></a> Color
+### Color
 
 ```csharp
 public ColorInfo Color { get; set; }
@@ -58,4 +58,5 @@ public ColorInfo Color { get; set; }
 #### Property Value
 
  [ColorInfo](VM.CAD.Builders.ColorInfo.md)
+
 

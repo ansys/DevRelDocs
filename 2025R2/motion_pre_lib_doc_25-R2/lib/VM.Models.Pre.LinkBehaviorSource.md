@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_LinkBehaviorSource"></a> Enum LinkBehaviorSource
+# Enum LinkBehaviorSource
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -48,6 +48,7 @@ Link owner type. Should be of type System.Type.
 `Trigger = 5` 
 
 Trigger attribute. Should be of type System.Attribute.
+
 
 
 

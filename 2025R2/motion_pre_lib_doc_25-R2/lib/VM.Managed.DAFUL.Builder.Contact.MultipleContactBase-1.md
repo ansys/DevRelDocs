@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_MultipleContactBase_1"></a> Class MultipleContactBase<T\>
+# Class MultipleContactBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -57,7 +57,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MultipleContactBase_1__ctor"></a> MultipleContactBase\(\)
+### MultipleContactBase\(\)
 
 ```csharp
 protected MultipleContactBase()
@@ -65,7 +65,7 @@ protected MultipleContactBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MultipleContactBase_1_IsAllowSwitch"></a> IsAllowSwitch
+### IsAllowSwitch
 
 ```csharp
 protected virtual bool IsAllowSwitch { get; }
@@ -77,7 +77,7 @@ protected virtual bool IsAllowSwitch { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MultipleContactBase_1_GetContactType"></a> GetContactType\(\)
+### GetContactType\(\)
 
 ```csharp
 protected MultiContactType GetContactType()
@@ -87,7 +87,7 @@ protected MultiContactType GetContactType()
 
  MultiContactType
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MultipleContactBase_1_GetMultipleInfoList_System_Collections_Generic_List_VM_Managed_DAFUL_IContactable__"></a> GetMultipleInfoList\(List<IContactable\>\)
+### GetMultipleInfoList\(List<IContactable\>\)
 
 ```csharp
 public MultipleContactInfo[] GetMultipleInfoList(List<IContactable> lst)
@@ -101,7 +101,7 @@ public MultipleContactInfo[] GetMultipleInfoList(List<IContactable> lst)
 
  MultipleContactInfo\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MultipleContactBase_1_GetPropType"></a> GetPropType\(\)
+### GetPropType\(\)
 
 ```csharp
 protected string GetPropType()
@@ -110,4 +110,5 @@ protected string GetPropType()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

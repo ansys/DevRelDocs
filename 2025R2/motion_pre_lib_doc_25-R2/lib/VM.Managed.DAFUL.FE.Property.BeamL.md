@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Property_BeamL"></a> Class BeamL
+# Class BeamL
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -195,7 +195,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL__ctor_System_String_"></a> BeamL\(string\)
+### BeamL\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.BeamL" data-throw-if-not-resolved="false"></xref> class.
 
@@ -209,7 +209,7 @@ public BeamL(string strName)
 
 Name of the property BeamL.
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL__ctor"></a> BeamL\(\)
+### BeamL\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.BeamL" data-throw-if-not-resolved="false"></xref> class.
 
@@ -219,7 +219,7 @@ public BeamL()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL_CrossSectionType"></a> CrossSectionType
+### CrossSectionType
 
 Gets or sets the cross section type
 
@@ -231,7 +231,7 @@ public CrossSectionType CrossSectionType { get; set; }
 
  CrossSectionType
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL_GeomInfoList"></a> GeomInfoList
+### GeomInfoList
 
 Gets or sets the list of geometric informations
 
@@ -243,7 +243,7 @@ public Variable[] GeomInfoList { get; set; }
 
  Variable\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL_PoissonRatio"></a> PoissonRatio
+### PoissonRatio
 
 Gets poisson's ratio of iso material type
 
@@ -255,7 +255,7 @@ public double PoissonRatio { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL_SyncWithGeom"></a> SyncWithGeom
+### SyncWithGeom
 
 Gets or sets whether synchronize with geometry.
 
@@ -267,7 +267,7 @@ public bool SyncWithGeom { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL_YDirection"></a> YDirection
+### YDirection
 
 Gets or sets the Y-direction.
 
@@ -281,13 +281,13 @@ public Vector YDirection { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL_Init"></a> Init\(\)
+### Init\(\)
 
 ```csharp
 protected override void Init()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -301,7 +301,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -319,7 +319,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_FE_Property_BeamL_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -332,4 +332,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

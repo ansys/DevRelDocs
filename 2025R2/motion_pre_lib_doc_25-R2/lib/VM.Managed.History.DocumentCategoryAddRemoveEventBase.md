@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase"></a> Class DocumentCategoryAddRemoveEventBase
+# Class DocumentCategoryAddRemoveEventBase
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -40,7 +40,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase__ctor_VM_Managed_Document_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_Collections_LinkLinkedList_VM_Managed_ObjectBase_VM_Managed_Child_VM_Managed_ObjectBase_VM_Managed_LinkContainer_Update___"></a> DocumentCategoryAddRemoveEventBase\(Document, ObjectBase, ObjectBase, LinkLinkedList<ObjectBase, Child<ObjectBase, Update\>\>\)
+### DocumentCategoryAddRemoveEventBase\(Document, ObjectBase, ObjectBase, LinkLinkedList<ObjectBase, Child<ObjectBase, Update\>\>\)
 
 ```csharp
 protected DocumentCategoryAddRemoveEventBase(Document document, ObjectBase obj, ObjectBase objAfter, LinkLinkedList<ObjectBase, Child<ObjectBase, LinkContainer.Update>> category)
@@ -58,7 +58,7 @@ protected DocumentCategoryAddRemoveEventBase(Document document, ObjectBase obj, 
 
 ## Fields
 
-### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_m_category"></a> m\_category
+### m\_category
 
 ```csharp
 protected LinkLinkedList<ObjectBase, Child<ObjectBase, LinkContainer.Update>> m_category
@@ -68,7 +68,7 @@ protected LinkLinkedList<ObjectBase, Child<ObjectBase, LinkContainer.Update>> m_
 
  [LinkLinkedList](VM.Managed.Collections.LinkLinkedList\-2.md)<[ObjectBase](VM.Managed.ObjectBase.md), [Child](VM.Managed.Child\-2.md)<[ObjectBase](VM.Managed.ObjectBase.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>\>
 
-### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_m_doc"></a> m\_doc
+### m\_doc
 
 ```csharp
 protected Document3D m_doc
@@ -78,7 +78,7 @@ protected Document3D m_doc
 
  [Document3D](VM.Managed.Document3D.md)
 
-### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_m_objAfterKey"></a> m\_objAfterKey
+### m\_objAfterKey
 
 ```csharp
 protected UIntPtr m_objAfterKey
@@ -88,7 +88,7 @@ protected UIntPtr m_objAfterKey
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_m_objKey"></a> m\_objKey
+### m\_objKey
 
 ```csharp
 protected UIntPtr m_objKey
@@ -100,7 +100,7 @@ protected UIntPtr m_objKey
 
 ## Methods
 
-### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_AddEventCore_VM_Models_Pre_IDocument_VM_Managed_History_HistoryEvent_"></a> AddEventCore\(IDocument, HistoryEvent\)
+### AddEventCore\(IDocument, HistoryEvent\)
 
 ```csharp
 public static void AddEventCore(IDocument doc, HistoryEvent eventHist)
@@ -112,7 +112,7 @@ public static void AddEventCore(IDocument doc, HistoryEvent eventHist)
 
 `eventHist` HistoryEvent
 
-### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -122,7 +122,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_GetObjectFromKey_System_UIntPtr_"></a> GetObjectFromKey\(UIntPtr\)
+### GetObjectFromKey\(UIntPtr\)
 
 ```csharp
 protected ObjectBase GetObjectFromKey(UIntPtr key)
@@ -136,7 +136,7 @@ protected ObjectBase GetObjectFromKey(UIntPtr key)
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_History_DocumentCategoryAddRemoveEventBase_IsAvailableEvent_VM_Models_Pre_IDocument_"></a> IsAvailableEvent\(IDocument\)
+### IsAvailableEvent\(IDocument\)
 
 ```csharp
 public static bool IsAvailableEvent(IDocument doc)
@@ -149,4 +149,5 @@ public static bool IsAvailableEvent(IDocument doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

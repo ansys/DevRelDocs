@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_SetElement"></a> Class SetElement
+# Class SetElement
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -184,7 +184,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_SetElement__ctor"></a> SetElement\(\)
+### SetElement\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.SetElement" data-throw-if-not-resolved="false"></xref> class.
 
@@ -194,7 +194,7 @@ public SetElement()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_SetElement_GetElementSequences"></a> GetElementSequences\(\)
+### GetElementSequences\(\)
 
 Gets element sequences.
 
@@ -206,7 +206,7 @@ public uint[] GetElementSequences()
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_SetElement_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -223,13 +223,13 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_DAFUL_FE_SetElement_PostOpenDocument"></a> PostOpenDocument\(\)
+### PostOpenDocument\(\)
 
 ```csharp
 protected override void PostOpenDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_SetElement_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -243,7 +243,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_DAFUL_FE_SetElement_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -256,4 +256,5 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

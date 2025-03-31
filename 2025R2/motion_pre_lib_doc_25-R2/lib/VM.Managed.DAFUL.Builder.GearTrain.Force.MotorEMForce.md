@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce"></a> Class MotorEMForce
+# Class MotorEMForce
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain.Force](VM.Managed.DAFUL.Builder.GearTrain.Force.md)  
 Assembly: VMBldGearTrain.dll  
@@ -58,7 +58,7 @@ BuilderBase<MotorEMForce\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce__ctor"></a> MotorEMForce\(\)
+### MotorEMForce\(\)
 
 ```csharp
 public MotorEMForce()
@@ -66,7 +66,7 @@ public MotorEMForce()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce_FileFormatType"></a> FileFormatType
+### FileFormatType
 
 ```csharp
 protected virtual PropertyMotorEMForce.FileFormatType FileFormatType { get; }
@@ -76,7 +76,7 @@ protected virtual PropertyMotorEMForce.FileFormatType FileFormatType { get; }
 
  PropertyMotorEMForce.FileFormatType
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce_Position"></a> Position
+### Position
 
 ```csharp
 public PointBase Position { get; }
@@ -86,7 +86,7 @@ public PointBase Position { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce_ReferenceOfRotational"></a> ReferenceOfRotational
+### ReferenceOfRotational
 
 ```csharp
 public ObjectBase ReferenceOfRotational { get; }
@@ -96,7 +96,7 @@ public ObjectBase ReferenceOfRotational { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce_Rotor"></a> Rotor
+### Rotor
 
 ```csharp
 public ObjectBase Rotor { get; }
@@ -106,7 +106,7 @@ public ObjectBase Rotor { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce_Stator"></a> Stator
+### Stator
 
 ```csharp
 public ObjectBase Stator { get; }
@@ -116,7 +116,7 @@ public ObjectBase Stator { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce_XAxis"></a> XAxis
+### XAxis
 
 ```csharp
 public DirectionBase XAxis { get; }
@@ -126,7 +126,7 @@ public DirectionBase XAxis { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce_ZAxis"></a> ZAxis
+### ZAxis
 
 ```csharp
 public DirectionBase ZAxis { get; }
@@ -138,7 +138,7 @@ public DirectionBase ZAxis { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -153,4 +153,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

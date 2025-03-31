@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_GetShaftStartPoint"></a> Class GetShaftStartPoint
+# Class GetShaftStartPoint
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_GetShaftStartPoint__ctor_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_CAD_Body_VM_Vector_VM_Vector_"></a> GetShaftStartPoint\(GearTrainDocument, Body, Vector, Vector\)
+### GetShaftStartPoint\(GearTrainDocument, Body, Vector, Vector\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.GetShaftStartPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ The direction
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_GetShaftStartPoint_MatchedPoint"></a> MatchedPoint
+### MatchedPoint
 
 Gets the matched point
 
@@ -117,7 +117,7 @@ public Vector MatchedPoint { get; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_GetShaftStartPoint_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_GetShaftStartPoint_Success"></a> Success
+### Success
 
 Gets the success flag
 
@@ -143,11 +143,12 @@ public bool Success { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_GetShaftStartPoint_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute
 
 ```csharp
 public override void Execute()
 ```
+
 

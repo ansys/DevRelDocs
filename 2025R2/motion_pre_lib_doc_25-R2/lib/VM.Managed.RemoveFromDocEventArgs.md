@@ -1,4 +1,4 @@
-# <a id="VM_Managed_RemoveFromDocEventArgs"></a> Class RemoveFromDocEventArgs
+# Class RemoveFromDocEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public sealed class RemoveFromDocEventArgs : EventArgs
 
 ## Constructors
 
-### <a id="VM_Managed_RemoveFromDocEventArgs__ctor_VM_Managed_Document_System_Boolean_"></a> RemoveFromDocEventArgs\(Document, bool\)
+### RemoveFromDocEventArgs\(Document, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.RemoveFromDocEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -41,7 +41,7 @@ The document
 
 The backup flag.
 
-### <a id="VM_Managed_RemoveFromDocEventArgs__ctor_VM_Managed_Document_"></a> RemoveFromDocEventArgs\(Document\)
+### RemoveFromDocEventArgs\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.RemoveFromDocEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -57,7 +57,7 @@ The document
 
 ## Properties
 
-### <a id="VM_Managed_RemoveFromDocEventArgs_Document"></a> Document
+### Document
 
 Gets the backup flag.
 
@@ -69,7 +69,7 @@ public Document Document { get; }
 
  [Document](VM.Managed.Document.md)
 
-### <a id="VM_Managed_RemoveFromDocEventArgs_IsBackup"></a> IsBackup
+### IsBackup
 
 Gets the backup flag.
 
@@ -80,4 +80,5 @@ public bool IsBackup { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

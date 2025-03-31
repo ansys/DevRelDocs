@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderColorGeom"></a> Class BuilderColorGeom
+# Class BuilderColorGeom
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderColorGeom__ctor"></a> BuilderColorGeom\(\)
+### BuilderColorGeom\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderColorGeom" data-throw-if-not-resolved="false"></xref> class
 
@@ -207,7 +207,7 @@ public BuilderColorGeom()
 
 ## Fields
 
-### <a id="VM_Managed_CAD_BuilderColorGeom_m_color"></a> m\_color
+### m\_color
 
 This value is BuilderColor.
 
@@ -221,7 +221,7 @@ protected BuilderColor m_color
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderColorGeom_Color"></a> Color
+### Color
 
 Gets or sets the color.
 
@@ -233,7 +233,7 @@ public BuilderColor Color { get; set; }
 
  [BuilderColor](VM.Managed.CAD.BuilderColor.md)
 
-### <a id="VM_Managed_CAD_BuilderColorGeom_DrawingColor"></a> DrawingColor
+### DrawingColor
 
 Gets or sets the drawing color.
 
@@ -247,7 +247,7 @@ public Color DrawingColor { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderColorGeom_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -255,7 +255,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_BuilderColorGeom_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -265,7 +265,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderColorGeom_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -278,4 +278,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

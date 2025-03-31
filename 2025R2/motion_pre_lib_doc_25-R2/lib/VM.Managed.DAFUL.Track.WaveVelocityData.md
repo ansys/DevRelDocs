@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_WaveVelocityData"></a> Class WaveVelocityData
+# Class WaveVelocityData
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_WaveVelocityData__ctor"></a> WaveVelocityData\(\)
+### WaveVelocityData\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.WaveVelocityData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public WaveVelocityData()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_WaveVelocityData_Position"></a> Position
+### Position
 
 Gets or sets the Position.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable Position { get; set; }
 
 Position is null.
 
-### <a id="VM_Managed_DAFUL_Track_WaveVelocityData_Velocity"></a> Velocity
+### Velocity
 
 Gets or sets the Velocity.
 
@@ -144,7 +144,7 @@ Velocity is null.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_WaveVelocityData_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -157,4 +157,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

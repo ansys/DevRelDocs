@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DestroyType"></a> Enum DestroyType
+# Enum DestroyType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -26,6 +26,7 @@ Do not delete all related.
 `Reserve = 2` 
 
 Delete itself but, the related objects do not delete.
+
 
 
 

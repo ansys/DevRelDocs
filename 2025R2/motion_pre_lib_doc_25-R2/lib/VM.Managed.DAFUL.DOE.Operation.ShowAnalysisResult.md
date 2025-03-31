@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Operation_ShowAnalysisResult"></a> Class ShowAnalysisResult
+# Class ShowAnalysisResult
 
 Namespace: [VM.Managed.DAFUL.DOE.Operation](VM.Managed.DAFUL.DOE.Operation.md)  
 Assembly: VMOPDOE.dll  
@@ -75,13 +75,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowAnalysisResult__ctor"></a> ShowAnalysisResult\(\)
+### ShowAnalysisResult\(\)
 
 ```csharp
 public ShowAnalysisResult()
 ```
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowAnalysisResult__ctor_VM_Managed_Document_"></a> ShowAnalysisResult\(Document\)
+### ShowAnalysisResult\(Document\)
 
 ```csharp
 public ShowAnalysisResult(Document doc)
@@ -93,7 +93,7 @@ public ShowAnalysisResult(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowAnalysisResult_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -107,7 +107,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowAnalysisResult_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -115,7 +115,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowAnalysisResult_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -132,4 +132,5 @@ The updater.
 `doc` Document
 
 The document.
+
 

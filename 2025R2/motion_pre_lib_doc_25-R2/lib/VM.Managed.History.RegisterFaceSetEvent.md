@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RegisterFaceSetEvent"></a> Class RegisterFaceSetEvent
+# Class RegisterFaceSetEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -42,7 +42,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_RegisterFaceSetEvent__ctor_System_UIntPtr_System_UIntPtr___System_UIntPtr___"></a> RegisterFaceSetEvent\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
+### RegisterFaceSetEvent\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
 
 ```csharp
 public RegisterFaceSetEvent(UIntPtr ptrSet, UIntPtr[] arKeyUndoTopology, UIntPtr[] arKeyRedoTopology)
@@ -58,7 +58,7 @@ public RegisterFaceSetEvent(UIntPtr ptrSet, UIntPtr[] arKeyUndoTopology, UIntPtr
 
 ## Methods
 
-### <a id="VM_Managed_History_RegisterFaceSetEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Redo(HistoryEventArgs args)
@@ -68,7 +68,7 @@ protected override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_RegisterFaceSetEvent_RegisterFaceSetModified_System_UIntPtr_System_UIntPtr___System_UIntPtr___"></a> RegisterFaceSetModified\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
+### RegisterFaceSetModified\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
 
 ```csharp
 public static void RegisterFaceSetModified(UIntPtr ptrSet, UIntPtr[] arKeyUndoTopology, UIntPtr[] arKeyRedoTopology)
@@ -82,7 +82,7 @@ public static void RegisterFaceSetModified(UIntPtr ptrSet, UIntPtr[] arKeyUndoTo
 
 `arKeyRedoTopology` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\[\]
 
-### <a id="VM_Managed_History_RegisterFaceSetEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Undo(HistoryEventArgs args)
@@ -91,4 +91,5 @@ protected override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

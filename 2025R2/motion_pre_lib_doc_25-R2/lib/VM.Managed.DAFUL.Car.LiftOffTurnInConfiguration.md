@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_LiftOffTurnInConfiguration"></a> Class LiftOffTurnInConfiguration
+# Class LiftOffTurnInConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_LiftOffTurnInConfiguration__ctor"></a> LiftOffTurnInConfiguration\(\)
+### LiftOffTurnInConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.LiftOffTurnInConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.LiftOffTurnIn
 public LiftOffTurnInConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_LiftOffTurnInConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_"></a> LiftOffTurnInConfiguration\(AnalysisLiftOffTurnIn\)
+### LiftOffTurnInConfiguration\(AnalysisLiftOffTurnIn\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.LiftOffTurnInConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_LiftOffTurnInConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_LiftOffTurnInConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_LiftOffTurnInConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_LiftOffTurnInConfiguration_LiftOffTurnInParam"></a> LiftOffTurnInParam
+### LiftOffTurnInParam
 
 Gets or sets the lift off turn in parameter.
 
@@ -274,4 +274,5 @@ public AnalysisLiftOffTurnIn LiftOffTurnInParam { get; set; }
 #### Property Value
 
  [AnalysisLiftOffTurnIn](VM.Managed.DAFUL.Car.AnalysisLiftOffTurnIn.md)
+
 

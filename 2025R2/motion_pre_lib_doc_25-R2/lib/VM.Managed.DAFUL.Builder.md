@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder"></a> Namespace VM.Managed.DAFUL.Builder
+# Namespace VM.Managed.DAFUL.Builder
 
 ### Namespaces
 
@@ -235,4 +235,5 @@ This class is to represent the Request Structure properties.
 ### Enums
 
  [PickedResult.PickedType](VM.Managed.DAFUL.Builder.PickedResult.PickedType.md)
+
 

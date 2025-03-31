@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter"></a> Class DesignParameter
+# Class DesignParameter
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -27,7 +27,7 @@ public class DesignParameter : DOEInformationBase
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter__ctor"></a> DesignParameter\(\)
+### DesignParameter\(\)
 
 ```csharp
 public DesignParameter()
@@ -35,7 +35,7 @@ public DesignParameter()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Current"></a> Current
+### Current
 
 ```csharp
 public double Current { get; set; }
@@ -45,7 +45,7 @@ public double Current { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Lower"></a> Lower
+### Lower
 
 ```csharp
 public double Lower { get; set; }
@@ -55,7 +55,7 @@ public double Lower { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Type"></a> Type
+### Type
 
 ```csharp
 public DesignParameter.ValueType Type { get; set; }
@@ -65,7 +65,7 @@ public DesignParameter.ValueType Type { get; set; }
 
  [DesignParameter](VM.Managed.DAFUL.DOE.Result.DesignParameter.md).[ValueType](VM.Managed.DAFUL.DOE.Result.DesignParameter.ValueType.md)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Upper"></a> Upper
+### Upper
 
 ```csharp
 public double Upper { get; set; }
@@ -75,7 +75,7 @@ public double Upper { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Values"></a> Values
+### Values
 
 ```csharp
 public double[] Values { get; set; }
@@ -87,7 +87,7 @@ public double[] Values { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_GetName"></a> GetName\(\)
+### GetName\(\)
 
 ```csharp
 public string GetName()
@@ -96,4 +96,5 @@ public string GetName()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

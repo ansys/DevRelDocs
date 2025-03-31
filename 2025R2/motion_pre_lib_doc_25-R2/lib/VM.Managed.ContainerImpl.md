@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ContainerImpl"></a> Class ContainerImpl
+# Class ContainerImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class ContainerImpl
 
 ## Constructors
 
-### <a id="VM_Managed_ContainerImpl__ctor"></a> ContainerImpl\(\)
+### ContainerImpl\(\)
 
 ```csharp
 public ContainerImpl()
@@ -30,7 +30,7 @@ public ContainerImpl()
 
 ## Properties
 
-### <a id="VM_Managed_ContainerImpl_NewNamePattern"></a> NewNamePattern
+### NewNamePattern
 
 Gets or sets new DAFUL object name pattern. (PREFIX_DDD)
 
@@ -44,7 +44,7 @@ public static string NewNamePattern { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_ContainerImpl_Find_VM_Models_Pre_IContainer_System_String_"></a> Find\(IContainer, string\)
+### Find\(IContainer, string\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -68,7 +68,7 @@ The DAFUL object name.
 
 The DAFUL object.
 
-### <a id="VM_Managed_ContainerImpl_GetNewEntityName_VM_Models_Pre_IContainer_System_String_System_Boolean_System_Int32_System_Int32_"></a> GetNewEntityName\(IContainer, string, bool, int, int\)
+### GetNewEntityName\(IContainer, string, bool, int, int\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -104,7 +104,7 @@ The start index.
 
 The DAFUL object name.
 
-### <a id="VM_Managed_ContainerImpl_GetNewEntityName_VM_Models_Pre_IContainer_System_String_System_Boolean_System_Int32_"></a> GetNewEntityName\(IContainer, string, bool, int\)
+### GetNewEntityName\(IContainer, string, bool, int\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -136,7 +136,7 @@ The Number of Figure.
 
 The DAFUL object name.
 
-### <a id="VM_Managed_ContainerImpl_GetNewEntityName_VM_Models_Pre_IContainer_System_String_"></a> GetNewEntityName\(IContainer, string\)
+### GetNewEntityName\(IContainer, string\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -159,4 +159,5 @@ The DAFUL object prefix name.
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The DAFUL object name.
+
 

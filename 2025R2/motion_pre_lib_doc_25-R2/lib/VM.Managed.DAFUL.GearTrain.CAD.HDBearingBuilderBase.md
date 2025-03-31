@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderBase"></a> Class HDBearingBuilderBase
+# Class HDBearingBuilderBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -226,7 +226,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderBase__ctor"></a> HDBearingBuilderBase\(\)
+### HDBearingBuilderBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDBearingBuilderBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -236,7 +236,7 @@ public HDBearingBuilderBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderBase_GeomInfo"></a> GeomInfo
+### GeomInfo
 
 Gets or sets the geom information.
 
@@ -248,7 +248,7 @@ public HDBGeometryInfo GeomInfo { get; set; }
 
  [HDBGeometryInfo](VM.Managed.DAFUL.GearTrain.HDBGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderBase_OffsetToAxisDirection"></a> OffsetToAxisDirection
+### OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -262,7 +262,7 @@ public virtual double OffsetToAxisDirection { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderBase_GetTransform"></a> GetTransform\(\)
+### GetTransform\(\)
 
 Gets the transform.
 
@@ -273,4 +273,5 @@ public virtual TMatrix GetTransform()
 #### Returns
 
  TMatrix
+
 

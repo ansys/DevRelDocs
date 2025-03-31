@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Sprocket_SolidBodySprocket"></a> Class SolidBodySprocket
+# Class SolidBodySprocket
 
 Namespace: [VM.Managed.DAFUL.Sprocket](VM.Managed.DAFUL.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -310,7 +310,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Sprocket_SolidBodySprocket__ctor"></a> SolidBodySprocket\(\)
+### SolidBodySprocket\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Sprocket.SolidBodySprocket" data-throw-if-not-resolved="false"></xref> class.
 
@@ -318,7 +318,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Sprocket.SolidBod
 public SolidBodySprocket()
 ```
 
-### <a id="VM_Managed_DAFUL_Sprocket_SolidBodySprocket__ctor_System_String_"></a> SolidBodySprocket\(string\)
+### SolidBodySprocket\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Sprocket.SolidBodySprocket" data-throw-if-not-resolved="false"></xref> class.
 
@@ -332,7 +332,7 @@ public SolidBodySprocket(string strName)
 
 Name of the solid sprocket body.
 
-### <a id="VM_Managed_DAFUL_Sprocket_SolidBodySprocket__ctor_System_String_VM_Managed_CAD_Builder_"></a> SolidBodySprocket\(string, Builder\)
+### SolidBodySprocket\(string, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Sprocket.SolidBodySprocket" data-throw-if-not-resolved="false"></xref> class.
 
@@ -352,7 +352,7 @@ The builder.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Sprocket_SolidBodySprocket_ReGenerateBodyInformation_System_Xml_XmlDocument_"></a> ReGenerateBodyInformation\(XmlDocument\)
+### ReGenerateBodyInformation\(XmlDocument\)
 
 Sets body information
 
@@ -371,4 +371,5 @@ The data xml of sprocket
  [SolidBodySprocket](VM.Managed.DAFUL.Sprocket.SolidBodySprocket.md)
 
 The body of sprocket
+
 

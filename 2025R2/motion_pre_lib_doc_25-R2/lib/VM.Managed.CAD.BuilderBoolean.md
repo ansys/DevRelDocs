@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderBoolean"></a> Class BuilderBoolean
+# Class BuilderBoolean
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -198,7 +198,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderBoolean__ctor"></a> BuilderBoolean\(\)
+### BuilderBoolean\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBoolean" data-throw-if-not-resolved="false"></xref> class
 
@@ -208,7 +208,7 @@ public BuilderBoolean()
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderBoolean_ReplaceBuild_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> ReplaceBuild\(Builder, Builder\)
+### ReplaceBuild\(Builder, Builder\)
 
 ```csharp
 public virtual void ReplaceBuild(Builder buildOriginal, Builder buildReplace)
@@ -219,4 +219,5 @@ public virtual void ReplaceBuild(Builder buildOriginal, Builder buildReplace)
 `buildOriginal` [Builder](VM.Managed.CAD.Builder.md)
 
 `buildReplace` [Builder](VM.Managed.CAD.Builder.md)
+
 

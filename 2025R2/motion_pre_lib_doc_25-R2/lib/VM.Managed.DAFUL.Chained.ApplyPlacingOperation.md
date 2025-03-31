@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ApplyPlacingOperation"></a> Class ApplyPlacingOperation
+# Class ApplyPlacingOperation
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_ApplyPlacingOperation__ctor_System_Boolean_"></a> ApplyPlacingOperation\(bool\)
+### ApplyPlacingOperation\(bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ApplyPlacingOperation" data-throw-if-not-resolved="false"></xref> class.        
 <param name="bHistoryMerge">histrory merge flag</param>
@@ -92,7 +92,7 @@ public ApplyPlacingOperation(bool bHistoryMerge)
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Chained_ApplyPlacingOperation_OnApply"></a> OnApply
+### OnApply
 
 On Apply event
 
@@ -106,7 +106,7 @@ public ApplyPlacingOperation.ApplyCallback OnApply
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_ApplyPlacingOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -118,7 +118,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Chained_ApplyPlacingOperation_Success"></a> Success
+### Success
 
 Gets the success flag.
 
@@ -132,11 +132,12 @@ public bool Success { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_ApplyPlacingOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

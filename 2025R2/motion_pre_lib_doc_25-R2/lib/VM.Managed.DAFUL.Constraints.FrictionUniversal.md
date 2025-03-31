@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_FrictionUniversal"></a> Class FrictionUniversal
+# Class FrictionUniversal
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -111,7 +111,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionUniversal__ctor"></a> FrictionUniversal\(\)
+### FrictionUniversal\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.FrictionUniversal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ public FrictionUniversal()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionUniversal_BendingReactionArm"></a> BendingReactionArm
+### BendingReactionArm
 
 Gets or sets the bending reaction arm.
 
@@ -133,7 +133,7 @@ public ExpressionValueVariable BendingReactionArm { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionUniversal_FrictionArm"></a> FrictionArm
+### FrictionArm
 
 Gets or sets the friction arm.
 
@@ -145,7 +145,7 @@ public ExpressionValueVariable FrictionArm { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionUniversal_PinRadius"></a> PinRadius
+### PinRadius
 
 Gets or sets the pin radius.
 
@@ -157,7 +157,7 @@ public ExpressionValueVariable PinRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionUniversal_PreTorque"></a> PreTorque
+### PreTorque
 
 Gets or sets the pre torque.
 
@@ -168,4 +168,5 @@ public ExpressionValueVariable PreTorque { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

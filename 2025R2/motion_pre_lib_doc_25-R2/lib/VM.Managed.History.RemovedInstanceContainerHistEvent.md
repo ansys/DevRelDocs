@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RemovedInstanceContainerHistEvent"></a> Class RemovedInstanceContainerHistEvent
+# Class RemovedInstanceContainerHistEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -43,7 +43,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_RemovedInstanceContainerHistEvent__ctor_System_String_"></a> RemovedInstanceContainerHistEvent\(string\)
+### RemovedInstanceContainerHistEvent\(string\)
 
 ```csharp
 public RemovedInstanceContainerHistEvent(string strPathName)
@@ -52,4 +52,5 @@ public RemovedInstanceContainerHistEvent(string strPathName)
 #### Parameters
 
 `strPathName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

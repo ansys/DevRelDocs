@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_TwoPointPositionofInline"></a> Struct TwoPointPositionofInline
+# Struct TwoPointPositionofInline
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +13,7 @@ public struct TwoPointPositionofInline : IConnectorPosition
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_TwoPointPositionofInline_NumberOfPoint"></a> NumberOfPoint
+### NumberOfPoint
 
 ```csharp
 public int NumberOfPoint { get; }
@@ -25,7 +25,7 @@ public int NumberOfPoint { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_TwoPointPositionofInline_SetPosition_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Builder_PickedResult___"></a> SetPosition\(Marker, Marker, PickedResult\[\]\)
+### SetPosition\(Marker, Marker, PickedResult\[\]\)
 
 ```csharp
 public void SetPosition(Marker BM, Marker AM, PickedResult[] pickresult)
@@ -38,4 +38,5 @@ public void SetPosition(Marker BM, Marker AM, PickedResult[] pickresult)
 `AM` Marker
 
 `pickresult` [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md)\[\]
+
 

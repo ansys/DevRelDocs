@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Analysis_Full_StraightLineSteeringInputType"></a> Enum StraightLineSteeringInputType
+# Enum StraightLineSteeringInputType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Full](VM.Managed.DAFUL.Car.Analysis.Full.md)  
 Assembly: VMDCar.dll  
@@ -26,6 +26,7 @@ Locked
 `StraightLine = 0` 
 
 StraightLine
+
 
 
 

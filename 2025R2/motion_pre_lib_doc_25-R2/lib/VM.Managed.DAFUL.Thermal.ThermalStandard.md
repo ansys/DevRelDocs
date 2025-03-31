@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_ThermalStandard"></a> Class ThermalStandard
+# Class ThermalStandard
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -76,7 +76,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard__ctor"></a> ThermalStandard\(\)
+### ThermalStandard\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -84,7 +84,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalSt
 public ThermalStandard()
 ```
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard__ctor_VM_Managed_DAFUL_Thermal_PropertyThermalBase_"></a> ThermalStandard\(PropertyThermalBase\)
+### ThermalStandard\(PropertyThermalBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -100,7 +100,7 @@ The owner thermal propery.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard_ThermalFunctions"></a> ThermalFunctions
+### ThermalFunctions
 
 Get or set the thermal functions.
 
@@ -112,7 +112,7 @@ public FunctionAndUnit[] ThermalFunctions { get; set; }
 
  [FunctionAndUnit](VM.Managed.DAFUL.Thermal.FunctionAndUnit.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard_Type"></a> Type
+### Type
 
 Gets the function type.
 
@@ -126,9 +126,9 @@ public override ThermalFunction.FunctionType Type { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
-Called when [deserialization].
+<p>Called when [deserialization].</p>
 
 ```csharp
 protected override void OnDeserialization(object sender)
@@ -138,5 +138,6 @@ protected override void OnDeserialization(object sender)
 
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-The sender.
+<p>The sender.</p>
+
 

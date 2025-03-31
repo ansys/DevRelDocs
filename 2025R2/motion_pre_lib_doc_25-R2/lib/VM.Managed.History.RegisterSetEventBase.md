@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RegisterSetEventBase"></a> Class RegisterSetEventBase
+# Class RegisterSetEventBase
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -40,7 +40,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_RegisterSetEventBase__ctor_System_UIntPtr_System_UIntPtr___System_UIntPtr___"></a> RegisterSetEventBase\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
+### RegisterSetEventBase\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
 
 ```csharp
 public RegisterSetEventBase(UIntPtr ptrSet, UIntPtr[] arKeyUndoTopology, UIntPtr[] arKeyRedoTopology)
@@ -56,7 +56,7 @@ public RegisterSetEventBase(UIntPtr ptrSet, UIntPtr[] arKeyUndoTopology, UIntPtr
 
 ## Fields
 
-### <a id="VM_Managed_History_RegisterSetEventBase_m_arKeyRedoTopology"></a> m\_arKeyRedoTopology
+### m\_arKeyRedoTopology
 
 ```csharp
 protected UIntPtr[] m_arKeyRedoTopology
@@ -66,7 +66,7 @@ protected UIntPtr[] m_arKeyRedoTopology
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\[\]
 
-### <a id="VM_Managed_History_RegisterSetEventBase_m_arKeyUndoTopology"></a> m\_arKeyUndoTopology
+### m\_arKeyUndoTopology
 
 ```csharp
 protected UIntPtr[] m_arKeyUndoTopology
@@ -76,7 +76,7 @@ protected UIntPtr[] m_arKeyUndoTopology
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\[\]
 
-### <a id="VM_Managed_History_RegisterSetEventBase_m_keySet"></a> m\_keySet
+### m\_keySet
 
 ```csharp
 protected UIntPtr m_keySet
@@ -88,7 +88,7 @@ protected UIntPtr m_keySet
 
 ## Methods
 
-### <a id="VM_Managed_History_RegisterSetEventBase_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
+### AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -98,7 +98,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_RegisterSetEventBase_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
+### AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -108,7 +108,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_RegisterSetEventBase_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -117,4 +117,5 @@ protected override void Clear(bool bReserveReferenceCount)
 #### Parameters
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

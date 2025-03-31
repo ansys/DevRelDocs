@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_HarmonicDrive"></a> Class HarmonicDrive
+# Class HarmonicDrive
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldHarmonicDrive.dll  
@@ -24,7 +24,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive__ctor"></a> HarmonicDrive\(\)
+### HarmonicDrive\(\)
 
 ```csharp
 public HarmonicDrive()
@@ -32,7 +32,7 @@ public HarmonicDrive()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_BuildObject"></a> BuildObject
+### BuildObject
 
 ```csharp
 public ObjectBase BuildObject { get; }
@@ -42,7 +42,7 @@ public ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -54,7 +54,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public void Build(Document docToAdd)
@@ -64,7 +64,7 @@ public void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
+### Build\(Document, List<string\>\)
 
 ```csharp
 public void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -76,7 +76,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_Success"></a> Success\(\)
+### Success\(\)
 
 ```csharp
 public bool Success()
@@ -86,7 +86,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public bool Validate(IList<string> lstErrorMessage)
@@ -99,4 +99,5 @@ public bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

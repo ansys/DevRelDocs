@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_SetHousingMeshFreeDesignDocument"></a> Class SetHousingMeshFreeDesignDocument
+# Class SetHousingMeshFreeDesignDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -93,7 +93,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetHousingMeshFreeDesignDocument__ctor_VM_Managed_DAFUL_GearTrain_IMeshEntity_"></a> SetHousingMeshFreeDesignDocument\(IMeshEntity\)
+### SetHousingMeshFreeDesignDocument\(IMeshEntity\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetHousingMeshFreeDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ public SetHousingMeshFreeDesignDocument(IMeshEntity meshEntity)
 
 The mesh entity.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetHousingMeshFreeDesignDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> SetHousingMeshFreeDesignDocument\(JournalParameter\)
+### SetHousingMeshFreeDesignDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetHousingMeshFreeDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,4 +120,5 @@ public SetHousingMeshFreeDesignDocument(JournalParameter jp)
 `jp` JournalParameter
 
 The jp.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapValidator"></a> Class TorqueMapValidator
+# Class TorqueMapValidator
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -58,9 +58,10 @@ AbstractValidator<TorqueMap\>.RuleLevelCascadeMode
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapValidator__ctor"></a> TorqueMapValidator\(\)
+### TorqueMapValidator\(\)
 
 ```csharp
 public TorqueMapValidator()
 ```
+
 

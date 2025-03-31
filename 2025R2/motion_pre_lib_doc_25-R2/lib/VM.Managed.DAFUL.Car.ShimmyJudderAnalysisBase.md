@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisBase"></a> Class ShimmyJudderAnalysisBase
+# Class ShimmyJudderAnalysisBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -44,7 +44,7 @@ AnalysisBase.IsSim
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisBase__ctor"></a> ShimmyJudderAnalysisBase\(\)
+### ShimmyJudderAnalysisBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ShimmyJudderAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,7 +52,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ShimmyJudderA
 public ShimmyJudderAnalysisBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisBase__ctor_VM_Models_Pre_ILinkContainer_"></a> ShimmyJudderAnalysisBase\(ILinkContainer\)
+### ShimmyJudderAnalysisBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ShimmyJudderAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -65,4 +65,5 @@ public ShimmyJudderAnalysisBase(ILinkContainer lnkContainer)
 `lnkContainer` ILinkContainer
 
 The link container.
+
 

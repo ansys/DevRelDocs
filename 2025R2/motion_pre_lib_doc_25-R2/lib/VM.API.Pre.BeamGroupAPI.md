@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_BeamGroupAPI"></a> Class BeamGroupAPI
+# Class BeamGroupAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class BeamGroupAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_BeamGroupAPI_CreateBeamGroup_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_VM_Vector_VM_Vector_System_String_VM_Managed_DAFUL_Beam_CrossSectionType_System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_API_Pre_Obj__System_Nullable_System_Drawing_Color__"></a> CreateBeamGroup\(SubSystemDocument, Vector, Vector, Vector, string, CrossSectionType, IEnumerable<ExpressionValueVariable\>, ExpressionValueVariable?, Obj?, Color?\)
+### CreateBeamGroup\(SubSystemDocument, Vector, Vector, Vector, string, CrossSectionType, IEnumerable<ExpressionValueVariable\>, ExpressionValueVariable?, Obj?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.Beam.BeamGroup" data-throw-if-not-resolved="false"></xref>
 
@@ -91,7 +91,7 @@ Will be thrown if 'subSystemDocument' argument is null.
 
 Will be thrown if the magnitude of 'directionY' is 0 and if the type of 'material' is not 'ISO'.
 
-### <a id="VM_API_Pre_BeamGroupAPI_CreateBeamGroup_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_Vector__VM_Vector_System_String_VM_Managed_DAFUL_Beam_CrossSectionType_System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_API_Pre_Obj__System_Nullable_System_Drawing_Color__"></a> CreateBeamGroup\(SubSystemDocument, IEnumerable<Vector\>, Vector, string, CrossSectionType, IEnumerable<ExpressionValueVariable\>, ExpressionValueVariable?, Obj?, Color?\)
+### CreateBeamGroup\(SubSystemDocument, IEnumerable<Vector\>, Vector, string, CrossSectionType, IEnumerable<ExpressionValueVariable\>, ExpressionValueVariable?, Obj?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.Beam.BeamGroup" data-throw-if-not-resolved="false"></xref>
 
@@ -160,7 +160,7 @@ Will be thrown if the magnitude of 'directionY' is 0 and if the type of 'materia
 
 Will be thrown if the num of 'positions' is less than 2.
 
-### <a id="VM_API_Pre_BeamGroupAPI_CreateBeamGroup_VM_Managed_DAFUL_SubSystemDocument_System_String_System_String_VM_Managed_DAFUL_Beam_CrossSectionType_VM_Vector_System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_API_Pre_Obj__System_Nullable_System_Drawing_Color__"></a> CreateBeamGroup\(SubSystemDocument, string, string, CrossSectionType, Vector, IEnumerable<ExpressionValueVariable\>, ExpressionValueVariable?, Obj?, Color?\)
+### CreateBeamGroup\(SubSystemDocument, string, string, CrossSectionType, Vector, IEnumerable<ExpressionValueVariable\>, ExpressionValueVariable?, Obj?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.Beam.BeamGroup" data-throw-if-not-resolved="false"></xref>
 
@@ -228,4 +228,5 @@ Will be thrown if the type of 'material' is not 'ISO'.
  [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
 
 Will be thrown if 'filePath' file is not exist.
+
 

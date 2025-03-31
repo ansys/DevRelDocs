@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ControlCreateInfo"></a> Class ControlCreateInfo
+# Class ControlCreateInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class ControlCreateInfo
 
 ## Constructors
 
-### <a id="VM_Managed_ControlCreateInfo__ctor"></a> ControlCreateInfo\(\)
+### ControlCreateInfo\(\)
 
 ```csharp
 public ControlCreateInfo()
@@ -30,7 +30,7 @@ public ControlCreateInfo()
 
 ## Fields
 
-### <a id="VM_Managed_ControlCreateInfo_Assembly"></a> Assembly
+### Assembly
 
 The assembly
 
@@ -42,7 +42,7 @@ public string Assembly
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_ControlCreateInfo_Control"></a> Control
+### Control
 
 The page
 
@@ -54,7 +54,7 @@ public string Control
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_ControlCreateInfo_XPath"></a> XPath
+### XPath
 
 The x path
 
@@ -65,4 +65,5 @@ public string XPath
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

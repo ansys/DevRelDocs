@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_SetMeshDesignDocument"></a> Class SetMeshDesignDocument
+# Class SetMeshDesignDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -92,7 +92,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetMeshDesignDocument__ctor_VM_Managed_DAFUL_GearTrain_IMeshEntity_"></a> SetMeshDesignDocument\(IMeshEntity\)
+### SetMeshDesignDocument\(IMeshEntity\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetMeshDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public SetMeshDesignDocument(IMeshEntity meshEntity)
 
 The mesh entity.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetMeshDesignDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> SetMeshDesignDocument\(JournalParameter\)
+### SetMeshDesignDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetMeshDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ The jp.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetMeshDesignDocument_m_meshEntity"></a> m\_meshEntity
+### m\_meshEntity
 
 The m_mesh entity
 
@@ -136,7 +136,7 @@ protected IMeshEntity m_meshEntity
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetMeshDesignDocument_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -144,7 +144,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetMeshDesignDocument_ExecuteCore_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_"></a> ExecuteCore\(HiddenDocumentMeshBase\)
+### ExecuteCore\(HiddenDocumentMeshBase\)
 
 Executes the core.
 
@@ -157,4 +157,5 @@ public virtual void ExecuteCore(HiddenDocumentMeshBase mesh_doc)
 `mesh_doc` HiddenDocumentMeshBase
 
 The mesh_doc.
+
 

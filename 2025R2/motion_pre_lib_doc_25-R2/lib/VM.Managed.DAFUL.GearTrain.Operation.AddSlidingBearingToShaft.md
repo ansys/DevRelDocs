@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_AddSlidingBearingToShaft"></a> Class AddSlidingBearingToShaft
+# Class AddSlidingBearingToShaft
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -85,7 +85,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddSlidingBearingToShaft__ctor"></a> AddSlidingBearingToShaft\(\)
+### AddSlidingBearingToShaft\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.AddSlidingBearingToShaft" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public AddSlidingBearingToShaft()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddSlidingBearingToShaft__ctor_System_String_"></a> AddSlidingBearingToShaft\(string\)
+### AddSlidingBearingToShaft\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.AddSlidingBearingToShaft" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ The STR initializer XML.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddSlidingBearingToShaft_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -126,4 +126,5 @@ The updater.
 `doc` Document
 
 The document.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Force_PropertyFEForce"></a> Class PropertyFEForce
+# Class PropertyFEForce
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Force_PropertyFEForce__ctor"></a> PropertyFEForce\(\)
+### PropertyFEForce\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FEProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertyFEForce()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Force_PropertyFEForce_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -194,4 +194,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

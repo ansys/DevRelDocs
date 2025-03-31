@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactGeom2Dot5D_1"></a> Class ContactGeom2Dot5D<TProperty\>
+# Class ContactGeom2Dot5D<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -214,7 +214,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_ContactGeom2Dot5D_1__ctor"></a> ContactGeom2Dot5D\(\)
+### ContactGeom2Dot5D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeom2Dot5D%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -222,7 +222,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGe
 protected ContactGeom2Dot5D()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_ContactGeom2Dot5D_1__ctor_System_String_"></a> ContactGeom2Dot5D\(string\)
+### ContactGeom2Dot5D\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeom2Dot5D%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -238,7 +238,7 @@ Name of the 2.5D contact geometry .
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_ContactGeom2Dot5D_1_GeometryParentKey"></a> GeometryParentKey
+### GeometryParentKey
 
 Get geometry parent key
 
@@ -250,7 +250,7 @@ public abstract ObjectBase.ConvertKey GeometryParentKey { get; }
 
  ObjectBase.ConvertKey
 
-### <a id="VM_Managed_DAFUL_Contact_ContactGeom2Dot5D_1_MaxPenetration"></a> MaxPenetration
+### MaxPenetration
 
 Gets or sets the maximum penetration.
 
@@ -262,7 +262,7 @@ public ExpressionValueVariable MaxPenetration { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactGeom2Dot5D_1_TargetGeometry"></a> TargetGeometry
+### TargetGeometry
 
 Gets or sets the target geometry.
 
@@ -274,7 +274,7 @@ public virtual ObjectBase TargetGeometry { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Contact_ContactGeom2Dot5D_1__Geometry"></a> \_Geometry
+### \_Geometry
 
 Gets or sets the geometry.
 
@@ -288,7 +288,7 @@ public Linker<IContactable> _Geometry { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_ContactGeom2Dot5D_1_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirection\(ref VectorBase, ref VectorBase\)
+### GetPointDirection\(ref VectorBase, ref VectorBase\)
 
 Gets the point direction.
 
@@ -312,7 +312,7 @@ The direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Contact_ContactGeom2Dot5D_1_GetPointDirectionOnGeometry_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
+### GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
 
 Gets the point direction.
 
@@ -335,4 +335,5 @@ The normal direction.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

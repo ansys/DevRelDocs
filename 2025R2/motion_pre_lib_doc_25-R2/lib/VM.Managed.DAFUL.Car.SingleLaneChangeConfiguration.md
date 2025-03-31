@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SingleLaneChangeConfiguration"></a> Class SingleLaneChangeConfiguration
+# Class SingleLaneChangeConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_SingleLaneChangeConfiguration__ctor"></a> SingleLaneChangeConfiguration\(\)
+### SingleLaneChangeConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SingleLaneChangeConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SingleLaneCha
 public SingleLaneChangeConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_SingleLaneChangeConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisSingleLaneChange_"></a> SingleLaneChangeConfiguration\(AnalysisSingleLaneChange\)
+### SingleLaneChangeConfiguration\(AnalysisSingleLaneChange\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SingleLaneChangeConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_SingleLaneChangeConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_SingleLaneChangeConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_SingleLaneChangeConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_SingleLaneChangeConfiguration_SingleLaneChangeParam"></a> SingleLaneChangeParam
+### SingleLaneChangeParam
 
 Gets or sets the single lane change parameter.
 
@@ -274,4 +274,5 @@ public AnalysisSingleLaneChange SingleLaneChangeParam { get; set; }
 #### Property Value
 
  [AnalysisSingleLaneChange](VM.Managed.DAFUL.Car.AnalysisSingleLaneChange.md)
+
 

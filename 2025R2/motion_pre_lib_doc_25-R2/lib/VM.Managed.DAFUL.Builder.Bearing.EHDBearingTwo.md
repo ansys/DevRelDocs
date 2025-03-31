@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo"></a> Class EHDBearingTwo
+# Class EHDBearingTwo
 
 Namespace: [VM.Managed.DAFUL.Builder.Bearing](VM.Managed.DAFUL.Builder.Bearing.md)  
 Assembly: VMBldEHDBearing.dll  
@@ -57,7 +57,7 @@ BuilderBase<EHDBearing\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo__ctor"></a> EHDBearingTwo\(\)
+### EHDBearingTwo\(\)
 
 ```csharp
 public EHDBearingTwo()
@@ -65,7 +65,7 @@ public EHDBearingTwo()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_m_nIndex"></a> m\_nIndex
+### m\_nIndex
 
 ```csharp
 protected int m_nIndex
@@ -77,7 +77,7 @@ protected int m_nIndex
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_ActionDirectionX"></a> ActionDirectionX
+### ActionDirectionX
 
 ```csharp
 public DirectionBase ActionDirectionX { get; }
@@ -87,7 +87,7 @@ public DirectionBase ActionDirectionX { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_ActionDirectionZ"></a> ActionDirectionZ
+### ActionDirectionZ
 
 ```csharp
 public DirectionBase ActionDirectionZ { get; }
@@ -97,7 +97,7 @@ public DirectionBase ActionDirectionZ { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_ActionGeometry"></a> ActionGeometry
+### ActionGeometry
 
 ```csharp
 public ObjectBase ActionGeometry { get; }
@@ -107,7 +107,7 @@ public ObjectBase ActionGeometry { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_ActionPosition"></a> ActionPosition
+### ActionPosition
 
 ```csharp
 public PointBase ActionPosition { get; }
@@ -117,7 +117,7 @@ public PointBase ActionPosition { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_ActionRadius"></a> ActionRadius
+### ActionRadius
 
 ```csharp
 public Variable ActionRadius { get; set; }
@@ -127,7 +127,7 @@ public Variable ActionRadius { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_BaseDirectionX"></a> BaseDirectionX
+### BaseDirectionX
 
 ```csharp
 public DirectionBase BaseDirectionX { get; }
@@ -137,7 +137,7 @@ public DirectionBase BaseDirectionX { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_BaseDirectionZ"></a> BaseDirectionZ
+### BaseDirectionZ
 
 ```csharp
 public DirectionBase BaseDirectionZ { get; }
@@ -147,7 +147,7 @@ public DirectionBase BaseDirectionZ { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_BaseGeometry"></a> BaseGeometry
+### BaseGeometry
 
 ```csharp
 public ObjectBase BaseGeometry { get; }
@@ -157,7 +157,7 @@ public ObjectBase BaseGeometry { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_BasePosition"></a> BasePosition
+### BasePosition
 
 ```csharp
 public PointBase BasePosition { get; }
@@ -167,7 +167,7 @@ public PointBase BasePosition { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_BaseRadius"></a> BaseRadius
+### BaseRadius
 
 ```csharp
 public Variable BaseRadius { get; set; }
@@ -177,7 +177,7 @@ public Variable BaseRadius { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_Width"></a> Width
+### Width
 
 ```csharp
 public Variable Width { get; set; }
@@ -189,7 +189,7 @@ public Variable Width { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingTwo_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -204,4 +204,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

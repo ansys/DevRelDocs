@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Force_PropertyDamper"></a> Class PropertyDamper
+# Class PropertyDamper
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamper__ctor"></a> PropertyDamper\(\)
+### PropertyDamper\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyDamper" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Propert
 public PropertyDamper()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamper__ctor_System_String_System_String_"></a> PropertyDamper\(string, string\)
+### PropertyDamper\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyDamper" data-throw-if-not-resolved="false"></xref> class.
 
@@ -202,7 +202,7 @@ The build information.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamper_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -214,7 +214,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamper_DampingSpline"></a> DampingSpline
+### DampingSpline
 
 Gets or sets the damping spline.
 
@@ -226,7 +226,7 @@ public Spline DampingSpline { get; set; }
 
  Spline
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamper_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -240,7 +240,7 @@ public override string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamper_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -253,4 +253,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

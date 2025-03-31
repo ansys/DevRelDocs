@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForCycloid"></a> Class CalculateToothStiffnessForCycloid
+# Class CalculateToothStiffnessForCycloid
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -98,7 +98,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForCycloid__ctor_System_String_System_String_System_Int32_System_String_"></a> CalculateToothStiffnessForCycloid\(string, string, int, string\)
+### CalculateToothStiffnessForCycloid\(string, string, int, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffnessForCycloid" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ Index of the n gear.
 
 The gearset name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForCycloid__ctor_VM_Managed_Document3D_System_String_System_String_System_Int32_System_String_"></a> CalculateToothStiffnessForCycloid\(Document3D, string, string, int, string\)
+### CalculateToothStiffnessForCycloid\(Document3D, string, string, int, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffnessForCycloid" data-throw-if-not-resolved="false"></xref> class.
 
@@ -154,7 +154,7 @@ Index of the n gear.
 
 The gearset name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForCycloid__ctor_VM_Managed_Operation_JournalParameter_"></a> CalculateToothStiffnessForCycloid\(JournalParameter\)
+### CalculateToothStiffnessForCycloid\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -170,11 +170,12 @@ The jp.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForCycloid_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

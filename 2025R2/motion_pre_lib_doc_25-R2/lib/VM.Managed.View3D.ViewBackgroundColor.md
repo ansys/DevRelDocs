@@ -1,4 +1,4 @@
-# <a id="VM_Managed_View3D_ViewBackgroundColor"></a> Class View3D.ViewBackgroundColor
+# Class View3D.ViewBackgroundColor
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public abstract class View3D.ViewBackgroundColor
 
 ## Constructors
 
-### <a id="VM_Managed_View3D_ViewBackgroundColor__ctor"></a> ViewBackgroundColor\(\)
+### ViewBackgroundColor\(\)
 
 ```csharp
 public ViewBackgroundColor()
@@ -30,7 +30,7 @@ public ViewBackgroundColor()
 
 ## Properties
 
-### <a id="VM_Managed_View3D_ViewBackgroundColor_Bottom"></a> Bottom
+### Bottom
 
 Gets or sets the color of bottom.
 
@@ -42,7 +42,7 @@ public abstract Color Bottom { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_View3D_ViewBackgroundColor_Top"></a> Top
+### Top
 
 Gets or sets the color of top.
 
@@ -53,4 +53,5 @@ public abstract Color Top { get; set; }
 #### Property Value
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
+
 

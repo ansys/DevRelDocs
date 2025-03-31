@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HDBearing"></a> Class HDBearing
+# Class HDBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -233,7 +233,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing__ctor"></a> HDBearing\(\)
+### HDBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HDBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HDBeari
 public HDBearing()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing__ctor_System_String_"></a> HDBearing\(string\)
+### HDBearing\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HDBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_BearingBodies"></a> BearingBodies
+### BearingBodies
 
 Gets or sets the hydro dynamic bearing bodies.
 
@@ -279,7 +279,7 @@ Hydro Dynamic Bearing Body list is null.
 or
 Raceway is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_Extension"></a> Extension
+### Extension
 
 Gets the extension.
 
@@ -291,7 +291,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -303,7 +303,7 @@ public override Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_TargetBody"></a> TargetBody
+### TargetBody
 
 Gets the target body.
 
@@ -315,7 +315,7 @@ public override ObjectBase[] TargetBody { get; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_TypeFileName"></a> TypeFileName
+### TypeFileName
 
 Gets the name of the type file.
 
@@ -327,7 +327,7 @@ public override string TypeFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_TypeOfParent"></a> TypeOfParent
+### TypeOfParent
 
 Gets the type of parent.
 
@@ -341,7 +341,7 @@ public override ParentType TypeOfParent { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_GetBuilder"></a> GetBuilder\(\)
+### GetBuilder\(\)
 
 Gets the builders.
 
@@ -355,7 +355,7 @@ public ObjectBase[] GetBuilder()
 
 The builders.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -369,7 +369,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -383,7 +383,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBearing_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
+### SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -398,4 +398,5 @@ public override Document SetDataToDesignDoc(bool bRecord)
 #### Returns
 
  Document
+
 

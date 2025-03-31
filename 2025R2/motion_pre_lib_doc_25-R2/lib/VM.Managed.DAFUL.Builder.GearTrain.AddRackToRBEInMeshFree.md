@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddRackToRBEInMeshFree"></a> Class AddRackToRBEInMeshFree
+# Class AddRackToRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -61,7 +61,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddRackToRBEInMeshFree__ctor"></a> AddRackToRBEInMeshFree\(\)
+### AddRackToRBEInMeshFree\(\)
 
 ```csharp
 public AddRackToRBEInMeshFree()
@@ -69,7 +69,7 @@ public AddRackToRBEInMeshFree()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddRackToRBEInMeshFree_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public override void Build(Document docToAdd)
@@ -78,4 +78,5 @@ public override void Build(Document docToAdd)
 #### Parameters
 
 `docToAdd` Document
+
 

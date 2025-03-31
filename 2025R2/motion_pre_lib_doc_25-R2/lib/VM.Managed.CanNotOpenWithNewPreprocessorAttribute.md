@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CanNotOpenWithNewPreprocessorAttribute"></a> Class CanNotOpenWithNewPreprocessorAttribute
+# Class CanNotOpenWithNewPreprocessorAttribute
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -21,9 +21,10 @@ public class CanNotOpenWithNewPreprocessorAttribute : Attribute
 
 ## Constructors
 
-### <a id="VM_Managed_CanNotOpenWithNewPreprocessorAttribute__ctor"></a> CanNotOpenWithNewPreprocessorAttribute\(\)
+### CanNotOpenWithNewPreprocessorAttribute\(\)
 
 ```csharp
 public CanNotOpenWithNewPreprocessorAttribute()
 ```
+
 

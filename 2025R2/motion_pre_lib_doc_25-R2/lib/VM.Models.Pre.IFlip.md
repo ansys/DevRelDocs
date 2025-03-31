@@ -1,9 +1,9 @@
-# <a id="VM_Models_Pre_IFlip"></a> Interface IFlip
+# Interface IFlip
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
 
-This interface is to represent the entity that can flip.
+<p>This interface is to represent the entity that can flip.</p>
 
 ```csharp
 public interface IFlip
@@ -17,7 +17,7 @@ public interface IFlip
 
 ## Properties
 
-### <a id="VM_Models_Pre_IFlip_CanSwitch"></a> CanSwitch
+### CanSwitch
 
 Gets a value indication whether this instance can switch or not.
 
@@ -31,11 +31,12 @@ bool CanSwitch { get; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_IFlip_Switch"></a> Switch\(\)
+### Switch\(\)
 
 Switch base and action.
 
 ```csharp
 void Switch()
 ```
+
 

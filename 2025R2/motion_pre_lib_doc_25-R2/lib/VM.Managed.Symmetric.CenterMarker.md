@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CenterMarker"></a> Class CenterMarker
+# Class CenterMarker
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -37,7 +37,7 @@ ISymmetricUpdater
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_CenterMarker__ctor"></a> CenterMarker\(\)
+### CenterMarker\(\)
 
 ```csharp
 public CenterMarker()
@@ -45,7 +45,7 @@ public CenterMarker()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_CenterMarker_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,4 +78,5 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

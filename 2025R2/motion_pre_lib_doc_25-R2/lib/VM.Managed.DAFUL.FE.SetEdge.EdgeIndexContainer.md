@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_SetEdge_EdgeIndexContainer"></a> Class SetEdge.EdgeIndexContainer
+# Class SetEdge.EdgeIndexContainer
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -73,7 +73,7 @@ ObservableObject.PropertyChanged
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_SetEdge_EdgeIndexContainer_EdgeIndexArray"></a> EdgeIndexArray
+### EdgeIndexArray
 
 Gets the index.
 
@@ -87,9 +87,10 @@ public uint[] EdgeIndexArray { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_SetEdge_EdgeIndexContainer_Clear"></a> Clear\(\)
+### Clear\(\)
 
 ```csharp
 public void Clear()
 ```
+
 

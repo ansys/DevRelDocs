@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Intersect"></a> Class Intersect
+# Class Intersect
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -64,7 +64,7 @@ public class Intersect : Boolean<BuilderMultiIntersectSimple>, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Intersect__ctor"></a> Intersect\(\)
+### Intersect\(\)
 
 ```csharp
 public Intersect()
@@ -72,7 +72,7 @@ public Intersect()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Intersect_Type"></a> Type
+### Type
 
 ```csharp
 protected override string Type { get; }
@@ -84,7 +84,7 @@ protected override string Type { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Intersect_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder___"></a> BuildTargetTool\(Builder, Builder\[\]\)
+### BuildTargetTool\(Builder, Builder\[\]\)
 
 ```csharp
 protected override void BuildTargetTool(Builder buiTarget, Builder[] buiTool)
@@ -95,4 +95,5 @@ protected override void BuildTargetTool(Builder buiTarget, Builder[] buiTool)
 `buiTarget` Builder
 
 `buiTool` Builder\[\]
+
 

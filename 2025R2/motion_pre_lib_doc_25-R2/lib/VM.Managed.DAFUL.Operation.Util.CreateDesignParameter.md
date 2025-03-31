@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter"></a> Class CreateDesignParameter
+# Class CreateDesignParameter
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class CreateDesignParameter
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter__ctor"></a> CreateDesignParameter\(\)
+### CreateDesignParameter\(\)
 
 ```csharp
 public CreateDesignParameter()
@@ -30,7 +30,7 @@ public CreateDesignParameter()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter_CreateDF_VM_Managed_Document3D_VM_Managed_TransformBase_System_Boolean_System_String_"></a> CreateDF\(Document3D, TransformBase, bool, string\)
+### CreateDF\(Document3D, TransformBase, bool, string\)
 
 Create the design frame.
 
@@ -62,7 +62,7 @@ The design frame name.
 
 The new design frame.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter_CreateDF_VM_Managed_Document3D_VM_Managed_TransformBase_System_Boolean_System_String_System_String_"></a> CreateDF\(Document3D, TransformBase, bool, string, string\)
+### CreateDF\(Document3D, TransformBase, bool, string, string\)
 
 Create the design frame.
 
@@ -98,7 +98,7 @@ Name of the matched object.
 
 The new design frame.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter_CreateDP_VM_Managed_Document_VM_Managed_PointBase_System_Boolean_System_String_"></a> CreateDP\(Document, PointBase, bool, string\)
+### CreateDP\(Document, PointBase, bool, string\)
 
 Create the design point.
 
@@ -130,7 +130,7 @@ The design point name.
 
 The new design point.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter_CreateDP_VM_Managed_Document3D_VM_Managed_VectorBase_System_Boolean_System_String_"></a> CreateDP\(Document3D, VectorBase, bool, string\)
+### CreateDP\(Document3D, VectorBase, bool, string\)
 
 Create the design point.
 
@@ -162,7 +162,7 @@ The design point name.
 
 The new design point.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter_CreateDP_VM_Managed_Document3D_VM_Managed_PointBase_System_Boolean_System_String_System_String_"></a> CreateDP\(Document3D, PointBase, bool, string, string\)
+### CreateDP\(Document3D, PointBase, bool, string, string\)
 
 Creates the DP.
 
@@ -198,7 +198,7 @@ Name of the matched object.
 
 The new design point
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter_CreateDP_VM_Managed_Document3D_VM_Managed_VectorBase_System_Boolean_System_String_System_String_"></a> CreateDP\(Document3D, VectorBase, bool, string, string\)
+### CreateDP\(Document3D, VectorBase, bool, string, string\)
 
 Creates the DP.
 
@@ -234,7 +234,7 @@ Name of the matched object.
 
 The new design point
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter_CreateDV_VM_Managed_Document_System_Double_System_Boolean_System_String_"></a> CreateDV\(Document, double, bool, string\)
+### CreateDV\(Document, double, bool, string\)
 
 Create the design variable.
 
@@ -266,7 +266,7 @@ The design variable name.
 
 The new design variable.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter_CreateDV_VM_Managed_Document3D_System_String_System_Boolean_System_String_"></a> CreateDV\(Document3D, string, bool, string\)
+### CreateDV\(Document3D, string, bool, string\)
 
 Create the design variable.
 
@@ -298,7 +298,7 @@ The design variable name.
 
 The new design variable.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateDesignParameter_CreateDV_VM_Managed_Document3D_System_Double_System_Boolean_System_String_System_String_"></a> CreateDV\(Document3D, double, bool, string, string\)
+### CreateDV\(Document3D, double, bool, string, string\)
 
 Creates the DV.
 
@@ -333,4 +333,5 @@ Name of the matched object.
  DesignVariable
 
 The new design variable
+
 

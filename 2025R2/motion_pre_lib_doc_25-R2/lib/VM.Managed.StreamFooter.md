@@ -1,4 +1,4 @@
-# <a id="VM_Managed_StreamFooter"></a> Class StreamFooter
+# Class StreamFooter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class StreamFooter
 
 ## Constructors
 
-### <a id="VM_Managed_StreamFooter__ctor"></a> StreamFooter\(\)
+### StreamFooter\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.StreamFooter" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public StreamFooter()
 
 ## Methods
 
-### <a id="VM_Managed_StreamFooter_GetComment"></a> GetComment\(\)
+### GetComment\(\)
 
 Gets the comment.
 
@@ -44,7 +44,7 @@ public string GetComment()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_StreamFooter_GetPointerSize"></a> GetPointerSize\(\)
+### GetPointerSize\(\)
 
 Gets the size of the pointer.
 
@@ -56,7 +56,7 @@ public long GetPointerSize()
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="VM_Managed_StreamFooter_GetStreamHead"></a> GetStreamHead\(\)
+### GetStreamHead\(\)
 
 Gets the stream head.
 
@@ -68,7 +68,7 @@ public long GetStreamHead()
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="VM_Managed_StreamFooter_GetVersionInfo"></a> GetVersionInfo\(\)
+### GetVersionInfo\(\)
 
 Gets the version information.
 
@@ -80,7 +80,7 @@ public string GetVersionInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_StreamFooter_GetVersionInfoSignature"></a> GetVersionInfoSignature\(\)
+### GetVersionInfoSignature\(\)
 
 Gets the version information signature.
 
@@ -92,7 +92,7 @@ public static long GetVersionInfoSignature()
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="VM_Managed_StreamFooter_GetVersionInfoSize"></a> GetVersionInfoSize\(\)
+### GetVersionInfoSize\(\)
 
 Gets the size of the version information.
 
@@ -104,7 +104,7 @@ public static long GetVersionInfoSize()
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="VM_Managed_StreamFooter_Read_System_IO_Stream_"></a> Read\(Stream\)
+### Read\(Stream\)
 
 Reads the specified stream.
 
@@ -118,7 +118,7 @@ public void Read(Stream stream)
 
 The stream.
 
-### <a id="VM_Managed_StreamFooter_Write_V1_System_IO_Stream_System_Int64_System_Int64_"></a> Write\_V1\(Stream, long, long\)
+### Write\_V1\(Stream, long, long\)
 
 Write_s the v1.
 
@@ -140,7 +140,7 @@ The position stream head.
 
 The size pointer.
 
-### <a id="VM_Managed_StreamFooter_Write_V2_System_IO_Stream_System_Int64_System_Int64_System_String_"></a> Write\_V2\(Stream, long, long, string\)
+### Write\_V2\(Stream, long, long, string\)
 
 Write_s the v2.
 
@@ -166,7 +166,7 @@ The size pointer.
 
 The comment.
 
-### <a id="VM_Managed_StreamFooter_Write_V3_System_IO_Stream_System_Int64_System_Int64_System_String_"></a> Write\_V3\(Stream, long, long, string\)
+### Write\_V3\(Stream, long, long, string\)
 
 Write_s the v3.
 
@@ -192,7 +192,7 @@ The size pointer.
 
 The comment.
 
-### <a id="VM_Managed_StreamFooter_Write_V3Impl_System_IO_Stream_System_Int64_System_Int64_System_String_System_Int64_"></a> Write\_V3Impl\(Stream, long, long, string, long\)
+### Write\_V3Impl\(Stream, long, long, string, long\)
 
 Write_s the v3 base.
 
@@ -222,7 +222,7 @@ The comment.
 
 The footer version.
 
-### <a id="VM_Managed_StreamFooter_Write_V4_System_IO_Stream_System_Int64_System_Int64_System_String_"></a> Write\_V4\(Stream, long, long, string\)
+### Write\_V4\(Stream, long, long, string\)
 
 Write_s the v4.
 
@@ -248,7 +248,7 @@ The size pointer.
 
 The comment.
 
-### <a id="VM_Managed_StreamFooter_Write_V5_System_IO_Stream_System_Int64_System_Int64_System_String_"></a> Write\_V5\(Stream, long, long, string\)
+### Write\_V5\(Stream, long, long, string\)
 
 Write_s the v5.
 
@@ -274,7 +274,7 @@ The size pointer.
 
 The comment.
 
-### <a id="VM_Managed_StreamFooter_Write_V6_System_IO_Stream_System_Int64_System_Int64_System_String_"></a> Write\_V6\(Stream, long, long, string\)
+### Write\_V6\(Stream, long, long, string\)
 
 Write_s the v6.
 
@@ -300,7 +300,7 @@ The size pointer.
 
 The comment.
 
-### <a id="VM_Managed_StreamFooter_Write_V7_System_IO_Stream_System_Int64_System_Int64_System_String_"></a> Write\_V7\(Stream, long, long, string\)
+### Write\_V7\(Stream, long, long, string\)
 
 Write_s the v7.
 
@@ -325,4 +325,5 @@ The size pointer.
 `comment` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The comment.
+
 

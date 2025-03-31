@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_FrictionBall"></a> Class FrictionBall
+# Class FrictionBall
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -120,7 +120,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionBall__ctor"></a> FrictionBall\(\)
+### FrictionBall\(\)
 
 ```csharp
 public FrictionBall()
@@ -128,7 +128,7 @@ public FrictionBall()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_FrictionBall_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -141,4 +141,5 @@ public override void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

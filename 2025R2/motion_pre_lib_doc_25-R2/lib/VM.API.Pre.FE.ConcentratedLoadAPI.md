@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_ConcentratedLoadAPI"></a> Class ConcentratedLoadAPI
+# Class ConcentratedLoadAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class ConcentratedLoadAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_FE_ConcentratedLoadAPI_CreateConcentratedLoad_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_VM_Managed_DAFUL_FE_Force_CLoadStandard_DirectionType_System_Nullable_VM_API_Pre_Obj__System_Nullable_VM_API_Pre_Obj__System_Nullable_VM_API_Pre_Obj__System_Nullable_VM_API_Pre_Obj__System_Nullable_VM_API_Pre_Obj__System_Nullable_VM_API_Pre_Obj__"></a> CreateConcentratedLoad\(SubSystemDocument, Obj, string, DirectionType, Obj?, Obj?, Obj?, Obj?, Obj?, Obj?\)
+### CreateConcentratedLoad\(SubSystemDocument, Obj, string, DirectionType, Obj?, Obj?, Obj?, Obj?, Obj?, Obj?\)
 
 Create <xref href="VM.Managed.DAFUL.FE.Force.CLoad" data-throw-if-not-resolved="false"></xref> with functions.
 
@@ -109,7 +109,7 @@ Will be thrown if 'functionTY' argument is not empty and type of 'functionTY' is
 
 Will be thrown if 'functionTZ' argument is not empty and type of 'functionTZ' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_FE_ConcentratedLoadAPI_CreateConcentratedLoad_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateConcentratedLoad\(SubSystemDocument, Obj, Obj, string\)
+### CreateConcentratedLoad\(SubSystemDocument, Obj, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.FE.Force.CLoad" data-throw-if-not-resolved="false"></xref> with user-subrooutine.
 
@@ -152,4 +152,5 @@ Will be thrown if 'document' or 'concentratedLoadComponent' or 'usub' arguments 
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
+
 

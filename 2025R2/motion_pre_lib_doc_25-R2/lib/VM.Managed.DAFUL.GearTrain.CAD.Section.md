@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_Section"></a> Class Section
+# Class Section
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -296,7 +296,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_Section__ctor"></a> Section\(\)
+### Section\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Section" data-throw-if-not-resolved="false"></xref> class.
 
@@ -304,7 +304,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Sec
 public Section()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_Section__ctor_VM_Managed_CAD_Builder_"></a> Section\(Builder\)
+### Section\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Section" data-throw-if-not-resolved="false"></xref> class.
 
@@ -320,7 +320,7 @@ The builder.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_Section_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -332,7 +332,7 @@ public virtual string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_Section_NeedToUpdate"></a> NeedToUpdate
+### NeedToUpdate
 
 ```csharp
 public bool NeedToUpdate { get; set; }
@@ -344,7 +344,7 @@ public bool NeedToUpdate { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_Section_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the model navigator information implementation.
 
@@ -370,7 +370,7 @@ if set to <code>true</code> [b has child].
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_Section_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Links the request destroy.
 
@@ -387,4 +387,5 @@ The ob notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

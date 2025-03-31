@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ChangeInterfaceOperation"></a> Class ChangeInterfaceOperation
+# Class ChangeInterfaceOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeInterfaceOperation__ctor_VM_Managed_IInterface_System_Boolean_VM_Managed_Document_"></a> ChangeInterfaceOperation\(IInterface, bool, Document\)
+### ChangeInterfaceOperation\(IInterface, bool, Document\)
 
 ```csharp
 public ChangeInterfaceOperation(IInterface itf, bool bInterface, Document doc)
@@ -91,7 +91,7 @@ public ChangeInterfaceOperation(IInterface itf, bool bInterface, Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeInterfaceOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeInterfaceOperation\(JournalParameter\)
+### ChangeInterfaceOperation\(JournalParameter\)
 
 ```csharp
 public ChangeInterfaceOperation(JournalParameter jp)
@@ -103,7 +103,7 @@ public ChangeInterfaceOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeInterfaceOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -117,7 +117,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeInterfaceOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -125,7 +125,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeInterfaceOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -134,4 +134,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

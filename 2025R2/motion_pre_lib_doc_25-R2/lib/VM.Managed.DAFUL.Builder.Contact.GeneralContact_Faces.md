@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact_Faces"></a> Class GeneralContact\_Faces
+# Class GeneralContact\_Faces
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<GeneralContact\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact_Faces__ctor"></a> GeneralContact\_Faces\(\)
+### GeneralContact\_Faces\(\)
 
 ```csharp
 public GeneralContact_Faces()
@@ -61,7 +61,7 @@ public GeneralContact_Faces()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact_Faces_ActionGeometry"></a> ActionGeometry
+### ActionGeometry
 
 ```csharp
 public PickedFace ActionGeometry { get; set; }
@@ -71,7 +71,7 @@ public PickedFace ActionGeometry { get; set; }
 
  PickedFace
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact_Faces_BaseGeometry"></a> BaseGeometry
+### BaseGeometry
 
 ```csharp
 public PickedFace BaseGeometry { get; set; }
@@ -83,7 +83,7 @@ public PickedFace BaseGeometry { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact_Faces_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,4 +98,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

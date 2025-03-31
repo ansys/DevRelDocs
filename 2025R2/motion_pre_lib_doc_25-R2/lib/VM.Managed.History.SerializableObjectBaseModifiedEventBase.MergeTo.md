@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_MergeTo"></a> Enum SerializableObjectBaseModifiedEventBase.MergeTo
+# Enum SerializableObjectBaseModifiedEventBase.MergeTo
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -14,4 +14,5 @@ public enum SerializableObjectBaseModifiedEventBase.MergeTo
 `Next = 1` 
 
 `Previous = 0` 
+
 

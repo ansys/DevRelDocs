@@ -1,4 +1,4 @@
-# <a id="VM_IExpression"></a> Interface IExpression
+# Interface IExpression
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IExpression
 
 ## Properties
 
-### <a id="VM_IExpression_String"></a> String
+### String
 
 ```csharp
 string String { get; set; }
@@ -24,4 +24,5 @@ string String { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

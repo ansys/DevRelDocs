@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue"></a> Class SimulateForPartComponentEigenvalue
+# Class SimulateForPartComponentEigenvalue
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -106,7 +106,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue__ctor_VM_Managed_Document_"></a> SimulateForPartComponentEigenvalue\(Document\)
+### SimulateForPartComponentEigenvalue\(Document\)
 
 ```csharp
 public SimulateForPartComponentEigenvalue(Document doc)
@@ -116,7 +116,7 @@ public SimulateForPartComponentEigenvalue(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue__ctor_VM_Managed_Operation_JournalParameter_"></a> SimulateForPartComponentEigenvalue\(JournalParameter\)
+### SimulateForPartComponentEigenvalue\(JournalParameter\)
 
 ```csharp
 public SimulateForPartComponentEigenvalue(JournalParameter jp)
@@ -128,7 +128,7 @@ public SimulateForPartComponentEigenvalue(JournalParameter jp)
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue_m_param"></a> m\_param
+### m\_param
 
 ```csharp
 protected SimulationScenarioEigenvalue.SolvingParam m_param
@@ -140,7 +140,7 @@ protected SimulationScenarioEigenvalue.SolvingParam m_param
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -154,7 +154,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue_AutoSetEigenvalueObject"></a> AutoSetEigenvalueObject\(\)
+### AutoSetEigenvalueObject\(\)
 
 ```csharp
 protected bool AutoSetEigenvalueObject()
@@ -164,7 +164,7 @@ protected bool AutoSetEigenvalueObject()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -172,7 +172,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue_ReadExtraJournal_System_Xml_XmlElement_"></a> ReadExtraJournal\(XmlElement\)
+### ReadExtraJournal\(XmlElement\)
 
 ```csharp
 public override void ReadExtraJournal(XmlElement nodeArg)
@@ -182,7 +182,7 @@ public override void ReadExtraJournal(XmlElement nodeArg)
 
 `nodeArg` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
+### SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -192,7 +192,7 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulateForPartComponentEigenvalue_WriteExtraJournal_System_Xml_XmlWriter_"></a> WriteExtraJournal\(XmlWriter\)
+### WriteExtraJournal\(XmlWriter\)
 
 ```csharp
 public override void WriteExtraJournal(XmlWriter writer)
@@ -201,4 +201,5 @@ public override void WriteExtraJournal(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

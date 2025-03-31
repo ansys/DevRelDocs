@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ToolKitSettingBase"></a> Class ToolKitSettingBase
+# Class ToolKitSettingBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ToolKitSettingBase__ctor"></a> ToolKitSettingBase\(\)
+### ToolKitSettingBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ToolKitSettingBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ public ToolKitSettingBase()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_ToolKitSettingBase_Add_VM_Managed_ObjectBase_"></a> Add\(ObjectBase\)
+### Add\(ObjectBase\)
 
 Adds the object.
 
@@ -124,7 +124,7 @@ public virtual void Add(ObjectBase ob)
 
 The object.
 
-### <a id="VM_Managed_DAFUL_ToolKitSettingBase_Clear"></a> Clear\(\)
+### Clear\(\)
 
 Clear
 
@@ -132,7 +132,7 @@ Clear
 public virtual void Clear()
 ```
 
-### <a id="VM_Managed_DAFUL_ToolKitSettingBase_Contains_VM_Managed_ObjectBase_"></a> Contains\(ObjectBase\)
+### Contains\(ObjectBase\)
 
 Determines whether [contains] the object.
 
@@ -152,7 +152,7 @@ The object.
 
 <code>true</code> if [contains] the object; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_ToolKitSettingBase_PostDeserialize_VM_Managed_Simulation_Configuration_"></a> PostDeserialize\(Configuration\)
+### PostDeserialize\(Configuration\)
 
 Posts the deserialize.
 
@@ -166,7 +166,7 @@ public virtual void PostDeserialize(Configuration config)
 
 The config.
 
-### <a id="VM_Managed_DAFUL_ToolKitSettingBase_Remove_VM_Managed_ObjectBase_"></a> Remove\(ObjectBase\)
+### Remove\(ObjectBase\)
 
 Removes the object.
 
@@ -184,7 +184,7 @@ The object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_ToolKitSettingBase_Replace_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> Replace\(ObjectBase, ObjectBase\)
+### Replace\(ObjectBase, ObjectBase\)
 
 Replaces the object.
 
@@ -201,4 +201,5 @@ The old object.
 `obNew` ObjectBase
 
 The new object.
+
 

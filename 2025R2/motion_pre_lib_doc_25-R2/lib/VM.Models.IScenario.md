@@ -1,4 +1,4 @@
-# <a id="VM_Models_IScenario"></a> Interface IScenario
+# Interface IScenario
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -24,7 +24,7 @@ IHasParent<IProjectDocument\>
 
 ## Properties
 
-### <a id="VM_Models_IScenario_CategoryName"></a> CategoryName
+### CategoryName
 
 ```csharp
 string CategoryName { get; }
@@ -34,7 +34,7 @@ string CategoryName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_IScenario_Items"></a> Items
+### Items
 
 ```csharp
 IEnumerable<IStep> Items { get; }
@@ -44,7 +44,7 @@ IEnumerable<IStep> Items { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStep](VM.Models.IStep.md)\>
 
-### <a id="VM_Models_IScenario_Left"></a> Left
+### Left
 
 ```csharp
 double Left { get; set; }
@@ -54,7 +54,7 @@ double Left { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_IScenario_Top"></a> Top
+### Top
 
 ```csharp
 double Top { get; set; }
@@ -64,7 +64,7 @@ double Top { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_IScenario_Item_VM_Identifier_"></a> this\[Identifier\]
+### this\[Identifier\]
 
 ```csharp
 IStep this[Identifier identifier] { get; }
@@ -74,7 +74,7 @@ IStep this[Identifier identifier] { get; }
 
  [IStep](VM.Models.IStep.md)
 
-### <a id="VM_Models_IScenario_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 ```csharp
 IStep this[int index] { get; }
@@ -86,7 +86,7 @@ IStep this[int index] { get; }
 
 ## Methods
 
-### <a id="VM_Models_IScenario_Add_VM_Models_IStep_"></a> Add\(IStep\)
+### Add\(IStep\)
 
 ```csharp
 void Add(IStep item)
@@ -96,13 +96,13 @@ void Add(IStep item)
 
 `item` [IStep](VM.Models.IStep.md)
 
-### <a id="VM_Models_IScenario_Clear"></a> Clear\(\)
+### Clear\(\)
 
 ```csharp
 void Clear()
 ```
 
-### <a id="VM_Models_IScenario_Remove_VM_Models_IStep_"></a> Remove\(IStep\)
+### Remove\(IStep\)
 
 ```csharp
 void Remove(IStep item)
@@ -112,7 +112,7 @@ void Remove(IStep item)
 
 `item` [IStep](VM.Models.IStep.md)
 
-### <a id="VM_Models_IScenario_TryGetItem_VM_Identifier_VM_Models_IStep__"></a> TryGetItem\(Identifier, out IStep\)
+### TryGetItem\(Identifier, out IStep\)
 
 ```csharp
 bool TryGetItem(Identifier identifier, out IStep item)
@@ -127,4 +127,5 @@ bool TryGetItem(Identifier identifier, out IStep item)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

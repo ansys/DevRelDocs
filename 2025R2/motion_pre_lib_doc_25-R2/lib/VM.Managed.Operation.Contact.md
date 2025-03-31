@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_Contact"></a> Class Contact
+# Class Contact
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -20,7 +20,7 @@ public static class Contact
 
 ## Methods
 
-### <a id="VM_Managed_Operation_Contact_CreateTie_VM_Managed_Document3D_VM_Managed_DAFUL_SetFace_VM_Managed_DAFUL_SetFace_System_String_"></a> CreateTie\(Document3D, SetFace, SetFace, string\)
+### CreateTie\(Document3D, SetFace, SetFace, string\)
 
 ```csharp
 public static Tie CreateTie(Document3D activeDocument, SetFace setFaceBase, SetFace setFaceAction, string strPrefixName)
@@ -39,4 +39,5 @@ public static Tie CreateTie(Document3D activeDocument, SetFace setFaceBase, SetF
 #### Returns
 
  Tie
+
 

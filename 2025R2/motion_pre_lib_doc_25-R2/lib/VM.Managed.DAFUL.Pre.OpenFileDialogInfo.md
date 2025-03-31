@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_OpenFileDialogInfo"></a> Class OpenFileDialogInfo
+# Class OpenFileDialogInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -34,11 +34,12 @@ public class OpenFileDialogInfo : FileDialogInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_OpenFileDialogInfo__ctor"></a> OpenFileDialogInfo\(\)
+### OpenFileDialogInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.OpenFileDialogInfo" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public OpenFileDialogInfo()
 ```
+
 

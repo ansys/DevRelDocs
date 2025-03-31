@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Render_LightInterpolationOptionType"></a> Enum LightInterpolationOptionType
+# Enum LightInterpolationOptionType
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -32,6 +32,7 @@ flat.
 `Phong = 2` 
 
 The phong shading algorithm computes the light on a per-pixel basis.
+
 
 
 

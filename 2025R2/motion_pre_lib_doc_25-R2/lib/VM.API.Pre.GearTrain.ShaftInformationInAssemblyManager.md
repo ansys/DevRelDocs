@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_ShaftInformationInAssemblyManager"></a> Struct ShaftInformationInAssemblyManager
+# Struct ShaftInformationInAssemblyManager
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct ShaftInformationInAssemblyManager
 
 ## Constructors
 
-### <a id="VM_API_Pre_GearTrain_ShaftInformationInAssemblyManager__ctor"></a> ShaftInformationInAssemblyManager\(\)
+### ShaftInformationInAssemblyManager\(\)
 
 Default constructor
 
@@ -21,7 +21,7 @@ public ShaftInformationInAssemblyManager()
 
 ## Properties
 
-### <a id="VM_API_Pre_GearTrain_ShaftInformationInAssemblyManager_BaseBody"></a> BaseBody
+### BaseBody
 
 The base body and the type is <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
@@ -33,7 +33,7 @@ public Obj BaseBody { readonly get; set; }
 
  Obj
 
-### <a id="VM_API_Pre_GearTrain_ShaftInformationInAssemblyManager_PowerLoad"></a> PowerLoad
+### PowerLoad
 
 The power load and the type is <xref href="VM.Managed.DAFUL.GearTrain.IPowerLoad" data-throw-if-not-resolved="false"></xref>.
 
@@ -44,4 +44,5 @@ public Obj PowerLoad { readonly get; set; }
 #### Property Value
 
  Obj
+
 

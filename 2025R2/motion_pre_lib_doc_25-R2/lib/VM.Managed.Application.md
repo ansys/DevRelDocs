@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Application"></a> Class Application
+# Class Application
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -26,7 +26,7 @@ public abstract class Application : IHasVerifyLevel
 
 ## Constructors
 
-### <a id="VM_Managed_Application__ctor_VM_DAFUL_IApplication__"></a> Application\(IApplication\*\)
+### Application\(IApplication\*\)
 
 Initializes a new instance of the <xref href="VM.Managed.Application" data-throw-if-not-resolved="false"></xref> class.
 
@@ -42,7 +42,7 @@ The info of application.
 
 ## Properties
 
-### <a id="VM_Managed_Application_ConversionMethod"></a> ConversionMethod
+### ConversionMethod
 
 ```csharp
 public static ConversionMethod ConversionMethod { get; set; }
@@ -52,7 +52,7 @@ public static ConversionMethod ConversionMethod { get; set; }
 
  ConversionMethod
 
-### <a id="VM_Managed_Application_DialogManager"></a> DialogManager
+### DialogManager
 
 Gets or sets the threading of picker.
 
@@ -64,7 +64,7 @@ public static IDlgManager DialogManager { get; set; }
 
  IDlgManager
 
-### <a id="VM_Managed_Application_DocumentForUpdateContents"></a> DocumentForUpdateContents
+### DocumentForUpdateContents
 
 ```csharp
 public Document DocumentForUpdateContents { get; }
@@ -74,7 +74,7 @@ public Document DocumentForUpdateContents { get; }
 
  [Document](VM.Managed.Document.md)
 
-### <a id="VM_Managed_Application_Documents"></a> Documents
+### Documents
 
 Gets all opened documents
 
@@ -86,7 +86,7 @@ public ICollection<Document> Documents { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Document](VM.Managed.Document.md)\>
 
-### <a id="VM_Managed_Application_Kernel"></a> Kernel
+### Kernel
 
 Gets the Kernel.
 
@@ -98,7 +98,7 @@ public Kernel Kernel { get; }
 
  [Kernel](VM.Managed.CAD.Kernel.md)
 
-### <a id="VM_Managed_Application_LoadPrior242Sp3Files"></a> LoadPrior242Sp3Files
+### LoadPrior242Sp3Files
 
 ```csharp
 public static bool LoadPrior242Sp3Files { get; set; }
@@ -108,7 +108,7 @@ public static bool LoadPrior242Sp3Files { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Application_OEMMode"></a> OEMMode
+### OEMMode
 
 ```csharp
 public static bool OEMMode { get; set; }
@@ -118,7 +118,7 @@ public static bool OEMMode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Application_ShowOEMError"></a> ShowOEMError
+### ShowOEMError
 
 ```csharp
 public static bool ShowOEMError { get; set; }
@@ -128,7 +128,7 @@ public static bool ShowOEMError { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Application_SupportLegacyACISBasedFile"></a> SupportLegacyACISBasedFile
+### SupportLegacyACISBasedFile
 
 ```csharp
 public static bool SupportLegacyACISBasedFile { get; set; }
@@ -140,7 +140,7 @@ public static bool SupportLegacyACISBasedFile { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Application_CreateDocument_VM_Models_Pre_DocumentType_System_Type_System_String___VM_Managed_DocCreateInfo_"></a> CreateDocument\(DocumentType, Type, string\[\], DocCreateInfo\)
+### CreateDocument\(DocumentType, Type, string\[\], DocCreateInfo\)
 
 Creates the document.
 
@@ -172,7 +172,7 @@ The info of creating document.
 
 The created document.
 
-### <a id="VM_Managed_Application_CreateDocument_VM_Models_Pre_DocumentType_System_Type_"></a> CreateDocument\(DocumentType, Type\)
+### CreateDocument\(DocumentType, Type\)
 
 Creates the document.
 
@@ -196,7 +196,7 @@ The system type of document.
 
 The created document.
 
-### <a id="VM_Managed_Application_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -207,7 +207,7 @@ protected virtual void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Application_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 destroy a instance of the <xref href="VM.Managed.Application" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ destroy a instance of the <xref href="VM.Managed.Application" data-throw-if-not-
 public override sealed void Dispose()
 ```
 
-### <a id="VM_Managed_Application_Finalize"></a> \~Application\(\)
+### \~Application\(\)
 
 Releases unmanaged resources and performs other cleanup operations before the
 <xref href="VM.Managed.Application" data-throw-if-not-resolved="false"></xref> is reclaimed by garbage collection.
@@ -224,7 +224,7 @@ Releases unmanaged resources and performs other cleanup operations before the
 protected ~Application()
 ```
 
-### <a id="VM_Managed_Application_GetTranslateFilter_System_String_"></a> GetTranslateFilter\(string\)
+### GetTranslateFilter\(string\)
 
 ```csharp
 public string GetTranslateFilter(string strFilter)
@@ -238,7 +238,7 @@ public string GetTranslateFilter(string strFilter)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Application_GetTranslateForExportFilter_System_String_"></a> GetTranslateForExportFilter\(string\)
+### GetTranslateForExportFilter\(string\)
 
 ```csharp
 public string GetTranslateForExportFilter(string strFilter)
@@ -252,7 +252,7 @@ public string GetTranslateForExportFilter(string strFilter)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Application_InitPlugins_System_String___"></a> InitPlugins\(string\[\]\)
+### InitPlugins\(string\[\]\)
 
 Initializes a plugin.
 
@@ -266,7 +266,7 @@ public abstract void InitPlugins(string[] arStrPluginPath)
 
 The path of plugin.
 
-### <a id="VM_Managed_Application_OpenDocument_System_String_VM_Models_Pre_DocumentType_System_String___VM_Managed_Application_PostOpenDocument_"></a> OpenDocument\(string, DocumentType, string\[\], PostOpenDocument\)
+### OpenDocument\(string, DocumentType, string\[\], PostOpenDocument\)
 
 Opens the document.
 
@@ -298,7 +298,7 @@ The delegate of post open.
 
 The open document.
 
-### <a id="VM_Managed_Application_OpenTemplateBasedDocument_System_String_VM_Models_Pre_DocumentType_System_String___VM_Managed_Application_PostOpenDocument_"></a> OpenTemplateBasedDocument\(string, DocumentType, string\[\], PostOpenDocument\)
+### OpenTemplateBasedDocument\(string, DocumentType, string\[\], PostOpenDocument\)
 
 Opens the document of template base.
 
@@ -330,7 +330,7 @@ The delegate of post open.
 
 The open document.
 
-### <a id="VM_Managed_Application_OpenXmlDocument_System_String_VM_Models_Pre_DocumentType_System_String___VM_Managed_Application_PostOpenDocument_"></a> OpenXmlDocument\(string, DocumentType, string\[\], PostOpenDocument\)
+### OpenXmlDocument\(string, DocumentType, string\[\], PostOpenDocument\)
 
 Opens the xml document
 
@@ -362,7 +362,7 @@ The delegate of post open.
 
 The open document.
 
-### <a id="VM_Managed_Application_SetAxisSetting_System_Boolean_VM_Managed_AxisLocation_"></a> SetAxisSetting\(bool, AxisLocation\)
+### SetAxisSetting\(bool, AxisLocation\)
 
 Sets Axis Setting.
 
@@ -380,7 +380,7 @@ Use rotate in axis area
 
 Axis Location
 
-### <a id="VM_Managed_Application_SetBinderDictionary_System_Collections_Generic_Dictionary_System_String_VM_Managed_Application_BinderInfo__System_Collections_Generic_Dictionary_System_String_VM_Managed_Application_BinderInfo__"></a> SetBinderDictionary\(Dictionary<string, BinderInfo\>, Dictionary<string, BinderInfo\>\)
+### SetBinderDictionary\(Dictionary<string, BinderInfo\>, Dictionary<string, BinderInfo\>\)
 
 ```csharp
 public static void SetBinderDictionary(Dictionary<string, Application.BinderInfo> dicBinder, Dictionary<string, Application.BinderInfo> dicBinderForCollection)
@@ -392,7 +392,7 @@ public static void SetBinderDictionary(Dictionary<string, Application.BinderInfo
 
 `dicBinderForCollection` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [Application](VM.Managed.Application.md).[BinderInfo](VM.Managed.Application.BinderInfo.md)\>
 
-### <a id="VM_Managed_Application_SetDoubleFormat_System_Int32_"></a> SetDoubleFormat\(int\)
+### SetDoubleFormat\(int\)
 
 Sets the double format.
 
@@ -406,7 +406,7 @@ public static void SetDoubleFormat(int nValue)
 
 The value.
 
-### <a id="VM_Managed_Application_SetInforceBuild_System_String_System_Boolean_"></a> SetInforceBuild\(string, bool\)
+### SetInforceBuild\(string, bool\)
 
 ```csharp
 public void SetInforceBuild(string strFile, bool bOnOff)
@@ -418,7 +418,7 @@ public void SetInforceBuild(string strFile, bool bOnOff)
 
 `bOnOff` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Application_SetKernelLogLevel_System_Int32_System_Int32_"></a> SetKernelLogLevel\(int, int\)
+### SetKernelLogLevel\(int, int\)
 
 Set kernel log level
 
@@ -436,7 +436,7 @@ Log level for the kernel messages.
 
 Log level for the translator messages.
 
-### <a id="VM_Managed_Application_SetNavigationSetting_VM_Managed_NavigationKeys_VM_Managed_NavigationKeys_VM_Managed_NavigationKeys_VM_Managed_NavigationKeys_VM_Managed_NavigationKeys_VM_Managed_NavigationKeys_VM_Managed_NavigationKeys_VM_Managed_NavigationKeys_System_Boolean_System_Boolean_System_Boolean_System_Int32_System_Int32_"></a> SetNavigationSetting\(NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, bool, bool, bool, int, int\)
+### SetNavigationSetting\(NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, NavigationKeys, bool, bool, bool, int, int\)
 
 ```csharp
 public static void SetNavigationSetting(NavigationKeys oRotateMain, NavigationKeys oRotateSub, NavigationKeys oTranslateMain, NavigationKeys oTranslateSub, NavigationKeys oZoomMain, NavigationKeys oZoomSub, NavigationKeys oCenterMain, NavigationKeys oCenterSub, bool bZoomInMouseDown, bool bZoomInWheelDown, bool bTrackball, int nRotateSpeed, int nZoomSpeed)
@@ -470,7 +470,7 @@ public static void SetNavigationSetting(NavigationKeys oRotateMain, NavigationKe
 
 `nZoomSpeed` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_Application_Start_System_String_VM_Managed_Application_StartOption_"></a> Start\(string, StartOption\)
+### Start\(string, StartOption\)
 
 Start application.
 
@@ -491,4 +491,5 @@ The application start option
 #### Returns
 
  [Application](VM.Managed.Application.md)
+
 

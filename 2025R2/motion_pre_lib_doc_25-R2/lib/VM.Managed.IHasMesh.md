@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHasMesh"></a> Interface IHasMesh
+# Interface IHasMesh
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IHasMesh
 
 ## Methods
 
-### <a id="VM_Managed_IHasMesh_GetMeshes"></a> GetMeshes\(\)
+### GetMeshes\(\)
 
 Gets the meshes.
 
@@ -30,4 +30,5 @@ ObjectBase[] GetMeshes()
  [ObjectBase](VM.Managed.ObjectBase.md)\[\]
 
 The builders.
+
 

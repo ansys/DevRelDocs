@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_IRacewayBuilder"></a> Interface IRacewayBuilder
+# Interface IRacewayBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,7 +21,7 @@ public interface IRacewayBuilder : IGTBuilder
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IRacewayBuilder_GetTransform"></a> GetTransform\(\)
+### GetTransform\(\)
 
 Gets the transform.
 
@@ -34,4 +34,5 @@ TMatrix GetTransform()
  TMatrix
 
 The transform.
+
 

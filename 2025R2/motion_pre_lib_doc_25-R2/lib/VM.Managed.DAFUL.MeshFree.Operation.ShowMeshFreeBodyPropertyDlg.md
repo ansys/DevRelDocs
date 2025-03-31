@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeBodyPropertyDlg"></a> Class ShowMeshFreeBodyPropertyDlg
+# Class ShowMeshFreeBodyPropertyDlg
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeBodyPropertyDlg__ctor_VM_Managed_Document_"></a> ShowMeshFreeBodyPropertyDlg\(Document\)
+### ShowMeshFreeBodyPropertyDlg\(Document\)
 
 ```csharp
 public ShowMeshFreeBodyPropertyDlg(Document doc)
@@ -89,7 +89,7 @@ public ShowMeshFreeBodyPropertyDlg(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeBodyPropertyDlg_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -103,7 +103,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeBodyPropertyDlg_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -111,9 +111,10 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeBodyPropertyDlg_ShowDialog"></a> ShowDialog\(\)
+### ShowDialog\(\)
 
 ```csharp
 protected virtual void ShowDialog()
 ```
+
 

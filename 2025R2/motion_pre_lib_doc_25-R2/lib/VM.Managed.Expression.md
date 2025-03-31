@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Expression"></a> Class Expression
+# Class Expression
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -105,7 +105,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Expression__ctor"></a> Expression\(\)
+### Expression\(\)
 
 ```csharp
 protected Expression()
@@ -113,7 +113,7 @@ protected Expression()
 
 ## Fields
 
-### <a id="VM_Managed_Expression_g_bSkipUpdate"></a> g\_bSkipUpdate
+### g\_bSkipUpdate
 
 ```csharp
 public static bool g_bSkipUpdate
@@ -123,7 +123,7 @@ public static bool g_bSkipUpdate
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Expression_m_dicReferenceObject"></a> m\_dicReferenceObject
+### m\_dicReferenceObject
 
 ```csharp
 [Obsolete]
@@ -134,7 +134,7 @@ protected Dictionary<UIntPtr, Link<INamed, LinkContainer.Update, LinkContainer.D
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr), [Link](VM.Managed.Link\-4.md)<[INamed](VM.Managed.INamed.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md), [LinkContainer](VM.Managed.LinkContainer.md).[Destroy](VM.Managed.LinkContainer.Destroy.md), [LinkContainer](VM.Managed.LinkContainer.md).[None](VM.Managed.LinkContainer.None.md)\>\>
 
-### <a id="VM_Managed_Expression_m_linkCollectionReferenceObject"></a> m\_linkCollectionReferenceObject
+### m\_linkCollectionReferenceObject
 
 ```csharp
 protected LinkListCollection<INamed, Link<INamed, LinkContainer.Update, LinkContainer.Destroy, LinkContainer.None>> m_linkCollectionReferenceObject
@@ -144,7 +144,7 @@ protected LinkListCollection<INamed, Link<INamed, LinkContainer.Update, LinkCont
 
  [LinkListCollection](VM.Managed.Collections.LinkListCollection\-2.md)<[INamed](VM.Managed.INamed.md), [Link](VM.Managed.Link\-4.md)<[INamed](VM.Managed.INamed.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md), [LinkContainer](VM.Managed.LinkContainer.md).[Destroy](VM.Managed.LinkContainer.Destroy.md), [LinkContainer](VM.Managed.LinkContainer.md).[None](VM.Managed.LinkContainer.None.md)\>\>
 
-### <a id="VM_Managed_Expression_m_lstReferenceObject"></a> m\_lstReferenceObject
+### m\_lstReferenceObject
 
 ```csharp
 [Obsolete]
@@ -155,7 +155,7 @@ protected List<Link<INamed, LinkContainer.Update, LinkContainer.Destroy, LinkCon
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Link](VM.Managed.Link\-4.md)<[INamed](VM.Managed.INamed.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md), [LinkContainer](VM.Managed.LinkContainer.md).[Destroy](VM.Managed.LinkContainer.Destroy.md), [LinkContainer](VM.Managed.LinkContainer.md).[None](VM.Managed.LinkContainer.None.md)\>\>
 
-### <a id="VM_Managed_Expression_m_pExpressionHandler"></a> m\_pExpressionHandler
+### m\_pExpressionHandler
 
 ```csharp
 protected static ExpressionHandler* m_pExpressionHandler
@@ -165,7 +165,7 @@ protected static ExpressionHandler* m_pExpressionHandler
 
  [ExpressionHandler](ExpressionHandler.md)\*
 
-### <a id="VM_Managed_Expression_m_strValue"></a> m\_strValue
+### m\_strValue
 
 ```csharp
 protected string m_strValue
@@ -177,7 +177,7 @@ protected string m_strValue
 
 ## Properties
 
-### <a id="VM_Managed_Expression_String"></a> String
+### String
 
 Gets or sets the expression string.
 
@@ -191,7 +191,7 @@ public virtual string String { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Expression_AddReferenceObject_System_UIntPtr_"></a> AddReferenceObject\(UIntPtr\)
+### AddReferenceObject\(UIntPtr\)
 
 Add the reference object.
 
@@ -211,7 +211,7 @@ The reference object key.
 
 <code>true</code> if added object; already contained, <code>false</code>.
 
-### <a id="VM_Managed_Expression_CheckReferenceObject"></a> CheckReferenceObject\(\)
+### CheckReferenceObject\(\)
 
 Check reference object.
 
@@ -219,7 +219,7 @@ Check reference object.
 protected void CheckReferenceObject()
 ```
 
-### <a id="VM_Managed_Expression_ConvertToValue_System_String_"></a> ConvertToValue\(string\)
+### ConvertToValue\(string\)
 
 Convert to value.
 
@@ -237,7 +237,7 @@ The string.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Expression_GetNumericValue"></a> GetNumericValue\(\)
+### GetNumericValue\(\)
 
 Get numeric value.
 
@@ -249,7 +249,7 @@ protected virtual double GetNumericValue()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_Expression_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initialize this class.
 
@@ -257,7 +257,7 @@ Initialize this class.
 protected void Initialize()
 ```
 
-### <a id="VM_Managed_Expression_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -271,7 +271,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_Expression_ParseToValue_System_Char__"></a> ParseToValue\(char\*\)
+### ParseToValue\(char\*\)
 
 Parse to value.
 
@@ -285,7 +285,7 @@ protected virtual void ParseToValue(char* wstrValue)
 
 The string.
 
-### <a id="VM_Managed_Expression_SetDefaultString_System_String__"></a> SetDefaultString\(ref string\)
+### SetDefaultString\(ref string\)
 
 Set default string.
 
@@ -299,7 +299,7 @@ protected virtual void SetDefaultString(ref string strValue)
 
 The value holds default string.
 
-### <a id="VM_Managed_Expression_Uninitialize"></a> Uninitialize\(\)
+### Uninitialize\(\)
 
 Release expression handler.
 
@@ -307,7 +307,7 @@ Release expression handler.
 public static void Uninitialize()
 ```
 
-### <a id="VM_Managed_Expression_UpdateByReferenceObject_System_Object_VM_Managed_LinkEventArgs_"></a> UpdateByReferenceObject\(object, LinkEventArgs\)
+### UpdateByReferenceObject\(object, LinkEventArgs\)
 
 The update event occured from the reference object.
 
@@ -324,4 +324,5 @@ The reference object.
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
 The update event information.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_PressureLoad_Faces"></a> Class PressureLoad\_Faces
+# Class PressureLoad\_Faces
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree.Force](VM.Managed.DAFUL.Builder.MeshFree.Force.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<PressureLoad\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_PressureLoad_Faces__ctor"></a> PressureLoad\_Faces\(\)
+### PressureLoad\_Faces\(\)
 
 ```csharp
 public PressureLoad_Faces()
@@ -61,7 +61,7 @@ public PressureLoad_Faces()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_PressureLoad_Faces_BaseGeometry"></a> BaseGeometry
+### BaseGeometry
 
 ```csharp
 public string[] BaseGeometry { get; set; }
@@ -71,7 +71,7 @@ public string[] BaseGeometry { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_PressureLoad_Faces_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -83,7 +83,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_PressureLoad_Faces_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -99,7 +99,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_PressureLoad_Faces_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -112,4 +112,5 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

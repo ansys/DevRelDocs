@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_PartColorFaceSet"></a> Class PartColorFaceSet
+# Class PartColorFaceSet
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<PartSetFace\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PartColorFaceSet__ctor"></a> PartColorFaceSet\(\)
+### PartColorFaceSet\(\)
 
 ```csharp
 public PartColorFaceSet()
@@ -61,7 +61,7 @@ public PartColorFaceSet()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PartColorFaceSet_AddToDoc"></a> AddToDoc
+### AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -71,7 +71,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PartColorFaceSet_ColorArray"></a> ColorArray
+### ColorArray
 
 ```csharp
 public string[] ColorArray { get; set; }
@@ -81,7 +81,7 @@ public string[] ColorArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PartColorFaceSet_Connectable"></a> Connectable
+### Connectable
 
 ```csharp
 public ObjectBase Connectable { get; }
@@ -93,7 +93,7 @@ public ObjectBase Connectable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PartColorFaceSet_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -108,4 +108,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

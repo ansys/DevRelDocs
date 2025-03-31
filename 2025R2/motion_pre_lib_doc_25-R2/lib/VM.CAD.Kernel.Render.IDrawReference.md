@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Render_IDrawReference"></a> Interface IDrawReference
+# Interface IDrawReference
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -17,7 +17,7 @@ public interface IDrawReference
 
 ## Methods
 
-### <a id="VM_CAD_Kernel_Render_IDrawReference_Instantiate_VM_Models_Pre_IHasKeyObject_VM_TMatrix_"></a> Instantiate\(IHasKeyObject, TMatrix\)
+### Instantiate\(IHasKeyObject, TMatrix\)
 
 Instantiate from original object.
 
@@ -34,4 +34,5 @@ The reference's object
 `matTransform` TMatrix
 
 The transformation
+
 

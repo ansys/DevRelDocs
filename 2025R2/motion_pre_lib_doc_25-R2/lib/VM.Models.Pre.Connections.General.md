@@ -1,9 +1,9 @@
-# <a id="VM_Models_Pre_Connections_General"></a> Class General
+# Class General
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
 
-This class is to represent the general constraint.
+<p>This class is to represent the general constraint.</p>
 
 ```csharp
 public class General : Connector<PropertyGeneral>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IDraw, IDrawIcon, IReferencable, ITransformable, IConnector, IGenerable, IArgument, IReportable, IFlip, IHasReplaceableEntity, ITranslationalMotionComponent, IRotationalMotionComponent, ICouplerComponent, IEnableForSimulationScenario, IEntityRelation, IRSpringDamperComponent, IRScalarComponent, IForceComponent, ITemplateObject, IReadableForceMarker, ITorqueReferenceForBearing
@@ -254,17 +254,17 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Connections_General__ctor"></a> General\(\)
+### General\(\)
 
-Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.</p>
 
 ```csharp
 public General()
 ```
 
-### <a id="VM_Models_Pre_Connections_General__ctor_System_String_"></a> General\(string\)
+### General\(string\)
 
-Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.</p>
 
 ```csharp
 public General(string strName)
@@ -274,11 +274,11 @@ public General(string strName)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-Name of the general constraint.
+<p>Name of the general constraint.</p>
 
-### <a id="VM_Models_Pre_Connections_General__ctor_System_String_VM_Models_Pre_Connections_PropertyGeneral_ConnectorType_"></a> General\(string, ConnectorType\)
+### General\(string, ConnectorType\)
 
-Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.</p>
 
 ```csharp
 public General(string strName, PropertyGeneral.ConnectorType type)
@@ -288,15 +288,15 @@ public General(string strName, PropertyGeneral.ConnectorType type)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-Name of the general constraint.
+<p>Name of the general constraint.</p>
 
 `type` [PropertyGeneral](VM.Models.Pre.Connections.PropertyGeneral.md).[ConnectorType](VM.Models.Pre.Connections.PropertyGeneral.ConnectorType.md)
 
-Type of the general constraint.
+<p>Type of the general constraint.</p>
 
-### <a id="VM_Models_Pre_Connections_General__ctor_System_String_VM_Managed_Property_"></a> General\(string, Property\)
+### General\(string, Property\)
 
-Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.</p>
 
 ```csharp
 public General(string strName, Property property)
@@ -306,15 +306,15 @@ public General(string strName, Property property)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-Name of the general constraint
+<p>Name of the general constraint</p>
 
 `property` Property
 
-Property of the general constraint
+<p>Property of the general constraint</p>
 
 ## Properties
 
-### <a id="VM_Models_Pre_Connections_General_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
+### PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -326,7 +326,7 @@ public override bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Connections_General_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -338,9 +338,21 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### <a id="VM_Models_Pre_Connections_General_TopologyEntityTypeName"></a> TopologyEntityTypeName
+### TopologyEntityTypeName
 
-Get the object type name
+<p>Get the object type name</p>
+<p>
+        Type : System::String
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : false
+        변경 시 DFS 재생성 여부 : No
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public override string TopologyEntityTypeName { get; }
@@ -352,9 +364,9 @@ public override string TopologyEntityTypeName { get; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Connections_General_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
-Draws the icon.
+<p>Draws the icon.</p>
 
 ```csharp
 public override void Draw(Canvas canvas)
@@ -364,11 +376,11 @@ public override void Draw(Canvas canvas)
 
 `canvas` Canvas
 
-The canvas has icon information.
+<p>The canvas has icon information.</p>
 
-### <a id="VM_Models_Pre_Connections_General_InitializeEvent_VM_Managed_Document3D_"></a> InitializeEvent\(Document3D\)
+### InitializeEvent\(Document3D\)
 
-Initializes event.
+<p>Initializes event.</p>
 
 ```csharp
 public static void InitializeEvent(Document3D doc)
@@ -378,9 +390,9 @@ public static void InitializeEvent(Document3D doc)
 
 `doc` Document3D
 
-### <a id="VM_Models_Pre_Connections_General_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
-Makes the reference [implementation].
+<p>Makes the reference [implementation].</p>
 
 ```csharp
 protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
@@ -390,9 +402,9 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
-The container.
+<p>The container.</p>
 
-### <a id="VM_Models_Pre_Connections_General_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -406,7 +418,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Models_Pre_Connections_General_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -419,4 +431,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

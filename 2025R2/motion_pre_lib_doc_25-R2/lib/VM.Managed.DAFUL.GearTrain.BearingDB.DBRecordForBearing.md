@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing"></a> Class DBRecordForBearing
+# Class DBRecordForBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -35,7 +35,7 @@ Record.RecordNo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing__ctor"></a> DBRecordForBearing\(\)
+### DBRecordForBearing\(\)
 
 ```csharp
 public DBRecordForBearing()
@@ -43,7 +43,7 @@ public DBRecordForBearing()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Bore"></a> Bore
+### Bore
 
 Bore
 
@@ -56,7 +56,7 @@ public double? Bore
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Company"></a> Company
+### Company
 
 Company
 
@@ -69,7 +69,7 @@ public string Company
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Designation"></a> Designation
+### Designation
 
 Designation
 
@@ -82,7 +82,7 @@ public string Designation
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_OutDia"></a> OutDia
+### OutDia
 
 Outer diameter
 
@@ -95,7 +95,7 @@ public double? OutDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Type"></a> Type
+### Type
 
 Bearing type
 
@@ -108,7 +108,7 @@ public string Type
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Width"></a> Width
+### Width
 
 Width
 
@@ -121,7 +121,7 @@ public double? Width
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_nRows"></a> nRows
+### nRows
 
 Number of row
 
@@ -133,4 +133,5 @@ public int? nRows
 #### Field Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)?
+
 

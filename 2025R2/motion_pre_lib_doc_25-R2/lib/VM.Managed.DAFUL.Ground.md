@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Ground"></a> Class Ground
+# Class Ground
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -190,7 +190,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Ground__ctor"></a> Ground\(\)
+### Ground\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Ground" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Ground" data-thro
 public Ground()
 ```
 
-### <a id="VM_Managed_DAFUL_Ground__ctor_System_String_"></a> Ground\(string\)
+### Ground\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Ground" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ Name of the ground.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Ground_Geometry"></a> Geometry
+### Geometry
 
 Gets the geometry.
 
@@ -226,7 +226,7 @@ public override List<Body> Geometry { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Body\>
 
-### <a id="VM_Managed_DAFUL_Ground_GroundName"></a> GroundName
+### GroundName
 
 Gets or sets the name of the ground.
 
@@ -238,7 +238,7 @@ public static string GroundName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Ground_ReferencableImpl"></a> ReferencableImpl
+### ReferencableImpl
 
 Gets a value indicating whether this <xref href="VM.Managed.DAFUL.BodyBase%601" data-throw-if-not-resolved="false"></xref> is referencable [implementation].
 
@@ -252,7 +252,7 @@ protected override sealed bool ReferencableImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Ground_GetBuilder"></a> GetBuilder\(\)
+### GetBuilder\(\)
 
 Gets the geometry.
 
@@ -266,7 +266,7 @@ public ObjectBase[] GetBuilder()
 
 geometry container
 
-### <a id="VM_Managed_DAFUL_Ground_GetGeomModelNavigatorInfo_System_Xml_XmlDocument_System_Xml_XmlElement_VM_Managed_DAFUL_BodyProperty_VM_Managed_CAD_Body_"></a> GetGeomModelNavigatorInfo\(XmlDocument, XmlElement, BodyProperty, Body\)
+### GetGeomModelNavigatorInfo\(XmlDocument, XmlElement, BodyProperty, Body\)
 
 Gets the geometry information for model navigator.
 
@@ -298,7 +298,7 @@ The geometry.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Ground_GetLayerImpl"></a> GetLayerImpl\(\)
+### GetLayerImpl\(\)
 
 Gets the layer [implementation].
 
@@ -312,7 +312,7 @@ protected override Layer GetLayerImpl()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Ground_GetMarkerArrayModelNavigatorInfo_System_Xml_XmlDocument_System_Xml_XmlElement_VM_Managed_Collections_NamedObjectDictionary_VM_Managed_DAFUL_Marker__"></a> GetMarkerArrayModelNavigatorInfo\(XmlDocument, XmlElement, NamedObjectDictionary<Marker\>\)
+### GetMarkerArrayModelNavigatorInfo\(XmlDocument, XmlElement, NamedObjectDictionary<Marker\>\)
 
 Gets the marker array information for model navigator.
 
@@ -340,7 +340,7 @@ The marker array.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Ground_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -368,7 +368,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Ground_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -382,7 +382,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Ground_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -396,7 +396,7 @@ protected override sealed void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_Ground_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -410,7 +410,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Ground_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -418,7 +418,7 @@ Redraw.
 public void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_Ground_SetLayerImpl_VM_Managed_Layer_"></a> SetLayerImpl\(Layer\)
+### SetLayerImpl\(Layer\)
 
 Sets the layer [implementation].
 
@@ -431,4 +431,5 @@ protected override void SetLayerImpl(Layer layer)
 `layer` Layer
 
 The layer.
+
 

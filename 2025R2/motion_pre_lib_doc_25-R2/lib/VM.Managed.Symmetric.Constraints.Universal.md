@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Universal"></a> Class Universal
+# Class Universal
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  
@@ -36,7 +36,7 @@ Named<Universal\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Constraints_Universal__ctor"></a> Universal\(\)
+### Universal\(\)
 
 ```csharp
 public Universal()
@@ -44,7 +44,7 @@ public Universal()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Constraints_Universal_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,7 +78,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Symmetric_Constraints_Universal_UpdateProperty_VM_Managed_DAFUL_Constraints_PropertyUniversal_VM_Managed_DAFUL_Constraints_PropertyUniversal_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateProperty\(PropertyUniversal, PropertyUniversal, SymmetricType, Plane, Document\)
+### UpdateProperty\(PropertyUniversal, PropertyUniversal, SymmetricType, Plane, Document\)
 
 ```csharp
 public static void UpdateProperty(PropertyUniversal toolProperty, PropertyUniversal targetProperty, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -95,4 +95,5 @@ public static void UpdateProperty(PropertyUniversal toolProperty, PropertyUniver
 `sym_plane` Plane
 
 `doc` Document
+
 

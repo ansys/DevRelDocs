@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_ChannelInput"></a> Class ChannelInput
+# Class ChannelInput
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -232,7 +232,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput__ctor"></a> ChannelInput\(\)
+### ChannelInput\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ChannelInput" data-throw-if-not-resolved="false"></xref> class.
 
@@ -240,7 +240,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ChannelInp
 public ChannelInput()
 ```
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput__ctor_System_String_"></a> ChannelInput\(string\)
+### ChannelInput\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ChannelInput" data-throw-if-not-resolved="false"></xref> class.
 
@@ -256,7 +256,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput_Actuator"></a> Actuator
+### Actuator
 
 Gets or sets the actuator.
 
@@ -268,7 +268,7 @@ public ObjectBase Actuator { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput_FrameIconName"></a> FrameIconName
+### FrameIconName
 
 Gets the name of the frame icon.
 In order to distinguish from Marker.
@@ -281,7 +281,7 @@ protected override string FrameIconName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput_Input"></a> Input
+### Input
 
 Gets or sets the input.
 
@@ -293,7 +293,7 @@ public InputType Input { get; set; }
 
  [InputType](VM.Managed.DAFUL.Linear.InputType.md)
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput_InputMode"></a> InputMode
+### InputMode
 
 Gets or sets the input mode.
 Use SetInputMode() when this instance sets for undo/redo
@@ -308,7 +308,7 @@ public InputModeType InputMode { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -328,7 +328,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -356,7 +356,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -370,7 +370,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -388,7 +388,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Linear_ChannelInput_SetInputMode_VM_Managed_DAFUL_Linear_InputModeType_"></a> SetInputMode\(InputModeType\)
+### SetInputMode\(InputModeType\)
 
 Set input mode.
 
@@ -401,4 +401,5 @@ public void SetInputMode(InputModeType type)
 `type` [InputModeType](VM.Managed.DAFUL.Linear.InputModeType.md)
 
 The input mode.
+
 

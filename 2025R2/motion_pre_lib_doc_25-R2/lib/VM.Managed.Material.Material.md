@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_Material"></a> Class Material
+# Class Material
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMAppCore.dll  
@@ -26,7 +26,7 @@ public class Material : IMaterial
 
 ## Constructors
 
-### <a id="VM_Managed_Material_Material__ctor"></a> Material\(\)
+### Material\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Material" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,7 +36,7 @@ public Material()
 
 ## Properties
 
-### <a id="VM_Managed_Material_Material_DensityValue"></a> DensityValue
+### DensityValue
 
 Gets the density value.
 
@@ -48,7 +48,7 @@ public virtual double DensityValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_Material_Material_Index"></a> Index
+### Index
 
 Gets or sets the material ID.
 
@@ -59,4 +59,5 @@ public virtual uint Index { get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 

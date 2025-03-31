@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_ImportBuilderEventCore"></a> Class ImportBuilderEventCore
+# Class ImportBuilderEventCore
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -54,7 +54,7 @@ IHistoryObjectSerializableDelegate
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_ImportBuilderEventCore__ctor_VM_Managed_ObjectBase_"></a> ImportBuilderEventCore\(ObjectBase\)
+### ImportBuilderEventCore\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -68,7 +68,7 @@ public ImportBuilderEventCore(ObjectBase ob)
 
 Name of the object base.
 
-### <a id="VM_Managed_CAD_ImportBuilderEventCore__ctor"></a> ImportBuilderEventCore\(\)
+### ImportBuilderEventCore\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.ImportBuilderEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -76,7 +76,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.ImportBuilderEventC
 public ImportBuilderEventCore()
 ```
 
-### <a id="VM_Managed_CAD_ImportBuilderEventCore__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ImportBuilderEventCore\(SerializationInfo, StreamingContext\)
+### ImportBuilderEventCore\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.ImportBuilderEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -96,7 +96,7 @@ The context.
 
 ## Methods
 
-### <a id="VM_Managed_CAD_ImportBuilderEventCore_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -107,7 +107,7 @@ protected override void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_ImportBuilderEventCore_GetObjectDataImpl_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectDataImpl\(SerializationInfo, StreamingContext\)
+### GetObjectDataImpl\(SerializationInfo, StreamingContext\)
 
 Serialization function for restore.
 
@@ -124,4 +124,5 @@ The info.
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
 The context.
+
 

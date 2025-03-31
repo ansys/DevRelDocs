@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderMultiUniteSimple"></a> Class BuilderMultiUniteSimple
+# Class BuilderMultiUniteSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -215,7 +215,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderMultiUniteSimple__ctor_VM_Managed_CAD_Builder_System_Collections_Generic_ICollection_VM_Managed_CAD_Builder__"></a> BuilderMultiUniteSimple\(Builder, ICollection<Builder\>\)
+### BuilderMultiUniteSimple\(Builder, ICollection<Builder\>\)
 
 ```csharp
 public BuilderMultiUniteSimple(Builder builderTarget, ICollection<Builder> builderTools)
@@ -227,7 +227,7 @@ public BuilderMultiUniteSimple(Builder builderTarget, ICollection<Builder> build
 
 `builderTools` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Builder](VM.Managed.CAD.Builder.md)\>
 
-### <a id="VM_Managed_CAD_BuilderMultiUniteSimple__ctor_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuilderMultiUniteSimple\(Builder, Builder\)
+### BuilderMultiUniteSimple\(Builder, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderMultiUniteSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -245,7 +245,7 @@ The target build.
 
 The tool build.
 
-### <a id="VM_Managed_CAD_BuilderMultiUniteSimple__ctor"></a> BuilderMultiUniteSimple\(\)
+### BuilderMultiUniteSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderMultiUniteSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -255,7 +255,7 @@ public BuilderMultiUniteSimple()
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderMultiUniteSimple_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -272,7 +272,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_CAD_BuilderMultiUniteSimple_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -286,7 +286,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_CAD_BuilderMultiUniteSimple_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -300,7 +300,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_CAD_BuilderMultiUniteSimple_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -313,4 +313,5 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

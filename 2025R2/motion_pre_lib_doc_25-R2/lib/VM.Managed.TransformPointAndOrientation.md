@@ -1,4 +1,4 @@
-# <a id="VM_Managed_TransformPointAndOrientation"></a> Class TransformPointAndOrientation
+# Class TransformPointAndOrientation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -134,7 +134,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_TransformPointAndOrientation__ctor_VM_Managed_PointBase_VM_Managed_OrientationBase_"></a> TransformPointAndOrientation\(PointBase, OrientationBase\)
+### TransformPointAndOrientation\(PointBase, OrientationBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformPointAndOrientation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -152,7 +152,7 @@ The point.
 
 The orientation.
 
-### <a id="VM_Managed_TransformPointAndOrientation__ctor_VM_Managed_OrientationBase_"></a> TransformPointAndOrientation\(OrientationBase\)
+### TransformPointAndOrientation\(OrientationBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformPointAndOrientation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -166,7 +166,7 @@ public TransformPointAndOrientation(OrientationBase Orientation)
 
 The orientation.
 
-### <a id="VM_Managed_TransformPointAndOrientation__ctor_VM_Managed_PointBase_"></a> TransformPointAndOrientation\(PointBase\)
+### TransformPointAndOrientation\(PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformPointAndOrientation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,7 +180,7 @@ public TransformPointAndOrientation(PointBase Point)
 
 The point.
 
-### <a id="VM_Managed_TransformPointAndOrientation__ctor"></a> TransformPointAndOrientation\(\)
+### TransformPointAndOrientation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformPointAndOrientation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -190,7 +190,7 @@ public TransformPointAndOrientation()
 
 ## Properties
 
-### <a id="VM_Managed_TransformPointAndOrientation_AngleType"></a> AngleType
+### AngleType
 
 Gets the specifies angle type.
 
@@ -202,7 +202,7 @@ public override AngleTypes AngleType { get; }
 
  AngleTypes
 
-### <a id="VM_Managed_TransformPointAndOrientation_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -214,7 +214,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_TransformPointAndOrientation_Orientation"></a> Orientation
+### Orientation
 
 Gets the information of orientation(OMatrix type).
 
@@ -226,7 +226,7 @@ public override OMatrix Orientation { get; }
 
  [OMatrix](VM.Managed.OMatrix.md)
 
-### <a id="VM_Managed_TransformPointAndOrientation_OrientationTerm"></a> OrientationTerm
+### OrientationTerm
 
 Gets or sets the orientation.
 
@@ -238,7 +238,7 @@ public OrientationBase OrientationTerm { get; set; }
 
  [OrientationBase](VM.Managed.OrientationBase.md)
 
-### <a id="VM_Managed_TransformPointAndOrientation_PointTerm"></a> PointTerm
+### PointTerm
 
 Gets or sets the point.
 
@@ -250,7 +250,7 @@ public PointBase PointTerm { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_TransformPointAndOrientation_Position"></a> Position
+### Position
 
 Gets the information of position(VectorBase type).
 
@@ -262,7 +262,7 @@ public override VectorBase Position { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_TransformPointAndOrientation_RotationAngles"></a> RotationAngles
+### RotationAngles
 
 Gets the list of ration angles.
 
@@ -274,7 +274,7 @@ public override double[] RotationAngles { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_TransformPointAndOrientation_RotationAxis"></a> RotationAxis
+### RotationAxis
 
 Gets the rotation axes type.
 
@@ -286,7 +286,7 @@ public override RotationAxes RotationAxis { get; }
 
  RotationAxes
 
-### <a id="VM_Managed_TransformPointAndOrientation_RotationType"></a> RotationType
+### RotationType
 
 Gets the specifies rotation type.
 
@@ -298,7 +298,7 @@ public override RotationTypes RotationType { get; }
 
  RotationTypes
 
-### <a id="VM_Managed_TransformPointAndOrientation_TransformationMatrix"></a> TransformationMatrix
+### TransformationMatrix
 
 Gets the information of transform(TMatrix type).
 
@@ -312,7 +312,7 @@ public override TMatrix TransformationMatrix { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_TransformPointAndOrientation_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -327,7 +327,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_TransformPointAndOrientation_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -345,7 +345,7 @@ The linked object.
 
 The update event information.
 
-### <a id="VM_Managed_TransformPointAndOrientation_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -359,7 +359,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_TransformPointAndOrientation_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -372,4 +372,5 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

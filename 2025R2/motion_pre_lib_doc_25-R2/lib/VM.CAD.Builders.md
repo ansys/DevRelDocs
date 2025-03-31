@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders"></a> Namespace VM.CAD.Builders
+# Namespace VM.CAD.Builders
 
 ### Namespaces
 
@@ -131,4 +131,5 @@ Struct contains the key vlaue
  [SheetThickenDirection](VM.CAD.Builders.SheetThickenDirection.md)
 
 Indicates direction of the thicken geometry
+
 

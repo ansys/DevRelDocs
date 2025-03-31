@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Mode"></a> Class Mode
+# Class Mode
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -176,7 +176,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Mode__ctor_System_Double_System_Double_"></a> Mode\(double, double\)
+### Mode\(double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Mode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -194,7 +194,7 @@ The value of eigenvalue.
 
 The value of damping.
 
-### <a id="VM_Managed_DAFUL_FE_Mode__ctor_System_Double_"></a> Mode\(double\)
+### Mode\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Mode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -210,7 +210,7 @@ The value of eigenvalue.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Mode_Damping"></a> Damping
+### Damping
 
 Gets or sets the damping.
 
@@ -222,7 +222,7 @@ public double Damping { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_FE_Mode_Eigenvalue"></a> Eigenvalue
+### Eigenvalue
 
 Gets or sets the frequency.
 
@@ -234,7 +234,7 @@ public double Eigenvalue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_FE_Mode_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -248,7 +248,7 @@ public override string Name { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Mode_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -275,4 +275,5 @@ if set to <code>true</code> [b has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

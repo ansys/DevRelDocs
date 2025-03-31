@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculateSegmentStiffness_MultiKey"></a> Class CalculateSegmentStiffness.MultiKey
+# Class CalculateSegmentStiffness.MultiKey
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector.Operation](VM.Managed.DAFUL.CPlacingConnector.Operation.md)  
 Assembly: VMOpCPlacingConnector.dll  
@@ -22,7 +22,7 @@ public class CalculateSegmentStiffness.MultiKey
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculateSegmentStiffness_MultiKey__ctor"></a> MultiKey\(\)
+### MultiKey\(\)
 
 ```csharp
 public MultiKey()
@@ -30,7 +30,7 @@ public MultiKey()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculateSegmentStiffness_MultiKey_ToolKey"></a> ToolKey
+### ToolKey
 
 Gets and sets the multi key.
 
@@ -41,4 +41,5 @@ public List<KeyInfo> ToolKey { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<KeyInfo\>
+
 

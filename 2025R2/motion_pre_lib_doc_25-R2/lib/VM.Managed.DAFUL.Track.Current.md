@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Current"></a> Class Current
+# Class Current
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_Current__ctor"></a> Current\(\)
+### Current\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.Current" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Current()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_Current_FirstX"></a> FirstX
+### FirstX
 
 Gets or sets the First X.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable FirstX { get; set; }
 
 First X is null.
 
-### <a id="VM_Managed_DAFUL_Track_Current_FirstY"></a> FirstY
+### FirstY
 
 Gets or sets the First Y.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable FirstY { get; set; }
 
 First Y is null.
 
-### <a id="VM_Managed_DAFUL_Track_Current_LastX"></a> LastX
+### LastX
 
 Gets or sets the Last X.
 
@@ -160,7 +160,7 @@ public ExpressionValueVariable LastX { get; set; }
 
 Last X is null.
 
-### <a id="VM_Managed_DAFUL_Track_Current_LastY"></a> LastY
+### LastY
 
 Gets or sets the Last Y.
 
@@ -178,7 +178,7 @@ public ExpressionValueVariable LastY { get; set; }
 
 Last Y is null.
 
-### <a id="VM_Managed_DAFUL_Track_Current_WaveXVelocityData"></a> WaveXVelocityData
+### WaveXVelocityData
 
 Gets or sets the wave x velocity data.
 
@@ -190,7 +190,7 @@ public WaveVelocityData[] WaveXVelocityData { get; set; }
 
  [WaveVelocityData](VM.Managed.DAFUL.Track.WaveVelocityData.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Track_Current_WaveYVelocityData"></a> WaveYVelocityData
+### WaveYVelocityData
 
 Gets or sets the wave y velocity data.
 
@@ -202,7 +202,7 @@ public WaveVelocityData[] WaveYVelocityData { get; set; }
 
  [WaveVelocityData](VM.Managed.DAFUL.Track.WaveVelocityData.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Track_Current_XVelocityType"></a> XVelocityType
+### XVelocityType
 
 X Velocity Type
 
@@ -214,7 +214,7 @@ public Current.VelocityType XVelocityType { get; set; }
 
  [Current](VM.Managed.DAFUL.Track.Current.md).[VelocityType](VM.Managed.DAFUL.Track.Current.VelocityType.md)
 
-### <a id="VM_Managed_DAFUL_Track_Current_YVelocityType"></a> YVelocityType
+### YVelocityType
 
 Y Velocity Type
 
@@ -228,7 +228,7 @@ public Current.VelocityType YVelocityType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_Current_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -241,4 +241,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

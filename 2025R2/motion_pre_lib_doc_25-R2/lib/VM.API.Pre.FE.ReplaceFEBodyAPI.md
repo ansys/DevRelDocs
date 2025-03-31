@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_ReplaceFEBodyAPI"></a> Class ReplaceFEBodyAPI
+# Class ReplaceFEBodyAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class ReplaceFEBodyAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_FE_ReplaceFEBodyAPI_ReplaceFEBody_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_System_Boolean_System_Boolean_"></a> ReplaceFEBody\(SubSystemDocument, Obj, string, bool, bool\)
+### ReplaceFEBody\(SubSystemDocument, Obj, string, bool, bool\)
 
 Replace FE body.
 
@@ -69,4 +69,5 @@ Will be thrown if 'thickness' value equal to or less than 0.
  [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
 
 Will be thrown if newFilePath file is not exist.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ChainedObject"></a> Class ChainedObject
+# Class ChainedObject
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -176,7 +176,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedObject__ctor"></a> ChainedObject\(\)
+### ChainedObject\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedObject" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedOb
 public ChainedObject()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedObject__ctor_System_String_"></a> ChainedObject\(string\)
+### ChainedObject\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedObject" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,7 +200,7 @@ The object name.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedObject_IsLoss"></a> IsLoss
+### IsLoss
 
 Gets or sets a value indicating whether this instance is loss.
 Use SetLossFlag() when this instance sets for undo/redo
@@ -213,7 +213,7 @@ public bool IsLoss { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedObject_MultiConnectionsInfo"></a> MultiConnectionsInfo
+### MultiConnectionsInfo
 
 Gets or sets the information for construction multi connectors.
 
@@ -227,7 +227,7 @@ public ChainedMultiBaseInfo MultiConnectionsInfo { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedObject_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -241,7 +241,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedObject_SetLossFlag_System_Boolean_"></a> SetLossFlag\(bool\)
+### SetLossFlag\(bool\)
 
 Set loss flag.
 
@@ -254,4 +254,5 @@ public void SetLossFlag(bool bIsLoss)
 `bIsLoss` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 The losss flag.
+
 

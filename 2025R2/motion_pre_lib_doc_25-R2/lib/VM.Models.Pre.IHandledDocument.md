@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IHandledDocument"></a> Interface IHandledDocument
+# Interface IHandledDocument
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -26,7 +26,7 @@ IHasID
 
 ## Properties
 
-### <a id="VM_Models_Pre_IHandledDocument_Handle"></a> Handle
+### Handle
 
 ```csharp
 UIntPtr Handle { get; }
@@ -35,4 +35,5 @@ UIntPtr Handle { get; }
 #### Property Value
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+
 

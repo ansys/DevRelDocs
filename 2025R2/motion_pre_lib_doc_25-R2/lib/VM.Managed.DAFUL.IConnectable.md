@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IConnectable"></a> Interface IConnectable
+# Interface IConnectable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -23,7 +23,7 @@ IHasBody
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IConnectable_Center"></a> Center
+### Center
 
 Gets the center position of the object.
 
@@ -35,7 +35,7 @@ TMatrix Center { get; }
 
  TMatrix
 
-### <a id="VM_Managed_DAFUL_IConnectable_ConnectableBody"></a> ConnectableBody
+### ConnectableBody
 
 Gets the connectable body.
 
@@ -47,7 +47,7 @@ ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_IConnectable_ConnectableFullName"></a> ConnectableFullName
+### ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -59,7 +59,7 @@ string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_IConnectable_ConnectableName"></a> ConnectableName
+### ConnectableName
 
 Gets the name of the connectable.
 
@@ -71,7 +71,7 @@ string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_IConnectable_ConnectablePosition"></a> ConnectablePosition
+### ConnectablePosition
 
 Sets the connectable position.
 
@@ -83,7 +83,7 @@ Vector ConnectablePosition { set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_IConnectable_ConnectablePostfixName"></a> ConnectablePostfixName
+### ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -94,4 +94,5 @@ string ConnectablePostfixName { set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IContactableGeometry2Dot5D"></a> Interface IContactableGeometry2Dot5D
+# Interface IContactableGeometry2Dot5D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -24,7 +24,7 @@ IHasBody
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_IContactableGeometry2Dot5D_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the point and direction.
 
@@ -51,4 +51,5 @@ The reference.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_StressStrainReport"></a> Enum StressStrainReport
+# Enum StressStrainReport
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -26,6 +26,7 @@ Gauss point
 `ProgramControlled = 2` 
 
 Program controlled
+
 
 
 

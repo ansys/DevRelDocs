@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_MotorEMForceUtil"></a> Class MotorEMForceUtil
+# Class MotorEMForceUtil
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -20,7 +20,7 @@ public static class MotorEMForceUtil
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MotorEMForceUtil_CreateMotorEMForceForAM_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_VM_Managed_DirectionBase_VM_Managed_ObjectBase_System_String_System_String_System_String_"></a> CreateMotorEMForceForAM\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, ObjectBase, string, string, string\)
+### CreateMotorEMForceForAM\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, ObjectBase, string, string, string\)
 
 ```csharp
 public static MotorEMForce CreateMotorEMForceForAM(this GearTrainDocument gearTrainDocument, string strName, ObjectBase Stator, ObjectBase Rotor, PointBase Position, DirectionBase ZAxis, DirectionBase XAxis, ObjectBase ReferenceOfRotational, string ResultFile, string MaxwellGeometryFile, string MaxwellForceFile)
@@ -54,7 +54,7 @@ public static MotorEMForce CreateMotorEMForceForAM(this GearTrainDocument gearTr
 
  MotorEMForce
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MotorEMForceUtil_CreateMotorEMForceForJMAG_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_VM_Managed_DirectionBase_VM_Managed_ObjectBase_System_ValueTuple_System_String_System_String_System_Double____"></a> CreateMotorEMForceForJMAG\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, ObjectBase, \(string, string, double\)\[\]\)
+### CreateMotorEMForceForJMAG\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, ObjectBase, \(string, string, double\)\[\]\)
 
 ```csharp
 public static MotorEMForce CreateMotorEMForceForJMAG(this GearTrainDocument gearTrainDocument, string strName, ObjectBase Stator, ObjectBase Rotor, PointBase Position, DirectionBase ZAxis, DirectionBase XAxis, ObjectBase ReferenceOfRotational, (string, string, double)[] ForceStatorRotorRPMUNVFile)
@@ -84,7 +84,7 @@ public static MotorEMForce CreateMotorEMForceForJMAG(this GearTrainDocument gear
 
  MotorEMForce
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MotorEMForceUtil_CreateMotorEMForceForUNV_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_VM_Managed_DirectionBase_VM_Managed_ObjectBase_System_ValueTuple_System_String_System_String__System_ValueTuple_System_String_System_String_System_Double____"></a> CreateMotorEMForceForUNV\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, ObjectBase, \(string, string\), \(string, string, double\)\[\]\)
+### CreateMotorEMForceForUNV\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, ObjectBase, \(string, string\), \(string, string, double\)\[\]\)
 
 ```csharp
 public static MotorEMForce CreateMotorEMForceForUNV(this GearTrainDocument gearTrainDocument, string strName, ObjectBase Stator, ObjectBase Rotor, PointBase Position, DirectionBase ZAxis, DirectionBase XAxis, ObjectBase ReferenceOfRotational, (string, string) GeometryStatorRotorUNVFile, (string, string, double)[] ForceStatorRotorRPMUNVFile)
@@ -115,4 +115,5 @@ public static MotorEMForce CreateMotorEMForceForUNV(this GearTrainDocument gearT
 #### Returns
 
  MotorEMForce
+
 

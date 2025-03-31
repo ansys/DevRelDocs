@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh"></a> Class ImportMesh
+# Class ImportMesh
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh__ctor_VM_Managed_Document_"></a> ImportMesh\(Document\)
+### ImportMesh\(Document\)
 
 ```csharp
 public ImportMesh(Document doc)
@@ -87,7 +87,7 @@ public ImportMesh(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh__ctor_VM_Managed_Document_System_String_"></a> ImportMesh\(Document, string\)
+### ImportMesh\(Document, string\)
 
 ```csharp
 public ImportMesh(Document doc, string strMeshFile)
@@ -99,7 +99,7 @@ public ImportMesh(Document doc, string strMeshFile)
 
 `strMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh__ctor_VM_Managed_Document_VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_"></a> ImportMesh\(Document, MeshImportData\)
+### ImportMesh\(Document, MeshImportData\)
 
 ```csharp
 public ImportMesh(Document doc, ImportMesh.MeshImportData meshImportData)
@@ -111,7 +111,7 @@ public ImportMesh(Document doc, ImportMesh.MeshImportData meshImportData)
 
 `meshImportData` [ImportMesh](VM.Managed.DAFUL.FE.Operation.ImportMesh.md).[MeshImportData](VM.Managed.DAFUL.FE.Operation.ImportMesh.MeshImportData.md)
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh__ctor_VM_Managed_Operation_JournalParameter_"></a> ImportMesh\(JournalParameter\)
+### ImportMesh\(JournalParameter\)
 
 ```csharp
 public ImportMesh(JournalParameter jp)
@@ -123,7 +123,7 @@ public ImportMesh(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_IsExistMeshData"></a> IsExistMeshData
+### IsExistMeshData
 
 ```csharp
 public static bool IsExistMeshData { get; set; }
@@ -133,7 +133,7 @@ public static bool IsExistMeshData { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_Mesh"></a> Mesh
+### Mesh
 
 ```csharp
 public Mesh Mesh { get; }
@@ -143,7 +143,7 @@ public Mesh Mesh { get; }
 
  Mesh
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -157,7 +157,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -165,7 +165,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -175,7 +175,7 @@ public override void GetInformation(XmlWriter writer)
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -186,4 +186,5 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
+
 

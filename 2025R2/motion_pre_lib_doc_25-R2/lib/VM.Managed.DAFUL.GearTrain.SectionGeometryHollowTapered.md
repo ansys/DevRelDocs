@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered"></a> Class SectionGeometryHollowTapered
+# Class SectionGeometryHollowTapered
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -117,7 +117,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered__ctor"></a> SectionGeometryHollowTapered\(\)
+### SectionGeometryHollowTapered\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SectionGeometryHollowTapered" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ public SectionGeometryHollowTapered()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_InnerEndRadius"></a> InnerEndRadius
+### InnerEndRadius
 
 Gets or sets the inner end radius.
 
@@ -139,7 +139,7 @@ public ExpressionValueVariable InnerEndRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_InnerStartRadius"></a> InnerStartRadius
+### InnerStartRadius
 
 Gets or sets the inner start radius.
 
@@ -151,7 +151,7 @@ public ExpressionValueVariable InnerStartRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_OuterEndRadius"></a> OuterEndRadius
+### OuterEndRadius
 
 Gets or sets the outer end radius.
 
@@ -163,7 +163,7 @@ public ExpressionValueVariable OuterEndRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_OuterStartRadius"></a> OuterStartRadius
+### OuterStartRadius
 
 Gets or sets the outer start radius.
 
@@ -175,7 +175,7 @@ public ExpressionValueVariable OuterStartRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_TypeOfGeometry"></a> TypeOfGeometry
+### TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -189,7 +189,7 @@ public override SectionGeometryBase.GeometryType TypeOfGeometry { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_GetBuilder_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> GetBuilder\(BuilderColor, VectorBase\)
+### GetBuilder\(BuilderColor, VectorBase\)
 
 Gets the builder.
 
@@ -211,7 +211,7 @@ The offset direction.
 
  Builder
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_GetGeomInfo"></a> GetGeomInfo\(\)
+### GetGeomInfo\(\)
 
 Gets the geom information.
 
@@ -223,7 +223,7 @@ public override double[] GetGeomInfo()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -241,7 +241,7 @@ Length of the d.
 
 Height of the d.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_InitChild"></a> InitChild\(\)
+### InitChild\(\)
 
 Initializes the child.
 
@@ -249,7 +249,7 @@ Initializes the child.
 public override void InitChild()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_InnerCreateParameter"></a> InnerCreateParameter\(\)
+### InnerCreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase InnerCreateParameter()
@@ -259,7 +259,7 @@ protected override BuilderParamBase InnerCreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_InnerFillParameter_VM_CAD_Builders_BuilderParamBase_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
+### InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
 
 ```csharp
 protected override void InnerFillParameter(BuilderParamBase parameter, BuilderColor color, VectorBase vecOffsetDirection)
@@ -273,7 +273,7 @@ protected override void InnerFillParameter(BuilderParamBase parameter, BuilderCo
 
 `vecOffsetDirection` VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryHollowTapered_SplitSectionInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Int32_"></a> SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
+### SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
 
 Splits the section information.
 
@@ -298,4 +298,5 @@ The n number.
 #### Returns
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)\[\]
+
 

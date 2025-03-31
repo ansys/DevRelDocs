@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_DirectionTwoPoints"></a> Class DirectionTwoPoints
+# Class DirectionTwoPoints
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -24,7 +24,7 @@ ISymmetricBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_DirectionTwoPoints__ctor"></a> DirectionTwoPoints\(\)
+### DirectionTwoPoints\(\)
 
 ```csharp
 public DirectionTwoPoints()
@@ -32,7 +32,7 @@ public DirectionTwoPoints()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_DirectionTwoPoints_Build_System_Object_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Build\(object, SymmetricType, Plane, Document\)
+### Build\(object, SymmetricType, Plane, Document\)
 
 Build the symmetric objects.
 
@@ -61,4 +61,5 @@ Plane of symmetric.
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The new object of symmetric.
+
 

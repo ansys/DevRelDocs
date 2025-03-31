@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ObjectBaseNameModifiedEvent"></a> Class ObjectBaseNameModifiedEvent
+# Class ObjectBaseNameModifiedEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -35,7 +35,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_ObjectBaseNameModifiedEvent__ctor_System_Object_System_String_System_String_"></a> ObjectBaseNameModifiedEvent\(object, string, string\)
+### ObjectBaseNameModifiedEvent\(object, string, string\)
 
 ```csharp
 public ObjectBaseNameModifiedEvent(object obOriginal, string strName1, string strName2)
@@ -51,7 +51,7 @@ public ObjectBaseNameModifiedEvent(object obOriginal, string strName1, string st
 
 ## Methods
 
-### <a id="VM_Managed_History_ObjectBaseNameModifiedEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
+### AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -61,7 +61,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseNameModifiedEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
+### AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -71,7 +71,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseNameModifiedEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -81,7 +81,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_ObjectBaseNameModifiedEvent_ObjectBaseNameModified_System_Object_System_String_System_String_"></a> ObjectBaseNameModified\(object, string, string\)
+### ObjectBaseNameModified\(object, string, string\)
 
 ```csharp
 public static void ObjectBaseNameModified(object @object, string strOld, string strNew)
@@ -95,7 +95,7 @@ public static void ObjectBaseNameModified(object @object, string strOld, string 
 
 `strNew` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_History_ObjectBaseNameModifiedEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Redo(HistoryEventArgs args)
@@ -105,7 +105,7 @@ protected override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseNameModifiedEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Undo(HistoryEventArgs args)
@@ -114,4 +114,5 @@ protected override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

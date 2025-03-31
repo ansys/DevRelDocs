@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IDirectionContainer"></a> Interface IDirectionContainer
+# Interface IDirectionContainer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public interface IDirectionContainer : IDesignParameter
 
 ## Properties
 
-### <a id="VM_Managed_IDirectionContainer_Position"></a> Position
+### Position
 
 Gets the position for design frame.
 
@@ -36,7 +36,7 @@ VectorBase Position { get; }
 
 ## Methods
 
-### <a id="VM_Managed_IDirectionContainer_GetDirection_VM_Coordinate_"></a> GetDirection\(Coordinate\)
+### GetDirection\(Coordinate\)
 
 Gets the direction.
 
@@ -53,4 +53,5 @@ Direction type(x, y, z).
 #### Returns
 
  [VectorBase](VM.Managed.VectorBase.md)
+
 

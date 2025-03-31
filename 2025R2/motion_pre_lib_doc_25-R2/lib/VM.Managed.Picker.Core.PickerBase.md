@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerBase"></a> Class PickerBase
+# Class PickerBase
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -37,7 +37,7 @@ public abstract class PickerBase
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_PickerBase__ctor"></a> PickerBase\(\)
+### PickerBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerBase" data-throw-if-not-resolved="false"></xref> class
 
@@ -47,7 +47,7 @@ public PickerBase()
 
 ## Properties
 
-### <a id="VM_Managed_Picker_Core_PickerBase_ActiveDocument"></a> ActiveDocument
+### ActiveDocument
 
 ```csharp
 protected Document ActiveDocument { get; }
@@ -57,7 +57,7 @@ protected Document ActiveDocument { get; }
 
  [Document](VM.Managed.Document.md)
 
-### <a id="VM_Managed_Picker_Core_PickerBase_IsOnlyResultXml"></a> IsOnlyResultXml
+### IsOnlyResultXml
 
 Gets indicating whether only the xml of picking result.
 
@@ -69,7 +69,7 @@ protected bool IsOnlyResultXml { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerBase_IsReference"></a> IsReference
+### IsReference
 
 Gets or sets the picking result indicating whether it is reference.
 
@@ -81,7 +81,7 @@ public bool IsReference { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerBase_Result"></a> Result
+### Result
 
 Gets or sets the object of picking result.
 
@@ -93,7 +93,7 @@ public virtual object Result { get; protected set; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_Picker_Core_PickerBase_ResultXml"></a> ResultXml
+### ResultXml
 
 Gets or sets the xml of picking result.
 ------- caution 1 -------
@@ -113,7 +113,7 @@ public string ResultXml { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Picker_Core_PickerBase_SymmetricType"></a> SymmetricType
+### SymmetricType
 
 Gets or sets the symmetric type.
 
@@ -127,7 +127,7 @@ public Enum SymmetricType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_PickerBase_Abort"></a> Abort\(\)
+### Abort\(\)
 
 Picker is forced stop the flag is set.
 
@@ -135,7 +135,7 @@ Picker is forced stop the flag is set.
 public void Abort()
 ```
 
-### <a id="VM_Managed_Picker_Core_PickerBase_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
+### Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -155,7 +155,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_FilteringAnother_System_UIntPtr_"></a> FilteringAnother\(UIntPtr\)
+### FilteringAnother\(UIntPtr\)
 
 Filtering to not proper object about special target.
 
@@ -175,7 +175,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_FilteringReference_System_UIntPtr_System_UIntPtr_"></a> FilteringReference\(UIntPtr, UIntPtr\)
+### FilteringReference\(UIntPtr, UIntPtr\)
 
 Filtering to not proper object about special target into owner.
 
@@ -199,7 +199,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_FilteringVMPID__VM_ID_"></a> FilteringVMPID\(\_VM\_ID\)
+### FilteringVMPID\(\_VM\_ID\)
 
 Filtering to not proper object.
 
@@ -219,7 +219,7 @@ Filtering target PID.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_GetAdjacentPatch_System_Double_System_Collections_Generic_List_System_Int32__"></a> GetAdjacentPatch\(double, List<int\>\)
+### GetAdjacentPatch\(double, List<int\>\)
 
 ```csharp
 public virtual void GetAdjacentPatch(double dAngle, List<int> lstNode)
@@ -231,7 +231,7 @@ public virtual void GetAdjacentPatch(double dAngle, List<int> lstNode)
 
 `lstNode` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="VM_Managed_Picker_Core_PickerBase_GetChangeNoneParametricXml_System_String_"></a> GetChangeNoneParametricXml\(string\)
+### GetChangeNoneParametricXml\(string\)
 
 Change to the result of parametric to the result of none parametric.
 
@@ -251,7 +251,7 @@ Result of parametric.
 
 The result xml of none parametric.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_GetPickerInfo"></a> GetPickerInfo\(\)
+### GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -263,7 +263,7 @@ public abstract string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Picker_Core_PickerBase_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
+### GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -283,7 +283,7 @@ Picking destination key.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_GetValidResultXml_System_String_"></a> GetValidResultXml\(string\)
+### GetValidResultXml\(string\)
 
 Get valid result xml according to picker type of core.
 
@@ -303,7 +303,7 @@ Invalid result xml.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_Highlight_System_Boolean_"></a> Highlight\(bool\)
+### Highlight\(bool\)
 
 Picking highlight to filtered target.
 
@@ -317,7 +317,7 @@ public virtual void Highlight(bool bHighlight)
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_Pick_System_Boolean_"></a> Pick\(bool\)
+### Pick\(bool\)
 
 This method execute picking.
 Define the information of picking thread.
@@ -339,7 +339,7 @@ If set to <code>true</code> set result xml; otherwise, If set to <code>false</co
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_PickWithStartSignal_System_Boolean_System_Threading_ManualResetEvent_"></a> PickWithStartSignal\(bool, ManualResetEvent\)
+### PickWithStartSignal\(bool, ManualResetEvent\)
 
 This method execute picking with start signal of sub-picking.
 Define the information of picking thread.
@@ -365,7 +365,7 @@ picking start signal.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
+### SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -389,7 +389,7 @@ If it is true, skip the result setting.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerBase_UpdateDisplay"></a> UpdateDisplay\(\)
+### UpdateDisplay\(\)
 
 Update display.
 
@@ -397,7 +397,7 @@ Update display.
 protected void UpdateDisplay()
 ```
 
-### <a id="VM_Managed_Picker_Core_PickerBase_UseEntityFiltering"></a> UseEntityFiltering\(\)
+### UseEntityFiltering\(\)
 
 ```csharp
 public virtual bool UseEntityFiltering()
@@ -407,7 +407,7 @@ public virtual bool UseEntityFiltering()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerBase_raise_CustomFilterEvent_System_Object_VM_Managed_Picker_Core_FilterArgs_"></a> raise\_CustomFilterEvent\(object, FilterArgs\)
+### raise\_CustomFilterEvent\(object, FilterArgs\)
 
 ```csharp
 protected void raise_CustomFilterEvent(object value0, FilterArgs value1)
@@ -419,7 +419,7 @@ protected void raise_CustomFilterEvent(object value0, FilterArgs value1)
 
 `value1` [FilterArgs](VM.Managed.Picker.Core.FilterArgs.md)
 
-### <a id="VM_Managed_Picker_Core_PickerBase_CustomFilterEvent"></a> CustomFilterEvent
+### CustomFilterEvent
 
 ```csharp
 public event EventHandler<FilterArgs> CustomFilterEvent
@@ -428,4 +428,5 @@ public event EventHandler<FilterArgs> CustomFilterEvent
 #### Event Type
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[FilterArgs](VM.Managed.Picker.Core.FilterArgs.md)\>
+
 

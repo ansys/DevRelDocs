@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ConnectrMarkerTransformFromCenter"></a> Class ConnectrMarkerTransformFromCenter
+# Class ConnectrMarkerTransformFromCenter
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ConnectrMarkerTransformFromCenter__ctor"></a> ConnectrMarkerTransformFromCenter\(\)
+### ConnectrMarkerTransformFromCenter\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ConnectrMarkerTransformFromCenter" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.ConnectrMarkerTra
 public ConnectrMarkerTransformFromCenter()
 ```
 
-### <a id="VM_Managed_DAFUL_ConnectrMarkerTransformFromCenter__ctor_VM_Models_Pre_IOwned_"></a> ConnectrMarkerTransformFromCenter\(IOwned\)
+### ConnectrMarkerTransformFromCenter\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ConnectrMarkerTransformFromCenter" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ The owner.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_ConnectrMarkerTransformFromCenter_TransformFromCenter"></a> TransformFromCenter
+### TransformFromCenter
 
 Gets or sets the transformation from reference coordinate.
 
@@ -134,7 +134,7 @@ public TransformBase TransformFromCenter { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_DAFUL_ConnectrMarkerTransformFromCenter_TypeOfCenter"></a> TypeOfCenter
+### TypeOfCenter
 
 Gets or sets the type of the reference coordinate.
 
@@ -148,7 +148,7 @@ public ConnectrMarkerTransformFromCenter.RefFrameType TypeOfCenter { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_ConnectrMarkerTransformFromCenter_CalcMarkerTransform_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> CalcMarkerTransform\(ObjectBase, ObjectBase\)
+### CalcMarkerTransform\(ObjectBase, ObjectBase\)
 
 Calculate the transformation matrix for marker.
 
@@ -169,4 +169,5 @@ The support object(Body) to calculate transformation matirx. In this function, t
 #### Returns
 
  TMatrix
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationLink"></a> Class OrientationLink
+# Class OrientationLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -136,7 +136,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_OrientationLink__ctor_VM_Managed_IOrientation_"></a> OrientationLink\(IOrientation\)
+### OrientationLink\(IOrientation\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -150,7 +150,7 @@ public OrientationLink(IOrientation pOrientation)
 
 The data of orientation of Design Frame.
 
-### <a id="VM_Managed_OrientationLink__ctor"></a> OrientationLink\(\)
+### OrientationLink\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -160,7 +160,7 @@ public OrientationLink()
 
 ## Fields
 
-### <a id="VM_Managed_OrientationLink_m_linkOrientation"></a> m\_linkOrientation
+### m\_linkOrientation
 
 ```csharp
 protected Link<IOrientation, LinkContainer.Update, LinkContainer.Destroy, LinkContainer.None> m_linkOrientation
@@ -172,7 +172,7 @@ protected Link<IOrientation, LinkContainer.Update, LinkContainer.Destroy, LinkCo
 
 ## Properties
 
-### <a id="VM_Managed_OrientationLink_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -184,7 +184,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_OrientationLink_LinkOrientation"></a> LinkOrientation
+### LinkOrientation
 
 Gets or sets the object of design frame.
 
@@ -196,7 +196,7 @@ public IOrientation LinkOrientation { get; set; }
 
  [IOrientation](VM.Managed.IOrientation.md)
 
-### <a id="VM_Managed_OrientationLink_Position"></a> Position
+### Position
 
 Gets the position of design frame.
 
@@ -208,7 +208,7 @@ public VectorBase Position { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_OrientationLink_Value"></a> Value
+### Value
 
 Gets the information of orientation(OMatrix type).
 
@@ -220,7 +220,7 @@ public override OMatrix Value { get; set; }
 
  [OMatrix](VM.Managed.OMatrix.md)
 
-### <a id="VM_Managed_OrientationLink__LinkOrientation"></a> \_LinkOrientation
+### \_LinkOrientation
 
 Gets or sets the object of design frame.
 
@@ -234,7 +234,7 @@ public Linker<IOrientation> _LinkOrientation { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_OrientationLink_GetFullName"></a> GetFullName\(\)
+### GetFullName\(\)
 
 Gets the full name of design frame.
 
@@ -246,7 +246,7 @@ public string GetFullName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_OrientationLink_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -261,7 +261,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_OrientationLink_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -275,7 +275,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_OrientationLink_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -288,4 +288,5 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

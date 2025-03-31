@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FEFilm_Paths"></a> Class FEFilm\_Paths
+# Class FEFilm\_Paths
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  
@@ -95,7 +95,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FEFilm_Paths__ctor"></a> FEFilm\_Paths\(\)
+### FEFilm\_Paths\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FEFilm_Paths" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ public FEFilm_Paths()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FEFilm_Paths_CenterPosition"></a> CenterPosition
+### CenterPosition
 
 Gets or sets center position for construction chained system.
 
@@ -117,7 +117,7 @@ public PointBase CenterPosition { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_FEFilm_Paths_Path"></a> Path
+### Path
 
 Gets or sets the path.
 
@@ -129,7 +129,7 @@ public ObjectBase Path { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_FEFilm_Paths_Radius"></a> Radius
+### Radius
 
 Gets or sets radius for construction chained system.
 
@@ -141,7 +141,7 @@ public ExpressionValueVariable Radius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_Paths_WindingDirection"></a> WindingDirection
+### WindingDirection
 
 ```csharp
 public WindingDirection WindingDirection { get; set; }
@@ -153,11 +153,12 @@ public WindingDirection WindingDirection { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FEFilm_Paths_Reset_Path"></a> Reset\_Path\(\)
+### Reset\_Path\(\)
 
 Initiailize ChainedPath onject.
 
 ```csharp
 public void Reset_Path()
 ```
+
 

@@ -1,9 +1,17 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadFunction"></a> Class PressureLoadFunction
+# Class PressureLoadFunction
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-This base class is to represent the characteristic properties of pressure load.
+<p>This base class is to represent the characteristic properties of pressure load.</p>
+<p>이 클래스는 압력하중 함수를 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : No
+        Reference Type : N/A
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public abstract class PressureLoadFunction : LinkContainer, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable
@@ -101,9 +109,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadFunction__ctor"></a> PressureLoadFunction\(\)
+### PressureLoadFunction\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 protected PressureLoadFunction()
@@ -111,9 +121,10 @@ protected PressureLoadFunction()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadFunction_Type"></a> Type
+### Type
 
-Gets the function type.
+<p>Gets the function type.</p>
+<p>함수 타입을 가져옵니다.</p>
 
 ```csharp
 public abstract PressureLoadFunction.FunctionType Type { get; }
@@ -122,4 +133,5 @@ public abstract PressureLoadFunction.FunctionType Type { get; }
 #### Property Value
 
  [PressureLoadFunction](VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction.md).[FunctionType](VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction.FunctionType.md)
+
 

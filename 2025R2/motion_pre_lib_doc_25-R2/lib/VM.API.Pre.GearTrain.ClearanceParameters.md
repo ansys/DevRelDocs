@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_ClearanceParameters"></a> Struct ClearanceParameters
+# Struct ClearanceParameters
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct ClearanceParameters
 
 ## Constructors
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters__ctor"></a> ClearanceParameters\(\)
+### ClearanceParameters\(\)
 
 Default constructor
 
@@ -21,7 +21,7 @@ public ClearanceParameters()
 
 ## Properties
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters_AxialClearance"></a> AxialClearance
+### AxialClearance
 
 The enum for axial clearance. The default value is both.
 
@@ -33,7 +33,7 @@ public ClearanceInfo.AxialType AxialClearance { readonly get; set; }
 
  ClearanceInfo.AxialType
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters_DampingRatio"></a> DampingRatio
+### DampingRatio
 
 The value for the damping ratio. The default value is 0.0001.
 
@@ -45,7 +45,7 @@ public ExpressionValueVariable DampingRatio { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters_LeftAxial"></a> LeftAxial
+### LeftAxial
 
 The value for the left axial. The default value is 0.0.
 
@@ -57,7 +57,7 @@ public ExpressionValueVariable LeftAxial { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters_Penalty"></a> Penalty
+### Penalty
 
 The value for the penalty. The default value is 1000000.
 
@@ -69,7 +69,7 @@ public ExpressionValueVariable Penalty { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters_PreloadAxial"></a> PreloadAxial
+### PreloadAxial
 
 The value for the preload axial. The default value is 0.0.
 
@@ -81,7 +81,7 @@ public ExpressionValueVariable PreloadAxial { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters_PreloadRadial"></a> PreloadRadial
+### PreloadRadial
 
 The value for the preload radial. The default value is 0.0.
 
@@ -93,7 +93,7 @@ public ExpressionValueVariable PreloadRadial { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters_Radial"></a> Radial
+### Radial
 
 The value for the radial. The default value is 0.0.
 
@@ -105,7 +105,7 @@ public ExpressionValueVariable Radial { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters_RadialClearance"></a> RadialClearance
+### RadialClearance
 
 The enum for radial clearance. The default value is fix.
 
@@ -117,7 +117,7 @@ public ClearanceInfo.RadialType RadialClearance { readonly get; set; }
 
  ClearanceInfo.RadialType
 
-### <a id="VM_API_Pre_GearTrain_ClearanceParameters_RightAxial"></a> RightAxial
+### RightAxial
 
 The value for the right axial. The default value is 0.0.
 
@@ -128,4 +128,5 @@ public ExpressionValueVariable RightAxial { readonly get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

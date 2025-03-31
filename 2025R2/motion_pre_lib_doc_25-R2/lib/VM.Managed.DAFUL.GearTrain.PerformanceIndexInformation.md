@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PerformanceIndexInformation"></a> Class PerformanceIndexInformation
+# Class PerformanceIndexInformation
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -152,7 +152,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PerformanceIndexInformation__ctor"></a> PerformanceIndexInformation\(\)
+### PerformanceIndexInformation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PerformanceIndexInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -160,7 +160,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Perform
 public PerformanceIndexInformation()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PerformanceIndexInformation__ctor_System_String_"></a> PerformanceIndexInformation\(string\)
+### PerformanceIndexInformation\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PerformanceIndexInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -176,7 +176,7 @@ The name.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PerformanceIndexInformation_FullName"></a> FullName
+### FullName
 
 Gets the full name.
 
@@ -188,7 +188,7 @@ public string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PerformanceIndexInformation_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -200,7 +200,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PerformanceIndexInformation_NonSymmetricName"></a> NonSymmetricName
+### NonSymmetricName
 
 Gets the name of the non symmetric.
 
@@ -212,7 +212,7 @@ public string NonSymmetricName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PerformanceIndexInformation_UsePerformanceIndex"></a> UsePerformanceIndex
+### UsePerformanceIndex
 
 Gets or sets a value indicating whether this instance will be used as the design parameter in DOE simulation.
 Use SetUsePerformanceIndex() when this instance sets for undo/redo
@@ -227,7 +227,7 @@ public bool UsePerformanceIndex { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PerformanceIndexInformation_SetUsePerformanceIndex_System_Boolean_"></a> SetUsePerformanceIndex\(bool\)
+### SetUsePerformanceIndex\(bool\)
 
 Set performance Index use.
 
@@ -240,4 +240,5 @@ public void SetUsePerformanceIndex(bool bUsePerformanceIndex)
 `bUsePerformanceIndex` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 The use flag.
+
 

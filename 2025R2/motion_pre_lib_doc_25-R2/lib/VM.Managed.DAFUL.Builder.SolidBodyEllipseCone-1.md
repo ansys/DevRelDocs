@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCone_1"></a> Class SolidBodyEllipseCone<T\>
+# Class SolidBodyEllipseCone<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -68,9 +68,10 @@ public abstract class SolidBodyEllipseCone<T> : SolidBody<T>, IBuilder where T :
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCone_1__ctor"></a> SolidBodyEllipseCone\(\)
+### SolidBodyEllipseCone\(\)
 
 ```csharp
 protected SolidBodyEllipseCone()
 ```
+
 

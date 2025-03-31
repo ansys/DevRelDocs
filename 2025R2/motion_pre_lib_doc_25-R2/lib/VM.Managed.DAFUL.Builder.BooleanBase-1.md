@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_BooleanBase_1"></a> Class BooleanBase<T\>
+# Class BooleanBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -28,7 +28,7 @@ public abstract class BooleanBase<T> : IBuilder where T : Builder, new()
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1__ctor"></a> BooleanBase\(\)
+### BooleanBase\(\)
 
 ```csharp
 protected BooleanBase()
@@ -36,7 +36,7 @@ protected BooleanBase()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_m_bSuccess"></a> m\_bSuccess
+### m\_bSuccess
 
 ```csharp
 protected bool m_bSuccess
@@ -46,7 +46,7 @@ protected bool m_bSuccess
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_m_bSym"></a> m\_bSym
+### m\_bSym
 
 ```csharp
 protected bool m_bSym
@@ -58,7 +58,7 @@ protected bool m_bSym
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_Argument"></a> Argument
+### Argument
 
 ```csharp
 protected virtual string Argument { get; }
@@ -68,7 +68,7 @@ protected virtual string Argument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_AvailableOperation"></a> AvailableOperation
+### AvailableOperation
 
 ```csharp
 public bool AvailableOperation { get; set; }
@@ -78,7 +78,7 @@ public bool AvailableOperation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_BuildObject"></a> BuildObject
+### BuildObject
 
 ```csharp
 public ObjectBase BuildObject { get; }
@@ -88,7 +88,7 @@ public ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_ExtraArgument"></a> ExtraArgument
+### ExtraArgument
 
 ```csharp
 protected virtual string ExtraArgument { get; }
@@ -98,7 +98,7 @@ protected virtual string ExtraArgument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_Parameters"></a> Parameters
+### Parameters
 
 ```csharp
 public PickedResult[] Parameters { get; set; }
@@ -108,7 +108,7 @@ public PickedResult[] Parameters { get; set; }
 
  [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_TargetConnectable"></a> TargetConnectable
+### TargetConnectable
 
 ```csharp
 public virtual Body TargetConnectable { get; }
@@ -118,7 +118,7 @@ public virtual Body TargetConnectable { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_ToolConnectable"></a> ToolConnectable
+### ToolConnectable
 
 ```csharp
 public virtual Body ToolConnectable { get; }
@@ -128,7 +128,7 @@ public virtual Body ToolConnectable { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_Type"></a> Type
+### Type
 
 ```csharp
 protected abstract string Type { get; }
@@ -140,7 +140,7 @@ protected abstract string Type { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public virtual void Build(Document doc)
@@ -150,7 +150,7 @@ public virtual void Build(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
+### Build\(Document, List<string\>\)
 
 ```csharp
 public void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -162,7 +162,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_BuildCoreCore_VM_Managed_Document_"></a> BuildCoreCore\(Document\)
+### BuildCoreCore\(Document\)
 
 ```csharp
 protected void BuildCoreCore(Document doc)
@@ -172,7 +172,7 @@ protected void BuildCoreCore(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuildTargetTool\(Builder, Builder\)
+### BuildTargetTool\(Builder, Builder\)
 
 ```csharp
 protected virtual void BuildTargetTool(Builder buiTarget, Builder buiTool)
@@ -184,7 +184,7 @@ protected virtual void BuildTargetTool(Builder buiTarget, Builder buiTool)
 
 `buiTool` Builder
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_CheckSymmetric_VM_Managed_Document_System_Collections_Generic_List_VM_Managed_CAD_Body__"></a> CheckSymmetric\(Document, List<Body\>\)
+### CheckSymmetric\(Document, List<Body\>\)
 
 ```csharp
 protected int CheckSymmetric(Document doc, List<Body> lstBody)
@@ -200,19 +200,19 @@ protected int CheckSymmetric(Document doc, List<Body> lstBody)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_DeleteToolAllBody"></a> DeleteToolAllBody\(\)
+### DeleteToolAllBody\(\)
 
 ```csharp
 protected void DeleteToolAllBody()
 ```
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_DeleteToolBody"></a> DeleteToolBody\(\)
+### DeleteToolBody\(\)
 
 ```csharp
 protected virtual void DeleteToolBody()
 ```
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_DeserializeBuilder_VM_Managed_CAD_Builder_"></a> DeserializeBuilder\(Builder\)
+### DeserializeBuilder\(Builder\)
 
 ```csharp
 protected Builder DeserializeBuilder(Builder builder)
@@ -226,7 +226,7 @@ protected Builder DeserializeBuilder(Builder builder)
 
  Builder
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_GetSymmetricBody_VM_Managed_CAD_Body_"></a> GetSymmetricBody\(Body\)
+### GetSymmetricBody\(Body\)
 
 ```csharp
 protected Body GetSymmetricBody(Body bodyTarget)
@@ -240,7 +240,7 @@ protected Body GetSymmetricBody(Body bodyTarget)
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_GetSymmetricBuilder_VM_Managed_CAD_Builder_"></a> GetSymmetricBuilder\(Builder\)
+### GetSymmetricBuilder\(Builder\)
 
 ```csharp
 protected Builder GetSymmetricBuilder(Builder buiTarget)
@@ -254,7 +254,7 @@ protected Builder GetSymmetricBuilder(Builder buiTarget)
 
  Builder
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_NullSymmetricBuilder_VM_Managed_CAD_Builder_"></a> NullSymmetricBuilder\(Builder\)
+### NullSymmetricBuilder\(Builder\)
 
 ```csharp
 protected void NullSymmetricBuilder(Builder buiTarget)
@@ -264,7 +264,7 @@ protected void NullSymmetricBuilder(Builder buiTarget)
 
 `buiTarget` Builder
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_RemoveBody_VM_Managed_CAD_Body_"></a> RemoveBody\(Body\)
+### RemoveBody\(Body\)
 
 ```csharp
 protected void RemoveBody(Body body)
@@ -274,7 +274,7 @@ protected void RemoveBody(Body body)
 
 `body` Body
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_SetSymmetricBuilder_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> SetSymmetricBuilder\(Builder, Builder\)
+### SetSymmetricBuilder\(Builder, Builder\)
 
 ```csharp
 protected void SetSymmetricBuilder(Builder buiTarget, Builder buiValue)
@@ -286,7 +286,7 @@ protected void SetSymmetricBuilder(Builder buiTarget, Builder buiValue)
 
 `buiValue` Builder
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_Success"></a> Success\(\)
+### Success\(\)
 
 ```csharp
 public bool Success()
@@ -296,7 +296,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_BooleanBase_1_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public virtual bool Validate(IList<string> lstErrorMessage)
@@ -309,4 +309,5 @@ public virtual bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase"></a> Class HiddenDocumentMeshBase
+# Class HiddenDocumentMeshBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -597,7 +597,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase__ctor_System_UIntPtr_"></a> HiddenDocumentMeshBase\(UIntPtr\)
+### HiddenDocumentMeshBase\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -613,7 +613,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_MeshEntity"></a> MeshEntity
+### MeshEntity
 
 Gets or sets the mesh entity.
 
@@ -625,7 +625,7 @@ public IMeshEntity MeshEntity { get; set; }
 
  [IMeshEntity](VM.Managed.DAFUL.GearTrain.IMeshEntity.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_RenderingMode"></a> RenderingMode
+### RenderingMode
 
 Gets the rendering mode.
 
@@ -637,7 +637,7 @@ public override View3D.RenderingMode RenderingMode { get; }
 
  View3D.RenderingMode
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_TargetDesign"></a> TargetDesign
+### TargetDesign
 
 Gets the target design.
 
@@ -649,7 +649,7 @@ public override IOpenDesigner TargetDesign { get; }
 
  IOpenDesigner
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VisibleDimension"></a> VisibleDimension
+### VisibleDimension
 
 Gets or sets a value indicating whether [visible dimension].
 
@@ -661,7 +661,7 @@ public bool VisibleDimension { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase__MeshEntity"></a> \_MeshEntity
+### \_MeshEntity
 
 Gets or sets the _ mesh entity.
 
@@ -675,7 +675,7 @@ public Linker<IMeshEntity> _MeshEntity { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_ClearDocument"></a> ClearDocument\(\)
+### ClearDocument\(\)
 
 Clears the document.
 
@@ -683,7 +683,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_CreateAssemblyImpl"></a> CreateAssemblyImpl\(\)
+### CreateAssemblyImpl\(\)
 
 Creates the assembly implementation.
 
@@ -699,7 +699,7 @@ protected override Assembly CreateAssemblyImpl()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_CreateViewCore_System_UIntPtr_"></a> CreateViewCore\(UIntPtr\)
+### CreateViewCore\(UIntPtr\)
 
 Create view [Core].
 
@@ -717,7 +717,7 @@ The view handle.
 
  View
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_Find_System_String_"></a> Find\(string\)
+### Find\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -737,7 +737,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_GetAllGears"></a> GetAllGears\(\)
+### GetAllGears\(\)
 
 Gets all gears.
 
@@ -749,7 +749,7 @@ public ObjectBase[] GetAllGears()
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -769,7 +769,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -787,11 +787,12 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_ShowHideDimension"></a> ShowHideDimension\(\)
+### ShowHideDimension\(\)
 
 Shows the hide dimension.
 
 ```csharp
 public void ShowHideDimension()
 ```
+
 

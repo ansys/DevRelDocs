@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OnApplyOperation"></a> Class OnApplyOperation
+# Class OnApplyOperation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_OnApplyOperation__ctor_System_String_"></a> OnApplyOperation\(string\)
+### OnApplyOperation\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.OnApplyOperation" data-throw-if-not-resolved="false"></xref> class.
 <param name="strName">The name.</param>
@@ -92,7 +92,7 @@ public OnApplyOperation(string strName)
 
 ## Fields
 
-### <a id="VM_Managed_OnApplyOperation_OnApply"></a> OnApply
+### OnApply
 
 OnApply event
 
@@ -106,7 +106,7 @@ public OnApplyOperation.OnApplyCallback OnApply
 
 ## Properties
 
-### <a id="VM_Managed_OnApplyOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -118,7 +118,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_OnApplyOperation_Success"></a> Success
+### Success
 
 Gets the success flag.
 
@@ -132,11 +132,12 @@ public bool Success { get; }
 
 ## Methods
 
-### <a id="VM_Managed_OnApplyOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

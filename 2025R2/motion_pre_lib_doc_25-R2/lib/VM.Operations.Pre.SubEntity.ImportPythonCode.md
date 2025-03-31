@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_SubEntity_ImportPythonCode"></a> Class ImportPythonCode
+# Class ImportPythonCode
 
 Namespace: [VM.Operations.Pre.SubEntity](VM.Operations.Pre.SubEntity.md)  
 Assembly: VM.Operations.Pre.SubEntity.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode__ctor_VM_Managed_Document_System_String___"></a> ImportPythonCode\(Document, params string\[\]\)
+### ImportPythonCode\(Document, params string\[\]\)
 
 Construct <xref href="VM.Operations.Pre.SubEntity.ImportPythonCode" data-throw-if-not-resolved="false"></xref> operation
 
@@ -95,7 +95,7 @@ The <xref href="VM.Managed.Document" data-throw-if-not-resolved="false"></xref> 
 
 Additional pathes to python codes
 
-### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode__ctor_VM_Managed_Document_System_Collections_Generic_IEnumerable_System_String__"></a> ImportPythonCode\(Document, IEnumerable<string\>\)
+### ImportPythonCode\(Document, IEnumerable<string\>\)
 
 Construct <xref href="VM.Operations.Pre.SubEntity.ImportPythonCode" data-throw-if-not-resolved="false"></xref> operation
 
@@ -113,7 +113,7 @@ The <xref href="VM.Managed.Document" data-throw-if-not-resolved="false"></xref> 
 
 Pathes to python codes.
 
-### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode__ctor_VM_Managed_Operation_JournalParameter_"></a> ImportPythonCode\(JournalParameter\)
+### ImportPythonCode\(JournalParameter\)
 
 Construct <xref href="VM.Operations.Pre.SubEntity.ImportPythonCode" data-throw-if-not-resolved="false"></xref> operation
 
@@ -129,7 +129,7 @@ The <xref href="VM.Managed.Operation.JournalParameter" data-throw-if-not-resolve
 
 ## Properties
 
-### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode_Name"></a> Name
+### Name
 
 The name of the operation
 
@@ -141,7 +141,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode_Pathes"></a> Pathes
+### Pathes
 
 Pathes to python codes.
 
@@ -153,7 +153,7 @@ public string[] Pathes { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode_Result"></a> Result
+### Result
 
 Constructed <xref href="VM.Managed.DAFUL.PythonCode" data-throw-if-not-resolved="false"></xref> entites
 
@@ -167,7 +167,7 @@ public PythonCode[] Result { get; set; }
 
 ## Methods
 
-### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -175,7 +175,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Operations_Pre_SubEntity_ImportPythonCode_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Get informations for xml journal file
 
@@ -186,4 +186,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

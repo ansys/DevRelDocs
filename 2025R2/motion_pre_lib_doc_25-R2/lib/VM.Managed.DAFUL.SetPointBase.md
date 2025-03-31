@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SetPointBase"></a> Class SetPointBase
+# Class SetPointBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -263,7 +263,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_SetPointBase__ctor"></a> SetPointBase\(\)
+### SetPointBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -271,7 +271,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetPoint" data-th
 public SetPointBase()
 ```
 
-### <a id="VM_Managed_DAFUL_SetPointBase__ctor_System_String_"></a> SetPointBase\(string\)
+### SetPointBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -287,7 +287,7 @@ Name of the point set.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_SetPointBase_m_lstRange"></a> m\_lstRange
+### m\_lstRange
 
 The M_LST range
 
@@ -302,7 +302,7 @@ protected List<Child<Range, ObjectBase.Update>> m_lstRange
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_SetPointBase_Ranges"></a> Ranges
+### Ranges
 
 Gets or sets the points and ranges.
 
@@ -316,7 +316,7 @@ public Range[] Ranges { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_SetPointBase_AddRange_VM_Managed_Range_"></a> AddRange\(Range\)
+### AddRange\(Range\)
 
 Add Region information.
 
@@ -336,7 +336,7 @@ The range.
 
 Return false, if already added.
 
-### <a id="VM_Managed_DAFUL_SetPointBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -354,9 +354,9 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_SetPointBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
-Called when [deserialization].
+<p>Called when [deserialization].</p>
 
 ```csharp
 protected override void OnDeserialization(object sender)
@@ -366,5 +366,6 @@ protected override void OnDeserialization(object sender)
 
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-The sender.
+<p>The sender.</p>
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingGeometryForRBEInFE"></a> Class HDBearingGeometryForRBEInFE
+# Class HDBearingGeometryForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -296,7 +296,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingGeometryForRBEInFE__ctor"></a> HDBearingGeometryForRBEInFE\(\)
+### HDBearingGeometryForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDBearingGeometryForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -304,7 +304,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDB
 public HDBearingGeometryForRBEInFE()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingGeometryForRBEInFE__ctor_VM_Managed_CAD_Builder_"></a> HDBearingGeometryForRBEInFE\(Builder\)
+### HDBearingGeometryForRBEInFE\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDBearingGeometryForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -317,4 +317,5 @@ public HDBearingGeometryForRBEInFE(Builder builder)
 `builder` Builder
 
 The builder.
+
 

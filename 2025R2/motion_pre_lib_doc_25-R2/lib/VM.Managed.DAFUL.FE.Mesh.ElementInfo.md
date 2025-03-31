@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Mesh_ElementInfo"></a> Class Mesh.ElementInfo
+# Class Mesh.ElementInfo
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -20,7 +20,7 @@ public class Mesh.ElementInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ElementInfo__ctor"></a> ElementInfo\(\)
+### ElementInfo\(\)
 
 ```csharp
 public ElementInfo()
@@ -28,7 +28,7 @@ public ElementInfo()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ElementInfo_arNodeIndex"></a> arNodeIndex
+### arNodeIndex
 
 ```csharp
 public uint[] arNodeIndex
@@ -38,7 +38,7 @@ public uint[] arNodeIndex
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ElementInfo_enType"></a> enType
+### enType
 
 ```csharp
 public ElementType enType
@@ -48,7 +48,7 @@ public ElementType enType
 
  [ElementType](VM.Managed.DAFUL.FE.ElementType.md)
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ElementInfo_nNodes"></a> nNodes
+### nNodes
 
 ```csharp
 public uint nNodes
@@ -57,4 +57,5 @@ public uint nNodes
 #### Field Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_ISONonlinearThermal"></a> Class ISONonlinearThermal
+# Class ISONonlinearThermal
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Material_ISONonlinearThermal__ctor"></a> ISONonlinearThermal\(\)
+### ISONonlinearThermal\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.ISONonlinearThermal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -191,7 +191,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.ISONonlinearTh
 public ISONonlinearThermal()
 ```
 
-### <a id="VM_Managed_Material_ISONonlinearThermal__ctor_System_String_"></a> ISONonlinearThermal\(string\)
+### ISONonlinearThermal\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.ISONonlinearThermal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ Name of the isotropic material.
 
 ## Properties
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_DampingRatio"></a> DampingRatio
+### DampingRatio
 
 Gets or sets the damping ratio.
 
@@ -219,7 +219,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_DisableHScaleFactor"></a> DisableHScaleFactor
+### DisableHScaleFactor
 
 Gets or sets a value indicating whether [disable H scale factor].
 Use SetDisableHScaleFactor() when this instance sets for undo/redo
@@ -232,7 +232,7 @@ public bool DisableHScaleFactor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_HeatCapacityMatrix"></a> HeatCapacityMatrix
+### HeatCapacityMatrix
 
 Gets or sets the heat capacity matrix.
 
@@ -244,7 +244,7 @@ public ISO.CapacityMatrix HeatCapacityMatrix { get; set; }
 
  [ISO](VM.Managed.Material.ISO.md).[CapacityMatrix](VM.Managed.Material.ISO.CapacityMatrix.md)
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_PoissonRatio"></a> PoissonRatio
+### PoissonRatio
 
 Gets or sets the poisson ratio.
 
@@ -256,7 +256,7 @@ public ExpressionValueVariable PoissonRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_ReferenceTemperature"></a> ReferenceTemperature
+### ReferenceTemperature
 
 Gets or sets the reference temperature.
 
@@ -268,7 +268,7 @@ public ExpressionValueVariable ReferenceTemperature { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_SpecificHeatSpline"></a> SpecificHeatSpline
+### SpecificHeatSpline
 
 Gets or sets the specific heat spline.
 
@@ -280,7 +280,7 @@ public ISpline SpecificHeatSpline { get; set; }
 
  ISpline
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_ThermalConductivitySpline"></a> ThermalConductivitySpline
+### ThermalConductivitySpline
 
 Gets or sets the thermal conductivity spline.
 
@@ -292,7 +292,7 @@ public ISpline ThermalConductivitySpline { get; set; }
 
  ISpline
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_ThermalExpansionCoefficientSpline"></a> ThermalExpansionCoefficientSpline
+### ThermalExpansionCoefficientSpline
 
 Gets or sets the thermal expansion coefficient spline.
 
@@ -304,7 +304,7 @@ public ISpline ThermalExpansionCoefficientSpline { get; set; }
 
  ISpline
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_YModulusSpline"></a> YModulusSpline
+### YModulusSpline
 
 Gets or sets the young's modulus spline.
 
@@ -316,7 +316,7 @@ public ISpline YModulusSpline { get; set; }
 
  ISpline
 
-### <a id="VM_Managed_Material_ISONonlinearThermal__SpecificHeatSpline"></a> \_SpecificHeatSpline
+### \_SpecificHeatSpline
 
 Gets or sets the specific heat spline.
 
@@ -328,7 +328,7 @@ public Linker<ISpline> _SpecificHeatSpline { get; set; }
 
  Linker<ISpline\>
 
-### <a id="VM_Managed_Material_ISONonlinearThermal__ThermalConductivitySpline"></a> \_ThermalConductivitySpline
+### \_ThermalConductivitySpline
 
 Gets or sets the thermal conductivity spline.
 
@@ -340,7 +340,7 @@ public Linker<ISpline> _ThermalConductivitySpline { get; set; }
 
  Linker<ISpline\>
 
-### <a id="VM_Managed_Material_ISONonlinearThermal__ThermalExpansionCoefficientSpline"></a> \_ThermalExpansionCoefficientSpline
+### \_ThermalExpansionCoefficientSpline
 
 Gets or sets the thermal expansion coefficient spline.
 
@@ -352,7 +352,7 @@ public Linker<ISpline> _ThermalExpansionCoefficientSpline { get; set; }
 
  Linker<ISpline\>
 
-### <a id="VM_Managed_Material_ISONonlinearThermal__YModulusSpline"></a> \_YModulusSpline
+### \_YModulusSpline
 
 Gets or sets the young's modulus spline.
 
@@ -366,7 +366,7 @@ public Linker<ISpline> _YModulusSpline { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -380,7 +380,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_Material_ISONonlinearThermal_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -397,4 +397,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

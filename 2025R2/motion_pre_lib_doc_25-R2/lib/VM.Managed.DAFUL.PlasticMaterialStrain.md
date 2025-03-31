@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PlasticMaterialStrain"></a> Enum PlasticMaterialStrain
+# Enum PlasticMaterialStrain
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -26,6 +26,7 @@ True strain
 `True = 1` 
 
 True strain
+
 
 
 

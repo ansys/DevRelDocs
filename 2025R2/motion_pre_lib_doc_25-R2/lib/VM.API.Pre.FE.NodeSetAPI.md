@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_NodeSetAPI"></a> Class NodeSetAPI
+# Class NodeSetAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class NodeSetAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_FE_NodeSetAPI_AddDesignPoint_VM_API_Pre_Obj_VM_Vector_"></a> AddDesignPoint\(Obj, Vector\)
+### AddDesignPoint\(Obj, Vector\)
 
 Create <xref href="VM.Managed.DesignPoint" data-throw-if-not-resolved="false"></xref>.
 
@@ -58,7 +58,7 @@ Will be thrown if 'mesh' argument is empty.
 
 Will be thrown if type of 'mesh' is not <xref href="VM.Managed.DAFUL.FE.Mesh" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_FE_NodeSetAPI_CreateNodeset_VM_Managed_DAFUL_FE_MeshDocument_System_Collections_Generic_IEnumerable_System_UInt32__System_String_VM_Managed_DAFUL_FE_EigenvalueInfo_RBEType_System_Boolean_System_Nullable_VM_Vector__System_Boolean_System_Boolean_System_Nullable_System_Drawing_Color__"></a> CreateNodeset\(MeshDocument, IEnumerable<uint\>, string, RBEType, bool, Vector?, bool, bool, Color?\)
+### CreateNodeset\(MeshDocument, IEnumerable<uint\>, string, RBEType, bool, Vector?, bool, bool, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.FE.SetNode" data-throw-if-not-resolved="false"></xref>.
 
@@ -116,4 +116,5 @@ The new <xref href="VM.Managed.DAFUL.FE.SetNode" data-throw-if-not-resolved="fal
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' or 'nodeIndexes' arguments are empty.
+
 

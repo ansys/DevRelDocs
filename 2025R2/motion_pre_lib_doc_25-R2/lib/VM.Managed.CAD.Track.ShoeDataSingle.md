@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeDataSingle"></a> Class ShoeDataSingle
+# Class ShoeDataSingle
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -128,7 +128,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSingle__ctor"></a> ShoeDataSingle\(\)
+### ShoeDataSingle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataSingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -136,7 +136,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataSingl
 public ShoeDataSingle()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSingle__ctor_VM_Models_Pre_IOwned_"></a> ShoeDataSingle\(IOwned\)
+### ShoeDataSingle\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataSingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -152,7 +152,7 @@ The owner object.
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSingle_LDQ2"></a> LDQ2
+### LDQ2
 
 Gets and sets longitudinal distance from reference position to q2.
 
@@ -164,7 +164,7 @@ public ExpressionValueVariable LDQ2 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSingle_RQ2"></a> RQ2
+### RQ2
 
 Gets and sets arc radius with respect to q2.
 
@@ -176,7 +176,7 @@ public ExpressionValueVariable RQ2 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSingle_VDQ2"></a> VDQ2
+### VDQ2
 
 Gets and sets vertical distance from reference position to q2.
 
@@ -190,7 +190,7 @@ public ExpressionValueVariable VDQ2 { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSingle_GetPoints_XYPlane"></a> GetPoints\_XYPlane\(\)
+### GetPoints\_XYPlane\(\)
 
 Gets the profile data of shoe.
 
@@ -204,11 +204,12 @@ public override List<VectorBase> GetPoints_XYPlane()
 
 The Points
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSingle_Validation"></a> Validation\(\)
+### Validation\(\)
 
 Checks the validation .
 
 ```csharp
 public override void Validation()
 ```
+
 

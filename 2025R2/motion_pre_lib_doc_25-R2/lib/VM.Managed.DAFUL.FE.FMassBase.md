@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_FMassBase"></a> Class FMassBase
+# Class FMassBase
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -185,7 +185,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase__ctor_System_String_System_String_System_String_"></a> FMassBase\(string, string, string\)
+### FMassBase\(string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FMassBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ Name of the proxy.
 
 The build information.
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase__ctor_System_String_System_String_"></a> FMassBase\(string, string\)
+### FMassBase\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FMassBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -225,7 +225,7 @@ Name of the proxy.
 
 The build information.
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase__ctor_System_String_"></a> FMassBase\(string\)
+### FMassBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FMassBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -239,7 +239,7 @@ protected FMassBase(string strName)
 
 Name of the FE sub entity.
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase__ctor"></a> FMassBase\(\)
+### FMassBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FMassBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -249,7 +249,7 @@ protected FMassBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase_IsHide"></a> IsHide
+### IsHide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -261,7 +261,7 @@ bool IsHide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets a value indicating whether object is visible.
 
@@ -273,7 +273,7 @@ bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -287,7 +287,7 @@ Layer Layer { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -301,7 +301,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -321,7 +321,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -329,11 +329,12 @@ Redraw.
 virtual void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_FMassBase_ReDrawForHistory"></a> ReDrawForHistory\(\)
+### ReDrawForHistory\(\)
 
 Redraw for undo/redo
 
 ```csharp
 void ReDrawForHistory()
 ```
+
 

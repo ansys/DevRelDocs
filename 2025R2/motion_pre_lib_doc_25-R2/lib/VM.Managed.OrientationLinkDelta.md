@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationLinkDelta"></a> Class OrientationLinkDelta
+# Class OrientationLinkDelta
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -144,7 +144,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_OrientationLinkDelta__ctor_VM_Managed_IOrientation_VM_Managed_OrientationBase_"></a> OrientationLinkDelta\(IOrientation, OrientationBase\)
+### OrientationLinkDelta\(IOrientation, OrientationBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -162,7 +162,7 @@ The orientation.
 
 The orientation of Delta.
 
-### <a id="VM_Managed_OrientationLinkDelta__ctor_VM_Managed_IOrientation_"></a> OrientationLinkDelta\(IOrientation\)
+### OrientationLinkDelta\(IOrientation\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -176,7 +176,7 @@ public OrientationLinkDelta(IOrientation pOrientation)
 
 The orientation.
 
-### <a id="VM_Managed_OrientationLinkDelta__ctor_VM_Managed_OrientationBase_"></a> OrientationLinkDelta\(OrientationBase\)
+### OrientationLinkDelta\(OrientationBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -190,7 +190,7 @@ public OrientationLinkDelta(OrientationBase pOriDelta)
 
 Tne orientation of Delta.
 
-### <a id="VM_Managed_OrientationLinkDelta__ctor"></a> OrientationLinkDelta\(\)
+### OrientationLinkDelta\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,7 +200,7 @@ public OrientationLinkDelta()
 
 ## Fields
 
-### <a id="VM_Managed_OrientationLinkDelta_m_DeltaOrientation"></a> m\_DeltaOrientation
+### m\_DeltaOrientation
 
 ```csharp
 protected Child<OrientationBase, LinkContainer.Update> m_DeltaOrientation
@@ -212,7 +212,7 @@ protected Child<OrientationBase, LinkContainer.Update> m_DeltaOrientation
 
 ## Properties
 
-### <a id="VM_Managed_OrientationLinkDelta_DeltaOrientation"></a> DeltaOrientation
+### DeltaOrientation
 
 Gets or sets the orientation of delta.
 
@@ -224,7 +224,7 @@ public OrientationBase DeltaOrientation { get; set; }
 
  [OrientationBase](VM.Managed.OrientationBase.md)
 
-### <a id="VM_Managed_OrientationLinkDelta_Value"></a> Value
+### Value
 
 Gets the information of orientation(OMatrix type).
 
@@ -238,7 +238,7 @@ public override OMatrix Value { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_OrientationLinkDelta_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -253,7 +253,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_OrientationLinkDelta_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -267,7 +267,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_OrientationLinkDelta_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -280,4 +280,5 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplayType"></a> Enum UserSubroutine.UserDefinedDisplay.DisplayType
+# Enum UserSubroutine.UserDefinedDisplay.DisplayType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -56,6 +56,7 @@ Scalar
 `Torque = 1` 
 
 Torque
+
 
 
 

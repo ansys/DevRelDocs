@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IContactGeometry3D"></a> Interface IContactGeometry3D
+# Interface IContactGeometry3D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -21,7 +21,7 @@ public interface IContactGeometry3D : IContactGeometry
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IContactGeometry3D_HalfThickness"></a> HalfThickness
+### HalfThickness
 
 Gets or sets the half thickness.
 
@@ -33,7 +33,7 @@ ExpressionValueVariable HalfThickness { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_IContactGeometry3D_SurfaceSmoothingType"></a> SurfaceSmoothingType
+### SurfaceSmoothingType
 
 Gets or sets the type of the surface smoothing.
 
@@ -47,7 +47,7 @@ SurfaceSmoothing SurfaceSmoothingType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_IContactGeometry3D_GetPointDirectionOnGeometry_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
+### GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
 
 Gets the point direction.
 
@@ -70,4 +70,5 @@ The direction.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

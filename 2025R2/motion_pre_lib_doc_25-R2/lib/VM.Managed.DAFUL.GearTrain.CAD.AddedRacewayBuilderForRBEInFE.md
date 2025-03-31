@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInFE"></a> Class AddedRacewayBuilderForRBEInFE
+# Class AddedRacewayBuilderForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -246,7 +246,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInFE__ctor"></a> AddedRacewayBuilderForRBEInFE\(\)
+### AddedRacewayBuilderForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedRacewayBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,7 +254,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Add
 public AddedRacewayBuilderForRBEInFE()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInFE__ctor_VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometryForRBEInFE_"></a> AddedRacewayBuilderForRBEInFE\(RacewayGeometryForRBEInFE\)
+### AddedRacewayBuilderForRBEInFE\(RacewayGeometryForRBEInFE\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedRacewayBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -270,7 +270,7 @@ The geometry.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInFE_GetTransform"></a> GetTransform\(\)
+### GetTransform\(\)
 
 Gets the transform the added raceway in FE designer.
 
@@ -284,7 +284,7 @@ public override TMatrix GetTransform()
 
 The transform.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInFE_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -302,11 +302,12 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInFE_UpdateGeometry"></a> UpdateGeometry\(\)
+### UpdateGeometry\(\)
 
 Sets the shaft radius.
 
 ```csharp
 public override void UpdateGeometry()
 ```
+
 

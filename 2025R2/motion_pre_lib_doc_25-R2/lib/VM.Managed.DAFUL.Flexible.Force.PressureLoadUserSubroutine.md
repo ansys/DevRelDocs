@@ -1,9 +1,10 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadUserSubroutine"></a> Class PressureLoadUserSubroutine
+# Class PressureLoadUserSubroutine
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-This class is to represent the characteristic properties of user-subroutine type.
+<p>This class is to represent the characteristic properties of user-subroutine type.</p>
+<p>이 클래스는 사용자 정의 함수의 특성을 나타냅니다.</p>
 
 ```csharp
 public sealed class PressureLoadUserSubroutine : PressureLoadFunction, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IReservable
@@ -76,9 +77,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadUserSubroutine__ctor"></a> PressureLoadUserSubroutine\(\)
+### PressureLoadUserSubroutine\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadUserSubroutine" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadUserSubroutine" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadUserSubroutine" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public PressureLoadUserSubroutine()
@@ -86,9 +89,10 @@ public PressureLoadUserSubroutine()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadUserSubroutine_Type"></a> Type
+### Type
 
-Gets the function type.
+<p>Gets the function type.</p>
+<p>함수 타입을 가져오거나 넣어줍니다.</p>
 
 ```csharp
 public override PressureLoadFunction.FunctionType Type { get; }
@@ -98,9 +102,28 @@ public override PressureLoadFunction.FunctionType Type { get; }
 
  [PressureLoadFunction](VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction.md).[FunctionType](VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction.FunctionType.md)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadUserSubroutine_UserSubroutine"></a> UserSubroutine
+### UserSubroutine
 
-Gets or sets the user subroutine.
+<p>Gets or sets the user subroutine.</p>
+<p>사용자 정의 함수를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : UserSubroutine
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : User Subroutine
+        Control Type : User Subroutine Editor
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Load
+        Category Index : 1
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public UserSubroutine UserSubroutine { get; set; }
@@ -109,4 +132,5 @@ public UserSubroutine UserSubroutine { get; set; }
 #### Property Value
 
  UserSubroutine
+
 

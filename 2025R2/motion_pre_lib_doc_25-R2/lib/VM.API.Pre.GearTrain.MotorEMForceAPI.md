@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_MotorEMForceAPI"></a> Class MotorEMForceAPI
+# Class MotorEMForceAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class MotorEMForceAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_GearTrain_MotorEMForceAPI_CreateMotorEMForce_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_VM_API_Pre_Obj_System_String_"></a> CreateMotorEMForce\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, Obj, string\)
+### CreateMotorEMForce\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.Force.MotorEMForce" data-throw-if-not-resolved="false"></xref>.
 
@@ -95,7 +95,7 @@ Will be thrown if type of 'rotorBody' is not <xref href="VM.Managed.ObjectBase" 
 
 Will be thrown if type of 'referenceOfRotational' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_MotorEMForceAPI_CreateMotorEMForceForANSYSMotion_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_VM_API_Pre_Obj_System_String_"></a> CreateMotorEMForceForANSYSMotion\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, Obj, string\)
+### CreateMotorEMForceForANSYSMotion\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.Force.MotorEMForce" data-throw-if-not-resolved="false"></xref>.
 
@@ -168,7 +168,7 @@ Will be thrown if type of 'rotorBody' is not <xref href="VM.Managed.ObjectBase" 
 
 Will be thrown if type of 'referenceOfRotational' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_MotorEMForceAPI_CreateMotorEMForceForJMAG_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_VM_API_Pre_Obj_System_String_"></a> CreateMotorEMForceForJMAG\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, Obj, string\)
+### CreateMotorEMForceForJMAG\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.Force.MotorEMForce" data-throw-if-not-resolved="false"></xref>.
 
@@ -240,4 +240,5 @@ Will be thrown if type of 'rotorBody' is not <xref href="VM.Managed.ObjectBase" 
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if type of 'referenceOfRotational' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
+
 

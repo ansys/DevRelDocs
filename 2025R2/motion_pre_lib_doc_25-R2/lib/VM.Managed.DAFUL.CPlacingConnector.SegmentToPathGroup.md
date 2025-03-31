@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentToPathGroup"></a> Class SegmentToPathGroup
+# Class SegmentToPathGroup
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentToPathGroup__ctor"></a> SegmentToPathGroup\(\)
+### SegmentToPathGroup\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.SegmentToPathGroup" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ public SegmentToPathGroup()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentToPathGroup_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -123,4 +123,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IGapTarget"></a> Interface IGapTarget
+# Interface IGapTarget
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IGapTarget
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IGapTarget_Gap"></a> Gap
+### Gap
 
 The gap
 
@@ -31,7 +31,7 @@ ExpressionValueVariable Gap { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_IGapTarget_SetGap_System_String_"></a> SetGap\(string\)
+### SetGap\(string\)
 
 Sets the gap
 
@@ -44,4 +44,5 @@ void SetGap(string strValue)
 `strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The value
+
 

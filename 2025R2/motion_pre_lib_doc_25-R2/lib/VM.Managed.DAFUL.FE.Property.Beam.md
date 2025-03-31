@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Property_Beam"></a> Class Beam
+# Class Beam
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -186,7 +186,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam__ctor_System_String_"></a> Beam\(string\)
+### Beam\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.Beam" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,7 +200,7 @@ public Beam(string strName)
 
 Name of the property beam.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam__ctor"></a> Beam\(\)
+### Beam\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.Beam" data-throw-if-not-resolved="false"></xref> class.
 
@@ -210,7 +210,7 @@ public Beam()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_Area"></a> Area
+### Area
 
 Gets or sets the area.
 
@@ -222,7 +222,7 @@ public Variable Area { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_Direction"></a> Direction
+### Direction
 
 Gets or sets the Z-direction.
 
@@ -234,7 +234,7 @@ public Vector Direction { get; set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_IXX"></a> IXX
+### IXX
 
 Gets or sets the IXX.
 
@@ -246,7 +246,7 @@ public Variable IXX { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_IYY"></a> IYY
+### IYY
 
 Gets or sets the IYY.
 
@@ -258,7 +258,7 @@ public Variable IYY { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_IYZ"></a> IYZ
+### IYZ
 
 Gets or sets the IYZ.
 
@@ -270,7 +270,7 @@ public Variable IYZ { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_IZZ"></a> IZZ
+### IZZ
 
 Gets or sets the IZZ.
 
@@ -282,7 +282,7 @@ public Variable IZZ { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_ShearAreaRatioY"></a> ShearAreaRatioY
+### ShearAreaRatioY
 
 Gets or sets the shear area ratio Y.
 
@@ -294,7 +294,7 @@ public Variable ShearAreaRatioY { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_ShearAreaRatioZ"></a> ShearAreaRatioZ
+### ShearAreaRatioZ
 
 Gets or sets the shear area ratio Z.
 
@@ -306,7 +306,7 @@ public Variable ShearAreaRatioZ { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_Type"></a> Type
+### Type
 
 Gets the type of property.
 
@@ -320,13 +320,13 @@ public override PropertyBase.PropertyType Type { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_Init"></a> Init\(\)
+### Init\(\)
 
 ```csharp
 protected virtual void Init()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -340,7 +340,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Beam_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -353,4 +353,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

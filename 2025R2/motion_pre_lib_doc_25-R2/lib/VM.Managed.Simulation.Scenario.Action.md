@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Scenario_Action"></a> Enum Scenario.Action
+# Enum Scenario.Action
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -74,6 +74,7 @@ RIGID TO FLEXIBLE
 `STOP = 0` 
 
 STOP
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_AstNodeExtensions"></a> Class AstNodeExtensions
+# Class AstNodeExtensions
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,7 +20,7 @@ public static class AstNodeExtensions
 
 ## Fields
 
-### <a id="VM_Models_Pre_AstNodeExtensions_FunctionKeyWords"></a> FunctionKeyWords
+### FunctionKeyWords
 
 ```csharp
 public static readonly string[] FunctionKeyWords
@@ -32,7 +32,7 @@ public static readonly string[] FunctionKeyWords
 
 ## Methods
 
-### <a id="VM_Models_Pre_AstNodeExtensions_FindIdentifier_Irony_Interpreter_Ast_AstNode_System_String___"></a> FindIdentifier\(AstNode, string\[\]\)
+### FindIdentifier\(AstNode, string\[\]\)
 
 ```csharp
 public static bool FindIdentifier(this AstNode astNode, string[] names)
@@ -47,4 +47,5 @@ public static bool FindIdentifier(this AstNode astNode, string[] names)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

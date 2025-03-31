@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IGearTrainDocument"></a> Interface IGearTrainDocument
+# Interface IGearTrainDocument
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -33,7 +33,7 @@ IHasID,
 
 ## Properties
 
-### <a id="VM_Models_Pre_IGearTrainDocument_VehicleSimulationDataSet"></a> VehicleSimulationDataSet
+### VehicleSimulationDataSet
 
 Vehicle Simulation DataSet
 
@@ -45,7 +45,7 @@ string VehicleSimulationDataSet { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_IGearTrainDocument_VehicleSimulatorProcessId"></a> VehicleSimulatorProcessId
+### VehicleSimulatorProcessId
 
 Vehicle simulator process id
 
@@ -56,4 +56,5 @@ int VehicleSimulatorProcessId { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

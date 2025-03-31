@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ContactAnalysis"></a> Class ContactAnalysis
+# Class ContactAnalysis
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ContactAnalysis__ctor_System_String_System_String_System_String_System_String_System_Int32___System_String_System_Int32_System_Int32_System_Boolean_System_String_System_String_System_String_"></a> ContactAnalysis\(string, string, string, string, int\[\], string, int, int, bool, string, string, string\)
+### ContactAnalysis\(string, string, string, string, int\[\], string, int, int, bool, string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ContactAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -135,7 +135,7 @@ The output type.
 
 The align type.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ContactAnalysis__ctor_VM_Managed_Operation_JournalParameter_"></a> ContactAnalysis\(JournalParameter\)
+### ContactAnalysis\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ContactAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -151,7 +151,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ContactAnalysis_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -165,7 +165,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ContactAnalysis_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -173,7 +173,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ContactAnalysis_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -186,4 +186,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

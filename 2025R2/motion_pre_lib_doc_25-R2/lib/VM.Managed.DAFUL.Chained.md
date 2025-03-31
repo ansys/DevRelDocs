@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained"></a> Namespace VM.Managed.DAFUL.Chained
+# Namespace VM.Managed.DAFUL.Chained
 
 ### Namespaces
 
@@ -187,4 +187,5 @@ Apply delegate
  [NextStepOperation.NextStepCallback](VM.Managed.DAFUL.Chained.NextStepOperation.NextStepCallback.md)
 
 Next step delegate
+
 

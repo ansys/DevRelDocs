@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Links_LinksDocumentAPI"></a> Class LinksDocumentAPI
+# Class LinksDocumentAPI
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -22,7 +22,7 @@ public static class LinksDocumentAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_Links_LinksDocumentAPI_CreateNewPathMeshDocument_System_String_System_String_VM_Unit_VM_Plane_VM_API_Pre_LengthUnitType_"></a> CreateNewPathMeshDocument\(string, string, Unit, Plane, LengthUnitType\)
+### CreateNewPathMeshDocument\(string, string, Unit, Plane, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Chained.MeshDocumentChainedPath" data-throw-if-not-resolved="false"></xref>.
 
@@ -64,7 +64,7 @@ The new <xref href="VM.Managed.DAFUL.Chained.MeshDocumentChainedPath" data-throw
 
 Will be thrown if 'newLinkPathFilePath' argument is null.
 
-### <a id="VM_API_Pre_Links_LinksDocumentAPI_CreateNewPathPartDocument_System_String_System_String_VM_Unit_VM_Plane_VM_API_Pre_LengthUnitType_"></a> CreateNewPathPartDocument\(string, string, Unit, Plane, LengthUnitType\)
+### CreateNewPathPartDocument\(string, string, Unit, Plane, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Chained.PartDocumentChainedPath" data-throw-if-not-resolved="false"></xref>.
 
@@ -106,7 +106,7 @@ The new <xref href="VM.Managed.DAFUL.Chained.PartDocumentChainedPath" data-throw
 
 Will be thrown if 'newLinkPathFilePath' argument is null.
 
-### <a id="VM_API_Pre_Links_LinksDocumentAPI_CreateNewPathSubsystemDocument_System_String_System_String_VM_Unit_VM_Plane_VM_API_Pre_LengthUnitType_"></a> CreateNewPathSubsystemDocument\(string, string, Unit, Plane, LengthUnitType\)
+### CreateNewPathSubsystemDocument\(string, string, Unit, Plane, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Chained.DocumentChainedPath" data-throw-if-not-resolved="false"></xref>.
 
@@ -148,7 +148,7 @@ The new <xref href="VM.Managed.DAFUL.Chained.DocumentChainedPath" data-throw-if-
 
 Will be thrown if 'newLinkPathFilePath' argument is null.
 
-### <a id="VM_API_Pre_Links_LinksDocumentAPI_CreateNewSegmentMeshDocument_System_String_System_String_VM_Unit_VM_Plane_VM_API_Pre_LengthUnitType_"></a> CreateNewSegmentMeshDocument\(string, string, Unit, Plane, LengthUnitType\)
+### CreateNewSegmentMeshDocument\(string, string, Unit, Plane, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Chained.MeshDocumentChainedSegment" data-throw-if-not-resolved="false"></xref>.
 
@@ -190,7 +190,7 @@ The new <xref href="VM.Managed.DAFUL.Chained.MeshDocumentChainedSegment" data-th
 
 Will be thrown if 'newLinkSegmentFilePath' argument is null.
 
-### <a id="VM_API_Pre_Links_LinksDocumentAPI_CreateNewSegmentPartDocument_System_String_System_String_VM_Unit_VM_Plane_VM_API_Pre_LengthUnitType_"></a> CreateNewSegmentPartDocument\(string, string, Unit, Plane, LengthUnitType\)
+### CreateNewSegmentPartDocument\(string, string, Unit, Plane, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Chained.PartDocumentChainedSegment" data-throw-if-not-resolved="false"></xref>.
 
@@ -232,7 +232,7 @@ The new <xref href="VM.Managed.DAFUL.Chained.PartDocumentChainedSegment" data-th
 
 Will be thrown if 'newLinkSegmentFilePath' argument is null.
 
-### <a id="VM_API_Pre_Links_LinksDocumentAPI_CreateNewSegmentSubsystemDocument_System_String_System_String_VM_Unit_VM_Plane_VM_API_Pre_LengthUnitType_"></a> CreateNewSegmentSubsystemDocument\(string, string, Unit, Plane, LengthUnitType\)
+### CreateNewSegmentSubsystemDocument\(string, string, Unit, Plane, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Chained.DocumentChainedSegment" data-throw-if-not-resolved="false"></xref>.
 
@@ -273,4 +273,5 @@ The new <xref href="VM.Managed.DAFUL.Chained.DocumentChainedSegment" data-throw-
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'newLinkSegmentFilePath' argument is null.
+
 

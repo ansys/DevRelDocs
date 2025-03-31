@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase"></a> Class CoSimSettingsBase
+# Class CoSimSettingsBase
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -166,7 +166,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase__ctor"></a> CoSimSettingsBase\(\)
+### CoSimSettingsBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimSettingsBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -174,7 +174,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimSettin
 protected CoSimSettingsBase()
 ```
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase__ctor_System_String_System_String_"></a> CoSimSettingsBase\(string, string\)
+### CoSimSettingsBase\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimSettingsBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -192,7 +192,7 @@ Name of the proxy.
 
 The build info.
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase__ctor_System_String_"></a> CoSimSettingsBase\(string\)
+### CoSimSettingsBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimSettingsBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ Name of the setting.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase_ExecutingProgramPath"></a> ExecutingProgramPath
+### ExecutingProgramPath
 
 Gets or sets the execute program path.
 
@@ -220,7 +220,7 @@ public string ExecutingProgramPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase_InterfaceProgramType"></a> InterfaceProgramType
+### InterfaceProgramType
 
 Gets and sets the type of the interface program.
 
@@ -232,7 +232,7 @@ public virtual InterfaceType InterfaceProgramType { get; set; }
 
  [InterfaceType](VM.Managed.DAFUL.CoSim.InterfaceType.md)
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase_Use"></a> Use
+### Use
 
 Gets or sets a value indicating whether this instance is use.
 
@@ -244,7 +244,7 @@ public bool Use { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase__IOList"></a> \_IOList
+### \_IOList
 
 Gets or sets the I/O list.
 
@@ -256,7 +256,7 @@ public CoSimIOList _IOList { get; set; }
 
  [CoSimIOList](VM.Managed.DAFUL.CoSim.CoSimIOList.md)
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase__InterfaceTimeStep"></a> \_InterfaceTimeStep
+### \_InterfaceTimeStep
 
 Gets or sets the interface time step.
 
@@ -270,7 +270,7 @@ public ExpressionValueVariable _InterfaceTimeStep { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -284,7 +284,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimSettingsBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -297,4 +297,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetFEDocument"></a> Class HiddenShaftSetFEDocument
+# Class HiddenShaftSetFEDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -608,7 +608,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetFEDocument__ctor_System_UIntPtr_"></a> HiddenShaftSetFEDocument\(UIntPtr\)
+### HiddenShaftSetFEDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetFEDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -624,7 +624,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetFEDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initialize categories.
 
@@ -638,7 +638,7 @@ protected override List<string> InitialCategories { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetFEDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -656,7 +656,7 @@ Type of the string.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetFEDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -669,4 +669,5 @@ public static void InitializeCategoryInfo(string strCategoryName)
 `strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the string category.
+
 

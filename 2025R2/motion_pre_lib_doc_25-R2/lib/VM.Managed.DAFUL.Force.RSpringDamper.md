@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_RSpringDamper"></a> Class RSpringDamper
+# Class RSpringDamper
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -251,7 +251,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper__ctor"></a> RSpringDamper\(\)
+### RSpringDamper\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.RSpringDamper" data-throw-if-not-resolved="false"></xref> class.
 
@@ -259,7 +259,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.RSpringDamp
 public RSpringDamper()
 ```
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper__ctor_System_String_"></a> RSpringDamper\(string\)
+### RSpringDamper\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.RSpringDamper" data-throw-if-not-resolved="false"></xref> class.
 
@@ -275,7 +275,7 @@ Name of the rotational spring damper.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper_FreeAngle"></a> FreeAngle
+### FreeAngle
 
 Gets or sets the free angle.
 
@@ -287,7 +287,7 @@ public ExpressionValueVariable FreeAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -301,7 +301,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper_CalculationTwoMarkerAngle_VM_Managed_OMatrix_VM_Managed_OMatrix_System_Double___"></a> CalculationTwoMarkerAngle\(OMatrix, OMatrix, double\[\]\)
+### CalculationTwoMarkerAngle\(OMatrix, OMatrix, double\[\]\)
 
 Calculations the two marker angle.
 
@@ -327,7 +327,7 @@ The angle.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper_CalculationTwoMarkerZAngle_VM_Managed_OMatrix_VM_Managed_OMatrix_"></a> CalculationTwoMarkerZAngle\(OMatrix, OMatrix\)
+### CalculationTwoMarkerZAngle\(OMatrix, OMatrix\)
 
 Calculations the two marker Z angle.
 
@@ -349,7 +349,7 @@ The action O mat.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -363,7 +363,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -377,7 +377,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -395,7 +395,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper_MessageForPositionChanging_System_String_"></a> MessageForPositionChanging\(string\)
+### MessageForPositionChanging\(string\)
 
 Messages for position changing.
 
@@ -409,11 +409,12 @@ public static void MessageForPositionChanging(string strName)
 
 Name of the string.
 
-### <a id="VM_Managed_DAFUL_Force_RSpringDamper_UpdateFreeAngle"></a> UpdateFreeAngle\(\)
+### UpdateFreeAngle\(\)
 
 Updates the free angle.
 
 ```csharp
 public void UpdateFreeAngle()
 ```
+
 

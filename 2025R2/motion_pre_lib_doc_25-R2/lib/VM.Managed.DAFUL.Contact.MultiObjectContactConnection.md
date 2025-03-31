@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_MultiObjectContactConnection"></a> Class MultiObjectContactConnection
+# Class MultiObjectContactConnection
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_MultiObjectContactConnection__ctor"></a> MultiObjectContactConnection\(\)
+### MultiObjectContactConnection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultiObjectContactConnection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultiObje
 public MultiObjectContactConnection()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_MultiObjectContactConnection__ctor_VM_Managed_DAFUL_Contact_IContact_"></a> MultiObjectContactConnection\(IContact\)
+### MultiObjectContactConnection\(IContact\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultiObjectContactConnection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The contact object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_MultiObjectContactConnection_ActionGeometryFinder"></a> ActionGeometryFinder
+### ActionGeometryFinder
 
 Gets or sets the action geometry finder.
 
@@ -136,7 +136,7 @@ public MultiObjectContactGeometryFinderBase ActionGeometryFinder { get; set; }
 
  [MultiObjectContactGeometryFinderBase](VM.Managed.DAFUL.Contact.MultiObjectContactGeometryFinderBase.md)
 
-### <a id="VM_Managed_DAFUL_Contact_MultiObjectContactConnection_BaseGeometryFinder"></a> BaseGeometryFinder
+### BaseGeometryFinder
 
 Gets or sets the base geometry finder.
 
@@ -150,7 +150,7 @@ public MultiObjectContactGeometryFinderBase BaseGeometryFinder { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_MultiObjectContactConnection_GetConnection_System_Object_System_Object_"></a> GetConnection\(object, object\)
+### GetConnection\(object, object\)
 
 Gets the connection object with base-action connection information.
 
@@ -172,11 +172,12 @@ The action object for the connection object.
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Contact_MultiObjectContactConnection_Reset"></a> Reset\(\)
+### Reset\(\)
 
 Initializes the connection object with base-action connection information..
 
 ```csharp
 public override void Reset()
 ```
+
 

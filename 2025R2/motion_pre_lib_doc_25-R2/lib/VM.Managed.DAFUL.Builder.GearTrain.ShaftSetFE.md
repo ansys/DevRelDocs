@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_ShaftSetFE"></a> Class ShaftSetFE
+# Class ShaftSetFE
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -64,7 +64,7 @@ BuilderBase<ShaftSetFE\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ShaftSetFE__ctor"></a> ShaftSetFE\(\)
+### ShaftSetFE\(\)
 
 ```csharp
 public ShaftSetFE()
@@ -72,7 +72,7 @@ public ShaftSetFE()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ShaftSetFE_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -87,4 +87,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

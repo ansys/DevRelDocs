@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SteadyBatchConfiguration"></a> Class SteadyBatchConfiguration
+# Class SteadyBatchConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_SteadyBatchConfiguration__ctor"></a> SteadyBatchConfiguration\(\)
+### SteadyBatchConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteadyBatchConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteadyBatchCo
 public SteadyBatchConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_SteadyBatchConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisSteadyBatch_"></a> SteadyBatchConfiguration\(AnalysisSteadyBatch\)
+### SteadyBatchConfiguration\(AnalysisSteadyBatch\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteadyBatchConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_SteadyBatchConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the type of the analysis.
 
@@ -233,7 +233,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_SteadyBatchConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -245,7 +245,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_SteadyBatchConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -257,7 +257,7 @@ public override TireAnalysisType AnalysisType { get; }
 
  [TireAnalysisType](VM.Managed.DAFUL.Car.TireAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_SteadyBatchConfiguration_SteadyBatchParam"></a> SteadyBatchParam
+### SteadyBatchParam
 
 Gets or sets the steady batch parameter.
 
@@ -268,4 +268,5 @@ public AnalysisSteadyBatch SteadyBatchParam { get; set; }
 #### Property Value
 
  [AnalysisSteadyBatch](VM.Managed.DAFUL.Car.AnalysisSteadyBatch.md)
+
 

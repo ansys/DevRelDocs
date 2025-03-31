@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Point"></a> Class Point
+# Class Point
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -115,7 +115,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Point__ctor_VM_Managed_VectorBase_"></a> Point\(VectorBase\)
+### Point\(VectorBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Point" data-throw-if-not-resolved="false"></xref> class.
 
@@ -129,7 +129,7 @@ public Point(VectorBase vecValue)
 
 Value of point.
 
-### <a id="VM_Managed_Point__ctor_System_String_"></a> Point\(string\)
+### Point\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Point" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ public Point(string strValue)
 
 Value of point.
 
-### <a id="VM_Managed_Point__ctor"></a> Point\(\)
+### Point\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Point" data-throw-if-not-resolved="false"></xref> class.
 
@@ -153,7 +153,7 @@ public Point()
 
 ## Properties
 
-### <a id="VM_Managed_Point_Value"></a> Value
+### Value
 
 Gets or sets the value of point.
 
@@ -167,7 +167,7 @@ public VectorBase Value { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Point_ConvertToValue_System_String_"></a> ConvertToValue\(string\)
+### ConvertToValue\(string\)
 
 Convert to value.
 
@@ -185,7 +185,7 @@ The string.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Point_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -199,7 +199,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_Point_ParseToValue_System_Char__"></a> ParseToValue\(char\*\)
+### ParseToValue\(char\*\)
 
 Parse to value.
 
@@ -213,7 +213,7 @@ protected override void ParseToValue(char* wstrValue)
 
 The string.
 
-### <a id="VM_Managed_Point_SetDefaultString_System_String__"></a> SetDefaultString\(ref string\)
+### SetDefaultString\(ref string\)
 
 Set default string.
 
@@ -226,4 +226,5 @@ protected override void SetDefaultString(ref string strValue)
 `strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The value holds default string.
+
 

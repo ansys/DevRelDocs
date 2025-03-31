@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction"></a> Class AttributeVectorFriction
+# Class AttributeVectorFriction
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction__ctor"></a> AttributeVectorFriction\(\)
+### AttributeVectorFriction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.AttributeVectorFriction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeVectorFriction()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_RadialDynamicsThreshold"></a> RadialDynamicsThreshold
+### RadialDynamicsThreshold
 
 Gets or sets the radial dynamics threshold.
 
@@ -121,7 +121,7 @@ public ExpressionValueVariable RadialDynamicsThreshold { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_RadialFrictionCoefficient"></a> RadialFrictionCoefficient
+### RadialFrictionCoefficient
 
 Gets or sets the radial friction coefficient.
 
@@ -133,7 +133,7 @@ public ExpressionValueVariable RadialFrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_RadialStaticFrictionCoefficient"></a> RadialStaticFrictionCoefficient
+### RadialStaticFrictionCoefficient
 
 Gets or sets the radial static friction coefficient.
 
@@ -145,7 +145,7 @@ public ExpressionValueVariable RadialStaticFrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_RadialStictionVelocity"></a> RadialStictionVelocity
+### RadialStictionVelocity
 
 Gets or sets the radial stiction velocity.
 
@@ -157,7 +157,7 @@ public ExpressionValueVariable RadialStictionVelocity { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialContactDampingRatio"></a> TangentialContactDampingRatio
+### TangentialContactDampingRatio
 
 Gets or sets the tangential contact damping ratio.
 
@@ -169,7 +169,7 @@ public ExpressionValueVariable TangentialContactDampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialDynamicsThreshold"></a> TangentialDynamicsThreshold
+### TangentialDynamicsThreshold
 
 Gets or sets the tangential dynamics threshold.
 
@@ -181,7 +181,7 @@ public ExpressionValueVariable TangentialDynamicsThreshold { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialFrictionCoefficient"></a> TangentialFrictionCoefficient
+### TangentialFrictionCoefficient
 
 Gets or sets the tangential friction coefficient.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable TangentialFrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialStaticFrictionCoefficient"></a> TangentialStaticFrictionCoefficient
+### TangentialStaticFrictionCoefficient
 
 Gets or sets the tangential static friction coefficient.
 
@@ -205,7 +205,7 @@ public ExpressionValueVariable TangentialStaticFrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialStictionVelocity"></a> TangentialStictionVelocity
+### TangentialStictionVelocity
 
 Gets or sets the tangential stiction velocity.
 
@@ -219,7 +219,7 @@ public ExpressionValueVariable TangentialStictionVelocity { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -232,4 +232,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
+
 

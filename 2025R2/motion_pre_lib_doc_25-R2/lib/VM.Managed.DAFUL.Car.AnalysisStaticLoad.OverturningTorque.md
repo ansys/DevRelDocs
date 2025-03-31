@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_OverturningTorque"></a> Class AnalysisStaticLoad.OverturningTorque
+# Class AnalysisStaticLoad.OverturningTorque
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -31,7 +31,7 @@ public class AnalysisStaticLoad.OverturningTorque : AnalysisStaticLoad.StaticRoa
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_OverturningTorque__ctor"></a> OverturningTorque\(\)
+### OverturningTorque\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.OverturningTorque" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.OverturningT
 public OverturningTorque()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_OverturningTorque__ctor_VM_Models_Pre_ILinkContainer_"></a> OverturningTorque\(ILinkContainer\)
+### OverturningTorque\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.OverturningTorque" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,4 +52,5 @@ public OverturningTorque(ILinkContainer lnkContainer)
 `lnkContainer` ILinkContainer
 
 The link container.
+
 

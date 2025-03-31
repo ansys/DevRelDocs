@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_ConstraintAPI"></a> Class ConstraintAPI
+# Class ConstraintAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class ConstraintAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateBall_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_System_String_VM_API_Pre_FrictionBall_VM_Managed_SymmetricType_"></a> CreateBall\(SubSystemDocument, Obj, Obj, Vector, string, FrictionBall, SymmetricType\)
+### CreateBall\(SubSystemDocument, Obj, Obj, Vector, string, FrictionBall, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -79,7 +79,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateConstantVelocity_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateConstantVelocity\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, Vector, string, SymmetricType\)
+### CreateConstantVelocity\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -149,7 +149,7 @@ Will be thrown if the magnitude of 'baseZAxis', 'actionZAxis', 'orthogonalAxis' 
 
 Will be thrown if 'baseZAxis' is equal to 'actionZAxis', 'orthogonalAxis' or if 'actionZAxis' is equal to 'orthogonalAxis'.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateCylindrical_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_API_Pre_Relative_VM_API_Pre_Relative_System_Nullable_VM_API_Pre_Restriction__System_Nullable_VM_API_Pre_Restriction__System_Nullable_VM_API_Pre_AdvancedRestriction__System_Nullable_VM_API_Pre_AdvancedRestriction__VM_API_Pre_FrictionTranslational_VM_API_Pre_FrictionRevolute_VM_Managed_SymmetricType_"></a> CreateCylindrical\(SubSystemDocument, Obj, Obj, Vector, Vector, string, Relative, Relative, Restriction?, Restriction?, AdvancedRestriction?, AdvancedRestriction?, FrictionTranslational, FrictionRevolute, SymmetricType\)
+### CreateCylindrical\(SubSystemDocument, Obj, Obj, Vector, Vector, string, Relative, Relative, Restriction?, Restriction?, AdvancedRestriction?, AdvancedRestriction?, FrictionTranslational, FrictionRevolute, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -239,7 +239,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateDistance_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateDistance\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### CreateDistance\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -300,7 +300,7 @@ Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM
 
 Will be thrown if 'basePosition' is equal to 'actionPosition'.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateFixed_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateFixed\(SubSystemDocument, Obj, Obj, Vector, string, SymmetricType\)
+### CreateFixed\(SubSystemDocument, Obj, Obj, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -353,7 +353,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateGroupAutoConnector_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__"></a> CreateGroupAutoConnector\(SubSystemDocument, IEnumerable<Obj\>\)
+### CreateGroupAutoConnector\(SubSystemDocument, IEnumerable<Obj\>\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "groups" })]
@@ -366,7 +366,7 @@ public static void CreateGroupAutoConnector(this SubSystemDocument subSystemDocu
 
 `groups` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateInline_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateInline\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### CreateInline\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -427,7 +427,7 @@ Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM
 
 Will be thrown if the type of 'basePosition' is equal to 'actionPosition'..
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateInplane_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateInplane\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, string, SymmetricType\)
+### CreateInplane\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -489,7 +489,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateOrientation_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateOrientation\(SubSystemDocument, Obj, Obj, Vector, string, SymmetricType\)
+### CreateOrientation\(SubSystemDocument, Obj, Obj, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -542,7 +542,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateParallel_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateParallel\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, string, SymmetricType\)
+### CreateParallel\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -604,7 +604,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreatePerpendicular_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreatePerpendicular\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, string, SymmetricType\)
+### CreatePerpendicular\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -666,7 +666,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the magnitude of 'baseZAxis', 'actionZAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreatePerpendicular_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreatePerpendicular\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, Vector, string, SymmetricType\)
+### CreatePerpendicular\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -736,7 +736,7 @@ Will be thrown if the magnitude of 'baseZAxis', 'actionZAxis' is 0 and if the ty
 
 Will be thrown if 'baseZAxis' is equal to 'actionZAxis'.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreatePlane_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreatePlane\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### CreatePlane\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -794,7 +794,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateRevolute_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_System_String_VM_API_Pre_Relative_System_Nullable_VM_API_Pre_Restriction__System_Nullable_VM_API_Pre_AdvancedRestriction__VM_API_Pre_FrictionRevolute_VM_API_Pre_ClearanceRevolute_VM_Managed_SymmetricType_"></a> CreateRevolute\(SubSystemDocument, Obj, Obj, Vector, string, Relative, Restriction?, AdvancedRestriction?, FrictionRevolute, ClearanceRevolute, SymmetricType\)
+### CreateRevolute\(SubSystemDocument, Obj, Obj, Vector, string, Relative, Restriction?, AdvancedRestriction?, FrictionRevolute, ClearanceRevolute, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -867,7 +867,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateRevolute_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_API_Pre_Relative_System_Nullable_VM_API_Pre_Restriction__System_Nullable_VM_API_Pre_AdvancedRestriction__VM_API_Pre_FrictionRevolute_VM_API_Pre_ClearanceRevolute_VM_Managed_SymmetricType_"></a> CreateRevolute\(SubSystemDocument, Obj, Obj, Vector, Vector, string, Relative, Restriction?, AdvancedRestriction?, FrictionRevolute, ClearanceRevolute, SymmetricType\)
+### CreateRevolute\(SubSystemDocument, Obj, Obj, Vector, Vector, string, Relative, Restriction?, AdvancedRestriction?, FrictionRevolute, ClearanceRevolute, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -945,7 +945,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateScrew_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_SymmetricType_"></a> CreateScrew\(SubSystemDocument, Obj, Obj, Vector, Vector, ExpressionValueVariable?, string, SymmetricType\)
+### CreateScrew\(SubSystemDocument, Obj, Obj, Vector, Vector, ExpressionValueVariable?, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -1007,7 +1007,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateTranslational_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_API_Pre_Relative_System_Nullable_VM_API_Pre_Restriction__System_Nullable_VM_API_Pre_AdvancedRestriction__VM_API_Pre_FrictionTranslational_VM_API_Pre_ClearanceTranslational_VM_Managed_SymmetricType_"></a> CreateTranslational\(SubSystemDocument, Obj, Obj, Vector, Vector, string, Relative, Restriction?, AdvancedRestriction?, FrictionTranslational, ClearanceTranslational, SymmetricType\)
+### CreateTranslational\(SubSystemDocument, Obj, Obj, Vector, Vector, string, Relative, Restriction?, AdvancedRestriction?, FrictionTranslational, ClearanceTranslational, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -1085,7 +1085,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the magnitude of 'zAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_CreateUniversal_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_System_String_VM_API_Pre_FrictionUniversal_VM_API_Pre_FrictionUniversal_VM_Managed_SymmetricType_"></a> CreateUniversal\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, string, FrictionUniversal, FrictionUniversal, SymmetricType\)
+### CreateUniversal\(SubSystemDocument, Obj, Obj, Vector, Vector, Vector, string, FrictionUniversal, FrictionUniversal, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -1155,7 +1155,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the magnitude of 'baseXAxis', 'actionXAxis' is 0 and if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ConstraintAPI_GetSymmetricObject__1_VM_Managed_SymmetricType_VM_Models_Pre_IObjectBase_"></a> GetSymmetricObject<T\>\(SymmetricType, IObjectBase\)
+### GetSymmetricObject<T\>\(SymmetricType, IObjectBase\)
 
 Get a symmetric object.
 
@@ -1185,7 +1185,7 @@ the object seleted by this API.
 
 The object type
 
-### <a id="VM_API_Pre_ConstraintAPI_GetSymmetricResult_VM_Managed_SymmetricType_VM_Models_Pre_IObjectBase_"></a> GetSymmetricResult\(SymmetricType, IObjectBase\)
+### GetSymmetricResult\(SymmetricType, IObjectBase\)
 
 Get a symmetric result.
 
@@ -1208,4 +1208,5 @@ The obejct.
  [Obj](VM.API.Pre.Obj.md)
 
 the object seleted by this API.
+
 

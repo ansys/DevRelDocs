@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_EquationFunctionDiff"></a> Class EquationFunctionDiff
+# Class EquationFunctionDiff
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Equation_EquationFunctionDiff__ctor"></a> EquationFunctionDiff\(\)
+### EquationFunctionDiff\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.EquationFunctionDiff" data-throw-if-not-resolved="false"></xref> class.
 
@@ -112,7 +112,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.Equation
 protected EquationFunctionDiff()
 ```
 
-### <a id="VM_Managed_DAFUL_Equation_EquationFunctionDiff__ctor_VM_Managed_DAFUL_Equation_Equation_"></a> EquationFunctionDiff\(Equation\)
+### EquationFunctionDiff\(Equation\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.EquationFunctionDiff" data-throw-if-not-resolved="false"></xref> class.
 
@@ -128,7 +128,7 @@ The owner equation.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Equation_EquationFunctionDiff_DifferentialFunctionType"></a> DifferentialFunctionType
+### DifferentialFunctionType
 
 Gets or sets the type of the differential function.
 
@@ -140,7 +140,7 @@ public EquationFunctionDiff.FunctionEquType DifferentialFunctionType { get; set;
 
  [EquationFunctionDiff](VM.Managed.DAFUL.Equation.EquationFunctionDiff.md).[FunctionEquType](VM.Managed.DAFUL.Equation.EquationFunctionDiff.FunctionEquType.md)
 
-### <a id="VM_Managed_DAFUL_Equation_EquationFunctionDiff_InitialVel"></a> InitialVel
+### InitialVel
 
 Gets or sets the initial velocity.
 
@@ -152,7 +152,7 @@ public Variable InitialVel { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Equation_EquationFunctionDiff_IsUseHold"></a> IsUseHold
+### IsUseHold
 
 Gets or sets a value indicating whether this instance use hold.
 
@@ -163,4 +163,5 @@ public bool IsUseHold { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

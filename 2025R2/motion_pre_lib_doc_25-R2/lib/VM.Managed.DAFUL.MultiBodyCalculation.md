@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiBodyCalculation"></a> Class MultiBodyCalculation
+# Class MultiBodyCalculation
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -22,7 +22,7 @@ public class MultiBodyCalculation
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MultiBodyCalculation__ctor"></a> MultiBodyCalculation\(\)
+### MultiBodyCalculation\(\)
 
 ```csharp
 public MultiBodyCalculation()
@@ -30,7 +30,7 @@ public MultiBodyCalculation()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MultiBodyCalculation_GetTotalMassInertia_System_Collections_Generic_List_VM_Managed_VectorBase__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_System_Double__System_Collections_Generic_List_VM_Unit__System_Collections_Generic_List_VM_Unit__System_Int32_VM_Managed_VectorBase_VM_Managed_DAFUL_MultiBodyCalculation_BodyInf__"></a> GetTotalMassInertia\(List<VectorBase\>, List<OMatrix\>, List<double\>, List<Unit\>, List<Unit\>, int, VectorBase, ref BodyInf\)
+### GetTotalMassInertia\(List<VectorBase\>, List<OMatrix\>, List<double\>, List<Unit\>, List<Unit\>, int, VectorBase, ref BodyInf\)
 
 Gets the total mass inertia.
 
@@ -76,7 +76,7 @@ The body info.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MultiBodyCalculation_GetTotalMassInertia_System_Collections_Generic_List_VM_Managed_VectorBase__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_System_Double__System_Int32_VM_Managed_VectorBase_VM_Managed_DAFUL_MultiBodyCalculation_BodyInf__"></a> GetTotalMassInertia\(List<VectorBase\>, List<OMatrix\>, List<double\>, int, VectorBase, ref BodyInf\)
+### GetTotalMassInertia\(List<VectorBase\>, List<OMatrix\>, List<double\>, int, VectorBase, ref BodyInf\)
 
 Gets the total mass inertia.
 
@@ -113,4 +113,5 @@ The body info.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

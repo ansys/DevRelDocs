@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document3D_enVMSelectionType"></a> Enum Document3D.enVMSelectionType
+# Enum Document3D.enVMSelectionType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -26,6 +26,7 @@ VM_select once
 `VM_SUBTRACTION = 3` 
 
 VM_subtraction
+
 
 
 

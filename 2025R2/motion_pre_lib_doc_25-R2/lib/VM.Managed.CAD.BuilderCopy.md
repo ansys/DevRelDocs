@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderCopy"></a> Class BuilderCopy
+# Class BuilderCopy
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -184,7 +184,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderCopy__ctor_VM_Managed_CAD_Body_"></a> BuilderCopy\(Body\)
+### BuilderCopy\(Body\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCopy" data-throw-if-not-resolved="false"></xref> class
 
@@ -198,7 +198,7 @@ public BuilderCopy(Body body)
 
 The cad body.
 
-### <a id="VM_Managed_CAD_BuilderCopy__ctor"></a> BuilderCopy\(\)
+### BuilderCopy\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCopy" data-throw-if-not-resolved="false"></xref> class
 
@@ -208,7 +208,7 @@ public BuilderCopy()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderCopy_CopiedBody"></a> CopiedBody
+### CopiedBody
 
 Gets or sets the copied body.
 
@@ -220,7 +220,7 @@ public Body CopiedBody { get; set; }
 
  [Body](VM.Managed.CAD.Body.md)
 
-### <a id="VM_Managed_CAD_BuilderCopy_IsExternable"></a> IsExternable
+### IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -234,7 +234,7 @@ public override bool IsExternable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderCopy_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -244,7 +244,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderCopy_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -253,4 +253,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
+
 

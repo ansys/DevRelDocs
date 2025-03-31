@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Connections_NCombinationConnector"></a> Class NCombinationConnector
+# Class NCombinationConnector
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Connections_NCombinationConnector__ctor"></a> NCombinationConnector\(\)
+### NCombinationConnector\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.NCombinationConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -213,7 +213,7 @@ Initializes a new instance of the <xref href="VM.Models.Pre.Connections.NCombina
 public NCombinationConnector()
 ```
 
-### <a id="VM_Models_Pre_Connections_NCombinationConnector__ctor_System_String_"></a> NCombinationConnector\(string\)
+### NCombinationConnector\(string\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.NCombinationConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Name of the contact.
 
 ## Properties
 
-### <a id="VM_Models_Pre_Connections_NCombinationConnector_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -241,7 +241,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Connections_NCombinationConnector_MultipleConnectorInformation"></a> MultipleConnectorInformation
+### MultipleConnectorInformation
 
 Gets or sets the information list.
 
@@ -255,7 +255,7 @@ public MultipleConnectorInfo[] MultipleConnectorInformation { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Connections_NCombinationConnector_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
+### OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs args)
@@ -268,4 +268,5 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+
 

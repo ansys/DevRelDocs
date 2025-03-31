@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_Settings"></a> Class Settings
+# Class Settings
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -31,7 +31,7 @@ SettingsBase<Settings\>.RootPath
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Linear_Settings__ctor"></a> Settings\(\)
+### Settings\(\)
 
 ```csharp
 public Settings()
@@ -39,7 +39,7 @@ public Settings()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Linear_Settings_LowerBoundFrequency"></a> LowerBoundFrequency
+### LowerBoundFrequency
 
 ```csharp
 [UserScopedSetting]
@@ -52,7 +52,7 @@ public double LowerBoundFrequency { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Linear_Settings_MaximumNumberOfNormalMode"></a> MaximumNumberOfNormalMode
+### MaximumNumberOfNormalMode
 
 ```csharp
 [UserScopedSetting]
@@ -65,7 +65,7 @@ public uint MaximumNumberOfNormalMode { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_Linear_Settings_PenaltyValue"></a> PenaltyValue
+### PenaltyValue
 
 ```csharp
 [UserScopedSetting]
@@ -78,7 +78,7 @@ public double PenaltyValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Linear_Settings_ShiftValue"></a> ShiftValue
+### ShiftValue
 
 ```csharp
 [UserScopedSetting]
@@ -91,7 +91,7 @@ public double ShiftValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Linear_Settings_UpperBoundFrequency"></a> UpperBoundFrequency
+### UpperBoundFrequency
 
 ```csharp
 [UserScopedSetting]
@@ -104,7 +104,7 @@ public double UpperBoundFrequency { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Linear_Settings_UseAutoPenalty"></a> UseAutoPenalty
+### UseAutoPenalty
 
 ```csharp
 [UserScopedSetting]
@@ -117,7 +117,7 @@ public bool UseAutoPenalty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Linear_Settings_UseAutoShift"></a> UseAutoShift
+### UseAutoShift
 
 ```csharp
 [UserScopedSetting]
@@ -130,7 +130,7 @@ public bool UseAutoShift { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Linear_Settings_UseBoundFrequency"></a> UseBoundFrequency
+### UseBoundFrequency
 
 ```csharp
 [UserScopedSetting]
@@ -145,9 +145,10 @@ public bool UseBoundFrequency { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Linear_Settings_InitializeParameter"></a> InitializeParameter\(\)
+### InitializeParameter\(\)
 
 ```csharp
 public void InitializeParameter()
 ```
+
 

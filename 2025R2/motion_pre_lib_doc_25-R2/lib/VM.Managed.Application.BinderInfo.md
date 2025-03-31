@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Application_BinderInfo"></a> Class Application.BinderInfo
+# Class Application.BinderInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class Application.BinderInfo
 
 ## Constructors
 
-### <a id="VM_Managed_Application_BinderInfo__ctor_System_String_System_String_"></a> BinderInfo\(string, string\)
+### BinderInfo\(string, string\)
 
 ```csharp
 public BinderInfo(string strClass, string strAssembly)
@@ -34,7 +34,7 @@ public BinderInfo(string strClass, string strAssembly)
 
 `strAssembly` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Application_BinderInfo__ctor_System_String_"></a> BinderInfo\(string\)
+### BinderInfo\(string\)
 
 ```csharp
 public BinderInfo(string strType)
@@ -46,7 +46,7 @@ public BinderInfo(string strType)
 
 ## Fields
 
-### <a id="VM_Managed_Application_BinderInfo_AssemblyName"></a> AssemblyName
+### AssemblyName
 
 ```csharp
 public string AssemblyName
@@ -56,7 +56,7 @@ public string AssemblyName
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Application_BinderInfo_ClassName"></a> ClassName
+### ClassName
 
 ```csharp
 public string ClassName
@@ -65,4 +65,5 @@ public string ClassName
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

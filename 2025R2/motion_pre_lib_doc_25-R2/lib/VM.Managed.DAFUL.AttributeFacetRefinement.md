@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeFacetRefinement"></a> Class AttributeFacetRefinement
+# Class AttributeFacetRefinement
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -148,7 +148,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_AttributeFacetRefinement__ctor"></a> AttributeFacetRefinement\(\)
+### AttributeFacetRefinement\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeFacetRefinement" data-throw-if-not-resolved="false"></xref> class.
 
@@ -156,7 +156,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeFacetRef
 public AttributeFacetRefinement()
 ```
 
-### <a id="VM_Managed_DAFUL_AttributeFacetRefinement__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> AttributeFacetRefinement\(Variable, Variable, Variable, bool, bool, bool, bool, bool\)
+### AttributeFacetRefinement\(Variable, Variable, Variable, bool, bool, bool, bool, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeFacetRefinement" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ if set to <code>true</code> [unuse GRID_TO_EDGE.
 
 if set to <code>true</code> [unuse approximated evaluation].
 
-### <a id="VM_Managed_DAFUL_AttributeFacetRefinement__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> AttributeFacetRefinement\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool\)
+### AttributeFacetRefinement\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeFacetRefinement" data-throw-if-not-resolved="false"></xref> class.
 
@@ -250,7 +250,7 @@ if set to <code>true</code> [unuse approximated evaluation].
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_AttributeFacetRefinement_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initializes this instance.
 
@@ -258,7 +258,7 @@ Initializes this instance.
 public override void Initialize()
 ```
 
-### <a id="VM_Managed_DAFUL_AttributeFacetRefinement_SetDefaultValue_VM_Managed_ObjectBase_"></a> SetDefaultValue\(ObjectBase\)
+### SetDefaultValue\(ObjectBase\)
 
 Set default value.
 
@@ -271,4 +271,5 @@ public override void SetDefaultValue(ObjectBase objContainer)
 `objContainer` ObjectBase
 
 The container.
+
 

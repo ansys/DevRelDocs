@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_VariableEq"></a> Class VariableEq
+# Class VariableEq
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  
@@ -179,7 +179,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq__ctor"></a> VariableEq\(\)
+### VariableEq\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.VariableEq" data-throw-if-not-resolved="false"></xref> class.
 
@@ -187,7 +187,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.Variable
 protected VariableEq()
 ```
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq__ctor_System_String_"></a> VariableEq\(string\)
+### VariableEq\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.VariableEq" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ Name of the variable equation.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -215,7 +215,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -227,7 +227,7 @@ public EquationFunction Function { get; set; }
 
  [EquationFunction](VM.Managed.DAFUL.Equation.EquationFunction.md)
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -239,7 +239,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -253,7 +253,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -267,7 +267,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -285,7 +285,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -299,7 +299,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Equation_VariableEq_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -312,4 +312,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

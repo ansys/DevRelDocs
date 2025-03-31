@@ -1,4 +1,4 @@
-# <a id="VM_Vector"></a> Struct Vector
+# Struct Vector
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public struct Vector
 
 ## Constructors
 
-### <a id="VM_Vector__ctor_VM_Vector_"></a> Vector\(Vector\)
+### Vector\(Vector\)
 
 Initializes a new instance of the <xref href="VM.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -23,7 +23,7 @@ public Vector(Vector vec)
 
 The Vector instance to copy.
 
-### <a id="VM_Vector__ctor_System_Double_System_Double_System_Double_"></a> Vector\(double, double, double\)
+### Vector\(double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -45,7 +45,7 @@ The Y.
 
 The Z.
 
-### <a id="VM_Vector__ctor_System_Double___"></a> Vector\(double\[\]\)
+### Vector\(double\[\]\)
 
 Initializes a new instance of the <xref href="VM.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ public Vector(double[] arVec)
 
 The arVec.
 
-### <a id="VM_Vector__ctor_System_Double___System_Int32_"></a> Vector\(double\[\], int\)
+### Vector\(double\[\], int\)
 
 Initializes a new instance of the <xref href="VM.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -77,7 +77,7 @@ The array that have values of vector.
 
 The start index of array.
 
-### <a id="VM_Vector__ctor_System_String_"></a> Vector\(string\)
+### Vector\(string\)
 
 ```csharp
 public Vector(string vector)
@@ -89,7 +89,7 @@ public Vector(string vector)
 
 ## Properties
 
-### <a id="VM_Vector_Magnitude"></a> Magnitude
+### Magnitude
 
 Gets the magnitude of vector.
 
@@ -107,7 +107,7 @@ public double Magnitude { get; }
 
 The get magnitude operation failed .
 
-### <a id="VM_Vector_X"></a> X
+### X
 
 Gets or sets the X of vector.
 
@@ -119,7 +119,7 @@ public double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Vector_Y"></a> Y
+### Y
 
 Gets or sets the Y of vector.
 
@@ -131,7 +131,7 @@ public double Y { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Vector_Z"></a> Z
+### Z
 
 Gets or sets the Z of vector.
 
@@ -143,7 +143,7 @@ public double Z { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Vector_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 Gets or sets the element of vector.
 
@@ -155,7 +155,7 @@ public double this[int nIndex] { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Vector_Item_VM_Coordinate_"></a> this\[Coordinate\]
+### this\[Coordinate\]
 
 Gets or sets the element of vector.
 
@@ -169,7 +169,7 @@ public double this[Coordinate enCoord] { get; set; }
 
 ## Methods
 
-### <a id="VM_Vector_CopyToArray_VM_Vector___System_Double___"></a> CopyToArray\(Vector\[\], double\[\]\)
+### CopyToArray\(Vector\[\], double\[\]\)
 
 Copy all values in the array of vector to the array of double.
 
@@ -187,7 +187,7 @@ The array of vector
 
 The array to store values of the array of vector.
 
-### <a id="VM_Vector_CopyToArray_VM_Vector___System_Double___System_Int32_"></a> CopyToArray\(Vector\[\], double\[\], int\)
+### CopyToArray\(Vector\[\], double\[\], int\)
 
 Copy all values in the array of vector to the array of double.
 
@@ -209,7 +209,7 @@ The array to store values of the array of vector.
 
 The start index of array
 
-### <a id="VM_Vector_CrossProduct_VM_Vector_"></a> CrossProduct\(Vector\)
+### CrossProduct\(Vector\)
 
 Cross product.
 
@@ -229,7 +229,7 @@ The vec.
 
 Result of product
 
-### <a id="VM_Vector_DotProduct_VM_Vector_"></a> DotProduct\(Vector\)
+### DotProduct\(Vector\)
 
 Dot product.
 
@@ -249,7 +249,7 @@ The vec.
 
 Result of product
 
-### <a id="VM_Vector_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 Determines whether the specified object is equal to the current object.
 
@@ -269,7 +269,7 @@ The object to compare.
 
 true if the objects are equal, otherwise false.
 
-### <a id="VM_Vector_GetArray"></a> GetArray\(\)
+### GetArray\(\)
 
 Gets the array.
 
@@ -283,7 +283,7 @@ public double[] GetArray()
 
 The array.
 
-### <a id="VM_Vector_GetDistance_VM_Vector_"></a> GetDistance\(Vector\)
+### GetDistance\(Vector\)
 
 Gets the distance.
 
@@ -309,7 +309,7 @@ The distance
 
 The get distance operation failed .
 
-### <a id="VM_Vector_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 Returns the hash code for this vector
 
@@ -323,7 +323,7 @@ public override int GetHashCode()
 
 A 32-bit signed integer hash code.
 
-### <a id="VM_Vector_GetOrthoVector"></a> GetOrthoVector\(\)
+### GetOrthoVector\(\)
 
 Gets the ortho vector.
 
@@ -337,7 +337,7 @@ public Vector GetOrthoVector()
 
 The ortho vector.
 
-### <a id="VM_Vector_GetOrthoVector_VM_Vector_"></a> GetOrthoVector\(Vector\)
+### GetOrthoVector\(Vector\)
 
 Gets the ortho vector.
 
@@ -363,7 +363,7 @@ The ortho vector.
 
 The get ortho vector operation failed .
 
-### <a id="VM_Vector_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initialize the Vector
 
@@ -371,7 +371,7 @@ Initialize the Vector
 public void Initialize()
 ```
 
-### <a id="VM_Vector_IsValidFormat_System_String_"></a> IsValidFormat\(string\)
+### IsValidFormat\(string\)
 
 ```csharp
 public static bool IsValidFormat(string vector)
@@ -385,7 +385,7 @@ public static bool IsValidFormat(string vector)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Vector_MakeUnitVector"></a> MakeUnitVector\(\)
+### MakeUnitVector\(\)
 
 Mate unit vector.
 
@@ -399,7 +399,7 @@ public void MakeUnitVector()
 
 The make unit vector operation failed .
 
-### <a id="VM_Vector_Set_VM_Vector_"></a> Set\(Vector\)
+### Set\(Vector\)
 
 Sets the value of vector.
 
@@ -413,7 +413,7 @@ public void Set(Vector vec)
 
 The Vector instance to copy.
 
-### <a id="VM_Vector_Set_System_Double___"></a> Set\(double\[\]\)
+### Set\(double\[\]\)
 
 Sets the value of vector.
 
@@ -427,7 +427,7 @@ public void Set(double[] arVec)
 
 The array of X, Y, Z Components.
 
-### <a id="VM_Vector_Set_System_Double___System_Int32_"></a> Set\(double\[\], int\)
+### Set\(double\[\], int\)
 
 Sets the value of vector.
 
@@ -445,7 +445,7 @@ The array of X, Y, Z Components.
 
 The start index of array.
 
-### <a id="VM_Vector_Set_System_Double_System_Double_System_Double_"></a> Set\(double, double, double\)
+### Set\(double, double, double\)
 
 Sets the value of vector.
 
@@ -467,7 +467,7 @@ The Y.
 
 The Z.
 
-### <a id="VM_Vector_ToString"></a> ToString\(\)
+### ToString\(\)
 
 Returns a string that represents the current type.
 
@@ -483,7 +483,7 @@ A string that represents the current object.
 
 ## Operators
 
-### <a id="VM_Vector_op_Addition_VM_Vector_VM_Vector_"></a> operator \+\(Vector, Vector\)
+### operator \+\(Vector, Vector\)
 
 Add two vectors.
 
@@ -507,7 +507,7 @@ The right vector to add
 
 The added vector.
 
-### <a id="VM_Vector_op_Division_VM_Vector_System_Double_"></a> operator /\(Vector, double\)
+### operator /\(Vector, double\)
 
 Divide value to the vector.
 
@@ -531,7 +531,7 @@ The value to divide
 
 The divided vector.
 
-### <a id="VM_Vector_op_Equality_VM_Vector_VM_Vector_"></a> operator ==\(Vector, Vector\)
+### operator ==\(Vector, Vector\)
 
 Compare two vectors are same or not
 
@@ -555,7 +555,7 @@ The right vector to compare
 
 true if two vectors are same, otherwise false.
 
-### <a id="VM_Vector_op_Inequality_VM_Vector_VM_Vector_"></a> operator \!=\(Vector, Vector\)
+### operator \!=\(Vector, Vector\)
 
 Compare two vectors are same or not
 
@@ -579,7 +579,7 @@ The right vector to compare
 
 true if two vectors are not same, otherwise false.
 
-### <a id="VM_Vector_op_Multiply_VM_Vector_VM_Vector_"></a> operator \*\(Vector, Vector\)
+### operator \*\(Vector, Vector\)
 
 Cross product two vectors.
 
@@ -603,7 +603,7 @@ The right vector to cross product
 
 The cross product vector.
 
-### <a id="VM_Vector_op_Multiply_VM_Vector_System_Double_"></a> operator \*\(Vector, double\)
+### operator \*\(Vector, double\)
 
 Multiply value to the vector.
 
@@ -627,7 +627,7 @@ The value to multiply
 
 The Multiplied vector.
 
-### <a id="VM_Vector_op_Subtraction_VM_Vector_VM_Vector_"></a> operator \-\(Vector, Vector\)
+### operator \-\(Vector, Vector\)
 
 Subtract two vectors.
 
@@ -650,4 +650,5 @@ The right vector to subtract
  [Vector](VM.Vector.md)
 
 The subtracted vector.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_UpdateBody"></a> Class UpdateBody
+# Class UpdateBody
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_UpdateBody__ctor_VM_Managed_IAttributeContainer_"></a> UpdateBody\(IAttributeContainer\)
+### UpdateBody\(IAttributeContainer\)
 
 ```csharp
 public UpdateBody(IAttributeContainer sb)
@@ -87,7 +87,7 @@ public UpdateBody(IAttributeContainer sb)
 
 `sb` IAttributeContainer
 
-### <a id="VM_Managed_DAFUL_Operation_UpdateBody__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateBody\(JournalParameter\)
+### UpdateBody\(JournalParameter\)
 
 ```csharp
 public UpdateBody(JournalParameter jp)
@@ -99,7 +99,7 @@ public UpdateBody(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_UpdateBody_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_UpdateBody_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -121,7 +121,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_UpdateBody_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -130,4 +130,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

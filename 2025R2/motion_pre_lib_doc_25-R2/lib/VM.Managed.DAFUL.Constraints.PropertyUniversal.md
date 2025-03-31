@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_PropertyUniversal"></a> Class PropertyUniversal
+# Class PropertyUniversal
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyUniversal__ctor"></a> PropertyUniversal\(\)
+### PropertyUniversal\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyUniversal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyUniversal()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyUniversal_ActionFriction"></a> ActionFriction
+### ActionFriction
 
 Gets or sets the action friction.
 
@@ -191,7 +191,7 @@ public FrictionUniversal ActionFriction { get; set; }
 
  [FrictionUniversal](VM.Managed.DAFUL.Constraints.FrictionUniversal.md)
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyUniversal_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -203,7 +203,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyUniversal_BaseFriction"></a> BaseFriction
+### BaseFriction
 
 Gets or sets the base friction.
 
@@ -215,7 +215,7 @@ public FrictionUniversal BaseFriction { get; set; }
 
  [FrictionUniversal](VM.Managed.DAFUL.Constraints.FrictionUniversal.md)
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyUniversal_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -229,9 +229,9 @@ public override string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyUniversal_Draw_VM_CAD_Kernel_Render_Canvas_VM_Managed_TMatrix_VM_Managed_TMatrix_System_Boolean_"></a> Draw\(Canvas, TMatrix, TMatrix, bool\)
+### Draw\(Canvas, TMatrix, TMatrix, bool\)
 
-Draws the icon.
+<p>Draws the icon.</p>
 
 ```csharp
 public override void Draw(Canvas canvas, TMatrix matTBase, TMatrix matTAct, bool bHide)
@@ -241,17 +241,18 @@ public override void Draw(Canvas canvas, TMatrix matTBase, TMatrix matTAct, bool
 
 `canvas` Canvas
 
-The canvas has icon information.
+<p>The canvas has icon information.</p>
 
 `matTBase` TMatrix
 
-The base transformation.
+<p>The base transformation.</p>
 
 `matTAct` TMatrix
 
-The action transformation.
+<p>The action transformation.</p>
 
 `bHide` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-The hide flag.
+<p>The hide flag.</p>
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportDFG"></a> Class ExportDFG
+# Class ExportDFG
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -104,7 +104,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportDFG__ctor_VM_Managed_Document_"></a> ExportDFG\(Document\)
+### ExportDFG\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Operation.ExportDFG" data-throw-if-not-resolved="false"></xref> class.
 
@@ -118,7 +118,7 @@ public ExportDFG(Document doc)
 
 The doc.
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportDFG__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFG\(JournalParameter\)
+### ExportDFG\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Operation.ExportDFG" data-throw-if-not-resolved="false"></xref> class.
 
@@ -134,7 +134,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportDFG_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -148,9 +148,10 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportDFG_ExportDFGImpl"></a> ExportDFGImpl\(\)
+### ExportDFGImpl\(\)
 
 ```csharp
 protected override void ExportDFGImpl()
 ```
+
 

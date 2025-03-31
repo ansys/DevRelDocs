@@ -1,4 +1,4 @@
-# <a id="VM_NX_App_Navigator_INavigator"></a> Interface INavigator
+# Interface INavigator
 
 Namespace: [VM.NX.App.Navigator](VM.NX.App.Navigator.md)  
 Assembly: VMDIDef.dll  
@@ -15,7 +15,7 @@ public interface INavigator
 
 ## Methods
 
-### <a id="VM_NX_App_Navigator_INavigator_Activate_System_String_"></a> Activate\(string\)
+### Activate\(string\)
 
 ```csharp
 void Activate(string strPageName)
@@ -25,7 +25,7 @@ void Activate(string strPageName)
 
 `strPageName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_NX_App_Navigator_INavigator_GetPage_System_String_"></a> GetPage\(string\)
+### GetPage\(string\)
 
 ```csharp
 INavigatorPage GetPage(string strPageName)
@@ -38,4 +38,5 @@ INavigatorPage GetPage(string strPageName)
 #### Returns
 
  [INavigatorPage](VM.NX.App.Navigator.INavigatorPage.md)
+
 

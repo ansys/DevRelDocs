@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AccelerationConfiguration"></a> Class AccelerationConfiguration
+# Class AccelerationConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AccelerationConfiguration__ctor"></a> AccelerationConfiguration\(\)
+### AccelerationConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AccelerationConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AccelerationC
 public AccelerationConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AccelerationConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisAcceleration_"></a> AccelerationConfiguration\(AnalysisAcceleration\)
+### AccelerationConfiguration\(AnalysisAcceleration\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AccelerationConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AccelerationConfiguration_AccelerationParam"></a> AccelerationParam
+### AccelerationParam
 
 Gets or sets the acceleration parameter.
 
@@ -239,7 +239,7 @@ public AnalysisAcceleration AccelerationParam { get; set; }
 
  [AnalysisAcceleration](VM.Managed.DAFUL.Car.AnalysisAcceleration.md)
 
-### <a id="VM_Managed_DAFUL_Car_AccelerationConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the analysis.
 
@@ -251,7 +251,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_AccelerationConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -263,7 +263,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_AccelerationConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -274,4 +274,5 @@ public override FullCarAnalysisType AnalysisType { get; }
 #### Property Value
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
+
 

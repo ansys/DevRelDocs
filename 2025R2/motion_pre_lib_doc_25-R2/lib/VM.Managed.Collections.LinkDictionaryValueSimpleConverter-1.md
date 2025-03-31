@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_LinkDictionaryValueSimpleConverter_1"></a> Struct LinkDictionaryValueSimpleConverter<TValue\>
+# Struct LinkDictionaryValueSimpleConverter<TValue\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public struct LinkDictionaryValueSimpleConverter<TValue> : ILinkDictionaryValueC
 
 ## Methods
 
-### <a id="VM_Managed_Collections_LinkDictionaryValueSimpleConverter_1_ClearWrapper__0_"></a> ClearWrapper\(TValue\)
+### ClearWrapper\(TValue\)
 
 ```csharp
 public void ClearWrapper(TValue A_0)
@@ -27,7 +27,7 @@ public void ClearWrapper(TValue A_0)
 
 `A_0` TValue
 
-### <a id="VM_Managed_Collections_LinkDictionaryValueSimpleConverter_1_Convert__0_VM_Models_Pre_ILinkContainer_"></a> Convert\(TValue, ILinkContainer\)
+### Convert\(TValue, ILinkContainer\)
 
 ```csharp
 public TValue Convert(TValue value, ILinkContainer __unnamed001)
@@ -43,7 +43,7 @@ public TValue Convert(TValue value, ILinkContainer __unnamed001)
 
  TValue
 
-### <a id="VM_Managed_Collections_LinkDictionaryValueSimpleConverter_1_ConvertBack__0_"></a> ConvertBack\(TValue\)
+### ConvertBack\(TValue\)
 
 ```csharp
 public TValue ConvertBack(TValue wrapper)
@@ -56,4 +56,5 @@ public TValue ConvertBack(TValue wrapper)
 #### Returns
 
  TValue
+
 

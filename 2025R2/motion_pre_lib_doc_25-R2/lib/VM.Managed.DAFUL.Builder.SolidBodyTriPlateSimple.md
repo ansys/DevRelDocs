@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SolidBodyTriPlateSimple"></a> Class SolidBodyTriPlateSimple
+# Class SolidBodyTriPlateSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class SolidBodyTriPlateSimple : SolidBodyTriPlate<BuilderTriPlateSimple>,
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyTriPlateSimple__ctor"></a> SolidBodyTriPlateSimple\(\)
+### SolidBodyTriPlateSimple\(\)
 
 ```csharp
 public SolidBodyTriPlateSimple()
@@ -73,7 +73,7 @@ public SolidBodyTriPlateSimple()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyTriPlateSimple_FirstPosition"></a> FirstPosition
+### FirstPosition
 
 ```csharp
 public PointBase FirstPosition { get; }
@@ -83,7 +83,7 @@ public PointBase FirstPosition { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyTriPlateSimple_Height"></a> Height
+### Height
 
 ```csharp
 public Variable Height { get; set; }
@@ -93,7 +93,7 @@ public Variable Height { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyTriPlateSimple_SecondPosition"></a> SecondPosition
+### SecondPosition
 
 ```csharp
 public PointBase SecondPosition { get; }
@@ -103,7 +103,7 @@ public PointBase SecondPosition { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyTriPlateSimple_ThirdPosition"></a> ThirdPosition
+### ThirdPosition
 
 ```csharp
 public PointBase ThirdPosition { get; }
@@ -115,7 +115,7 @@ public PointBase ThirdPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyTriPlateSimple_MakeSymmetricSolidBuilder"></a> MakeSymmetricSolidBuilder\(\)
+### MakeSymmetricSolidBuilder\(\)
 
 ```csharp
 protected override Builder MakeSymmetricSolidBuilder()
@@ -125,7 +125,7 @@ protected override Builder MakeSymmetricSolidBuilder()
 
  Builder
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyTriPlateSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderTriPlateSimple_"></a> SetSolidBuilderProperty\(BuilderTriPlateSimple\)
+### SetSolidBuilderProperty\(BuilderTriPlateSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderTriPlateSimple solidBuilder)
@@ -134,4 +134,5 @@ protected override void SetSolidBuilderProperty(BuilderTriPlateSimple solidBuild
 #### Parameters
 
 `solidBuilder` BuilderTriPlateSimple
+
 

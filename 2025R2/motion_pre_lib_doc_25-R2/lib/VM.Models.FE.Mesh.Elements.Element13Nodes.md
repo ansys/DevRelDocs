@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Element13Nodes"></a> Class Element13Nodes
+# Class Element13Nodes
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -68,7 +68,7 @@ public abstract class Element13Nodes : Element10Nodes, IEntity
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Elements_Element13Nodes__ctor"></a> Element13Nodes\(\)
+### Element13Nodes\(\)
 
 ```csharp
 protected Element13Nodes()
@@ -76,7 +76,7 @@ protected Element13Nodes()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Elements_Element13Nodes_Node11Id"></a> Node11Id
+### Node11Id
 
 ```csharp
 [Column]
@@ -87,7 +87,7 @@ public int Node11Id { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_FE_Mesh_Elements_Element13Nodes_Node12Id"></a> Node12Id
+### Node12Id
 
 ```csharp
 [Column]
@@ -98,7 +98,7 @@ public int Node12Id { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_FE_Mesh_Elements_Element13Nodes_Node13Id"></a> Node13Id
+### Node13Id
 
 ```csharp
 [Column]
@@ -109,7 +109,7 @@ public int Node13Id { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_FE_Mesh_Elements_Element13Nodes_NumberOfNodes"></a> NumberOfNodes
+### NumberOfNodes
 
 ```csharp
 protected override int NumberOfNodes { get; }
@@ -118,4 +118,5 @@ protected override int NumberOfNodes { get; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

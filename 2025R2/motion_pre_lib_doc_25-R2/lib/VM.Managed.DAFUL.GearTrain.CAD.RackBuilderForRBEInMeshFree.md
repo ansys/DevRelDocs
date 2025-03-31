@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInMeshFree"></a> Class RackBuilderForRBEInMeshFree
+# Class RackBuilderForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -239,11 +239,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInMeshFree__ctor"></a> RackBuilderForRBEInMeshFree\(\)
+### RackBuilderForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RackBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public RackBuilderForRBEInMeshFree()
 ```
+
 

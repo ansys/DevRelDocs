@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfo"></a> Class DocCreateFullCarAnalysisInfo
+# Class DocCreateFullCarAnalysisInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -53,7 +53,7 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfo__ctor"></a> DocCreateFullCarAnalysisInfo\(\)
+### DocCreateFullCarAnalysisInfo\(\)
 
 ```csharp
 public DocCreateFullCarAnalysisInfo()
@@ -61,7 +61,7 @@ public DocCreateFullCarAnalysisInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfo_FrontWheelPath"></a> FrontWheelPath
+### FrontWheelPath
 
 Gets or sets the front wheel path.
 
@@ -73,7 +73,7 @@ public string FrontWheelPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfo_RearWheelPath"></a> RearWheelPath
+### RearWheelPath
 
 Gets or sets the rear wheel path.
 
@@ -84,4 +84,5 @@ public string RearWheelPath { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

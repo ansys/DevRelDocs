@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeCurvesetTypeBase_CurvesetType"></a> Enum AttributeCurvesetTypeBase.CurvesetType
+# Enum AttributeCurvesetTypeBase.CurvesetType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -26,6 +26,7 @@ Import
 `Index = 0` 
 
 Index
+
 
 
 

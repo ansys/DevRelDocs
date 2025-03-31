@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_Operation_FinalizeTransFormOperation"></a> Class FinalizeTransFormOperation
+# Class FinalizeTransFormOperation
 
 Namespace: [VM.Managed.DAFUL.Tire.Operation](VM.Managed.DAFUL.Tire.Operation.md)  
 Assembly: VMOpTire.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Tire_Operation_FinalizeTransFormOperation__ctor_VM_Managed_DAFUL_Tire_WheelBodyBase_"></a> FinalizeTransFormOperation\(WheelBodyBase\)
+### FinalizeTransFormOperation\(WheelBodyBase\)
 
 ```csharp
 public FinalizeTransFormOperation(WheelBodyBase wheelBody)
@@ -87,7 +87,7 @@ public FinalizeTransFormOperation(WheelBodyBase wheelBody)
 
 `wheelBody` WheelBodyBase
 
-### <a id="VM_Managed_DAFUL_Tire_Operation_FinalizeTransFormOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> FinalizeTransFormOperation\(JournalParameter\)
+### FinalizeTransFormOperation\(JournalParameter\)
 
 ```csharp
 public FinalizeTransFormOperation(JournalParameter jp)
@@ -99,7 +99,7 @@ public FinalizeTransFormOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Tire_Operation_FinalizeTransFormOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Tire_Operation_FinalizeTransFormOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -121,7 +121,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Tire_Operation_FinalizeTransFormOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -130,4 +130,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

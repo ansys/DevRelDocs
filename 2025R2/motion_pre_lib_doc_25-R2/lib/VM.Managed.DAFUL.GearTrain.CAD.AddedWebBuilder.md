@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedWebBuilder"></a> Class AddedWebBuilder
+# Class AddedWebBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -221,7 +221,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedWebBuilder__ctor"></a> AddedWebBuilder\(\)
+### AddedWebBuilder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedWebBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Add
 public AddedWebBuilder()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedWebBuilder__ctor_VM_Managed_DAFUL_GearTrain_CAD_IGeometryBuilder_"></a> AddedWebBuilder\(IGeometryBuilder\)
+### AddedWebBuilder\(IGeometryBuilder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedWebBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ The gear_builder.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedWebBuilder_GearBuilder"></a> GearBuilder
+### GearBuilder
 
 Gets the gear builder.
 
@@ -259,7 +259,7 @@ public IGeometryBuilder GearBuilder { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedWebBuilder_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -277,7 +277,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedWebBuilder_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -291,7 +291,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedWebBuilder_UpdateGeometry_VM_Managed_DAFUL_GearTrain_SectionInfo_"></a> UpdateGeometry\(SectionInfo\)
+### UpdateGeometry\(SectionInfo\)
 
 Updates the geometry.
 
@@ -304,4 +304,5 @@ public void UpdateGeometry(SectionInfo secInfoFind)
 `secInfoFind` [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)
 
 The sec information find.
+
 

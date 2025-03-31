@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CircularPlane"></a> Class CircularPlane
+# Class CircularPlane
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class CircularPlane : ImprintSheet, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_CircularPlane__ctor"></a> CircularPlane\(\)
+### CircularPlane\(\)
 
 ```csharp
 public CircularPlane()
@@ -73,7 +73,7 @@ public CircularPlane()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_CircularPlane_Radius"></a> Radius
+### Radius
 
 ```csharp
 public Variable Radius { get; set; }
@@ -85,7 +85,7 @@ public Variable Radius { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_CircularPlane_GetPlaneBuilder"></a> GetPlaneBuilder\(\)
+### GetPlaneBuilder\(\)
 
 ```csharp
 protected override BuilderPlane GetPlaneBuilder()
@@ -94,4 +94,5 @@ protected override BuilderPlane GetPlaneBuilder()
 #### Returns
 
  BuilderPlane
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible"></a> Namespace VM.Managed.DAFUL.Flexible
+# Namespace VM.Managed.DAFUL.Flexible
 
 ### Namespaces
 
@@ -10,11 +10,27 @@
 
  [BoundaryCondition](VM.Managed.DAFUL.Flexible.BoundaryCondition.md)
 
-This class is to represent the boundary condition.
+<p>This class is to represent the boundary condition.</p>
+<p>이 클래스는 경계조건을 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
  [BoundaryConditionBase<TProperty\>](VM.Managed.DAFUL.Flexible.BoundaryConditionBase\-1.md)
 
-This base class is to represent the boundary condition base.
+<p>This base class is to represent the boundary condition base.</p>
+<p>이 클래스는 경계조건의 기본을 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
  [FlexibleBaseHelper](VM.Managed.DAFUL.Flexible.FlexibleBaseHelper.md)
 
@@ -22,15 +38,33 @@ This class is to represent the flexibleBase helper.
 
  [PropertyBoundaryCondition](VM.Managed.DAFUL.Flexible.PropertyBoundaryCondition.md)
 
-This class is to represent the boundary condition properties.
+<p>This class is to represent the boundary condition properties.</p>
+<p>이 클래스는 경계조건 특성을 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
  [PropertyBoundaryConditionBase](VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase.md)
 
-This class is to represent the boundary condition properties.
+<p>This class is to represent the boundary condition properties.</p>
+<p>이 클래스는 경계조건 속성을 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ### Enums
 
  [PropertyBoundaryConditionBase.BCConstrainedType](VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase.BCConstrainedType.md)
 
-Specifies constrained type.
+<p>Specifies constrained type.</p>
+<p>경계조건을 명시합니다.</p>
+
 

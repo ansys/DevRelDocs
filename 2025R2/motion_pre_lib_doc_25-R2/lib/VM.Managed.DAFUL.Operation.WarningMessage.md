@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_WarningMessage"></a> Class WarningMessage
+# Class WarningMessage
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_WarningMessage__ctor_System_String_"></a> WarningMessage\(string\)
+### WarningMessage\(string\)
 
 ```csharp
 public WarningMessage(string strMessage)
@@ -87,7 +87,7 @@ public WarningMessage(string strMessage)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_WarningMessage_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -97,7 +97,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_WarningMessage_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -111,11 +111,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_WarningMessage_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

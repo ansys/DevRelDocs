@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager"></a> Struct CycloidPinInformationInAssemblyManager
+# Struct CycloidPinInformationInAssemblyManager
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct CycloidPinInformationInAssemblyManager
 
 ## Constructors
 
-### <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager__ctor"></a> CycloidPinInformationInAssemblyManager\(\)
+### CycloidPinInformationInAssemblyManager\(\)
 
 Default constructor
 
@@ -21,7 +21,7 @@ public CycloidPinInformationInAssemblyManager()
 
 ## Properties
 
-### <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager_CenterOfPinSet"></a> CenterOfPinSet
+### CenterOfPinSet
 
 The center of pin set.
 
@@ -33,7 +33,7 @@ public Vector CenterOfPinSet { readonly get; set; }
 
  Vector
 
-### <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager_CycloidPinGearSetName"></a> CycloidPinGearSetName
+### CycloidPinGearSetName
 
 The cycloid pin gearset name.
 
@@ -45,7 +45,7 @@ public string CycloidPinGearSetName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager_HousingName"></a> HousingName
+### HousingName
 
 The housing name.
 
@@ -57,7 +57,7 @@ public string HousingName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager_ReferenceGearSetName"></a> ReferenceGearSetName
+### ReferenceGearSetName
 
 The reference gearset name.
 
@@ -69,7 +69,7 @@ public string ReferenceGearSetName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager_UseReferenceBody"></a> UseReferenceBody
+### UseReferenceBody
 
 The flag whether using reference body or not.
 
@@ -80,4 +80,5 @@ public bool UseReferenceBody { readonly get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

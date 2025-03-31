@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CircularReferenceExeption"></a> Class CircularReferenceExeption
+# Class CircularReferenceExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class CircularReferenceExeption : Exception
 
 ## Constructors
 
-### <a id="VM_Managed_CircularReferenceExeption__ctor_System_String_"></a> CircularReferenceExeption\(string\)
+### CircularReferenceExeption\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.CircularReferenceExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,4 +36,5 @@ public CircularReferenceExeption(string strMessage)
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The error message.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerCable"></a> Class PropertyCouplerCable
+# Class PropertyCouplerCable
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -171,11 +171,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerCable__ctor"></a> PropertyCouplerCable\(\)
+### PropertyCouplerCable\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyCouplerCable" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyCouplerCable()
 ```
+
 

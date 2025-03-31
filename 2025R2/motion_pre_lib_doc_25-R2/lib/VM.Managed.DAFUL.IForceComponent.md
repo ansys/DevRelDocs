@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IForceComponent"></a> Interface IForceComponent
+# Interface IForceComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IForceComponent
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IForceComponent_IsAvailable"></a> IsAvailable
+### IsAvailable
 
 Gets the available flag.
 
@@ -31,7 +31,7 @@ bool IsAvailable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_IForceComponent_GetActionMarker"></a> GetActionMarker\(\)
+### GetActionMarker\(\)
 
 Gets the action marker.
 
@@ -45,7 +45,7 @@ Marker GetActionMarker()
 
 The action marker.
 
-### <a id="VM_Managed_DAFUL_IForceComponent_GetActionParentConnectable"></a> GetActionParentConnectable\(\)
+### GetActionParentConnectable\(\)
 
 Gets the action parent connectable.
 
@@ -59,7 +59,7 @@ IConnectable GetActionParentConnectable()
 
 The action parent connectable.
 
-### <a id="VM_Managed_DAFUL_IForceComponent_GetActionTransform"></a> GetActionTransform\(\)
+### GetActionTransform\(\)
 
 Gets the action transformation.
 
@@ -73,7 +73,7 @@ TransformBase GetActionTransform()
 
 The action transformation.
 
-### <a id="VM_Managed_DAFUL_IForceComponent_GetBaseMarker"></a> GetBaseMarker\(\)
+### GetBaseMarker\(\)
 
 Gets the base marker.
 
@@ -87,7 +87,7 @@ Marker GetBaseMarker()
 
 The base marker.
 
-### <a id="VM_Managed_DAFUL_IForceComponent_GetBaseParentConnectable"></a> GetBaseParentConnectable\(\)
+### GetBaseParentConnectable\(\)
 
 Gets the base parent connectable.
 
@@ -101,7 +101,7 @@ IConnectable GetBaseParentConnectable()
 
 The base parent connectable.
 
-### <a id="VM_Managed_DAFUL_IForceComponent_GetBaseTransform"></a> GetBaseTransform\(\)
+### GetBaseTransform\(\)
 
 Gets the base transformation.
 
@@ -114,4 +114,5 @@ TransformBase GetBaseTransform()
  TransformBase
 
 The base transformation.
+
 

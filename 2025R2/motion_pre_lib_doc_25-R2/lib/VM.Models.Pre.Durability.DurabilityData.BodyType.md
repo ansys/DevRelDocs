@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_DurabilityData_BodyType"></a> Enum DurabilityData.BodyType
+# Enum DurabilityData.BodyType
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -30,4 +30,5 @@ public enum DurabilityData.BodyType
 `RigidHousing = 9` 
 
 `ShaftSet = 4` 
+
 
