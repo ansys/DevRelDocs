@@ -26,16 +26,17 @@ Lumerical Automation API allows you to interact with Lumerical’s solvers and p
 * Speos for NX library is available for Windows in: Python
 * Speos Labs automation APIs are available for Windows in: VB Script, C++
 * Speos Core methods are available for Windows in: COM
-* Speos now has a PyAnsys library PySpeos
+* Speos has a gRPC API; more information is available in the Developer docs
+* Speos now has a PyAnsys library, PySpeos, based on the gRPC API
 
 [PySpeos (PyAnsys)](https://speos.docs.pyansys.com/version/stable/index.html)
 
-### Ansys Speos Training 
+### Ansys Speos Training
 
 * [Ansys Speos Scripting (ALH)](https://www.ansys.com/training-center/course-catalog/optics/ansys-speos-scripting)
 * [Ansys Speos Scripting Parameters (ALH)](https://www.ansys.com/training-center/course-catalog/optics/ansys-speos-scripting-parameters)
 
-## Zemax 
+## Zemax
 
 [Ansys Zemax OpticStudio Developer Docs](https://developer.ansys.com/docs/zemax)
 
