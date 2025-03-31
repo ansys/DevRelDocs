@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode"></a> Class SuspensionLoadCase.SuspensionMode
+# Class SuspensionLoadCase.SuspensionMode
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -22,7 +22,7 @@ public class SuspensionLoadCase.SuspensionMode
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode__ctor"></a> SuspensionMode\(\)
+### SuspensionMode\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SuspensionLoadCase.SuspensionMode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public SuspensionMode()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_CoordinateSystem"></a> CoordinateSystem
+### CoordinateSystem
 
 Gets or sets the coordinate system.
 
@@ -44,7 +44,7 @@ public CoordinateSystemType CoordinateSystem { get; set; }
 
  [CoordinateSystemType](VM.Managed.DAFUL.Car.Analysis.Suspension.CoordinateSystemType.md)
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_SteeringMode"></a> SteeringMode
+### SteeringMode
 
 Gets or sets the steering mode.
 
@@ -56,7 +56,7 @@ public SteeringInputType SteeringMode { get; set; }
 
  [SteeringInputType](VM.Managed.DAFUL.Car.Analysis.Suspension.SteeringInputType.md)
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_TravelMode"></a> TravelMode
+### TravelMode
 
 Gets or sets the travel mode.
 
@@ -68,7 +68,7 @@ public TravelMotionType TravelMode { get; set; }
 
  [TravelMotionType](VM.Managed.DAFUL.Car.Analysis.Suspension.TravelMotionType.md)
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_Vertical"></a> Vertical
+### Vertical
 
 Gets or sets the vertical.
 
@@ -80,7 +80,7 @@ public VerticalType Vertical { get; set; }
 
  [VerticalType](VM.Managed.DAFUL.Car.Analysis.Suspension.VerticalType.md)
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_VerticalModeForSetup"></a> VerticalModeForSetup
+### VerticalModeForSetup
 
 Gets or sets the vertical mode for setup.
 
@@ -91,4 +91,5 @@ public VerticalModeForSetupType VerticalModeForSetup { get; set; }
 #### Property Value
 
  [VerticalModeForSetupType](VM.Managed.DAFUL.Car.Analysis.Suspension.VerticalModeForSetupType.md)
+
 

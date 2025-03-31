@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder"></a> Class RackBuilder
+# Class RackBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -196,7 +196,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder__ctor"></a> RackBuilder\(\)
+### RackBuilder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RackBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Rac
 public RackBuilder()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder__ctor_VM_Managed_DAFUL_GearTrain_CAD_RackSection_"></a> RackBuilder\(RackSection\)
+### RackBuilder\(RackSection\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RackBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ The rack section.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_ConnectableEntity"></a> ConnectableEntity
+### ConnectableEntity
 
 Gets the ConnectableEntity.
 
@@ -232,7 +232,7 @@ public IConnectable ConnectableEntity { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_GearGeometryInformation"></a> GearGeometryInformation
+### GearGeometryInformation
 
 Gets or sets the gear geometry information.
 
@@ -244,7 +244,7 @@ public GearGeometryInfo GearGeometryInformation { get; set; }
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_InitialAngle"></a> InitialAngle
+### InitialAngle
 
 Gets or sets the Initial angle.
 Use SetInitAngle() when this instance sets for undo/redo
@@ -257,7 +257,7 @@ public double InitialAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_MateAngle"></a> MateAngle
+### MateAngle
 
 Gets or sets the mate angle.
 Use SetMateAngle() when this instance sets for undo/redo
@@ -270,7 +270,7 @@ public double MateAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_Offset"></a> Offset
+### Offset
 
 Gets or sets the offset.
 Use SetOffset() when this instance sets for undo/redo
@@ -283,7 +283,7 @@ public double Offset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_OffsetToAxisDirection"></a> OffsetToAxisDirection
+### OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -295,7 +295,7 @@ public double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_Position"></a> Position
+### Position
 
 Gets the position.
 
@@ -307,7 +307,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_Rotation"></a> Rotation
+### Rotation
 
 Gets or sets the rotation.
 Use SetRotation() when this instance sets for undo/redo
@@ -320,7 +320,7 @@ public OMatrix Rotation { get; set; }
 
  OMatrix
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_StartAxis"></a> StartAxis
+### StartAxis
 
 Gets or sets the start axis.
 
@@ -332,7 +332,7 @@ public DirectionBase StartAxis { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_StartPoint"></a> StartPoint
+### StartPoint
 
 Gets or sets the start point.
 
@@ -344,7 +344,7 @@ public PointBase StartPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_TypeOfParent"></a> TypeOfParent
+### TypeOfParent
 
 Gets or sets the type of parent.
 Use SetTypeOfParent() when this instance sets for undo/redo
@@ -359,7 +359,7 @@ public GearBuilder.ParentType TypeOfParent { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -369,7 +369,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -379,7 +379,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the height of the length and.
 
@@ -397,7 +397,7 @@ Length of the d.
 
 Height of the d.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -411,7 +411,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -429,7 +429,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_SetInitAngle_System_Double_"></a> SetInitAngle\(double\)
+### SetInitAngle\(double\)
 
 Set init angle.
 
@@ -443,7 +443,7 @@ public void SetInitAngle(double dInitAngle)
 
 The init angle.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_SetMateAngle_System_Double_"></a> SetMateAngle\(double\)
+### SetMateAngle\(double\)
 
 Set mate angle.
 
@@ -457,7 +457,7 @@ public void SetMateAngle(double dMateAngle)
 
 The mate angle.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_SetOffset_System_Double_"></a> SetOffset\(double\)
+### SetOffset\(double\)
 
 Set offset.
 
@@ -471,7 +471,7 @@ public void SetOffset(double dOffset)
 
 The offset.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_SetRackSection_VM_Managed_DAFUL_GearTrain_CAD_RackSection_"></a> SetRackSection\(RackSection\)
+### SetRackSection\(RackSection\)
 
 Sets the rack section.
 
@@ -485,7 +485,7 @@ public void SetRackSection(RackSection rackSection)
 
 The rack section.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_SetRotation_VM_Managed_OMatrix_"></a> SetRotation\(OMatrix\)
+### SetRotation\(OMatrix\)
 
 Set rotation.
 
@@ -499,7 +499,7 @@ public void SetRotation(OMatrix mat)
 
 The matrix.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_SetTypeOfParent_VM_Managed_DAFUL_GearTrain_CAD_GearBuilder_ParentType_"></a> SetTypeOfParent\(ParentType\)
+### SetTypeOfParent\(ParentType\)
 
 Set type of parent.
 
@@ -513,11 +513,12 @@ public void SetTypeOfParent(GearBuilder.ParentType type)
 
 The type of parent.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilder_UpdateRackGeometry"></a> UpdateRackGeometry\(\)
+### UpdateRackGeometry\(\)
 
 Updates the rack geometry.
 
 ```csharp
 public void UpdateRackGeometry()
 ```
+
 

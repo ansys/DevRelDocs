@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_CADBodyApplyOperation"></a> Class CADBodyApplyOperation
+# Class CADBodyApplyOperation
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_CADBodyApplyOperation__ctor"></a> CADBodyApplyOperation\(\)
+### CADBodyApplyOperation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.CADBodyApplyOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -87,7 +87,7 @@ public CADBodyApplyOperation()
 
 ## Fields
 
-### <a id="VM_Managed_CAD_CADBodyApplyOperation_Apply"></a> Apply
+### Apply
 
 Pre Apply event
 
@@ -101,7 +101,7 @@ public CADBodyApplyOperation.ApplyCallback Apply
 
 ## Properties
 
-### <a id="VM_Managed_CAD_CADBodyApplyOperation_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CAD_CADBodyApplyOperation_Success"></a> Success
+### Success
 
 ```csharp
 public bool Success { get; }
@@ -125,11 +125,12 @@ public bool Success { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_CADBodyApplyOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

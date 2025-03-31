@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_Factory_DlgFactoryBase_AssemblyInfo"></a> Class DlgFactoryBase.AssemblyInfo
+# Class DlgFactoryBase.AssemblyInfo
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDM.dll  
@@ -20,7 +20,7 @@ protected class DlgFactoryBase.AssemblyInfo
 
 ## Constructors
 
-### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_AssemblyInfo__ctor"></a> AssemblyInfo\(\)
+### AssemblyInfo\(\)
 
 ```csharp
 public AssemblyInfo()
@@ -28,7 +28,7 @@ public AssemblyInfo()
 
 ## Fields
 
-### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_AssemblyInfo_m_asm"></a> m\_asm
+### m\_asm
 
 ```csharp
 public Assembly m_asm
@@ -38,7 +38,7 @@ public Assembly m_asm
 
  [Assembly](https://learn.microsoft.com/dotnet/api/system.reflection.assembly)
 
-### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_AssemblyInfo_m_node"></a> m\_node
+### m\_node
 
 ```csharp
 public XmlNode m_node
@@ -47,4 +47,5 @@ public XmlNode m_node
 #### Field Value
 
  [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
+
 

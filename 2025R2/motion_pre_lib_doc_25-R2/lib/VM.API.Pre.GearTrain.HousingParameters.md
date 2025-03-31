@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_HousingParameters"></a> Struct HousingParameters
+# Struct HousingParameters
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct HousingParameters
 
 ## Constructors
 
-### <a id="VM_API_Pre_GearTrain_HousingParameters__ctor"></a> HousingParameters\(\)
+### HousingParameters\(\)
 
 Default constructor
 
@@ -19,7 +19,7 @@ Default constructor
 public HousingParameters()
 ```
 
-### <a id="VM_API_Pre_GearTrain_HousingParameters__ctor_System_String_System_String_VM_Vector_"></a> HousingParameters\(string, string, Vector\)
+### HousingParameters\(string, string, Vector\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.GearTrain.HousingParameters" data-throw-if-not-resolved="false"></xref> class
 
@@ -43,7 +43,7 @@ The rotate axis of the housing parameters.
 
 ## Properties
 
-### <a id="VM_API_Pre_GearTrain_HousingParameters_BodyName"></a> BodyName
+### BodyName
 
 The value for the body name. The default value is "".
 
@@ -55,7 +55,7 @@ public string BodyName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_API_Pre_GearTrain_HousingParameters_HousingName"></a> HousingName
+### HousingName
 
 The value for the housing name. The default value is "".
 
@@ -67,7 +67,7 @@ public string HousingName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_API_Pre_GearTrain_HousingParameters_RotateAxis"></a> RotateAxis
+### RotateAxis
 
 The value for the rotate axis. The default value is (0, 1, 0).
 
@@ -78,4 +78,5 @@ public Vector RotateAxis { readonly get; set; }
 #### Property Value
 
  Vector
+
 

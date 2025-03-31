@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OperationBase"></a> Class OperationBase
+# Class OperationBase
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -53,7 +53,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_Operation_OperationBase__ctor_VM_Managed_View_System_Object_"></a> OperationBase\(View, object\)
+### OperationBase\(View, object\)
 
 ```csharp
 protected OperationBase(View view, object param)
@@ -65,7 +65,7 @@ protected OperationBase(View view, object param)
 
 `param` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_Operation_OperationBase__ctor_VM_Managed_View_"></a> OperationBase\(View\)
+### OperationBase\(View\)
 
 ```csharp
 protected OperationBase(View view)
@@ -75,7 +75,7 @@ protected OperationBase(View view)
 
 `view` [View](VM.Managed.View.md)
 
-### <a id="VM_Managed_Operation_OperationBase__ctor_VM_Managed_Document_System_Object_"></a> OperationBase\(Document, object\)
+### OperationBase\(Document, object\)
 
 ```csharp
 protected OperationBase(Document doc, object param)
@@ -87,7 +87,7 @@ protected OperationBase(Document doc, object param)
 
 `param` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_Operation_OperationBase__ctor_VM_Managed_Document_"></a> OperationBase\(Document\)
+### OperationBase\(Document\)
 
 ```csharp
 protected OperationBase(Document doc)
@@ -97,7 +97,7 @@ protected OperationBase(Document doc)
 
 `doc` [Document](VM.Managed.Document.md)
 
-### <a id="VM_Managed_Operation_OperationBase__ctor_System_Object_"></a> OperationBase\(object\)
+### OperationBase\(object\)
 
 ```csharp
 protected OperationBase(object param)
@@ -107,7 +107,7 @@ protected OperationBase(object param)
 
 `param` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_Operation_OperationBase__ctor"></a> OperationBase\(\)
+### OperationBase\(\)
 
 ```csharp
 protected OperationBase()
@@ -115,7 +115,7 @@ protected OperationBase()
 
 ## Fields
 
-### <a id="VM_Managed_Operation_OperationBase_g_bDupicateMsg"></a> g\_bDupicateMsg
+### g\_bDupicateMsg
 
 ```csharp
 public static bool g_bDupicateMsg
@@ -125,7 +125,7 @@ public static bool g_bDupicateMsg
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_g_bRedrawKernel"></a> g\_bRedrawKernel
+### g\_bRedrawKernel
 
 ```csharp
 public static bool g_bRedrawKernel
@@ -135,7 +135,7 @@ public static bool g_bRedrawKernel
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_g_bSkipAddEvent"></a> g\_bSkipAddEvent
+### g\_bSkipAddEvent
 
 ```csharp
 public static bool g_bSkipAddEvent
@@ -145,7 +145,7 @@ public static bool g_bSkipAddEvent
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_g_bVerify"></a> g\_bVerify
+### g\_bVerify
 
 ```csharp
 public static bool g_bVerify
@@ -155,7 +155,7 @@ public static bool g_bVerify
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_m_bIsHistoryMerge"></a> m\_bIsHistoryMerge
+### m\_bIsHistoryMerge
 
 ```csharp
 protected bool m_bIsHistoryMerge
@@ -167,7 +167,7 @@ protected bool m_bIsHistoryMerge
 
 ## Properties
 
-### <a id="VM_Managed_Operation_OperationBase_Document"></a> Document
+### Document
 
 ```csharp
 protected Document Document { get; }
@@ -177,7 +177,7 @@ protected Document Document { get; }
 
  [Document](VM.Managed.Document.md)
 
-### <a id="VM_Managed_Operation_OperationBase_ExecutableOnHold"></a> ExecutableOnHold
+### ExecutableOnHold
 
 ```csharp
 protected virtual bool ExecutableOnHold { get; }
@@ -187,7 +187,7 @@ protected virtual bool ExecutableOnHold { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_ExecuteMacro"></a> ExecuteMacro
+### ExecuteMacro
 
 ```csharp
 public static bool ExecuteMacro { get; set; }
@@ -197,7 +197,7 @@ public static bool ExecuteMacro { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_GlobalOverride"></a> GlobalOverride
+### GlobalOverride
 
 Gets or sets the global session attributes.
 
@@ -209,7 +209,7 @@ public static SessionOverride GlobalOverride { get; set; }
 
  [SessionOverride](VM.Managed.Operation.SessionOverride.md)
 
-### <a id="VM_Managed_Operation_OperationBase_IsDoingThread"></a> IsDoingThread
+### IsDoingThread
 
 ```csharp
 public static bool IsDoingThread { get; }
@@ -219,7 +219,7 @@ public static bool IsDoingThread { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 ```csharp
 public virtual bool IsHistoryMerge { get; }
@@ -229,7 +229,7 @@ public virtual bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_MarkStatus"></a> MarkStatus
+### MarkStatus
 
 Gets the mark status.
 
@@ -241,7 +241,7 @@ public virtual HistroyMarkStatus MarkStatus { get; }
 
  [HistroyMarkStatus](VM.Managed.Operation.HistroyMarkStatus.md)
 
-### <a id="VM_Managed_Operation_OperationBase_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -253,7 +253,7 @@ public abstract string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Operation_OperationBase_Override"></a> Override
+### Override
 
 ```csharp
 protected SessionOverride Override { get; set; }
@@ -263,7 +263,7 @@ protected SessionOverride Override { get; set; }
 
  [SessionOverride](VM.Managed.Operation.SessionOverride.md)
 
-### <a id="VM_Managed_Operation_OperationBase_Parameter"></a> Parameter
+### Parameter
 
 ```csharp
 protected object Parameter { get; }
@@ -273,7 +273,7 @@ protected object Parameter { get; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_Operation_OperationBase_PostExecuteClearTemporaryLinkContainer"></a> PostExecuteClearTemporaryLinkContainer
+### PostExecuteClearTemporaryLinkContainer
 
 ```csharp
 public bool PostExecuteClearTemporaryLinkContainer { get; set; }
@@ -283,7 +283,7 @@ public bool PostExecuteClearTemporaryLinkContainer { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_SimStatus"></a> SimStatus
+### SimStatus
 
 ```csharp
 public static SimulationStatus SimStatus { get; set; }
@@ -293,7 +293,7 @@ public static SimulationStatus SimStatus { get; set; }
 
  [SimulationStatus](VM.Managed.Operation.SimulationStatus.md)
 
-### <a id="VM_Managed_Operation_OperationBase_SkipClearTemporaryLinkContainer"></a> SkipClearTemporaryLinkContainer
+### SkipClearTemporaryLinkContainer
 
 ```csharp
 public bool SkipClearTemporaryLinkContainer { get; set; }
@@ -303,7 +303,7 @@ public bool SkipClearTemporaryLinkContainer { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_SkipEndOperation"></a> SkipEndOperation
+### SkipEndOperation
 
 ```csharp
 public bool SkipEndOperation { get; set; }
@@ -313,7 +313,7 @@ public bool SkipEndOperation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_Status"></a> Status
+### Status
 
 Gets or sets the operation status.
 
@@ -325,7 +325,7 @@ public static OperationStatus Status { get; set; }
 
  [OperationStatus](VM.Managed.Operation.OperationStatus.md)
 
-### <a id="VM_Managed_Operation_OperationBase_UseMacro"></a> UseMacro
+### UseMacro
 
 ```csharp
 public virtual bool UseMacro { get; }
@@ -335,7 +335,7 @@ public virtual bool UseMacro { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_UseThread"></a> UseThread
+### UseThread
 
 Gets a value indicating whether operation use the thread.
 
@@ -347,7 +347,7 @@ public virtual bool UseThread { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Operation_OperationBase_View"></a> View
+### View
 
 ```csharp
 protected View View { get; }
@@ -357,7 +357,7 @@ protected View View { get; }
 
  [View](VM.Managed.View.md)
 
-### <a id="VM_Managed_Operation_OperationBase_autoEvents"></a> autoEvents
+### autoEvents
 
 Gets or sets the event notifier from the waiting thread.
 
@@ -371,7 +371,7 @@ public static AutoResetEvent[] autoEvents { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Operation_OperationBase_ClearCurrentMark_System_String_"></a> ClearCurrentMark\(string\)
+### ClearCurrentMark\(string\)
 
 ```csharp
 protected void ClearCurrentMark(string strFilePath)
@@ -381,7 +381,7 @@ protected void ClearCurrentMark(string strFilePath)
 
 `strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Operation_OperationBase_ClearCurrentMark_VM_Models_Pre_IDocument_"></a> ClearCurrentMark\(IDocument\)
+### ClearCurrentMark\(IDocument\)
 
 ```csharp
 protected void ClearCurrentMark(IDocument doc)
@@ -391,13 +391,13 @@ protected void ClearCurrentMark(IDocument doc)
 
 `doc` IDocument
 
-### <a id="VM_Managed_Operation_OperationBase_ClearCurrentMark"></a> ClearCurrentMark\(\)
+### ClearCurrentMark\(\)
 
 ```csharp
 protected void ClearCurrentMark()
 ```
 
-### <a id="VM_Managed_Operation_OperationBase_Create_System_String_VM_Managed_View_System_Object_"></a> Create\(string, View, object\)
+### Create\(string, View, object\)
 
 Create the operation.
 
@@ -423,7 +423,7 @@ The operation parameter.
 
  [OperationBase](VM.Managed.Operation.OperationBase.md)
 
-### <a id="VM_Managed_Operation_OperationBase_Create_System_String_VM_Models_Pre_IDocument_System_Object_"></a> Create\(string, IDocument, object\)
+### Create\(string, IDocument, object\)
 
 Create the operation.
 
@@ -449,7 +449,7 @@ The operation parameter.
 
  [OperationBase](VM.Managed.Operation.OperationBase.md)
 
-### <a id="VM_Managed_Operation_OperationBase_Create_System_String_System_Object_"></a> Create\(string, object\)
+### Create\(string, object\)
 
 Create the operation.
 
@@ -471,7 +471,7 @@ The operation parameter.
 
  [OperationBase](VM.Managed.Operation.OperationBase.md)
 
-### <a id="VM_Managed_Operation_OperationBase_Create_System_String_"></a> Create\(string\)
+### Create\(string\)
 
 Create the operation.
 
@@ -489,7 +489,7 @@ The operation name.
 
  [OperationBase](VM.Managed.Operation.OperationBase.md)
 
-### <a id="VM_Managed_Operation_OperationBase_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -497,7 +497,7 @@ Execute the operation.
 public abstract void Execute()
 ```
 
-### <a id="VM_Managed_Operation_OperationBase_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public virtual void GetInformation(XmlWriter writer)
@@ -507,7 +507,7 @@ public virtual void GetInformation(XmlWriter writer)
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
-### <a id="VM_Managed_Operation_OperationBase_Initialize_VM_Managed_Operation_OperationBase_ShowVerifyResult_"></a> Initialize\(ShowVerifyResult\)
+### Initialize\(ShowVerifyResult\)
 
 Initialize delegate.
 
@@ -521,7 +521,7 @@ public static void Initialize(OperationBase.ShowVerifyResult delShowVerifyResult
 
 The ShowVerifyResult delegate.
 
-### <a id="VM_Managed_Operation_OperationBase_PostExecute"></a> PostExecute\(\)
+### PostExecute\(\)
 
 PostExecute the operation.
 
@@ -529,7 +529,7 @@ PostExecute the operation.
 public virtual void PostExecute()
 ```
 
-### <a id="VM_Managed_Operation_OperationBase_RecordJournal_VM_Managed_Operation_OperationBase_"></a> RecordJournal\(OperationBase\)
+### RecordJournal\(OperationBase\)
 
 ```csharp
 public static void RecordJournal(OperationBase op)
@@ -539,7 +539,7 @@ public static void RecordJournal(OperationBase op)
 
 `op` [OperationBase](VM.Managed.Operation.OperationBase.md)
 
-### <a id="VM_Managed_Operation_OperationBase_StartSession"></a> StartSession\(\)
+### StartSession\(\)
 
 Start the operation session, asynchronous calls.
 
@@ -547,7 +547,7 @@ Start the operation session, asynchronous calls.
 public virtual void StartSession()
 ```
 
-### <a id="VM_Managed_Operation_OperationBase_StartSession_VM_Managed_Operation_OperationBase_VM_Managed_Operation_OperationBase_PostOperation_"></a> StartSession\(OperationBase, PostOperation\)
+### StartSession\(OperationBase, PostOperation\)
 
 Start the operation session, asynchronous calls.
 
@@ -565,7 +565,7 @@ The operation.
 
 The post operation,
 
-### <a id="VM_Managed_Operation_OperationBase_StartSession_VM_Managed_Operation_OperationBase_"></a> StartSession\(OperationBase\)
+### StartSession\(OperationBase\)
 
 Start the operation session, asynchronous calls
 
@@ -579,7 +579,7 @@ public static void StartSession(OperationBase opSession)
 
 The operation.
 
-### <a id="VM_Managed_Operation_OperationBase_StartSessionAndWait"></a> StartSessionAndWait\(\)
+### StartSessionAndWait\(\)
 
 Start the operation session and wait until operation return.
 
@@ -587,7 +587,7 @@ Start the operation session and wait until operation return.
 public virtual void StartSessionAndWait()
 ```
 
-### <a id="VM_Managed_Operation_OperationBase_StartSessionAndWait_VM_Managed_Operation_OperationBase_VM_Managed_Operation_OperationBase_PostOperation_"></a> StartSessionAndWait\(OperationBase, PostOperation\)
+### StartSessionAndWait\(OperationBase, PostOperation\)
 
 Start the operation session and wait until operation return.
 
@@ -605,7 +605,7 @@ The operation.
 
 The post operation,
 
-### <a id="VM_Managed_Operation_OperationBase_StartSessionAndWait_VM_Managed_Operation_OperationBase_"></a> StartSessionAndWait\(OperationBase\)
+### StartSessionAndWait\(OperationBase\)
 
 Start the operation session and wait until operation return.
 
@@ -619,7 +619,7 @@ public static void StartSessionAndWait(OperationBase opSession)
 
 The operation.
 
-### <a id="VM_Managed_Operation_OperationBase_UseSession_System_String_"></a> UseSession\(string\)
+### UseSession\(string\)
 
 Use session object to execute operation
 
@@ -637,7 +637,7 @@ the name of the session
 
  ISession
 
-### <a id="VM_Managed_Operation_OperationBase_raise_OnEndOperation_System_Object_System_EventArgs_"></a> raise\_OnEndOperation\(object, EventArgs\)
+### raise\_OnEndOperation\(object, EventArgs\)
 
 ```csharp
 protected static void raise_OnEndOperation(object value0, EventArgs value1)
@@ -649,7 +649,7 @@ protected static void raise_OnEndOperation(object value0, EventArgs value1)
 
 `value1` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
-### <a id="VM_Managed_Operation_OperationBase_raise_OnOperationStatusChanged_System_Object_VM_Managed_Operation_OperationStatusEventArgs_"></a> raise\_OnOperationStatusChanged\(object, OperationStatusEventArgs\)
+### raise\_OnOperationStatusChanged\(object, OperationStatusEventArgs\)
 
 ```csharp
 protected static void raise_OnOperationStatusChanged(object value0, OperationStatusEventArgs value1)
@@ -661,7 +661,7 @@ protected static void raise_OnOperationStatusChanged(object value0, OperationSta
 
 `value1` [OperationStatusEventArgs](VM.Managed.Operation.OperationStatusEventArgs.md)
 
-### <a id="VM_Managed_Operation_OperationBase_OnEndOperation"></a> OnEndOperation
+### OnEndOperation
 
 ```csharp
 public static event OperationBase.EndOperation OnEndOperation
@@ -671,7 +671,7 @@ public static event OperationBase.EndOperation OnEndOperation
 
  [OperationBase](VM.Managed.Operation.OperationBase.md).[EndOperation](VM.Managed.Operation.OperationBase.EndOperation.md)
 
-### <a id="VM_Managed_Operation_OperationBase_OnOperationStatusChanged"></a> OnOperationStatusChanged
+### OnOperationStatusChanged
 
 Occurs when [On Operation Status Changed].
 
@@ -682,4 +682,5 @@ public static event EventHandler<OperationStatusEventArgs> OnOperationStatusChan
 #### Event Type
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[OperationStatusEventArgs](VM.Managed.Operation.OperationStatusEventArgs.md)\>
+
 

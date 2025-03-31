@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IDesignParameter"></a> Interface IDesignParameter
+# Interface IDesignParameter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IDesignParameter
 
 ## Methods
 
-### <a id="VM_Managed_IDesignParameter_GetFullName"></a> GetFullName\(\)
+### GetFullName\(\)
 
 Get full name.
 
@@ -28,4 +28,5 @@ string GetFullName()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

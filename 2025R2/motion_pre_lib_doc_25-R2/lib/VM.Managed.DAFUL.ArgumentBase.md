@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ArgumentBase"></a> Class ArgumentBase
+# Class ArgumentBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ArgumentBase__ctor"></a> ArgumentBase\(\)
+### ArgumentBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentBase" dat
 public ArgumentBase()
 ```
 
-### <a id="VM_Managed_DAFUL_ArgumentBase__ctor_VM_Managed_DAFUL_ArgumentListGeneral_"></a> ArgumentBase\(ArgumentListGeneral\)
+### ArgumentBase\(ArgumentListGeneral\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ public ArgumentBase(ArgumentListGeneral owner)
 
 The owner argument list.
 
-### <a id="VM_Managed_DAFUL_ArgumentBase__ctor_System_String_VM_Managed_DAFUL_ArgumentListGeneral_"></a> ArgumentBase\(string, ArgumentListGeneral\)
+### ArgumentBase\(string, ArgumentListGeneral\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ The owner argument list.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_ArgumentBase_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 The type of the argument
 
@@ -155,7 +155,7 @@ public abstract ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_ArgumentBase_Expression"></a> Expression
+### Expression
 
 The argument expression
 
@@ -167,7 +167,7 @@ public abstract string Expression { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_ArgumentBase_Name"></a> Name
+### Name
 
 The name of this <xref href="VM.Managed.DAFUL.ArgumentBase" data-throw-if-not-resolved="false"></xref>
 
@@ -178,4 +178,5 @@ public string Name { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

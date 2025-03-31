@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SolidBodyConeSimple"></a> Class SolidBodyConeSimple
+# Class SolidBodyConeSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public abstract class SolidBodyConeSimple : SolidBodyCone<BuilderConeSimple>, IB
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyConeSimple__ctor"></a> SolidBodyConeSimple\(\)
+### SolidBodyConeSimple\(\)
 
 ```csharp
 public SolidBodyConeSimple()
@@ -73,7 +73,7 @@ public SolidBodyConeSimple()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyConeSimple_BottomPosition"></a> BottomPosition
+### BottomPosition
 
 ```csharp
 public PointBase BottomPosition { get; set; }
@@ -83,7 +83,7 @@ public PointBase BottomPosition { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyConeSimple_RadiusMajor"></a> RadiusMajor
+### RadiusMajor
 
 ```csharp
 public Variable RadiusMajor { get; set; }
@@ -93,7 +93,7 @@ public Variable RadiusMajor { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyConeSimple_TopPosition"></a> TopPosition
+### TopPosition
 
 ```csharp
 public PointBase TopPosition { get; set; }
@@ -103,7 +103,7 @@ public PointBase TopPosition { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyConeSimple_TopRadius"></a> TopRadius
+### TopRadius
 
 ```csharp
 public Variable TopRadius { get; set; }
@@ -115,7 +115,7 @@ public Variable TopRadius { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyConeSimple_MakeSymmetricSolidBuilder"></a> MakeSymmetricSolidBuilder\(\)
+### MakeSymmetricSolidBuilder\(\)
 
 ```csharp
 protected override Builder MakeSymmetricSolidBuilder()
@@ -125,7 +125,7 @@ protected override Builder MakeSymmetricSolidBuilder()
 
  Builder
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyConeSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderConeSimple_"></a> SetSolidBuilderProperty\(BuilderConeSimple\)
+### SetSolidBuilderProperty\(BuilderConeSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderConeSimple solidBuilder)
@@ -134,4 +134,5 @@ protected override void SetSolidBuilderProperty(BuilderConeSimple solidBuilder)
 #### Parameters
 
 `solidBuilder` BuilderConeSimple
+
 

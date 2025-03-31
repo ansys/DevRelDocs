@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddUnbalanceMassToShaft"></a> Class AddUnbalanceMassToShaft
+# Class AddUnbalanceMassToShaft
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -62,7 +62,7 @@ BuilderBase<PseudoUnbalanceMass\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddUnbalanceMassToShaft__ctor"></a> AddUnbalanceMassToShaft\(\)
+### AddUnbalanceMassToShaft\(\)
 
 ```csharp
 public AddUnbalanceMassToShaft()
@@ -70,7 +70,7 @@ public AddUnbalanceMassToShaft()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddUnbalanceMassToShaft_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -85,4 +85,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

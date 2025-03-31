@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_ContactAnalysisInputType"></a> Enum PropertyGearSetPlanetaryDP.ContactAnalysisInputType
+# Enum PropertyGearSetPlanetaryDP.ContactAnalysisInputType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,6 +26,7 @@ The RingGear
 `SunGear = 0` 
 
 The SunGear
+
 
 
 

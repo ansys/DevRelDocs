@@ -1,9 +1,17 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadStandard"></a> Class PressureLoadStandard
+# Class PressureLoadStandard
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-This class is to represent the characteristic properties of standard type.
+<p>This class is to represent the characteristic properties of standard type.</p>
+<p>이 클래스는 기본 함수를 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : No
+        Reference Type : N/A
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public sealed class PressureLoadStandard : PressureLoadFunction, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IReserved
@@ -76,9 +84,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadStandard__ctor"></a> PressureLoadStandard\(\)
+### PressureLoadStandard\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadStandard" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadStandard" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadStandard" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public PressureLoadStandard()
@@ -86,9 +96,28 @@ public PressureLoadStandard()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadStandard_Normal"></a> Normal
+### Normal
 
-Gets or sets the normal.
+<p>Gets or sets the normal.</p>
+<p>수직방향 함수를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : CompositeFieldUsable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : yes
+        Label : Normal
+        Control Type : Function Editor
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Pressure
+        Category Index : 1
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public CompositeFieldUsable Normal { get; set; }
@@ -98,9 +127,28 @@ public CompositeFieldUsable Normal { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadStandard_PrimaryTangential"></a> PrimaryTangential
+### PrimaryTangential
 
-Gets or sets the primary tangential.
+<p>Gets or sets the primary tangential.</p>
+<p>주요한 접선방향 함수를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : CompositeFieldUsable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : yes
+        Label : Tangential(Pri)
+        Control Type : Function Editor
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Pressure
+        Category Index : 3
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public CompositeFieldUsable PrimaryTangential { get; set; }
@@ -110,9 +158,28 @@ public CompositeFieldUsable PrimaryTangential { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadStandard_SecondaryTangential"></a> SecondaryTangential
+### SecondaryTangential
 
-Gets or sets the secondary tangential.
+<p>Gets or sets the secondary tangential.</p>
+<p>부차적인 접선방향 함수를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : CompositeFieldUsable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : yes
+        Label : Tangential(Sec)
+        Control Type : Function Editor
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Pressure
+        Category Index : 4
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public CompositeFieldUsable SecondaryTangential { get; set; }
@@ -122,9 +189,28 @@ public CompositeFieldUsable SecondaryTangential { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadStandard_TangentialSecDirection"></a> TangentialSecDirection
+### TangentialSecDirection
 
-Gets or sets the tangential secondary direction.
+<p>Gets or sets the tangential secondary direction.</p>
+<p>부차적인 접선방향을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : DirectionBase
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : yes
+        Label : Secondary Tangetial Direction
+        Control Type : Direction Picker
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Pressure
+        Category Index : 2
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public DirectionBase TangentialSecDirection { get; set; }
@@ -134,9 +220,10 @@ public DirectionBase TangentialSecDirection { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadStandard_Type"></a> Type
+### Type
 
-Gets the function type.
+<p>Gets the function type.</p>
+<p>함수 타입을 가져오거나 넣어줍니다.</p>
 
 ```csharp
 public override PressureLoadFunction.FunctionType Type { get; }
@@ -148,9 +235,10 @@ public override PressureLoadFunction.FunctionType Type { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadStandard_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
+<p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -160,13 +248,15 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+<p>단위 변환 팩터.</p>
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadStandard_InitializeReservedObject"></a> InitializeReservedObject\(\)
+### InitializeReservedObject\(\)
 
 Initialize the reserved object.
 
 ```csharp
 public void InitializeReservedObject()
 ```
+
 

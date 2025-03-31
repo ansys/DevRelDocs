@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Connections_MultiConnectorType"></a> Enum MultiConnectorType
+# Enum MultiConnectorType
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -44,6 +44,7 @@ TSpringDamper
 `Vector = 5` 
 
 Vector
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisConfigurationBase"></a> Class ShimmyJudderAnalysisConfigurationBase
+# Class ShimmyJudderAnalysisConfigurationBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -194,7 +194,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisConfigurationBase__ctor"></a> ShimmyJudderAnalysisConfigurationBase\(\)
+### ShimmyJudderAnalysisConfigurationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ShimmyJudderAnalysisConfigurationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ public ShimmyJudderAnalysisConfigurationBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisConfigurationBase_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the analysis.
 
@@ -216,7 +216,7 @@ public abstract AnalysisBase Analysis { get; set; }
 
  AnalysisBase
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisConfigurationBase_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -228,7 +228,7 @@ protected abstract string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisConfigurationBase_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets the type of the analysis.
 
@@ -240,7 +240,7 @@ public abstract ShimmyJudderAnalysisType AnalysisType { get; }
 
  [ShimmyJudderAnalysisType](VM.Managed.DAFUL.Car.ShimmyJudderAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisConfigurationBase_RoadDataPath"></a> RoadDataPath
+### RoadDataPath
 
 Gets or sets the road data file path.
 
@@ -252,7 +252,7 @@ public string RoadDataPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisConfigurationBase_RoadRefFrameName"></a> RoadRefFrameName
+### RoadRefFrameName
 
 Get Roadreference frame name
 
@@ -264,7 +264,7 @@ public string RoadRefFrameName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisConfigurationBase_RoadReferencePosition"></a> RoadReferencePosition
+### RoadReferencePosition
 
 Get reference position of the road
 
@@ -278,11 +278,12 @@ public Vector RoadReferencePosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisConfigurationBase_InitializeParam"></a> InitializeParam\(\)
+### InitializeParam\(\)
 
 Initializes the param.
 
 ```csharp
 public virtual void InitializeParam()
 ```
+
 

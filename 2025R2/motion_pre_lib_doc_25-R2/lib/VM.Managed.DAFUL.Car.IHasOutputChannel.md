@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_IHasOutputChannel"></a> Interface IHasOutputChannel
+# Interface IHasOutputChannel
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -17,7 +17,7 @@ public interface IHasOutputChannel
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_IHasOutputChannel_OutputChannelInfos"></a> OutputChannelInfos
+### OutputChannelInfos
 
 Gets or sets the output channel infos.
 
@@ -31,7 +31,7 @@ OutputChannelInfo[] OutputChannelInfos { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_IHasOutputChannel_GetTotalIndex_System_Int32___"></a> GetTotalIndex\(int\[\]\)
+### GetTotalIndex\(int\[\]\)
 
 Gets the total index.
 
@@ -48,4 +48,5 @@ The input.
 #### Returns
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+
 

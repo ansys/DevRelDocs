@@ -1,4 +1,4 @@
-# <a id="VM_Managed_FilePropertyOwner_1"></a> Class FilePropertyOwner<TProp\>
+# Class FilePropertyOwner<TProp\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -156,7 +156,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_FilePropertyOwner_1__ctor"></a> FilePropertyOwner\(\)
+### FilePropertyOwner\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.FilePropertyOwner%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -166,7 +166,7 @@ public FilePropertyOwner()
 
 ## Properties
 
-### <a id="VM_Managed_FilePropertyOwner_1_Childs"></a> Childs
+### Childs
 
 Gets or sets the object array in property document.
 
@@ -178,7 +178,7 @@ public ObjectBase[] Childs { get; set; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_FilePropertyOwner_1_Property"></a> Property
+### Property
 
 Gets or sets the property.
 
@@ -190,7 +190,7 @@ public TProp Property { get; set; }
 
  TProp
 
-### <a id="VM_Managed_FilePropertyOwner_1_Unit"></a> Unit
+### Unit
 
 Gets or sets the unit.
 
@@ -204,7 +204,7 @@ public Unit Unit { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_FilePropertyOwner_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -218,7 +218,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_FilePropertyOwner_1_SetModified"></a> SetModified\(\)
+### SetModified\(\)
 
 Called when object modified.
 
@@ -226,7 +226,7 @@ Called when object modified.
 protected override void SetModified()
 ```
 
-### <a id="VM_Managed_FilePropertyOwner_1_SetModified_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModified\(ModifiedType\)
+### SetModified\(ModifiedType\)
 
 Called when object modified.
 
@@ -239,4 +239,5 @@ protected override void SetModified(ModifiedResult.ModifiedType type)
 `type` ModifiedResult.ModifiedType
 
 The modifed type.
+
 

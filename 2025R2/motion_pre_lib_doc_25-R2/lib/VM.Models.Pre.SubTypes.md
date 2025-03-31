@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_SubTypes"></a> Enum SubTypes
+# Enum SubTypes
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -26,4 +26,5 @@ public enum SubTypes
 `Joint = 2` 
 
 `Unknown = 0` 
+
 

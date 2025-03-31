@@ -1,4 +1,4 @@
-# <a id="VM_IDataPoint"></a> Interface IDataPoint
+# Interface IDataPoint
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IDataPoint
 
 ## Properties
 
-### <a id="VM_IDataPoint_X"></a> X
+### X
 
 ```csharp
 double X { get; set; }
@@ -25,7 +25,7 @@ double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_IDataPoint_Y"></a> Y
+### Y
 
 ```csharp
 double Y { get; set; }
@@ -34,4 +34,5 @@ double Y { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

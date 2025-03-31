@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering"></a> Class AnalysisConstantRadiusCornering
+# Class AnalysisConstantRadiusCornering
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -51,7 +51,7 @@ IHasLengthUnitType
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering__ctor"></a> AnalysisConstantRadiusCornering\(\)
+### AnalysisConstantRadiusCornering\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisConstantRadiusCornering" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisConst
 public AnalysisConstantRadiusCornering()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisConstantRadiusCornering\(ILinkContainer\)
+### AnalysisConstantRadiusCornering\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisConstantRadiusCornering" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_AccelerationUnitType"></a> AccelerationUnitType
+### AccelerationUnitType
 
 Gets or sets the acceleration unit.
 
@@ -87,7 +87,7 @@ public AccelerationUnitType AccelerationUnitType { get; set; }
 
  [AccelerationUnitType](VM.Managed.DAFUL.Car.Analysis.AccelerationUnitType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_ControlType"></a> ControlType
+### ControlType
 
 Gets or sets the control.
 
@@ -99,7 +99,7 @@ public ControlType ControlType { get; set; }
 
  [ControlType](VM.Managed.DAFUL.Car.Analysis.Full.ControlType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_DurationManeuver"></a> DurationManeuver
+### DurationManeuver
 
 Gets or sets the durationmaneuver.
 
@@ -111,7 +111,7 @@ public double DurationManeuver { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_FinalAcceleration"></a> FinalAcceleration
+### FinalAcceleration
 
 Gets or sets the final acceleration.
 
@@ -123,7 +123,7 @@ public double FinalAcceleration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_FinalVelocity"></a> FinalVelocity
+### FinalVelocity
 
 Gets or sets the final velocity.
 
@@ -135,7 +135,7 @@ public double FinalVelocity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_InitialAcceleration"></a> InitialAcceleration
+### InitialAcceleration
 
 Gets or sets the initial acceleration.
 
@@ -147,7 +147,7 @@ public double InitialAcceleration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_InitialVelocity"></a> InitialVelocity
+### InitialVelocity
 
 Gets or sets the initial velocity.
 
@@ -159,7 +159,7 @@ public double InitialVelocity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_InitialVelocityCornering"></a> InitialVelocityCornering
+### InitialVelocityCornering
 
 Gets or sets the initial velocity.
 
@@ -171,7 +171,7 @@ public override double InitialVelocityCornering { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_IsSiftGears"></a> IsSiftGears
+### IsSiftGears
 
 Gets or sets a value indicating whether [sift gears].
 
@@ -183,7 +183,7 @@ public bool IsSiftGears { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_TireRadiusPosition"></a> TireRadiusPosition
+### TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -195,7 +195,7 @@ public override int TireRadiusPosition { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_TurnRadius"></a> TurnRadius
+### TurnRadius
 
 Gets or sets the turn radius.
 
@@ -207,7 +207,7 @@ public double TurnRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_UnitOfLength"></a> UnitOfLength
+### UnitOfLength
 
 Gets or sets the length unit.
 
@@ -219,7 +219,7 @@ public LengthUnitType UnitOfLength { get; set; }
 
  LengthUnitType
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_VelocityUnitType"></a> VelocityUnitType
+### VelocityUnitType
 
 Gets or sets the velocity unit.
 
@@ -233,7 +233,7 @@ public VelocityUnitType VelocityUnitType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -246,4 +246,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

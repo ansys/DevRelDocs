@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_FileGen"></a> Class FileGen
+# Class FileGen
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -170,7 +170,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen__ctor"></a> FileGen\(\)
+### FileGen\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.FileGen" da
 public FileGen()
 ```
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen__ctor_System_String_"></a> FileGen\(string\)
+### FileGen\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="false"></xref> class.
 
@@ -194,7 +194,7 @@ Name of the <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolv
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen_Description"></a> Description
+### Description
 
 Gets or sets the name of description.
 
@@ -206,7 +206,7 @@ public string Description { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen_FMIVersion"></a> FMIVersion
+### FMIVersion
 
 Gets or sets the name of the FMI version.
 
@@ -218,7 +218,7 @@ public double FMIVersion { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen_FilePath"></a> FilePath
+### FilePath
 
 Gets or sets the name of the exported file.
 
@@ -230,7 +230,7 @@ public string FilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen_MessageLevel"></a> MessageLevel
+### MessageLevel
 
 Gets or sets the level of the solver message during co-simulation.
 
@@ -242,7 +242,7 @@ public MessageLevel MessageLevel { get; set; }
 
  [MessageLevel](VM.Managed.DAFUL.CoSim.MessageLevel.md)
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen_ScaleFactor"></a> ScaleFactor
+### ScaleFactor
 
 Gets or sets the scale factor for Maximum step size
 
@@ -256,7 +256,7 @@ public ExpressionValueVariable ScaleFactor { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen_Get_MessageLevel"></a> Get\_MessageLevel\(\)
+### Get\_MessageLevel\(\)
 
 ```csharp
 public int Get_MessageLevel()
@@ -266,7 +266,7 @@ public int Get_MessageLevel()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -280,7 +280,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_CoSim_FileGen_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -293,4 +293,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeSymbolColor"></a> Class AttributeSymbolColor
+# Class AttributeSymbolColor
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_AttributeSymbolColor__ctor_System_Drawing_Color_"></a> AttributeSymbolColor\(Color\)
+### AttributeSymbolColor\(Color\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeSymbolColor" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public AttributeSymbolColor(Color color)
 
 The color.
 
-### <a id="VM_Managed_AttributeSymbolColor__ctor"></a> AttributeSymbolColor\(\)
+### AttributeSymbolColor\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeSymbolColor" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ public AttributeSymbolColor()
 
 ## Properties
 
-### <a id="VM_Managed_AttributeSymbolColor_Color"></a> Color
+### Color
 
 ```csharp
 public Color Color { get; set; }
@@ -135,7 +135,7 @@ public Color Color { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_AttributeSymbolColor_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectData\(SerializationInfo, StreamingContext\)
+### GetObjectData\(SerializationInfo, StreamingContext\)
 
 ```csharp
 public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
@@ -146,4 +146,5 @@ public virtual void GetObjectData(SerializationInfo info, StreamingContext conte
 `info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
+
 

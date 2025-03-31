@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Durability_SimulationRun"></a> Class SimulationRun
+# Class SimulationRun
 
 Namespace: [VM.Operations.Pre.Durability](VM.Operations.Pre.Durability.md)  
 Assembly: VM.Operations.Pre.Durability.dll  
@@ -98,7 +98,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Operations_Pre_Durability_SimulationRun__ctor_VM_Managed_Document_"></a> SimulationRun\(Document\)
+### SimulationRun\(Document\)
 
 ```csharp
 public SimulationRun(Document doc)
@@ -108,7 +108,7 @@ public SimulationRun(Document doc)
 
 `doc` Document
 
-### <a id="VM_Operations_Pre_Durability_SimulationRun__ctor_VM_Managed_Document_System_String_VM_Models_Pre_Durability_DurabilityData_"></a> SimulationRun\(Document, string, DurabilityData\)
+### SimulationRun\(Document, string, DurabilityData\)
 
 ```csharp
 public SimulationRun(Document doc, string strSimPar, DurabilityData durabilityData)
@@ -122,7 +122,7 @@ public SimulationRun(Document doc, string strSimPar, DurabilityData durabilityDa
 
 `durabilityData` DurabilityData
 
-### <a id="VM_Operations_Pre_Durability_SimulationRun__ctor_VM_Managed_Operation_JournalParameter_"></a> SimulationRun\(JournalParameter\)
+### SimulationRun\(JournalParameter\)
 
 ```csharp
 public SimulationRun(JournalParameter jp)
@@ -134,7 +134,7 @@ public SimulationRun(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Operations_Pre_Durability_SimulationRun_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -148,7 +148,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Operations_Pre_Durability_SimulationRun_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
+### SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -157,4 +157,5 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 #### Parameters
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

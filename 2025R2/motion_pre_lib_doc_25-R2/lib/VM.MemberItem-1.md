@@ -1,4 +1,4 @@
-# <a id="VM_MemberItem_1"></a> Class MemberItem<TDescriptor\>
+# Class MemberItem<TDescriptor\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -24,7 +24,7 @@ public abstract class MemberItem<TDescriptor> where TDescriptor : MemberDescript
 
 ## Constructors
 
-### <a id="VM_MemberItem_1__ctor__0_"></a> MemberItem\(TDescriptor\)
+### MemberItem\(TDescriptor\)
 
 ```csharp
 protected MemberItem(TDescriptor memberDescriptor)
@@ -36,7 +36,7 @@ protected MemberItem(TDescriptor memberDescriptor)
 
 ## Properties
 
-### <a id="VM_MemberItem_1_Attributes"></a> Attributes
+### Attributes
 
 ```csharp
 public IEnumerable<Attribute> Attributes { get; }
@@ -46,7 +46,7 @@ public IEnumerable<Attribute> Attributes { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\>
 
-### <a id="VM_MemberItem_1_MemberDescriptor"></a> MemberDescriptor
+### MemberDescriptor
 
 ```csharp
 protected TDescriptor MemberDescriptor { get; }
@@ -58,7 +58,7 @@ protected TDescriptor MemberDescriptor { get; }
 
 ## Methods
 
-### <a id="VM_MemberItem_1_HasAttribute__1"></a> HasAttribute<T\>\(\)
+### HasAttribute<T\>\(\)
 
 ```csharp
 public bool HasAttribute<T>() where T : Attribute
@@ -72,7 +72,7 @@ public bool HasAttribute<T>() where T : Attribute
 
 `T` 
 
-### <a id="VM_MemberItem_1_TryGetAttributeInstance__1___0__"></a> TryGetAttributeInstance<T\>\(out T\)
+### TryGetAttributeInstance<T\>\(out T\)
 
 ```csharp
 public bool TryGetAttributeInstance<T>(out T attribute) where T : Attribute
@@ -89,4 +89,5 @@ public bool TryGetAttributeInstance<T>(out T attribute) where T : Attribute
 #### Type Parameters
 
 `T` 
+
 

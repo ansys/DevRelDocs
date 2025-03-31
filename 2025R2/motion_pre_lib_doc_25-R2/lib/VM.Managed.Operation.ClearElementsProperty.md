@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_ClearElementsProperty"></a> Class ClearElementsProperty
+# Class ClearElementsProperty
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Operation_ClearElementsProperty__ctor_System_Collections_Generic_List_System_Object__"></a> ClearElementsProperty\(List<object\>\)
+### ClearElementsProperty\(List<object\>\)
 
 ```csharp
 public ClearElementsProperty(List<object> lstInfo)
@@ -85,7 +85,7 @@ public ClearElementsProperty(List<object> lstInfo)
 
 `lstInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
-### <a id="VM_Managed_Operation_ClearElementsProperty__ctor_VM_Managed_Operation_JournalParameter_"></a> ClearElementsProperty\(JournalParameter\)
+### ClearElementsProperty\(JournalParameter\)
 
 ```csharp
 public ClearElementsProperty(JournalParameter jp)
@@ -97,7 +97,7 @@ public ClearElementsProperty(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_Operation_ClearElementsProperty_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -111,7 +111,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Operation_ClearElementsProperty_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -119,7 +119,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_Operation_ClearElementsProperty_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -128,4 +128,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

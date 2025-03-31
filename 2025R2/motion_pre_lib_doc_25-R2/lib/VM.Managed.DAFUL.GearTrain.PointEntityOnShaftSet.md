@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet"></a> Class PointEntityOnShaftSet
+# Class PointEntityOnShaftSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -176,7 +176,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet__ctor"></a> PointEntityOnShaftSet\(\)
+### PointEntityOnShaftSet\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointEn
 public PointEntityOnShaftSet()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet__ctor_System_String_"></a> PointEntityOnShaftSet\(string\)
+### PointEntityOnShaftSet\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,7 +200,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_OffsetToAxisDirection"></a> OffsetToAxisDirection
+### OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -212,7 +212,7 @@ public double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_Position"></a> Position
+### Position
 
 Gets the position.
 
@@ -224,7 +224,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_ReferenceOffset"></a> ReferenceOffset
+### ReferenceOffset
 
 Gets or sets the reference offset.
 Use SetReferenceOffset() when this instance sets for undo/redo
@@ -237,7 +237,7 @@ public double ReferenceOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_TypeOfReference"></a> TypeOfReference
+### TypeOfReference
 
 Gets or sets the type of reference.
 Use SetTypeOfReference() when this instance sets for undo/redo
@@ -250,7 +250,7 @@ public PointEntityOnShaftSet.ReferenceType TypeOfReference { get; set; }
 
  [PointEntityOnShaftSet](VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet.md).[ReferenceType](VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet.ReferenceType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_Width"></a> Width
+### Width
 
 Gets or sets the width.
 
@@ -264,7 +264,7 @@ public ExpressionValueVariable Width { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -278,7 +278,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -292,7 +292,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_SetReferenceOffset_System_Double_"></a> SetReferenceOffset\(double\)
+### SetReferenceOffset\(double\)
 
 Set reference offset.
 
@@ -306,7 +306,7 @@ public void SetReferenceOffset(double dOffset)
 
 The reference offset.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_SetTypeOfReference_VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_ReferenceType_"></a> SetTypeOfReference\(ReferenceType\)
+### SetTypeOfReference\(ReferenceType\)
 
 Set reference offset.
 
@@ -319,4 +319,5 @@ public void SetTypeOfReference(PointEntityOnShaftSet.ReferenceType type)
 `type` [PointEntityOnShaftSet](VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet.md).[ReferenceType](VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet.ReferenceType.md)
 
 The reference type.
+
 

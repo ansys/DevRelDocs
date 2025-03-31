@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_LinkDataSimple"></a> Class LinkDataSimple
+# Class LinkDataSimple
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -124,7 +124,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_LinkDataSimple__ctor"></a> LinkDataSimple\(\)
+### LinkDataSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.LinkDataSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -132,7 +132,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.LinkDataSimpl
 public LinkDataSimple()
 ```
 
-### <a id="VM_Managed_CAD_Track_LinkDataSimple__ctor_VM_Models_Pre_IOwned_"></a> LinkDataSimple\(IOwned\)
+### LinkDataSimple\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.LinkDataSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -148,7 +148,7 @@ The owner object.
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_LinkDataSimple_BushDiameter"></a> BushDiameter
+### BushDiameter
 
 Gets and sets bush diameter.
 
@@ -162,7 +162,7 @@ public ExpressionValueVariable BushDiameter { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_LinkDataSimple_CheckValidation"></a> CheckValidation\(\)
+### CheckValidation\(\)
 
 Check validation for member variables.
 
@@ -170,7 +170,7 @@ Check validation for member variables.
 public override void CheckValidation()
 ```
 
-### <a id="VM_Managed_CAD_Track_LinkDataSimple_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -180,7 +180,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_CAD_Track_LinkDataSimple_FillParameter_VM_CAD_Builders_Links_BuilderParamLink_"></a> FillParameter\(BuilderParamLink\)
+### FillParameter\(BuilderParamLink\)
 
 ```csharp
 protected override void FillParameter(BuilderParamLink builderParam)
@@ -189,4 +189,5 @@ protected override void FillParameter(BuilderParamLink builderParam)
 #### Parameters
 
 `builderParam` BuilderParamLink
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DesignVariable"></a> Class DesignVariable
+# Class DesignVariable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -185,7 +185,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DesignVariable__ctor"></a> DesignVariable\(\)
+### DesignVariable\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DesignVariable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -193,7 +193,7 @@ Initializes a new instance of the <xref href="VM.Managed.DesignVariable" data-th
 public DesignVariable()
 ```
 
-### <a id="VM_Managed_DesignVariable__ctor_System_String_"></a> DesignVariable\(string\)
+### DesignVariable\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DesignVariable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -209,7 +209,7 @@ Name of the design variable.
 
 ## Properties
 
-### <a id="VM_Managed_DesignVariable_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -221,7 +221,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DesignVariable_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -233,7 +233,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DesignVariable_IsDesignParam"></a> IsDesignParam
+### IsDesignParam
 
 Gets or sets a value indicating whether this instance is the peformance index.
 
@@ -245,7 +245,7 @@ public bool IsDesignParam { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DesignVariable_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -257,7 +257,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DesignVariable_Value"></a> Value
+### Value
 
 Gets the value.
 
@@ -269,7 +269,7 @@ public double Value { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DesignVariable_Variable"></a> Variable
+### Variable
 
 Gets or sets the expression value.
 
@@ -283,7 +283,7 @@ public ExpressionValueVariable Variable { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DesignVariable_BindInterfaceImpl_VM_Managed_TMatrix_VM_Managed_TMatrix_VM_Managed_IInterface_"></a> BindInterfaceImpl\(TMatrix, TMatrix, IInterface\)
+### BindInterfaceImpl\(TMatrix, TMatrix, IInterface\)
 
 Binds the interface [implementation].
 
@@ -305,7 +305,7 @@ The matrix after transformation.
 
 The interface.
 
-### <a id="VM_Managed_DesignVariable_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -319,7 +319,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DesignVariable_FinalizeUpdate"></a> FinalizeUpdate\(\)
+### FinalizeUpdate\(\)
 
 Finalize the update.
 
@@ -331,7 +331,7 @@ public bool FinalizeUpdate()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DesignVariable_GetFullName"></a> GetFullName\(\)
+### GetFullName\(\)
 
 Gets the full name.
 
@@ -345,7 +345,7 @@ public string GetFullName()
 
 The full name.
 
-### <a id="VM_Managed_DesignVariable_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -359,7 +359,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DesignVariable_IsEmptyFinalizeUpdate"></a> IsEmptyFinalizeUpdate\(\)
+### IsEmptyFinalizeUpdate\(\)
 
 ```csharp
 public bool IsEmptyFinalizeUpdate()
@@ -369,7 +369,7 @@ public bool IsEmptyFinalizeUpdate()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DesignVariable_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -387,7 +387,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DesignVariable_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -401,7 +401,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DesignVariable_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -415,7 +415,7 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DesignVariable_OnFinalizeUpdate"></a> OnFinalizeUpdate
+### OnFinalizeUpdate
 
 ```csharp
 public event DesignVariable.FinalizeUpdateCallBack OnFinalizeUpdate
@@ -424,4 +424,5 @@ public event DesignVariable.FinalizeUpdateCallBack OnFinalizeUpdate
 #### Event Type
 
  [DesignVariable](VM.Managed.DesignVariable.md).[FinalizeUpdateCallBack](VM.Managed.DesignVariable.FinalizeUpdateCallBack.md)
+
 

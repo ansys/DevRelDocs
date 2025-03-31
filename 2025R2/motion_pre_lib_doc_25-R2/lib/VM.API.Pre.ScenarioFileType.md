@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_ScenarioFileType"></a> Enum ScenarioFileType
+# Enum ScenarioFileType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -20,6 +20,7 @@ ExportIcfFile
 `ImportIcfFile = 1` 
 
 ImportIcfFile
+
 
 
 

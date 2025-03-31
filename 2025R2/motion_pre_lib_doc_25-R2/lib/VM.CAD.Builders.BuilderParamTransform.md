@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamTransform"></a> Class BuilderParamTransform
+# Class BuilderParamTransform
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -40,7 +40,7 @@ public abstract class BuilderParamTransform : BuilderParamColorGeom
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamTransform__ctor"></a> BuilderParamTransform\(\)
+### BuilderParamTransform\(\)
 
 ```csharp
 protected BuilderParamTransform()
@@ -48,7 +48,7 @@ protected BuilderParamTransform()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamTransform_Transform"></a> Transform
+### Transform
 
 Transformation of the geometry
 
@@ -59,4 +59,5 @@ public TMatrix Transform { get; set; }
 #### Property Value
 
  TMatrix
+
 

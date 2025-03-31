@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorRotatingMass"></a> Class ActuatorRotatingMass
+# Class ActuatorRotatingMass
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -54,7 +54,7 @@ BuilderBase<ActuatorRotatingMass\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorRotatingMass__ctor"></a> ActuatorRotatingMass\(\)
+### ActuatorRotatingMass\(\)
 
 ```csharp
 public ActuatorRotatingMass()
@@ -62,7 +62,7 @@ public ActuatorRotatingMass()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorRotatingMass_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -74,7 +74,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorRotatingMass_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -90,7 +90,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorRotatingMass_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -103,4 +103,5 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

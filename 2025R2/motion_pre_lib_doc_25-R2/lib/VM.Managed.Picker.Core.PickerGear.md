@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerGear"></a> Class PickerGear
+# Class PickerGear
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -50,7 +50,7 @@ public class PickerGear : PickerBase
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_PickerGear__ctor"></a> PickerGear\(\)
+### PickerGear\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerGear" data-throw-if-not-resolved="false"></xref> class
 
@@ -60,7 +60,7 @@ public PickerGear()
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_PickerGear_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
+### Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -80,7 +80,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerGear_GetPickerInfo"></a> GetPickerInfo\(\)
+### GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -92,7 +92,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Picker_Core_PickerGear_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
+### GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -112,7 +112,7 @@ Picking destination key.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerGear_Highlight_System_Boolean_"></a> Highlight\(bool\)
+### Highlight\(bool\)
 
 Picking highlight to filtered target.
 
@@ -126,7 +126,7 @@ public override void Highlight(bool bHighlight)
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
-### <a id="VM_Managed_Picker_Core_PickerGear_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
+### SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -149,4 +149,5 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

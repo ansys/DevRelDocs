@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_VectorBBPP"></a> Class VectorBBPP
+# Class VectorBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  
@@ -61,9 +61,10 @@ BuilderBase<Vector\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Force_VectorBBPP__ctor"></a> VectorBBPP\(\)
+### VectorBBPP\(\)
 
 ```csharp
 public VectorBBPP()
 ```
+
 

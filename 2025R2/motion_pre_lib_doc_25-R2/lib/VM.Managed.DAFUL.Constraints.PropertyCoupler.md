@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_PropertyCoupler"></a> Class PropertyCoupler
+# Class PropertyCoupler
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyCoupler__ctor"></a> PropertyCoupler\(\)
+### PropertyCoupler\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyCoupler" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertyCoupler()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyCoupler_MotionType3"></a> MotionType3
+### MotionType3
 
 Gets or sets the third motion type.
 
@@ -193,7 +193,7 @@ public PropertyCouplerBase.MotionType MotionType3 { get; set; }
 
  [PropertyCouplerBase](VM.Managed.DAFUL.Constraints.PropertyCouplerBase.md).[MotionType](VM.Managed.DAFUL.Constraints.PropertyCouplerBase.MotionType.md)
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyCoupler_Ratio3"></a> Ratio3
+### Ratio3
 
 Gets or sets the third ratio.
 
@@ -207,7 +207,7 @@ public ExpressionValueVariable Ratio3 { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyCoupler_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -220,4 +220,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

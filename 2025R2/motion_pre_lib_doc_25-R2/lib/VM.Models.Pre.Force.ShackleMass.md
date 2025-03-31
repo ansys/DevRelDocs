@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_ShackleMass"></a> Class ShackleMass
+# Class ShackleMass
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Force_ShackleMass__ctor"></a> ShackleMass\(\)
+### ShackleMass\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.ShackleMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public ShackleMass()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Force_ShackleMass_InertiaXX"></a> InertiaXX
+### InertiaXX
 
 Gets or sets the inertia XX.
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable InertiaXX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_ShackleMass_InertiaYY"></a> InertiaYY
+### InertiaYY
 
 Gets or sets the inertia YY.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable InertiaYY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_ShackleMass_InertiaZZ"></a> InertiaZZ
+### InertiaZZ
 
 Gets or sets the inertia ZZ.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable InertiaZZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_ShackleMass_Mass"></a> Mass
+### Mass
 
 Gets or sets the mass.
 
@@ -153,4 +153,5 @@ public ExpressionValueVariable Mass { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

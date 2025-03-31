@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_SlidingBearing"></a> Class SlidingBearing
+# Class SlidingBearing
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -65,7 +65,7 @@ BuilderBase<SlidingBearing\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_SlidingBearing__ctor"></a> SlidingBearing\(\)
+### SlidingBearing\(\)
 
 ```csharp
 public SlidingBearing()
@@ -73,7 +73,7 @@ public SlidingBearing()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_SlidingBearing_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 Called when [post build].
 
@@ -94,4 +94,5 @@ The document.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

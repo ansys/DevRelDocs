@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_GapExpressionType"></a> Enum GapExpressionType
+# Enum GapExpressionType
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -20,6 +20,7 @@ When the segment is located on path, segment length include the gap.
 `On = 1` 
 
 When the segment is located, segment length does not include the gap.
+
 
 
 

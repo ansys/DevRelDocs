@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldTwoPoint"></a> Class WeldTwoPoint
+# Class WeldTwoPoint
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  
@@ -66,7 +66,7 @@ BuilderBase<Weld\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldTwoPoint__ctor"></a> WeldTwoPoint\(\)
+### WeldTwoPoint\(\)
 
 ```csharp
 public WeldTwoPoint()
@@ -74,7 +74,7 @@ public WeldTwoPoint()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldTwoPoint_Number"></a> Number
+### Number
 
 ```csharp
 public Variable Number { get; set; }
@@ -86,7 +86,7 @@ public Variable Number { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldTwoPoint_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -102,7 +102,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldTwoPoint_SetInputResultData"></a> SetInputResultData\(\)
+### SetInputResultData\(\)
 
 ```csharp
 protected override bool SetInputResultData()
@@ -112,7 +112,7 @@ protected override bool SetInputResultData()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldTwoPoint_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -125,4 +125,5 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

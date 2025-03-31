@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1"></a> Class ForcePropertyDocument<TProp\>
+# Class ForcePropertyDocument<TProp\>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -307,7 +307,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1__ctor"></a> ForcePropertyDocument\(\)
+### ForcePropertyDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.ForcePropertyDocument%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -317,7 +317,7 @@ public ForcePropertyDocument()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_AddImpl_VM_Managed_ObjectBase_"></a> AddImpl\(ObjectBase\)
+### AddImpl\(ObjectBase\)
 
 Adds the specified object [implementation].
 
@@ -331,7 +331,7 @@ protected override void AddImpl(ObjectBase obj)
 
 The object.
 
-### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -351,7 +351,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_IsEnabledImpl_VM_Managed_ObjectBase_"></a> IsEnabledImpl\(ObjectBase\)
+### IsEnabledImpl\(ObjectBase\)
 
 Determines whether is enabled [the specified object] [implemetation].
 
@@ -371,7 +371,7 @@ The object.
 
 <code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_IsTypeSupported_System_Type_"></a> IsTypeSupported\(Type\)
+### IsTypeSupported\(Type\)
 
 Determines whether is [type supported] [the specified type].
 
@@ -385,7 +385,7 @@ public override void IsTypeSupported(Type type)
 
 The type.
 
-### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_OnPostMakeDocument_VM_Managed_DocCreateInfo_"></a> OnPostMakeDocument\(DocCreateInfo\)
+### OnPostMakeDocument\(DocCreateInfo\)
 
 Called when [post make document].
 
@@ -399,7 +399,7 @@ protected override void OnPostMakeDocument(DocCreateInfo docCreateInfo)
 
 The [document create] information.
 
-### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_SetEnableImpl_VM_Managed_ObjectBase_System_Boolean_"></a> SetEnableImpl\(ObjectBase, bool\)
+### SetEnableImpl\(ObjectBase, bool\)
 
 Sets the enable [implemetation].
 
@@ -417,7 +417,7 @@ The object.
 
 if set to <code>true</code> enable.
 
-### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_UpdateEnable_VM_Managed_ObjectBase_System_Boolean_"></a> UpdateEnable\(ObjectBase, bool\)
+### UpdateEnable\(ObjectBase, bool\)
 
 Updates the enable.
 
@@ -434,4 +434,5 @@ The object.
 `bEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> enabled.
+
 

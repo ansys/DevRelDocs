@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PseudoEntity"></a> Class PseudoEntity
+# Class PseudoEntity
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -164,7 +164,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoEntity__ctor"></a> PseudoEntity\(\)
+### PseudoEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -174,7 +174,7 @@ public PseudoEntity()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoEntity_FullName"></a> FullName
+### FullName
 
 Gets the full name.
 
@@ -186,7 +186,7 @@ public string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoEntity_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -198,7 +198,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoEntity_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -210,7 +210,7 @@ public abstract string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoEntity_NonSymmetricName"></a> NonSymmetricName
+### NonSymmetricName
 
 Gets the name of the non symmetric.
 
@@ -224,7 +224,7 @@ public string NonSymmetricName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoEntity_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the specified canvas.
 
@@ -238,7 +238,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoEntity_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the model navigator information implementation.
 
@@ -264,11 +264,12 @@ if set to <code>true</code> [b has child].
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoEntity_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Res the draw.
 
 ```csharp
 public void ReDraw()
 ```
+
 

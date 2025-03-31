@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_BushBase_2"></a> Class BushBase<TSetDirection, TSetOrientation\>
+# Class BushBase<TSetDirection, TSetOrientation\>
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFB.dll  
@@ -67,7 +67,7 @@ BuilderBase<Bush\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Force_BushBase_2__ctor"></a> BushBase\(\)
+### BushBase\(\)
 
 ```csharp
 public BushBase()
@@ -75,7 +75,7 @@ public BushBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Force_BushBase_2_PropertyFilePath"></a> PropertyFilePath
+### PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -87,7 +87,7 @@ public string PropertyFilePath { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Force_BushBase_2_HookBeforeReplace_VM_Managed_Property_"></a> HookBeforeReplace\(Property\)
+### HookBeforeReplace\(Property\)
 
 ```csharp
 protected override void HookBeforeReplace(Property propertyOriginal)
@@ -97,7 +97,7 @@ protected override void HookBeforeReplace(Property propertyOriginal)
 
 `propertyOriginal` Property
 
-### <a id="VM_Managed_DAFUL_Builder_Force_BushBase_2_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
+### OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -106,4 +106,5 @@ protected override void OnPostAddDoc(ObjectBase ob)
 #### Parameters
 
 `ob` ObjectBase
+
 

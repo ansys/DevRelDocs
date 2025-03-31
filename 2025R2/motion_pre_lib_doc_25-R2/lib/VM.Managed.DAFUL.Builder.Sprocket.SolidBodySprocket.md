@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket"></a> Class SolidBodySprocket
+# Class SolidBodySprocket
 
 Namespace: [VM.Managed.DAFUL.Builder.Sprocket](VM.Managed.DAFUL.Builder.Sprocket.md)  
 Assembly: VMBldSprocket.dll  
@@ -53,7 +53,7 @@ BuilderBase<SolidBodySprocket\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket__ctor"></a> SolidBodySprocket\(\)
+### SolidBodySprocket\(\)
 
 ```csharp
 public SolidBodySprocket()
@@ -61,7 +61,7 @@ public SolidBodySprocket()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket_AddToDoc"></a> AddToDoc
+### AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -71,7 +71,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket_Color"></a> Color
+### Color
 
 ```csharp
 public string Color { get; set; }
@@ -81,7 +81,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket_Interface"></a> Interface
+### Interface
 
 ```csharp
 public bool Interface { get; set; }
@@ -91,7 +91,7 @@ public bool Interface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket_ProfileType"></a> ProfileType
+### ProfileType
 
 ```csharp
 public ToothProfileType ProfileType { get; set; }
@@ -101,7 +101,7 @@ public ToothProfileType ProfileType { get; set; }
 
  ToothProfileType
 
-### <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket_SprocketType"></a> SprocketType
+### SprocketType
 
 ```csharp
 public SprocketType SprocketType { get; set; }
@@ -113,7 +113,7 @@ public SprocketType SprocketType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
+### OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -123,7 +123,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -138,4 +138,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

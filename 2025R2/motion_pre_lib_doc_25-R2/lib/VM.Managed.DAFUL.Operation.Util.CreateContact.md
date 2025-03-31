@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_Util_CreateContact"></a> Class CreateContact
+# Class CreateContact
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class CreateContact
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact__ctor"></a> CreateContact\(\)
+### CreateContact\(\)
 
 ```csharp
 public CreateContact()
@@ -30,7 +30,7 @@ public CreateContact()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_CreateGeneralContact_VM_Managed_Document3D_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_System_String_"></a> CreateGeneralContact\(Document3D, IObjectBase, IObjectBase, string\)
+### CreateGeneralContact\(Document3D, IObjectBase, IObjectBase, string\)
 
 Create the rigid to rigid 3D contact.
 
@@ -62,7 +62,7 @@ The rigid to rigid 3D contact prefix name.
 
 The new rigid to rigid 3D contact.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_CreateGeneralContact_VM_Managed_Document3D_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_System_String_System_Boolean_"></a> CreateGeneralContact\(Document3D, IObjectBase, IObjectBase, string, bool\)
+### CreateGeneralContact\(Document3D, IObjectBase, IObjectBase, string, bool\)
 
 Create the rigid to rigid 3D contact.
 
@@ -98,7 +98,7 @@ Flag for creating a new entity if there is already an entity with the same name
 
 The new rigid to rigid 3D contact.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_CreateGeneralContact_VM_Managed_Document_System_String_VM_Managed_CAD_Body_VM_Managed_CAD_Body_System_Double_"></a> CreateGeneralContact\(Document, string, Body, Body, double\)
+### CreateGeneralContact\(Document, string, Body, Body, double\)
 
 Create general contact.
 
@@ -132,7 +132,7 @@ The tolerance
 
  GeneralContact
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_CreateMbyNContactContact_VM_Managed_Document3D_VM_Managed_DAFUL_Contact_MultipleContactInfo___VM_Managed_DAFUL_Contact_MultipleContactInfo___System_String_System_Boolean_"></a> CreateMbyNContactContact\(Document3D, MultipleContactInfo\[\], MultipleContactInfo\[\], string, bool\)
+### CreateMbyNContactContact\(Document3D, MultipleContactInfo\[\], MultipleContactInfo\[\], string, bool\)
 
 Create the rigid to rigid 3D contact.
 
@@ -168,7 +168,7 @@ Flag for creating a new entity if there is already an entity with the same name
 
 The new rigid to rigid 3D contact.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_CreateMbyNGeneralContact_VM_Managed_Document3D_VM_Managed_DAFUL_Contact_MultipleContactInfo___VM_Managed_DAFUL_Contact_MultipleContactInfo___System_String_"></a> CreateMbyNGeneralContact\(Document3D, MultipleContactInfo\[\], MultipleContactInfo\[\], string\)
+### CreateMbyNGeneralContact\(Document3D, MultipleContactInfo\[\], MultipleContactInfo\[\], string\)
 
 Create the rigid to rigid 3D contact.
 
@@ -200,7 +200,7 @@ The rigid to rigid 3D contact prefix name.
 
 The new rigid to rigid 3D contact.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_CreateRTR3D_VM_Managed_Document3D_VM_Managed_DAFUL_IContactableRigid3D_VM_Managed_DAFUL_IContactableRigid3D_System_String_"></a> CreateRTR3D\(Document3D, IContactableRigid3D, IContactableRigid3D, string\)
+### CreateRTR3D\(Document3D, IContactableRigid3D, IContactableRigid3D, string\)
 
 Create the rigid to rigid 3D contact.
 
@@ -232,7 +232,7 @@ The rigid to rigid 3D contact prefix name.
 
 The new rigid to rigid 3D contact.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_GetMultipleInfoList_System_Collections_Generic_List_VM_Managed_DAFUL_IContactable__System_Boolean_"></a> GetMultipleInfoList\(List<IContactable\>, bool\)
+### GetMultipleInfoList\(List<IContactable\>, bool\)
 
 ```csharp
 public static MultipleContactInfo[] GetMultipleInfoList(List<IContactable> lst, bool isFront)
@@ -248,7 +248,7 @@ public static MultipleContactInfo[] GetMultipleInfoList(List<IContactable> lst, 
 
  MultipleContactInfo\[\]
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateContact_TryGetGeometry_VM_Models_Pre_IObjectBase_VM_Managed_DAFUL_IContactable__VM_Managed_Document_"></a> TryGetGeometry\(IObjectBase, out IContactable, Document\)
+### TryGetGeometry\(IObjectBase, out IContactable, Document\)
 
 ```csharp
 public static bool TryGetGeometry(IObjectBase objectBase, out IContactable geometry, Document doc)
@@ -265,4 +265,5 @@ public static bool TryGetGeometry(IObjectBase objectBase, out IContactable geome
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

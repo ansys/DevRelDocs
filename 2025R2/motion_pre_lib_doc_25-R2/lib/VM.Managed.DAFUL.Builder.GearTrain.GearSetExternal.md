@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetExternal"></a> Class GearSetExternal
+# Class GearSetExternal
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -73,7 +73,7 @@ BuilderBase<GearSet\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetExternal__ctor"></a> GearSetExternal\(\)
+### GearSetExternal\(\)
 
 ```csharp
 public GearSetExternal()
@@ -81,7 +81,7 @@ public GearSetExternal()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetExternal_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -96,4 +96,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

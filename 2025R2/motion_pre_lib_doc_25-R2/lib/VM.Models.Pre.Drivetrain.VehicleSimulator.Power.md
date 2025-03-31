@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power"></a> Class Power
+# Class Power
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -52,7 +52,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power__ctor_System_Guid_System_String_"></a> Power\(Guid, string\)
+### Power\(Guid, string\)
 
 ```csharp
 [JsonConstructor]
@@ -67,7 +67,7 @@ public Power(Guid guid, string name)
 
 ## Properties
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_ClutchStiffness"></a> ClutchStiffness
+### ClutchStiffness
 
 ```csharp
 public double ClutchStiffness { get; set; }
@@ -77,7 +77,7 @@ public double ClutchStiffness { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DampingRatio"></a> DampingRatio
+### DampingRatio
 
 ```csharp
 public double DampingRatio { get; set; }
@@ -87,7 +87,7 @@ public double DampingRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DisengageDuration"></a> DisengageDuration
+### DisengageDuration
 
 ```csharp
 public double DisengageDuration { get; set; }
@@ -97,7 +97,7 @@ public double DisengageDuration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DisengageShiftPattern"></a> DisengageShiftPattern
+### DisengageShiftPattern
 
 ```csharp
 public ObservableCollection<DataPoint> DisengageShiftPattern { get; }
@@ -107,7 +107,7 @@ public ObservableCollection<DataPoint> DisengageShiftPattern { get; }
 
  [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DisengageShiftPatternCount"></a> DisengageShiftPatternCount
+### DisengageShiftPatternCount
 
 ```csharp
 [JsonIgnore]
@@ -118,7 +118,7 @@ public int? DisengageShiftPatternCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DisplayName"></a> DisplayName
+### DisplayName
 
 ```csharp
 public string DisplayName { get; }
@@ -128,7 +128,7 @@ public string DisplayName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DistributionRatios"></a> DistributionRatios
+### DistributionRatios
 
 ```csharp
 [JsonIgnore]
@@ -140,7 +140,7 @@ public ObservableCollection<DataPoint> DistributionRatios { get; }
 
  [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_EnableClutch"></a> EnableClutch
+### EnableClutch
 
 ```csharp
 public bool EnableClutch { get; set; }
@@ -150,7 +150,7 @@ public bool EnableClutch { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_EngageDuration"></a> EngageDuration
+### EngageDuration
 
 ```csharp
 public double EngageDuration { get; set; }
@@ -160,7 +160,7 @@ public double EngageDuration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_EngageShiftPattern"></a> EngageShiftPattern
+### EngageShiftPattern
 
 ```csharp
 public ObservableCollection<DataPoint> EngageShiftPattern { get; }
@@ -170,7 +170,7 @@ public ObservableCollection<DataPoint> EngageShiftPattern { get; }
 
  [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_EngageShiftPatternCount"></a> EngageShiftPatternCount
+### EngageShiftPatternCount
 
 ```csharp
 [JsonIgnore]
@@ -181,7 +181,7 @@ public int? EngageShiftPatternCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_FullName"></a> FullName
+### FullName
 
 ```csharp
 public string FullName { get; }
@@ -191,7 +191,7 @@ public string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_GearRatio"></a> GearRatio
+### GearRatio
 
 ```csharp
 public ObservableCollection<double> GearRatio { get; }
@@ -201,7 +201,7 @@ public ObservableCollection<double> GearRatio { get; }
 
  [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_Guid"></a> Guid
+### Guid
 
 ```csharp
 public Guid Guid { get; }
@@ -211,7 +211,7 @@ public Guid Guid { get; }
 
  [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_IsRegenerativeBrakeRole"></a> IsRegenerativeBrakeRole
+### IsRegenerativeBrakeRole
 
 ```csharp
 [JsonIgnore]
@@ -222,7 +222,7 @@ public bool IsRegenerativeBrakeRole { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_IsValid"></a> IsValid
+### IsValid
 
 ```csharp
 public override bool IsValid { get; }
@@ -232,7 +232,7 @@ public override bool IsValid { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_MomentOfInertia"></a> MomentOfInertia
+### MomentOfInertia
 
 ```csharp
 public double MomentOfInertia { get; set; }
@@ -242,7 +242,7 @@ public double MomentOfInertia { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -252,7 +252,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_RegenerativeBrakeRatio"></a> RegenerativeBrakeRatio
+### RegenerativeBrakeRatio
 
 ```csharp
 public ObservableCollection<DataPoint> RegenerativeBrakeRatio { get; }
@@ -262,7 +262,7 @@ public ObservableCollection<DataPoint> RegenerativeBrakeRatio { get; }
 
  [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_Role"></a> Role
+### Role
 
 ```csharp
 public PowerRoles Role { get; set; }
@@ -272,7 +272,7 @@ public PowerRoles Role { get; set; }
 
  [PowerRoles](VM.Models.Pre.Drivetrain.VehicleSimulator.PowerRoles.md)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_ShiftDuration"></a> ShiftDuration
+### ShiftDuration
 
 ```csharp
 public double ShiftDuration { get; set; }
@@ -282,7 +282,7 @@ public double ShiftDuration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_TorqueMap"></a> TorqueMap
+### TorqueMap
 
 ```csharp
 public TorqueMap TorqueMap { get; set; }
@@ -294,9 +294,10 @@ public TorqueMap TorqueMap { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Power_DisposeManagedResources"></a> DisposeManagedResources\(\)
+### DisposeManagedResources\(\)
 
 ```csharp
 protected override void DisposeManagedResources()
 ```
+
 

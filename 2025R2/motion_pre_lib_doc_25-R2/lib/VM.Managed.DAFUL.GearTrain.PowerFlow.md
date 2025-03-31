@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PowerFlow"></a> Class PowerFlow
+# Class PowerFlow
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow__ctor"></a> PowerFlow\(\)
+### PowerFlow\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PowerFlow" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PowerFl
 public PowerFlow()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow__ctor_VM_Models_Pre_IOwned_"></a> PowerFlow\(IOwned\)
+### PowerFlow\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PowerFlow" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_DurationValue"></a> DurationValue
+### DurationValue
 
 Gets or sets the duration.
 
@@ -132,7 +132,7 @@ public double DurationValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_EndTimeValue"></a> EndTimeValue
+### EndTimeValue
 
 Gets or sets the end time.
 
@@ -144,7 +144,7 @@ public double EndTimeValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_GearPairs"></a> GearPairs
+### GearPairs
 
 Gets or sets the gear sets.
 
@@ -166,7 +166,7 @@ GearSet list is null.
             or
             GearSet is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputEndSpeedValue"></a> InputEndSpeedValue
+### InputEndSpeedValue
 
 Gets or sets the input end speed.
 
@@ -178,7 +178,7 @@ public double InputEndSpeedValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputPowerFilePath"></a> InputPowerFilePath
+### InputPowerFilePath
 
 Gets or sets the input power path.
 
@@ -190,7 +190,7 @@ public string InputPowerFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputPowerValue"></a> InputPowerValue
+### InputPowerValue
 
 Gets or sets the input power.
 
@@ -202,7 +202,7 @@ public double InputPowerValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputShaftSet"></a> InputShaftSet
+### InputShaftSet
 
 Gets or sets the input shaft set.
 
@@ -214,7 +214,7 @@ public IHasPowerLoad InputShaftSet { get; set; }
 
  [IHasPowerLoad](VM.Managed.DAFUL.GearTrain.IHasPowerLoad.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputShaftSetInfos"></a> InputShaftSetInfos
+### InputShaftSetInfos
 
 Gets or sets the input shaft set information.
 
@@ -236,7 +236,7 @@ InputShaftSetInfo list is null.
 or
 InputShaftSetInfo is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputSpeedFilePath"></a> InputSpeedFilePath
+### InputSpeedFilePath
 
 Gets or sets the input speed path.
 
@@ -248,7 +248,7 @@ public string InputSpeedFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_InputStartSpeedValue"></a> InputStartSpeedValue
+### InputStartSpeedValue
 
 Gets or sets the input start speed.
 
@@ -260,7 +260,7 @@ public double InputStartSpeedValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_IsExternable"></a> IsExternable
+### IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -272,7 +272,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_IsUseCW"></a> IsUseCW
+### IsUseCW
 
 Gets or sets a value indicating whether this instance is cw.
 
@@ -284,7 +284,7 @@ public bool IsUseCW { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_MaxTorqueValue"></a> MaxTorqueValue
+### MaxTorqueValue
 
 Gets or sets the max torque.
 
@@ -296,7 +296,7 @@ public double MaxTorqueValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_NameOfResult"></a> NameOfResult
+### NameOfResult
 
 Gets or sets the name of the result.
 
@@ -308,7 +308,7 @@ public string NameOfResult { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_NumberOfInterpolation"></a> NumberOfInterpolation
+### NumberOfInterpolation
 
 Gets or sets the number of interpolation.
 
@@ -320,7 +320,7 @@ public double NumberOfInterpolation { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_OutputShaftSetInfos"></a> OutputShaftSetInfos
+### OutputShaftSetInfos
 
 Gets or sets the output shaft set information.
 
@@ -342,7 +342,7 @@ OutputShaftSetInfo list is null.
 or
 OutputShaftSetInfo is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_SamplingFrequencyValue"></a> SamplingFrequencyValue
+### SamplingFrequencyValue
 
 Gets or sets the sampling frequency.
 
@@ -354,7 +354,7 @@ public uint SamplingFrequencyValue { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_TMScenarioFile"></a> TMScenarioFile
+### TMScenarioFile
 
 Gets or sets the TM scenario file.
 
@@ -366,7 +366,7 @@ public string TMScenarioFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_TypeOfSimulation"></a> TypeOfSimulation
+### TypeOfSimulation
 
 Gets or sets the type.
 
@@ -378,7 +378,7 @@ public PowerFlow.SimulationType TypeOfSimulation { get; set; }
 
  [PowerFlow](VM.Managed.DAFUL.GearTrain.PowerFlow.md).[SimulationType](VM.Managed.DAFUL.GearTrain.PowerFlow.SimulationType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_UsableOutputShaftSetInfos"></a> UsableOutputShaftSetInfos
+### UsableOutputShaftSetInfos
 
 Gets the usable output shaftset information
 
@@ -390,7 +390,7 @@ public OutputShaftSetInfo[] UsableOutputShaftSetInfos { get; }
 
  [OutputShaftSetInfo](VM.Managed.DAFUL.GearTrain.OutputShaftSetInfo.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_VehicleSimulatorResultFile"></a> VehicleSimulatorResultFile
+### VehicleSimulatorResultFile
 
 Gets or sets the vehicle simulator result file.
 
@@ -402,7 +402,7 @@ public string VehicleSimulatorResultFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow__InputShaftSet"></a> \_InputShaftSet
+### \_InputShaftSet
 
 Gets or sets the _ input shaft set.
 
@@ -416,7 +416,7 @@ public Linker<IHasPowerLoad> _InputShaftSet { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_AddGearSetForPair_VM_Managed_DAFUL_GearTrain_GearPair_"></a> AddGearSetForPair\(GearPair\)
+### AddGearSetForPair\(GearPair\)
 
 Adds the gear set for pair.
 
@@ -430,7 +430,7 @@ public void AddGearSetForPair(GearPair gp)
 
 The gp.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_AddInputShaftSetInfo_VM_Managed_DAFUL_GearTrain_IHasPowerLoad_"></a> AddInputShaftSetInfo\(IHasPowerLoad\)
+### AddInputShaftSetInfo\(IHasPowerLoad\)
 
 Add to input shaft set information.
 
@@ -448,7 +448,7 @@ The input shaft set.
 
  [InputShaftSetInfo](VM.Managed.DAFUL.GearTrain.InputShaftSetInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_AddOutputShaftSetInfo_VM_Managed_DAFUL_GearTrain_IHasPowerLoad_"></a> AddOutputShaftSetInfo\(IHasPowerLoad\)
+### AddOutputShaftSetInfo\(IHasPowerLoad\)
 
 Add to output shaft set information.
 
@@ -466,7 +466,7 @@ The output shaft set.
 
  [OutputShaftSetInfo](VM.Managed.DAFUL.GearTrain.OutputShaftSetInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_ClearInput"></a> ClearInput\(\)
+### ClearInput\(\)
 
 Clears input data.
 
@@ -474,7 +474,7 @@ Clears input data.
 public void ClearInput()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_ClearOutput"></a> ClearOutput\(\)
+### ClearOutput\(\)
 
 Clears output data.
 
@@ -482,7 +482,7 @@ Clears output data.
 public void ClearOutput()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_GetInputSplineValue_VM_Managed_Document3D_System_ValueTuple_System_String_VM_Managed_DAFUL_SplineValue____System_String_"></a> GetInputSplineValue\(Document3D, \(string, SplineValue\)\[\], string\)
+### GetInputSplineValue\(Document3D, \(string, SplineValue\)\[\], string\)
 
 ```csharp
 public static SplineValue GetInputSplineValue(Document3D doc, (string, SplineValue)[] splineTuple, string strShaftSet)
@@ -500,7 +500,7 @@ public static SplineValue GetInputSplineValue(Document3D doc, (string, SplineVal
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_GetOutputSplineValue_VM_Managed_Document3D_System_ValueTuple_System_String_VM_Managed_DAFUL_SplineValue____System_String_"></a> GetOutputSplineValue\(Document3D, \(string, SplineValue\)\[\], string\)
+### GetOutputSplineValue\(Document3D, \(string, SplineValue\)\[\], string\)
 
 ```csharp
 public static SplineValue GetOutputSplineValue(Document3D doc, (string, SplineValue)[] splineTuple, string strShaftSet)
@@ -518,7 +518,7 @@ public static SplineValue GetOutputSplineValue(Document3D doc, (string, SplineVa
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_GetSplineValueFromResultFile_System_String_"></a> GetSplineValueFromResultFile\(string\)
+### GetSplineValueFromResultFile\(string\)
 
 Gets spline value from TM scenario file.
 
@@ -534,7 +534,7 @@ public static (string, SplineValue)[] GetSplineValueFromResultFile(string strRes
 
  \([string](https://learn.microsoft.com/dotnet/api/system.string), SplineValue\)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_GetSplineValueWithPowerLoad_System_ValueTuple_System_String_VM_Managed_DAFUL_SplineValue____System_String_"></a> GetSplineValueWithPowerLoad\(\(string, SplineValue\)\[\], string\)
+### GetSplineValueWithPowerLoad\(\(string, SplineValue\)\[\], string\)
 
 Gets the spline value with power load
 
@@ -556,7 +556,7 @@ The power load name
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -570,7 +570,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_Remove_VM_Managed_DAFUL_GearTrain_IHasPowerLoad_VM_Managed_DAFUL_GearTrain_PowerLoad_"></a> Remove\(IHasPowerLoad, PowerLoad\)
+### Remove\(IHasPowerLoad, PowerLoad\)
 
 Removes the power load information.
 
@@ -588,7 +588,7 @@ The shaftset.
 
 The power load.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_RemoveGearSetForPair_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> RemoveGearSetForPair\(GeometryInfoBase\)
+### RemoveGearSetForPair\(GeometryInfoBase\)
 
 Removes the gear set for pair.
 
@@ -602,7 +602,7 @@ public void RemoveGearSetForPair(GeometryInfoBase geometryInfoBase)
 
 The geometry info
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_RemoveInputShaftSetInfo_VM_Managed_DAFUL_GearTrain_InputShaftSetInfo_"></a> RemoveInputShaftSetInfo\(InputShaftSetInfo\)
+### RemoveInputShaftSetInfo\(InputShaftSetInfo\)
 
 Removes the input shaft set information.
 
@@ -616,7 +616,7 @@ public void RemoveInputShaftSetInfo(InputShaftSetInfo info)
 
 The information.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_RemoveOutputShaftSetInfo_VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo_"></a> RemoveOutputShaftSetInfo\(OutputShaftSetInfo\)
+### RemoveOutputShaftSetInfo\(OutputShaftSetInfo\)
 
 Removes the output shaft set information.
 
@@ -629,4 +629,5 @@ public void RemoveOutputShaftSetInfo(OutputShaftSetInfo info)
 `info` [OutputShaftSetInfo](VM.Managed.DAFUL.GearTrain.OutputShaftSetInfo.md)
 
 The information.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_ModalSetting"></a> Class ModalSetting
+# Class ModalSetting
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_ModalSetting__ctor"></a> ModalSetting\(\)
+### ModalSetting\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ModalSetting" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public ModalSetting()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_ModalSetting_Add_VM_Managed_ObjectBase_"></a> Add\(ObjectBase\)
+### Add\(ObjectBase\)
 
 Adds the object.
 
@@ -128,7 +128,7 @@ public override void Add(ObjectBase ob)
 
 The object.
 
-### <a id="VM_Managed_DAFUL_FE_ModalSetting_Contains_VM_Managed_ObjectBase_"></a> Contains\(ObjectBase\)
+### Contains\(ObjectBase\)
 
 Determines whether [contains] the object.
 
@@ -148,7 +148,7 @@ The object.
 
 <code>true</code> if [contains] the object; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_ModalSetting_PostDeserialize_VM_Managed_Simulation_Configuration_"></a> PostDeserialize\(Configuration\)
+### PostDeserialize\(Configuration\)
 
 Posts the deserialize.
 
@@ -162,7 +162,7 @@ public override void PostDeserialize(Configuration config)
 
 The config.
 
-### <a id="VM_Managed_DAFUL_FE_ModalSetting_Remove_VM_Managed_ObjectBase_"></a> Remove\(ObjectBase\)
+### Remove\(ObjectBase\)
 
 Removes the object.
 
@@ -180,7 +180,7 @@ The object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_ModalSetting_Replace_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> Replace\(ObjectBase, ObjectBase\)
+### Replace\(ObjectBase, ObjectBase\)
 
 Replaces the object.
 
@@ -197,4 +197,5 @@ The old object.
 `obNew` ObjectBase
 
 The new object.
+
 

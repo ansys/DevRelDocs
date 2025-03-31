@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre"></a> Namespace VM.Operations.Pre
+# Namespace VM.Operations.Pre
 
 ### Namespaces
 
@@ -13,4 +13,5 @@
 ### Classes
 
  [PropertySetOperation](VM.Operations.Pre.PropertySetOperation.md)
+
 

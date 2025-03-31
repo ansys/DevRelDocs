@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_ChangeSolidBodyAnalysisSettingOperation"></a> Class ChangeSolidBodyAnalysisSettingOperation
+# Class ChangeSolidBodyAnalysisSettingOperation
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Operation_ChangeSolidBodyAnalysisSettingOperation__ctor_VM_Managed_DAFUL_SolidBody_VM_Managed_DAFUL_BodyAnalysisType_"></a> ChangeSolidBodyAnalysisSettingOperation\(SolidBody, BodyAnalysisType\)
+### ChangeSolidBodyAnalysisSettingOperation\(SolidBody, BodyAnalysisType\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.ChangeSolidBodyAnalysisSettingOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -95,7 +95,7 @@ The nodal body.
 
 The type of nodal body.
 
-### <a id="VM_Managed_Operation_ChangeSolidBodyAnalysisSettingOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeSolidBodyAnalysisSettingOperation\(JournalParameter\)
+### ChangeSolidBodyAnalysisSettingOperation\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.ChangeSolidBodyAnalysisSettingOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public ChangeSolidBodyAnalysisSettingOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_Operation_ChangeSolidBodyAnalysisSettingOperation_Name"></a> Name
+### Name
 
 ```csharp
 public override string Name { get; }
@@ -121,7 +121,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Operation_ChangeSolidBodyAnalysisSettingOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute Operation
 
@@ -129,7 +129,7 @@ Execute Operation
 public override void Execute()
 ```
 
-### <a id="VM_Managed_Operation_ChangeSolidBodyAnalysisSettingOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -138,4 +138,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BuilderParamShaft"></a> Class BuilderParamShaft
+# Class BuilderParamShaft
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -34,7 +34,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft__ctor"></a> BuilderParamShaft\(\)
+### BuilderParamShaft\(\)
 
 ```csharp
 public BuilderParamShaft()
@@ -42,7 +42,7 @@ public BuilderParamShaft()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_BallDiameter"></a> BallDiameter
+### BallDiameter
 
 Gets and sets the ball diameter.
 
@@ -54,7 +54,7 @@ public double BallDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_IsRight"></a> IsRight
+### IsRight
 
 Gets or sets a value indicating whether screw is right handed.
 
@@ -66,7 +66,7 @@ public bool IsRight { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_Lead"></a> Lead
+### Lead
 
 Gets and sets the lead.
 
@@ -78,7 +78,7 @@ public double Lead { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_Position"></a> Position
+### Position
 
 Gets and sets the position.
 
@@ -90,7 +90,7 @@ public Vector Position { get; set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftChamperAngle"></a> ShaftChamperAngle
+### ShaftChamperAngle
 
 Gets and sets the shaft champer angle.
 
@@ -102,7 +102,7 @@ public double ShaftChamperAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftConformity"></a> ShaftConformity
+### ShaftConformity
 
 Gets and sets the shaft conformity.
 
@@ -114,7 +114,7 @@ public double ShaftConformity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftContactAngle"></a> ShaftContactAngle
+### ShaftContactAngle
 
 Gets and sets the shaft contact angle.
 
@@ -126,7 +126,7 @@ public double ShaftContactAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftLength"></a> ShaftLength
+### ShaftLength
 
 Gets and sets the shaft length.
 
@@ -138,7 +138,7 @@ public double ShaftLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftOuterRadius"></a> ShaftOuterRadius
+### ShaftOuterRadius
 
 Gets and sets the shaft outer radius.
 
@@ -150,7 +150,7 @@ public double ShaftOuterRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftPCD"></a> ShaftPCD
+### ShaftPCD
 
 Gets and sets the shaft PCD.
 
@@ -162,7 +162,7 @@ public double ShaftPCD { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftScrewEndLength"></a> ShaftScrewEndLength
+### ShaftScrewEndLength
 
 Gets and sets the shaft screw end length.
 
@@ -174,7 +174,7 @@ public double ShaftScrewEndLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftScrewStartAngle"></a> ShaftScrewStartAngle
+### ShaftScrewStartAngle
 
 Gets and sets the shaft screw start angle.
 
@@ -186,7 +186,7 @@ public double ShaftScrewStartAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftScrewStartLength"></a> ShaftScrewStartLength
+### ShaftScrewStartLength
 
 Gets and sets the shaft screw start length.
 
@@ -198,7 +198,7 @@ public double ShaftScrewStartLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftShoulderRadius"></a> ShaftShoulderRadius
+### ShaftShoulderRadius
 
 Gets and sets the shaft shoulder radius.
 
@@ -210,7 +210,7 @@ public double ShaftShoulderRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftShoulderType"></a> ShaftShoulderType
+### ShaftShoulderType
 
 Gets and sets the shaft shoulder type.
 
@@ -222,7 +222,7 @@ public int ShaftShoulderType { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ShaftStartArcAngle"></a> ShaftStartArcAngle
+### ShaftStartArcAngle
 
 Gets and sets the shaft start arc angle.
 
@@ -234,7 +234,7 @@ public double ShaftStartArcAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_XAxis"></a> XAxis
+### XAxis
 
 Gets and sets the x-axis.
 
@@ -246,7 +246,7 @@ public Vector XAxis { get; set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_BuilderParamShaft_ZAxis"></a> ZAxis
+### ZAxis
 
 Gets and sets the z-axis.
 
@@ -257,4 +257,5 @@ public Vector ZAxis { get; set; }
 #### Property Value
 
  Vector
+
 

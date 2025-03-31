@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase"></a> Class PropertyShaftSetBase
+# Class PropertyShaftSetBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -198,7 +198,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase__ctor"></a> PropertyShaftSetBase\(\)
+### PropertyShaftSetBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyShaftSetBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ public PropertyShaftSetBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AssemblyTolerance"></a> AssemblyTolerance
+### AssemblyTolerance
 
 Gets or sets the assembly tolerance
 
@@ -220,7 +220,7 @@ public static double AssemblyTolerance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_BeamSectionRatio"></a> BeamSectionRatio
+### BeamSectionRatio
 
 Gets or sets the beam section ratio.
 
@@ -232,7 +232,7 @@ public ExpressionValueVariable BeamSectionRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_Color"></a> Color
+### Color
 
 Gets or sets the color.
 Use SetColor() when this instance sets for undo/redo
@@ -245,7 +245,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_DrawingColor"></a> DrawingColor
+### DrawingColor
 
 Gets the color of the drawing.
 
@@ -257,7 +257,7 @@ public Color DrawingColor { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_EccentricDirection"></a> EccentricDirection
+### EccentricDirection
 
 Gets or sets the eccentric direction.
 
@@ -269,7 +269,7 @@ public DirectionBase EccentricDirection { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_InputPowerLoad"></a> InputPowerLoad
+### InputPowerLoad
 
 Gets the input power load.
 
@@ -281,7 +281,7 @@ public PowerLoad InputPowerLoad { get; }
 
  [PowerLoad](VM.Managed.DAFUL.GearTrain.PowerLoad.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_MeasurePoints"></a> MeasurePoints
+### MeasurePoints
 
 Gets or sets the Measure points.
 
@@ -293,7 +293,7 @@ public MeasurePoint[] MeasurePoints { get; set; }
 
  [MeasurePoint](VM.Managed.DAFUL.GearTrain.MeasurePoint.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_OutputPowerLoad"></a> OutputPowerLoad
+### OutputPowerLoad
 
 Gets the output power load.
 
@@ -305,7 +305,7 @@ public PowerLoad OutputPowerLoad { get; }
 
  [PowerLoad](VM.Managed.DAFUL.GearTrain.PowerLoad.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_PowerLoads"></a> PowerLoads
+### PowerLoads
 
 Gets or sets the power loads.
 
@@ -317,7 +317,7 @@ public PowerLoad[] PowerLoads { get; set; }
 
  [PowerLoad](VM.Managed.DAFUL.GearTrain.PowerLoad.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_SectionInfos"></a> SectionInfos
+### SectionInfos
 
 Gets or sets the section infos.
 
@@ -339,7 +339,7 @@ Section Info list is null.
 or
 Section information object is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_StartAxis"></a> StartAxis
+### StartAxis
 
 Gets or sets the start axis.
 
@@ -351,7 +351,7 @@ public DirectionBase StartAxis { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_StartAxisValue"></a> StartAxisValue
+### StartAxisValue
 
 Gets the start axis value.
 
@@ -363,7 +363,7 @@ public VectorBase StartAxisValue { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_StartPoint"></a> StartPoint
+### StartPoint
 
 Gets or sets the start point.
 
@@ -375,7 +375,7 @@ public PointBase StartPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_TotalSectionLength"></a> TotalSectionLength
+### TotalSectionLength
 
 Gets the total length of the section.
 
@@ -387,7 +387,7 @@ public double TotalSectionLength { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_UseMiddleElementReferenceFrame"></a> UseMiddleElementReferenceFrame
+### UseMiddleElementReferenceFrame
 
 Use middle element reference frame
 
@@ -399,7 +399,7 @@ public bool UseMiddleElementReferenceFrame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_WidthForDurabilityAnalysis"></a> WidthForDurabilityAnalysis
+### WidthForDurabilityAnalysis
 
 Gets or sets the width for durability analysis.
 
@@ -413,7 +413,7 @@ public ExpressionValueVariable WidthForDurabilityAnalysis { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AddGearInfo_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_System_Double_VM_Managed_Document3D_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_"></a> AddGearInfo\(GearGeometryInfo, double, Document3D, IOpenDesignerForGearTrain, RacewayGeometryInfo\)
+### AddGearInfo\(GearGeometryInfo, double, Document3D, IOpenDesignerForGearTrain, RacewayGeometryInfo\)
 
 Adds the gear information.
 
@@ -447,7 +447,7 @@ The r information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AddGeometryInfo_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_System_Double_VM_Managed_Document3D_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_"></a> AddGeometryInfo\(GeometryInfoBase, double, Document3D, IOpenDesignerForGearTrain\)
+### AddGeometryInfo\(GeometryInfoBase, double, Document3D, IOpenDesignerForGearTrain\)
 
 Adds the geometry information.
 
@@ -477,7 +477,7 @@ The object parent.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AddGeometryInfo_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_System_Double_VM_Managed_Document3D_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_System_Boolean_"></a> AddGeometryInfo\(GeometryInfoBase, double, Document3D, IOpenDesignerForGearTrain, bool\)
+### AddGeometryInfo\(GeometryInfoBase, double, Document3D, IOpenDesignerForGearTrain, bool\)
 
 Adds the geometry information.
 
@@ -511,7 +511,7 @@ The object rack.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AddMeasurePoint_VM_Managed_DAFUL_GearTrain_MeasurePoint_"></a> AddMeasurePoint\(MeasurePoint\)
+### AddMeasurePoint\(MeasurePoint\)
 
 Adds the Measure point.
 
@@ -525,7 +525,7 @@ public void AddMeasurePoint(MeasurePoint ip)
 
 The ip.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AddPowerLoad_VM_Managed_DAFUL_GearTrain_PowerLoad_"></a> AddPowerLoad\(PowerLoad\)
+### AddPowerLoad\(PowerLoad\)
 
 Adds the power load.
 
@@ -539,7 +539,7 @@ public void AddPowerLoad(PowerLoad pl)
 
 The pl.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_AddSectionInfo_VM_Managed_DAFUL_GearTrain_SectionInfo_"></a> AddSectionInfo\(SectionInfo\)
+### AddSectionInfo\(SectionInfo\)
 
 Adds the section information.
 
@@ -553,7 +553,7 @@ public void AddSectionInfo(SectionInfo info)
 
 The information.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_ClearSectionInfo"></a> ClearSectionInfo\(\)
+### ClearSectionInfo\(\)
 
 Clear section information.
 
@@ -561,7 +561,7 @@ Clear section information.
 public void ClearSectionInfo()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds the specified string name.
 
@@ -579,7 +579,7 @@ Name of the string.
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_FindRack_System_Double_System_Double_VM_Managed_Document3D_"></a> FindRack\(double, double, Document3D\)
+### FindRack\(double, double, Document3D\)
 
 Finds the rack from geom information.
 
@@ -605,7 +605,7 @@ The document.
 
  [Section](VM.Managed.DAFUL.GearTrain.CAD.Section.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_FindSection_System_Double_System_Double_VM_Managed_Document3D_"></a> FindSection\(double, double, Document3D\)
+### FindSection\(double, double, Document3D\)
 
 Finds the section from gear information.
 
@@ -631,7 +631,7 @@ The document.
 
  [Section](VM.Managed.DAFUL.GearTrain.CAD.Section.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_FindSection_System_Double_"></a> FindSection\(double\)
+### FindSection\(double\)
 
 Find section
 
@@ -649,7 +649,7 @@ THe offset
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_FindSectionWithGearInfo_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_System_Double_"></a> FindSectionWithGearInfo\(GearGeometryInfo, double\)
+### FindSectionWithGearInfo\(GearGeometryInfo, double\)
 
 Finds the section with gear information.
 
@@ -671,7 +671,7 @@ The d offset.
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_FindSectionWithRacewayInfo_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_System_Double_"></a> FindSectionWithRacewayInfo\(RacewayGeometryInfo, double\)
+### FindSectionWithRacewayInfo\(RacewayGeometryInfo, double\)
 
 Finds the section with raceway information.
 
@@ -693,7 +693,7 @@ The d offset.
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_FindSectionWithSlidingBearingInfo_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_System_Double_"></a> FindSectionWithSlidingBearingInfo\(SBGeometryInfo, double\)
+### FindSectionWithSlidingBearingInfo\(SBGeometryInfo, double\)
 
 Finds the section with sliding bearing information.
 
@@ -715,7 +715,7 @@ The d offset.
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetBearingStartEndPoint"></a> GetBearingStartEndPoint\(\)
+### GetBearingStartEndPoint\(\)
 
 Gets the bearing start end point.
 
@@ -727,7 +727,7 @@ public List<Vector> GetBearingStartEndPoint()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetGearStartEndPoint"></a> GetGearStartEndPoint\(\)
+### GetGearStartEndPoint\(\)
 
 Gets the gear start end point.
 
@@ -739,7 +739,7 @@ public List<Vector> GetGearStartEndPoint()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetGlobalAxisCore_VM_Managed_CAD_Body___System_Collections_Generic_List_VM_Managed_VectorBase_____"></a> GetGlobalAxisCore\(Body\[\], ref List<VectorBase\[\]\>\)
+### GetGlobalAxisCore\(Body\[\], ref List<VectorBase\[\]\>\)
 
 Get the global axis
 
@@ -757,7 +757,7 @@ The body list.
 
 vector list.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetLengthUntilTargetSegment_VM_Managed_DAFUL_GearTrain_SectionInfo_"></a> GetLengthUntilTargetSegment\(SectionInfo\)
+### GetLengthUntilTargetSegment\(SectionInfo\)
 
 Gets the length until target segment.
 
@@ -777,7 +777,7 @@ The target segment.
 
 The length until target segment.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetNewNameFromMeasurePoint_System_String_"></a> GetNewNameFromMeasurePoint\(string\)
+### GetNewNameFromMeasurePoint\(string\)
 
 Gets the new name from Measure point.
 
@@ -795,7 +795,7 @@ The string prefix.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetNewNameFromPowerLoad_System_String_"></a> GetNewNameFromPowerLoad\(string\)
+### GetNewNameFromPowerLoad\(string\)
 
 Gets the new name from power load.
 
@@ -813,7 +813,7 @@ The string prefix.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetNextLocationPoint_VM_Managed_DAFUL_GearTrain_SectionGeometryBase_VM_Managed_Vector_VM_Managed_VectorBase_"></a> GetNextLocationPoint\(SectionGeometryBase, Vector, VectorBase\)
+### GetNextLocationPoint\(SectionGeometryBase, Vector, VectorBase\)
 
 Gets the next location.
 
@@ -839,7 +839,7 @@ The offset direction.
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetPowerLoadPoint"></a> GetPowerLoadPoint\(\)
+### GetPowerLoadPoint\(\)
 
 Gets the power load point.
 
@@ -851,7 +851,7 @@ public List<Vector> GetPowerLoadPoint()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_GetShaftStartEndPoint"></a> GetShaftStartEndPoint\(\)
+### GetShaftStartEndPoint\(\)
 
 Gets the shaft start end point.
 
@@ -863,7 +863,7 @@ public List<Vector> GetShaftStartEndPoint()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -877,7 +877,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_InsertSectionInfo_VM_Managed_DAFUL_GearTrain_SectionInfo_VM_Managed_DAFUL_GearTrain_SectionInfo___"></a> InsertSectionInfo\(SectionInfo, SectionInfo\[\]\)
+### InsertSectionInfo\(SectionInfo, SectionInfo\[\]\)
 
 Inserts the section information.
 
@@ -895,7 +895,7 @@ The before section information.
 
 The infos.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsContainsNameOfMeasurePoint_System_String_"></a> IsContainsNameOfMeasurePoint\(string\)
+### IsContainsNameOfMeasurePoint\(string\)
 
 Determines whether [is contains name of Measure point] [the specified string name].
 
@@ -913,7 +913,7 @@ Name of the string.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsContainsNameOfPowerLoad_System_String_"></a> IsContainsNameOfPowerLoad\(string\)
+### IsContainsNameOfPowerLoad\(string\)
 
 Determines whether [is contains name of power load] [the specified string name].
 
@@ -931,7 +931,7 @@ Name of the string.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsContainsOffsetOfMeasurePoint_System_Double_"></a> IsContainsOffsetOfMeasurePoint\(double\)
+### IsContainsOffsetOfMeasurePoint\(double\)
 
 Determines whether [is contains offset of Measure point] [the specified d offset].
 
@@ -949,7 +949,7 @@ The d offset.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsContainsOffsetOfPowerLoad_System_Double_"></a> IsContainsOffsetOfPowerLoad\(double\)
+### IsContainsOffsetOfPowerLoad\(double\)
 
 Determines whether [is contains offset of power load] [the specified d offset].
 
@@ -967,7 +967,7 @@ The d offset.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsLooseSameValue_System_Double_System_Double_"></a> IsLooseSameValue\(double, double\)
+### IsLooseSameValue\(double, double\)
 
 Determines whether is same value.
 
@@ -989,7 +989,7 @@ The another value.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsLooseSameVector_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> IsLooseSameVector\(VectorBase, VectorBase\)
+### IsLooseSameVector\(VectorBase, VectorBase\)
 
 Determines whether is same value.
 
@@ -1011,7 +1011,7 @@ The another value.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsSameValue_System_Double_System_Double_"></a> IsSameValue\(double, double\)
+### IsSameValue\(double, double\)
 
 Determines whether is same value.
 
@@ -1033,7 +1033,7 @@ The another value.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_IsSameVector_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> IsSameVector\(VectorBase, VectorBase\)
+### IsSameVector\(VectorBase, VectorBase\)
 
 Determines whether is same value.
 
@@ -1055,7 +1055,7 @@ The another value.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -1073,7 +1073,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -1091,7 +1091,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -1105,7 +1105,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_RemoveMeasurePoint_VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_"></a> RemoveMeasurePoint\(PointEntityOnShaftSet\)
+### RemoveMeasurePoint\(PointEntityOnShaftSet\)
 
 Removes the Measure point.
 
@@ -1119,7 +1119,7 @@ public void RemoveMeasurePoint(PointEntityOnShaftSet ip)
 
 The ip.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_RemovePowerLoad_VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_"></a> RemovePowerLoad\(PointEntityOnShaftSet\)
+### RemovePowerLoad\(PointEntityOnShaftSet\)
 
 Removes the power load.
 
@@ -1133,7 +1133,7 @@ public void RemovePowerLoad(PointEntityOnShaftSet pl)
 
 The pl.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_RemoveRackSectionInfo_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> RemoveRackSectionInfo\(GearGeometryInfo\)
+### RemoveRackSectionInfo\(GearGeometryInfo\)
 
 Removes the rack section information.
 
@@ -1147,7 +1147,7 @@ public void RemoveRackSectionInfo(GearGeometryInfo gInfo)
 
 The g information.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_RemoveSectionInfo_VM_Managed_DAFUL_GearTrain_SectionInfo_"></a> RemoveSectionInfo\(SectionInfo\)
+### RemoveSectionInfo\(SectionInfo\)
 
 Removes the section information.
 
@@ -1165,7 +1165,7 @@ The information.
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetBase_SetColor_System_String_"></a> SetColor\(string\)
+### SetColor\(string\)
 
 Set color.
 
@@ -1178,4 +1178,5 @@ public void SetColor(string color)
 `color` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The color.
+
 

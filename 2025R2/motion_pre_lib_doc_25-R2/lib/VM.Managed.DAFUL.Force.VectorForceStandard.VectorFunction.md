@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_VectorForceStandard_VectorFunction"></a> Class VectorForceStandard.VectorFunction
+# Class VectorForceStandard.VectorFunction
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_VectorFunction__ctor_VM_Managed_DAFUL_Force_VectorForceStandard_"></a> VectorFunction\(VectorForceStandard\)
+### VectorFunction\(VectorForceStandard\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.VectorForceStandard.VectorFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ public VectorFunction(VectorForceStandard owner)
 
 The owner vector force standard.
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_VectorFunction__ctor_VM_Managed_DAFUL_Function_VM_Managed_DAFUL_Force_VectorForceStandard_"></a> VectorFunction\(Function, VectorForceStandard\)
+### VectorFunction\(Function, VectorForceStandard\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.VectorForceStandard.VectorFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -130,7 +130,7 @@ The owner.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_VectorFunction_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -144,7 +144,7 @@ public Function Function { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_VectorFunction_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
+### ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -158,7 +158,7 @@ public void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_VectorFunction_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -171,4 +171,5 @@ public void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

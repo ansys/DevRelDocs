@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_BrakingConfiguration"></a> Class BrakingConfiguration
+# Class BrakingConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_BrakingConfiguration__ctor"></a> BrakingConfiguration\(\)
+### BrakingConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.BrakingConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.BrakingConfig
 public BrakingConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_BrakingConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisBraking_"></a> BrakingConfiguration\(AnalysisBraking\)
+### BrakingConfiguration\(AnalysisBraking\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.BrakingConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_BrakingConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_BrakingConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_BrakingConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_BrakingConfiguration_BrakingParam"></a> BrakingParam
+### BrakingParam
 
 Gets or sets the braking parameter.
 
@@ -274,4 +274,5 @@ public AnalysisBraking BrakingParam { get; set; }
 #### Property Value
 
  [AnalysisBraking](VM.Managed.DAFUL.Car.AnalysisBraking.md)
+
 

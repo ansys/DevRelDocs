@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_Ogden_Contents"></a> Class Ogden.Contents
+# Class Ogden.Contents
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Material_Ogden_Contents__ctor"></a> Contents\(\)
+### Contents\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Ogden.Contents" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ public Contents()
 
 ## Properties
 
-### <a id="VM_Managed_Material_Ogden_Contents_Alpha"></a> Alpha
+### Alpha
 
 Gets or sets the alpha.
 
@@ -119,7 +119,7 @@ public ExpressionValueVariable Alpha { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ogden_Contents_D"></a> D
+### D
 
 Gets or sets the D.
 
@@ -131,7 +131,7 @@ public ExpressionValueVariable D { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Ogden_Contents_Mu"></a> Mu
+### Mu
 
 Gets or sets the mu.
 
@@ -142,4 +142,5 @@ public ExpressionValueVariable Mu { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRackBuilderForRBEInFE"></a> Class AddedRackBuilderForRBEInFE
+# Class AddedRackBuilderForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -236,7 +236,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRackBuilderForRBEInFE__ctor"></a> AddedRackBuilderForRBEInFE\(\)
+### AddedRackBuilderForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedRackBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -244,7 +244,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Add
 public AddedRackBuilderForRBEInFE()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRackBuilderForRBEInFE__ctor_VM_Managed_DAFUL_GearTrain_CAD_RackGeometryForRBEInFE_"></a> AddedRackBuilderForRBEInFE\(RackGeometryForRBEInFE\)
+### AddedRackBuilderForRBEInFE\(RackGeometryForRBEInFE\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedRackBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -260,7 +260,7 @@ The geometry.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRackBuilderForRBEInFE_LinkRequestUpdating_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdating\(object, LinkEventArgs\)
+### LinkRequestUpdating\(object, LinkEventArgs\)
 
 Links the request updating.
 
@@ -277,4 +277,5 @@ The object notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_ForceAPI"></a> Class ForceAPI
+# Class ForceAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class ForceAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_ForceAPI_CreateBushing_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateBushing\(SubSystemDocument, Obj, Obj, Vector, string, SymmetricType\)
+### CreateBushing\(SubSystemDocument, Obj, Obj, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -79,7 +79,7 @@ Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
-### <a id="VM_API_Pre_ForceAPI_CreateBushing_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateBushing\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### CreateBushing\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -141,7 +141,7 @@ Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
-### <a id="VM_API_Pre_ForceAPI_CreateBushing_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_OMatrix_System_String_VM_Managed_SymmetricType_"></a> CreateBushing\(SubSystemDocument, Obj, Obj, Vector, OMatrix, string, SymmetricType\)
+### CreateBushing\(SubSystemDocument, Obj, Obj, Vector, OMatrix, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -206,7 +206,7 @@ Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
 Will be thrown if the X, Y, Z Vector magnitudes of 'orientation' are equal to 0.
 
-### <a id="VM_API_Pre_ForceAPI_CreateGeneralBearing_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_"></a> CreateGeneralBearing\(SubSystemDocument, Obj, Obj, Vector, Vector, string\)
+### CreateGeneralBearing\(SubSystemDocument, Obj, Obj, Vector, Vector, string\)
 
 Create BearingGeneral
 
@@ -264,7 +264,7 @@ Will be thrown if the magnitude of 'axisZ' is 0 and if the type of 'baseEntity',
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
-### <a id="VM_API_Pre_ForceAPI_CreateLeafSpring_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Managed_TMatrix_VM_Vector_VM_Vector_System_String_"></a> CreateLeafSpring\(SubSystemDocument, Obj, Obj, Obj, TMatrix, Vector, Vector, string\)
+### CreateLeafSpring\(SubSystemDocument, Obj, Obj, Obj, TMatrix, Vector, Vector, string\)
 
 Create <xref href="VM.Models.Pre.Force.LeafSpring" data-throw-if-not-resolved="false"></xref>
 
@@ -337,7 +337,7 @@ Will be thrown if the X, Y, Z Vector magnitudes of 'transform' are equal to 0.
 
 Will be thrown if 'eyePosition' is equal to 'shackleToFramePosition'.
 
-### <a id="VM_API_Pre_ForceAPI_CreateMagnetic_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__"></a> CreateMagnetic\(SubSystemDocument, IEnumerable<Obj\>\)
+### CreateMagnetic\(SubSystemDocument, IEnumerable<Obj\>\)
 
 Create a magnetic.
 
@@ -366,7 +366,7 @@ Will be thrown if 'subSystemDocument', 'groups' is null.
 
 Will be thrown if the type of 'groups' is not <xref href="VM.Managed.DAFUL.Group" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_CreateMatrix_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateMatrix\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### CreateMatrix\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -423,7 +423,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_CreateMatrix_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_Nullable_VM_API_Pre_Obj__System_String_VM_Managed_SymmetricType_"></a> CreateMatrix\(SubSystemDocument, Obj, Obj, Vector, Vector, Obj?, string, SymmetricType\)
+### CreateMatrix\(SubSystemDocument, Obj, Obj, Vector, Vector, Obj?, string, SymmetricType\)
 
 Create <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref>
 
@@ -492,7 +492,7 @@ Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
 Will be thrown if the type of 'userSubroutine' is equal to <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_CreateRotationalScalar_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Nullable_VM_API_Pre_Obj__System_String_VM_Managed_SymmetricType_"></a> CreateRotationalScalar\(SubSystemDocument, Obj, Obj?, string, SymmetricType\)
+### CreateRotationalScalar\(SubSystemDocument, Obj, Obj?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.RScalar" data-throw-if-not-resolved="false"></xref>
 
@@ -545,7 +545,7 @@ Will be thrown if the type of 'joint' is not <xref href="VM.Managed.DAFUL.IRScal
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_CreateRotationalScalar_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_Nullable_VM_API_Pre_Obj__System_String_VM_Managed_SymmetricType_"></a> CreateRotationalScalar\(SubSystemDocument, Obj, Obj, Vector, Vector, Obj?, string, SymmetricType\)
+### CreateRotationalScalar\(SubSystemDocument, Obj, Obj, Vector, Vector, Obj?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.RScalar" data-throw-if-not-resolved="false"></xref>
 
@@ -615,7 +615,7 @@ Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_CreateRotationalSpring_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_VM_Managed_SymmetricType_"></a> CreateRotationalSpring\(SubSystemDocument, Obj, string, SymmetricType\)
+### CreateRotationalSpring\(SubSystemDocument, Obj, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.RSpringDamper" data-throw-if-not-resolved="false"></xref>
 
@@ -660,7 +660,7 @@ Will be thrown if 'subSystemDocument', 'joint' argument is null.
 
 Will be thrown if the type of 'joint' is not <xref href="VM.Managed.DAFUL.IRotationalMotionComponent" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_CreateSpring_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateSpring\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### CreateSpring\(SubSystemDocument, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.TSpringDamper" data-throw-if-not-resolved="false"></xref>
 
@@ -721,7 +721,7 @@ Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity' or if 'basePosition' is equal to 'actionPosition'.
 
-### <a id="VM_API_Pre_ForceAPI_CreateTranslationalScalar_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_Nullable_VM_API_Pre_Obj__System_String_VM_Managed_SymmetricType_"></a> CreateTranslationalScalar\(SubSystemDocument, Obj, Obj, Vector, Vector, Obj?, string, SymmetricType\)
+### CreateTranslationalScalar\(SubSystemDocument, Obj, Obj, Vector, Vector, Obj?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.TScalar" data-throw-if-not-resolved="false"></xref>
 
@@ -790,7 +790,7 @@ Will be thrown if 'baseEntity' is equal to 'actionEntity' or if 'basePosition' i
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_CreateVector_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_System_Nullable_VM_API_Pre_VectorFunctions__System_String_VM_Managed_SymmetricType_"></a> CreateVector\(SubSystemDocument, Obj, Obj, Vector, VectorFunctions?, string, SymmetricType\)
+### CreateVector\(SubSystemDocument, Obj, Obj, Vector, VectorFunctions?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="false"></xref>
 
@@ -847,7 +847,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity' argument is 
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_CreateVector_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_Nullable_VM_API_Pre_VectorFunctions__System_String_VM_Managed_SymmetricType_"></a> CreateVector\(SubSystemDocument, Obj, Obj, Vector, Vector, VectorFunctions?, string, SymmetricType\)
+### CreateVector\(SubSystemDocument, Obj, Obj, Vector, Vector, VectorFunctions?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="false"></xref>
 
@@ -912,7 +912,7 @@ Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM
 
 Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
-### <a id="VM_API_Pre_ForceAPI_CreateVector_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_API_Pre_Obj_System_String_VM_Managed_SymmetricType_"></a> CreateVector\(SubSystemDocument, Obj, Obj, Vector, Obj, string, SymmetricType\)
+### CreateVector\(SubSystemDocument, Obj, Obj, Vector, Obj, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="false"></xref>
 
@@ -969,7 +969,7 @@ Will be thrown if 'subSystemDocument', 'baseEntity', 'actionEntity', 'userSubrou
 
 Will be thrown if the type of 'baseEntity', 'actionEntity' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_CreateVector_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_API_Pre_Obj_System_String_VM_Managed_SymmetricType_"></a> CreateVector\(SubSystemDocument, Obj, Obj, Vector, Vector, Obj, string, SymmetricType\)
+### CreateVector\(SubSystemDocument, Obj, Obj, Vector, Vector, Obj, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="false"></xref>
 
@@ -1038,7 +1038,7 @@ Will be thrown if 'baseEntity' is equal to 'actionEntity'.
 
 Will be thrown if the type of 'userSubroutine' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_ForceAPI_RunLeafSpringSimulation_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Boolean_"></a> RunLeafSpringSimulation\(SubSystemDocument, Obj, bool\)
+### RunLeafSpringSimulation\(SubSystemDocument, Obj, bool\)
 
 Create a <xref href="VM.Operations.Pre.Force.LeafSpringSimulation" data-throw-if-not-resolved="false"></xref>.
 
@@ -1071,4 +1071,5 @@ Will be thrown if 'subSystemDocument', 'getLeafSpring' is null.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the type of 'leafSpring' is not <xref href="VM.Models.Pre.Force.LeafSpring" data-throw-if-not-resolved="false"></xref>.
+
 

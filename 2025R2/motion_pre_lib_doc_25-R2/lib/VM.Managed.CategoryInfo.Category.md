@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CategoryInfo_Category"></a> Class CategoryInfo.Category
+# Class CategoryInfo.Category
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class CategoryInfo.Category
 
 ## Constructors
 
-### <a id="VM_Managed_CategoryInfo_Category__ctor"></a> Category\(\)
+### Category\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CategoryInfo.Category" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ protected Category()
 
 ## Fields
 
-### <a id="VM_Managed_CategoryInfo_Category_Image"></a> Image
+### Image
 
 ```csharp
 public string Image
@@ -42,7 +42,7 @@ public string Image
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CategoryInfo_Category_Location"></a> Location
+### Location
 
 ```csharp
 public int Location
@@ -52,7 +52,7 @@ public int Location
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CategoryInfo_Category_Text"></a> Text
+### Text
 
 ```csharp
 public string Text
@@ -62,7 +62,7 @@ public string Text
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CategoryInfo_Category_Type"></a> Type
+### Type
 
 ```csharp
 public string Type
@@ -71,4 +71,5 @@ public string Type
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

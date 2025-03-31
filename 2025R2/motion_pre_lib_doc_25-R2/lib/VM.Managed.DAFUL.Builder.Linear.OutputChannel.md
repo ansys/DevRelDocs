@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel"></a> Class OutputChannel
+# Class OutputChannel
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -53,7 +53,7 @@ BuilderBase<ChannelOutput\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel__ctor"></a> OutputChannel\(\)
+### OutputChannel\(\)
 
 ```csharp
 public OutputChannel()
@@ -61,7 +61,7 @@ public OutputChannel()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel_ActionMarker"></a> ActionMarker
+### ActionMarker
 
 ```csharp
 public IMarker ActionMarker { get; }
@@ -71,7 +71,7 @@ public IMarker ActionMarker { get; }
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel_BaseMarker"></a> BaseMarker
+### BaseMarker
 
 ```csharp
 public OutputChannel.CheckedMarker BaseMarker { get; set; }
@@ -81,7 +81,7 @@ public OutputChannel.CheckedMarker BaseMarker { get; set; }
 
  [OutputChannel](VM.Managed.DAFUL.Builder.Linear.OutputChannel.md).[CheckedMarker](VM.Managed.DAFUL.Builder.Linear.OutputChannel.CheckedMarker.md)
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel_Direction"></a> Direction
+### Direction
 
 ```csharp
 public string Direction { get; set; }
@@ -91,7 +91,7 @@ public string Direction { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel_ReferenceMarker"></a> ReferenceMarker
+### ReferenceMarker
 
 ```csharp
 public OutputChannel.CheckedMarker ReferenceMarker { get; set; }
@@ -101,7 +101,7 @@ public OutputChannel.CheckedMarker ReferenceMarker { get; set; }
 
  [OutputChannel](VM.Managed.DAFUL.Builder.Linear.OutputChannel.md).[CheckedMarker](VM.Managed.DAFUL.Builder.Linear.OutputChannel.CheckedMarker.md)
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel_Type"></a> Type
+### Type
 
 ```csharp
 public string Type { get; set; }
@@ -113,7 +113,7 @@ public string Type { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -128,4 +128,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IInterfaceSupport"></a> Interface IInterfaceSupport
+# Interface IInterfaceSupport
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,7 +17,7 @@ public interface IInterfaceSupport
 
 ## Properties
 
-### <a id="VM_Managed_IInterfaceSupport_Interfaces"></a> Interfaces
+### Interfaces
 
 Gets the interface manager.
 
@@ -31,11 +31,12 @@ InterfaceManager Interfaces { get; }
 
 ## Methods
 
-### <a id="VM_Managed_IInterfaceSupport_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initializes this instance.
 
 ```csharp
 void Initialize()
 ```
+
 

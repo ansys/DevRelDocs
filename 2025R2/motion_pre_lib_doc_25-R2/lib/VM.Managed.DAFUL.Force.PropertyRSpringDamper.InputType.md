@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_PropertyRSpringDamper_InputType"></a> Enum PropertyRSpringDamper.InputType
+# Enum PropertyRSpringDamper.InputType
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -20,6 +20,7 @@ the coefficient.
 `Spline = 1` 
 
 the spline.
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SubSystemAssembly"></a> Class SubSystemAssembly
+# Class SubSystemAssembly
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -160,7 +160,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_SubSystemAssembly__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> SubSystemAssembly\(SerializationInfo, StreamingContext\)
+### SubSystemAssembly\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SubSystemAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ The info.
 
 The context.
 
-### <a id="VM_Managed_DAFUL_SubSystemAssembly__ctor_VM_Managed_DAFUL_SubSystemDocument_"></a> SubSystemAssembly\(SubSystemDocument\)
+### SubSystemAssembly\(SubSystemDocument\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SubSystemAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -191,4 +191,5 @@ public SubSystemAssembly(SubSystemDocument doc)
 `doc` [SubSystemDocument](VM.Managed.DAFUL.SubSystemDocument.md)
 
 The document.
+
 

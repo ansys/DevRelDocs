@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_InputChannelInputType"></a> Enum InputChannelInputType
+# Enum InputChannelInputType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -32,6 +32,7 @@ Force
 `Velocity = 2` 
 
 Velocity
+
 
 
 

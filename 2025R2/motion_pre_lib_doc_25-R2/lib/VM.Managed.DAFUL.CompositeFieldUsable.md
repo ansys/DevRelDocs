@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CompositeFieldUsable"></a> Class CompositeFieldUsable
+# Class CompositeFieldUsable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsable__ctor"></a> CompositeFieldUsable\(\)
+### CompositeFieldUsable\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsa
 protected CompositeFieldUsable()
 ```
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsable__ctor_VM_Managed_Property_"></a> CompositeFieldUsable\(Property\)
+### CompositeFieldUsable\(Property\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The owner.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsable_IsUse"></a> IsUse
+### IsUse
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.CompositeFieldUsable" data-throw-if-not-resolved="false"></xref> is use.
 
@@ -137,7 +137,7 @@ public abstract bool IsUse { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsable_Use"></a> Use
+### Use
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.CompositeFieldUsable" data-throw-if-not-resolved="false"></xref> is use.
 
@@ -148,4 +148,5 @@ protected abstract bool Use { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -316,7 +316,7 @@ The available options are:
 
 ### AddCurves\(string, PlotParameters\)
 
-Adds curves to the chart by reading data from the specified file path and using the given plot parameters. Please refer to this [here](../getting_started_operation_api_using_py.md#How-to-input-the-value-of-the-target-into-the-function-parameter?) link.
+Adds curves to the chart by reading data from the specified file path and using the given plot parameters. Please refer to this [here](../getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter) link.
 
 ```python
 IOperationsLineDataSeriesViewModelBase[] AddCurves(string filepath, PlotParameters parameters)

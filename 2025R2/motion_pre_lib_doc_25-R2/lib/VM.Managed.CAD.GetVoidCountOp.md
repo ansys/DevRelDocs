@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetVoidCountOp"></a> Class GetVoidCountOp
+# Class GetVoidCountOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_GetVoidCountOp__ctor_VM_Managed_CAD_Body_"></a> GetVoidCountOp\(Body\)
+### GetVoidCountOp\(Body\)
 
 ```csharp
 public GetVoidCountOp(Body body)
@@ -87,7 +87,7 @@ public GetVoidCountOp(Body body)
 
 `body` [Body](VM.Managed.CAD.Body.md)
 
-### <a id="VM_Managed_CAD_GetVoidCountOp__ctor"></a> GetVoidCountOp\(\)
+### GetVoidCountOp\(\)
 
 ```csharp
 public GetVoidCountOp()
@@ -95,7 +95,7 @@ public GetVoidCountOp()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_GetVoidCountOp_Count"></a> Count
+### Count
 
 Gets the count.
 
@@ -107,7 +107,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_GetVoidCountOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -119,7 +119,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_GetVoidCountOp_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -133,11 +133,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_GetVoidCountOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_ICPlacingEntity"></a> Interface ICPlacingEntity
+# Interface ICPlacingEntity
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -17,7 +17,7 @@ public interface ICPlacingEntity
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_ICPlacingEntity_Parent"></a> Parent
+### Parent
 
 Parent
 
@@ -28,4 +28,5 @@ ObjectBase Parent { get; }
 #### Property Value
 
  ObjectBase
+
 

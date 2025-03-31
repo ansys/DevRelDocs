@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_StiffnessBearing"></a> Class StiffnessBearing
+# Class StiffnessBearing
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -65,7 +65,7 @@ BuilderBase<Bearing\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_StiffnessBearing__ctor"></a> StiffnessBearing\(\)
+### StiffnessBearing\(\)
 
 ```csharp
 public StiffnessBearing()
@@ -73,7 +73,7 @@ public StiffnessBearing()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_StiffnessBearing_InnerRacewayColor"></a> InnerRacewayColor
+### InnerRacewayColor
 
 ```csharp
 public string InnerRacewayColor { get; set; }
@@ -85,7 +85,7 @@ public string InnerRacewayColor { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_StiffnessBearing_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -100,4 +100,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

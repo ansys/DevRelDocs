@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document3D_ExportBodyInfo"></a> Class Document3D.ExportBodyInfo
+# Class Document3D.ExportBodyInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class Document3D.ExportBodyInfo
 
 ## Constructors
 
-### <a id="VM_Managed_Document3D_ExportBodyInfo__ctor_VM_Managed_CAD_Body_VM_Managed_TMatrix_System_Double_System_String_"></a> ExportBodyInfo\(Body, TMatrix, double, string\)
+### ExportBodyInfo\(Body, TMatrix, double, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Document3D.ExportBodyInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -48,7 +48,7 @@ The length factor.
 
 The name.
 
-### <a id="VM_Managed_Document3D_ExportBodyInfo__ctor_VM_Managed_CAD_Body_VM_Managed_TMatrix_System_Double_"></a> ExportBodyInfo\(Body, TMatrix, double\)
+### ExportBodyInfo\(Body, TMatrix, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.Document3D.ExportBodyInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -70,7 +70,7 @@ The transform.
 
 The length factor.
 
-### <a id="VM_Managed_Document3D_ExportBodyInfo__ctor_VM_Managed_CAD_Body_VM_Managed_TMatrix_"></a> ExportBodyInfo\(Body, TMatrix\)
+### ExportBodyInfo\(Body, TMatrix\)
 
 Initializes a new instance of the <xref href="VM.Managed.Document3D.ExportBodyInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -90,7 +90,7 @@ The transform.
 
 ## Properties
 
-### <a id="VM_Managed_Document3D_ExportBodyInfo_Body"></a> Body
+### Body
 
 Gets or sets the CAD Body.
 
@@ -102,7 +102,7 @@ public Body Body { get; set; }
 
  [Body](VM.Managed.CAD.Body.md)
 
-### <a id="VM_Managed_Document3D_ExportBodyInfo_LengthFactor"></a> LengthFactor
+### LengthFactor
 
 ```csharp
 public double LengthFactor { get; set; }
@@ -112,7 +112,7 @@ public double LengthFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_Document3D_ExportBodyInfo_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -122,7 +122,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Document3D_ExportBodyInfo_Transform"></a> Transform
+### Transform
 
 Gets or sets the transform matrix.
 
@@ -133,4 +133,5 @@ public TMatrix Transform { get; set; }
 #### Property Value
 
  [TMatrix](VM.Managed.TMatrix.md)
+
 

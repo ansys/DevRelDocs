@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ArgumentListGeneral"></a> Class ArgumentListGeneral
+# Class ArgumentListGeneral
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral__ctor"></a> ArgumentListGeneral\(\)
+### ArgumentListGeneral\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentListGeneral" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentListGener
 public ArgumentListGeneral()
 ```
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral__ctor_VM_Managed_SubEntity_"></a> ArgumentListGeneral\(SubEntity\)
+### ArgumentListGeneral\(SubEntity\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentListGeneral" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner subentity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_Arguments"></a> Arguments
+### Arguments
 
 Gets or sets the argument's link list.
 
@@ -132,7 +132,7 @@ public ArgumentBase[] Arguments { get; set; }
 
  [ArgumentBase](VM.Managed.DAFUL.ArgumentBase.md)\[\]
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_Count"></a> Count
+### Count
 
 Gets the count of argument's link list.
 
@@ -144,7 +144,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_IsReadOnly"></a> IsReadOnly
+### IsReadOnly
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -154,7 +154,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_ReservedArguments"></a> ReservedArguments
+### ReservedArguments
 
 ```csharp
 public static List<string> ReservedArguments { get; }
@@ -164,7 +164,7 @@ public static List<string> ReservedArguments { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_ValidationArguments"></a> ValidationArguments
+### ValidationArguments
 
 Get argument informations for validation
 
@@ -176,7 +176,7 @@ public IEnumerable<(string Name, ArgumentTypes Type)> ValidationArguments { get;
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<\([string](https://learn.microsoft.com/dotnet/api/system.string) [Name](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,vm.argumenttypes\-.name), ArgumentTypes [Type](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.string,vm.argumenttypes\-.type)\)\>
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 Gets or sets the <xref href="VM.Models.Pre.IArgument" data-throw-if-not-resolved="false"></xref> with the specified index.
 
@@ -190,7 +190,7 @@ public IArgument this[int nIndex] { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_Add_VM_Managed_DAFUL_ArgumentBase_"></a> Add\(ArgumentBase\)
+### Add\(ArgumentBase\)
 
 Add argument.
 
@@ -204,7 +204,7 @@ public void Add(ArgumentBase argumentBase)
 
 The argumentBase.
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_Clear"></a> Clear\(\)
+### Clear\(\)
 
 Clear argument collection.
 
@@ -212,7 +212,7 @@ Clear argument collection.
 public void Clear()
 ```
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_Contains_VM_Models_Pre_IArgument_"></a> Contains\(IArgument\)
+### Contains\(IArgument\)
 
 Determines whether [contains] [the specified arg].
 
@@ -232,7 +232,7 @@ The arg.
 
 <code>true</code> if [contains] [the specified arg]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_Contains_VM_Managed_DAFUL_ArgumentBase_"></a> Contains\(ArgumentBase\)
+### Contains\(ArgumentBase\)
 
 Contains
 
@@ -248,7 +248,7 @@ public bool Contains(ArgumentBase item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_ContainsReservedArgument"></a> ContainsReservedArgument\(\)
+### ContainsReservedArgument\(\)
 
 Determines whether [contains] [the reserved arg].
 
@@ -262,7 +262,7 @@ public bool ContainsReservedArgument()
 
 <code>true</code> if [contains] [the reserved arg]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_CopyTo_VM_Managed_DAFUL_ArgumentBase___System_Int32_"></a> CopyTo\(ArgumentBase\[\], int\)
+### CopyTo\(ArgumentBase\[\], int\)
 
 Copy to
 
@@ -276,7 +276,7 @@ public void CopyTo(ArgumentBase[] array, int arrayIndex)
 
 `arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetACTION_VM_Managed_DAFUL_IConnector_"></a> GetACTION\(IConnector\)
+### GetACTION\(IConnector\)
 
 ```csharp
 public static object GetACTION(IConnector connector)
@@ -290,7 +290,7 @@ public static object GetACTION(IConnector connector)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetACTIONDOC_VM_Managed_DAFUL_IConnector_"></a> GetACTIONDOC\(IConnector\)
+### GetACTIONDOC\(IConnector\)
 
 ```csharp
 public static object GetACTIONDOC(IConnector connector)
@@ -304,7 +304,7 @@ public static object GetACTIONDOC(IConnector connector)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetAM_VM_Managed_DAFUL_IConnector_"></a> GetAM\(IConnector\)
+### GetAM\(IConnector\)
 
 ```csharp
 public static object GetAM(IConnector connector)
@@ -318,7 +318,7 @@ public static object GetAM(IConnector connector)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetArgument_System_String_VM_Models_Pre_IDocument_"></a> GetArgument\(string, IDocument\)
+### GetArgument\(string, IDocument\)
 
 Get argument
 
@@ -336,7 +336,7 @@ public static IArgument GetArgument(string strArgument, IDocument doc)
 
  IArgument
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetArgument_System_String_VM_Managed_DAFUL_IConnector_"></a> GetArgument\(string, IConnector\)
+### GetArgument\(string, IConnector\)
 
 Get argument
 
@@ -354,7 +354,7 @@ public static IArgument GetArgument(string strArgument, IConnector connector)
 
  IArgument
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetBASE_VM_Managed_DAFUL_IConnector_"></a> GetBASE\(IConnector\)
+### GetBASE\(IConnector\)
 
 ```csharp
 public static object GetBASE(IConnector connector)
@@ -368,7 +368,7 @@ public static object GetBASE(IConnector connector)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetBASEDOC_VM_Managed_DAFUL_IConnector_"></a> GetBASEDOC\(IConnector\)
+### GetBASEDOC\(IConnector\)
 
 ```csharp
 public static object GetBASEDOC(IConnector connector)
@@ -382,7 +382,7 @@ public static object GetBASEDOC(IConnector connector)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetBM_VM_Managed_DAFUL_IConnector_"></a> GetBM\(IConnector\)
+### GetBM\(IConnector\)
 
 ```csharp
 public static object GetBM(IConnector connector)
@@ -396,7 +396,7 @@ public static object GetBM(IConnector connector)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Get enumerator for argument.
 
@@ -408,7 +408,7 @@ public IEnumerator<ArgumentBase> GetEnumerator()
 
  [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<[ArgumentBase](VM.Managed.DAFUL.ArgumentBase.md)\>
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -422,7 +422,7 @@ public XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_IndexOf_VM_Managed_DAFUL_ArgumentBase_"></a> IndexOf\(ArgumentBase\)
+### IndexOf\(ArgumentBase\)
 
 Index of
 
@@ -438,7 +438,7 @@ public int IndexOf(ArgumentBase item)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_Insert_System_Int32_VM_Managed_DAFUL_ArgumentBase_"></a> Insert\(int, ArgumentBase\)
+### Insert\(int, ArgumentBase\)
 
 Insert argument.
 
@@ -456,7 +456,7 @@ The index.
 
 The argumentBase.
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -474,7 +474,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
+### ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -488,7 +488,7 @@ public void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -502,7 +502,7 @@ public void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_Remove_VM_Managed_DAFUL_ArgumentBase_"></a> Remove\(ArgumentBase\)
+### Remove\(ArgumentBase\)
 
 Remove argument.
 
@@ -520,7 +520,7 @@ The argumentBase.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
+### RemoveAt\(int\)
 
 remove at
 
@@ -532,7 +532,7 @@ public void RemoveAt(int index)
 
 `index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -546,7 +546,7 @@ public void WriteTemplate(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_ArgumentListGeneral_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -559,4 +559,5 @@ public void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
+
 

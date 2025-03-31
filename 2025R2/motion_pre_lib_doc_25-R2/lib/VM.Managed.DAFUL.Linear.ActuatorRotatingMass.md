@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_ActuatorRotatingMass"></a> Class ActuatorRotatingMass
+# Class ActuatorRotatingMass
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Linear_ActuatorRotatingMass__ctor"></a> ActuatorRotatingMass\(\)
+### ActuatorRotatingMass\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ActuatorRotatingMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -213,7 +213,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ActuatorRo
 public ActuatorRotatingMass()
 ```
 
-### <a id="VM_Managed_DAFUL_Linear_ActuatorRotatingMass__ctor_System_String_"></a> ActuatorRotatingMass\(string\)
+### ActuatorRotatingMass\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ActuatorRotatingMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Linear_ActuatorRotatingMass_TypeOfActuator"></a> TypeOfActuator
+### TypeOfActuator
 
 Gets the type of actuator.
 
@@ -243,7 +243,7 @@ public override ActuatorType TypeOfActuator { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Linear_ActuatorRotatingMass_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -256,4 +256,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

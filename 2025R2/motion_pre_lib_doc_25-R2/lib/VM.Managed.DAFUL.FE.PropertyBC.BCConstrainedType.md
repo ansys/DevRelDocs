@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_PropertyBC_BCConstrainedType"></a> Enum PropertyBC.BCConstrainedType
+# Enum PropertyBC.BCConstrainedType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -32,6 +32,7 @@ on plane.
 `Rigid = 2` 
 
 rigid.
+
 
 
 

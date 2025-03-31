@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Connector_1"></a> Class Connector<TProperty\>
+# Class Connector<TProperty\>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -218,7 +218,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Connector_1__ctor"></a> Connector\(\)
+### Connector\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Connector%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -226,7 +226,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Connector%601" da
 protected Connector()
 ```
 
-### <a id="VM_Managed_DAFUL_Connector_1__ctor_System_String_"></a> Connector\(string\)
+### Connector\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Connector%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -242,7 +242,7 @@ Name of the connector.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Connector_1_ActionMarker"></a> ActionMarker
+### ActionMarker
 
 Gets or sets the action marker.
 
@@ -254,7 +254,7 @@ public Marker ActionMarker { get; set; }
 
  [Marker](VM.Managed.DAFUL.Marker.md)
 
-### <a id="VM_Managed_DAFUL_Connector_1_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -266,7 +266,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Connector_1_BaseMarker"></a> BaseMarker
+### BaseMarker
 
 Gets or sets the base marker.
 
@@ -278,7 +278,7 @@ public Marker BaseMarker { get; set; }
 
  [Marker](VM.Managed.DAFUL.Marker.md)
 
-### <a id="VM_Managed_DAFUL_Connector_1_CanSwitchImpl"></a> CanSwitchImpl
+### CanSwitchImpl
 
 ```csharp
 protected virtual bool CanSwitchImpl { get; }
@@ -288,7 +288,7 @@ protected virtual bool CanSwitchImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Connector_1_CanWriteToOutFileImpl"></a> CanWriteToOutFileImpl
+### CanWriteToOutFileImpl
 
 ```csharp
 protected virtual bool CanWriteToOutFileImpl { get; }
@@ -298,7 +298,7 @@ protected virtual bool CanWriteToOutFileImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Connector_1_ConnectorReferenceMarker"></a> ConnectorReferenceMarker
+### ConnectorReferenceMarker
 
 Gets or sets the reference marker.
 
@@ -310,9 +310,9 @@ public virtual IMarker ConnectorReferenceMarker { get; }
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_Connector_1_Generable"></a> Generable
+### Generable
 
-Gets a value indicating whether this instance is generable.
+<p> Gets a value indicating whether this instance is generable.</p>
 
 ```csharp
 public virtual bool Generable { get; }
@@ -322,7 +322,7 @@ public virtual bool Generable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Connector_1_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -334,7 +334,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Connector_1_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -346,7 +346,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Connector_1_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -358,7 +358,7 @@ public override Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DAFUL_Connector_1_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
+### PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -370,7 +370,7 @@ public virtual bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Connector_1_Referencable"></a> Referencable
+### Referencable
 
 Gets a value indicating whether this <xref href="VM.Managed.DAFUL.Connector%601" data-throw-if-not-resolved="false"></xref> is referencable.
 
@@ -382,7 +382,7 @@ public bool Referencable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Connector_1_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -394,7 +394,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Connector_1_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -406,7 +406,7 @@ protected abstract IReportable.ReportEntityType ReportTypeImpl { get; }
 
  [IReportable](VM.Managed.DAFUL.IReportable.md).[ReportEntityType](VM.Managed.DAFUL.IReportable.ReportEntityType.md)
 
-### <a id="VM_Managed_DAFUL_Connector_1_Visible"></a> Visible
+### Visible
 
 Gets a value indicating whether this <xref href="VM.Managed.DAFUL.Connector%601" data-throw-if-not-resolved="false"></xref> is visible.
 
@@ -420,7 +420,7 @@ public bool Visible { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Connector_1_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -434,7 +434,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Connector_1_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -454,7 +454,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_Connector_1_GetLayerImpl"></a> GetLayerImpl\(\)
+### GetLayerImpl\(\)
 
 Gets the layer [Implementation].
 
@@ -468,7 +468,7 @@ protected virtual Layer GetLayerImpl()
 
 The layer.
 
-### <a id="VM_Managed_DAFUL_Connector_1_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -496,7 +496,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Connector_1_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
+### GetTargetListForUpdate\(\)
 
 Gets the update objects.
 
@@ -508,7 +508,7 @@ public override List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
 
-### <a id="VM_Managed_DAFUL_Connector_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -522,7 +522,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Connector_1_Instantiate_VM_Managed_Reference_VM_CAD_Kernel_Render_Canvas_"></a> Instantiate\(Reference, Canvas\)
+### Instantiate\(Reference, Canvas\)
 
 Instantiates the specified reference.
 
@@ -540,7 +540,7 @@ The reference.
 
 The canvas.
 
-### <a id="VM_Managed_DAFUL_Connector_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -558,7 +558,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Connector_1_MakeReference_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReference\(LinkedList<Reference\>\)
+### MakeReference\(LinkedList<Reference\>\)
 
 Makes the reference.
 
@@ -572,7 +572,7 @@ public void MakeReference(LinkedList<Reference> lstRef)
 
 The referece container.
 
-### <a id="VM_Managed_DAFUL_Connector_1_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -586,7 +586,7 @@ protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_Connector_1_PostAddToDocument"></a> PostAddToDocument\(\)
+### PostAddToDocument\(\)
 
 Call when post [add to document].
 
@@ -594,7 +594,7 @@ Call when post [add to document].
 public override void PostAddToDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_Connector_1_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -602,7 +602,7 @@ Redraw.
 public virtual void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_Connector_1_ResetInvalidEntity"></a> ResetInvalidEntity\(\)
+### ResetInvalidEntity\(\)
 
 Reset invalid entity.
 
@@ -610,7 +610,7 @@ Reset invalid entity.
 public override void ResetInvalidEntity()
 ```
 
-### <a id="VM_Managed_DAFUL_Connector_1_SetLayerImpl_VM_Managed_Layer_"></a> SetLayerImpl\(Layer\)
+### SetLayerImpl\(Layer\)
 
 Sets the layer [Implementation].
 
@@ -624,13 +624,13 @@ protected virtual void SetLayerImpl(Layer layer)
 
 The layer.
 
-### <a id="VM_Managed_DAFUL_Connector_1_SwitchImpl"></a> SwitchImpl\(\)
+### SwitchImpl\(\)
 
 ```csharp
 protected virtual void SwitchImpl()
 ```
 
-### <a id="VM_Managed_DAFUL_Connector_1_Verify_VM_Managed_VerifiedResult_"></a> Verify\(VerifiedResult\)
+### Verify\(VerifiedResult\)
 
 Verify.
 
@@ -643,4 +643,5 @@ protected override void Verify(VerifiedResult vr)
 `vr` VerifiedResult
 
 The Verified result.
+
 

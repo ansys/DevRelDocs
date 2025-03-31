@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core"></a> Namespace VM.Managed.Picker.Core
+# Namespace VM.Managed.Picker.Core
 
 ### Namespaces
 
@@ -97,4 +97,5 @@ This class is to represent the topol picker.
  [PickerTransform](VM.Managed.Picker.Core.PickerTransform.md)
 
 This class is to represent the transform picker.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_KeyValue_2"></a> Class KeyValue<TKey, TValue\>
+# Class KeyValue<TKey, TValue\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -46,7 +46,7 @@ public class KeyValue<TKey, TValue> : ObservableObject, IObservableObject, IDisp
 
 ## Constructors
 
-### <a id="VM_KeyValue_2__ctor__0__1_"></a> KeyValue\(TKey, TValue\)
+### KeyValue\(TKey, TValue\)
 
 ```csharp
 public KeyValue(TKey key, TValue value)
@@ -60,7 +60,7 @@ public KeyValue(TKey key, TValue value)
 
 ## Properties
 
-### <a id="VM_KeyValue_2_Key"></a> Key
+### Key
 
 ```csharp
 public TKey Key { get; set; }
@@ -70,7 +70,7 @@ public TKey Key { get; set; }
 
  TKey
 
-### <a id="VM_KeyValue_2_Value"></a> Value
+### Value
 
 ```csharp
 public TValue Value { get; set; }
@@ -79,4 +79,5 @@ public TValue Value { get; set; }
 #### Property Value
 
  TValue
+
 

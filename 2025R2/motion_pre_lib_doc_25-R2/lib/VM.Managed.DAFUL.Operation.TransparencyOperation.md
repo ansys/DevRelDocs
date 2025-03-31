@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_TransparencyOperation"></a> Class TransparencyOperation
+# Class TransparencyOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_TransparencyOperation__ctor_System_Double_VM_Managed_ObjectBase_VM_Managed_Document3D_"></a> TransparencyOperation\(double, ObjectBase, Document3D\)
+### TransparencyOperation\(double, ObjectBase, Document3D\)
 
 ```csharp
 public TransparencyOperation(double dTransparency, ObjectBase body, Document3D doc)
@@ -91,7 +91,7 @@ public TransparencyOperation(double dTransparency, ObjectBase body, Document3D d
 
 `doc` Document3D
 
-### <a id="VM_Managed_DAFUL_Operation_TransparencyOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> TransparencyOperation\(JournalParameter\)
+### TransparencyOperation\(JournalParameter\)
 
 ```csharp
 public TransparencyOperation(JournalParameter jp)
@@ -103,7 +103,7 @@ public TransparencyOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_TransparencyOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -117,7 +117,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_TransparencyOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -125,7 +125,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_TransparencyOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -134,4 +134,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

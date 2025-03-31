@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamPlaneCircle"></a> Class BuilderParamPlaneCircle
+# Class BuilderParamPlaneCircle
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -35,7 +35,7 @@ public class BuilderParamPlaneCircle : BuilderParamPlane
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamPlaneCircle__ctor"></a> BuilderParamPlaneCircle\(\)
+### BuilderParamPlaneCircle\(\)
 
 ```csharp
 public BuilderParamPlaneCircle()
@@ -43,7 +43,7 @@ public BuilderParamPlaneCircle()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamPlaneCircle_Radius"></a> Radius
+### Radius
 
 ```csharp
 public double Radius { get; set; }
@@ -52,4 +52,5 @@ public double Radius { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

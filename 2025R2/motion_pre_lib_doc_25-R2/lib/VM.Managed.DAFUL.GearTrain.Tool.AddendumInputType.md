@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Tool_AddendumInputType"></a> Enum Tool.AddendumInputType
+# Enum Tool.AddendumInputType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,6 +26,7 @@ The addendum coefficient
 `TipDiameter = 2` 
 
 The tip diameter
+
 
 
 

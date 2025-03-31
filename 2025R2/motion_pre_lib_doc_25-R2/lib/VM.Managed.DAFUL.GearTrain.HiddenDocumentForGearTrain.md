@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentForGearTrain"></a> Class HiddenDocumentForGearTrain
+# Class HiddenDocumentForGearTrain
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -594,7 +594,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentForGearTrain__ctor_System_UIntPtr_"></a> HiddenDocumentForGearTrain\(UIntPtr\)
+### HiddenDocumentForGearTrain\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentForGearTrain" data-throw-if-not-resolved="false"></xref> class.
 
@@ -610,7 +610,7 @@ The document handle.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentForGearTrain_CheckActiveDocument_VM_Managed_Document3D_VM_Managed_Document3D_"></a> CheckActiveDocument\(Document3D, Document3D\)
+### CheckActiveDocument\(Document3D, Document3D\)
 
 Check actived document
 
@@ -632,7 +632,7 @@ The active document
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentForGearTrain_CloseDocumentCore"></a> CloseDocumentCore\(\)
+### CloseDocumentCore\(\)
 
 Close document.
 
@@ -640,7 +640,7 @@ Close document.
 protected override void CloseDocumentCore()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentForGearTrain_Find_System_String_"></a> Find\(string\)
+### Find\(string\)
 
 Finds the specified string name.
 
@@ -657,4 +657,5 @@ Name of the string.
 #### Returns
 
  IObjectBase
+
 

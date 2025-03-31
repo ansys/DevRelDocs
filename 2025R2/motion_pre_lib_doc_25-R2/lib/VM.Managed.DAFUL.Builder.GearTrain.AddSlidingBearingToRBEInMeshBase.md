@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInMeshBase"></a> Class AddSlidingBearingToRBEInMeshBase
+# Class AddSlidingBearingToRBEInMeshBase
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -52,7 +52,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInMeshBase__ctor"></a> AddSlidingBearingToRBEInMeshBase\(\)
+### AddSlidingBearingToRBEInMeshBase\(\)
 
 ```csharp
 protected AddSlidingBearingToRBEInMeshBase()
@@ -60,7 +60,7 @@ protected AddSlidingBearingToRBEInMeshBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInMeshBase_RBEConnectable"></a> RBEConnectable
+### RBEConnectable
 
 ```csharp
 public IConnectable RBEConnectable { get; }
@@ -70,7 +70,7 @@ public IConnectable RBEConnectable { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInMeshBase_RBEName"></a> RBEName
+### RBEName
 
 ```csharp
 protected virtual string RBEName { get; }
@@ -79,4 +79,5 @@ protected virtual string RBEName { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

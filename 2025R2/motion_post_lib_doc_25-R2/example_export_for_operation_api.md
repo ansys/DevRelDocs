@@ -4,7 +4,7 @@ The following sample code illustrates how to create a simple example.
 
 ## Export All Curves
 Export all curves on active plot view.
-```
+```python
 # OperationAPI_ExportAllCurves.py
 import sys
 
@@ -70,7 +70,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Numeric Import
 Here is an example of importing curve results from a file.
-```
+```python
 # OperationAPI_NumericImport.py
 import sys
 

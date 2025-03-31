@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2"></a> Class LinkListCollectionWithFixedAddition<T, TLink\>
+# Class LinkListCollectionWithFixedAddition<T, TLink\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -68,7 +68,7 @@ IPostDeserialized
 
 ## Constructors
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2__ctor_VM_Models_Pre_ILinkContainer_System_Int32_"></a> LinkListCollectionWithFixedAddition\(ILinkContainer, int\)
+### LinkListCollectionWithFixedAddition\(ILinkContainer, int\)
 
 ```csharp
 public LinkListCollectionWithFixedAddition(ILinkContainer objParent, int nMin)
@@ -80,7 +80,7 @@ public LinkListCollectionWithFixedAddition(ILinkContainer objParent, int nMin)
 
 `nMin` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2__ctor_VM_Models_Pre_ILinkContainer_System_Int32_System_Int32_"></a> LinkListCollectionWithFixedAddition\(ILinkContainer, int, int\)
+### LinkListCollectionWithFixedAddition\(ILinkContainer, int, int\)
 
 ```csharp
 public LinkListCollectionWithFixedAddition(ILinkContainer objParent, int nMin, int nMax)
@@ -94,7 +94,7 @@ public LinkListCollectionWithFixedAddition(ILinkContainer objParent, int nMin, i
 
 `nMax` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2__ctor_VM_Models_Pre_ILinkContainer_System_Collections_Generic_List__1__System_Int32_"></a> LinkListCollectionWithFixedAddition\(ILinkContainer, List<TLink\>, int\)
+### LinkListCollectionWithFixedAddition\(ILinkContainer, List<TLink\>, int\)
 
 ```csharp
 public LinkListCollectionWithFixedAddition(ILinkContainer objParent, List<TLink> collection, int nMin)
@@ -108,7 +108,7 @@ public LinkListCollectionWithFixedAddition(ILinkContainer objParent, List<TLink>
 
 `nMin` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2__ctor_VM_Models_Pre_ILinkContainer_System_Collections_Generic_List__1__System_Int32_System_Int32_"></a> LinkListCollectionWithFixedAddition\(ILinkContainer, List<TLink\>, int, int\)
+### LinkListCollectionWithFixedAddition\(ILinkContainer, List<TLink\>, int, int\)
 
 ```csharp
 public LinkListCollectionWithFixedAddition(ILinkContainer objParent, List<TLink> collection, int nMin, int nMax)
@@ -126,7 +126,7 @@ public LinkListCollectionWithFixedAddition(ILinkContainer objParent, List<TLink>
 
 ## Methods
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2_Add__0_"></a> Add\(T\)
+### Add\(T\)
 
 ```csharp
 public override sealed void Add(T item)
@@ -136,7 +136,7 @@ public override sealed void Add(T item)
 
 `item` T
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2_Add__0_System_Boolean_"></a> Add\(T, bool\)
+### Add\(T, bool\)
 
 ```csharp
 public override sealed void Add(T item, bool bContainsDocument)
@@ -148,7 +148,7 @@ public override sealed void Add(T item, bool bContainsDocument)
 
 `bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2_Insert_System_Int32__0_"></a> Insert\(int, T\)
+### Insert\(int, T\)
 
 ```csharp
 public override sealed void Insert(int index, T item)
@@ -160,7 +160,7 @@ public override sealed void Insert(int index, T item)
 
 `item` T
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2_Remove__0_"></a> Remove\(T\)
+### Remove\(T\)
 
 ```csharp
 public override sealed bool Remove(T item)
@@ -174,7 +174,7 @@ public override sealed bool Remove(T item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
+### Remove\(T, bool\)
 
 ```csharp
 public override sealed bool Remove(T item, bool bContainsDocument)
@@ -190,7 +190,7 @@ public override sealed bool Remove(T item, bool bContainsDocument)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
+### RemoveAt\(int\)
 
 ```csharp
 public override sealed void RemoveAt(int index)
@@ -199,4 +199,5 @@ public override sealed void RemoveAt(int index)
 #### Parameters
 
 `index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

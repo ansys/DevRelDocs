@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_MCTMC"></a> Class MCTMC
+# Class MCTMC
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<MCTMC\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MCTMC__ctor"></a> MCTMC\(\)
+### MCTMC\(\)
 
 ```csharp
 public MCTMC()
@@ -61,7 +61,7 @@ public MCTMC()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MCTMC_ActionContactable"></a> ActionContactable
+### ActionContactable
 
 ```csharp
 public IContactable3D ActionContactable { get; }
@@ -71,7 +71,7 @@ public IContactable3D ActionContactable { get; }
 
  IContactable3D
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MCTMC_ActionCurveset"></a> ActionCurveset
+### ActionCurveset
 
 ```csharp
 public PickedCurveset ActionCurveset { get; set; }
@@ -81,7 +81,7 @@ public PickedCurveset ActionCurveset { get; set; }
 
  [PickedCurveset](VM.Managed.DAFUL.Builder.Contact.PickedCurveset.md)
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MCTMC_BaseCurveset"></a> BaseCurveset
+### BaseCurveset
 
 ```csharp
 public PickedCurveset BaseCurveset { get; set; }
@@ -93,7 +93,7 @@ public PickedCurveset BaseCurveset { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_MCTMC_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -108,4 +108,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_ExtendedTypeInfo"></a> Class ExtendedTypeInfo
+# Class ExtendedTypeInfo
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -27,7 +27,7 @@ public class ExtendedTypeInfo : ExtendedMemberInfo<TypeInfo>
 
 ## Constructors
 
-### <a id="VM_ExtendedTypeInfo__ctor_System_Reflection_TypeInfo_"></a> ExtendedTypeInfo\(TypeInfo\)
+### ExtendedTypeInfo\(TypeInfo\)
 
 ```csharp
 public ExtendedTypeInfo(TypeInfo type)
@@ -39,7 +39,7 @@ public ExtendedTypeInfo(TypeInfo type)
 
 ## Properties
 
-### <a id="VM_ExtendedTypeInfo_Type"></a> Type
+### Type
 
 ```csharp
 public Type Type { get; }
@@ -49,7 +49,7 @@ public Type Type { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### <a id="VM_ExtendedTypeInfo_TypeInfo"></a> TypeInfo
+### TypeInfo
 
 ```csharp
 public TypeInfo TypeInfo { get; }
@@ -61,7 +61,7 @@ public TypeInfo TypeInfo { get; }
 
 ## Methods
 
-### <a id="VM_ExtendedTypeInfo_AddOnChangedMethod_System_String_System_Action_System_Object__"></a> AddOnChangedMethod\(string, Action<object\>\)
+### AddOnChangedMethod\(string, Action<object\>\)
 
 ```csharp
 public void AddOnChangedMethod(string propertyName, Action<object> onChanged)
@@ -73,7 +73,7 @@ public void AddOnChangedMethod(string propertyName, Action<object> onChanged)
 
 `onChanged` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
-### <a id="VM_ExtendedTypeInfo_TryGetOnChangedMethod_System_String_System_Action_System_Object___"></a> TryGetOnChangedMethod\(string, out Action<object\>\)
+### TryGetOnChangedMethod\(string, out Action<object\>\)
 
 ```csharp
 public bool TryGetOnChangedMethod(string propertyName, out Action<object> onChanged)
@@ -88,4 +88,5 @@ public bool TryGetOnChangedMethod(string propertyName, out Action<object> onChan
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

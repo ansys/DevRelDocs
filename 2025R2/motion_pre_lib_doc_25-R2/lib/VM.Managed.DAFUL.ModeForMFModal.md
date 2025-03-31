@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ModeForMFModal"></a> Class ModeForMFModal
+# Class ModeForMFModal
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -22,7 +22,7 @@ public class ModeForMFModal
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal__ctor"></a> ModeForMFModal\(\)
+### ModeForMFModal\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ModeForMFModal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -30,7 +30,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.ModeForMFModal" d
 public ModeForMFModal()
 ```
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal__ctor_System_Double_"></a> ModeForMFModal\(double\)
+### ModeForMFModal\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ModeForMFModal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -44,7 +44,7 @@ public ModeForMFModal(double dEigenvalue)
 
 The d eigenvalue.
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal__ctor_System_Double_System_Double_System_Boolean_"></a> ModeForMFModal\(double, double, bool\)
+### ModeForMFModal\(double, double, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ModeForMFModal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -68,7 +68,7 @@ if set to <code>true</code> [b use].
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal_Damping"></a> Damping
+### Damping
 
 Gets or sets the damping.
 
@@ -80,7 +80,7 @@ public double Damping { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal_Eigenvalue"></a> Eigenvalue
+### Eigenvalue
 
 Gets or sets the eigenvalue.
 
@@ -92,7 +92,7 @@ public double Eigenvalue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal_Use"></a> Use
+### Use
 
 Gets or sets a value indicating whether [use].
 
@@ -106,7 +106,7 @@ public bool Use { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal_GetDFMFInfo_System_String_"></a> GetDFMFInfo\(string\)
+### GetDFMFInfo\(string\)
 
 Gets the DFMF information.
 
@@ -124,7 +124,7 @@ The string DFMF file.
 
  [ModeForMFModal](VM.Managed.DAFUL.ModeForMFModal.md).[DFMFUIInfo](VM.Managed.DAFUL.ModeForMFModal.DFMFUIInfo.md)
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal_GetMassPropFromDFMFFile_System_String_"></a> GetMassPropFromDFMFFile\(string\)
+### GetMassPropFromDFMFFile\(string\)
 
 Gets the mass property from DFMF file.
 
@@ -142,7 +142,7 @@ The string DFMF file.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal_GetModesFromDFMFFile_System_String_"></a> GetModesFromDFMFFile\(string\)
+### GetModesFromDFMFFile\(string\)
 
 Gets the modes from DFMF file.
 
@@ -160,7 +160,7 @@ The string DFMF file.
 
  [ModeForMFModal](VM.Managed.DAFUL.ModeForMFModal.md)\[\]
 
-### <a id="VM_Managed_DAFUL_ModeForMFModal_GetXMLInformation"></a> GetXMLInformation\(\)
+### GetXMLInformation\(\)
 
 Gets the XML information.
 
@@ -171,4 +171,5 @@ public string GetXMLInformation()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

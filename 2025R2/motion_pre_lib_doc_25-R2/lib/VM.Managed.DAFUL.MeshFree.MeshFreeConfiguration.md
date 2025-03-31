@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_MeshFreeConfiguration"></a> Class MeshFreeConfiguration
+# Class MeshFreeConfiguration
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_MeshFreeConfiguration__ctor"></a> MeshFreeConfiguration\(\)
+### MeshFreeConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.MeshFreeConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public MeshFreeConfiguration()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_MeshFreeConfiguration_AnalysisLevelGroup"></a> AnalysisLevelGroup
+### AnalysisLevelGroup
 
 Gets or sets the analysis level group.
 
@@ -122,7 +122,7 @@ public AnalysisLevelGroup AnalysisLevelGroup { get; set; }
 
  [AnalysisLevelGroup](VM.Managed.DAFUL.MeshFree.AnalysisLevelGroup.md)
 
-### <a id="VM_Managed_DAFUL_MeshFree_MeshFreeConfiguration_IsUseAllBodySettings"></a> IsUseAllBodySettings
+### IsUseAllBodySettings
 
 Gets or sets a value indicating whether [use all body settings].
 
@@ -134,7 +134,7 @@ public bool IsUseAllBodySettings { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_MeshFreeConfiguration_LevelGroupOfAnalysis"></a> LevelGroupOfAnalysis
+### LevelGroupOfAnalysis
 
 Gets or sets the analysis level group.
 
@@ -148,7 +148,7 @@ public AnalysisLevelGroup LevelGroupOfAnalysis { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_MeshFreeConfiguration_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -161,4 +161,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

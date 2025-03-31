@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_KernelObject"></a> Class KernelObject
+# Class KernelObject
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -32,7 +32,7 @@ public abstract class KernelObject
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_KernelObject__ctor_System_UIntPtr_System_Boolean_"></a> KernelObject\(UIntPtr, bool\)
+### KernelObject\(UIntPtr, bool\)
 
 ```csharp
 protected KernelObject(UIntPtr key, bool isLock = true)
@@ -46,7 +46,7 @@ protected KernelObject(UIntPtr key, bool isLock = true)
 
 ## Fields
 
-### <a id="VM_CAD_Kernel_KernelObject_VMK_ARGUMENT_NULL"></a> VMK\_ARGUMENT\_NULL
+### VMK\_ARGUMENT\_NULL
 
 ```csharp
 protected const int VMK_ARGUMENT_NULL = 1
@@ -56,7 +56,7 @@ protected const int VMK_ARGUMENT_NULL = 1
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_CAD_Kernel_KernelObject_VMK_ARGUMENT_TYPE"></a> VMK\_ARGUMENT\_TYPE
+### VMK\_ARGUMENT\_TYPE
 
 ```csharp
 protected const int VMK_ARGUMENT_TYPE = 2
@@ -66,7 +66,7 @@ protected const int VMK_ARGUMENT_TYPE = 2
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_CAD_Kernel_KernelObject_VMK_OK"></a> VMK\_OK
+### VMK\_OK
 
 ```csharp
 protected const int VMK_OK = 0
@@ -78,7 +78,7 @@ protected const int VMK_OK = 0
 
 ## Properties
 
-### <a id="VM_CAD_Kernel_KernelObject_Key"></a> Key
+### Key
 
 ```csharp
 public UIntPtr Key { get; }
@@ -90,25 +90,25 @@ public UIntPtr Key { get; }
 
 ## Methods
 
-### <a id="VM_CAD_Kernel_KernelObject_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
 
-### <a id="VM_CAD_Kernel_KernelObject_DisposeManagedResource"></a> DisposeManagedResource\(\)
+### DisposeManagedResource\(\)
 
 ```csharp
 protected virtual void DisposeManagedResource()
 ```
 
-### <a id="VM_CAD_Kernel_KernelObject_DisposeUnmanagedResource"></a> DisposeUnmanagedResource\(\)
+### DisposeUnmanagedResource\(\)
 
 ```csharp
 protected virtual void DisposeUnmanagedResource()
 ```
 
-### <a id="VM_CAD_Kernel_KernelObject_Execute_System_Func_System_Int32__"></a> Execute\(Func<int\>\)
+### Execute\(Func<int\>\)
 
 ```csharp
 protected static void Execute(Func<int> function)
@@ -118,7 +118,7 @@ protected static void Execute(Func<int> function)
 
 `function` [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="VM_CAD_Kernel_KernelObject_GetFrom__1_VM_CAD_Kernel_KernelObject_delGetFrom___0__System_Boolean_"></a> GetFrom<TResult\>\(delGetFrom<TResult\>, bool\)
+### GetFrom<TResult\>\(delGetFrom<TResult\>, bool\)
 
 ```csharp
 protected static TResult GetFrom<TResult>(KernelObject.delGetFrom<TResult> getFrom, bool checkFunctionReturnValue = true)
@@ -137,4 +137,5 @@ protected static TResult GetFrom<TResult>(KernelObject.delGetFrom<TResult> getFr
 #### Type Parameters
 
 `TResult` 
+
 

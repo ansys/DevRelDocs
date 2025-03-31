@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly"></a> Class PropertyRVReducer.RacewayInfoForAssembly
+# Class PropertyRVReducer.RacewayInfoForAssembly
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly__ctor"></a> RacewayInfoForAssembly\(\)
+### RacewayInfoForAssembly\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyRVReducer.RacewayInfoForAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Propert
 public RacewayInfoForAssembly()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly__ctor_VM_Models_Pre_IOwned_"></a> RacewayInfoForAssembly\(IOwned\)
+### RacewayInfoForAssembly\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyRVReducer.RacewayInfoForAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly_InnerParentBody"></a> InnerParentBody
+### InnerParentBody
 
 Gets or sets the inner parent body.
 
@@ -132,7 +132,7 @@ public IConnectable InnerParentBody { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly_InnerRacewayInfo"></a> InnerRacewayInfo
+### InnerRacewayInfo
 
 Gets or sets the inner raceway information.
 
@@ -144,7 +144,7 @@ public RacewayGeometryInfo InnerRacewayInfo { get; set; }
 
  [RacewayGeometryInfo](VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly_OuterParentBody"></a> OuterParentBody
+### OuterParentBody
 
 Gets or sets the outer parent body.
 
@@ -156,7 +156,7 @@ public IConnectable OuterParentBody { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly_OuterRacewayInfo"></a> OuterRacewayInfo
+### OuterRacewayInfo
 
 Gets or sets the outer raceway information.
 
@@ -168,7 +168,7 @@ public RacewayGeometryInfo OuterRacewayInfo { get; set; }
 
  [RacewayGeometryInfo](VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly__InnerParentBody"></a> \_InnerParentBody
+### \_InnerParentBody
 
 Gets or sets the inner parent body.
 
@@ -180,7 +180,7 @@ public Linker<IConnectable> _InnerParentBody { get; set; }
 
  Linker<IConnectable\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly__OuterParentBody"></a> \_OuterParentBody
+### \_OuterParentBody
 
 Gets or sets the outer parent body.
 
@@ -191,4 +191,5 @@ public Linker<IConnectable> _OuterParentBody { get; set; }
 #### Property Value
 
  Linker<IConnectable\>
+
 

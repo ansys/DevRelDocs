@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_SubsystemAssembly"></a> Class SubsystemAssembly
+# Class SubsystemAssembly
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -90,13 +90,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Operation_SubsystemAssembly__ctor"></a> SubsystemAssembly\(\)
+### SubsystemAssembly\(\)
 
 ```csharp
 public SubsystemAssembly()
 ```
 
-### <a id="VM_Managed_Operation_SubsystemAssembly__ctor_System_String_"></a> SubsystemAssembly\(string\)
+### SubsystemAssembly\(string\)
 
 ```csharp
 public SubsystemAssembly(string strXml)
@@ -108,9 +108,10 @@ public SubsystemAssembly(string strXml)
 
 ## Methods
 
-### <a id="VM_Managed_Operation_SubsystemAssembly_Execute"></a> Execute\(\)
+### Execute\(\)
 
 ```csharp
 public override void Execute()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track"></a> Namespace VM.Managed.DAFUL.Track
+# Namespace VM.Managed.DAFUL.Track
 
 ### Namespaces
 
@@ -245,4 +245,5 @@ Weighting Factor Type
  [HydroForce.SetProgressDelegate](VM.Managed.DAFUL.Track.HydroForce.SetProgressDelegate.md)
 
 Sets progress delegate
+
 

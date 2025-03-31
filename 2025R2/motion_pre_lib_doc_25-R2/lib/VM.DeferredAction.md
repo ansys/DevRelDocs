@@ -1,4 +1,4 @@
-# <a id="VM_DeferredAction"></a> Class DeferredAction
+# Class DeferredAction
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -20,13 +20,13 @@ public class DeferredAction
 
 ## Methods
 
-### <a id="VM_DeferredAction_Cancel"></a> Cancel\(\)
+### Cancel\(\)
 
 ```csharp
 public void Cancel()
 ```
 
-### <a id="VM_DeferredAction_Create_System_Action_"></a> Create\(Action\)
+### Create\(Action\)
 
 ```csharp
 public static DeferredAction Create(Action action)
@@ -40,7 +40,7 @@ public static DeferredAction Create(Action action)
 
  [DeferredAction](VM.DeferredAction.md)
 
-### <a id="VM_DeferredAction_Defer_System_TimeSpan_"></a> Defer\(TimeSpan\)
+### Defer\(TimeSpan\)
 
 ```csharp
 public void Defer(TimeSpan delay)
@@ -50,13 +50,13 @@ public void Defer(TimeSpan delay)
 
 `delay` [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
 
-### <a id="VM_DeferredAction_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
 
-### <a id="VM_DeferredAction_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 protected virtual void Dispose(bool disposing)
@@ -66,9 +66,10 @@ protected virtual void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_DeferredAction_Finalize"></a> \~DeferredAction\(\)
+### \~DeferredAction\(\)
 
 ```csharp
 protected ~DeferredAction()
 ```
+
 

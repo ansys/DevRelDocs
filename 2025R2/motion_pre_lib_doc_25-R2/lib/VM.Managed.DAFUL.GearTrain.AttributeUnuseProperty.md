@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_AttributeUnuseProperty"></a> Class AttributeUnuseProperty
+# Class AttributeUnuseProperty
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -99,11 +99,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnuseProperty__ctor"></a> AttributeUnuseProperty\(\)
+### AttributeUnuseProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeUnuseProperty" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeUnuseProperty()
 ```
+
 

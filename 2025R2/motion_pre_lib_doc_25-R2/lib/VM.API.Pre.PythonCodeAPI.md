@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_PythonCodeAPI"></a> Class PythonCodeAPI
+# Class PythonCodeAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class PythonCodeAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_PythonCodeAPI_ImportPythonCode_VM_Managed_Document_System_String___"></a> ImportPythonCode\(Document, params string\[\]\)
+### ImportPythonCode\(Document, params string\[\]\)
 
 Import python code
 
@@ -52,7 +52,7 @@ Array of the created <xref href="VM.Managed.DAFUL.PythonCode" data-throw-if-not-
 
 Raised when document or codes are null or empty.
 
-### <a id="VM_API_Pre_PythonCodeAPI_ImportPythonCode_VM_Managed_Document_System_Collections_Generic_IEnumerable_System_String__"></a> ImportPythonCode\(Document, IEnumerable<string\>\)
+### ImportPythonCode\(Document, IEnumerable<string\>\)
 
 Import python code
 
@@ -81,4 +81,5 @@ Array of the created <xref href="VM.Managed.DAFUL.PythonCode" data-throw-if-not-
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Raised when document or codes are null or empty.
+
 

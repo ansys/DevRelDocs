@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_MessageLevel"></a> Enum MessageLevel
+# Enum MessageLevel
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -26,6 +26,7 @@ No message is written regarding co-simulation.
 `Partial = 1` 
 
 Only the progress regarding co-simulation is recorded.
+
 
 
 

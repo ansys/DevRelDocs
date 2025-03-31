@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_PropertyTemperatureBase"></a> Class PropertyTemperatureBase
+# Class PropertyTemperatureBase
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -168,7 +168,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyTemperatureBase__ctor"></a> PropertyTemperatureBase\(\)
+### PropertyTemperatureBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.PropertyTemperatureBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ public PropertyTemperatureBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyTemperatureBase_DFTHRelativeFilePath"></a> DFTHRelativeFilePath
+### DFTHRelativeFilePath
 
 Gets or sets the dfth relative file path.
 
@@ -190,7 +190,7 @@ public string DFTHRelativeFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyTemperatureBase_TypeOfProperty"></a> TypeOfProperty
+### TypeOfProperty
 
 Gets or sets the property type.
 
@@ -202,7 +202,7 @@ public PropertyTemperatureBase.PropertyType TypeOfProperty { get; set; }
 
  [PropertyTemperatureBase](VM.Managed.DAFUL.Thermal.PropertyTemperatureBase.md).[PropertyType](VM.Managed.DAFUL.Thermal.PropertyTemperatureBase.PropertyType.md)
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyTemperatureBase_UnitOfTemepratureFile"></a> UnitOfTemepratureFile
+### UnitOfTemepratureFile
 
 Gets or sets the temperature file unit.
 
@@ -216,7 +216,7 @@ public TemperatureUnit UnitOfTemepratureFile { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyTemperatureBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -229,4 +229,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

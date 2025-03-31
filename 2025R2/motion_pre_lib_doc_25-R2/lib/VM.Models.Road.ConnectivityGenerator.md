@@ -1,4 +1,4 @@
-# <a id="VM_Models_Road_ConnectivityGenerator"></a> Class ConnectivityGenerator
+# Class ConnectivityGenerator
 
 Namespace: [VM.Models.Road](VM.Models.Road.md)  
 Assembly: VM.Models.Road.dll  
@@ -20,7 +20,7 @@ public static class ConnectivityGenerator
 
 ## Methods
 
-### <a id="VM_Models_Road_ConnectivityGenerator_GenerateQuadConnectivity_System_UInt64_System_UInt64_System_Boolean_"></a> GenerateQuadConnectivity\(ulong, ulong, bool\)
+### GenerateQuadConnectivity\(ulong, ulong, bool\)
 
 ```csharp
 public static int[] GenerateQuadConnectivity(ulong nU, ulong nV, bool includeConnectivityCount = false)
@@ -38,7 +38,7 @@ public static int[] GenerateQuadConnectivity(ulong nU, ulong nV, bool includeCon
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
 
-### <a id="VM_Models_Road_ConnectivityGenerator_GenerateTriangleConnectivity_System_UInt64_System_UInt64_System_Boolean_"></a> GenerateTriangleConnectivity\(ulong, ulong, bool\)
+### GenerateTriangleConnectivity\(ulong, ulong, bool\)
 
 ```csharp
 public static int[] GenerateTriangleConnectivity(ulong nU, ulong nV, bool includeConnectivityCount = false)
@@ -56,7 +56,7 @@ public static int[] GenerateTriangleConnectivity(ulong nU, ulong nV, bool includ
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
 
-### <a id="VM_Models_Road_ConnectivityGenerator_GetQuadConnectivityCountForGivenTargetRoadLength_System_UInt64_System_UInt64_System_Double_System_Double_System_Boolean_"></a> GetQuadConnectivityCountForGivenTargetRoadLength\(ulong, ulong, double, double, bool\)
+### GetQuadConnectivityCountForGivenTargetRoadLength\(ulong, ulong, double, double, bool\)
 
 ```csharp
 public static ulong GetQuadConnectivityCountForGivenTargetRoadLength(ulong nU, ulong nV, double dRoadLength, double dTargetLength, bool bIncludeConnectivityCount = false)
@@ -78,7 +78,7 @@ public static ulong GetQuadConnectivityCountForGivenTargetRoadLength(ulong nU, u
 
  [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### <a id="VM_Models_Road_ConnectivityGenerator_GetTriangleConnectivityCountForGivenTargetRoadLength_System_UInt64_System_UInt64_System_Double_System_Double_System_Boolean_"></a> GetTriangleConnectivityCountForGivenTargetRoadLength\(ulong, ulong, double, double, bool\)
+### GetTriangleConnectivityCountForGivenTargetRoadLength\(ulong, ulong, double, double, bool\)
 
 ```csharp
 public static ulong GetTriangleConnectivityCountForGivenTargetRoadLength(ulong nU, ulong nV, double dRoadLength, double dTargetLength, bool bIncludeConnectivityCount = false)
@@ -99,4 +99,5 @@ public static ulong GetTriangleConnectivityCountForGivenTargetRoadLength(ulong n
 #### Returns
 
  [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
+
 

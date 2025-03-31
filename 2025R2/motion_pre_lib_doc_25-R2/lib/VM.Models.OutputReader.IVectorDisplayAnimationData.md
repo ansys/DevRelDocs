@@ -1,4 +1,4 @@
-# <a id="VM_Models_OutputReader_IVectorDisplayAnimationData"></a> Interface IVectorDisplayAnimationData
+# Interface IVectorDisplayAnimationData
 
 Namespace: [VM.Models.OutputReader](VM.Models.OutputReader.md)  
 Assembly: VM.Models.OutputReader.dll  
@@ -15,7 +15,7 @@ public interface IVectorDisplayAnimationData
 
 ## Properties
 
-### <a id="VM_Models_OutputReader_IVectorDisplayAnimationData_LabelNames"></a> LabelNames
+### LabelNames
 
 ```csharp
 List<List<string>> LabelNames { get; set; }
@@ -25,7 +25,7 @@ List<List<string>> LabelNames { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### <a id="VM_Models_OutputReader_IVectorDisplayAnimationData_Positions"></a> Positions
+### Positions
 
 ```csharp
 List<List<double[]>> Positions { get; set; }
@@ -35,7 +35,7 @@ List<List<double[]>> Positions { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>\>
 
-### <a id="VM_Models_OutputReader_IVectorDisplayAnimationData_Vectors"></a> Vectors
+### Vectors
 
 ```csharp
 List<List<double[]>> Vectors { get; set; }
@@ -44,4 +44,5 @@ List<List<double[]>> Vectors { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>\>
+
 

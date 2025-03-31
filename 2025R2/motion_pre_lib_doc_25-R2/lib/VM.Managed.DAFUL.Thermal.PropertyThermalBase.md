@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_PropertyThermalBase"></a> Class PropertyThermalBase
+# Class PropertyThermalBase
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyThermalBase__ctor"></a> PropertyThermalBase\(\)
+### PropertyThermalBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.PropertyThermalBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ public PropertyThermalBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyThermalBase_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -198,7 +198,7 @@ public ThermalFunction Function { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyThermalBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -211,4 +211,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

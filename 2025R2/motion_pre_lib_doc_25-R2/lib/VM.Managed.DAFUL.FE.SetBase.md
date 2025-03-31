@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_SetBase"></a> Class SetBase
+# Class SetBase
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -185,7 +185,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_SetBase__ctor_System_String_System_String_"></a> SetBase\(string, string\)
+### SetBase\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.SetBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ Name of the proxy.
 
 The build information.
 
-### <a id="VM_Managed_DAFUL_FE_SetBase__ctor"></a> SetBase\(\)
+### SetBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.SetBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -213,7 +213,7 @@ public SetBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_SetBase_Color"></a> Color
+### Color
 
 Gets or sets the color.
 
@@ -227,7 +227,7 @@ public virtual Color Color { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_SetBase_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -247,7 +247,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_SetBase_LinkAddedToDocumentCore_VM_Models_Pre_IOwned_System_Boolean_"></a> LinkAddedToDocumentCore\(IOwned, bool\)
+### LinkAddedToDocumentCore\(IOwned, bool\)
 
 ```csharp
 protected override void LinkAddedToDocumentCore(IOwned owner, bool bBackup)
@@ -259,9 +259,10 @@ protected override void LinkAddedToDocumentCore(IOwned owner, bool bBackup)
 
 `bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_SetBase_PostOpenDocument"></a> PostOpenDocument\(\)
+### PostOpenDocument\(\)
 
 ```csharp
 protected abstract void PostOpenDocument()
 ```
+
 

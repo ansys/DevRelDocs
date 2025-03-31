@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IOperationStatus"></a> Interface IOperationStatus
+# Interface IOperationStatus
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IOperationStatus
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_CancelPickerFromRibbon_VM_Managed_DAFUL_Pre_CancelRibbon_"></a> CancelPickerFromRibbon\(CancelRibbon\)
+### CancelPickerFromRibbon\(CancelRibbon\)
 
 Cancels the picker from ribbon.
 
@@ -31,7 +31,7 @@ void CancelPickerFromRibbon(CancelRibbon ribbonType)
 
 Type of the ribbon.
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_CloseWindow"></a> CloseWindow\(\)
+### CloseWindow\(\)
 
 Closes this window.
 
@@ -39,7 +39,7 @@ Closes this window.
 void CloseWindow()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_DisableApplyAndReStart"></a> DisableApplyAndReStart\(\)
+### DisableApplyAndReStart\(\)
 
 Disable the apply and restart button.
 
@@ -47,7 +47,7 @@ Disable the apply and restart button.
 void DisableApplyAndReStart()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_GetCurrentFilter"></a> GetCurrentFilter\(\)
+### GetCurrentFilter\(\)
 
 Gets the current filter.
 
@@ -59,7 +59,7 @@ string GetCurrentFilter()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_IsVisible"></a> IsVisible\(\)
+### IsVisible\(\)
 
 Gets inform that this view is a visible.
 
@@ -71,7 +71,7 @@ bool IsVisible()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_OnCancel"></a> OnCancel\(\)
+### OnCancel\(\)
 
 Called when [cancel].
 
@@ -79,7 +79,7 @@ Called when [cancel].
 void OnCancel()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_OnViewHide"></a> OnViewHide\(\)
+### OnViewHide\(\)
 
 Called when [view hide].
 
@@ -87,7 +87,7 @@ Called when [view hide].
 void OnViewHide()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_OnViewShow"></a> OnViewShow\(\)
+### OnViewShow\(\)
 
 Called when [view show].
 
@@ -95,7 +95,7 @@ Called when [view show].
 void OnViewShow()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_OperationCancel"></a> OperationCancel\(\)
+### OperationCancel\(\)
 
 Operations the cancel.
 
@@ -103,7 +103,7 @@ Operations the cancel.
 void OperationCancel()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_PickOperation_System_String_System_String_"></a> PickOperation\(string, string\)
+### PickOperation\(string, string\)
 
 Picks the operation.
 
@@ -121,7 +121,7 @@ Name of the content.
 
 Type of the string.
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_PickOperation_System_String_System_String_System_Boolean_"></a> PickOperation\(string, string, bool\)
+### PickOperation\(string, string, bool\)
 
 Picks the operation.
 
@@ -143,7 +143,7 @@ Type of the string.
 
 if set to <code>true</code> [b show dialog].
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_PickOperation_System_String_System_String_System_String_System_Boolean_"></a> PickOperation\(string, string, string, bool\)
+### PickOperation\(string, string, string, bool\)
 
 Picks the operation.
 
@@ -169,7 +169,7 @@ The string previous result.
 
 if set to <code>true</code> [b show dialog].
 
-### <a id="VM_Managed_DAFUL_Pre_IOperationStatus_SetCurrentOperation_System_String_"></a> SetCurrentOperation\(string\)
+### SetCurrentOperation\(string\)
 
 Sets the current operation.
 
@@ -182,4 +182,5 @@ void SetCurrentOperation(string strOpName)
 `strOpName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the STR op.
+
 

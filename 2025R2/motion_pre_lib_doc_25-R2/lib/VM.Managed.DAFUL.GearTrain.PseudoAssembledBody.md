@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PseudoAssembledBody"></a> Class PseudoAssembledBody
+# Class PseudoAssembledBody
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -276,7 +276,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoAssembledBody__ctor"></a> PseudoAssembledBody\(\)
+### PseudoAssembledBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoAssembledBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -284,7 +284,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoA
 public PseudoAssembledBody()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoAssembledBody__ctor_System_String_VM_Managed_Instance_"></a> PseudoAssembledBody\(string, Instance\)
+### PseudoAssembledBody\(string, Instance\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoAssembledBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -304,7 +304,7 @@ The instance nodal body.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoAssembledBody_InstanceContainer"></a> InstanceContainer
+### InstanceContainer
 
 Gets or sets the instance container.
 
@@ -318,7 +318,7 @@ public InstanceContainer InstanceContainer { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoAssembledBody_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -336,7 +336,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoAssembledBody_TemperaryAssembledBodyGeometry_VM_Managed_Document_System_String_VM_Managed_TMatrix_"></a> TemperaryAssembledBodyGeometry\(Document, string, TMatrix\)
+### TemperaryAssembledBodyGeometry\(Document, string, TMatrix\)
 
 Temperaries the nodal body geometry.
 
@@ -361,4 +361,5 @@ The mat t.
 #### Returns
 
  [PseudoAssembledBody](VM.Managed.DAFUL.GearTrain.PseudoAssembledBody.md)
+
 

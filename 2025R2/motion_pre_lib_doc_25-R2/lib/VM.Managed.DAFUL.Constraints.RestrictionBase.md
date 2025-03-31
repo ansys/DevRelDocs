@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_RestrictionBase"></a> Class RestrictionBase
+# Class RestrictionBase
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase__ctor"></a> RestrictionBase\(\)
+### RestrictionBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.RestrictionBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ public RestrictionBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_BoundaryPenetration"></a> BoundaryPenetration
+### BoundaryPenetration
 
 Gets or sets the boundary penetration.
 
@@ -123,7 +123,7 @@ public ExpressionValueVariable BoundaryPenetration { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_ExponentOfPenetration"></a> ExponentOfPenetration
+### ExponentOfPenetration
 
 Gets or sets the exponent of penetration.
 
@@ -135,7 +135,7 @@ public ExpressionValueVariable ExponentOfPenetration { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_MaxDampingCoefficient"></a> MaxDampingCoefficient
+### MaxDampingCoefficient
 
 Gets or sets the maximum damping coefficient.
 
@@ -147,7 +147,7 @@ public ExpressionValueVariable MaxDampingCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_Minus"></a> Minus
+### Minus
 
 Gets or sets the minus.
 
@@ -159,7 +159,7 @@ public ExpressionValueVariable Minus { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_Plus"></a> Plus
+### Plus
 
 Gets or sets the plus.
 
@@ -171,7 +171,7 @@ public ExpressionValueVariable Plus { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_StiffnessCoefficient"></a> StiffnessCoefficient
+### StiffnessCoefficient
 
 Gets or sets the stiffness coefficient.
 
@@ -183,7 +183,7 @@ public ExpressionValueVariable StiffnessCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_UseMinus"></a> UseMinus
+### UseMinus
 
 Gets or sets a value indicating whether [minus].
 
@@ -195,7 +195,7 @@ public bool UseMinus { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_UsePlus"></a> UsePlus
+### UsePlus
 
 Gets or sets a value indicating whether [plus].
 
@@ -209,7 +209,7 @@ public bool UsePlus { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -223,7 +223,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_IsUseRestriction"></a> IsUseRestriction\(\)
+### IsUseRestriction\(\)
 
 Gets a value indicating whether [use restriction].
 
@@ -237,7 +237,7 @@ public bool IsUseRestriction()
 
 <code>true</code> if [use restriction]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Constraints_RestrictionBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -250,4 +250,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

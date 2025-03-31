@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_RevoluteBBP"></a> Class RevoluteBBP
+# Class RevoluteBBP
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCB.dll  
@@ -61,9 +61,10 @@ BuilderBase<Revolute\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Constraints_RevoluteBBP__ctor"></a> RevoluteBBP\(\)
+### RevoluteBBP\(\)
 
 ```csharp
 public RevoluteBBP()
 ```
+
 

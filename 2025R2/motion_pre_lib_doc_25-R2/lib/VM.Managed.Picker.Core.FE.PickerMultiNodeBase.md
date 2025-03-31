@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_FE_PickerMultiNodeBase"></a> Class PickerMultiNodeBase
+# Class PickerMultiNodeBase
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  
@@ -58,7 +58,7 @@ PickerBase.CustomFilterEvent
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNodeBase__ctor"></a> PickerMultiNodeBase\(\)
+### PickerMultiNodeBase\(\)
 
 ```csharp
 public PickerMultiNodeBase()
@@ -66,7 +66,7 @@ public PickerMultiNodeBase()
 
 ## Fields
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNodeBase_m_pOwnerMesh"></a> m\_pOwnerMesh
+### m\_pOwnerMesh
 
 ```csharp
 protected Mesh m_pOwnerMesh
@@ -78,7 +78,7 @@ protected Mesh m_pOwnerMesh
 
 ## Properties
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNodeBase_ActiveMeshDocument"></a> ActiveMeshDocument
+### ActiveMeshDocument
 
 ```csharp
 public MeshDocument ActiveMeshDocument { get; }
@@ -90,7 +90,7 @@ public MeshDocument ActiveMeshDocument { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNodeBase_GetMesh"></a> GetMesh\(\)
+### GetMesh\(\)
 
 Gets the mesh.
 
@@ -104,7 +104,7 @@ protected IMesh* GetMesh()
 
 The mesh.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNodeBase_GetNodeID_System_UInt32_"></a> GetNodeID\(uint\)
+### GetNodeID\(uint\)
 
 Gets the node ID.
 
@@ -124,7 +124,7 @@ The node index.
 
 The node ID.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNodeBase_SetOwnerMesh_System_UIntPtr_"></a> SetOwnerMesh\(UIntPtr\)
+### SetOwnerMesh\(UIntPtr\)
 
 Sets the mesh proxy for highlight
 
@@ -137,4 +137,5 @@ public void SetOwnerMesh(UIntPtr keyMesh)
 `keyMesh` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
 The mesh proxy.
+
 

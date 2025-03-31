@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_DocumentAPIImpl"></a> Class DocumentAPIImpl
+# Class DocumentAPIImpl
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class DocumentAPIImpl
 
 ## Methods
 
-### <a id="VM_API_Pre_GearTrain_DocumentAPIImpl_CreateNewGearTrainDocumentImpl__1_System_String_System_String_VM_Vector_VM_Unit_System_Double_System_Boolean_VM_Plane_System_Boolean_VM_API_Pre_LengthUnitType_VM_Managed_Vector_System_String_System_String_"></a> CreateNewGearTrainDocumentImpl<T\>\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType, Vector, string, string\)
+### CreateNewGearTrainDocumentImpl<T\>\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType, Vector, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -98,4 +98,5 @@ The document type
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'newMeshFilePath' argument is empty.
+
 

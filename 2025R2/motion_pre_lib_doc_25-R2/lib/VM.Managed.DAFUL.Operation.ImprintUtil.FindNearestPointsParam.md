@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsParam"></a> Class ImprintUtil.FindNearestPointsParam
+# Class ImprintUtil.FindNearestPointsParam
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  
@@ -26,7 +26,7 @@ public class ImprintUtil.FindNearestPointsParam
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsParam__ctor"></a> FindNearestPointsParam\(\)
+### FindNearestPointsParam\(\)
 
 ```csharp
 public FindNearestPointsParam()
@@ -34,7 +34,7 @@ public FindNearestPointsParam()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsParam_Body"></a> Body
+### Body
 
 Gets and sets the body.
 
@@ -46,7 +46,7 @@ public KeyInfo Body { get; set; }
 
  KeyInfo
 
-### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsParam_SeedPoints"></a> SeedPoints
+### SeedPoints
 
 Gets and sets the seed points.
 
@@ -57,4 +57,5 @@ public List<Vector> SeedPoints { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+
 

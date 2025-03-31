@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness"></a> Class CalculatePulleyStiffness
+# Class CalculatePulleyStiffness
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector.Operation](VM.Managed.DAFUL.CPlacingConnector.Operation.md)  
 Assembly: VMOpCPlacingConnector.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness__ctor_System_String_System_String_System_String_"></a> CalculatePulleyStiffness\(string, string, string\)
+### CalculatePulleyStiffness\(string, string, string\)
 
 Calculate pin stiffness
 
@@ -99,7 +99,7 @@ The pulley name
 
 The pin file path
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness__ctor_VM_Managed_Operation_JournalParameter_"></a> CalculatePulleyStiffness\(JournalParameter\)
+### CalculatePulleyStiffness\(JournalParameter\)
 
 Calculate pin stiffness
 
@@ -115,7 +115,7 @@ The journal parameter
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness_CreateReferenceMarker_VM_Managed_Document3D_VM_Managed_ObjectBase_VM_Managed_TMatrix_"></a> CreateReferenceMarker\(Document3D, ObjectBase, TMatrix\)
+### CreateReferenceMarker\(Document3D, ObjectBase, TMatrix\)
 
 Create reference marker
 
@@ -151,7 +151,7 @@ The parent body
 
 The matrix
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute
 
@@ -159,7 +159,7 @@ Execute
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -173,7 +173,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness_Result"></a> Result\(\)
+### Result\(\)
 
 Results this instance.
 
@@ -185,7 +185,7 @@ public List<double[]> Result()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness_Success"></a> Success\(\)
+### Success\(\)
 
 success flag
 
@@ -196,4 +196,5 @@ public bool Success()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

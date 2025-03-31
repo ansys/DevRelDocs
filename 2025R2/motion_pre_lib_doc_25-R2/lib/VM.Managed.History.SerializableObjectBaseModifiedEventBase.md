@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase"></a> Class SerializableObjectBaseModifiedEventBase
+# Class SerializableObjectBaseModifiedEventBase
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -53,7 +53,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase__ctor_System_Object_"></a> SerializableObjectBaseModifiedEventBase\(object\)
+### SerializableObjectBaseModifiedEventBase\(object\)
 
 ```csharp
 public SerializableObjectBaseModifiedEventBase(object obOriginal)
@@ -65,7 +65,7 @@ public SerializableObjectBaseModifiedEventBase(object obOriginal)
 
 ## Properties
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_InitialBackup"></a> InitialBackup
+### InitialBackup
 
 ```csharp
 protected virtual bool InitialBackup { get; }
@@ -75,7 +75,7 @@ protected virtual bool InitialBackup { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_ObjectDelegateKey"></a> ObjectDelegateKey
+### ObjectDelegateKey
 
 ```csharp
 public UIntPtr ObjectDelegateKey { get; }
@@ -87,7 +87,7 @@ public UIntPtr ObjectDelegateKey { get; }
 
 ## Methods
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_AfterAdded_VM_Managed_History_HistoryEventArgs_"></a> AfterAdded\(HistoryEventArgs\)
+### AfterAdded\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterAdded(HistoryEventArgs args)
@@ -97,7 +97,7 @@ protected override void AfterAdded(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
+### AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -107,7 +107,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
+### AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -117,7 +117,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_BeforeAdded_VM_Managed_History_AddToHistoryManagerEventArgs_"></a> BeforeAdded\(AddToHistoryManagerEventArgs\)
+### BeforeAdded\(AddToHistoryManagerEventArgs\)
 
 ```csharp
 protected override void BeforeAdded(AddToHistoryManagerEventArgs args)
@@ -127,7 +127,7 @@ protected override void BeforeAdded(AddToHistoryManagerEventArgs args)
 
 `args` AddToHistoryManagerEventArgs
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_BeforeRedo_VM_Managed_History_HistoryEventArgs_"></a> BeforeRedo\(HistoryEventArgs\)
+### BeforeRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void BeforeRedo(HistoryEventArgs args)
@@ -137,7 +137,7 @@ protected override void BeforeRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_BeforeUndo_VM_Managed_History_HistoryEventArgs_"></a> BeforeUndo\(HistoryEventArgs\)
+### BeforeUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void BeforeUndo(HistoryEventArgs args)
@@ -147,7 +147,7 @@ protected override void BeforeUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -157,7 +157,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -168,19 +168,19 @@ protected virtual void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 ```csharp
 public override sealed void Dispose()
 ```
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_Finalize"></a> \~SerializableObjectBaseModifiedEventBase\(\)
+### \~SerializableObjectBaseModifiedEventBase\(\)
 
 ```csharp
 protected ~SerializableObjectBaseModifiedEventBase()
 ```
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_Merge_VM_Managed_History_SerializableObjectBaseModifiedEventBase_"></a> Merge\(SerializableObjectBaseModifiedEventBase\)
+### Merge\(SerializableObjectBaseModifiedEventBase\)
 
 ```csharp
 public SerializableObjectBaseModifiedEventBase.MergeTo Merge(SerializableObjectBaseModifiedEventBase evtNext)
@@ -194,7 +194,7 @@ public SerializableObjectBaseModifiedEventBase.MergeTo Merge(SerializableObjectB
 
  [SerializableObjectBaseModifiedEventBase](VM.Managed.History.SerializableObjectBaseModifiedEventBase.md).[MergeTo](VM.Managed.History.SerializableObjectBaseModifiedEventBase.MergeTo.md)
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase_MergeImpl_VM_Managed_History_SerializableObjectBaseModifiedEventBase_"></a> MergeImpl\(SerializableObjectBaseModifiedEventBase\)
+### MergeImpl\(SerializableObjectBaseModifiedEventBase\)
 
 ```csharp
 protected abstract SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(SerializableObjectBaseModifiedEventBase evtNext)
@@ -207,4 +207,5 @@ protected abstract SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(Ser
 #### Returns
 
  [SerializableObjectBaseModifiedEventBase](VM.Managed.History.SerializableObjectBaseModifiedEventBase.md).[MergeTo](VM.Managed.History.SerializableObjectBaseModifiedEventBase.MergeTo.md)
+
 

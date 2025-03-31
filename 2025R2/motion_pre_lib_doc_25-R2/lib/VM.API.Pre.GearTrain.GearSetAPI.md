@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_GearSetAPI"></a> Class GearSetAPI
+# Class GearSetAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class GearSetAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CalculateBeamStiffness_VM_Managed_DAFUL_GearTrain_HiddenGearSetRackAndPinionDocument_"></a> CalculateBeamStiffness\(HiddenGearSetRackAndPinionDocument\)
+### CalculateBeamStiffness\(HiddenGearSetRackAndPinionDocument\)
 
 Calculate beam stiffness.
 
@@ -53,7 +53,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'feDataFilePath' is not found.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CalculateToothStiffness_VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_System_Int32_"></a> CalculateToothStiffness\(HiddenGearSetDocumentBase, int\)
+### CalculateToothStiffness\(HiddenGearSetDocumentBase, int\)
 
 Calculate tooth stiffness in gear designer.
 
@@ -81,7 +81,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'gearIdx' argument is less than 0.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CalculateToothStiffness_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_Int32_"></a> CalculateToothStiffness\(GearTrainDocument, Obj, int\)
+### CalculateToothStiffness\(GearTrainDocument, Obj, int\)
 
 Calculate tooth stiffness in gear train subsystem.
 
@@ -118,7 +118,7 @@ Will be thrown if 'gearIdx' argument is less than 0.
 
 Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CalculateToothStiffnessForCycloid_VM_Managed_DAFUL_GearTrain_HiddenGearSetCycloidPinDocument_System_Int32_"></a> CalculateToothStiffnessForCycloid\(HiddenGearSetCycloidPinDocument, int\)
+### CalculateToothStiffnessForCycloid\(HiddenGearSetCycloidPinDocument, int\)
 
 Calculate tooth stiffness for cycloid in gear designer.
 
@@ -146,7 +146,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'gearIdx' argument is less than 0.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CalculateToothStiffnessForCycloid_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_Int32_"></a> CalculateToothStiffnessForCycloid\(GearTrainDocument, Obj, int\)
+### CalculateToothStiffnessForCycloid\(GearTrainDocument, Obj, int\)
 
 Calculate tooth stiffness for cycloid in gear train subsystem.
 
@@ -183,7 +183,7 @@ Will be thrown if 'gearIdx' argument is less than 0.
 
 Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CalculateToothStiffnessForRackAndPinion_VM_Managed_DAFUL_GearTrain_HiddenGearSetRackAndPinionDocument_System_Int32_"></a> CalculateToothStiffnessForRackAndPinion\(HiddenGearSetRackAndPinionDocument, int\)
+### CalculateToothStiffnessForRackAndPinion\(HiddenGearSetRackAndPinionDocument, int\)
 
 Calculate tooth stiffness for rack and pinion in gear designer.
 
@@ -211,7 +211,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'gearIdx' argument is less than 0.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CalculateToothStiffnessForRackAndPinion_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_Int32_"></a> CalculateToothStiffnessForRackAndPinion\(GearTrainDocument, Obj, int\)
+### CalculateToothStiffnessForRackAndPinion\(GearTrainDocument, Obj, int\)
 
 Calculate tooth stiffness for rack and pinion in gear train subsystem.
 
@@ -248,7 +248,7 @@ Will be thrown if 'gearIdx' argument is less than 0.
 
 Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CalculateWebStiffnessForEF_VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_System_String_System_Int32_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> CalculateWebStiffnessForEF\(HiddenGearSetDocumentBase, string, int, ExpressionValueVariable, ExpressionValueVariable\)
+### CalculateWebStiffnessForEF\(HiddenGearSetDocumentBase, string, int, ExpressionValueVariable, ExpressionValueVariable\)
 
 Calculate ef web stiffness for EF in gear designer.
 
@@ -299,7 +299,7 @@ Will be thrown if 'feDataFilePath' is not found.
 
 Will be thrown if 'gearIdx' argument is less than 0.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CalculateWebStiffnessForFE_VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_System_String_System_Int32_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> CalculateWebStiffnessForFE\(HiddenGearSetDocumentBase, string, int, ExpressionValueVariable, ExpressionValueVariable\)
+### CalculateWebStiffnessForFE\(HiddenGearSetDocumentBase, string, int, ExpressionValueVariable, ExpressionValueVariable\)
 
 Calculate fe web stiffness for FE in gear designer.
 
@@ -350,7 +350,7 @@ Will be thrown if 'feDataFilePath' is not found.
 
 Will be thrown if 'gearIdx' argument is less than 0.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_ContactAnalysis_VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_System_Int32_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetary_ContactAnalysisInputType_VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetary_ContactAnalysisInputType_"></a> ContactAnalysis\(HiddenGearSetDocumentBase, int, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, bool, ContactAnalysisInputType, ContactAnalysisInputType\)
+### ContactAnalysis\(HiddenGearSetDocumentBase, int, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, bool, ContactAnalysisInputType, ContactAnalysisInputType\)
 
 Contact analysis In gearset designer.
 
@@ -404,7 +404,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'gearIdx' argument is less than 0.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateCrossHelicalGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_BasicInvolute_HelicalAngleType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_System_String__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__"></a> CreateCrossHelicalGearSet\(GearTrainDocument, string, HelicalAngleType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, ExpressionValueVariable?, Color?\)
+### CreateCrossHelicalGearSet\(GearTrainDocument, string, HelicalAngleType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, ExpressionValueVariable?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetCrossHelical" data-throw-if-not-resolved="false"></xref>.
 
@@ -499,7 +499,7 @@ Will be thrown if length of 'faceWidth' is not 2.
 
 Will be thrown if length of 'gearName' is not 2.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateCrossHelicalGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreateCrossHelicalGearSet\(GearTrainDocument, Obj, string, Color?\)
+### CreateCrossHelicalGearSet\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetCrossHelical" data-throw-if-not-resolved="false"></xref>.
 
@@ -544,7 +544,7 @@ Will be thrown if 'document' or 'gearsetCopy' arguments are empty.
 
 Will be thrown if type of 'gearsetCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetCrossHelical" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateCrossHelicalGearSetWithKISSsoft_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_String_System_Nullable_System_Drawing_Color__"></a> CreateCrossHelicalGearSetWithKISSsoft\(GearTrainDocument, string, string, Color?\)
+### CreateCrossHelicalGearSetWithKISSsoft\(GearTrainDocument, string, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetCrossHelical" data-throw-if-not-resolved="false"></xref> with KISSsoft.
 
@@ -588,7 +588,7 @@ Will be thrown if 'document' or 'modelPath' arguments are empty.
 
 Will be thrown if 'modelPath' is not found.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateCustomGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Int32_System_Collections_Generic_IEnumerable_System_String__System_Nullable_System_Drawing_Color__"></a> CreateCustomGearSet\(GearTrainDocument, string, int, IEnumerable<string\>, Color?\)
+### CreateCustomGearSet\(GearTrainDocument, string, int, IEnumerable<string\>, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetCustom" data-throw-if-not-resolved="false"></xref>.
 
@@ -635,7 +635,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if length of 'gearName' is not 'numberOfGear'.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateCustomGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreateCustomGearSet\(GearTrainDocument, Obj, string, Color?\)
+### CreateCustomGearSet\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetCustom" data-throw-if-not-resolved="false"></xref>.
 
@@ -680,7 +680,7 @@ Will be thrown if 'document' or 'gearsetCopy' arguments are empty.
 
 Will be thrown if type of 'gearsetCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetCustom" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateCycloidPinGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_String_System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_System_String__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__"></a> CreateCycloidPinGearSet\(GearTrainDocument, string, string, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?\)
+### CreateCycloidPinGearSet\(GearTrainDocument, string, string, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetCycloidPin" data-throw-if-not-resolved="false"></xref>.
 
@@ -764,7 +764,7 @@ Will be thrown if length of 'faceWidth' is not 2.
 
 Will be thrown if length of 'gearName' is not 2.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateCycloidPinGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreateCycloidPinGearSet\(GearTrainDocument, Obj, string, Color?\)
+### CreateCycloidPinGearSet\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetCycloidPin" data-throw-if-not-resolved="false"></xref>.
 
@@ -809,7 +809,7 @@ Will be thrown if 'document' or 'gearsetCopy' arguments are empty.
 
 Will be thrown if type of 'gearsetCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetCycloidPin" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateExternalGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_BasicInvolute_GearType_VM_Managed_DAFUL_GearTrain_BasicInvolute_HelicalAngleType_System_Int32_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Nullable_System_Drawing_Color__"></a> CreateExternalGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, bool, Color?\)
+### CreateExternalGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, bool, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -917,7 +917,7 @@ Will be thrown if length of 'faceWidth' is not 'numberOfGear'.
 
 Will be thrown if length of 'gearName' is not 'numberOfGear'.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateExternalGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreateExternalGearSet\(GearTrainDocument, Obj, string, Color?\)
+### CreateExternalGearSet\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -962,7 +962,7 @@ Will be thrown if 'document' or 'gearsetCopy' arguments are empty.
 
 Will be thrown if type of 'gearsetCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSet" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateExternalGearSetWithKISSsoft_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_String_System_Nullable_System_Drawing_Color__"></a> CreateExternalGearSetWithKISSsoft\(GearTrainDocument, string, string, Color?\)
+### CreateExternalGearSetWithKISSsoft\(GearTrainDocument, string, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSet" data-throw-if-not-resolved="false"></xref> with KISSsoft.
 
@@ -1006,7 +1006,7 @@ Will be thrown if 'document' or 'modelPath' arguments are empty.
 
 Will be thrown if 'modelPath' is not found.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateInternalGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_BasicInvolute_GearType_VM_Managed_DAFUL_GearTrain_BasicInvolute_HelicalAngleType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Nullable_System_Drawing_Color__"></a> CreateInternalGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, bool, Color?\)
+### CreateInternalGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, bool, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetInternal" data-throw-if-not-resolved="false"></xref>.
 
@@ -1105,7 +1105,7 @@ Will be thrown if length of 'faceWidth' is not 2.
 
 Will be thrown if length of 'gearName' is not 2.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateInternalGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreateInternalGearSet\(GearTrainDocument, Obj, string, Color?\)
+### CreateInternalGearSet\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetInternal" data-throw-if-not-resolved="false"></xref>.
 
@@ -1150,7 +1150,7 @@ Will be thrown if 'document' or 'gearsetCopy' arguments are empty.
 
 Will be thrown if type of 'gearsetCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetInternal" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateInternalGearSetWithKISSsoft_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_String_System_Nullable_System_Drawing_Color__"></a> CreateInternalGearSetWithKISSsoft\(GearTrainDocument, string, string, Color?\)
+### CreateInternalGearSetWithKISSsoft\(GearTrainDocument, string, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetInternal" data-throw-if-not-resolved="false"></xref> with KISSsoft.
 
@@ -1194,7 +1194,7 @@ Will be thrown if 'document' or 'modelPath' arguments are empty.
 
 Will be thrown if 'modelPath' is not found.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreatePlanetaryDPGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_BasicInvolute_GearType_VM_Managed_DAFUL_GearTrain_BasicInvolute_HelicalAngleType_System_Int32_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_DogLegDirectionType_System_Nullable_System_Drawing_Color__"></a> CreatePlanetaryDPGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, DogLegDirectionType, Color?\)
+### CreatePlanetaryDPGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, DogLegDirectionType, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetaryDP" data-throw-if-not-resolved="false"></xref>.
 
@@ -1294,7 +1294,7 @@ Will be thrown if length of 'profileShift' is not 4.
 
 Will be thrown if length of 'faceWidth' is not 4.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreatePlanetaryDPGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreatePlanetaryDPGearSet\(GearTrainDocument, Obj, string, Color?\)
+### CreatePlanetaryDPGearSet\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetaryDP" data-throw-if-not-resolved="false"></xref>.
 
@@ -1339,7 +1339,7 @@ Will be thrown if 'document' or 'gearsetCopy' arguments are empty.
 
 Will be thrown if type of 'gearsetCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetaryDP" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreatePlanetaryGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_BasicInvolute_GearType_VM_Managed_DAFUL_GearTrain_BasicInvolute_HelicalAngleType_System_Int32_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Boolean_System_Nullable_System_Drawing_Color__"></a> CreatePlanetaryGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, bool, Color?\)
+### CreatePlanetaryGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, bool, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetary" data-throw-if-not-resolved="false"></xref>.
 
@@ -1439,7 +1439,7 @@ Will be thrown if length of 'profileShift' is not 3.
 
 Will be thrown if length of 'faceWidth' is not 3.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreatePlanetaryGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreatePlanetaryGearSet\(GearTrainDocument, Obj, string, Color?\)
+### CreatePlanetaryGearSet\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetary" data-throw-if-not-resolved="false"></xref>.
 
@@ -1484,7 +1484,7 @@ Will be thrown if 'document' or 'gearsetCopy' arguments are empty.
 
 Will be thrown if type of 'gearsetCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetary" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreatePlanetaryGearSetWithKISSsoft_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_String_System_Nullable_System_Drawing_Color__"></a> CreatePlanetaryGearSetWithKISSsoft\(GearTrainDocument, string, string, Color?\)
+### CreatePlanetaryGearSetWithKISSsoft\(GearTrainDocument, string, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetary" data-throw-if-not-resolved="false"></xref> with KISSsoft.
 
@@ -1528,7 +1528,7 @@ Will be thrown if 'document' or 'modelPath' arguments are empty.
 
 Will be thrown if 'modelPath' is not found.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateRackAndPinionGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_BasicInvolute_GearType_VM_Managed_DAFUL_GearTrain_BasicInvolute_HelicalAngleType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_System_String__System_Boolean_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_DAFUL_GearTrain_Rack_BarType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__"></a> CreateRackAndPinionGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, bool, ExpressionValueVariable?, BarType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?\)
+### CreateRackAndPinionGearSet\(GearTrainDocument, string, GearType, HelicalAngleType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, bool, ExpressionValueVariable?, BarType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
@@ -1647,7 +1647,7 @@ Will be thrown if length of 'faceWidth' is not 2.
 
 Will be thrown if length of 'gearName' is not 2.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateRackAndPinionGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreateRackAndPinionGearSet\(GearTrainDocument, Obj, string, Color?\)
+### CreateRackAndPinionGearSet\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
@@ -1692,7 +1692,7 @@ Will be thrown if 'document' or 'gearsetCopy' arguments are empty.
 
 Will be thrown if type of 'gearsetCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateWormAndWormWheelGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_BasicInvolute_HelicalAngleType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_System_String__System_Nullable_System_Drawing_Color__"></a> CreateWormAndWormWheelGearSet\(GearTrainDocument, string, HelicalAngleType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, Color?\)
+### CreateWormAndWormWheelGearSet\(GearTrainDocument, string, HelicalAngleType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<ExpressionValueVariable\>, IEnumerable<string\>, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetWormAndWormWheel" data-throw-if-not-resolved="false"></xref>.
 
@@ -1783,7 +1783,7 @@ Will be thrown if length of 'faceWidth' is not 2.
 
 Will be thrown if length of 'gearName' is not 2.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_CreateWormAndWormWheelGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreateWormAndWormWheelGearSet\(GearTrainDocument, Obj, string, Color?\)
+### CreateWormAndWormWheelGearSet\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearSetWormAndWormWheel" data-throw-if-not-resolved="false"></xref>.
 
@@ -1828,7 +1828,7 @@ Will be thrown if 'document' or 'gearsetCopy' arguments are empty.
 
 Will be thrown if type of 'gearsetCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetWormAndWormWheel" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_MeshingGearSet_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_"></a> MeshingGearSet\(GearTrainDocument, Obj\)
+### MeshingGearSet\(GearTrainDocument, Obj\)
 
 Meshing gearset in gear train subsystem.
 
@@ -1863,7 +1863,7 @@ Will be thrown if 'document' or 'gearset' arguments are empty.
 
 Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateGearInEF_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_System_Int32_VM_Models_Pre_ExpressionValueVariable_VM_API_Pre_GearTrain_AttachLocationType_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_"></a> UpdateGearInEF\(HiddenDocumentMeshBase, Obj, int, ExpressionValueVariable, AttachLocationType, Obj, RacewayType\)
+### UpdateGearInEF\(HiddenDocumentMeshBase, Obj, int, ExpressionValueVariable, AttachLocationType, Obj, RacewayType\)
 
 Update gear in EF shaftset/housing designer.
 
@@ -1914,7 +1914,7 @@ Will be thrown if 'document' or 'gearset' or 'bearing' arguments are empty.
 
 Will be thrown if 'gearIndex' is less than zero.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateGearInEF_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_System_Int32_VM_API_Pre_Obj_"></a> UpdateGearInEF\(HiddenDocumentMeshBase, Obj, int, Obj\)
+### UpdateGearInEF\(HiddenDocumentMeshBase, Obj, int, Obj\)
 
 Update gear in EF shaftset/housing designer.
 
@@ -1953,7 +1953,7 @@ Will be thrown if 'document' or 'connectable' arguments are empty.
 
 Will be thrown if 'gearIndex' is less than zero.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateGearInFE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_System_Int32_VM_Models_Pre_ExpressionValueVariable_VM_API_Pre_GearTrain_AttachLocationType_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_"></a> UpdateGearInFE\(HiddenDocumentMeshBase, Obj, int, ExpressionValueVariable, AttachLocationType, Obj, RacewayType\)
+### UpdateGearInFE\(HiddenDocumentMeshBase, Obj, int, ExpressionValueVariable, AttachLocationType, Obj, RacewayType\)
 
 Update gear in FE shaftset/housing designer.
 
@@ -2004,7 +2004,7 @@ Will be thrown if 'document' or 'gearset' or 'bearing' arguments are empty.
 
 Will be thrown if 'gearIdx' argument is less than 0.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateGearInFE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_System_Int32_VM_API_Pre_Obj_"></a> UpdateGearInFE\(HiddenDocumentMeshBase, Obj, int, Obj\)
+### UpdateGearInFE\(HiddenDocumentMeshBase, Obj, int, Obj\)
 
 Update gear in FE shaftset/housing designer.
 
@@ -2043,7 +2043,7 @@ Will be thrown if 'document' or 'connectable' arguments are empty.
 
 Will be thrown if 'gearIdx' argument is less than 0.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateGearInShaftSet_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_System_Int32_VM_Models_Pre_ExpressionValueVariable_VM_API_Pre_GearTrain_AttachLocationType_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> UpdateGearInShaftSet\(HiddenShaftSetDocument, Obj, int, ExpressionValueVariable, AttachLocationType, Obj, RacewayType, ClearanceParameters?\)
+### UpdateGearInShaftSet\(HiddenShaftSetDocument, Obj, int, ExpressionValueVariable, AttachLocationType, Obj, RacewayType, ClearanceParameters?\)
 
 Update gear in simple shaftset designer.
 
@@ -2098,7 +2098,7 @@ Will be thrown if 'document' or 'gearset' or 'bearing' arguments are empty.
 
 Will be thrown if 'gearIndex' is less than zero.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateGearInShaftSet_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_System_Int32_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> UpdateGearInShaftSet\(HiddenShaftSetDocument, Obj, int, ClearanceParameters?\)
+### UpdateGearInShaftSet\(HiddenShaftSetDocument, Obj, int, ClearanceParameters?\)
 
 Update gear in simple shaftset designer.
 
@@ -2137,7 +2137,7 @@ Will be thrown if 'document' or 'gearset' or 'connectable' arguments are empty.
 
 Will be thrown if 'gearIndex' is less than zero.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateGearSet_VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_"></a> UpdateGearSet\(HiddenGearSetDocumentBase\)
+### UpdateGearSet\(HiddenGearSetDocumentBase\)
 
 Update gearset in gearset designer.
 
@@ -2158,7 +2158,7 @@ The <xref href="VM.Managed.DAFUL.GearTrain.HiddenGearSetDocumentBase" data-throw
 
 Will be thrown if 'document' argument is empty.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateRackInEF_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Boolean_System_Boolean_VM_Vector_VM_Models_Pre_ExpressionValueVariable_"></a> UpdateRackInEF\(HiddenDocumentMeshBase, Obj, Obj, Obj, bool, bool, Vector, ExpressionValueVariable\)
+### UpdateRackInEF\(HiddenDocumentMeshBase, Obj, Obj, Obj, bool, bool, Vector, ExpressionValueVariable\)
 
 Update rack in EF shaftset/housing designer.
 
@@ -2221,7 +2221,7 @@ Will be thrown if the 'useStart' is true and 'startConnectable' is empty.
 
 Will be thrown if the 'useEnd' is true and 'endConnectable' is empty.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateRackInFE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Boolean_System_Boolean_VM_Vector_VM_Models_Pre_ExpressionValueVariable_"></a> UpdateRackInFE\(HiddenDocumentMeshBase, Obj, Obj, Obj, bool, bool, Vector, ExpressionValueVariable\)
+### UpdateRackInFE\(HiddenDocumentMeshBase, Obj, Obj, Obj, bool, bool, Vector, ExpressionValueVariable\)
 
 Update rack in FE shaftset/housing designer.
 
@@ -2284,7 +2284,7 @@ Will be thrown if the 'useStart' is true and 'startConnectable' is empty.
 
 Will be thrown if the 'useEnd' is true and 'endConnectable' is empty.
 
-### <a id="VM_API_Pre_GearTrain_GearSetAPI_UpdateRackInShaftSet_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_"></a> UpdateRackInShaftSet\(HiddenShaftSetDocument, Obj, ExpressionValueVariable\)
+### UpdateRackInShaftSet\(HiddenShaftSetDocument, Obj, ExpressionValueVariable\)
 
 Update rack in simple shaftset designer.
 
@@ -2313,4 +2313,5 @@ The initial angle.
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' or 'gearName' or 'clearanceInfo' arguments are empty.
+
 

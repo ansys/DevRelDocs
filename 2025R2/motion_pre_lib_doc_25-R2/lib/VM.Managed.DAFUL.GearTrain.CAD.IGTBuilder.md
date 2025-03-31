@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_IGTBuilder"></a> Interface IGTBuilder
+# Interface IGTBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IGTBuilder
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGTBuilder_ConnectableEntity"></a> ConnectableEntity
+### ConnectableEntity
 
 Gets the ConnectableEntity.
 
@@ -29,7 +29,7 @@ IConnectable ConnectableEntity { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGTBuilder_GeometryInfo"></a> GeometryInfo
+### GeometryInfo
 
 Gets the geometry information.
 
@@ -41,7 +41,7 @@ GeometryInfoBase GeometryInfo { get; }
 
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGTBuilder_OffsetToAxisDirection"></a> OffsetToAxisDirection
+### OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -53,7 +53,7 @@ double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGTBuilder_Rotation"></a> Rotation
+### Rotation
 
 Gets the rotation.
 
@@ -65,7 +65,7 @@ OMatrix Rotation { get; }
 
  OMatrix
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGTBuilder_StartPoint"></a> StartPoint
+### StartPoint
 
 Gets the start point.
 
@@ -76,4 +76,5 @@ PointBase StartPoint { get; }
 #### Property Value
 
  PointBase
+
 

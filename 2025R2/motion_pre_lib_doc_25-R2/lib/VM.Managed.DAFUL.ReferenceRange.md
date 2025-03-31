@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ReferenceRange"></a> Class ReferenceRange
+# Class ReferenceRange
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -190,7 +190,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ReferenceRange__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceRange\(SerializationInfo, StreamingContext\)
+### ReferenceRange\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferenceRange" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ The info.
 
 The context.
 
-### <a id="VM_Managed_DAFUL_ReferenceRange__ctor_VM_Managed_ObjectBase_"></a> ReferenceRange\(ObjectBase\)
+### ReferenceRange\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferenceRange" data-throw-if-not-resolved="false"></xref> class.
 
@@ -224,7 +224,7 @@ The reference's object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets the analysis type.
 
@@ -236,7 +236,7 @@ public BodyAnalysisType AnalysisType { get; }
 
  [BodyAnalysisType](VM.Managed.DAFUL.BodyAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -248,7 +248,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_Body"></a> Body
+### Body
 
 Gets the body.
 
@@ -260,7 +260,7 @@ public IBody Body { get; }
 
  IBody
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_Center"></a> Center
+### Center
 
 Gets the center position of the object.
 
@@ -272,7 +272,7 @@ public TMatrix Center { get; }
 
  TMatrix
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_Connectable"></a> Connectable
+### Connectable
 
 Gets the connectable.
 
@@ -284,7 +284,7 @@ public IConnectable Connectable { get; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_ConnectableBody"></a> ConnectableBody
+### ConnectableBody
 
 Gets the connectable body.
 
@@ -296,7 +296,7 @@ public ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_ConnectableFullName"></a> ConnectableFullName
+### ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -308,7 +308,7 @@ public string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_ConnectableName"></a> ConnectableName
+### ConnectableName
 
 Gets the name of the connectable.
 
@@ -320,7 +320,7 @@ public string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_ConnectablePosition"></a> ConnectablePosition
+### ConnectablePosition
 
 Sets the connectable position.
 
@@ -332,7 +332,7 @@ public Vector ConnectablePosition { set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_ConnectablePostfixName"></a> ConnectablePostfixName
+### ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -344,7 +344,7 @@ public string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_ParentType"></a> ParentType
+### ParentType
 
 Gets the type of the marker's parent.
 
@@ -356,7 +356,7 @@ public MarkerParentType ParentType { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_ReferenceFrameType"></a> ReferenceFrameType
+### ReferenceFrameType
 
 Gets the type of the marker's reference frame.
 
@@ -368,7 +368,7 @@ public MarkerReferenceFrameType ReferenceFrameType { get; }
 
  [MarkerReferenceFrameType](VM.Managed.DAFUL.MarkerReferenceFrameType.md)
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -380,7 +380,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_Type"></a> Type
+### Type
 
 Gets the type.
 
@@ -398,7 +398,7 @@ public RegionType Type { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_GetConnectableImpl"></a> GetConnectableImpl\(\)
+### GetConnectableImpl\(\)
 
 Gets the connectable [implementation].
 
@@ -410,7 +410,7 @@ protected virtual IConnectable GetConnectableImpl()
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator .
 
@@ -434,7 +434,7 @@ The XmlElement information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -462,7 +462,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_ReferenceRange_GetPoints"></a> GetPoints\(\)
+### GetPoints\(\)
 
 Gets the circle patch point on face.
 
@@ -473,4 +473,5 @@ public Vector[] GetPoints()
 #### Returns
 
  Vector\[\]
+
 

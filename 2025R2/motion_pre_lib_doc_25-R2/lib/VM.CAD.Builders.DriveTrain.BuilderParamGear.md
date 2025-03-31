@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear"></a> Class BuilderParamGear
+# Class BuilderParamGear
 
 Namespace: [VM.CAD.Builders.DriveTrain](VM.CAD.Builders.DriveTrain.md)  
 Assembly: VM.CAD.Builders.DriveTrain.dll  
@@ -39,7 +39,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear__ctor"></a> BuilderParamGear\(\)
+### BuilderParamGear\(\)
 
 ```csharp
 protected BuilderParamGear()
@@ -47,7 +47,7 @@ protected BuilderParamGear()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear_CenterPosition"></a> CenterPosition
+### CenterPosition
 
 ```csharp
 public Vector CenterPosition { get; set; }
@@ -57,7 +57,7 @@ public Vector CenterPosition { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear_FaceWidth"></a> FaceWidth
+### FaceWidth
 
 ```csharp
 public double FaceWidth { get; set; }
@@ -67,7 +67,7 @@ public double FaceWidth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear_HelixAngle"></a> HelixAngle
+### HelixAngle
 
 ```csharp
 public double HelixAngle { get; set; }
@@ -77,7 +77,7 @@ public double HelixAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear_HelixDir"></a> HelixDir
+### HelixDir
 
 ```csharp
 public double HelixDir { get; set; }
@@ -87,7 +87,7 @@ public double HelixDir { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear_MatchAngle"></a> MatchAngle
+### MatchAngle
 
 ```csharp
 public double MatchAngle { get; set; }
@@ -97,7 +97,7 @@ public double MatchAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear_NumOfTeeth"></a> NumOfTeeth
+### NumOfTeeth
 
 ```csharp
 public int NumOfTeeth { get; set; }
@@ -107,7 +107,7 @@ public int NumOfTeeth { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear_Orientation"></a> Orientation
+### Orientation
 
 ```csharp
 public OMatrix Orientation { get; set; }
@@ -117,7 +117,7 @@ public OMatrix Orientation { get; set; }
 
  OMatrix
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear_PitchRadius"></a> PitchRadius
+### PitchRadius
 
 ```csharp
 public double PitchRadius { get; set; }
@@ -127,7 +127,7 @@ public double PitchRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear_Splines"></a> Splines
+### Splines
 
 ```csharp
 public List<SplineInfo> Splines { get; set; }
@@ -136,4 +136,5 @@ public List<SplineInfo> Splines { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineInfo\>
+
 

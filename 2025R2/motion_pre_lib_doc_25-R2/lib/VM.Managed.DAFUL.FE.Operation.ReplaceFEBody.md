@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_ReplaceFEBody"></a> Class ReplaceFEBody
+# Class ReplaceFEBody
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -85,7 +85,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ReplaceFEBody__ctor"></a> ReplaceFEBody\(\)
+### ReplaceFEBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Operation.ReplaceFEBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Operation.Repl
 public ReplaceFEBody()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ReplaceFEBody__ctor_System_String_"></a> ReplaceFEBody\(string\)
+### ReplaceFEBody\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Operation.ReplaceFEBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ The STR initializer XML.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ReplaceFEBody_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute.
 
@@ -117,7 +117,7 @@ Execute.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ReplaceFEBody_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -134,4 +134,5 @@ The updater.
 `doc` Document
 
 The document.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Contact"></a> Namespace VM.Managed.DAFUL.MeshFree.Contact
+# Namespace VM.Managed.DAFUL.MeshFree.Contact
 
 ### Classes
 
@@ -9,4 +9,5 @@ This class is to represent the tie properties in mesh free.
  [Tie](VM.Managed.DAFUL.MeshFree.Contact.Tie.md)
 
 This class is to represent the tie in mesh free.
+
 

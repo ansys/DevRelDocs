@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeValue_1"></a> Class AttributeValue<TValue\>
+# Class AttributeValue<TValue\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_AttributeValue_1__ctor"></a> AttributeValue\(\)
+### AttributeValue\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeValue%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ Initializes a new instance of the <xref href="VM.Managed.AttributeValue%601" dat
 public AttributeValue()
 ```
 
-### <a id="VM_Managed_AttributeValue_1__ctor__0_"></a> AttributeValue\(TValue\)
+### AttributeValue\(TValue\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeValue%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ The value.
 
 ## Properties
 
-### <a id="VM_Managed_AttributeValue_1_Value"></a> Value
+### Value
 
 Gets or sets the value.
 
@@ -138,4 +138,5 @@ public TValue Value { get; set; }
 #### Property Value
 
  TValue
+
 

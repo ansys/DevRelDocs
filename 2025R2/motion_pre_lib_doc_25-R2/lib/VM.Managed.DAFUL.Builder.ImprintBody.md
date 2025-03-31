@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_ImprintBody"></a> Class ImprintBody
+# Class ImprintBody
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -63,7 +63,7 @@ public abstract class ImprintBody : Imprint, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintBody__ctor"></a> ImprintBody\(\)
+### ImprintBody\(\)
 
 ```csharp
 protected ImprintBody()
@@ -71,7 +71,7 @@ protected ImprintBody()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintBody_m_builderTool"></a> m\_builderTool
+### m\_builderTool
 
 ```csharp
 protected Builder m_builderTool
@@ -83,7 +83,7 @@ protected Builder m_builderTool
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintBody_ExtraArgument"></a> ExtraArgument
+### ExtraArgument
 
 ```csharp
 protected override string ExtraArgument { get; }
@@ -93,7 +93,7 @@ protected override string ExtraArgument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintBody_Parametric"></a> Parametric
+### Parametric
 
 ```csharp
 public bool Parametric { get; set; }
@@ -105,7 +105,7 @@ public bool Parametric { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintBody_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public override void Build(Document doc)
@@ -114,4 +114,5 @@ public override void Build(Document doc)
 #### Parameters
 
 `doc` Document
+
 

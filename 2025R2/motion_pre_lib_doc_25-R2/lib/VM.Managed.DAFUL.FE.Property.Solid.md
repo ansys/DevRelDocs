@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Property_Solid"></a> Class Solid
+# Class Solid
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -190,7 +190,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Property_Solid__ctor_System_String_"></a> Solid\(string\)
+### Solid\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.Solid" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ public Solid(string strName)
 
 Name of the property solid.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Solid__ctor"></a> Solid\(\)
+### Solid\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.Solid" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ public Solid()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Property_Solid_Type"></a> Type
+### Type
 
 Gets the type of property.
 
@@ -225,4 +225,5 @@ public override PropertyBase.PropertyType Type { get; }
 #### Property Value
 
  [PropertyBase](VM.Managed.DAFUL.FE.Property.PropertyBase.md).[PropertyType](VM.Managed.DAFUL.FE.Property.PropertyBase.PropertyType.md)
+
 

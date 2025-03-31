@@ -1,4 +1,4 @@
-# <a id="VM_Managed_TMatrix"></a> Class TMatrix
+# Class TMatrix
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +27,7 @@ public sealed class TMatrix : MatrixBase, IOMatrix
 
 ## Constructors
 
-### <a id="VM_Managed_TMatrix__ctor_System_Double___"></a> TMatrix\(double\[\]\)
+### TMatrix\(double\[\]\)
 
 Initializes a new instance of the <xref href="VM.Managed.TMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -41,7 +41,7 @@ public TMatrix(double[] arr)
 
 The data of orientation.
 
-### <a id="VM_Managed_TMatrix__ctor_VM_Plane_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> TMatrix\(Plane, VectorBase, VectorBase, VectorBase\)
+### TMatrix\(Plane, VectorBase, VectorBase, VectorBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.TMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ The vector for slave.
 
 The position.
 
-### <a id="VM_Managed_TMatrix__ctor_VM_Plane_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> TMatrix\(Plane, VectorBase, VectorBase\)
+### TMatrix\(Plane, VectorBase, VectorBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.TMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -89,7 +89,7 @@ The vector for master.
 
 The vector for slave.
 
-### <a id="VM_Managed_TMatrix__ctor_VM_Managed_TMatrix_"></a> TMatrix\(TMatrix\)
+### TMatrix\(TMatrix\)
 
 Initializes a new instance of the <xref href="VM.Managed.TMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -103,7 +103,7 @@ public TMatrix(TMatrix mat)
 
 The matrix of transform
 
-### <a id="VM_Managed_TMatrix__ctor"></a> TMatrix\(\)
+### TMatrix\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.TMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ Initializes a new instance of the <xref href="VM.Managed.TMatrix" data-throw-if-
 public TMatrix()
 ```
 
-### <a id="VM_Managed_TMatrix__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> TMatrix\(SerializationInfo, StreamingContext\)
+### TMatrix\(SerializationInfo, StreamingContext\)
 
 ```csharp
 protected TMatrix(SerializationInfo info, StreamingContext context)
@@ -125,7 +125,7 @@ protected TMatrix(SerializationInfo info, StreamingContext context)
 
 ## Properties
 
-### <a id="VM_Managed_TMatrix_Array"></a> Array
+### Array
 
 Gets or sets the data of OMatrix.
 
@@ -137,7 +137,7 @@ public virtual double[] Array { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_TMatrix_InverseTransformationMatrix"></a> InverseTransformationMatrix
+### InverseTransformationMatrix
 
 Gets the matrix of inverse transform.
 
@@ -149,7 +149,7 @@ public TMatrix InverseTransformationMatrix { get; }
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### <a id="VM_Managed_TMatrix_Orientation"></a> Orientation
+### Orientation
 
 Gets the matrix of orientation.
 
@@ -161,7 +161,7 @@ public OMatrix Orientation { get; }
 
  [OMatrix](VM.Managed.OMatrix.md)
 
-### <a id="VM_Managed_TMatrix_Position"></a> Position
+### Position
 
 Gets or sets the position of transform.
 
@@ -173,7 +173,7 @@ public VectorBase Position { get; set; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_TMatrix_XVector"></a> XVector
+### XVector
 
 Gets the XVector.
 
@@ -185,7 +185,7 @@ public virtual VectorBase XVector { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_TMatrix_YVector"></a> YVector
+### YVector
 
 Gets the YVector.
 
@@ -197,7 +197,7 @@ public virtual VectorBase YVector { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_TMatrix_ZVector"></a> ZVector
+### ZVector
 
 Gets the ZVector.
 
@@ -209,7 +209,7 @@ public virtual VectorBase ZVector { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_TMatrix_Item_System_UInt32_System_UInt32_"></a> this\[uint, uint\]
+### this\[uint, uint\]
 
 ```csharp
 public double this[uint r, uint c] { get; set; }
@@ -219,7 +219,7 @@ public double this[uint r, uint c] { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_TMatrix_Item_VM_Coordinate_VM_Coordinate_"></a> this\[Coordinate, Coordinate\]
+### this\[Coordinate, Coordinate\]
 
 ```csharp
 public double this[Coordinate r, Coordinate c] { get; set; }
@@ -229,7 +229,7 @@ public double this[Coordinate r, Coordinate c] { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_TMatrix_Item_System_UInt32_"></a> this\[uint\]
+### this\[uint\]
 
 ```csharp
 public VectorBase this[uint n] { get; set; }
@@ -239,7 +239,7 @@ public VectorBase this[uint n] { get; set; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_TMatrix_Item_VM_Coordinate_"></a> this\[Coordinate\]
+### this\[Coordinate\]
 
 ```csharp
 public VectorBase this[Coordinate n] { get; set; }
@@ -251,7 +251,7 @@ public VectorBase this[Coordinate n] { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_TMatrix_Clone"></a> Clone\(\)
+### Clone\(\)
 
 ```csharp
 public object Clone()
@@ -261,7 +261,7 @@ public object Clone()
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_TMatrix_GetArray"></a> GetArray\(\)
+### GetArray\(\)
 
 ```csharp
 public double[] GetArray()
@@ -271,7 +271,7 @@ public double[] GetArray()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_TMatrix_GetDirectionVector_System_UInt32_"></a> GetDirectionVector\(uint\)
+### GetDirectionVector\(uint\)
 
 Get the direction vector for axis.
 
@@ -291,7 +291,7 @@ The type of axis.
 
 The direction vector.
 
-### <a id="VM_Managed_TMatrix_GetDirectionVector_VM_Coordinate_"></a> GetDirectionVector\(Coordinate\)
+### GetDirectionVector\(Coordinate\)
 
 Get the direction vector for axis.
 
@@ -311,7 +311,7 @@ The type of axis.
 
 The direction vector.
 
-### <a id="VM_Managed_TMatrix_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectData\(SerializationInfo, StreamingContext\)
+### GetObjectData\(SerializationInfo, StreamingContext\)
 
 ```csharp
 public void GetObjectData(SerializationInfo info, StreamingContext __unnamed001)
@@ -323,7 +323,7 @@ public void GetObjectData(SerializationInfo info, StreamingContext __unnamed001)
 
 `__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### <a id="VM_Managed_TMatrix_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 ```csharp
 public XmlSchema GetSchema()
@@ -333,7 +333,7 @@ public XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_TMatrix_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initializes a instance of OMatrix.
 
@@ -341,7 +341,7 @@ Initializes a instance of OMatrix.
 public void Initialize()
 ```
 
-### <a id="VM_Managed_TMatrix_Normalize"></a> Normalize\(\)
+### Normalize\(\)
 
 Nomalize a instance of OMatrix.
 
@@ -349,7 +349,7 @@ Nomalize a instance of OMatrix.
 public void Normalize()
 ```
 
-### <a id="VM_Managed_TMatrix_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 ```csharp
 public void ReadXml(XmlReader reader)
@@ -359,7 +359,7 @@ public void ReadXml(XmlReader reader)
 
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
-### <a id="VM_Managed_TMatrix_RotateAxisDeg_VM_Managed_VectorBase_System_Double_"></a> RotateAxisDeg\(VectorBase, double\)
+### RotateAxisDeg\(VectorBase, double\)
 
 To rotate counterclockwise for axis.
 
@@ -377,7 +377,7 @@ The rotation axis.
 
 The degree.
 
-### <a id="VM_Managed_TMatrix_RotateAxisDeg_System_UInt32_System_Double_"></a> RotateAxisDeg\(uint, double\)
+### RotateAxisDeg\(uint, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -395,7 +395,7 @@ The rotation coordinate.
 
 The degree.
 
-### <a id="VM_Managed_TMatrix_RotateAxisDeg_VM_Coordinate_System_Double_"></a> RotateAxisDeg\(Coordinate, double\)
+### RotateAxisDeg\(Coordinate, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -413,7 +413,7 @@ The rotation coordinate.
 
 The degree.
 
-### <a id="VM_Managed_TMatrix_RotateAxisRad_VM_Managed_VectorBase_System_Double_"></a> RotateAxisRad\(VectorBase, double\)
+### RotateAxisRad\(VectorBase, double\)
 
 To rotate counterclockwise for axis.
 
@@ -431,7 +431,7 @@ The rotation axis.
 
 The radian.
 
-### <a id="VM_Managed_TMatrix_RotateAxisRad_System_UInt32_System_Double_"></a> RotateAxisRad\(uint, double\)
+### RotateAxisRad\(uint, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -449,7 +449,7 @@ The rotation coordinate.
 
 The radian.
 
-### <a id="VM_Managed_TMatrix_RotateAxisRad_VM_Coordinate_System_Double_"></a> RotateAxisRad\(Coordinate, double\)
+### RotateAxisRad\(Coordinate, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -467,7 +467,7 @@ The rotation coordinate.
 
 The radian.
 
-### <a id="VM_Managed_TMatrix_RotateXDeg_System_Double_"></a> RotateXDeg\(double\)
+### RotateXDeg\(double\)
 
 To rotate counterclockwise for x-axis.
 
@@ -481,7 +481,7 @@ public void RotateXDeg(double dAngle)
 
 The degree.
 
-### <a id="VM_Managed_TMatrix_RotateXRad_System_Double_"></a> RotateXRad\(double\)
+### RotateXRad\(double\)
 
 To rotate counterclockwise for x-axis.
 
@@ -495,7 +495,7 @@ public void RotateXRad(double dAngle)
 
 The radian.
 
-### <a id="VM_Managed_TMatrix_RotateYDeg_System_Double_"></a> RotateYDeg\(double\)
+### RotateYDeg\(double\)
 
 To rotate counterclockwise for y-axis.
 
@@ -509,7 +509,7 @@ public void RotateYDeg(double dAngle)
 
 The degree.
 
-### <a id="VM_Managed_TMatrix_RotateYRad_System_Double_"></a> RotateYRad\(double\)
+### RotateYRad\(double\)
 
 To rotate counterclockwise for y-axis.
 
@@ -523,7 +523,7 @@ public void RotateYRad(double dAngle)
 
 The radian.
 
-### <a id="VM_Managed_TMatrix_RotateZDeg_System_Double_"></a> RotateZDeg\(double\)
+### RotateZDeg\(double\)
 
 To rotate counterclockwise for z-axis.
 
@@ -537,7 +537,7 @@ public void RotateZDeg(double dAngle)
 
 The degree.
 
-### <a id="VM_Managed_TMatrix_RotateZRad_System_Double_"></a> RotateZRad\(double\)
+### RotateZRad\(double\)
 
 To rotate counterclockwise for z-axis.
 
@@ -551,7 +551,7 @@ public void RotateZRad(double dAngle)
 
 The radian.
 
-### <a id="VM_Managed_TMatrix_Set_System_Double___"></a> Set\(double\[\]\)
+### Set\(double\[\]\)
 
 Set data of transform.
 
@@ -565,7 +565,7 @@ public void Set(double[] arr)
 
 The data of transform
 
-### <a id="VM_Managed_TMatrix_Set_VM_Managed_TMatrix_"></a> Set\(TMatrix\)
+### Set\(TMatrix\)
 
 Set Matrix of transform.
 
@@ -579,7 +579,7 @@ public void Set(TMatrix mat)
 
 The matrix of transform
 
-### <a id="VM_Managed_TMatrix_SetOrientation_System_Double___"></a> SetOrientation\(double\[\]\)
+### SetOrientation\(double\[\]\)
 
 Set data of orientation.
 
@@ -593,7 +593,7 @@ public void SetOrientation(double[] arr)
 
 The data of orientation.
 
-### <a id="VM_Managed_TMatrix_SetOrientation_VM_Managed_OMatrix_"></a> SetOrientation\(OMatrix\)
+### SetOrientation\(OMatrix\)
 
 Set data of orientation.
 
@@ -607,7 +607,7 @@ public void SetOrientation(OMatrix mat)
 
 The matrix of orientation.
 
-### <a id="VM_Managed_TMatrix_SetOrientation_VM_Plane_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> SetOrientation\(Plane, VectorBase, VectorBase\)
+### SetOrientation\(Plane, VectorBase, VectorBase\)
 
 Set data of orientation.
 
@@ -629,7 +629,7 @@ The vector for master.
 
 The vector for slave.
 
-### <a id="VM_Managed_TMatrix_SetOrientationEADeg_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationEADeg\(RotationAxes, double, double, double\)
+### SetOrientationEADeg\(RotationAxes, double, double, double\)
 
 Set data of orientation for euler angle. Unit is degree.
 
@@ -655,7 +655,7 @@ The beta of euler angle.
 
 The gamma of euler angle.
 
-### <a id="VM_Managed_TMatrix_SetOrientationEARad_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationEARad\(RotationAxes, double, double, double\)
+### SetOrientationEARad\(RotationAxes, double, double, double\)
 
 Set data of orientation for euler angle. Unit is radian.
 
@@ -681,7 +681,7 @@ The beta of euler angle.
 
 The gamma of euler angle.
 
-### <a id="VM_Managed_TMatrix_SetOrientationFixedAngleDeg_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationFixedAngleDeg\(RotationAxes, double, double, double\)
+### SetOrientationFixedAngleDeg\(RotationAxes, double, double, double\)
 
 Set data of orientation for fixed angle. Unit is degree.
 
@@ -707,7 +707,7 @@ The beta of fixed angle.
 
 The gamma of fixed angle.
 
-### <a id="VM_Managed_TMatrix_SetOrientationFixedAngleRad_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationFixedAngleRad\(RotationAxes, double, double, double\)
+### SetOrientationFixedAngleRad\(RotationAxes, double, double, double\)
 
 Set data of orientation for fixed angle. Unit is radian.
 
@@ -733,7 +733,7 @@ The beta of fixed angle.
 
 The gamma of fixed angle.
 
-### <a id="VM_Managed_TMatrix_Translate_System_Double_System_Double_System_Double_"></a> Translate\(double, double, double\)
+### Translate\(double, double, double\)
 
 To translate for position.
 
@@ -755,7 +755,7 @@ The value of y
 
 The value of z
 
-### <a id="VM_Managed_TMatrix_Translate_VM_Managed_VectorBase_"></a> Translate\(VectorBase\)
+### Translate\(VectorBase\)
 
 To translate for position.
 
@@ -769,7 +769,7 @@ public void Translate(VectorBase vec)
 
 The vector
 
-### <a id="VM_Managed_TMatrix_TransposeOrientation"></a> TransposeOrientation\(\)
+### TransposeOrientation\(\)
 
 Transposed rows and columns of the matrix.
 
@@ -777,7 +777,7 @@ Transposed rows and columns of the matrix.
 public void TransposeOrientation()
 ```
 
-### <a id="VM_Managed_TMatrix_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 ```csharp
 public void WriteXml(XmlWriter writer)
@@ -787,7 +787,7 @@ public void WriteXml(XmlWriter writer)
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
-### <a id="VM_Managed_TMatrix_op_MultiplicationAssignment_VM_Managed_VectorBase_VM_Managed_TMatrix_"></a> op\_MultiplicationAssignment\(VectorBase, TMatrix\)
+### op\_MultiplicationAssignment\(VectorBase, TMatrix\)
 
 ```csharp
 public static VectorBase op_MultiplicationAssignment(VectorBase vec, TMatrix mat)
@@ -803,7 +803,7 @@ public static VectorBase op_MultiplicationAssignment(VectorBase vec, TMatrix mat
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_TMatrix_op_MultiplicationAssignment_VM_Managed_TMatrix_VM_Managed_TMatrix_"></a> op\_MultiplicationAssignment\(TMatrix, TMatrix\)
+### op\_MultiplicationAssignment\(TMatrix, TMatrix\)
 
 ```csharp
 public static TMatrix op_MultiplicationAssignment(TMatrix mat1, TMatrix mat2)
@@ -821,7 +821,7 @@ public static TMatrix op_MultiplicationAssignment(TMatrix mat1, TMatrix mat2)
 
 ## Operators
 
-### <a id="VM_Managed_TMatrix_op_Equality_VM_Managed_TMatrix_VM_Managed_TMatrix_"></a> operator ==\(TMatrix, TMatrix\)
+### operator ==\(TMatrix, TMatrix\)
 
 ```csharp
 public static bool operator ==(TMatrix mat1, TMatrix mat2)
@@ -837,7 +837,7 @@ public static bool operator ==(TMatrix mat1, TMatrix mat2)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_TMatrix_op_Implicit_VM_Managed_TMatrix__VM_TMatrix"></a> implicit operator TMatrix\(TMatrix\)
+### implicit operator TMatrix\(TMatrix\)
 
 ```csharp
 public static implicit operator TMatrix(TMatrix mat)
@@ -851,7 +851,7 @@ public static implicit operator TMatrix(TMatrix mat)
 
  TMatrix
 
-### <a id="VM_Managed_TMatrix_op_Implicit_VM_TMatrix__VM_Managed_TMatrix"></a> implicit operator TMatrix\(TMatrix\)
+### implicit operator TMatrix\(TMatrix\)
 
 ```csharp
 public static implicit operator TMatrix(TMatrix mat)
@@ -865,7 +865,7 @@ public static implicit operator TMatrix(TMatrix mat)
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### <a id="VM_Managed_TMatrix_op_Inequality_VM_Managed_TMatrix_VM_Managed_TMatrix_"></a> operator \!=\(TMatrix, TMatrix\)
+### operator \!=\(TMatrix, TMatrix\)
 
 ```csharp
 public static bool operator !=(TMatrix mat1, TMatrix mat2)
@@ -881,7 +881,7 @@ public static bool operator !=(TMatrix mat1, TMatrix mat2)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_TMatrix_op_Multiply_VM_Managed_VectorBase_VM_Managed_TMatrix_"></a> operator \*\(VectorBase, TMatrix\)
+### operator \*\(VectorBase, TMatrix\)
 
 ```csharp
 public static VectorBase operator *(VectorBase vec, TMatrix mat)
@@ -897,7 +897,7 @@ public static VectorBase operator *(VectorBase vec, TMatrix mat)
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_TMatrix_op_Multiply_VM_Managed_TMatrix_VM_Managed_TMatrix_"></a> operator \*\(TMatrix, TMatrix\)
+### operator \*\(TMatrix, TMatrix\)
 
 ```csharp
 public static TMatrix operator *(TMatrix mat1, TMatrix mat2)
@@ -912,4 +912,5 @@ public static TMatrix operator *(TMatrix mat1, TMatrix mat2)
 #### Returns
 
  [TMatrix](VM.Managed.TMatrix.md)
+
 

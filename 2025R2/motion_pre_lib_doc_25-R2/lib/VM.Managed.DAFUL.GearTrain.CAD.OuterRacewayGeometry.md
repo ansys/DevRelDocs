@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_OuterRacewayGeometry"></a> Class OuterRacewayGeometry
+# Class OuterRacewayGeometry
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -301,7 +301,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_OuterRacewayGeometry__ctor"></a> OuterRacewayGeometry\(\)
+### OuterRacewayGeometry\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -309,7 +309,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Rac
 public OuterRacewayGeometry()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_OuterRacewayGeometry__ctor_VM_Managed_CAD_Builder_"></a> OuterRacewayGeometry\(Builder\)
+### OuterRacewayGeometry\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -322,4 +322,5 @@ public OuterRacewayGeometry(Builder builder)
 `builder` Builder
 
 The body's builder.
+
 

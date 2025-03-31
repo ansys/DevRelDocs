@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SolidTriPlateSimple"></a> Class SolidTriPlateSimple
+# Class SolidTriPlateSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -52,7 +52,7 @@ public class SolidTriPlateSimple : Solid<BuilderTriPlateSimple>, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_SolidTriPlateSimple__ctor"></a> SolidTriPlateSimple\(\)
+### SolidTriPlateSimple\(\)
 
 ```csharp
 public SolidTriPlateSimple()
@@ -60,7 +60,7 @@ public SolidTriPlateSimple()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_SolidTriPlateSimple_FirstPosition"></a> FirstPosition
+### FirstPosition
 
 ```csharp
 public PointBase FirstPosition { get; }
@@ -70,7 +70,7 @@ public PointBase FirstPosition { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidTriPlateSimple_Height"></a> Height
+### Height
 
 ```csharp
 public Variable Height { get; set; }
@@ -80,7 +80,7 @@ public Variable Height { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_SolidTriPlateSimple_SecondPosition"></a> SecondPosition
+### SecondPosition
 
 ```csharp
 public PointBase SecondPosition { get; }
@@ -90,7 +90,7 @@ public PointBase SecondPosition { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidTriPlateSimple_ThirdPosition"></a> ThirdPosition
+### ThirdPosition
 
 ```csharp
 public PointBase ThirdPosition { get; }
@@ -102,7 +102,7 @@ public PointBase ThirdPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_SolidTriPlateSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderTriPlateSimple_"></a> SetSolidBuilderProperty\(BuilderTriPlateSimple\)
+### SetSolidBuilderProperty\(BuilderTriPlateSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderTriPlateSimple solidBuilder)
@@ -111,4 +111,5 @@ protected override void SetSolidBuilderProperty(BuilderTriPlateSimple solidBuild
 #### Parameters
 
 `solidBuilder` BuilderTriPlateSimple
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp"></a> Class GetWeldPointOp
+# Class GetWeldPointOp
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp__ctor"></a> GetWeldPointOp\(\)
+### GetWeldPointOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.GetWeldPointOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.GetWeldP
 public GetWeldPointOp()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp__ctor_VM_Managed_DAFUL_MeshFree_Weld_VM_Managed_CAD_Body_VM_Managed_CAD_Body_VM_Managed_Range_"></a> GetWeldPointOp\(Weld, Body, Body, Range\)
+### GetWeldPointOp\(Weld, Body, Body, Range\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.GetWeldPointOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ The range.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -125,7 +125,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp_LowerPoint"></a> LowerPoint
+### LowerPoint
 
 Get lower point
 
@@ -137,7 +137,7 @@ public VectorBase[] LowerPoint { get; }
 
  VectorBase\[\]
 
-### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp_Name"></a> Name
+### Name
 
 Gets the Name.
 
@@ -149,7 +149,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp_Success"></a> Success
+### Success
 
 Success flag
 
@@ -161,7 +161,7 @@ public bool Success { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp_UpperPoint"></a> UpperPoint
+### UpperPoint
 
 Get upper point
 
@@ -175,11 +175,12 @@ public VectorBase[] UpperPoint { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RenameItemInNavigatorAddon"></a> Class RenameItemInNavigatorAddon
+# Class RenameItemInNavigatorAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -60,7 +60,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### <a id="VM_Managed_History_RenameItemInNavigatorAddon__ctor"></a> RenameItemInNavigatorAddon\(\)
+### RenameItemInNavigatorAddon\(\)
 
 ```csharp
 public RenameItemInNavigatorAddon()
@@ -68,7 +68,7 @@ public RenameItemInNavigatorAddon()
 
 ## Methods
 
-### <a id="VM_Managed_History_RenameItemInNavigatorAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
+### Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void Process(object o, HistoryEventArgs args)
@@ -79,4 +79,5 @@ protected override void Process(object o, HistoryEventArgs args)
 `o` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` HistoryEventArgs
+
 

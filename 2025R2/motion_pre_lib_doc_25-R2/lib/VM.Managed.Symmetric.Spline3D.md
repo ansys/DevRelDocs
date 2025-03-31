@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Spline3D"></a> Class Spline3D
+# Class Spline3D
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymSB.dll  
@@ -34,7 +34,7 @@ Named<SubEntity\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Spline3D__ctor"></a> Spline3D\(\)
+### Spline3D\(\)
 
 ```csharp
 public Spline3D()
@@ -42,7 +42,7 @@ public Spline3D()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Spline3D_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -75,4 +75,5 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

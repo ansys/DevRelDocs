@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket"></a> Struct ProfileDataSprocket
+# Struct ProfileDataSprocket
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -11,7 +11,7 @@ public struct ProfileDataSprocket
 
 ## Fields
 
-### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_AddendumCircleDiameter"></a> AddendumCircleDiameter
+### AddendumCircleDiameter
 
 the addendum circle diameter.
 
@@ -23,7 +23,7 @@ public double AddendumCircleDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_AngleBetweenTeeth"></a> AngleBetweenTeeth
+### AngleBetweenTeeth
 
 The angle between tooth.
 
@@ -35,7 +35,7 @@ public double AngleBetweenTeeth
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_BushingRadius"></a> BushingRadius
+### BushingRadius
 
 The bush radius.
 
@@ -47,7 +47,7 @@ public double BushingRadius
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_ClearanceofToothRoot"></a> ClearanceofToothRoot
+### ClearanceofToothRoot
 
 The gap is bush can move.
 
@@ -59,7 +59,7 @@ public double ClearanceofToothRoot
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_DedendumCircleDiameter"></a> DedendumCircleDiameter
+### DedendumCircleDiameter
 
 The dedendum circle diameter.
 
@@ -71,7 +71,7 @@ public double DedendumCircleDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_NoOfTeeth"></a> NoOfTeeth
+### NoOfTeeth
 
 This is the number of teeth
 
@@ -83,7 +83,7 @@ public int NoOfTeeth
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_PitchCircleDiameter"></a> PitchCircleDiameter
+### PitchCircleDiameter
 
 The pitch circle diameter.
 
@@ -95,7 +95,7 @@ public double PitchCircleDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_ToothRoundRadius"></a> ToothRoundRadius
+### ToothRoundRadius
 
 The radius for tooth rounding.
 
@@ -107,7 +107,7 @@ public double ToothRoundRadius
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Sprocket_ProfileDataSprocket_WorkPlane"></a> WorkPlane
+### WorkPlane
 
 The work plane.
 
@@ -118,4 +118,5 @@ public Plane WorkPlane
 #### Field Value
 
  Plane
+
 

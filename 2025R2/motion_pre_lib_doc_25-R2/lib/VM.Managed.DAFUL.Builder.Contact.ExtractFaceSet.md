@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSet"></a> Class ExtractFaceSet
+# Class ExtractFaceSet
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -42,7 +42,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSet__ctor"></a> ExtractFaceSet\(\)
+### ExtractFaceSet\(\)
 
 ```csharp
 public ExtractFaceSet()
@@ -50,7 +50,7 @@ public ExtractFaceSet()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSet_FirstConnectable"></a> FirstConnectable
+### FirstConnectable
 
 ```csharp
 protected override Body FirstConnectable { get; }
@@ -60,7 +60,7 @@ protected override Body FirstConnectable { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSet_SecondConnectable"></a> SecondConnectable
+### SecondConnectable
 
 ```csharp
 protected override Body SecondConnectable { get; }
@@ -70,7 +70,7 @@ protected override Body SecondConnectable { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSet_TargetFaces"></a> TargetFaces
+### TargetFaces
 
 ```csharp
 protected override Face[] TargetFaces { get; }
@@ -79,4 +79,5 @@ protected override Face[] TargetFaces { get; }
 #### Property Value
 
  Face\[\]
+
 

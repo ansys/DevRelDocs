@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Gravity"></a> Class Gravity
+# Class Gravity
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -154,7 +154,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Gravity__ctor"></a> Gravity\(\)
+### Gravity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Gravity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -162,7 +162,7 @@ Initializes a new instance of the <xref href="VM.Managed.Gravity" data-throw-if-
 public Gravity()
 ```
 
-### <a id="VM_Managed_Gravity__ctor_VM_Managed_Vector_"></a> Gravity\(Vector\)
+### Gravity\(Vector\)
 
 Initializes a new instance of the <xref href="VM.Managed.Gravity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ The vector of gravity x,y,z coordinate.
 
 ## Properties
 
-### <a id="VM_Managed_Gravity_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -190,7 +190,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Gravity_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets the visible state.
 
@@ -202,7 +202,7 @@ public virtual bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Gravity_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -214,7 +214,7 @@ public Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_Gravity_Vector"></a> Vector
+### Vector
 
 Gets or sets the vector of gravity x,y,z coordinate.
 
@@ -226,7 +226,7 @@ public VectorBase Vector { get; set; }
 
  VectorBase
 
-### <a id="VM_Managed_Gravity_X"></a> X
+### X
 
 Gets or sets the X coordinate of gravity.
 
@@ -238,7 +238,7 @@ public double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_Gravity_Y"></a> Y
+### Y
 
 Gets or sets the Y coordinate of gravity.
 
@@ -250,7 +250,7 @@ public double Y { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_Gravity_Z"></a> Z
+### Z
 
 Gets or sets the Z coordinate of gravity.
 
@@ -264,7 +264,7 @@ public double Z { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Gravity_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -278,11 +278,12 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_Gravity_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public virtual void ReDraw()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Application_StartOption"></a> Class Application.StartOption
+# Class Application.StartOption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public sealed class Application.StartOption
 
 ## Constructors
 
-### <a id="VM_Managed_Application_StartOption__ctor_System_String_System_String_System_String_"></a> StartOption\(string, string, string\)
+### StartOption\(string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Application.StartOption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -44,7 +44,7 @@ The kernel core module path.
 
 The Hoops Exchange path.
 
-### <a id="VM_Managed_Application_StartOption__ctor"></a> StartOption\(\)
+### StartOption\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Application.StartOption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -54,7 +54,7 @@ public StartOption()
 
 ## Properties
 
-### <a id="VM_Managed_Application_StartOption_GenerateHoopsCode"></a> GenerateHoopsCode
+### GenerateHoopsCode
 
 Gets/Sets the Hoops code generation flag.
 
@@ -66,7 +66,7 @@ public bool GenerateHoopsCode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Application_StartOption_HoopsExchangeDirectory"></a> HoopsExchangeDirectory
+### HoopsExchangeDirectory
 
 Gets/Sets the Hoops Exchange directory.
 
@@ -78,7 +78,7 @@ public string HoopsExchangeDirectory { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Application_StartOption_KernelCoreModulePath"></a> KernelCoreModulePath
+### KernelCoreModulePath
 
 Gets/Sets the kernel core module path.
 
@@ -90,7 +90,7 @@ public string KernelCoreModulePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Application_StartOption_KernelMessageCallback"></a> KernelMessageCallback
+### KernelMessageCallback
 
 Gets/Sets the kernel message callback
 
@@ -102,7 +102,7 @@ public Application.StartOption.WriteMessage KernelMessageCallback { get; set; }
 
  [Application](VM.Managed.Application.md).[StartOption](VM.Managed.Application.StartOption.md).[WriteMessage](VM.Managed.Application.StartOption.WriteMessage.md)
 
-### <a id="VM_Managed_Application_StartOption_KernelMessageLogLevel"></a> KernelMessageLogLevel
+### KernelMessageLogLevel
 
 Gets/Sets the kernel message log level
 
@@ -114,7 +114,7 @@ public int KernelMessageLogLevel { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_Application_StartOption_StrideConvertPath"></a> StrideConvertPath
+### StrideConvertPath
 
 Gets/Sets the Stride Convert path.
 
@@ -126,7 +126,7 @@ public string StrideConvertPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Application_StartOption_StrideDependencies"></a> StrideDependencies
+### StrideDependencies
 
 Gets/Sets the Stride Dependencies.
 
@@ -138,7 +138,7 @@ public string StrideDependencies { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Application_StartOption_TranslatorDirectory"></a> TranslatorDirectory
+### TranslatorDirectory
 
 Gets/Sets the translator directory.
 
@@ -150,7 +150,7 @@ public string TranslatorDirectory { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Application_StartOption_TranslatorMessageCallback"></a> TranslatorMessageCallback
+### TranslatorMessageCallback
 
 Gets/Sets the kernel translator message callback
 
@@ -162,7 +162,7 @@ public Application.StartOption.WriteMessage TranslatorMessageCallback { get; set
 
  [Application](VM.Managed.Application.md).[StartOption](VM.Managed.Application.StartOption.md).[WriteMessage](VM.Managed.Application.StartOption.WriteMessage.md)
 
-### <a id="VM_Managed_Application_StartOption_TranslatorMessageLogLevel"></a> TranslatorMessageLogLevel
+### TranslatorMessageLogLevel
 
 Gets/Sets the kernel translator message log level
 
@@ -174,7 +174,7 @@ public int TranslatorMessageLogLevel { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_Application_StartOption_UsePID"></a> UsePID
+### UsePID
 
 Gets/Sets the PID flag.
 
@@ -185,4 +185,5 @@ public bool UsePID { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

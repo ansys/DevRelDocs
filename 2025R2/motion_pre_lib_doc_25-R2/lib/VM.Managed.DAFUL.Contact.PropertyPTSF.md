@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyPTSF"></a> Class PropertyPTSF
+# Class PropertyPTSF
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyPTSF__ctor"></a> PropertyPTSF\(\)
+### PropertyPTSF\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyPTSF" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertyPTSF()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyPTSF_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -192,4 +192,5 @@ public override ArgumentTypes ArgumentType { get; }
 #### Property Value
 
  ArgumentTypes
+
 

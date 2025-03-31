@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RefreshSubEntityAddon"></a> Class RefreshSubEntityAddon
+# Class RefreshSubEntityAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -54,7 +54,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### <a id="VM_Managed_History_RefreshSubEntityAddon__ctor"></a> RefreshSubEntityAddon\(\)
+### RefreshSubEntityAddon\(\)
 
 ```csharp
 public RefreshSubEntityAddon()
@@ -62,7 +62,7 @@ public RefreshSubEntityAddon()
 
 ## Methods
 
-### <a id="VM_Managed_History_RefreshSubEntityAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
+### Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void Process(object o, HistoryEventArgs args)
@@ -74,7 +74,7 @@ protected override void Process(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_RefreshSubEntityAddon_ProcessCore_System_Collections_Generic_IEnumerable_System_UIntPtr__"></a> ProcessCore\(IEnumerable<UIntPtr\>\)
+### ProcessCore\(IEnumerable<UIntPtr\>\)
 
 ```csharp
 protected virtual void ProcessCore(IEnumerable<UIntPtr> lst)
@@ -83,4 +83,5 @@ protected virtual void ProcessCore(IEnumerable<UIntPtr> lst)
 #### Parameters
 
 `lst` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
+
 

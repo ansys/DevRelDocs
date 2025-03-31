@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument"></a> Class OperationInHiddenDocument
+# Class OperationInHiddenDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -93,7 +93,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument__ctor"></a> OperationInHiddenDocument\(\)
+### OperationInHiddenDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public OperationInHiddenDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument__ctor_VM_Managed_Document3D_"></a> OperationInHiddenDocument\(Document3D\)
+### OperationInHiddenDocument\(Document3D\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ public OperationInHiddenDocument(Document3D document3D)
 
 The document.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> OperationInHiddenDocument\(JournalParameter\)
+### OperationInHiddenDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.OperationInHiddenDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -131,7 +131,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -149,7 +149,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -161,7 +161,7 @@ public override void Execute()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_GetFullNameOfType_System_Type_"></a> GetFullNameOfType\(Type\)
+### GetFullNameOfType\(Type\)
 
 Gets the full type of the name of.
 
@@ -179,7 +179,7 @@ The type.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_GetLoadXml_System_Object_"></a> GetLoadXml\(object\)
+### GetLoadXml\(object\)
 
 Gets the load XML.
 
@@ -197,7 +197,7 @@ The object.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_GetObject_System_Type_System_String_"></a> GetObject\(Type, string\)
+### GetObject\(Type, string\)
 
 Gets the object.
 
@@ -219,11 +219,12 @@ The string XML.
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_OperationInHiddenDocument_UpdateActiveUserControl"></a> UpdateActiveUserControl\(\)
+### UpdateActiveUserControl\(\)
 
 Updates the active user control.
 
 ```csharp
 protected void UpdateActiveUserControl()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_FE_PickerMultiNode"></a> Class PickerMultiNode
+# Class PickerMultiNode
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  
@@ -59,7 +59,7 @@ PickerBase.CustomFilterEvent
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode__ctor_System_UInt32___"></a> PickerMultiNode\(uint\[\]\)
+### PickerMultiNode\(uint\[\]\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.FE.PickerMultiNode" data-throw-if-not-resolved="false"></xref> class
 
@@ -73,7 +73,7 @@ public PickerMultiNode(uint[] arUsedNodes)
 
 unselectable node indexes.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode__ctor"></a> PickerMultiNode\(\)
+### PickerMultiNode\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.FE.PickerMultiNode" data-throw-if-not-resolved="false"></xref> class
 
@@ -83,7 +83,7 @@ public PickerMultiNode()
 
 ## Fields
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode_m_lstRejectNode"></a> m\_lstRejectNode
+### m\_lstRejectNode
 
 ```csharp
 protected List<uint> m_lstRejectNode
@@ -93,7 +93,7 @@ protected List<uint> m_lstRejectNode
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode_m_lstSelectedNode"></a> m\_lstSelectedNode
+### m\_lstSelectedNode
 
 ```csharp
 protected List<uint> m_lstSelectedNode
@@ -105,7 +105,7 @@ protected List<uint> m_lstSelectedNode
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode_GetPickerInfo"></a> GetPickerInfo\(\)
+### GetPickerInfo\(\)
 
 Gets the picker information.
 
@@ -119,7 +119,7 @@ public override string GetPickerInfo()
 
 The picker information.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode_GetResultXmlFromKey_System_UIntPtr___"></a> GetResultXmlFromKey\(UIntPtr\[\]\)
+### GetResultXmlFromKey\(UIntPtr\[\]\)
 
 Get valid result xml according to picker keys of core.
 
@@ -139,7 +139,7 @@ Picking destination keys.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
+### GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -159,7 +159,7 @@ Picking destination key.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode_SetHighlight_System_Collections_Generic_List_System_UIntPtr__System_Boolean_System_Boolean_"></a> SetHighlight\(List<UIntPtr\>, bool, bool\)
+### SetHighlight\(List<UIntPtr\>, bool, bool\)
 
 ```csharp
 public override void SetHighlight(List<UIntPtr> lstNode, bool bHighlight, bool bUpdate)
@@ -173,7 +173,7 @@ public override void SetHighlight(List<UIntPtr> lstNode, bool bHighlight, bool b
 
 `bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_FE_PickerMultiNode_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
+### SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -196,4 +196,5 @@ Whether only xml or not.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

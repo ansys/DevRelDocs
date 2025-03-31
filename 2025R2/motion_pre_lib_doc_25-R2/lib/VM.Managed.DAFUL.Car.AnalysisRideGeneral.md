@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisRideGeneral"></a> Class AnalysisRideGeneral
+# Class AnalysisRideGeneral
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -43,7 +43,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRideGeneral__ctor"></a> AnalysisRideGeneral\(\)
+### AnalysisRideGeneral\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRideGeneral" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRideG
 public AnalysisRideGeneral()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRideGeneral__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisRideGeneral\(ILinkContainer\)
+### AnalysisRideGeneral\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRideGeneral" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRideGeneral_GeneralInfo"></a> GeneralInfo
+### GeneralInfo
 
 Gets or sets the general.
 
@@ -79,7 +79,7 @@ public AnalysisInfo GeneralInfo { get; set; }
 
  [AnalysisInfo](VM.Managed.DAFUL.Car.AnalysisInfo.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRideGeneral_InitialVelocity"></a> InitialVelocity
+### InitialVelocity
 
 Gets the initial velocity.
 
@@ -91,7 +91,7 @@ protected override double InitialVelocity { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRideGeneral_RoadFile"></a> RoadFile
+### RoadFile
 
 Gets or sets the road data file.
 
@@ -105,7 +105,7 @@ public string RoadFile { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisRideGeneral_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -118,4 +118,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

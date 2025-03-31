@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BallPlacingContact"></a> Class BallPlacingContact
+# Class BallPlacingContact
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -220,7 +220,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact__ctor"></a> BallPlacingContact\(\)
+### BallPlacingContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BallPlacingContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -230,7 +230,7 @@ public BallPlacingContact()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -242,7 +242,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact_BallPlacing"></a> BallPlacing
+### BallPlacing
 
 Gets or sets the ball placing.
 
@@ -254,7 +254,7 @@ public BallPlacing BallPlacing { get; set; }
 
  [BallPlacing](VM.Managed.DAFUL.BallPlacing.md)
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact_BallToBall"></a> BallToBall
+### BallToBall
 
 Gets or sets the ball geometries.
 
@@ -266,7 +266,7 @@ public MultipleContactInfo[] BallToBall { get; set; }
 
  MultipleContactInfo\[\]
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact_BallToSurface"></a> BallToSurface
+### BallToSurface
 
 Gets or sets the ball to surface contacts.
 
@@ -278,7 +278,7 @@ public BallToSurfaceContact[] BallToSurface { get; set; }
 
  [BallToSurfaceContact](VM.Managed.DAFUL.BallToSurfaceContact.md)\[\]
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact_EnableBallToBall"></a> EnableBallToBall
+### EnableBallToBall
 
 Gets or sets a value indicating whether ball to ball contact is enabled.
 
@@ -290,7 +290,7 @@ public bool EnableBallToBall { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact_EnableBallToSurface"></a> EnableBallToSurface
+### EnableBallToSurface
 
 Gets or sets a value indicating whether ball to surface contact is enabled.
 
@@ -302,7 +302,7 @@ public bool EnableBallToSurface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -316,7 +316,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact_CreateBallToSurfaceContact_VM_Managed_Document3D_System_Collections_Generic_IList_VM_Managed_DAFUL_IContactable__"></a> CreateBallToSurfaceContact\(Document3D, IList<IContactable\>\)
+### CreateBallToSurfaceContact\(Document3D, IList<IContactable\>\)
 
 Create BallToSurface Contact
 
@@ -334,11 +334,12 @@ The document.
 
 The faceset and surface with curvesets.
 
-### <a id="VM_Managed_DAFUL_BallPlacingContact_UpdateIcon"></a> UpdateIcon\(\)
+### UpdateIcon\(\)
 
 Update the icon.
 
 ```csharp
 protected override void UpdateIcon()
 ```
+
 

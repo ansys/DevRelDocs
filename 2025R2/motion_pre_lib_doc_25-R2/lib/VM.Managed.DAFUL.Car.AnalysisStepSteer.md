@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisStepSteer"></a> Class AnalysisStepSteer
+# Class AnalysisStepSteer
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -51,7 +51,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStepSteer__ctor"></a> AnalysisStepSteer\(\)
+### AnalysisStepSteer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisStepSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisStepS
 public AnalysisStepSteer()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStepSteer__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisStepSteer\(ILinkContainer\)
+### AnalysisStepSteer\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisStepSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStepSteer_FinalSteer"></a> FinalSteer
+### FinalSteer
 
 Gets or sets the final steer value.
 
@@ -87,7 +87,7 @@ public double FinalSteer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStepSteer_InitialSteer"></a> InitialSteer
+### InitialSteer
 
 Gets or sets the initial steer value.
 
@@ -99,7 +99,7 @@ public double InitialSteer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStepSteer_StepDuration"></a> StepDuration
+### StepDuration
 
 Gets or sets the duration of step.
 
@@ -111,7 +111,7 @@ public double StepDuration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStepSteer_TireRadiusPosition"></a> TireRadiusPosition
+### TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -125,7 +125,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStepSteer_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -138,4 +138,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

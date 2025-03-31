@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Edge"></a> Class Edge
+# Class Edge
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -47,7 +47,7 @@ ISelected
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_Edge__ctor_System_UIntPtr_System_Boolean_"></a> Edge\(UIntPtr, bool\)
+### Edge\(UIntPtr, bool\)
 
 ```csharp
 public Edge(UIntPtr key, bool isLock = true)
@@ -61,7 +61,7 @@ public Edge(UIntPtr key, bool isLock = true)
 
 ## Properties
 
-### <a id="VM_CAD_Kernel_Edge_IsCircle"></a> IsCircle
+### IsCircle
 
 ```csharp
 public bool IsCircle { get; }
@@ -73,7 +73,7 @@ public bool IsCircle { get; }
 
 ## Methods
 
-### <a id="VM_CAD_Kernel_Edge_GetDefaultPoint"></a> GetDefaultPoint\(\)
+### GetDefaultPoint\(\)
 
 ```csharp
 public override Vector GetDefaultPoint()
@@ -83,7 +83,7 @@ public override Vector GetDefaultPoint()
 
  Vector
 
-### <a id="VM_CAD_Kernel_Edge_GetEllipseCenterPoint"></a> GetEllipseCenterPoint\(\)
+### GetEllipseCenterPoint\(\)
 
 ```csharp
 public Vector GetEllipseCenterPoint()
@@ -93,7 +93,7 @@ public Vector GetEllipseCenterPoint()
 
  Vector
 
-### <a id="VM_CAD_Kernel_Edge_GetPointOnEdge_System_Double_"></a> GetPointOnEdge\(double\)
+### GetPointOnEdge\(double\)
 
 ```csharp
 public Vector GetPointOnEdge(double u)
@@ -107,7 +107,7 @@ public Vector GetPointOnEdge(double u)
 
  Vector
 
-### <a id="VM_CAD_Kernel_Edge_GetTangentialDirection_System_Double_"></a> GetTangentialDirection\(double\)
+### GetTangentialDirection\(double\)
 
 ```csharp
 public Vector GetTangentialDirection(double u)
@@ -121,7 +121,7 @@ public Vector GetTangentialDirection(double u)
 
  Vector
 
-### <a id="VM_CAD_Kernel_Edge_IsEdge_System_UIntPtr_"></a> IsEdge\(UIntPtr\)
+### IsEdge\(UIntPtr\)
 
 ```csharp
 public static bool IsEdge(UIntPtr key)
@@ -134,4 +134,5 @@ public static bool IsEdge(UIntPtr key)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

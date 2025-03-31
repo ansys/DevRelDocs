@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_InlineBBPP"></a> Class InlineBBPP
+# Class InlineBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -61,9 +61,10 @@ BuilderBase<Inline\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Constraints_InlineBBPP__ctor"></a> InlineBBPP\(\)
+### InlineBBPP\(\)
 
 ```csharp
 public InlineBBPP()
 ```
+
 

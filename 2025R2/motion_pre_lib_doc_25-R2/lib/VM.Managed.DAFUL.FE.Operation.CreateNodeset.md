@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset"></a> Class CreateNodeset
+# Class CreateNodeset
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset__ctor_VM_Managed_Document_"></a> CreateNodeset\(Document\)
+### CreateNodeset\(Document\)
 
 ```csharp
 public CreateNodeset(Document doc)
@@ -87,7 +87,7 @@ public CreateNodeset(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset__ctor_VM_Managed_Document_System_UInt32___"></a> CreateNodeset\(Document, uint\[\]\)
+### CreateNodeset\(Document, uint\[\]\)
 
 ```csharp
 public CreateNodeset(Document doc, uint[] arnNodeIndex)
@@ -99,7 +99,7 @@ public CreateNodeset(Document doc, uint[] arnNodeIndex)
 
 `arnNodeIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateNodeset\(JournalParameter\)
+### CreateNodeset\(JournalParameter\)
 
 ```csharp
 public CreateNodeset(JournalParameter jp)
@@ -111,7 +111,7 @@ public CreateNodeset(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -123,7 +123,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset_Nodeset"></a> Nodeset
+### Nodeset
 
 ```csharp
 public SetNode Nodeset { get; }
@@ -135,7 +135,7 @@ public SetNode Nodeset { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -143,7 +143,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -153,7 +153,7 @@ public override void GetInformation(XmlWriter writer)
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodeset_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -164,4 +164,5 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
+
 

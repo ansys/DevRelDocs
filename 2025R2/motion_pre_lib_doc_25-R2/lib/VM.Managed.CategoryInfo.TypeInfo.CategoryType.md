@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CategoryInfo_TypeInfo_CategoryType"></a> Class CategoryInfo.TypeInfo.CategoryType
+# Class CategoryInfo.TypeInfo.CategoryType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class CategoryInfo.TypeInfo.CategoryType
 
 ## Constructors
 
-### <a id="VM_Managed_CategoryInfo_TypeInfo_CategoryType__ctor"></a> CategoryType\(\)
+### CategoryType\(\)
 
 ```csharp
 public CategoryType()
@@ -30,7 +30,7 @@ public CategoryType()
 
 ## Fields
 
-### <a id="VM_Managed_CategoryInfo_TypeInfo_CategoryType_Category"></a> Category
+### Category
 
 ```csharp
 public string Category
@@ -40,7 +40,7 @@ public string Category
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CategoryInfo_TypeInfo_CategoryType_Image"></a> Image
+### Image
 
 ```csharp
 public string Image
@@ -50,7 +50,7 @@ public string Image
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CategoryInfo_TypeInfo_CategoryType_Name"></a> Name
+### Name
 
 ```csharp
 public string Name
@@ -59,4 +59,5 @@ public string Name
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

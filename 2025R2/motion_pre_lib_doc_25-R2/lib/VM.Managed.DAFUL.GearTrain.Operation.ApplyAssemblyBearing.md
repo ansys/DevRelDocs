@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyBearing"></a> Class ApplyAssemblyBearing
+# Class ApplyAssemblyBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyBearing__ctor_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_DAFUL_IConnectable_System_Collections_Generic_IEnumerable_System_ValueTuple_System_String_System_Boolean_System_String_System_Boolean___System_Collections_Generic_IEnumerable_System_ValueTuple_System_String_System_String_System_Boolean_System_String_VM_Vector___"></a> ApplyAssemblyBearing\(GearTrainDocument, IConnectable, IEnumerable<\(string, bool, string, bool\)\>, IEnumerable<\(string, string, bool, string, Vector\)\>\)
+### ApplyAssemblyBearing\(GearTrainDocument, IConnectable, IEnumerable<\(string, bool, string, bool\)\>, IEnumerable<\(string, string, bool, string, Vector\)\>\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyAssemblyBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -103,7 +103,7 @@ The bearing information
 
 The cycloid pin information
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyBearing__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyAssemblyBearing\(JournalParameter\)
+### ApplyAssemblyBearing\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyAssemblyBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -119,7 +119,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyBearing_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -137,7 +137,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyBearing_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -149,7 +149,7 @@ public override void Execute()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyAssemblyBearing_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -162,4 +162,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

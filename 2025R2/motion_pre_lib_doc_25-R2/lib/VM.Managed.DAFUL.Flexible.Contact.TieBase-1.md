@@ -1,9 +1,17 @@
-# <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1"></a> Class TieBase<TProperty\>
+# Class TieBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Flexible.Contact](VM.Managed.DAFUL.Flexible.Contact.md)  
 Assembly: VMFlexibleBase.dll  
 
-This class is to represent the tie base.
+<p>This class is to represent the tie base.</p>
+<p>이 클래스는 타이의 기본을 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public abstract class TieBase<TProperty> : Entity<TProperty>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IDraw, IDrawIcon, IDrawChangeFacet, IEntityRelation, IGenerable, IReportable, IFlip, IHasReplaceableEntity where TProperty : PropertyTieBase, new()
@@ -13,7 +21,8 @@ public abstract class TieBase<TProperty> : Entity<TProperty>, IObservableObject,
 
 `TProperty` 
 
-The type of the property.
+<p>The type of the property.</p>
+<p>타이의 속성.</p>
 
 #### Inheritance
 
@@ -215,17 +224,21 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1__ctor"></a> TieBase\(\)
+### TieBase\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public TieBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1__ctor_System_String_"></a> TieBase\(string\)
+### TieBase\(string\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public TieBase(string strName)
@@ -235,11 +248,12 @@ public TieBase(string strName)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-Name of the STR.
+<p>Name of the STR.</p>
+<p>이름</p>
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_ActionGeom"></a> ActionGeom
+### ActionGeom
 
 Gets or sets the action 3D contact geometry.
 
@@ -251,9 +265,28 @@ public ContactGeom3D ActionGeom { get; set; }
 
  ContactGeom3D
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_BaseGeom"></a> BaseGeom
+### BaseGeom
 
-Gets or sets the base 3D contact geometry.
+<p>Gets or sets the base 3D contact geometry.</p>
+<p>베이스 3D 접촉 요소를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : ContactGeom3D
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Entity Name
+        Control Type : Entity Picker
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Tie
+        Category Index : 1
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public ContactGeom3D BaseGeom { get; set; }
@@ -263,7 +296,7 @@ public ContactGeom3D BaseGeom { get; set; }
 
  ContactGeom3D
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_CanSwitchImpl"></a> CanSwitchImpl
+### CanSwitchImpl
 
 ```csharp
 protected virtual bool CanSwitchImpl { get; }
@@ -273,9 +306,10 @@ protected virtual bool CanSwitchImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_GenerableImpl"></a> GenerableImpl
+### GenerableImpl
 
-Gets a value indicating whether this instance is generable.
+<p>Gets a value indicating whether this instance is generable.</p>
+<p>이 객체가 일반적으로 변환 가능한지 여부를 가져옵니다.</p>
 
 ```csharp
 protected virtual bool GenerableImpl { get; }
@@ -285,7 +319,7 @@ protected virtual bool GenerableImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -297,9 +331,22 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_Hide"></a> Hide
+### Hide
 
-Gets or sets a value indicating whether this instance is hide.
+<p>Gets or sets a value indicating whether this instance is hide.</p>
+<p>아이콘을 숨길지 여부를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : bool
+        LinkRequestUpdate 시 처리 :
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : false
+        변경 시 DFS 재생성 여부 : No
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool Hide { get; set; }
@@ -309,9 +356,22 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_NameOfActionBody"></a> NameOfActionBody
+### NameOfActionBody
 
-Gets the name of body referenced tie action geometry.
+<p>Gets the name of body referenced tie action geometry.</p>
+<p>Tie의 Action의 타겟요소가 참조하는 바디의 이름을 가져옵니다.</p>
+<p>
+        Type : string
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : false
+        변경 시 DFS 재생성 여부 : No
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public string NameOfActionBody { get; }
@@ -321,9 +381,22 @@ public string NameOfActionBody { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_NameOfBaseBody"></a> NameOfBaseBody
+### NameOfBaseBody
 
-Gets the name of body referenced tie base geometry.
+<p>Gets the name of body referenced tie base geometry.</p>
+<p>Tie의 Base 타겟요소가 참조하는 바디의 이름을 가져옵니다.</p>
+<p>
+        Type : string
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : false
+        변경 시 DFS 재생성 여부 : No
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public string NameOfBaseBody { get; }
@@ -335,9 +408,10 @@ public string NameOfBaseBody { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
-Draws the icon.
+<p>Draws the icon.</p>
+<p>아이콘을 그립니다.</p>
 
 ```csharp
 public void Draw(Canvas canvas)
@@ -347,11 +421,13 @@ public void Draw(Canvas canvas)
 
 `canvas` Canvas
 
-The canvas has icon information.
+<p>The canvas has icon information.</p>
+<p>아이콘 정보를 가지는 캔버스</p>
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
-Finds the local.
+<p>Finds the local.</p>
+<p>특정한 오브젝트로부터 이름을 가지고 원하는 오브젝트를 가져오는 함수입니다.</p>
 
 ```csharp
 public override IObjectBase FindLocal(string strName)
@@ -361,15 +437,17 @@ public override IObjectBase FindLocal(string strName)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-The Name that want to find.
+<p>The Name that want to find.</p>
+<p>찾고 싶은 엔티티의 이름입니다.</p>
 
 #### Returns
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
-Gets the name of the unnamed object.
+<p>Gets the name of the unnamed object.</p>
+<p>이름이 없는 오브젝트에 정의된 이름을 가져오는 함수입니다.</p>
 
 ```csharp
 public override string GetUnnamedObjectName(object obUnnamed)
@@ -379,15 +457,17 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
 `obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-The ob unnamed.
+<p>The ob unnamed.</p>
+<p>특정한 이름을 찾고자 하는 오브젝트.</p>
 
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
+<p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -397,11 +477,13 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+<p>단위 변환 팩터.</p>
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
-Request for update the linked object.
+<p>Request for update the linked object.</p>
+<p>참조된 객체가 갱신될 때 호출되는 이벤트.</p>
 
 ```csharp
 protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
@@ -411,15 +493,18 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-The linked object.
+<p>The linked object.</p>
+<p>참조된 객체입니다.</p>
 
 `arg` LinkEventArgs
 
-instance containing the event data.
+<p>instance containing the event data.</p>
+<p>갱신 이벤트 정보입니다..</p>
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
-Called when [deserialization].
+<p>Called when [deserialization].</p>
+<p>이 클래스의 data가 Load되고 나서 호출되는 함수입니다.</p>
 
 ```csharp
 protected override void OnDeserialization(object sender)
@@ -429,19 +514,22 @@ protected override void OnDeserialization(object sender)
 
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-The sender.
+<p>The sender.</p>
+<p>Load 관련 객체정보입니다.</p>
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
-Redraw.
+<p> Redraw.</p>
+<p> 다시 그려줍니다.</p>
 
 ```csharp
 public void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_ReplaceEntityImpl_VM_Managed_Document_VM_Managed_IGenerable_"></a> ReplaceEntityImpl\(Document, IGenerable\)
+### ReplaceEntityImpl\(Document, IGenerable\)
 
-Replace entity.
+<p>Replace entity.</p>
+<p>엔티티를 대체합니다.</p>
 
 ```csharp
 protected virtual void ReplaceEntityImpl(Document doc, IGenerable generableNew)
@@ -451,9 +539,12 @@ protected virtual void ReplaceEntityImpl(Document doc, IGenerable generableNew)
 
 `doc` Document
 
-The document.
+<p>The document.</p>
+<p>도큐먼트</p>
 
 `generableNew` IGenerable
 
-The new generable entity.
+<p>The new generable entity.</p>
+<p>새로운 엔티티</p>
+
 

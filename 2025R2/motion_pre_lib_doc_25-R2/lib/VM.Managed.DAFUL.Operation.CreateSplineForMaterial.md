@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial"></a> Class CreateSplineForMaterial
+# Class CreateSplineForMaterial
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial__ctor_VM_Managed_Document3D_System_Collections_Generic_List_System_Double__System_Collections_Generic_List_System_Double__System_String_"></a> CreateSplineForMaterial\(Document3D, List<double\>, List<double\>, string\)
+### CreateSplineForMaterial\(Document3D, List<double\>, List<double\>, string\)
 
 ```csharp
 public CreateSplineForMaterial(Document3D doc3D, List<double> lstX, List<double> lstY, string MaterialName)
@@ -93,7 +93,7 @@ public CreateSplineForMaterial(Document3D doc3D, List<double> lstX, List<double>
 
 `MaterialName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateSplineForMaterial\(JournalParameter\)
+### CreateSplineForMaterial\(JournalParameter\)
 
 ```csharp
 public CreateSplineForMaterial(JournalParameter jp)
@@ -105,7 +105,7 @@ public CreateSplineForMaterial(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -115,7 +115,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -127,7 +127,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial_Spline"></a> Spline
+### Spline
 
 ```csharp
 public ISpline Spline { get; }
@@ -139,7 +139,7 @@ public ISpline Spline { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -147,7 +147,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_CreateSplineForMaterial_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -156,4 +156,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Thermal_Temperature"></a> Class Temperature
+# Class Temperature
 
 Namespace: [VM.Managed.DAFUL.Builder.Thermal](VM.Managed.DAFUL.Builder.Thermal.md)  
 Assembly: VMBldThermal.dll  
@@ -53,7 +53,7 @@ BuilderBase<Temperature\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Thermal_Temperature__ctor"></a> Temperature\(\)
+### Temperature\(\)
 
 ```csharp
 public Temperature()
@@ -61,7 +61,7 @@ public Temperature()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Thermal_Temperature_Target"></a> Target
+### Target
 
 ```csharp
 public ObjectBase Target { get; }
@@ -73,7 +73,7 @@ public ObjectBase Target { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Thermal_Temperature_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,4 +88,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

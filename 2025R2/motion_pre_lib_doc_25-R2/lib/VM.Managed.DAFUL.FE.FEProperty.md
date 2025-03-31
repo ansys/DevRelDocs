@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_FEProperty"></a> Class FEProperty
+# Class FEProperty
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -170,11 +170,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_FEProperty__ctor"></a> FEProperty\(\)
+### FEProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FEProperty" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public FEProperty()
 ```
+
 

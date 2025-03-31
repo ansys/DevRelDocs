@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyXmlSerializerHelper_1"></a> Class PropertyXmlSerializerHelper<TProperty\>
+# Class PropertyXmlSerializerHelper<TProperty\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -28,7 +28,7 @@ The type of the property.
 
 ## Constructors
 
-### <a id="VM_Managed_PropertyXmlSerializerHelper_1__ctor__0_"></a> PropertyXmlSerializerHelper\(TProperty\)
+### PropertyXmlSerializerHelper\(TProperty\)
 
 Initializes a new instance of the <xref href="VM.Managed.PropertyXmlSerializerHelper%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -44,7 +44,7 @@ The property.
 
 ## Operators
 
-### <a id="VM_Managed_PropertyXmlSerializerHelper_1_op_Implicit_VM_Managed_PropertyXmlSerializer__0___VM_Managed_PropertyXmlSerializerHelper__0_"></a> implicit operator PropertyXmlSerializerHelper<TProperty\>\(PropertyXmlSerializer<TProperty\>\)
+### implicit operator PropertyXmlSerializerHelper<TProperty\>\(PropertyXmlSerializer<TProperty\>\)
 
 Performs an implicit conversion from <xref href="VM.Managed.PropertyXmlSerializerHelper%601" data-throw-if-not-resolved="false"></xref> to <xref href="VM.Managed.PropertyXmlSerializerHelper%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -64,7 +64,7 @@ The ser.
 
 The result of the conversion.
 
-### <a id="VM_Managed_PropertyXmlSerializerHelper_1_op_Implicit_VM_Managed_PropertyXmlSerializerHelper__0____0"></a> implicit operator TProperty\(PropertyXmlSerializerHelper<TProperty\>\)
+### implicit operator TProperty\(PropertyXmlSerializerHelper<TProperty\>\)
 
 Performs an implicit conversion from <xref href="VM.Managed.PropertyXmlSerializerHelper%601" data-throw-if-not-resolved="false"></xref> to TProperty.
 
@@ -83,4 +83,5 @@ The ser.
  TProperty
 
 The result of the conversion.
+
 

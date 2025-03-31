@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_SideType"></a> Enum WheelBodyBase.SideType
+# Enum WheelBodyBase.SideType
 
 Namespace: [VM.Managed.DAFUL.Tire](VM.Managed.DAFUL.Tire.md)  
 Assembly: VMDTire.dll  
@@ -20,6 +20,7 @@ Left
 `Right = 1` 
 
 Right
+
 
 
 

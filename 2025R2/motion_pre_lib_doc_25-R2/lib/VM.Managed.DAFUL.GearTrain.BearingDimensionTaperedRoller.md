@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller"></a> Class BearingDimensionTaperedRoller
+# Class BearingDimensionTaperedRoller
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller__ctor"></a> BearingDimensionTaperedRoller\(\)
+### BearingDimensionTaperedRoller\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BearingDimensionTaperedRoller" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public BearingDimensionTaperedRoller()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_ActionPoint"></a> ActionPoint
+### ActionPoint
 
 Gets or sets the action point.
 
@@ -125,7 +125,7 @@ public ExpressionValueVariable ActionPoint { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_ConeRoundingRadius"></a> ConeRoundingRadius
+### ConeRoundingRadius
 
 Gets or sets the rounding radius of cone.
 
@@ -137,7 +137,7 @@ public ExpressionValueVariable ConeRoundingRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_ConeShoulderDiameter"></a> ConeShoulderDiameter
+### ConeShoulderDiameter
 
 Gets or sets the cone shoulder diameter.
 
@@ -149,7 +149,7 @@ public ExpressionValueVariable ConeShoulderDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_ConeWidth"></a> ConeWidth
+### ConeWidth
 
 Gets or sets the width of cone.
 
@@ -161,7 +161,7 @@ public ExpressionValueVariable ConeWidth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_ContactAngle"></a> ContactAngle
+### ContactAngle
 
 Gets or sets the contact angle.
 
@@ -173,7 +173,7 @@ public ExpressionValueVariable ContactAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_CupRoundingRadius"></a> CupRoundingRadius
+### CupRoundingRadius
 
 Gets or sets the rounding radius of cup.
 
@@ -185,7 +185,7 @@ public ExpressionValueVariable CupRoundingRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_CupWidth"></a> CupWidth
+### CupWidth
 
 Gets or sets the width of Cup.
 
@@ -197,7 +197,7 @@ public ExpressionValueVariable CupWidth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_NumberOfRoller"></a> NumberOfRoller
+### NumberOfRoller
 
 Gets or sets the number of roller.
 
@@ -209,7 +209,7 @@ public ExpressionValueVariable NumberOfRoller { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerCenterPoint"></a> RollerCenterPoint
+### RollerCenterPoint
 
 Gets or sets the roller center point.
 
@@ -221,7 +221,7 @@ public ExpressionValueVariable RollerCenterPoint { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerDiameter"></a> RollerDiameter
+### RollerDiameter
 
 Gets or sets the roller diameter.
 
@@ -233,7 +233,7 @@ public ExpressionValueVariable RollerDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerLength"></a> RollerLength
+### RollerLength
 
 Gets or sets the roller length.
 
@@ -245,7 +245,7 @@ public ExpressionValueVariable RollerLength { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerPitchDiameter"></a> RollerPitchDiameter
+### RollerPitchDiameter
 
 Gets or sets the roller pitch diameter.
 
@@ -257,7 +257,7 @@ public ExpressionValueVariable RollerPitchDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_RollerTaperedAngle"></a> RollerTaperedAngle
+### RollerTaperedAngle
 
 Gets or sets the roller tapered angle.
 
@@ -271,7 +271,7 @@ public ExpressionValueVariable RollerTaperedAngle { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionTaperedRoller_GetBuilder_VM_Managed_DAFUL_GearTrain_Bearing_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_Managed_TMatrix_System_Boolean_System_Boolean_VM_Managed_CAD_BuilderMultiSubtractSimple__"></a> GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
+### GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
 
 Gets the builder.
 
@@ -304,4 +304,5 @@ The reverse direction falg.
 `builder` BuilderMultiSubtractSimple
 
 The builder.
+
 

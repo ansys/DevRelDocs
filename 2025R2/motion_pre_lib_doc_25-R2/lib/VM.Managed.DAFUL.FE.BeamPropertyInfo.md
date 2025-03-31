@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_BeamPropertyInfo"></a> Class BeamPropertyInfo
+# Class BeamPropertyInfo
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_BeamPropertyInfo__ctor"></a> BeamPropertyInfo\(\)
+### BeamPropertyInfo\(\)
 
 ```csharp
 public BeamPropertyInfo()
@@ -104,7 +104,7 @@ public BeamPropertyInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_BeamPropertyInfo_Material"></a> Material
+### Material
 
 Gets or sets the material.
 
@@ -116,7 +116,7 @@ public IMaterial Material { get; set; }
 
  IMaterial
 
-### <a id="VM_Managed_DAFUL_FE_BeamPropertyInfo_Radius"></a> Radius
+### Radius
 
 Gets or sets the beam radius.
 
@@ -128,7 +128,7 @@ public ExpressionValueVariable Radius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FE_BeamPropertyInfo__Material"></a> \_Material
+### \_Material
 
 Gets or sets the material.
 
@@ -139,4 +139,5 @@ public Linker<IMaterial> _Material { get; set; }
 #### Property Value
 
  Linker<IMaterial\>
+
 

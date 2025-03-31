@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PythonCode"></a> Class PythonCode
+# Class PythonCode
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_PythonCode__ctor"></a> PythonCode\(\)
+### PythonCode\(\)
 
 Construct a <xref href="VM.Managed.DAFUL.PythonCode" data-throw-if-not-resolved="false"></xref> entity
 
@@ -179,7 +179,7 @@ Construct a <xref href="VM.Managed.DAFUL.PythonCode" data-throw-if-not-resolved=
 public PythonCode()
 ```
 
-### <a id="VM_Managed_DAFUL_PythonCode__ctor_System_String_"></a> PythonCode\(string\)
+### PythonCode\(string\)
 
 Construct a <xref href="VM.Managed.DAFUL.PythonCode" data-throw-if-not-resolved="false"></xref> entity
 
@@ -195,7 +195,7 @@ The name of the new <xref href="VM.Managed.DAFUL.PythonCode" data-throw-if-not-r
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_PythonCode_CodePath"></a> CodePath
+### CodePath
 
 Path to the code file.
 
@@ -207,7 +207,7 @@ public string CodePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_PythonCode_CodeType"></a> CodeType
+### CodeType
 
 The type of the python code.
 
@@ -219,7 +219,7 @@ public CodeTypes CodeType { get; set; }
 
  CodeTypes
 
-### <a id="VM_Managed_DAFUL_PythonCode_DeployLocation"></a> DeployLocation
+### DeployLocation
 
 The location to deploy this code during analysis.
 
@@ -231,7 +231,7 @@ public string DeployLocation { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_PythonCode_ImportCommand"></a> ImportCommand
+### ImportCommand
 
 The import command for using this code in the <xref href="VM.IExpression" data-throw-if-not-resolved="false"></xref>.
 It must contain '$module$' keyword.
@@ -244,7 +244,7 @@ public string ImportCommand { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_PythonCode_ImportModuleName"></a> ImportModuleName
+### ImportModuleName
 
 The module name for importing this code object
 
@@ -256,7 +256,7 @@ public string ImportModuleName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_PythonCode_UseDeployLocation"></a> UseDeployLocation
+### UseDeployLocation
 
 The flag whether using the <xref href="VM.Models.Pre.IPythonCode.DeployLocation" data-throw-if-not-resolved="false"></xref> value.
 
@@ -268,7 +268,7 @@ public bool UseDeployLocation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_PythonCode_UseImportCommand"></a> UseImportCommand
+### UseImportCommand
 
 The flag whether using the <xref href="VM.Models.Pre.IPythonCode.ImportCommand" data-throw-if-not-resolved="false"></xref> value.
 
@@ -282,7 +282,7 @@ public bool UseImportCommand { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_PythonCode_GetImportCommand_System_String_System_String_System_String_"></a> GetImportCommand\(string, string, string\)
+### GetImportCommand\(string, string, string\)
 
 ```csharp
 public static string GetImportCommand(string codePath, string deployLocation, string importCommand)
@@ -300,7 +300,7 @@ public static string GetImportCommand(string codePath, string deployLocation, st
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_PythonCode_GetImportCommand"></a> GetImportCommand\(\)
+### GetImportCommand\(\)
 
 Gets the import command. This function returns value even if <xref href="VM.Managed.DAFUL.PythonCode.ImportCommand" data-throw-if-not-resolved="false"></xref> is null or empty.
 
@@ -314,7 +314,7 @@ public string GetImportCommand()
 
 The import command
 
-### <a id="VM_Managed_DAFUL_PythonCode_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
+### LinkAddedToDocument\(object, AddToDocEventArgs\)
 
 Add linked object to a document.
 
@@ -332,7 +332,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_PythonCode_LinkRemovedFromDocument_System_Object_VM_Managed_RemoveFromDocEventArgs_"></a> LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
+### LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
 
 Remove linked object to a document.
 
@@ -350,7 +350,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_PythonCode_ToString"></a> ToString\(\)
+### ToString\(\)
 
 ```csharp
 public override string ToString()
@@ -359,4 +359,5 @@ public override string ToString()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing"></a> Class GenerateDataForChainedPlacing
+# Class GenerateDataForChainedPlacing
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -22,7 +22,7 @@ public class GenerateDataForChainedPlacing
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing__ctor"></a> GenerateDataForChainedPlacing\(\)
+### GenerateDataForChainedPlacing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.GenerateDataForChainedPlacing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public GenerateDataForChainedPlacing()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_m_FirstCheckCrossTangent"></a> m\_FirstCheckCrossTangent
+### m\_FirstCheckCrossTangent
 
 ```csharp
 public bool m_FirstCheckCrossTangent
@@ -44,7 +44,7 @@ public bool m_FirstCheckCrossTangent
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_Add_PathList_VM_Managed_DAFUL_Chained_PathInfo_"></a> Add\_PathList\(PathInfo\)
+### Add\_PathList\(PathInfo\)
 
 add the PathInfo
 
@@ -58,7 +58,7 @@ public void Add_PathList(PathInfo path)
 
 Path information
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_Add_SegmentList_VM_Managed_DAFUL_Chained_SegmentInfo_"></a> Add\_SegmentList\(SegmentInfo\)
+### Add\_SegmentList\(SegmentInfo\)
 
 add the SegmentInfo
 
@@ -72,7 +72,7 @@ public void Add_SegmentList(SegmentInfo segment)
 
 Segment Information
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_CalculatePositionAndOrietationOfSegment_System_Int32_VM_Managed_DAFUL_Chained_SegmentPlacingInfo____"></a> CalculatePositionAndOrietationOfSegment\(int, ref SegmentPlacingInfo\[\]\)
+### CalculatePositionAndOrietationOfSegment\(int, ref SegmentPlacingInfo\[\]\)
 
 Calculate position and orietation of segments.
 
@@ -96,7 +96,7 @@ The array including data for placing.
 
 if the position and orientation of segments are calculated successfully, it is true.
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_Calculate_Gap_System_Int32_System_Double__"></a> Calculate\_Gap\(int, ref double\)
+### Calculate\_Gap\(int, ref double\)
 
 Calculate the gap.
 
@@ -120,7 +120,7 @@ The gap.
 
 if the gap is calculated successfully, it is true.
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_Calculate_NoOfSegmentAndGap_System_Int32__System_Double__"></a> Calculate\_NoOfSegmentAndGap\(ref int, ref double\)
+### Calculate\_NoOfSegmentAndGap\(ref int, ref double\)
 
 Calculate number of segment and gap.
 
@@ -144,7 +144,7 @@ The gap.
 
 if the number of segment and gap are calculated successfully, it is true.
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_GetNthPathInfo_System_Int32_"></a> GetNthPathInfo\(int\)
+### GetNthPathInfo\(int\)
 
 Gets Nth PathInfo data.
 
@@ -164,7 +164,7 @@ The Index.
 
 The PathInfo.
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_GetNthSegmentInfo_System_Int32_"></a> GetNthSegmentInfo\(int\)
+### GetNthSegmentInfo\(int\)
 
 Gets Nth SegmentInfo data.
 
@@ -184,7 +184,7 @@ The index.
 
 The SegmentInfo.
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_Initialize_PathList"></a> Initialize\_PathList\(\)
+### Initialize\_PathList\(\)
 
 Initialize list of PathInfo
 
@@ -192,7 +192,7 @@ Initialize list of PathInfo
 public void Initialize_PathList()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_Initialize_PlacingData"></a> Initialize\_PlacingData\(\)
+### Initialize\_PlacingData\(\)
 
 Initialize and calculate the data for cunstruction chained system.
 
@@ -206,7 +206,7 @@ public GenerateDataForChainedPlacing.PlacingDataResultType Initialize_PlacingDat
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_Initialize_SegmentList"></a> Initialize\_SegmentList\(\)
+### Initialize\_SegmentList\(\)
 
 Initialize list of SegmentInfo
 
@@ -214,7 +214,7 @@ Initialize list of SegmentInfo
 public void Initialize_SegmentList()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing_Positioning_Algorithm_System_Int32__System_Double__System_Double_System_Boolean_System_Int32_"></a> Positioning\_Algorithm\(ref int, ref double, double, bool, int\)
+### Positioning\_Algorithm\(ref int, ref double, double, bool, int\)
 
 Called when the position and orientation of segments calculates.
 
@@ -249,4 +249,5 @@ The number of iteration.
  [SegmentPlacingInfo](VM.Managed.DAFUL.Chained.SegmentPlacingInfo.md)\[\]
 
 The list of segment placing information.
+
 

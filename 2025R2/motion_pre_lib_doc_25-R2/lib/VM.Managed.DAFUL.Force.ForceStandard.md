@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_ForceStandard"></a> Class ForceStandard
+# Class ForceStandard
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -78,7 +78,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_ForceStandard__ctor"></a> ForceStandard\(\)
+### ForceStandard\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.ForceStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -86,7 +86,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.ForceStanda
 public ForceStandard()
 ```
 
-### <a id="VM_Managed_DAFUL_Force_ForceStandard__ctor_VM_Managed_DAFUL_Force_PropertyForce_"></a> ForceStandard\(PropertyForce\)
+### ForceStandard\(PropertyForce\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.ForceStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -102,7 +102,7 @@ The owner force property.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_ForceStandard_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -114,7 +114,7 @@ public Function Function { get; set; }
 
  Function
 
-### <a id="VM_Managed_DAFUL_Force_ForceStandard_Type"></a> Type
+### Type
 
 Gets the function type.
 
@@ -128,7 +128,7 @@ public override ForceFunction.FunctionType Type { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_ForceStandard_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
+### ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -142,7 +142,7 @@ public override void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Force_ForceStandard_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -155,4 +155,5 @@ public override void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SolidBodySphereSimple"></a> Class SolidBodySphereSimple
+# Class SolidBodySphereSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class SolidBodySphereSimple : SolidBodySphere<BuilderSphereSimple>, IBuil
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodySphereSimple__ctor"></a> SolidBodySphereSimple\(\)
+### SolidBodySphereSimple\(\)
 
 ```csharp
 public SolidBodySphereSimple()
@@ -73,7 +73,7 @@ public SolidBodySphereSimple()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodySphereSimple_CenterPosition"></a> CenterPosition
+### CenterPosition
 
 ```csharp
 public PointBase CenterPosition { get; }
@@ -83,7 +83,7 @@ public PointBase CenterPosition { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodySphereSimple_Radius"></a> Radius
+### Radius
 
 ```csharp
 public Variable Radius { get; set; }
@@ -95,7 +95,7 @@ public Variable Radius { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodySphereSimple_MakeSymmetricSolidBuilder"></a> MakeSymmetricSolidBuilder\(\)
+### MakeSymmetricSolidBuilder\(\)
 
 ```csharp
 protected override Builder MakeSymmetricSolidBuilder()
@@ -105,7 +105,7 @@ protected override Builder MakeSymmetricSolidBuilder()
 
  Builder
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodySphereSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderSphereSimple_"></a> SetSolidBuilderProperty\(BuilderSphereSimple\)
+### SetSolidBuilderProperty\(BuilderSphereSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderSphereSimple solidBuilder)
@@ -114,4 +114,5 @@ protected override void SetSolidBuilderProperty(BuilderSphereSimple solidBuilder
 #### Parameters
 
 `solidBuilder` BuilderSphereSimple
+
 

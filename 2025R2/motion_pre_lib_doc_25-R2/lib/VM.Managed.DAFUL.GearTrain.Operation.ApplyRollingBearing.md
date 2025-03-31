@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyRollingBearing"></a> Class ApplyRollingBearing
+# Class ApplyRollingBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyRollingBearing__ctor_VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_VM_Managed_DAFUL_GearTrain_Bearing_"></a> ApplyRollingBearing\(HiddenBearingDocument, Bearing\)
+### ApplyRollingBearing\(HiddenBearingDocument, Bearing\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyRollingBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -95,7 +95,7 @@ The hidden bearing document
 
 The bearing
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyRollingBearing__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyRollingBearing\(JournalParameter\)
+### ApplyRollingBearing\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyRollingBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyRollingBearing_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyRollingBearing_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -141,7 +141,7 @@ public override void Execute()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyRollingBearing_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -154,4 +154,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

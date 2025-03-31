@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderSubtract"></a> Class BuilderSubtract
+# Class BuilderSubtract
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -218,7 +218,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderSubtract__ctor_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuilderSubtract\(Builder, Builder\)
+### BuilderSubtract\(Builder, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderSubtract" data-throw-if-not-resolved="false"></xref> class
 
@@ -236,7 +236,7 @@ The target build.
 
 The tool build.
 
-### <a id="VM_Managed_CAD_BuilderSubtract__ctor"></a> BuilderSubtract\(\)
+### BuilderSubtract\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderSubtract" data-throw-if-not-resolved="false"></xref> class
 
@@ -246,7 +246,7 @@ public BuilderSubtract()
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderSubtract_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -255,4 +255,5 @@ protected override BuilderParamBase CreateParameter()
 #### Returns
 
  BuilderParamBase
+
 

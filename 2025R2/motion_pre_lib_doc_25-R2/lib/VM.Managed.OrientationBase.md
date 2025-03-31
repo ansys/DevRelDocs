@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationBase"></a> Class OrientationBase
+# Class OrientationBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -127,7 +127,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_OrientationBase__ctor_System_String_"></a> OrientationBase\(string\)
+### OrientationBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -141,7 +141,7 @@ public OrientationBase(string strValue)
 
 The value of Variable(string type).
 
-### <a id="VM_Managed_OrientationBase__ctor"></a> OrientationBase\(\)
+### OrientationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -151,7 +151,7 @@ public OrientationBase()
 
 ## Properties
 
-### <a id="VM_Managed_OrientationBase_AngleType"></a> AngleType
+### AngleType
 
 Gets the specifies angle type.
 
@@ -163,7 +163,7 @@ public virtual AngleTypes AngleType { get; }
 
  AngleTypes
 
-### <a id="VM_Managed_OrientationBase_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -175,7 +175,7 @@ public virtual bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_OrientationBase_RotationAngles"></a> RotationAngles
+### RotationAngles
 
 Gets the list of ration angles.
 
@@ -187,7 +187,7 @@ public virtual double[] RotationAngles { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_OrientationBase_RotationAxis"></a> RotationAxis
+### RotationAxis
 
 Gets the rotation axes type.
 
@@ -199,7 +199,7 @@ public virtual RotationAxes RotationAxis { get; }
 
  RotationAxes
 
-### <a id="VM_Managed_OrientationBase_RotationType"></a> RotationType
+### RotationType
 
 Gets the specifies rotation type.
 
@@ -211,7 +211,7 @@ public virtual RotationTypes RotationType { get; }
 
  RotationTypes
 
-### <a id="VM_Managed_OrientationBase_UseExpression"></a> UseExpression
+### UseExpression
 
 Gets the UseExpression.
 
@@ -223,7 +223,7 @@ public bool UseExpression { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_OrientationBase_Value"></a> Value
+### Value
 
 Gets the information of orientation(OMatrix type).
 
@@ -235,7 +235,7 @@ public virtual OMatrix Value { get; set; }
 
  [OMatrix](VM.Managed.OMatrix.md)
 
-### <a id="VM_Managed_OrientationBase_ValueImpl"></a> ValueImpl
+### ValueImpl
 
 Get the VectorBase(x, y, z).
 
@@ -249,7 +249,7 @@ virtual OMatrix ValueImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_OrientationBase_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -264,7 +264,7 @@ public virtual XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_OrientationBase_IsParametric"></a> IsParametric\(\)
+### IsParametric\(\)
 
 Gets parametric.
 
@@ -278,7 +278,7 @@ public virtual bool IsParametric()
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### <a id="VM_Managed_OrientationBase_IsParametric_System_String_"></a> IsParametric\(string\)
+### IsParametric\(string\)
 
 Gets parametric.
 
@@ -298,7 +298,7 @@ Orientation picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### <a id="VM_Managed_OrientationBase_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -312,7 +312,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_OrientationBase_WriteRotationAnglesToXml_System_Xml_XmlWriter_"></a> WriteRotationAnglesToXml\(XmlWriter\)
+### WriteRotationAnglesToXml\(XmlWriter\)
 
 Converts an object into its XML representation about rotation angles.
 
@@ -326,7 +326,7 @@ protected void WriteRotationAnglesToXml(XmlWriter writer)
 
 The XmlWriter stream to which the object is serialized about rotation angles.
 
-### <a id="VM_Managed_OrientationBase_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -339,4 +339,5 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

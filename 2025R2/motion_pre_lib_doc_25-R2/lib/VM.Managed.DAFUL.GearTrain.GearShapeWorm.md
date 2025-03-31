@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearShapeWorm"></a> Class GearShapeWorm
+# Class GearShapeWorm
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -129,7 +129,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeWorm__ctor"></a> GearShapeWorm\(\)
+### GearShapeWorm\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeWorm" data-throw-if-not-resolved="false"></xref> class.
 
@@ -139,7 +139,7 @@ public GearShapeWorm()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeWorm_Show2D_VM_CAD_Kernel_Render_Canvas_"></a> Show2D\(Canvas\)
+### Show2D\(Canvas\)
 
 Show2D.
 
@@ -152,4 +152,5 @@ public override void Show2D(Canvas canvas)
 `canvas` Canvas
 
 The canvas.
+
 

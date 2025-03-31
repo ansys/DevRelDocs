@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MeasurePoint"></a> Class MeasurePoint
+# Class MeasurePoint
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -179,7 +179,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MeasurePoint__ctor"></a> MeasurePoint\(\)
+### MeasurePoint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MeasurePoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -187,7 +187,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Measure
 public MeasurePoint()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_MeasurePoint__ctor_System_String_"></a> MeasurePoint\(string\)
+### MeasurePoint\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MeasurePoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,4 +200,5 @@ public MeasurePoint(string strName)
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the sub entity.
+
 

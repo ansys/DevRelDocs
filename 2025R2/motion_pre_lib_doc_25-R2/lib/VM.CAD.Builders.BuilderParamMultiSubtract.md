@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamMultiSubtract"></a> Class BuilderParamMultiSubtract
+# Class BuilderParamMultiSubtract
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -35,9 +35,10 @@ public class BuilderParamMultiSubtract : BuilderParamMulti
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamMultiSubtract__ctor"></a> BuilderParamMultiSubtract\(\)
+### BuilderParamMultiSubtract\(\)
 
 ```csharp
 public BuilderParamMultiSubtract()
 ```
+
 

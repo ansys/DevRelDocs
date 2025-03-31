@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OpenFileOperation"></a> Class OpenFileOperation
+# Class OpenFileOperation
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Operation_OpenFileOperation__ctor_System_String_"></a> OpenFileOperation\(string\)
+### OpenFileOperation\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OpenFileOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -91,7 +91,7 @@ public OpenFileOperation(string strFilePath)
 
 The file path.
 
-### <a id="VM_Managed_Operation_OpenFileOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> OpenFileOperation\(JournalParameter\)
+### OpenFileOperation\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OpenFileOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_Operation_OpenFileOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -121,7 +121,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Operation_OpenFileOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -129,7 +129,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_Operation_OpenFileOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -142,4 +142,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

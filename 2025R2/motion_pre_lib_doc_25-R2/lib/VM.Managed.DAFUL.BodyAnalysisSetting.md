@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BodyAnalysisSetting"></a> Class BodyAnalysisSetting
+# Class BodyAnalysisSetting
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -112,7 +112,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting__ctor"></a> BodyAnalysisSetting\(\)
+### BodyAnalysisSetting\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BodyAnalysisSetting" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ public BodyAnalysisSetting()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_BodyAnalysisArray"></a> BodyAnalysisArray
+### BodyAnalysisArray
 
 It must use to clone SimulationConfiguration.
 
@@ -134,7 +134,7 @@ public string[] BodyAnalysisArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_IsNullBodyAnalysisType"></a> IsNullBodyAnalysisType
+### IsNullBodyAnalysisType
 
 Gets the whether body analysis type is null or not
 
@@ -148,7 +148,7 @@ public bool IsNullBodyAnalysisType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_Add_VM_Managed_ObjectBase_VM_Managed_DAFUL_BodyAnalysisType_"></a> Add\(ObjectBase, BodyAnalysisType\)
+### Add\(ObjectBase, BodyAnalysisType\)
 
 Adds the Body object.
 
@@ -166,7 +166,7 @@ The Body object to add.
 
 The BodyAnalysisType of the Body object.
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_CheckData"></a> CheckData\(\)
+### CheckData\(\)
 
 Check data
 
@@ -178,7 +178,7 @@ public bool CheckData()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_Clear"></a> Clear\(\)
+### Clear\(\)
 
 Clear
 
@@ -186,7 +186,7 @@ Clear
 public override void Clear()
 ```
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_Contains_VM_Managed_ObjectBase_"></a> Contains\(ObjectBase\)
+### Contains\(ObjectBase\)
 
 Determines whether [contains] the Body object.
 
@@ -206,7 +206,7 @@ The Body object to find.
 
 Whether it contains the Body object.
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_ContainsKey_System_UIntPtr_"></a> ContainsKey\(UIntPtr\)
+### ContainsKey\(UIntPtr\)
 
 Determines whether contains the Body object.
 
@@ -226,7 +226,7 @@ The key of the Body object to find.
 
 Whether it contains the Body object.
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_GetSelection_VM_Managed_ObjectBase_"></a> GetSelection\(ObjectBase\)
+### GetSelection\(ObjectBase\)
 
 Gets the BodyAnalysisType of the Body object.
 
@@ -246,7 +246,7 @@ The Body object to get BodyAnalysisType.
 
 The BodyAnalysisType of the Body object.
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_Remove_VM_Managed_ObjectBase_"></a> Remove\(ObjectBase\)
+### Remove\(ObjectBase\)
 
 Removes the Body object.
 
@@ -266,7 +266,7 @@ The Body object to remove.
 
 Whether it is success to remove the Body object.
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_SetAnalysisTypeForAllBody_VM_Managed_DAFUL_BodyAnalysisType_"></a> SetAnalysisTypeForAllBody\(BodyAnalysisType\)
+### SetAnalysisTypeForAllBody\(BodyAnalysisType\)
 
 Set analysis type for all Bodies
 
@@ -286,7 +286,7 @@ Analysis type to set
 
 Whether it's success.
 
-### <a id="VM_Managed_DAFUL_BodyAnalysisSetting_SetSelection_VM_Managed_ObjectBase_VM_Managed_DAFUL_BodyAnalysisType_"></a> SetSelection\(ObjectBase, BodyAnalysisType\)
+### SetSelection\(ObjectBase, BodyAnalysisType\)
 
 Sets the BodyAnalysisType of the Body object.
 
@@ -309,4 +309,5 @@ The BodyAnalysisType of the Body object.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 Whether it is success to set the BodyAnalysisType.
+
 

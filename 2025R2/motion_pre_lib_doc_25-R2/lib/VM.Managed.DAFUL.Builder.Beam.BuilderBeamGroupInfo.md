@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo"></a> Class BuilderBeamGroupInfo
+# Class BuilderBeamGroupInfo
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -20,7 +20,7 @@ public class BuilderBeamGroupInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo__ctor"></a> BuilderBeamGroupInfo\(\)
+### BuilderBeamGroupInfo\(\)
 
 ```csharp
 public BuilderBeamGroupInfo()
@@ -28,7 +28,7 @@ public BuilderBeamGroupInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_Color"></a> Color
+### Color
 
 ```csharp
 public Color Color { get; set; }
@@ -38,7 +38,7 @@ public Color Color { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_CrossSectionType"></a> CrossSectionType
+### CrossSectionType
 
 ```csharp
 public CrossSectionType CrossSectionType { get; set; }
@@ -48,7 +48,7 @@ public CrossSectionType CrossSectionType { get; set; }
 
  CrossSectionType
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_CrossSectionValueInfo"></a> CrossSectionValueInfo
+### CrossSectionValueInfo
 
 ```csharp
 public string[] CrossSectionValueInfo { get; set; }
@@ -58,7 +58,7 @@ public string[] CrossSectionValueInfo { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_EndPosition"></a> EndPosition
+### EndPosition
 
 ```csharp
 public PointBase EndPosition { get; set; }
@@ -68,7 +68,7 @@ public PointBase EndPosition { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_Material"></a> Material
+### Material
 
 ```csharp
 public string Material { get; set; }
@@ -78,7 +78,7 @@ public string Material { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_NoOfElements"></a> NoOfElements
+### NoOfElements
 
 ```csharp
 public int NoOfElements { get; set; }
@@ -88,7 +88,7 @@ public int NoOfElements { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_StartPosition"></a> StartPosition
+### StartPosition
 
 ```csharp
 public PointBase StartPosition { get; set; }
@@ -98,7 +98,7 @@ public PointBase StartPosition { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupInfo_YDirection"></a> YDirection
+### YDirection
 
 ```csharp
 public VectorBase YDirection { get; set; }
@@ -107,4 +107,5 @@ public VectorBase YDirection { get; set; }
 #### Property Value
 
  VectorBase
+
 

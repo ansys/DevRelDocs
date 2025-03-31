@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisDrift"></a> Class AnalysisDrift
+# Class AnalysisDrift
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -48,7 +48,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisDrift__ctor"></a> AnalysisDrift\(\)
+### AnalysisDrift\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisDrift" data-throw-if-not-resolved="false"></xref> class.
 
@@ -56,7 +56,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisDrift
 public AnalysisDrift()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisDrift__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisDrift\(ILinkContainer\)
+### AnalysisDrift\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisDrift" data-throw-if-not-resolved="false"></xref> class.
 
@@ -72,7 +72,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisDrift_InitThrottle"></a> InitThrottle
+### InitThrottle
 
 Gets or sets the initial throttle.
 
@@ -84,7 +84,7 @@ public double InitThrottle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisDrift_Steer"></a> Steer
+### Steer
 
 Gets or sets the steer value.
 
@@ -96,7 +96,7 @@ public double Steer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisDrift_SteeringInputType"></a> SteeringInputType
+### SteeringInputType
 
 Gets or sets the steering input.
 
@@ -108,7 +108,7 @@ public SteeringInputType SteeringInputType { get; set; }
 
  [SteeringInputType](VM.Managed.DAFUL.Car.Analysis.Full.SteeringInputType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisDrift_Throttle_Ramp"></a> Throttle\_Ramp
+### Throttle\_Ramp
 
 Gets or sets the throttle ramp.
 
@@ -120,7 +120,7 @@ public double Throttle_Ramp { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisDrift_TireRadiusPosition"></a> TireRadiusPosition
+### TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -134,7 +134,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisDrift_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -147,4 +147,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

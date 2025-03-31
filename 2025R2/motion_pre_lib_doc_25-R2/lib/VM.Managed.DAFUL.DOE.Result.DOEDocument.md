@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Result_DOEDocument"></a> Class DOEDocument
+# Class DOEDocument
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -270,7 +270,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DOEDocument__ctor"></a> DOEDocument\(\)
+### DOEDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.DOE.Result.DOEDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -280,7 +280,7 @@ public DOEDocument()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DOEDocument_DOEView"></a> DOEView
+### DOEView
 
 ```csharp
 public IDOEView DOEView { set; }
@@ -290,7 +290,7 @@ public IDOEView DOEView { set; }
 
  [IDOEView](VM.Managed.DAFUL.DOE.Result.IDOEView.md)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DOEDocument_IsReload"></a> IsReload
+### IsReload
 
 ```csharp
 public override bool IsReload { get; }
@@ -302,7 +302,7 @@ public override bool IsReload { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DOEDocument_CloseView_VM_Managed_View_"></a> CloseView\(View\)
+### CloseView\(View\)
 
 Close view.
 
@@ -316,7 +316,7 @@ public override void CloseView(View view)
 
 The view.
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DOEDocument_Load_System_String_"></a> Load\(string\)
+### Load\(string\)
 
 ```csharp
 public override void Load(string strPath)
@@ -326,13 +326,13 @@ public override void Load(string strPath)
 
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DOEDocument_ReloadResult"></a> ReloadResult\(\)
+### ReloadResult\(\)
 
 ```csharp
 public void ReloadResult()
 ```
 
-### <a id="VM_Managed_DAFUL_DOE_Result_DOEDocument_Save_System_String_"></a> Save\(string\)
+### Save\(string\)
 
 Save document.
 
@@ -345,4 +345,5 @@ public override void Save(string strPath)
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The path to save.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Thrust"></a> Class Thrust
+# Class Thrust
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -206,7 +206,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_Thrust__ctor"></a> Thrust\(\)
+### Thrust\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.Thrust" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.Thrust" dat
 public Thrust()
 ```
 
-### <a id="VM_Managed_DAFUL_Track_Thrust__ctor_System_String_"></a> Thrust\(string\)
+### Thrust\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.Thrust" data-throw-if-not-resolved="false"></xref> class.
 
@@ -230,7 +230,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -242,7 +242,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -254,7 +254,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_Position"></a> Position
+### Position
 
 Gets or sets the position.
 
@@ -266,7 +266,7 @@ public PointBase Position { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_RotationalAxis"></a> RotationalAxis
+### RotationalAxis
 
 Gets or sets the rotational axis.
 
@@ -278,7 +278,7 @@ public DirectionBase RotationalAxis { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_ThrustingAxis"></a> ThrustingAxis
+### ThrustingAxis
 
 Gets or sets the thrusting axis.
 
@@ -290,7 +290,7 @@ public DirectionBase ThrustingAxis { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_Vehicle"></a> Vehicle
+### Vehicle
 
 Gets or sets the vehicle.
 
@@ -302,7 +302,7 @@ public IConnectable Vehicle { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_Water"></a> Water
+### Water
 
 Gets or sets the water.
 
@@ -314,7 +314,7 @@ public IWater Water { get; set; }
 
  [IWater](VM.Managed.DAFUL.Track.IWater.md)
 
-### <a id="VM_Managed_DAFUL_Track_Thrust__Vehicle"></a> \_Vehicle
+### \_Vehicle
 
 Gets or sets the vehicle.
 
@@ -326,7 +326,7 @@ public Linker<IConnectable> _Vehicle { get; set; }
 
  Linker<IConnectable\>
 
-### <a id="VM_Managed_DAFUL_Track_Thrust__Water"></a> \_Water
+### \_Water
 
 Gets or sets the water.
 
@@ -340,7 +340,7 @@ public Linker<IWater> _Water { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -354,7 +354,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -382,7 +382,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -396,7 +396,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -414,11 +414,12 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Track_Thrust_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public virtual void ReDraw()
 ```
+
 

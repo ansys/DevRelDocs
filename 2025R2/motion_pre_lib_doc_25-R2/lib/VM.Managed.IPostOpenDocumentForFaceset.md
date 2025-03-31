@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPostOpenDocumentForFaceset"></a> Interface IPostOpenDocumentForFaceset
+# Interface IPostOpenDocumentForFaceset
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,11 +17,12 @@ public interface IPostOpenDocumentForFaceset
 
 ## Methods
 
-### <a id="VM_Managed_IPostOpenDocumentForFaceset_ChangeForCompatibility"></a> ChangeForCompatibility\(\)
+### ChangeForCompatibility\(\)
 
 Change the facesets for the compatibility.
 
 ```csharp
 void ChangeForCompatibility()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_BeamInfo"></a> Class BeamInfo
+# Class BeamInfo
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VMDBeamGroup.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo__ctor"></a> BeamInfo\(\)
+### BeamInfo\(\)
 
 Constructor of BeamInfo Class
 
@@ -107,7 +107,7 @@ public BeamInfo()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_m_CrossSectionType"></a> m\_CrossSectionType
+### m\_CrossSectionType
 
 Cross section type of beam information
 
@@ -121,7 +121,7 @@ protected CrossSectionType m_CrossSectionType
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_BeamElements"></a> BeamElements
+### BeamElements
 
 Container of beam elements
 
@@ -133,7 +133,7 @@ public BeamElement[] BeamElements { get; set; }
 
  [BeamElement](VM.Managed.DAFUL.Beam.BeamElement.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_Color"></a> Color
+### Color
 
 Gets or sets the color.
 
@@ -145,7 +145,7 @@ public Color Color { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_CrossSectionType"></a> CrossSectionType
+### CrossSectionType
 
 Cross section type of beam information
 
@@ -157,7 +157,7 @@ public CrossSectionType CrossSectionType { get; set; }
 
  CrossSectionType
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_DampingRatio"></a> DampingRatio
+### DampingRatio
 
 Damping ratio of material
 
@@ -169,7 +169,7 @@ public double DampingRatio { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_DefaultStraightBodyPoints"></a> DefaultStraightBodyPoints
+### DefaultStraightBodyPoints
 
 Get containers of points of bodies
 
@@ -181,7 +181,7 @@ public List<Vector> DefaultStraightBodyPoints { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_Density"></a> Density
+### Density
 
 Density of material
 
@@ -193,7 +193,7 @@ public double Density { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_EndPoint"></a> EndPoint
+### EndPoint
 
 End point of beam information
 
@@ -205,7 +205,7 @@ public PointBase EndPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_EndPointVector"></a> EndPointVector
+### EndPointVector
 
 End point of beam information using vector class
 
@@ -217,7 +217,7 @@ public VectorBase EndPointVector { get; set; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_GeomInfoArray"></a> GeomInfoArray
+### GeomInfoArray
 
 Gets or sets the geom info array.
 
@@ -229,7 +229,7 @@ public double[] GeomInfoArray { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_GeomInfos"></a> GeomInfos
+### GeomInfos
 
 Gets or sets the geom infos.
 
@@ -241,7 +241,7 @@ public Variable[] GeomInfos { get; set; }
 
  Variable\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_HtmlColor"></a> HtmlColor
+### HtmlColor
 
 Gets or sets the color of the HTML.
 
@@ -253,7 +253,7 @@ public string HtmlColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_IsFirstBeamInfo"></a> IsFirstBeamInfo
+### IsFirstBeamInfo
 
 Whether the beam information is first among beam informations.
 
@@ -265,7 +265,7 @@ public bool IsFirstBeamInfo { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_IsLastBeamInfo"></a> IsLastBeamInfo
+### IsLastBeamInfo
 
 Whether the beam information is last among beam informations.
 
@@ -277,7 +277,7 @@ public bool IsLastBeamInfo { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_Material"></a> Material
+### Material
 
 Matrial object of beam information to use
 
@@ -289,7 +289,7 @@ public IMaterial Material { get; set; }
 
  IMaterial
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_MaterialISO"></a> MaterialISO
+### MaterialISO
 
 Matrial object casted by ISO type of beam information
 
@@ -301,7 +301,7 @@ public ISO MaterialISO { get; }
 
  ISO
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_NumOfElements"></a> NumOfElements
+### NumOfElements
 
 The number of element of beam information
 
@@ -313,7 +313,7 @@ public uint NumOfElements { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_PoissonRatio"></a> PoissonRatio
+### PoissonRatio
 
 Poisson ratio of material
 
@@ -325,7 +325,7 @@ public double PoissonRatio { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_ShearModulus"></a> ShearModulus
+### ShearModulus
 
 Shear's modulus of material
 
@@ -337,7 +337,7 @@ public double ShearModulus { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_StartPoint"></a> StartPoint
+### StartPoint
 
 Start point of beam information
 
@@ -349,7 +349,7 @@ public PointBase StartPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_StartPointVector"></a> StartPointVector
+### StartPointVector
 
 Start point of beam information using vector class
 
@@ -361,7 +361,7 @@ public VectorBase StartPointVector { get; set; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_UseMiddleElementReferenceFrame"></a> UseMiddleElementReferenceFrame
+### UseMiddleElementReferenceFrame
 
 Use middle element reference frame
 
@@ -373,7 +373,7 @@ public bool UseMiddleElementReferenceFrame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_YDirection"></a> YDirection
+### YDirection
 
 Normal direction of beam cross geometry
 
@@ -385,7 +385,7 @@ public DirectionBase YDirection { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_YDirectionArray"></a> YDirectionArray
+### YDirectionArray
 
 Normal direction of beam cross geometry using double array
 
@@ -397,7 +397,7 @@ public double[] YDirectionArray { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_YoungsModulus"></a> YoungsModulus
+### YoungsModulus
 
 Young's modulus of material
 
@@ -409,7 +409,7 @@ public double YoungsModulus { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo__Material"></a> \_Material
+### \_Material
 
 Matrial object of beam information to save
 
@@ -423,7 +423,7 @@ public Linker<IMaterial> _Material { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_AddBeamElement_VM_Managed_DAFUL_Beam_BeamElement_"></a> AddBeamElement\(BeamElement\)
+### AddBeamElement\(BeamElement\)
 
 Add beam element
 
@@ -437,7 +437,7 @@ public void AddBeamElement(BeamElement beamEle)
 
 Beam element to add
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_Draw_VM_CAD_Kernel_Render_Canvas__"></a> Draw\(ref Canvas\)
+### Draw\(ref Canvas\)
 
 Draw Beam information geometry
 
@@ -451,7 +451,7 @@ public void Draw(ref Canvas canvas)
 
 Canvas to draw beam geometry
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_GetFirstBeamElement"></a> GetFirstBeamElement\(\)
+### GetFirstBeamElement\(\)
 
 Get first beam element among all beam elements
 
@@ -465,7 +465,7 @@ public BeamElement GetFirstBeamElement()
 
 First beam element
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_GetLastBeamElement"></a> GetLastBeamElement\(\)
+### GetLastBeamElement\(\)
 
 Get last beam element among all beam elements
 
@@ -479,7 +479,7 @@ public BeamElement GetLastBeamElement()
 
 Last beam element
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_GetNextBeamElement_VM_Managed_DAFUL_Beam_BeamElement_"></a> GetNextBeamElement\(BeamElement\)
+### GetNextBeamElement\(BeamElement\)
 
 Get next beam element
 
@@ -499,7 +499,7 @@ Current beam element
 
 Next beam element
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_GetPrevBeamElement_VM_Managed_DAFUL_Beam_BeamElement_"></a> GetPrevBeamElement\(BeamElement\)
+### GetPrevBeamElement\(BeamElement\)
 
 Get previous beam element
 
@@ -519,7 +519,7 @@ Current beam element
 
 Previous beam element
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_IsEndBeamElement_VM_Managed_DAFUL_Beam_BeamElement_"></a> IsEndBeamElement\(BeamElement\)
+### IsEndBeamElement\(BeamElement\)
 
 Whether ending beam element among current beam information
 
@@ -539,7 +539,7 @@ Currnet beam element
 
 It's true or false
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_IsEndSolidBody_VM_Managed_DAFUL_SolidBody_"></a> IsEndSolidBody\(SolidBody\)
+### IsEndSolidBody\(SolidBody\)
 
 Whether ending solid body among current beam information
 
@@ -559,7 +559,7 @@ SolidBody to check
 
 It's true or false
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_IsStartBeamElement_VM_Managed_DAFUL_Beam_BeamElement_"></a> IsStartBeamElement\(BeamElement\)
+### IsStartBeamElement\(BeamElement\)
 
 Whether starting beam element among current beam information
 
@@ -579,7 +579,7 @@ Currnet beam element
 
 It's true or false
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_IsStartSolidBody_VM_Managed_DAFUL_SolidBody_"></a> IsStartSolidBody\(SolidBody\)
+### IsStartSolidBody\(SolidBody\)
 
 Whether starting solid body among current beam information
 
@@ -599,7 +599,7 @@ SolidBody to check
 
 It's true or false
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request to update the linked object.
 
@@ -617,7 +617,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -631,7 +631,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_UpdateBeamElements"></a> UpdateBeamElements\(\)
+### UpdateBeamElements\(\)
 
 Update beam elements of area and mass properties
 
@@ -639,11 +639,12 @@ Update beam elements of area and mass properties
 public void UpdateBeamElements()
 ```
 
-### <a id="VM_Managed_DAFUL_Beam_BeamInfo_UpdateBeamNodes"></a> UpdateBeamNodes\(\)
+### UpdateBeamNodes\(\)
 
 Update body properties of position and orientation
 
 ```csharp
 public void UpdateBeamNodes()
 ```
+
 

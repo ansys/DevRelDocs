@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Modification"></a> Class Modification
+# Class Modification
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification__ctor"></a> Modification\(\)
+### Modification\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Modification" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public Modification()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_APoint"></a> APoint
+### APoint
 
 Gets or sets a point.
 
@@ -120,7 +120,7 @@ public GearPairLeftRightValue APoint { get; set; }
 
  [GearPairLeftRightValue](VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_BPoint"></a> BPoint
+### BPoint
 
 Gets or sets the b point.
 
@@ -132,7 +132,7 @@ public GearPairLeftRightValue BPoint { get; set; }
 
  [GearPairLeftRightValue](VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_FirstEndReliefLength"></a> FirstEndReliefLength
+### FirstEndReliefLength
 
 Gets or sets the first end relief length.
 
@@ -144,7 +144,7 @@ public GearPairValue FirstEndReliefLength { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_LeadCrown"></a> LeadCrown
+### LeadCrown
 
 Gets or sets the lead crown.
 
@@ -156,7 +156,7 @@ public GearPairLeftRightValue LeadCrown { get; set; }
 
  [GearPairLeftRightValue](VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_LeadRelief"></a> LeadRelief
+### LeadRelief
 
 Gets or sets the lead relief.
 
@@ -168,7 +168,7 @@ public GearPairLeftRightValue LeadRelief { get; set; }
 
  [GearPairLeftRightValue](VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_LeadSlope"></a> LeadSlope
+### LeadSlope
 
 Gets or sets the lead slope.
 
@@ -180,7 +180,7 @@ public GearPairLeftRightValue LeadSlope { get; set; }
 
  [GearPairLeftRightValue](VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_ProfileCrown"></a> ProfileCrown
+### ProfileCrown
 
 Gets or sets the profile crown.
 
@@ -192,7 +192,7 @@ public GearPairLeftRightValue ProfileCrown { get; set; }
 
  [GearPairLeftRightValue](VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_ProfileSlope"></a> ProfileSlope
+### ProfileSlope
 
 Gets or sets the profile slope.
 
@@ -204,7 +204,7 @@ public GearPairLeftRightValue ProfileSlope { get; set; }
 
  [GearPairLeftRightValue](VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_RootRadius"></a> RootRadius
+### RootRadius
 
 Gets or sets the modification end diameter at root.
 
@@ -216,7 +216,7 @@ public GearPairValue RootRadius { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_SecondEndReliefLength"></a> SecondEndReliefLength
+### SecondEndReliefLength
 
 Gets or sets the second end relief length.
 
@@ -228,7 +228,7 @@ public GearPairValue SecondEndReliefLength { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_TipRadius"></a> TipRadius
+### TipRadius
 
 Gets or sets the modification end diameter at tip.
 
@@ -240,7 +240,7 @@ public GearPairValue TipRadius { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_TipRelief"></a> TipRelief
+### TipRelief
 
 Gets or sets the tip relief.
 
@@ -252,7 +252,7 @@ public GearPairLeftRightValue TipRelief { get; set; }
 
  [GearPairLeftRightValue](VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_Twist"></a> Twist
+### Twist
 
 Gets or sets the twist.
 
@@ -264,7 +264,7 @@ public GearPairLeftRightValue Twist { get; set; }
 
  [GearPairLeftRightValue](VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_UseCalculateValue"></a> UseCalculateValue
+### UseCalculateValue
 
 Gets or sets a flag of calculate value for reference point
 
@@ -276,7 +276,7 @@ public bool UseCalculateValue { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_ZPoint"></a> ZPoint
+### ZPoint
 
 Gets or sets the z point.
 
@@ -290,7 +290,7 @@ public GearPairLeftRightValue ZPoint { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_InitChild_System_Int32_"></a> InitChild\(int\)
+### InitChild\(int\)
 
 Initializes the child.
 
@@ -304,7 +304,7 @@ public override void InitChild(int nNum)
 
 The n number.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Modification_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -317,4 +317,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

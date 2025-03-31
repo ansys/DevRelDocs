@@ -1,4 +1,4 @@
-# <a id="VM_Managed_INavigatorItem"></a> Interface INavigatorItem
+# Interface INavigatorItem
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface INavigatorItem
 
 ## Methods
 
-### <a id="VM_Managed_INavigatorItem_GetModelNavigateorRenameRemoveInfo"></a> GetModelNavigateorRenameRemoveInfo\(\)
+### GetModelNavigateorRenameRemoveInfo\(\)
 
 Gets the model navigator's rename or remove information.
 
@@ -31,7 +31,7 @@ string GetModelNavigateorRenameRemoveInfo()
 
 The model navigator's rename or remove information.
 
-### <a id="VM_Managed_INavigatorItem_GetModelNavigatorInformation"></a> GetModelNavigatorInformation\(\)
+### GetModelNavigatorInformation\(\)
 
 Gets the model navigator information.
 
@@ -45,7 +45,7 @@ string GetModelNavigatorInformation()
 
 The model navigator information.
 
-### <a id="VM_Managed_INavigatorItem_GetModelNavigatorInformationBase_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationBase\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationBase\(XmlDocument, XmlElement, bool\)
 
 Gets the model navigator base information.
 
@@ -71,7 +71,7 @@ The navigator information xml root element.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_INavigatorItem_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the model navigator information implementation.
 
@@ -96,4 +96,5 @@ The navigator information xml root element.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

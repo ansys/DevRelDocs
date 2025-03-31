@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ISpline3D"></a> Interface ISpline3D
+# Interface ISpline3D
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -32,7 +32,7 @@ IHasComment
 
 ## Properties
 
-### <a id="VM_Models_Pre_ISpline3D_Points"></a> Points
+### Points
 
 ```csharp
 IList<string> Points { get; }
@@ -42,7 +42,7 @@ IList<string> Points { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Models_Pre_ISpline3D_XScale"></a> XScale
+### XScale
 
 ```csharp
 IExpressionValue<double> XScale { get; set; }
@@ -52,7 +52,7 @@ IExpressionValue<double> XScale { get; set; }
 
  [IExpressionValue](VM.Models.Pre.IExpressionValue\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="VM_Models_Pre_ISpline3D_YScale"></a> YScale
+### YScale
 
 ```csharp
 IExpressionValue<double> YScale { get; set; }
@@ -62,7 +62,7 @@ IExpressionValue<double> YScale { get; set; }
 
  [IExpressionValue](VM.Models.Pre.IExpressionValue\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="VM_Models_Pre_ISpline3D_ZScale"></a> ZScale
+### ZScale
 
 ```csharp
 IExpressionValue<double> ZScale { get; set; }
@@ -71,4 +71,5 @@ IExpressionValue<double> ZScale { get; set; }
 #### Property Value
 
  [IExpressionValue](VM.Models.Pre.IExpressionValue\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
+
 

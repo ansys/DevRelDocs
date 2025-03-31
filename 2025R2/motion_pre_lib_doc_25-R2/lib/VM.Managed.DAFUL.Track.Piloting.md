@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Piloting"></a> Class Piloting
+# Class Piloting
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_Piloting__ctor"></a> Piloting\(\)
+### Piloting\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.Piloting" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Piloting()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_Piloting_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -117,4 +117,5 @@ public Function Function { get; set; }
 #### Property Value
 
  Function
+
 

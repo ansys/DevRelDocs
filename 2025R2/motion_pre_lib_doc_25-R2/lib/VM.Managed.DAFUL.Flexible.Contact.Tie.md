@@ -1,9 +1,17 @@
-# <a id="VM_Managed_DAFUL_Flexible_Contact_Tie"></a> Class Tie
+# Class Tie
 
 Namespace: [VM.Managed.DAFUL.Flexible.Contact](VM.Managed.DAFUL.Flexible.Contact.md)  
 Assembly: VMFlexibleBase.dll  
 
-This class is to represent the tie.
+<p>This class is to represent the tie.</p>
+<p>이 클래스는 타이를 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public class Tie : TieBase<PropertyTie>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IDraw, IDrawIcon, IDrawChangeFacet, IEntityRelation, IGenerable, IReportable, IFlip, IHasReplaceableEntity, IArgument
@@ -227,17 +235,21 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_Tie__ctor"></a> Tie\(\)
+### Tie\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.Tie" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.Tie" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Contact.Tie" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public Tie()
 ```
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_Tie__ctor_System_String_"></a> Tie\(string\)
+### Tie\(string\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.Tie" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.Tie" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Contact.Tie" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public Tie(string strName)
@@ -247,11 +259,12 @@ public Tie(string strName)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-Name of the STR.
+<p>Name of the STR.</p>
+<p>이름</p>
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_Tie_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -263,7 +276,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_Tie_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -277,7 +290,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_Tie_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -305,9 +318,10 @@ if set to <code>true</code> the tie has child.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_Tie_InitializeEvent_VM_Managed_Document3D_"></a> InitializeEvent\(Document3D\)
+### InitializeEvent\(Document3D\)
 
-Initializes event.
+<p>Initializes event.</p>
+<p>로드시 예전 데이터를 새로운 데이터로 이전합니다.</p>
 
 ```csharp
 public static void InitializeEvent(Document3D doc)
@@ -316,4 +330,5 @@ public static void InitializeEvent(Document3D doc)
 #### Parameters
 
 `doc` Document3D
+
 

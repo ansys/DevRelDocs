@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FEFilm_ElementProperty"></a> Class FEFilm\_ElementProperty
+# Class FEFilm\_ElementProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FEFilm_ElementProperty__ctor"></a> FEFilm\_ElementProperty\(\)
+### FEFilm\_ElementProperty\(\)
 
 ```csharp
 public FEFilm_ElementProperty()
@@ -107,7 +107,7 @@ public FEFilm_ElementProperty()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FEFilm_ElementProperty_ThicknessPerElement"></a> ThicknessPerElement
+### ThicknessPerElement
 
 ```csharp
 public ExpressionValueVariable ThicknessPerElement { get; set; }
@@ -117,7 +117,7 @@ public ExpressionValueVariable ThicknessPerElement { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FEFilm_ElementProperty_WidthPerElement"></a> WidthPerElement
+### WidthPerElement
 
 ```csharp
 public ExpressionValueVariable WidthPerElement { get; set; }
@@ -129,9 +129,9 @@ public ExpressionValueVariable WidthPerElement { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FEFilm_ElementProperty_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -141,5 +141,6 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+
 

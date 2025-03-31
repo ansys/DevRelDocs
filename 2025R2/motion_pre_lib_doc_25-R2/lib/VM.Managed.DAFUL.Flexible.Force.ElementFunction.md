@@ -1,9 +1,17 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction"></a> Class ElementFunction
+# Class ElementFunction
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-This class is to represent the element function.
+<p>This class is to represent the element function.</p>
+<p>이 클래스는 함수에 들어가는 요소를 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public class ElementFunction : LinkContainer, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable
@@ -96,17 +104,21 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction__ctor"></a> ElementFunction\(\)
+### ElementFunction\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public ElementFunction()
 ```
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction__ctor_System_String_"></a> ElementFunction\(string\)
+### ElementFunction\(string\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public ElementFunction(string strUniqueName)
@@ -118,9 +130,10 @@ public ElementFunction(string strUniqueName)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_DisplayFunctionNumber"></a> DisplayFunctionNumber
+### DisplayFunctionNumber
 
-Gets or set the diaplay function number.
+<p>Gets or set the diaplay function number.</p>
+<p>UI에 보여주는 함수 갯수를 가져오거나 넣어줍니다.</p>
 
 ```csharp
 public ElementFunction.DisplayNumber DisplayFunctionNumber { get; set; }
@@ -130,9 +143,10 @@ public ElementFunction.DisplayNumber DisplayFunctionNumber { get; set; }
 
  [ElementFunction](VM.Managed.DAFUL.Flexible.Force.ElementFunction.md).[DisplayNumber](VM.Managed.DAFUL.Flexible.Force.ElementFunction.DisplayNumber.md)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_FunctionX"></a> FunctionX
+### FunctionX
 
-Gets or sets the X function.
+<p>Gets or sets the X function.</p>
+<p>x 방향의 함수를 가져오거나 넣어줍니다.</p>
 
 ```csharp
 public CompositeFieldUsable FunctionX { get; set; }
@@ -142,9 +156,10 @@ public CompositeFieldUsable FunctionX { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_FunctionY"></a> FunctionY
+### FunctionY
 
-Gets or sets the Y function.
+<p>Gets or sets the Y function.</p>
+<p>y 방향의 함수를 가져오거나 넣어줍니다.</p>
 
 ```csharp
 public CompositeFieldUsable FunctionY { get; set; }
@@ -154,9 +169,10 @@ public CompositeFieldUsable FunctionY { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_FunctionZ"></a> FunctionZ
+### FunctionZ
 
-Gets or sets the Z function.
+<p>Gets or sets the Z function.</p>
+<p>z 방향의 함수를 가져오거나 넣어줍니다.</p>
 
 ```csharp
 public CompositeFieldUsable FunctionZ { get; set; }
@@ -166,9 +182,10 @@ public CompositeFieldUsable FunctionZ { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_Orientation"></a> Orientation
+### Orientation
 
-Gets or sets the orientation.
+<p>Gets or sets the orientation.</p>
+<p>자세를 가져오거나 넣어줍니다.</p>
 
 ```csharp
 public OrientationBase Orientation { get; set; }
@@ -180,9 +197,10 @@ public OrientationBase Orientation { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
+<p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -192,5 +210,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+<p>단위 변환 팩터.</p>
+
 

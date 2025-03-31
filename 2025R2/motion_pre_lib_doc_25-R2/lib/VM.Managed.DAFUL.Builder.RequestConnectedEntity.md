@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_RequestConnectedEntity"></a> Class RequestConnectedEntity
+# Class RequestConnectedEntity
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -55,7 +55,7 @@ public class RequestConnectedEntity : RequestBase<RequestConnectedEntity>, IBuil
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_RequestConnectedEntity__ctor"></a> RequestConnectedEntity\(\)
+### RequestConnectedEntity\(\)
 
 ```csharp
 public RequestConnectedEntity()
@@ -63,7 +63,7 @@ public RequestConnectedEntity()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_RequestConnectedEntity_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -78,4 +78,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

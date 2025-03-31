@@ -1,9 +1,17 @@
-# <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase"></a> Class PropertyBoundaryConditionBase
+# Class PropertyBoundaryConditionBase
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  
 
-This class is to represent the boundary condition properties.
+<p>This class is to represent the boundary condition properties.</p>
+<p>이 클래스는 경계조건 속성을 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public abstract class PropertyBoundaryConditionBase : Property, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, ILinkContainer, IOwned, IHasID
@@ -169,9 +177,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase__ctor"></a> PropertyBoundaryConditionBase\(\)
+### PropertyBoundaryConditionBase\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public PropertyBoundaryConditionBase()
@@ -179,9 +189,28 @@ public PropertyBoundaryConditionBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ConstrainedType"></a> ConstrainedType
+### ConstrainedType
 
-Gets or sets the constrained type.
+<p>Gets or sets the constrained type.</p>
+<p>경계 조건을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : BCConstrainedType
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Constrained Type
+        Control Type : Combo box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Boundary Condition
+        Category Index : 1
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyBoundaryConditionBase.BCConstrainedType ConstrainedType { get; set; }
@@ -191,9 +220,28 @@ public PropertyBoundaryConditionBase.BCConstrainedType ConstrainedType { get; se
 
  [PropertyBoundaryConditionBase](VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase.md).[BCConstrainedType](VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase.BCConstrainedType.md)
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementRX"></a> ElementRX
+### ElementRX
 
-Gets or sets the element RX.
+<p>Gets or sets the element RX.</p>
+<p>회전 x방향의 값을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : CompositeFieldUsable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Rotational X
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Boundary Condition
+        Category Index : 5
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public CompositeFieldUsable ElementRX { get; set; }
@@ -203,9 +251,28 @@ public CompositeFieldUsable ElementRX { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementRY"></a> ElementRY
+### ElementRY
 
-Gets or sets the element RY.
+<p>Gets or sets the element RY.</p>
+<p>회전 y방향의 값을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : CompositeFieldUsable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Rotational Y
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Boundary Condition
+        Category Index : 6
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public CompositeFieldUsable ElementRY { get; set; }
@@ -215,9 +282,28 @@ public CompositeFieldUsable ElementRY { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementRZ"></a> ElementRZ
+### ElementRZ
 
-Gets or sets the element RZ.
+<p>Gets or sets the element RZ.</p>
+<p>회전 z방향의 값을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : CompositeFieldUsable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Rotational Z
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Boundary Condition
+        Category Index : 7
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public CompositeFieldUsable ElementRZ { get; set; }
@@ -227,9 +313,28 @@ public CompositeFieldUsable ElementRZ { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementTX"></a> ElementTX
+### ElementTX
 
-Gets or sets the element TX.
+<p>Gets or sets the element TX.</p>
+<p>병진 x방향의 값을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : CompositeFieldUsable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Translational X
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Boundary Condition
+        Category Index : 2
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public CompositeFieldUsable ElementTX { get; set; }
@@ -239,9 +344,28 @@ public CompositeFieldUsable ElementTX { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementTY"></a> ElementTY
+### ElementTY
 
-Gets or sets the element TY.
+<p>Gets or sets the element TY.</p>
+<p>병진 y방향의 값을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : CompositeFieldUsable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Translational Y
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Boundary Condition
+        Category Index : 3
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public CompositeFieldUsable ElementTY { get; set; }
@@ -251,9 +375,28 @@ public CompositeFieldUsable ElementTY { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementTZ"></a> ElementTZ
+### ElementTZ
 
-Gets or sets the element TZ.
+<p>Gets or sets the element TZ.</p>
+<p>병진 z방향의 값을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : CompositeFieldUsable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Translational Z
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Boundary Condition
+        Category Index : 4
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public CompositeFieldUsable ElementTZ { get; set; }
@@ -263,9 +406,28 @@ public CompositeFieldUsable ElementTZ { get; set; }
 
  CompositeFieldUsable
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_PenaltyScale"></a> PenaltyScale
+### PenaltyScale
 
-Gets or sets the penalty scale.
+<p>Gets or sets the penalty scale.</p>
+<p>페날티 스케일을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : Variable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Penalty Scale
+        Control Type : Variable Editor
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Boundary Condition
+        Category Index : 8
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public ExpressionValueVariable PenaltyScale { get; set; }
@@ -277,9 +439,10 @@ public ExpressionValueVariable PenaltyScale { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
+<p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -289,5 +452,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+<p>단위 변환 팩터.</p>
+
 

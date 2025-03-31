@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_BodyLink"></a> Class BodyLink
+# Class BodyLink
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -290,7 +290,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_BodyLink__ctor"></a> BodyLink\(\)
+### BodyLink\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -298,7 +298,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BodyLink" dat
 public BodyLink()
 ```
 
-### <a id="VM_Managed_CAD_Track_BodyLink__ctor_VM_Managed_CAD_Builder_"></a> BodyLink\(Builder\)
+### BodyLink\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -314,7 +314,7 @@ The Link or Shoe builder
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_BodyLink_CheckValidationAboutBuild_System_String_"></a> CheckValidationAboutBuild\(string\)
+### CheckValidationAboutBuild\(string\)
 
 ```csharp
 public override bool CheckValidationAboutBuild(string strXml)
@@ -328,7 +328,7 @@ public override bool CheckValidationAboutBuild(string strXml)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Track_BodyLink_GetFaceList_Bush"></a> GetFaceList\_Bush\(\)
+### GetFaceList\_Bush\(\)
 
 Gets the bush faces.
 
@@ -342,7 +342,7 @@ public List<Face> GetFaceList_Bush()
 
 The list of face
 
-### <a id="VM_Managed_CAD_Track_BodyLink_GetFaceList_Flange"></a> GetFaceList\_Flange\(\)
+### GetFaceList\_Flange\(\)
 
 Gets the flange faces.
 
@@ -356,7 +356,7 @@ public List<Face> GetFaceList_Flange()
 
 The list of face
 
-### <a id="VM_Managed_CAD_Track_BodyLink_GetFaceList_Tread"></a> GetFaceList\_Tread\(\)
+### GetFaceList\_Tread\(\)
 
 Gets the tread faces.
 
@@ -370,7 +370,7 @@ public List<Face> GetFaceList_Tread()
 
 The list of face
 
-### <a id="VM_Managed_CAD_Track_BodyLink_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -388,7 +388,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_CAD_Track_BodyLink_ReGenerateBodyInformation_System_Xml_XmlDocument_"></a> ReGenerateBodyInformation\(XmlDocument\)
+### ReGenerateBodyInformation\(XmlDocument\)
 
 Sets body information
 
@@ -408,7 +408,7 @@ The data xml of roller
 
 Cad body of link
 
-### <a id="VM_Managed_CAD_Track_BodyLink_RebuildGeometry_System_Object_VM_Managed_LinkEventArgs_"></a> RebuildGeometry\(object, LinkEventArgs\)
+### RebuildGeometry\(object, LinkEventArgs\)
 
 Rebuild geometry.
 
@@ -425,4 +425,5 @@ The builder.
 `args` LinkEventArgs
 
 The event handler.
+
 

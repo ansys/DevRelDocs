@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionSingleVertical"></a> Class DesignDimensionSingleVertical
+# Class DesignDimensionSingleVertical
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -196,7 +196,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionSingleVertical__ctor"></a> DesignDimensionSingleVertical\(\)
+### DesignDimensionSingleVertical\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignDimensionSingleVertical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignD
 public DesignDimensionSingleVertical()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionSingleVertical__ctor_System_String_"></a> DesignDimensionSingleVertical\(string\)
+### DesignDimensionSingleVertical\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignDimensionSingleVertical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -217,4 +217,5 @@ public DesignDimensionSingleVertical(string strName)
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the design subentity.
+
 

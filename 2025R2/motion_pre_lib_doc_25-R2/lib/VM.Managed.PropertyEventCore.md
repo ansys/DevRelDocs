@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyEventCore"></a> Class PropertyEventCore
+# Class PropertyEventCore
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -54,7 +54,7 @@ ObjectEventCore.Object
 
 ## Constructors
 
-### <a id="VM_Managed_PropertyEventCore__ctor"></a> PropertyEventCore\(\)
+### PropertyEventCore\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PropertyEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -62,7 +62,7 @@ Initializes a new instance of the <xref href="VM.Managed.PropertyEventCore" data
 public PropertyEventCore()
 ```
 
-### <a id="VM_Managed_PropertyEventCore__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> PropertyEventCore\(SerializationInfo, StreamingContext\)
+### PropertyEventCore\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.PropertyEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -79,4 +79,5 @@ The info.
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
 The context.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_Links_BuilderParamLink"></a> Class BuilderParamLink
+# Class BuilderParamLink
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  
@@ -41,7 +41,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink__ctor"></a> BuilderParamLink\(\)
+### BuilderParamLink\(\)
 
 ```csharp
 public BuilderParamLink()
@@ -49,7 +49,7 @@ public BuilderParamLink()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_BushBooleanType"></a> BushBooleanType
+### BushBooleanType
 
 ```csharp
 public BooleanType BushBooleanType { get; set; }
@@ -59,7 +59,7 @@ public BooleanType BushBooleanType { get; set; }
 
  [BooleanType](VM.CAD.Builders.Links.BooleanType.md)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_InnerGauge"></a> InnerGauge
+### InnerGauge
 
 ```csharp
 public double InnerGauge { get; set; }
@@ -69,7 +69,7 @@ public double InnerGauge { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkGeometry"></a> LinkGeometry
+### LinkGeometry
 
 ```csharp
 public BuilderParamMultiUnite LinkGeometry { get; set; }
@@ -79,7 +79,7 @@ public BuilderParamMultiUnite LinkGeometry { get; set; }
 
  BuilderParamMultiUnite
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkHeight1"></a> LinkHeight1
+### LinkHeight1
 
 ```csharp
 public double LinkHeight1 { get; set; }
@@ -89,7 +89,7 @@ public double LinkHeight1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkHeight2"></a> LinkHeight2
+### LinkHeight2
 
 ```csharp
 public double LinkHeight2 { get; set; }
@@ -99,7 +99,7 @@ public double LinkHeight2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkPitch"></a> LinkPitch
+### LinkPitch
 
 ```csharp
 public double LinkPitch { get; set; }
@@ -109,7 +109,7 @@ public double LinkPitch { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkTransform"></a> LinkTransform
+### LinkTransform
 
 ```csharp
 public TMatrix LinkTransform { get; set; }
@@ -119,7 +119,7 @@ public TMatrix LinkTransform { get; set; }
 
  TMatrix
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_LinkType"></a> LinkType
+### LinkType
 
 ```csharp
 public LinkType LinkType { get; set; }
@@ -129,7 +129,7 @@ public LinkType LinkType { get; set; }
 
  [LinkType](VM.CAD.Builders.Links.LinkType.md)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_OuterGauge"></a> OuterGauge
+### OuterGauge
 
 ```csharp
 public double OuterGauge { get; set; }
@@ -139,7 +139,7 @@ public double OuterGauge { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_PinBooleanType"></a> PinBooleanType
+### PinBooleanType
 
 ```csharp
 public BooleanType PinBooleanType { get; set; }
@@ -149,7 +149,7 @@ public BooleanType PinBooleanType { get; set; }
 
  [BooleanType](VM.CAD.Builders.Links.BooleanType.md)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_PinDiameter"></a> PinDiameter
+### PinDiameter
 
 ```csharp
 public double PinDiameter { get; set; }
@@ -159,7 +159,7 @@ public double PinDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_PinWidth"></a> PinWidth
+### PinWidth
 
 ```csharp
 public double PinWidth { get; set; }
@@ -171,7 +171,7 @@ public double PinWidth { get; set; }
 
 ## Methods
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_AddCylinder_System_Double_System_Double_System_Double_VM_CAD_Builders_Links_BooleanType_"></a> AddCylinder\(double, double, double, BooleanType\)
+### AddCylinder\(double, double, double, BooleanType\)
 
 ```csharp
 protected void AddCylinder(double diameter, double xPosition, double zPosition, BooleanType booleanType)
@@ -187,7 +187,7 @@ protected void AddCylinder(double diameter, double xPosition, double zPosition, 
 
 `booleanType` [BooleanType](VM.CAD.Builders.Links.BooleanType.md)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_AddSubtractBuilderParam_VM_CAD_Builders_BuilderParamBase_"></a> AddSubtractBuilderParam\(BuilderParamBase\)
+### AddSubtractBuilderParam\(BuilderParamBase\)
 
 ```csharp
 public void AddSubtractBuilderParam(BuilderParamBase builderParam)
@@ -197,7 +197,7 @@ public void AddSubtractBuilderParam(BuilderParamBase builderParam)
 
 `builderParam` BuilderParamBase
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_AddSubtractBuilderParam_System_Collections_Generic_IEnumerable_VM_CAD_Builders_BuilderParamBase__"></a> AddSubtractBuilderParam\(IEnumerable<BuilderParamBase\>\)
+### AddSubtractBuilderParam\(IEnumerable<BuilderParamBase\>\)
 
 ```csharp
 public void AddSubtractBuilderParam(IEnumerable<BuilderParamBase> builderParams)
@@ -207,7 +207,7 @@ public void AddSubtractBuilderParam(IEnumerable<BuilderParamBase> builderParams)
 
 `builderParams` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<BuilderParamBase\>
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_AddUniteBuilderParam_VM_CAD_Builders_BuilderParamBase_"></a> AddUniteBuilderParam\(BuilderParamBase\)
+### AddUniteBuilderParam\(BuilderParamBase\)
 
 ```csharp
 public void AddUniteBuilderParam(BuilderParamBase builderParam)
@@ -217,7 +217,7 @@ public void AddUniteBuilderParam(BuilderParamBase builderParam)
 
 `builderParam` BuilderParamBase
 
-### <a id="VM_CAD_Builders_Links_BuilderParamLink_AddUniteBuilderParam_System_Collections_Generic_IEnumerable_VM_CAD_Builders_BuilderParamBase__"></a> AddUniteBuilderParam\(IEnumerable<BuilderParamBase\>\)
+### AddUniteBuilderParam\(IEnumerable<BuilderParamBase\>\)
 
 ```csharp
 public void AddUniteBuilderParam(IEnumerable<BuilderParamBase> builderParams)
@@ -226,4 +226,5 @@ public void AddUniteBuilderParam(IEnumerable<BuilderParamBase> builderParams)
 #### Parameters
 
 `builderParams` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<BuilderParamBase\>
+
 

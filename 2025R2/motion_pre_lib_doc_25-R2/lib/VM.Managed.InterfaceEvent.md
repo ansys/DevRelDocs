@@ -1,4 +1,4 @@
-# <a id="VM_Managed_InterfaceEvent"></a> Class InterfaceEvent
+# Class InterfaceEvent
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -67,7 +67,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_InterfaceEvent__ctor_VM_Managed_Document_System_Object_System_String_System_Object_System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent_System_Collections_Generic_List_VM_Managed_InterfaceManager_InterfaceInfoForUndo___PostExecuteCallback_System_String_"></a> InterfaceEvent\(Document, object, string, object, object, PostExecuteCallback, string\)
+### InterfaceEvent\(Document, object, string, object, object, PostExecuteCallback, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.InterfaceEvent" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ public InterfaceEvent(Document doc, object obj, string strPropertyName, object o
 
 ## Methods
 
-### <a id="VM_Managed_InterfaceEvent_Add"></a> Add\(\)
+### Add\(\)
 
 Add
 
@@ -101,7 +101,7 @@ Add
 protected void Add()
 ```
 
-### <a id="VM_Managed_InterfaceEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
+### AfterRedo\(HistoryEventArgs\)
 
 After redo.
 <param name="args">The argument</param>
@@ -114,7 +114,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_InterfaceEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
+### AfterUndo\(HistoryEventArgs\)
 
 After undo.
 <param name="args">The argument</param>
@@ -127,11 +127,12 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_InterfaceEvent_Remove"></a> Remove\(\)
+### Remove\(\)
 
 Remove
 
 ```csharp
 protected void Remove()
 ```
+
 

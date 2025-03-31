@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GeneratingProfile"></a> Class GeneratingProfile
+# Class GeneratingProfile
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeneratingProfile__ctor"></a> GeneratingProfile\(\)
+### GeneratingProfile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GeneratingProfile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public GeneratingProfile()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeneratingProfile_PairGeneratingProfileShiftMaxCoefficient"></a> PairGeneratingProfileShiftMaxCoefficient
+### PairGeneratingProfileShiftMaxCoefficient
 
 Gets or sets the pair generating profile shift max coefficient.
 
@@ -118,7 +118,7 @@ public GearPairValue PairGeneratingProfileShiftMaxCoefficient { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeneratingProfile_PairGeneratingProfileShiftMinCoefficient"></a> PairGeneratingProfileShiftMinCoefficient
+### PairGeneratingProfileShiftMinCoefficient
 
 Gets or sets the pair generating profile shift min coefficient.
 
@@ -132,7 +132,7 @@ public GearPairValue PairGeneratingProfileShiftMinCoefficient { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeneratingProfile_InitChild_System_Int32_VM_Unit_ConvertFactor_"></a> InitChild\(int, ConvertFactor\)
+### InitChild\(int, ConvertFactor\)
 
 Initializes the child.
 
@@ -149,4 +149,5 @@ The n number.
 `factor` Unit.ConvertFactor
 
 The unit factor.
+
 

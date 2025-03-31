@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_Equation"></a> Class Equation
+# Class Equation
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  
@@ -177,7 +177,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Equation_Equation__ctor"></a> Equation\(\)
+### Equation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.Equation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -185,7 +185,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.Equation
 protected Equation()
 ```
 
-### <a id="VM_Managed_DAFUL_Equation_Equation__ctor_System_String_"></a> Equation\(string\)
+### Equation\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.Equation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -201,7 +201,7 @@ Name of the equation.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Equation_Equation_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -213,7 +213,7 @@ public abstract ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Equation_Equation_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -225,7 +225,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Equation_Equation_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -239,7 +239,7 @@ protected abstract IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Equation_Equation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -253,7 +253,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Equation_Equation_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -267,7 +267,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Equation_Equation_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -280,4 +280,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

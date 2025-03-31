@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_RVReducer"></a> Class RVReducer
+# Class RVReducer
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -53,7 +53,7 @@ BuilderBase<RVReducer\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_RVReducer__ctor"></a> RVReducer\(\)
+### RVReducer\(\)
 
 ```csharp
 public RVReducer()
@@ -61,7 +61,7 @@ public RVReducer()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_RVReducer_Axis"></a> Axis
+### Axis
 
 ```csharp
 public DirectionBase Axis { get; }
@@ -71,7 +71,7 @@ public DirectionBase Axis { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_RVReducer_Housing"></a> Housing
+### Housing
 
 ```csharp
 public IHousing Housing { get; }
@@ -81,7 +81,7 @@ public IHousing Housing { get; }
 
  IHousing
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_RVReducer_Position"></a> Position
+### Position
 
 ```csharp
 public PointBase Position { get; }
@@ -91,7 +91,7 @@ public PointBase Position { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_RVReducer_Shaft"></a> Shaft
+### Shaft
 
 ```csharp
 public IShaftSet Shaft { get; }
@@ -103,7 +103,7 @@ public IShaftSet Shaft { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_RVReducer_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -118,4 +118,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

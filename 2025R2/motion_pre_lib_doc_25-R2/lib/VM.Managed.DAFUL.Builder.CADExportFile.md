@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CADExportFile"></a> Class CADExportFile
+# Class CADExportFile
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -36,7 +36,7 @@ public class CADExportFile : CADExportBase, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_CADExportFile__ctor"></a> CADExportFile\(\)
+### CADExportFile\(\)
 
 ```csharp
 public CADExportFile()
@@ -44,7 +44,7 @@ public CADExportFile()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_CADExportFile_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -56,7 +56,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_CADExportFile_BuildImpl_VM_Managed_Document_"></a> BuildImpl\(Document\)
+### BuildImpl\(Document\)
 
 ```csharp
 public override void BuildImpl(Document docToAdd)
@@ -65,4 +65,5 @@ public override void BuildImpl(Document docToAdd)
 #### Parameters
 
 `docToAdd` Document
+
 

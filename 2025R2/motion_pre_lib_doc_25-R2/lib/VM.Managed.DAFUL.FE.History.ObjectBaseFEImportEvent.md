@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_ObjectBaseFEImportEvent"></a> Class ObjectBaseFEImportEvent
+# Class ObjectBaseFEImportEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -69,7 +69,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseFEImportEvent__ctor_System_Object_"></a> ObjectBaseFEImportEvent\(object\)
+### ObjectBaseFEImportEvent\(object\)
 
 ```csharp
 public ObjectBaseFEImportEvent(object obOriginal)
@@ -78,4 +78,5 @@ public ObjectBaseFEImportEvent(object obOriginal)
 #### Parameters
 
 `obOriginal` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
 

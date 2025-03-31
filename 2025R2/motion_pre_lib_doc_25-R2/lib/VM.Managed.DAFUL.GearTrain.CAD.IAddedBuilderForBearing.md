@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddedBuilderForBearing"></a> Interface IAddedBuilderForBearing
+# Interface IAddedBuilderForBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,11 +21,12 @@ public interface IAddedBuilderForBearing : IAddedBuilder
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddedBuilderForBearing_Update"></a> Update\(\)
+### Update\(\)
 
 Update geometry.
 
 ```csharp
 void Update()
 ```
+
 

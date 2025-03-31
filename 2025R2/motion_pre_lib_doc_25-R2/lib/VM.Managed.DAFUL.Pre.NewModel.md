@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_NewModel"></a> Class NewModel
+# Class NewModel
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -22,7 +22,7 @@ public class NewModel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_NewModel__ctor"></a> NewModel\(\)
+### NewModel\(\)
 
 ```csharp
 public NewModel()
@@ -30,7 +30,7 @@ public NewModel()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_NewModel_ModelNew"></a> ModelNew
+### ModelNew
 
 Gets or sets the model create type.
 
@@ -42,7 +42,7 @@ public ModelTemplate ModelNew { get; set; }
 
  [ModelTemplate](VM.Managed.DAFUL.Pre.ModelTemplate.md)
 
-### <a id="VM_Managed_DAFUL_Pre_NewModel_ModelPath"></a> ModelPath
+### ModelPath
 
 Gets or sets the model path.
 
@@ -54,7 +54,7 @@ public string ModelPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_NewModel_WorkCreate"></a> WorkCreate
+### WorkCreate
 
 Gets or sets the work create type.
 
@@ -66,7 +66,7 @@ public NewModel.WorkCreateType WorkCreate { get; set; }
 
  [NewModel](VM.Managed.DAFUL.Pre.NewModel.md).[WorkCreateType](VM.Managed.DAFUL.Pre.NewModel.WorkCreateType.md)
 
-### <a id="VM_Managed_DAFUL_Pre_NewModel_WorkPath"></a> WorkPath
+### WorkPath
 
 Gets or sets the work path.
 
@@ -77,4 +77,5 @@ public string WorkPath { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

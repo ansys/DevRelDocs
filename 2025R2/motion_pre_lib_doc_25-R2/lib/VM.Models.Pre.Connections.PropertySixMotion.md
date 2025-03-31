@@ -1,9 +1,16 @@
-# <a id="VM_Models_Pre_Connections_PropertySixMotion"></a> Class PropertySixMotion
+# Class PropertySixMotion
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
 
-This class is to represent the six-motion constraint properties.
+<p>This class is to represent the six-motion constraint properties.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : No
+        Reference Type : N/A
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public class PropertySixMotion : PropertyConstraint, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, ILinkContainer, IOwned, IHasID, IArgument
@@ -169,9 +176,9 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion__ctor"></a> PropertySixMotion\(\)
+### PropertySixMotion\(\)
 
-Initializes a new instance of the <xref href="VM.Models.Pre.Connections.PropertySixMotion" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.PropertySixMotion" data-throw-if-not-resolved="false"></xref> class.</p>
 
 ```csharp
 public PropertySixMotion()
@@ -179,7 +186,7 @@ public PropertySixMotion()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -191,9 +198,27 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_RotationalXProperty"></a> RotationalXProperty
+### RotationalXProperty
 
-Gets or sets the rotational x property.
+<p>Gets or sets the rotational x property.</p>
+<p>
+        Type : PropertyRevolute
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Rotational X
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyRevolute RotationalXProperty { get; set; }
@@ -203,9 +228,27 @@ public PropertyRevolute RotationalXProperty { get; set; }
 
  PropertyRevolute
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_RotationalYProperty"></a> RotationalYProperty
+### RotationalYProperty
 
-Gets or sets the rotational y property.
+<p>Gets or sets the rotational y property.</p>
+<p>
+        Type : PropertyRevolute
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Rotational Y
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyRevolute RotationalYProperty { get; set; }
@@ -215,9 +258,27 @@ public PropertyRevolute RotationalYProperty { get; set; }
 
  PropertyRevolute
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_RotationalZProperty"></a> RotationalZProperty
+### RotationalZProperty
 
-Gets or sets the rotational z property.
+<p>Gets or sets the rotational z property.</p>
+<p>
+        Type : PropertyRevolute
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Rotational Z
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyRevolute RotationalZProperty { get; set; }
@@ -227,9 +288,27 @@ public PropertyRevolute RotationalZProperty { get; set; }
 
  PropertyRevolute
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_TranslationalXProperty"></a> TranslationalXProperty
+### TranslationalXProperty
 
-Gets or sets the translational x property.
+<p>Gets or sets the translational x property.</p>
+<p>
+        Type : PropertyTranslational
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Translational X
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyTranslational TranslationalXProperty { get; set; }
@@ -239,9 +318,27 @@ public PropertyTranslational TranslationalXProperty { get; set; }
 
  PropertyTranslational
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_TranslationalYProperty"></a> TranslationalYProperty
+### TranslationalYProperty
 
-Gets or sets the translational y property.
+<p>Gets or sets the translational y property.</p>
+<p>
+        Type : PropertyTranslational
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Translational Y
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyTranslational TranslationalYProperty { get; set; }
@@ -251,9 +348,27 @@ public PropertyTranslational TranslationalYProperty { get; set; }
 
  PropertyTranslational
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_TranslationalZProperty"></a> TranslationalZProperty
+### TranslationalZProperty
 
-Gets or sets the translational z property.
+<p>Gets or sets the translational z property.</p>
+<p>
+        Type : PropertyTranslational
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Translational Z
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyTranslational TranslationalZProperty { get; set; }
@@ -263,9 +378,27 @@ public PropertyTranslational TranslationalZProperty { get; set; }
 
  PropertyTranslational
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseRotationalXProperty"></a> UseRotationalXProperty
+### UseRotationalXProperty
 
-Gets or sets the rotational x property use flag.
+<p>Gets or sets the rotational x property use flag.</p>
+<p>
+        Type : bool
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Use Rotational X
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseRotationalXProperty { get; set; }
@@ -275,9 +408,27 @@ public bool UseRotationalXProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseRotationalYProperty"></a> UseRotationalYProperty
+### UseRotationalYProperty
 
-Gets or sets the rotational y property use flag.
+<p>Gets or sets the rotational y property use flag.</p>
+<p>
+        Type : bool
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Use Rotational Y
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseRotationalYProperty { get; set; }
@@ -287,9 +438,27 @@ public bool UseRotationalYProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseRotationalZProperty"></a> UseRotationalZProperty
+### UseRotationalZProperty
 
-Gets or sets the rotational z property use flag.
+<p>Gets or sets the rotational z property use flag.</p>
+<p>
+        Type : bool
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Use Rotational Z
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseRotationalZProperty { get; set; }
@@ -299,9 +468,27 @@ public bool UseRotationalZProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseTranslationalXProperty"></a> UseTranslationalXProperty
+### UseTranslationalXProperty
 
-Gets or sets the translational x property use flag.
+<p>Gets or sets the translational x property use flag.</p>
+<p>
+        Type : bool
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Use Translational X
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseTranslationalXProperty { get; set; }
@@ -311,9 +498,27 @@ public bool UseTranslationalXProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseTranslationalYProperty"></a> UseTranslationalYProperty
+### UseTranslationalYProperty
 
-Gets or sets the translational y property use flag.
+<p>Gets or sets the translational y property use flag.</p>
+<p>
+        Type : bool
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Use Translational Y
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseTranslationalYProperty { get; set; }
@@ -323,9 +528,27 @@ public bool UseTranslationalYProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseTranslationalZProperty"></a> UseTranslationalZProperty
+### UseTranslationalZProperty
 
-Gets or sets the translational z property use flag.
+<p>Gets or sets the translational z property use flag.</p>
+<p>
+        Type : bool
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Use Translational Z
+        Control Type : Check box
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Property
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseTranslationalZProperty { get; set; }
@@ -337,7 +560,7 @@ public bool UseTranslationalZProperty { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -357,7 +580,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -377,9 +600,9 @@ The unnamed object.
 
 The unnamed object name.
 
-### <a id="VM_Models_Pre_Connections_PropertySixMotion_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -389,5 +612,6 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+
 

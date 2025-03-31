@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderTriPlateSimple"></a> Class BuilderTriPlateSimple
+# Class BuilderTriPlateSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple__ctor_VM_Managed_Variable_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderTriPlateSimple\(Variable, PointBase, PointBase, PointBase\)
+### BuilderTriPlateSimple\(Variable, PointBase, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTriPlateSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -227,7 +227,7 @@ The second position of block.
 
 The third position of block.
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple__ctor_System_Double_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderTriPlateSimple\(double, PointBase, PointBase, PointBase\)
+### BuilderTriPlateSimple\(double, PointBase, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTriPlateSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -253,7 +253,7 @@ The second position of block.
 
 The third position of block.
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple__ctor"></a> BuilderTriPlateSimple\(\)
+### BuilderTriPlateSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTriPlateSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -263,7 +263,7 @@ public BuilderTriPlateSimple()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple_FirstPosition"></a> FirstPosition
+### FirstPosition
 
 Gets or sets the fist position of TriPlate.
 
@@ -275,7 +275,7 @@ public PointBase FirstPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple_Height"></a> Height
+### Height
 
 Gets or sets the height of TriPlate(variable).
 
@@ -287,7 +287,7 @@ public Variable Height { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -299,7 +299,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple_SecondPosition"></a> SecondPosition
+### SecondPosition
 
 Gets or sets the second position of TriPlate.
 
@@ -311,7 +311,7 @@ public PointBase SecondPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple_ThirdPosition"></a> ThirdPosition
+### ThirdPosition
 
 Gets or sets the third position of TriPlate.
 
@@ -323,7 +323,7 @@ public PointBase ThirdPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple__FirstPosition"></a> \_FirstPosition
+### \_FirstPosition
 
 Gets the first position of TriPlate.
 
@@ -335,7 +335,7 @@ public override VectorBase _FirstPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple__Height"></a> \_Height
+### \_Height
 
 Gets the height of TriPlate.
 
@@ -347,7 +347,7 @@ public override double _Height { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple__SecondPosition"></a> \_SecondPosition
+### \_SecondPosition
 
 Gets the second position of TriPlate.
 
@@ -359,7 +359,7 @@ public override VectorBase _SecondPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple__ThirdPosition"></a> \_ThirdPosition
+### \_ThirdPosition
 
 Gets the third position of TriPlate.
 
@@ -373,7 +373,7 @@ public override VectorBase _ThirdPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
+### ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -381,7 +381,7 @@ Change data for circular reference.
 public override void ChangeDataForCircularReference()
 ```
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
+### CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -395,7 +395,7 @@ public override void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -409,7 +409,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_BuilderTriPlateSimple_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -422,4 +422,5 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
+
 

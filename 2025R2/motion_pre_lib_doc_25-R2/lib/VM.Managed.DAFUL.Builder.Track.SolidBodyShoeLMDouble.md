@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoeLMDouble"></a> Class SolidBodyShoeLMDouble
+# Class SolidBodyShoeLMDouble
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -61,7 +61,7 @@ BuilderBase<SolidBodyShoe\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoeLMDouble__ctor"></a> SolidBodyShoeLMDouble\(\)
+### SolidBodyShoeLMDouble\(\)
 
 ```csharp
 public SolidBodyShoeLMDouble()
@@ -69,7 +69,7 @@ public SolidBodyShoeLMDouble()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoeLMDouble_GetCurrentBuilder"></a> GetCurrentBuilder\(\)
+### GetCurrentBuilder\(\)
 
 ```csharp
 protected override Builder GetCurrentBuilder()
@@ -78,4 +78,5 @@ protected override Builder GetCurrentBuilder()
 #### Returns
 
  Builder
+
 

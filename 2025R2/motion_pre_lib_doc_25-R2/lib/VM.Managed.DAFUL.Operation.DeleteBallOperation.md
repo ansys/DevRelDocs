@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_DeleteBallOperation"></a> Class DeleteBallOperation
+# Class DeleteBallOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_DeleteBallOperation__ctor_System_String_"></a> DeleteBallOperation\(string\)
+### DeleteBallOperation\(string\)
 
 ```csharp
 public DeleteBallOperation(string key)
@@ -85,7 +85,7 @@ public DeleteBallOperation(string key)
 
 `key` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_DeleteBallOperation__ctor_System_UIntPtr_"></a> DeleteBallOperation\(UIntPtr\)
+### DeleteBallOperation\(UIntPtr\)
 
 ```csharp
 public DeleteBallOperation(UIntPtr key)
@@ -97,7 +97,7 @@ public DeleteBallOperation(UIntPtr key)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_DeleteBallOperation_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -107,7 +107,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_DeleteBallOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -121,11 +121,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_DeleteBallOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

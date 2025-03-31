@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Group"></a> Class Group
+# Class Group
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -172,7 +172,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Group__ctor"></a> Group\(\)
+### Group\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Group" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,7 +180,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Group" data-throw
 public Group()
 ```
 
-### <a id="VM_Managed_DAFUL_Group__ctor_System_String_"></a> Group\(string\)
+### Group\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Group" data-throw-if-not-resolved="false"></xref> class.
 
@@ -196,7 +196,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Group_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -208,7 +208,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Group_IsEnabled"></a> IsEnabled
+### IsEnabled
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.SubEntity" data-throw-if-not-resolved="false"></xref> is enabled.
 
@@ -220,7 +220,7 @@ public override bool IsEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Group_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets a value indicating whether object is visible.
 
@@ -232,7 +232,7 @@ public bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Group_Objects"></a> Objects
+### Objects
 
 Gets or sets the objects.
 
@@ -244,7 +244,7 @@ public ObjectBase[] Objects { get; set; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_Group_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -258,7 +258,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Group_ActionNames"></a> ActionNames\(\)
+### ActionNames\(\)
 
 Actions the names.
 
@@ -270,7 +270,7 @@ public static string[] ActionNames()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Group_AddAction_VM_Managed_DAFUL_GroupActionBase_"></a> AddAction\(GroupActionBase\)
+### AddAction\(GroupActionBase\)
 
 Adds the action.
 
@@ -284,7 +284,7 @@ public static void AddAction(GroupActionBase action)
 
 The action.
 
-### <a id="VM_Managed_DAFUL_Group_AddObject_VM_Managed_ObjectBase_"></a> AddObject\(ObjectBase\)
+### AddObject\(ObjectBase\)
 
 Adds the object.
 
@@ -298,7 +298,7 @@ public void AddObject(ObjectBase ob)
 
 The ob.
 
-### <a id="VM_Managed_DAFUL_Group_ExcuteAction_VM_Managed_DAFUL_GroupActionBase_System_Boolean_"></a> ExcuteAction\(GroupActionBase, bool\)
+### ExcuteAction\(GroupActionBase, bool\)
 
 Excutes the action.
 
@@ -316,7 +316,7 @@ The action.
 
 if set to <code>true</code> [b on off].
 
-### <a id="VM_Managed_DAFUL_Group_ExcuteAction_System_String_System_Boolean_"></a> ExcuteAction\(string, bool\)
+### ExcuteAction\(string, bool\)
 
 Excutes the action.
 
@@ -334,7 +334,7 @@ Name of the action.
 
 if set to <code>true</code> [b on off].
 
-### <a id="VM_Managed_DAFUL_Group_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -354,7 +354,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Group_GetLayerImpl"></a> GetLayerImpl\(\)
+### GetLayerImpl\(\)
 
 Gets the layer implementation.
 
@@ -372,7 +372,7 @@ protected virtual Layer GetLayerImpl()
 
 Document of Group object is null.
 
-### <a id="VM_Managed_DAFUL_Group_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -400,7 +400,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Group_GetSolidBody"></a> GetSolidBody\(\)
+### GetSolidBody\(\)
 
 Gets solid body.
 
@@ -412,7 +412,7 @@ public IConnectable[] GetSolidBody()
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Group_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -426,7 +426,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Group_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
+### OnLinkReserved\(ILink, object, EventArgs\)
 
 Called after reserve member
 
@@ -442,7 +442,7 @@ protected override void OnLinkReserved(ILink reserved, object objNotifier, Event
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
-### <a id="VM_Managed_DAFUL_Group_RemoveObject_VM_Managed_ObjectBase_"></a> RemoveObject\(ObjectBase\)
+### RemoveObject\(ObjectBase\)
 
 Removes the object.
 
@@ -460,7 +460,7 @@ The ob.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Group_SetLayerImpl_VM_Managed_Layer_"></a> SetLayerImpl\(Layer\)
+### SetLayerImpl\(Layer\)
 
 Implemented function to set layer
 
@@ -474,7 +474,7 @@ protected virtual void SetLayerImpl(Layer layer)
 
 Layer Object
 
-### <a id="VM_Managed_DAFUL_Group_StateAction_System_String_"></a> StateAction\(string\)
+### StateAction\(string\)
 
 States the action.
 
@@ -491,4 +491,5 @@ Name of the action.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

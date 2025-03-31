@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PickedPoint"></a> Class PickedPoint
+# Class PickedPoint
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -25,13 +25,13 @@ public class PickedPoint : PickedResult
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_PickedPoint__ctor"></a> PickedPoint\(\)
+### PickedPoint\(\)
 
 ```csharp
 public PickedPoint()
 ```
 
-### <a id="VM_Managed_DAFUL_Builder_PickedPoint__ctor_VM_Managed_PointBase_"></a> PickedPoint\(PointBase\)
+### PickedPoint\(PointBase\)
 
 ```csharp
 public PickedPoint(PointBase pointBase)
@@ -43,7 +43,7 @@ public PickedPoint(PointBase pointBase)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_PickedPoint_Point"></a> Point
+### Point
 
 ```csharp
 public PointBase Point { get; set; }
@@ -53,7 +53,7 @@ public PointBase Point { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_PickedPoint_Type"></a> Type
+### Type
 
 ```csharp
 public override PickedResult.PickedType Type { get; }
@@ -62,4 +62,5 @@ public override PickedResult.PickedType Type { get; }
 #### Property Value
 
  [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md).[PickedType](VM.Managed.DAFUL.Builder.PickedResult.PickedType.md)
+
 

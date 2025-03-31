@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Roller_ShaftType"></a> Enum ShaftType
+# Enum ShaftType
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -26,6 +26,7 @@ Create shaft on left side.
 `Right = 2` 
 
 Create shaft on right side.
+
 
 
 

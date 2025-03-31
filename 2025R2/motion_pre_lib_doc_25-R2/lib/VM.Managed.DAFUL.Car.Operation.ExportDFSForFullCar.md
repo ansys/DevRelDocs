@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForFullCar"></a> Class ExportDFSForFullCar
+# Class ExportDFSForFullCar
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -113,7 +113,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForFullCar__ctor_VM_Managed_Document_"></a> ExportDFSForFullCar\(Document\)
+### ExportDFSForFullCar\(Document\)
 
 ```csharp
 public ExportDFSForFullCar(Document doc)
@@ -123,7 +123,7 @@ public ExportDFSForFullCar(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForFullCar__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFSForFullCar\(JournalParameter\)
+### ExportDFSForFullCar\(JournalParameter\)
 
 ```csharp
 public ExportDFSForFullCar(JournalParameter jp)
@@ -135,7 +135,7 @@ public ExportDFSForFullCar(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForFullCar_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -149,9 +149,10 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFSForFullCar_ExportDFSImpl"></a> ExportDFSImpl\(\)
+### ExportDFSImpl\(\)
 
 ```csharp
 protected override void ExportDFSImpl()
 ```
+
 

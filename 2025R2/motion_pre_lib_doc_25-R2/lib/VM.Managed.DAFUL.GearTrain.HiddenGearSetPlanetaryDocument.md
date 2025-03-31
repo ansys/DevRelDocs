@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument"></a> Class HiddenGearSetPlanetaryDocument
+# Class HiddenGearSetPlanetaryDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -627,7 +627,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument__ctor_System_UIntPtr_"></a> HiddenGearSetPlanetaryDocument\(UIntPtr\)
+### HiddenGearSetPlanetaryDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenGearSetPlanetaryDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -643,7 +643,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initial categories.
 
@@ -655,7 +655,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument_NumberOfLOA"></a> NumberOfLOA
+### NumberOfLOA
 
 Gets number of LOA.
 
@@ -669,7 +669,7 @@ protected override int NumberOfLOA { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -687,7 +687,7 @@ Type of the string.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument_GetCenterY_System_Double___"></a> GetCenterY\(double\[\]\)
+### GetCenterY\(double\[\]\)
 
 Get y coordinate of center.
 
@@ -701,7 +701,7 @@ protected override void GetCenterY(double[] ardCenterY)
 
 The y coordinate of center.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument_GetExternalState_System_Boolean___"></a> GetExternalState\(bool\[\]\)
+### GetExternalState\(bool\[\]\)
 
 Get external state.
 
@@ -715,7 +715,7 @@ protected override void GetExternalState(bool[] arbExternal)
 
 The external state array.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -729,7 +729,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the string category.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument_MakeXmlForDocumentPropertyGridForLOA_System_Xml_XmlDocument_System_String__System_Text_StringBuilder_"></a> MakeXmlForDocumentPropertyGridForLOA\(XmlDocument, ref string, StringBuilder\)
+### MakeXmlForDocumentPropertyGridForLOA\(XmlDocument, ref string, StringBuilder\)
 
 Makes the LOA XML for document property grid.
 
@@ -751,7 +751,7 @@ Name of the string group.
 
 The string builder.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetPlanetaryDocument_Show2DimensionCore_System_Int32_System_Boolean___System_Double___System_Double___"></a> Show2DimensionCore\(int, bool\[\], double\[\], double\[\]\)
+### Show2DimensionCore\(int, bool\[\], double\[\], double\[\]\)
 
 Show2s the dimension core.
 
@@ -776,4 +776,5 @@ center array.
 `ardBCDR` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
 BCDR array.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_PropertyForce"></a> Class PropertyForce
+# Class PropertyForce
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -172,7 +172,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_PropertyForce__ctor"></a> PropertyForce\(\)
+### PropertyForce\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,7 +180,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyFor
 public PropertyForce()
 ```
 
-### <a id="VM_Managed_DAFUL_Force_PropertyForce__ctor_System_String_System_String_"></a> PropertyForce\(string, string\)
+### PropertyForce\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,7 +200,7 @@ The build info.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_PropertyForce_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -212,7 +212,7 @@ public abstract ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Force_PropertyForce_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -223,4 +223,5 @@ public virtual string ReferenceType { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

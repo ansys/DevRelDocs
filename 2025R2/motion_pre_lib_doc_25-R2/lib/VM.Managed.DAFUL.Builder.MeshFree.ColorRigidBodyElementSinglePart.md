@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorRigidBodyElementSinglePart"></a> Class ColorRigidBodyElementSinglePart
+# Class ColorRigidBodyElementSinglePart
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<RigidBodyElementSingle\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorRigidBodyElementSinglePart__ctor"></a> ColorRigidBodyElementSinglePart\(\)
+### ColorRigidBodyElementSinglePart\(\)
 
 ```csharp
 public ColorRigidBodyElementSinglePart()
@@ -61,7 +61,7 @@ public ColorRigidBodyElementSinglePart()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorRigidBodyElementSinglePart_ColorArray"></a> ColorArray
+### ColorArray
 
 ```csharp
 public string[] ColorArray { get; set; }
@@ -71,7 +71,7 @@ public string[] ColorArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorRigidBodyElementSinglePart_Connectable"></a> Connectable
+### Connectable
 
 ```csharp
 public ObjectBase Connectable { get; }
@@ -83,7 +83,7 @@ public ObjectBase Connectable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorRigidBodyElementSinglePart_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -99,7 +99,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorRigidBodyElementSinglePart_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -112,4 +112,5 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

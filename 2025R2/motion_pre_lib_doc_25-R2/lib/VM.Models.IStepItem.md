@@ -1,4 +1,4 @@
-# <a id="VM_Models_IStepItem"></a> Interface IStepItem
+# Interface IStepItem
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -19,13 +19,13 @@ IHasParent<IStep\>
 
 ## Methods
 
-### <a id="VM_Models_IStepItem_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 ```csharp
 void Initialize()
 ```
 
-### <a id="VM_Models_IStepItem_SetParent_VM_Models_IStep_"></a> SetParent\(IStep\)
+### SetParent\(IStep\)
 
 ```csharp
 void SetParent(IStep parent)
@@ -34,4 +34,5 @@ void SetParent(IStep parent)
 #### Parameters
 
 `parent` [IStep](VM.Models.IStep.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Spline"></a> Class Spline
+# Class Spline
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class Spline
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Spline__ctor"></a> Spline\(\)
+### Spline\(\)
 
 ```csharp
 public Spline()
@@ -30,7 +30,7 @@ public Spline()
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Spline_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -41,19 +41,19 @@ protected virtual void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Spline_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 ```csharp
 public override sealed void Dispose()
 ```
 
-### <a id="VM_Managed_CAD_Spline_Finalize"></a> \~Spline\(\)
+### \~Spline\(\)
 
 ```csharp
 protected ~Spline()
 ```
 
-### <a id="VM_Managed_CAD_Spline_MakeSplineAndGetPoint_VM_Managed_Document3D_System_UInt32_VM_Managed_Vector___"></a> MakeSplineAndGetPoint\(Document3D, uint, Vector\[\]\)
+### MakeSplineAndGetPoint\(Document3D, uint, Vector\[\]\)
 
 ```csharp
 public Vector[] MakeSplineAndGetPoint(Document3D doc, uint nCount, Vector[] vecInputPt)
@@ -70,4 +70,5 @@ public Vector[] MakeSplineAndGetPoint(Document3D doc, uint nCount, Vector[] vecI
 #### Returns
 
  [Vector](VM.Managed.Vector.md)\[\]
+
 

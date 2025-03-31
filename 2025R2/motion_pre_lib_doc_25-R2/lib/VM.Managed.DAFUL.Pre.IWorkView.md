@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IWorkView"></a> Interface IWorkView
+# Interface IWorkView
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IWorkView
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_IWorkView_AddFileInWork_System_String_VM_Managed_DAFUL_Pre_Model_"></a> AddFileInWork\(string, Model\)
+### AddFileInWork\(string, Model\)
 
 Adds the file in work.
 
@@ -35,7 +35,7 @@ The string path.
 
 The model.
 
-### <a id="VM_Managed_DAFUL_Pre_IWorkView_UpdateView_VM_Managed_DAFUL_Pre_Model_VM_Managed_DAFUL_Pre_GroupItem_"></a> UpdateView\(Model, GroupItem\)
+### UpdateView\(Model, GroupItem\)
 
 Update work view.
 
@@ -52,4 +52,5 @@ The model to update.
 `item` [GroupItem](VM.Managed.DAFUL.Pre.GroupItem.md)
 
 The item to update.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_IGeometryBuilder"></a> Interface IGeometryBuilder
+# Interface IGeometryBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IGeometryBuilder
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGeometryBuilder_GetInformation"></a> GetInformation\(\)
+### GetInformation\(\)
 
 Gets the Geometry information.
 
@@ -30,4 +30,5 @@ GeometryInfoBase GetInformation()
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md)
 
 Geometry Information
+
 

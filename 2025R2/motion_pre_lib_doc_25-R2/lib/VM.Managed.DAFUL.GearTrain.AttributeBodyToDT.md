@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDT"></a> Class AttributeBodyToDT
+# Class AttributeBodyToDT
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDT__ctor"></a> AttributeBodyToDT\(\)
+### AttributeBodyToDT\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeBodyToDT" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public AttributeBodyToDT()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDT_ConnectableList"></a> ConnectableList
+### ConnectableList
 
 Gets or sets the connectable list.
 
@@ -126,7 +126,7 @@ public IConnectable[] ConnectableList { get; set; }
 
  IConnectable\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDT__ConnectableList"></a> \_ConnectableList
+### \_ConnectableList
 
 Gets or sets the connectable list.
 
@@ -140,7 +140,7 @@ public Linker<IConnectable>[] _ConnectableList { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDT_AddConnectable_VM_Managed_DAFUL_IConnectable_"></a> AddConnectable\(IConnectable\)
+### AddConnectable\(IConnectable\)
 
 Add connectable entity.
 
@@ -154,7 +154,7 @@ public void AddConnectable(IConnectable connectable)
 
 The connectable entity
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDT_ContainsConnectable_VM_Managed_DAFUL_IConnectable_"></a> ContainsConnectable\(IConnectable\)
+### ContainsConnectable\(IConnectable\)
 
 Contains connectable entity.
 
@@ -172,7 +172,7 @@ The connectable entity
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDT_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -190,7 +190,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDT_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -203,4 +203,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

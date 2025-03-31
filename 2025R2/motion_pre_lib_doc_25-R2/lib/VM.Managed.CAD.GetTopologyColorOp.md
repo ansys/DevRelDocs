@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetTopologyColorOp"></a> Class GetTopologyColorOp
+# Class GetTopologyColorOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_GetTopologyColorOp__ctor_VM_Managed_CAD_Topology_"></a> GetTopologyColorOp\(Topology\)
+### GetTopologyColorOp\(Topology\)
 
 ```csharp
 public GetTopologyColorOp(Topology topology)
@@ -87,7 +87,7 @@ public GetTopologyColorOp(Topology topology)
 
 `topology` [Topology](VM.Managed.CAD.Topology.md)
 
-### <a id="VM_Managed_CAD_GetTopologyColorOp__ctor"></a> GetTopologyColorOp\(\)
+### GetTopologyColorOp\(\)
 
 ```csharp
 public GetTopologyColorOp()
@@ -95,7 +95,7 @@ public GetTopologyColorOp()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_GetTopologyColorOp_Color"></a> Color
+### Color
 
 Gets the Color.
 
@@ -107,7 +107,7 @@ public Color Color { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_CAD_GetTopologyColorOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -119,7 +119,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_GetTopologyColorOp_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -131,7 +131,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CAD_GetTopologyColorOp_Result"></a> Result
+### Result
 
 Gets the result.
 
@@ -145,11 +145,12 @@ public bool Result { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_GetTopologyColorOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

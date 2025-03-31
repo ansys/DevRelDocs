@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ExportDFG"></a> Class ExportDFG
+# Class ExportDFG
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -100,7 +100,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_ExportDFG__ctor_VM_Managed_Document_"></a> ExportDFG\(Document\)
+### ExportDFG\(Document\)
 
 ```csharp
 public ExportDFG(Document doc)
@@ -110,7 +110,7 @@ public ExportDFG(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Operation_ExportDFG__ctor_VM_Managed_Document_System_String_"></a> ExportDFG\(Document, string\)
+### ExportDFG\(Document, string\)
 
 ```csharp
 public ExportDFG(Document doc, string strScenarioTypeName)
@@ -122,7 +122,7 @@ public ExportDFG(Document doc, string strScenarioTypeName)
 
 `strScenarioTypeName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_ExportDFG__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFG\(JournalParameter\)
+### ExportDFG\(JournalParameter\)
 
 ```csharp
 public ExportDFG(JournalParameter jp)
@@ -134,7 +134,7 @@ public ExportDFG(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_ExportDFG_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -148,7 +148,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_ExportDFG_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -156,9 +156,10 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_ExportDFG_ExportDFGImpl"></a> ExportDFGImpl\(\)
+### ExportDFGImpl\(\)
 
 ```csharp
 protected virtual void ExportDFGImpl()
 ```
+
 

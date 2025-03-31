@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_Util_ReferenceFinder"></a> Class ReferenceFinder
+# Class ReferenceFinder
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class ReferenceFinder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_Util_ReferenceFinder__ctor"></a> ReferenceFinder\(\)
+### ReferenceFinder\(\)
 
 ```csharp
 public ReferenceFinder()
@@ -30,7 +30,7 @@ public ReferenceFinder()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_Util_ReferenceFinder_FindReferenceConnectable_VM_Managed_InstanceContainer_VM_Managed_DAFUL_IConnectable_"></a> FindReferenceConnectable\(InstanceContainer, IConnectable\)
+### FindReferenceConnectable\(InstanceContainer, IConnectable\)
 
 To find reference connectable from the instance container.
 
@@ -54,7 +54,7 @@ The prototype of reference connectable.
 
 The reference connectable.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_ReferenceFinder_FindReferenceConnectableFromAllSubsystem_VM_Managed_Document3D_System_Collections_Generic_List_VM_Managed_DAFUL_ReferenceConnectable___"></a> FindReferenceConnectableFromAllSubsystem\(Document3D, ref List<ReferenceConnectable\>\)
+### FindReferenceConnectableFromAllSubsystem\(Document3D, ref List<ReferenceConnectable\>\)
 
 To find reference connectable from subsystem.
 
@@ -72,7 +72,7 @@ The active document.
 
 The reference connectables.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_ReferenceFinder_FindReferenceContactable_VM_Managed_InstanceContainer_VM_Managed_DAFUL_IContactable_"></a> FindReferenceContactable\(InstanceContainer, IContactable\)
+### FindReferenceContactable\(InstanceContainer, IContactable\)
 
 To find reference contactable(rigid 3D) from the instance container.
 
@@ -96,7 +96,7 @@ The prototype of reference contactable.
 
 The reference contactable.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_ReferenceFinder_FindReferenceDesignFrameFromAllSubsystem_VM_Managed_Document3D_System_Collections_Generic_List_VM_Managed_ReferenceDesignFrame___"></a> FindReferenceDesignFrameFromAllSubsystem\(Document3D, ref List<ReferenceDesignFrame\>\)
+### FindReferenceDesignFrameFromAllSubsystem\(Document3D, ref List<ReferenceDesignFrame\>\)
 
 Finds the Reference design frame from all subsystem.
 
@@ -114,7 +114,7 @@ The active document.
 
 The reference design frames.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_ReferenceFinder_FindReferenceDesignPoint_VM_Managed_InstanceContainer_VM_Managed_DesignPoint_"></a> FindReferenceDesignPoint\(InstanceContainer, DesignPoint\)
+### FindReferenceDesignPoint\(InstanceContainer, DesignPoint\)
 
 To find reference design point from the instance container.
 
@@ -138,7 +138,7 @@ The prototype of reference connectable.
 
 The reference connectable.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_ReferenceFinder_FindReferenceDesignPointFromAllSubsystem_VM_Managed_Document3D_System_Collections_Generic_List_VM_Managed_ReferenceDesignPoint___"></a> FindReferenceDesignPointFromAllSubsystem\(Document3D, ref List<ReferenceDesignPoint\>\)
+### FindReferenceDesignPointFromAllSubsystem\(Document3D, ref List<ReferenceDesignPoint\>\)
 
 Finds the Reference design point from all subsystem.
 
@@ -156,7 +156,7 @@ The active document.
 
 The reference design points.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_ReferenceFinder_FindReferenceDesignVariableFromAllSubsystem_VM_Managed_Document3D_System_Collections_Generic_List_VM_Managed_ReferenceDesignVariable___"></a> FindReferenceDesignVariableFromAllSubsystem\(Document3D, ref List<ReferenceDesignVariable\>\)
+### FindReferenceDesignVariableFromAllSubsystem\(Document3D, ref List<ReferenceDesignVariable\>\)
 
 To find reference design variable from subsystem.
 
@@ -173,4 +173,5 @@ The active document.
 `lstReferenceDV` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ReferenceDesignVariable\>
 
 The reference design variables.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_BoundaryConditionAPI"></a> Class BoundaryConditionAPI
+# Class BoundaryConditionAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class BoundaryConditionAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_FE_BoundaryConditionAPI_CreateBoundaryCondition_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_System_Nullable_VM_API_Pre_Obj__System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> CreateBoundaryCondition\(SubSystemDocument, Obj, string, Obj?, bool, bool, bool, bool, bool, bool\)
+### CreateBoundaryCondition\(SubSystemDocument, Obj, string, Obj?, bool, bool, bool, bool, bool, bool\)
 
 Create <xref href="VM.Managed.DAFUL.Flexible.BoundaryCondition" data-throw-if-not-resolved="false"></xref>.
 
@@ -90,4 +90,5 @@ Will be thrown if 'document' or 'boundaryConditionComponent' arguments are empty
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'referenceMarker' argument is not empty and type of 'referenceMarker' is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
+
 

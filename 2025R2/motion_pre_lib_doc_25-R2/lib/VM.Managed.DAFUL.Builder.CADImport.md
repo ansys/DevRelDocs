@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CADImport"></a> Class CADImport
+# Class CADImport
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -28,7 +28,7 @@ public class CADImport : IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport__ctor"></a> CADImport\(\)
+### CADImport\(\)
 
 ```csharp
 public CADImport()
@@ -36,7 +36,7 @@ public CADImport()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_m_bSuccess"></a> m\_bSuccess
+### m\_bSuccess
 
 ```csharp
 protected bool m_bSuccess
@@ -48,7 +48,7 @@ protected bool m_bSuccess
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_BuildObject"></a> BuildObject
+### BuildObject
 
 ```csharp
 public ObjectBase BuildObject { get; }
@@ -58,7 +58,7 @@ public ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_Healing"></a> Healing
+### Healing
 
 ```csharp
 public bool Healing { get; set; }
@@ -68,7 +68,7 @@ public bool Healing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -78,7 +78,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_PropertyFilePath"></a> PropertyFilePath
+### PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -88,7 +88,7 @@ public string PropertyFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_ResultType"></a> ResultType
+### ResultType
 
 ```csharp
 public string ResultType { get; set; }
@@ -98,7 +98,7 @@ public string ResultType { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_UnitType"></a> UnitType
+### UnitType
 
 ```csharp
 public Document3D.CadImportUnitType UnitType { get; set; }
@@ -110,7 +110,7 @@ public Document3D.CadImportUnitType UnitType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public void Build(Document docToAdd)
@@ -120,7 +120,7 @@ public void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
+### Build\(Document, List<string\>\)
 
 ```csharp
 public void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -132,7 +132,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_BuildImpl_VM_Managed_Document_"></a> BuildImpl\(Document\)
+### BuildImpl\(Document\)
 
 ```csharp
 public virtual void BuildImpl(Document docToAdd)
@@ -142,7 +142,7 @@ public virtual void BuildImpl(Document docToAdd)
 
 `docToAdd` Document
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_Success"></a> Success\(\)
+### Success\(\)
 
 ```csharp
 public bool Success()
@@ -152,7 +152,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_CADImport_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public bool Validate(IList<string> lstErrorMessage)
@@ -165,4 +165,5 @@ public bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

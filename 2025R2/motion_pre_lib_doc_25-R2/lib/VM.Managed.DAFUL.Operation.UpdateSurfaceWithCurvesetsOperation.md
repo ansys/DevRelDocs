@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_UpdateSurfaceWithCurvesetsOperation"></a> Class UpdateSurfaceWithCurvesetsOperation
+# Class UpdateSurfaceWithCurvesetsOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_UpdateSurfaceWithCurvesetsOperation__ctor_VM_Managed_DAFUL_SurfaceWithCurvesets_System_Double_System_Double_System_Boolean_System_Double_"></a> UpdateSurfaceWithCurvesetsOperation\(SurfaceWithCurvesets, double, double, bool, double\)
+### UpdateSurfaceWithCurvesetsOperation\(SurfaceWithCurvesets, double, double, bool, double\)
 
 ```csharp
 public UpdateSurfaceWithCurvesetsOperation(SurfaceWithCurvesets surfaceWithCurvesets, double dMaxPen, double dOffset, bool bIsUp, double dSlice)
@@ -95,7 +95,7 @@ public UpdateSurfaceWithCurvesetsOperation(SurfaceWithCurvesets surfaceWithCurve
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_UpdateSurfaceWithCurvesetsOperation_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -105,7 +105,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_UpdateSurfaceWithCurvesetsOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -119,11 +119,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_UpdateSurfaceWithCurvesetsOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

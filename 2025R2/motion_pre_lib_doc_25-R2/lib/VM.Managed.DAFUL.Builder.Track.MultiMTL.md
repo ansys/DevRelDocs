@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL"></a> Class MultiMTL
+# Class MultiMTL
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -24,7 +24,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL__ctor"></a> MultiMTL\(\)
+### MultiMTL\(\)
 
 ```csharp
 public MultiMTL()
@@ -32,7 +32,7 @@ public MultiMTL()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_HullMarker"></a> HullMarker
+### HullMarker
 
 ```csharp
 public IMarker HullMarker { get; }
@@ -42,7 +42,7 @@ public IMarker HullMarker { get; }
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -52,7 +52,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -62,7 +62,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_ObjectNames"></a> ObjectNames
+### ObjectNames
 
 ```csharp
 public string[] ObjectNames { get; set; }
@@ -72,7 +72,7 @@ public string[] ObjectNames { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_Parameters"></a> Parameters
+### Parameters
 
 ```csharp
 public PickedResult[] Parameters { get; set; }
@@ -82,7 +82,7 @@ public PickedResult[] Parameters { get; set; }
 
  PickedResult\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_Thickness"></a> Thickness
+### Thickness
 
 ```csharp
 public Variable Thickness { get; set; }
@@ -92,7 +92,7 @@ public Variable Thickness { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL_Width"></a> Width
+### Width
 
 ```csharp
 public Variable Width { get; set; }
@@ -101,4 +101,5 @@ public Variable Width { get; set; }
 #### Property Value
 
  Variable
+
 

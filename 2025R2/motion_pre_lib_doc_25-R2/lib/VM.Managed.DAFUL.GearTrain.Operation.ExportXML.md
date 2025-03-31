@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ExportXML"></a> Class ExportXML
+# Class ExportXML
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -104,7 +104,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExportXML__ctor_VM_Managed_Document_"></a> ExportXML\(Document\)
+### ExportXML\(Document\)
 
 ```csharp
 public ExportXML(Document doc)
@@ -114,7 +114,7 @@ public ExportXML(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExportXML__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportXML\(JournalParameter\)
+### ExportXML\(JournalParameter\)
 
 ```csharp
 public ExportXML(JournalParameter jp)
@@ -126,9 +126,10 @@ public ExportXML(JournalParameter jp)
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExportXML_ExportXMLImpl"></a> ExportXMLImpl\(\)
+### ExportXMLImpl\(\)
 
 ```csharp
 protected override void ExportXMLImpl()
 ```
+
 

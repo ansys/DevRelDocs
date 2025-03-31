@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_PathInfo"></a> Class ChainedPlacing\_PathInfo
+# Class ChainedPlacing\_PathInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_PathInfo__ctor"></a> ChainedPlacing\_PathInfo\(\)
+### ChainedPlacing\_PathInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing_PathInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public ChainedPlacing_PathInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_PathInfo_Engagement"></a> Engagement
+### Engagement
 
 Gets or sets the type of the engagement.
 
@@ -120,7 +120,7 @@ public EngageType Engagement { get; set; }
 
  [EngageType](VM.Managed.DAFUL.Chained.EngageType.md)
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_PathInfo_GapExpression"></a> GapExpression
+### GapExpression
 
 Gets ans sets the type of gap expression.
 
@@ -131,4 +131,5 @@ public GapExpressionType GapExpression { get; set; }
 #### Property Value
 
  [GapExpressionType](VM.Managed.DAFUL.Chained.GapExpressionType.md)
+
 

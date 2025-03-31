@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_DocCreateChainedInfo"></a> Class DocCreateChainedInfo
+# Class DocCreateChainedInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -42,7 +42,7 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_DocCreateChainedInfo__ctor"></a> DocCreateChainedInfo\(\)
+### DocCreateChainedInfo\(\)
 
 ```csharp
 public DocCreateChainedInfo()
@@ -50,7 +50,7 @@ public DocCreateChainedInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_DocCreateChainedInfo_WorkingPlane"></a> WorkingPlane
+### WorkingPlane
 
 Gets or sets the working plane.
 
@@ -61,4 +61,5 @@ public Plane WorkingPlane { get; set; }
 #### Property Value
 
  Plane
+
 

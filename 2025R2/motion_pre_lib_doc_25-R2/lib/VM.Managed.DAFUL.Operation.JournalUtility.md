@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_JournalUtility"></a> Class JournalUtility
+# Class JournalUtility
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class JournalUtility
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_JournalUtility__ctor"></a> JournalUtility\(\)
+### JournalUtility\(\)
 
 ```csharp
 public JournalUtility()
@@ -30,7 +30,7 @@ public JournalUtility()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_JournalUtility_ExecuteJournal_VM_Managed_DAFUL_Operation_JournalUtility_OperationType_VM_Managed_ObjectBase_"></a> ExecuteJournal\(OperationType, ObjectBase\)
+### ExecuteJournal\(OperationType, ObjectBase\)
 
 Executes the journal.
 
@@ -48,7 +48,7 @@ The type op.
 
 The object entity.
 
-### <a id="VM_Managed_DAFUL_Operation_JournalUtility_ExecuteJournal_System_String___"></a> ExecuteJournal\(string\[\]\)
+### ExecuteJournal\(string\[\]\)
 
 Executes the journal.
 
@@ -62,7 +62,7 @@ public static void ExecuteJournal(string[] arDeleteNames)
 
 The ar delete names.
 
-### <a id="VM_Managed_DAFUL_Operation_JournalUtility_ExecuteJournal_System_String_"></a> ExecuteJournal\(string\)
+### ExecuteJournal\(string\)
 
 Executes the journal.
 
@@ -76,7 +76,7 @@ public static void ExecuteJournal(string strDeleteName)
 
 Name of the string delete.
 
-### <a id="VM_Managed_DAFUL_Operation_JournalUtility_ExecuteJournal_VM_Managed_DAFUL_Operation_JournalUtility_OperationType_VM_Managed_ObjectBase_System_String___"></a> ExecuteJournal\(OperationType, ObjectBase, string\[\]\)
+### ExecuteJournal\(OperationType, ObjectBase, string\[\]\)
 
 Executes the journal.
 
@@ -97,4 +97,5 @@ The object entity.
 `arDeleteNames` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The ar delete names.
+
 

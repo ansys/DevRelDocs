@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IGapSupport"></a> Interface IGapSupport
+# Interface IGapSupport
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IGapSupport
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IGapSupport_Target"></a> Target
+### Target
 
 Get targets
 
@@ -28,4 +28,5 @@ IGapTarget[] Target { get; }
 #### Property Value
 
  [IGapTarget](VM.Managed.DAFUL.IGapTarget.md)\[\]
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ObjectStateType"></a> Enum ObjectStateType
+# Enum ObjectStateType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -20,6 +20,7 @@ Normal.
 `OnBuild = 1` 
 
 OnBuild.
+
 
 
 

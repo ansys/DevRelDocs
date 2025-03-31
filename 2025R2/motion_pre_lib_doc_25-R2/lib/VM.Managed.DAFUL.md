@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL"></a> Namespace VM.Managed.DAFUL
+# Namespace VM.Managed.DAFUL
 
 ### Namespaces
 
@@ -644,15 +644,15 @@ This struct is to represent the object target for multi.
 
  [RequestStructure.OutputType](VM.Managed.DAFUL.RequestStructure.OutputType.md)
 
-This class is to represent the OutputType properties.
+<p>This class is to represent the OutputType properties.</p>
 
  [RequestKinematic.OutputType](VM.Managed.DAFUL.RequestKinematic.OutputType.md)
 
-This class is to represent the OutputType properties.
+<p>This class is to represent the OutputType properties.</p>
 
  [SplineData.Point](VM.Managed.DAFUL.SplineData.Point.md)
 
-This base class is to represent the point in spline value.
+<p>This base class is to represent the point in spline value.</p>
 
  [UserSubroutine.UserDefinedDisplay.DisplaySet.PositionAndScalarStartSequence](VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.DisplaySet.PositionAndScalarStartSequence.md)
 
@@ -1013,4 +1013,5 @@ Specifies type for a surface smoothing.
  [ArgumentListGeneral.delGetArgument](VM.Managed.DAFUL.ArgumentListGeneral.delGetArgument.md)
 
 Get argument delegator
+
 

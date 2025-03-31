@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple"></a> Class BuilderRollerSingleFlangeSimple
+# Class BuilderRollerSingleFlangeSimple
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -235,7 +235,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple__ctor"></a> BuilderRollerSingleFlangeSimple\(\)
+### BuilderRollerSingleFlangeSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.BuilderRollerSingleFlangeSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ public BuilderRollerSingleFlangeSimple()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple_RollerType"></a> RollerType
+### RollerType
 
 Gets roller type.
 
@@ -257,7 +257,7 @@ public RollerType RollerType { get; set; }
 
  [RollerType](VM.Managed.CAD.Roller.RollerType.md)
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple_SideFlangeDiameter"></a> SideFlangeDiameter
+### SideFlangeDiameter
 
 Gets and sets center flange diameter.
 
@@ -269,7 +269,7 @@ public ExpressionValueVariable SideFlangeDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple_SideFlangeWidth"></a> SideFlangeWidth
+### SideFlangeWidth
 
 Gets and sets center flange width.
 
@@ -281,7 +281,7 @@ public ExpressionValueVariable SideFlangeWidth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple_TypeOfBuilder"></a> TypeOfBuilder
+### TypeOfBuilder
 
 ```csharp
 public override string TypeOfBuilder { get; set; }
@@ -293,7 +293,7 @@ public override string TypeOfBuilder { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -301,7 +301,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -311,7 +311,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -325,7 +325,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerSingleFlangeSimple_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -342,4 +342,5 @@ The obj notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

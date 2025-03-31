@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing"></a> Class PropertyEHDBearing
+# Class PropertyEHDBearing
 
 Namespace: [VM.Managed.DAFUL.Bearing](VM.Managed.DAFUL.Bearing.md)  
 Assembly: VMDEHDBearing.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing__ctor"></a> PropertyEHDBearing\(\)
+### PropertyEHDBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.PropertyEHDBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyEHDBearing()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_BearingRadius"></a> BearingRadius
+### BearingRadius
 
 Gets or sets the bearing radius.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable BearingRadius { get; set; }
 
 Bearing radius is null.
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_BearingTransform"></a> BearingTransform
+### BearingTransform
 
 Gets or sets the bearing transform.
 
@@ -205,7 +205,7 @@ public TransformBase BearingTransform { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_Compliance"></a> Compliance
+### Compliance
 
 Gets or sets the compliance.
 
@@ -223,7 +223,7 @@ public ExpressionValueVariable Compliance { get; set; }
 
 Compliance is null.
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_DynamicViscosity"></a> DynamicViscosity
+### DynamicViscosity
 
 Gets or sets the dynamic viscosity.
 
@@ -241,7 +241,7 @@ public ExpressionValueVariable DynamicViscosity { get; set; }
 
 Dynamic viscosity is null.
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_ElasticFactor"></a> ElasticFactor
+### ElasticFactor
 
 Gets or sets the elastic factor.
 
@@ -259,7 +259,7 @@ public ExpressionValueVariable ElasticFactor { get; set; }
 
 Elastic factor is null.
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_ElasticModulus"></a> ElasticModulus
+### ElasticModulus
 
 Gets or sets the elastic modulus.
 
@@ -277,7 +277,7 @@ public ExpressionValueVariable ElasticModulus { get; set; }
 
 Elastic modulus is null.
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_JournalRadius"></a> JournalRadius
+### JournalRadius
 
 Gets or sets the journal radius.
 
@@ -295,7 +295,7 @@ public ExpressionValueVariable JournalRadius { get; set; }
 
 Journal radius is null.
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_JournalTransform"></a> JournalTransform
+### JournalTransform
 
 Gets or sets the journal transform.
 
@@ -307,7 +307,7 @@ public TransformBase JournalTransform { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_NumberOfAxialNode"></a> NumberOfAxialNode
+### NumberOfAxialNode
 
 Gets or sets the number of axial node.
 
@@ -325,7 +325,7 @@ public ExpressionValueVariable NumberOfAxialNode { get; set; }
 
 Number of axial node is null.
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_NumberOfCircumferentialNode"></a> NumberOfCircumferentialNode
+### NumberOfCircumferentialNode
 
 Gets or sets the number of circumferential node.
 
@@ -343,7 +343,7 @@ public ExpressionValueVariable NumberOfCircumferentialNode { get; set; }
 
 Number of circumferential node is null.
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_SurfaceRoughness"></a> SurfaceRoughness
+### SurfaceRoughness
 
 Gets or sets the Surface roughness.
 
@@ -361,7 +361,7 @@ public ExpressionValueVariable SurfaceRoughness { get; set; }
 
 Surface roughness is null.
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_UseAsperityContact"></a> UseAsperityContact
+### UseAsperityContact
 
 Gets or sets the asperity contact use flag.
 
@@ -373,7 +373,7 @@ public bool UseAsperityContact { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_UseCompliance"></a> UseCompliance
+### UseCompliance
 
 Gets or sets the compliance use flag.
 
@@ -385,7 +385,7 @@ public bool UseCompliance { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_Width"></a> Width
+### Width
 
 Gets or sets the width.
 
@@ -405,7 +405,7 @@ width is null.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Bearing_PropertyEHDBearing_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -418,4 +418,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

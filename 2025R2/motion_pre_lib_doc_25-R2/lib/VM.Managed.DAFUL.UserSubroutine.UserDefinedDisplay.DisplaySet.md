@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet"></a> Class UserSubroutine.UserDefinedDisplay.DisplaySet
+# Class UserSubroutine.UserDefinedDisplay.DisplaySet
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet__ctor"></a> DisplaySet\(\)
+### DisplaySet\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.DisplaySet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public DisplaySet()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_DisplaySequence"></a> DisplaySequence
+### DisplaySequence
 
 Gets the display sequence.
 
@@ -118,7 +118,7 @@ public int DisplaySequence { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_MultiPositionAndScalarSequence"></a> MultiPositionAndScalarSequence
+### MultiPositionAndScalarSequence
 
 Gets or sets the multi position and scalar sequence.
 
@@ -130,7 +130,7 @@ public UserSubroutine.UserDefinedDisplay.DisplaySet.PositionAndScalarStartSequen
 
  [UserSubroutine](VM.Managed.DAFUL.UserSubroutine.md).[UserDefinedDisplay](VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.md).[DisplaySet](VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.DisplaySet.md).[PositionAndScalarStartSequence](VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.DisplaySet.PositionAndScalarStartSequence.md)\[\]
 
-### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_ParentBody"></a> ParentBody
+### ParentBody
 
 Gets or sets the Parent body.
 
@@ -142,7 +142,7 @@ public ObjectBase ParentBody { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_SinglePositionSequence"></a> SinglePositionSequence
+### SinglePositionSequence
 
 Gets the single position sequence.
 
@@ -154,7 +154,7 @@ public int SinglePositionSequence { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_SingleScalarSequence"></a> SingleScalarSequence
+### SingleScalarSequence
 
 Gets the single scalar sequence.
 
@@ -165,4 +165,5 @@ public int SingleScalarSequence { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

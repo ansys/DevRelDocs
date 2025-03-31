@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_CreateFaceset"></a> Class CreateFaceset
+# Class CreateFaceset
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFaceset__ctor_VM_Managed_Document_"></a> CreateFaceset\(Document\)
+### CreateFaceset\(Document\)
 
 ```csharp
 public CreateFaceset(Document doc)
@@ -87,7 +87,7 @@ public CreateFaceset(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFaceset__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateFaceset\(JournalParameter\)
+### CreateFaceset\(JournalParameter\)
 
 ```csharp
 public CreateFaceset(JournalParameter jp)
@@ -99,7 +99,7 @@ public CreateFaceset(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFaceset_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFaceset_CreateSetFace_VM_Managed_Document3D_System_Collections_Generic_List_System_Int32__VM_Managed_ObjectBase_"></a> CreateSetFace\(Document3D, List<int\>, ObjectBase\)
+### CreateSetFace\(Document3D, List<int\>, ObjectBase\)
 
 ```csharp
 public static SetFace CreateSetFace(Document3D document, List<int> lstPID, ObjectBase objParent)
@@ -131,7 +131,7 @@ public static SetFace CreateSetFace(Document3D document, List<int> lstPID, Objec
 
  SetFace
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFaceset_CreateSetFace_VM_Managed_Document3D_System_String_System_Collections_Generic_List_System_Int32__VM_Managed_ObjectBase_"></a> CreateSetFace\(Document3D, string, List<int\>, ObjectBase\)
+### CreateSetFace\(Document3D, string, List<int\>, ObjectBase\)
 
 ```csharp
 public static SetFace CreateSetFace(Document3D document, string strName, List<int> lstPID, ObjectBase objParent)
@@ -151,7 +151,7 @@ public static SetFace CreateSetFace(Document3D document, string strName, List<in
 
  SetFace
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFaceset_CreateSetFaceWithFaceIndex_VM_Managed_Document3D_System_Collections_Generic_List_System_Int32__VM_Managed_ObjectBase_"></a> CreateSetFaceWithFaceIndex\(Document3D, List<int\>, ObjectBase\)
+### CreateSetFaceWithFaceIndex\(Document3D, List<int\>, ObjectBase\)
 
 ```csharp
 public static SetFace CreateSetFaceWithFaceIndex(Document3D document, List<int> lstFaceIndex, ObjectBase objParent)
@@ -169,7 +169,7 @@ public static SetFace CreateSetFaceWithFaceIndex(Document3D document, List<int> 
 
  SetFace
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFaceset_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -177,7 +177,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFaceset_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -186,4 +186,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_MCTMC"></a> Class MCTMC
+# Class MCTMC
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -229,7 +229,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC__ctor"></a> MCTMC\(\)
+### MCTMC\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MCTMC" data-throw-if-not-resolved="false"></xref> class.
 
@@ -237,7 +237,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MCTMC" da
 public MCTMC()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC__ctor_System_String_"></a> MCTMC\(string\)
+### MCTMC\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MCTMC" data-throw-if-not-resolved="false"></xref> class.
 
@@ -253,7 +253,7 @@ Name of the 2D contact.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC_ActionGeom"></a> ActionGeom
+### ActionGeom
 
 Gets or sets the action geom.
 
@@ -265,7 +265,7 @@ public ContactGeomCurveset ActionGeom { get; set; }
 
  [ContactGeomCurveset](VM.Managed.DAFUL.Contact.ContactGeomCurveset.md)
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -277,7 +277,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -289,7 +289,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC__ActionGeom"></a> \_ActionGeom
+### \_ActionGeom
 
 Gets or sets the action geom.
 
@@ -303,7 +303,7 @@ protected override IContactGeometry2Dot5D _ActionGeom { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -317,7 +317,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -337,7 +337,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC_GetChildList"></a> GetChildList\(\)
+### GetChildList\(\)
 
 Get child list
 
@@ -351,7 +351,7 @@ public override IEnumerable<ObjectBase> GetChildList()
 
 Child list
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -365,11 +365,12 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Contact_MCTMC_UpdateIcon"></a> UpdateIcon\(\)
+### UpdateIcon\(\)
 
 Updates the icon [Not Implemented].
 
 ```csharp
 protected override void UpdateIcon()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnRBE"></a> Class PointEntityOnRBE
+# Class PointEntityOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -175,7 +175,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnRBE__ctor"></a> PointEntityOnRBE\(\)
+### PointEntityOnRBE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -183,7 +183,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointEn
 public PointEntityOnRBE()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnRBE__ctor_System_String_"></a> PointEntityOnRBE\(string\)
+### PointEntityOnRBE\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnRBE_ConnectableEntity"></a> ConnectableEntity
+### ConnectableEntity
 
 Gets or sets the connectable entity.
 
@@ -211,7 +211,7 @@ public IConnectable ConnectableEntity { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnRBE_Position"></a> Position
+### Position
 
 Gets the position.
 
@@ -223,7 +223,7 @@ public virtual VectorBase Position { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointEntityOnRBE__ConnectableEntity"></a> \_ConnectableEntity
+### \_ConnectableEntity
 
 Gets or sets the _ connectable entity.
 
@@ -234,4 +234,5 @@ public Linker<IConnectable> _ConnectableEntity { get; set; }
 #### Property Value
 
  Linker<IConnectable\>
+
 

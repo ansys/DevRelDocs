@@ -1,4 +1,4 @@
-# <a id="VM_Models_CommandStepItem"></a> Class CommandStepItem
+# Class CommandStepItem
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -45,7 +45,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_CommandStepItem__ctor"></a> CommandStepItem\(\)
+### CommandStepItem\(\)
 
 ```csharp
 protected CommandStepItem()
@@ -53,7 +53,7 @@ protected CommandStepItem()
 
 ## Properties
 
-### <a id="VM_Models_CommandStepItem_Command"></a> Command
+### Command
 
 ```csharp
 public ICommand Command { get; protected set; }
@@ -63,7 +63,7 @@ public ICommand Command { get; protected set; }
 
  [ICommand](https://learn.microsoft.com/dotnet/api/system.windows.input.icommand)
 
-### <a id="VM_Models_CommandStepItem_DisplayName"></a> DisplayName
+### DisplayName
 
 ```csharp
 public string DisplayName { get; }
@@ -73,7 +73,7 @@ public string DisplayName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_CommandStepItem_Icon"></a> Icon
+### Icon
 
 ```csharp
 public object Icon { get; protected set; }
@@ -83,7 +83,7 @@ public object Icon { get; protected set; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Models_CommandStepItem_IsEnabled"></a> IsEnabled
+### IsEnabled
 
 ```csharp
 public bool IsEnabled { get; protected set; }
@@ -93,7 +93,7 @@ public bool IsEnabled { get; protected set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_CommandStepItem_IsVisible"></a> IsVisible
+### IsVisible
 
 ```csharp
 public bool IsVisible { get; protected set; }
@@ -103,7 +103,7 @@ public bool IsVisible { get; protected set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_CommandStepItem_Name"></a> Name
+### Name
 
 ```csharp
 public abstract string Name { get; }
@@ -113,7 +113,7 @@ public abstract string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_CommandStepItem_Parent"></a> Parent
+### Parent
 
 ```csharp
 public IStep Parent { get; protected set; }
@@ -123,7 +123,7 @@ public IStep Parent { get; protected set; }
 
  [IStep](VM.Models.IStep.md)
 
-### <a id="VM_Models_CommandStepItem_ToolTip"></a> ToolTip
+### ToolTip
 
 ```csharp
 public string ToolTip { get; protected set; }
@@ -135,15 +135,16 @@ public string ToolTip { get; protected set; }
 
 ## Methods
 
-### <a id="VM_Models_CommandStepItem_DisposeManagedResources"></a> DisposeManagedResources\(\)
+### DisposeManagedResources\(\)
 
 ```csharp
 protected override void DisposeManagedResources()
 ```
 
-### <a id="VM_Models_CommandStepItem_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 ```csharp
 public abstract void Initialize()
 ```
+
 

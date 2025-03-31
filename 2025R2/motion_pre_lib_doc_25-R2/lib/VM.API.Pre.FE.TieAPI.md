@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_TieAPI"></a> Class TieAPI
+# Class TieAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class TieAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_FE_TieAPI_CreateTie_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateTie\(IDocument, Obj, Obj, string\)
+### CreateTie\(IDocument, Obj, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.Builder.FE.Contact.Tie" data-throw-if-not-resolved="false"></xref>.
 
@@ -62,4 +62,5 @@ The new <xref href="VM.Managed.DAFUL.Builder.FE.Contact.Tie" data-throw-if-not-r
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' or 'baseContactable' or 'actionContactable' arguments are empty.
+
 

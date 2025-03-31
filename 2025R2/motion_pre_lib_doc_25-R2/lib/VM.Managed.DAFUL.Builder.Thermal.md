@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Thermal"></a> Namespace VM.Managed.DAFUL.Builder.Thermal
+# Namespace VM.Managed.DAFUL.Builder.Thermal
 
 ### Classes
 
@@ -13,4 +13,5 @@
  [Temperature](VM.Managed.DAFUL.Builder.Thermal.Temperature.md)
 
  [ThermalContact](VM.Managed.DAFUL.Builder.Thermal.ThermalContact.md)
+
 

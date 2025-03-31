@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_KeyInfo"></a> Struct KeyInfo
+# Struct KeyInfo
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -11,7 +11,7 @@ public struct KeyInfo
 
 ## Properties
 
-### <a id="VM_CAD_Builders_KeyInfo_Key"></a> Key
+### Key
 
 Key of the geometry
 
@@ -25,7 +25,7 @@ public string Key { readonly get; set; }
 
 ## Operators
 
-### <a id="VM_CAD_Builders_KeyInfo_op_Implicit_System_UIntPtr__VM_CAD_Builders_KeyInfo"></a> implicit operator KeyInfo\(UIntPtr\)
+### implicit operator KeyInfo\(UIntPtr\)
 
 Implicit operator to convert key to <xref href="VM.CAD.Builders.KeyInfo" data-throw-if-not-resolved="false"></xref> class
 
@@ -43,7 +43,7 @@ The key to convert.
 
  [KeyInfo](VM.CAD.Builders.KeyInfo.md)
 
-### <a id="VM_CAD_Builders_KeyInfo_op_Implicit_VM_CAD_Builders_KeyInfo__System_UIntPtr"></a> implicit operator UIntPtr\(KeyInfo\)
+### implicit operator UIntPtr\(KeyInfo\)
 
 Implicit operator to convert <xref href="VM.CAD.Builders.KeyInfo" data-throw-if-not-resolved="false"></xref> class to key
 
@@ -60,4 +60,5 @@ The <xref href="VM.CAD.Builders.KeyInfo" data-throw-if-not-resolved="false"></xr
 #### Returns
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+
 

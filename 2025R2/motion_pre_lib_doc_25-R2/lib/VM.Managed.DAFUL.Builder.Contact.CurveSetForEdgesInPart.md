@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForEdgesInPart"></a> Class CurveSetForEdgesInPart
+# Class CurveSetForEdgesInPart
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -58,7 +58,7 @@ BuilderBase<SetCurveBase\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForEdgesInPart__ctor"></a> CurveSetForEdgesInPart\(\)
+### CurveSetForEdgesInPart\(\)
 
 ```csharp
 public CurveSetForEdgesInPart()
@@ -66,7 +66,7 @@ public CurveSetForEdgesInPart()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForEdgesInPart_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -81,4 +81,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

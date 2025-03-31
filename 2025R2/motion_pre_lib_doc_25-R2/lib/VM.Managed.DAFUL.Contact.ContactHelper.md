@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactHelper"></a> Class ContactHelper
+# Class ContactHelper
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -22,7 +22,7 @@ public class ContactHelper
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_ContactHelper__ctor"></a> ContactHelper\(\)
+### ContactHelper\(\)
 
 ```csharp
 public ContactHelper()
@@ -30,7 +30,7 @@ public ContactHelper()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_ContactHelper_GetConnectorFromGeometry_VM_Managed_ObjectBase_"></a> GetConnectorFromGeometry\(ObjectBase\)
+### GetConnectorFromGeometry\(ObjectBase\)
 
 Get connector from geometry
 
@@ -49,4 +49,5 @@ Geometry
  ObjectBase
 
 Connector
+
 

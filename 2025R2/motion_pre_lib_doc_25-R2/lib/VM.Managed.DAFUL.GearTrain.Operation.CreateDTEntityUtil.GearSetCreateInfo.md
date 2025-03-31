@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo"></a> Class CreateDTEntityUtil.GearSetCreateInfo
+# Class CreateDTEntityUtil.GearSetCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -28,7 +28,7 @@ public class CreateDTEntityUtil.GearSetCreateInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo__ctor"></a> GearSetCreateInfo\(\)
+### GearSetCreateInfo\(\)
 
 ```csharp
 public GearSetCreateInfo()
@@ -36,7 +36,7 @@ public GearSetCreateInfo()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_Advanced"></a> Advanced
+### Advanced
 
 ```csharp
 public bool Advanced
@@ -46,7 +46,7 @@ public bool Advanced
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_CenterDistance"></a> CenterDistance
+### CenterDistance
 
 ```csharp
 public double[] CenterDistance
@@ -56,7 +56,7 @@ public double[] CenterDistance
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_FaceWidth"></a> FaceWidth
+### FaceWidth
 
 ```csharp
 public double[] FaceWidth
@@ -66,7 +66,7 @@ public double[] FaceWidth
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_GearType"></a> GearType
+### GearType
 
 ```csharp
 public BasicInvolute.GearType GearType
@@ -76,7 +76,7 @@ public BasicInvolute.GearType GearType
 
  BasicInvolute.GearType
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_HelicalAngleDirection"></a> HelicalAngleDirection
+### HelicalAngleDirection
 
 ```csharp
 public BasicInvolute.HelicalAngleType HelicalAngleDirection
@@ -86,7 +86,7 @@ public BasicInvolute.HelicalAngleType HelicalAngleDirection
 
  BasicInvolute.HelicalAngleType
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_HelixAngle"></a> HelixAngle
+### HelixAngle
 
 ```csharp
 public double HelixAngle
@@ -96,7 +96,7 @@ public double HelixAngle
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_KissSoft"></a> KissSoft
+### KissSoft
 
 ```csharp
 public bool KissSoft
@@ -106,7 +106,7 @@ public bool KissSoft
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_Module"></a> Module
+### Module
 
 ```csharp
 public double Module
@@ -116,7 +116,7 @@ public double Module
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_Name"></a> Name
+### Name
 
 ```csharp
 public string[] Name
@@ -126,7 +126,7 @@ public string[] Name
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_NumberOfGear"></a> NumberOfGear
+### NumberOfGear
 
 ```csharp
 public int NumberOfGear
@@ -136,7 +136,7 @@ public int NumberOfGear
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_NumberOfTeeth"></a> NumberOfTeeth
+### NumberOfTeeth
 
 ```csharp
 public int[] NumberOfTeeth
@@ -146,7 +146,7 @@ public int[] NumberOfTeeth
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_PasternAngle"></a> PasternAngle
+### PasternAngle
 
 ```csharp
 public double PasternAngle
@@ -156,7 +156,7 @@ public double PasternAngle
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_PressureAngle"></a> PressureAngle
+### PressureAngle
 
 ```csharp
 public double PressureAngle
@@ -166,7 +166,7 @@ public double PressureAngle
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_ProfileMethodType"></a> ProfileMethodType
+### ProfileMethodType
 
 ```csharp
 public BasicInvolute.ProfilMethodType ProfileMethodType
@@ -176,7 +176,7 @@ public BasicInvolute.ProfilMethodType ProfileMethodType
 
  BasicInvolute.ProfilMethodType
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_ProfileShift"></a> ProfileShift
+### ProfileShift
 
 ```csharp
 public double[] ProfileShift
@@ -186,7 +186,7 @@ public double[] ProfileShift
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_Reserved"></a> Reserved
+### Reserved
 
 ```csharp
 public double[] Reserved
@@ -198,7 +198,7 @@ public double[] Reserved
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_CenterDistances"></a> CenterDistances
+### CenterDistances
 
 ```csharp
 public string[] CenterDistances { get; }
@@ -208,7 +208,7 @@ public string[] CenterDistances { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_FaceWidths"></a> FaceWidths
+### FaceWidths
 
 ```csharp
 public string[] FaceWidths { get; }
@@ -218,7 +218,7 @@ public string[] FaceWidths { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; }
@@ -228,7 +228,7 @@ public string[] InputArray { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_InputArrayForCustom"></a> InputArrayForCustom
+### InputArrayForCustom
 
 ```csharp
 public string[] InputArrayForCustom { get; }
@@ -238,7 +238,7 @@ public string[] InputArrayForCustom { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_InputArrayForPlanetary"></a> InputArrayForPlanetary
+### InputArrayForPlanetary
 
 ```csharp
 public string[] InputArrayForPlanetary { get; }
@@ -248,7 +248,7 @@ public string[] InputArrayForPlanetary { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_Names"></a> Names
+### Names
 
 ```csharp
 public string Names { get; }
@@ -258,7 +258,7 @@ public string Names { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_NumberOfTeeths"></a> NumberOfTeeths
+### NumberOfTeeths
 
 ```csharp
 public string[] NumberOfTeeths { get; }
@@ -268,7 +268,7 @@ public string[] NumberOfTeeths { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_ProfileShifts"></a> ProfileShifts
+### ProfileShifts
 
 ```csharp
 public string[] ProfileShifts { get; }
@@ -280,27 +280,28 @@ public string[] ProfileShifts { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_InitializeCustom"></a> InitializeCustom\(\)
+### InitializeCustom\(\)
 
 ```csharp
 public void InitializeCustom()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_InitializeExternal"></a> InitializeExternal\(\)
+### InitializeExternal\(\)
 
 ```csharp
 public void InitializeExternal()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_InitializeInternal"></a> InitializeInternal\(\)
+### InitializeInternal\(\)
 
 ```csharp
 public void InitializeInternal()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_InitializePlanetary"></a> InitializePlanetary\(\)
+### InitializePlanetary\(\)
 
 ```csharp
 public void InitializePlanetary()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Restriction"></a> Struct Restriction
+# Struct Restriction
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +11,7 @@ public struct Restriction
 
 ## Constructors
 
-### <a id="VM_API_Pre_Restriction__ctor"></a> Restriction\(\)
+### Restriction\(\)
 
 Default constructor
 
@@ -19,7 +19,7 @@ Default constructor
 public Restriction()
 ```
 
-### <a id="VM_API_Pre_Restriction__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> Restriction\(ExpressionValueVariable, ExpressionValueVariable\)
+### Restriction\(ExpressionValueVariable, ExpressionValueVariable\)
 
 Initializes a new instance of the restriction class.
 
@@ -39,7 +39,7 @@ The minus.
 
 ## Properties
 
-### <a id="VM_API_Pre_Restriction_Minus"></a> Minus
+### Minus
 
 The value for the minus. The default value is 0.
 
@@ -51,7 +51,7 @@ public ExpressionValueVariable Minus { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_Restriction_Plus"></a> Plus
+### Plus
 
 The value for the plus. The default value is 0.
 
@@ -62,4 +62,5 @@ public ExpressionValueVariable Plus { readonly get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

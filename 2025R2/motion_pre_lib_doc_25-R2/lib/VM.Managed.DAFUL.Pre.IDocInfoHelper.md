@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IDocInfoHelper"></a> Interface IDocInfoHelper
+# Interface IDocInfoHelper
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IDocInfoHelper
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_IDocInfoHelper_UntitledDocCount"></a> UntitledDocCount
+### UntitledDocCount
 
 Gets or sets the untitled doc count.
 
@@ -28,4 +28,5 @@ uint UntitledDocCount { get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 

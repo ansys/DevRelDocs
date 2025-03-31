@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_SolidBodyShoe"></a> Class SolidBodyShoe
+# Class SolidBodyShoe
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -310,7 +310,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_SolidBodyShoe__ctor"></a> SolidBodyShoe\(\)
+### SolidBodyShoe\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> class.
 
@@ -318,7 +318,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SolidBodySh
 public SolidBodyShoe()
 ```
 
-### <a id="VM_Managed_DAFUL_Track_SolidBodyShoe__ctor_System_String_"></a> SolidBodyShoe\(string\)
+### SolidBodyShoe\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> class.
 
@@ -332,7 +332,7 @@ public SolidBodyShoe(string strName)
 
 Name of the solid shoe body.
 
-### <a id="VM_Managed_DAFUL_Track_SolidBodyShoe__ctor_System_String_VM_Managed_CAD_Builder_"></a> SolidBodyShoe\(string, Builder\)
+### SolidBodyShoe\(string, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> class.
 
@@ -352,7 +352,7 @@ The builder.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_SolidBodyShoe_ReGenerateBodyInformation_System_Xml_XmlDocument_"></a> ReGenerateBodyInformation\(XmlDocument\)
+### ReGenerateBodyInformation\(XmlDocument\)
 
 Sets body information
 
@@ -371,4 +371,5 @@ The data xml of roller
  [SolidBodyShoe](VM.Managed.DAFUL.Track.SolidBodyShoe.md)
 
 The body of shoe
+
 

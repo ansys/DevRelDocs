@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_KeyInfo"></a> Class KeyInfo
+# Class KeyInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -22,7 +22,7 @@ public class KeyInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_KeyInfo__ctor"></a> KeyInfo\(\)
+### KeyInfo\(\)
 
 ```csharp
 public KeyInfo()
@@ -30,7 +30,7 @@ public KeyInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_KeyInfo_Key"></a> Key
+### Key
 
 Gets and sets the key.
 
@@ -41,4 +41,5 @@ public string Key { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

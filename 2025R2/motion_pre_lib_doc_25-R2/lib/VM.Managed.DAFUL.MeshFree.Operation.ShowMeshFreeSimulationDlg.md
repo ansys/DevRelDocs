@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeSimulationDlg"></a> Class ShowMeshFreeSimulationDlg
+# Class ShowMeshFreeSimulationDlg
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -109,7 +109,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeSimulationDlg__ctor_VM_Managed_Document_"></a> ShowMeshFreeSimulationDlg\(Document\)
+### ShowMeshFreeSimulationDlg\(Document\)
 
 ```csharp
 public ShowMeshFreeSimulationDlg(Document doc)
@@ -119,7 +119,7 @@ public ShowMeshFreeSimulationDlg(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeSimulationDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowMeshFreeSimulationDlg\(JournalParameter\)
+### ShowMeshFreeSimulationDlg\(JournalParameter\)
 
 ```csharp
 public ShowMeshFreeSimulationDlg(JournalParameter jp)
@@ -131,7 +131,7 @@ public ShowMeshFreeSimulationDlg(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeSimulationDlg_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -145,13 +145,13 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeSimulationDlg_ExecuteImplNotPrePareSimulation"></a> ExecuteImplNotPrePareSimulation\(\)
+### ExecuteImplNotPrePareSimulation\(\)
 
 ```csharp
 protected override void ExecuteImplNotPrePareSimulation()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeSimulationDlg_PrepareForm_VM_Managed_DAFUL_Pre_Forms_SimulationFormBase_"></a> PrepareForm\(SimulationFormBase\)
+### PrepareForm\(SimulationFormBase\)
 
 ```csharp
 protected override void PrepareForm(SimulationFormBase form)
@@ -161,13 +161,13 @@ protected override void PrepareForm(SimulationFormBase form)
 
 `form` SimulationFormBase
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeSimulationDlg_ShowDialog"></a> ShowDialog\(\)
+### ShowDialog\(\)
 
 ```csharp
 protected override void ShowDialog()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowMeshFreeSimulationDlg_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -178,4 +178,5 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
+
 

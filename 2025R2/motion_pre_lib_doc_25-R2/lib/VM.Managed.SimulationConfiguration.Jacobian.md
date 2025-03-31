@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SimulationConfiguration_Jacobian"></a> Enum SimulationConfiguration.Jacobian
+# Enum SimulationConfiguration.Jacobian
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -20,6 +20,7 @@ Analytic
 `FDM = 2` 
 
 Finite difference method
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadFunction"></a> Class CLoadStandard.CLoadFunction
+# Class CLoadStandard.CLoadFunction
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadFunction__ctor_VM_Managed_DAFUL_FE_Force_CLoadStandard_"></a> CLoadFunction\(CLoadStandard\)
+### CLoadFunction\(CLoadStandard\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -112,7 +112,7 @@ The owner propery.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadFunction_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -123,4 +123,5 @@ public Function Function { get; set; }
 #### Property Value
 
  Function
+
 

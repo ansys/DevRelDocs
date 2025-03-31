@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeNotDelete"></a> Class AttributeNotDelete
+# Class AttributeNotDelete
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,11 +99,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_AttributeNotDelete__ctor"></a> AttributeNotDelete\(\)
+### AttributeNotDelete\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeNotDelete" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeNotDelete()
 ```
+
 

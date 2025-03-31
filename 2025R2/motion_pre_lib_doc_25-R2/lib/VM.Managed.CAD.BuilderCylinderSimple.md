@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderCylinderSimple"></a> Class BuilderCylinderSimple
+# Class BuilderCylinderSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -200,7 +200,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__ctor_VM_Managed_Variable_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderCylinderSimple\(Variable, PointBase, PointBase\)
+### BuilderCylinderSimple\(Variable, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -222,7 +222,7 @@ The bottom position of cylinder.
 
 The top position of cylinder.
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__ctor_System_Double_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderCylinderSimple\(double, PointBase, PointBase\)
+### BuilderCylinderSimple\(double, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -244,7 +244,7 @@ The bottom position of cylinder.
 
 The top position of cylinder.
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__ctor_VM_Managed_Variable_VM_Managed_PointBase_"></a> BuilderCylinderSimple\(Variable, PointBase\)
+### BuilderCylinderSimple\(Variable, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -262,7 +262,7 @@ The major radius of cylinder.(variable)
 
 The top position of cylinder.
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__ctor_System_Double_VM_Managed_PointBase_"></a> BuilderCylinderSimple\(double, PointBase\)
+### BuilderCylinderSimple\(double, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -280,7 +280,7 @@ The major radius of cylinder.
 
 The top position of cylinder.
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_"></a> BuilderCylinderSimple\(Variable, Variable\)
+### BuilderCylinderSimple\(Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -298,7 +298,7 @@ The major radius of cylinder.(variable)
 
 The height of cylinder.(variable)
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__ctor_System_Double_System_Double_"></a> BuilderCylinderSimple\(double, double\)
+### BuilderCylinderSimple\(double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -316,7 +316,7 @@ The major radius of cylinder.
 
 The height of cylinder.
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__ctor"></a> BuilderCylinderSimple\(\)
+### BuilderCylinderSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -326,7 +326,7 @@ public BuilderCylinderSimple()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple_BottomPosition"></a> BottomPosition
+### BottomPosition
 
 Gets or sets the bottom position of cylinder.
 
@@ -338,7 +338,7 @@ public PointBase BottomPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -350,7 +350,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple_RadiusMajor"></a> RadiusMajor
+### RadiusMajor
 
 Gets or sets the major radius of cylinder(variable).
 
@@ -362,7 +362,7 @@ public Variable RadiusMajor { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple_TopPosition"></a> TopPosition
+### TopPosition
 
 Gets or sets the top position of cylinder.
 
@@ -374,7 +374,7 @@ public PointBase TopPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__BottomPosition"></a> \_BottomPosition
+### \_BottomPosition
 
 Gets the bottom position of cylinder.
 
@@ -386,7 +386,7 @@ public override VectorBase _BottomPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__RadiusMajor"></a> \_RadiusMajor
+### \_RadiusMajor
 
 Gets the major radius of cylinder.
 
@@ -398,7 +398,7 @@ public override double _RadiusMajor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple__TopPosition"></a> \_TopPosition
+### \_TopPosition
 
 Gets the top position of cylinder.
 
@@ -412,7 +412,7 @@ public override VectorBase _TopPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
+### ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -420,7 +420,7 @@ Change data for circular reference.
 public override void ChangeDataForCircularReference()
 ```
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
+### CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -434,7 +434,7 @@ public override void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -448,7 +448,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_BuilderCylinderSimple_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -461,4 +461,5 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
+
 

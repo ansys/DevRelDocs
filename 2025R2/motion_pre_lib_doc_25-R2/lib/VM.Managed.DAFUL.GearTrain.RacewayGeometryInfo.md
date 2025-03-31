@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo"></a> Class RacewayGeometryInfo
+# Class RacewayGeometryInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo__ctor"></a> RacewayGeometryInfo\(\)
+### RacewayGeometryInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Raceway
 public RacewayGeometryInfo()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo__ctor_System_String_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_"></a> RacewayGeometryInfo\(string, RacewayType\)
+### RacewayGeometryInfo\(string, RacewayType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -202,7 +202,7 @@ The type.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_GeometryDepth"></a> GeometryDepth
+### GeometryDepth
 
 Gets the geometry depth.
 
@@ -214,7 +214,7 @@ public override double GeometryDepth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_InnerRadius"></a> InnerRadius
+### InnerRadius
 
 Gets or sets the inner radius.
 Use SetInnerRadius() when this instance sets for undo/redo
@@ -227,7 +227,7 @@ public double InnerRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_OuterRadius"></a> OuterRadius
+### OuterRadius
 
 Gets or sets the outer radius.
 Use SetOuterRadius() when this instance sets for undo/redo
@@ -240,7 +240,7 @@ public double OuterRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_Type"></a> Type
+### Type
 
 Gets or sets the type.
 Use SetType() when this instance sets for undo/redo
@@ -253,7 +253,7 @@ public RacewayGeometryInfo.RacewayType Type { get; set; }
 
  [RacewayGeometryInfo](VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo.md).[RacewayType](VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo.RacewayType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_TypeOfGeometry"></a> TypeOfGeometry
+### TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -265,7 +265,7 @@ public override GeometryInfoBase.GeometryType TypeOfGeometry { get; }
 
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md).[GeometryType](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.GeometryType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_Width"></a> Width
+### Width
 
 Gets or sets the width.
 Use SetWidth() when this instance sets for undo/redo
@@ -280,7 +280,7 @@ public double Width { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_CreateRacewayInHiddenDocument_VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_"></a> CreateRacewayInHiddenDocument\(HiddenBearingDocument, RacewayGeometryInfo, RacewayGeometryInfo\)
+### CreateRacewayInHiddenDocument\(HiddenBearingDocument, RacewayGeometryInfo, RacewayGeometryInfo\)
 
 Creates the raceway in hidden document.
 
@@ -302,7 +302,7 @@ The outer_info.
 
 The inner_info.
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_CreateRacewayInStiffnessDocument_VM_Managed_DAFUL_SubSystemDocument_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_GearTrain_Bearing_"></a> CreateRacewayInStiffnessDocument\(SubSystemDocument, RacewayGeometryInfo, RacewayGeometryInfo, Bearing\)
+### CreateRacewayInStiffnessDocument\(SubSystemDocument, RacewayGeometryInfo, RacewayGeometryInfo, Bearing\)
 
 Creates the raceway in stiffness document.
 
@@ -328,7 +328,7 @@ The inner_info.
 
 The bearing.
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_GetBuilder_VM_Managed_CAD_BuilderMultiSubtractSimple_VM_Managed_DAFUL_GearTrain_Bearing_"></a> GetBuilder\(BuilderMultiSubtractSimple, Bearing\)
+### GetBuilder\(BuilderMultiSubtractSimple, Bearing\)
 
 Gets the builder.
 
@@ -350,7 +350,7 @@ The owner bearing.
 
  Builder
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_GetBuilder_VM_Managed_CAD_BuilderMultiSubtractSimple_VM_Managed_DAFUL_GearTrain_Bearing_VM_Managed_TMatrix_System_Boolean_"></a> GetBuilder\(BuilderMultiSubtractSimple, Bearing, TMatrix, bool\)
+### GetBuilder\(BuilderMultiSubtractSimple, Bearing, TMatrix, bool\)
 
 Gets the builder.
 
@@ -380,7 +380,7 @@ The flag of reverse direction.
 
  Builder
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_GetTruncatedBuilder_VM_Managed_CAD_BuilderMultiSubtractSimple_VM_Managed_DAFUL_GearTrain_Bearing_VM_Managed_TMatrix_"></a> GetTruncatedBuilder\(BuilderMultiSubtractSimple, Bearing, TMatrix\)
+### GetTruncatedBuilder\(BuilderMultiSubtractSimple, Bearing, TMatrix\)
 
 Gets the builder.
 
@@ -406,7 +406,7 @@ The transformation.
 
  Builder
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_SetInnerRadius_System_Double_"></a> SetInnerRadius\(double\)
+### SetInnerRadius\(double\)
 
 Set inner radius.
 
@@ -420,7 +420,7 @@ public void SetInnerRadius(double dRadius)
 
 The inner radius.
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_SetOuterRadius_System_Double_"></a> SetOuterRadius\(double\)
+### SetOuterRadius\(double\)
 
 Set outer radius.
 
@@ -434,7 +434,7 @@ public void SetOuterRadius(double dRadius)
 
 The outer radius.
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_SetType_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_"></a> SetType\(RacewayType\)
+### SetType\(RacewayType\)
 
 Set raceway type.
 
@@ -448,7 +448,7 @@ public void SetType(RacewayGeometryInfo.RacewayType type)
 
 The raceway type.
 
-### <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_SetWidth_System_Double_"></a> SetWidth\(double\)
+### SetWidth\(double\)
 
 Set width.
 
@@ -461,4 +461,5 @@ public void SetWidth(double dWidth)
 `dWidth` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The width.
+
 

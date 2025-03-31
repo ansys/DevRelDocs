@@ -131,7 +131,7 @@ The <code class="paramref">newName</code> parameter specifies the name of the ne
 
 ### CreateVectorDisplay\(string, string\)
 
-Creates a vector display for the specified entity and characteristic. Please refer to this [here](../getting_started_operation_api_using_py.md#How-to-input-the-value-of-the-target-into-the-function-parameter?) link.
+Creates a vector display for the specified entity and characteristic. Please refer to this [here](../getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter) link.
 
 ```python
 IOperationsVectorDisplayBaseViewModel CreateVectorDisplay(string entityName, string characteristic)

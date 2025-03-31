@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_FlowDataColumn"></a> Class FlowDataColumn
+# Class FlowDataColumn
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -22,13 +22,13 @@ public class FlowDataColumn : DataColumn
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_FlowDataColumn__ctor"></a> FlowDataColumn\(\)
+### FlowDataColumn\(\)
 
 ```csharp
 public FlowDataColumn()
 ```
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_FlowDataColumn__ctor_System_String_System_Type_"></a> FlowDataColumn\(string, Type\)
+### FlowDataColumn\(string, Type\)
 
 ```csharp
 public FlowDataColumn(string columnName, Type dataType)
@@ -42,7 +42,7 @@ public FlowDataColumn(string columnName, Type dataType)
 
 ## Properties
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_FlowDataColumn_Guid"></a> Guid
+### Guid
 
 ```csharp
 public Guid Guid { get; set; }
@@ -51,4 +51,5 @@ public Guid Guid { get; set; }
 #### Property Value
 
  [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
+
 

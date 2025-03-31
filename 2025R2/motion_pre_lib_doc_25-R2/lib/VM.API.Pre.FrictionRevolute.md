@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FrictionRevolute"></a> Class FrictionRevolute
+# Class FrictionRevolute
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -38,7 +38,7 @@ public class FrictionRevolute : Friction
 
 ## Constructors
 
-### <a id="VM_API_Pre_FrictionRevolute__ctor"></a> FrictionRevolute\(\)
+### FrictionRevolute\(\)
 
 Default constructor
 
@@ -46,7 +46,7 @@ Default constructor
 public FrictionRevolute()
 ```
 
-### <a id="VM_API_Pre_FrictionRevolute__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Managed_DAFUL_Constraints_Friction_EffectType_System_Boolean_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> FrictionRevolute\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType, bool, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
+### FrictionRevolute\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType, bool, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.FrictionRevolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ The preTorque.
 
 ## Properties
 
-### <a id="VM_API_Pre_FrictionRevolute_BendingReactionArm"></a> BendingReactionArm
+### BendingReactionArm
 
 The value for the bending reaction arm. The default value is 1.
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable BendingReactionArm { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FrictionRevolute_FrictionArm"></a> FrictionArm
+### FrictionArm
 
 The value for the friction arm. The default value is 1.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable FrictionArm { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FrictionRevolute_PinRadius"></a> PinRadius
+### PinRadius
 
 The value for the pin Radius. The default value is 1.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable PinRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FrictionRevolute_PreTorque"></a> PreTorque
+### PreTorque
 
 The value for the preTorque. The default value is 0.
 
@@ -153,4 +153,5 @@ public ExpressionValueVariable PreTorque { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

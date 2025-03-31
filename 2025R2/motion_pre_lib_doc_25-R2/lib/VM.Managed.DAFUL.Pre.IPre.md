@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IPre"></a> Interface IPre
+# Interface IPre
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IPre
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_ActiveDocument"></a> ActiveDocument
+### ActiveDocument
 
 Gets the active document.
 
@@ -29,7 +29,7 @@ IDocument ActiveDocument { get; }
 
  IDocument
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_ActiveDocumentViewModel"></a> ActiveDocumentViewModel
+### ActiveDocumentViewModel
 
 Gets the active document view model
 
@@ -41,7 +41,7 @@ IDocumentViewModel ActiveDocumentViewModel { get; }
 
  IDocumentViewModel
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_ApplicationCore"></a> ApplicationCore
+### ApplicationCore
 
 Gets the application core.
 
@@ -53,7 +53,7 @@ Application ApplicationCore { get; }
 
  Application
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_DialogManager"></a> DialogManager
+### DialogManager
 
 Gets the dialog manager.
 
@@ -65,7 +65,7 @@ IDlgManager DialogManager { get; }
 
  IDlgManager
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_GlobalJournal"></a> GlobalJournal
+### GlobalJournal
 
 Gets the global journal.
 
@@ -77,7 +77,7 @@ JournalRecorder GlobalJournal { get; }
 
  JournalRecorder
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_LocalJournal"></a> LocalJournal
+### LocalJournal
 
 Gets the local journal.
 
@@ -89,7 +89,7 @@ JournalRecorder LocalJournal { get; }
 
  JournalRecorder
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_MainWindow"></a> MainWindow
+### MainWindow
 
 Gets the main window.
 
@@ -101,7 +101,7 @@ IMainWindow MainWindow { get; }
 
  [IMainWindow](VM.Managed.DAFUL.Pre.IMainWindow.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_UnUseMRU"></a> UnUseMRU
+### UnUseMRU
 
 Gets or sets a value indicating whether [un use MRU].
 
@@ -113,7 +113,7 @@ bool UnUseMRU { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_Version"></a> Version
+### Version
 
 Gets the version.
 
@@ -125,7 +125,7 @@ string Version { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_WriteDFG"></a> WriteDFG
+### WriteDFG
 
 Gets or sets the WriteDFG flag.
 
@@ -139,7 +139,7 @@ bool WriteDFG { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_AutoSave"></a> AutoSave\(\)
+### AutoSave\(\)
 
 Auto save.
 
@@ -147,7 +147,7 @@ Auto save.
 void AutoSave()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CanSimulation_System_Boolean_"></a> CanSimulation\(bool\)
+### CanSimulation\(bool\)
 
 Determines whether this instance can simulation the specified b can.
 
@@ -161,7 +161,7 @@ void CanSimulation(bool bCan)
 
 if set to <code>true</code> [b can].
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_ClearMessage_System_String_"></a> ClearMessage\(string\)
+### ClearMessage\(string\)
 
 Clear Text.
 
@@ -175,7 +175,7 @@ void ClearMessage(string strName)
 
 Name.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CloseAllFile"></a> CloseAllFile\(\)
+### CloseAllFile\(\)
 
 Closes all file.
 
@@ -183,7 +183,7 @@ Closes all file.
 void CloseAllFile()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CloseAllFileExceptWork"></a> CloseAllFileExceptWork\(\)
+### CloseAllFileExceptWork\(\)
 
 Closes all file except work.
 
@@ -191,7 +191,7 @@ Closes all file except work.
 void CloseAllFileExceptWork()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CloseDocument_VM_Managed_Document_"></a> CloseDocument\(Document\)
+### CloseDocument\(Document\)
 
 Closes the file.
 
@@ -209,7 +209,7 @@ The <xref href="VM.Managed.Document" data-throw-if-not-resolved="false"></xref> 
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CloseFile_System_String_"></a> CloseFile\(string\)
+### CloseFile\(string\)
 
 Closes the file.
 
@@ -229,7 +229,7 @@ Name of the file.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CloseFile_System_String_System_Boolean_"></a> CloseFile\(string, bool\)
+### CloseFile\(string, bool\)
 
 Closes the file.
 
@@ -251,7 +251,7 @@ if set to <code>true</code> [b use work].
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CloseFile_System_String_System_Boolean_System_Boolean_"></a> CloseFile\(string, bool, bool\)
+### CloseFile\(string, bool, bool\)
 
 Closes the file.
 
@@ -277,7 +277,7 @@ if set to <code>true</code> [b activate].
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CloseHiddenFile_System_String_"></a> CloseHiddenFile\(string\)
+### CloseHiddenFile\(string\)
 
 Closes the hidden file.
 
@@ -295,7 +295,7 @@ Name of the string file.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CloseWork"></a> CloseWork\(\)
+### CloseWork\(\)
 
 Close work.
 
@@ -303,7 +303,7 @@ Close work.
 void CloseWork()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CreateDocument_System_String_"></a> CreateDocument\(string\)
+### CreateDocument\(string\)
 
 Creates the document.
 
@@ -323,7 +323,7 @@ Name of the file.
 
 The document.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CreateDocument_System_String_System_Boolean_"></a> CreateDocument\(string, bool\)
+### CreateDocument\(string, bool\)
 
 Creates the document.
 
@@ -347,7 +347,7 @@ if set to <code>true</code> [b activate].
 
 The document.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CreateDocument_System_String_System_Boolean_System_String_"></a> CreateDocument\(string, bool, string\)
+### CreateDocument\(string, bool, string\)
 
 Creates the document.
 
@@ -373,7 +373,7 @@ The STR doc create info.
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_CreateDocument_System_String_System_Boolean_System_String_System_Boolean_"></a> CreateDocument\(string, bool, string, bool\)
+### CreateDocument\(string, bool, string, bool\)
 
 Creates the document.
 
@@ -403,7 +403,7 @@ if set to <code>true</code> [b designer].
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_EndOutput_System_String_"></a> EndOutput\(string\)
+### EndOutput\(string\)
 
 Ends the output.
 
@@ -417,7 +417,7 @@ void EndOutput(string strName)
 
 Name.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_Fit_System_String_"></a> Fit\(string\)
+### Fit\(string\)
 
 Fits this instance.
 
@@ -431,7 +431,7 @@ void Fit(string strPathName)
 
 Name of the string path.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_GetAllOpenDocument"></a> GetAllOpenDocument\(\)
+### GetAllOpenDocument\(\)
 
 Gets all opend document.
 
@@ -443,7 +443,7 @@ List<Document> GetAllOpenDocument()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Document\>
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_GetDocumentFromOpenedDocument_System_String_"></a> GetDocumentFromOpenedDocument\(string\)
+### GetDocumentFromOpenedDocument\(string\)
 
 Gets the document from opened document.
 
@@ -461,7 +461,7 @@ Name of the file.
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_GetMode"></a> GetMode\(\)
+### GetMode\(\)
 
 Gets the mode.
 
@@ -475,7 +475,7 @@ string GetMode()
 
 The mode type
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_IsOpenDocument_System_String_"></a> IsOpenDocument\(string\)
+### IsOpenDocument\(string\)
 
 Determines whether [is open document] [the specified STR file name].
 
@@ -495,7 +495,7 @@ Name of the file.
 
 <code>true</code> if [is open document] [the specified STR file name]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_IsRunningSimulation"></a> IsRunningSimulation\(\)
+### IsRunningSimulation\(\)
 
 Determines whether [is running simulation].
 
@@ -507,7 +507,7 @@ bool IsRunningSimulation()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_NewFile_VM_Managed_DAFUL_Pre_NewFile_"></a> NewFile\(NewFile\)
+### NewFile\(NewFile\)
 
 New file.
 
@@ -521,7 +521,7 @@ void NewFile(NewFile nf)
 
 The new file information.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_NewModel_VM_Managed_DAFUL_Pre_NewModel_"></a> NewModel\(NewModel\)
+### NewModel\(NewModel\)
 
 New model.
 
@@ -535,7 +535,7 @@ void NewModel(NewModel nM)
 
 The new model information.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OpenDocument_System_String_"></a> OpenDocument\(string\)
+### OpenDocument\(string\)
 
 Opens the document.
 
@@ -555,7 +555,7 @@ Name of the file.
 
 The document.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OpenDocument_System_String_System_Boolean_"></a> OpenDocument\(string, bool\)
+### OpenDocument\(string, bool\)
 
 Opens the document.
 
@@ -579,7 +579,7 @@ if set to <code>true</code> [b activate].
 
 The document.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OpenDocumentFile_System_String_"></a> OpenDocumentFile\(string\)
+### OpenDocumentFile\(string\)
 
 Opens the document file.
 
@@ -597,7 +597,7 @@ Name of the STR file.
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OpenFile_System_String_System_String_"></a> OpenFile\(string, string\)
+### OpenFile\(string, string\)
 
 Opens the file.
 
@@ -621,7 +621,7 @@ The reference directory.
 
 The file informaton class.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OpenFileDialogAsMainWindow_VM_Managed_DAFUL_Pre_OpenFileDialogInfo_"></a> OpenFileDialogAsMainWindow\(OpenFileDialogInfo\)
+### OpenFileDialogAsMainWindow\(OpenFileDialogInfo\)
 
 Opens the file dialog as main window.
 
@@ -641,7 +641,7 @@ The info.
 
 the file name
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OpenHiddenDocument_System_Object_"></a> OpenHiddenDocument\(object\)
+### OpenHiddenDocument\(object\)
 
 Opens the hidden document.
 
@@ -659,7 +659,7 @@ The object.
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OpenModel_System_String_"></a> OpenModel\(string\)
+### OpenModel\(string\)
 
 Opens the model.
 
@@ -679,7 +679,7 @@ Name of the file.
 
 The model.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OpenWork_System_String_"></a> OpenWork\(string\)
+### OpenWork\(string\)
 
 Opens the work.
 
@@ -697,7 +697,7 @@ Name of the STR file.
 
  [Work](VM.Managed.DAFUL.Pre.Work.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_PrepareSimulation"></a> PrepareSimulation\(\)
+### PrepareSimulation\(\)
 
 Prepares the simulation.
 
@@ -711,7 +711,7 @@ bool PrepareSimulation()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_ReadAllText_System_String_System_String_"></a> ReadAllText\(string, string\)
+### ReadAllText\(string, string\)
 
 Reads all text.
 
@@ -729,7 +729,7 @@ The path.
 
 Name.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_ReadAllText_System_String_System_String_System_Boolean_"></a> ReadAllText\(string, string, bool\)
+### ReadAllText\(string, string, bool\)
 
 Reads all text.
 
@@ -751,7 +751,7 @@ Name.
 
 if set to <code>true</code> [b delete file].
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SaveAllFile"></a> SaveAllFile\(\)
+### SaveAllFile\(\)
 
 Saves all file.
 
@@ -763,7 +763,7 @@ SaveAllResult SaveAllFile()
 
  [SaveAllResult](VM.Managed.DAFUL.Pre.SaveAllResult.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SaveFile"></a> SaveFile\(\)
+### SaveFile\(\)
 
 Save the file.
 
@@ -771,7 +771,7 @@ Save the file.
 void SaveFile()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SaveFile_System_String_"></a> SaveFile\(string\)
+### SaveFile\(string\)
 
 Saves the file.
 
@@ -785,7 +785,7 @@ void SaveFile(string strPath)
 
 The path.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SaveFile_VM_Managed_Document_System_String_"></a> SaveFile\(Document, string\)
+### SaveFile\(Document, string\)
 
 Saves the file.
 
@@ -803,7 +803,7 @@ The doc.
 
 Name of the STR file.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SaveFile_VM_Managed_Document_System_String_System_Boolean_"></a> SaveFile\(Document, string, bool\)
+### SaveFile\(Document, string, bool\)
 
 Saves the file.
 
@@ -825,7 +825,7 @@ Name of the STR file.
 
 if set to <code>true</code> [b ignore extern change].
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SaveFileDialogAsMainWindow_VM_Managed_DAFUL_Pre_SaveFileDialogInfo_"></a> SaveFileDialogAsMainWindow\(SaveFileDialogInfo\)
+### SaveFileDialogAsMainWindow\(SaveFileDialogInfo\)
 
 Saves the file dialog as main window.
 
@@ -845,7 +845,7 @@ The info.
 
 the file name
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SaveModel_System_String_"></a> SaveModel\(string\)
+### SaveModel\(string\)
 
 Saves the model.
 
@@ -859,7 +859,7 @@ void SaveModel(string strFileName)
 
 Name of the file.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SaveWork_System_String_"></a> SaveWork\(string\)
+### SaveWork\(string\)
 
 Saves the work.
 
@@ -873,7 +873,7 @@ void SaveWork(string strFileName)
 
 Name of the file.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SetEnableOfTabCtrl_System_Object_System_Boolean_"></a> SetEnableOfTabCtrl\(object, bool\)
+### SetEnableOfTabCtrl\(object, bool\)
 
 Sets enable or disable of Tab..
 
@@ -891,7 +891,7 @@ The current document.
 
 if set to <code>true</code> [is enable].
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SetIntervalForAutoSize"></a> SetIntervalForAutoSize\(\)
+### SetIntervalForAutoSize\(\)
 
 Sets the size of the interval for auto.
 
@@ -899,7 +899,7 @@ Sets the size of the interval for auto.
 void SetIntervalForAutoSize()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SetPathName_System_String_System_String_"></a> SetPathName\(string, string\)
+### SetPathName\(string, string\)
 
 Set path name.
 
@@ -917,7 +917,7 @@ The old path.
 
 The new path.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SetProgressState_System_Int32_"></a> SetProgressState\(int\)
+### SetProgressState\(int\)
 
 Set taskbar progress state.
 
@@ -931,7 +931,7 @@ void SetProgressState(int nStats)
 
 0x0 : NOPROGRESS, 0x1 : INDETERMINATE, 0x2 : NORMAL, 0x4 : ERROR, 0x8 : PAUSED
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SetProgressValue_System_UInt64_System_UInt64_"></a> SetProgressValue\(ulong, ulong\)
+### SetProgressValue\(ulong, ulong\)
 
 Set taskbar progress value.
 
@@ -949,7 +949,7 @@ The completed value.
 
 The total value.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SetSimulationParameters_System_String_System_String_"></a> SetSimulationParameters\(string, string\)
+### SetSimulationParameters\(string, string\)
 
 Sets the simulation parameters.
 
@@ -973,7 +973,7 @@ Size of the step.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_SetStatusBar_System_String_"></a> SetStatusBar\(string\)
+### SetStatusBar\(string\)
 
 Set status bar.
 
@@ -987,7 +987,7 @@ void SetStatusBar(string strMessage)
 
 The message.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_StartOperationStatus"></a> StartOperationStatus\(\)
+### StartOperationStatus\(\)
 
 Starts the operation status.
 
@@ -995,7 +995,7 @@ Starts the operation status.
 void StartOperationStatus()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_StartOutput_System_String_System_String_"></a> StartOutput\(string, string\)
+### StartOutput\(string, string\)
 
 Starts the output.
 
@@ -1013,7 +1013,7 @@ The path.
 
 Name.
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OnActiveDocumentChanged"></a> OnActiveDocumentChanged
+### OnActiveDocumentChanged
 
 Occurs when [on active document changed].
 
@@ -1025,7 +1025,7 @@ event EventHandler OnActiveDocumentChanged
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="VM_Managed_DAFUL_Pre_IPre_OnActiveViewChanged"></a> OnActiveViewChanged
+### OnActiveViewChanged
 
 Occurs when [on active view changed].
 
@@ -1036,4 +1036,5 @@ event EventHandler OnActiveViewChanged
 #### Event Type
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
 

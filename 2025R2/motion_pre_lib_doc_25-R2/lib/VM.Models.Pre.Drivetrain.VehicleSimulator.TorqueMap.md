@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap"></a> Class TorqueMap
+# Class TorqueMap
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -50,7 +50,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap__ctor_System_Boolean_"></a> TorqueMap\(bool\)
+### TorqueMap\(bool\)
 
 ```csharp
 public TorqueMap(bool isPowerSplitMap)
@@ -62,7 +62,7 @@ public TorqueMap(bool isPowerSplitMap)
 
 ## Properties
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_IsPowerSplitMap"></a> IsPowerSplitMap
+### IsPowerSplitMap
 
 ```csharp
 public bool IsPowerSplitMap { get; set; }
@@ -74,7 +74,7 @@ public bool IsPowerSplitMap { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetDistinctXValues"></a> GetDistinctXValues\(\)
+### GetDistinctXValues\(\)
 
 ```csharp
 public double[] GetDistinctXValues()
@@ -84,7 +84,7 @@ public double[] GetDistinctXValues()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetMaximumY"></a> GetMaximumY\(\)
+### GetMaximumY\(\)
 
 ```csharp
 public double GetMaximumY()
@@ -94,7 +94,7 @@ public double GetMaximumY()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetMinimumY"></a> GetMinimumY\(\)
+### GetMinimumY\(\)
 
 ```csharp
 public double GetMinimumY()
@@ -104,7 +104,7 @@ public double GetMinimumY()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetXValues_System_Double_"></a> GetXValues\(double\)
+### GetXValues\(double\)
 
 ```csharp
 public double[] GetXValues(double z)
@@ -118,7 +118,7 @@ public double[] GetXValues(double z)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetXYPairs_System_Double_"></a> GetXYPairs\(double\)
+### GetXYPairs\(double\)
 
 ```csharp
 public IEnumerable<KeyValuePair<double, double>> GetXYPairs(double rpm)
@@ -132,7 +132,7 @@ public IEnumerable<KeyValuePair<double, double>> GetXYPairs(double rpm)
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<[double](https://learn.microsoft.com/dotnet/api/system.double), [double](https://learn.microsoft.com/dotnet/api/system.double)\>\>
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetYValue_System_Double_System_Double_"></a> GetYValue\(double, double\)
+### GetYValue\(double, double\)
 
 ```csharp
 public double GetYValue(double z, double x)
@@ -148,7 +148,7 @@ public double GetYValue(double z, double x)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetZAndLastYValues"></a> GetZAndLastYValues\(\)
+### GetZAndLastYValues\(\)
 
 ```csharp
 public IEnumerable<DataPoint> GetZAndLastYValues()
@@ -158,7 +158,7 @@ public IEnumerable<DataPoint> GetZAndLastYValues()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<DataPoint\>
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMap_GetZValues"></a> GetZValues\(\)
+### GetZValues\(\)
 
 ```csharp
 public double[] GetZValues()
@@ -167,4 +167,5 @@ public double[] GetZValues()
 #### Returns
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
+
 

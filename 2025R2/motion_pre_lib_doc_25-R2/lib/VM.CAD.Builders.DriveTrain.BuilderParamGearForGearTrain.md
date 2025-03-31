@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DriveTrain_BuilderParamGearForGearTrain"></a> Class BuilderParamGearForGearTrain
+# Class BuilderParamGearForGearTrain
 
 Namespace: [VM.CAD.Builders.DriveTrain](VM.CAD.Builders.DriveTrain.md)  
 Assembly: VM.CAD.Builders.DriveTrain.dll  
@@ -42,7 +42,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGearForGearTrain__ctor"></a> BuilderParamGearForGearTrain\(\)
+### BuilderParamGearForGearTrain\(\)
 
 ```csharp
 public BuilderParamGearForGearTrain()
@@ -50,7 +50,7 @@ public BuilderParamGearForGearTrain()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGearForGearTrain_IsCenterRotated"></a> IsCenterRotated
+### IsCenterRotated
 
 ```csharp
 public bool IsCenterRotated { get; set; }
@@ -60,7 +60,7 @@ public bool IsCenterRotated { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGearForGearTrain_IsInternal"></a> IsInternal
+### IsInternal
 
 ```csharp
 public int IsInternal { get; set; }
@@ -70,7 +70,7 @@ public int IsInternal { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGearForGearTrain_RootCircleRadius"></a> RootCircleRadius
+### RootCircleRadius
 
 ```csharp
 public double RootCircleRadius { get; set; }
@@ -80,7 +80,7 @@ public double RootCircleRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGearForGearTrain_ShapeName"></a> ShapeName
+### ShapeName
 
 ```csharp
 public string ShapeName { get; set; }
@@ -90,7 +90,7 @@ public string ShapeName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGearForGearTrain_TipCircleRadius"></a> TipCircleRadius
+### TipCircleRadius
 
 ```csharp
 public double TipCircleRadius { get; set; }
@@ -100,7 +100,7 @@ public double TipCircleRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamGearForGearTrain_WebRadius"></a> WebRadius
+### WebRadius
 
 ```csharp
 public double WebRadius { get; set; }
@@ -109,4 +109,5 @@ public double WebRadius { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_WheelBody"></a> Class WheelBody
+# Class WheelBody
 
 Namespace: [VM.Managed.DAFUL.Tire](VM.Managed.DAFUL.Tire.md)  
 Assembly: VMDTire.dll  
@@ -330,7 +330,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBody__ctor"></a> WheelBody\(\)
+### WheelBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.WheelBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -338,7 +338,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.WheelBody" d
 public WheelBody()
 ```
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBody__ctor_System_String_"></a> WheelBody\(string\)
+### WheelBody\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.WheelBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -352,7 +352,7 @@ public WheelBody(string strName)
 
 The Name.
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBody__ctor_System_String_VM_Managed_CAD_Builder_"></a> WheelBody\(string, Builder\)
+### WheelBody\(string, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.WheelBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -372,7 +372,7 @@ The builder.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBody_Roads"></a> Roads
+### Roads
 
 Gets or sets the roads.
 
@@ -386,7 +386,7 @@ public Road[] Roads { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBody_GetOrientation_VM_Managed_OMatrix_"></a> GetOrientation\(OMatrix\)
+### GetOrientation\(OMatrix\)
 
 Gets the orientation.
 
@@ -404,7 +404,7 @@ The mat input.
 
  OMatrix
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBody_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -417,4 +417,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

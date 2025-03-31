@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IMarker"></a> Interface IMarker
+# Interface IMarker
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IMarker
 
 ## Properties
 
-### <a id="VM_Managed_IMarker_FullName"></a> FullName
+### FullName
 
 ```csharp
 string FullName { get; }
@@ -27,7 +27,7 @@ string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_IMarker_ParentConnectableName"></a> ParentConnectableName
+### ParentConnectableName
 
 ```csharp
 string ParentConnectableName { get; }
@@ -37,7 +37,7 @@ string ParentConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_IMarker_ParentKey"></a> ParentKey
+### ParentKey
 
 ```csharp
 UIntPtr ParentKey { get; }
@@ -46,4 +46,5 @@ UIntPtr ParentKey { get; }
 #### Property Value
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearPairValue"></a> Class GearPairValue
+# Class GearPairValue
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPairValue__ctor"></a> GearPairValue\(\)
+### GearPairValue\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearPairValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public GearPairValue()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPairValue_Variables"></a> Variables
+### Variables
 
 Gets or sets the variables.
 
@@ -128,7 +128,7 @@ Variable list is null.
 or
 Variable is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPairValue_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 Gets or sets the variable.
 
@@ -142,7 +142,7 @@ public Variable this[int i] { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPairValue_InitChild_System_Int32_"></a> InitChild\(int\)
+### InitChild\(int\)
 
 Initializes the child.
 
@@ -156,7 +156,7 @@ public void InitChild(int nNum)
 
 The n number.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPairValue_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -169,4 +169,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

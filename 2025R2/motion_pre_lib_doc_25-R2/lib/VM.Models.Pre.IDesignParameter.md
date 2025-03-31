@@ -1,9 +1,9 @@
-# <a id="VM_Models_Pre_IDesignParameter"></a> Interface IDesignParameter
+# Interface IDesignParameter
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
 
-This interface is to represent the parameter of design.
+<p>This interface is to represent the parameter of design.</p>
 
 ```csharp
 public interface IDesignParameter
@@ -17,9 +17,9 @@ public interface IDesignParameter
 
 ## Methods
 
-### <a id="VM_Models_Pre_IDesignParameter_GetFullName"></a> GetFullName\(\)
+### GetFullName\(\)
 
-Get full name.
+<p>Get full name.</p>
 
 ```csharp
 string GetFullName()
@@ -29,5 +29,6 @@ string GetFullName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-Full Name
+<p>Full Name</p>
+
 

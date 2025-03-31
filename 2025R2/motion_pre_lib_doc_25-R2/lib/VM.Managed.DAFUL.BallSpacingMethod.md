@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BallSpacingMethod"></a> Enum BallSpacingMethod
+# Enum BallSpacingMethod
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -20,6 +20,7 @@ Equal
 `Specific = 1` 
 
 Specific
+
 
 
 

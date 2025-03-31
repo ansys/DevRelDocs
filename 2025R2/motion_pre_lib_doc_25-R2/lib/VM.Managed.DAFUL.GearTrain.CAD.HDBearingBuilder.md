@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilder"></a> Class HDBearingBuilder
+# Class HDBearingBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -229,7 +229,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilder__ctor"></a> HDBearingBuilder\(\)
+### HDBearingBuilder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDBearingBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -239,7 +239,7 @@ public HDBearingBuilder()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilder_IsReverse"></a> IsReverse
+### IsReverse
 
 Gets or sets a value indicating whether this is reverse.
 Use SetReverse() when this instance sets for undo/redo
@@ -252,7 +252,7 @@ public bool IsReverse { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilder_ReferenceOffset"></a> ReferenceOffset
+### ReferenceOffset
 
 Gets or sets the reference offset.
 Use SetReferenceOffset() when this instance sets for undo/redo
@@ -265,7 +265,7 @@ public double ReferenceOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilder_ReferencePoint"></a> ReferencePoint
+### ReferencePoint
 
 Gets or sets the reference point.
 Use SetReferencePoint() when this instance sets for undo/redo
@@ -278,7 +278,7 @@ public ReferencePointType ReferencePoint { get; set; }
 
  [ReferencePointType](VM.Managed.DAFUL.GearTrain.CAD.ReferencePointType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilder_Rotation"></a> Rotation
+### Rotation
 
 Gets or sets the rotation.
 Use SetRotation() when this instance sets for undo/redo
@@ -291,7 +291,7 @@ public OMatrix Rotation { get; set; }
 
  OMatrix
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilder_StartPoint"></a> StartPoint
+### StartPoint
 
 Gets or sets the start point.
 
@@ -302,4 +302,5 @@ public PointBase StartPoint { get; set; }
 #### Property Value
 
  PointBase
+
 

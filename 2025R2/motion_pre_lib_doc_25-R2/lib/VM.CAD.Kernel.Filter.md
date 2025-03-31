@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Filter"></a> Class Filter
+# Class Filter
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class Filter
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_Filter__ctor"></a> Filter\(\)
+### Filter\(\)
 
 ```csharp
 public Filter()
@@ -30,7 +30,7 @@ public Filter()
 
 ## Properties
 
-### <a id="VM_CAD_Kernel_Filter_description"></a> description
+### description
 
 ```csharp
 public string description { get; set; }
@@ -40,7 +40,7 @@ public string description { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Kernel_Filter_extension"></a> extension
+### extension
 
 ```csharp
 public extension[] extension { get; set; }
@@ -49,4 +49,5 @@ public extension[] extension { get; set; }
 #### Property Value
 
  [extension](VM.CAD.Kernel.extension.md)\[\]
+
 

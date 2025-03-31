@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_Pulley"></a> Class Pulley
+# Class Pulley
 
 Namespace: [VM.Managed.DAFUL.Builder.CPlacingConnector](VM.Managed.DAFUL.Builder.CPlacingConnector.md)  
 Assembly: VMBldCPlacingConnector.dll  
@@ -57,7 +57,7 @@ BuilderBase<Pulley\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_Pulley__ctor"></a> Pulley\(\)
+### Pulley\(\)
 
 ```csharp
 public Pulley()
@@ -65,7 +65,7 @@ public Pulley()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_Pulley_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -80,4 +80,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

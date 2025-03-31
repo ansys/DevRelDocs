@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Configuration_RecordOfStressStrain"></a> Enum Configuration.RecordOfStressStrain
+# Enum Configuration.RecordOfStressStrain
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -20,6 +20,7 @@ Skip
 `Write = 1` 
 
 Write
+
 
 
 

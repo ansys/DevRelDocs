@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_StringAPI"></a> Class StringAPI
+# Class StringAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class StringAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_StringAPI_CreateString_VM_Managed_DAFUL_SubSystemDocument_System_String_System_Boolean_System_String_System_Boolean_"></a> CreateString\(SubSystemDocument, string, bool, string, bool\)
+### CreateString\(SubSystemDocument, string, bool, string, bool\)
 
 Create <xref href="VM.Managed.DAFUL.StringValue" data-throw-if-not-resolved="false"></xref>.
 
@@ -64,4 +64,5 @@ The new <xref href="VM.Managed.DAFUL.Array" data-throw-if-not-resolved="false"><
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' is null.
+
 

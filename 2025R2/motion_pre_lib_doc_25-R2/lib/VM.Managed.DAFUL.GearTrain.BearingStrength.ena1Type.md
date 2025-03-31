@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_ena1Type"></a> Enum BearingStrength.ena1Type
+# Enum BearingStrength.ena1Type
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -44,6 +44,7 @@ public enum BearingStrength.ena1Type
 `_99 = 5` 
 
 99%
+
 
 
 

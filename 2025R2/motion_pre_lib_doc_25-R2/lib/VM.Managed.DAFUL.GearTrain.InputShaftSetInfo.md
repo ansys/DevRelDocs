@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo"></a> Class InputShaftSetInfo
+# Class InputShaftSetInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo__ctor"></a> InputShaftSetInfo\(\)
+### InputShaftSetInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.InputShaftSetInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public InputShaftSetInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo_InputShaftSet"></a> InputShaftSet
+### InputShaftSet
 
 Gets or sets the input shaft set.
 
@@ -118,7 +118,7 @@ public IHasPowerLoad InputShaftSet { get; set; }
 
  [IHasPowerLoad](VM.Managed.DAFUL.GearTrain.IHasPowerLoad.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo_IsCW"></a> IsCW
+### IsCW
 
 Gets or sets a value indicating whether this instance is cw.
 
@@ -130,7 +130,7 @@ public bool IsCW { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo_IsExternable"></a> IsExternable
+### IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -142,7 +142,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo__InputShaftSet"></a> \_InputShaftSet
+### \_InputShaftSet
 
 Gets or sets the input shaft set.
 
@@ -156,9 +156,9 @@ public Linker<IHasPowerLoad> _InputShaftSet { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -168,5 +168,6 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+
 

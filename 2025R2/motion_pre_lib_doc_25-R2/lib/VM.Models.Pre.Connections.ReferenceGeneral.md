@@ -1,9 +1,9 @@
-# <a id="VM_Models_Pre_Connections_ReferenceGeneral"></a> Class ReferenceGeneral
+# Class ReferenceGeneral
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
 
-This class is to represent the reference for general.
+<p>This class is to represent the reference for general.</p>
 
 ```csharp
 public class ReferenceGeneral : Reference, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IReferencable, INamed, INavigatorItem, IVisible, IReferenceAutoContactable, IAutoContactable, IBody, ITranslationalMotionComponent, IRotationalMotionComponent, ICouplerComponent, IForceComponent, IArgument
@@ -188,9 +188,9 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Connections_ReferenceGeneral__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceGeneral\(SerializationInfo, StreamingContext\)
+### ReferenceGeneral\(SerializationInfo, StreamingContext\)
 
-Initializes a new instance of the <xref href="VM.Models.Pre.Connections.ReferenceGeneral" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.ReferenceGeneral" data-throw-if-not-resolved="false"></xref> class.</p>
 
 ```csharp
 protected ReferenceGeneral(SerializationInfo info, StreamingContext context)
@@ -200,15 +200,15 @@ protected ReferenceGeneral(SerializationInfo info, StreamingContext context)
 
 `info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
 
-The info.
+<p>The info.</p>
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-The context.
+<p>The context.</p>
 
-### <a id="VM_Models_Pre_Connections_ReferenceGeneral__ctor_VM_Managed_ObjectBase_"></a> ReferenceGeneral\(ObjectBase\)
+### ReferenceGeneral\(ObjectBase\)
 
-Initializes a new instance of the <xref href="VM.Models.Pre.Connections.ReferenceGeneral" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.ReferenceGeneral" data-throw-if-not-resolved="false"></xref> class.</p>
 
 ```csharp
 public ReferenceGeneral(ObjectBase obj)
@@ -218,11 +218,11 @@ public ReferenceGeneral(ObjectBase obj)
 
 `obj` ObjectBase
 
-The reference's object.
+<p>The reference's object.</p>
 
 ## Methods
 
-### <a id="VM_Models_Pre_Connections_ReferenceGeneral_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -249,4 +249,5 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

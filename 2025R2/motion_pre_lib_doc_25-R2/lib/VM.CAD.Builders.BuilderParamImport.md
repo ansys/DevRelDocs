@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamImport"></a> Class BuilderParamImport
+# Class BuilderParamImport
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -36,7 +36,7 @@ public class BuilderParamImport : BuilderParamTransform
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamImport__ctor"></a> BuilderParamImport\(\)
+### BuilderParamImport\(\)
 
 ```csharp
 public BuilderParamImport()
@@ -44,7 +44,7 @@ public BuilderParamImport()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamImport_ImportInfo"></a> ImportInfo
+### ImportInfo
 
 Imported geometry information
 
@@ -56,7 +56,7 @@ public string ImportInfo { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Builders_BuilderParamImport_NameAttribute"></a> NameAttribute
+### NameAttribute
 
 Name attribute of the geometry
 
@@ -68,7 +68,7 @@ public string NameAttribute { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Builders_BuilderParamImport_Scale"></a> Scale
+### Scale
 
 Scale value of the geometry
 
@@ -79,4 +79,5 @@ public double Scale { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

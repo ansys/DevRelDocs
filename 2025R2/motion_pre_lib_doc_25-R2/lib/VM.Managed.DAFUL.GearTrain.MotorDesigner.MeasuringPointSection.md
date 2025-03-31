@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection"></a> Class MotorDesigner.MeasuringPointSection
+# Class MotorDesigner.MeasuringPointSection
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection__ctor"></a> MeasuringPointSection\(\)
+### MeasuringPointSection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.MeasuringPointSection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public MeasuringPointSection()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_BottomSideOfHousing"></a> BottomSideOfHousing
+### BottomSideOfHousing
 
 Gets or sets the bottom side of housing.
 
@@ -118,7 +118,7 @@ public MotorDesigner.MeasuringPointSection.MeasuringInfo BottomSideOfHousing { g
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[MeasuringPointSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.MeasuringPointSection.md).[MeasuringInfo](VM.Managed.DAFUL.GearTrain.MotorDesigner.MeasuringPointSection.MeasuringInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_RadiusOfRBECircle"></a> RadiusOfRBECircle
+### RadiusOfRBECircle
 
 Gets or sets the radius of RBE circle.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable RadiusOfRBECircle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_RearCoverCenter"></a> RearCoverCenter
+### RearCoverCenter
 
 Gets or sets the rear cover center.
 
@@ -142,7 +142,7 @@ public MotorDesigner.MeasuringPointSection.MeasuringInfo RearCoverCenter { get; 
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[MeasuringPointSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.MeasuringPointSection.md).[MeasuringInfo](VM.Managed.DAFUL.GearTrain.MotorDesigner.MeasuringPointSection.MeasuringInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_TopSideOfHousing"></a> TopSideOfHousing
+### TopSideOfHousing
 
 Gets or sets the top side of housing.
 
@@ -156,7 +156,7 @@ public MotorDesigner.MeasuringPointSection.MeasuringInfo TopSideOfHousing { get;
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -169,4 +169,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

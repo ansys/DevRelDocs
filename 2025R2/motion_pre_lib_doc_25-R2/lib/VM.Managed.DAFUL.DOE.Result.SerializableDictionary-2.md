@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Result_SerializableDictionary_2"></a> Class SerializableDictionary<TKey, TValue\>
+# Class SerializableDictionary<TKey, TValue\>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -27,7 +27,7 @@ public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_DOE_Result_SerializableDictionary_2__ctor"></a> SerializableDictionary\(\)
+### SerializableDictionary\(\)
 
 ```csharp
 public SerializableDictionary()
@@ -35,7 +35,7 @@ public SerializableDictionary()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_DOE_Result_SerializableDictionary_2_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 ```csharp
 public XmlSchema GetSchema()
@@ -45,7 +45,7 @@ public XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_SerializableDictionary_2_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 ```csharp
 public void ReadXml(XmlReader reader)
@@ -55,7 +55,7 @@ public void ReadXml(XmlReader reader)
 
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_SerializableDictionary_2_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 ```csharp
 public void WriteXml(XmlWriter writer)
@@ -64,4 +64,5 @@ public void WriteXml(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

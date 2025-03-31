@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IOrientationEulerAngle"></a> Interface IOrientationEulerAngle
+# Interface IOrientationEulerAngle
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -24,7 +24,7 @@ IHasID,
 
 ## Properties
 
-### <a id="VM_Models_Pre_IOrientationEulerAngle_Alpha"></a> Alpha
+### Alpha
 
 ```csharp
 IVariable Alpha { get; set; }
@@ -34,7 +34,7 @@ IVariable Alpha { get; set; }
 
  [IVariable](VM.Models.Pre.IVariable.md)
 
-### <a id="VM_Models_Pre_IOrientationEulerAngle_Beta"></a> Beta
+### Beta
 
 ```csharp
 IVariable Beta { get; set; }
@@ -44,7 +44,7 @@ IVariable Beta { get; set; }
 
  [IVariable](VM.Models.Pre.IVariable.md)
 
-### <a id="VM_Models_Pre_IOrientationEulerAngle_Gamma"></a> Gamma
+### Gamma
 
 ```csharp
 IVariable Gamma { get; set; }
@@ -53,4 +53,5 @@ IVariable Gamma { get; set; }
 #### Property Value
 
  [IVariable](VM.Models.Pre.IVariable.md)
+
 

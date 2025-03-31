@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_CodeTypes"></a> Enum CodeTypes
+# Enum CodeTypes
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,6 +20,7 @@ public enum CodeTypes
 `SolverModule = 0` 
 
 The PythonCode will be used as the user defined function expression module for the solver.
+
 
 
 

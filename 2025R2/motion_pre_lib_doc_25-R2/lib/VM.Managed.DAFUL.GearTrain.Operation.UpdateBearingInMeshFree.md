@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInMeshFree"></a> Class UpdateBearingInMeshFree
+# Class UpdateBearingInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -87,7 +87,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInMeshFree__ctor_System_String_System_String_System_String_"></a> UpdateBearingInMeshFree\(string, string, string\)
+### UpdateBearingInMeshFree\(string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBearingInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Name of the string rbe.
 
 The string z axis.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInMeshFree__ctor_VM_Managed_Document3D_System_String_System_String_System_String_"></a> UpdateBearingInMeshFree\(Document3D, string, string, string\)
+### UpdateBearingInMeshFree\(Document3D, string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBearingInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -135,7 +135,7 @@ Name of the string rbe.
 
 The string z axis.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInMeshFree__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateBearingInMeshFree\(JournalParameter\)
+### UpdateBearingInMeshFree\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBearingInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -148,4 +148,5 @@ public UpdateBearingInMeshFree(JournalParameter jp)
 `jp` JournalParameter
 
 The jp.
+
 

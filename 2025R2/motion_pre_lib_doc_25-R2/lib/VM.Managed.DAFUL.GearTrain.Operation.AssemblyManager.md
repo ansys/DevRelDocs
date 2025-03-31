@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManager"></a> Class AssemblyManager
+# Class AssemblyManager
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -83,7 +83,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManager__ctor_VM_Managed_Document_"></a> AssemblyManager\(Document\)
+### AssemblyManager\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.AssemblyManager" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ The document is null.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManager_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -119,7 +119,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManager_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -127,7 +127,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManager_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
+### OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -145,7 +145,7 @@ The sender.
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManager_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -162,4 +162,5 @@ The updater.
 `doc` Document
 
 The document.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_VectorForceFunction_FunctionType"></a> Enum VectorForceFunction.FunctionType
+# Enum VectorForceFunction.FunctionType
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -20,6 +20,7 @@ The standard function.
 `UserSubroutine = 1` 
 
 The user subroutine function.
+
 
 
 

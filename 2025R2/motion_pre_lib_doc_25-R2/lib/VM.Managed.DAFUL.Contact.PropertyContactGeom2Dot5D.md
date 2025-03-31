@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyContactGeom2Dot5D"></a> Class PropertyContactGeom2Dot5D
+# Class PropertyContactGeom2Dot5D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeom2Dot5D__ctor"></a> PropertyContactGeom2Dot5D\(\)
+### PropertyContactGeom2Dot5D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyContactGeom2Dot5D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertyContactGeom2Dot5D()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeom2Dot5D_HalfThickness"></a> HalfThickness
+### HalfThickness
 
 Gets or sets the Offset.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable HalfThickness { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeom2Dot5D_IsDisplayNormalDirection"></a> IsDisplayNormalDirection
+### IsDisplayNormalDirection
 
 Gets or sets a value indicating whether this instance is display for normal direction.
 
@@ -205,7 +205,7 @@ public bool IsDisplayNormalDirection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeom2Dot5D_IsFrontDirection"></a> IsFrontDirection
+### IsFrontDirection
 
 Gets or sets a value indicating whether this instance is up for normal direction.
 
@@ -217,7 +217,7 @@ public bool IsFrontDirection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeom2Dot5D_MaxPenetration"></a> MaxPenetration
+### MaxPenetration
 
 Gets or sets the max. penetration.
 
@@ -231,7 +231,7 @@ public ExpressionValueVariable MaxPenetration { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeom2Dot5D_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -244,4 +244,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

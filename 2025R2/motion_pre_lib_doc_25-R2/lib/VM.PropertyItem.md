@@ -1,4 +1,4 @@
-# <a id="VM_PropertyItem"></a> Class PropertyItem
+# Class PropertyItem
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -28,7 +28,7 @@ public class PropertyItem : MemberItem<PropertyDescriptor>
 
 ## Constructors
 
-### <a id="VM_PropertyItem__ctor_System_ComponentModel_PropertyDescriptor_"></a> PropertyItem\(PropertyDescriptor\)
+### PropertyItem\(PropertyDescriptor\)
 
 ```csharp
 public PropertyItem(PropertyDescriptor propertyDescriptor)
@@ -40,7 +40,7 @@ public PropertyItem(PropertyDescriptor propertyDescriptor)
 
 ## Properties
 
-### <a id="VM_PropertyItem_DisplayName"></a> DisplayName
+### DisplayName
 
 ```csharp
 public string DisplayName { get; }
@@ -50,7 +50,7 @@ public string DisplayName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_PropertyItem_IsBrowsable"></a> IsBrowsable
+### IsBrowsable
 
 ```csharp
 public bool IsBrowsable { get; }
@@ -60,7 +60,7 @@ public bool IsBrowsable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_PropertyItem_IsReadOnly"></a> IsReadOnly
+### IsReadOnly
 
 ```csharp
 public bool IsReadOnly { get; }
@@ -70,7 +70,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_PropertyItem_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; }
@@ -80,7 +80,7 @@ public string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_PropertyItem_PropertyDescriptor"></a> PropertyDescriptor
+### PropertyDescriptor
 
 ```csharp
 public PropertyDescriptor PropertyDescriptor { get; }
@@ -90,7 +90,7 @@ public PropertyDescriptor PropertyDescriptor { get; }
 
  [PropertyDescriptor](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor)
 
-### <a id="VM_PropertyItem_PropertyType"></a> PropertyType
+### PropertyType
 
 ```csharp
 public Type PropertyType { get; }
@@ -100,7 +100,7 @@ public Type PropertyType { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### <a id="VM_PropertyItem_TypeConverter"></a> TypeConverter
+### TypeConverter
 
 ```csharp
 public TypeConverter TypeConverter { get; }
@@ -112,7 +112,7 @@ public TypeConverter TypeConverter { get; }
 
 ## Methods
 
-### <a id="VM_PropertyItem_Is_System_Type_"></a> Is\(Type\)
+### Is\(Type\)
 
 ```csharp
 public bool Is(Type type)
@@ -126,7 +126,7 @@ public bool Is(Type type)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_PropertyItem_ToString"></a> ToString\(\)
+### ToString\(\)
 
 ```csharp
 public override string ToString()
@@ -135,4 +135,5 @@ public override string ToString()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

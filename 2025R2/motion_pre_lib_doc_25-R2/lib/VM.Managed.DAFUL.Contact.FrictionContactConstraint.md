@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_FrictionContactConstraint"></a> Class FrictionContactConstraint
+# Class FrictionContactConstraint
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -111,9 +111,10 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_FrictionContactConstraint__ctor"></a> FrictionContactConstraint\(\)
+### FrictionContactConstraint\(\)
 
 ```csharp
 public FrictionContactConstraint()
 ```
+
 

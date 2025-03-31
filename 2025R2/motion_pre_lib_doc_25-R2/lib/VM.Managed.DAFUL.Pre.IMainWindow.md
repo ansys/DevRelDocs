@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IMainWindow"></a> Interface IMainWindow
+# Interface IMainWindow
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IMainWindow
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_IMainWindow_ActiveHiddenFormView"></a> ActiveHiddenFormView
+### ActiveHiddenFormView
 
 Gets the active hidden form view.
 
@@ -29,7 +29,7 @@ IHiddenFormView ActiveHiddenFormView { get; }
 
  [IHiddenFormView](VM.Managed.DAFUL.Pre.IHiddenFormView.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IMainWindow_OperationStatus"></a> OperationStatus
+### OperationStatus
 
 Gets the operation status.
 
@@ -41,7 +41,7 @@ IOperationStatus OperationStatus { get; }
 
  [IOperationStatus](VM.Managed.DAFUL.Pre.IOperationStatus.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IMainWindow_OutputWindow"></a> OutputWindow
+### OutputWindow
 
 Gets the output window.
 
@@ -53,7 +53,7 @@ IOutputWindow OutputWindow { get; }
 
  [IOutputWindow](VM.Managed.DAFUL.Pre.IOutputWindow.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IMainWindow_PickerUI"></a> PickerUI
+### PickerUI
 
 Gets the picker UI.
 
@@ -65,7 +65,7 @@ IPickerUI PickerUI { get; }
 
  [IPickerUI](VM.Managed.DAFUL.Pre.IPickerUI.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IMainWindow_PropertyGrid"></a> PropertyGrid
+### PropertyGrid
 
 Gets the property grid.
 
@@ -77,7 +77,7 @@ IPropertyGrid PropertyGrid { get; }
 
  [IPropertyGrid](VM.Managed.DAFUL.Pre.IPropertyGrid.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IMainWindow_StatusBar"></a> StatusBar
+### StatusBar
 
 Gets the status bar.
 
@@ -89,7 +89,7 @@ IStatusBar StatusBar { get; }
 
  [IStatusBar](VM.Managed.DAFUL.Pre.IStatusBar.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IMainWindow_SubEntityGridView"></a> SubEntityGridView
+### SubEntityGridView
 
 Gets the sub entity grid view.
 
@@ -101,7 +101,7 @@ ISubEntityGridView SubEntityGridView { get; }
 
  [ISubEntityGridView](VM.Managed.DAFUL.Pre.ISubEntityGridView.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IMainWindow_UpdateNavigator"></a> UpdateNavigator
+### UpdateNavigator
 
 Gets the update navigator.
 
@@ -113,7 +113,7 @@ IUpdateNavigator UpdateNavigator { get; }
 
  [IUpdateNavigator](VM.Managed.DAFUL.Pre.IUpdateNavigator.md)
 
-### <a id="VM_Managed_DAFUL_Pre_IMainWindow_WorkView"></a> WorkView
+### WorkView
 
 Gets the work view.
 
@@ -124,4 +124,5 @@ IWorkView WorkView { get; }
 #### Property Value
 
  [IWorkView](VM.Managed.DAFUL.Pre.IWorkView.md)
+
 

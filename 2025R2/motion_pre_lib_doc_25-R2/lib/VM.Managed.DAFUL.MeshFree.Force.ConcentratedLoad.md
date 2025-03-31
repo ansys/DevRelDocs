@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Force_ConcentratedLoad"></a> Class ConcentratedLoad
+# Class ConcentratedLoad
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Force](VM.Managed.DAFUL.MeshFree.Force.md)  
 Assembly: VMDMeshFree.dll  
@@ -233,7 +233,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Force_ConcentratedLoad__ctor"></a> ConcentratedLoad\(\)
+### ConcentratedLoad\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Force.Co
 public ConcentratedLoad()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Force_ConcentratedLoad__ctor_System_String_"></a> ConcentratedLoad\(string\)
+### ConcentratedLoad\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Force_ConcentratedLoad_GenerableImpl"></a> GenerableImpl
+### GenerableImpl
 
 Gets a value indicating whether this instance is generable.
 
@@ -271,7 +271,7 @@ protected override bool GenerableImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Force_ConcentratedLoad_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -291,7 +291,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_MeshFree_Force_ConcentratedLoad_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -309,7 +309,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_MeshFree_Force_ConcentratedLoad_OnDeserializationForAttribute"></a> OnDeserializationForAttribute\(\)
+### OnDeserializationForAttribute\(\)
 
 Called when [deserialization for attribute].
 
@@ -317,7 +317,7 @@ Called when [deserialization for attribute].
 public override void OnDeserializationForAttribute()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Force_ConcentratedLoad_ReplaceEntityImpl_VM_Managed_Document_VM_Managed_IGenerable_"></a> ReplaceEntityImpl\(Document, IGenerable\)
+### ReplaceEntityImpl\(Document, IGenerable\)
 
 Replace entity
 
@@ -334,4 +334,5 @@ The document.
 `generableNew` IGenerable
 
 The new generable entity.
+
 

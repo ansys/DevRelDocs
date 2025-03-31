@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_DocumentLinkChildModifiedEvent"></a> Class DocumentLinkChildModifiedEvent
+# Class DocumentLinkChildModifiedEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -39,7 +39,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent__ctor_VM_Managed_Document_System_Object_System_String_System_Boolean_"></a> DocumentLinkChildModifiedEvent\(Document, object, string, bool\)
+### DocumentLinkChildModifiedEvent\(Document, object, string, bool\)
 
 ```csharp
 protected DocumentLinkChildModifiedEvent(Document doc, object obj, string strPropertyName, bool bChild)
@@ -55,7 +55,7 @@ protected DocumentLinkChildModifiedEvent(Document doc, object obj, string strPro
 
 `bChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent__ctor_VM_Managed_Document_System_Object_System_String_"></a> DocumentLinkChildModifiedEvent\(Document, object, string\)
+### DocumentLinkChildModifiedEvent\(Document, object, string\)
 
 ```csharp
 protected DocumentLinkChildModifiedEvent(Document doc, object obj, string strPropertyName)
@@ -69,7 +69,7 @@ protected DocumentLinkChildModifiedEvent(Document doc, object obj, string strPro
 
 `strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent__ctor"></a> DocumentLinkChildModifiedEvent\(\)
+### DocumentLinkChildModifiedEvent\(\)
 
 ```csharp
 protected DocumentLinkChildModifiedEvent()
@@ -77,7 +77,7 @@ protected DocumentLinkChildModifiedEvent()
 
 ## Methods
 
-### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -87,7 +87,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent_DocumentLinkChildModified_VM_Managed_Document_System_Object_System_String_System_Boolean_"></a> DocumentLinkChildModified\(Document, object, string, bool\)
+### DocumentLinkChildModified\(Document, object, string, bool\)
 
 ```csharp
 public static void DocumentLinkChildModified(Document doc, object obj, string strPropertyName, bool bChild)
@@ -103,7 +103,7 @@ public static void DocumentLinkChildModified(Document doc, object obj, string st
 
 `bChild` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent_DocumentLinkChildModified_VM_Managed_Document_System_Object_System_String_"></a> DocumentLinkChildModified\(Document, object, string\)
+### DocumentLinkChildModified\(Document, object, string\)
 
 ```csharp
 public static void DocumentLinkChildModified(Document doc, object obj, string strPropertyName)
@@ -117,7 +117,7 @@ public static void DocumentLinkChildModified(Document doc, object obj, string st
 
 `strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Redo(HistoryEventArgs args)
@@ -127,7 +127,7 @@ protected override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_DocumentLinkChildModifiedEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Undo(HistoryEventArgs args)
@@ -136,4 +136,5 @@ protected override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

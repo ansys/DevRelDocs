@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Render_IDrawIcon"></a> Interface IDrawIcon
+# Interface IDrawIcon
 
 Namespace: [VM.Managed.Render](VM.Managed.Render.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IDrawIcon
 
 ## Methods
 
-### <a id="VM_Managed_Render_IDrawIcon_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw
 
@@ -25,11 +25,12 @@ Redraw
 void ReDraw()
 ```
 
-### <a id="VM_Managed_Render_IDrawIcon_ReDrawForHistory"></a> ReDrawForHistory\(\)
+### ReDrawForHistory\(\)
 
 Redraw for undo/redo
 
 ```csharp
 void ReDrawForHistory()
 ```
+
 

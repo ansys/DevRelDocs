@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_EquationFunction"></a> Class EquationFunction
+# Class EquationFunction
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Equation_EquationFunction__ctor"></a> EquationFunction\(\)
+### EquationFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.EquationFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.Equation
 protected EquationFunction()
 ```
 
-### <a id="VM_Managed_DAFUL_Equation_EquationFunction__ctor_VM_Managed_DAFUL_Equation_Equation_"></a> EquationFunction\(Equation\)
+### EquationFunction\(Equation\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.EquationFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ The owner equation
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Equation_EquationFunction_InitialDisp"></a> InitialDisp
+### InitialDisp
 
 Gets or sets the initial displacement.
 
@@ -138,7 +138,7 @@ public Variable InitialDisp { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Equation_EquationFunction_Type"></a> Type
+### Type
 
 Gets the function type.
 
@@ -149,4 +149,5 @@ public abstract EquationFunction.FunctionType Type { get; }
 #### Property Value
 
  [EquationFunction](VM.Managed.DAFUL.Equation.EquationFunction.md).[FunctionType](VM.Managed.DAFUL.Equation.EquationFunction.FunctionType.md)
+
 

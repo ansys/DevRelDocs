@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetBodyFacesOp"></a> Class GetBodyFacesOp
+# Class GetBodyFacesOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_GetBodyFacesOp__ctor_VM_Managed_CAD_Body_System_Collections_Generic_ICollection_System_Int32__"></a> GetBodyFacesOp\(Body, ICollection<int\>\)
+### GetBodyFacesOp\(Body, ICollection<int\>\)
 
 ```csharp
 public GetBodyFacesOp(Body Body, ICollection<int> Colors)
@@ -89,7 +89,7 @@ public GetBodyFacesOp(Body Body, ICollection<int> Colors)
 
 `Colors` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="VM_Managed_CAD_GetBodyFacesOp__ctor_VM_Managed_CAD_Body_"></a> GetBodyFacesOp\(Body\)
+### GetBodyFacesOp\(Body\)
 
 ```csharp
 public GetBodyFacesOp(Body Body)
@@ -99,7 +99,7 @@ public GetBodyFacesOp(Body Body)
 
 `Body` [Body](VM.Managed.CAD.Body.md)
 
-### <a id="VM_Managed_CAD_GetBodyFacesOp__ctor"></a> GetBodyFacesOp\(\)
+### GetBodyFacesOp\(\)
 
 ```csharp
 public GetBodyFacesOp()
@@ -107,7 +107,7 @@ public GetBodyFacesOp()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_GetBodyFacesOp_Faces"></a> Faces
+### Faces
 
 Gets the Faces.
 
@@ -119,7 +119,7 @@ public List<Face> Faces { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Face](VM.Managed.CAD.Face.md)\>
 
-### <a id="VM_Managed_CAD_GetBodyFacesOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -131,7 +131,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_GetBodyFacesOp_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -145,11 +145,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_GetBodyFacesOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

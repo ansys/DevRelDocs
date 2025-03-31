@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_SuspensionTemplateConfigModify"></a> Class SuspensionTemplateConfigModify
+# Class SuspensionTemplateConfigModify
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -83,7 +83,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionTemplateConfigModify__ctor_VM_Managed_Document_"></a> SuspensionTemplateConfigModify\(Document\)
+### SuspensionTemplateConfigModify\(Document\)
 
 ```csharp
 public SuspensionTemplateConfigModify(Document doc)
@@ -95,7 +95,7 @@ public SuspensionTemplateConfigModify(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionTemplateConfigModify_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -109,7 +109,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionTemplateConfigModify_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -117,7 +117,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionTemplateConfigModify_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
+### OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -134,4 +134,5 @@ The sender.
 `arg` [CancelEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs)
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

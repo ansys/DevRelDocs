@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_PropertyConcentratedLoadBase"></a> Class PropertyConcentratedLoadBase
+# Class PropertyConcentratedLoadBase
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -170,9 +170,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyConcentratedLoadBase__ctor"></a> PropertyConcentratedLoadBase\(\)
+### PropertyConcentratedLoadBase\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PropertyConcentratedLoadBase" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PropertyConcentratedLoadBase" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.PropertyConcentratedLoadBase" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public PropertyConcentratedLoadBase()
@@ -180,9 +182,22 @@ public PropertyConcentratedLoadBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyConcentratedLoadBase_Function"></a> Function
+### Function
 
-Gets or sets the function of concentrated load.
+<p>Gets or sets the function of concentrated load.</p>
+<p>집중하중의 함수를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : ConcentratedLoadFunction
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : false
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public ConcentratedLoadFunction Function { get; set; }
@@ -192,9 +207,28 @@ public ConcentratedLoadFunction Function { get; set; }
 
  [ConcentratedLoadFunction](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.md)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyConcentratedLoadBase_FunctionDirectionType"></a> FunctionDirectionType
+### FunctionDirectionType
 
-Gets or sets the type of the direction.
+<p>Gets or sets the type of the direction.</p>
+<p>방향의 타입을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : DirectionType
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Direction Type
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Load
+        Category Index : 1
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyConcentratedLoadBase.DirectionType FunctionDirectionType { get; set; }
@@ -206,9 +240,10 @@ public PropertyConcentratedLoadBase.DirectionType FunctionDirectionType { get; s
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyConcentratedLoadBase_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
-Finds the local.
+<p>Finds the local.</p>
+<p>특정한 오브젝트로부터 이름을 가지고 원하는 오브젝트를 가져오는 함수입니다.</p>
 
 ```csharp
 public override IObjectBase FindLocal(string strName)
@@ -218,15 +253,17 @@ public override IObjectBase FindLocal(string strName)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-The Name that want to find.
+<p>The Name that want to find.</p>
+<p>찾고 싶은 엔티티의 이름입니다.</p>
 
 #### Returns
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyConcentratedLoadBase_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
-Gets the name of the unnamed object.
+<p>Gets the name of the unnamed object.</p>
+<p>이름이 없는 오브젝트에 정의된 이름을 가져오는 함수입니다.</p>
 
 ```csharp
 public override string GetUnnamedObjectName(object obUnnamed)
@@ -236,15 +273,17 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
 `obUnnamed` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-The object that find to specialize name.
+<p>The object that find to specialize name.</p>
+<p>특정한 이름을 찾고자 하는 오브젝트.</p>
 
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyConcentratedLoadBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
+<p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -254,5 +293,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+<p>단위 변환 팩터.</p>
+
 

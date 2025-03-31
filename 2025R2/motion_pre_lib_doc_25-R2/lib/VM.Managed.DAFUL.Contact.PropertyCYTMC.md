@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyCYTMC"></a> Class PropertyCYTMC
+# Class PropertyCYTMC
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -179,11 +179,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyCYTMC__ctor"></a> PropertyCYTMC\(\)
+### PropertyCYTMC\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyCYTMC" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyCYTMC()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RequestBase"></a> Class RequestBase
+# Class RequestBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -178,7 +178,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_RequestBase__ctor"></a> RequestBase\(\)
+### RequestBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -186,7 +186,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestBase" data
 public RequestBase()
 ```
 
-### <a id="VM_Managed_DAFUL_RequestBase__ctor_System_String_"></a> RequestBase\(string\)
+### RequestBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -202,7 +202,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_RequestBase_ActionEntity"></a> ActionEntity
+### ActionEntity
 
 Gets or sets the action entity.
 
@@ -214,7 +214,7 @@ public ObjectBase ActionEntity { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_RequestBase_NavigatorEntityName"></a> NavigatorEntityName
+### NavigatorEntityName
 
 ```csharp
 protected virtual string NavigatorEntityName { get; }
@@ -226,7 +226,7 @@ protected virtual string NavigatorEntityName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_RequestBase_AddNavigatorInfo_System_Xml_XmlDocument_System_Xml_XmlElement_System_String_VM_Managed_ObjectBase_System_String_System_Boolean_"></a> AddNavigatorInfo\(XmlDocument, XmlElement, string, ObjectBase, string, bool\)
+### AddNavigatorInfo\(XmlDocument, XmlElement, string, ObjectBase, string, bool\)
 
 Gets the object information for Add Navigator
 
@@ -254,7 +254,7 @@ The Group Name
 
 `bAddMarker` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestBase_AddNavigatorInfoForRequestEntity_System_Xml_XmlDocument_System_Xml_XmlElement_System_String_VM_Managed_ObjectBase_System_String_System_Boolean_"></a> AddNavigatorInfoForRequestEntity\(XmlDocument, XmlElement, string, ObjectBase, string, bool\)
+### AddNavigatorInfoForRequestEntity\(XmlDocument, XmlElement, string, ObjectBase, string, bool\)
 
 Gets the object information for Add Navigator
 
@@ -282,7 +282,7 @@ The Group Name
 
 `bAddMarker` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestBase_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -302,7 +302,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_RequestBase_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -330,7 +330,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_RequestBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -343,4 +343,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

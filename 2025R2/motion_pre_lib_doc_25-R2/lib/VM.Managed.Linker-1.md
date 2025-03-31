@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Linker_1"></a> Struct Linker<T\>
+# Struct Linker<T\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -15,7 +15,7 @@ public struct Linker<T>
 
 ## Constructors
 
-### <a id="VM_Managed_Linker_1__ctor__0_"></a> Linker\(T\)
+### Linker\(T\)
 
 Initializes a new instance of the <xref href="VM.Managed.Linker%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -27,7 +27,7 @@ public Linker(T t)
 
 `t` T
 
-### <a id="VM_Managed_Linker_1__ctor_VM_Managed_ITypedLink__0__"></a> Linker\(ITypedLink<T\>\)
+### Linker\(ITypedLink<T\>\)
 
 ```csharp
 public Linker(ITypedLink<T> link)
@@ -39,7 +39,7 @@ public Linker(ITypedLink<T> link)
 
 ## Properties
 
-### <a id="VM_Managed_Linker_1_IsReference"></a> IsReference
+### IsReference
 
 Gets a value indicating whether linked object is the reference.
 
@@ -51,7 +51,7 @@ public bool IsReference { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Linker_1_Key"></a> Key
+### Key
 
 Gets or sets the linked object's key.
 
@@ -63,7 +63,7 @@ public UIntPtr Key { get; }
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### <a id="VM_Managed_Linker_1_Object"></a> Object
+### Object
 
 Gets or sets the linked object.
 
@@ -75,7 +75,7 @@ public T Object { get; set; }
 
  T
 
-### <a id="VM_Managed_Linker_1_Prototype"></a> Prototype
+### Prototype
 
 Gets the linked object's prototype.
 
@@ -89,7 +89,7 @@ public T Prototype { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Linker_1_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface,
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic)
@@ -104,7 +104,7 @@ public XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_Linker_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -118,7 +118,7 @@ public void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_Linker_1_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -134,7 +134,7 @@ The XmlWriter stream to which the object is serialized.
 
 ## Operators
 
-### <a id="VM_Managed_Linker_1_op_Implicit__0__VM_Managed_Linker__0_"></a> implicit operator Linker<T\>\(T\)
+### implicit operator Linker<T\>\(T\)
 
 ```csharp
 public static implicit operator Linker<T>(T t)
@@ -148,7 +148,7 @@ public static implicit operator Linker<T>(T t)
 
  [Linker](VM.Managed.Linker\-1.md)<T\>
 
-### <a id="VM_Managed_Linker_1_op_Implicit_VM_Managed_Linker__0____0"></a> implicit operator T\(Linker<T\>\)
+### implicit operator T\(Linker<T\>\)
 
 ```csharp
 public static implicit operator T(Linker<T> linker)
@@ -161,4 +161,5 @@ public static implicit operator T(Linker<T> linker)
 #### Returns
 
  T
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Connector_5"></a> Class Connector<T, TProp, TSetPositon, TSetDirection, TSetOrientation\>
+# Class Connector<T, TProp, TSetPositon, TSetDirection, TSetOrientation\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class Connector<T, TProp, TSetPositon, TSetDirection, TSetOrientation> : 
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Connector_5__ctor"></a> Connector\(\)
+### Connector\(\)
 
 ```csharp
 public Connector()
@@ -73,7 +73,7 @@ public Connector()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Connector_5_ActionConnectable"></a> ActionConnectable
+### ActionConnectable
 
 ```csharp
 public IConnectable ActionConnectable { get; }
@@ -83,7 +83,7 @@ public IConnectable ActionConnectable { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_Builder_Connector_5_AddToDoc"></a> AddToDoc
+### AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -93,7 +93,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Connector_5_BaseConnectable"></a> BaseConnectable
+### BaseConnectable
 
 ```csharp
 public IConnectable BaseConnectable { get; }
@@ -103,7 +103,7 @@ public IConnectable BaseConnectable { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_Builder_Connector_5_BuildObject"></a> BuildObject
+### BuildObject
 
 ```csharp
 public override ObjectBase BuildObject { get; }
@@ -115,7 +115,7 @@ public override ObjectBase BuildObject { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Connector_5_HookBeforeReplace_VM_Managed_Property_"></a> HookBeforeReplace\(Property\)
+### HookBeforeReplace\(Property\)
 
 ```csharp
 protected virtual void HookBeforeReplace(Property propertyOriginal)
@@ -125,7 +125,7 @@ protected virtual void HookBeforeReplace(Property propertyOriginal)
 
 `propertyOriginal` Property
 
-### <a id="VM_Managed_DAFUL_Builder_Connector_5_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
+### OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -135,7 +135,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_Connector_5_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -150,4 +150,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

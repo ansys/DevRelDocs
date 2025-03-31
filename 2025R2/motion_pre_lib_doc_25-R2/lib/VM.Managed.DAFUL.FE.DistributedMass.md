@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_DistributedMass"></a> Class DistributedMass
+# Class DistributedMass
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -188,7 +188,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass__ctor_System_String_VM_Managed_DAFUL_FE_SetPatchBase_"></a> DistributedMass\(string, SetPatchBase\)
+### DistributedMass\(string, SetPatchBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.DistributedMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -206,7 +206,7 @@ Name of the distributed mass.
 
 Sets of the distributed mass.
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass__ctor_System_String_"></a> DistributedMass\(string\)
+### DistributedMass\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.DistributedMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public DistributedMass(string strName)
 
 Name of the distributed mass.
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass__ctor"></a> DistributedMass\(\)
+### DistributedMass\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.DistributedMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -230,7 +230,7 @@ public DistributedMass()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass_MassPerUnit"></a> MassPerUnit
+### MassPerUnit
 
 Gets or sets the mass per unit.
 
@@ -242,7 +242,7 @@ public ExpressionValueVariable MassPerUnit { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass_TargetGeometry"></a> TargetGeometry
+### TargetGeometry
 
 Gets or Sets the target geomaetry.
 
@@ -254,7 +254,7 @@ public SetPatchBase TargetGeometry { get; set; }
 
  [SetPatchBase](VM.Managed.DAFUL.FE.SetPatchBase.md)
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass_TotalMass"></a> TotalMass
+### TotalMass
 
 Gets or sets the total mass.
 
@@ -268,7 +268,7 @@ public ExpressionValueVariable TotalMass { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -282,7 +282,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -310,7 +310,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -324,7 +324,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_FE_DistributedMass_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -341,4 +341,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

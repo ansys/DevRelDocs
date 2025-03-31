@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ShowTireSimulationDlg"></a> Class ShowTireSimulationDlg
+# Class ShowTireSimulationDlg
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -107,7 +107,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShowTireSimulationDlg__ctor_VM_Managed_Document_"></a> ShowTireSimulationDlg\(Document\)
+### ShowTireSimulationDlg\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.ShowTireSimulationDlg" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ public ShowTireSimulationDlg(Document doc)
 
 The doc.
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShowTireSimulationDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowTireSimulationDlg\(JournalParameter\)
+### ShowTireSimulationDlg\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.ShowTireSimulationDlg" data-throw-if-not-resolved="false"></xref> class.
 
@@ -137,7 +137,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShowTireSimulationDlg_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -151,7 +151,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShowTireSimulationDlg_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -159,7 +159,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShowTireSimulationDlg_ExecuteImpl"></a> ExecuteImpl\(\)
+### ExecuteImpl\(\)
 
 Executes [implementation].
 
@@ -167,7 +167,7 @@ Executes [implementation].
 protected override void ExecuteImpl()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShowTireSimulationDlg_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
+### SimulationRunImpl\(bool\)
 
 Simulations the run [implementation].
 
@@ -180,4 +180,5 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [b write DFG].
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_GeometryType"></a> Enum GeometryType
+# Enum GeometryType
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -26,6 +26,7 @@ Solid
 `UserTetra = 2` 
 
 UserTetra
+
 
 
 

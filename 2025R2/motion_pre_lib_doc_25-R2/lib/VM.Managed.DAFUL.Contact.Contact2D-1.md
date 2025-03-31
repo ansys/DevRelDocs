@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_Contact2D_1"></a> Class Contact2D<TProperty\>
+# Class Contact2D<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -228,7 +228,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_Contact2D_1__ctor"></a> Contact2D\(\)
+### Contact2D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact2D%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -236,7 +236,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact2D
 protected Contact2D()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_Contact2D_1__ctor_System_String_"></a> Contact2D\(string\)
+### Contact2D\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact2D%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -252,7 +252,7 @@ Name of the 2D contact.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_Contact2D_1_ActionGeom"></a> ActionGeom
+### ActionGeom
 
 Gets or sets the action geom.
 
@@ -264,7 +264,7 @@ public ContactGeom2D ActionGeom { get; set; }
 
  [ContactGeom2D](VM.Managed.DAFUL.Contact.ContactGeom2D.md)
 
-### <a id="VM_Managed_DAFUL_Contact_Contact2D_1_BaseGeom"></a> BaseGeom
+### BaseGeom
 
 Gets or sets the base geom.
 
@@ -276,7 +276,7 @@ public ContactGeom2D BaseGeom { get; set; }
 
  [ContactGeom2D](VM.Managed.DAFUL.Contact.ContactGeom2D.md)
 
-### <a id="VM_Managed_DAFUL_Contact_Contact2D_1_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -290,7 +290,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_Contact2D_1_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -309,4 +309,5 @@ Name to search for.
  IObjectBase
 
 An object that matches a specified name.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_ConfigModify"></a> Class ConfigModify
+# Class ConfigModify
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -100,7 +100,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ConfigModify__ctor_VM_Managed_Document_"></a> ConfigModify\(Document\)
+### ConfigModify\(Document\)
 
 ```csharp
 public ConfigModify(Document doc)
@@ -110,7 +110,7 @@ public ConfigModify(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ConfigModify__ctor_VM_Managed_Operation_JournalParameter_"></a> ConfigModify\(JournalParameter\)
+### ConfigModify\(JournalParameter\)
 
 ```csharp
 public ConfigModify(JournalParameter jp)
@@ -122,7 +122,7 @@ public ConfigModify(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ConfigModify_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -136,7 +136,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ConfigModify_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -144,7 +144,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ConfigModify_PrepareForm_VM_Managed_DAFUL_Pre_Forms_SimulationFormBase_"></a> PrepareForm\(SimulationFormBase\)
+### PrepareForm\(SimulationFormBase\)
 
 ```csharp
 protected override void PrepareForm(SimulationFormBase form)
@@ -154,7 +154,7 @@ protected override void PrepareForm(SimulationFormBase form)
 
 `form` SimulationFormBase
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ConfigModify_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -165,4 +165,5 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Force_PLoadStandard"></a> Class PLoadStandard
+# Class PLoadStandard
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoadStandard__ctor_VM_Managed_DAFUL_FE_Force_PropertyPLoad_"></a> PLoadStandard\(PropertyPLoad\)
+### PLoadStandard\(PropertyPLoad\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Force.PLoadStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ The owner propery.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoadStandard_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -126,7 +126,7 @@ public Function Function { get; set; }
 
  Function
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoadStandard_Type"></a> Type
+### Type
 
 Gets the type of function.
 
@@ -137,4 +137,5 @@ public override FEForceFunction.FunctionType Type { get; }
 #### Property Value
 
  [FEForceFunction](VM.Managed.DAFUL.FE.Force.FEForceFunction.md).[FunctionType](VM.Managed.DAFUL.FE.Force.FEForceFunction.FunctionType.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorRotor"></a> Class BuilderParamMotorRotor
+# Class BuilderParamMotorRotor
 
 Namespace: [VM.CAD.Builders.DriveTrain](VM.CAD.Builders.DriveTrain.md)  
 Assembly: VM.CAD.Builders.DriveTrain.dll  
@@ -36,7 +36,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorRotor__ctor"></a> BuilderParamMotorRotor\(\)
+### BuilderParamMotorRotor\(\)
 
 ```csharp
 public BuilderParamMotorRotor()
@@ -44,7 +44,7 @@ public BuilderParamMotorRotor()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorRotor_InnerDiameter"></a> InnerDiameter
+### InnerDiameter
 
 ```csharp
 public double InnerDiameter { get; set; }
@@ -54,7 +54,7 @@ public double InnerDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorRotor_OuterDiameter"></a> OuterDiameter
+### OuterDiameter
 
 ```csharp
 public double OuterDiameter { get; set; }
@@ -63,4 +63,5 @@ public double OuterDiameter { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

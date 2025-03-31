@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IChangableAssembly"></a> Interface IChangableAssembly
+# Interface IChangableAssembly
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IChangableAssembly
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IChangableAssembly_ChangedDocument"></a> ChangedDocument
+### ChangedDocument
 
 Gets the document.
 
@@ -29,7 +29,7 @@ Document ChangedDocument { get; }
 
  Document
 
-### <a id="VM_Managed_DAFUL_IChangableAssembly_FilePath"></a> FilePath
+### FilePath
 
 Gets or sets the file path.
 
@@ -43,11 +43,12 @@ string FilePath { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_IChangableAssembly_RemoveDuplicatedReference"></a> RemoveDuplicatedReference\(\)
+### RemoveDuplicatedReference\(\)
 
 Remove duplicated reference
 
 ```csharp
 void RemoveDuplicatedReference()
 ```
+
 

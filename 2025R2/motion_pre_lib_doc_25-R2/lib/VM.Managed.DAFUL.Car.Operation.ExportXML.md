@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ExportXML"></a> Class ExportXML
+# Class ExportXML
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -108,7 +108,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML__ctor_VM_Managed_Document_"></a> ExportXML\(Document\)
+### ExportXML\(Document\)
 
 ```csharp
 public ExportXML(Document doc)
@@ -118,7 +118,7 @@ public ExportXML(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportXML\(JournalParameter\)
+### ExportXML\(JournalParameter\)
 
 ```csharp
 public ExportXML(JournalParameter jp)
@@ -130,7 +130,7 @@ public ExportXML(JournalParameter jp)
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML_m_bEndSolvingThread"></a> m\_bEndSolvingThread
+### m\_bEndSolvingThread
 
 ```csharp
 protected bool m_bEndSolvingThread
@@ -140,7 +140,7 @@ protected bool m_bEndSolvingThread
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML_m_scenario"></a> m\_scenario
+### m\_scenario
 
 ```csharp
 protected SimulationScenarioCarBase m_scenario
@@ -152,7 +152,7 @@ protected SimulationScenarioCarBase m_scenario
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -166,13 +166,13 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML_EndExecuteThread"></a> EndExecuteThread\(\)
+### EndExecuteThread\(\)
 
 ```csharp
 protected void EndExecuteThread()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -180,13 +180,13 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML_ExportXMLImpl"></a> ExportXMLImpl\(\)
+### ExportXMLImpl\(\)
 
 ```csharp
 protected override void ExportXMLImpl()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -196,9 +196,10 @@ public override void GetInformation(XmlWriter writer)
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportXML_WriteJournalCore"></a> WriteJournalCore\(\)
+### WriteJournalCore\(\)
 
 ```csharp
 protected void WriteJournalCore()
 ```
+
 

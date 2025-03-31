@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_SimplifyOption"></a> Enum SimplifyOption
+# Enum SimplifyOption
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -26,6 +26,7 @@ Simplify
 `NotSimplify = 0` 
 
 Not simplify
+
 
 
 

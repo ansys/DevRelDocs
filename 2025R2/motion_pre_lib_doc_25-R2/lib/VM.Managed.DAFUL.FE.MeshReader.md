@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_MeshReader"></a> Class MeshReader
+# Class MeshReader
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -251,7 +251,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_MeshReader__ctor"></a> MeshReader\(\)
+### MeshReader\(\)
 
 ```csharp
 public MeshReader()
@@ -259,7 +259,7 @@ public MeshReader()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_MeshReader_NodeForMesher"></a> NodeForMesher
+### NodeForMesher
 
 ```csharp
 public List<Vector> NodeForMesher { get; }
@@ -269,7 +269,7 @@ public List<Vector> NodeForMesher { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_FE_MeshReader_TetraForMesher"></a> TetraForMesher
+### TetraForMesher
 
 ```csharp
 public List<uint> TetraForMesher { get; }
@@ -278,4 +278,5 @@ public List<uint> TetraForMesher { get; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
+
 

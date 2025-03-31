@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_DurabilityDataUtil"></a> Class DurabilityDataUtil
+# Class DurabilityDataUtil
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -20,7 +20,7 @@ public class DurabilityDataUtil
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Durability_DurabilityDataUtil__ctor"></a> DurabilityDataUtil\(\)
+### DurabilityDataUtil\(\)
 
 ```csharp
 public DurabilityDataUtil()
@@ -28,7 +28,7 @@ public DurabilityDataUtil()
 
 ## Methods
 
-### <a id="VM_Models_Pre_Durability_DurabilityDataUtil_GetChangeName_System_String_"></a> GetChangeName\(string\)
+### GetChangeName\(string\)
 
 ```csharp
 public static string GetChangeName(string strBodyFullName)
@@ -42,7 +42,7 @@ public static string GetChangeName(string strBodyFullName)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_Durability_DurabilityDataUtil_GetChildName_System_String_"></a> GetChildName\(string\)
+### GetChildName\(string\)
 
 ```csharp
 public static string GetChildName(string strBodyFullName)
@@ -55,4 +55,5 @@ public static string GetChildName(string strBodyFullName)
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

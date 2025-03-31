@@ -1,9 +1,9 @@
-# <a id="VM_Managed_DAFUL_RequestKinematic_OutputType"></a> Struct RequestKinematic.OutputType
+# Struct RequestKinematic.OutputType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
 
-This class is to represent the OutputType properties.
+<p>This class is to represent the OutputType properties.</p>
 
 ```csharp
 public struct RequestKinematic.OutputType
@@ -11,9 +11,9 @@ public struct RequestKinematic.OutputType
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AccelerationMagnitude"></a> AccelerationMagnitude
+### AccelerationMagnitude
 
-The acceleration magnitude
+<p>The acceleration magnitude</p>
 
 ```csharp
 public bool AccelerationMagnitude
@@ -23,9 +23,9 @@ public bool AccelerationMagnitude
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AccelerationX"></a> AccelerationX
+### AccelerationX
 
-The acceleration x
+<p>The acceleration x</p>
 
 ```csharp
 public bool AccelerationX
@@ -35,9 +35,9 @@ public bool AccelerationX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AccelerationY"></a> AccelerationY
+### AccelerationY
 
-The acceleration y
+<p>The acceleration y</p>
 
 ```csharp
 public bool AccelerationY
@@ -47,9 +47,9 @@ public bool AccelerationY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AccelerationZ"></a> AccelerationZ
+### AccelerationZ
 
-The acceleration z
+<p>The acceleration z</p>
 
 ```csharp
 public bool AccelerationZ
@@ -59,9 +59,9 @@ public bool AccelerationZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AnglePitch"></a> AnglePitch
+### AnglePitch
 
-The angle pitch
+<p>The angle pitch</p>
 
 ```csharp
 public bool AnglePitch
@@ -71,9 +71,9 @@ public bool AnglePitch
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleRoll"></a> AngleRoll
+### AngleRoll
 
-The angle roll
+<p>The angle roll</p>
 
 ```csharp
 public bool AngleRoll
@@ -83,9 +83,9 @@ public bool AngleRoll
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleX"></a> AngleX
+### AngleX
 
-The angle x
+<p>The angle x</p>
 
 ```csharp
 public bool AngleX
@@ -95,9 +95,9 @@ public bool AngleX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleY"></a> AngleY
+### AngleY
 
-The angle y
+<p>The angle y</p>
 
 ```csharp
 public bool AngleY
@@ -107,9 +107,9 @@ public bool AngleY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleYaw"></a> AngleYaw
+### AngleYaw
 
-The angle yaw
+<p>The angle yaw</p>
 
 ```csharp
 public bool AngleYaw
@@ -119,9 +119,9 @@ public bool AngleYaw
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngleZ"></a> AngleZ
+### AngleZ
 
-The angle z
+<p>The angle z</p>
 
 ```csharp
 public bool AngleZ
@@ -131,9 +131,9 @@ public bool AngleZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularAccelerationMagnitude"></a> AngularAccelerationMagnitude
+### AngularAccelerationMagnitude
 
-The angular acceleration magnitude
+<p>The angular acceleration magnitude</p>
 
 ```csharp
 public bool AngularAccelerationMagnitude
@@ -143,9 +143,9 @@ public bool AngularAccelerationMagnitude
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularAccelerationX"></a> AngularAccelerationX
+### AngularAccelerationX
 
-The angular acceleration x
+<p>The angular acceleration x</p>
 
 ```csharp
 public bool AngularAccelerationX
@@ -155,9 +155,9 @@ public bool AngularAccelerationX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularAccelerationY"></a> AngularAccelerationY
+### AngularAccelerationY
 
-The angular acceleration y
+<p>The angular acceleration y</p>
 
 ```csharp
 public bool AngularAccelerationY
@@ -167,9 +167,9 @@ public bool AngularAccelerationY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularAccelerationZ"></a> AngularAccelerationZ
+### AngularAccelerationZ
 
-The angular acceleration z
+<p>The angular acceleration z</p>
 
 ```csharp
 public bool AngularAccelerationZ
@@ -179,9 +179,9 @@ public bool AngularAccelerationZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityMagnitude"></a> AngularVelocityMagnitude
+### AngularVelocityMagnitude
 
-The angular velocity magnitude
+<p>The angular velocity magnitude</p>
 
 ```csharp
 public bool AngularVelocityMagnitude
@@ -191,9 +191,9 @@ public bool AngularVelocityMagnitude
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityR"></a> AngularVelocityR
+### AngularVelocityR
 
-The angular velocity r
+<p>The angular velocity r</p>
 
 ```csharp
 public bool AngularVelocityR
@@ -203,9 +203,9 @@ public bool AngularVelocityR
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityX"></a> AngularVelocityX
+### AngularVelocityX
 
-The angular velocity x
+<p>The angular velocity x</p>
 
 ```csharp
 public bool AngularVelocityX
@@ -215,9 +215,9 @@ public bool AngularVelocityX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityY"></a> AngularVelocityY
+### AngularVelocityY
 
-The angular velocity y
+<p>The angular velocity y</p>
 
 ```csharp
 public bool AngularVelocityY
@@ -227,9 +227,9 @@ public bool AngularVelocityY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_AngularVelocityZ"></a> AngularVelocityZ
+### AngularVelocityZ
 
-The angular velocity z
+<p>The angular velocity z</p>
 
 ```csharp
 public bool AngularVelocityZ
@@ -239,9 +239,9 @@ public bool AngularVelocityZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DeformationMagnitude"></a> DeformationMagnitude
+### DeformationMagnitude
 
-The deformation magnitude
+<p>The deformation magnitude</p>
 
 ```csharp
 public bool DeformationMagnitude
@@ -251,9 +251,9 @@ public bool DeformationMagnitude
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DeformationX"></a> DeformationX
+### DeformationX
 
-The deformation x
+<p>The deformation x</p>
 
 ```csharp
 public bool DeformationX
@@ -263,9 +263,9 @@ public bool DeformationX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DeformationY"></a> DeformationY
+### DeformationY
 
-The deformation y
+<p>The deformation y</p>
 
 ```csharp
 public bool DeformationY
@@ -275,9 +275,9 @@ public bool DeformationY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DeformationZ"></a> DeformationZ
+### DeformationZ
 
-The deformation z
+<p>The deformation z</p>
 
 ```csharp
 public bool DeformationZ
@@ -287,9 +287,9 @@ public bool DeformationZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DisplacementMagnitude"></a> DisplacementMagnitude
+### DisplacementMagnitude
 
-The displacement magnitude
+<p>The displacement magnitude</p>
 
 ```csharp
 public bool DisplacementMagnitude
@@ -299,9 +299,9 @@ public bool DisplacementMagnitude
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DisplacementX"></a> DisplacementX
+### DisplacementX
 
-The displacement x
+<p>The displacement x</p>
 
 ```csharp
 public bool DisplacementX
@@ -311,9 +311,9 @@ public bool DisplacementX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DisplacementY"></a> DisplacementY
+### DisplacementY
 
-The displacement y
+<p>The displacement y</p>
 
 ```csharp
 public bool DisplacementY
@@ -323,9 +323,9 @@ public bool DisplacementY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_DisplacementZ"></a> DisplacementZ
+### DisplacementZ
 
-The displacement z
+<p>The displacement z</p>
 
 ```csharp
 public bool DisplacementZ
@@ -335,9 +335,9 @@ public bool DisplacementZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityMagnitude"></a> VelocityMagnitude
+### VelocityMagnitude
 
-The velocity magnitude
+<p>The velocity magnitude</p>
 
 ```csharp
 public bool VelocityMagnitude
@@ -347,9 +347,9 @@ public bool VelocityMagnitude
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityR"></a> VelocityR
+### VelocityR
 
-The velocity r
+<p>The velocity r</p>
 
 ```csharp
 public bool VelocityR
@@ -359,9 +359,9 @@ public bool VelocityR
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityX"></a> VelocityX
+### VelocityX
 
-The velocity x
+<p>The velocity x</p>
 
 ```csharp
 public bool VelocityX
@@ -371,9 +371,9 @@ public bool VelocityX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityY"></a> VelocityY
+### VelocityY
 
-The velocity y
+<p>The velocity y</p>
 
 ```csharp
 public bool VelocityY
@@ -383,9 +383,9 @@ public bool VelocityY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_VelocityZ"></a> VelocityZ
+### VelocityZ
 
-The velocity z
+<p>The velocity z</p>
 
 ```csharp
 public bool VelocityZ
@@ -397,9 +397,9 @@ public bool VelocityZ
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
-Check equality of two objects
+<p>Check equality of two objects</p>
 
 ```csharp
 public override bool Equals(object obj)
@@ -409,17 +409,17 @@ public override bool Equals(object obj)
 
 `obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-Object to compare
+<p>Object to compare</p>
 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-true if two objects are equal. Otherwise false.
+<p>true if two objects are equal. Otherwise false.</p>
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_Equals_VM_Managed_DAFUL_RequestKinematic_OutputType_"></a> Equals\(OutputType\)
+### Equals\(OutputType\)
 
-Check equality of two objects
+<p>Check equality of two objects</p>
 
 ```csharp
 public bool Equals(RequestKinematic.OutputType other)
@@ -429,17 +429,17 @@ public bool Equals(RequestKinematic.OutputType other)
 
 `other` [RequestKinematic](VM.Managed.DAFUL.RequestKinematic.md).[OutputType](VM.Managed.DAFUL.RequestKinematic.OutputType.md)
 
-Object to compare
+<p>Object to compare</p>
 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-true if two objects are equal. Otherwise false.
+<p>true if two objects are equal. Otherwise false.</p>
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
-Get hash code of OutputType
+<p>Get hash code of OutputType</p>
 
 ```csharp
 public override int GetHashCode()
@@ -449,13 +449,13 @@ public override int GetHashCode()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-The hash code
+<p>The hash code</p>
 
 ## Operators
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_op_Equality_VM_Managed_DAFUL_RequestKinematic_OutputType_VM_Managed_DAFUL_RequestKinematic_OutputType_"></a> operator ==\(OutputType, OutputType\)
+### operator ==\(OutputType, OutputType\)
 
-Compare two OutputType and return equality
+<p>Compare two OutputType and return equality</p>
 
 ```csharp
 public static bool operator ==(RequestKinematic.OutputType left, RequestKinematic.OutputType right)
@@ -465,21 +465,21 @@ public static bool operator ==(RequestKinematic.OutputType left, RequestKinemati
 
 `left` [RequestKinematic](VM.Managed.DAFUL.RequestKinematic.md).[OutputType](VM.Managed.DAFUL.RequestKinematic.OutputType.md)
 
-The left parameter to compare
+<p>The left parameter to compare</p>
 
 `right` [RequestKinematic](VM.Managed.DAFUL.RequestKinematic.md).[OutputType](VM.Managed.DAFUL.RequestKinematic.OutputType.md)
 
-The right parameter to compare
+<p>The right parameter to compare</p>
 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-true if two arguments are same. Otherwise false.
+<p>true if two arguments are same. Otherwise false.</p>
 
-### <a id="VM_Managed_DAFUL_RequestKinematic_OutputType_op_Inequality_VM_Managed_DAFUL_RequestKinematic_OutputType_VM_Managed_DAFUL_RequestKinematic_OutputType_"></a> operator \!=\(OutputType, OutputType\)
+### operator \!=\(OutputType, OutputType\)
 
-Compare two OutputType and return equality
+<p>Compare two OutputType and return equality</p>
 
 ```csharp
 public static bool operator !=(RequestKinematic.OutputType left, RequestKinematic.OutputType right)
@@ -489,15 +489,16 @@ public static bool operator !=(RequestKinematic.OutputType left, RequestKinemati
 
 `left` [RequestKinematic](VM.Managed.DAFUL.RequestKinematic.md).[OutputType](VM.Managed.DAFUL.RequestKinematic.OutputType.md)
 
-The left parameter to compare
+<p>The left parameter to compare</p>
 
 `right` [RequestKinematic](VM.Managed.DAFUL.RequestKinematic.md).[OutputType](VM.Managed.DAFUL.RequestKinematic.OutputType.md)
 
-The right parameter to compare
+<p>The right parameter to compare</p>
 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-true if two arguments are not same. Otherwise false.
+<p>true if two arguments are not same. Otherwise false.</p>
+
 

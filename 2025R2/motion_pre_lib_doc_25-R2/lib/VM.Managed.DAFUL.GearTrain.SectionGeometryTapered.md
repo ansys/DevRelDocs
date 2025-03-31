@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered"></a> Class SectionGeometryTapered
+# Class SectionGeometryTapered
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -117,7 +117,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered__ctor"></a> SectionGeometryTapered\(\)
+### SectionGeometryTapered\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SectionGeometryTapered" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ public SectionGeometryTapered()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_EndRadius"></a> EndRadius
+### EndRadius
 
 Gets or sets the end radius.
 
@@ -139,7 +139,7 @@ public ExpressionValueVariable EndRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_StartRadius"></a> StartRadius
+### StartRadius
 
 Gets or sets the start radius.
 
@@ -151,7 +151,7 @@ public ExpressionValueVariable StartRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_TypeOfGeometry"></a> TypeOfGeometry
+### TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -165,7 +165,7 @@ public override SectionGeometryBase.GeometryType TypeOfGeometry { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_GetBuilder_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> GetBuilder\(BuilderColor, VectorBase\)
+### GetBuilder\(BuilderColor, VectorBase\)
 
 Gets the builder.
 
@@ -187,7 +187,7 @@ The offset direction.
 
  Builder
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_GetGeomInfo"></a> GetGeomInfo\(\)
+### GetGeomInfo\(\)
 
 Gets the geom information.
 
@@ -199,7 +199,7 @@ public override double[] GetGeomInfo()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -217,7 +217,7 @@ Length of the d.
 
 Height of the d.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_InitChild"></a> InitChild\(\)
+### InitChild\(\)
 
 Initializes the child.
 
@@ -225,7 +225,7 @@ Initializes the child.
 public override void InitChild()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_InnerCreateParameter"></a> InnerCreateParameter\(\)
+### InnerCreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase InnerCreateParameter()
@@ -235,7 +235,7 @@ protected override BuilderParamBase InnerCreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_InnerFillParameter_VM_CAD_Builders_BuilderParamBase_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
+### InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
 
 ```csharp
 protected override void InnerFillParameter(BuilderParamBase parameter, BuilderColor color, VectorBase vecOffsetDirection)
@@ -249,7 +249,7 @@ protected override void InnerFillParameter(BuilderParamBase parameter, BuilderCo
 
 `vecOffsetDirection` VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryTapered_SplitSectionInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Int32_"></a> SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
+### SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
 
 Splits the section information.
 
@@ -274,4 +274,5 @@ The n number.
 #### Returns
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)\[\]
+
 

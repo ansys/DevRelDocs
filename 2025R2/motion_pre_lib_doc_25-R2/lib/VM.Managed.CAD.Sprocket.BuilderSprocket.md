@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Sprocket_BuilderSprocket"></a> Class BuilderSprocket
+# Class BuilderSprocket
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket__ctor"></a> BuilderSprocket\(\)
+### BuilderSprocket\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.BuilderSprocket" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ public BuilderSprocket()
 
 ## Fields
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_m_LinkEventReason"></a> m\_LinkEventReason
+### m\_LinkEventReason
 
 Gets and sets linkeventargs
 
@@ -225,7 +225,7 @@ protected NotifyReason m_LinkEventReason
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_ApplyToFileProperty"></a> ApplyToFileProperty
+### ApplyToFileProperty
 
 Gets and sets boolean
 Use SetToApplyToFileProperty() when this instance sets for undo/redo
@@ -238,7 +238,7 @@ public bool ApplyToFileProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_BooleanType"></a> BooleanType
+### BooleanType
 
 Gets and sets boolean type.
 
@@ -250,7 +250,7 @@ public BooleanType BooleanType { get; set; }
 
  [BooleanType](VM.Managed.CAD.Sprocket.BooleanType.md)
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_CreateShaft"></a> CreateShaft
+### CreateShaft
 
 Gets and sets a value indicating whether [creation shaft]
 Use SetToCreateShaft() when this instance sets for undo/redo
@@ -263,7 +263,7 @@ public bool CreateShaft { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_ProfileType"></a> ProfileType
+### ProfileType
 
 Gets and sets work plane
 
@@ -275,7 +275,7 @@ public InputType ProfileType { get; set; }
 
  [InputType](VM.Managed.CAD.Sprocket.InputType.md)
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_ShaftDiameter"></a> ShaftDiameter
+### ShaftDiameter
 
 Gets and sets shaft diameter.
 
@@ -287,7 +287,7 @@ public Variable ShaftDiameter { get; set; }
 
  Variable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_ShaftWidth"></a> ShaftWidth
+### ShaftWidth
 
 Gets and sets shaft width.
 
@@ -299,7 +299,7 @@ public Variable ShaftWidth { get; set; }
 
  Variable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_SprocketType"></a> SprocketType
+### SprocketType
 
 Gets and sets Number of teeth
 
@@ -311,7 +311,7 @@ public SprocketType SprocketType { get; }
 
  [SprocketType](VM.Managed.CAD.Sprocket.SprocketType.md)
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_SprocketWidth"></a> SprocketWidth
+### SprocketWidth
 
 Gets and sets sprocket width.
 
@@ -323,7 +323,7 @@ public Variable SprocketWidth { get; set; }
 
  Variable
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_Transform"></a> Transform
+### Transform
 
 Gets and sets Transformation.
 
@@ -335,7 +335,7 @@ public override sealed TransformBase Transform { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_Uneditable"></a> Uneditable
+### Uneditable
 
 Gets or sets Uneditable value..
 
@@ -349,7 +349,7 @@ public override bool Uneditable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_SetToApplyToFileProperty_System_Boolean_"></a> SetToApplyToFileProperty\(bool\)
+### SetToApplyToFileProperty\(bool\)
 
 Apply to file property.
 
@@ -363,7 +363,7 @@ public void SetToApplyToFileProperty(bool bFlag)
 
 The flag.
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_SetToCreateShaft_System_Boolean_"></a> SetToCreateShaft\(bool\)
+### SetToCreateShaft\(bool\)
 
 Create shaft.
 
@@ -377,7 +377,7 @@ public void SetToCreateShaft(bool bFlag)
 
 The flag.
 
-### <a id="VM_Managed_CAD_Sprocket_BuilderSprocket_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform information.
 
@@ -390,4 +390,5 @@ public override void SetTransform(TMatrix matT)
 `matT` TMatrix
 
 The transform information.
+
 

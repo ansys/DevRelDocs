@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ILinkDestroyOwner"></a> Interface ILinkDestroyOwner
+# Interface ILinkDestroyOwner
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface ILinkDestroyOwner
 
 ## Properties
 
-### <a id="VM_Models_Pre_ILinkDestroyOwner_IsCacheEmpty"></a> IsCacheEmpty
+### IsCacheEmpty
 
 ```csharp
 bool IsCacheEmpty { get; }
@@ -27,7 +27,7 @@ bool IsCacheEmpty { get; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_ILinkDestroyOwner_Initialize_System_Object_"></a> Initialize\(object\)
+### Initialize\(object\)
 
 ```csharp
 void Initialize(object owner)
@@ -36,4 +36,5 @@ void Initialize(object owner)
 #### Parameters
 
 `owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PointLoad"></a> Class PointLoad
+# Class PointLoad
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -181,7 +181,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointLoad__ctor"></a> PointLoad\(\)
+### PointLoad\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointLoad" data-throw-if-not-resolved="false"></xref> class.
 
@@ -189,7 +189,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointLo
 public PointLoad()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointLoad__ctor_System_String_"></a> PointLoad\(string\)
+### PointLoad\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointLoad" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointLoad_Direction"></a> Direction
+### Direction
 
 Gets the direction.
 
@@ -217,7 +217,7 @@ public VectorBase Direction { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointLoad_ForceX"></a> ForceX
+### ForceX
 
 Gets or sets the force X.
 
@@ -229,7 +229,7 @@ public ExpressionValueVariable ForceX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointLoad_ForceY"></a> ForceY
+### ForceY
 
 Gets or sets the force Y.
 
@@ -241,7 +241,7 @@ public ExpressionValueVariable ForceY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointLoad_ForceZ"></a> ForceZ
+### ForceZ
 
 Gets or sets the force Z.
 
@@ -253,7 +253,7 @@ public ExpressionValueVariable ForceZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointLoad_TorqueX"></a> TorqueX
+### TorqueX
 
 Gets or sets the torque X.
 
@@ -265,7 +265,7 @@ public ExpressionValueVariable TorqueX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointLoad_TorqueY"></a> TorqueY
+### TorqueY
 
 Gets or sets the torque Y.
 
@@ -279,7 +279,7 @@ public ExpressionValueVariable TorqueY { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PointLoad_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -292,4 +292,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

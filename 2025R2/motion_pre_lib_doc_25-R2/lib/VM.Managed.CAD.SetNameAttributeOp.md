@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_SetNameAttributeOp"></a> Class SetNameAttributeOp
+# Class SetNameAttributeOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_SetNameAttributeOp__ctor_VM_Managed_CAD_Body_System_String_System_Boolean_System_String_"></a> SetNameAttributeOp\(Body, string, bool, string\)
+### SetNameAttributeOp\(Body, string, bool, string\)
 
 ```csharp
 public SetNameAttributeOp(Body body, string strName, bool bUseAttribute, string strOldName)
@@ -93,7 +93,7 @@ public SetNameAttributeOp(Body body, string strName, bool bUseAttribute, string 
 
 `strOldName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CAD_SetNameAttributeOp__ctor"></a> SetNameAttributeOp\(\)
+### SetNameAttributeOp\(\)
 
 ```csharp
 public SetNameAttributeOp()
@@ -101,7 +101,7 @@ public SetNameAttributeOp()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_SetNameAttributeOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -113,7 +113,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_SetNameAttributeOp_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -127,11 +127,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_SetNameAttributeOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

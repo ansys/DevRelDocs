@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_NewFile"></a> Class NewFile
+# Class NewFile
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -22,7 +22,7 @@ public class NewFile
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_NewFile__ctor"></a> NewFile\(\)
+### NewFile\(\)
 
 ```csharp
 public NewFile()
@@ -30,7 +30,7 @@ public NewFile()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_NewFile_AddTomodel"></a> AddTomodel
+### AddTomodel
 
 Gets or sets the add to model flag.
 
@@ -42,7 +42,7 @@ public bool AddTomodel { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_NewFile_DocInfo"></a> DocInfo
+### DocInfo
 
 Gets or sets the document iinformation.
 
@@ -54,7 +54,7 @@ public DocInfo DocInfo { get; set; }
 
  [DocInfo](VM.Managed.DAFUL.Pre.DocInfo.md)
 
-### <a id="VM_Managed_DAFUL_Pre_NewFile_FilePath"></a> FilePath
+### FilePath
 
 Gets or sets the file path.
 
@@ -66,7 +66,7 @@ public string FilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_NewFile_ModelName"></a> ModelName
+### ModelName
 
 Gets or sets the model name.
 
@@ -77,4 +77,5 @@ public string ModelName { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

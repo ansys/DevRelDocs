@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_DeleteBuilderOperation"></a> Class DeleteBuilderOperation
+# Class DeleteBuilderOperation
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_DeleteBuilderOperation__ctor_System_Collections_Generic_List_VM_Managed_ObjectBase__VM_Managed_Document_System_Boolean_"></a> DeleteBuilderOperation\(List<ObjectBase\>, Document, bool\)
+### DeleteBuilderOperation\(List<ObjectBase\>, Document, bool\)
 
 ```csharp
 public DeleteBuilderOperation(List<ObjectBase> lstDeletedBuilder, Document doc, bool bModified)
@@ -93,7 +93,7 @@ public DeleteBuilderOperation(List<ObjectBase> lstDeletedBuilder, Document doc, 
 
 ## Properties
 
-### <a id="VM_Managed_CAD_DeleteBuilderOperation_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -105,7 +105,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_DeleteBuilderOperation_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -119,11 +119,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_DeleteBuilderOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyAutoContact"></a> Class PropertyAutoContact
+# Class PropertyAutoContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -165,11 +165,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyAutoContact__ctor"></a> PropertyAutoContact\(\)
+### PropertyAutoContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyAutoContact" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyAutoContact()
 ```
+
 

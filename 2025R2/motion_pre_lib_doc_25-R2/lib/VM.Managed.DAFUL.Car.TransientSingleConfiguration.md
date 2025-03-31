@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_TransientSingleConfiguration"></a> Class TransientSingleConfiguration
+# Class TransientSingleConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_TransientSingleConfiguration__ctor"></a> TransientSingleConfiguration\(\)
+### TransientSingleConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TransientSingleConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TransientSing
 public TransientSingleConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_TransientSingleConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisTransientSingle_"></a> TransientSingleConfiguration\(AnalysisTransientSingle\)
+### TransientSingleConfiguration\(AnalysisTransientSingle\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TransientSingleConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_TransientSingleConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the type of the analysis.
 
@@ -233,7 +233,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_TransientSingleConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -245,7 +245,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_TransientSingleConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -257,7 +257,7 @@ public override TireAnalysisType AnalysisType { get; }
 
  [TireAnalysisType](VM.Managed.DAFUL.Car.TireAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_TransientSingleConfiguration_TransientSingleParam"></a> TransientSingleParam
+### TransientSingleParam
 
 Gets or sets the transient single parameter.
 
@@ -271,11 +271,12 @@ public AnalysisTransientSingle TransientSingleParam { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_TransientSingleConfiguration_InitializeParam"></a> InitializeParam\(\)
+### InitializeParam\(\)
 
 Initializes the param.
 
 ```csharp
 public override void InitializeParam()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowSimulationDlg"></a> Class ShowSimulationDlg
+# Class ShowSimulationDlg
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -105,7 +105,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowSimulationDlg__ctor_VM_Managed_Document_"></a> ShowSimulationDlg\(Document\)
+### ShowSimulationDlg\(Document\)
 
 ```csharp
 public ShowSimulationDlg(Document doc)
@@ -115,7 +115,7 @@ public ShowSimulationDlg(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowSimulationDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowSimulationDlg\(JournalParameter\)
+### ShowSimulationDlg\(JournalParameter\)
 
 ```csharp
 public ShowSimulationDlg(JournalParameter jp)
@@ -127,7 +127,7 @@ public ShowSimulationDlg(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowSimulationDlg_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -141,7 +141,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowSimulationDlg_PrepareForm_VM_Managed_DAFUL_Pre_Forms_SimulationFormBase_"></a> PrepareForm\(SimulationFormBase\)
+### PrepareForm\(SimulationFormBase\)
 
 ```csharp
 protected override void PrepareForm(SimulationFormBase form)
@@ -151,7 +151,7 @@ protected override void PrepareForm(SimulationFormBase form)
 
 `form` SimulationFormBase
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowSimulationDlg_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
+### SimulationRunImpl\(bool\)
 
 Simulations the run [implementation].
 
@@ -164,4 +164,5 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [write DFG].
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_MatrixBase"></a> Class MatrixBase
+# Class MatrixBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,11 +27,12 @@ public class MatrixBase
 
 ## Constructors
 
-### <a id="VM_Managed_MatrixBase__ctor"></a> MatrixBase\(\)
+### MatrixBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.MatrixBase" data-throw-if-not-resolved="false"></xref> class
 
 ```csharp
 protected MatrixBase()
 ```
+
 

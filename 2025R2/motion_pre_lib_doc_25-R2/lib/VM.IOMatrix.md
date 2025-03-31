@@ -1,4 +1,4 @@
-# <a id="VM_IOMatrix"></a> Interface IOMatrix
+# Interface IOMatrix
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -17,7 +17,7 @@ public interface IOMatrix
 
 ## Properties
 
-### <a id="VM_IOMatrix_Array"></a> Array
+### Array
 
 Gets or sets the data of OMatrix.
 
@@ -29,7 +29,7 @@ double[] Array { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_IOMatrix_XVector"></a> XVector
+### XVector
 
 Gets or sets the XVector.
 
@@ -41,7 +41,7 @@ Vector XVector { get; set; }
 
  [Vector](VM.Vector.md)
 
-### <a id="VM_IOMatrix_YVector"></a> YVector
+### YVector
 
 Gets or sets the YVector.
 
@@ -53,7 +53,7 @@ Vector YVector { get; set; }
 
  [Vector](VM.Vector.md)
 
-### <a id="VM_IOMatrix_ZVector"></a> ZVector
+### ZVector
 
 Gets or sets the ZVector.
 
@@ -67,7 +67,7 @@ Vector ZVector { get; set; }
 
 ## Methods
 
-### <a id="VM_IOMatrix_GetDirectionVector_VM_Coordinate_"></a> GetDirectionVector\(Coordinate\)
+### GetDirectionVector\(Coordinate\)
 
 Get the direction vector for axis.
 
@@ -87,7 +87,7 @@ The type of axis.
 
 The direction vector.
 
-### <a id="VM_IOMatrix_GetDirectionVector_System_Int32_"></a> GetDirectionVector\(int\)
+### GetDirectionVector\(int\)
 
 Get the direction vector for axis.
 
@@ -107,7 +107,7 @@ The type of axis.
 
 The direction vector.
 
-### <a id="VM_IOMatrix_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initializes a instance of OMatrix.
 
@@ -115,7 +115,7 @@ Initializes a instance of OMatrix.
 void Initialize()
 ```
 
-### <a id="VM_IOMatrix_Normalize"></a> Normalize\(\)
+### Normalize\(\)
 
 Nomalize a instance of OMatrix.
 
@@ -123,7 +123,7 @@ Nomalize a instance of OMatrix.
 void Normalize()
 ```
 
-### <a id="VM_IOMatrix_RotateAxisDeg_VM_Coordinate_System_Double_"></a> RotateAxisDeg\(Coordinate, double\)
+### RotateAxisDeg\(Coordinate, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -141,7 +141,7 @@ The rotation coordinate.
 
 The degree.
 
-### <a id="VM_IOMatrix_RotateAxisDeg_System_Int32_System_Double_"></a> RotateAxisDeg\(int, double\)
+### RotateAxisDeg\(int, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -159,7 +159,7 @@ The rotation coordinate.
 
 The degree.
 
-### <a id="VM_IOMatrix_RotateAxisDeg_VM_Vector_System_Double_"></a> RotateAxisDeg\(Vector, double\)
+### RotateAxisDeg\(Vector, double\)
 
 To rotate counterclockwise for axis.
 
@@ -177,7 +177,7 @@ The rotation axis.
 
 The degree.
 
-### <a id="VM_IOMatrix_RotateAxisRad_VM_Coordinate_System_Double_"></a> RotateAxisRad\(Coordinate, double\)
+### RotateAxisRad\(Coordinate, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -195,7 +195,7 @@ The rotation coordinate.
 
 The radian.
 
-### <a id="VM_IOMatrix_RotateAxisRad_System_Int32_System_Double_"></a> RotateAxisRad\(int, double\)
+### RotateAxisRad\(int, double\)
 
 To rotate counterclockwise for coordinate.
 
@@ -213,7 +213,7 @@ The rotation coordinate.
 
 The radian.
 
-### <a id="VM_IOMatrix_RotateAxisRad_VM_Vector_System_Double_"></a> RotateAxisRad\(Vector, double\)
+### RotateAxisRad\(Vector, double\)
 
 To rotate counterclockwise for axis.
 
@@ -231,7 +231,7 @@ The rotation axis.
 
 The radian.
 
-### <a id="VM_IOMatrix_RotateXDeg_System_Double_"></a> RotateXDeg\(double\)
+### RotateXDeg\(double\)
 
 To rotate counterclockwise for x-axis.
 
@@ -245,7 +245,7 @@ void RotateXDeg(double dAngle)
 
 The degree.
 
-### <a id="VM_IOMatrix_RotateXRad_System_Double_"></a> RotateXRad\(double\)
+### RotateXRad\(double\)
 
 To rotate counterclockwise for x-axis.
 
@@ -259,7 +259,7 @@ void RotateXRad(double dAngle)
 
 The radian.
 
-### <a id="VM_IOMatrix_RotateYDeg_System_Double_"></a> RotateYDeg\(double\)
+### RotateYDeg\(double\)
 
 To rotate counterclockwise for y-axis.
 
@@ -273,7 +273,7 @@ void RotateYDeg(double dAngle)
 
 The degree.
 
-### <a id="VM_IOMatrix_RotateYRad_System_Double_"></a> RotateYRad\(double\)
+### RotateYRad\(double\)
 
 To rotate counterclockwise for y-axis.
 
@@ -287,7 +287,7 @@ void RotateYRad(double dAngle)
 
 The radian.
 
-### <a id="VM_IOMatrix_RotateZDeg_System_Double_"></a> RotateZDeg\(double\)
+### RotateZDeg\(double\)
 
 To rotate counterclockwise for z-axis.
 
@@ -301,7 +301,7 @@ void RotateZDeg(double dAngle)
 
 The degree.
 
-### <a id="VM_IOMatrix_RotateZRad_System_Double_"></a> RotateZRad\(double\)
+### RotateZRad\(double\)
 
 To rotate counterclockwise for z-axis.
 
@@ -315,7 +315,7 @@ void RotateZRad(double dAngle)
 
 The radian.
 
-### <a id="VM_IOMatrix_SetOrientation_VM_Plane_VM_Vector_VM_Vector_"></a> SetOrientation\(Plane, Vector, Vector\)
+### SetOrientation\(Plane, Vector, Vector\)
 
 Set data of orientation.
 
@@ -337,7 +337,7 @@ The vector for master.
 
 The vector for slave.
 
-### <a id="VM_IOMatrix_SetOrientation_VM_OMatrix_"></a> SetOrientation\(OMatrix\)
+### SetOrientation\(OMatrix\)
 
 Set data of orientation.
 
@@ -351,7 +351,7 @@ void SetOrientation(OMatrix mat)
 
 The matrix of orientation.
 
-### <a id="VM_IOMatrix_SetOrientation_System_Double___"></a> SetOrientation\(double\[\]\)
+### SetOrientation\(double\[\]\)
 
 Set data of orientation.
 
@@ -365,7 +365,7 @@ void SetOrientation(double[] arr)
 
 The data of orientation.
 
-### <a id="VM_IOMatrix_SetOrientationEADeg_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationEADeg\(RotationAxes, double, double, double\)
+### SetOrientationEADeg\(RotationAxes, double, double, double\)
 
 Set data of orientation for euler angle. Unit is degree.
 
@@ -391,7 +391,7 @@ The beta of euler angle.
 
 The gamma of euler angle.
 
-### <a id="VM_IOMatrix_SetOrientationEARad_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationEARad\(RotationAxes, double, double, double\)
+### SetOrientationEARad\(RotationAxes, double, double, double\)
 
 Set data of orientation for euler angle. Unit is radian.
 
@@ -417,7 +417,7 @@ The beta of euler angle.
 
 The gamma of euler angle.
 
-### <a id="VM_IOMatrix_SetOrientationFixedAngleDeg_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationFixedAngleDeg\(RotationAxes, double, double, double\)
+### SetOrientationFixedAngleDeg\(RotationAxes, double, double, double\)
 
 Set data of orientation for fixed angle. Unit is degree.
 
@@ -443,7 +443,7 @@ The beta of fixed angle.
 
 The gamma of fixed angle.
 
-### <a id="VM_IOMatrix_SetOrientationFixedAngleRad_VM_RotationAxes_System_Double_System_Double_System_Double_"></a> SetOrientationFixedAngleRad\(RotationAxes, double, double, double\)
+### SetOrientationFixedAngleRad\(RotationAxes, double, double, double\)
 
 Set data of orientation for fixed angle. Unit is radian.
 
@@ -469,11 +469,12 @@ The beta of fixed angle.
 
 The gamma of fixed angle.
 
-### <a id="VM_IOMatrix_TransposeOrientation"></a> TransposeOrientation\(\)
+### TransposeOrientation\(\)
 
 Transposed rows and columns of the matrix.
 
 ```csharp
 void TransposeOrientation()
 ```
+
 

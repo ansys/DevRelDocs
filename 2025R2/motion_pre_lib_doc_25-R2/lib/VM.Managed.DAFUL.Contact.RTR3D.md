@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_RTR3D"></a> Class RTR3D
+# Class RTR3D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -231,7 +231,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D__ctor"></a> RTR3D\(\)
+### RTR3D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.RTR3D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -239,7 +239,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.RTR3D" da
 public RTR3D()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D__ctor_System_String_"></a> RTR3D\(string\)
+### RTR3D\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.RTR3D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -255,7 +255,7 @@ Name of the rigid to rigid 3D contact.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -267,7 +267,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_IsSphereToSurface"></a> IsSphereToSurface
+### IsSphereToSurface
 
 Gets a value indicating whether geometry is sphere to surface.
 
@@ -279,7 +279,7 @@ public bool IsSphereToSurface { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -291,7 +291,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -305,7 +305,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -319,7 +319,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -347,7 +347,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -361,7 +361,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_IsSphereBodyWithSetFace_VM_Managed_DAFUL_SetFace_"></a> IsSphereBodyWithSetFace\(SetFace\)
+### IsSphereBodyWithSetFace\(SetFace\)
 
 Whether face in faceset is sphere or not.
 
@@ -379,7 +379,7 @@ The faceset
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -393,7 +393,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_UpdateIcon"></a> UpdateIcon\(\)
+### UpdateIcon\(\)
 
 Updates the icon [Not Implemented].
 
@@ -401,7 +401,7 @@ Updates the icon [Not Implemented].
 protected override void UpdateIcon()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_RTR3D_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -414,4 +414,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

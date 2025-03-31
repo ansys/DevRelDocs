@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_ShearPressureFormulationType"></a> Enum ShearPressureFormulationType
+# Enum ShearPressureFormulationType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -14,6 +14,7 @@ public enum ShearPressureFormulationType
 `Wong = 0` 
 
 Wong
+
 
 
 

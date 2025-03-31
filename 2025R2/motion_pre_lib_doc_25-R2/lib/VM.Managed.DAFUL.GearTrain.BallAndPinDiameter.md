@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BallAndPinDiameter"></a> Class BallAndPinDiameter
+# Class BallAndPinDiameter
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_BallAndPinDiameter__ctor"></a> BallAndPinDiameter\(\)
+### BallAndPinDiameter\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BallAndPinDiameter" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public BallAndPinDiameter()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_BallAndPinDiameter_FormulationType"></a> FormulationType
+### FormulationType
 
 Gets or sets the formulation type.
 
@@ -118,7 +118,7 @@ public BallAndPinDiameterFormulationType FormulationType { get; set; }
 
  [BallAndPinDiameterFormulationType](VM.Managed.DAFUL.GearTrain.BallAndPinDiameterFormulationType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BallAndPinDiameter_PairDiameterOfBall"></a> PairDiameterOfBall
+### PairDiameterOfBall
 
 Gets or sets the pair number of teeth spanned.
 
@@ -130,7 +130,7 @@ public GearPairValue PairDiameterOfBall { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BallAndPinDiameter_PairFixState"></a> PairFixState
+### PairFixState
 
 Gets or sets the pair fix state.
 
@@ -142,7 +142,7 @@ public bool[] PairFixState { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_BallAndPinDiameter_PairLowerMeasurement"></a> PairLowerMeasurement
+### PairLowerMeasurement
 
 Gets or sets the pair lower length of span.
 
@@ -154,7 +154,7 @@ public GearPairValue PairLowerMeasurement { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BallAndPinDiameter_PairUpperMeasurement"></a> PairUpperMeasurement
+### PairUpperMeasurement
 
 Gets or sets the pair upper length of span.
 
@@ -168,7 +168,7 @@ public GearPairValue PairUpperMeasurement { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_BallAndPinDiameter_InitChild_System_Int32_VM_Unit_ConvertFactor_"></a> InitChild\(int, ConvertFactor\)
+### InitChild\(int, ConvertFactor\)
 
 Initializes the child.
 
@@ -185,4 +185,5 @@ The n number.
 `factor` Unit.ConvertFactor
 
 The unit factor.
+
 

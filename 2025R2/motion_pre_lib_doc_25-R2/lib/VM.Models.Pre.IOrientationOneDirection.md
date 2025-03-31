@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IOrientationOneDirection"></a> Interface IOrientationOneDirection
+# Interface IOrientationOneDirection
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -24,7 +24,7 @@ IHasID,
 
 ## Properties
 
-### <a id="VM_Models_Pre_IOrientationOneDirection_ZDirection"></a> ZDirection
+### ZDirection
 
 ```csharp
 IDirectionBase ZDirection { get; set; }
@@ -33,4 +33,5 @@ IDirectionBase ZDirection { get; set; }
 #### Property Value
 
  IDirectionBase
+
 

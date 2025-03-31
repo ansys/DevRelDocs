@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FEFilm_Multi_Longitudinal"></a> Class FEFilm\_Multi\_Longitudinal
+# Class FEFilm\_Multi\_Longitudinal
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FEFilm_Multi_Longitudinal__ctor"></a> FEFilm\_Multi\_Longitudinal\(\)
+### FEFilm\_Multi\_Longitudinal\(\)
 
 ```csharp
 public FEFilm_Multi_Longitudinal()
@@ -106,7 +106,7 @@ public FEFilm_Multi_Longitudinal()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FEFilm_Multi_Longitudinal_LengthPerPattern"></a> LengthPerPattern
+### LengthPerPattern
 
 ```csharp
 public ExpressionValueVariable LengthPerPattern { get; set; }
@@ -118,9 +118,9 @@ public ExpressionValueVariable LengthPerPattern { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FEFilm_Multi_Longitudinal_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -130,5 +130,6 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+
 

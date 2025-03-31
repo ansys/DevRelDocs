@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_GroupAutoConnector"></a> Class GroupAutoConnector
+# Class GroupAutoConnector
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -87,7 +87,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_GroupAutoConnector__ctor_VM_Managed_Document_"></a> GroupAutoConnector\(Document\)
+### GroupAutoConnector\(Document\)
 
 ```csharp
 public GroupAutoConnector(Document doc)
@@ -97,7 +97,7 @@ public GroupAutoConnector(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Operation_GroupAutoConnector__ctor_VM_Managed_Document_System_Collections_Generic_IEnumerable_System_String__"></a> GroupAutoConnector\(Document, IEnumerable<string\>\)
+### GroupAutoConnector\(Document, IEnumerable<string\>\)
 
 ```csharp
 public GroupAutoConnector(Document doc, IEnumerable<string> groupNames)
@@ -109,7 +109,7 @@ public GroupAutoConnector(Document doc, IEnumerable<string> groupNames)
 
 `groupNames` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Operation_GroupAutoConnector__ctor_VM_Managed_Operation_JournalParameter_"></a> GroupAutoConnector\(JournalParameter\)
+### GroupAutoConnector\(JournalParameter\)
 
 ```csharp
 public GroupAutoConnector(JournalParameter jp)
@@ -121,7 +121,7 @@ public GroupAutoConnector(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_GroupAutoConnector_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -135,7 +135,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_GroupAutoConnector_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -143,7 +143,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_GroupAutoConnector_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -152,4 +152,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

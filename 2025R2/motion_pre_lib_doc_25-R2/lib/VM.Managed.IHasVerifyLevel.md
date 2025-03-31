@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHasVerifyLevel"></a> Interface IHasVerifyLevel
+# Interface IHasVerifyLevel
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IHasVerifyLevel
 
 ## Properties
 
-### <a id="VM_Managed_IHasVerifyLevel_VerifyLevel"></a> VerifyLevel
+### VerifyLevel
 
 Gets or sets the verify level.
 
@@ -28,4 +28,5 @@ int VerifyLevel { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

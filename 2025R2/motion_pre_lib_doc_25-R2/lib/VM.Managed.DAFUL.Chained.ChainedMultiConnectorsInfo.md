@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ChainedMultiConnectorsInfo"></a> Class ChainedMultiConnectorsInfo
+# Class ChainedMultiConnectorsInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedMultiConnectorsInfo__ctor"></a> ChainedMultiConnectorsInfo\(\)
+### ChainedMultiConnectorsInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedMultiConnectorsInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ public ChainedMultiConnectorsInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedMultiConnectorsInfo_ActionTransform"></a> ActionTransform
+### ActionTransform
 
 Gets and sets action tranformation.
 
@@ -119,7 +119,7 @@ public ObjectBase ActionTransform { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedMultiConnectorsInfo_BaseTransform"></a> BaseTransform
+### BaseTransform
 
 Gets and sets base tranformation.
 
@@ -130,4 +130,5 @@ public ObjectBase BaseTransform { get; set; }
 #### Property Value
 
  ObjectBase
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_Preset_GeometryStep"></a> Class GeometryStep
+# Class GeometryStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -74,7 +74,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Project_Preset_GeometryStep__ctor_VM_Models_IScenario_"></a> GeometryStep\(IScenario\)
+### GeometryStep\(IScenario\)
 
 ```csharp
 public GeometryStep(IScenario parent)
@@ -86,7 +86,7 @@ public GeometryStep(IScenario parent)
 
 ## Properties
 
-### <a id="VM_Models_Project_Preset_GeometryStep_Name"></a> Name
+### Name
 
 ```csharp
 public override string Name { get; }
@@ -96,7 +96,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Project_Preset_GeometryStep_TargetApplicationType"></a> TargetApplicationType
+### TargetApplicationType
 
 ```csharp
 public override ApplicationTypes TargetApplicationType { get; }
@@ -106,7 +106,7 @@ public override ApplicationTypes TargetApplicationType { get; }
 
  ApplicationTypes
 
-### <a id="VM_Models_Project_Preset_GeometryStep_Type"></a> Type
+### Type
 
 ```csharp
 public override StepType Type { get; }
@@ -118,7 +118,7 @@ public override StepType Type { get; }
 
 ## Methods
 
-### <a id="VM_Models_Project_Preset_GeometryStep_CanRelation_VM_Models_IStep_"></a> CanRelation\(IStep\)
+### CanRelation\(IStep\)
 
 ```csharp
 public override bool CanRelation(IStep source)
@@ -131,4 +131,5 @@ public override bool CanRelation(IStep source)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

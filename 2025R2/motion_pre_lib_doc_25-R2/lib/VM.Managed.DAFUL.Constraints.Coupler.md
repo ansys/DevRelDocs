@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Coupler"></a> Class Coupler
+# Class Coupler
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -226,7 +226,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler__ctor"></a> Coupler\(\)
+### Coupler\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-resolved="false"></xref> class.
 
@@ -234,7 +234,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Coupl
 public Coupler()
 ```
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler__ctor_System_String_"></a> Coupler\(string\)
+### Coupler\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-resolved="false"></xref> class.
 
@@ -250,7 +250,7 @@ Name of the coupler.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_Joint3"></a> Joint3
+### Joint3
 
 Gets or sets the third joint.
 
@@ -262,7 +262,7 @@ public ObjectBase Joint3 { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_Joint3_FullName"></a> Joint3\_FullName
+### Joint3\_FullName
 
 Gets the full name of the third joint.
 
@@ -274,7 +274,7 @@ public string Joint3_FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_JointType3"></a> JointType3
+### JointType3
 
 Gets or sets the third joint type.
 
@@ -286,7 +286,7 @@ public CouplerBase<PropertyCoupler>.JointType JointType3 { get; set; }
 
  [CouplerBase](VM.Managed.DAFUL.Constraints.CouplerBase\-1.md)<[PropertyCoupler](VM.Managed.DAFUL.Constraints.PropertyCoupler.md)\>.[JointType](VM.Managed.DAFUL.Constraints.CouplerBase\-1.JointType.md)
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_NumOfJoint"></a> NumOfJoint
+### NumOfJoint
 
 Gets or sets the number of joint.
 
@@ -300,7 +300,7 @@ public int NumOfJoint { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -314,7 +314,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_GetChildListImpl"></a> GetChildListImpl\(\)
+### GetChildListImpl\(\)
 
 get child list
 
@@ -326,7 +326,7 @@ protected override IEnumerable<ObjectBase> GetChildListImpl()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -354,7 +354,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -368,7 +368,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -386,7 +386,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -394,7 +394,7 @@ Redraw.
 public override void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -408,7 +408,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Constraints_Coupler_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -421,4 +421,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Property_PropertyBase_PropertyType"></a> Enum PropertyBase.PropertyType
+# Enum PropertyBase.PropertyType
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -26,6 +26,7 @@ Shell type property.
 `Solid = 2` 
 
 Solid type property.
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation"></a> Class PropertyMotorEMForce.MaxwellResultInformation
+# Class PropertyMotorEMForce.MaxwellResultInformation
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,7 @@ public class PropertyMotorEMForce.MaxwellResultInformation
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation__ctor"></a> MaxwellResultInformation\(\)
+### MaxwellResultInformation\(\)
 
 ```csharp
 public MaxwellResultInformation()
@@ -28,7 +28,7 @@ public MaxwellResultInformation()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation_Excitation"></a> Excitation
+### Excitation
 
 ```csharp
 public PropertyMotorEMForce.ExcitationType Excitation { get; set; }
@@ -38,7 +38,7 @@ public PropertyMotorEMForce.ExcitationType Excitation { get; set; }
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[ExcitationType](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.ExcitationType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation_Geometry"></a> Geometry
+### Geometry
 
 ```csharp
 public PropertyMotorEMForce.DivisionArray Geometry { get; set; }
@@ -48,7 +48,7 @@ public PropertyMotorEMForce.DivisionArray Geometry { get; set; }
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[DivisionArray](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.DivisionArray.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation_MaxwellModel"></a> MaxwellModel
+### MaxwellModel
 
 ```csharp
 public PropertyMotorEMForce.MaxwellModelType MaxwellModel { get; set; }
@@ -58,7 +58,7 @@ public PropertyMotorEMForce.MaxwellModelType MaxwellModel { get; set; }
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[MaxwellModelType](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.MaxwellModelType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation_MaxwellResult"></a> MaxwellResult
+### MaxwellResult
 
 ```csharp
 public PropertyMotorEMForce.MaxwellResultType MaxwellResult { get; set; }
@@ -68,7 +68,7 @@ public PropertyMotorEMForce.MaxwellResultType MaxwellResult { get; set; }
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[MaxwellResultType](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.MaxwellResultType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation_MaxwellSkewModel"></a> MaxwellSkewModel
+### MaxwellSkewModel
 
 ```csharp
 public PropertyMotorEMForce.MaxwellSkewModelType MaxwellSkewModel { get; set; }
@@ -78,7 +78,7 @@ public PropertyMotorEMForce.MaxwellSkewModelType MaxwellSkewModel { get; set; }
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[MaxwellSkewModelType](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.MaxwellSkewModelType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation_RPMRange"></a> RPMRange
+### RPMRange
 
 ```csharp
 public string RPMRange { get; set; }
@@ -88,7 +88,7 @@ public string RPMRange { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation_RotorForce"></a> RotorForce
+### RotorForce
 
 ```csharp
 public PropertyMotorEMForce.DivisionArray[] RotorForce { get; set; }
@@ -98,7 +98,7 @@ public PropertyMotorEMForce.DivisionArray[] RotorForce { get; set; }
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[DivisionArray](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.DivisionArray.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation_StatorForce"></a> StatorForce
+### StatorForce
 
 ```csharp
 public PropertyMotorEMForce.DivisionArray[] StatorForce { get; set; }
@@ -107,4 +107,5 @@ public PropertyMotorEMForce.DivisionArray[] StatorForce { get; set; }
 #### Property Value
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[DivisionArray](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.DivisionArray.md)\[\]
+
 

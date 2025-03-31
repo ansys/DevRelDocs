@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisShimmy"></a> Class AnalysisShimmy
+# Class AnalysisShimmy
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -40,7 +40,7 @@ AnalysisBase.IsSim
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisShimmy__ctor"></a> AnalysisShimmy\(\)
+### AnalysisShimmy\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisShimmy" data-throw-if-not-resolved="false"></xref> class.
 
@@ -48,7 +48,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisShimm
 public AnalysisShimmy()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisShimmy__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisShimmy\(ILinkContainer\)
+### AnalysisShimmy\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisShimmy" data-throw-if-not-resolved="false"></xref> class.
 
@@ -64,7 +64,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisShimmy_ActuatorInfo"></a> ActuatorInfo
+### ActuatorInfo
 
 Gets or sets the actuator.
 
@@ -75,4 +75,5 @@ public ActuatorInfo ActuatorInfo { get; set; }
 #### Property Value
 
  [ActuatorInfo](VM.Managed.DAFUL.Car.ActuatorInfo.md)
+
 

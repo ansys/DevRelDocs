@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearSetWormAndWormWheel"></a> Class GearSetWormAndWormWheel
+# Class GearSetWormAndWormWheel
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetWormAndWormWheel__ctor"></a> GearSetWormAndWormWheel\(\)
+### GearSetWormAndWormWheel\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetWormAndWormWheel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSetWormAndWormWheel()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetWormAndWormWheel__ctor_System_String_"></a> GearSetWormAndWormWheel\(string\)
+### GearSetWormAndWormWheel\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetWormAndWormWheel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetWormAndWormWheel_Extension"></a> Extension
+### Extension
 
 Gets the extension.
 
@@ -300,7 +300,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetWormAndWormWheel_TypeFileName"></a> TypeFileName
+### TypeFileName
 
 Gets the name of the type file.
 
@@ -314,7 +314,7 @@ public override string TypeFileName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetWormAndWormWheel_CreateGearGeometry_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_GearShapeBase___"></a> CreateGearGeometry\(string, int, GearShapeBase\[\]\)
+### CreateGearGeometry\(string, int, GearShapeBase\[\]\)
 
 Create Gear Geometry.
 
@@ -336,7 +336,7 @@ The No. of gear
 
 The gear shape geometry
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetWormAndWormWheel_LineLineIntersect_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_VectorBase__VM_Managed_VectorBase__System_Double__System_Double__"></a> LineLineIntersect\(VectorBase, VectorBase, VectorBase, VectorBase, ref VectorBase, ref VectorBase, ref double, ref double\)
+### LineLineIntersect\(VectorBase, VectorBase, VectorBase, VectorBase, ref VectorBase, ref VectorBase, ref double, ref double\)
 
 calculate the line segment pa, pb that is the shortest route between two lines p1p2 and p3p4.
 calculate also the values of mua and mub where
@@ -381,7 +381,7 @@ the point on the line 2 is closet to line 1
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetWormAndWormWheel_Meshing_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__"></a> Meshing\(List<IGearBuilder\>\)
+### Meshing\(List<IGearBuilder\>\)
 
 Meshing the gears.
 
@@ -399,7 +399,7 @@ The gear builder list.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetWormAndWormWheel_OnPreBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Pre build in Special
 
@@ -420,4 +420,5 @@ The document
 `InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The input array
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_CorneringWithSteerReleaseConfiguration"></a> Class CorneringWithSteerReleaseConfiguration
+# Class CorneringWithSteerReleaseConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_CorneringWithSteerReleaseConfiguration__ctor"></a> CorneringWithSteerReleaseConfiguration\(\)
+### CorneringWithSteerReleaseConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CorneringWithSteerReleaseConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CorneringWith
 public CorneringWithSteerReleaseConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_CorneringWithSteerReleaseConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_"></a> CorneringWithSteerReleaseConfiguration\(AnalysisCorneringWithSteerRelease\)
+### CorneringWithSteerReleaseConfiguration\(AnalysisCorneringWithSteerRelease\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CorneringWithSteerReleaseConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_CorneringWithSteerReleaseConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_CorneringWithSteerReleaseConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_CorneringWithSteerReleaseConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_CorneringWithSteerReleaseConfiguration_CorneringWithSteerReleaseParam"></a> CorneringWithSteerReleaseParam
+### CorneringWithSteerReleaseParam
 
 Gets or sets the cornering with steer release parameter.
 
@@ -274,4 +274,5 @@ public AnalysisCorneringWithSteerRelease CorneringWithSteerReleaseParam { get; s
 #### Property Value
 
  [AnalysisCorneringWithSteerRelease](VM.Managed.DAFUL.Car.AnalysisCorneringWithSteerRelease.md)
+
 

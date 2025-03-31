@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_LinkUpdateAttribute"></a> Class LinkUpdateAttribute
+# Class LinkUpdateAttribute
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  
@@ -45,13 +45,13 @@ ILinkUpdateOwner
 
 ## Constructors
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute__ctor"></a> LinkUpdateAttribute\(\)
+### LinkUpdateAttribute\(\)
 
 ```csharp
 public LinkUpdateAttribute()
 ```
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute__ctor_System_Type_"></a> LinkUpdateAttribute\(Type\)
+### LinkUpdateAttribute\(Type\)
 
 ```csharp
 public LinkUpdateAttribute(Type behaviorType)
@@ -61,7 +61,7 @@ public LinkUpdateAttribute(Type behaviorType)
 
 `behaviorType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute__ctor_VM_Models_Pre_LinkBehaviorType_System_String___"></a> LinkUpdateAttribute\(LinkBehaviorType, params string\[\]\)
+### LinkUpdateAttribute\(LinkBehaviorType, params string\[\]\)
 
 ```csharp
 public LinkUpdateAttribute(LinkBehaviorType linkBehaviorType, params string[] behaviorNames)
@@ -75,7 +75,7 @@ public LinkUpdateAttribute(LinkBehaviorType linkBehaviorType, params string[] be
 
 ## Fields
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute___a__instance"></a> \_\_a$\_instance
+### \_\_a$\_instance
 
 ```csharp
 public static readonly LinkUpdateAttribute __a$_instance
@@ -87,7 +87,7 @@ public static readonly LinkUpdateAttribute __a$_instance
 
 ## Properties
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_AfterEventName"></a> AfterEventName
+### AfterEventName
 
 ```csharp
 protected virtual string AfterEventName { get; }
@@ -97,7 +97,7 @@ protected virtual string AfterEventName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_BeforeEventName"></a> BeforeEventName
+### BeforeEventName
 
 ```csharp
 protected virtual string BeforeEventName { get; }
@@ -107,7 +107,7 @@ protected virtual string BeforeEventName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_TypeId"></a> TypeId
+### TypeId
 
 ```csharp
 public override object TypeId { get; }
@@ -119,7 +119,7 @@ public override object TypeId { get; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_AfterSetter_System_Object_System_String_System_Object___System_Attribute___"></a> AfterSetter\(object, string, object\[\], Attribute\[\]\)
+### AfterSetter\(object, string, object\[\], Attribute\[\]\)
 
 ```csharp
 [Advice(Kind.After, Targets = Target.AnyAccess|Target.Setter)]
@@ -136,7 +136,7 @@ public virtual void AfterSetter(object owner, string propertyName, object[] valu
 
 `triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_BeforeSetter_System_String_"></a> BeforeSetter\(string\)
+### BeforeSetter\(string\)
 
 ```csharp
 [Advice(Kind.Before, Targets = Target.AnyAccess|Target.Setter)]
@@ -147,7 +147,7 @@ public virtual void BeforeSetter(string propertyName)
 
 `propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_GetAfterBehavior__1_System_Object_System_String_System_Object_System_Reactive_EventPattern_VM_Managed_LinkEventArgs____0_System_Boolean_"></a> GetAfterBehavior<TAttribute\>\(object, string, object, EventPattern<LinkEventArgs\>, TAttribute, bool\)
+### GetAfterBehavior<TAttribute\>\(object, string, object, EventPattern<LinkEventArgs\>, TAttribute, bool\)
 
 ```csharp
 protected Action GetAfterBehavior<TAttribute>(object owner, string propertyName, object link, EventPattern<LinkEventArgs> eventPattern, TAttribute attribute, bool isSwap) where TAttribute : LinkUpdateAttribute
@@ -175,7 +175,7 @@ protected Action GetAfterBehavior<TAttribute>(object owner, string propertyName,
 
 `TAttribute` 
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_GetAfterSubscriber__1_System_Object_System_String_System_Object___0_System_Boolean_"></a> GetAfterSubscriber<TAttribute\>\(object, string, object, TAttribute, bool\)
+### GetAfterSubscriber<TAttribute\>\(object, string, object, TAttribute, bool\)
 
 ```csharp
 protected IDisposable GetAfterSubscriber<TAttribute>(object owner, string propertyName, object link, TAttribute linkAttribute, bool isSwap) where TAttribute : LinkUpdateAttribute
@@ -201,7 +201,7 @@ protected IDisposable GetAfterSubscriber<TAttribute>(object owner, string proper
 
 `TAttribute` 
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_GetBeforeBehavior__1_System_Object_System_String_System_Object_System_Reactive_EventPattern_VM_Managed_LinkEventArgs____0_System_Boolean_"></a> GetBeforeBehavior<TAttribute\>\(object, string, object, EventPattern<LinkEventArgs\>, TAttribute, bool\)
+### GetBeforeBehavior<TAttribute\>\(object, string, object, EventPattern<LinkEventArgs\>, TAttribute, bool\)
 
 ```csharp
 protected Action GetBeforeBehavior<TAttribute>(object owner, string propertyName, object link, EventPattern<LinkEventArgs> eventPattern, TAttribute attribute, bool isSwap) where TAttribute : LinkUpdateAttribute
@@ -229,7 +229,7 @@ protected Action GetBeforeBehavior<TAttribute>(object owner, string propertyName
 
 `TAttribute` 
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_GetBeforeSubscriber__1_System_Object_System_String_System_Object___0_System_Boolean_"></a> GetBeforeSubscriber<TAttribute\>\(object, string, object, TAttribute, bool\)
+### GetBeforeSubscriber<TAttribute\>\(object, string, object, TAttribute, bool\)
 
 ```csharp
 protected IDisposable GetBeforeSubscriber<TAttribute>(object owner, string propertyName, object link, TAttribute linkAttribute, bool isSwap) where TAttribute : LinkUpdateAttribute
@@ -255,7 +255,7 @@ protected IDisposable GetBeforeSubscriber<TAttribute>(object owner, string prope
 
 `TAttribute` 
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_GetBehavior__1_System_Object_System_Object_System_String_System_Object___0_System_Boolean_"></a> GetBehavior<TAttribute\>\(object, object, string, object, TAttribute, bool\)
+### GetBehavior<TAttribute\>\(object, object, string, object, TAttribute, bool\)
 
 ```csharp
 protected static Action GetBehavior<TAttribute>(object caller, object owner, string propertyName, object link, TAttribute attribute, bool isSwap) where TAttribute : LinkUpdateAttribute
@@ -283,7 +283,7 @@ protected static Action GetBehavior<TAttribute>(object caller, object owner, str
 
 `TAttribute` 
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_GetDefaultAfterBehavior_System_Object_System_Reactive_EventPattern_VM_Managed_LinkEventArgs__"></a> GetDefaultAfterBehavior\(object, EventPattern<LinkEventArgs\>\)
+### GetDefaultAfterBehavior\(object, EventPattern<LinkEventArgs\>\)
 
 ```csharp
 protected virtual Action GetDefaultAfterBehavior(object source, EventPattern<LinkEventArgs> eventPattern)
@@ -299,7 +299,7 @@ protected virtual Action GetDefaultAfterBehavior(object source, EventPattern<Lin
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_GetDefaultBeforeBehavior_System_Object_System_Reactive_EventPattern_VM_Managed_LinkEventArgs__"></a> GetDefaultBeforeBehavior\(object, EventPattern<LinkEventArgs\>\)
+### GetDefaultBeforeBehavior\(object, EventPattern<LinkEventArgs\>\)
 
 ```csharp
 protected virtual Action GetDefaultBeforeBehavior(object source, EventPattern<LinkEventArgs> eventPattern)
@@ -315,7 +315,7 @@ protected virtual Action GetDefaultBeforeBehavior(object source, EventPattern<Li
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_InitializeProperty_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__"></a> InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
+### InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
 
 ```csharp
 protected override void InitializeProperty(object owner, IEnumerable<PropertyInfo> propertyInfos)
@@ -327,7 +327,7 @@ protected override void InitializeProperty(object owner, IEnumerable<PropertyInf
 
 `propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_InitializeProperty__1_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__System_Boolean_"></a> InitializeProperty<TAttribute\>\(object, IEnumerable<PropertyInfo\>, bool\)
+### InitializeProperty<TAttribute\>\(object, IEnumerable<PropertyInfo\>, bool\)
 
 ```csharp
 protected void InitializeProperty<TAttribute>(object owner, IEnumerable<PropertyInfo> propertyInfos, bool isSwap = false) where TAttribute : LinkUpdateAttribute
@@ -345,7 +345,7 @@ protected void InitializeProperty<TAttribute>(object owner, IEnumerable<Property
 
 `TAttribute` 
 
-### <a id="VM_Models_Pre_LinkUpdateAttribute_Subscribe__1_System_Object_System_String_System_Object_System_Collections_Generic_IEnumerable_System_Attribute__System_Boolean_"></a> Subscribe<TAttribute\>\(object, string, object, IEnumerable<Attribute\>, bool\)
+### Subscribe<TAttribute\>\(object, string, object, IEnumerable<Attribute\>, bool\)
 
 ```csharp
 protected void Subscribe<TAttribute>(object owner, string propertyName, object link, IEnumerable<Attribute> attributes, bool isSwap = false) where TAttribute : LinkUpdateAttribute
@@ -366,4 +366,5 @@ protected void Subscribe<TAttribute>(object owner, string propertyName, object l
 #### Type Parameters
 
 `TAttribute` 
+
 

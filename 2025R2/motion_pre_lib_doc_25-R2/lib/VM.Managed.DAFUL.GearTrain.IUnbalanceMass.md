@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_IUnbalanceMass"></a> Interface IUnbalanceMass
+# Interface IUnbalanceMass
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,7 +21,7 @@ public interface IUnbalanceMass : IPointEntity
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_IUnbalanceMass_CenterPositionOfDummyBody"></a> CenterPositionOfDummyBody
+### CenterPositionOfDummyBody
 
 Gets the center position of dummy body.
 
@@ -33,7 +33,7 @@ VectorBase CenterPositionOfDummyBody { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_IUnbalanceMass_Mass"></a> Mass
+### Mass
 
 Gets the mass.
 
@@ -45,7 +45,7 @@ ExpressionValueVariable Mass { get; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_IUnbalanceMass_MomentArm"></a> MomentArm
+### MomentArm
 
 Gets the moment arm.
 
@@ -56,4 +56,5 @@ ExpressionValueVariable MomentArm { get; }
 #### Property Value
 
  ExpressionValueVariable
+
 

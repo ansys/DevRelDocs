@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness"></a> Class BearingStiffness
+# Class BearingStiffness
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness__ctor"></a> BearingStiffness\(\)
+### BearingStiffness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BearingStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public BearingStiffness()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_AmountOfDataForPlotResult"></a> AmountOfDataForPlotResult
+### AmountOfDataForPlotResult
 
 Gets or sets the amount of data for plot result.
 
@@ -191,7 +191,7 @@ public ExpressionValueVariable AmountOfDataForPlotResult { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_AmountOfDataForPlotResultInitialValue"></a> AmountOfDataForPlotResultInitialValue
+### AmountOfDataForPlotResultInitialValue
 
 Gets the amount of data for plot result initial value.
 
@@ -203,7 +203,7 @@ public static int AmountOfDataForPlotResultInitialValue { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_AxialStiffnessSplineValue"></a> AxialStiffnessSplineValue
+### AxialStiffnessSplineValue
 
 Gets or sets the axial stiffness spline value.
 
@@ -215,7 +215,7 @@ public SplineValue AxialStiffnessSplineValue { get; set; }
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_DeformationX"></a> DeformationX
+### DeformationX
 
 Gets or sets the X deformation.
 
@@ -227,7 +227,7 @@ public ExpressionValueVariable DeformationX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_DeformationXInitialValue"></a> DeformationXInitialValue
+### DeformationXInitialValue
 
 Gets the X deformation initial value.
 
@@ -239,7 +239,7 @@ public static double DeformationXInitialValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_DeformationY"></a> DeformationY
+### DeformationY
 
 Gets or sets the Y deformation.
 
@@ -251,7 +251,7 @@ public ExpressionValueVariable DeformationY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_DeformationYInitialValue"></a> DeformationYInitialValue
+### DeformationYInitialValue
 
 Gets the Y deformation initial value.
 
@@ -263,7 +263,7 @@ public static double DeformationYInitialValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_DeformationZ"></a> DeformationZ
+### DeformationZ
 
 Gets or sets the Z deformation.
 
@@ -275,7 +275,7 @@ public ExpressionValueVariable DeformationZ { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_DeformationZInitialValue"></a> DeformationZInitialValue
+### DeformationZInitialValue
 
 Gets the Z deformation initial value.
 
@@ -287,7 +287,7 @@ public static double DeformationZInitialValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_MaxAxialStiffnessValue"></a> MaxAxialStiffnessValue
+### MaxAxialStiffnessValue
 
 Gets or sets the maximum axial stiffness value.
 
@@ -299,7 +299,7 @@ public ExpressionValueVariable MaxAxialStiffnessValue { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_MaxDeformationForAxialDirection"></a> MaxDeformationForAxialDirection
+### MaxDeformationForAxialDirection
 
 Gets or sets the Max. deformation for axial direction.
 
@@ -311,7 +311,7 @@ public ExpressionValueVariable MaxDeformationForAxialDirection { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_MaxDeformationForAxialDirectionInitialValue"></a> MaxDeformationForAxialDirectionInitialValue
+### MaxDeformationForAxialDirectionInitialValue
 
 Gets the Max. deformation for axial direction initial value.
 
@@ -323,7 +323,7 @@ public static double MaxDeformationForAxialDirectionInitialValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_MaxDeformationForRadialDirection"></a> MaxDeformationForRadialDirection
+### MaxDeformationForRadialDirection
 
 Gets or sets the Max. deformation for radial direction.
 
@@ -335,7 +335,7 @@ public ExpressionValueVariable MaxDeformationForRadialDirection { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_MaxDeformationForRadialDirectionInitialValue"></a> MaxDeformationForRadialDirectionInitialValue
+### MaxDeformationForRadialDirectionInitialValue
 
 Gets the Max. deformation for radial direction initial value.
 
@@ -347,7 +347,7 @@ public static double MaxDeformationForRadialDirectionInitialValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_MaxDeformationForTilting"></a> MaxDeformationForTilting
+### MaxDeformationForTilting
 
 Gets or sets the Max. deformation for tilting.
 
@@ -359,7 +359,7 @@ public ExpressionValueVariable MaxDeformationForTilting { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_MaxDeformationForTiltingInitialValue"></a> MaxDeformationForTiltingInitialValue
+### MaxDeformationForTiltingInitialValue
 
 Gets the Max. deformation for tilting initial value.
 
@@ -371,7 +371,7 @@ public static double MaxDeformationForTiltingInitialValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_MaxRadialStiffnessValue"></a> MaxRadialStiffnessValue
+### MaxRadialStiffnessValue
 
 Gets or sets the maximum radial stiffness value.
 
@@ -383,7 +383,7 @@ public ExpressionValueVariable MaxRadialStiffnessValue { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_MaxTiltStiffnessValue"></a> MaxTiltStiffnessValue
+### MaxTiltStiffnessValue
 
 Gets or sets the maximum tilt stiffness value.
 
@@ -395,7 +395,7 @@ public ExpressionValueVariable MaxTiltStiffnessValue { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_RadialStiffnessSplineValue"></a> RadialStiffnessSplineValue
+### RadialStiffnessSplineValue
 
 Gets or sets the radial stiffness spline value.
 
@@ -407,7 +407,7 @@ public SplineValue RadialStiffnessSplineValue { get; set; }
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_ShowAdvancedParameter"></a> ShowAdvancedParameter
+### ShowAdvancedParameter
 
 Gets or sets the advanced parameter show state.
 
@@ -419,7 +419,7 @@ public bool ShowAdvancedParameter { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_StiffnessMatrix"></a> StiffnessMatrix
+### StiffnessMatrix
 
 Gets or sets the stiffness matrix.
 
@@ -431,7 +431,7 @@ public VariableMatrix StiffnessMatrix { get; set; }
 
  VariableMatrix
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_TiltStiffnessSplineValue"></a> TiltStiffnessSplineValue
+### TiltStiffnessSplineValue
 
 Gets or sets the tilt stiffness spline value.
 
@@ -443,7 +443,7 @@ public SplineValue TiltStiffnessSplineValue { get; set; }
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_TiltX"></a> TiltX
+### TiltX
 
 Gets or sets the X tilt.
 
@@ -455,7 +455,7 @@ public ExpressionValueVariable TiltX { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_TiltXInitialValue"></a> TiltXInitialValue
+### TiltXInitialValue
 
 Gets the X tilt initial value.
 
@@ -467,7 +467,7 @@ public static double TiltXInitialValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_TiltY"></a> TiltY
+### TiltY
 
 Gets or sets the Y tilt.
 
@@ -479,7 +479,7 @@ public ExpressionValueVariable TiltY { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_TiltYInitialValue"></a> TiltYInitialValue
+### TiltYInitialValue
 
 Gets the Y tilt initial value.
 
@@ -493,7 +493,7 @@ public static double TiltYInitialValue { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -507,7 +507,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStiffness_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -520,4 +520,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

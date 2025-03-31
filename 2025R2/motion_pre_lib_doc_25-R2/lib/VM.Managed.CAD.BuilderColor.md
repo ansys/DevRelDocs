@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderColor"></a> Class BuilderColor
+# Class BuilderColor
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class BuilderColor
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderColor__ctor_System_Byte_System_Byte_System_Byte_System_Byte_"></a> BuilderColor\(byte, byte, byte, byte\)
+### BuilderColor\(byte, byte, byte, byte\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderColor" data-throw-if-not-resolved="false"></xref> class
 
@@ -48,7 +48,7 @@ The green.
 
 The blue.
 
-### <a id="VM_Managed_CAD_BuilderColor__ctor_System_Drawing_Color_"></a> BuilderColor\(Color\)
+### BuilderColor\(Color\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderColor" data-throw-if-not-resolved="false"></xref> class
 
@@ -62,7 +62,7 @@ public BuilderColor(Color color)
 
 The color
 
-### <a id="VM_Managed_CAD_BuilderColor__ctor"></a> BuilderColor\(\)
+### BuilderColor\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderColor" data-throw-if-not-resolved="false"></xref> class
 
@@ -72,7 +72,7 @@ public BuilderColor()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderColor_ColorA"></a> ColorA
+### ColorA
 
 Gets the alpha of color.
 
@@ -84,7 +84,7 @@ public int ColorA { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_BuilderColor_ColorB"></a> ColorB
+### ColorB
 
 Gets the blue of color.
 
@@ -96,7 +96,7 @@ public int ColorB { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_BuilderColor_ColorG"></a> ColorG
+### ColorG
 
 Gets the green of color.
 
@@ -108,7 +108,7 @@ public int ColorG { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_BuilderColor_ColorR"></a> ColorR
+### ColorR
 
 Gets the red of color.
 
@@ -120,7 +120,7 @@ public int ColorR { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_BuilderColor_EdgeColorInfo"></a> EdgeColorInfo
+### EdgeColorInfo
 
 Gets or sets the faces color information.
 
@@ -132,7 +132,7 @@ public TopologyColorInfo EdgeColorInfo { get; set; }
 
  [TopologyColorInfo](VM.Managed.CAD.TopologyColorInfo.md)
 
-### <a id="VM_Managed_CAD_BuilderColor_FaceColorInfo"></a> FaceColorInfo
+### FaceColorInfo
 
 Gets or sets the faces color information.
 
@@ -146,7 +146,7 @@ public TopologyColorInfo FaceColorInfo { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderColor_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -163,7 +163,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_CAD_BuilderColor_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -177,7 +177,7 @@ virtual void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_CAD_BuilderColor_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -191,7 +191,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_CAD_BuilderColor_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -204,4 +204,5 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_ClearanceTranslational"></a> Class ClearanceTranslational
+# Class ClearanceTranslational
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -30,7 +30,7 @@ public class ClearanceTranslational : Clearance
 
 ## Constructors
 
-### <a id="VM_API_Pre_ClearanceTranslational__ctor"></a> ClearanceTranslational\(\)
+### ClearanceTranslational\(\)
 
 Default constructor
 
@@ -38,7 +38,7 @@ Default constructor
 public ClearanceTranslational()
 ```
 
-### <a id="VM_API_Pre_ClearanceTranslational__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> ClearanceTranslational\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable\)
+### ClearanceTranslational\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.ClearanceTranslational" data-throw-if-not-resolved="false"></xref> class.
 
@@ -74,7 +74,7 @@ The y clearance.
 
 ## Properties
 
-### <a id="VM_API_Pre_ClearanceTranslational_XClearance"></a> XClearance
+### XClearance
 
 The value for the x clearance. The default value is 0.1.
 
@@ -86,7 +86,7 @@ public ExpressionValueVariable XClearance { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_ClearanceTranslational_YClearance"></a> YClearance
+### YClearance
 
 The value for the y clearance. The default value is 0.1.
 
@@ -97,4 +97,5 @@ public ExpressionValueVariable YClearance { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

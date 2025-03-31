@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_ParallelBBPPD"></a> Class ParallelBBPPD
+# Class ParallelBBPPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -61,9 +61,10 @@ BuilderBase<Parallel\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Constraints_ParallelBBPPD__ctor"></a> ParallelBBPPD\(\)
+### ParallelBBPPD\(\)
 
 ```csharp
 public ParallelBBPPD()
 ```
+
 

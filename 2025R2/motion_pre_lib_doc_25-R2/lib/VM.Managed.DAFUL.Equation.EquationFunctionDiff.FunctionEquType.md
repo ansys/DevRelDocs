@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_EquationFunctionDiff_FunctionEquType"></a> Enum EquationFunctionDiff.FunctionEquType
+# Enum EquationFunctionDiff.FunctionEquType
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  
@@ -20,6 +20,7 @@ solving explicit method.
 `Implicit = 1` 
 
 solving implicit method.
+
 
 
 

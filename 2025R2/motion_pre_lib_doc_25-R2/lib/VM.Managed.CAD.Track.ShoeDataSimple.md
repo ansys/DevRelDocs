@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeDataSimple"></a> Class ShoeDataSimple
+# Class ShoeDataSimple
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -110,7 +110,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSimple__ctor"></a> ShoeDataSimple\(\)
+### ShoeDataSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -118,7 +118,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataSimpl
 public ShoeDataSimple()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSimple__ctor_VM_Models_Pre_IOwned_"></a> ShoeDataSimple\(IOwned\)
+### ShoeDataSimple\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -134,11 +134,12 @@ The owner object.
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_ShoeDataSimple_Validation"></a> Validation\(\)
+### Validation\(\)
 
 Checks the validation .
 
 ```csharp
 public override void Validation()
 ```
+
 

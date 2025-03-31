@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearShapeCrossHelical"></a> Class GearShapeCrossHelical
+# Class GearShapeCrossHelical
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -128,7 +128,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCrossHelical__ctor"></a> GearShapeCrossHelical\(\)
+### GearShapeCrossHelical\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeCrossHelical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -138,7 +138,7 @@ public GearShapeCrossHelical()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCrossHelical_CrossAxisAngle"></a> CrossAxisAngle
+### CrossAxisAngle
 
 Gets or sets the cross axis angle.
 
@@ -150,7 +150,7 @@ public double CrossAxisAngle { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCrossHelical_ExtraRotateAngle"></a> ExtraRotateAngle
+### ExtraRotateAngle
 
 Gets the extra rotate angle.
 
@@ -164,7 +164,7 @@ public override double ExtraRotateAngle { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCrossHelical_Show2D_VM_CAD_Kernel_Render_Canvas_"></a> Show2D\(Canvas\)
+### Show2D\(Canvas\)
 
 Show2D.
 
@@ -177,4 +177,5 @@ public override void Show2D(Canvas canvas)
 `canvas` Canvas
 
 The canvas.
+
 

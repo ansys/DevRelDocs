@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToShaft"></a> Class AddSlidingBearingToShaft
+# Class AddSlidingBearingToShaft
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -51,7 +51,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToShaft__ctor"></a> AddSlidingBearingToShaft\(\)
+### AddSlidingBearingToShaft\(\)
 
 ```csharp
 public AddSlidingBearingToShaft()
@@ -59,7 +59,7 @@ public AddSlidingBearingToShaft()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToShaft_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public override void Build(Document docToAdd)
@@ -68,4 +68,5 @@ public override void Build(Document docToAdd)
 #### Parameters
 
 `docToAdd` Document
+
 

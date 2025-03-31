@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_ChamferInfoEdge"></a> Class ChamferInfoEdge
+# Class ChamferInfoEdge
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -29,7 +29,7 @@ public class ChamferInfoEdge : ChamferInfo
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_ChamferInfoEdge__ctor"></a> ChamferInfoEdge\(\)
+### ChamferInfoEdge\(\)
 
 ```csharp
 public ChamferInfoEdge()
@@ -37,7 +37,7 @@ public ChamferInfoEdge()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_ChamferInfoEdge_Point"></a> Point
+### Point
 
 Point of the champer
 
@@ -49,7 +49,7 @@ public Vector Point { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_ChamferInfoEdge_Vector"></a> Vector
+### Vector
 
 Vector of the champer
 
@@ -60,4 +60,5 @@ public Vector Vector { get; set; }
 #### Property Value
 
  Vector
+
 

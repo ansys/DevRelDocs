@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle"></a> Class RigidBodyElementSingle
+# Class RigidBodyElementSingle
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -223,7 +223,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle__ctor"></a> RigidBodyElementSingle\(\)
+### RigidBodyElementSingle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.RigidBodyElementSingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -231,7 +231,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.RigidBod
 public RigidBodyElementSingle()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle__ctor_System_String_"></a> RigidBodyElementSingle\(string\)
+### RigidBodyElementSingle\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.RigidBodyElementSingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -247,7 +247,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_Body"></a> Body
+### Body
 
 Gets the body.
 
@@ -259,7 +259,7 @@ public IBody Body { get; }
 
  IBody
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_Center"></a> Center
+### Center
 
 Gets the center position of the object.
 
@@ -271,7 +271,7 @@ public TMatrix Center { get; }
 
  TMatrix
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_ConnectableBody"></a> ConnectableBody
+### ConnectableBody
 
 Gets the connectable body.
 
@@ -283,7 +283,7 @@ public ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_ConnectableFullName"></a> ConnectableFullName
+### ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -295,7 +295,7 @@ public string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_ConnectableName"></a> ConnectableName
+### ConnectableName
 
 Gets the name of the connectable.
 
@@ -307,7 +307,7 @@ public string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_ConnectablePosition"></a> ConnectablePosition
+### ConnectablePosition
 
 Sets the connectable position.
 
@@ -319,7 +319,7 @@ public Vector ConnectablePosition { set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_ConnectablePostfixName"></a> ConnectablePostfixName
+### ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -331,7 +331,7 @@ public string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -343,7 +343,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -355,7 +355,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_MasterPoint"></a> MasterPoint
+### MasterPoint
 
 Gets or sets the master point.
 
@@ -367,7 +367,7 @@ public PointBase MasterPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_ParentType"></a> ParentType
+### ParentType
 
 Gets the type of the marker's parent.
 
@@ -379,7 +379,7 @@ public MarkerParentType ParentType { get; }
 
  MarkerParentType
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_RBEBaseComponent"></a> RBEBaseComponent
+### RBEBaseComponent
 
 Gets or sets the rbe base component.
 
@@ -391,7 +391,7 @@ public IGeometricalComponent RBEBaseComponent { get; set; }
 
  IGeometricalComponent
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_ReferenceFrameType"></a> ReferenceFrameType
+### ReferenceFrameType
 
 Gets the type of the marker's reference frame.
 
@@ -403,7 +403,7 @@ public MarkerReferenceFrameType ReferenceFrameType { get; }
 
  MarkerReferenceFrameType
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle__RBEBaseComponent"></a> \_RBEBaseComponent
+### \_RBEBaseComponent
 
 Gets or sets the rbe base component.
 
@@ -417,7 +417,7 @@ public Linker<IGeometricalComponent> _RBEBaseComponent { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -431,7 +431,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_DrawbleCore_VM_Managed_ObjectBase_"></a> DrawbleCore\(ObjectBase\)
+### DrawbleCore\(ObjectBase\)
 
 Drawble.
 
@@ -451,7 +451,7 @@ The target object.
 
 <code>true</code> if this instance is drawable; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -471,7 +471,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_GetChildListImpl"></a> GetChildListImpl\(\)
+### GetChildListImpl\(\)
 
 get child list
 
@@ -483,7 +483,7 @@ protected virtual IEnumerable<ObjectBase> GetChildListImpl()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_GetConnectorList_System_Collections_Generic_List_VM_Managed_ObjectBase__"></a> GetConnectorList\(List<ObjectBase\>\)
+### GetConnectorList\(List<ObjectBase\>\)
 
 Gets the connector list.
 
@@ -501,7 +501,7 @@ The target.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -529,7 +529,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -547,7 +547,7 @@ The ob unnamed.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -561,7 +561,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_IsConnectedConnector"></a> IsConnectedConnector\(\)
+### IsConnectedConnector\(\)
 
 Gets or sets a value indicating whether this instance connected connector or not.
 
@@ -573,7 +573,7 @@ public bool IsConnectedConnector()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -591,7 +591,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -605,11 +605,12 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementSingle_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public void ReDraw()
 ```
+
 

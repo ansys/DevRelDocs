@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CenterMarker"></a> Class CenterMarker
+# Class CenterMarker
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -229,7 +229,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CenterMarker__ctor"></a> CenterMarker\(\)
+### CenterMarker\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CenterMarker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -239,7 +239,7 @@ public CenterMarker()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CenterMarker_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -267,7 +267,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_CenterMarker_GetModelNavigatorInformationPub_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationPub\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationPub\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator
 
@@ -295,7 +295,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_CenterMarker_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -308,4 +308,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ITransparentable"></a> Interface ITransparentable
+# Interface ITransparentable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ITransparentable
 
 ## Properties
 
-### <a id="VM_Managed_ITransparentable_TransparentObject"></a> TransparentObject
+### TransparentObject
 
 Gets the transparent object.
 
@@ -29,7 +29,7 @@ ObjectBase TransparentObject { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_ITransparentable_TransparentObjects"></a> TransparentObjects
+### TransparentObjects
 
 Gets the transparent objects.
 
@@ -40,4 +40,5 @@ ObjectBase[] TransparentObjects { get; }
 #### Property Value
 
  [ObjectBase](VM.Managed.ObjectBase.md)\[\]
+
 

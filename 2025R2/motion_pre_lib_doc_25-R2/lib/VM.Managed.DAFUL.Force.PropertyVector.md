@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_PropertyVector"></a> Class PropertyVector
+# Class PropertyVector
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_PropertyVector__ctor"></a> PropertyVector\(\)
+### PropertyVector\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyVector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyVector()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_PropertyVector_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -191,7 +191,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Force_PropertyVector_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -203,7 +203,7 @@ public VectorForceFunction Function { get; set; }
 
  [VectorForceFunction](VM.Managed.DAFUL.Force.VectorForceFunction.md)
 
-### <a id="VM_Managed_DAFUL_Force_PropertyVector_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -217,7 +217,7 @@ public override string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_PropertyVector_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -230,4 +230,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

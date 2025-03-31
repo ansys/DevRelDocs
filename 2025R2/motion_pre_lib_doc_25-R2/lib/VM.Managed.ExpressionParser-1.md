@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ExpressionParser_1"></a> Class ExpressionParser<T\>
+# Class ExpressionParser<T\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -28,7 +28,7 @@ IExpressionParser<T\>
 
 ## Constructors
 
-### <a id="VM_Managed_ExpressionParser_1__ctor"></a> ExpressionParser\(\)
+### ExpressionParser\(\)
 
 ```csharp
 public ExpressionParser()
@@ -36,7 +36,7 @@ public ExpressionParser()
 
 ## Methods
 
-### <a id="VM_Managed_ExpressionParser_1_Parse_System_String_"></a> Parse\(string\)
+### Parse\(string\)
 
 ```csharp
 public virtual T Parse(string expression)
@@ -49,4 +49,5 @@ public virtual T Parse(string expression)
 #### Returns
 
  T
+
 

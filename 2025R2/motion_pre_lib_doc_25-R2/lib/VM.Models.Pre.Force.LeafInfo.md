@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_LeafInfo"></a> Class LeafInfo
+# Class LeafInfo
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -20,7 +20,7 @@ public class LeafInfo
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Force_LeafInfo__ctor_System_Double_System_Int32_System_Int32_System_Int32_System_Int32_VM_Models_Pre_Force_Leaf3D___"></a> LeafInfo\(double, int, int, int, int, Leaf3D\[\]\)
+### LeafInfo\(double, int, int, int, int, Leaf3D\[\]\)
 
 ```csharp
 public LeafInfo(double LeafWidth, int NofContactFront, int NofContactRear, int NofEelementFront, int NofEelementRear, Leaf3D[] LeafProfiles)
@@ -42,7 +42,7 @@ public LeafInfo(double LeafWidth, int NofContactFront, int NofContactRear, int N
 
 ## Properties
 
-### <a id="VM_Models_Pre_Force_LeafInfo_BeamProfiles"></a> BeamProfiles
+### BeamProfiles
 
 ```csharp
 public List<Leaf4D> BeamProfiles { get; }
@@ -52,7 +52,7 @@ public List<Leaf4D> BeamProfiles { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Leaf4D](VM.Models.Pre.Force.Leaf4D.md)\>
 
-### <a id="VM_Models_Pre_Force_LeafInfo_Profiles"></a> Profiles
+### Profiles
 
 ```csharp
 public Leaf3D[] Profiles { get; }
@@ -61,4 +61,5 @@ public Leaf3D[] Profiles { get; }
 #### Property Value
 
  [Leaf3D](VM.Models.Pre.Force.Leaf3D.md)\[\]
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPoint"></a> Interface IPoint
+# Interface IPoint
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public interface IPoint : IDesignParameter
 
 ## Properties
 
-### <a id="VM_Managed_IPoint_Position"></a> Position
+### Position
 
 Gets the position.
 
@@ -34,7 +34,7 @@ VectorBase Position { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_IPoint_X"></a> X
+### X
 
 Gets the X point.
 
@@ -46,7 +46,7 @@ double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_IPoint_Y"></a> Y
+### Y
 
 Gets the Y point.
 
@@ -58,7 +58,7 @@ double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_IPoint_Z"></a> Z
+### Z
 
 Gets the Z point.
 
@@ -69,4 +69,5 @@ double Z { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

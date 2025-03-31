@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_ILinkDictionaryValueConverter_2"></a> Interface ILinkDictionaryValueConverter<TValue, TValueWrapper\>
+# Interface ILinkDictionaryValueConverter<TValue, TValueWrapper\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +21,7 @@ public interface ILinkDictionaryValueConverter<TValue, TValueWrapper>
 
 ## Methods
 
-### <a id="VM_Managed_Collections_ILinkDictionaryValueConverter_2_ClearWrapper__1_"></a> ClearWrapper\(TValueWrapper\)
+### ClearWrapper\(TValueWrapper\)
 
 ```csharp
 void ClearWrapper(TValueWrapper wrapper)
@@ -31,7 +31,7 @@ void ClearWrapper(TValueWrapper wrapper)
 
 `wrapper` TValueWrapper
 
-### <a id="VM_Managed_Collections_ILinkDictionaryValueConverter_2_Convert__0_VM_Models_Pre_ILinkContainer_"></a> Convert\(TValue, ILinkContainer\)
+### Convert\(TValue, ILinkContainer\)
 
 ```csharp
 TValueWrapper Convert(TValue value, ILinkContainer owner)
@@ -47,7 +47,7 @@ TValueWrapper Convert(TValue value, ILinkContainer owner)
 
  TValueWrapper
 
-### <a id="VM_Managed_Collections_ILinkDictionaryValueConverter_2_ConvertBack__1_"></a> ConvertBack\(TValueWrapper\)
+### ConvertBack\(TValueWrapper\)
 
 ```csharp
 TValue ConvertBack(TValueWrapper wrapper)
@@ -60,4 +60,5 @@ TValue ConvertBack(TValueWrapper wrapper)
 #### Returns
 
  TValue
+
 

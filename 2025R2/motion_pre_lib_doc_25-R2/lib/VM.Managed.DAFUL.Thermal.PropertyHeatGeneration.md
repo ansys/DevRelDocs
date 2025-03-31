@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_PropertyHeatGeneration"></a> Class PropertyHeatGeneration
+# Class PropertyHeatGeneration
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMDThermal.dll  
@@ -170,7 +170,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyHeatGeneration__ctor"></a> PropertyHeatGeneration\(\)
+### PropertyHeatGeneration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.PropertyHeatGeneration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,7 +180,7 @@ public PropertyHeatGeneration()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_PropertyHeatGeneration_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -193,4 +193,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

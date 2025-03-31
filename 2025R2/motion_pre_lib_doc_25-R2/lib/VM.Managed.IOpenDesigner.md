@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IOpenDesigner"></a> Interface IOpenDesigner
+# Interface IOpenDesigner
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IOpenDesigner
 
 ## Properties
 
-### <a id="VM_Managed_IOpenDesigner_FilePath"></a> FilePath
+### FilePath
 
 Gets the file path.
 
@@ -29,7 +29,7 @@ string FilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_IOpenDesigner_TargetBody"></a> TargetBody
+### TargetBody
 
 Gets the target body.
 
@@ -41,7 +41,7 @@ ObjectBase[] TargetBody { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)\[\]
 
-### <a id="VM_Managed_IOpenDesigner_TemplateFilePath"></a> TemplateFilePath
+### TemplateFilePath
 
 Gets the template file path.
 
@@ -53,7 +53,7 @@ string TemplateFilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_IOpenDesigner_TypeFileName"></a> TypeFileName
+### TypeFileName
 
 Gets the name of the type file.
 
@@ -67,7 +67,7 @@ string TypeFileName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_IOpenDesigner_FindBody_VM_Managed_ObjectBase_"></a> FindBody\(ObjectBase\)
+### FindBody\(ObjectBase\)
 
 Finds the body form CAD body.
 
@@ -87,7 +87,7 @@ The CAD body.
 
 The body such as solid body, assembled body.
 
-### <a id="VM_Managed_IOpenDesigner_PostOpenDoc_VM_Managed_Document_"></a> PostOpenDoc\(Document\)
+### PostOpenDoc\(Document\)
 
 Post open document.
 
@@ -101,7 +101,7 @@ void PostOpenDoc(Document doc)
 
 The hidden document.
 
-### <a id="VM_Managed_IOpenDesigner_SetCustomFilterEvent_System_Object_"></a> SetCustomFilterEvent\(object\)
+### SetCustomFilterEvent\(object\)
 
 Set Custom Filtering Event.
 
@@ -115,7 +115,7 @@ void SetCustomFilterEvent(object picker)
 
 The picker.
 
-### <a id="VM_Managed_IOpenDesigner_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
+### SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -134,4 +134,5 @@ Is recording for journal.
  [Document](VM.Managed.Document.md)
 
 The Hidden Document
+
 

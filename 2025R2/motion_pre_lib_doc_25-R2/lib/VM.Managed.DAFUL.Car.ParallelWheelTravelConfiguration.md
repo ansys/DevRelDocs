@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_ParallelWheelTravelConfiguration"></a> Class ParallelWheelTravelConfiguration
+# Class ParallelWheelTravelConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -191,7 +191,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_ParallelWheelTravelConfiguration__ctor"></a> ParallelWheelTravelConfiguration\(\)
+### ParallelWheelTravelConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ParallelWheelTravelConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ParallelWheel
 public ParallelWheelTravelConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_ParallelWheelTravelConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisParallelTravel_"></a> ParallelWheelTravelConfiguration\(AnalysisParallelTravel\)
+### ParallelWheelTravelConfiguration\(AnalysisParallelTravel\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ParallelWheelTravelConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_ParallelWheelTravelConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the type of the analysis.
 
@@ -227,7 +227,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_ParallelWheelTravelConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -239,7 +239,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_ParallelWheelTravelConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -251,7 +251,7 @@ public override SuspensionAnalysisType AnalysisType { get; }
 
  [SuspensionAnalysisType](VM.Managed.DAFUL.Car.SuspensionAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_ParallelWheelTravelConfiguration_ParallelTravelParam"></a> ParallelTravelParam
+### ParallelTravelParam
 
 Gets or sets the parallel travel parameter.
 
@@ -262,4 +262,5 @@ public AnalysisParallelTravel ParallelTravelParam { get; set; }
 #### Property Value
 
  [AnalysisParallelTravel](VM.Managed.DAFUL.Car.AnalysisParallelTravel.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_UserSubroutine_Result"></a> Class UserSubroutine.Result
+# Class UserSubroutine.Result
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_UserSubroutine_Result__ctor"></a> Result\(\)
+### Result\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.UserSubroutine.Result" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.UserSubroutine.Re
 public Result()
 ```
 
-### <a id="VM_Managed_DAFUL_UserSubroutine_Result__ctor_System_String_"></a> Result\(string\)
+### Result\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.UserSubroutine.Result" data-throw-if-not-resolved="false"></xref> class.
 
@@ -193,7 +193,7 @@ The name.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_UserSubroutine_Result_IsPerformanceIndex"></a> IsPerformanceIndex
+### IsPerformanceIndex
 
 Gets or sets a value indicating whether this instance is performance index.
 
@@ -204,4 +204,5 @@ public bool IsPerformanceIndex { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

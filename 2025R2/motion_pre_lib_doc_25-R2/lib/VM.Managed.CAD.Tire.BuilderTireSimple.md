@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Tire_BuilderTireSimple"></a> Class BuilderTireSimple
+# Class BuilderTireSimple
 
 Namespace: [VM.Managed.CAD.Tire](VM.Managed.CAD.Tire.md)  
 Assembly: VMDTire.dll  
@@ -220,7 +220,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple__ctor"></a> BuilderTireSimple\(\)
+### BuilderTireSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Tire.BuilderTireSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -228,7 +228,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Tire.BuilderTireSim
 public BuilderTireSimple()
 ```
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple__ctor_System_Double_System_Double_System_Double_System_Double_"></a> BuilderTireSimple\(double, double, double, double\)
+### BuilderTireSimple\(double, double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Tire.BuilderTireSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,7 +254,7 @@ The aspect ratio.
 
 The hub offset.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple__ctor_System_Double_System_Double_System_Double_System_Double_VM_Managed_TransformBase_"></a> BuilderTireSimple\(double, double, double, double, TransformBase\)
+### BuilderTireSimple\(double, double, double, double, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Tire.BuilderTireSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -284,7 +284,7 @@ The hub offset.
 
 transformation.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> BuilderTireSimple\(double, double, double, double, double\)
+### BuilderTireSimple\(double, double, double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Tire.BuilderTireSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -314,7 +314,7 @@ The hub offset.
 
 Width of hub.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_VM_Managed_TransformBase_"></a> BuilderTireSimple\(double, double, double, double, double, TransformBase\)
+### BuilderTireSimple\(double, double, double, double, double, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Tire.BuilderTireSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -348,7 +348,7 @@ Width of hub.
 
 transformation.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_VM_Managed_TransformBase_System_Int32_"></a> BuilderTireSimple\(double, double, double, double, double, TransformBase, int\)
+### BuilderTireSimple\(double, double, double, double, double, TransformBase, int\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Tire.BuilderTireSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -388,7 +388,7 @@ The color tread.
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_AspectRatio"></a> AspectRatio
+### AspectRatio
 
 Gets or sets the aspect ratio.
 Use SetAspectRatio() when this instance sets for undo/redo
@@ -401,7 +401,7 @@ public double AspectRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_HubOffset"></a> HubOffset
+### HubOffset
 
 Gets or sets the hub offset.
 Use SetHubOffset() when this instance sets for undo/redo
@@ -414,7 +414,7 @@ public double HubOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_HubWidth"></a> HubWidth
+### HubWidth
 
 Gets or sets the width of the hub.
 Use SetHubWidth() when this instance sets for undo/redo
@@ -427,7 +427,7 @@ public double HubWidth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets a value indicating whether this instance is parameterized.
 
@@ -439,7 +439,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_Transform"></a> Transform
+### Transform
 
 Gets or sets the transform.
 
@@ -451,7 +451,7 @@ public TransformBase Transform { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_Transparency"></a> Transparency
+### Transparency
 
 Gets or sets the tranparency.
 
@@ -463,7 +463,7 @@ public override double Transparency { set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_TreadColor"></a> TreadColor
+### TreadColor
 
 Gets or sets the color of the tread.
 Use SetTreadColor() when this instance sets for undo/redo
@@ -476,7 +476,7 @@ public int TreadColor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_Uneditable"></a> Uneditable
+### Uneditable
 
 Gets or sets Uneditable value..
 
@@ -488,7 +488,7 @@ public override bool Uneditable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_UnloadedRadius"></a> UnloadedRadius
+### UnloadedRadius
 
 Gets or sets the unloaded radius.
 Use SetUnloadedRadius() when this instance sets for undo/redo
@@ -501,7 +501,7 @@ public double UnloadedRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_Width"></a> Width
+### Width
 
 Gets or sets the width.
 Use SetWidth() when this instance sets for undo/redo
@@ -516,7 +516,7 @@ public double Width { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -524,7 +524,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_FinalizeTransForm"></a> FinalizeTransForm\(\)
+### FinalizeTransForm\(\)
 
 Finalizes the transform.
 
@@ -532,7 +532,7 @@ Finalizes the transform.
 public void FinalizeTransForm()
 ```
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Fixes up.
 
@@ -550,7 +550,7 @@ The ob.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface,
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic)
@@ -567,7 +567,7 @@ public override XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -581,7 +581,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -599,7 +599,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -613,7 +613,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_SetAspectRatio_System_Double_"></a> SetAspectRatio\(double\)
+### SetAspectRatio\(double\)
 
 Set aspect ratio.
 
@@ -627,7 +627,7 @@ public void SetAspectRatio(double dVal)
 
 The aspect ratio.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_SetHubOffset_System_Double_"></a> SetHubOffset\(double\)
+### SetHubOffset\(double\)
 
 Set hub offset.
 
@@ -641,7 +641,7 @@ public void SetHubOffset(double dVal)
 
 The hub offset.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_SetHubWidth_System_Double_"></a> SetHubWidth\(double\)
+### SetHubWidth\(double\)
 
 Set hub width.
 
@@ -655,7 +655,7 @@ public void SetHubWidth(double dVal)
 
 The hub width.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform.
 
@@ -669,7 +669,7 @@ public override void SetTransform(TMatrix matT)
 
 The mat T.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_SetTreadColor_System_Int32_"></a> SetTreadColor\(int\)
+### SetTreadColor\(int\)
 
 Set color of the tread.
 
@@ -683,7 +683,7 @@ public void SetTreadColor(int dVal)
 
 The color of the tread.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_SetUnloadedRadius_System_Double_"></a> SetUnloadedRadius\(double\)
+### SetUnloadedRadius\(double\)
 
 Set unloaded radius.
 
@@ -697,7 +697,7 @@ public void SetUnloadedRadius(double dVal)
 
 The unloaded radius.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_SetWidth_System_Double_"></a> SetWidth\(double\)
+### SetWidth\(double\)
 
 Set width.
 
@@ -711,7 +711,7 @@ public void SetWidth(double dVal)
 
 The width.
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_UpdateBuilder"></a> UpdateBuilder\(\)
+### UpdateBuilder\(\)
 
 Updates the builder.
 
@@ -719,7 +719,7 @@ Updates the builder.
 public void UpdateBuilder()
 ```
 
-### <a id="VM_Managed_CAD_Tire_BuilderTireSimple_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -732,4 +732,5 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

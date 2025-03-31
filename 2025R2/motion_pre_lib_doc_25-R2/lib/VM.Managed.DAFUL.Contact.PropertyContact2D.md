@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyContact2D"></a> Class PropertyContact2D
+# Class PropertyContact2D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -172,11 +172,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact2D__ctor"></a> PropertyContact2D\(\)
+### PropertyContact2D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyContact2D" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyContact2D()
 ```
+
 

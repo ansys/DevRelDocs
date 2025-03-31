@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo"></a> Class CreateDTEntityUtil.StiffnessBearingCreateInfo
+# Class CreateDTEntityUtil.StiffnessBearingCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -20,7 +20,7 @@ public class CreateDTEntityUtil.StiffnessBearingCreateInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo__ctor"></a> StiffnessBearingCreateInfo\(\)
+### StiffnessBearingCreateInfo\(\)
 
 ```csharp
 public StiffnessBearingCreateInfo()
@@ -28,7 +28,7 @@ public StiffnessBearingCreateInfo()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_AxialClearance"></a> AxialClearance
+### AxialClearance
 
 ```csharp
 public double AxialClearance
@@ -38,7 +38,7 @@ public double AxialClearance
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_BallDiameter"></a> BallDiameter
+### BallDiameter
 
 ```csharp
 public double BallDiameter
@@ -48,7 +48,7 @@ public double BallDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_BearingType"></a> BearingType
+### BearingType
 
 ```csharp
 public PropertyBearing.enBearingType BearingType
@@ -58,7 +58,7 @@ public PropertyBearing.enBearingType BearingType
 
  PropertyBearing.enBearingType
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_CurvatureCenterInner"></a> CurvatureCenterInner
+### CurvatureCenterInner
 
 ```csharp
 public double CurvatureCenterInner
@@ -68,7 +68,7 @@ public double CurvatureCenterInner
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_CurvatureCenterOuter"></a> CurvatureCenterOuter
+### CurvatureCenterOuter
 
 ```csharp
 public double CurvatureCenterOuter
@@ -78,7 +78,7 @@ public double CurvatureCenterOuter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_DampingRatio"></a> DampingRatio
+### DampingRatio
 
 ```csharp
 public double DampingRatio
@@ -88,7 +88,7 @@ public double DampingRatio
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_InnerRacewayOfInnerDiameter"></a> InnerRacewayOfInnerDiameter
+### InnerRacewayOfInnerDiameter
 
 ```csharp
 public double InnerRacewayOfInnerDiameter
@@ -98,7 +98,7 @@ public double InnerRacewayOfInnerDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_InnerRacewayOfOuterDiameter"></a> InnerRacewayOfOuterDiameter
+### InnerRacewayOfOuterDiameter
 
 ```csharp
 public double InnerRacewayOfOuterDiameter
@@ -108,7 +108,7 @@ public double InnerRacewayOfOuterDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_NumberOfBall"></a> NumberOfBall
+### NumberOfBall
 
 ```csharp
 public int NumberOfBall
@@ -118,7 +118,7 @@ public int NumberOfBall
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_OuterRacewayOfInnerDiameter"></a> OuterRacewayOfInnerDiameter
+### OuterRacewayOfInnerDiameter
 
 ```csharp
 public double OuterRacewayOfInnerDiameter
@@ -128,7 +128,7 @@ public double OuterRacewayOfInnerDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_OuterRacewayOfOuterDiameter"></a> OuterRacewayOfOuterDiameter
+### OuterRacewayOfOuterDiameter
 
 ```csharp
 public double OuterRacewayOfOuterDiameter
@@ -138,7 +138,7 @@ public double OuterRacewayOfOuterDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_RadialClearance"></a> RadialClearance
+### RadialClearance
 
 ```csharp
 public double RadialClearance
@@ -148,7 +148,7 @@ public double RadialClearance
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_StiffnessMatrix"></a> StiffnessMatrix
+### StiffnessMatrix
 
 ```csharp
 public double[] StiffnessMatrix
@@ -158,7 +158,7 @@ public double[] StiffnessMatrix
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_StiffnessType"></a> StiffnessType
+### StiffnessType
 
 ```csharp
 public PropertyBearing.enStiffnessType StiffnessType
@@ -168,7 +168,7 @@ public PropertyBearing.enStiffnessType StiffnessType
 
  PropertyBearing.enStiffnessType
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_UnloadedContactAngle"></a> UnloadedContactAngle
+### UnloadedContactAngle
 
 ```csharp
 public double UnloadedContactAngle
@@ -178,7 +178,7 @@ public double UnloadedContactAngle
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_Width"></a> Width
+### Width
 
 ```csharp
 public double Width
@@ -190,7 +190,7 @@ public double Width
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; }
@@ -202,9 +202,10 @@ public string[] InputArray { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 ```csharp
 public void Initialize()
 ```
+
 

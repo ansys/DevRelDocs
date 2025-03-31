@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_LoadCaseBase"></a> Class LoadCaseBase
+# Class LoadCaseBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -27,7 +27,7 @@ public abstract class LoadCaseBase
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_LoadCaseBase__ctor"></a> LoadCaseBase\(\)
+### LoadCaseBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.LoadCaseBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -35,7 +35,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.LoadCaseBase"
 public LoadCaseBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_LoadCaseBase__ctor_VM_Unit_"></a> LoadCaseBase\(Unit\)
+### LoadCaseBase\(Unit\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.LoadCaseBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ The unit.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_LoadCaseBase_Units"></a> Units
+### Units
 
 Gets or sets the units.
 
@@ -62,4 +62,5 @@ public Unit Units { get; set; }
 #### Property Value
 
  Unit
+
 

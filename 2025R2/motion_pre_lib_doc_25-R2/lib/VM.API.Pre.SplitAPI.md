@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_SplitAPI"></a> Class SplitAPI
+# Class SplitAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class SplitAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_SplitAPI_SplitFaceWithCirclePlane_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_Vector_VM_Vector_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> SplitFaceWithCirclePlane\(IDocument, IEnumerable<Obj\>, Vector, Vector, ExpressionValueVariable?\)
+### SplitFaceWithCirclePlane\(IDocument, IEnumerable<Obj\>, Vector, Vector, ExpressionValueVariable?\)
 
 Split a face with circle plane.
 
@@ -71,7 +71,7 @@ Will be thrown if the type of 'targetFaces' is not <xref href="VM.Managed.CAD.Fa
 
 Will be thrown if the 'radius' value is equal to or less than 0.
 
-### <a id="VM_API_Pre_SplitAPI_SplitFaceWithImprintFaceAndBody_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_API_Pre_Obj_System_Boolean_"></a> SplitFaceWithImprintFaceAndBody\(IDocument, IEnumerable<Obj\>, Obj, bool\)
+### SplitFaceWithImprintFaceAndBody\(IDocument, IEnumerable<Obj\>, Obj, bool\)
 
 Split a face with Imprint.
 
@@ -117,7 +117,7 @@ Will be thrown if the type of 'targetFaces' is not <xref href="VM.Managed.CAD.Fa
 
 Will be thrown if the type of 'toolBody' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_SplitAPI_SplitFaceWithImprintTwoBodies_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Boolean_"></a> SplitFaceWithImprintTwoBodies\(IDocument, Obj, Obj, bool\)
+### SplitFaceWithImprintTwoBodies\(IDocument, Obj, Obj, bool\)
 
 Split a face with Imprint.
 
@@ -163,7 +163,7 @@ Will be thrown if the type of 'targetBody', 'toolBody' is not <xref href="VM.Man
 
 Will be thrown if the 'toolBody' is equal to the 'targetBody'.
 
-### <a id="VM_API_Pre_SplitAPI_SplitFaceWithImprintTwoFaces_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Boolean_"></a> SplitFaceWithImprintTwoFaces\(IDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, bool\)
+### SplitFaceWithImprintTwoFaces\(IDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, bool\)
 
 Split a face with Imprint.
 
@@ -204,7 +204,7 @@ Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.Sub
 
 Will be thrown if the type of 'targetFaces', 'toolFaces' is not <xref href="VM.Managed.CAD.Face" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_SplitAPI_SplitFaceWithRectanglePlane_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_Vector_VM_TMatrix_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> SplitFaceWithRectanglePlane\(IDocument, IEnumerable<Obj\>, Vector, TMatrix, ExpressionValueVariable?, ExpressionValueVariable?\)
+### SplitFaceWithRectanglePlane\(IDocument, IEnumerable<Obj\>, Vector, TMatrix, ExpressionValueVariable?, ExpressionValueVariable?\)
 
 Split a face with rectangle plane.
 
@@ -260,4 +260,5 @@ Will be thrown if the magnitude of transform X, Y, Z values is equal to 0.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if 'width', 'height' values are equal to or less than 0.
+
 

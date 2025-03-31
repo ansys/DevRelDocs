@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_PinShape"></a> Class PinShape
+# Class PinShape
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShape__ctor"></a> PinShape\(\)
+### PinShape\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PinShape" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public PinShape()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShape_PinShapeContents"></a> PinShapeContents
+### PinShapeContents
 
 Gets or sets the pin shape contents.
 
@@ -120,7 +120,7 @@ public PinShapeContent[] PinShapeContents { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShape_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -134,7 +134,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShape_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -148,7 +148,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShape_ShapeText_System_Boolean_"></a> ShapeText\(bool\)
+### ShapeText\(bool\)
 
 Write content
 
@@ -165,4 +165,5 @@ The left flag
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

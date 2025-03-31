@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_InputDocument"></a> Class InputDocument
+# Class InputDocument
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -22,7 +22,7 @@ public class InputDocument
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_InputDocument__ctor"></a> InputDocument\(\)
+### InputDocument\(\)
 
 ```csharp
 public InputDocument()
@@ -30,7 +30,7 @@ public InputDocument()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_InputDocument_IsInterface"></a> IsInterface
+### IsInterface
 
 Gets or sets a value indicating whether [is interface].
 
@@ -42,7 +42,7 @@ public bool IsInterface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_InputDocument_Type"></a> Type
+### Type
 
 Gets or sets the type.
 
@@ -53,4 +53,5 @@ public string Type { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

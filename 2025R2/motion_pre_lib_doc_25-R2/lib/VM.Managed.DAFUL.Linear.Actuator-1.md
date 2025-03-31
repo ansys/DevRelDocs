@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_Actuator_1"></a> Class Actuator<TProperty\>
+# Class Actuator<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -208,7 +208,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Linear_Actuator_1__ctor"></a> Actuator\(\)
+### Actuator\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.Actuator%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -216,7 +216,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.Actuator%6
 public Actuator()
 ```
 
-### <a id="VM_Managed_DAFUL_Linear_Actuator_1__ctor_System_String_"></a> Actuator\(string\)
+### Actuator\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.Actuator%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -232,7 +232,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Linear_Actuator_1_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -244,7 +244,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Linear_Actuator_1_TypeOfActuator"></a> TypeOfActuator
+### TypeOfActuator
 
 Gets the type of actuator.
 
@@ -258,7 +258,7 @@ public abstract ActuatorType TypeOfActuator { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Linear_Actuator_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -271,4 +271,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

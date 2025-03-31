@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel"></a> Class AnalysisOppositeTravel
+# Class AnalysisOppositeTravel
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -59,7 +59,7 @@ public class AnalysisOppositeTravel : AnalysisParallelTravel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel__ctor"></a> AnalysisOppositeTravel\(\)
+### AnalysisOppositeTravel\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisOppositeTravel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisOppos
 public AnalysisOppositeTravel()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisOppositeTravel\(ILinkContainer\)
+### AnalysisOppositeTravel\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisOppositeTravel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -83,7 +83,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel_CoordinateSystemType"></a> CoordinateSystemType
+### CoordinateSystemType
 
 Gets or sets the coordinate system.
 
@@ -95,7 +95,7 @@ public CoordinateSystemType CoordinateSystemType { get; set; }
 
  [CoordinateSystemType](VM.Managed.DAFUL.Car.Analysis.Suspension.CoordinateSystemType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel_SteeringFunctionArgument"></a> SteeringFunctionArgument
+### SteeringFunctionArgument
 
 Gets the steering function argument.
 
@@ -109,7 +109,7 @@ public override string SteeringFunctionArgument { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel_GetDataForLoadCase_System_Int32_System_Collections_Generic_Dictionary_VM_Managed_DAFUL_Car_SuspensionLoadCase_Column_System_Double____VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_"></a> GetDataForLoadCase\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
+### GetDataForLoadCase\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
 
 Gets the data for load case.
 
@@ -131,7 +131,7 @@ The column information.
 
 The mode.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel_GetDataForLoadCaseCore_System_Int32_System_Collections_Generic_Dictionary_VM_Managed_DAFUL_Car_SuspensionLoadCase_Column_System_Double____VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_"></a> GetDataForLoadCaseCore\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
+### GetDataForLoadCaseCore\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
 
 Gets the data for load case core.
 
@@ -153,7 +153,7 @@ The column information.
 
 The mode.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -167,7 +167,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 The parameter array.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel_GetXmlData_System_Xml_XmlWriter_"></a> GetXmlData\(XmlWriter\)
+### GetXmlData\(XmlWriter\)
 
 Gets the XML data.
 
@@ -181,7 +181,7 @@ public override void GetXmlData(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel_SetDataForLoadCase_VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_"></a> SetDataForLoadCase\(SuspensionMode\)
+### SetDataForLoadCase\(SuspensionMode\)
 
 Sets the data for load case.
 
@@ -195,7 +195,7 @@ public override void SetDataForLoadCase(SuspensionLoadCase.SuspensionMode mode)
 
 The mode.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisOppositeTravel_SetXmlData_System_Xml_XmlReader_"></a> SetXmlData\(XmlReader\)
+### SetXmlData\(XmlReader\)
 
 Sets the XML data.
 
@@ -208,4 +208,5 @@ public override void SetXmlData(XmlReader reader)
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
 The reader.
+
 

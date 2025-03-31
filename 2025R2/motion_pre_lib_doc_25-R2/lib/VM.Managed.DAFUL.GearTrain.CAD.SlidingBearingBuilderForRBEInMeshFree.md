@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInMeshFree"></a> Class SlidingBearingBuilderForRBEInMeshFree
+# Class SlidingBearingBuilderForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -257,7 +257,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInMeshFree__ctor"></a> SlidingBearingBuilderForRBEInMeshFree\(\)
+### SlidingBearingBuilderForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -265,7 +265,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Sli
 public SlidingBearingBuilderForRBEInMeshFree()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInMeshFree__ctor_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_"></a> SlidingBearingBuilderForRBEInMeshFree\(SBGeometryInfo\)
+### SlidingBearingBuilderForRBEInMeshFree\(SBGeometryInfo\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -281,7 +281,7 @@ The information.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInMeshFree_CreateGeometryInMeshFree_VM_Managed_DAFUL_HiddenDocument_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_VM_Managed_DAFUL_IConnectable_System_Boolean_"></a> CreateGeometryInMeshFree\(HiddenDocument, SBGeometryInfo, IConnectable, bool\)
+### CreateGeometryInMeshFree\(HiddenDocument, SBGeometryInfo, IConnectable, bool\)
 
 Creates geometries in hidden document.
 
@@ -312,4 +312,5 @@ The flag for adding to document.
  [SlidingBearingGeom](VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingGeom.md)
 
 Sliding bearing geometry.
+
 

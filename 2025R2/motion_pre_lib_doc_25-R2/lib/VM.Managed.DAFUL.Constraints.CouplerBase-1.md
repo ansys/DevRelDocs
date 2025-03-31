@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1"></a> Class CouplerBase<TProperty\>
+# Class CouplerBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -214,7 +214,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1__ctor"></a> CouplerBase\(\)
+### CouplerBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.CouplerBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -222,7 +222,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Coupl
 public CouplerBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1__ctor_System_String_"></a> CouplerBase\(string\)
+### CouplerBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.CouplerBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -238,7 +238,7 @@ Name of the coupler base.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_m_bSkipToUpdateSymmetric"></a> m\_bSkipToUpdateSymmetric
+### m\_bSkipToUpdateSymmetric
 
 ```csharp
 protected bool m_bSkipToUpdateSymmetric
@@ -250,7 +250,7 @@ protected bool m_bSkipToUpdateSymmetric
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -262,7 +262,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -274,7 +274,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -286,7 +286,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_Joint1"></a> Joint1
+### Joint1
 
 Gets or sets the first joint.
 
@@ -298,7 +298,7 @@ public ObjectBase Joint1 { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_Joint1_FullName"></a> Joint1\_FullName
+### Joint1\_FullName
 
 Gets the full name of the first joint.
 
@@ -310,7 +310,7 @@ public string Joint1_FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_Joint2"></a> Joint2
+### Joint2
 
 Gets or sets the second joint.
 
@@ -322,7 +322,7 @@ public ObjectBase Joint2 { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_Joint2_FullName"></a> Joint2\_FullName
+### Joint2\_FullName
 
 Gets the full name of second joint.
 
@@ -334,7 +334,7 @@ public string Joint2_FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_JointType1"></a> JointType1
+### JointType1
 
 Gets or sets the first joint type.
 
@@ -346,7 +346,7 @@ public CouplerBase<TProperty>.JointType JointType1 { get; set; }
 
  [CouplerBase](VM.Managed.DAFUL.Constraints.CouplerBase\-1.md)<TProperty\>.[JointType](VM.Managed.DAFUL.Constraints.CouplerBase\-1.JointType.md)
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_JointType2"></a> JointType2
+### JointType2
 
 Gets or sets the second joint type.
 
@@ -358,7 +358,7 @@ public CouplerBase<TProperty>.JointType JointType2 { get; set; }
 
  [CouplerBase](VM.Managed.DAFUL.Constraints.CouplerBase\-1.md)<TProperty\>.[JointType](VM.Managed.DAFUL.Constraints.CouplerBase\-1.JointType.md)
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -372,7 +372,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -386,7 +386,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_GetChildListImpl"></a> GetChildListImpl\(\)
+### GetChildListImpl\(\)
 
 get child list
 
@@ -398,7 +398,7 @@ protected virtual IEnumerable<ObjectBase> GetChildListImpl()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -426,7 +426,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -444,7 +444,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -452,7 +452,7 @@ Redraw.
 public virtual void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -466,7 +466,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -479,4 +479,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

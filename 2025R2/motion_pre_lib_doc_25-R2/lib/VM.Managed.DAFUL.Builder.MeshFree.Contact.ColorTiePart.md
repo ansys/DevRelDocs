@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_ColorTiePart"></a> Class ColorTiePart
+# Class ColorTiePart
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree.Contact](VM.Managed.DAFUL.Builder.MeshFree.Contact.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<Tie\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_ColorTiePart__ctor"></a> ColorTiePart\(\)
+### ColorTiePart\(\)
 
 ```csharp
 public ColorTiePart()
@@ -61,7 +61,7 @@ public ColorTiePart()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_ColorTiePart_ColorArray"></a> ColorArray
+### ColorArray
 
 ```csharp
 public string[] ColorArray { get; set; }
@@ -71,7 +71,7 @@ public string[] ColorArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_ColorTiePart_ColorArray2"></a> ColorArray2
+### ColorArray2
 
 ```csharp
 public string[] ColorArray2 { get; set; }
@@ -81,7 +81,7 @@ public string[] ColorArray2 { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_ColorTiePart_Connectable"></a> Connectable
+### Connectable
 
 ```csharp
 public ObjectBase Connectable { get; }
@@ -91,7 +91,7 @@ public ObjectBase Connectable { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_ColorTiePart_Connectable2"></a> Connectable2
+### Connectable2
 
 ```csharp
 public ObjectBase Connectable2 { get; }
@@ -103,7 +103,7 @@ public ObjectBase Connectable2 { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_ColorTiePart_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -119,7 +119,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_ColorTiePart_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -132,4 +132,5 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

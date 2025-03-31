@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_TrackPlacing"></a> Class TrackPlacing
+# Class TrackPlacing
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -182,7 +182,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_TrackPlacing__ctor"></a> TrackPlacing\(\)
+### TrackPlacing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.TrackPlacing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -190,7 +190,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.TrackPlacin
 public TrackPlacing()
 ```
 
-### <a id="VM_Managed_DAFUL_Track_TrackPlacing__ctor_System_String_"></a> TrackPlacing\(string\)
+### TrackPlacing\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.TrackPlacing" data-throw-if-not-resolved="false"></xref> class.
 <param name="strName">Name of the <xref href="VM.Managed.DAFUL.Track.TrackPlacing" data-throw-if-not-resolved="false"></xref> class.</param>
@@ -205,7 +205,7 @@ public TrackPlacing(string strName)
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_TrackPlacing_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -222,4 +222,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

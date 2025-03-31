@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_ReferenceWater"></a> Class ReferenceWater
+# Class ReferenceWater
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -184,7 +184,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_ReferenceWater__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceWater\(SerializationInfo, StreamingContext\)
+### ReferenceWater\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.ReferenceWater" data-throw-if-not-resolved="false"></xref> class.
 
@@ -202,7 +202,7 @@ The info.
 
 The context.
 
-### <a id="VM_Managed_DAFUL_Track_ReferenceWater__ctor_VM_Managed_ObjectBase_"></a> ReferenceWater\(ObjectBase\)
+### ReferenceWater\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.ReferenceWater" data-throw-if-not-resolved="false"></xref> class.
 
@@ -218,7 +218,7 @@ The reference's object.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_ReferenceWater_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -245,4 +245,5 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

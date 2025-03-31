@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_RemoveDuplicatedEventOperation"></a> Class RemoveDuplicatedEventOperation
+# Class RemoveDuplicatedEventOperation
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_RemoveDuplicatedEventOperation__ctor_VM_Managed_Document_"></a> RemoveDuplicatedEventOperation\(Document\)
+### RemoveDuplicatedEventOperation\(Document\)
 
 ```csharp
 public RemoveDuplicatedEventOperation(Document doc)
@@ -89,7 +89,7 @@ public RemoveDuplicatedEventOperation(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_CAD_RemoveDuplicatedEventOperation_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -101,7 +101,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_RemoveDuplicatedEventOperation_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -115,11 +115,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_RemoveDuplicatedEventOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

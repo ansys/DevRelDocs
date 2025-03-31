@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_FE_PickerNode"></a> Class PickerNode
+# Class PickerNode
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  
@@ -50,7 +50,7 @@ PickerBase.CustomFilterEvent
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_FE_PickerNode__ctor"></a> PickerNode\(\)
+### PickerNode\(\)
 
 ```csharp
 public PickerNode()
@@ -58,7 +58,7 @@ public PickerNode()
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_FE_PickerNode_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
+### Filtering\(UIntPtr\)
 
 Filtering
 
@@ -78,7 +78,7 @@ Filtering target.
 
 <code>true</code> if sucess; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerNode_GetNodePosition_System_UIntPtr_System_Int32_"></a> GetNodePosition\(UIntPtr, int\)
+### GetNodePosition\(UIntPtr, int\)
 
 Get node position.
 
@@ -102,7 +102,7 @@ The node index.
 
 The node position.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerNode_GetPickerInfo"></a> GetPickerInfo\(\)
+### GetPickerInfo\(\)
 
 Gets the picker information.
 
@@ -116,7 +116,7 @@ public override string GetPickerInfo()
 
 The picker information.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerNode_Highlight_System_Boolean_"></a> Highlight\(bool\)
+### Highlight\(bool\)
 
 Picking target highlight.
 
@@ -130,7 +130,7 @@ public override void Highlight(bool bHighlight)
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
-### <a id="VM_Managed_Picker_Core_FE_PickerNode_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
+### SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -153,4 +153,5 @@ Whether only xml or not.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

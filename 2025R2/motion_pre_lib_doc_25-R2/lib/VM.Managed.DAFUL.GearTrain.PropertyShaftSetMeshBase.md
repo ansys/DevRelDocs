@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase"></a> Class PropertyShaftSetMeshBase
+# Class PropertyShaftSetMeshBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -199,7 +199,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase__ctor"></a> PropertyShaftSetMeshBase\(\)
+### PropertyShaftSetMeshBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyShaftSetMeshBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -209,7 +209,7 @@ public PropertyShaftSetMeshBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase_InputPowerLoad"></a> InputPowerLoad
+### InputPowerLoad
 
 Gets the input power load.
 
@@ -221,7 +221,7 @@ public PowerLoadOnRBE InputPowerLoad { get; }
 
  [PowerLoadOnRBE](VM.Managed.DAFUL.GearTrain.PowerLoadOnRBE.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase_OutputPowerLoad"></a> OutputPowerLoad
+### OutputPowerLoad
 
 Gets the output power load.
 
@@ -233,7 +233,7 @@ public PowerLoadOnRBE OutputPowerLoad { get; }
 
  [PowerLoadOnRBE](VM.Managed.DAFUL.GearTrain.PowerLoadOnRBE.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase_PowerLoadOnRBEs"></a> PowerLoadOnRBEs
+### PowerLoadOnRBEs
 
 Gets or sets the power loads on rbe.
 
@@ -247,7 +247,7 @@ public PowerLoadOnRBE[] PowerLoadOnRBEs { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase_AddPowerLoadOnRBE_VM_Managed_DAFUL_GearTrain_PowerLoadOnRBE_"></a> AddPowerLoadOnRBE\(PowerLoadOnRBE\)
+### AddPowerLoadOnRBE\(PowerLoadOnRBE\)
 
 Adds the power load on rbe.
 
@@ -261,7 +261,7 @@ public void AddPowerLoadOnRBE(PowerLoadOnRBE pl)
 
 The pl.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -281,7 +281,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase_IsContainsNameOfPowerLoadOnRBE_System_String_"></a> IsContainsNameOfPowerLoadOnRBE\(string\)
+### IsContainsNameOfPowerLoadOnRBE\(string\)
 
 Determines whether [is contains name of power load on RBE] [the specified STR name].
 
@@ -301,7 +301,7 @@ Name of the STR.
 
 <code>true</code> if [is contains name of power load on RBE] [the specified STR name]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -315,7 +315,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshBase_RemovePowerLoadOnRBE_VM_Managed_DAFUL_GearTrain_PowerLoadOnRBE_"></a> RemovePowerLoadOnRBE\(PowerLoadOnRBE\)
+### RemovePowerLoadOnRBE\(PowerLoadOnRBE\)
 
 Removes the power load on rbe.
 
@@ -328,4 +328,5 @@ public void RemovePowerLoadOnRBE(PowerLoadOnRBE pl)
 `pl` [PowerLoadOnRBE](VM.Managed.DAFUL.GearTrain.PowerLoadOnRBE.md)
 
 The pl.
+
 

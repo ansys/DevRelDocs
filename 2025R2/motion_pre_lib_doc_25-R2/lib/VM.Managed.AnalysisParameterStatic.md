@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AnalysisParameterStatic"></a> Class AnalysisParameterStatic
+# Class AnalysisParameterStatic
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -45,7 +45,7 @@ public class AnalysisParameterStatic : AnalysisParameterDynamic
 
 ## Constructors
 
-### <a id="VM_Managed_AnalysisParameterStatic__ctor"></a> AnalysisParameterStatic\(\)
+### AnalysisParameterStatic\(\)
 
 ```csharp
 public AnalysisParameterStatic()
@@ -53,7 +53,7 @@ public AnalysisParameterStatic()
 
 ## Properties
 
-### <a id="VM_Managed_AnalysisParameterStatic_MaximumInterGlobalLoop"></a> MaximumInterGlobalLoop
+### MaximumInterGlobalLoop
 
 Gets or sets the maximum inter global loop.
 
@@ -65,7 +65,7 @@ public int MaximumInterGlobalLoop { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_AnalysisParameterStatic_OutputFileFlag"></a> OutputFileFlag
+### OutputFileFlag
 
 Gets or sets a value indicating whether [output flag].
 
@@ -77,7 +77,7 @@ public bool OutputFileFlag { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_AnalysisParameterStatic_SkipInitialResult"></a> SkipInitialResult
+### SkipInitialResult
 
 ```csharp
 public bool SkipInitialResult { get; set; }
@@ -87,7 +87,7 @@ public bool SkipInitialResult { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_AnalysisParameterStatic_TypeForSolving"></a> TypeForSolving
+### TypeForSolving
 
 Gets or sets the analysis type.
 
@@ -99,7 +99,7 @@ public AnalysisParameterStatic.SolvingType TypeForSolving { get; set; }
 
  [AnalysisParameterStatic](VM.Managed.AnalysisParameterStatic.md).[SolvingType](VM.Managed.AnalysisParameterStatic.SolvingType.md)
 
-### <a id="VM_Managed_AnalysisParameterStatic_TypeOfJacobianEval"></a> TypeOfJacobianEval
+### TypeOfJacobianEval
 
 Gets or sets the type of the jacobian evaluation.
 
@@ -111,7 +111,7 @@ public AnalysisParameterStatic.JacobianEvaluationType TypeOfJacobianEval { get; 
 
  [AnalysisParameterStatic](VM.Managed.AnalysisParameterStatic.md).[JacobianEvaluationType](VM.Managed.AnalysisParameterStatic.JacobianEvaluationType.md)
 
-### <a id="VM_Managed_AnalysisParameterStatic_UseLinearAnalysis"></a> UseLinearAnalysis
+### UseLinearAnalysis
 
 Gets or sets a value indicating whether [linear].
 
@@ -123,7 +123,7 @@ public bool UseLinearAnalysis { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_AnalysisParameterStatic_UseNonLinearAnalysisWithoutRigidMode"></a> UseNonLinearAnalysisWithoutRigidMode
+### UseNonLinearAnalysisWithoutRigidMode
 
 Gets or sets a value indicating whether [without rigid mode].
 
@@ -134,4 +134,5 @@ public bool UseNonLinearAnalysisWithoutRigidMode { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

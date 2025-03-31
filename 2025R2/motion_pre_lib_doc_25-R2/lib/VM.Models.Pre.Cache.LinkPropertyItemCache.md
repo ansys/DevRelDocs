@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Cache_LinkPropertyItemCache"></a> Class LinkPropertyItemCache
+# Class LinkPropertyItemCache
 
 Namespace: [VM.Models.Pre.Cache](VM.Models.Pre.Cache.md)  
 Assembly: VM.Models.Pre.dll  
@@ -22,7 +22,7 @@ public static class LinkPropertyItemCache
 
 ## Methods
 
-### <a id="VM_Models_Pre_Cache_LinkPropertyItemCache_GetLinkProperties_System_Type_VM_Models_Pre_LinkPropertyType_"></a> GetLinkProperties\(Type, LinkPropertyType\)
+### GetLinkProperties\(Type, LinkPropertyType\)
 
 Get all properties which have LinkAttribute custome attribute for given Type.
 
@@ -46,7 +46,7 @@ The <xref href="VM.Models.Pre.LinkPropertyType" data-throw-if-not-resolved="fals
 
 Found <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> of <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_Models_Pre_Cache_LinkPropertyItemCache_GetLinkProperties_System_Object_VM_Models_Pre_LinkPropertyType_"></a> GetLinkProperties\(object, LinkPropertyType\)
+### GetLinkProperties\(object, LinkPropertyType\)
 
 Get all properties which have LinkAttribute custome attribute for given object.
 
@@ -70,7 +70,7 @@ The <xref href="VM.Models.Pre.LinkPropertyType" data-throw-if-not-resolved="fals
 
 Found <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> of <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_Models_Pre_Cache_LinkPropertyItemCache_GetLinkPropertiesAndValues_System_Object_VM_Models_Pre_LinkPropertyType_"></a> GetLinkPropertiesAndValues\(object, LinkPropertyType\)
+### GetLinkPropertiesAndValues\(object, LinkPropertyType\)
 
 Get all properties and their values which have LinkAttribute custome attribute for given object.
 
@@ -94,7 +94,7 @@ The <xref href="VM.Models.Pre.LinkPropertyType" data-throw-if-not-resolved="fals
 
 Found <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-resolved="false"></xref> of <xref href="System.Reflection.PropertyInfo" data-throw-if-not-resolved="false"></xref> and its value.
 
-### <a id="VM_Models_Pre_Cache_LinkPropertyItemCache_GetLinkedObjects__1_System_Object_VM_Models_Pre_LinkPropertyType_"></a> GetLinkedObjects<T\>\(object, LinkPropertyType\)
+### GetLinkedObjects<T\>\(object, LinkPropertyType\)
 
 Get all propertiy values which have LinkAttribute custome attribute for given object.
 
@@ -123,4 +123,5 @@ Found <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-
 `T` 
 
 The type of property value
+
 

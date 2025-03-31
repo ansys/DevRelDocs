@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_FunctionAndUnit"></a> Class FunctionAndUnit
+# Class FunctionAndUnit
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_FunctionAndUnit__ctor"></a> FunctionAndUnit\(\)
+### FunctionAndUnit\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.FunctionAndUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.FunctionA
 public FunctionAndUnit()
 ```
 
-### <a id="VM_Managed_DAFUL_Thermal_FunctionAndUnit__ctor_VM_Managed_DAFUL_Thermal_ThermalUnitBase_"></a> FunctionAndUnit\(ThermalUnitBase\)
+### FunctionAndUnit\(ThermalUnitBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.FunctionAndUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ The thermal unit.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_FunctionAndUnit_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -133,7 +133,7 @@ public Function Function { get; set; }
 
  Function
 
-### <a id="VM_Managed_DAFUL_Thermal_FunctionAndUnit_Unit"></a> Unit
+### Unit
 
 Gets or sets the thermal unit.
 
@@ -147,7 +147,7 @@ public ThermalUnitBase Unit { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_FunctionAndUnit_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -160,4 +160,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

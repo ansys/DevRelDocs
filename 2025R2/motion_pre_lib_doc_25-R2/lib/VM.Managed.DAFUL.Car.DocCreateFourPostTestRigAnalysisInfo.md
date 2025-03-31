@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_DocCreateFourPostTestRigAnalysisInfo"></a> Class DocCreateFourPostTestRigAnalysisInfo
+# Class DocCreateFourPostTestRigAnalysisInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -56,9 +56,10 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateFourPostTestRigAnalysisInfo__ctor"></a> DocCreateFourPostTestRigAnalysisInfo\(\)
+### DocCreateFourPostTestRigAnalysisInfo\(\)
 
 ```csharp
 public DocCreateFourPostTestRigAnalysisInfo()
 ```
+
 

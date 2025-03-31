@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Operation_ShowSimulationModifyDlg"></a> Class ShowSimulationModifyDlg
+# Class ShowSimulationModifyDlg
 
 Namespace: [VM.Managed.DAFUL.DOE.Operation](VM.Managed.DAFUL.DOE.Operation.md)  
 Assembly: VMOPDOE.dll  
@@ -103,7 +103,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowSimulationModifyDlg__ctor_VM_Managed_Document_"></a> ShowSimulationModifyDlg\(Document\)
+### ShowSimulationModifyDlg\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.DOE.Operation.ShowSimulationModifyDlg" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ public ShowSimulationModifyDlg(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowSimulationModifyDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowSimulationModifyDlg\(JournalParameter\)
+### ShowSimulationModifyDlg\(JournalParameter\)
 
 ```csharp
 public ShowSimulationModifyDlg(JournalParameter jp)
@@ -127,7 +127,7 @@ public ShowSimulationModifyDlg(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowSimulationModifyDlg_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -141,9 +141,10 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_DOE_Operation_ShowSimulationModifyDlg_ShowDialog"></a> ShowDialog\(\)
+### ShowDialog\(\)
 
 ```csharp
 protected override void ShowDialog()
 ```
+
 
